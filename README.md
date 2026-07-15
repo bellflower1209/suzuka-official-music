@@ -11,7 +11,8 @@
 - `artists/enomoto-mia/index.html`：榎本魅愛の専用ページ
 - `about/index.html`：音楽レーベルSUZUKAの紹介ページ
 - `releases/`：個別楽曲ページ
-- `assets/styles.css`：サイト全体のCSS
+- `assets/styles.css`：正本サイトから同期する基本CSS
+- `assets/engagement.css`：YouTube視聴・チャンネル登録・楽曲回遊CTAの追加CSS
 - `assets/main.js` / `assets/player.css`：共通固定ミュージックプレイヤー
 - `images/`：ジャケット画像・チャンネル画像
 - `scripts/sync_from_canonical.py`：正本サイトから静的ページを同期するスクリプト
@@ -54,7 +55,7 @@ python3 scripts/check_static_site.py http://localhost:8000/suzuka-official-music
 python3 scripts/sync_from_canonical.py
 ```
 
-同期処理は、正本のNext/Vinext固有スクリプトを除外し、内部リンクと画像参照をGitHub Pages向けの相対パスへ変換します。既存の固定ミュージックプレイヤーは保持されます。
+同期処理は、正本のNext/Vinext固有スクリプトを除外し、内部リンクと画像参照をGitHub Pages向けの相対パスへ変換します。既存の固定ミュージックプレイヤーに加え、トップページの視聴CTA、YouTube登録導線、リリースカードの視聴導線、各アーティストページ末尾の回遊導線も自動で再適用されます。
 
 ## SEOに関する注意
 

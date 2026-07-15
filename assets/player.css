@@ -220,25 +220,34 @@
   }
 
   .suzuka-player-panel {
-    grid-template-columns: 54px 42px minmax(0, 1fr) auto;
-    min-height: 84px;
-    padding: 9px 10px;
+    grid-template-columns: 44px 38px minmax(0, 1fr) auto;
+    min-height: 70px;
+    padding: 7px 9px;
     border-radius: 18px;
   }
 
   .suzuka-player-cover {
-    width: 54px;
-    height: 54px;
-    border-radius: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
   }
 
   .suzuka-player-toggle {
-    width: 42px;
-    height: 42px;
+    width: 38px;
+    height: 38px;
   }
 
   .suzuka-player-details strong {
-    font-size: 0.95rem;
+    margin-top: 1px;
+    font-size: 0.88rem;
+  }
+
+  .suzuka-player-kicker {
+    font-size: 0.42rem;
+  }
+
+  .suzuka-player-details small {
+    font-size: 0.49rem;
   }
 
   .suzuka-player-youtube {
@@ -291,6 +300,7 @@
   .suzuka-player-progress {
     grid-template-columns: 26px minmax(30px, 1fr) 26px;
     gap: 4px;
+    margin-top: 4px;
   }
 }
 
