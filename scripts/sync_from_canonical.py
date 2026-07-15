@@ -12,8 +12,8 @@ import urllib.request
 from pathlib import Path
 
 
-CANONICAL_ORIGIN = "https://suzuka-official-music.ria20210815.chatgpt.site"
-PAGES_ORIGIN = "https://bellflower1209.github.io/suzuka-official-music"
+CONTENT_SOURCE_URL = "https://suzuka-official-music.ria20210815.chatgpt.site"
+PUBLIC_CANONICAL_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
 ROUTES = {
     "/": Path("index.html"),
     "/artists": Path("artists/index.html"),
@@ -83,6 +83,37 @@ def relative_asset(value: str, prefix: str) -> str:
     if route_path in ROUTES and route_path != "/":
         return f"{prefix}{route_path.lstrip('/')}/{suffix}"
     return f"{prefix}{path.lstrip('/')}{suffix}"
+
+
+def public_page_url(route: str) -> str:
+    """Return the self-referencing GitHub Pages URL for a public route."""
+    return f"{PUBLIC_CANONICAL_BASE_URL}/" if route == "/" else f"{PUBLIC_CANONICAL_BASE_URL}{route}/"
+
+
+def normalize_public_seo_urls(source: str, route: str) -> str:
+    """Keep the content source separate from the public SEO authority."""
+    normalized = source.replace(CONTENT_SOURCE_URL, PUBLIC_CANONICAL_BASE_URL)
+
+    # GitHub Pages serves directory indexes with a trailing slash. Normalize all
+    # known internal page URLs, including JSON-LD @id fragments, to that form.
+    for known_route in sorted((item for item in ROUTES if item != "/"), key=len, reverse=True):
+        old_url = f"{PUBLIC_CANONICAL_BASE_URL}{known_route}"
+        normalized = re.sub(
+            rf"{re.escape(old_url)}(?=[#\"])",
+            f"{old_url}/",
+            normalized,
+        )
+
+    expected_url = public_page_url(route)
+    canonical = f'<link rel="canonical" href="{expected_url}"/>'
+    og_url = f'<meta property="og:url" content="{expected_url}"/>'
+    if canonical not in normalized:
+        raise RuntimeError(f"The normalized canonical URL is missing for {route}.")
+    if og_url not in normalized:
+        raise RuntimeError(f"The normalized og:url is missing for {route}.")
+    if CONTENT_SOURCE_URL in normalized:
+        raise RuntimeError(f"The content-source URL remains in generated HTML for {route}.")
+    return normalized
 
 
 def replace_once(source: str, old: str, new: str, label: str) -> str:
@@ -225,7 +256,7 @@ def enhance_html(source: str, output_path: Path) -> str:
     return source
 
 
-def sanitize_html(html: str, output_path: Path) -> str:
+def sanitize_html(html: str, output_path: Path, route: str) -> str:
     prefix = page_prefix(output_path)
     html = SCRIPT_RE.sub(
         lambda match: match.group(0) if 'type="application/ld+json"' in match.group(0) else "",
@@ -235,7 +266,7 @@ def sanitize_html(html: str, output_path: Path) -> str:
     html = STYLESHEET_RE.sub("", html)
     html = re.sub(r"\sdata-rsc-[a-z-]+=(?:\"[^\"]*\"|'[^']*')", "", html, flags=re.IGNORECASE)
     html = re.sub(
-        rf'(<link\b[^>]*rel="(?:shortcut icon|icon)"[^>]*href="){re.escape(CANONICAL_ORIGIN)}(/images/[^\"]+)(")',
+        rf'(<link\b[^>]*rel="(?:shortcut icon|icon)"[^>]*href="){re.escape(CONTENT_SOURCE_URL)}(/images/[^\"]+)(")',
         lambda match: f"{match.group(1)}{relative_asset(match.group(2), prefix)}{match.group(3)}",
         html,
         flags=re.IGNORECASE,
@@ -246,6 +277,7 @@ def sanitize_html(html: str, output_path: Path) -> str:
         return f'{match.group("attr")}="{relative_asset(value, prefix)}"'
 
     html = ASSET_ATTR_RE.sub(rewrite, html)
+    html = normalize_public_seo_urls(html, route)
     styles = (
         f'<link rel="stylesheet" href="{prefix}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{prefix}assets/engagement.css"/>'
@@ -267,26 +299,26 @@ def main() -> None:
     args = parser.parse_args()
     output = args.output.resolve()
 
-    pages = {route: fetch_text(f"{CANONICAL_ORIGIN}{route}") for route in ROUTES}
+    pages = {route: fetch_text(f"{CONTENT_SOURCE_URL}{route}") for route in ROUTES}
     root_html = pages["/"]
     css_match = CSS_RE.search(root_html)
     if not css_match:
         raise RuntimeError("The canonical stylesheet URL was not found.")
 
-    write_bytes(output / "assets/styles.css", fetch_bytes(f"{CANONICAL_ORIGIN}{css_match.group('value')}"))
+    write_bytes(output / "assets/styles.css", fetch_bytes(f"{CONTENT_SOURCE_URL}{css_match.group('value')}"))
 
     public_assets = {match.group("value") for html in pages.values() for match in IMAGE_RE.finditer(html)}
     public_assets.add("/images/suzuka-channel.jpg")
     for asset_path in sorted(public_assets):
-        write_bytes(output / asset_path.lstrip("/"), fetch_bytes(f"{CANONICAL_ORIGIN}{asset_path}"))
+        write_bytes(output / asset_path.lstrip("/"), fetch_bytes(f"{CONTENT_SOURCE_URL}{asset_path}"))
 
     for route, output_path in ROUTES.items():
-        write_bytes(output / output_path, sanitize_html(pages[route], output_path).encode("utf-8"))
+        write_bytes(output / output_path, sanitize_html(pages[route], output_path, route).encode("utf-8"))
 
-    robots = f"User-agent: *\nAllow: /\n\nSitemap: {PAGES_ORIGIN}/sitemap.xml\n"
+    robots = f"User-agent: *\nAllow: /\n\nSitemap: {PUBLIC_CANONICAL_BASE_URL}/sitemap.xml\n"
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
     sitemap_urls = "".join(
-        f"  <url><loc>{PAGES_ORIGIN}{route if route != '/' else '/'}</loc></url>\n"
+        f"  <url><loc>{public_page_url(route)}</loc></url>\n"
         for route in ROUTES
     )
     sitemap = (
@@ -303,7 +335,10 @@ def main() -> None:
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
-    print(f"Synced {len(ROUTES)} pages and {len(public_assets)} public assets from {CANONICAL_ORIGIN}")
+    print(
+        f"Synced {len(ROUTES)} pages and {len(public_assets)} public assets "
+        f"from {CONTENT_SOURCE_URL}; canonicalized to {PUBLIC_CANONICAL_BASE_URL}"
+    )
 
 
 if __name__ == "__main__":
