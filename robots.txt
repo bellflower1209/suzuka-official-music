@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://suzuka-official-music.ria20210815.chatgpt.site/sitemap.xml
+Sitemap: https://bellflower1209.github.io/suzuka-official-music/sitemap.xml
