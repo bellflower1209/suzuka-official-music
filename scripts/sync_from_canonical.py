@@ -25,13 +25,17 @@ SOURCE_ROUTES = {
     "/releases/our-kingdom": Path("releases/our-kingdom/index.html"),
     "/releases/toriatsukai-chuui": Path("releases/toriatsukai-chuui/index.html"),
 }
-NEW_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
+SUKI_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
+MOSHIMO_RELEASE_ROUTE = "/releases/moshimo-ashita-hajimemashite-ni-natte-mo"
 LOCAL_ROUTES = {
-    NEW_RELEASE_ROUTE: Path("releases/suki-ga-kyou-mo-fueteiku/index.html"),
+    SUKI_RELEASE_ROUTE: Path("releases/suki-ga-kyou-mo-fueteiku/index.html"),
+    MOSHIMO_RELEASE_ROUTE: Path("releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
+    Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
 }
+LOCAL_RELEASE_LASTMOD = {route: "2026-07-16" for route in LOCAL_ROUTES}
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
 SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.IGNORECASE | re.DOTALL)
@@ -163,7 +167,21 @@ def enhance_release_cards(source: str) -> str:
 
 
 def add_new_release_to_home(source: str) -> str:
-    card = (
+    moshimo_card = (
+        '<article class="release-card release-card-new">'
+        '<a class="release-image" href="./releases/moshimo-ashita-hajimemashite-ni-natte-mo/" '
+        'aria-label="もしも明日、はじめましてになっても。の詳細を見る">'
+        '<img src="./images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
+        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        '<span class="card-wash wash-pink"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span></a>'
+        '<div class="release-info"><div class="release-row"><span>01</span><span>NEW RELEASE · 2026.07.16</span></div>'
+        '<h3>もしも明日、はじめましてになっても。</h3><p>忘れられても、愛は終わらない。</p>'
+        '<p class="release-artist-credit">榎本魅愛</p>'
+        '<a class="release-card-cta" href="https://www.youtube.com/watch?v=GN6eoBDRm3w" target="_blank" '
+        'rel="noreferrer" aria-label="もしも明日、はじめましてになっても。 — WATCH MV">'
+        'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
+    )
+    suki_card = (
         '<article class="release-card release-card-new">'
         '<a class="release-image" href="./releases/suki-ga-kyou-mo-fueteiku/" '
         'aria-label="好きが、今日も増えていく。の詳細を見る">'
@@ -178,7 +196,12 @@ def add_new_release_to_home(source: str) -> str:
         'rel="noreferrer" aria-label="好きが、今日も増えていく。 — WATCH MV">'
         'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
     )
-    source = replace_once(source, '<div class="release-grid">', f'<div class="release-grid">{card}', "new release card")
+    source = replace_once(
+        source,
+        '<div class="release-grid">',
+        f'<div class="release-grid">{moshimo_card}{suki_card}',
+        "local release cards",
+    )
 
     number = 0
 
@@ -192,9 +215,9 @@ def add_new_release_to_home(source: str) -> str:
         renumber,
         source,
     )
-    expected = len(RELEASE_ENGAGEMENT) + 1
+    expected = len(RELEASE_ENGAGEMENT) + len(LOCAL_ROUTES)
     if count != expected:
-        raise RuntimeError(f"Expected {expected} numbered release cards after adding the new release, found {count}.")
+        raise RuntimeError(f"Expected {expected} numbered release cards after adding local releases, found {count}.")
     return source
 
 
@@ -290,7 +313,16 @@ def enhance_artist_page(source: str) -> str:
 
 
 def add_new_release_to_enomoto(source: str) -> str:
-    featured_card = (
+    moshimo_featured_card = (
+        '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=GN6eoBDRm3w" '
+        'target="_blank" rel="noreferrer" aria-label="もしも明日、はじめましてになっても。のMusic Videoを観る">'
+        '<div class="artist-featured-image"><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
+        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        '<span class="artist-featured-play"><span class="play-mark" aria-hidden="true"></span></span></div>'
+        '<div class="artist-featured-copy"><span>01 / New Release</span><h3>もしも明日、はじめましてになっても。</h3>'
+        '<p>忘れられても、愛は終わらない。</p></div></a></article>'
+    )
+    suki_featured_card = (
         '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=XAZy5k9Q4rE" '
         'target="_blank" rel="noreferrer" aria-label="好きが、今日も増えていく。のMusic Videoを観る">'
         '<div class="artist-featured-image"><img src="../../images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
@@ -302,8 +334,8 @@ def add_new_release_to_enomoto(source: str) -> str:
     source = replace_once(
         source,
         '<div class="artist-featured-grid">',
-        f'<div class="artist-featured-grid artist-featured-grid-expanded">{featured_card}',
-        "new featured release",
+        f'<div class="artist-featured-grid artist-featured-grid-expanded">{moshimo_featured_card}{suki_featured_card}',
+        "local featured releases",
     )
 
     featured_number = 0
@@ -319,17 +351,29 @@ def add_new_release_to_enomoto(source: str) -> str:
         source,
         flags=re.DOTALL,
     )
-    if featured_count != 4:
-        raise RuntimeError(f"Expected 4 featured ENOMOTO MIA releases, found {featured_count}.")
+    if featured_count != 5:
+        raise RuntimeError(f"Expected 5 featured ENOMOTO MIA releases, found {featured_count}.")
 
-    row = (
+    moshimo_row = (
+        '<a class="artist-track-row artist-track-row-new" href="../../releases/moshimo-ashita-hajimemashite-ni-natte-mo/">'
+        '<span>01</span><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
+        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        '<div><strong>もしも明日、はじめましてになっても。</strong><small>New Release · 2026.07.16</small></div>'
+        '<b aria-hidden="true">↗</b></a>'
+    )
+    suki_row = (
         '<a class="artist-track-row artist-track-row-new" href="../../releases/suki-ga-kyou-mo-fueteiku/">'
         '<span>01</span><img src="../../images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
         'alt="榎本魅愛「好きが、今日も増えていく。」公式ジャケット" width="886" height="886" loading="lazy"/>'
         '<div><strong>好きが、今日も増えていく。</strong><small>New Release · 2026.07.16</small></div>'
         '<b aria-hidden="true">↗</b></a>'
     )
-    source = replace_once(source, '<div class="artist-track-list">', f'<div class="artist-track-list">{row}', "new artist track")
+    source = replace_once(
+        source,
+        '<div class="artist-track-list">',
+        f'<div class="artist-track-list">{moshimo_row}{suki_row}',
+        "local artist tracks",
+    )
 
     section_match = re.search(r'<div class="artist-track-list">.*?</div></section>', source, flags=re.DOTALL)
     if not section_match:
@@ -346,8 +390,8 @@ def add_new_release_to_enomoto(source: str) -> str:
         renumber,
         section_match.group(0),
     )
-    if count != 13:
-        raise RuntimeError(f"Expected 13 ENOMOTO MIA tracks after adding the new release, found {count}.")
+    if count != 14:
+        raise RuntimeError(f"Expected 14 ENOMOTO MIA tracks after adding the local releases, found {count}.")
     return source[: section_match.start()] + section + source[section_match.end() :]
 
 
@@ -437,8 +481,8 @@ def main() -> None:
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
     sitemap_urls = "".join(
         (
-            f"  <url><loc>{public_page_url(route)}</loc><lastmod>2026-07-16</lastmod></url>\n"
-            if route == NEW_RELEASE_ROUTE
+            f"  <url><loc>{public_page_url(route)}</loc><lastmod>{LOCAL_RELEASE_LASTMOD[route]}</lastmod></url>\n"
+            if route in LOCAL_RELEASE_LASTMOD
             else f"  <url><loc>{public_page_url(route)}</loc></url>\n"
         )
         for route in ROUTES
@@ -458,7 +502,7 @@ def main() -> None:
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
     print(
-        f"Synced {len(SOURCE_ROUTES)} source pages and preserved {len(LOCAL_ROUTES)} local page; "
+        f"Synced {len(SOURCE_ROUTES)} source pages and preserved {len(LOCAL_ROUTES)} local pages; "
         f"downloaded {len(public_assets)} public assets from {CONTENT_SOURCE_URL}; "
         f"canonicalized {len(ROUTES)} routes to {PUBLIC_CANONICAL_BASE_URL}"
     )
