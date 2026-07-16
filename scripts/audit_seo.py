@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -21,6 +22,26 @@ PUBLIC_HOST = "bellflower1209.github.io"
 SITEMAP_URL = f"{PUBLIC_BASE_URL}/sitemap.xml"
 LEGACY_REDIRECTS = {
     Path("releases/toriatsukai-chuui/index.html"): f"{PUBLIC_BASE_URL}/releases/toriatsukai-chui/",
+}
+MIA_DEDICATED_RELEASES = {
+    "無敵時間、あと3秒": "../../releases/muteki-jikan-ato-3byou/",
+    "M・I・A": "../../releases/mia/",
+    "解けない魔法を、愛と呼ぶ": "../../releases/tokenai-mahou-wo-ai-to-yobu/",
+    "君とならラスボスまで": "../../releases/kimi-to-nara-last-boss-made/",
+    "AIでもわからない": "../../releases/ai-demo-wakaranai/",
+    "君は花火": "../../releases/kimi-wa-hanabi/",
+    "百万告": "../../releases/hyakumankoku/",
+    "好きってバレてもいい": "../../releases/sukitte-baretemo-ii/",
+    "MERMAID×MERMAN": "../../releases/mermaid-merman/",
+    "取り扱いチュー💋い": "../../releases/toriatsukai-chui/",
+}
+NEW_RELEASE_DETAILS = {
+    "解けない魔法を、愛と呼ぶ": ("./releases/tokenai-mahou-wo-ai-to-yobu/", "https://www.youtube.com/watch?v=CAFQ-d7YHPQ"),
+    "君とならラスボスまで": ("./releases/kimi-to-nara-last-boss-made/", "https://www.youtube.com/watch?v=YVNs3I-KaHI"),
+    "AIでもわからない": ("./releases/ai-demo-wakaranai/", "https://www.youtube.com/watch?v=5jmTo3Jb5sI"),
+    "君は花火": ("./releases/kimi-wa-hanabi/", "https://www.youtube.com/watch?v=ohylad3AWYI"),
+    "好きってバレてもいい": ("./releases/sukitte-baretemo-ii/", "https://youtu.be/XP8yXMKFHVI"),
+    "MERMAID×MERMAN": ("./releases/mermaid-merman/", "https://youtu.be/29fpeNtUqfY"),
 }
 
 
@@ -300,6 +321,51 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             local_path = local_path_from_url(absolute)
             if local_path is None or not local_path.exists():
                 errors.append(f"{relative}: broken internal reference: {reference}")
+
+    artist_html = (ROOT / "artists/enomoto-mia/index.html").read_text(encoding="utf-8")
+    track_list_match = re.search(r'<div class="artist-track-list">(.*?)</div></section>', artist_html, re.DOTALL)
+    if not track_list_match:
+        errors.append("artists/enomoto-mia/index.html: discography list is missing")
+    else:
+        track_rows = re.findall(
+            r'<a class="artist-track-row[^"]*" href="([^"]+)"><span>(\d+)</span>.*?<strong>(.*?)</strong>',
+            track_list_match.group(1),
+            re.DOTALL,
+        )
+        track_titles = [re.sub(r"<!--.*?-->", "", title).strip() for _, _, title in track_rows]
+        track_numbers = [int(number) for _, number, _ in track_rows]
+        if track_numbers != list(range(1, len(track_numbers) + 1)):
+            errors.append("artists/enomoto-mia/index.html: discography numbering is not sequential")
+        if len(track_titles) != len(set(track_titles)):
+            errors.append("artists/enomoto-mia/index.html: discography contains duplicate songs")
+        tracks_by_title = {title: href for (href, _, _), title in zip(track_rows, track_titles)}
+        for title, expected_href in MIA_DEDICATED_RELEASES.items():
+            if tracks_by_title.get(title) != expected_href:
+                errors.append(
+                    f"artists/enomoto-mia/index.html: {title} must link to {expected_href}"
+                )
+
+    homepage_html = (ROOT / "index.html").read_text(encoding="utf-8")
+    release_cards = re.findall(r'<article class="release-card[^"]*">.*?</article>', homepage_html, re.DOTALL)
+    release_titles = []
+    cards_by_title: dict[str, str] = {}
+    for card in release_cards:
+        title_match = re.search(r"<h3>(.*?)</h3>", card, re.DOTALL)
+        if not title_match:
+            continue
+        title = re.sub(r"<!--.*?-->", "", title_match.group(1)).strip()
+        release_titles.append(title)
+        cards_by_title[title] = card
+    if len(release_titles) != len(set(release_titles)):
+        errors.append("index.html: release list contains duplicate song cards")
+    for title, (detail_href, mv_href) in NEW_RELEASE_DETAILS.items():
+        card = cards_by_title.get(title, "")
+        if not card:
+            errors.append(f"index.html: release card is missing for {title}")
+            continue
+        for expected in (detail_href, mv_href, "詳細を見る", "MVを見る"):
+            if expected not in card:
+                errors.append(f"index.html: {title} card is missing {expected}")
 
     graph: dict[str, set[str]] = {url: set() for url in expected_urls}
     for page_url, parser in parsed_pages.items():

@@ -588,6 +588,25 @@
   aspect-ratio: 16 / 9;
 }
 
+.mia-release-square .toriatsukai-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.82fr);
+}
+
+.mia-release-square .toriatsukai-artwork {
+  width: min(43vw, 620px);
+}
+
+.mia-release-square .toriatsukai-artwork img {
+  aspect-ratio: 1;
+}
+
+.mia-release-tokenai-mahou-wo-ai-to-yobu .toriatsukai-hero h1,
+.mia-release-kimi-to-nara-last-boss-made .toriatsukai-hero h1,
+.mia-release-sukitte-baretemo-ii .toriatsukai-hero h1 {
+  font-size: clamp(3.1rem, 5.6vw, 6.2rem);
+  line-height: 0.98;
+}
+
 .mia-release-muteki-jikan-ato-3byou .toriatsukai-hero h1 {
   font-size: clamp(3.2rem, 5.8vw, 6.5rem);
   line-height: 0.98;
@@ -611,6 +630,14 @@
 
   .mia-release-page .toriatsukai-artwork {
     width: min(51vw, 560px);
+  }
+
+  .mia-release-square .toriatsukai-hero {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  }
+
+  .mia-release-square .toriatsukai-artwork {
+    width: min(43vw, 500px);
   }
 
   .toriatsukai-related-grid {
@@ -682,6 +709,10 @@
 
   .mia-release-page .toriatsukai-artwork {
     width: min(92vw, 620px);
+  }
+
+  .mia-release-square .toriatsukai-artwork {
+    width: min(88vw, 500px);
   }
 
   .toriatsukai-warning {

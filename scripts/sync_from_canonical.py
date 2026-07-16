@@ -27,6 +27,12 @@ SOURCE_ROUTES = {
     "/releases/mia": Path("releases/mia/index.html"),
     "/releases/hyakumankoku": Path("releases/hyakumankoku/index.html"),
     "/releases/muteki-jikan-ato-3byou": Path("releases/muteki-jikan-ato-3byou/index.html"),
+    "/releases/tokenai-mahou-wo-ai-to-yobu": Path("releases/tokenai-mahou-wo-ai-to-yobu/index.html"),
+    "/releases/kimi-to-nara-last-boss-made": Path("releases/kimi-to-nara-last-boss-made/index.html"),
+    "/releases/ai-demo-wakaranai": Path("releases/ai-demo-wakaranai/index.html"),
+    "/releases/kimi-wa-hanabi": Path("releases/kimi-wa-hanabi/index.html"),
+    "/releases/sukitte-baretemo-ii": Path("releases/sukitte-baretemo-ii/index.html"),
+    "/releases/mermaid-merman": Path("releases/mermaid-merman/index.html"),
 }
 SUKI_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
 MOSHIMO_RELEASE_ROUTE = "/releases/moshimo-ashita-hajimemashite-ni-natte-mo"
@@ -41,6 +47,12 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-mia.jpg"),
     Path("images/mv-hyakumankoku.jpg"),
     Path("images/mv-muteki.jpg"),
+    Path("images/mv-mahou.jpg"),
+    Path("images/mv-lastboss.jpg"),
+    Path("images/mv-ai.jpg"),
+    Path("images/mv-hanabi.jpg"),
+    Path("images/mv-sukitte-baretemo-ii.jpg"),
+    Path("images/mv-mermaid-merman.jpg"),
 }
 LOCAL_RELEASE_LASTMOD = {route: "2026-07-16" for route in LOCAL_ROUTES}
 SOURCE_RELEASE_LASTMOD = {
@@ -48,6 +60,12 @@ SOURCE_RELEASE_LASTMOD = {
     "/releases/mia": "2026-07-17",
     "/releases/hyakumankoku": "2026-07-17",
     "/releases/muteki-jikan-ato-3byou": "2026-07-17",
+    "/releases/tokenai-mahou-wo-ai-to-yobu": "2026-07-17",
+    "/releases/kimi-to-nara-last-boss-made": "2026-07-17",
+    "/releases/ai-demo-wakaranai": "2026-07-17",
+    "/releases/kimi-wa-hanabi": "2026-07-17",
+    "/releases/sukitte-baretemo-ii": "2026-07-17",
+    "/releases/mermaid-merman": "2026-07-17",
 }
 ROUTE_LASTMOD = {**SOURCE_RELEASE_LASTMOD, **LOCAL_RELEASE_LASTMOD}
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
@@ -76,6 +94,14 @@ RELEASE_ENGAGEMENT = {
     "未来のわたしが見てる": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=fgAW1njpSxM", "WATCH MV", True),
     "OUR KINGDOM": ("榎本魅愛 × 神代煌牙", "COLLABORATION", "https://www.youtube.com/watch?v=y26XVRkpfjw", "WATCH MV", True),
     "取り扱いチュー💋い": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=QXvpLCnyoOw", "WATCH MV", True),
+}
+RELEASE_DETAIL_ROUTES = {
+    "解けない魔法を、愛と呼ぶ": "./releases/tokenai-mahou-wo-ai-to-yobu/",
+    "君とならラスボスまで": "./releases/kimi-to-nara-last-boss-made/",
+    "AIでもわからない": "./releases/ai-demo-wakaranai/",
+    "君は花火": "./releases/kimi-wa-hanabi/",
+    "好きってバレてもいい": "./releases/sukitte-baretemo-ii/",
+    "MERMAID×MERMAN": "./releases/mermaid-merman/",
 }
 
 
@@ -165,11 +191,21 @@ def enhance_release_cards(source: str) -> str:
             flags=re.DOTALL,
         )
         attributes = ' target="_blank" rel="noreferrer"' if external else ""
-        engagement = (
-            f'<p class="release-artist-credit">{html_lib.escape(artist)}</p>'
-            f'<a class="release-card-cta" href="{html_lib.escape(href)}"{attributes}'
-            f' aria-label="{html_lib.escape(title)} — {html_lib.escape(action)}">{html_lib.escape(action)} <span aria-hidden="true">↗</span></a>'
-        )
+        detail_route = RELEASE_DETAIL_ROUTES.get(title)
+        if detail_route:
+            actions = (
+                '<div class="release-card-actions">'
+                f'<a class="release-card-cta release-card-cta-detail" href="{detail_route}">詳細を見る <span aria-hidden="true">↗</span></a>'
+                f'<a class="release-card-cta" href="{html_lib.escape(href)}"{attributes}'
+                f' aria-label="{html_lib.escape(title)} — MVを見る">MVを見る <span aria-hidden="true">↗</span></a>'
+                '</div>'
+            )
+        else:
+            actions = (
+                f'<a class="release-card-cta" href="{html_lib.escape(href)}"{attributes}'
+                f' aria-label="{html_lib.escape(title)} — {html_lib.escape(action)}">{html_lib.escape(action)} <span aria-hidden="true">↗</span></a>'
+            )
+        engagement = f'<p class="release-artist-credit">{html_lib.escape(artist)}</p>{actions}'
         return card.replace("</div></article>", f"{engagement}</div></article>", 1)
 
     enhanced, count = re.subn(r'<article class="release-card">.*?</article>', enhance, source, flags=re.DOTALL)
@@ -447,6 +483,12 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
         Path("releases/mia/index.html"),
         Path("releases/hyakumankoku/index.html"),
         Path("releases/muteki-jikan-ato-3byou/index.html"),
+        Path("releases/tokenai-mahou-wo-ai-to-yobu/index.html"),
+        Path("releases/kimi-to-nara-last-boss-made/index.html"),
+        Path("releases/ai-demo-wakaranai/index.html"),
+        Path("releases/kimi-wa-hanabi/index.html"),
+        Path("releases/sukitte-baretemo-ii/index.html"),
+        Path("releases/mermaid-merman/index.html"),
     }
     page_styles = (
         f'<link rel="stylesheet" href="{prefix}assets/toriatsukai-chui.css"/>'

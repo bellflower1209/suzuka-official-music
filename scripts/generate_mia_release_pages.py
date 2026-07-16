@@ -111,14 +111,218 @@ SONGS = [
         "theme": "--mia-pink:#ff4fa3;--mia-hot-pink:#ff297f;--mia-violet:#5d86ff;",
         "position": "5th Single",
     },
+    {
+        "slug": "tokenai-mahou-wo-ai-to-yobu",
+        "name": "解けない魔法を、愛と呼ぶ",
+        "title": "解けない魔法を、愛と呼ぶ｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。恋によって変わった心を、解けない魔法として描くJ-POP。",
+        "social_description": "恋によって変わった心を、解けない魔法として描く榎本魅愛のロマンティックなJ-POP。",
+        "image": "mv-mahou.jpg",
+        "youtube_id": "CAFQ-d7YHPQ",
+        "upload_date": "2026-07-13",
+        "video_title": "恋の魔法が解けたあと、それでも君を選べますか。榎本魅愛『解けない魔法を、愛と呼ぶ』Official Music Video",
+        "video_description": "恋によって変わった心と、魔法が解けたあとにも残る想いを描く「解けない魔法を、愛と呼ぶ」の公式ミュージックビデオ。",
+        "hero_title": "解けない魔法を、<br/><em>愛と呼ぶ</em>",
+        "hero_lead": "魔法が解けても、残るものがある。<br/>変わってしまった心を、愛と呼ぶ。",
+        "art_badge": "6TH SINGLE · MAGIC ♡",
+        "intro_title": "解けないからこそ、<br/>愛と呼べるもの。",
+        "intro": [
+            "「解けない魔法を、愛と呼ぶ」は、恋によって変わってしまった心を、解けない魔法になぞらえて描くロマンティックなJ-POPです。",
+            "恋の始まりは魔法のように眩しくても、時間がたてば景色は変わっていく。それでも残り続ける気持ちを、この楽曲は「愛」という言葉へつなげています。",
+            "夕暮れの光、花、きらめく軌跡に包まれたジャケットが、現実と幻想の境界にいるような柔らかな世界観を伝えています。",
+        ],
+        "catchcopy": "「解けないからこそ、<br/>それを愛と呼ぶ。」",
+        "catch_label": "A SPELL THAT STAYS",
+        "story": [
+            "公式動画タイトルは、恋の魔法が解けたあとにも相手を選べるかを問いかけています。この楽曲では、瞬間的なときめきだけではなく、変化のあとに残る感情が描かれていると受け取れます。",
+            "ジャケットには、魔法が解けないならそれは愛かもしれない、という世界観を補う言葉が配置されています。タイトルとビジュアルが重なり、恋から愛へ移っていく心の時間を印象づけます。",
+            "淡い紫とピンク、光の線が作る幻想的な画面は、形のない感情を魔法として見せるロマンティックな印象を与えます。ジャケットでは6th Singleと確認できます。",
+        ],
+        "keywords": ["魔法", "愛", "変わる心", "余韻", "J-POP"],
+        "video_heading": "魔法が解けたあとに残る、<br/>愛という答え。",
+        "related": ["mia", "hanabi", "sukitte", "mermaid"],
+        "theme": "--mia-pink:#ee8fbd;--mia-hot-pink:#d36aa6;--mia-violet:#a988ff;",
+        "position": "6th Single",
+    },
+    {
+        "slug": "kimi-to-nara-last-boss-made",
+        "name": "君とならラスボスまで",
+        "title": "君とならラスボスまで｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「君とならラスボスまで」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。恋と冒険を重ねた、前向きなRPGラブソング。",
+        "social_description": "どんな困難も君となら越えていける。恋と冒険を重ねた、榎本魅愛の前向きなRPGラブソング。",
+        "image": "mv-lastboss.jpg",
+        "youtube_id": "YVNs3I-KaHI",
+        "upload_date": "2026-07-13",
+        "video_title": "人生に攻略本はない。でも君とならラスボスまで。榎本魅愛『君とならラスボスまで』Official Music Video",
+        "video_description": "恋愛とRPGの冒険を重ね、どんな困難も好きな人となら越えていける気持ちを描く「君とならラスボスまで」の公式ミュージックビデオ。",
+        "hero_title": "君となら<br/><em>ラスボスまで</em>",
+        "hero_lead": "人生に攻略本はない。<br/>それでも君となら、最後まで行ける。",
+        "art_badge": "4TH SINGLE · QUEST ♡",
+        "intro_title": "恋と冒険を、<br/>ふたりで攻略する。",
+        "intro": [
+            "「君とならラスボスまで」は、恋愛とRPGの世界観を重ね、どんな困難も好きな人となら越えられるという気持ちを描く前向きなラブソングです。",
+            "人生には決められた攻略本も、正解のルートもない。それでも隣に信じられる相手がいれば、最後の敵まで進んでいける。そんな心強さを冒険の言葉で表しています。",
+            "城、地図、コンパス、クエスト画面を思わせるジャケットが、ふたりの未来をひとつの壮大な冒険として見せています。",
+        ],
+        "catchcopy": "「君となら、<br/>最後の敵まで怖くない。」",
+        "catch_label": "LET'S GO ON AN ADVENTURE",
+        "story": [
+            "公式動画タイトルの「人生に攻略本はない」という言葉は、恋にも未来にも決められた正解がないことを示しています。そのうえで、君とならラスボスまで進めるという信頼が楽曲の軸になっています。",
+            "RPGのラスボスは、物語の最後に待つ最大の試練です。その言葉を恋愛に重ねることで、楽しい場面だけでなく困難な局面も一緒に越えたいという気持ちが伝わります。",
+            "ジャケットのメニュー画面、マップ、クエスト表示は、恋の未来を選択と冒険の連続として見せます。ジャケットでは4th Singleと確認できます。",
+        ],
+        "keywords": ["RPG", "冒険", "ラスボス", "ふたり", "J-POP"],
+        "video_heading": "攻略本のない未来を、<br/>君と進むRPGラブソング。",
+        "related": ["muteki", "ai", "mia", "mermaid"],
+        "theme": "--mia-pink:#ef79c7;--mia-hot-pink:#d850d8;--mia-violet:#6f7dff;",
+        "position": "4th Single",
+    },
+    {
+        "slug": "ai-demo-wakaranai",
+        "name": "AIでもわからない",
+        "title": "AIでもわからない｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「AIでもわからない」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。計算では答えの出ない恋心を描いたAIラブソング。",
+        "social_description": "どれだけ分析しても、この恋だけは計算できない。榎本魅愛が歌うAIラブソング。",
+        "image": "mv-ai.jpg",
+        "youtube_id": "5jmTo3Jb5sI",
+        "upload_date": "2026-07-13",
+        "video_title": "AIなら何でもわかる。でも、君の気持ちだけわからない。榎本魅愛『AIでもわからない』Official Music Video",
+        "video_description": "どれだけ分析しても計算では答えが出ない恋心を、AIと人間の感情を重ねて描く「AIでもわからない」の公式ミュージックビデオ。",
+        "hero_title": "AIでも<br/><em>わからない</em>",
+        "hero_lead": "分析できても、答えは出ない。<br/>君の気持ちだけが、まだ読めない。",
+        "art_badge": "3RD SINGLE · THINKING ♡",
+        "intro_title": "この恋だけは、<br/>計算できない。",
+        "intro": [
+            "「AIでもわからない」は、どれだけ分析しても計算できない恋心を、AIと人間の感情を重ねて描くラブソングです。",
+            "知識やデータが増えても、好きな人の本当の気持ちだけは読み切れない。答えを急ぐほど迷ってしまう、恋の不確かさをデジタルな言葉で表しています。",
+            "スマートフォン、既読表示、メッセージ画面、Thinkingという表示を配したジャケットが、送信ボタンを押す前の迷いを可視化しています。",
+        ],
+        "catchcopy": "「この恋だけは、<br/>計算できない。」",
+        "catch_label": "LOVE HAS NO ALGORITHM",
+        "story": [
+            "公式動画タイトルは、AIなら多くのことを理解できても、相手の気持ちだけはわからないという対比を示しています。この楽曲では、情報では解決できない恋の揺れが描かれています。",
+            "ジャケットにある既読表示や「好きって送っていいのかな」という問いは、相手の反応を予測できないメッセージ送信前の緊張を印象づけます。",
+            "デジタルなUIと柔らかなピンクの光を組み合わせることで、機械的な分析と人間らしいためらいが同じ画面に共存しています。ジャケットでは3rd Singleと確認できます。",
+        ],
+        "keywords": ["AI", "計算", "既読", "メッセージ", "J-POP"],
+        "video_heading": "データでは解けない、<br/>君の気持ちという難問。",
+        "related": ["muteki", "lastboss", "mia", "toriatsukai"],
+        "theme": "--mia-pink:#f28fc4;--mia-hot-pink:#ec55b4;--mia-violet:#55a8ff;",
+        "position": "3rd Single",
+    },
+    {
+        "slug": "kimi-wa-hanabi",
+        "name": "君は花火",
+        "title": "君は花火｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「君は花火」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。夏の夜と一瞬の恋の輝きを描いたJ-POP。",
+        "social_description": "夏の夜空を染める花火のように、強く眩しい恋の記憶を描く榎本魅愛のサマーラブソング。",
+        "image": "mv-hanabi.jpg",
+        "youtube_id": "ohylad3AWYI",
+        "upload_date": "2026-07-12",
+        "video_title": "夏が来るたび、君を思い出す。榎本魅愛『君は花火』Official Music Video",
+        "video_description": "一瞬で夜空を染める花火のように、強く眩しい恋の記憶を描く「君は花火」の公式ミュージックビデオ。",
+        "hero_title": "君は<br/><em>花火</em>",
+        "hero_lead": "夏が来るたび、光がよみがえる。<br/>消えても残る、あの日の恋。",
+        "art_badge": "SUMMER NIGHT ♡",
+        "intro_title": "消えたあとにも、<br/>光は残っている。",
+        "intro": [
+            "「君は花火」は、一瞬で夜空を染める花火のように、強く眩しい恋の記憶を描く夏のラブソングです。",
+            "同じ季節が巡るたび、過ぎ去った時間と好きだった人の姿が鮮やかによみがえる。短い輝きだからこそ忘れられない、夏の恋の余韻を伝えています。",
+            "浴衣姿で花火を見上げるジャケットが、夏の夜に残された想いと、その記憶を歌へ託す静かな時間を映しています。",
+        ],
+        "catchcopy": "「消えても、<br/>光だけは残ってる。」",
+        "catch_label": "THE LIGHT STAYS",
+        "story": [
+            "公式動画タイトルの「夏が来るたび、君を思い出す」という言葉からは、季節と記憶が結びついた楽曲の世界が読み取れます。",
+            "花火は長くは続かなくても、その瞬間の光は強く記憶に残ります。この楽曲では、終わったあとも消えない恋の感情が、夜空の花火に重ねられています。",
+            "暗い夜空と暖かな花火、静かにマイクを持つ姿の対比が、華やかな思い出と切ない余韻を同時に感じさせます。",
+        ],
+        "keywords": ["夏", "花火", "記憶", "ひと夏", "J-POP"],
+        "video_heading": "夏が巡るたびによみがえる、<br/>一瞬の恋の光。",
+        "related": ["sukitte", "mahou", "mia", "mermaid"],
+        "theme": "--mia-pink:#f178a6;--mia-hot-pink:#e94788;--mia-violet:#f19a62;",
+    },
+    {
+        "slug": "sukitte-baretemo-ii",
+        "name": "好きってバレてもいい",
+        "title": "好きってバレてもいい｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「好きってバレてもいい」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。隠していた恋心を伝える勇気を描いたJ-POP。",
+        "social_description": "隠していた恋心を、もう隠さなくてもいいと決める瞬間を描く榎本魅愛の可愛い恋愛ソング。",
+        "image": "mv-sukitte-baretemo-ii.jpg",
+        "width": 886,
+        "height": 886,
+        "youtube_id": "XP8yXMKFHVI",
+        "upload_date": "2026-07-12",
+        "video_title": "好きなの、たぶんもうバレてる。榎本魅愛『好きってバレてもいい』Official Music Video",
+        "video_description": "隠していた恋心を、もう隠さなくてもいいと決める瞬間を描く「好きってバレてもいい」の公式ミュージックビデオ。",
+        "hero_title": "好きって<br/><em>バレてもいい</em>",
+        "hero_lead": "隠していた気持ちを、もう隠さない。<br/>好きなのは、たぶんもう伝わってる。",
+        "art_badge": "HONEST LOVE ♡",
+        "intro_title": "隠す恋から、<br/>伝える恋へ。",
+        "intro": [
+            "「好きってバレてもいい」は、隠していた恋心を、もう隠さなくてもいいと決める瞬間を描く、まっすぐで可愛い恋愛ソングです。",
+            "気づかれないようにしてきた仕草も視線も、たぶん相手にはもう伝わっている。それなら逃げるのではなく、自分の気持ちを受け止めて前へ進もうとする勇気を描いています。",
+            "夕方の街を背景にした柔らかなピンクのジャケットが、告白前の照れと、決心したあとの明るさを同時に感じさせます。",
+        ],
+        "catchcopy": "「もう、<br/>好きってバレてもいい。」",
+        "catch_label": "NO MORE HIDING",
+        "story": [
+            "公式動画タイトルは「好きなの、たぶんもうバレてる」と語りかけます。知られたくない気持ちから、知られてもいい気持ちへ変わる境目が、この楽曲の中心にあります。",
+            "タイトルには、告白するという強い宣言より少し手前の、可愛らしい覚悟があります。相手に気づかれることを受け入れた瞬間、恋が静かに前進する印象を与えます。",
+            "自然な表情と夕暮れの光を生かしたジャケットは、大きな演出よりも日常の中で育った恋心を近くに感じさせます。",
+        ],
+        "keywords": ["好き", "勇気", "告白前", "本音", "J-POP"],
+        "video_heading": "隠しきれない想いを、<br/>前へ進む勇気に変える。",
+        "related": ["hyakumankoku", "mia", "hanabi", "toriatsukai"],
+        "theme": "--mia-pink:#ff75ad;--mia-hot-pink:#ff4c99;--mia-violet:#f3a2ce;",
+    },
+    {
+        "slug": "mermaid-merman",
+        "name": "MERMAID×MERMAN",
+        "title": "MERMAID×MERMAN｜榎本魅愛 公式MV・楽曲情報｜SUZUKA",
+        "description": "榎本魅愛「MERMAID×MERMAN」の公式楽曲ページ。楽曲情報、制作ストーリー、MV、関連曲を紹介します。異なる世界に生きる2人の恋を描いた幻想的なJ-POP。",
+        "social_description": "出会うはずのない異なる世界のふたりが恋をする、榎本魅愛の幻想的なラブソング。",
+        "image": "mv-mermaid-merman.jpg",
+        "width": 886,
+        "height": 886,
+        "youtube_id": "29fpeNtUqfY",
+        "upload_date": "2026-07-12",
+        "video_title": "出会うはずのない二人が、恋をした。榎本魅愛『MERMAID×MERMAN』Official Music Video",
+        "video_description": "異なる世界に生きるふたりの出会いと恋を、海と人魚の幻想的なモチーフで描く「MERMAID×MERMAN」の公式ミュージックビデオ。",
+        "hero_title": "MERMAID<br/><em>× MERMAN</em>",
+        "hero_lead": "出会うはずのないふたりが、恋をした。<br/>違う世界の境界を、想いが越えていく。",
+        "art_badge": "OCEAN ROMANCE ♡",
+        "intro_title": "違う世界から、<br/>同じ海へ。",
+        "intro": [
+            "「MERMAID×MERMAN」は、異なる世界に生きるふたりの恋をモチーフにした、幻想的でロマンティックなJ-POPです。",
+            "本来なら交わらないはずの場所にいたふたりが出会い、境界を越えて惹かれ合う。海の広さと深さが、距離を超えてつながる想いを印象づけます。",
+            "夕暮れの海、波、きらめく装飾に包まれたふたりのジャケットが、現実から離れた物語の一場面のような世界を作っています。",
+        ],
+        "catchcopy": "「違う世界でも、<br/>恋は同じ海へ辿り着く。」",
+        "catch_label": "TWO WORLDS, ONE OCEAN",
+        "story": [
+            "公式動画タイトルの「出会うはずのない二人が、恋をした」という言葉が、この物語の出発点です。この楽曲では、違いそのものが恋を遠ざけるのではなく、ふたりを引き寄せる物語として描かれています。",
+            "MERMAIDとMERMANを掛け合わせたタイトルは、ふたつの存在が並び、ひとつの物語になることを視覚的にも示しています。",
+            "海面の上と下、夕暮れと水中の青を一枚に収めたジャケットは、ふたつの世界が接する瞬間を幻想的に見せています。",
+        ],
+        "keywords": ["人魚", "海", "異なる世界", "出会い", "J-POP"],
+        "video_heading": "境界を越えて出会う、<br/>幻想的なオーシャンラブストーリー。",
+        "related": ["mahou", "hanabi", "lastboss", "mia"],
+        "theme": "--mia-pink:#d594c7;--mia-hot-pink:#aa65b5;--mia-violet:#3e8fc9;",
+    },
 ]
 
 RELATED = {
-    "mia": ("M・I・A", "mv-mia.jpg", "../mia/", "OFFICIAL MV"),
-    "hyakumankoku": ("百万告", "mv-hyakumankoku.jpg", "../hyakumankoku/", "DEBUT SONG"),
-    "muteki": ("無敵時間、あと3秒", "mv-muteki.jpg", "../muteki-jikan-ato-3byou/", "5TH SINGLE"),
-    "toriatsukai": ("取り扱いチュー💋い", "mv-toriatsukai-chuui.jpg", "../toriatsukai-chui/", "OFFICIAL MUSIC"),
-    "sukitte": ("好きってバレてもいい", "mv-sukitte-baretemo-ii.jpg", "https://youtu.be/XP8yXMKFHVI", "OFFICIAL MUSIC"),
+    "mia": ("M・I・A", "mv-mia.jpg", "../mia/", "OFFICIAL MV", 1280, 720),
+    "hyakumankoku": ("百万告", "mv-hyakumankoku.jpg", "../hyakumankoku/", "DEBUT SONG", 1280, 720),
+    "muteki": ("無敵時間、あと3秒", "mv-muteki.jpg", "../muteki-jikan-ato-3byou/", "5TH SINGLE", 1280, 720),
+    "toriatsukai": ("取り扱いチュー💋い", "mv-toriatsukai-chuui.jpg", "../toriatsukai-chui/", "OFFICIAL MUSIC", 886, 886),
+    "mahou": ("解けない魔法を、愛と呼ぶ", "mv-mahou.jpg", "../tokenai-mahou-wo-ai-to-yobu/", "6TH SINGLE", 1280, 720),
+    "lastboss": ("君とならラスボスまで", "mv-lastboss.jpg", "../kimi-to-nara-last-boss-made/", "4TH SINGLE", 1280, 720),
+    "ai": ("AIでもわからない", "mv-ai.jpg", "../ai-demo-wakaranai/", "3RD SINGLE", 1280, 720),
+    "hanabi": ("君は花火", "mv-hanabi.jpg", "../kimi-wa-hanabi/", "OFFICIAL MV", 1280, 720),
+    "sukitte": ("好きってバレてもいい", "mv-sukitte-baretemo-ii.jpg", "../sukitte-baretemo-ii/", "OFFICIAL MUSIC", 886, 886),
+    "mermaid": ("MERMAID×MERMAN", "mv-mermaid-merman.jpg", "../mermaid-merman/", "OFFICIAL MUSIC", 886, 886),
 }
 
 
@@ -127,6 +331,8 @@ def structured_data(song: dict[str, object]) -> str:
     page_url = f"{BASE}/releases/{slug}/"
     image_url = f"{BASE}/images/{song['image']}"
     video_url = f"https://www.youtube.com/watch?v={song['youtube_id']}"
+    image_width = int(song.get("width", 1280))
+    image_height = int(song.get("height", 720))
     data = {
         "@context": "https://schema.org",
         "@graph": [
@@ -140,7 +346,7 @@ def structured_data(song: dict[str, object]) -> str:
                 "isPartOf": {"@id": f"{BASE}/#website"},
                 "publisher": {"@id": f"{BASE}/#organization"},
                 "breadcrumb": {"@id": f"{page_url}#breadcrumb"},
-                "primaryImageOfPage": {"@type": "ImageObject", "url": image_url, "width": 1280, "height": 720},
+                "primaryImageOfPage": {"@type": "ImageObject", "url": image_url, "width": image_width, "height": image_height},
                 "inLanguage": "ja",
             },
             {
@@ -193,13 +399,13 @@ def structured_data(song: dict[str, object]) -> str:
 def related_cards(keys: list[str]) -> str:
     cards = []
     for key in keys:
-        name, image, href, label = RELATED[key]
+        name, image, href, label, width, height = RELATED[key]
         external = href.startswith("http")
         attributes = ' target="_blank" rel="noreferrer"' if external else ""
         action = "WATCH ↗" if external else "VIEW PAGE ↗"
         cards.append(
             f'''        <a href="{href}"{attributes}>
-          <span><img src="../../images/{image}" alt="榎本魅愛「{html.escape(name)}」ジャケット" width="1280" height="720" loading="lazy"/></span>
+          <span><img src="../../images/{image}" alt="榎本魅愛「{html.escape(name)}」ジャケット" width="{width}" height="{height}" loading="lazy"/></span>
           <small>{label}</small><strong>{html.escape(name)}</strong><b>{action}</b>
         </a>'''
         )
@@ -211,6 +417,9 @@ def render(song: dict[str, object]) -> str:
     page_url = f"{BASE}/releases/{slug}/"
     image_url = f"{BASE}/images/{song['image']}"
     video_url = f"https://www.youtube.com/watch?v={song['youtube_id']}"
+    image_width = int(song.get("width", 1280))
+    image_height = int(song.get("height", 720))
+    aspect_class = " mia-release-square" if image_width == image_height else ""
     intro = "\n".join(f"        <p>{html.escape(paragraph)}</p>" for paragraph in song["intro"])
     story = "\n".join(f"        <p>{html.escape(paragraph)}</p>" for paragraph in song["story"])
     keywords = "".join(f"<span>{html.escape(item)}</span>" for item in song["keywords"])
@@ -233,8 +442,8 @@ def render(song: dict[str, object]) -> str:
   <meta property="og:type" content="music.song"/>
   <meta property="og:locale" content="ja_JP"/>
   <meta property="og:image" content="{image_url}"/>
-  <meta property="og:image:width" content="1280"/>
-  <meta property="og:image:height" content="720"/>
+  <meta property="og:image:width" content="{image_width}"/>
+  <meta property="og:image:height" content="{image_height}"/>
   <meta property="og:image:alt" content="榎本魅愛「{song['name']}」公式ジャケット"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="{song['title']}"/>
@@ -253,7 +462,7 @@ def render(song: dict[str, object]) -> str:
   </script>
 </head>
 <body>
-  <main class="toriatsukai-page mia-release-page mia-release-{slug}" id="top" style="{song['theme']}">
+  <main class="toriatsukai-page mia-release-page mia-release-{slug}{aspect_class}" id="top" style="{song['theme']}">
     <a class="skip-link" href="#song-introduction">本文へ移動</a>
     <header class="site-header inner-site-header">
       <a class="brand" href="../../" aria-label="SUZUKA トップページへ">SUZUKA<span class="brand-dot">●</span></a>
@@ -272,7 +481,7 @@ def render(song: dict[str, object]) -> str:
         <p class="toriatsukai-hero-lead">{song['hero_lead']}</p>
         <div class="toriatsukai-actions"><a class="button toriatsukai-primary" href="{video_url}" target="_blank" rel="noreferrer"><span class="play-mark" aria-hidden="true"></span>YouTubeで聴く</a><a class="button toriatsukai-secondary" href="../../artists/enomoto-mia/">榎本魅愛プロフィール ↗</a><a class="toriatsukai-scroll" href="#song-introduction">楽曲紹介へ <span aria-hidden="true">↓</span></a></div>
       </div>
-      <figure class="toriatsukai-artwork"><div class="toriatsukai-artwork-frame"><img src="../../images/{song['image']}" alt="榎本魅愛「{song['name']}」公式ジャケット" width="1280" height="720" fetchpriority="high"/><span class="toriatsukai-warning" aria-hidden="true">{song['art_badge']}</span></div><figcaption>ENOMOTO MIA · SUZUKA ORIGINAL SONG</figcaption></figure>
+      <figure class="toriatsukai-artwork"><div class="toriatsukai-artwork-frame"><img src="../../images/{song['image']}" alt="榎本魅愛「{song['name']}」公式ジャケット" width="{image_width}" height="{image_height}" fetchpriority="high"/><span class="toriatsukai-warning" aria-hidden="true">{song['art_badge']}</span></div><figcaption>ENOMOTO MIA · SUZUKA ORIGINAL SONG</figcaption></figure>
     </section>
 
     <section class="toriatsukai-introduction" id="song-introduction" aria-labelledby="introduction-title">

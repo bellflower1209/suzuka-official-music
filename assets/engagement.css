@@ -122,6 +122,20 @@
   padding-right: 0.7rem;
 }
 
+.release-card-actions {
+  display: grid;
+  margin-top: 1rem;
+}
+
+.release-card-actions .release-card-cta {
+  margin-top: 0;
+}
+
+.release-card-actions .release-card-cta-detail {
+  color: #ffb1da;
+  border-top-color: rgba(244, 79, 150, 0.42);
+}
+
 .release-story-copy {
   max-width: 980px;
   margin: 0 auto;
