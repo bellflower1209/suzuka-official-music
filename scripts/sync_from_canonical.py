@@ -24,6 +24,9 @@ SOURCE_ROUTES = {
     "/releases/mirai-no-watashi-ga-miteru": Path("releases/mirai-no-watashi-ga-miteru/index.html"),
     "/releases/our-kingdom": Path("releases/our-kingdom/index.html"),
     "/releases/toriatsukai-chui": Path("releases/toriatsukai-chui/index.html"),
+    "/releases/mia": Path("releases/mia/index.html"),
+    "/releases/hyakumankoku": Path("releases/hyakumankoku/index.html"),
+    "/releases/muteki-jikan-ato-3byou": Path("releases/muteki-jikan-ato-3byou/index.html"),
 }
 SUKI_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
 MOSHIMO_RELEASE_ROUTE = "/releases/moshimo-ashita-hajimemashite-ni-natte-mo"
@@ -35,9 +38,17 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-toriatsukai-chuui.jpg"),
+    Path("images/mv-mia.jpg"),
+    Path("images/mv-hyakumankoku.jpg"),
+    Path("images/mv-muteki.jpg"),
 }
 LOCAL_RELEASE_LASTMOD = {route: "2026-07-16" for route in LOCAL_ROUTES}
-SOURCE_RELEASE_LASTMOD = {"/releases/toriatsukai-chui": "2026-07-17"}
+SOURCE_RELEASE_LASTMOD = {
+    "/releases/toriatsukai-chui": "2026-07-17",
+    "/releases/mia": "2026-07-17",
+    "/releases/hyakumankoku": "2026-07-17",
+    "/releases/muteki-jikan-ato-3byou": "2026-07-17",
+}
 ROUTE_LASTMOD = {**SOURCE_RELEASE_LASTMOD, **LOCAL_RELEASE_LASTMOD}
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
@@ -53,13 +64,13 @@ SHADOW_CODE_URL = "https://www.youtube.com/watch?v=8VCL2IepjeM"
 RELEASE_ENGAGEMENT = {
     "SHADOW//CODE": ("ECLYPSE", "DEBUT SINGLE · 2026", SHADOW_CODE_URL, "WATCH MV", True),
     "My Queen, My Oath": ("神代 煌牙", "DEBUT SINGLE · 2026", "./artists/koga-kamishiro/#debut-single", "楽曲情報を見る", False),
-    "無敵時間、あと3秒": ("榎本魅愛", "5TH SINGLE", "https://www.youtube.com/watch?v=DPnFtRFnH5c", "WATCH MV", True),
-    "M・I・A": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=WzcXyuAI_FM", "WATCH MV", True),
+    "無敵時間、あと3秒": ("榎本魅愛", "5TH SINGLE", "./releases/muteki-jikan-ato-3byou/", "楽曲情報を見る", False),
+    "M・I・A": ("榎本魅愛", "OFFICIAL MV", "./releases/mia/", "楽曲情報を見る", False),
     "解けない魔法を、愛と呼ぶ": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=CAFQ-d7YHPQ", "WATCH MV", True),
     "君とならラスボスまで": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=YVNs3I-KaHI", "WATCH MV", True),
     "AIでもわからない": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=5jmTo3Jb5sI", "WATCH MV", True),
     "君は花火": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=ohylad3AWYI", "WATCH MV", True),
-    "百万告": ("榎本魅愛", "DEBUT SONG", "https://www.youtube.com/watch?v=QteunhFn9Dk", "WATCH MV", True),
+    "百万告": ("榎本魅愛", "DEBUT SONG", "./releases/hyakumankoku/", "楽曲情報を見る", False),
     "好きってバレてもいい": ("榎本魅愛", "OFFICIAL MUSIC", "https://youtu.be/XP8yXMKFHVI", "WATCH MV", True),
     "MERMAID×MERMAN": ("榎本魅愛", "OFFICIAL MUSIC", "https://youtu.be/29fpeNtUqfY", "WATCH MV", True),
     "未来のわたしが見てる": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=fgAW1njpSxM", "WATCH MV", True),
@@ -431,9 +442,15 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
 
     html = ASSET_ATTR_RE.sub(rewrite, html)
     html = normalize_public_seo_urls(html, route)
+    detailed_mia_releases = {
+        Path("releases/toriatsukai-chui/index.html"),
+        Path("releases/mia/index.html"),
+        Path("releases/hyakumankoku/index.html"),
+        Path("releases/muteki-jikan-ato-3byou/index.html"),
+    }
     page_styles = (
         f'<link rel="stylesheet" href="{prefix}assets/toriatsukai-chui.css"/>'
-        if output_path == Path("releases/toriatsukai-chui/index.html")
+        if output_path in detailed_mia_releases
         else ""
     )
     styles = (
