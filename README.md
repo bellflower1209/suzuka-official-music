@@ -57,6 +57,12 @@ python3 scripts/sync_from_canonical.py
 
 同期処理は、コンテンツ取得元のNext/Vinext固有スクリプトを除外し、内部リンクと画像参照をGitHub Pages向けの相対パスへ変換します。既存の固定ミュージックプレイヤーに加え、トップページの視聴CTA、YouTube登録導線、リリースカードの視聴導線、各アーティストページ末尾の回遊導線も自動で再適用されます。
 
+GitHub Pagesで先行追加した「好きが、今日も増えていく。」はローカル専用リリースとして管理し、同期時にも個別ページ、トップページの最新カード、榎本魅愛の楽曲一覧、sitemapへの登録を保持します。
+
+### 「好きが、今日も増えていく。」正式ジャケットの差し替え
+
+正式ジャケットは `images/mv-suki-ga-kyou-mo-fueteiku.jpg` に配置しています。トップページ、榎本魅愛の代表曲・楽曲一覧、個別リリースページ、OGP、Twitter Card、構造化データで同じ画像を参照します。
+
 ## 公開・SEO方針
 
 - SEO上の正式な本家：`https://bellflower1209.github.io/suzuka-official-music/`

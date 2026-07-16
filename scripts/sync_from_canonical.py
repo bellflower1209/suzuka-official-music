@@ -14,7 +14,7 @@ from pathlib import Path
 
 CONTENT_SOURCE_URL = "https://suzuka-official-music.ria20210815.chatgpt.site"
 PUBLIC_CANONICAL_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
-ROUTES = {
+SOURCE_ROUTES = {
     "/": Path("index.html"),
     "/artists": Path("artists/index.html"),
     "/artists/eclypse": Path("artists/eclypse/index.html"),
@@ -25,6 +25,14 @@ ROUTES = {
     "/releases/our-kingdom": Path("releases/our-kingdom/index.html"),
     "/releases/toriatsukai-chuui": Path("releases/toriatsukai-chuui/index.html"),
 }
+NEW_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
+LOCAL_ROUTES = {
+    NEW_RELEASE_ROUTE: Path("releases/suki-ga-kyou-mo-fueteiku/index.html"),
+}
+LOCAL_REQUIRED_ASSETS = {
+    Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
+}
+ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
 SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.IGNORECASE | re.DOTALL)
 MODULE_PRELOAD_RE = re.compile(r"<link\b[^>]*rel=[\"']modulepreload[\"'][^>]*?/?>", re.IGNORECASE)
@@ -154,6 +162,42 @@ def enhance_release_cards(source: str) -> str:
     return enhanced
 
 
+def add_new_release_to_home(source: str) -> str:
+    card = (
+        '<article class="release-card release-card-new">'
+        '<a class="release-image" href="./releases/suki-ga-kyou-mo-fueteiku/" '
+        'aria-label="好きが、今日も増えていく。の詳細を見る">'
+        '<img src="./images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
+        'alt="榎本魅愛「好きが、今日も増えていく。」公式ジャケット" width="886" height="886" loading="lazy"/>'
+        '<span class="card-wash wash-pink"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span></a>'
+        '<div class="release-info"><div class="release-row"><span>01</span><span>NEW RELEASE · 2026.07.16</span></div>'
+        '<h3>好きが、今日も増えていく。</h3>'
+        '<p>昨日より今日、今日より明日へ。「好き」が止まらない王道ラブソング。</p>'
+        '<p class="release-artist-credit">榎本魅愛</p>'
+        '<a class="release-card-cta" href="https://www.youtube.com/watch?v=XAZy5k9Q4rE" target="_blank" '
+        'rel="noreferrer" aria-label="好きが、今日も増えていく。 — WATCH MV">'
+        'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
+    )
+    source = replace_once(source, '<div class="release-grid">', f'<div class="release-grid">{card}', "new release card")
+
+    number = 0
+
+    def renumber(match: re.Match[str]) -> str:
+        nonlocal number
+        number += 1
+        return f'{match.group(1)}{number:02d}{match.group(2)}'
+
+    source, count = re.subn(
+        r'(<div class="release-row"><span>)\d+(</span>)',
+        renumber,
+        source,
+    )
+    expected = len(RELEASE_ENGAGEMENT) + 1
+    if count != expected:
+        raise RuntimeError(f"Expected {expected} numbered release cards after adding the new release, found {count}.")
+    return source
+
+
 def enhance_artist_cards(source: str) -> str:
     actions = {
         "./artists/eclypse/": (
@@ -210,6 +254,7 @@ def enhance_home(source: str) -> str:
 
     source = enhance_artist_cards(source)
     source = enhance_release_cards(source)
+    source = add_new_release_to_home(source)
     source = replace_once(
         source,
         '<article><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3></article>',
@@ -244,13 +289,76 @@ def enhance_artist_page(source: str) -> str:
     return replace_once(source, '<footer class="artist-profile-footer">', f'{navigation}<footer class="artist-profile-footer">', "artist navigation")
 
 
+def add_new_release_to_enomoto(source: str) -> str:
+    featured_card = (
+        '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=XAZy5k9Q4rE" '
+        'target="_blank" rel="noreferrer" aria-label="好きが、今日も増えていく。のMusic Videoを観る">'
+        '<div class="artist-featured-image"><img src="../../images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
+        'alt="榎本魅愛「好きが、今日も増えていく。」公式ジャケット" width="886" height="886" loading="lazy"/>'
+        '<span class="artist-featured-play"><span class="play-mark" aria-hidden="true"></span></span></div>'
+        '<div class="artist-featured-copy"><span>01 / New Release</span><h3>好きが、今日も増えていく。</h3>'
+        '<p>昨日より今日、今日より明日へ。「好き」が止まらない王道ラブソング。</p></div></a></article>'
+    )
+    source = replace_once(
+        source,
+        '<div class="artist-featured-grid">',
+        f'<div class="artist-featured-grid artist-featured-grid-expanded">{featured_card}',
+        "new featured release",
+    )
+
+    featured_number = 0
+
+    def renumber_featured(match: re.Match[str]) -> str:
+        nonlocal featured_number
+        featured_number += 1
+        return f'{match.group(1)}{featured_number:02d}{match.group(2)}'
+
+    source, featured_count = re.subn(
+        r'(<div class="artist-featured-copy"><span>)\d+(.*?</span>)',
+        renumber_featured,
+        source,
+        flags=re.DOTALL,
+    )
+    if featured_count != 4:
+        raise RuntimeError(f"Expected 4 featured ENOMOTO MIA releases, found {featured_count}.")
+
+    row = (
+        '<a class="artist-track-row artist-track-row-new" href="../../releases/suki-ga-kyou-mo-fueteiku/">'
+        '<span>01</span><img src="../../images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
+        'alt="榎本魅愛「好きが、今日も増えていく。」公式ジャケット" width="886" height="886" loading="lazy"/>'
+        '<div><strong>好きが、今日も増えていく。</strong><small>New Release · 2026.07.16</small></div>'
+        '<b aria-hidden="true">↗</b></a>'
+    )
+    source = replace_once(source, '<div class="artist-track-list">', f'<div class="artist-track-list">{row}', "new artist track")
+
+    section_match = re.search(r'<div class="artist-track-list">.*?</div></section>', source, flags=re.DOTALL)
+    if not section_match:
+        raise RuntimeError("The ENOMOTO MIA track list was not found.")
+    number = 0
+
+    def renumber(match: re.Match[str]) -> str:
+        nonlocal number
+        number += 1
+        return f'{match.group(1)}{number:02d}{match.group(2)}'
+
+    section, count = re.subn(
+        r'(<a class="artist-track-row[^"]*"[^>]*><span>)\d+(</span>)',
+        renumber,
+        section_match.group(0),
+    )
+    if count != 13:
+        raise RuntimeError(f"Expected 13 ENOMOTO MIA tracks after adding the new release, found {count}.")
+    return source[: section_match.start()] + section + source[section_match.end() :]
+
+
 def enhance_html(source: str, output_path: Path) -> str:
     if output_path == Path("index.html"):
         return enhance_home(source)
+    if output_path == Path("artists/enomoto-mia/index.html"):
+        return enhance_artist_page(add_new_release_to_enomoto(source))
     if output_path in {
         Path("artists/eclypse/index.html"),
         Path("artists/koga-kamishiro/index.html"),
-        Path("artists/enomoto-mia/index.html"),
     }:
         return enhance_artist_page(source)
     return source
@@ -299,7 +407,11 @@ def main() -> None:
     args = parser.parse_args()
     output = args.output.resolve()
 
-    pages = {route: fetch_text(f"{CONTENT_SOURCE_URL}{route}") for route in ROUTES}
+    for asset_path in LOCAL_REQUIRED_ASSETS:
+        if not (output / asset_path).exists():
+            raise RuntimeError(f"A required local-only asset is missing: {asset_path}")
+
+    pages = {route: fetch_text(f"{CONTENT_SOURCE_URL}{route}") for route in SOURCE_ROUTES}
     root_html = pages["/"]
     css_match = CSS_RE.search(root_html)
     if not css_match:
@@ -312,13 +424,23 @@ def main() -> None:
     for asset_path in sorted(public_assets):
         write_bytes(output / asset_path.lstrip("/"), fetch_bytes(f"{CONTENT_SOURCE_URL}{asset_path}"))
 
-    for route, output_path in ROUTES.items():
+    for route, output_path in SOURCE_ROUTES.items():
         write_bytes(output / output_path, sanitize_html(pages[route], output_path, route).encode("utf-8"))
+
+    for route, output_path in LOCAL_ROUTES.items():
+        local_page = output / output_path
+        if not local_page.exists():
+            raise RuntimeError(f"The local-only page for {route} is missing: {output_path}")
+        normalize_public_seo_urls(local_page.read_text(encoding="utf-8"), route)
 
     robots = f"User-agent: *\nAllow: /\n\nSitemap: {PUBLIC_CANONICAL_BASE_URL}/sitemap.xml\n"
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
     sitemap_urls = "".join(
-        f"  <url><loc>{public_page_url(route)}</loc></url>\n"
+        (
+            f"  <url><loc>{public_page_url(route)}</loc><lastmod>2026-07-16</lastmod></url>\n"
+            if route == NEW_RELEASE_ROUTE
+            else f"  <url><loc>{public_page_url(route)}</loc></url>\n"
+        )
         for route in ROUTES
     )
     sitemap = (
@@ -336,8 +458,9 @@ def main() -> None:
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
     print(
-        f"Synced {len(ROUTES)} pages and {len(public_assets)} public assets "
-        f"from {CONTENT_SOURCE_URL}; canonicalized to {PUBLIC_CANONICAL_BASE_URL}"
+        f"Synced {len(SOURCE_ROUTES)} source pages and preserved {len(LOCAL_ROUTES)} local page; "
+        f"downloaded {len(public_assets)} public assets from {CONTENT_SOURCE_URL}; "
+        f"canonicalized {len(ROUTES)} routes to {PUBLIC_CANONICAL_BASE_URL}"
     )
 
 
