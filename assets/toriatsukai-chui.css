@@ -1,0 +1,716 @@
+.toriatsukai-page {
+  --mia-pink: #f44f96;
+  --mia-hot-pink: #ff1688;
+  --mia-violet: #8f63ff;
+  --mia-white: #fffafd;
+  --mia-muted: #cbb8c8;
+  --mia-line: rgba(255, 255, 255, 0.14);
+  min-height: 100vh;
+  padding-bottom: 108px;
+  overflow: hidden;
+  color: var(--mia-white);
+  background:
+    radial-gradient(circle at 88% 8%, rgba(143, 99, 255, 0.22), transparent 31rem),
+    radial-gradient(circle at 10% 42%, rgba(244, 79, 150, 0.12), transparent 28rem),
+    #070408;
+}
+
+.toriatsukai-page .site-header {
+  position: absolute;
+}
+
+.toriatsukai-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: center;
+  min-height: 100svh;
+  padding: 128px clamp(1.25rem, 7vw, 8rem) 72px;
+  isolation: isolate;
+}
+
+.toriatsukai-hero::before {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  content: "";
+  opacity: 0.32;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 62px 62px;
+  mask-image: linear-gradient(#000, transparent 95%);
+}
+
+.toriatsukai-hero-glow {
+  position: absolute;
+  z-index: -1;
+  width: min(52vw, 760px);
+  aspect-ratio: 1;
+  right: -12%;
+  top: -15%;
+  border-radius: 50%;
+  filter: blur(85px);
+  opacity: 0.28;
+  background: linear-gradient(135deg, var(--mia-hot-pink), var(--mia-violet));
+}
+
+.toriatsukai-hero-copy,
+.toriatsukai-artwork {
+  position: relative;
+  z-index: 1;
+}
+
+.toriatsukai-breadcrumb {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin: 0 0 2.4rem;
+  color: rgba(255, 255, 255, 0.54);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.58rem;
+}
+
+.toriatsukai-breadcrumb a:hover {
+  color: var(--mia-pink);
+}
+
+.toriatsukai-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.toriatsukai-labels span {
+  padding: 0.55rem 0.8rem;
+  border: 1px solid rgba(244, 79, 150, 0.38);
+  border-radius: 999px;
+  color: #ffabd0;
+  background: rgba(244, 79, 150, 0.08);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.54rem;
+  font-weight: 800;
+}
+
+.toriatsukai-hero h1 {
+  margin: 1.8rem 0 1.35rem;
+  font-family: var(--serif);
+  font-size: clamp(4rem, 8.2vw, 9rem);
+  font-weight: 400;
+  line-height: 0.84;
+  letter-spacing: -0.055em;
+}
+
+.toriatsukai-hero h1 em {
+  color: transparent;
+  font-style: normal;
+  background: linear-gradient(110deg, #fff 5%, #ffb5d8 42%, var(--mia-pink) 67%, #a884ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.toriatsukai-artist {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.toriatsukai-artist strong {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
+  font-weight: 400;
+}
+
+.toriatsukai-artist span {
+  color: #efa1c8;
+  letter-spacing: 0.18em;
+  font-size: 0.58rem;
+  font-weight: 800;
+}
+
+.toriatsukai-hero-lead {
+  margin: 2rem 0 0;
+  color: var(--mia-muted);
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  line-height: 1.65;
+}
+
+.toriatsukai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 2.2rem;
+}
+
+.toriatsukai-primary {
+  color: #fff;
+  background: linear-gradient(115deg, var(--mia-hot-pink), #d83feb 55%, var(--mia-violet));
+  box-shadow: 0 14px 42px rgba(255, 22, 136, 0.28);
+}
+
+.toriatsukai-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  color: #f8eaf1;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.toriatsukai-scroll {
+  padding: 0.9rem 0.35rem;
+  color: rgba(255, 255, 255, 0.62);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.56rem;
+  font-weight: 800;
+}
+
+.toriatsukai-scroll span {
+  color: var(--mia-pink);
+  margin-left: 0.45rem;
+}
+
+.toriatsukai-artwork {
+  width: min(43vw, 620px);
+  justify-self: center;
+  margin: 0;
+}
+
+.toriatsukai-artwork-frame {
+  position: relative;
+  padding: clamp(0.75rem, 1.2vw, 1.15rem);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 38px 110px rgba(143, 42, 166, 0.38), 0 0 65px rgba(244, 79, 150, 0.17);
+  transform: rotate(1.25deg);
+}
+
+.toriatsukai-artwork-frame::after {
+  position: absolute;
+  inset: 3.5%;
+  content: "";
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.toriatsukai-artwork img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.toriatsukai-warning {
+  position: absolute;
+  right: -4%;
+  bottom: 8%;
+  z-index: 2;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, var(--mia-hot-pink), var(--mia-violet));
+  letter-spacing: 0.18em;
+  font-size: 0.58rem;
+  font-weight: 900;
+  transform: rotate(-4deg);
+  box-shadow: 0 12px 32px rgba(255, 22, 136, 0.34);
+}
+
+.toriatsukai-artwork figcaption {
+  margin-top: 1.6rem;
+  color: rgba(255, 255, 255, 0.48);
+  letter-spacing: 0.17em;
+  text-align: center;
+  font-size: 0.52rem;
+  font-weight: 700;
+}
+
+.toriatsukai-introduction,
+.toriatsukai-facts,
+.toriatsukai-story,
+.toriatsukai-video,
+.toriatsukai-related {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: clamp(6rem, 10vw, 10rem) clamp(1.25rem, 7vw, 7rem);
+}
+
+.toriatsukai-introduction,
+.toriatsukai-story {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(320px, 1fr);
+  gap: clamp(3rem, 8vw, 8rem);
+}
+
+.toriatsukai-section-heading > p {
+  margin: 0;
+  color: var(--mia-pink);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.toriatsukai-section-heading h2 {
+  margin: 1.2rem 0 0;
+  font-family: var(--serif);
+  font-size: clamp(2.9rem, 5.8vw, 6.4rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+}
+
+.toriatsukai-introduction-copy p,
+.toriatsukai-story-body p {
+  margin: 0 0 1.4rem;
+  color: var(--mia-muted);
+  font-size: clamp(0.92rem, 1.2vw, 1.05rem);
+  line-height: 2.15;
+}
+
+.toriatsukai-introduction-copy p:first-child {
+  color: #fff0f7;
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.85;
+}
+
+.toriatsukai-catchcopy {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 54vh;
+  padding: 6rem 1.25rem;
+  text-align: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.15), transparent 24rem),
+    linear-gradient(120deg, #c71b74, #8d3bd8 58%, #633ce9);
+}
+
+.toriatsukai-catchcopy::before {
+  position: absolute;
+  inset: 0;
+  content: "WARNING · CAUTION · LOVE · WARNING · CAUTION · LOVE";
+  color: rgba(255, 255, 255, 0.06);
+  font-family: var(--serif);
+  font-size: clamp(4rem, 11vw, 12rem);
+  line-height: 0.8;
+  transform: rotate(-8deg) scale(1.2);
+}
+
+.toriatsukai-catchcopy > span,
+.toriatsukai-catchcopy > p,
+.toriatsukai-catchcopy > small {
+  position: relative;
+  z-index: 1;
+}
+
+.toriatsukai-catchcopy > span {
+  font-size: clamp(3rem, 7vw, 7rem);
+}
+
+.toriatsukai-catchcopy > p {
+  margin: 1rem 0;
+  font-family: var(--serif);
+  font-size: clamp(2.2rem, 5.2vw, 5.8rem);
+  line-height: 1.32;
+}
+
+.toriatsukai-catchcopy > small {
+  letter-spacing: 0.24em;
+  font-size: 0.58rem;
+  font-weight: 900;
+}
+
+.toriatsukai-facts dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: clamp(3rem, 6vw, 5.5rem) 0 0;
+  border-top: 1px solid var(--mia-line);
+}
+
+.toriatsukai-facts dl div {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.45fr) 1fr;
+  gap: 1.2rem;
+  align-items: baseline;
+  min-width: 0;
+  padding: 1.5rem 1.3rem 1.5rem 0;
+  border-bottom: 1px solid var(--mia-line);
+}
+
+.toriatsukai-facts dl div:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.toriatsukai-facts dt {
+  color: #da96b8;
+  letter-spacing: 0.13em;
+  font-size: 0.57rem;
+  font-weight: 800;
+}
+
+.toriatsukai-facts dd {
+  min-width: 0;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  overflow-wrap: anywhere;
+}
+
+.toriatsukai-story {
+  border-top: 1px solid var(--mia-line);
+  border-bottom: 1px solid var(--mia-line);
+}
+
+.toriatsukai-keywords {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.toriatsukai-keywords span {
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(244, 79, 150, 0.28);
+  color: #ffb4d3;
+  background: rgba(244, 79, 150, 0.06);
+  letter-spacing: 0.13em;
+  font-size: 0.58rem;
+  font-weight: 800;
+}
+
+.toriatsukai-video {
+  max-width: 1600px;
+}
+
+.toriatsukai-video-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.58fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+  margin-top: clamp(3rem, 6vw, 5.5rem);
+}
+
+.toriatsukai-video-frame {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #000;
+  box-shadow: 0 28px 90px rgba(123, 38, 148, 0.3);
+}
+
+.toriatsukai-video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.toriatsukai-video-copy > span {
+  color: var(--mia-pink);
+  letter-spacing: 0.18em;
+  font-size: 0.58rem;
+  font-weight: 900;
+}
+
+.toriatsukai-video-copy h3 {
+  margin: 1.1rem 0;
+  font-family: var(--serif);
+  font-size: clamp(2.2rem, 4.5vw, 4.6rem);
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+.toriatsukai-video-copy p {
+  color: var(--mia-muted);
+  line-height: 1.9;
+}
+
+.toriatsukai-video-copy .button {
+  margin-top: 1.3rem;
+}
+
+.toriatsukai-related {
+  max-width: 1600px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.toriatsukai-related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: clamp(3rem, 6vw, 5rem);
+}
+
+.toriatsukai-related-grid > a {
+  min-width: 0;
+  padding-bottom: 1.5rem;
+  border: 1px solid var(--mia-line);
+  background: rgba(255, 255, 255, 0.025);
+  transition: transform 0.25s, border-color 0.25s, background 0.25s;
+}
+
+.toriatsukai-related-grid > a:hover {
+  transform: translateY(-6px);
+  border-color: rgba(244, 79, 150, 0.56);
+  background: rgba(244, 79, 150, 0.06);
+}
+
+.toriatsukai-related-grid a > span {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #100810;
+}
+
+.toriatsukai-related-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.toriatsukai-related-grid a:hover img {
+  transform: scale(1.04);
+}
+
+.toriatsukai-related-grid small,
+.toriatsukai-related-grid strong,
+.toriatsukai-related-grid b {
+  display: block;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
+}
+
+.toriatsukai-related-grid small {
+  margin-top: 1.25rem;
+  color: var(--mia-pink);
+  letter-spacing: 0.14em;
+  font-size: 0.52rem;
+  font-weight: 800;
+}
+
+.toriatsukai-related-grid strong {
+  margin-top: 0.65rem;
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 2vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.toriatsukai-related-grid b {
+  margin-top: 1.1rem;
+  color: #d7a3c0;
+  letter-spacing: 0.13em;
+  font-size: 0.54rem;
+}
+
+.toriatsukai-next {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.4fr) repeat(2, minmax(190px, 0.55fr));
+  border-top: 1px solid var(--mia-line);
+  background: linear-gradient(120deg, rgba(244, 79, 150, 0.12), rgba(143, 99, 255, 0.13));
+}
+
+.toriatsukai-next > div,
+.toriatsukai-next > a {
+  padding: clamp(2rem, 4vw, 4rem);
+  border-right: 1px solid var(--mia-line);
+  border-bottom: 1px solid var(--mia-line);
+}
+
+.toriatsukai-next > div {
+  grid-row: span 2;
+}
+
+.toriatsukai-next p {
+  margin: 0;
+  color: var(--mia-pink);
+  letter-spacing: 0.18em;
+  font-size: 0.55rem;
+  font-weight: 900;
+}
+
+.toriatsukai-next h2 {
+  margin: 1rem 0 0;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 4.6rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.toriatsukai-next > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  color: #f0dce8;
+  font-size: 0.72rem;
+  font-weight: 700;
+  transition: color 0.2s, background 0.2s;
+}
+
+.toriatsukai-next > a:hover {
+  color: #fff;
+  background: rgba(244, 79, 150, 0.09);
+}
+
+.toriatsukai-next > a span {
+  color: var(--mia-pink);
+}
+
+.toriatsukai-footer {
+  margin-bottom: -108px;
+}
+
+@media (max-width: 980px) {
+  .toriatsukai-hero {
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+    gap: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .toriatsukai-artwork {
+    width: min(43vw, 500px);
+  }
+
+  .toriatsukai-related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .toriatsukai-next {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .toriatsukai-next > div {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .toriatsukai-page {
+    padding-bottom: 88px;
+  }
+
+  .toriatsukai-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    min-height: auto;
+    padding: 112px 1.25rem 5.5rem;
+  }
+
+  .toriatsukai-hero-copy {
+    width: 100%;
+  }
+
+  .toriatsukai-breadcrumb {
+    margin-bottom: 1.6rem;
+  }
+
+  .toriatsukai-hero h1 {
+    font-size: clamp(4rem, 19vw, 6.2rem);
+  }
+
+  .toriatsukai-artist {
+    flex-direction: column;
+    gap: 0.35rem;
+    align-items: flex-start;
+  }
+
+  .toriatsukai-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toriatsukai-actions .button {
+    width: 100%;
+  }
+
+  .toriatsukai-scroll {
+    align-self: flex-start;
+  }
+
+  .toriatsukai-artwork {
+    width: min(88vw, 500px);
+  }
+
+  .toriatsukai-warning {
+    right: -1%;
+  }
+
+  .toriatsukai-introduction,
+  .toriatsukai-story {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .toriatsukai-introduction,
+  .toriatsukai-facts,
+  .toriatsukai-story,
+  .toriatsukai-video,
+  .toriatsukai-related {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .toriatsukai-catchcopy {
+    min-height: 62vh;
+  }
+
+  .toriatsukai-facts dl {
+    grid-template-columns: 1fr;
+  }
+
+  .toriatsukai-facts dl div:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .toriatsukai-facts dl div {
+    grid-template-columns: 6.8rem minmax(0, 1fr);
+    padding-right: 0;
+  }
+
+  .toriatsukai-video-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .toriatsukai-related-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .toriatsukai-next {
+    grid-template-columns: 1fr;
+  }
+
+  .toriatsukai-next > div {
+    grid-column: auto;
+  }
+
+  .toriatsukai-next > div,
+  .toriatsukai-next > a {
+    padding: 2rem 1.25rem;
+    border-right: 0;
+  }
+
+  .toriatsukai-footer {
+    margin-bottom: -88px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toriatsukai-page *,
+  .toriatsukai-page *::before,
+  .toriatsukai-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

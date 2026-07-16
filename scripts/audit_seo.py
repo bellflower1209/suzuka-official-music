@@ -19,6 +19,9 @@ PUBLIC_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
 PUBLIC_PATH_PREFIX = "/suzuka-official-music/"
 PUBLIC_HOST = "bellflower1209.github.io"
 SITEMAP_URL = f"{PUBLIC_BASE_URL}/sitemap.xml"
+LEGACY_REDIRECTS = {
+    Path("releases/toriatsukai-chuui/index.html"): f"{PUBLIC_BASE_URL}/releases/toriatsukai-chui/",
+}
 
 
 class PageParser(HTMLParser):
@@ -94,7 +97,9 @@ def content_pages() -> list[Path]:
     return sorted(
         path
         for path in ROOT.rglob("index.html")
-        if ".git" not in path.parts and "node_modules" not in path.parts
+        if ".git" not in path.parts
+        and "node_modules" not in path.parts
+        and path.relative_to(ROOT) not in LEGACY_REDIRECTS
     )
 
 
@@ -188,6 +193,25 @@ def audit() -> tuple[list[str], dict[str, Any]]:
     parsed_pages: dict[str, PageParser] = {}
     titles: dict[str, str] = {}
     descriptions: dict[str, str] = {}
+
+    for relative, target_url in LEGACY_REDIRECTS.items():
+        redirect_path = ROOT / relative
+        if not redirect_path.is_file():
+            errors.append(f"legacy redirect is missing: {relative}")
+            continue
+        redirect_html = redirect_path.read_text(encoding="utf-8")
+        redirect_parser = PageParser()
+        redirect_parser.feed(redirect_html)
+        if redirect_parser.canonicals != [target_url]:
+            errors.append(f"{relative}: redirect canonical must be {target_url}")
+        robots = redirect_parser.meta.get("robots", [])
+        if robots != ["noindex, follow"]:
+            errors.append(f"{relative}: redirect must use noindex, follow")
+        target_path = local_path_from_url(target_url)
+        if target_path is None or not target_path.is_file():
+            errors.append(f"{relative}: redirect target is missing: {target_url}")
+        if "../toriatsukai-chui/" not in redirect_html:
+            errors.append(f"{relative}: redirect target is not linked in the HTML")
 
     for path in pages:
         relative = path.relative_to(ROOT)

@@ -23,7 +23,7 @@ SOURCE_ROUTES = {
     "/about": Path("about/index.html"),
     "/releases/mirai-no-watashi-ga-miteru": Path("releases/mirai-no-watashi-ga-miteru/index.html"),
     "/releases/our-kingdom": Path("releases/our-kingdom/index.html"),
-    "/releases/toriatsukai-chuui": Path("releases/toriatsukai-chuui/index.html"),
+    "/releases/toriatsukai-chui": Path("releases/toriatsukai-chui/index.html"),
 }
 SUKI_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
 MOSHIMO_RELEASE_ROUTE = "/releases/moshimo-ashita-hajimemashite-ni-natte-mo"
@@ -34,8 +34,11 @@ LOCAL_ROUTES = {
 LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
+    Path("images/mv-toriatsukai-chuui.jpg"),
 }
 LOCAL_RELEASE_LASTMOD = {route: "2026-07-16" for route in LOCAL_ROUTES}
+SOURCE_RELEASE_LASTMOD = {"/releases/toriatsukai-chui": "2026-07-17"}
+ROUTE_LASTMOD = {**SOURCE_RELEASE_LASTMOD, **LOCAL_RELEASE_LASTMOD}
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
 SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.IGNORECASE | re.DOTALL)
@@ -428,9 +431,15 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
 
     html = ASSET_ATTR_RE.sub(rewrite, html)
     html = normalize_public_seo_urls(html, route)
+    page_styles = (
+        f'<link rel="stylesheet" href="{prefix}assets/toriatsukai-chui.css"/>'
+        if output_path == Path("releases/toriatsukai-chui/index.html")
+        else ""
+    )
     styles = (
         f'<link rel="stylesheet" href="{prefix}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{prefix}assets/engagement.css"/>'
+        f"{page_styles}"
         f'<link rel="stylesheet" href="{prefix}assets/player.css"/>'
     )
     html = html.replace("</head>", f"{styles}</head>", 1)
@@ -483,8 +492,8 @@ def main() -> None:
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
     sitemap_urls = "".join(
         (
-            f"  <url><loc>{public_page_url(route)}</loc><lastmod>{LOCAL_RELEASE_LASTMOD[route]}</lastmod></url>\n"
-            if route in LOCAL_RELEASE_LASTMOD
+            f"  <url><loc>{public_page_url(route)}</loc><lastmod>{ROUTE_LASTMOD[route]}</lastmod></url>\n"
+            if route in ROUTE_LASTMOD
             else f"  <url><loc>{public_page_url(route)}</loc></url>\n"
         )
         for route in ROUTES
@@ -498,8 +507,9 @@ def main() -> None:
 
     source_player = output / "assets/player.css"
     source_engagement = output / "assets/engagement.css"
+    source_toriatsukai = output / "assets/toriatsukai-chui.css"
     source_script = output / "assets/main.js"
-    if not source_player.exists() or not source_engagement.exists() or not source_script.exists():
+    if not source_player.exists() or not source_engagement.exists() or not source_toriatsukai.exists() or not source_script.exists():
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
