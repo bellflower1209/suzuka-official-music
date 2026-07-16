@@ -12,7 +12,9 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
   const imageUrl = new URL("images/mv-mia.jpg", siteRoot).href;
   const styleUrl = new URL("assets/player.css", siteRoot).href;
 
-  if (!document.querySelector(`link[href="${styleUrl}"]`)) {
+  const hasPlayerStylesheet = [...document.querySelectorAll('link[rel="stylesheet"]')]
+    .some((stylesheet) => stylesheet.href === styleUrl);
+  if (!hasPlayerStylesheet) {
     const stylesheet = document.createElement("link");
     stylesheet.rel = "stylesheet";
     stylesheet.href = styleUrl;

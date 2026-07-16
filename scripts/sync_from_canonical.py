@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the public SUZUKA site into GitHub Pages-compatible static files."""
+"""Refresh the local static site from the canonical GitHub Pages deployment."""
 
 from __future__ import annotations
 
@@ -12,8 +12,8 @@ import urllib.request
 from pathlib import Path
 
 
-CONTENT_SOURCE_URL = "https://suzuka-official-music.ria20210815.chatgpt.site"
 PUBLIC_CANONICAL_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
+CONTENT_SOURCE_URL = PUBLIC_CANONICAL_BASE_URL
 SOURCE_ROUTES = {
     "/": Path("index.html"),
     "/artists": Path("artists/index.html"),
@@ -103,8 +103,8 @@ def public_page_url(route: str) -> str:
 
 
 def normalize_public_seo_urls(source: str, route: str) -> str:
-    """Keep the content source separate from the public SEO authority."""
-    normalized = source.replace(CONTENT_SOURCE_URL, PUBLIC_CANONICAL_BASE_URL)
+    """Keep every public SEO reference on the canonical GitHub Pages origin."""
+    normalized = source
 
     # GitHub Pages serves directory indexes with a trailing slash. Normalize all
     # known internal page URLs, including JSON-LD @id fragments, to that form.
@@ -123,8 +123,6 @@ def normalize_public_seo_urls(source: str, route: str) -> str:
         raise RuntimeError(f"The normalized canonical URL is missing for {route}.")
     if og_url not in normalized:
         raise RuntimeError(f"The normalized og:url is missing for {route}.")
-    if CONTENT_SOURCE_URL in normalized:
-        raise RuntimeError(f"The content-source URL remains in generated HTML for {route}.")
     return normalized
 
 
@@ -477,7 +475,11 @@ def main() -> None:
             raise RuntimeError(f"The local-only page for {route} is missing: {output_path}")
         normalize_public_seo_urls(local_page.read_text(encoding="utf-8"), route)
 
-    robots = f"User-agent: *\nAllow: /\n\nSitemap: {PUBLIC_CANONICAL_BASE_URL}/sitemap.xml\n"
+    robots = (
+        "User-agent: *\n"
+        "Allow: /suzuka-official-music/\n\n"
+        f"Sitemap: {PUBLIC_CANONICAL_BASE_URL}/sitemap.xml\n"
+    )
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
     sitemap_urls = "".join(
         (
@@ -503,7 +505,7 @@ def main() -> None:
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
     print(
         f"Synced {len(SOURCE_ROUTES)} source pages and preserved {len(LOCAL_ROUTES)} local pages; "
-        f"downloaded {len(public_assets)} public assets from {CONTENT_SOURCE_URL}; "
+        f"downloaded {len(public_assets)} public assets from the canonical deployment; "
         f"canonicalized {len(ROUTES)} routes to {PUBLIC_CANONICAL_BASE_URL}"
     )
 
