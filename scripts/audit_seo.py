@@ -34,6 +34,29 @@ MIA_RELEASE_DETAILS = {
     release["title"]: (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA}
+FEATURE_NEWS = {
+    Path("news/hyakumankoku-release/index.html"): {
+        "release": Path("releases/hyakumankoku/index.html"),
+        "releaseHref": "../../news/hyakumankoku-release/",
+        "youtube": "https://www.youtube.com/watch?v=QteunhFn9Dk",
+        "shorts": "https://www.youtube.com/shorts/10hI03wXHtE",
+        "image": "images/mv-hyakumankoku.jpg",
+    },
+    Path("news/toriatsukai-chui-release/index.html"): {
+        "release": Path("releases/toriatsukai-chui/index.html"),
+        "releaseHref": "../../news/toriatsukai-chui-release/",
+        "youtube": "https://www.youtube.com/watch?v=QXvpLCnyoOw",
+        "shorts": "https://www.youtube.com/shorts/KHZMfULXuGQ",
+        "image": "images/mv-toriatsukai-chuui.jpg",
+    },
+    Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"): {
+        "release": Path("releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html"),
+        "releaseHref": "../../news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
+        "youtube": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
+        "shorts": "https://www.youtube.com/shorts/o7AOgpc2O-k",
+        "image": "images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png",
+    },
+}
 OTHER_RELEASE_DETAILS = {
     "SHADOW//CODE": {
         "homeDetail": "./releases/shadow-code/",
@@ -213,6 +236,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "news/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if relative in FEATURE_NEWS:
+        return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
     if route.startswith("news/"):
         return {"Article", "WebPage", "BreadcrumbList"}
     if route == "releases/my-queen-my-oath/index.html":
@@ -387,6 +412,13 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             for item in listed:
                 if not str(item.get("url", "")).startswith(("https://", "http://")):
                     errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
+        if relative == Path("news/index.html"):
+            itemlist = schema_nodes.get(f"{page_url}#itemlist", {})
+            listed = itemlist.get("itemListElement", [])
+            if itemlist.get("numberOfItems") != len(listed):
+                errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
+            if len(listed) != 5:
+                errors.append(f"{relative}: expected 5 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})
@@ -402,6 +434,26 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: must not claim VideoObject without a confirmed official video")
             if any("datePublished" in node for node in schema_nodes.values()):
                 errors.append(f"{relative}: must not infer datePublished")
+        if relative in FEATURE_NEWS:
+            article = schema_nodes.get(f"{page_url}#article", {})
+            for field in ("headline", "description", "mainEntityOfPage", "image", "datePublished", "dateModified", "author", "publisher", "url"):
+                if field not in article:
+                    errors.append(f"{relative}: NewsArticle is missing {field}")
+            if article.get("datePublished") != "2026-07-18" or article.get("dateModified") != "2026-07-18":
+                errors.append(f"{relative}: article dates must match the actual News publication date")
+            expected = FEATURE_NEWS[relative]
+            for value in (expected["youtube"], expected["shorts"], f"{PUBLIC_BASE_URL}/{expected['image']}"):
+                if value not in schema_strings:
+                    errors.append(f"{relative}: structured data is missing confirmed value: {value}")
+            if not 120 <= len(description) <= 160:
+                errors.append(f"{relative}: meta description should be 120-160 characters, found {len(description)}")
+            related_release_links = {
+                href for href in parser.anchors
+                if href.startswith("../../releases/")
+                and href not in {"../../releases/", f"../../{expected['release'].parent.as_posix()}/"}
+            }
+            if len(related_release_links) < 3:
+                errors.append(f"{relative}: expected at least 3 related release links, found {len(related_release_links)}")
 
         for reference in parser.references:
             if reference.startswith(("mailto:", "tel:", "javascript:", "data:")):
@@ -503,6 +555,23 @@ def audit() -> tuple[list[str], dict[str, Any]]:
     shadow_news = (ROOT / "news/shadow-code-announcement/index.html").read_text(encoding="utf-8")
     if "../../releases/shadow-code/" not in shadow_news:
         errors.append("news/shadow-code-announcement/index.html: missing SHADOW//CODE release link")
+
+    news_index = (ROOT / "news/index.html").read_text(encoding="utf-8")
+    news_cards = re.findall(r'<article class="news-directory-card">.*?</article>', news_index, re.DOTALL)
+    news_card_hrefs = [href for card in news_cards for href in re.findall(r'<a href="([^"]+)"', card)]
+    if len(news_card_hrefs) != len(set(news_card_hrefs)):
+        errors.append("news/index.html: duplicate News cards found")
+    for feature_path, details in FEATURE_NEWS.items():
+        slug = feature_path.parent.name
+        if f'./{slug}/' not in news_index:
+            errors.append(f"news/index.html: missing feature News card for {slug}")
+        release_html = (ROOT / details["release"]).read_text(encoding="utf-8")
+        if str(details["releaseHref"]) not in release_html:
+            errors.append(f"{details['release']}: missing link to {slug}")
+    profile_html = (ROOT / "artists/enomoto-mia/index.html").read_text(encoding="utf-8")
+    for feature_path in FEATURE_NEWS:
+        if f'../../news/{feature_path.parent.name}/' not in profile_html:
+            errors.append(f"artists/enomoto-mia/index.html: missing link to {feature_path.parent.name}")
 
     public_surface = "\n".join(
         (ROOT / path).read_text(encoding="utf-8")

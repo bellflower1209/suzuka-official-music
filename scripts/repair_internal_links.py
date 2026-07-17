@@ -34,7 +34,7 @@ def release_catalog() -> list[dict[str, object]]:
 
 
 def page_head(*, title: str, description: str, canonical: str, image: str, asset_prefix: str = "../") -> str:
-    return f'''<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>{title}</title><meta name="description" content="{description}"/><link rel="canonical" href="{canonical}"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:locale" content="ja_JP"/><meta property="og:title" content="{title}"/><meta property="og:description" content="{description}"/><meta property="og:url" content="{canonical}"/><meta property="og:image" content="{image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{title}"/><meta name="twitter:description" content="{description}"/><meta name="twitter:image" content="{image}"/><link rel="icon" href="{asset_prefix}images/suzuka-channel.jpg"/><link rel="stylesheet" href="{asset_prefix}assets/styles.css"/></head>'''
+    return f'''<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>{title}</title><meta name="description" content="{description}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{canonical}"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:locale" content="ja_JP"/><meta property="og:title" content="{title}"/><meta property="og:description" content="{description}"/><meta property="og:url" content="{canonical}"/><meta property="og:image" content="{image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{title}"/><meta name="twitter:description" content="{description}"/><meta name="twitter:image" content="{image}"/><link rel="icon" href="{asset_prefix}images/suzuka-channel.jpg"/><link rel="stylesheet" href="{asset_prefix}assets/styles.css"/><link rel="stylesheet" href="{asset_prefix}assets/engagement.css"/><link rel="stylesheet" href="{asset_prefix}assets/player.css"/></head>'''
 
 
 def header(prefix: str = "../") -> str:
@@ -114,6 +114,72 @@ def connect_other_release_pages() -> None:
     koga_path.write_text(koga, encoding="utf-8")
 
 
+def add_home_feature_news() -> None:
+    path = ROOT / "index.html"
+    text = path.read_text(encoding="utf-8")
+    if './news/hyakumankoku-release/' in text:
+        return
+    cards = (
+        '<article><a href="./news/hyakumankoku-release/" aria-label="百万告の公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>榎本魅愛「百万告」— 更新され続ける恋心。</h3><b aria-hidden="true">↗</b></a></article>'
+        '<article><a href="./news/toriatsukai-chui-release/" aria-label="取り扱いチュー💋いの公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>「取り扱いチュー💋い」— 危険でも逃げたくない恋。</h3><b aria-hidden="true">↗</b></a></article>'
+        '<article><a href="./news/moshimo-ashita-hajimemashite-ni-natte-mo-release/" aria-label="もしも明日、はじめましてになってもの公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>「もしも明日、はじめましてになっても」— 記憶を越える物語。</h3><b aria-hidden="true">↗</b></a></article>'
+    )
+    text = text.replace('<div class="news-list">', f'<div class="news-list">{cards}', 1)
+    path.write_text(text, encoding="utf-8")
+
+
+def add_release_news_links() -> None:
+    links = {
+        "hyakumankoku": (
+            "hyakumankoku-news-title",
+            "#ff72b8",
+            "rgba(255,114,184,.18)",
+            "「好き」が何度でも更新される理由を、News記事で読む。",
+            "hyakumankoku-release",
+            "百万告の物語を読む",
+            "button button-primary",
+            '<section class="toriatsukai-related"',
+        ),
+        "toriatsukai-chui": (
+            "toriatsukai-news-title",
+            "#ff4fac",
+            "rgba(181,70,255,.2)",
+            "警報と安全装置が恋の言葉に変わる、小悪魔な世界観を読む。",
+            "toriatsukai-chui-release",
+            "楽曲紹介記事を見る",
+            "button toriatsukai-primary",
+            '<section class="toriatsukai-related"',
+        ),
+        "moshimo-ashita-hajimemashite-ni-natte-mo": (
+            "moshimo-news-title",
+            "#f09abb",
+            "rgba(128,103,255,.18)",
+            "記憶を失っても、もう一度出会う。その物語の余韻をたどる。",
+            "moshimo-ashita-hajimemashite-ni-natte-mo-release",
+            "この楽曲の世界観を読む",
+            "button release-youtube-button",
+            '<section class="release-related-section"',
+        ),
+    }
+    for slug, (heading_id, accent, soft, heading, news_slug, label, button_class, insertion) in links.items():
+        path = ROOT / f"releases/{slug}/index.html"
+        text = path.read_text(encoding="utf-8")
+        if 'assets/news-feature.css' not in text:
+            text = text.replace(
+                '<link rel="stylesheet" href="../../assets/player.css"/>',
+                '<link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/player.css"/>',
+                1,
+            )
+        if f'id="{heading_id}"' not in text:
+            section = (
+                f'<section class="release-news-link" style="--story-accent:{accent};--story-soft:{soft}" aria-labelledby="{heading_id}">'
+                f'<p>OFFICIAL NEWS · RELEASE STORY</p><h2 id="{heading_id}">{heading}</h2>'
+                f'<a class="{button_class}" href="../../news/{news_slug}/">{label} ↗</a></section>'
+            )
+            text = text.replace(insertion, section + insertion, 1)
+        path.write_text(text, encoding="utf-8")
+
+
 def build_releases() -> None:
     home = (ROOT / "index.html").read_text(encoding="utf-8")
     cards = re.findall(r'<article class="release-card[^\"]*">.*?</article>', home, re.DOTALL)
@@ -180,19 +246,60 @@ NEWS = [
     ("shadow-code-announcement", "RELEASE", "デビューシングル「SHADOW//CODE」を発表。", "ECLYPSEのデビューシングル「SHADOW//CODE」を発表しました。公式MVとアーティスト情報を紹介します。", "../../releases/shadow-code/", "SHADOW//CODE 公式楽曲ページ"),
 ]
 
+FEATURE_NEWS = [
+    {
+        "slug": "hyakumankoku-release",
+        "category": "RELEASE STORY",
+        "date": "2026-07-18",
+        "title": "榎本魅愛「百万告」公開｜百万回でも伝えたい、更新され続ける恋心",
+        "summary": "「好き」は一回では足りない。榎本魅愛のデビュー曲「百万告」が描く、何度でも想いを届ける恋心と公式MV・Shortsの見どころを紹介します。",
+        "image": "mv-hyakumankoku.jpg",
+        "width": 1280,
+        "height": 720,
+    },
+    {
+        "slug": "toriatsukai-chui-release",
+        "category": "RELEASE STORY",
+        "date": "2026-07-18",
+        "title": "榎本魅愛「取り扱いチュー💋い」｜危険でも逃げたくない、小悪魔ラブソング",
+        "summary": "可愛さと危険さが同居する榎本魅愛「取り扱いチュー💋い」。警報や安全装置を恋に置き換えた世界観と、公式MV・Shortsの楽しみ方を紹介します。",
+        "image": "mv-toriatsukai-chuui.jpg",
+        "width": 886,
+        "height": 886,
+    },
+    {
+        "slug": "moshimo-ashita-hajimemashite-ni-natte-mo-release",
+        "category": "RELEASE STORY",
+        "date": "2026-07-18",
+        "title": "榎本魅愛「もしも明日、はじめましてになっても」｜記憶を越えて、もう一度恋をする",
+        "summary": "記憶を失っても、また同じ人を好きになれるのか。榎本魅愛「もしも明日、はじめましてになっても」の物語、公式Lyric VideoとShortsを紹介します。",
+        "image": "mv-moshimo-ashita-hajimemashite-ni-natte-mo.png",
+        "width": 1254,
+        "height": 1254,
+    },
+]
+
 
 def build_news() -> None:
     canonical = f"{BASE}/news/"
     description = "SUZUKAのアーティスト、リリース、公式MVに関する最新情報を掲載する公式News一覧です。"
-    list_items = [{"@type": "ListItem", "position": i, "name": title, "url": f"{canonical}{slug}/"} for i, (slug, _, title, _, _, _) in enumerate(NEWS, 1)]
+    entries = FEATURE_NEWS + [
+        {"slug": slug, "category": category, "date": "2026", "title": title, "summary": summary, "image": "eclypse-shadow-code-cover.webp", "width": 886, "height": 886}
+        for slug, category, title, summary, _, _ in NEWS
+    ]
+    list_items = [{"@type": "ListItem", "position": i, "name": entry["title"], "url": f"{canonical}{entry['slug']}/"} for i, entry in enumerate(entries, 1)]
     schema = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": canonical, "url": canonical, "name": "News｜SUZUKA", "description": description, "isPartOf": {"@id": f"{BASE}/#website"}},
-        {"@type": "ItemList", "@id": f"{canonical}#itemlist", "itemListElement": list_items},
+        {"@type": "ItemList", "@id": f"{canonical}#itemlist", "numberOfItems": len(list_items), "itemListElement": list_items},
         {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": f"{BASE}/"}, {"@type": "ListItem", "position": 2, "name": "News", "item": canonical}]},
     ]}
-    rows = "".join(f'''<article><a href="./{slug}/"><time datetime="2026">2026</time><span>{category}</span><h2>{title}</h2><p>{summary}</p><b aria-hidden="true">↗</b></a></article>''' for slug, category, title, summary, _, _ in NEWS)
-    html = page_head(title="News｜SUZUKA 公式ニュース", description=description, canonical=canonical, image=f"{BASE}/images/eclypse-shadow-code-cover.webp")
-    html += f'''<body><main id="top">{json_script(schema)}<a class="skip-link" href="#news-directory">本文へ移動</a>{header()}<section class="directory-hero"><p class="section-kicker">OFFICIAL UPDATES</p><h1>News</h1><p>デビュー、リリース、アーティスト情報。</p></section><section class="section news-section news-directory" id="news-directory"><div class="news-list">{rows}</div></section>{footer()}</main><script defer src="../assets/main.js"></script></body></html>'''
+    rows = "".join(
+        f'''<article class="news-directory-card"><a href="./{entry['slug']}/"><span class="news-directory-image"><img src="../images/{entry['image']}" alt="{html_lib.escape(entry['title'])}の記事サムネイル" width="{entry['width']}" height="{entry['height']}" loading="lazy"/></span><span class="news-directory-meta"><time datetime="{entry['date']}">{entry['date'].replace('-', '.')}</time><em>{entry['category']}</em></span><h2>{entry['title']}</h2><p>{entry['summary']}</p><b aria-hidden="true">記事を読む ↗</b></a></article>'''
+        for entry in entries
+    )
+    html = page_head(title="News｜SUZUKA 公式ニュース", description=description, canonical=canonical, image=f"{BASE}/images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png")
+    html = html.replace("</head>", '<link rel="stylesheet" href="../assets/news-feature.css"/></head>', 1)
+    html += f'''<body><main id="top">{json_script(schema)}<a class="skip-link" href="#news-directory">本文へ移動</a>{header()}<section class="directory-hero"><p class="section-kicker">OFFICIAL UPDATES</p><h1>News</h1><p>デビュー、リリース、アーティスト情報。</p></section><section class="section news-section news-directory" id="news-directory" aria-labelledby="news-list-title"><div class="section-heading"><p class="section-kicker">LATEST STORIES</p><h2 id="news-list-title">Music, words and stories.</h2></div><div class="news-list news-feature-list">{rows}</div></section>{footer()}</main><script defer src="../assets/main.js"></script></body></html>'''
     target = ROOT / "news/index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(html, encoding="utf-8")
@@ -244,6 +351,23 @@ def add_profile_mv_links() -> None:
         text = re.sub(r'<section class="artist-mv-links" id="official-mvs".*?</section>', section, text, count=1, flags=re.DOTALL)
     else:
         text = text.replace('<section class="artist-youtube-cta">', section + '<section class="artist-youtube-cta">', 1)
+    path.write_text(text, encoding="utf-8")
+
+
+def add_profile_news_links() -> None:
+    path = ROOT / "artists/enomoto-mia/index.html"
+    text = path.read_text(encoding="utf-8")
+    section = '''<section class="artist-news-feature" aria-labelledby="mia-news-heading"><div><p>05 / Recommended stories</p><h2 id="mia-news-heading">榎本魅愛の楽曲を、言葉から読む。</h2></div><div class="artist-news-grid"><a href="../../news/hyakumankoku-release/"><img src="../../images/mv-hyakumankoku.jpg" alt="榎本魅愛「百万告」公式News記事" width="1280" height="720" loading="lazy"/><div><span>百万告</span><strong>百万回でも伝えたい、更新され続ける恋心</strong><small>何度でも「好き」を届けるデビュー曲の世界観。</small><b>News記事を読む ↗</b></div></a><a href="../../news/toriatsukai-chui-release/"><img src="../../images/mv-toriatsukai-chuui.jpg" alt="榎本魅愛「取り扱いチュー💋い」公式News記事" width="886" height="886" loading="lazy"/><div><span>取り扱いチュー💋い</span><strong>危険でも逃げたくない、小悪魔ラブソング</strong><small>警報や安全装置が恋の言葉へ変わる瞬間。</small><b>News記事を読む ↗</b></div></a><a href="../../news/moshimo-ashita-hajimemashite-ni-natte-mo-release/"><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" alt="榎本魅愛「もしも明日、はじめましてになっても」公式News記事" width="1254" height="1254" loading="lazy"/><div><span>もしも明日、はじめましてになっても</span><strong>記憶を越えて、もう一度恋をする</strong><small>忘れられても出会い直す、切なく優しい物語。</small><b>News記事を読む ↗</b></div></a></div></section>'''
+    if 'class="artist-news-feature"' in text:
+        text = re.sub(r'<section class="artist-news-feature".*?</section>', section, text, count=1, flags=re.DOTALL)
+    else:
+        text = text.replace('<section class="artist-youtube-cta">', section + '<section class="artist-youtube-cta">', 1)
+    if 'assets/news-feature.css' not in text:
+        text = text.replace(
+            '<link rel="stylesheet" href="../../assets/player.css"/>',
+            '<link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/player.css"/>',
+            1,
+        )
     path.write_text(text, encoding="utf-8")
 
 
@@ -361,8 +485,11 @@ def main() -> None:
     normalize_catalog_titles()
     normalize_existing_pages()
     connect_other_release_pages()
+    add_home_feature_news()
+    add_release_news_links()
     build_profile_track_list()
     add_profile_mv_links()
+    add_profile_news_links()
     add_profile_release_itemlist()
     add_descriptive_alts()
     complete_related_release_links()

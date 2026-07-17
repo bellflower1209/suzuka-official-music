@@ -46,9 +46,13 @@ LOCAL_ROUTES = {
     **LOCAL_ADDED_CARD_ROUTES,
     "/releases/shadow-code": Path("releases/shadow-code/index.html"),
     "/releases/my-queen-my-oath": Path("releases/my-queen-my-oath/index.html"),
+    "/news/hyakumankoku-release": Path("news/hyakumankoku-release/index.html"),
+    "/news/toriatsukai-chui-release": Path("news/toriatsukai-chui-release/index.html"),
+    "/news/moshimo-ashita-hajimemashite-ni-natte-mo-release": Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
+    Path("assets/news-feature.css"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/koga-kamishiro.webp"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
@@ -309,6 +313,13 @@ def enhance_artist_cards(source: str) -> str:
 
 
 def enhance_home(source: str) -> str:
+    if './news/hyakumankoku-release/' not in source:
+        feature_news = (
+            '<article><a href="./news/hyakumankoku-release/" aria-label="百万告の公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>榎本魅愛「百万告」— 更新され続ける恋心。</h3><b aria-hidden="true">↗</b></a></article>'
+            '<article><a href="./news/toriatsukai-chui-release/" aria-label="取り扱いチュー💋いの公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>「取り扱いチュー💋い」— 危険でも逃げたくない恋。</h3><b aria-hidden="true">↗</b></a></article>'
+            '<article><a href="./news/moshimo-ashita-hajimemashite-ni-natte-mo-release/" aria-label="もしも明日、はじめましてになってもの公式News記事を見る"><time datetime="2026-07-18">2026.07.18</time><span>RELEASE STORY</span><h3>「もしも明日、はじめましてになっても」— 記憶を越える物語。</h3><b aria-hidden="true">↗</b></a></article>'
+        )
+        source = replace_once(source, '<div class="news-list">', f'<div class="news-list">{feature_news}', "feature News cards")
     hero_actions = (
         '<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース SHADOW//CODEのメニュー">'
         '<p><span>LATEST RELEASE</span><strong>ECLYPSE — SHADOW//CODE</strong></p>'
@@ -386,6 +397,32 @@ def add_other_artist_release_link(source: str, output_path: Path) -> str:
                 "KOGA release detail link",
             )
     return source
+
+
+def add_mia_news_links(source: str) -> str:
+    section = '''<section class="artist-news-feature" aria-labelledby="mia-news-heading"><div><p>05 / Recommended stories</p><h2 id="mia-news-heading">榎本魅愛の楽曲を、言葉から読む。</h2></div><div class="artist-news-grid"><a href="../../news/hyakumankoku-release/"><img src="../../images/mv-hyakumankoku.jpg" alt="榎本魅愛「百万告」公式News記事" width="1280" height="720" loading="lazy"/><div><span>百万告</span><strong>百万回でも伝えたい、更新され続ける恋心</strong><small>何度でも「好き」を届けるデビュー曲の世界観。</small><b>News記事を読む ↗</b></div></a><a href="../../news/toriatsukai-chui-release/"><img src="../../images/mv-toriatsukai-chuui.jpg" alt="榎本魅愛「取り扱いチュー💋い」公式News記事" width="886" height="886" loading="lazy"/><div><span>取り扱いチュー💋い</span><strong>危険でも逃げたくない、小悪魔ラブソング</strong><small>警報や安全装置が恋の言葉へ変わる瞬間。</small><b>News記事を読む ↗</b></div></a><a href="../../news/moshimo-ashita-hajimemashite-ni-natte-mo-release/"><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" alt="榎本魅愛「もしも明日、はじめましてになっても」公式News記事" width="1254" height="1254" loading="lazy"/><div><span>もしも明日、はじめましてになっても</span><strong>記憶を越えて、もう一度恋をする</strong><small>忘れられても出会い直す、切なく優しい物語。</small><b>News記事を読む ↗</b></div></a></div></section>'''
+    if 'class="artist-news-feature"' in source:
+        return re.sub(r'<section class="artist-news-feature".*?</section>', section, source, count=1, flags=re.DOTALL)
+    return replace_once(source, '<section class="artist-youtube-cta">', section + '<section class="artist-youtube-cta">', "ENOMOTO MIA News stories")
+
+
+def add_release_news_link(source: str, output_path: Path) -> str:
+    links = {
+        Path("releases/hyakumankoku/index.html"): ("hyakumankoku-news-title", "#ff72b8", "rgba(255,114,184,.18)", "「好き」が何度でも更新される理由を、News記事で読む。", "hyakumankoku-release", "百万告の物語を読む", "button button-primary", '<section class="toriatsukai-related"'),
+        Path("releases/toriatsukai-chui/index.html"): ("toriatsukai-news-title", "#ff4fac", "rgba(181,70,255,.2)", "警報と安全装置が恋の言葉に変わる、小悪魔な世界観を読む。", "toriatsukai-chui-release", "楽曲紹介記事を見る", "button toriatsukai-primary", '<section class="toriatsukai-related"'),
+    }
+    details = links.get(output_path)
+    if not details:
+        return source
+    heading_id, accent, soft, heading, news_slug, label, button_class, insertion = details
+    if f'id="{heading_id}"' in source:
+        return source
+    section = (
+        f'<section class="release-news-link" style="--story-accent:{accent};--story-soft:{soft}" aria-labelledby="{heading_id}">'
+        f'<p>OFFICIAL NEWS · RELEASE STORY</p><h2 id="{heading_id}">{heading}</h2>'
+        f'<a class="{button_class}" href="../../news/{news_slug}/">{label} ↗</a></section>'
+    )
+    return replace_once(source, insertion, section + insertion, f"{news_slug} release News link")
 
 
 def add_new_release_to_enomoto(source: str) -> str:
@@ -475,13 +512,13 @@ def enhance_html(source: str, output_path: Path) -> str:
     if output_path == Path("index.html"):
         return enhance_home(source)
     if output_path == Path("artists/enomoto-mia/index.html"):
-        return enhance_artist_page(add_new_release_to_enomoto(source))
+        return enhance_artist_page(add_mia_news_links(add_new_release_to_enomoto(source)))
     if output_path in {
         Path("artists/eclypse/index.html"),
         Path("artists/koga-kamishiro/index.html"),
     }:
         return enhance_artist_page(add_other_artist_release_link(source, output_path))
-    return source
+    return add_release_news_link(source, output_path)
 
 
 def sanitize_html(html: str, output_path: Path, route: str) -> str:
@@ -523,6 +560,12 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
         if output_path in detailed_mia_releases
         else ""
     )
+    if output_path in {
+        Path("artists/enomoto-mia/index.html"),
+        Path("releases/hyakumankoku/index.html"),
+        Path("releases/toriatsukai-chui/index.html"),
+    }:
+        page_styles += f'<link rel="stylesheet" href="{prefix}assets/news-feature.css"/>'
     styles = (
         f'<link rel="stylesheet" href="{prefix}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{prefix}assets/engagement.css"/>'
