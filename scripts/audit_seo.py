@@ -513,9 +513,9 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"sitemap.xml is missing: {', '.join(missing)}")
             if extra:
                 errors.append(f"sitemap.xml has unexpected URLs: {', '.join(extra)}")
-        lastmods = [element.text or "" for element in sitemap_root.findall("sm:url/sm:lastmod", namespace)]
-        if len(lastmods) == len(expected_urls) and len(set(lastmods)) == 1:
-            errors.append("sitemap.xml mechanically assigns one lastmod date to every page")
+        optional_elements = [element.tag for url in sitemap_root.findall("sm:url", namespace) for element in list(url) if element.tag != f"{{{namespace['sm']}}}loc"]
+        if optional_elements:
+            errors.append("sitemap.xml must remain minimal until Search Console processing is stable")
     except (ET.ParseError, OSError) as error:
         errors.append(f"sitemap.xml is invalid: {error}")
         sitemap_urls = []
@@ -525,8 +525,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         errors.append("robots.txt is missing the default user-agent rule")
     if "Disallow:" in robots:
         errors.append("robots.txt contains a Disallow rule")
-    if "Allow: /suzuka-official-music/" not in robots:
-        errors.append("robots.txt does not explicitly allow the GitHub Pages project path")
+    if not re.search(r"(?mi)^Allow:\s*/\s*$", robots):
+        errors.append("robots.txt does not explicitly allow crawling")
     if f"Sitemap: {SITEMAP_URL}" not in robots:
         errors.append("robots.txt does not contain the absolute sitemap URL")
 

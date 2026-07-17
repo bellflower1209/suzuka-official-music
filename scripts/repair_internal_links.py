@@ -6,8 +6,9 @@ from __future__ import annotations
 import json
 import html as html_lib
 import re
+import subprocess
+import sys
 import urllib.parse
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
@@ -275,18 +276,7 @@ def complete_related_release_links() -> None:
 
 
 def sync_catalog_sitemap() -> None:
-    path = ROOT / "sitemap.xml"
-    ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
-    tree = ET.parse(path)
-    root = tree.getroot()
-    namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
-    existing = {element.findtext(f"{namespace}loc"): element for element in root.findall(f"{namespace}url")}
-    for release in release_catalog():
-        url = f"{BASE}/{release['pageUrl']}"
-        if url not in existing:
-            url_element = ET.SubElement(root, f"{namespace}url")
-            ET.SubElement(url_element, f"{namespace}loc").text = url
-    tree.write(path, encoding="utf-8", xml_declaration=True, short_empty_elements=False)
+    subprocess.run([sys.executable, str(ROOT / "scripts/validate_sitemap.py"), "--write"], check=True)
 
 
 def main() -> None:

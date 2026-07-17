@@ -7,6 +7,8 @@ import argparse
 import html as html_lib
 import re
 import shutil
+import subprocess
+import sys
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -54,20 +56,6 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-sukitte-baretemo-ii.jpg"),
     Path("images/mv-mermaid-merman.jpg"),
 }
-LOCAL_RELEASE_LASTMOD = {route: "2026-07-16" for route in LOCAL_ROUTES}
-SOURCE_RELEASE_LASTMOD = {
-    "/releases/toriatsukai-chui": "2026-07-17",
-    "/releases/mia": "2026-07-17",
-    "/releases/hyakumankoku": "2026-07-17",
-    "/releases/muteki-jikan-ato-3byou": "2026-07-17",
-    "/releases/tokenai-mahou-wo-ai-to-yobu": "2026-07-17",
-    "/releases/kimi-to-nara-last-boss-made": "2026-07-17",
-    "/releases/ai-demo-wakaranai": "2026-07-17",
-    "/releases/kimi-wa-hanabi": "2026-07-17",
-    "/releases/sukitte-baretemo-ii": "2026-07-17",
-    "/releases/mermaid-merman": "2026-07-17",
-}
-ROUTE_LASTMOD = {**SOURCE_RELEASE_LASTMOD, **LOCAL_RELEASE_LASTMOD}
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
 SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.IGNORECASE | re.DOTALL)
@@ -545,24 +533,10 @@ def main() -> None:
 
     robots = (
         "User-agent: *\n"
-        "Allow: /suzuka-official-music/\n\n"
+        "Allow: /\n\n"
         f"Sitemap: {PUBLIC_CANONICAL_BASE_URL}/sitemap.xml\n"
     )
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
-    sitemap_urls = "".join(
-        (
-            f"  <url><loc>{public_page_url(route)}</loc><lastmod>{ROUTE_LASTMOD[route]}</lastmod></url>\n"
-            if route in ROUTE_LASTMOD
-            else f"  <url><loc>{public_page_url(route)}</loc></url>\n"
-        )
-        for route in ROUTES
-    )
-    sitemap = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"{sitemap_urls}</urlset>\n"
-    )
-    write_bytes(output / "sitemap.xml", sitemap.encode("utf-8"))
 
     source_player = output / "assets/player.css"
     source_engagement = output / "assets/engagement.css"
@@ -572,6 +546,10 @@ def main() -> None:
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(output), "--write"],
+        check=True,
+    )
     print(
         f"Synced {len(SOURCE_ROUTES)} source pages and preserved {len(LOCAL_ROUTES)} local pages; "
         f"downloaded {len(public_assets)} public assets from the canonical deployment; "
