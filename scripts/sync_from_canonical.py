@@ -329,13 +329,13 @@ def enhance_home(source: str) -> str:
     source = replace_once(
         source,
         '<article><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3></article>',
-        '<article><a href="./artists/eclypse/" aria-label="ECLYPSEのアーティストページを見る"><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3><b aria-hidden="true">↗</b></a></article>',
+        '<article><a href="./news/eclypse-joins-suzuka/" aria-label="ECLYPSE始動のNews記事を見る"><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3><b aria-hidden="true">↗</b></a></article>',
         "ECLYPSE news link",
     )
     source = replace_once(
         source,
         '<article><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3></article>',
-        '<article><a href="./artists/eclypse/#debut-single" aria-label="SHADOW//CODEの楽曲情報を見る"><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3><b aria-hidden="true">↗</b></a></article>',
+        '<article><a href="./news/shadow-code-announcement/" aria-label="SHADOW//CODE発表のNews記事を見る"><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3><b aria-hidden="true">↗</b></a></article>',
         "SHADOW//CODE news link",
     )
     youtube_section = (
@@ -353,7 +353,7 @@ def enhance_artist_page(source: str) -> str:
         '<nav class="artist-next-actions" aria-label="SUZUKAサイト内のおすすめ">'
         '<div><p>Keep exploring</p><h2>次の物語へ。</h2></div>'
         '<a href="../../artists/">他のアーティストを見る <span aria-hidden="true">↗</span></a>'
-        '<a href="../../#releases">Releasesを見る <span aria-hidden="true">↗</span></a>'
+        '<a href="../../releases/">Releasesを見る <span aria-hidden="true">↗</span></a>'
         f'<a href="{SHADOW_CODE_URL}" target="_blank" rel="noreferrer">最新MVを見る <span aria-hidden="true">↗</span></a>'
         '</nav>'
     )

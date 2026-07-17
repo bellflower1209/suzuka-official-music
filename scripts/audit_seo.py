@@ -43,6 +43,10 @@ NEW_RELEASE_DETAILS = {
     "好きってバレてもいい": ("./releases/sukitte-baretemo-ii/", "https://youtu.be/XP8yXMKFHVI"),
     "MERMAID×MERMAN": ("./releases/mermaid-merman/", "https://youtu.be/29fpeNtUqfY"),
 }
+MIA_YOUTUBE_IDS = {
+    "QXvpLCnyoOw", "WzcXyuAI_FM", "QteunhFn9Dk", "DPnFtRFnH5c", "CAFQ-d7YHPQ",
+    "YVNs3I-KaHI", "5jmTo3Jb5sI", "ohylad3AWYI", "XP8yXMKFHVI", "29fpeNtUqfY",
+}
 
 
 class PageParser(HTMLParser):
@@ -202,6 +206,12 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
     if route.startswith("artists/"):
         return {"Person", "ProfilePage", "BreadcrumbList"}
+    if route == "releases/index.html":
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route == "news/index.html":
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route.startswith("news/"):
+        return {"Article", "WebPage", "BreadcrumbList"}
     if route.startswith("releases/"):
         return {"MusicRecording", "VideoObject", "BreadcrumbList", "WebPage"}
     return set()
@@ -273,9 +283,11 @@ def audit() -> tuple[list[str], dict[str, Any]]:
 
         if parser.h1_count != 1:
             errors.append(f"{relative}: expected one h1, found {parser.h1_count}")
-        for src, has_alt, _alt in parser.images:
+        for src, has_alt, alt in parser.images:
             if not has_alt:
                 errors.append(f"{relative}: image is missing alt: {src}")
+            elif not alt.strip():
+                errors.append(f"{relative}: image has an empty alt: {src}")
 
         schema_types: set[str] = set()
         schema_strings: list[str] = []
@@ -295,7 +307,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for value in schema_strings:
             if value.startswith("https://bellflower1209.github.io/") and not value.startswith(PUBLIC_BASE_URL):
                 errors.append(f"{relative}: JSON-LD points outside the canonical project path: {value}")
-        if relative.as_posix().startswith("releases/"):
+        if relative.as_posix().startswith("releases/") and relative.as_posix() != "releases/index.html":
             video_id = f"{page_url}#video"
             video = schema_nodes.get(video_id, {})
             required_video_fields = {"name", "description", "thumbnailUrl", "uploadDate", "contentUrl", "embedUrl"}
@@ -344,6 +356,9 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(
                     f"artists/enomoto-mia/index.html: {title} must link to {expected_href}"
                 )
+    for video_id in MIA_YOUTUBE_IDS:
+        if f"youtube.com/watch?v={video_id}" not in artist_html:
+            errors.append(f"artists/enomoto-mia/index.html: official MV link is missing: {video_id}")
 
     homepage_html = (ROOT / "index.html").read_text(encoding="utf-8")
     release_cards = re.findall(r'<article class="release-card[^"]*">.*?</article>', homepage_html, re.DOTALL)
@@ -374,6 +389,17 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             if absolute in expected_urls:
                 graph[page_url].add(absolute)
 
+    for page_url, path in expected_urls.items():
+        relative = path.relative_to(ROOT).as_posix()
+        if not relative.startswith("releases/") or relative == "releases/index.html":
+            continue
+        related = {
+            url for url in graph[page_url]
+            if "/releases/" in url and url != page_url and url != f"{PUBLIC_BASE_URL}/releases/"
+        }
+        if len(related) < 3:
+            errors.append(f"{relative}: expected at least 3 related release links, found {len(related)}")
+
     reachable: set[str] = set()
     queue = deque([f"{PUBLIC_BASE_URL}/"])
     while queue:
@@ -390,6 +416,16 @@ def audit() -> tuple[list[str], dict[str, Any]]:
     missing_home_links = sorted(set(expected_urls) - homepage_links - {f"{PUBLIC_BASE_URL}/"})
     for url in missing_home_links:
         errors.append(f"homepage does not link directly to important page: {url}")
+
+    required_footer_paths = ["/", "/artists/", "/releases/", "/news/"]
+    for page_url, parser in parsed_pages.items():
+        resolved_links = {urllib.parse.urldefrag(urllib.parse.urljoin(page_url, href)).url for href in parser.anchors}
+        for suffix in required_footer_paths:
+            expected = f"{PUBLIC_BASE_URL}{suffix}"
+            if expected not in resolved_links:
+                errors.append(f"{expected_urls[page_url].relative_to(ROOT)}: missing common navigation link: {expected}")
+        if not any(urllib.parse.urlsplit(href).netloc in {"www.youtube.com", "youtube.com", "youtu.be"} for href in parser.anchors):
+            errors.append(f"{expected_urls[page_url].relative_to(ROOT)}: missing YouTube link")
 
     try:
         sitemap_root = ET.parse(ROOT / "sitemap.xml").getroot()
