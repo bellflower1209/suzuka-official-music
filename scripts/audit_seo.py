@@ -20,33 +20,20 @@ PUBLIC_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
 PUBLIC_PATH_PREFIX = "/suzuka-official-music/"
 PUBLIC_HOST = "bellflower1209.github.io"
 SITEMAP_URL = f"{PUBLIC_BASE_URL}/sitemap.xml"
+CATALOG_PATH = ROOT / "assets/data/enomoto-mia-releases.json"
 LEGACY_REDIRECTS = {
     Path("releases/toriatsukai-chuui/index.html"): f"{PUBLIC_BASE_URL}/releases/toriatsukai-chui/",
 }
+CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+PUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] == "published"]
+UNPUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] != "published"]
 MIA_DEDICATED_RELEASES = {
-    "無敵時間、あと3秒": "../../releases/muteki-jikan-ato-3byou/",
-    "M・I・A": "../../releases/mia/",
-    "解けない魔法を、愛と呼ぶ": "../../releases/tokenai-mahou-wo-ai-to-yobu/",
-    "君とならラスボスまで": "../../releases/kimi-to-nara-last-boss-made/",
-    "AIでもわからない": "../../releases/ai-demo-wakaranai/",
-    "君は花火": "../../releases/kimi-wa-hanabi/",
-    "百万告": "../../releases/hyakumankoku/",
-    "好きってバレてもいい": "../../releases/sukitte-baretemo-ii/",
-    "MERMAID×MERMAN": "../../releases/mermaid-merman/",
-    "取り扱いチュー💋い": "../../releases/toriatsukai-chui/",
+    release["title"]: f"../../{release['pageUrl']}" for release in PUBLISHED_MIA
 }
-NEW_RELEASE_DETAILS = {
-    "解けない魔法を、愛と呼ぶ": ("./releases/tokenai-mahou-wo-ai-to-yobu/", "https://www.youtube.com/watch?v=CAFQ-d7YHPQ"),
-    "君とならラスボスまで": ("./releases/kimi-to-nara-last-boss-made/", "https://www.youtube.com/watch?v=YVNs3I-KaHI"),
-    "AIでもわからない": ("./releases/ai-demo-wakaranai/", "https://www.youtube.com/watch?v=5jmTo3Jb5sI"),
-    "君は花火": ("./releases/kimi-wa-hanabi/", "https://www.youtube.com/watch?v=ohylad3AWYI"),
-    "好きってバレてもいい": ("./releases/sukitte-baretemo-ii/", "https://youtu.be/XP8yXMKFHVI"),
-    "MERMAID×MERMAN": ("./releases/mermaid-merman/", "https://youtu.be/29fpeNtUqfY"),
+MIA_RELEASE_DETAILS = {
+    release["title"]: (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
 }
-MIA_YOUTUBE_IDS = {
-    "QXvpLCnyoOw", "WzcXyuAI_FM", "QteunhFn9Dk", "DPnFtRFnH5c", "CAFQ-d7YHPQ",
-    "YVNs3I-KaHI", "5jmTo3Jb5sI", "ohylad3AWYI", "XP8yXMKFHVI", "29fpeNtUqfY",
-}
+MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA}
 
 
 class PageParser(HTMLParser):
@@ -219,6 +206,35 @@ def required_schema_types(relative: Path) -> set[str]:
 
 def audit() -> tuple[list[str], dict[str, Any]]:
     errors: list[str] = []
+    published_titles = [release["title"] for release in PUBLISHED_MIA]
+    published_slugs = [release["slug"] for release in PUBLISHED_MIA]
+    published_youtube_ids = [release["youtubeId"] for release in PUBLISHED_MIA]
+    for label, values in (
+        ("title", published_titles), ("slug", published_slugs), ("YouTube ID", published_youtube_ids)
+    ):
+        if len(values) != len(set(values)):
+            errors.append(f"release catalog contains duplicate {label} values")
+    known_slugs = set(published_slugs)
+    for release in PUBLISHED_MIA:
+        for field in ("title", "slug", "pageUrl", "youtubeUrl", "youtubeId", "youtubeVideoTitle", "image", "uploadDate"):
+            if not release.get(field):
+                errors.append(f"release catalog: {release.get('title', '(unknown)')} is missing {field}")
+        if str(release["title"]) not in str(release.get("youtubeVideoTitle", "")):
+            errors.append(f"release catalog: official YouTube title does not contain {release['title']}")
+        page_path = ROOT / str(release["pageUrl"]) / "index.html"
+        image_path = ROOT / str(release["image"])
+        if not page_path.is_file():
+            errors.append(f"release catalog page is missing: {release['pageUrl']}")
+        if not image_path.is_file():
+            errors.append(f"release catalog image is missing: {release['image']}")
+        related = release.get("relatedSongs", [])
+        if release["slug"] in related:
+            errors.append(f"release catalog: {release['title']} links to itself as a related song")
+        unknown_related = set(related) - known_slugs
+        if unknown_related:
+            errors.append(f"release catalog: {release['title']} has unknown related slugs: {sorted(unknown_related)}")
+        if len(related) < 3:
+            errors.append(f"release catalog: {release['title']} must have at least 3 related songs")
     pages = content_pages()
     expected_urls = {public_url(path): path for path in pages}
     parsed_pages: dict[str, PageParser] = {}
@@ -322,6 +338,34 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                     datetime.fromisoformat(upload_date)
                 except ValueError:
                     errors.append(f"{relative}: VideoObject uploadDate is not ISO 8601: {upload_date}")
+            if f"{PUBLIC_BASE_URL}/#releases" in schema_strings:
+                errors.append(f"{relative}: structured breadcrumb must point to /releases/")
+            release = next((item for item in PUBLISHED_MIA if item["pageUrl"] == relative.parent.as_posix() + "/"), None)
+            if release:
+                recording = schema_nodes.get(f"{page_url}#recording", {})
+                if recording.get("name") != release["title"]:
+                    errors.append(f"{relative}: MusicRecording name does not match the catalog")
+                if video.get("contentUrl") != release["youtubeUrl"]:
+                    errors.append(f"{relative}: VideoObject contentUrl does not match the catalog")
+                if not str(video.get("uploadDate", "")).startswith(str(release["uploadDate"])):
+                    errors.append(f"{relative}: VideoObject uploadDate does not match official YouTube")
+
+        if relative == Path("artists/enomoto-mia/index.html"):
+            itemlist_id = f"{page_url}#releases"
+            itemlist = schema_nodes.get(itemlist_id, {})
+            if itemlist.get("numberOfItems") != len(PUBLISHED_MIA):
+                errors.append(f"{relative}: release ItemList count must be {len(PUBLISHED_MIA)}")
+            listed = itemlist.get("itemListElement", [])
+            if [item.get("name") for item in listed] != published_titles:
+                errors.append(f"{relative}: release ItemList titles do not match the catalog")
+        if relative == Path("releases/index.html"):
+            itemlist = schema_nodes.get(f"{page_url}#itemlist", {})
+            listed = itemlist.get("itemListElement", [])
+            if itemlist.get("numberOfItems") != len(listed):
+                errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
+            for item in listed:
+                if not str(item.get("url", "")).startswith(("https://", "http://")):
+                    errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
 
         for reference in parser.references:
             if reference.startswith(("mailto:", "tel:", "javascript:", "data:")):
@@ -373,14 +417,43 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         cards_by_title[title] = card
     if len(release_titles) != len(set(release_titles)):
         errors.append("index.html: release list contains duplicate song cards")
-    for title, (detail_href, mv_href) in NEW_RELEASE_DETAILS.items():
+    for title, (detail_href, mv_href) in MIA_RELEASE_DETAILS.items():
         card = cards_by_title.get(title, "")
         if not card:
             errors.append(f"index.html: release card is missing for {title}")
             continue
-        for expected in (detail_href, mv_href, "詳細を見る", "MVを見る"):
+        for expected in (detail_href, mv_href):
             if expected not in card:
                 errors.append(f"index.html: {title} card is missing {expected}")
+
+    releases_html = (ROOT / "releases/index.html").read_text(encoding="utf-8")
+    release_index_cards = re.findall(r'<article class="release-card[^\"]*">.*?</article>', releases_html, re.DOTALL)
+    for title, (detail_href, mv_href) in MIA_RELEASE_DETAILS.items():
+        index_href = detail_href.replace("./releases/", "./")
+        card = next((item for item in release_index_cards if f"<h3>{title}</h3>" in item), "")
+        if not card:
+            errors.append(f"releases/index.html: release card is missing for {title}")
+            continue
+        for expected in (index_href, mv_href):
+            if expected not in card:
+                errors.append(f"releases/index.html: {title} card is missing {expected}")
+
+    public_surface = "\n".join(
+        (ROOT / path).read_text(encoding="utf-8")
+        for path in ("index.html", "artists/enomoto-mia/index.html", "releases/index.html", "sitemap.xml", "assets/main.js")
+    )
+    for release in UNPUBLISHED_MIA:
+        if release["title"] in public_surface:
+            errors.append(f"unpublished song appears on a public surface: {release['title']}")
+    fixed_count_pattern = re.compile(r"全\s*10曲|10\s*songs|榎本魅愛の\s*10曲|代表\s*10曲|公開曲は\s*10曲", re.IGNORECASE)
+    for path in [ROOT / "README.md", *ROOT.glob("docs/**/*.md"), *ROOT.rglob("*.html")]:
+        if fixed_count_pattern.search(path.read_text(encoding="utf-8")):
+            errors.append(f"{path.relative_to(ROOT)}: obsolete fixed 10-song wording remains")
+
+    player_js = (ROOT / "assets/main.js").read_text(encoding="utf-8")
+    for required in ("enomoto-mia-releases.json", 'release.status === "published"', "suzuka-player-track-select"):
+        if required not in player_js:
+            errors.append(f"assets/main.js: catalog-driven player is missing {required}")
 
     graph: dict[str, set[str]] = {url: set() for url in expected_urls}
     for page_url, parser in parsed_pages.items():

@@ -4,17 +4,26 @@
 from __future__ import annotations
 
 import json
+import html as html_lib
 import re
+import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://bellflower1209.github.io/suzuka-official-music"
 CHANNEL = "https://www.youtube.com/@bellflower5215"
+CATALOG_PATH = ROOT / "assets/data/enomoto-mia-releases.json"
+
+
+def release_catalog() -> list[dict[str, object]]:
+    data = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    return [release for release in data["releases"] if release["status"] == "published"]
 
 
 def page_head(*, title: str, description: str, canonical: str, image: str, asset_prefix: str = "../") -> str:
-    return f'''<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>{title}</title><meta name="description" content="{description}"/><link rel="canonical" href="{canonical}"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:locale" content="ja_JP"/><meta property="og:title" content="{title}"/><meta property="og:description" content="{description}"/><meta property="og:url" content="{canonical}"/><meta property="og:image" content="{image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{title}"/><meta name="twitter:description" content="{description}"/><meta name="twitter:image" content="{image}"/><link rel="stylesheet" href="{asset_prefix}assets/styles.css"/></head>'''
+    return f'''<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>{title}</title><meta name="description" content="{description}"/><link rel="canonical" href="{canonical}"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:locale" content="ja_JP"/><meta property="og:title" content="{title}"/><meta property="og:description" content="{description}"/><meta property="og:url" content="{canonical}"/><meta property="og:image" content="{image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{title}"/><meta name="twitter:description" content="{description}"/><meta name="twitter:image" content="{image}"/><link rel="icon" href="{asset_prefix}images/suzuka-channel.jpg"/><link rel="stylesheet" href="{asset_prefix}assets/styles.css"/></head>'''
 
 
 def header(prefix: str = "../") -> str:
@@ -34,23 +43,50 @@ def build_releases() -> None:
     cards = re.findall(r'<article class="release-card[^\"]*">.*?</article>', home, re.DOTALL)
     if not cards:
         raise RuntimeError("No release cards found on the homepage")
-    rendered = ("".join(cards).replace('href="./releases/', 'href="./')
-                .replace('href="./artists/', 'href="../artists/')
-                .replace('src="./images/', 'src="../images/'))
+    catalog_titles = {str(release["title"]) for release in release_catalog()}
+    other_cards = []
+    for card in cards:
+        match = re.search(r"<h3>(.*?)</h3>", card, re.DOTALL)
+        title = re.sub(r"<.*?>", "", match.group(1)).strip() if match else ""
+        if title not in catalog_titles:
+            other_cards.append(card.replace('href="./artists/', 'href="../artists/').replace('src="./images/', 'src="../images/'))
+
+    mia_cards = []
+    for release in release_catalog():
+        title = html_lib.escape(str(release["title"]))
+        artist = "榎本魅愛 × " + " × ".join(release.get("collaborators", [])) if release.get("collaborators") else "榎本魅愛"
+        date_label = str(release["uploadDate"]).replace("-", ".")
+        duration = int(release.get("duration") or 0)
+        duration_label = f"{duration // 60}:{duration % 60:02d}"
+        mia_cards.append(
+            f'<article class="release-card"><a class="release-image" href="./{release["slug"]}/" aria-label="{title}の詳細を見る">'
+            f'<img src="../{release["image"]}" alt="榎本魅愛「{title}」公式ジャケット" width="886" height="886" loading="lazy"/>'
+            f'<span class="card-wash wash-pink"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span>'
+            f'<span class="duration">{duration_label}</span></a><div class="release-info"><div class="release-row"><span>00</span><span>OFFICIAL · {date_label}</span></div>'
+            f'<h3>{title}</h3><p>{html_lib.escape(str(release["shortDescription"]))}</p><p class="release-artist-credit">{html_lib.escape(artist)}</p>'
+            f'<div class="release-card-actions"><a class="release-card-cta release-card-cta-detail" href="./{release["slug"]}/">詳細を見る <span aria-hidden="true">↗</span></a>'
+            f'<a class="release-card-cta" href="{release["youtubeUrl"]}" target="_blank" rel="noreferrer" aria-label="{title} — MVを見る">MVを見る <span aria-hidden="true">↗</span></a></div></div></article>'
+        )
+    ordered_cards = mia_cards + other_cards
+    numbered_cards = []
+    for position, card in enumerate(ordered_cards, 1):
+        card = re.sub(r'(<div class="release-row"><span>)\d+(</span>)', rf'\g<1>{position:02d}\2', card, count=1)
+        numbered_cards.append(card)
+    rendered = "".join(numbered_cards)
     canonical = f"{BASE}/releases/"
     description = "SUZUKA所属アーティストの公式リリース一覧。榎本魅愛、ECLYPSE、神代煌牙の楽曲情報、専用ページ、公式MVを紹介します。"
     items = []
-    for position, card in enumerate(cards, 1):
+    for position, card in enumerate(numbered_cards, 1):
         title = re.search(r"<h3>(.*?)</h3>", card, re.DOTALL)
         href = re.search(r'<a class="release-image" href="([^"]+)"', card)
         if title and href:
             url = href.group(1)
-            if url.startswith("./releases/"):
-                url = f"{BASE}/{url[2:]}"
+            if not urllib.parse.urlsplit(url).scheme:
+                url = urllib.parse.urljoin(canonical, url)
             items.append({"@type": "ListItem", "position": position, "name": re.sub(r"<.*?>", "", title.group(1)), "url": url})
     schema = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": canonical, "url": canonical, "name": "Releases｜SUZUKA", "description": description, "isPartOf": {"@id": f"{BASE}/#website"}},
-        {"@type": "ItemList", "@id": f"{canonical}#itemlist", "name": "SUZUKA リリース一覧", "itemListElement": items},
+        {"@type": "ItemList", "@id": f"{canonical}#itemlist", "name": "SUZUKA リリース一覧", "numberOfItems": len(items), "itemListElement": items},
         {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": f"{BASE}/"}, {"@type": "ListItem", "position": 2, "name": "Releases", "item": canonical}]},
     ]}
     html = page_head(title="Releases｜SUZUKA 公式楽曲・MV一覧", description=description, canonical=canonical, image=f"{BASE}/images/eclypse-shadow-code-cover.webp")
@@ -103,6 +139,8 @@ def normalize_existing_pages() -> None:
         text = path.read_text(encoding="utf-8")
         depth = len(path.relative_to(ROOT).parent.parts)
         prefix = "./" if depth == 0 else "../" * depth
+        if 'rel="icon"' not in text and 'rel="shortcut icon"' not in text:
+            text = text.replace("</head>", f'<link rel="icon" href="{prefix}images/suzuka-channel.jpg"/></head>', 1)
         if depth == 0:
             text = text.replace('href="#releases"', 'href="./releases/"').replace('href="#news"', 'href="./news/"')
         else:
@@ -118,18 +156,81 @@ def normalize_existing_pages() -> None:
 def add_profile_mv_links() -> None:
     path = ROOT / "artists/enomoto-mia/index.html"
     text = path.read_text(encoding="utf-8")
-    if 'id="official-mvs"' in text:
-        return
-    videos = [
-        ("取り扱いチュー💋い", "QXvpLCnyoOw"), ("M・I・A", "WzcXyuAI_FM"), ("百万告", "QteunhFn9Dk"),
-        ("無敵時間、あと3秒", "DPnFtRFnH5c"), ("解けない魔法を、愛と呼ぶ", "CAFQ-d7YHPQ"),
-        ("君とならラスボスまで", "YVNs3I-KaHI"), ("AIでもわからない", "5jmTo3Jb5sI"),
-        ("君は花火", "ohylad3AWYI"), ("好きってバレてもいい", "XP8yXMKFHVI"), ("MERMAID×MERMAN", "29fpeNtUqfY"),
-    ]
-    links = "".join(f'<a href="https://www.youtube.com/watch?v={video_id}" target="_blank" rel="noreferrer"><span>{name}</span><b>公式MV ↗</b></a>' for name, video_id in videos)
+    links = "".join(
+        f'<a href="{release["youtubeUrl"]}" target="_blank" rel="noreferrer"><span>{html_lib.escape(str(release["title"]))}</span><b>公式MV ↗</b></a>'
+        for release in release_catalog()
+    )
     section = f'''<section class="artist-mv-links" id="official-mvs" aria-labelledby="official-mvs-heading"><div class="artist-section-heading"><p>04 / Official videos</p><h2 id="official-mvs-heading">公式MV</h2></div><div class="artist-mv-link-grid">{links}</div></section>'''
-    text = text.replace('<section class="artist-youtube-cta">', section + '<section class="artist-youtube-cta">', 1)
+    if 'id="official-mvs"' in text:
+        text = re.sub(r'<section class="artist-mv-links" id="official-mvs".*?</section>', section, text, count=1, flags=re.DOTALL)
+    else:
+        text = text.replace('<section class="artist-youtube-cta">', section + '<section class="artist-youtube-cta">', 1)
     path.write_text(text, encoding="utf-8")
+
+
+def build_profile_track_list() -> None:
+    path = ROOT / "artists/enomoto-mia/index.html"
+    text = path.read_text(encoding="utf-8")
+    rows = []
+    for position, release in enumerate(release_catalog(), 1):
+        title = html_lib.escape(str(release["title"]))
+        collaborators = release.get("collaborators", [])
+        label = "榎本魅愛 × " + " × ".join(collaborators) if collaborators else f"Official · {str(release['uploadDate']).replace('-', '.')}"
+        rows.append(
+            f'<a class="artist-track-row" href="../../{release["pageUrl"]}"><span>{position:02d}</span>'
+            f'<img src="../../{release["image"]}" alt="榎本魅愛「{title}」公式ジャケット" width="886" height="886" loading="lazy"/>'
+            f'<div><strong>{title}</strong><small>{html_lib.escape(label)}</small></div><b aria-hidden="true">↗</b></a>'
+        )
+    replacement = f'<div class="artist-track-list">{"".join(rows)}</div>'
+    text, count = re.subn(r'<div class="artist-track-list">.*?</div></section>', replacement + '</section>', text, count=1, flags=re.DOTALL)
+    if count != 1:
+        raise RuntimeError("Profile track list was not found")
+    path.write_text(text, encoding="utf-8")
+
+
+def add_profile_release_itemlist() -> None:
+    path = ROOT / "artists/enomoto-mia/index.html"
+    text = path.read_text(encoding="utf-8")
+    items = [
+        {
+            "@type": "ListItem",
+            "position": position,
+            "name": release["title"],
+            "url": f"{BASE}/{release['pageUrl']}",
+        }
+        for position, release in enumerate(release_catalog(), 1)
+    ]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "@id": f"{BASE}/artists/enomoto-mia/#releases",
+        "name": "榎本魅愛 公開済み楽曲",
+        "numberOfItems": len(items),
+        "itemListElement": items,
+    }
+    block = f'<script id="mia-release-itemlist" type="application/ld+json">{json.dumps(data, ensure_ascii=False, separators=(",", ":"))}</script>'
+    text = re.sub(r'<script id="mia-release-itemlist" type="application/ld\+json">.*?</script>', "", text, flags=re.DOTALL)
+    text = text.replace("</head>", block + "</head>", 1)
+    path.write_text(text, encoding="utf-8")
+
+
+def normalize_catalog_titles() -> None:
+    replacements = {
+        "もしも明日、はじめましてになっても。": "もしも明日、はじめましてになっても",
+        "未来のわたしが見てる": "未来の私が見てる",
+    }
+    for path in [*ROOT.rglob("*.html"), ROOT / "scripts/sync_from_canonical.py"]:
+        if path == ROOT / "releases/toriatsukai-chuui/index.html":
+            continue
+        text = path.read_text(encoding="utf-8")
+        for old, new in replacements.items():
+            text = text.replace(old, new)
+        for release in release_catalog():
+            text = text.replace(f"https://youtu.be/{release['youtubeId']}", str(release["youtubeUrl"]))
+        text = text.replace(f"{BASE}/#releases", f"{BASE}/releases/")
+        if path == ROOT / "index.html":
+            text = text.replace("楽曲・MVを見る", "榎本魅愛の全楽曲を見る")
+        path.write_text(text, encoding="utf-8")
 
 
 def add_descriptive_alts() -> None:
@@ -141,7 +242,7 @@ def add_descriptive_alts() -> None:
         "mv-mahou.jpg": "榎本魅愛「解けない魔法を、愛と呼ぶ」ジャケット",
         "mv-mermaid-merman.jpg": "榎本魅愛「MERMAID×MERMAN」ジャケット",
         "mv-mia.jpg": "榎本魅愛「M・I・A」ジャケット",
-        "mv-mirai-no-watashi-ga-miteru.jpg": "榎本魅愛「未来のわたしが見てる」ジャケット",
+        "mv-mirai-no-watashi-ga-miteru.jpg": "榎本魅愛「未来の私が見てる」ジャケット",
         "mv-muteki.jpg": "榎本魅愛「無敵時間、あと3秒」ジャケット",
         "mv-our-kingdom.jpg": "榎本魅愛・神代煌牙「OUR KINGDOM」ジャケット",
         "mv-sukitte-baretemo-ii.jpg": "榎本魅愛「好きってバレてもいい」ジャケット",
@@ -173,13 +274,32 @@ def complete_related_release_links() -> None:
         path.write_text(text, encoding="utf-8")
 
 
+def sync_catalog_sitemap() -> None:
+    path = ROOT / "sitemap.xml"
+    ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
+    tree = ET.parse(path)
+    root = tree.getroot()
+    namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    existing = {element.findtext(f"{namespace}loc"): element for element in root.findall(f"{namespace}url")}
+    for release in release_catalog():
+        url = f"{BASE}/{release['pageUrl']}"
+        if url not in existing:
+            url_element = ET.SubElement(root, f"{namespace}url")
+            ET.SubElement(url_element, f"{namespace}loc").text = url
+    tree.write(path, encoding="utf-8", xml_declaration=True, short_empty_elements=False)
+
+
 def main() -> None:
-    build_releases()
-    build_news()
+    normalize_catalog_titles()
     normalize_existing_pages()
+    build_profile_track_list()
     add_profile_mv_links()
+    add_profile_release_itemlist()
     add_descriptive_alts()
     complete_related_release_links()
+    build_releases()
+    build_news()
+    sync_catalog_sitemap()
     print("Internal navigation pages and links repaired.")
 
 

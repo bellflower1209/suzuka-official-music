@@ -65,7 +65,9 @@ python3 scripts/sync_from_canonical.py
 
 GitHub Pagesで先行追加した「好きが、今日も増えていく。」はローカル専用リリースとして管理し、同期時にも個別ページ、トップページの最新カード、榎本魅愛の楽曲一覧、sitemapへの登録を保持します。
 
-「もしも明日、はじめましてになっても。」も同じローカル専用リリースとして管理し、同期時に個別ページ、トップページ、榎本魅愛の代表曲・楽曲一覧、sitemapへの登録を保持します。正式ジャケットは `images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png` です。
+「もしも明日、はじめましてになっても」も同じローカル専用リリースとして管理し、同期時に個別ページ、トップページ、榎本魅愛の代表曲・楽曲一覧、sitemapへの登録を保持します。ジャケット上では末尾に句点があるため、表記差は楽曲台帳に記録しています。正式ジャケットは `images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png` です。
+
+榎本魅愛の公開済み楽曲は `assets/data/enomoto-mia-releases.json` を正本として管理します。プロフィールの公式MV一覧、構造化データ、固定プレイヤー、監査スクリプトは、曲数をHTMLへ直接記載せず、この台帳の `status: published` から対象曲を取得します。未公開曲は `status: unpublished` とし、公開一覧やプレイヤーへ表示しません。
 
 ### 「好きが、今日も増えていく。」正式ジャケットの差し替え
 

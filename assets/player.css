@@ -41,7 +41,7 @@
 .suzuka-player-cover,
 .suzuka-player-toggle,
 .suzuka-player-details,
-.suzuka-player-youtube {
+.suzuka-player-actions {
   position: relative;
   z-index: 1;
 }
@@ -105,6 +105,37 @@
   white-space: nowrap;
 }
 
+.suzuka-player-track-controls {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) 22px;
+  gap: 4px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.suzuka-player-track-controls button,
+.suzuka-player-track-select {
+  height: 22px;
+  color: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.suzuka-player-track-controls button {
+  padding: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.suzuka-player-track-select {
+  width: 100%;
+  min-width: 0;
+  padding: 0 5px;
+  font-size: 0.54rem;
+}
+
 .suzuka-player-kicker {
   color: #f4a4cf;
   letter-spacing: 0.13em;
@@ -144,16 +175,24 @@
   accent-color: var(--player-pink);
 }
 
-.suzuka-player-youtube {
-  align-self: start;
+.suzuka-player-actions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.suzuka-player-actions a {
   color: rgba(255, 255, 255, 0.7);
   letter-spacing: 0.08em;
   font-size: 0.52rem;
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
-.suzuka-player-youtube:hover,
-.suzuka-player-youtube:focus-visible {
+.suzuka-player-actions a:hover,
+.suzuka-player-actions a:focus-visible {
   color: #fff;
 }
 
@@ -195,9 +234,11 @@
   height: 48px;
 }
 
-.suzuka-music-player.is-expanded .suzuka-player-youtube {
+.suzuka-music-player.is-expanded .suzuka-player-actions {
   grid-column: 3;
   margin-top: -8px;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .suzuka-player-status {
@@ -250,10 +291,9 @@
     font-size: 0.49rem;
   }
 
-  .suzuka-player-youtube {
-    width: 21px;
+  .suzuka-player-actions {
+    max-width: 42px;
     overflow: hidden;
-    white-space: nowrap;
   }
 
   .suzuka-music-player.is-expanded {
@@ -290,17 +330,24 @@
     grid-row: 1 / span 2;
   }
 
-  .suzuka-music-player.is-expanded .suzuka-player-youtube {
+  .suzuka-music-player.is-expanded .suzuka-player-actions {
     grid-column: 1;
     grid-row: 2;
-    width: auto;
+    max-width: none;
     margin: 0;
+    flex-direction: column;
+    gap: 3px;
   }
 
   .suzuka-player-progress {
     grid-template-columns: 26px minmax(30px, 1fr) 26px;
     gap: 4px;
     margin-top: 4px;
+  }
+
+  .suzuka-player-track-controls {
+    grid-template-columns: 20px minmax(0, 1fr) 20px;
+    margin-top: 3px;
   }
 }
 

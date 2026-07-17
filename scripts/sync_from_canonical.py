@@ -89,9 +89,9 @@ RELEASE_ENGAGEMENT = {
     "AIでもわからない": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=5jmTo3Jb5sI", "WATCH MV", True),
     "君は花火": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=ohylad3AWYI", "WATCH MV", True),
     "百万告": ("榎本魅愛", "DEBUT SONG", "./releases/hyakumankoku/", "楽曲情報を見る", False),
-    "好きってバレてもいい": ("榎本魅愛", "OFFICIAL MUSIC", "https://youtu.be/XP8yXMKFHVI", "WATCH MV", True),
-    "MERMAID×MERMAN": ("榎本魅愛", "OFFICIAL MUSIC", "https://youtu.be/29fpeNtUqfY", "WATCH MV", True),
-    "未来のわたしが見てる": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=fgAW1njpSxM", "WATCH MV", True),
+    "好きってバレてもいい": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=XP8yXMKFHVI", "WATCH MV", True),
+    "MERMAID×MERMAN": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=29fpeNtUqfY", "WATCH MV", True),
+    "未来の私が見てる": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=fgAW1njpSxM", "WATCH MV", True),
     "OUR KINGDOM": ("榎本魅愛 × 神代煌牙", "COLLABORATION", "https://www.youtube.com/watch?v=y26XVRkpfjw", "WATCH MV", True),
     "取り扱いチュー💋い": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=QXvpLCnyoOw", "WATCH MV", True),
 }
@@ -218,15 +218,15 @@ def add_new_release_to_home(source: str) -> str:
     moshimo_card = (
         '<article class="release-card release-card-new">'
         '<a class="release-image" href="./releases/moshimo-ashita-hajimemashite-ni-natte-mo/" '
-        'aria-label="もしも明日、はじめましてになっても。の詳細を見る">'
+        'aria-label="もしも明日、はじめましてになってもの詳細を見る">'
         '<img src="./images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
-        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        'alt="榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
         '<span class="card-wash wash-pink"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span></a>'
         '<div class="release-info"><div class="release-row"><span>01</span><span>NEW RELEASE · 2026.07.16</span></div>'
-        '<h3>もしも明日、はじめましてになっても。</h3><p>忘れられても、愛は終わらない。</p>'
+        '<h3>もしも明日、はじめましてになっても</h3><p>忘れられても、愛は終わらない。</p>'
         '<p class="release-artist-credit">榎本魅愛</p>'
         '<a class="release-card-cta" href="https://www.youtube.com/watch?v=GN6eoBDRm3w" target="_blank" '
-        'rel="noreferrer" aria-label="もしも明日、はじめましてになっても。 — WATCH MV">'
+        'rel="noreferrer" aria-label="もしも明日、はじめましてになっても — WATCH MV">'
         'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
     )
     suki_card = (
@@ -363,11 +363,11 @@ def enhance_artist_page(source: str) -> str:
 def add_new_release_to_enomoto(source: str) -> str:
     moshimo_featured_card = (
         '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=GN6eoBDRm3w" '
-        'target="_blank" rel="noreferrer" aria-label="もしも明日、はじめましてになっても。のMusic Videoを観る">'
+        'target="_blank" rel="noreferrer" aria-label="もしも明日、はじめましてになってものMusic Videoを観る">'
         '<div class="artist-featured-image"><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
-        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        'alt="榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
         '<span class="artist-featured-play"><span class="play-mark" aria-hidden="true"></span></span></div>'
-        '<div class="artist-featured-copy"><span>01 / New Release</span><h3>もしも明日、はじめましてになっても。</h3>'
+        '<div class="artist-featured-copy"><span>01 / New Release</span><h3>もしも明日、はじめましてになっても</h3>'
         '<p>忘れられても、愛は終わらない。</p></div></a></article>'
     )
     suki_featured_card = (
@@ -405,8 +405,8 @@ def add_new_release_to_enomoto(source: str) -> str:
     moshimo_row = (
         '<a class="artist-track-row artist-track-row-new" href="../../releases/moshimo-ashita-hajimemashite-ni-natte-mo/">'
         '<span>01</span><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
-        'alt="榎本魅愛「もしも明日、はじめましてになっても。」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
-        '<div><strong>もしも明日、はじめましてになっても。</strong><small>New Release · 2026.07.16</small></div>'
+        'alt="榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
+        '<div><strong>もしも明日、はじめましてになっても</strong><small>New Release · 2026.07.16</small></div>'
         '<b aria-hidden="true">↗</b></a>'
     )
     suki_row = (
