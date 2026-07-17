@@ -38,11 +38,19 @@ SOURCE_ROUTES = {
 }
 SUKI_RELEASE_ROUTE = "/releases/suki-ga-kyou-mo-fueteiku"
 MOSHIMO_RELEASE_ROUTE = "/releases/moshimo-ashita-hajimemashite-ni-natte-mo"
-LOCAL_ROUTES = {
+LOCAL_ADDED_CARD_ROUTES = {
     SUKI_RELEASE_ROUTE: Path("releases/suki-ga-kyou-mo-fueteiku/index.html"),
     MOSHIMO_RELEASE_ROUTE: Path("releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html"),
 }
+LOCAL_ROUTES = {
+    **LOCAL_ADDED_CARD_ROUTES,
+    "/releases/shadow-code": Path("releases/shadow-code/index.html"),
+    "/releases/my-queen-my-oath": Path("releases/my-queen-my-oath/index.html"),
+}
 LOCAL_REQUIRED_ASSETS = {
+    Path("assets/official-release.css"),
+    Path("images/eclypse-shadow-code-cover.webp"),
+    Path("images/koga-kamishiro.webp"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-toriatsukai-chuui.jpg"),
@@ -69,7 +77,7 @@ CHANNEL_URL = "https://www.youtube.com/@bellflower5215"
 SHADOW_CODE_URL = "https://www.youtube.com/watch?v=8VCL2IepjeM"
 RELEASE_ENGAGEMENT = {
     "SHADOW//CODE": ("ECLYPSE", "DEBUT SINGLE · 2026", SHADOW_CODE_URL, "WATCH MV", True),
-    "My Queen, My Oath": ("神代 煌牙", "DEBUT SINGLE · 2026", "./artists/koga-kamishiro/#debut-single", "楽曲情報を見る", False),
+    "My Queen, My Oath": ("神代 煌牙", "DEBUT SINGLE · 2026", "./releases/my-queen-my-oath/", "楽曲情報を見る", False),
     "無敵時間、あと3秒": ("榎本魅愛", "5TH SINGLE", "./releases/muteki-jikan-ato-3byou/", "楽曲情報を見る", False),
     "M・I・A": ("榎本魅愛", "OFFICIAL MV", "./releases/mia/", "楽曲情報を見る", False),
     "解けない魔法を、愛と呼ぶ": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=CAFQ-d7YHPQ", "WATCH MV", True),
@@ -84,6 +92,8 @@ RELEASE_ENGAGEMENT = {
     "取り扱いチュー💋い": ("榎本魅愛", "OFFICIAL MUSIC", "https://www.youtube.com/watch?v=QXvpLCnyoOw", "WATCH MV", True),
 }
 RELEASE_DETAIL_ROUTES = {
+    "SHADOW//CODE": "./releases/shadow-code/",
+    "My Queen, My Oath": "./releases/my-queen-my-oath/",
     "解けない魔法を、愛と呼ぶ": "./releases/tokenai-mahou-wo-ai-to-yobu/",
     "君とならラスボスまで": "./releases/kimi-to-nara-last-boss-made/",
     "AIでもわからない": "./releases/ai-demo-wakaranai/",
@@ -181,12 +191,18 @@ def enhance_release_cards(source: str) -> str:
         attributes = ' target="_blank" rel="noreferrer"' if external else ""
         detail_route = RELEASE_DETAIL_ROUTES.get(title)
         if detail_route:
+            card = re.sub(
+                r'<a class="release-image"[^>]*>',
+                f'<a class="release-image" href="{detail_route}" aria-label="{html_lib.escape(title)}の詳細を見る">',
+                card,
+                count=1,
+            )
+            detail_action = f'<a class="release-card-cta release-card-cta-detail" href="{detail_route}">詳細を見る <span aria-hidden="true">↗</span></a>'
             actions = (
-                '<div class="release-card-actions">'
-                f'<a class="release-card-cta release-card-cta-detail" href="{detail_route}">詳細を見る <span aria-hidden="true">↗</span></a>'
+                f'<div class="release-card-actions">{detail_action}'
                 f'<a class="release-card-cta" href="{html_lib.escape(href)}"{attributes}'
-                f' aria-label="{html_lib.escape(title)} — MVを見る">MVを見る <span aria-hidden="true">↗</span></a>'
-                '</div>'
+                f' aria-label="{html_lib.escape(title)} — MVを見る">MVを見る <span aria-hidden="true">↗</span></a></div>'
+                if external else detail_action
             )
         else:
             actions = (
@@ -251,7 +267,7 @@ def add_new_release_to_home(source: str) -> str:
         renumber,
         source,
     )
-    expected = len(RELEASE_ENGAGEMENT) + len(LOCAL_ROUTES)
+    expected = len(RELEASE_ENGAGEMENT) + len(LOCAL_ADDED_CARD_ROUTES)
     if count != expected:
         raise RuntimeError(f"Expected {expected} numbered release cards after adding local releases, found {count}.")
     return source
@@ -260,11 +276,11 @@ def add_new_release_to_home(source: str) -> str:
 def enhance_artist_cards(source: str) -> str:
     actions = {
         "./artists/eclypse/": (
-            (SHADOW_CODE_URL, "SHADOW//CODEを見る", True),
+            ("./releases/shadow-code/", "SHADOW//CODEの楽曲情報", False),
             ("./artists/eclypse/", "ECLYPSEプロフィール", False),
         ),
         "./artists/koga-kamishiro/": (
-            ("./artists/koga-kamishiro/#debut-single", "My Queen, My Oathの楽曲情報", False),
+            ("./releases/my-queen-my-oath/", "My Queen, My Oathの楽曲情報", False),
             ("./artists/koga-kamishiro/", "神代煌牙プロフィール", False),
         ),
         "./artists/enomoto-mia/": (
@@ -297,7 +313,7 @@ def enhance_home(source: str) -> str:
         '<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース SHADOW//CODEのメニュー">'
         '<p><span>LATEST RELEASE</span><strong>ECLYPSE — SHADOW//CODE</strong></p>'
         f'<a class="button button-primary" href="{SHADOW_CODE_URL}" target="_blank" rel="noreferrer">MVを見る <span aria-hidden="true">↗</span></a>'
-        '<a class="button button-ghost" href="./artists/eclypse/#debut-single">曲を聴く <span aria-hidden="true">▶</span></a>'
+        '<a class="button button-ghost" href="./releases/shadow-code/">楽曲情報を見る <span aria-hidden="true">↗</span></a>'
         f'<a class="button button-youtube" href="{CHANNEL_URL}" target="_blank" rel="noreferrer">YouTubeでSUZUKAをフォロー <span aria-hidden="true">↗</span></a>'
         '</div>'
     )
@@ -346,6 +362,30 @@ def enhance_artist_page(source: str) -> str:
         '</nav>'
     )
     return replace_once(source, '<footer class="artist-profile-footer">', f'{navigation}<footer class="artist-profile-footer">', "artist navigation")
+
+
+def add_other_artist_release_link(source: str, output_path: Path) -> str:
+    if output_path == Path("artists/eclypse/index.html"):
+        href = "../../releases/shadow-code/"
+        if href not in source:
+            source = replace_once(
+                source,
+                '<a class="button artist-primary-button eclypse-video-button"',
+                f'<a class="button artist-ghost-button" href="{href}">SHADOW//CODE 楽曲情報 ↗</a>'
+                '<a class="button artist-primary-button eclypse-video-button"',
+                "ECLYPSE release detail link",
+            )
+    elif output_path == Path("artists/koga-kamishiro/index.html"):
+        href = "../../releases/my-queen-my-oath/"
+        if href not in source:
+            source = replace_once(
+                source,
+                '<div class="koga-lyrics">',
+                f'<a class="button artist-primary-button" href="{href}">My Queen, My Oath 楽曲情報 ↗</a>'
+                '<div class="koga-lyrics">',
+                "KOGA release detail link",
+            )
+    return source
 
 
 def add_new_release_to_enomoto(source: str) -> str:
@@ -440,7 +480,7 @@ def enhance_html(source: str, output_path: Path) -> str:
         Path("artists/eclypse/index.html"),
         Path("artists/koga-kamishiro/index.html"),
     }:
-        return enhance_artist_page(source)
+        return enhance_artist_page(add_other_artist_release_link(source, output_path))
     return source
 
 

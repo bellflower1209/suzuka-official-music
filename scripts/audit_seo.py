@@ -34,6 +34,22 @@ MIA_RELEASE_DETAILS = {
     release["title"]: (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA}
+OTHER_RELEASE_DETAILS = {
+    "SHADOW//CODE": {
+        "homeDetail": "./releases/shadow-code/",
+        "indexDetail": "./shadow-code/",
+        "artistPage": Path("artists/eclypse/index.html"),
+        "artistDetail": "../../releases/shadow-code/",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8VCL2IepjeM",
+    },
+    "My Queen, My Oath": {
+        "homeDetail": "./releases/my-queen-my-oath/",
+        "indexDetail": "./my-queen-my-oath/",
+        "artistPage": Path("artists/koga-kamishiro/index.html"),
+        "artistDetail": "../../releases/my-queen-my-oath/",
+        "youtubeUrl": None,
+    },
+}
 
 
 class PageParser(HTMLParser):
@@ -199,6 +215,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route.startswith("news/"):
         return {"Article", "WebPage", "BreadcrumbList"}
+    if route == "releases/my-queen-my-oath/index.html":
+        return {"MusicRecording", "BreadcrumbList", "WebPage"}
     if route.startswith("releases/"):
         return {"MusicRecording", "VideoObject", "BreadcrumbList", "WebPage"}
     return set()
@@ -323,7 +341,10 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for value in schema_strings:
             if value.startswith("https://bellflower1209.github.io/") and not value.startswith(PUBLIC_BASE_URL):
                 errors.append(f"{relative}: JSON-LD points outside the canonical project path: {value}")
-        if relative.as_posix().startswith("releases/") and relative.as_posix() != "releases/index.html":
+        if (
+            relative.as_posix().startswith("releases/")
+            and relative.as_posix() not in {"releases/index.html", "releases/my-queen-my-oath/index.html"}
+        ):
             video_id = f"{page_url}#video"
             video = schema_nodes.get(video_id, {})
             required_video_fields = {"name", "description", "thumbnailUrl", "uploadDate", "contentUrl", "embedUrl"}
@@ -366,6 +387,21 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             for item in listed:
                 if not str(item.get("url", "")).startswith(("https://", "http://")):
                     errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
+        if relative == Path("releases/shadow-code/index.html"):
+            recording = schema_nodes.get(f"{page_url}#recording", {})
+            video = schema_nodes.get(f"{page_url}#video", {})
+            if recording.get("name") != "SHADOW//CODE":
+                errors.append(f"{relative}: MusicRecording name must be SHADOW//CODE")
+            if video.get("contentUrl") != OTHER_RELEASE_DETAILS["SHADOW//CODE"]["youtubeUrl"]:
+                errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
+        if relative == Path("releases/my-queen-my-oath/index.html"):
+            recording = schema_nodes.get(f"{page_url}#recording", {})
+            if recording.get("name") != "My Queen, My Oath":
+                errors.append(f"{relative}: MusicRecording name must be My Queen, My Oath")
+            if "VideoObject" in schema_types:
+                errors.append(f"{relative}: must not claim VideoObject without a confirmed official video")
+            if any("datePublished" in node for node in schema_nodes.values()):
+                errors.append(f"{relative}: must not infer datePublished")
 
         for reference in parser.references:
             if reference.startswith(("mailto:", "tel:", "javascript:", "data:")):
@@ -425,6 +461,16 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for expected in (detail_href, mv_href):
             if expected not in card:
                 errors.append(f"index.html: {title} card is missing {expected}")
+    for title, details in OTHER_RELEASE_DETAILS.items():
+        card = cards_by_title.get(title, "")
+        if not card:
+            errors.append(f"index.html: release card is missing for {title}")
+            continue
+        if str(details["homeDetail"]) not in card:
+            errors.append(f"index.html: {title} card is missing its dedicated page link")
+        youtube_url = details["youtubeUrl"]
+        if youtube_url and str(youtube_url) not in card:
+            errors.append(f"index.html: {title} card is missing its confirmed MV link")
 
     releases_html = (ROOT / "releases/index.html").read_text(encoding="utf-8")
     release_index_cards = re.findall(r'<article class="release-card[^\"]*">.*?</article>', releases_html, re.DOTALL)
@@ -437,6 +483,26 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for expected in (index_href, mv_href):
             if expected not in card:
                 errors.append(f"releases/index.html: {title} card is missing {expected}")
+    for title, details in OTHER_RELEASE_DETAILS.items():
+        card = next((item for item in release_index_cards if f"<h3>{title}</h3>" in item), "")
+        if not card:
+            errors.append(f"releases/index.html: release card is missing for {title}")
+            continue
+        if str(details["indexDetail"]) not in card:
+            errors.append(f"releases/index.html: {title} card is missing its dedicated page link")
+        youtube_url = details["youtubeUrl"]
+        if youtube_url and str(youtube_url) not in card:
+            errors.append(f"releases/index.html: {title} card is missing its confirmed MV link")
+
+    for title, details in OTHER_RELEASE_DETAILS.items():
+        artist_path = ROOT / details["artistPage"]
+        artist_page = artist_path.read_text(encoding="utf-8")
+        if str(details["artistDetail"]) not in artist_page:
+            errors.append(f"{details['artistPage']}: missing dedicated release link for {title}")
+
+    shadow_news = (ROOT / "news/shadow-code-announcement/index.html").read_text(encoding="utf-8")
+    if "../../releases/shadow-code/" not in shadow_news:
+        errors.append("news/shadow-code-announcement/index.html: missing SHADOW//CODE release link")
 
     public_surface = "\n".join(
         (ROOT / path).read_text(encoding="utf-8")

@@ -1,0 +1,195 @@
+.official-release-page {
+  --official-surface: rgba(255, 255, 255, 0.055);
+  --official-line: rgba(255, 255, 255, 0.14);
+  background:
+    radial-gradient(circle at 78% 12%, var(--release-glow), transparent 30rem),
+    #070408;
+}
+
+.official-release-page .release-detail-artwork img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.official-release-page.is-koga-release .release-detail-artwork img {
+  object-position: center top;
+}
+
+.official-release-artwork-note {
+  color: rgba(255, 255, 255, 0.66);
+  letter-spacing: 0.06em;
+  margin: 0.9rem 0 0;
+  font-size: 0.7rem;
+  line-height: 1.7;
+}
+
+.official-release-story,
+.official-release-video,
+.official-release-lyrics {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: clamp(5rem, 9vw, 8rem) clamp(1.25rem, 7vw, 7rem);
+}
+
+.official-release-story {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.72fr) minmax(300px, 1fr);
+  gap: clamp(3rem, 8vw, 8rem);
+  border-bottom: 1px solid var(--official-line);
+}
+
+.official-release-heading > p,
+.official-release-video-copy > p,
+.official-release-lyrics > p {
+  color: var(--release-primary);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  font-weight: 800;
+}
+
+.official-release-heading h2,
+.official-release-video-copy h2,
+.official-release-lyrics h2 {
+  font-family: var(--serif);
+  letter-spacing: -0.04em;
+  margin: 1.2rem 0 0;
+  font-size: clamp(2.8rem, 5.7vw, 6rem);
+  font-weight: 400;
+  line-height: 1.02;
+}
+
+.official-release-body > p {
+  color: var(--muted);
+  margin: 0 0 1.25rem;
+  font-size: 0.92rem;
+  line-height: 2.1;
+}
+
+.official-release-body > p:first-child {
+  color: #fff;
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
+  line-height: 1.8;
+}
+
+.official-release-facts {
+  border-top: 1px solid var(--official-line);
+  margin: 2.5rem 0 0;
+}
+
+.official-release-facts div {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.38fr) 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--official-line);
+}
+
+.official-release-facts dt {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.67rem;
+}
+
+.official-release-facts dd {
+  margin: 0;
+  font-family: var(--serif);
+}
+
+.official-release-video {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.65fr) minmax(320px, 1fr);
+  align-items: center;
+  gap: clamp(3rem, 7vw, 7rem);
+}
+
+.official-release-video-copy > span {
+  color: var(--muted);
+  display: block;
+  margin: 1.5rem 0 2rem;
+  line-height: 2;
+}
+
+.official-release-video-frame {
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--official-line);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 0 30px 90px var(--release-glow);
+}
+
+.official-release-video-frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.official-release-video-unavailable {
+  min-height: 300px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid var(--official-line);
+  background: radial-gradient(circle at 50% 20%, var(--release-glow), transparent 55%), var(--official-surface);
+}
+
+.official-release-video-unavailable strong,
+.official-release-video-unavailable span {
+  display: block;
+}
+
+.official-release-video-unavailable strong {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  font-weight: 400;
+}
+
+.official-release-video-unavailable span {
+  color: var(--muted);
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+.official-release-lyrics {
+  border-top: 1px solid var(--official-line);
+  border-bottom: 1px solid var(--official-line);
+}
+
+.official-release-lyrics blockquote {
+  max-width: 760px;
+  margin: 2.5rem 0 0;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--release-primary);
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
+  line-height: 1.9;
+}
+
+.official-release-lyrics blockquote span {
+  display: block;
+}
+
+.official-release-source-note {
+  color: var(--muted);
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 720px) {
+  .official-release-story,
+  .official-release-video {
+    grid-template-columns: 1fr;
+  }
+
+  .official-release-story,
+  .official-release-video,
+  .official-release-lyrics {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .official-release-video-unavailable {
+    min-height: 230px;
+  }
+}

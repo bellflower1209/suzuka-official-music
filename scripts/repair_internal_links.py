@@ -16,6 +16,16 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://bellflower1209.github.io/suzuka-official-music"
 CHANNEL = "https://www.youtube.com/@bellflower5215"
 CATALOG_PATH = ROOT / "assets/data/enomoto-mia-releases.json"
+OTHER_RELEASES = {
+    "SHADOW//CODE": {
+        "slug": "shadow-code",
+        "youtube": "https://www.youtube.com/watch?v=8VCL2IepjeM",
+    },
+    "My Queen, My Oath": {
+        "slug": "my-queen-my-oath",
+        "youtube": None,
+    },
+}
 
 
 def release_catalog() -> list[dict[str, object]]:
@@ -39,6 +49,71 @@ def json_script(data: object) -> str:
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "</script>"
 
 
+def normalize_other_release_card(card: str, *, title: str, detail_prefix: str) -> str:
+    release = OTHER_RELEASES[title]
+    detail_href = f'{detail_prefix}{release["slug"]}/'
+    card = re.sub(
+        r'<a class="release-image"[^>]*>',
+        f'<a class="release-image" href="{detail_href}" aria-label="{html_lib.escape(title)}の詳細を見る">',
+        card,
+        count=1,
+    )
+    detail = f'<a class="release-card-cta release-card-cta-detail" href="{detail_href}">詳細を見る <span aria-hidden="true">↗</span></a>'
+    if release["youtube"]:
+        actions = (
+            f'<div class="release-card-actions">{detail}'
+            f'<a class="release-card-cta" href="{release["youtube"]}" target="_blank" rel="noreferrer" '
+            f'aria-label="{html_lib.escape(title)} — MVを見る">MVを見る <span aria-hidden="true">↗</span></a></div>'
+        )
+    else:
+        actions = detail
+    card = re.sub(
+        r'(?:<div class="release-card-actions">.*?</div>|<a class="release-card-cta[^"]*"[^>]*>.*?</a>)(?=</div></article>)',
+        actions,
+        card,
+        count=1,
+        flags=re.DOTALL,
+    )
+    return card
+
+
+def connect_other_release_pages() -> None:
+    home_path = ROOT / "index.html"
+    home = home_path.read_text(encoding="utf-8")
+
+    def update_card(match: re.Match[str]) -> str:
+        card = match.group(0)
+        title_match = re.search(r"<h3>(.*?)</h3>", card, re.DOTALL)
+        title = re.sub(r"<.*?>", "", title_match.group(1)).strip() if title_match else ""
+        return normalize_other_release_card(card, title=title, detail_prefix="./releases/") if title in OTHER_RELEASES else card
+
+    home = re.sub(r'<article class="release-card[^\"]*">.*?</article>', update_card, home, flags=re.DOTALL)
+    home = home.replace('href="./artists/eclypse/#debut-single">曲を聴く', 'href="./releases/shadow-code/">楽曲情報を見る')
+    home = home.replace('href="https://www.youtube.com/watch?v=8VCL2IepjeM" target="_blank" rel="noreferrer" aria-label="SHADOW//CODEを見る">SHADOW//CODEを見る', 'href="./releases/shadow-code/" aria-label="SHADOW//CODEの楽曲情報">SHADOW//CODEの楽曲情報')
+    home = home.replace('href="./artists/koga-kamishiro/#debut-single" aria-label="My Queen, My Oathの楽曲情報">', 'href="./releases/my-queen-my-oath/" aria-label="My Queen, My Oathの楽曲情報">')
+    home_path.write_text(home, encoding="utf-8")
+
+    eclypse_path = ROOT / "artists/eclypse/index.html"
+    eclypse = eclypse_path.read_text(encoding="utf-8")
+    if '../../releases/shadow-code/' not in eclypse:
+        eclypse = eclypse.replace(
+            '<a class="button artist-primary-button eclypse-video-button"',
+            '<a class="button artist-ghost-button" href="../../releases/shadow-code/">SHADOW//CODE 楽曲情報 ↗</a><a class="button artist-primary-button eclypse-video-button"',
+            1,
+        )
+    eclypse_path.write_text(eclypse, encoding="utf-8")
+
+    koga_path = ROOT / "artists/koga-kamishiro/index.html"
+    koga = koga_path.read_text(encoding="utf-8")
+    if '../../releases/my-queen-my-oath/' not in koga:
+        koga = koga.replace(
+            '<div class="koga-lyrics">',
+            '<a class="button artist-primary-button" href="../../releases/my-queen-my-oath/">My Queen, My Oath 楽曲情報 ↗</a><div class="koga-lyrics">',
+            1,
+        )
+    koga_path.write_text(koga, encoding="utf-8")
+
+
 def build_releases() -> None:
     home = (ROOT / "index.html").read_text(encoding="utf-8")
     cards = re.findall(r'<article class="release-card[^\"]*">.*?</article>', home, re.DOTALL)
@@ -50,7 +125,10 @@ def build_releases() -> None:
         match = re.search(r"<h3>(.*?)</h3>", card, re.DOTALL)
         title = re.sub(r"<.*?>", "", match.group(1)).strip() if match else ""
         if title not in catalog_titles:
-            other_cards.append(card.replace('href="./artists/', 'href="../artists/').replace('src="./images/', 'src="../images/'))
+            card = card.replace('href="./artists/', 'href="../artists/').replace('src="./images/', 'src="../images/')
+            if title in OTHER_RELEASES:
+                card = normalize_other_release_card(card, title=title, detail_prefix="./")
+            other_cards.append(card)
 
     mia_cards = []
     for release in release_catalog():
@@ -99,7 +177,7 @@ def build_releases() -> None:
 
 NEWS = [
     ("eclypse-joins-suzuka", "ARTIST", "ECLYPSE、SUZUKA所属アーティストとして始動。", "5人組男性K-POPグループECLYPSEが、SUZUKA所属アーティストとして始動しました。", "../../artists/eclypse/", "ECLYPSEプロフィール"),
-    ("shadow-code-announcement", "RELEASE", "デビューシングル「SHADOW//CODE」を発表。", "ECLYPSEのデビューシングル「SHADOW//CODE」を発表しました。公式MVとアーティスト情報を紹介します。", "../../artists/eclypse/#debut-single", "SHADOW//CODE 楽曲情報"),
+    ("shadow-code-announcement", "RELEASE", "デビューシングル「SHADOW//CODE」を発表。", "ECLYPSEのデビューシングル「SHADOW//CODE」を発表しました。公式MVとアーティスト情報を紹介します。", "../../releases/shadow-code/", "SHADOW//CODE 公式楽曲ページ"),
 ]
 
 
@@ -282,6 +360,7 @@ def sync_catalog_sitemap() -> None:
 def main() -> None:
     normalize_catalog_titles()
     normalize_existing_pages()
+    connect_other_release_pages()
     build_profile_track_list()
     add_profile_mv_links()
     add_profile_release_itemlist()
