@@ -236,6 +236,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "news/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route == "social/index.html":
+        return {"WebPage", "Organization", "ItemList", "BreadcrumbList"}
     if relative in FEATURE_NEWS:
         return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
     if route.startswith("news/"):

@@ -44,6 +44,7 @@ LOCAL_ADDED_CARD_ROUTES = {
 }
 LOCAL_ROUTES = {
     **LOCAL_ADDED_CARD_ROUTES,
+    "/social": Path("social/index.html"),
     "/releases/shadow-code": Path("releases/shadow-code/index.html"),
     "/releases/my-queen-my-oath": Path("releases/my-queen-my-oath/index.html"),
     "/news/hyakumankoku-release": Path("news/hyakumankoku-release/index.html"),
@@ -53,6 +54,10 @@ LOCAL_ROUTES = {
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
     Path("assets/news-feature.css"),
+    Path("assets/social.css"),
+    Path("assets/social.js"),
+    Path("assets/data/social-links.json"),
+    Path("assets/data/release-links.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/koga-kamishiro.webp"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
@@ -74,8 +79,8 @@ SCRIPT_RE = re.compile(r"<script\b[^>]*>.*?</script>", re.IGNORECASE | re.DOTALL
 MODULE_PRELOAD_RE = re.compile(r"<link\b[^>]*rel=[\"']modulepreload[\"'][^>]*?/?>", re.IGNORECASE)
 STYLESHEET_RE = re.compile(r"<link\b[^>]*rel=[\"']stylesheet[\"'][^>]*?/?>", re.IGNORECASE)
 ASSET_ATTR_RE = re.compile(r'(?P<attr>href|src)="(?P<value>/[^\"]*)"')
-IMAGE_RE = re.compile(r'(?:src|href)="(?P<value>/(?:images/[^\"]+|og\.png))"')
-CSS_RE = re.compile(r'<link\b[^>]*rel="stylesheet"[^>]*href="(?P<value>/assets/[^\"]+\.css)"', re.IGNORECASE)
+IMAGE_RE = re.compile(r'(?:src|href)="(?P<value>(?:\./|/)?(?:images/[^\"]+|og\.png))"')
+CSS_RE = re.compile(r'<link\b[^>]*rel="stylesheet"[^>]*href="(?P<value>(?:\./|/)?assets/[^\"]+\.css)"', re.IGNORECASE)
 
 CHANNEL_URL = "https://www.youtube.com/@bellflower5215"
 SHADOW_CODE_URL = "https://www.youtube.com/watch?v=8VCL2IepjeM"
@@ -115,6 +120,18 @@ def fetch_bytes(url: str) -> bytes:
 
 def fetch_text(url: str) -> str:
     return fetch_bytes(url).decode("utf-8")
+
+
+def source_page_url(route: str) -> str:
+    return f"{CONTENT_SOURCE_URL}/" if route == "/" else f"{CONTENT_SOURCE_URL}{route}/"
+
+
+def source_output_path(url: str) -> Path:
+    parsed = urllib.parse.urlsplit(url)
+    project_prefix = urllib.parse.urlsplit(CONTENT_SOURCE_URL).path.rstrip("/") + "/"
+    if not parsed.path.startswith(project_prefix):
+        raise RuntimeError(f"Source asset is outside the public project path: {url}")
+    return Path(parsed.path[len(project_prefix) :])
 
 
 def page_prefix(output_path: Path) -> str:
@@ -192,7 +209,7 @@ def enhance_release_cards(source: str) -> str:
             count=1,
             flags=re.DOTALL,
         )
-        attributes = ' target="_blank" rel="noreferrer"' if external else ""
+        attributes = ' target="_blank" rel="noopener noreferrer"' if external else ""
         detail_route = RELEASE_DETAIL_ROUTES.get(title)
         if detail_route:
             card = re.sub(
@@ -234,7 +251,7 @@ def add_new_release_to_home(source: str) -> str:
         '<h3>もしも明日、はじめましてになっても</h3><p>忘れられても、愛は終わらない。</p>'
         '<p class="release-artist-credit">榎本魅愛</p>'
         '<a class="release-card-cta" href="https://www.youtube.com/watch?v=GN6eoBDRm3w" target="_blank" '
-        'rel="noreferrer" aria-label="もしも明日、はじめましてになっても — WATCH MV">'
+        'rel="noopener noreferrer" aria-label="もしも明日、はじめましてになっても — WATCH MV">'
         'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
     )
     suki_card = (
@@ -249,7 +266,7 @@ def add_new_release_to_home(source: str) -> str:
         '<p>昨日より今日、今日より明日へ。「好き」が止まらない王道ラブソング。</p>'
         '<p class="release-artist-credit">榎本魅愛</p>'
         '<a class="release-card-cta" href="https://www.youtube.com/watch?v=XAZy5k9Q4rE" target="_blank" '
-        'rel="noreferrer" aria-label="好きが、今日も増えていく。 — WATCH MV">'
+        'rel="noopener noreferrer" aria-label="好きが、今日も増えていく。 — WATCH MV">'
         'WATCH MV <span aria-hidden="true">↗</span></a></div></article>'
     )
     source = replace_once(
@@ -300,7 +317,7 @@ def enhance_artist_cards(source: str) -> str:
             return card
         links = []
         for href, label, external in actions[href_match.group(1)]:
-            attributes = ' target="_blank" rel="noreferrer"' if external else ""
+            attributes = ' target="_blank" rel="noopener noreferrer"' if external else ""
             links.append(
                 f'<a href="{href}"{attributes} aria-label="{html_lib.escape(label)}">{html_lib.escape(label)} <span aria-hidden="true">↗</span></a>'
             )
@@ -323,53 +340,75 @@ def enhance_home(source: str) -> str:
     hero_actions = (
         '<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース SHADOW//CODEのメニュー">'
         '<p><span>LATEST RELEASE</span><strong>ECLYPSE — SHADOW//CODE</strong></p>'
-        f'<a class="button button-primary" href="{SHADOW_CODE_URL}" target="_blank" rel="noreferrer">MVを見る <span aria-hidden="true">↗</span></a>'
+        f'<a class="button button-primary" href="{SHADOW_CODE_URL}" target="_blank" rel="noopener noreferrer">MVを見る <span aria-hidden="true">↗</span></a>'
         '<a class="button button-ghost" href="./releases/shadow-code/">楽曲情報を見る <span aria-hidden="true">↗</span></a>'
-        f'<a class="button button-youtube" href="{CHANNEL_URL}" target="_blank" rel="noreferrer">YouTubeでSUZUKAをフォロー <span aria-hidden="true">↗</span></a>'
+        f'<a class="button button-youtube" href="{CHANNEL_URL}" target="_blank" rel="noopener noreferrer">YouTubeでSUZUKAをフォロー <span aria-hidden="true">↗</span></a>'
+        '<a class="button button-ghost" data-home-social-link="true" href="./social/" aria-label="YouTube・楽曲・Newsをまとめた公式リンク一覧を見る">公式リンク一覧</a>'
         '</div>'
     )
-    source, count = re.subn(
-        r'<div class="hero-actions reveal-up delay-4">.*?</div>',
-        hero_actions,
-        source,
-        count=1,
-        flags=re.DOTALL,
-    )
-    if count != 1:
-        raise RuntimeError("The hero action group was not found.")
+    if 'class="hero-release-actions' not in source:
+        source, count = re.subn(
+            r'<div class="hero-actions reveal-up delay-4">.*?</div>',
+            hero_actions,
+            source,
+            count=1,
+            flags=re.DOTALL,
+        )
+        if count != 1:
+            raise RuntimeError("The hero action group was not found.")
+    if 'data-home-social-link="true"' not in source:
+        social_link = '<a class="button button-ghost" data-home-social-link="true" href="./social/" aria-label="YouTube・楽曲・Newsをまとめた公式リンク一覧を見る">公式リンク一覧</a>'
+        source, count = re.subn(
+            r'(<div class="hero-release-actions[^>]*>.*?)(</div>)',
+            rf'\g<1>{social_link}\g<2>',
+            source,
+            count=1,
+            flags=re.DOTALL,
+        )
+        if count != 1:
+            raise RuntimeError("The hero Official Links insertion point was not found.")
 
-    source = enhance_artist_cards(source)
-    source = enhance_release_cards(source)
-    source = add_new_release_to_home(source)
-    source = replace_once(
-        source,
-        '<article><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3></article>',
-        '<article><a href="./news/eclypse-joins-suzuka/" aria-label="ECLYPSE始動のNews記事を見る"><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3><b aria-hidden="true">↗</b></a></article>',
-        "ECLYPSE news link",
-    )
-    source = replace_once(
-        source,
-        '<article><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3></article>',
-        '<article><a href="./news/shadow-code-announcement/" aria-label="SHADOW//CODE発表のNews記事を見る"><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3><b aria-hidden="true">↗</b></a></article>',
-        "SHADOW//CODE news link",
-    )
+    if 'class="home-artist-actions"' not in source:
+        source = enhance_artist_cards(source)
+    if 'class="release-card-cta"' not in source:
+        source = enhance_release_cards(source)
+    if './releases/moshimo-ashita-hajimemashite-ni-natte-mo/' not in source:
+        source = add_new_release_to_home(source)
+    if './news/eclypse-joins-suzuka/' not in source:
+        source = replace_once(
+            source,
+            '<article><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3></article>',
+            '<article><a href="./news/eclypse-joins-suzuka/" aria-label="ECLYPSE始動のNews記事を見る"><time dateTime="2026">2026</time><span>ARTIST</span><h3>ECLYPSE、SUZUKA所属アーティストとして始動。</h3><b aria-hidden="true">↗</b></a></article>',
+            "ECLYPSE news link",
+        )
+    if './news/shadow-code-announcement/' not in source:
+        source = replace_once(
+            source,
+            '<article><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3></article>',
+            '<article><a href="./news/shadow-code-announcement/" aria-label="SHADOW//CODE発表のNews記事を見る"><time dateTime="2026">2026</time><span>RELEASE</span><h3>デビューシングル「SHADOW//CODE」を発表。</h3><b aria-hidden="true">↗</b></a></article>',
+            "SHADOW//CODE news link",
+        )
     youtube_section = (
         '<section class="youtube-growth-section" aria-labelledby="youtube-growth-title">'
         '<div><p class="section-kicker">07 / Official YouTube</p><h2 id="youtube-growth-title">新曲・MVを最速で。</h2>'
         '<span>SUZUKAの新しい物語をYouTubeで。</span></div>'
-        f'<a class="button button-youtube" href="{CHANNEL_URL}" target="_blank" rel="noreferrer">SUZUKAをYouTubeでフォロー <span aria-hidden="true">↗</span></a>'
+        f'<a class="button button-youtube" href="{CHANNEL_URL}" target="_blank" rel="noopener noreferrer">SUZUKAをYouTubeでフォロー <span aria-hidden="true">↗</span></a>'
         '</section>'
     )
-    return replace_once(source, '<footer class="site-footer">', f'{youtube_section}<footer class="site-footer">', "YouTube CTA")
+    if 'class="youtube-growth-section"' not in source:
+        source = replace_once(source, '<footer class="site-footer">', f'{youtube_section}<footer class="site-footer">', "YouTube CTA")
+    return source
 
 
 def enhance_artist_page(source: str) -> str:
+    if 'class="artist-next-actions"' in source:
+        return source
     navigation = (
         '<nav class="artist-next-actions" aria-label="SUZUKAサイト内のおすすめ">'
         '<div><p>Keep exploring</p><h2>次の物語へ。</h2></div>'
         '<a href="../../artists/">他のアーティストを見る <span aria-hidden="true">↗</span></a>'
         '<a href="../../releases/">Releasesを見る <span aria-hidden="true">↗</span></a>'
-        f'<a href="{SHADOW_CODE_URL}" target="_blank" rel="noreferrer">最新MVを見る <span aria-hidden="true">↗</span></a>'
+        f'<a href="{SHADOW_CODE_URL}" target="_blank" rel="noopener noreferrer">最新MVを見る <span aria-hidden="true">↗</span></a>'
         '</nav>'
     )
     return replace_once(source, '<footer class="artist-profile-footer">', f'{navigation}<footer class="artist-profile-footer">', "artist navigation")
@@ -426,9 +465,11 @@ def add_release_news_link(source: str, output_path: Path) -> str:
 
 
 def add_new_release_to_enomoto(source: str) -> str:
+    if '../../releases/moshimo-ashita-hajimemashite-ni-natte-mo/' in source:
+        return source
     moshimo_featured_card = (
         '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=GN6eoBDRm3w" '
-        'target="_blank" rel="noreferrer" aria-label="もしも明日、はじめましてになってものMusic Videoを観る">'
+        'target="_blank" rel="noopener noreferrer" aria-label="もしも明日、はじめましてになってものMusic Videoを観る">'
         '<div class="artist-featured-image"><img src="../../images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png" '
         'alt="榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット" width="1254" height="1254" loading="lazy"/>'
         '<span class="artist-featured-play"><span class="play-mark" aria-hidden="true"></span></span></div>'
@@ -437,7 +478,7 @@ def add_new_release_to_enomoto(source: str) -> str:
     )
     suki_featured_card = (
         '<article class="artist-featured-card artist-featured-card-new"><a href="https://www.youtube.com/watch?v=XAZy5k9Q4rE" '
-        'target="_blank" rel="noreferrer" aria-label="好きが、今日も増えていく。のMusic Videoを観る">'
+        'target="_blank" rel="noopener noreferrer" aria-label="好きが、今日も増えていく。のMusic Videoを観る">'
         '<div class="artist-featured-image"><img src="../../images/mv-suki-ga-kyou-mo-fueteiku.jpg" '
         'alt="榎本魅愛「好きが、今日も増えていく。」公式ジャケット" width="886" height="886" loading="lazy"/>'
         '<span class="artist-featured-play"><span class="play-mark" aria-hidden="true"></span></span></div>'
@@ -542,6 +583,7 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
         return f'{match.group("attr")}="{relative_asset(value, prefix)}"'
 
     html = ASSET_ATTR_RE.sub(rewrite, html)
+    html = html.replace('rel="noreferrer"', 'rel="noopener noreferrer"')
     html = normalize_public_seo_urls(html, route)
     detailed_mia_releases = {
         Path("releases/toriatsukai-chui/index.html"),
@@ -592,18 +634,24 @@ def main() -> None:
         if not (output / asset_path).exists():
             raise RuntimeError(f"A required local-only asset is missing: {asset_path}")
 
-    pages = {route: fetch_text(f"{CONTENT_SOURCE_URL}{route}") for route in SOURCE_ROUTES}
+    pages = {route: fetch_text(source_page_url(route)) for route in SOURCE_ROUTES}
     root_html = pages["/"]
     css_match = CSS_RE.search(root_html)
     if not css_match:
         raise RuntimeError("The canonical stylesheet URL was not found.")
 
-    write_bytes(output / "assets/styles.css", fetch_bytes(f"{CONTENT_SOURCE_URL}{css_match.group('value')}"))
+    stylesheet_url = urllib.parse.urljoin(source_page_url("/"), css_match.group("value"))
+    write_bytes(output / "assets/styles.css", fetch_bytes(stylesheet_url))
 
-    public_assets = {match.group("value") for html in pages.values() for match in IMAGE_RE.finditer(html)}
-    public_assets.add("/images/suzuka-channel.jpg")
-    for asset_path in sorted(public_assets):
-        write_bytes(output / asset_path.lstrip("/"), fetch_bytes(f"{CONTENT_SOURCE_URL}{asset_path}"))
+    public_assets: dict[Path, str] = {}
+    for route, page_html in pages.items():
+        for match in IMAGE_RE.finditer(page_html):
+            asset_url = urllib.parse.urljoin(source_page_url(route), match.group("value"))
+            public_assets[source_output_path(asset_url)] = asset_url
+    channel_url = urllib.parse.urljoin(source_page_url("/"), "images/suzuka-channel.jpg")
+    public_assets[Path("images/suzuka-channel.jpg")] = channel_url
+    for asset_path, asset_url in sorted(public_assets.items(), key=lambda item: item[0].as_posix()):
+        write_bytes(output / asset_path, fetch_bytes(asset_url))
 
     for route, output_path in SOURCE_ROUTES.items():
         write_bytes(output / output_path, sanitize_html(pages[route], output_path, route).encode("utf-8"))

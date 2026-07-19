@@ -2,6 +2,25 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
   link.addEventListener("click", () => link.closest("details")?.removeAttribute("open"));
 });
 
+(() => {
+  const mainScript = document.currentScript || [...document.scripts].find((script) => script.src.includes("/assets/main.js"));
+  const siteRoot = mainScript?.src ? new URL("../", mainScript.src) : new URL("./", document.baseURI);
+  const socialStyleUrl = new URL("assets/social.css", siteRoot).href;
+  if (![...document.querySelectorAll('link[rel="stylesheet"]')].some((stylesheet) => stylesheet.href === socialStyleUrl)) {
+    const stylesheet = document.createElement("link");
+    stylesheet.rel = "stylesheet";
+    stylesheet.href = socialStyleUrl;
+    document.head.append(stylesheet);
+  }
+  if (!document.querySelector('script[data-suzuka-social]')) {
+    const socialScript = document.createElement("script");
+    socialScript.src = new URL("assets/social.js", siteRoot).href;
+    socialScript.defer = true;
+    socialScript.dataset.suzukaSocial = "true";
+    document.head.append(socialScript);
+  }
+})();
+
 (async () => {
   const PLAYER_STATE_KEY = "suzuka-mia-player-state";
   const LEGACY_POSITION_KEY = "suzuka-mia-player-position";
@@ -102,7 +121,7 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
       </div>
       <div class="suzuka-player-actions">
         <a class="suzuka-player-page">楽曲情報</a>
-        <a class="suzuka-player-youtube" target="_blank" rel="noreferrer">YouTube ↗</a>
+        <a class="suzuka-player-youtube" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
       </div>
       <span class="suzuka-player-status" role="status" aria-live="polite"></span>
     </div>`;
