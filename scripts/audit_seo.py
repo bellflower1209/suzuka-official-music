@@ -28,12 +28,17 @@ CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
 PUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] == "published"]
 UNPUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] != "published"]
 MIA_DEDICATED_RELEASES = {
-    release["title"]: f"../../{release['pageUrl']}" for release in PUBLISHED_MIA
+    release.get("cardTitle", release["title"]): f"../../{release['pageUrl']}" for release in PUBLISHED_MIA
 }
 MIA_RELEASE_DETAILS = {
-    release["title"]: (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
+    release.get("cardTitle", release["title"]): (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
 }
-MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA}
+MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
+NO_VIDEO_RELEASE_PATHS = {
+    Path("releases/my-queen-my-oath/index.html"),
+    Path("releases/smile-and-say-goodbye/index.html"),
+    Path("releases/boukyaku-no-ikimono/index.html"),
+}
 FEATURE_NEWS = {
     Path("news/hyakumankoku-release/index.html"): {
         "release": Path("releases/hyakumankoku/index.html"),
@@ -230,6 +235,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "artists/eclypse/index.html":
         return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
+    if route == "artists/koga-kamishiro/index.html":
+        return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route.startswith("artists/"):
         return {"Person", "ProfilePage", "BreadcrumbList"}
     if route == "releases/index.html":
@@ -242,7 +249,7 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
     if route.startswith("news/"):
         return {"Article", "WebPage", "BreadcrumbList"}
-    if route == "releases/my-queen-my-oath/index.html":
+    if relative in NO_VIDEO_RELEASE_PATHS:
         return {"MusicRecording", "BreadcrumbList", "WebPage"}
     if route.startswith("releases/"):
         return {"MusicRecording", "VideoObject", "BreadcrumbList", "WebPage"}
@@ -253,7 +260,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
     errors: list[str] = []
     published_titles = [release["title"] for release in PUBLISHED_MIA]
     published_slugs = [release["slug"] for release in PUBLISHED_MIA]
-    published_youtube_ids = [release["youtubeId"] for release in PUBLISHED_MIA]
+    published_youtube_ids = [release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")]
     for label, values in (
         ("title", published_titles), ("slug", published_slugs), ("YouTube ID", published_youtube_ids)
     ):
@@ -261,10 +268,10 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             errors.append(f"release catalog contains duplicate {label} values")
     known_slugs = set(published_slugs)
     for release in PUBLISHED_MIA:
-        for field in ("title", "slug", "pageUrl", "youtubeUrl", "youtubeId", "youtubeVideoTitle", "image", "uploadDate"):
+        for field in ("title", "slug", "pageUrl", "image"):
             if not release.get(field):
                 errors.append(f"release catalog: {release.get('title', '(unknown)')} is missing {field}")
-        if str(release["title"]) not in str(release.get("youtubeVideoTitle", "")):
+        if release.get("youtubeUrl") and str(release.get("cardTitle", release["title"])) not in str(release.get("youtubeVideoTitle", "")):
             errors.append(f"release catalog: official YouTube title does not contain {release['title']}")
         page_path = ROOT / str(release["pageUrl"]) / "index.html"
         image_path = ROOT / str(release["image"])
@@ -370,7 +377,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: JSON-LD points outside the canonical project path: {value}")
         if (
             relative.as_posix().startswith("releases/")
-            and relative.as_posix() not in {"releases/index.html", "releases/my-queen-my-oath/index.html"}
+            and relative not in ({Path("releases/index.html")} | NO_VIDEO_RELEASE_PATHS)
         ):
             video_id = f"{page_url}#video"
             video = schema_nodes.get(video_id, {})
@@ -406,6 +413,14 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if [item.get("name") for item in listed] != published_titles:
                 errors.append(f"{relative}: release ItemList titles do not match the catalog")
+        if relative == Path("artists/koga-kamishiro/index.html"):
+            itemlist = schema_nodes.get(f"{page_url}#releases", {})
+            listed = itemlist.get("itemListElement", [])
+            if itemlist.get("numberOfItems") != 3 or len(listed) != 3:
+                errors.append(f"{relative}: release ItemList must contain 3 works")
+            for item in listed:
+                if not str(item.get("url", "")).startswith(("https://", "http://")):
+                    errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
         if relative == Path("releases/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#itemlist", {})
             listed = itemlist.get("itemListElement", [])
@@ -428,10 +443,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: MusicRecording name must be SHADOW//CODE")
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["SHADOW//CODE"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
-        if relative == Path("releases/my-queen-my-oath/index.html"):
+        if relative in NO_VIDEO_RELEASE_PATHS:
             recording = schema_nodes.get(f"{page_url}#recording", {})
-            if recording.get("name") != "My Queen, My Oath":
-                errors.append(f"{relative}: MusicRecording name must be My Queen, My Oath")
             if "VideoObject" in schema_types:
                 errors.append(f"{relative}: must not claim VideoObject without a confirmed official video")
             if any("datePublished" in node for node in schema_nodes.values()):
@@ -513,6 +526,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             errors.append(f"index.html: release card is missing for {title}")
             continue
         for expected in (detail_href, mv_href):
+            if expected is None:
+                continue
             if expected not in card:
                 errors.append(f"index.html: {title} card is missing {expected}")
     for title, details in OTHER_RELEASE_DETAILS.items():
@@ -535,6 +550,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             errors.append(f"releases/index.html: release card is missing for {title}")
             continue
         for expected in (index_href, mv_href):
+            if expected is None:
+                continue
             if expected not in card:
                 errors.append(f"releases/index.html: {title} card is missing {expected}")
     for title, details in OTHER_RELEASE_DETAILS.items():

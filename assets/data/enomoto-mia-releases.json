@@ -5,6 +5,26 @@
   "source": "https://www.youtube.com/@bellflower5215/videos",
   "releases": [
     {
+      "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―",
+      "titleEnglish": "SMILE AND SAY GOODBYE",
+      "subtitle": "大好きだから、笑ってさようなら。",
+      "cardTitle": "SMILE AND SAY GOODBYE",
+      "slug": "smile-and-say-goodbye",
+      "status": "published",
+      "pageUrl": "releases/smile-and-say-goodbye/",
+      "youtubeUrl": null,
+      "youtubeId": null,
+      "youtubeVideoTitle": null,
+      "image": "images/mv-smile-and-say-goodbye.png",
+      "duration": null,
+      "uploadDate": null,
+      "shortDescription": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "featured": true,
+      "playerEnabled": false,
+      "jacketArtistVariant": "MICHIRU ENOMOTO",
+      "relatedSongs": ["moshimo-ashita-hajimemashite-ni-natte-mo", "mirai-no-watashi-ga-miteru", "kimi-wa-hanabi", "tokenai-mahou-wo-ai-to-yobu"]
+    },
+    {
       "title": "もしも明日、はじめましてになっても",
       "slug": "moshimo-ashita-hajimemashite-ni-natte-mo",
       "status": "published",

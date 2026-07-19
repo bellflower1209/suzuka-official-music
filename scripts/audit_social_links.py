@@ -39,8 +39,18 @@ def validate() -> tuple[list[str], dict, list[dict]]:
     errors: list[str] = []
     social = json.loads(SOCIAL_PATH.read_text(encoding="utf-8"))
     releases = json.loads(RELEASE_PATH.read_text(encoding="utf-8"))["releases"]
-    if len(releases) != 16:
-        errors.append(f"release link registry must contain 16 works, found {len(releases)}")
+    release_pages = {
+        path.parent.name
+        for path in (ROOT / "releases").glob("*/index.html")
+        if 'content="noindex' not in path.read_text(encoding="utf-8").lower()
+    }
+    registered_pages = {item["releasePage"].strip("/").split("/")[-1] for item in releases}
+    if registered_pages != release_pages:
+        errors.append(
+            "release link registry/page mismatch: "
+            f"registry-only={sorted(registered_pages - release_pages)}, "
+            f"page-only={sorted(release_pages - registered_pages)}"
+        )
     slugs = [item["slug"] for item in releases]
     if len(slugs) != len(set(slugs)):
         errors.append("release link registry contains duplicate slugs")

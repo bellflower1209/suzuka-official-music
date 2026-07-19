@@ -47,6 +47,8 @@ LOCAL_ROUTES = {
     "/social": Path("social/index.html"),
     "/releases/shadow-code": Path("releases/shadow-code/index.html"),
     "/releases/my-queen-my-oath": Path("releases/my-queen-my-oath/index.html"),
+    "/releases/smile-and-say-goodbye": Path("releases/smile-and-say-goodbye/index.html"),
+    "/releases/boukyaku-no-ikimono": Path("releases/boukyaku-no-ikimono/index.html"),
     "/news/hyakumankoku-release": Path("news/hyakumankoku-release/index.html"),
     "/news/toriatsukai-chui-release": Path("news/toriatsukai-chui-release/index.html"),
     "/news/moshimo-ashita-hajimemashite-ni-natte-mo-release": Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"),
@@ -58,10 +60,13 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/social.js"),
     Path("assets/data/social-links.json"),
     Path("assets/data/release-links.json"),
+    Path("assets/data/enomoto-mia-releases.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/koga-kamishiro.webp"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
+    Path("images/mv-smile-and-say-goodbye.png"),
+    Path("images/mv-boukyaku-no-ikimono.png"),
     Path("images/mv-toriatsukai-chuui.jpg"),
     Path("images/mv-mia.jpg"),
     Path("images/mv-hyakumankoku.jpg"),
@@ -677,6 +682,15 @@ def main() -> None:
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(output), "--write"],
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("update_release_catalog.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(output), "--write"],
         check=True,
