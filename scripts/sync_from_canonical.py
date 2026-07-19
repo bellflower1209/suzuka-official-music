@@ -49,9 +49,11 @@ LOCAL_ROUTES = {
     "/releases/my-queen-my-oath": Path("releases/my-queen-my-oath/index.html"),
     "/releases/smile-and-say-goodbye": Path("releases/smile-and-say-goodbye/index.html"),
     "/releases/boukyaku-no-ikimono": Path("releases/boukyaku-no-ikimono/index.html"),
+    "/releases/red-moon-rising": Path("releases/red-moon-rising/index.html"),
     "/news/hyakumankoku-release": Path("news/hyakumankoku-release/index.html"),
     "/news/toriatsukai-chui-release": Path("news/toriatsukai-chui-release/index.html"),
     "/news/moshimo-ashita-hajimemashite-ni-natte-mo-release": Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"),
+    "/news/red-moon-rising-release": Path("news/red-moon-rising-release/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
@@ -62,6 +64,7 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/data/release-links.json"),
     Path("assets/data/enomoto-mia-releases.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
+    Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),

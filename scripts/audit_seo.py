@@ -46,6 +46,8 @@ FEATURE_NEWS = {
         "youtube": "https://www.youtube.com/watch?v=QteunhFn9Dk",
         "shorts": "https://www.youtube.com/shorts/10hI03wXHtE",
         "image": "images/mv-hyakumankoku.jpg",
+        "articleDate": "2026-07-18",
+        "artistPage": Path("artists/enomoto-mia/index.html"),
     },
     Path("news/toriatsukai-chui-release/index.html"): {
         "release": Path("releases/toriatsukai-chui/index.html"),
@@ -53,6 +55,8 @@ FEATURE_NEWS = {
         "youtube": "https://www.youtube.com/watch?v=QXvpLCnyoOw",
         "shorts": "https://www.youtube.com/shorts/KHZMfULXuGQ",
         "image": "images/mv-toriatsukai-chuui.jpg",
+        "articleDate": "2026-07-18",
+        "artistPage": Path("artists/enomoto-mia/index.html"),
     },
     Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"): {
         "release": Path("releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html"),
@@ -60,9 +64,27 @@ FEATURE_NEWS = {
         "youtube": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
         "shorts": "https://www.youtube.com/shorts/o7AOgpc2O-k",
         "image": "images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png",
+        "articleDate": "2026-07-18",
+        "artistPage": Path("artists/enomoto-mia/index.html"),
+    },
+    Path("news/red-moon-rising-release/index.html"): {
+        "release": Path("releases/red-moon-rising/index.html"),
+        "releaseHref": "../../news/red-moon-rising-release/",
+        "youtube": "https://www.youtube.com/watch?v=BZkMHt0P2oo",
+        "shorts": None,
+        "image": "images/eclypse-red-moon-rising-cover.png",
+        "articleDate": "2026-07-20",
+        "artistPage": Path("artists/eclypse/index.html"),
     },
 }
 OTHER_RELEASE_DETAILS = {
+    "RED MOON // RISING": {
+        "homeDetail": "./releases/red-moon-rising/",
+        "indexDetail": "./red-moon-rising/",
+        "artistPage": Path("artists/eclypse/index.html"),
+        "artistDetail": "../../releases/red-moon-rising/",
+        "youtubeUrl": "https://www.youtube.com/watch?v=BZkMHt0P2oo",
+    },
     "SHADOW//CODE": {
         "homeDetail": "./releases/shadow-code/",
         "indexDetail": "./shadow-code/",
@@ -234,7 +256,7 @@ def required_schema_types(relative: Path) -> set[str]:
     if route == "artists/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "artists/eclypse/index.html":
-        return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
+        return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":
         return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route.startswith("artists/"):
@@ -421,6 +443,13 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             for item in listed:
                 if not str(item.get("url", "")).startswith(("https://", "http://")):
                     errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
+        if relative == Path("artists/eclypse/index.html"):
+            itemlist = schema_nodes.get(f"{page_url}#releases", {})
+            listed = itemlist.get("itemListElement", [])
+            if itemlist.get("numberOfItems") != 2 or len(listed) != 2:
+                errors.append(f"{relative}: release ItemList must contain 2 works")
+            if [item.get("name") for item in listed] != ["RED MOON // RISING", "SHADOW//CODE"]:
+                errors.append(f"{relative}: ECLYPSE release order or titles are incorrect")
         if relative == Path("releases/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#itemlist", {})
             listed = itemlist.get("itemListElement", [])
@@ -434,8 +463,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 5:
-                errors.append(f"{relative}: expected 5 official News entries, found {len(listed)}")
+            if len(listed) != 6:
+                errors.append(f"{relative}: expected 6 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})
@@ -443,6 +472,15 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: MusicRecording name must be SHADOW//CODE")
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["SHADOW//CODE"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
+        if relative == Path("releases/red-moon-rising/index.html"):
+            recording = schema_nodes.get(f"{page_url}#recording", {})
+            video = schema_nodes.get(f"{page_url}#video", {})
+            if recording.get("name") != "RED MOON // RISING":
+                errors.append(f"{relative}: MusicRecording name must be RED MOON // RISING")
+            if video.get("contentUrl") != OTHER_RELEASE_DETAILS["RED MOON // RISING"]["youtubeUrl"]:
+                errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
+            if video.get("uploadDate") != "2026-07-18" or video.get("duration") != "PT6M4S":
+                errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
             recording = schema_nodes.get(f"{page_url}#recording", {})
             if "VideoObject" in schema_types:
@@ -451,13 +489,28 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: must not infer datePublished")
         if relative in FEATURE_NEWS:
             article = schema_nodes.get(f"{page_url}#article", {})
+            if not article:
+                article = next(
+                    (
+                        node
+                        for node in schema_nodes.values()
+                        if "NewsArticle" in (
+                            node.get("@type", [])
+                            if isinstance(node.get("@type"), list)
+                            else [node.get("@type")]
+                        )
+                    ),
+                    {},
+                )
             for field in ("headline", "description", "mainEntityOfPage", "image", "datePublished", "dateModified", "author", "publisher", "url"):
                 if field not in article:
                     errors.append(f"{relative}: NewsArticle is missing {field}")
-            if article.get("datePublished") != "2026-07-18" or article.get("dateModified") != "2026-07-18":
-                errors.append(f"{relative}: article dates must match the actual News publication date")
             expected = FEATURE_NEWS[relative]
+            if article.get("datePublished") != expected["articleDate"] or article.get("dateModified") != expected["articleDate"]:
+                errors.append(f"{relative}: article dates must match the actual News publication date")
             for value in (expected["youtube"], expected["shorts"], f"{PUBLIC_BASE_URL}/{expected['image']}"):
+                if value is None:
+                    continue
                 if value not in schema_strings:
                     errors.append(f"{relative}: structured data is missing confirmed value: {value}")
             if not 120 <= len(description) <= 160:
@@ -587,10 +640,10 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         release_html = (ROOT / details["release"]).read_text(encoding="utf-8")
         if str(details["releaseHref"]) not in release_html:
             errors.append(f"{details['release']}: missing link to {slug}")
-    profile_html = (ROOT / "artists/enomoto-mia/index.html").read_text(encoding="utf-8")
-    for feature_path in FEATURE_NEWS:
+    for feature_path, details in FEATURE_NEWS.items():
+        profile_html = (ROOT / details["artistPage"]).read_text(encoding="utf-8")
         if f'../../news/{feature_path.parent.name}/' not in profile_html:
-            errors.append(f"artists/enomoto-mia/index.html: missing link to {feature_path.parent.name}")
+            errors.append(f"{details['artistPage']}: missing link to {feature_path.parent.name}")
 
     public_surface = "\n".join(
         (ROOT / path).read_text(encoding="utf-8")
