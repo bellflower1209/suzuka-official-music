@@ -50,6 +50,16 @@ function send(method, params={}) {
   socket.send(JSON.stringify({id: requestId, method, params}));
   return new Promise((resolve, reject) => pending.set(requestId, {resolve, reject}));
 }
+async function waitForPageReady() {
+  for (let attempt = 0; attempt < 20; attempt += 1) {
+    const ready = await send("Runtime.evaluate", {
+      expression: "document.readyState === 'complete' && !!document.querySelector('.suzuka-music-player')",
+      returnByValue: true,
+    });
+    if (ready.result.value) return;
+    await new Promise(resolve => setTimeout(resolve, 250));
+  }
+}
 await send("Runtime.enable"); await send("Network.enable"); await send("Page.enable");
 const results = [];
 for (const size of sizes) {
@@ -58,7 +68,7 @@ for (const size of sizes) {
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     await send("Page.navigate", {url:new URL(route, base).href});
-    await new Promise(resolve => setTimeout(resolve, 700));
+    await waitForPageReady();
     const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
     const value = evaluated.result.value;
     if (screenshotDir && ["releases/", "social/", "releases/shadow-code/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/"].includes(route) && [1280, 390].includes(size.width)) {
@@ -74,17 +84,17 @@ for (const size of sizes) {
 
 await send("Emulation.setDeviceMetricsOverride", {width:390,height:844,deviceScaleFactor:1,mobile:true});
 await send("Page.navigate", {url:new URL("releases/", base).href});
-await new Promise(resolve => setTimeout(resolve, 700));
+await waitForPageReady();
 const selection = await send("Runtime.evaluate", {expression:`(() => { const select=document.querySelector('.suzuka-player-track-select'); select.value='1'; select.dispatchEvent(new Event('change',{bubbles:true})); return document.querySelector('.suzuka-player-details strong').textContent; })()`, returnByValue:true});
 await send("Page.navigate", {url:new URL("news/", base).href});
-await new Promise(resolve => setTimeout(resolve, 700));
+await waitForPageReady();
 const persisted = await send("Runtime.evaluate", {expression:`(() => { const player=document.querySelector('.suzuka-music-player'); player.classList.add('is-expanded'); const title=player.querySelector('.suzuka-player-details strong').textContent; return {title, selected:player.querySelector('.suzuka-player-track-select').value, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, autoplayIframe:player.querySelectorAll('iframe').length}; })()`, returnByValue:true});
 if (persisted.result.value.title !== selection.result.value || persisted.result.value.selected !== "1" || persisted.result.value.overflow || persisted.result.value.autoplayIframe !== 0) {
   results.push({route:"news/", width:390, persistenceTest:persisted.result.value, expectedTitle:selection.result.value});
 }
 
 await send("Page.navigate", {url:new URL("releases/mia/", base).href});
-await new Promise(resolve => setTimeout(resolve, 800));
+await waitForPageReady();
 const shareFallback = await send("Runtime.evaluate", {expression:`(async()=>{ const copy=[...document.querySelectorAll('.social-share-button')].find(button=>button.textContent.includes('URLをコピー')); copy?.click(); await new Promise(resolve=>setTimeout(resolve,150)); const copyStatus=document.querySelector('.social-copy-status')?.textContent||''; const share=[...document.querySelectorAll('.social-share-button')].find(button=>button.textContent.trim()==='共有'); share?.click(); await new Promise(resolve=>setTimeout(resolve,150)); return {copyStatus, shareStatus:document.querySelector('.social-copy-status')?.textContent||'', buttons:document.querySelectorAll('.social-share-button').length};})()`, awaitPromise:true, returnByValue:true});
 if (shareFallback.result.value.buttons < 4 || !shareFallback.result.value.copyStatus || !shareFallback.result.value.shareStatus) {
   results.push({route:"releases/mia/", width:390, shareFallback:shareFallback.result.value});
