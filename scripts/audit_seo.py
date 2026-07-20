@@ -35,7 +35,6 @@ MIA_RELEASE_DETAILS = {
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
 NO_VIDEO_RELEASE_PATHS = {
-    Path("releases/my-queen-my-oath/index.html"),
     Path("releases/smile-and-say-goodbye/index.html"),
     Path("releases/boukyaku-no-ikimono/index.html"),
 }
@@ -76,6 +75,15 @@ FEATURE_NEWS = {
         "articleDate": "2026-07-20",
         "artistPage": Path("artists/eclypse/index.html"),
     },
+    Path("news/my-queen-my-oath-release/index.html"): {
+        "release": Path("releases/my-queen-my-oath/index.html"),
+        "releaseHref": "../../news/my-queen-my-oath-release/",
+        "youtube": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+        "shorts": None,
+        "image": "images/koga-my-queen-my-oath-cover.jpg",
+        "articleDate": "2026-07-20",
+        "artistPage": Path("artists/koga-kamishiro/index.html"),
+    },
 }
 OTHER_RELEASE_DETAILS = {
     "RED MOON // RISING": {
@@ -97,7 +105,7 @@ OTHER_RELEASE_DETAILS = {
         "indexDetail": "./my-queen-my-oath/",
         "artistPage": Path("artists/koga-kamishiro/index.html"),
         "artistDetail": "../../releases/my-queen-my-oath/",
-        "youtubeUrl": None,
+        "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
     },
 }
 
@@ -463,8 +471,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 6:
-                errors.append(f"{relative}: expected 6 official News entries, found {len(listed)}")
+            if len(listed) != 7:
+                errors.append(f"{relative}: expected 7 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})
@@ -480,6 +488,15 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["RED MOON // RISING"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
             if video.get("uploadDate") != "2026-07-18" or video.get("duration") != "PT6M4S":
+                errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
+        if relative == Path("releases/my-queen-my-oath/index.html"):
+            recording = schema_nodes.get(f"{page_url}#recording", {})
+            video = schema_nodes.get(f"{page_url}#video", {})
+            if recording.get("name") != "My Queen, My Oath":
+                errors.append(f"{relative}: MusicRecording name must be My Queen, My Oath")
+            if video.get("contentUrl") != OTHER_RELEASE_DETAILS["My Queen, My Oath"]["youtubeUrl"]:
+                errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
+            if video.get("uploadDate") != "2026-07-20" or video.get("duration") != "PT4M57S":
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
             recording = schema_nodes.get(f"{page_url}#recording", {})

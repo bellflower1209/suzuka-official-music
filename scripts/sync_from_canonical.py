@@ -54,6 +54,7 @@ LOCAL_ROUTES = {
     "/news/toriatsukai-chui-release": Path("news/toriatsukai-chui-release/index.html"),
     "/news/moshimo-ashita-hajimemashite-ni-natte-mo-release": Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"),
     "/news/red-moon-rising-release": Path("news/red-moon-rising-release/index.html"),
+    "/news/my-queen-my-oath-release": Path("news/my-queen-my-oath-release/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
@@ -66,6 +67,7 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
+    Path("images/koga-my-queen-my-oath-cover.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
@@ -94,7 +96,7 @@ CHANNEL_URL = "https://www.youtube.com/@bellflower5215"
 SHADOW_CODE_URL = "https://www.youtube.com/watch?v=8VCL2IepjeM"
 RELEASE_ENGAGEMENT = {
     "SHADOW//CODE": ("ECLYPSE", "DEBUT SINGLE · 2026", SHADOW_CODE_URL, "WATCH MV", True),
-    "My Queen, My Oath": ("神代 煌牙", "DEBUT SINGLE · 2026", "./releases/my-queen-my-oath/", "楽曲情報を見る", False),
+    "My Queen, My Oath": ("神代 煌牙", "OFFICIAL MV · 2026.07.20", "https://www.youtube.com/watch?v=_TfwreiEMMM", "WATCH MV", True),
     "無敵時間、あと3秒": ("榎本魅愛", "5TH SINGLE", "./releases/muteki-jikan-ato-3byou/", "楽曲情報を見る", False),
     "M・I・A": ("榎本魅愛", "OFFICIAL MV", "./releases/mia/", "楽曲情報を見る", False),
     "解けない魔法を、愛と呼ぶ": ("榎本魅愛", "OFFICIAL MV", "https://www.youtube.com/watch?v=CAFQ-d7YHPQ", "WATCH MV", True),

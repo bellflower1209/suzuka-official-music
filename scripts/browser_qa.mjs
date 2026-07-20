@@ -22,6 +22,7 @@ const pages = [
   "news/hyakumankoku-release/", "news/toriatsukai-chui-release/",
   "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
   "news/red-moon-rising-release/",
+  "news/my-queen-my-oath-release/",
   "social/",
 ];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];
@@ -66,14 +67,14 @@ await send("Runtime.enable"); await send("Network.enable"); await send("Page.ena
 const results = [];
 for (const size of sizes) {
   for (const route of pages) {
-    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "releases/", "news/", "social/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/"].includes(route)) continue;
+    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "releases/", "news/", "social/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/"].includes(route)) continue;
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     await send("Page.navigate", {url:new URL(route, base).href});
     await waitForPageReady();
     const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
     const value = evaluated.result.value;
-    if (screenshotDir && ["releases/", "social/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/"].includes(route) && [1280, 390].includes(size.width)) {
+    if (screenshotDir && ["releases/", "social/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/"].includes(route) && [1280, 390].includes(size.width)) {
       const shot = await send("Page.captureScreenshot", {format:"png", captureBeyondViewport:false});
       const name = route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));

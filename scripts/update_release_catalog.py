@@ -30,6 +30,39 @@ def insert_grid_cards(path: Path, cards: str, slugs: tuple[str, ...]) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def upsert_release_card(path: Path, card: str, detail_href: str) -> None:
+    """Move one release card to the front without creating a duplicate."""
+    text = path.read_text(encoding="utf-8")
+    grid = re.search(r'(<div class="release-grid">)(.*?)(</div>\s*</section>)', text, re.DOTALL)
+    if not grid:
+        raise RuntimeError(f"Release grid was not found in {path}.")
+    cards = re.findall(r'<article class="release-card.*?</article>', grid.group(2), re.DOTALL)
+    cards = [item for item in cards if detail_href not in item]
+    cards.insert(0, card)
+    number = 0
+
+    def renumber(match: re.Match[str]) -> str:
+        nonlocal number
+        number += 1
+        return f"{match.group(1)}{number:02d}{match.group(2)}"
+
+    body = re.sub(r'(<div class="release-row"><span>)\d+(</span>)', renumber, "".join(cards))
+    text = text[: grid.start(2)] + body + text[grid.end(2) :]
+    path.write_text(text, encoding="utf-8")
+
+
+def upsert_social_card(path: Path, card: str, detail_href: str) -> None:
+    text = path.read_text(encoding="utf-8")
+    grid = re.search(r'(<div class="social-hub-grid">)(.*?)(</div>\s*</section>)', text, re.DOTALL)
+    if not grid:
+        raise RuntimeError(f"Social release grid was not found in {path}.")
+    cards = re.findall(r'<a class="social-hub-card".*?</a>', grid.group(2), re.DOTALL)
+    cards = [item for item in cards if detail_href not in item]
+    cards.insert(0, card)
+    text = text[: grid.start(2)] + "".join(cards) + text[grid.end(2) :]
+    path.write_text(text, encoding="utf-8")
+
+
 def insert_after(path: Path, marker: str, content: str, sentinel: str) -> None:
     text = path.read_text(encoding="utf-8")
     if sentinel not in text:
@@ -95,18 +128,52 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=ROOT)
     args = parser.parse_args()
     ROOT = args.root.resolve()
-    releases = json.loads((ROOT / "assets/data/release-links.json").read_text(encoding="utf-8"))["releases"]
+    release_data_path = ROOT / "assets/data/release-links.json"
+    release_data = json.loads(release_data_path.read_text(encoding="utf-8"))
+    queen_release = {
+        "slug": "my-queen-my-oath",
+        "title": "My Queen, My Oath",
+        "subtitle": "君が、俺のすべて。",
+        "artist": "神代 煌牙",
+        "artistSlug": "koga-kamishiro",
+        "status": "published",
+        "releaseType": "single",
+        "image": "images/koga-my-queen-my-oath-cover.jpg",
+        "coverImage": "images/koga-my-queen-my-oath-cover.jpg",
+        "coverAlt": "神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。",
+        "releasePage": "releases/my-queen-my-oath/",
+        "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+        "youtubeStatus": "published",
+        "shortsUrl": None,
+        "shortsStatus": "unconfirmed",
+        "publishedDate": "2026-07-20",
+        "duration": 297,
+        "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+        "playerEnabled": False,
+        "newsPage": "news/my-queen-my-oath-release/",
+        "newsUrl": "news/my-queen-my-oath-release/",
+        "newsStatus": "published",
+        "relatedReleases": ["our-kingdom", "boukyaku-no-ikimono", "red-moon-rising", "smile-and-say-goodbye"],
+        "credits": None,
+        "lyricsStatus": "unconfirmed",
+    }
+    release_data["updatedAt"] = "2026-07-20"
+    release_data["releases"] = [queen_release] + [item for item in release_data["releases"] if item.get("slug") != "my-queen-my-oath"]
+    release_data_path.write_text(json.dumps(release_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    releases = release_data["releases"]
+    queen_home = '<article class="release-card release-card-new"><a class="release-image" href="./releases/my-queen-my-oath/" aria-label="My Queen, My Oathの詳細を見る"><img src="./images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット" width="886" height="886" loading="lazy"/><span class="card-wash wash-gold"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span><span class="duration">4:57</span></a><div class="release-info"><div class="release-row"><span>01</span><span>OFFICIAL MV · 2026.07.20</span></div><h3>My Queen, My Oath</h3><p>君が、俺のすべて。</p><p class="release-artist-credit">神代 煌牙</p><div class="release-card-actions"><a class="release-card-cta release-card-cta-detail" href="./releases/my-queen-my-oath/">詳細を見る <span aria-hidden="true">↗</span></a><a class="release-card-cta" href="https://www.youtube.com/watch?v=_TfwreiEMMM" target="_blank" rel="noopener noreferrer" aria-label="My Queen, My Oath — MVを見る">MVを見る <span aria-hidden="true">↗</span></a></div></div></article>'
     red_home = '<article class="release-card release-card-new"><a class="release-image" href="./releases/red-moon-rising/" aria-label="RED MOON // RISINGの詳細を見る"><img src="./images/eclypse-red-moon-rising-cover.png" alt="ECLYPSE「RED MOON // RISING」正式ジャケット" width="1254" height="1254" loading="lazy"/><span class="card-wash wash-rose"></span><span class="card-play"><span class="play-mark" aria-hidden="true"></span></span><span class="duration">6:04</span></a><div class="release-info"><div class="release-row"><span>01</span><span>2ND SINGLE · 2026.07.18</span></div><h3>RED MOON // RISING</h3><p>The code is broken. Now the red moon rises.</p><p class="release-artist-credit">ECLYPSE</p><div class="release-card-actions"><a class="release-card-cta release-card-cta-detail" href="./releases/red-moon-rising/">詳細を見る <span aria-hidden="true">↗</span></a><a class="release-card-cta" href="https://www.youtube.com/watch?v=BZkMHt0P2oo" target="_blank" rel="noopener noreferrer" aria-label="RED MOON // RISING — MVを見る">MVを見る <span aria-hidden="true">↗</span></a></div></div></article>'
     smile_home = '<article class="release-card release-card-new"><a class="release-image" href="./releases/smile-and-say-goodbye/" aria-label="SMILE AND SAY GOODBYEの詳細を見る"><img src="./images/mv-smile-and-say-goodbye.png" alt="榎本魅愛「SMILE AND SAY GOODBYE」公式ジャケット" width="1672" height="941" loading="lazy"/><span class="card-wash wash-pink"></span></a><div class="release-info"><div class="release-row"><span>01</span><span>NEW RELEASE · OFFICIAL PAGE</span></div><h3>SMILE AND SAY GOODBYE</h3><p>大好きだから、笑ってさようなら。</p><p class="release-artist-credit">榎本魅愛</p><a class="release-card-cta release-card-cta-detail" href="./releases/smile-and-say-goodbye/">楽曲情報を見る <span aria-hidden="true">↗</span></a></div></article>'
     boukyaku_home = '<article class="release-card release-card-new"><a class="release-image" href="./releases/boukyaku-no-ikimono/" aria-label="忘却の生き物の詳細を見る"><img src="./images/mv-boukyaku-no-ikimono.png" alt="神代 煌牙「忘却の生き物」公式ジャケット" width="1672" height="940" loading="lazy"/><span class="card-wash wash-gold"></span></a><div class="release-info"><div class="release-row"><span>02</span><span>NEW RELEASE · OFFICIAL PAGE</span></div><h3>忘却の生き物</h3><p>時代のせいじゃない。忘れ去る人間の仕事だ。</p><p class="release-artist-credit">神代 煌牙</p><a class="release-card-cta release-card-cta-detail" href="./releases/boukyaku-no-ikimono/">楽曲情報を見る <span aria-hidden="true">↗</span></a></div></article>'
     home = ROOT / "index.html"
+    upsert_release_card(home, queen_home, './releases/my-queen-my-oath/')
     insert_grid_cards(home, red_home, ("./releases/red-moon-rising/",))
     insert_grid_cards(home, smile_home + "<!--CARD-->" + boukyaku_home, ("./releases/smile-and-say-goodbye/", "./releases/boukyaku-no-ikimono/"))
 
     home_text = home.read_text(encoding="utf-8")
-    hero_actions = '<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース RED MOON // RISINGのメニュー"><p><span>LATEST RELEASE</span><strong>ECLYPSE — RED MOON // RISING</strong></p><a class="button button-primary" href="https://www.youtube.com/watch?v=BZkMHt0P2oo" target="_blank" rel="noopener noreferrer">MVを見る <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="./releases/red-moon-rising/">楽曲情報を見る <span aria-hidden="true">▶</span></a><a class="button button-youtube" href="https://www.youtube.com/@bellflower5215" target="_blank" rel="noopener noreferrer">YouTubeでSUZUKAをフォロー <span aria-hidden="true">↗</span></a><a class="button button-ghost" data-home-social-link="true" href="./social/" aria-label="YouTube・楽曲・Newsをまとめた公式リンク一覧を見る">公式リンク一覧</a></div>'
+    hero_actions = '<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース My Queen, My Oathのメニュー"><p><span>LATEST RELEASE</span><strong>神代 煌牙 — My Queen, My Oath</strong></p><a class="button button-primary" href="https://www.youtube.com/watch?v=_TfwreiEMMM" target="_blank" rel="noopener noreferrer">MVを見る <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="./releases/my-queen-my-oath/">楽曲情報を見る <span aria-hidden="true">▶</span></a><a class="button button-youtube" href="https://www.youtube.com/@bellflower5215" target="_blank" rel="noopener noreferrer">YouTubeでSUZUKAをフォロー <span aria-hidden="true">↗</span></a><a class="button button-ghost" data-home-social-link="true" href="./social/" aria-label="YouTube・楽曲・Newsをまとめた公式リンク一覧を見る">公式リンク一覧</a></div>'
     home_text = re.sub(r'<div class="hero-release-actions reveal-up delay-4".*?</div>', hero_actions, home_text, count=1, flags=re.DOTALL)
-    latest = '<section class="section latest-section label-latest" id="latest" aria-labelledby="latest-title"><div class="section-heading section-heading-split"><div><p class="section-kicker">01 / Latest release</p><h2 id="latest-title">RED MOON // RISING</h2></div><p>The code is broken.<br/>Now the red moon rises.</p></div><article class="featured-release eclypse-release"><div class="featured-media square-release-media"><img src="./images/eclypse-red-moon-rising-cover.png" alt="ECLYPSE「RED MOON // RISING」正式ジャケット" width="1254" height="1254"/><div class="featured-glow"></div></div><div class="featured-copy"><div class="track-number">02</div><p class="featured-label">ECLYPSE · 2ND SINGLE · 2026.07.18</p><h3>RED MOON // RISING</h3><p class="featured-lead">“FIVE HEARTS. ONE DESTINY.”</p><p class="featured-description">赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSE第2章。</p><div class="release-card-actions"><a class="text-link" href="https://www.youtube.com/watch?v=BZkMHt0P2oo" target="_blank" rel="noopener noreferrer">WATCH OFFICIAL VIDEO <span aria-hidden="true">↗</span></a><a class="text-link" href="./releases/red-moon-rising/">VIEW RELEASE <span aria-hidden="true">↗</span></a></div></div></article></section>'
+    latest = '<section class="section latest-section label-latest" id="latest" aria-labelledby="latest-title"><div class="section-heading section-heading-split"><div><p class="section-kicker">01 / Latest release</p><h2 id="latest-title">My Queen, My Oath</h2></div><p>君が、俺のすべて。<br/>My Queen. My Oath.</p></div><article class="featured-release"><div class="featured-media square-release-media"><img src="./images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット" width="886" height="886"/><div class="featured-glow"></div></div><div class="featured-copy"><div class="track-number">01</div><p class="featured-label">神代 煌牙 · OFFICIAL MV · 2026.07.20</p><h3>My Queen, My Oath</h3><p class="featured-lead">“君が、俺のすべて。”</p><p class="featured-description">夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いたロイヤルロマンス。</p><div class="release-card-actions"><a class="text-link" href="https://www.youtube.com/watch?v=_TfwreiEMMM" target="_blank" rel="noopener noreferrer">WATCH OFFICIAL VIDEO <span aria-hidden="true">↗</span></a><a class="text-link" href="./releases/my-queen-my-oath/">VIEW RELEASE <span aria-hidden="true">↗</span></a></div></div></article></section>'
     home_text, count = re.subn(r'<section class="section latest-section label-latest".*?</section>', latest, home_text, count=1, flags=re.DOTALL)
     if count != 1:
         raise RuntimeError("Latest release section was not found on the home page.")
@@ -114,6 +181,8 @@ def main() -> None:
     home.write_text(home_text, encoding="utf-8")
 
     red_index = red_home.replace('./releases/', './').replace('./images/', '../images/')
+    queen_index = queen_home.replace('./releases/', './').replace('./images/', '../images/')
+    upsert_release_card(ROOT / "releases/index.html", queen_index, './my-queen-my-oath/')
     smile_index = smile_home.replace('./releases/', './').replace('./images/', '../images/')
     boukyaku_index = boukyaku_home.replace('./releases/', './').replace('./images/', '../images/')
     insert_grid_cards(ROOT / "releases/index.html", red_index, ("./red-moon-rising/",))
@@ -129,6 +198,13 @@ def main() -> None:
     koga_row = '<a class="artist-track-row" href="../../releases/boukyaku-no-ikimono/"><span>01</span><img src="../../images/mv-boukyaku-no-ikimono.png" alt="神代 煌牙「忘却の生き物」公式ジャケット" width="1672" height="940" loading="lazy"/><div><strong>忘却の生き物</strong><small>Official release page</small></div><b aria-hidden="true">↗</b></a>'
     insert_after(koga, '<div class="artist-track-list">', koga_row, '../../releases/boukyaku-no-ikimono/')
     koga_text = koga.read_text(encoding="utf-8")
+    koga_debut = '<section class="koga-debut-section" id="debut-single" aria-labelledby="koga-debut-heading"><div class="koga-debut-artwork"><img src="../../images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット" width="886" height="886" loading="lazy"/></div><div class="koga-debut-copy"><p>03 / Latest release</p><h2 id="koga-debut-heading">My Queen, My Oath</h2><span>KOGA KAMISHIRO · OFFICIAL MV · 2026.07.20</span><h3>「君が、俺のすべて。」</h3><p>夕暮れの海を舞台に、大切な人を守ると決めた覚悟と、揺るがない愛を描いた神代煌牙のラブソング。</p><p>王冠、運命、永遠の誓い。静かな情熱とともに「My Queen. My Oath.」という言葉を捧げます。</p><a class="button artist-ghost-button" href="../../releases/my-queen-my-oath/">作品ページ ↗</a><a class="button artist-ghost-button" href="../../news/my-queen-my-oath-release/">RELEASE NEWS ↗</a><a class="button artist-primary-button" href="https://www.youtube.com/watch?v=_TfwreiEMMM" target="_blank" rel="noopener noreferrer">公式MVを見る ↗</a></div></section>'
+    koga_text, count = re.subn(r'<section class="koga-debut-section".*?</section>', koga_debut, koga_text, count=1, flags=re.DOTALL)
+    if count != 1:
+        raise RuntimeError("KOGA debut section was not found.")
+    queen_row = '<a class="artist-track-row" href="../../releases/my-queen-my-oath/"><span>01</span><img src="../../images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット" width="886" height="886" loading="lazy"/><div><strong>My Queen, My Oath</strong><small>君が、俺のすべて。 · Official MV</small></div><b aria-hidden="true">↗</b></a>'
+    koga_text = re.sub(r'<a class="artist-track-row" href="#debut-single">.*?</a>', queen_row, koga_text, count=1, flags=re.DOTALL)
+    koga.write_text(koga_text, encoding="utf-8")
     if 'id="koga-release-itemlist"' not in koga_text:
         koga_items = [
             ("忘却の生き物", "boukyaku-no-ikimono"),
@@ -158,7 +234,12 @@ def main() -> None:
     eclypse_text, count = re.subn(r'<section class="eclypse-debut-section eclypse-second-single-section".*?</section>', red_section, eclypse_text, count=1, flags=re.DOTALL)
     if count != 1:
         raise RuntimeError("ECLYPSE latest single section was not found.")
-    eclypse_text = eclypse_text.replace('デビューシングル「SHADOW//CODE」の公式動画、メンバー情報、グループコンセプトを紹介します。', '2nd Single「RED MOON // RISING」とデビューシングル「SHADOW//CODE」の公式動画、メンバー情報、グループコンセプトを紹介します。')
+    eclypse_description = '音楽レーベルSUZUKA所属の5人組男性K-POPグループ、ECLYPSEの公式プロフィール。2nd Single「RED MOON // RISING」とデビューシングル「SHADOW//CODE」の公式動画、メンバー情報、グループコンセプトを紹介します。'
+    eclypse_text = re.sub(
+        r'音楽レーベルSUZUKA所属の5人組男性K-POPグループ、ECLYPSEの公式プロフィール。(?:2nd Single「RED MOON // RISING」と)*デビューシングル「SHADOW//CODE」の公式動画、メンバー情報、グループコンセプトを紹介します。',
+        eclypse_description,
+        eclypse_text,
+    )
     eclypse_text = eclypse_text.replace('ECLYPSE – SHADOW//CODE | SUZUKA', 'ECLYPSE｜RED MOON // RISING・SHADOW//CODE｜SUZUKA')
     eclypse_text = eclypse_text.replace('ECLYPSEのデビューシングル「SHADOW//CODE」。公式動画を公開中。光と闇が交わる瞬間、5つの運命が動き始める。', 'ECLYPSEの2nd Single「RED MOON // RISING」公式動画を公開中。壊れたコードの先で、赤い月とともに5人の運命が再び動き始める。')
     if 'id="eclypse-release-itemlist"' not in eclypse_text:
@@ -177,18 +258,26 @@ def main() -> None:
     shadow.write_text(shadow_text, encoding="utf-8")
 
     social = ROOT / "social/index.html"
+    queen_social = '<a class="social-hub-card" href="../releases/my-queen-my-oath/"><img src="../images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット" width="886" height="886" loading="lazy"/><div><small>KOGA KAMISHIRO · OFFICIAL MV</small><strong>My Queen, My Oath</strong><span>作品と公式MVを見る →</span></div></a>'
+    upsert_social_card(social, queen_social, '../releases/my-queen-my-oath/')
     red_social = '<a class="social-hub-card" href="../releases/red-moon-rising/"><img src="../images/eclypse-red-moon-rising-cover.png" alt="ECLYPSE「RED MOON // RISING」正式ジャケット" width="1254" height="1254" loading="lazy"/><div><small>ECLYPSE · 2ND SINGLE</small><strong>RED MOON // RISING</strong><span>作品の物語と公式MVを見る →</span></div></a>'
     insert_after(social, '<div class="social-hub-grid">', red_social, '../releases/red-moon-rising/')
     social_cards = '<a class="social-hub-card" href="../releases/smile-and-say-goodbye/"><img src="../images/mv-smile-and-say-goodbye.png" alt="榎本魅愛「SMILE AND SAY GOODBYE」公式ジャケット" width="1672" height="941" loading="lazy"/><div><small>ENOMOTO MIA</small><strong>SMILE AND SAY GOODBYE</strong><span>楽曲の物語を見る →</span></div></a><a class="social-hub-card" href="../releases/boukyaku-no-ikimono/"><img src="../images/mv-boukyaku-no-ikimono.png" alt="神代 煌牙「忘却の生き物」公式ジャケット" width="1672" height="940" loading="lazy"/><div><small>KOGA KAMISHIRO</small><strong>忘却の生き物</strong><span>楽曲の物語を見る →</span></div></a>'
     insert_after(social, '<div class="social-hub-grid">', social_cards, '../releases/smile-and-say-goodbye/')
     social_news = '<a href="../news/red-moon-rising-release/"><span>「RED MOON // RISING」の第2章</span><b aria-hidden="true">→</b></a>'
     insert_after(social, '<div class="social-hub-directory">', social_news, '../news/red-moon-rising-release/')
+    queen_social_news = '<a href="../news/my-queen-my-oath-release/"><span>「My Queen, My Oath」公開News</span><b aria-hidden="true">→</b></a>'
+    insert_after(social, '<div class="social-hub-directory">', queen_social_news, '../news/my-queen-my-oath-release/')
 
     news_home = '<article><a href="./news/red-moon-rising-release/" aria-label="RED MOON // RISINGの公式News記事を見る"><time datetime="2026-07-20">2026.07.20</time><span>RELEASE STORY</span><h3>ECLYPSE「RED MOON // RISING」公開｜赤い月とともに始まる第2章</h3><b aria-hidden="true">↗</b></a></article>'
     insert_after(home, '<div class="news-list">', news_home, './news/red-moon-rising-release/')
+    queen_news_home = '<article><a href="./news/my-queen-my-oath-release/" aria-label="My Queen, My Oathの公式News記事を見る"><time datetime="2026-07-20">2026.07.20</time><span>RELEASE STORY</span><h3>神代煌牙「My Queen, My Oath」公開｜君が、俺のすべて。</h3><b aria-hidden="true">↗</b></a></article>'
+    insert_after(home, '<div class="news-list">', queen_news_home, './news/my-queen-my-oath-release/')
     news_index = ROOT / "news/index.html"
     news_card = '<article class="news-directory-card"><a href="./red-moon-rising-release/"><span class="news-directory-image"><img src="../images/eclypse-red-moon-rising-cover.png" alt="ECLYPSE「RED MOON // RISING」公開記事のサムネイル" width="1254" height="1254" loading="lazy"/></span><span class="news-directory-meta"><time datetime="2026-07-20">2026.07.20</time><em>RELEASE STORY</em></span><h2>ECLYPSE「RED MOON // RISING」公開｜赤い月とともに始まる第2章</h2><p>壊れたコードの先で赤い月が昇る。ECLYPSEの2nd Single、その世界観と公式MVを紹介します。</p><b aria-hidden="true">記事を読む ↗</b></a></article>'
     insert_after(news_index, '<div class="news-list news-feature-list">', news_card, './red-moon-rising-release/')
+    queen_news_card = '<article class="news-directory-card"><a href="./my-queen-my-oath-release/"><span class="news-directory-image"><img src="../images/koga-my-queen-my-oath-cover.jpg" alt="神代煌牙「My Queen, My Oath」公開記事のサムネイル" width="886" height="886" loading="lazy"/></span><span class="news-directory-meta"><time datetime="2026-07-20">2026.07.20</time><em>RELEASE STORY</em></span><h2>神代煌牙「My Queen, My Oath」公開｜君が、俺のすべて。</h2><p>夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた公式MVを紹介します。</p><b aria-hidden="true">記事を読む ↗</b></a></article>'
+    insert_after(news_index, '<div class="news-list news-feature-list">', queen_news_card, './my-queen-my-oath-release/')
 
     for path in (mia, koga, eclypse):
         text = path.read_text(encoding="utf-8")
@@ -202,7 +291,13 @@ def main() -> None:
 
     update_item_list(ROOT / "releases/index.html", releases)
     update_item_list(mia, [item for item in releases if item["artistSlug"] == "enomoto-mia"])
+    update_item_list(koga, [
+        {"title":"My Queen, My Oath","releasePage":"releases/my-queen-my-oath/"},
+        {"title":"忘却の生き物","releasePage":"releases/boukyaku-no-ikimono/"},
+        {"title":"OUR KINGDOM","releasePage":"releases/our-kingdom/"},
+    ])
     news_items = [
+        {"title":"神代煌牙「My Queen, My Oath」公開｜君が、俺のすべて。","releasePage":"news/my-queen-my-oath-release/"},
         {"title":"ECLYPSE「RED MOON // RISING」公開｜赤い月とともに始まる第2章","releasePage":"news/red-moon-rising-release/"},
         {"title":"榎本魅愛「百万告」公開｜百万回でも伝えたい、更新され続ける恋心","releasePage":"news/hyakumankoku-release/"},
         {"title":"榎本魅愛「取り扱いチュー💋い」｜危険でも逃げたくない、小悪魔ラブソング","releasePage":"news/toriatsukai-chui-release/"},
