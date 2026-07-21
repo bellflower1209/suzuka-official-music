@@ -67,7 +67,7 @@ def validate() -> tuple[list[str], dict, list[dict]]:
         for url_field, status_field in (("youtubeUrl", "youtubeStatus"), ("shortsUrl", "shortsStatus")):
             url = item.get(url_field)
             status = item[status_field]
-            if status == "published" and not str(url).startswith("https://www.youtube.com/"):
+            if status == "published" and not str(url).startswith(("https://www.youtube.com/", "https://youtu.be/")):
                 errors.append(f"{item['slug']}: published {url_field} is not an official YouTube URL")
             if status != "published" and url:
                 errors.append(f"{item['slug']}: unconfirmed {url_field} must not contain a URL")

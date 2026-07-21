@@ -267,6 +267,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":
         return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
+    if route in {"artists/rangili/index.html", "artists/asagiri-shinobu/index.html"}:
+        return {"WebPage", "BreadcrumbList"}
     if route.startswith("artists/"):
         return {"Person", "ProfilePage", "BreadcrumbList"}
     if route == "releases/index.html":
@@ -277,6 +279,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"WebPage", "Organization", "ItemList", "BreadcrumbList"}
     if relative in FEATURE_NEWS:
         return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
+    if route == "news/upcoming-artists/index.html":
+        return {"NewsArticle", "WebPage", "BreadcrumbList"}
     if route.startswith("news/"):
         return {"Article", "WebPage", "BreadcrumbList"}
     if relative in NO_VIDEO_RELEASE_PATHS:
@@ -471,8 +475,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 7:
-                errors.append(f"{relative}: expected 7 official News entries, found {len(listed)}")
+            if len(listed) != 8:
+                errors.append(f"{relative}: expected 8 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})
@@ -667,6 +671,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for path in ("index.html", "artists/enomoto-mia/index.html", "releases/index.html", "sitemap.xml", "assets/main.js")
     )
     for release in UNPUBLISHED_MIA:
+        if release.get("status") == "upcoming":
+            continue
         if release["title"] in public_surface:
             errors.append(f"unpublished song appears on a public surface: {release['title']}")
     fixed_count_pattern = re.compile(r"全\s*10曲|10\s*songs|榎本魅愛の\s*10曲|代表\s*10曲|公開曲は\s*10曲", re.IGNORECASE)
@@ -710,7 +716,12 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         errors.append(f"orphaned page: {url}")
 
     homepage_links = graph.get(f"{PUBLIC_BASE_URL}/", set())
-    missing_home_links = sorted(set(expected_urls) - homepage_links - {f"{PUBLIC_BASE_URL}/"})
+    upcoming_urls = {
+        f"{PUBLIC_BASE_URL}/{release['pageUrl']}"
+        for release in UNPUBLISHED_MIA
+        if release.get("status") == "upcoming"
+    }
+    missing_home_links = sorted(set(expected_urls) - homepage_links - upcoming_urls - {f"{PUBLIC_BASE_URL}/"})
     for url in missing_home_links:
         errors.append(f"homepage does not link directly to important page: {url}")
 

@@ -10,19 +10,24 @@
       "subtitle": "大好きだから、笑ってさようなら。",
       "cardTitle": "SMILE AND SAY GOODBYE",
       "slug": "smile-and-say-goodbye",
-      "status": "published",
+      "status": "upcoming",
       "pageUrl": "releases/smile-and-say-goodbye/",
       "youtubeUrl": null,
       "youtubeId": null,
       "youtubeVideoTitle": null,
       "image": "images/mv-smile-and-say-goodbye.png",
       "duration": null,
-      "uploadDate": null,
+      "uploadDate": "2026-07-22",
       "shortDescription": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
       "featured": true,
       "playerEnabled": false,
       "jacketArtistVariant": "MICHIRU ENOMOTO",
-      "relatedSongs": ["moshimo-ashita-hajimemashite-ni-natte-mo", "mirai-no-watashi-ga-miteru", "kimi-wa-hanabi", "tokenai-mahou-wo-ai-to-yobu"]
+      "relatedSongs": [
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru",
+        "kimi-wa-hanabi",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ]
     },
     {
       "title": "もしも明日、はじめましてになっても",
@@ -39,7 +44,11 @@
       "featured": true,
       "jacketTitleVariant": "もしも明日、はじめましてになっても。",
       "siteTitleVariantBeforeAudit": "もしも明日、はじめましてになっても。",
-      "relatedSongs": ["suki-ga-kyou-mo-fueteiku", "toriatsukai-chui", "mia"]
+      "relatedSongs": [
+        "suki-ga-kyou-mo-fueteiku",
+        "toriatsukai-chui",
+        "mia"
+      ]
     },
     {
       "title": "好きが、今日も増えていく。",
@@ -55,7 +64,11 @@
       "shortDescription": "昨日より今日へ、日常の中で増えていく「好き」を歌う王道ラブソング。",
       "featured": true,
       "jacketTitleVariant": "好きが、今日も増えていく",
-      "relatedSongs": ["toriatsukai-chui", "mirai-no-watashi-ga-miteru", "hyakumankoku"]
+      "relatedSongs": [
+        "toriatsukai-chui",
+        "mirai-no-watashi-ga-miteru",
+        "hyakumankoku"
+      ]
     },
     {
       "title": "取り扱いチュー💋い",
@@ -70,7 +83,12 @@
       "uploadDate": "2026-07-14",
       "shortDescription": "恋の安全装置が外れる瞬間を描いた、可愛く勢いのある恋愛ポップソング。",
       "featured": true,
-      "relatedSongs": ["mia", "hyakumankoku", "muteki-jikan-ato-3byou", "sukitte-baretemo-ii"]
+      "relatedSongs": [
+        "mia",
+        "hyakumankoku",
+        "muteki-jikan-ato-3byou",
+        "sukitte-baretemo-ii"
+      ]
     },
     {
       "title": "OUR KINGDOM",
@@ -85,9 +103,16 @@
       "uploadDate": "2026-07-14",
       "shortDescription": "榎本魅愛と神代煌牙が歌う、対等な二人の関係を描いたデュエット曲。",
       "featured": false,
-      "collaborators": ["神代煌牙"],
+      "collaborators": [
+        "神代煌牙"
+      ],
       "youtubeTitleArtistVariant": "神城煌牙",
-      "relatedSongs": ["mirai-no-watashi-ga-miteru", "toriatsukai-chui", "muteki-jikan-ato-3byou", "mia"]
+      "relatedSongs": [
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "muteki-jikan-ato-3byou",
+        "mia"
+      ]
     },
     {
       "title": "未来の私が見てる",
@@ -104,7 +129,12 @@
       "featured": false,
       "jacketTitleVariant": "未来のわたしが見てる",
       "siteTitleVariantBeforeAudit": "未来のわたしが見てる",
-      "relatedSongs": ["our-kingdom", "toriatsukai-chui", "muteki-jikan-ato-3byou", "mia"]
+      "relatedSongs": [
+        "our-kingdom",
+        "toriatsukai-chui",
+        "muteki-jikan-ato-3byou",
+        "mia"
+      ]
     },
     {
       "title": "無敵時間、あと3秒",
@@ -119,7 +149,12 @@
       "uploadDate": "2026-07-13",
       "shortDescription": "好きな人へ踏み出す直前の勇気を、ゲームのカウントダウンに重ねたJ-POP。",
       "featured": false,
-      "relatedSongs": ["mia", "hyakumankoku", "toriatsukai-chui", "sukitte-baretemo-ii"]
+      "relatedSongs": [
+        "mia",
+        "hyakumankoku",
+        "toriatsukai-chui",
+        "sukitte-baretemo-ii"
+      ]
     },
     {
       "title": "M・I・A",
@@ -134,7 +169,12 @@
       "uploadDate": "2026-07-13",
       "shortDescription": "榎本魅愛という名前と、恋に落ちた高揚感を刻むシグネチャーソング。",
       "featured": false,
-      "relatedSongs": ["hyakumankoku", "muteki-jikan-ato-3byou", "toriatsukai-chui", "sukitte-baretemo-ii"]
+      "relatedSongs": [
+        "hyakumankoku",
+        "muteki-jikan-ato-3byou",
+        "toriatsukai-chui",
+        "sukitte-baretemo-ii"
+      ]
     },
     {
       "title": "解けない魔法を、愛と呼ぶ",
@@ -149,7 +189,12 @@
       "uploadDate": "2026-07-13",
       "shortDescription": "恋によって変わった心を、解けない魔法として描くロマンティックな楽曲。",
       "featured": false,
-      "relatedSongs": ["mia", "kimi-wa-hanabi", "sukitte-baretemo-ii", "mermaid-merman"]
+      "relatedSongs": [
+        "mia",
+        "kimi-wa-hanabi",
+        "sukitte-baretemo-ii",
+        "mermaid-merman"
+      ]
     },
     {
       "title": "君とならラスボスまで",
@@ -164,7 +209,12 @@
       "uploadDate": "2026-07-13",
       "shortDescription": "恋愛とRPGを重ね、二人なら困難も越えられると歌う冒険ラブソング。",
       "featured": false,
-      "relatedSongs": ["muteki-jikan-ato-3byou", "ai-demo-wakaranai", "mia", "mermaid-merman"]
+      "relatedSongs": [
+        "muteki-jikan-ato-3byou",
+        "ai-demo-wakaranai",
+        "mia",
+        "mermaid-merman"
+      ]
     },
     {
       "title": "AIでもわからない",
@@ -179,7 +229,12 @@
       "uploadDate": "2026-07-13",
       "shortDescription": "分析しても答えが出ない恋心を、AIと人間の感情に重ねたラブソング。",
       "featured": false,
-      "relatedSongs": ["muteki-jikan-ato-3byou", "kimi-to-nara-last-boss-made", "mia", "toriatsukai-chui"]
+      "relatedSongs": [
+        "muteki-jikan-ato-3byou",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "toriatsukai-chui"
+      ]
     },
     {
       "title": "君は花火",
@@ -194,7 +249,12 @@
       "uploadDate": "2026-07-12",
       "shortDescription": "夏の夜空を染める花火のように、強く眩しい恋の記憶を描いた楽曲。",
       "featured": false,
-      "relatedSongs": ["sukitte-baretemo-ii", "tokenai-mahou-wo-ai-to-yobu", "mia", "mermaid-merman"]
+      "relatedSongs": [
+        "sukitte-baretemo-ii",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "mia",
+        "mermaid-merman"
+      ]
     },
     {
       "title": "MERMAID×MERMAN",
@@ -209,7 +269,12 @@
       "uploadDate": "2026-07-12",
       "shortDescription": "異なる世界に生きる二人の恋を、人魚と人間の物語として描く幻想的な楽曲。",
       "featured": false,
-      "relatedSongs": ["tokenai-mahou-wo-ai-to-yobu", "kimi-wa-hanabi", "kimi-to-nara-last-boss-made", "mia"]
+      "relatedSongs": [
+        "tokenai-mahou-wo-ai-to-yobu",
+        "kimi-wa-hanabi",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ]
     },
     {
       "title": "好きってバレてもいい",
@@ -224,7 +289,12 @@
       "uploadDate": "2026-07-12",
       "shortDescription": "隠していた恋心を、もう隠さないと決める瞬間を描いた恋愛ソング。",
       "featured": false,
-      "relatedSongs": ["hyakumankoku", "mia", "kimi-wa-hanabi", "toriatsukai-chui"]
+      "relatedSongs": [
+        "hyakumankoku",
+        "mia",
+        "kimi-wa-hanabi",
+        "toriatsukai-chui"
+      ]
     },
     {
       "title": "百万告",
@@ -239,7 +309,12 @@
       "uploadDate": "2026-07-12",
       "shortDescription": "「好き」は一度では足りないという、まっすぐで大胆な告白ソング。",
       "featured": false,
-      "relatedSongs": ["mia", "muteki-jikan-ato-3byou", "toriatsukai-chui", "sukitte-baretemo-ii"]
+      "relatedSongs": [
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "toriatsukai-chui",
+        "sukitte-baretemo-ii"
+      ]
     },
     {
       "title": "たった1人の君へ",

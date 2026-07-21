@@ -55,10 +55,14 @@ LOCAL_ROUTES = {
     "/news/moshimo-ashita-hajimemashite-ni-natte-mo-release": Path("news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html"),
     "/news/red-moon-rising-release": Path("news/red-moon-rising-release/index.html"),
     "/news/my-queen-my-oath-release": Path("news/my-queen-my-oath-release/index.html"),
+    "/artists/rangili": Path("artists/rangili/index.html"),
+    "/artists/asagiri-shinobu": Path("artists/asagiri-shinobu/index.html"),
+    "/news/upcoming-artists": Path("news/upcoming-artists/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
     Path("assets/news-feature.css"),
+    Path("assets/upcoming.css"),
     Path("assets/social.css"),
     Path("assets/social.js"),
     Path("assets/data/social-links.json"),
@@ -68,6 +72,8 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
     Path("images/koga-my-queen-my-oath-cover.jpg"),
+    Path("images/rangili-coming-soon.jpg"),
+    Path("images/asagiri-shinobu-coming-soon.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
@@ -687,6 +693,11 @@ def main() -> None:
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("update_upcoming_artists.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(output), "--write"],
         check=True,
