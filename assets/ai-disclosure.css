@@ -1,0 +1,102 @@
+.ai-project-note,
+.ai-artist-note,
+.ai-news-disclosure,
+.ai-work-disclosure,
+.ai-footer-disclosure {
+  color: inherit;
+  line-height: 1.9;
+}
+
+.ai-project-note {
+  max-width: 52rem;
+  margin-top: 1.25rem;
+  color: var(--muted, #c7b9c9);
+  font-size: clamp(.76rem, 1.1vw, .9rem);
+}
+
+.ai-artist-note {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 1rem 0;
+  border: 1px solid color-mix(in srgb, var(--artist-primary, #ff4eb8) 45%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--artist-primary, #ff4eb8) 10%, transparent);
+  padding: .55rem .9rem;
+  color: inherit;
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.ai-about-section {
+  border-top: 1px solid rgba(255,255,255,.11);
+  border-bottom: 1px solid rgba(255,255,255,.11);
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1.25rem, 8vw, 9rem);
+  background: radial-gradient(circle at 80% 25%, rgba(156,92,255,.13), transparent 28rem);
+}
+
+.ai-about-section > div {
+  max-width: 880px;
+}
+
+.ai-about-section h2 {
+  margin: 1rem 0 2rem;
+  font-family: var(--serif);
+  font-size: clamp(2.3rem, 5vw, 5rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.ai-about-section p {
+  color: var(--muted);
+  line-height: 2.05;
+}
+
+.ai-news-disclosure,
+.ai-work-disclosure {
+  max-width: 960px;
+  margin: clamp(2rem, 5vw, 4rem) auto;
+  border-left: 2px solid rgba(255,78,184,.68);
+  background: rgba(255,255,255,.045);
+  padding: 1rem 1.25rem;
+  color: var(--muted, #c7b9c9);
+  font-size: .78rem;
+}
+
+.ai-work-disclosure {
+  margin-right: clamp(1.25rem, 7vw, 7rem);
+  margin-left: clamp(1.25rem, 7vw, 7rem);
+  max-width: none;
+}
+
+.ai-footer-disclosure {
+  width: 100%;
+  margin: 1.25rem 0 0;
+  border-top: 1px solid rgba(255,255,255,.09);
+  padding-top: 1rem;
+  color: rgba(255,255,255,.56);
+  font-size: .62rem;
+  letter-spacing: .04em;
+  text-transform: none;
+}
+
+@media (max-width: 720px) {
+  .ai-project-note,
+  .ai-news-disclosure,
+  .ai-work-disclosure,
+  .ai-footer-disclosure {
+    font-size: .72rem;
+  }
+
+  .ai-artist-note {
+    white-space: normal;
+    line-height: 1.55;
+  }
+
+  .ai-work-disclosure {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+  }
+}

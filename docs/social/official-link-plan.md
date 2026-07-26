@@ -9,6 +9,19 @@
 - News一覧: `https://bellflower1209.github.io/suzuka-official-music/news/`
 - Instagram公式URL: `https://www.instagram.com/suzuka12090511/`
 
+## AIアーティスト共通表記
+
+SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。
+
+Instagramプロフィール用短縮版：
+
+```text
+オリジナルAI音楽プロジェクト🎧
+架空のAIアーティストによる楽曲・MV・物語
+```
+
+投稿文では、各アーティスト本人がSNSを運営しているような一人称表現を避け、SUZUKA公式から作品を紹介する表現を使用します。
+
 ## 作品別 YouTube・Instagram案内URL
 
 | 作品 | リリースページ | News | MV | Shorts | YouTube説明欄UTM | 固定コメントUTM | Instagram投稿UTM |

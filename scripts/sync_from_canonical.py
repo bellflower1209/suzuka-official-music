@@ -70,6 +70,7 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/news-feature.css"),
     Path("assets/upcoming.css"),
     Path("assets/current-status.css"),
+    Path("assets/ai-disclosure.css"),
     Path("assets/social.css"),
     Path("assets/social.js"),
     Path("assets/data/social-links.json"),
@@ -720,6 +721,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("update_20260726_status.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("apply_ai_disclosures.py")), "--root", str(output)],
         cwd=output,
         check=True,
     )
