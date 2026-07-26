@@ -45,7 +45,8 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
     if (!response.ok) throw new Error(`release catalog HTTP ${response.status}`);
     const catalog = await response.json();
     const published = catalog.releases.filter((release) =>
-      release.status === "published" && release.youtubeId && release.youtubeUrl && release.image && release.pageUrl
+      release.status === "published" && release.playerEnabled !== false &&
+      release.youtubeId && release.youtubeUrl && release.image && release.pageUrl
     );
     if (published.length) tracks = published;
   } catch (error) {

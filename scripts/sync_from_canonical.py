@@ -57,23 +57,34 @@ LOCAL_ROUTES = {
     "/news/my-queen-my-oath-release": Path("news/my-queen-my-oath-release/index.html"),
     "/artists/rangili": Path("artists/rangili/index.html"),
     "/artists/asagiri-shinobu": Path("artists/asagiri-shinobu/index.html"),
+    "/artists/revive": Path("artists/revive/index.html"),
     "/news/upcoming-artists": Path("news/upcoming-artists/index.html"),
+    "/releases/namaste-galaxy": Path("releases/namaste-galaxy/index.html"),
+    "/releases/wasurenai-kokoro": Path("releases/wasurenai-kokoro/index.html"),
+    "/news/namaste-galaxy-release": Path("news/namaste-galaxy-release/index.html"),
+    "/news/wasurenai-kokoro-release": Path("news/wasurenai-kokoro-release/index.html"),
+    "/news/smile-and-say-goodbye-release": Path("news/smile-and-say-goodbye-release/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
     Path("assets/news-feature.css"),
     Path("assets/upcoming.css"),
+    Path("assets/current-status.css"),
     Path("assets/social.css"),
     Path("assets/social.js"),
     Path("assets/data/social-links.json"),
     Path("assets/data/release-links.json"),
     Path("assets/data/enomoto-mia-releases.json"),
+    Path("assets/data/upcoming-releases.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
     Path("images/koga-my-queen-my-oath-cover.jpg"),
     Path("images/rangili-coming-soon.jpg"),
     Path("images/asagiri-shinobu-coming-soon.jpg"),
+    Path("images/asagiri-wasurenai-kokoro.jpg"),
+    Path("images/rangili-namaste-galaxy.jpg"),
+    Path("images/revive-heal-you-again.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
@@ -704,6 +715,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("update_release_catalog.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("update_20260726_status.py")), "--root", str(output)],
         cwd=output,
         check=True,
     )

@@ -9,6 +9,7 @@ const releaseCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/enomot
 const expectedTrackCount = releaseCatalog.releases.filter(item => item.status === "published" && item.playerEnabled !== false).length;
 const pages = [
   "", "artists/", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/",
+  "artists/rangili/", "artists/asagiri-shinobu/", "artists/revive/",
   "releases/", "news/", "news/eclypse-joins-suzuka/", "news/shadow-code-announcement/",
   "releases/mia/", "releases/hyakumankoku/", "releases/muteki-jikan-ato-3byou/",
   "releases/toriatsukai-chui/", "releases/tokenai-mahou-wo-ai-to-yobu/",
@@ -19,10 +20,13 @@ const pages = [
   "releases/shadow-code/", "releases/my-queen-my-oath/",
   "releases/red-moon-rising/",
   "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/",
+  "releases/namaste-galaxy/", "releases/wasurenai-kokoro/",
   "news/hyakumankoku-release/", "news/toriatsukai-chui-release/",
   "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
   "news/red-moon-rising-release/",
-  "news/my-queen-my-oath-release/",
+  "news/my-queen-my-oath-release/", "news/upcoming-artists/",
+  "news/namaste-galaxy-release/", "news/wasurenai-kokoro-release/",
+  "news/smile-and-say-goodbye-release/",
   "social/",
 ];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];
@@ -63,7 +67,7 @@ async function waitForPageReady() {
     await new Promise(resolve => setTimeout(resolve, 250));
   }
 }
-await send("Runtime.enable"); await send("Network.enable"); await send("Page.enable");
+await send("Runtime.enable"); await send("Network.enable"); await send("Network.clearBrowserCache"); await send("Page.enable");
 const results = [];
 for (const size of sizes) {
   for (const route of pages) {

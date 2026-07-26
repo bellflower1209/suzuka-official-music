@@ -112,7 +112,7 @@ def render_report(social: dict, releases: list[dict]) -> str:
         f"- YouTubeチャンネル: `{next(item['url'] for item in social['links'] if item['platform'] == 'youtube')}`",
         f"- Releases一覧: `{PUBLIC_BASE}/releases/`",
         f"- News一覧: `{PUBLIC_BASE}/news/`",
-        "- Instagram公式URL: 未確認。確認できるまでサイト・構造化データへ掲載しない。",
+        f"- Instagram公式URL: `{next(item['url'] for item in social['links'] if item['platform'] == 'instagram')}`",
         "",
         "## 作品別 YouTube・Instagram案内URL",
         "",

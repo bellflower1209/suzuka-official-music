@@ -1,13 +1,13 @@
 {
   "siteName": "SUZUKA",
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-07-26",
   "links": [
     {
       "platform": "youtube",
       "artist": null,
       "release": null,
       "slug": "suzuka-official-youtube",
-      "url": "https://www.youtube.com/@bellflower5215",
+      "url": "https://www.youtube.com/@suzuka1209",
       "type": "channel",
       "status": "published",
       "label": "YouTubeでMV・Shortsを見る"
@@ -17,9 +17,9 @@
       "artist": null,
       "release": null,
       "slug": "suzuka-official-instagram",
-      "url": null,
+      "url": "https://www.instagram.com/suzuka12090511/",
       "type": "profile",
-      "status": "unconfirmed",
+      "status": "published",
       "label": "Instagram公式アカウント"
     }
   ]

@@ -35,8 +35,12 @@ MIA_RELEASE_DETAILS = {
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
 NO_VIDEO_RELEASE_PATHS = {
-    Path("releases/smile-and-say-goodbye/index.html"),
     Path("releases/boukyaku-no-ikimono/index.html"),
+}
+CURRENT_RELEASE_NEWS = {
+    Path("news/namaste-galaxy-release/index.html"),
+    Path("news/wasurenai-kokoro-release/index.html"),
+    Path("news/smile-and-say-goodbye-release/index.html"),
 }
 FEATURE_NEWS = {
     Path("news/hyakumankoku-release/index.html"): {
@@ -267,8 +271,12 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":
         return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
-    if route in {"artists/rangili/index.html", "artists/asagiri-shinobu/index.html"}:
-        return {"WebPage", "BreadcrumbList"}
+    if route == "artists/rangili/index.html":
+        return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
+    if route == "artists/asagiri-shinobu/index.html":
+        return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
+    if route == "artists/revive/index.html":
+        return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
     if route.startswith("artists/"):
         return {"Person", "ProfilePage", "BreadcrumbList"}
     if route == "releases/index.html":
@@ -279,6 +287,8 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"WebPage", "Organization", "ItemList", "BreadcrumbList"}
     if relative in FEATURE_NEWS:
         return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
+    if relative in CURRENT_RELEASE_NEWS:
+        return {"NewsArticle", "WebPage", "BreadcrumbList"}
     if route == "news/upcoming-artists/index.html":
         return {"NewsArticle", "WebPage", "BreadcrumbList"}
     if route.startswith("news/"):
@@ -475,8 +485,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 8:
-                errors.append(f"{relative}: expected 8 official News entries, found {len(listed)}")
+            if len(listed) != 11:
+                errors.append(f"{relative}: expected 11 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})

@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 BASE = "https://bellflower1209.github.io/suzuka-official-music"
-BOUKYAKU_YOUTUBE = "https://youtu.be/yREvkT9gEk4"
+BOUKYAKU_YOUTUBE = "https://www.youtube.com/watch?v=yREvkT9gEk4"
 
 
 def replace_once(source: str, old: str, new: str, label: str) -> str:

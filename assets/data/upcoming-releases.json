@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-07-26T19:42:00+09:00",
+  "releases": [
+    {
+      "slug": "echoes-of-you",
+      "title": "Echoes of You",
+      "artist": "神代 煌牙",
+      "artistSlug": "koga-kamishiro",
+      "status": "upcoming",
+      "scheduledAt": "2026-07-26T20:00:00+09:00",
+      "youtubeUrl": null,
+      "image": null,
+      "note": "公式予約URLと正式画像は2026年7月26日19時42分時点で未確認"
+    },
+    {
+      "slug": "heal-you-again",
+      "title": "Heal You Again",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "status": "upcoming",
+      "scheduledAt": "2026-07-27T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XHjDSEoFcXE",
+      "image": "images/revive-heal-you-again.jpg",
+      "note": "公式YouTubeプレミア公開予定"
+    }
+  ]
+}
