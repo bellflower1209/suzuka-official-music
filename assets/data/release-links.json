@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-07-28",
   "releases": [
+    {
+      "slug": "heal-you-again",
+      "title": "Heal You Again",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "status": "published",
+      "releaseType": "single",
+      "image": "images/revive-heal-you-again.jpg",
+      "coverImage": "images/revive-heal-you-again.jpg",
+      "coverAlt": "RE:VIVE「Heal You Again」公式YouTubeサムネイル",
+      "releasePage": "releases/heal-you-again/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XHjDSEoFcXE",
+      "youtubeStatus": "published",
+      "shortsUrl": null,
+      "shortsStatus": "unconfirmed",
+      "publishedDate": "2026-07-27",
+      "duration": 105,
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "playerEnabled": false,
+      "newsPage": "news/heal-you-again-release/",
+      "newsUrl": "news/heal-you-again-release/",
+      "newsStatus": "published",
+      "relatedReleases": [
+        "smile-and-say-goodbye",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ]
+    },
+    {
+      "slug": "echoes-of-you",
+      "title": "Echoes of You",
+      "artist": "神代 煌牙",
+      "artistSlug": "koga-kamishiro",
+      "status": "published",
+      "releaseType": "single",
+      "image": "images/koga-echoes-of-you.jpg",
+      "coverImage": "images/koga-echoes-of-you.jpg",
+      "coverAlt": "神代煌牙「Echoes of You」公式YouTubeサムネイル",
+      "releasePage": "releases/echoes-of-you/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Uxtp9TLw47g",
+      "youtubeStatus": "published",
+      "shortsUrl": null,
+      "shortsStatus": "unconfirmed",
+      "publishedDate": "2026-07-26",
+      "duration": 484,
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "playerEnabled": false,
+      "newsPage": "news/echoes-of-you-release/",
+      "newsUrl": "news/echoes-of-you-release/",
+      "newsStatus": "published",
+      "relatedReleases": [
+        "my-queen-my-oath",
+        "boukyaku-no-ikimono",
+        "our-kingdom"
+      ]
+    },
     {
       "slug": "my-queen-my-oath",
       "title": "My Queen, My Oath",

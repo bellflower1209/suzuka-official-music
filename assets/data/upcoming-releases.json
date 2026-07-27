@@ -1,27 +1,38 @@
 {
-  "updatedAt": "2026-07-26T19:42:00+09:00",
+  "updatedAt": "2026-07-28T00:00:00+09:00",
   "releases": [
     {
-      "slug": "echoes-of-you",
-      "title": "Echoes of You",
-      "artist": "神代 煌牙",
-      "artistSlug": "koga-kamishiro",
+      "slug": "chimpanzee-no-rakuen",
+      "title": "チンパンジーの楽園",
+      "artist": "NOX",
+      "artistSlug": "nox",
       "status": "upcoming",
-      "scheduledAt": "2026-07-26T20:00:00+09:00",
-      "youtubeUrl": null,
-      "image": null,
-      "note": "公式予約URLと正式画像は2026年7月26日19時42分時点で未確認"
+      "scheduledAt": "2026-07-29T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "image": "images/nox-chimpanzee-no-rakuen.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
     },
     {
-      "slug": "heal-you-again",
-      "title": "Heal You Again",
-      "artist": "RE:VIVE",
-      "artistSlug": "revive",
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
       "status": "upcoming",
-      "scheduledAt": "2026-07-27T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XHjDSEoFcXE",
-      "image": "images/revive-heal-you-again.jpg",
-      "note": "公式YouTubeプレミア公開予定"
+      "scheduledAt": "2026-07-30T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+    },
+    {
+      "slug": "without-worrying",
+      "title": "Without Worrying",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "status": "upcoming",
+      "scheduledAt": "2026-07-31T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
     }
   ]
 }

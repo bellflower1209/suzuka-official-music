@@ -58,12 +58,17 @@ LOCAL_ROUTES = {
     "/artists/rangili": Path("artists/rangili/index.html"),
     "/artists/asagiri-shinobu": Path("artists/asagiri-shinobu/index.html"),
     "/artists/revive": Path("artists/revive/index.html"),
+    "/artists/nox": Path("artists/nox/index.html"),
     "/news/upcoming-artists": Path("news/upcoming-artists/index.html"),
     "/releases/namaste-galaxy": Path("releases/namaste-galaxy/index.html"),
     "/releases/wasurenai-kokoro": Path("releases/wasurenai-kokoro/index.html"),
     "/news/namaste-galaxy-release": Path("news/namaste-galaxy-release/index.html"),
     "/news/wasurenai-kokoro-release": Path("news/wasurenai-kokoro-release/index.html"),
     "/news/smile-and-say-goodbye-release": Path("news/smile-and-say-goodbye-release/index.html"),
+    "/releases/echoes-of-you": Path("releases/echoes-of-you/index.html"),
+    "/releases/heal-you-again": Path("releases/heal-you-again/index.html"),
+    "/news/echoes-of-you-release": Path("news/echoes-of-you-release/index.html"),
+    "/news/heal-you-again-release": Path("news/heal-you-again-release/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
@@ -86,6 +91,8 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/asagiri-wasurenai-kokoro.jpg"),
     Path("images/rangili-namaste-galaxy.jpg"),
     Path("images/revive-heal-you-again.jpg"),
+    Path("images/koga-echoes-of-you.jpg"),
+    Path("images/nox-chimpanzee-no-rakuen.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
@@ -110,7 +117,7 @@ ASSET_ATTR_RE = re.compile(r'(?P<attr>href|src)="(?P<value>/[^\"]*)"')
 IMAGE_RE = re.compile(r'(?:src|href)="(?P<value>(?:\./|/)?(?:images/[^\"]+|og\.png))"')
 CSS_RE = re.compile(r'<link\b[^>]*rel="stylesheet"[^>]*href="(?P<value>(?:\./|/)?assets/[^\"]+\.css)"', re.IGNORECASE)
 
-CHANNEL_URL = "https://www.youtube.com/@bellflower5215"
+CHANNEL_URL = "https://www.youtube.com/@suzuka1209"
 SHADOW_CODE_URL = "https://www.youtube.com/watch?v=8VCL2IepjeM"
 RELEASE_ENGAGEMENT = {
     "SHADOW//CODE": ("ECLYPSE", "DEBUT SINGLE · 2026", SHADOW_CODE_URL, "WATCH MV", True),
@@ -721,6 +728,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("update_20260726_status.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("update_20260728_status.py")), "--root", str(output)],
         cwd=output,
         check=True,
     )

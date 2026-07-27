@@ -10,6 +10,7 @@ const expectedTrackCount = releaseCatalog.releases.filter(item => item.status ==
 const pages = [
   "", "artists/", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/",
   "artists/rangili/", "artists/asagiri-shinobu/", "artists/revive/",
+  "artists/nox/",
   "releases/", "news/", "news/eclypse-joins-suzuka/", "news/shadow-code-announcement/",
   "releases/mia/", "releases/hyakumankoku/", "releases/muteki-jikan-ato-3byou/",
   "releases/toriatsukai-chui/", "releases/tokenai-mahou-wo-ai-to-yobu/",
@@ -26,7 +27,8 @@ const pages = [
   "news/red-moon-rising-release/",
   "news/my-queen-my-oath-release/", "news/upcoming-artists/",
   "news/namaste-galaxy-release/", "news/wasurenai-kokoro-release/",
-  "news/smile-and-say-goodbye-release/",
+  "news/smile-and-say-goodbye-release/", "news/echoes-of-you-release/",
+  "news/heal-you-again-release/", "releases/echoes-of-you/", "releases/heal-you-again/",
   "social/",
 ];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];
@@ -63,7 +65,11 @@ async function waitForPageReady() {
       expression: "document.readyState === 'complete' && !!document.querySelector('.suzuka-music-player')",
       returnByValue: true,
     });
-    if (ready.result.value) return;
+    if (ready.result.value) {
+      await send("Runtime.evaluate", {expression: "window.scrollTo(0, 0)"});
+      await new Promise(resolve => setTimeout(resolve, 500));
+      return;
+    }
     await new Promise(resolve => setTimeout(resolve, 250));
   }
 }
@@ -71,14 +77,14 @@ await send("Runtime.enable"); await send("Network.enable"); await send("Network.
 const results = [];
 for (const size of sizes) {
   for (const route of pages) {
-    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "releases/", "news/", "social/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/"].includes(route)) continue;
+    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     await send("Page.navigate", {url:new URL(route, base).href});
     await waitForPageReady();
     const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
     const value = evaluated.result.value;
-    if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "releases/", "social/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/"].includes(route) && [1280, 390].includes(size.width)) {
+    if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "artists/nox/", "releases/", "social/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route) && [1280, 390].includes(size.width)) {
       const shot = await send("Page.captureScreenshot", {format:"png", captureBeyondViewport:false});
       const name = route === "" ? "home" : route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));

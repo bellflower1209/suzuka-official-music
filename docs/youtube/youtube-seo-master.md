@@ -366,3 +366,36 @@ Subscribe for new releases, official music videos, lyric videos, and Shorts.
 - 再生リスト開始数と再生リスト経由視聴時間
 
 UTMは作品ごとに `utm_source=youtube`、説明欄は `utm_medium=video_description`、固定コメントは `utm_medium=pinned_comment`、`utm_campaign={slug}` へ統一する。
+## 2026-07-28 公式公開確認
+
+公式チャンネル `UCVde75yhByGQMu3SkO-fzrA` の動画ページを2026年7月28日に確認。
+
+| 状態 | 作品 | アーティスト | 公開日／予定 | 時間 | 正式URL |
+| --- | --- | --- | --- | --- | --- |
+| 公開済み | Heal You Again | RE:VIVE | 2026-07-27 | 1:45 | https://www.youtube.com/watch?v=XHjDSEoFcXE |
+| 公開済み | Echoes of You | 神代煌牙 | 2026-07-26 | 8:04 | https://www.youtube.com/watch?v=Uxtp9TLw47g |
+| 公開予定 | チンパンジーの楽園 | NOX | 2026-07-29 20:00 JST | 未確定 | https://www.youtube.com/watch?v=EJJLBOo103I |
+| 公開予定 | 恋するマハラジャ | RANGILI | 2026-07-30 20:00 JST | 未確定 | https://www.youtube.com/watch?v=V3DOM83zeLk |
+| 公開予定 | Without Worrying | 榎本魅愛 | 2026-07-31 20:00 JST | 未確定 | https://www.youtube.com/watch?v=lMeYWn4Sqgk |
+
+### 新規公開作品の運用URL
+
+- `Heal You Again`
+  - 説明欄: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=video_description&utm_campaign=heal-you-again`
+  - 固定コメント: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=heal-you-again`
+  - Instagram: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=instagram&utm_medium=social_post&utm_campaign=heal-you-again`
+- `Echoes of You`
+  - 説明欄: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=video_description&utm_campaign=echoes-of-you`
+  - 固定コメント: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=echoes-of-you`
+  - Instagram: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=instagram&utm_medium=social_post&utm_campaign=echoes-of-you`
+
+### タイトル・タグ案
+
+- `Heal You Again｜RE:VIVE【Official Music Video】`
+  - `RE:VIVE, Heal You Again, SUZUKA, AI Music, J-POP, 応援ソング, Official MV`
+  - `#REVIVE #HealYouAgain #SUZUKA #AIMusic #OfficialMV`
+- `Echoes of You｜神代煌牙【Official Music Video】`
+  - `Echoes of You, 神代煌牙, KOGA KAMISHIRO, SUZUKA, AI Music, J-POP, バラード, Official MV`
+  - `#EchoesOfYou #神代煌牙 #SUZUKA #AIMusic #OfficialMV`
+
+YouTube Studio上のタイトル・説明欄・タグ・カード・エンド画面は、この管理表の提案であり、実反映済みとは扱わない。

@@ -9,23 +9,12 @@
 - News一覧: `https://bellflower1209.github.io/suzuka-official-music/news/`
 - Instagram公式URL: `https://www.instagram.com/suzuka12090511/`
 
-## AIアーティスト共通表記
-
-SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。
-
-Instagramプロフィール用短縮版：
-
-```text
-オリジナルAI音楽プロジェクト🎧
-架空のAIアーティストによる楽曲・MV・物語
-```
-
-投稿文では、各アーティスト本人がSNSを運営しているような一人称表現を避け、SUZUKA公式から作品を紹介する表現を使用します。
-
 ## 作品別 YouTube・Instagram案内URL
 
 | 作品 | リリースページ | News | MV | Shorts | YouTube説明欄UTM | 固定コメントUTM | Instagram投稿UTM |
 |---|---|---|---|---|---|---|---|
+| Heal You Again | https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/ | https://bellflower1209.github.io/suzuka-official-music/news/heal-you-again-release/ | https://www.youtube.com/watch?v=XHjDSEoFcXE | 未確認 | https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=video_description&utm_campaign=heal-you-again | https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=heal-you-again | https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=instagram&utm_medium=social_post&utm_campaign=heal-you-again |
+| Echoes of You | https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/ | https://bellflower1209.github.io/suzuka-official-music/news/echoes-of-you-release/ | https://www.youtube.com/watch?v=Uxtp9TLw47g | 未確認 | https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=video_description&utm_campaign=echoes-of-you | https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=echoes-of-you | https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=instagram&utm_medium=social_post&utm_campaign=echoes-of-you |
 | My Queen, My Oath | https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/ | https://bellflower1209.github.io/suzuka-official-music/news/my-queen-my-oath-release/ | https://www.youtube.com/watch?v=_TfwreiEMMM | 未確認 | https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/?utm_source=youtube&utm_medium=video_description&utm_campaign=my-queen-my-oath | https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=my-queen-my-oath | https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/?utm_source=instagram&utm_medium=social_post&utm_campaign=my-queen-my-oath |
 | RED MOON // RISING | https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/ | https://bellflower1209.github.io/suzuka-official-music/news/red-moon-rising-release/ | https://www.youtube.com/watch?v=BZkMHt0P2oo | 未確認 | https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/?utm_source=youtube&utm_medium=video_description&utm_campaign=red-moon-rising | https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=red-moon-rising | https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/?utm_source=instagram&utm_medium=social_post&utm_campaign=red-moon-rising |
 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/ | https://bellflower1209.github.io/suzuka-official-music/news/smile-and-say-goodbye-release/ | https://www.youtube.com/watch?v=b2n8gcpen58 | 未確認 | https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/?utm_source=youtube&utm_medium=video_description&utm_campaign=smile-and-say-goodbye | https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=smile-and-say-goodbye | https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/?utm_source=instagram&utm_medium=social_post&utm_campaign=smile-and-say-goodbye |

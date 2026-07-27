@@ -41,6 +41,8 @@ CURRENT_RELEASE_NEWS = {
     Path("news/namaste-galaxy-release/index.html"),
     Path("news/wasurenai-kokoro-release/index.html"),
     Path("news/smile-and-say-goodbye-release/index.html"),
+    Path("news/echoes-of-you-release/index.html"),
+    Path("news/heal-you-again-release/index.html"),
 }
 FEATURE_NEWS = {
     Path("news/hyakumankoku-release/index.html"): {
@@ -276,6 +278,8 @@ def required_schema_types(relative: Path) -> set[str]:
     if route == "artists/asagiri-shinobu/index.html":
         return {"Person", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/revive/index.html":
+        return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
+    if route == "artists/nox/index.html":
         return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
     if route.startswith("artists/"):
         return {"Person", "ProfilePage", "BreadcrumbList"}
@@ -460,8 +464,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         if relative == Path("artists/koga-kamishiro/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#releases", {})
             listed = itemlist.get("itemListElement", [])
-            if itemlist.get("numberOfItems") != 3 or len(listed) != 3:
-                errors.append(f"{relative}: release ItemList must contain 3 works")
+            if itemlist.get("numberOfItems") != 4 or len(listed) != 4:
+                errors.append(f"{relative}: release ItemList must contain 4 works")
             for item in listed:
                 if not str(item.get("url", "")).startswith(("https://", "http://")):
                     errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
@@ -485,8 +489,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 11:
-                errors.append(f"{relative}: expected 11 official News entries, found {len(listed)}")
+            if len(listed) != 13:
+                errors.append(f"{relative}: expected 13 official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})
