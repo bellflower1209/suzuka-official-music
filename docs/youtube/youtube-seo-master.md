@@ -399,3 +399,19 @@ UTMは作品ごとに `utm_source=youtube`、説明欄は `utm_medium=video_desc
   - `#EchoesOfYou #神代煌牙 #SUZUKA #AIMusic #OfficialMV`
 
 YouTube Studio上のタイトル・説明欄・タグ・カード・エンド画面は、この管理表の提案であり、実反映済みとは扱わない。
+
+## 2026-07-30 公式公開確認
+
+公式チャンネル `UCVde75yhByGQMu3SkO-fzrA` を一次情報として、一般視聴可否・公開日・時間を確認。
+
+| 状態 | 作品 | アーティスト | 公開日／予定 | 時間 | 正式URL |
+| --- | --- | --- | --- | --- | --- |
+| 公開済み | チンパンジーの楽園 | NOX | 2026-07-29 | 2:28 | https://www.youtube.com/watch?v=EJJLBOo103I |
+| 公開済み | 明日は、きっと。 | 榎本魅愛 | 2026-07-28 | 3:35 | https://www.youtube.com/watch?v=5MkQZT5qiGA |
+| 公開予定 | 恋するマハラジャ | RANGILI | 2026-07-30 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=V3DOM83zeLk |
+| 公開予定 | Without Worrying | 榎本魅愛 | 2026-07-31 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=lMeYWn4Sqgk |
+| 公開予定 | LOST SIGNAL | ECLYPSE | 2026-08-01 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=CbpvpKllc6c |
+| 公開予定 | One More Kiss | 神代煌牙 | 2026-08-02 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=EP7NAPlGhuo |
+| 公開予定 | 善人裁判 | NOX | 2026-08-03 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=8BjnnX3xeGw |
+
+予約中の作品は公開済み作品数・MusicRecordingへ含めない。

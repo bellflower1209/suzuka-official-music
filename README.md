@@ -21,6 +21,9 @@
 - `scripts/sync_from_canonical.py`：正本サイトから静的ページを同期するスクリプト
 - `scripts/check_static_site.py`：内部リンクとアセットを検査するスクリプト
 - `robots.txt` / `sitemap.xml`：検索エンジン向けファイル
+- `assets/data/releases-catalog.json`：検索・ジャンル・年表・Weekly Pickが共通利用する公開作品の正本
+- `search/` / `genres/` / `discography/`：作品を探すための静的ページ
+- `scripts/build_explore_catalog.py`：正本データと探索ページを再生成するスクリプト
 - `.nojekyll`：GitHub Pages用設定
 
 ## GitHub Pagesで公開する手順

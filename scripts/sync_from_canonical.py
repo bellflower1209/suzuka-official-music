@@ -69,6 +69,17 @@ LOCAL_ROUTES = {
     "/releases/heal-you-again": Path("releases/heal-you-again/index.html"),
     "/news/echoes-of-you-release": Path("news/echoes-of-you-release/index.html"),
     "/news/heal-you-again-release": Path("news/heal-you-again-release/index.html"),
+    "/releases/ashita-wa-kitto": Path("releases/ashita-wa-kitto/index.html"),
+    "/releases/chimpanzee-no-rakuen": Path("releases/chimpanzee-no-rakuen/index.html"),
+    "/news/ashita-wa-kitto-release": Path("news/ashita-wa-kitto-release/index.html"),
+    "/news/chimpanzee-no-rakuen-release": Path("news/chimpanzee-no-rakuen-release/index.html"),
+    "/search": Path("search/index.html"),
+    "/genres": Path("genres/index.html"),
+    "/genres/j-pop": Path("genres/j-pop/index.html"),
+    "/genres/enka": Path("genres/enka/index.html"),
+    "/genres/k-pop-inspired": Path("genres/k-pop-inspired/index.html"),
+    "/genres/visual-kei": Path("genres/visual-kei/index.html"),
+    "/discography": Path("discography/index.html"),
 }
 LOCAL_REQUIRED_ASSETS = {
     Path("assets/official-release.css"),
@@ -82,6 +93,9 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/data/release-links.json"),
     Path("assets/data/enomoto-mia-releases.json"),
     Path("assets/data/upcoming-releases.json"),
+    Path("assets/data/releases-catalog.json"),
+    Path("assets/explore.css"),
+    Path("assets/explore.js"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
@@ -93,6 +107,7 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/revive-heal-you-again.jpg"),
     Path("images/koga-echoes-of-you.jpg"),
     Path("images/nox-chimpanzee-no-rakuen.jpg"),
+    Path("images/mv-ashita-wa-kitto.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
     Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
@@ -712,32 +727,16 @@ def main() -> None:
         raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
-    subprocess.run(
-        [sys.executable, str(Path(__file__).resolve().with_name("update_upcoming_artists.py")), "--root", str(output)],
-        cwd=output,
-        check=True,
-    )
-    subprocess.run(
-        [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(output), "--write"],
-        check=True,
-    )
-    subprocess.run(
-        [sys.executable, str(Path(__file__).resolve().with_name("update_release_catalog.py")), "--root", str(output)],
-        cwd=output,
-        check=True,
-    )
-    subprocess.run(
-        [sys.executable, str(Path(__file__).resolve().with_name("update_20260726_status.py")), "--root", str(output)],
-        cwd=output,
-        check=True,
-    )
-    subprocess.run(
-        [sys.executable, str(Path(__file__).resolve().with_name("update_20260728_status.py")), "--root", str(output)],
-        cwd=output,
-        check=True,
-    )
+    # Legacy dated updaters are intentionally not replayed here. The public
+    # deployment is the content source; local-only releases and discovery pages
+    # are preserved above and rebuilt from the unified catalog below.
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("apply_ai_disclosures.py")), "--root", str(output)],
+        cwd=output,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_explore_catalog.py")), "--root", str(output)],
         cwd=output,
         check=True,
     )

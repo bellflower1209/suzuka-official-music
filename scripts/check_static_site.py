@@ -24,7 +24,8 @@ class LinkParser(HTMLParser):
 
 
 def fetch(url: str) -> tuple[int, str, bytes]:
-    request = urllib.request.Request(url, headers={"User-Agent": "SUZUKA-Static-Check/1.0"})
+    request_url = urllib.parse.quote(url, safe=":/?&=%+;,@")
+    request = urllib.request.Request(request_url, headers={"User-Agent": "SUZUKA-Static-Check/1.0"})
     with urllib.request.urlopen(request, timeout=20) as response:
         return response.status, response.headers.get_content_type(), response.read()
 

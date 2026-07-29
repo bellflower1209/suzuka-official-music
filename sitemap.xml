@@ -31,7 +31,31 @@
     <loc>https://bellflower1209.github.io/suzuka-official-music/artists/revive/</loc>
   </url>
   <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/discography/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/genres/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/genres/enka/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/genres/j-pop/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/genres/k-pop-inspired/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/genres/visual-kei/</loc>
+  </url>
+  <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/news/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/news/ashita-wa-kitto-release/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/news/chimpanzee-no-rakuen-release/</loc>
   </url>
   <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/news/echoes-of-you-release/</loc>
@@ -79,7 +103,13 @@
     <loc>https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/</loc>
   </url>
   <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/releases/ashita-wa-kitto/</loc>
+  </url>
+  <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/releases/chimpanzee-no-rakuen/</loc>
   </url>
   <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/</loc>
@@ -143,6 +173,9 @@
   </url>
   <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/releases/wasurenai-kokoro/</loc>
+  </url>
+  <url>
+    <loc>https://bellflower1209.github.io/suzuka-official-music/search/</loc>
   </url>
   <url>
     <loc>https://bellflower1209.github.io/suzuka-official-music/social/</loc>

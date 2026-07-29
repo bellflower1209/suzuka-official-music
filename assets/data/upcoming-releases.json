@@ -1,24 +1,13 @@
 {
-  "updatedAt": "2026-07-28T00:00:00+09:00",
+  "updatedAt": "2026-07-30T00:00:00+09:00",
   "releases": [
-    {
-      "slug": "chimpanzee-no-rakuen",
-      "title": "チンパンジーの楽園",
-      "artist": "NOX",
-      "artistSlug": "nox",
-      "status": "upcoming",
-      "scheduledAt": "2026-07-29T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
-      "image": "images/nox-chimpanzee-no-rakuen.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
-    },
     {
       "slug": "koisuru-maharaja",
       "title": "恋するマハラジャ",
       "artist": "RANGILI",
       "artistSlug": "rangili",
-      "status": "upcoming",
       "scheduledAt": "2026-07-30T20:00:00+09:00",
+      "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
       "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
       "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
@@ -28,10 +17,43 @@
       "title": "Without Worrying",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
-      "status": "upcoming",
       "scheduledAt": "2026-07-31T20:00:00+09:00",
+      "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
       "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+    },
+    {
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "scheduledAt": "2026-08-01T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+    },
+    {
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-02T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+    },
+    {
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "scheduledAt": "2026-08-03T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
       "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
     }
   ]
