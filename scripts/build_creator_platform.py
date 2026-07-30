@@ -12,6 +12,7 @@ from datetime import date
 from pathlib import Path
 
 from build_explorer_update import BASE, card, dump, matches_rule, shell, write
+from structured_data_dates import apply_evidence_to_cms, normalize as normalize_structured_dates
 
 GA4_MEASUREMENT_ID = "G-LS3PCRB60D"
 
@@ -639,6 +640,7 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     root = parser.parse_args().root.resolve()
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    evidence, evidence_by_slug = apply_evidence_to_cms(root, cms)
     catalog_path = root / "assets/data/releases-catalog.json"
     catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
     releases = catalog["releases"]
@@ -657,6 +659,7 @@ def main() -> None:
     top_and_nav(root, playlist_data)
     normalize_generated_assets(root, cms)
     analytics(root)
+    normalize_structured_dates(root, evidence, evidence_by_slug)
     youtube_ledger(root, cms)
     print(f"Creator Platform generated: {len(releases)} releases, {len(cms['artists'])} artists, {len(playlist_data)} playlists.")
 

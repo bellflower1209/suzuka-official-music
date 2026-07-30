@@ -1,0 +1,446 @@
+{
+  "schemaVersion": "1.0",
+  "evidenceCheckedAt": "2026-07-30T23:39:20+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "baseline": {
+    "jsonLdBlocks": 154,
+    "videoObjects": 63,
+    "invalidUploadDates": [
+      {
+        "page": "gallery/ai-demo-wakaranai/index.html",
+        "youtubeId": "5jmTo3Jb5sI",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "gallery/ashita-wa-kitto/index.html",
+        "youtubeId": "5MkQZT5qiGA",
+        "value": "2026-07-28"
+      },
+      {
+        "page": "gallery/boukyaku-no-ikimono/index.html",
+        "youtubeId": "yREvkT9gEk4",
+        "value": "2026-07-21"
+      },
+      {
+        "page": "gallery/chimpanzee-no-rakuen/index.html",
+        "youtubeId": "EJJLBOo103I",
+        "value": "2026-07-29"
+      },
+      {
+        "page": "gallery/echoes-of-you/index.html",
+        "youtubeId": "Uxtp9TLw47g",
+        "value": "2026-07-26"
+      },
+      {
+        "page": "gallery/heal-you-again/index.html",
+        "youtubeId": "XHjDSEoFcXE",
+        "value": "2026-07-27"
+      },
+      {
+        "page": "gallery/hyakumankoku/index.html",
+        "youtubeId": "QteunhFn9Dk",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "gallery/kimi-to-nara-last-boss-made/index.html",
+        "youtubeId": "YVNs3I-KaHI",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "gallery/kimi-wa-hanabi/index.html",
+        "youtubeId": "ohylad3AWYI",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "gallery/koisuru-maharaja/index.html",
+        "youtubeId": "V3DOM83zeLk",
+        "value": "2026-07-30"
+      },
+      {
+        "page": "gallery/mermaid-merman/index.html",
+        "youtubeId": "29fpeNtUqfY",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "gallery/mia/index.html",
+        "youtubeId": "WzcXyuAI_FM",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "gallery/mirai-no-watashi-ga-miteru/index.html",
+        "youtubeId": "fgAW1njpSxM",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "gallery/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+        "youtubeId": "GN6eoBDRm3w",
+        "value": "2026-07-16"
+      },
+      {
+        "page": "gallery/muteki-jikan-ato-3byou/index.html",
+        "youtubeId": "DPnFtRFnH5c",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "gallery/my-queen-my-oath/index.html",
+        "youtubeId": "_TfwreiEMMM",
+        "value": "2026-07-20"
+      },
+      {
+        "page": "gallery/namaste-galaxy/index.html",
+        "youtubeId": "CQ0bfdXVrck",
+        "value": "2026-07-24"
+      },
+      {
+        "page": "gallery/our-kingdom/index.html",
+        "youtubeId": "y26XVRkpfjw",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "gallery/red-moon-rising/index.html",
+        "youtubeId": "BZkMHt0P2oo",
+        "value": "2026-07-18"
+      },
+      {
+        "page": "gallery/shadow-code/index.html",
+        "youtubeId": "8VCL2IepjeM",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "gallery/smile-and-say-goodbye/index.html",
+        "youtubeId": "b2n8gcpen58",
+        "value": "2026-07-22"
+      },
+      {
+        "page": "gallery/suki-ga-kyou-mo-fueteiku/index.html",
+        "youtubeId": "XAZy5k9Q4rE",
+        "value": "2026-07-16"
+      },
+      {
+        "page": "gallery/sukitte-baretemo-ii/index.html",
+        "youtubeId": "XP8yXMKFHVI",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "gallery/tokenai-mahou-wo-ai-to-yobu/index.html",
+        "youtubeId": "CAFQ-d7YHPQ",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "gallery/toriatsukai-chui/index.html",
+        "youtubeId": "QXvpLCnyoOw",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "gallery/wasurenai-kokoro/index.html",
+        "youtubeId": "YxZWABTJBGk",
+        "value": "2026-07-23"
+      },
+      {
+        "page": "news/hyakumankoku-release/index.html",
+        "youtubeId": "QteunhFn9Dk",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "news/hyakumankoku-release/index.html",
+        "youtubeId": "10hI03wXHtE",
+        "value": "2026-07-17"
+      },
+      {
+        "page": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html",
+        "youtubeId": "GN6eoBDRm3w",
+        "value": "2026-07-16"
+      },
+      {
+        "page": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html",
+        "youtubeId": "o7AOgpc2O-k",
+        "value": "2026-07-16"
+      },
+      {
+        "page": "news/my-queen-my-oath-release/index.html",
+        "youtubeId": "_TfwreiEMMM",
+        "value": "2026-07-20"
+      },
+      {
+        "page": "news/red-moon-rising-release/index.html",
+        "youtubeId": "BZkMHt0P2oo",
+        "value": "2026-07-18"
+      },
+      {
+        "page": "news/toriatsukai-chui-release/index.html",
+        "youtubeId": "QXvpLCnyoOw",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "news/toriatsukai-chui-release/index.html",
+        "youtubeId": "KHZMfULXuGQ",
+        "value": "2026-07-15"
+      },
+      {
+        "page": "releases/ai-demo-wakaranai/index.html",
+        "youtubeId": "5jmTo3Jb5sI",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "releases/ashita-wa-kitto/index.html",
+        "youtubeId": "5MkQZT5qiGA",
+        "value": "2026-07-28"
+      },
+      {
+        "page": "releases/chimpanzee-no-rakuen/index.html",
+        "youtubeId": "EJJLBOo103I",
+        "value": "2026-07-29"
+      },
+      {
+        "page": "releases/echoes-of-you/index.html",
+        "youtubeId": "Uxtp9TLw47g",
+        "value": "2026-07-26"
+      },
+      {
+        "page": "releases/heal-you-again/index.html",
+        "youtubeId": "XHjDSEoFcXE",
+        "value": "2026-07-27"
+      },
+      {
+        "page": "releases/hyakumankoku/index.html",
+        "youtubeId": "QteunhFn9Dk",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "releases/kimi-to-nara-last-boss-made/index.html",
+        "youtubeId": "YVNs3I-KaHI",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "releases/kimi-wa-hanabi/index.html",
+        "youtubeId": "ohylad3AWYI",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "releases/koisuru-maharaja/index.html",
+        "youtubeId": "V3DOM83zeLk",
+        "value": "2026-07-30"
+      },
+      {
+        "page": "releases/mermaid-merman/index.html",
+        "youtubeId": "29fpeNtUqfY",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "releases/mia/index.html",
+        "youtubeId": "WzcXyuAI_FM",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "releases/mirai-no-watashi-ga-miteru/index.html",
+        "youtubeId": "fgAW1njpSxM",
+        "value": null
+      },
+      {
+        "page": "releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+        "youtubeId": "GN6eoBDRm3w",
+        "value": null
+      },
+      {
+        "page": "releases/muteki-jikan-ato-3byou/index.html",
+        "youtubeId": "DPnFtRFnH5c",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "releases/my-queen-my-oath/index.html",
+        "youtubeId": "_TfwreiEMMM",
+        "value": "2026-07-20"
+      },
+      {
+        "page": "releases/namaste-galaxy/index.html",
+        "youtubeId": "CQ0bfdXVrck",
+        "value": "2026-07-24"
+      },
+      {
+        "page": "releases/our-kingdom/index.html",
+        "youtubeId": "y26XVRkpfjw",
+        "value": null
+      },
+      {
+        "page": "releases/red-moon-rising/index.html",
+        "youtubeId": "BZkMHt0P2oo",
+        "value": "2026-07-18"
+      },
+      {
+        "page": "releases/shadow-code/index.html",
+        "youtubeId": "8VCL2IepjeM",
+        "value": "2026-07-14"
+      },
+      {
+        "page": "releases/smile-and-say-goodbye/index.html",
+        "youtubeId": "b2n8gcpen58",
+        "value": "2026-07-22"
+      },
+      {
+        "page": "releases/suki-ga-kyou-mo-fueteiku/index.html",
+        "youtubeId": "XAZy5k9Q4rE",
+        "value": null
+      },
+      {
+        "page": "releases/sukitte-baretemo-ii/index.html",
+        "youtubeId": "XP8yXMKFHVI",
+        "value": "2026-07-12"
+      },
+      {
+        "page": "releases/tokenai-mahou-wo-ai-to-yobu/index.html",
+        "youtubeId": "CAFQ-d7YHPQ",
+        "value": "2026-07-13"
+      },
+      {
+        "page": "releases/wasurenai-kokoro/index.html",
+        "youtubeId": "YxZWABTJBGk",
+        "value": "2026-07-23"
+      }
+    ],
+    "invalidUploadDateCount": 58,
+    "pagesWithInvalidUploadDate": [
+      "gallery/ai-demo-wakaranai/index.html",
+      "gallery/ashita-wa-kitto/index.html",
+      "gallery/boukyaku-no-ikimono/index.html",
+      "gallery/chimpanzee-no-rakuen/index.html",
+      "gallery/echoes-of-you/index.html",
+      "gallery/heal-you-again/index.html",
+      "gallery/hyakumankoku/index.html",
+      "gallery/kimi-to-nara-last-boss-made/index.html",
+      "gallery/kimi-wa-hanabi/index.html",
+      "gallery/koisuru-maharaja/index.html",
+      "gallery/mermaid-merman/index.html",
+      "gallery/mia/index.html",
+      "gallery/mirai-no-watashi-ga-miteru/index.html",
+      "gallery/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+      "gallery/muteki-jikan-ato-3byou/index.html",
+      "gallery/my-queen-my-oath/index.html",
+      "gallery/namaste-galaxy/index.html",
+      "gallery/our-kingdom/index.html",
+      "gallery/red-moon-rising/index.html",
+      "gallery/shadow-code/index.html",
+      "gallery/smile-and-say-goodbye/index.html",
+      "gallery/suki-ga-kyou-mo-fueteiku/index.html",
+      "gallery/sukitte-baretemo-ii/index.html",
+      "gallery/tokenai-mahou-wo-ai-to-yobu/index.html",
+      "gallery/toriatsukai-chui/index.html",
+      "gallery/wasurenai-kokoro/index.html",
+      "news/hyakumankoku-release/index.html",
+      "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html",
+      "news/my-queen-my-oath-release/index.html",
+      "news/red-moon-rising-release/index.html",
+      "news/toriatsukai-chui-release/index.html",
+      "releases/ai-demo-wakaranai/index.html",
+      "releases/ashita-wa-kitto/index.html",
+      "releases/chimpanzee-no-rakuen/index.html",
+      "releases/echoes-of-you/index.html",
+      "releases/heal-you-again/index.html",
+      "releases/hyakumankoku/index.html",
+      "releases/kimi-to-nara-last-boss-made/index.html",
+      "releases/kimi-wa-hanabi/index.html",
+      "releases/koisuru-maharaja/index.html",
+      "releases/mermaid-merman/index.html",
+      "releases/mia/index.html",
+      "releases/mirai-no-watashi-ga-miteru/index.html",
+      "releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+      "releases/muteki-jikan-ato-3byou/index.html",
+      "releases/my-queen-my-oath/index.html",
+      "releases/namaste-galaxy/index.html",
+      "releases/our-kingdom/index.html",
+      "releases/red-moon-rising/index.html",
+      "releases/shadow-code/index.html",
+      "releases/smile-and-say-goodbye/index.html",
+      "releases/suki-ga-kyou-mo-fueteiku/index.html",
+      "releases/sukitte-baretemo-ii/index.html",
+      "releases/tokenai-mahou-wo-ai-to-yobu/index.html",
+      "releases/wasurenai-kokoro/index.html"
+    ],
+    "invalidDatePublished": [
+      {
+        "page": "artists/koga-kamishiro/index.html",
+        "types": [
+          "MusicRecording"
+        ],
+        "value": "2026"
+      }
+    ],
+    "jsonErrors": []
+  },
+  "current": {
+    "jsonLdBlocks": 154,
+    "videoObjects": 56,
+    "invalidUploadDates": [],
+    "invalidUploadDateCount": 0,
+    "pagesWithInvalidUploadDate": [],
+    "invalidDatePublished": [],
+    "jsonErrors": []
+  },
+  "fixedPages": [
+    "gallery/ai-demo-wakaranai/index.html",
+    "gallery/ashita-wa-kitto/index.html",
+    "gallery/boukyaku-no-ikimono/index.html",
+    "gallery/chimpanzee-no-rakuen/index.html",
+    "gallery/echoes-of-you/index.html",
+    "gallery/heal-you-again/index.html",
+    "gallery/hyakumankoku/index.html",
+    "gallery/kimi-to-nara-last-boss-made/index.html",
+    "gallery/kimi-wa-hanabi/index.html",
+    "gallery/koisuru-maharaja/index.html",
+    "gallery/mermaid-merman/index.html",
+    "gallery/mia/index.html",
+    "gallery/mirai-no-watashi-ga-miteru/index.html",
+    "gallery/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+    "gallery/muteki-jikan-ato-3byou/index.html",
+    "gallery/my-queen-my-oath/index.html",
+    "gallery/namaste-galaxy/index.html",
+    "gallery/our-kingdom/index.html",
+    "gallery/red-moon-rising/index.html",
+    "gallery/shadow-code/index.html",
+    "gallery/smile-and-say-goodbye/index.html",
+    "gallery/suki-ga-kyou-mo-fueteiku/index.html",
+    "gallery/sukitte-baretemo-ii/index.html",
+    "gallery/tokenai-mahou-wo-ai-to-yobu/index.html",
+    "gallery/toriatsukai-chui/index.html",
+    "gallery/wasurenai-kokoro/index.html",
+    "news/hyakumankoku-release/index.html",
+    "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/index.html",
+    "news/my-queen-my-oath-release/index.html",
+    "news/red-moon-rising-release/index.html",
+    "news/toriatsukai-chui-release/index.html",
+    "releases/ai-demo-wakaranai/index.html",
+    "releases/ashita-wa-kitto/index.html",
+    "releases/chimpanzee-no-rakuen/index.html",
+    "releases/echoes-of-you/index.html",
+    "releases/heal-you-again/index.html",
+    "releases/hyakumankoku/index.html",
+    "releases/kimi-to-nara-last-boss-made/index.html",
+    "releases/kimi-wa-hanabi/index.html",
+    "releases/koisuru-maharaja/index.html",
+    "releases/mermaid-merman/index.html",
+    "releases/mia/index.html",
+    "releases/mirai-no-watashi-ga-miteru/index.html",
+    "releases/moshimo-ashita-hajimemashite-ni-natte-mo/index.html",
+    "releases/muteki-jikan-ato-3byou/index.html",
+    "releases/my-queen-my-oath/index.html",
+    "releases/namaste-galaxy/index.html",
+    "releases/our-kingdom/index.html",
+    "releases/red-moon-rising/index.html",
+    "releases/shadow-code/index.html",
+    "releases/smile-and-say-goodbye/index.html",
+    "releases/suki-ga-kyou-mo-fueteiku/index.html",
+    "releases/sukitte-baretemo-ii/index.html",
+    "releases/tokenai-mahou-wo-ai-to-yobu/index.html",
+    "releases/wasurenai-kokoro/index.html"
+  ],
+  "fixedPageCount": 55,
+  "resolvedInvalidVideoObjectCount": 58,
+  "fixedVideoObjectCount": 51,
+  "removedUnverifiedVideoObjectCount": 7,
+  "excludedUnverifiedVideoIds": [
+    "10hI03wXHtE",
+    "KHZMfULXuGQ",
+    "o7AOgpc2O-k"
+  ],
+  "heldReleases": [],
+  "heldReleaseCount": 0
+}

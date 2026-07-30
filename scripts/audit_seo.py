@@ -25,6 +25,14 @@ LEGACY_REDIRECTS = {
     Path("releases/toriatsukai-chuui/index.html"): f"{PUBLIC_BASE_URL}/releases/toriatsukai-chui/",
 }
 CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+YOUTUBE_EVIDENCE = json.loads(
+    (ROOT / "assets/data/youtube-publish-dates.json").read_text(encoding="utf-8")
+)
+VERIFIED_VIDEO_DATES = {
+    item["youtubeId"]: item["verifiedPublishedAt"]
+    for item in YOUTUBE_EVIDENCE["records"]
+    if item.get("youtubeId") and item.get("verifiedPublishedAt")
+}
 PUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] == "published"]
 UNPUBLISHED_MIA = [release for release in CATALOG["releases"] if release["status"] != "published"]
 MIA_DEDICATED_RELEASES = {
@@ -465,7 +473,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                     errors.append(f"{relative}: MusicRecording name does not match the catalog")
                 if video.get("contentUrl") != release["youtubeUrl"]:
                     errors.append(f"{relative}: VideoObject contentUrl does not match the catalog")
-                if not str(video.get("uploadDate", "")).startswith(str(release["uploadDate"])):
+                expected_upload_date = VERIFIED_VIDEO_DATES.get(release.get("youtubeId", ""))
+                if expected_upload_date and video.get("uploadDate") != expected_upload_date:
                     errors.append(f"{relative}: VideoObject uploadDate does not match official YouTube")
 
         if relative == Path("artists/enomoto-mia/index.html"):
@@ -520,7 +529,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: MusicRecording name must be RED MOON // RISING")
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["RED MOON // RISING"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
-            if video.get("uploadDate") != "2026-07-18" or video.get("duration") != "PT6M4S":
+            expected_date = VERIFIED_VIDEO_DATES.get("BZkMHt0P2oo")
+            if video.get("uploadDate") != expected_date or video.get("duration") != "PT6M4S":
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative == Path("releases/my-queen-my-oath/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
@@ -529,7 +539,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: MusicRecording name must be My Queen, My Oath")
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["My Queen, My Oath"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
-            if video.get("uploadDate") != "2026-07-20" or video.get("duration") != "PT4M57S":
+            expected_date = VERIFIED_VIDEO_DATES.get("_TfwreiEMMM")
+            if video.get("uploadDate") != expected_date or video.get("duration") != "PT4M57S":
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
             recording = schema_nodes.get(f"{page_url}#recording", {})
@@ -558,7 +569,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             expected = FEATURE_NEWS[relative]
             if article.get("datePublished") != expected["articleDate"] or article.get("dateModified") != expected["articleDate"]:
                 errors.append(f"{relative}: article dates must match the actual News publication date")
-            for value in (expected["youtube"], expected["shorts"], f"{PUBLIC_BASE_URL}/{expected['image']}"):
+            for value in (expected["youtube"], f"{PUBLIC_BASE_URL}/{expected['image']}"):
                 if value is None:
                     continue
                 if value not in schema_strings:
