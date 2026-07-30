@@ -13,6 +13,8 @@ from pathlib import Path
 
 from build_explorer_update import BASE, card, dump, matches_rule, shell, write
 
+GA4_MEASUREMENT_ID = "G-LS3PCRB60D"
+
 
 def marker_upsert(path: Path, name: str, content: str, anchor: str = "</main>") -> None:
     text = path.read_text(encoding="utf-8")
@@ -378,6 +380,170 @@ def normalize_generated_assets(root: Path, cms: dict) -> None:
         path.write_text(text, encoding="utf-8")
 
 
+def analytics(root: Path) -> None:
+    """Install one GA4 tag on public pages and keep admin pages unmeasured."""
+    script = f"""
+<!-- SUZUKA:GA4:START -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', '{GA4_MEASUREMENT_ID}', {{
+  page_location: window.location.origin + window.location.pathname,
+  page_referrer: document.referrer ? new URL(document.referrer).origin + new URL(document.referrer).pathname : ''
+}});
+</script>
+<!-- SUZUKA:GA4:END -->
+""".strip()
+    event_source = """
+(() => {
+  const safePageUrl = window.location.origin + window.location.pathname;
+  const send = (name, parameters = {}) => {
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", name, {...parameters, page_location: safePageUrl});
+  };
+  const clean = value => String(value || "").replace(/\\s+/g, " ").trim().slice(0, 300);
+  const safeLink = value => {
+    const url = new URL(value, location.href);
+    if (url.origin === location.origin) return url.origin + url.pathname;
+    return url.href;
+  };
+  const pageRelease = location.pathname.match(/\\/releases\\/([^/]+)\\/?$/)?.[1] || "";
+  const pageArtist = location.pathname.match(/\\/artists\\/([^/]+)\\/?$/)?.[1] || "";
+  const schemas = [];
+  document.querySelectorAll('script[type="application/ld+json"]').forEach(node => {
+    try {
+      const walk = value => {
+        if (!value || typeof value !== "object") return;
+        if (Array.isArray(value)) return value.forEach(walk);
+        schemas.push(value);
+        Object.values(value).forEach(walk);
+      };
+      walk(JSON.parse(node.textContent));
+    } catch (_) {}
+  });
+  const recording = schemas.find(item => {
+    const type = item["@type"];
+    return type === "MusicRecording" || (Array.isArray(type) && type.includes("MusicRecording"));
+  }) || {};
+  const schemaArtist = clean(recording.byArtist?.name || recording.byArtist?.[0]?.name);
+  const schemaTitle = clean(recording.name);
+  const contextFor = anchor => anchor.closest(
+    "[data-weekly-pick],.explorer-release-card,.explore-card,.release-card,.timeline-item,.gallery-card,article,section"
+  ) || document;
+  const detailsFor = anchor => {
+    const context = contextFor(anchor);
+    const releaseLink = context.querySelector('a[href*="/releases/"]');
+    const releaseUrl = new URL(releaseLink?.href || location.href, location.href);
+    const slug = releaseUrl.pathname.match(/\\/releases\\/([^/]+)\\/?/)?.[1] || pageRelease;
+    const title = clean(
+      context.querySelector("[data-pick-title],h1,h2,h3")?.textContent || schemaTitle || document.querySelector("h1")?.textContent
+    );
+    const artist = clean(
+      context.querySelector("[data-pick-artist],.release-card-artist,.artist-name")?.textContent ||
+      schemaArtist || (pageArtist ? document.querySelector("h1")?.textContent : "")
+    );
+    return {
+      work_title: title,
+      release_slug: clean(slug),
+      artist_name: artist,
+      link_url: safeLink(anchor.href),
+    };
+  };
+  document.addEventListener("click", event => {
+    const anchor = event.target.closest("a[href]");
+    if (!anchor) return;
+    const url = new URL(anchor.href, location.href);
+    const path = url.pathname;
+    const host = url.hostname.replace(/^www\\./, "");
+    const isYoutube = host === "youtube.com" || host === "youtu.be";
+    const youtubeChannel = isYoutube &&
+      (path.includes("/@suzuka1209") || path.includes("/channel/UCVde75yhByGQMu3SkO-fzrA"));
+    const youtubeVideo = isYoutube && !youtubeChannel &&
+      (path === "/watch" || host === "youtu.be" || path.includes("/shorts/"));
+    const details = detailsFor(anchor);
+    if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);
+    if (youtubeChannel) send("youtube_click", details);
+    else if (youtubeVideo) send("official_mv_click", details);
+    if (url.hostname.includes("instagram.com")) send("instagram_click", details);
+    if (url.origin === location.origin && /\\/releases\\/[^/]+\\/?$/.test(path)) send("release_click", details);
+    if (url.origin === location.origin && /\\/playlists\\/(?:[^/]+\\/?)?$/.test(path)) send("playlist_click", details);
+    if (url.origin === location.origin && /\\/artists\\/[^/]+\\/?$/.test(path)) send("artist_click", details);
+  });
+  const form = document.querySelector("[data-search-form]");
+  if (form) {
+    let timer = 0, lastSignature = "";
+    const reportSearch = () => {
+      clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        const data = Object.fromEntries(new FormData(form));
+        const active = Object.values(data).filter(Boolean).length;
+        const signature = Object.keys(data).filter(key => data[key]).sort().join("|") + ":" + active;
+        if (!active || signature === lastSignature) return;
+        lastSignature = signature;
+        send("search_use", {
+          has_search_query: Boolean(data.q),
+          active_filter_count: active,
+          result_count: Number(document.querySelector("[data-search-count]")?.textContent || 0),
+        });
+      }, 800);
+    };
+    form.addEventListener("input", reportSearch);
+    form.addEventListener("change", reportSearch);
+    form.addEventListener("submit", reportSearch);
+  }
+})();
+""".strip() + "\n"
+    write(root / "assets/analytics.js", event_source)
+
+    ga_pattern = re.compile(
+        r"\s*<!-- SUZUKA:GA4:START -->.*?<!-- SUZUKA:GA4:END -->\s*",
+        flags=re.DOTALL,
+    )
+    event_pattern = re.compile(
+        r'\s*<script\s+defer\s+src="(?:\.\./)*assets/analytics\.js"></script>\s*'
+    )
+    for path in root.glob("**/index.html"):
+        relative = path.relative_to(root)
+        text = path.read_text(encoding="utf-8")
+        text = ga_pattern.sub("", text)
+        text = event_pattern.sub("", text)
+        if relative.parts[0] != "admin":
+            depth = len(relative.parts) - 1
+            prefix = "../" * depth
+            text = text.replace("<head>", f"<head>\n{script}\n", 1)
+            text = text.replace(
+                "</body>",
+                f'<script defer src="{prefix}assets/analytics.js"></script></body>',
+                1,
+            )
+        path.write_text(text, encoding="utf-8")
+
+    about_path = root / "about/index.html"
+    about = about_path.read_text(encoding="utf-8")
+    privacy = (
+        '<!-- SUZUKA:ANALYTICS-NOTICE:START -->'
+        '<section class="ai-about-section analytics-notice" aria-labelledby="analytics-title">'
+        '<div><p class="section-kicker">Site analytics</p>'
+        '<h2 id="analytics-title">Google Analyticsの利用について</h2>'
+        '<p>SUZUKAでは、サイトの利用状況を把握し、内容や使いやすさを改善するためにGoogle Analyticsを利用しています。'
+        'GoogleがCookieなどを利用して閲覧情報を収集する場合があります。収集した情報はサイト改善の目的で利用します。</p>'
+        '<p><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener noreferrer">'
+        'Googleのプライバシーポリシー ↗</a></p></div></section>'
+        '<!-- SUZUKA:ANALYTICS-NOTICE:END -->'
+    )
+    about = re.sub(
+        r"<!-- SUZUKA:ANALYTICS-NOTICE:START -->.*?<!-- SUZUKA:ANALYTICS-NOTICE:END -->",
+        "",
+        about,
+        flags=re.DOTALL,
+    )
+    about = about.replace('<section class="about-label-values"', privacy + '<section class="about-label-values"', 1)
+    about_path.write_text(about, encoding="utf-8")
+
+
 def assets(root: Path) -> None:
     write(root / "assets/creator-platform.css", """
 .creator-link-grid,.creator-form-grid,.creator-dashboard,.creator-universe-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem;margin:1.5rem 0}
@@ -490,6 +656,7 @@ def main() -> None:
     assets(root)
     top_and_nav(root, playlist_data)
     normalize_generated_assets(root, cms)
+    analytics(root)
     youtube_ledger(root, cms)
     print(f"Creator Platform generated: {len(releases)} releases, {len(cms['artists'])} artists, {len(playlist_data)} playlists.")
 

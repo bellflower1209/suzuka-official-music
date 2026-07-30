@@ -102,14 +102,14 @@ for (const size of sizes) {
     const targetUrl = new URL(route, base).href;
     await send("Page.navigate", {url:targetUrl});
     await waitForPageReady(targetUrl);
-    const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const creatorStandalone=${JSON.stringify(route)}.startsWith('en/'); const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'&&${JSON.stringify(route)}!=='news/upcoming-artists/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, creatorStandalone, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
+    const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const creatorStandalone=${JSON.stringify(route)}.startsWith('en/'); const adminPage=${JSON.stringify(route)}.startsWith('admin/'); const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'&&${JSON.stringify(route)}!=='news/upcoming-artists/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, creatorStandalone, adminPage, gaTagCount:document.querySelectorAll('script[src*="gtag/js?id=G-LS3PCRB60D"]').length, analyticsScriptCount:document.querySelectorAll('script[src$="assets/analytics.js"]').length, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
     const value = evaluated.result.value;
     if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "artists/nox/", "releases/", "social/", "rankings/", "features/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route) && [1280, 390].includes(size.width)) {
       const shot = await send("Page.captureScreenshot", {format:"png", captureBeyondViewport:false});
       const name = route === "" ? "home" : route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));
     }
-    if (value.overflow || !value.player || value.playerPosition !== "fixed" || value.trackCount !== expectedTrackCount || value.iframeCount !== 0 || !value.pageLink || value.h1 !== 1 || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || problems.length > before) {
+    if (value.overflow || !value.player || value.playerPosition !== "fixed" || value.trackCount !== expectedTrackCount || value.iframeCount !== 0 || !value.pageLink || value.h1 !== 1 || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || (value.adminPage ? value.gaTagCount !== 0 || value.analyticsScriptCount !== 0 : value.gaTagCount !== 1 || value.analyticsScriptCount !== 1) || problems.length > before) {
       results.push({route:route||"/", width:size.width, ...value, errors:problems.slice(before)});
     }
   }
@@ -134,6 +134,30 @@ await waitForPageReady(miaUrl);
 const shareFallback = await send("Runtime.evaluate", {expression:`(async()=>{ const copy=[...document.querySelectorAll('.social-share-button')].find(button=>button.textContent.includes('URLをコピー')); copy?.click(); await new Promise(resolve=>setTimeout(resolve,150)); const copyStatus=document.querySelector('.social-copy-status')?.textContent||''; const share=[...document.querySelectorAll('.social-share-button')].find(button=>button.textContent.trim()==='共有'); share?.click(); await new Promise(resolve=>setTimeout(resolve,150)); return {copyStatus, shareStatus:document.querySelector('.social-copy-status')?.textContent||'', buttons:document.querySelectorAll('.social-share-button').length};})()`, awaitPromise:true, returnByValue:true});
 if (shareFallback.result.value.buttons < 4 || !shareFallback.result.value.copyStatus || !shareFallback.result.value.shareStatus) {
   results.push({route:"releases/mia/", width:390, shareFallback:shareFallback.result.value});
+}
+
+async function analyticsClick(route, selector, expectedEvents) {
+  const url = new URL(route, base).href;
+  await send("Page.navigate", {url});
+  await waitForPageReady(url);
+  const checked = await send("Runtime.evaluate", {expression:`(async()=>{const anchor=document.querySelector(${JSON.stringify(selector)});if(!anchor)return {missing:true};const before=(window.dataLayer||[]).length;anchor.addEventListener("click",event=>event.preventDefault(),{once:true});anchor.dispatchEvent(new MouseEvent("click",{bubbles:true,cancelable:true}));await new Promise(resolve=>setTimeout(resolve,150));const events=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event").map(item=>item[1]);return {events};})()`, awaitPromise:true, returnByValue:true});
+  const value = checked.result.value;
+  if (value.missing || expectedEvents.some(name => !value.events.includes(name))) {
+    results.push({route, analyticsSelector:selector, expectedEvents, analyticsResult:value});
+  }
+}
+await analyticsClick("", "[data-weekly-pick] [data-pick-release]", ["weekly_pick_click","release_click"]);
+await analyticsClick("", ".header-channel[href*='youtube.com']", ["youtube_click"]);
+await analyticsClick("releases/koisuru-maharaja/", "a[href*='youtube.com/watch']", ["official_mv_click"]);
+await analyticsClick("releases/koisuru-maharaja/", "a[href='../../artists/rangili/']", ["artist_click"]);
+await analyticsClick("artists/rangili/", "a[href*='instagram.com']", ["instagram_click"]);
+await analyticsClick("playlists/", ".creator-link-card a[href='./love/']", ["playlist_click"]);
+const searchQaUrl = new URL("search/", base).href;
+await send("Page.navigate", {url:searchQaUrl});
+await waitForPageReady(searchQaUrl);
+const searchAnalytics = await send("Runtime.evaluate", {expression:`(async()=>{const input=document.querySelector("[data-search-form] [name=q]");const before=(window.dataLayer||[]).length;input.value="PRIVATE_TEST_TERM_9X";input.dispatchEvent(new Event("input",{bubbles:true}));await new Promise(resolve=>setTimeout(resolve,1000));const rows=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event");return {events:rows.map(item=>item[1]),rawLeak:JSON.stringify(rows).includes("PRIVATE_TEST_TERM_9X")};})()`, awaitPromise:true, returnByValue:true});
+if (!searchAnalytics.result.value.events.includes("search_use") || searchAnalytics.result.value.rawLeak) {
+  results.push({route:"search/", searchAnalytics:searchAnalytics.result.value});
 }
 socket.close();
 if (results.length) {
