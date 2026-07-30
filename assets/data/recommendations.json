@@ -1,0 +1,1126 @@
+{
+  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "recommendations": {
+    "chimpanzee-no-rakuen": {
+      "sameArtist": [],
+      "sameGenre": [],
+      "sameTheme": [
+        "boukyaku-no-ikimono"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "boukyaku-no-ikimono",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ]
+    },
+    "ashita-wa-kitto": {
+      "sameArtist": [
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "smile-and-say-goodbye",
+        "heal-you-again",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "sameTheme": [
+        "heal-you-again"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "smile-and-say-goodbye",
+        "heal-you-again",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ]
+    },
+    "heal-you-again": {
+      "sameArtist": [],
+      "sameGenre": [
+        "ashita-wa-kitto",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "smile-and-say-goodbye",
+        "my-queen-my-oath",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ],
+      "sameTheme": [
+        "ashita-wa-kitto"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "ashita-wa-kitto",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "smile-and-say-goodbye",
+        "my-queen-my-oath",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ]
+    },
+    "echoes-of-you": {
+      "sameArtist": [
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath"
+      ],
+      "sameGenre": [
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "heal-you-again",
+        "namaste-galaxy",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye"
+      ],
+      "sameTheme": [],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "heal-you-again",
+        "namaste-galaxy",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye"
+      ]
+    },
+    "namaste-galaxy": {
+      "sameArtist": [],
+      "sameGenre": [
+        "echoes-of-you",
+        "smile-and-say-goodbye",
+        "heal-you-again",
+        "my-queen-my-oath",
+        "ashita-wa-kitto",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ],
+      "sameTheme": [],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "echoes-of-you",
+        "smile-and-say-goodbye",
+        "heal-you-again",
+        "my-queen-my-oath",
+        "ashita-wa-kitto",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ]
+    },
+    "wasurenai-kokoro": {
+      "sameArtist": [],
+      "sameGenre": [],
+      "sameTheme": [
+        "kimi-wa-hanabi"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "smile-and-say-goodbye"
+      ],
+      "aiRecommended": [
+        "kimi-wa-hanabi",
+        "namaste-galaxy",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath"
+      ]
+    },
+    "smile-and-say-goodbye": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "ashita-wa-kitto",
+        "our-kingdom",
+        "my-queen-my-oath",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "suki-ga-kyou-mo-fueteiku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "our-kingdom",
+        "my-queen-my-oath"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "ashita-wa-kitto",
+        "our-kingdom",
+        "my-queen-my-oath",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "suki-ga-kyou-mo-fueteiku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "boukyaku-no-ikimono": {
+      "sameArtist": [
+        "echoes-of-you",
+        "my-queen-my-oath"
+      ],
+      "sameGenre": [
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "shadow-code"
+      ],
+      "sameTheme": [
+        "chimpanzee-no-rakuen"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "shadow-code",
+        "chimpanzee-no-rakuen",
+        "smile-and-say-goodbye"
+      ]
+    },
+    "my-queen-my-oath": {
+      "sameArtist": [
+        "echoes-of-you",
+        "boukyaku-no-ikimono"
+      ],
+      "sameGenre": [
+        "our-kingdom",
+        "echoes-of-you",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "namaste-galaxy"
+      ],
+      "sameTheme": [
+        "our-kingdom",
+        "smile-and-say-goodbye",
+        "red-moon-rising",
+        "shadow-code"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "our-kingdom",
+        "echoes-of-you",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "namaste-galaxy"
+      ]
+    },
+    "red-moon-rising": {
+      "sameArtist": [
+        "shadow-code"
+      ],
+      "sameGenre": [
+        "shadow-code",
+        "boukyaku-no-ikimono",
+        "echoes-of-you"
+      ],
+      "sameTheme": [
+        "shadow-code",
+        "my-queen-my-oath"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "shadow-code",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "suki-ga-kyou-mo-fueteiku"
+      ]
+    },
+    "suki-ga-kyou-mo-fueteiku": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "sameTheme": [
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ]
+    },
+    "moshimo-ashita-hajimemashite-ni-natte-mo": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "toriatsukai-chui",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "suki-ga-kyou-mo-fueteiku",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "sameTheme": [
+        "suki-ga-kyou-mo-fueteiku",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "suki-ga-kyou-mo-fueteiku",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ]
+    },
+    "toriatsukai-chui": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "mirai-no-watashi-ga-miteru",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "sameTheme": [
+        "mirai-no-watashi-ga-miteru",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "mirai-no-watashi-ga-miteru",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ]
+    },
+    "shadow-code": {
+      "sameArtist": [
+        "red-moon-rising"
+      ],
+      "sameGenre": [
+        "red-moon-rising",
+        "boukyaku-no-ikimono",
+        "echoes-of-you"
+      ],
+      "sameTheme": [
+        "red-moon-rising",
+        "my-queen-my-oath"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "red-moon-rising",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "mirai-no-watashi-ga-miteru",
+        "our-kingdom"
+      ]
+    },
+    "our-kingdom": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameGenre": [
+        "my-queen-my-oath",
+        "smile-and-say-goodbye",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "sameTheme": [
+        "my-queen-my-oath",
+        "smile-and-say-goodbye"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "my-queen-my-oath",
+        "smile-and-say-goodbye",
+        "mirai-no-watashi-ga-miteru",
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made"
+      ]
+    },
+    "mirai-no-watashi-ga-miteru": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "sameTheme": [
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "toriatsukai-chui",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ]
+    },
+    "tokenai-mahou-wo-ai-to-yobu": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "muteki-jikan-ato-3byou": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "mia": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "kimi-to-nara-last-boss-made": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "ai-demo-wakaranai",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "ai-demo-wakaranai",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "ai-demo-wakaranai",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "ai-demo-wakaranai": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "sameTheme": [
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ],
+      "popular": [
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    "sukitte-baretemo-ii": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "hyakumankoku",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "sameTheme": [
+        "hyakumankoku",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "hyakumankoku",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ]
+    },
+    "mermaid-merman": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "hyakumankoku",
+        "kimi-wa-hanabi",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "sameTheme": [
+        "hyakumankoku",
+        "kimi-wa-hanabi",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "hyakumankoku",
+        "kimi-wa-hanabi",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ]
+    },
+    "kimi-wa-hanabi": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "hyakumankoku",
+        "mermaid-merman",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "sameTheme": [
+        "hyakumankoku",
+        "mermaid-merman",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "hyakumankoku",
+        "mermaid-merman",
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia"
+      ]
+    },
+    "hyakumankoku": {
+      "sameArtist": [
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom"
+      ],
+      "sameGenre": [
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "sameTheme": [
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ],
+      "popular": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi"
+      ],
+      "recent": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "aiRecommended": [
+        "sukitte-baretemo-ii",
+        "ai-demo-wakaranai",
+        "kimi-to-nara-last-boss-made",
+        "mia",
+        "muteki-jikan-ato-3byou",
+        "tokenai-mahou-wo-ai-to-yobu"
+      ]
+    }
+  }
+}

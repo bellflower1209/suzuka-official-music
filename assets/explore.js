@@ -37,22 +37,25 @@
     }
     const form = document.querySelector("[data-search-form]");
     if (!form) return;
-    const q=form.elements.q, artist=form.elements.artist, genre=form.elements.genre, sort=form.elements.sort;
+    const q=form.elements.q, artist=form.elements.artist, genre=form.elements.genre, theme=form.elements.theme, year=form.elements.year, type=form.elements.type, sort=form.elements.sort;
     const result=document.querySelector("[data-search-results]"), count=document.querySelector("[data-search-count]"), empty=document.querySelector("[data-search-empty]");
     [...new Map(published.map(i=>[i.artistSlug,i.artist])).entries()].sort((a,b)=>a[1].localeCompare(b[1],"ja")).forEach(([value,label])=>artist.add(new Option(label,value)));
     [...new Set(published.flatMap(i=>i.genres))].sort((a,b)=>a.localeCompare(b,"ja")).forEach(value=>genre.add(new Option(value,value)));
-    const params=new URLSearchParams(location.search); q.value=params.get("q")||""; artist.value=params.get("artist")||""; genre.value=params.get("genre")||""; sort.value=params.get("sort")||"newest";
+    [...new Set(published.flatMap(i=>i.themes||[]))].sort((a,b)=>a.localeCompare(b,"ja")).forEach(value=>theme.add(new Option(value,value)));
+    [...new Set(published.map(i=>String(i.releaseYear)))].sort().reverse().forEach(value=>year.add(new Option(value,value)));
+    [...new Set(published.map(i=>i.releaseType||"single"))].sort().forEach(value=>type.add(new Option(value,value)));
+    const params=new URLSearchParams(location.search); q.value=params.get("q")||""; artist.value=params.get("artist")||""; genre.value=params.get("genre")||""; theme.value=params.get("theme")||""; year.value=params.get("year")||""; type.value=params.get("type")||""; sort.value=params.get("sort")||"newest";
     const update=({push=false}={})=>{
       const needle=normalize(q.value);
-      let items=published.filter(i=>(!needle||normalize([i.title,i.displayTitle,i.artist,...i.genres,...i.moods,...i.themes,...i.searchKeywords].join(" ")).includes(needle))&&(!artist.value||i.artistSlugs.includes(artist.value))&&(!genre.value||i.genres.includes(genre.value)));
+      let items=published.filter(i=>(!needle||normalize([i.title,i.displayTitle,i.artist,...(i.genres||[]),...(i.moods||[]),...(i.themes||[]),...(i.tags||[]),...(i.searchKeywords||[]),i.lyrics,i.introduction,i.description,i.releaseYear,i.releaseType].join(" ")).includes(needle))&&(!artist.value||i.artistSlugs.includes(artist.value))&&(!genre.value||i.genres.includes(genre.value))&&(!theme.value||(i.themes||[]).includes(theme.value))&&(!year.value||String(i.releaseYear)===year.value)&&(!type.value||(i.releaseType||"single")===type.value));
       items.sort((a,b)=>(sort.value==="oldest"?a.releaseDate.localeCompare(b.releaseDate):sort.value==="title"?a.title.localeCompare(b.title,"ja"):b.releaseDate.localeCompare(a.releaseDate))||a.slug.localeCompare(b.slug));
       result.innerHTML=items.map(card).join(""); empty.hidden=items.length>0; count.textContent=String(items.length);
-      const next=new URLSearchParams(); if(q.value)next.set("q",q.value);if(artist.value)next.set("artist",artist.value);if(genre.value)next.set("genre",genre.value);if(sort.value!=="newest")next.set("sort",sort.value);
+      const next=new URLSearchParams(); if(q.value)next.set("q",q.value);if(artist.value)next.set("artist",artist.value);if(genre.value)next.set("genre",genre.value);if(theme.value)next.set("theme",theme.value);if(year.value)next.set("year",year.value);if(type.value)next.set("type",type.value);if(sort.value!=="newest")next.set("sort",sort.value);
       history[push?"pushState":"replaceState"]({},"",`${location.pathname}${next.size?`?${next}`:""}`);
     };
     form.addEventListener("input",()=>update()); form.addEventListener("change",()=>update({push:true}));
     form.addEventListener("reset",()=>setTimeout(()=>update({push:true})));
-    addEventListener("popstate",()=>{const p=new URLSearchParams(location.search);q.value=p.get("q")||"";artist.value=p.get("artist")||"";genre.value=p.get("genre")||"";sort.value=p.get("sort")||"newest";update()});
+    addEventListener("popstate",()=>{const p=new URLSearchParams(location.search);q.value=p.get("q")||"";artist.value=p.get("artist")||"";genre.value=p.get("genre")||"";theme.value=p.get("theme")||"";year.value=p.get("year")||"";type.value=p.get("type")||"";sort.value=p.get("sort")||"newest";update()});
     update();
   }).catch(error => console.error("SUZUKA explore:", error));
 })();

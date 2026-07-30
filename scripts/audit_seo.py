@@ -68,7 +68,7 @@ FEATURE_NEWS = {
         "releaseHref": "../../news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
         "youtube": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
         "shorts": "https://www.youtube.com/shorts/o7AOgpc2O-k",
-        "image": "images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png",
+        "image": "images/mv-mia.jpg",
         "articleDate": "2026-07-18",
         "artistPage": Path("artists/enomoto-mia/index.html"),
     },
@@ -192,6 +192,7 @@ def content_pages() -> list[Path]:
         if ".git" not in path.parts
         and "node_modules" not in path.parts
         and path.relative_to(ROOT) not in LEGACY_REDIRECTS
+        and 'noindex' not in path.read_text(encoding="utf-8").lower()
     )
 
 
@@ -749,7 +750,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for release in UNPUBLISHED_MIA
         if release.get("status") == "upcoming"
     }
-    explorer_hub_roots = {"features", "gallery", "wiki"}
+    explorer_hub_roots = {"features", "gallery", "wiki", "playlists", "en"}
     direct_home_required = {
         url
         for url, path in expected_urls.items()

@@ -100,6 +100,7 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/explorer-update.js"),
     Path("assets/data/ranking-source.json"),
     Path("assets/data/rankings.json"),
+    Path("assets/data/creator-cms.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
@@ -113,7 +114,6 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/nox-chimpanzee-no-rakuen.jpg"),
     Path("images/mv-ashita-wa-kitto.jpg"),
     Path("images/mv-suki-ga-kyou-mo-fueteiku.jpg"),
-    Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
     Path("images/mv-smile-and-say-goodbye.png"),
     Path("images/mv-boukyaku-no-ikimono.png"),
     Path("images/mv-toriatsukai-chuui.jpg"),
@@ -126,6 +126,9 @@ LOCAL_REQUIRED_ASSETS = {
     Path("images/mv-hanabi.jpg"),
     Path("images/mv-sukitte-baretemo-ii.jpg"),
     Path("images/mv-mermaid-merman.jpg"),
+}
+RETIRED_LOCAL_ASSETS = {
+    Path("images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png"),
 }
 ROUTES = {**SOURCE_ROUTES, **LOCAL_ROUTES}
 
@@ -707,6 +710,8 @@ def main() -> None:
     channel_url = urllib.parse.urljoin(source_page_url("/"), "images/suzuka-channel.jpg")
     public_assets[Path("images/suzuka-channel.jpg")] = channel_url
     for asset_path, asset_url in sorted(public_assets.items(), key=lambda item: item[0].as_posix()):
+        if asset_path in RETIRED_LOCAL_ASSETS:
+            continue
         write_bytes(output / asset_path, fetch_bytes(asset_url))
 
     for route, output_path in SOURCE_ROUTES.items():

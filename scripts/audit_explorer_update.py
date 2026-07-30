@@ -104,7 +104,7 @@ def main() -> int:
         "published": 25,
         "upcoming": 5,
         "artists": 7,
-        "rankings": 6,
+        "rankings": 9,
         "features": 10,
         "galleryWorks": 25,
         "wikiPages": 7,
@@ -163,7 +163,7 @@ def main() -> int:
         if relative == Path("releases/toriatsukai-chuui/index.html"):
             continue
         source = path.read_text(encoding="utf-8")
-        if "desktop-nav" in source:
+        if "desktop-nav" in source and relative.parts[0] != "en":
             for route in NAV_ROUTES:
                 if route not in source:
                     errors.append(f"{relative}: navigation missing {route}")

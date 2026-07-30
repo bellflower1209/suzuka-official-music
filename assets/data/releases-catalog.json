@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T00:00:00+09:00",
+  "updatedAt": "2026-07-30T19:30:00+09:00",
   "releases": [
     {
       "id": "chimpanzee-no-rakuen",
@@ -50,7 +50,61 @@
         "チンパンジーの楽園"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。"
+      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "tags": [
+        "V系",
+        "ダークロック",
+        "社会",
+        "本能",
+        "問い",
+        "ダーク",
+        "挑発的"
+      ],
+      "lyrics": "",
+      "introduction": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "publishedAt": "2026-07-29T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/nox-chimpanzee-no-rakuen.jpg"
+      ],
+      "productionNote": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "seo": {
+        "title": "チンパンジーの楽園｜NOX｜SUZUKA Official Music",
+        "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [],
+        "sameGenre": [],
+        "sameTheme": [
+          "boukyaku-no-ikimono"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "boukyaku-no-ikimono",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ]
+      }
     },
     {
       "id": "ashita-wa-kitto",
@@ -103,7 +157,75 @@
         "明日は、きっと。"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。"
+      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "希望",
+        "祈り",
+        "明日",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "publishedAt": "2026-07-28T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/mv-ashita-wa-kitto.jpg"
+      ],
+      "productionNote": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "seo": {
+        "title": "明日は、きっと。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "smile-and-say-goodbye",
+          "heal-you-again",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "sameTheme": [
+          "heal-you-again"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "smile-and-say-goodbye",
+          "heal-you-again",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ]
+      }
     },
     {
       "id": "heal-you-again",
@@ -158,7 +280,67 @@
         "Heal You Again"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。"
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "tags": [
+        "J-POP",
+        "アイドルポップ",
+        "再生",
+        "希望",
+        "癒やし",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "publishedAt": "2026-07-27T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/revive-heal-you-again.jpg"
+      ],
+      "productionNote": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "seo": {
+        "title": "Heal You Again｜RE:VIVE｜SUZUKA Official Music",
+        "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [],
+        "sameGenre": [
+          "ashita-wa-kitto",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "smile-and-say-goodbye",
+          "my-queen-my-oath",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "sameTheme": [
+          "ashita-wa-kitto"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "ashita-wa-kitto",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "smile-and-say-goodbye",
+          "my-queen-my-oath",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ]
+      }
     },
     {
       "id": "echoes-of-you",
@@ -213,7 +395,68 @@
         "Echoes of You"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。"
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "物語",
+        "力強い",
+        "シネマティック"
+      ],
+      "lyrics": "",
+      "introduction": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "publishedAt": "2026-07-26T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/koga-echoes-of-you.jpg"
+      ],
+      "productionNote": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "seo": {
+        "title": "Echoes of You｜神代 煌牙｜SUZUKA Official Music",
+        "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath"
+        ],
+        "sameGenre": [
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath",
+          "heal-you-again",
+          "namaste-galaxy",
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye"
+        ],
+        "sameTheme": [],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "namaste-galaxy",
+          "wasurenai-kokoro",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath",
+          "heal-you-again",
+          "namaste-galaxy",
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye"
+        ]
+      }
     },
     {
       "id": "namaste-galaxy",
@@ -264,7 +507,66 @@
         "NAMASTE☆GALAXY"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。"
+      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "tags": [
+        "J-POP",
+        "インド×J-POP",
+        "文化",
+        "宇宙",
+        "出会い",
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "lyrics": "",
+      "introduction": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "publishedAt": "2026-07-24T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/rangili-namaste-galaxy.jpg"
+      ],
+      "productionNote": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "seo": {
+        "title": "NAMASTE☆GALAXY｜RANGILI｜SUZUKA Official Music",
+        "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [],
+        "sameGenre": [
+          "echoes-of-you",
+          "smile-and-say-goodbye",
+          "heal-you-again",
+          "my-queen-my-oath",
+          "ashita-wa-kitto",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "sameTheme": [],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "wasurenai-kokoro",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "echoes-of-you",
+          "smile-and-say-goodbye",
+          "heal-you-again",
+          "my-queen-my-oath",
+          "ashita-wa-kitto",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ]
+      }
     },
     {
       "id": "wasurenai-kokoro",
@@ -315,7 +617,61 @@
         "忘れない心"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。"
+      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "tags": [
+        "演歌",
+        "歌謡曲",
+        "家族",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "lyrics": "",
+      "introduction": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "publishedAt": "2026-07-23T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/asagiri-wasurenai-kokoro.jpg"
+      ],
+      "productionNote": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "seo": {
+        "title": "忘れない心｜朝霧しのぶ｜SUZUKA Official Music",
+        "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [],
+        "sameGenre": [],
+        "sameTheme": [
+          "kimi-wa-hanabi"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "smile-and-say-goodbye"
+        ],
+        "aiRecommended": [
+          "kimi-wa-hanabi",
+          "namaste-galaxy",
+          "smile-and-say-goodbye",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "my-queen-my-oath"
+        ]
+      }
     },
     {
       "id": "smile-and-say-goodbye",
@@ -368,7 +724,76 @@
         "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。"
+      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "別れ",
+        "愛",
+        "笑顔",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "publishedAt": "2026-07-22T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-smile-and-say-goodbye.png"
+      ],
+      "productionNote": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "seo": {
+        "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―｜榎本魅愛｜SUZUKA Official Music",
+        "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "ashita-wa-kitto",
+          "our-kingdom",
+          "my-queen-my-oath",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "suki-ga-kyou-mo-fueteiku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "our-kingdom",
+          "my-queen-my-oath"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "ashita-wa-kitto",
+          "our-kingdom",
+          "my-queen-my-oath",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "suki-ga-kyou-mo-fueteiku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "boukyaku-no-ikimono",
@@ -425,7 +850,69 @@
         "忘却の生き物"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。"
+      "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "tags": [
+        "ロック",
+        "ダークポップ",
+        "忘却",
+        "社会",
+        "痛み",
+        "力強い",
+        "シネマティック"
+      ],
+      "lyrics": "",
+      "introduction": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "publishedAt": "2026-07-21T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-boukyaku-no-ikimono.png"
+      ],
+      "productionNote": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "seo": {
+        "title": "忘却の生き物｜神代 煌牙｜SUZUKA Official Music",
+        "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "echoes-of-you",
+          "my-queen-my-oath"
+        ],
+        "sameGenre": [
+          "echoes-of-you",
+          "my-queen-my-oath",
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "sameTheme": [
+          "chimpanzee-no-rakuen"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "echoes-of-you",
+          "my-queen-my-oath",
+          "red-moon-rising",
+          "shadow-code",
+          "chimpanzee-no-rakuen",
+          "smile-and-say-goodbye"
+        ]
+      }
     },
     {
       "id": "my-queen-my-oath",
@@ -485,7 +972,74 @@
         "My Queen, My Oath"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。"
+      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "シネマティック",
+        "誓い",
+        "愛",
+        "運命",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "publishedAt": "2026-07-20T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/koga-my-queen-my-oath-cover.jpg"
+      ],
+      "productionNote": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "seo": {
+        "title": "My Queen, My Oath｜神代 煌牙｜SUZUKA Official Music",
+        "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "echoes-of-you",
+          "boukyaku-no-ikimono"
+        ],
+        "sameGenre": [
+          "our-kingdom",
+          "echoes-of-you",
+          "smile-and-say-goodbye",
+          "boukyaku-no-ikimono",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "namaste-galaxy"
+        ],
+        "sameTheme": [
+          "our-kingdom",
+          "smile-and-say-goodbye",
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "our-kingdom",
+          "echoes-of-you",
+          "smile-and-say-goodbye",
+          "boukyaku-no-ikimono",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "namaste-galaxy"
+        ]
+      }
     },
     {
       "id": "red-moon-rising",
@@ -543,7 +1097,69 @@
         "RED MOON // RISING"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。"
+      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク",
+        "覚醒",
+        "反逆",
+        "運命",
+        "ダーク",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "publishedAt": "2026-07-18T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/eclypse-red-moon-rising-cover.png"
+      ],
+      "productionNote": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "seo": {
+        "title": "RED MOON // RISING｜ECLYPSE｜SUZUKA Official Music",
+        "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "shadow-code"
+        ],
+        "sameGenre": [
+          "shadow-code",
+          "boukyaku-no-ikimono",
+          "echoes-of-you"
+        ],
+        "sameTheme": [
+          "shadow-code",
+          "my-queen-my-oath"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "shadow-code",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "my-queen-my-oath",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "suki-ga-kyou-mo-fueteiku"
+        ]
+      }
     },
     {
       "id": "suki-ga-kyou-mo-fueteiku",
@@ -592,7 +1208,78 @@
         "好きが、今日も増えていく。"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-16T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-suki-ga-kyou-mo-fueteiku.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きが、今日も増えていく。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "sameTheme": [
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ]
+      }
     },
     {
       "id": "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -620,7 +1307,7 @@
         "恋愛"
       ],
       "language": "ja",
-      "coverImage": "images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png",
+      "coverImage": "images/mv-mia.jpg",
       "coverAlt": "榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット",
       "releaseUrl": "releases/moshimo-ashita-hajimemashite-ni-natte-mo/",
       "youtubeUrl": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
@@ -641,7 +1328,78 @@
         "もしも明日、はじめましてになっても"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-16T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/o7AOgpc2O-k",
+      "galleryImages": [
+        "images/mv-mia.jpg"
+      ],
+      "productionNote": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "もしも明日、はじめましてになっても｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "toriatsukai-chui",
+          "our-kingdom",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "suki-ga-kyou-mo-fueteiku",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "sameTheme": [
+          "suki-ga-kyou-mo-fueteiku",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "suki-ga-kyou-mo-fueteiku",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ]
+      }
     },
     {
       "id": "toriatsukai-chui",
@@ -690,7 +1448,78 @@
         "取り扱いチュー💋い"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/KHZMfULXuGQ",
+      "galleryImages": [
+        "images/mv-toriatsukai-chuui.jpg"
+      ],
+      "productionNote": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "取り扱いチュー💋い｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "our-kingdom",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "mirai-no-watashi-ga-miteru",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "sameTheme": [
+          "mirai-no-watashi-ga-miteru",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "mirai-no-watashi-ga-miteru",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ]
+      }
     },
     {
       "id": "shadow-code",
@@ -743,7 +1572,69 @@
         "SHADOW//CODE"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。"
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "ダーク",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/eclypse-shadow-code-cover.webp"
+      ],
+      "productionNote": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "SHADOW//CODE｜ECLYPSE｜SUZUKA Official Music",
+        "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "red-moon-rising"
+        ],
+        "sameGenre": [
+          "red-moon-rising",
+          "boukyaku-no-ikimono",
+          "echoes-of-you"
+        ],
+        "sameTheme": [
+          "red-moon-rising",
+          "my-queen-my-oath"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "red-moon-rising",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "my-queen-my-oath",
+          "mirai-no-watashi-ga-miteru",
+          "our-kingdom"
+        ]
+      }
     },
     {
       "id": "our-kingdom",
@@ -802,7 +1693,76 @@
         "OUR KINGDOM"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "シネマティック",
+        "愛",
+        "王国",
+        "誓い",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-our-kingdom.jpg"
+      ],
+      "productionNote": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "OUR KINGDOM｜榎本魅愛 × 神代煌牙｜SUZUKA Official Music",
+        "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameGenre": [
+          "my-queen-my-oath",
+          "smile-and-say-goodbye",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "sameTheme": [
+          "my-queen-my-oath",
+          "smile-and-say-goodbye"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "my-queen-my-oath",
+          "smile-and-say-goodbye",
+          "mirai-no-watashi-ga-miteru",
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made"
+        ]
+      }
     },
     {
       "id": "mirai-no-watashi-ga-miteru",
@@ -851,7 +1811,78 @@
         "未来の私が見てる"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mirai-no-watashi-ga-miteru.jpg"
+      ],
+      "productionNote": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "未来の私が見てる｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "sameTheme": [
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "toriatsukai-chui",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ]
+      }
     },
     {
       "id": "tokenai-mahou-wo-ai-to-yobu",
@@ -900,7 +1931,78 @@
         "解けない魔法を、愛と呼ぶ"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mahou.jpg"
+      ],
+      "productionNote": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "解けない魔法を、愛と呼ぶ｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "muteki-jikan-ato-3byou",
@@ -949,7 +2051,78 @@
         "無敵時間、あと3秒"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-muteki.jpg"
+      ],
+      "productionNote": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "無敵時間、あと3秒｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "mia",
@@ -998,7 +2171,78 @@
         "M・I・A"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mia.jpg"
+      ],
+      "productionNote": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "M・I・A｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "kimi-to-nara-last-boss-made",
@@ -1047,7 +2291,78 @@
         "君とならラスボスまで"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-lastboss.jpg"
+      ],
+      "productionNote": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "君とならラスボスまで｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "ai-demo-wakaranai",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "ai-demo-wakaranai",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "ai-demo-wakaranai",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "ai-demo-wakaranai",
@@ -1096,7 +2411,78 @@
         "AIでもわからない"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-ai.jpg"
+      ],
+      "productionNote": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "AIでもわからない｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "sameTheme": [
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ],
+        "popular": [
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu",
+          "hyakumankoku",
+          "mirai-no-watashi-ga-miteru"
+        ]
+      }
     },
     {
       "id": "sukitte-baretemo-ii",
@@ -1145,7 +2531,78 @@
         "好きってバレてもいい"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-sukitte-baretemo-ii.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きってバレてもいい｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "hyakumankoku",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "sameTheme": [
+          "hyakumankoku",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "hyakumankoku",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ]
+      }
     },
     {
       "id": "mermaid-merman",
@@ -1198,7 +2655,80 @@
         "MERMAID×MERMAN"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mermaid-merman.jpg"
+      ],
+      "productionNote": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "MERMAID×MERMAN｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "hyakumankoku",
+          "kimi-wa-hanabi",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "sameTheme": [
+          "hyakumankoku",
+          "kimi-wa-hanabi",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "hyakumankoku",
+          "kimi-wa-hanabi",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ]
+      }
     },
     {
       "id": "kimi-wa-hanabi",
@@ -1251,7 +2781,80 @@
         "君は花火"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "サマーポップ",
+        "恋愛",
+        "夏",
+        "記憶",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-hanabi.jpg"
+      ],
+      "productionNote": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "君は花火｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "hyakumankoku",
+          "mermaid-merman",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "sameTheme": [
+          "hyakumankoku",
+          "mermaid-merman",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "hyakumankoku",
+          "mermaid-merman",
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ]
+      }
     },
     {
       "id": "hyakumankoku",
@@ -1300,7 +2903,78 @@
         "百万告"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。"
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/10hI03wXHtE",
+      "galleryImages": [
+        "images/mv-hyakumankoku.jpg"
+      ],
+      "productionNote": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "百万告｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "sameTheme": [
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "sukitte-baretemo-ii",
+          "ai-demo-wakaranai",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "muteki-jikan-ato-3byou",
+          "tokenai-mahou-wo-ai-to-yobu"
+        ]
+      }
     }
   ],
   "upcoming": [
@@ -1313,7 +2987,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
       "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-30T20:00:00+09:00"
     },
     {
       "slug": "without-worrying",
@@ -1324,7 +3003,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
       "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-31T20:00:00+09:00"
     },
     {
       "slug": "lost-signal",
@@ -1335,7 +3019,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
       "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-01T20:00:00+09:00"
     },
     {
       "slug": "one-more-kiss",
@@ -1346,7 +3035,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
       "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-02T20:00:00+09:00"
     },
     {
       "slug": "zennin-saiban",
@@ -1357,7 +3051,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
       "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-03T20:00:00+09:00"
     }
   ]
 }

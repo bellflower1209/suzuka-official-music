@@ -1,0 +1,2672 @@
+<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Creator CMS｜SUZUKA Admin</title><meta name="description" content="SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。"/><meta name="robots" content="noindex, nofollow"/><link rel="canonical" href="https://bellflower1209.github.io/suzuka-official-music/admin/"/><meta property="og:type" content="website"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:title" content="Creator CMS｜SUZUKA Admin"/><meta property="og:description" content="SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。"/><meta property="og:url" content="https://bellflower1209.github.io/suzuka-official-music/admin/"/><meta property="og:image" content="https://bellflower1209.github.io/suzuka-official-music/images/suzuka-channel.jpg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Creator CMS｜SUZUKA Admin"/><meta name="twitter:description" content="SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。"/><meta name="twitter:image" content="https://bellflower1209.github.io/suzuka-official-music/images/suzuka-channel.jpg"/><link rel="stylesheet" href="../assets/styles.css"/><link rel="stylesheet" href="../assets/explore.css"/><link rel="stylesheet" href="../assets/explorer-update.css"/><link rel="stylesheet" href="../assets/creator-platform.css"/><link rel="stylesheet" href="../assets/player.css"/><link rel="stylesheet" href="../assets/ai-disclosure.css"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://bellflower1209.github.io/suzuka-official-music/admin/#page","url":"https://bellflower1209.github.io/suzuka-official-music/admin/","name":"Creator CMS｜SUZUKA Admin","description":"SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bellflower1209.github.io/suzuka-official-music/"},{"@type":"ListItem","position":2,"name":"Creator CMS","item":"https://bellflower1209.github.io/suzuka-official-music/admin/"}]}]}</script></head><body><main><a class="skip-link" href="#content">本文へ移動</a><header class="site-header inner-site-header"><a class="brand" href="../">SUZUKA<span class="brand-dot">●</span></a><nav class="desktop-nav explorer-primary-nav" aria-label="メインナビゲーション"><a href="../">Home</a><a href="../artists/">Artists</a><a href="../releases/">Releases</a><a href="../search/">Search</a><a href="../rankings/">Ranking</a><a href="../features/">Features</a><a href="../gallery/">Gallery</a><a href="../universe/">Universe</a><a href="../wiki/">Wiki</a><a href="../playlists/">Playlists</a><a href="../community/">Community</a><a href="../social/">Social</a></nav><a class="header-channel" href="https://www.youtube.com/@suzuka1209" target="_blank" rel="noopener noreferrer">YouTube ↗</a><details class="mobile-menu"><summary>Menu</summary><nav><a href="../">Home</a><a href="../artists/">Artists</a><a href="../releases/">Releases</a><a href="../search/">Search</a><a href="../rankings/">Ranking</a><a href="../features/">Features</a><a href="../gallery/">Gallery</a><a href="../universe/">Universe</a><a href="../wiki/">Wiki</a><a href="../playlists/">Playlists</a><a href="../community/">Community</a><a href="../social/">Social</a><a href="../genres/">Genres</a><a href="../discography/">Discography</a><a href="../news/">News</a></nav></details></header><section class="explorer-hero"><p class="section-kicker">SUZUKA EXPLORER UPDATE</p><h1>Creator CMS</h1><p>SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。</p></section><nav class="explorer-breadcrumb" aria-label="パンくず"><a href="../">Home</a><b>/</b><span>Creator CMS</span></nav><div id="content">
+<section class="creator-copy"><h2>Creator CMS</h2><p>公開サイトの正本データを編集し、検証済みJSONとして書き出します。</p>
+<p class="creator-notice">GitHub Pages上では安全なリポジトリ書き込みを行いません。JSONをダウンロード後、ローカルの同期コマンドで公開してください。</p></section>
+<section><h2>管理対象</h2><ul class="creator-field-list"><li>アーティスト</li><li>作品</li><li>News</li><li>ジャケット</li><li>MV</li><li>Shorts</li><li>Gallery</li><li>Universe</li><li>Wiki</li><li>ジャンル</li><li>テーマ</li><li>タグ</li><li>歌詞</li><li>紹介文</li><li>公開日時</li><li>YouTube</li><li>Instagram</li><li>検索キーワード</li><li>関連作品</li><li>JSON-LD</li><li>SEO</li></ul></section>
+<section class="creator-cms">
+<label>正本JSON<textarea id="cms-json" spellcheck="false">{
+  &quot;schemaVersion&quot;: &quot;3.0&quot;,
+  &quot;updatedAt&quot;: &quot;2026-07-30T19:30:00+09:00&quot;,
+  &quot;site&quot;: {
+    &quot;name&quot;: &quot;SUZUKA&quot;,
+    &quot;baseUrl&quot;: &quot;https://bellflower1209.github.io/suzuka-official-music&quot;,
+    &quot;description&quot;: &quot;音楽から新しい物語を始めるオリジナルAIアーティスト総合プラットフォーム。&quot;,
+    &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+    &quot;youtubeChannelId&quot;: &quot;UCVde75yhByGQMu3SkO-fzrA&quot;,
+    &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+    &quot;defaultLanguage&quot;: &quot;ja&quot;,
+    &quot;supportedLanguages&quot;: [
+      &quot;ja&quot;,
+      &quot;en&quot;
+    ]
+  },
+  &quot;artists&quot;: [
+    {
+      &quot;slug&quot;: &quot;enomoto-mia&quot;,
+      &quot;name&quot;: &quot;榎本魅愛&quot;,
+      &quot;reading&quot;: &quot;ENOMOTO MIA&quot;,
+      &quot;type&quot;: &quot;Person&quot;,
+      &quot;image&quot;: &quot;images/mv-mia.jpg&quot;,
+      &quot;world&quot;: &quot;恋する瞬間のときめき、迷い、勇気を、色彩豊かな物語として歌う。&quot;,
+      &quot;music&quot;: &quot;J-POP、ロマンティックポップ、バラードを軸に、日常の感情をまっすぐなメロディへ変える。&quot;,
+      &quot;profile&quot;: &quot;恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;ENOMOTO MIA&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;榎本魅愛｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;name&quot;: &quot;神代煌牙&quot;,
+      &quot;reading&quot;: &quot;KOGA KAMISHIRO&quot;,
+      &quot;type&quot;: &quot;Person&quot;,
+      &quot;image&quot;: &quot;images/koga-kamishiro.webp&quot;,
+      &quot;world&quot;: &quot;大切な人を守る黒の騎士。静けさの奥にある誓いと、消えない記憶を描く。&quot;,
+      &quot;music&quot;: &quot;シネマティックJ-POP、ロック、ダークポップを融合した重厚な物語音楽。&quot;,
+      &quot;profile&quot;: &quot;愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;神代煌牙&quot;,
+        &quot;KOGA KAMISHIRO&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;神代煌牙｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;eclypse&quot;,
+      &quot;name&quot;: &quot;ECLYPSE&quot;,
+      &quot;reading&quot;: &quot;ECLYPSE&quot;,
+      &quot;type&quot;: &quot;MusicGroup&quot;,
+      &quot;image&quot;: &quot;images/eclypse-group.webp&quot;,
+      &quot;world&quot;: &quot;光と闇が交わる近未来で、5つの運命がコードを書き換えていく。&quot;,
+      &quot;music&quot;: &quot;ダークK-POP、EDM、Trapを基調に、ボーカル、ラップ、ダンスの緊張感を重ねる。&quot;,
+      &quot;profile&quot;: &quot;運命を自ら書き換える5人組男性AIグループ。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;ECLYPSE&quot;,
+        &quot;ECLYPSE&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;ECLYPSE｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;運命を自ら書き換える5人組男性AIグループ。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;nox&quot;,
+      &quot;name&quot;: &quot;NOX&quot;,
+      &quot;reading&quot;: &quot;NOX&quot;,
+      &quot;type&quot;: &quot;MusicGroup&quot;,
+      &quot;image&quot;: &quot;images/nox-chimpanzee-no-rakuen.jpg&quot;,
+      &quot;world&quot;: &quot;人間の本能、社会の矛盾、夜の奥に潜む衝動を、黒い寓話として描く。&quot;,
+      &quot;music&quot;: &quot;V系、ダークロックを中心に、挑発的な問いと物語性を強いバンドサウンドへ刻む。&quot;,
+      &quot;profile&quot;: &quot;黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;NOX&quot;,
+        &quot;NOX&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;NOX｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;rangili&quot;,
+      &quot;name&quot;: &quot;RANGILI&quot;,
+      &quot;reading&quot;: &quot;RANGILI&quot;,
+      &quot;type&quot;: &quot;MusicGroup&quot;,
+      &quot;image&quot;: &quot;images/rangili-namaste-galaxy.jpg&quot;,
+      &quot;world&quot;: &quot;インドと日本、地上と宇宙を鮮やかな色彩で結ぶ祝祭の世界。&quot;,
+      &quot;music&quot;: &quot;インド音楽の情熱とJ-POPの親しみやすいメロディを融合したダンスポップ。&quot;,
+      &quot;profile&quot;: &quot;インドと日本の文化を音楽でつなぐ3人組AIガールグループ。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;RANGILI&quot;,
+        &quot;RANGILI&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;RANGILI｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;インドと日本の文化を音楽でつなぐ3人組AIガールグループ。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;asagiri-shinobu&quot;,
+      &quot;name&quot;: &quot;朝霧しのぶ&quot;,
+      &quot;reading&quot;: &quot;ASAGIRI SHINOBU&quot;,
+      &quot;type&quot;: &quot;Person&quot;,
+      &quot;image&quot;: &quot;images/asagiri-wasurenai-kokoro.jpg&quot;,
+      &quot;world&quot;: &quot;家族、記憶、人生の別れとぬくもりに寄り添う、日本の原風景。&quot;,
+      &quot;music&quot;: &quot;演歌と歌謡曲を軸に、人生の機微を落ち着いた語りと旋律で届ける。&quot;,
+      &quot;profile&quot;: &quot;忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;朝霧しのぶ&quot;,
+        &quot;ASAGIRI SHINOBU&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;朝霧しのぶ｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;revive&quot;,
+      &quot;name&quot;: &quot;RE:VIVE&quot;,
+      &quot;reading&quot;: &quot;RE:VIVE&quot;,
+      &quot;type&quot;: &quot;MusicGroup&quot;,
+      &quot;image&quot;: &quot;images/revive-heal-you-again.jpg&quot;,
+      &quot;world&quot;: &quot;傷ついた心に光を戻し、もう一度立ち上がる瞬間を仲間と分かち合う。&quot;,
+      &quot;music&quot;: &quot;応援、回復、再生をテーマにしたJ-POPとアイドルポップ。&quot;,
+      &quot;profile&quot;: &quot;前へ進む力を届ける5人組AIガールズグループ。&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/@suzuka1209&quot;,
+      &quot;instagramUrl&quot;: &quot;https://www.instagram.com/suzuka12090511/&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;RE:VIVE&quot;,
+        &quot;RE:VIVE&quot;
+      ],
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;RE:VIVE｜SUZUKA Official AI Artist&quot;,
+        &quot;description&quot;: &quot;前へ進む力を届ける5人組AIガールズグループ。 SUZUKAの架空のAIアーティストです。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    }
+  ],
+  &quot;releases&quot;: [
+    {
+      &quot;id&quot;: &quot;chimpanzee-no-rakuen&quot;,
+      &quot;slug&quot;: &quot;chimpanzee-no-rakuen&quot;,
+      &quot;title&quot;: &quot;チンパンジーの楽園&quot;,
+      &quot;displayTitle&quot;: &quot;チンパンジーの楽園&quot;,
+      &quot;artist&quot;: &quot;NOX&quot;,
+      &quot;artistSlug&quot;: &quot;nox&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;nox&quot;
+      ],
+      &quot;artistType&quot;: &quot;MusicGroup&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-29&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;V系&quot;,
+        &quot;ダークロック&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;ダーク&quot;,
+        &quot;挑発的&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;社会&quot;,
+        &quot;本能&quot;,
+        &quot;問い&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/nox-chimpanzee-no-rakuen.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;NOX「チンパンジーの楽園」公式YouTubeサムネイル&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/chimpanzee-no-rakuen/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=EJJLBOo103I&quot;,
+      &quot;newsUrl&quot;: &quot;news/chimpanzee-no-rakuen-release/&quot;,
+      &quot;duration&quot;: 148,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: true,
+      &quot;recommendationWeight&quot;: 1,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;NOX&quot;,
+        &quot;ノクス&quot;,
+        &quot;V系&quot;,
+        &quot;ダークロック&quot;,
+        &quot;社会&quot;,
+        &quot;本能&quot;,
+        &quot;問い&quot;,
+        &quot;チンパンジーの楽園&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;V系&quot;,
+        &quot;ダークロック&quot;,
+        &quot;社会&quot;,
+        &quot;本能&quot;,
+        &quot;問い&quot;,
+        &quot;ダーク&quot;,
+        &quot;挑発的&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-29T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: &quot;&quot;,
+      &quot;galleryImages&quot;: [
+        &quot;images/nox-chimpanzee-no-rakuen.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;チンパンジーの楽園｜NOX｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;ashita-wa-kitto&quot;,
+      &quot;slug&quot;: &quot;ashita-wa-kitto&quot;,
+      &quot;title&quot;: &quot;明日は、きっと。&quot;,
+      &quot;displayTitle&quot;: &quot;明日は、きっと。&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-28&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;希望&quot;,
+        &quot;祈り&quot;,
+        &quot;明日&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-ashita-wa-kitto.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「明日は、きっと。」公式YouTubeサムネイル&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/ashita-wa-kitto/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=5MkQZT5qiGA&quot;,
+      &quot;newsUrl&quot;: &quot;news/ashita-wa-kitto-release/&quot;,
+      &quot;duration&quot;: 215,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: true,
+      &quot;recommendationWeight&quot;: 1,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;,
+        &quot;希望&quot;,
+        &quot;祈り&quot;,
+        &quot;明日&quot;,
+        &quot;明日は、きっと。&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;,
+        &quot;希望&quot;,
+        &quot;祈り&quot;,
+        &quot;明日&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-28T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: &quot;&quot;,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-ashita-wa-kitto.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;明日は、きっと。｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;heal-you-again&quot;,
+      &quot;slug&quot;: &quot;heal-you-again&quot;,
+      &quot;title&quot;: &quot;Heal You Again&quot;,
+      &quot;displayTitle&quot;: &quot;Heal You Again&quot;,
+      &quot;artist&quot;: &quot;RE:VIVE&quot;,
+      &quot;artistSlug&quot;: &quot;revive&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;revive&quot;
+      ],
+      &quot;artistType&quot;: &quot;MusicGroup&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-27&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;アイドルポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;希望&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;再生&quot;,
+        &quot;希望&quot;,
+        &quot;癒やし&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/revive-heal-you-again.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;RE:VIVE「Heal You Again」公式YouTubeサムネイル&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/heal-you-again/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=XHjDSEoFcXE&quot;,
+      &quot;newsUrl&quot;: &quot;news/heal-you-again-release/&quot;,
+      &quot;duration&quot;: 105,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: true,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [
+        &quot;smile-and-say-goodbye&quot;,
+        &quot;namaste-galaxy&quot;,
+        &quot;wasurenai-kokoro&quot;
+      ],
+      &quot;searchKeywords&quot;: [
+        &quot;RE:VIVE&quot;,
+        &quot;リバイブ&quot;,
+        &quot;J-POP&quot;,
+        &quot;アイドルポップ&quot;,
+        &quot;再生&quot;,
+        &quot;希望&quot;,
+        &quot;癒やし&quot;,
+        &quot;Heal You Again&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;アイドルポップ&quot;,
+        &quot;再生&quot;,
+        &quot;希望&quot;,
+        &quot;癒やし&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-27T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/revive-heal-you-again.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;Heal You Again｜RE:VIVE｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;echoes-of-you&quot;,
+      &quot;slug&quot;: &quot;echoes-of-you&quot;,
+      &quot;title&quot;: &quot;Echoes of You&quot;,
+      &quot;displayTitle&quot;: &quot;Echoes of You&quot;,
+      &quot;artist&quot;: &quot;神代 煌牙&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;koga-kamishiro&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-26&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;力強い&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;物語&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/koga-echoes-of-you.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;神代煌牙「Echoes of You」公式YouTubeサムネイル&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/echoes-of-you/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=Uxtp9TLw47g&quot;,
+      &quot;newsUrl&quot;: &quot;news/echoes-of-you-release/&quot;,
+      &quot;duration&quot;: 484,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [
+        &quot;my-queen-my-oath&quot;,
+        &quot;boukyaku-no-ikimono&quot;,
+        &quot;our-kingdom&quot;
+      ],
+      &quot;searchKeywords&quot;: [
+        &quot;神代煌牙&quot;,
+        &quot;神代 煌牙&quot;,
+        &quot;かみしろこうが&quot;,
+        &quot;KOGA KAMISHIRO&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;物語&quot;,
+        &quot;Echoes of You&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;物語&quot;,
+        &quot;力強い&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-26T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/koga-echoes-of-you.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;Echoes of You｜神代 煌牙｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;namaste-galaxy&quot;,
+      &quot;slug&quot;: &quot;namaste-galaxy&quot;,
+      &quot;title&quot;: &quot;NAMASTE☆GALAXY&quot;,
+      &quot;displayTitle&quot;: &quot;NAMASTE☆GALAXY&quot;,
+      &quot;artist&quot;: &quot;RANGILI&quot;,
+      &quot;artistSlug&quot;: &quot;rangili&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;rangili&quot;
+      ],
+      &quot;artistType&quot;: &quot;MusicGroup&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-24&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;インド×J-POP&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;華やか&quot;,
+        &quot;エネルギッシュ&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;文化&quot;,
+        &quot;宇宙&quot;,
+        &quot;出会い&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/rangili-namaste-galaxy.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;RANGILI「NAMASTE☆GALAXY」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/namaste-galaxy/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=CQ0bfdXVrck&quot;,
+      &quot;newsUrl&quot;: &quot;news/namaste-galaxy-release/&quot;,
+      &quot;duration&quot;: 163,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;RANGILI&quot;,
+        &quot;ランギリ&quot;,
+        &quot;J-POP&quot;,
+        &quot;インド×J-POP&quot;,
+        &quot;文化&quot;,
+        &quot;宇宙&quot;,
+        &quot;出会い&quot;,
+        &quot;NAMASTE☆GALAXY&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;インド×J-POP&quot;,
+        &quot;文化&quot;,
+        &quot;宇宙&quot;,
+        &quot;出会い&quot;,
+        &quot;華やか&quot;,
+        &quot;エネルギッシュ&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-24T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/rangili-namaste-galaxy.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;NAMASTE☆GALAXY｜RANGILI｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;wasurenai-kokoro&quot;,
+      &quot;slug&quot;: &quot;wasurenai-kokoro&quot;,
+      &quot;title&quot;: &quot;忘れない心&quot;,
+      &quot;displayTitle&quot;: &quot;忘れない心&quot;,
+      &quot;artist&quot;: &quot;朝霧しのぶ&quot;,
+      &quot;artistSlug&quot;: &quot;asagiri-shinobu&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;asagiri-shinobu&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-23&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;演歌&quot;,
+        &quot;歌謡曲&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;切ない&quot;,
+        &quot;温かい&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;家族&quot;,
+        &quot;記憶&quot;,
+        &quot;人生&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/asagiri-wasurenai-kokoro.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;朝霧しのぶ「忘れない心」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/wasurenai-kokoro/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=YxZWABTJBGk&quot;,
+      &quot;newsUrl&quot;: &quot;news/wasurenai-kokoro-release/&quot;,
+      &quot;duration&quot;: 311,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;朝霧しのぶ&quot;,
+        &quot;あさぎりしのぶ&quot;,
+        &quot;演歌&quot;,
+        &quot;歌謡曲&quot;,
+        &quot;家族&quot;,
+        &quot;記憶&quot;,
+        &quot;人生&quot;,
+        &quot;忘れない心&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;演歌&quot;,
+        &quot;歌謡曲&quot;,
+        &quot;家族&quot;,
+        &quot;記憶&quot;,
+        &quot;人生&quot;,
+        &quot;切ない&quot;,
+        &quot;温かい&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-23T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/asagiri-wasurenai-kokoro.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;忘れない心｜朝霧しのぶ｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;smile-and-say-goodbye&quot;,
+      &quot;slug&quot;: &quot;smile-and-say-goodbye&quot;,
+      &quot;title&quot;: &quot;SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―&quot;,
+      &quot;displayTitle&quot;: &quot;SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―｜大好きだから、笑ってさようなら。&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-22&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;別れ&quot;,
+        &quot;愛&quot;,
+        &quot;笑顔&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-smile-and-say-goodbye.png&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/smile-and-say-goodbye/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=b2n8gcpen58&quot;,
+      &quot;newsUrl&quot;: &quot;news/smile-and-say-goodbye-release/&quot;,
+      &quot;duration&quot;: 497,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;,
+        &quot;別れ&quot;,
+        &quot;愛&quot;,
+        &quot;笑顔&quot;,
+        &quot;SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;バラード&quot;,
+        &quot;別れ&quot;,
+        &quot;愛&quot;,
+        &quot;笑顔&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-22T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-smile-and-say-goodbye.png&quot;
+      ],
+      &quot;productionNote&quot;: &quot;好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;boukyaku-no-ikimono&quot;,
+      &quot;slug&quot;: &quot;boukyaku-no-ikimono&quot;,
+      &quot;title&quot;: &quot;忘却の生き物&quot;,
+      &quot;displayTitle&quot;: &quot;忘却の生き物&quot;,
+      &quot;artist&quot;: &quot;神代 煌牙&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;koga-kamishiro&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-21&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;力強い&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;忘却&quot;,
+        &quot;社会&quot;,
+        &quot;痛み&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-boukyaku-no-ikimono.png&quot;,
+      &quot;coverAlt&quot;: &quot;神代 煌牙「忘却の生き物」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/boukyaku-no-ikimono/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=yREvkT9gEk4&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 284,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [
+        &quot;my-queen-my-oath&quot;,
+        &quot;our-kingdom&quot;,
+        &quot;shadow-code&quot;
+      ],
+      &quot;searchKeywords&quot;: [
+        &quot;神代煌牙&quot;,
+        &quot;神代 煌牙&quot;,
+        &quot;かみしろこうが&quot;,
+        &quot;KOGA KAMISHIRO&quot;,
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;忘却&quot;,
+        &quot;社会&quot;,
+        &quot;痛み&quot;,
+        &quot;忘却の生き物&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。&quot;,
+      &quot;tags&quot;: [
+        &quot;ロック&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;忘却&quot;,
+        &quot;社会&quot;,
+        &quot;痛み&quot;,
+        &quot;力強い&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-21T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-boukyaku-no-ikimono.png&quot;
+      ],
+      &quot;productionNote&quot;: &quot;弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;忘却の生き物｜神代 煌牙｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;my-queen-my-oath&quot;,
+      &quot;slug&quot;: &quot;my-queen-my-oath&quot;,
+      &quot;title&quot;: &quot;My Queen, My Oath&quot;,
+      &quot;displayTitle&quot;: &quot;My Queen, My Oath｜君が、俺のすべて。&quot;,
+      &quot;artist&quot;: &quot;神代 煌牙&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;koga-kamishiro&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-20&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;力強い&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;誓い&quot;,
+        &quot;愛&quot;,
+        &quot;運命&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/koga-my-queen-my-oath-cover.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/my-queen-my-oath/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=_TfwreiEMMM&quot;,
+      &quot;newsUrl&quot;: &quot;news/my-queen-my-oath-release/&quot;,
+      &quot;duration&quot;: 297,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [
+        &quot;our-kingdom&quot;,
+        &quot;boukyaku-no-ikimono&quot;,
+        &quot;red-moon-rising&quot;,
+        &quot;smile-and-say-goodbye&quot;
+      ],
+      &quot;searchKeywords&quot;: [
+        &quot;神代煌牙&quot;,
+        &quot;神代 煌牙&quot;,
+        &quot;かみしろこうが&quot;,
+        &quot;KOGA KAMISHIRO&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;シネマティック&quot;,
+        &quot;誓い&quot;,
+        &quot;愛&quot;,
+        &quot;運命&quot;,
+        &quot;My Queen, My Oath&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロック&quot;,
+        &quot;シネマティック&quot;,
+        &quot;誓い&quot;,
+        &quot;愛&quot;,
+        &quot;運命&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-20T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/koga-my-queen-my-oath-cover.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;My Queen, My Oath｜神代 煌牙｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;red-moon-rising&quot;,
+      &quot;slug&quot;: &quot;red-moon-rising&quot;,
+      &quot;title&quot;: &quot;RED MOON // RISING&quot;,
+      &quot;displayTitle&quot;: &quot;RED MOON // RISING｜ECLYPSE 2ND SINGLE&quot;,
+      &quot;artist&quot;: &quot;ECLYPSE&quot;,
+      &quot;artistSlug&quot;: &quot;eclypse&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;eclypse&quot;
+      ],
+      &quot;artistType&quot;: &quot;MusicGroup&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-18&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;サイバーパンク&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;ダーク&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;覚醒&quot;,
+        &quot;反逆&quot;,
+        &quot;運命&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/eclypse-red-moon-rising-cover.png&quot;,
+      &quot;coverAlt&quot;: &quot;ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/red-moon-rising/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=BZkMHt0P2oo&quot;,
+      &quot;newsUrl&quot;: &quot;news/red-moon-rising-release/&quot;,
+      &quot;duration&quot;: 364,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [
+        &quot;shadow-code&quot;,
+        &quot;our-kingdom&quot;,
+        &quot;my-queen-my-oath&quot;,
+        &quot;boukyaku-no-ikimono&quot;
+      ],
+      &quot;searchKeywords&quot;: [
+        &quot;ECLYPSE&quot;,
+        &quot;エクリプス&quot;,
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;サイバーパンク&quot;,
+        &quot;覚醒&quot;,
+        &quot;反逆&quot;,
+        &quot;運命&quot;,
+        &quot;RED MOON // RISING&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。&quot;,
+      &quot;tags&quot;: [
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;サイバーパンク&quot;,
+        &quot;覚醒&quot;,
+        &quot;反逆&quot;,
+        &quot;運命&quot;,
+        &quot;ダーク&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-18T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/eclypse-red-moon-rising-cover.png&quot;
+      ],
+      &quot;productionNote&quot;: &quot;赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;RED MOON // RISING｜ECLYPSE｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;suki-ga-kyou-mo-fueteiku&quot;,
+      &quot;slug&quot;: &quot;suki-ga-kyou-mo-fueteiku&quot;,
+      &quot;title&quot;: &quot;好きが、今日も増えていく。&quot;,
+      &quot;displayTitle&quot;: &quot;好きが、今日も増えていく。&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-16&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-suki-ga-kyou-mo-fueteiku.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「好きが、今日も増えていく。」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/suki-ga-kyou-mo-fueteiku/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=XAZy5k9Q4rE&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 351,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;好きが、今日も増えていく。&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-16T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-suki-ga-kyou-mo-fueteiku.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;好きが、今日も増えていく。｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;moshimo-ashita-hajimemashite-ni-natte-mo&quot;,
+      &quot;slug&quot;: &quot;moshimo-ashita-hajimemashite-ni-natte-mo&quot;,
+      &quot;title&quot;: &quot;もしも明日、はじめましてになっても&quot;,
+      &quot;displayTitle&quot;: &quot;もしも明日、はじめましてになっても&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-16&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-mia.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/moshimo-ashita-hajimemashite-ni-natte-mo/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=GN6eoBDRm3w&quot;,
+      &quot;newsUrl&quot;: &quot;news/moshimo-ashita-hajimemashite-ni-natte-mo-release/&quot;,
+      &quot;duration&quot;: 417,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;もしも明日、はじめましてになっても&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-16T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: &quot;https://www.youtube.com/shorts/o7AOgpc2O-k&quot;,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-mia.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;もしも明日、はじめましてになっても｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;toriatsukai-chui&quot;,
+      &quot;slug&quot;: &quot;toriatsukai-chui&quot;,
+      &quot;title&quot;: &quot;取り扱いチュー💋い&quot;,
+      &quot;displayTitle&quot;: &quot;取り扱いチュー💋い&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-14&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-toriatsukai-chuui.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「取り扱いチュー💋い」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/toriatsukai-chui/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=QXvpLCnyoOw&quot;,
+      &quot;newsUrl&quot;: &quot;news/toriatsukai-chui-release/&quot;,
+      &quot;duration&quot;: 324,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;取り扱いチュー💋い&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: &quot;https://www.youtube.com/shorts/KHZMfULXuGQ&quot;,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-toriatsukai-chuui.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;取り扱いチュー💋い｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;shadow-code&quot;,
+      &quot;slug&quot;: &quot;shadow-code&quot;,
+      &quot;title&quot;: &quot;SHADOW//CODE&quot;,
+      &quot;displayTitle&quot;: &quot;SHADOW//CODE&quot;,
+      &quot;artist&quot;: &quot;ECLYPSE&quot;,
+      &quot;artistSlug&quot;: &quot;eclypse&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;eclypse&quot;
+      ],
+      &quot;artistType&quot;: &quot;MusicGroup&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-14&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;EDM&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;ダーク&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;運命&quot;,
+        &quot;反逆&quot;,
+        &quot;未来&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/eclypse-shadow-code-cover.webp&quot;,
+      &quot;coverAlt&quot;: &quot;ECLYPSE「SHADOW//CODE」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/shadow-code/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=8VCL2IepjeM&quot;,
+      &quot;newsUrl&quot;: &quot;news/shadow-code-announcement/&quot;,
+      &quot;duration&quot;: 181,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;ECLYPSE&quot;,
+        &quot;エクリプス&quot;,
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;EDM&quot;,
+        &quot;運命&quot;,
+        &quot;反逆&quot;,
+        &quot;未来&quot;,
+        &quot;SHADOW//CODE&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;K-POP風&quot;,
+        &quot;ダークポップ&quot;,
+        &quot;EDM&quot;,
+        &quot;運命&quot;,
+        &quot;反逆&quot;,
+        &quot;未来&quot;,
+        &quot;ダーク&quot;,
+        &quot;力強い&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/eclypse-shadow-code-cover.webp&quot;
+      ],
+      &quot;productionNote&quot;: &quot;ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;SHADOW//CODE｜ECLYPSE｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;our-kingdom&quot;,
+      &quot;slug&quot;: &quot;our-kingdom&quot;,
+      &quot;title&quot;: &quot;OUR KINGDOM&quot;,
+      &quot;displayTitle&quot;: &quot;OUR KINGDOM&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛 × 神代煌牙&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;,
+        &quot;koga-kamishiro&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-14&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;シネマティック&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;愛&quot;,
+        &quot;王国&quot;,
+        &quot;誓い&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-our-kingdom.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/our-kingdom/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=y26XVRkpfjw&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 377,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;神代煌牙&quot;,
+        &quot;神代 煌牙&quot;,
+        &quot;かみしろこうが&quot;,
+        &quot;KOGA KAMISHIRO&quot;,
+        &quot;J-POP&quot;,
+        &quot;シネマティック&quot;,
+        &quot;愛&quot;,
+        &quot;王国&quot;,
+        &quot;誓い&quot;,
+        &quot;榎本魅愛 × 神代煌牙&quot;,
+        &quot;OUR KINGDOM&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;シネマティック&quot;,
+        &quot;愛&quot;,
+        &quot;王国&quot;,
+        &quot;誓い&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-our-kingdom.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;OUR KINGDOM｜榎本魅愛 × 神代煌牙｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;mirai-no-watashi-ga-miteru&quot;,
+      &quot;slug&quot;: &quot;mirai-no-watashi-ga-miteru&quot;,
+      &quot;title&quot;: &quot;未来の私が見てる&quot;,
+      &quot;displayTitle&quot;: &quot;未来の私が見てる&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-14&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-mirai-no-watashi-ga-miteru.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「未来の私が見てる」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/mirai-no-watashi-ga-miteru/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=fgAW1njpSxM&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 484,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;未来の私が見てる&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-mirai-no-watashi-ga-miteru.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;未来の私が見てる｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;tokenai-mahou-wo-ai-to-yobu&quot;,
+      &quot;slug&quot;: &quot;tokenai-mahou-wo-ai-to-yobu&quot;,
+      &quot;title&quot;: &quot;解けない魔法を、愛と呼ぶ&quot;,
+      &quot;displayTitle&quot;: &quot;解けない魔法を、愛と呼ぶ&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-13&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-mahou.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/tokenai-mahou-wo-ai-to-yobu/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=CAFQ-d7YHPQ&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 380,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;解けない魔法を、愛と呼ぶ&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-13T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-mahou.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;解けない魔法を、愛と呼ぶ｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;muteki-jikan-ato-3byou&quot;,
+      &quot;slug&quot;: &quot;muteki-jikan-ato-3byou&quot;,
+      &quot;title&quot;: &quot;無敵時間、あと3秒&quot;,
+      &quot;displayTitle&quot;: &quot;無敵時間、あと3秒&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-13&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-muteki.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「無敵時間、あと3秒」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/muteki-jikan-ato-3byou/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=DPnFtRFnH5c&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 232,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;無敵時間、あと3秒&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-13T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-muteki.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;無敵時間、あと3秒｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;mia&quot;,
+      &quot;slug&quot;: &quot;mia&quot;,
+      &quot;title&quot;: &quot;M・I・A&quot;,
+      &quot;displayTitle&quot;: &quot;M・I・A&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-13&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-mia.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「M・I・A」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/mia/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=WzcXyuAI_FM&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 328,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;M・I・A&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「M・I・A」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「M・I・A」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-13T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-mia.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「M・I・A」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;M・I・A｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「M・I・A」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;kimi-to-nara-last-boss-made&quot;,
+      &quot;slug&quot;: &quot;kimi-to-nara-last-boss-made&quot;,
+      &quot;title&quot;: &quot;君とならラスボスまで&quot;,
+      &quot;displayTitle&quot;: &quot;君とならラスボスまで&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-13&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-lastboss.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「君とならラスボスまで」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/kimi-to-nara-last-boss-made/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=YVNs3I-KaHI&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 329,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;君とならラスボスまで&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-13T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-lastboss.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;君とならラスボスまで｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;ai-demo-wakaranai&quot;,
+      &quot;slug&quot;: &quot;ai-demo-wakaranai&quot;,
+      &quot;title&quot;: &quot;AIでもわからない&quot;,
+      &quot;displayTitle&quot;: &quot;AIでもわからない&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-13&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-ai.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「AIでもわからない」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/ai-demo-wakaranai/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=5jmTo3Jb5sI&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 315,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;AIでもわからない&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-13T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-ai.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;AIでもわからない｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;sukitte-baretemo-ii&quot;,
+      &quot;slug&quot;: &quot;sukitte-baretemo-ii&quot;,
+      &quot;title&quot;: &quot;好きってバレてもいい&quot;,
+      &quot;displayTitle&quot;: &quot;好きってバレてもいい&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-12&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-sukitte-baretemo-ii.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「好きってバレてもいい」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/sukitte-baretemo-ii/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=XP8yXMKFHVI&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 274,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;好きってバレてもいい&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-12T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-sukitte-baretemo-ii.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;好きってバレてもいい｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;mermaid-merman&quot;,
+      &quot;slug&quot;: &quot;mermaid-merman&quot;,
+      &quot;title&quot;: &quot;MERMAID×MERMAN&quot;,
+      &quot;displayTitle&quot;: &quot;MERMAID×MERMAN&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-12&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ファンタジーポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;,
+        &quot;海&quot;,
+        &quot;異世界&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-mermaid-merman.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「MERMAID×MERMAN」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/mermaid-merman/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=29fpeNtUqfY&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 340,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ファンタジーポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;海&quot;,
+        &quot;異世界&quot;,
+        &quot;MERMAID×MERMAN&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ファンタジーポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;海&quot;,
+        &quot;異世界&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-12T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-mermaid-merman.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;MERMAID×MERMAN｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;kimi-wa-hanabi&quot;,
+      &quot;slug&quot;: &quot;kimi-wa-hanabi&quot;,
+      &quot;title&quot;: &quot;君は花火&quot;,
+      &quot;displayTitle&quot;: &quot;君は花火&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-12&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;サマーポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;,
+        &quot;夏&quot;,
+        &quot;記憶&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-hanabi.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「君は花火」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/kimi-wa-hanabi/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=ohylad3AWYI&quot;,
+      &quot;newsUrl&quot;: &quot;&quot;,
+      &quot;duration&quot;: 280,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;サマーポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;夏&quot;,
+        &quot;記憶&quot;,
+        &quot;君は花火&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「君は花火」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;サマーポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;夏&quot;,
+        &quot;記憶&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「君は花火」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-12T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: null,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-hanabi.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「君は花火」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;君は花火｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「君は花火」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    },
+    {
+      &quot;id&quot;: &quot;hyakumankoku&quot;,
+      &quot;slug&quot;: &quot;hyakumankoku&quot;,
+      &quot;title&quot;: &quot;百万告&quot;,
+      &quot;displayTitle&quot;: &quot;百万告&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;artistSlugs&quot;: [
+        &quot;enomoto-mia&quot;
+      ],
+      &quot;artistType&quot;: &quot;Person&quot;,
+      &quot;releaseDate&quot;: &quot;2026-07-12&quot;,
+      &quot;releaseYear&quot;: 2026,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;genres&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;
+      ],
+      &quot;moods&quot;: [
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;themes&quot;: [
+        &quot;恋愛&quot;
+      ],
+      &quot;language&quot;: &quot;ja&quot;,
+      &quot;coverImage&quot;: &quot;images/mv-hyakumankoku.jpg&quot;,
+      &quot;coverAlt&quot;: &quot;榎本魅愛「百万告」公式ジャケット&quot;,
+      &quot;releaseUrl&quot;: &quot;releases/hyakumankoku/&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=QteunhFn9Dk&quot;,
+      &quot;newsUrl&quot;: &quot;news/hyakumankoku-release/&quot;,
+      &quot;duration&quot;: 295,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;featured&quot;: false,
+      &quot;recommendationWeight&quot;: 2,
+      &quot;relatedReleases&quot;: [],
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;えのもとみあ&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;MIA&quot;,
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;百万告&quot;
+      ],
+      &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
+      &quot;tags&quot;: [
+        &quot;J-POP&quot;,
+        &quot;ロマンティックポップ&quot;,
+        &quot;恋愛&quot;,
+        &quot;明るい&quot;,
+        &quot;切ない&quot;
+      ],
+      &quot;lyrics&quot;: &quot;&quot;,
+      &quot;introduction&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-12T20:00:00+09:00&quot;,
+      &quot;instagramUrl&quot;: &quot;&quot;,
+      &quot;shortsUrl&quot;: &quot;https://www.youtube.com/shorts/10hI03wXHtE&quot;,
+      &quot;galleryImages&quot;: [
+        &quot;images/mv-hyakumankoku.jpg&quot;
+      ],
+      &quot;productionNote&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
+      &quot;seo&quot;: {
+        &quot;title&quot;: &quot;百万告｜榎本魅愛｜SUZUKA Official Music&quot;,
+        &quot;description&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
+        &quot;jsonLdEnabled&quot;: true
+      }
+    }
+  ],
+  &quot;upcoming&quot;: [
+    {
+      &quot;slug&quot;: &quot;koisuru-maharaja&quot;,
+      &quot;title&quot;: &quot;恋するマハラジャ&quot;,
+      &quot;artist&quot;: &quot;RANGILI&quot;,
+      &quot;artistSlug&quot;: &quot;rangili&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-07-30T20:00:00+09:00&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=V3DOM83zeLk&quot;,
+      &quot;image&quot;: &quot;https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg&quot;,
+      &quot;note&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;genres&quot;: [],
+      &quot;themes&quot;: [],
+      &quot;tags&quot;: [],
+      &quot;description&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-30T20:00:00+09:00&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;without-worrying&quot;,
+      &quot;title&quot;: &quot;Without Worrying&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-07-31T20:00:00+09:00&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=lMeYWn4Sqgk&quot;,
+      &quot;image&quot;: &quot;https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg&quot;,
+      &quot;note&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;genres&quot;: [],
+      &quot;themes&quot;: [],
+      &quot;tags&quot;: [],
+      &quot;description&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-31T20:00:00+09:00&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;lost-signal&quot;,
+      &quot;title&quot;: &quot;LOST SIGNAL&quot;,
+      &quot;artist&quot;: &quot;ECLYPSE&quot;,
+      &quot;artistSlug&quot;: &quot;eclypse&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-08-01T20:00:00+09:00&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=CbpvpKllc6c&quot;,
+      &quot;image&quot;: &quot;https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg&quot;,
+      &quot;note&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;genres&quot;: [],
+      &quot;themes&quot;: [],
+      &quot;tags&quot;: [],
+      &quot;description&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-08-01T20:00:00+09:00&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;one-more-kiss&quot;,
+      &quot;title&quot;: &quot;One More Kiss&quot;,
+      &quot;artist&quot;: &quot;神代煌牙&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-08-02T20:00:00+09:00&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=EP7NAPlGhuo&quot;,
+      &quot;image&quot;: &quot;https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg&quot;,
+      &quot;note&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;genres&quot;: [],
+      &quot;themes&quot;: [],
+      &quot;tags&quot;: [],
+      &quot;description&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-08-02T20:00:00+09:00&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;zennin-saiban&quot;,
+      &quot;title&quot;: &quot;善人裁判&quot;,
+      &quot;artist&quot;: &quot;NOX&quot;,
+      &quot;artistSlug&quot;: &quot;nox&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-08-03T20:00:00+09:00&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;youtubeUrl&quot;: &quot;https://www.youtube.com/watch?v=8BjnnX3xeGw&quot;,
+      &quot;image&quot;: &quot;https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg&quot;,
+      &quot;note&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;genres&quot;: [],
+      &quot;themes&quot;: [],
+      &quot;tags&quot;: [],
+      &quot;description&quot;: &quot;公式YouTubeプレミア公開予定。公開済み作品には含めていません。&quot;,
+      &quot;publishedAt&quot;: &quot;2026-08-03T20:00:00+09:00&quot;
+    }
+  ],
+  &quot;news&quot;: [
+    {
+      &quot;slug&quot;: &quot;chimpanzee-no-rakuen-release&quot;,
+      &quot;title&quot;: &quot;NOX「チンパンジーの楽園」公開&quot;,
+      &quot;artistSlug&quot;: &quot;nox&quot;,
+      &quot;releaseSlug&quot;: &quot;chimpanzee-no-rakuen&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-29T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。&quot;,
+      &quot;image&quot;: &quot;images/nox-chimpanzee-no-rakuen.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;ashita-wa-kitto-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛「明日は、きっと。」公開&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;releaseSlug&quot;: &quot;ashita-wa-kitto&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-28T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。&quot;,
+      &quot;image&quot;: &quot;images/mv-ashita-wa-kitto.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;heal-you-again-release&quot;,
+      &quot;title&quot;: &quot;RE:VIVE「Heal You Again」公開&quot;,
+      &quot;artistSlug&quot;: &quot;revive&quot;,
+      &quot;releaseSlug&quot;: &quot;heal-you-again&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-27T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。&quot;,
+      &quot;image&quot;: &quot;images/revive-heal-you-again.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;echoes-of-you-release&quot;,
+      &quot;title&quot;: &quot;神代 煌牙「Echoes of You」公開&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;releaseSlug&quot;: &quot;echoes-of-you&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-26T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。&quot;,
+      &quot;image&quot;: &quot;images/koga-echoes-of-you.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;namaste-galaxy-release&quot;,
+      &quot;title&quot;: &quot;RANGILI「NAMASTE☆GALAXY」公開&quot;,
+      &quot;artistSlug&quot;: &quot;rangili&quot;,
+      &quot;releaseSlug&quot;: &quot;namaste-galaxy&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-24T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。&quot;,
+      &quot;image&quot;: &quot;images/rangili-namaste-galaxy.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;wasurenai-kokoro-release&quot;,
+      &quot;title&quot;: &quot;朝霧しのぶ「忘れない心」公開&quot;,
+      &quot;artistSlug&quot;: &quot;asagiri-shinobu&quot;,
+      &quot;releaseSlug&quot;: &quot;wasurenai-kokoro&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-23T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。&quot;,
+      &quot;image&quot;: &quot;images/asagiri-wasurenai-kokoro.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;smile-and-say-goodbye-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公開&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;releaseSlug&quot;: &quot;smile-and-say-goodbye&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-22T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。&quot;,
+      &quot;image&quot;: &quot;images/mv-smile-and-say-goodbye.png&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;my-queen-my-oath-release&quot;,
+      &quot;title&quot;: &quot;神代 煌牙「My Queen, My Oath」公開&quot;,
+      &quot;artistSlug&quot;: &quot;koga-kamishiro&quot;,
+      &quot;releaseSlug&quot;: &quot;my-queen-my-oath&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-20T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。&quot;,
+      &quot;image&quot;: &quot;images/koga-my-queen-my-oath-cover.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;red-moon-rising-release&quot;,
+      &quot;title&quot;: &quot;ECLYPSE「RED MOON // RISING」公開&quot;,
+      &quot;artistSlug&quot;: &quot;eclypse&quot;,
+      &quot;releaseSlug&quot;: &quot;red-moon-rising&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-18T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。&quot;,
+      &quot;image&quot;: &quot;images/eclypse-red-moon-rising-cover.png&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;moshimo-ashita-hajimemashite-ni-natte-mo-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」公開&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;releaseSlug&quot;: &quot;moshimo-ashita-hajimemashite-ni-natte-mo&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-16T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。&quot;,
+      &quot;image&quot;: &quot;images/mv-mia.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;toriatsukai-chui-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛「取り扱いチュー💋い」公開&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;releaseSlug&quot;: &quot;toriatsukai-chui&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。&quot;,
+      &quot;image&quot;: &quot;images/mv-toriatsukai-chuui.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;shadow-code-release&quot;,
+      &quot;title&quot;: &quot;ECLYPSE「SHADOW//CODE」公開&quot;,
+      &quot;artistSlug&quot;: &quot;eclypse&quot;,
+      &quot;releaseSlug&quot;: &quot;shadow-code&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-14T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。&quot;,
+      &quot;image&quot;: &quot;images/eclypse-shadow-code-cover.webp&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;hyakumankoku-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛「百万告」公開&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;releaseSlug&quot;: &quot;hyakumankoku&quot;,
+      &quot;publishedAt&quot;: &quot;2026-07-12T20:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
+      &quot;image&quot;: &quot;images/mv-hyakumankoku.jpg&quot;,
+      &quot;status&quot;: &quot;published&quot;
+    }
+  ],
+  &quot;taxonomy&quot;: {
+    &quot;genres&quot;: [
+      &quot;EDM&quot;,
+      &quot;J-POP&quot;,
+      &quot;K-POP風&quot;,
+      &quot;V系&quot;,
+      &quot;アイドルポップ&quot;,
+      &quot;インド×J-POP&quot;,
+      &quot;サイバーパンク&quot;,
+      &quot;サマーポップ&quot;,
+      &quot;シネマティック&quot;,
+      &quot;ダークポップ&quot;,
+      &quot;ダークロック&quot;,
+      &quot;バラード&quot;,
+      &quot;ファンタジーポップ&quot;,
+      &quot;ロック&quot;,
+      &quot;ロマンティックポップ&quot;,
+      &quot;歌謡曲&quot;,
+      &quot;演歌&quot;
+    ],
+    &quot;themes&quot;: [
+      &quot;人生&quot;,
+      &quot;再生&quot;,
+      &quot;出会い&quot;,
+      &quot;別れ&quot;,
+      &quot;反逆&quot;,
+      &quot;問い&quot;,
+      &quot;夏&quot;,
+      &quot;宇宙&quot;,
+      &quot;家族&quot;,
+      &quot;希望&quot;,
+      &quot;忘却&quot;,
+      &quot;恋愛&quot;,
+      &quot;愛&quot;,
+      &quot;文化&quot;,
+      &quot;明日&quot;,
+      &quot;未来&quot;,
+      &quot;本能&quot;,
+      &quot;海&quot;,
+      &quot;物語&quot;,
+      &quot;王国&quot;,
+      &quot;異世界&quot;,
+      &quot;痛み&quot;,
+      &quot;癒やし&quot;,
+      &quot;社会&quot;,
+      &quot;祈り&quot;,
+      &quot;笑顔&quot;,
+      &quot;覚醒&quot;,
+      &quot;記憶&quot;,
+      &quot;誓い&quot;,
+      &quot;運命&quot;
+    ],
+    &quot;tags&quot;: [
+      &quot;EDM&quot;,
+      &quot;J-POP&quot;,
+      &quot;K-POP風&quot;,
+      &quot;V系&quot;,
+      &quot;アイドルポップ&quot;,
+      &quot;インド×J-POP&quot;,
+      &quot;エネルギッシュ&quot;,
+      &quot;サイバーパンク&quot;,
+      &quot;サマーポップ&quot;,
+      &quot;シネマティック&quot;,
+      &quot;ダーク&quot;,
+      &quot;ダークポップ&quot;,
+      &quot;ダークロック&quot;,
+      &quot;バラード&quot;,
+      &quot;ファンタジーポップ&quot;,
+      &quot;ロック&quot;,
+      &quot;ロマンティックポップ&quot;,
+      &quot;人生&quot;,
+      &quot;再生&quot;,
+      &quot;出会い&quot;,
+      &quot;切ない&quot;,
+      &quot;別れ&quot;,
+      &quot;力強い&quot;,
+      &quot;反逆&quot;,
+      &quot;問い&quot;,
+      &quot;夏&quot;,
+      &quot;宇宙&quot;,
+      &quot;家族&quot;,
+      &quot;希望&quot;,
+      &quot;忘却&quot;,
+      &quot;恋愛&quot;,
+      &quot;愛&quot;,
+      &quot;挑発的&quot;,
+      &quot;文化&quot;,
+      &quot;明るい&quot;,
+      &quot;明日&quot;,
+      &quot;未来&quot;,
+      &quot;本能&quot;,
+      &quot;歌謡曲&quot;,
+      &quot;海&quot;,
+      &quot;温かい&quot;,
+      &quot;演歌&quot;,
+      &quot;物語&quot;,
+      &quot;王国&quot;,
+      &quot;異世界&quot;,
+      &quot;痛み&quot;,
+      &quot;癒やし&quot;,
+      &quot;社会&quot;,
+      &quot;祈り&quot;,
+      &quot;笑顔&quot;,
+      &quot;華やか&quot;,
+      &quot;覚醒&quot;,
+      &quot;記憶&quot;,
+      &quot;誓い&quot;,
+      &quot;運命&quot;
+    ]
+  },
+  &quot;featureDefinitions&quot;: [
+    {
+      &quot;slug&quot;: &quot;love-songs&quot;,
+      &quot;label&quot;: &quot;恋愛ソング&quot;,
+      &quot;description&quot;: &quot;恋する気持ち、愛、誓いを描く作品。&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;恋愛&quot;,
+          &quot;愛&quot;,
+          &quot;誓い&quot;
+        ],
+        &quot;artistSlugs&quot;: [
+          &quot;enomoto-mia&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;cheer-songs&quot;,
+      &quot;label&quot;: &quot;応援ソング&quot;,
+      &quot;description&quot;: &quot;希望、再生、明日へ進む力を届ける作品。&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;希望&quot;,
+          &quot;再生&quot;,
+          &quot;明日&quot;,
+          &quot;祈り&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;tearjerkers&quot;,
+      &quot;label&quot;: &quot;泣ける曲&quot;,
+      &quot;description&quot;: &quot;別れ、記憶、痛みを静かに受け止める作品。&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;別れ&quot;,
+          &quot;記憶&quot;,
+          &quot;痛み&quot;,
+          &quot;忘却&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;summer-songs&quot;,
+      &quot;label&quot;: &quot;夏ソング&quot;,
+      &quot;description&quot;: &quot;花火や海など、夏の情景が広がる作品。&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;夏&quot;,
+          &quot;海&quot;
+        ],
+        &quot;genres&quot;: [
+          &quot;サマーポップ&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;winter-songs&quot;,
+      &quot;label&quot;: &quot;冬ソング&quot;,
+      &quot;description&quot;: &quot;冬の空気や季節の記憶を描く作品。&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;冬&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;dark&quot;,
+      &quot;label&quot;: &quot;ダーク&quot;,
+      &quot;description&quot;: &quot;影、反逆、社会への問いを描くダークな作品。&quot;,
+      &quot;match&quot;: {
+        &quot;moods&quot;: [
+          &quot;ダーク&quot;
+        ],
+        &quot;genreContains&quot;: [
+          &quot;ダーク&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;k-pop&quot;,
+      &quot;label&quot;: &quot;K-POP風&quot;,
+      &quot;description&quot;: &quot;K-POPの構成やビジュアル感覚を取り入れた作品。&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;K-POP風&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;enka&quot;,
+      &quot;label&quot;: &quot;演歌&quot;,
+      &quot;description&quot;: &quot;人生、家族、記憶に寄り添う演歌作品。&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;演歌&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;visual-kei&quot;,
+      &quot;label&quot;: &quot;V系&quot;,
+      &quot;description&quot;: &quot;ヴィジュアル系の美意識とダークロックを持つ作品。&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;V系&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;ai-idols&quot;,
+      &quot;label&quot;: &quot;AIアイドル&quot;,
+      &quot;description&quot;: &quot;AIアイドル／ガールグループの物語と音楽。&quot;,
+      &quot;match&quot;: {
+        &quot;artistSlugs&quot;: [
+          &quot;revive&quot;,
+          &quot;rangili&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;ai-bands&quot;,
+      &quot;label&quot;: &quot;AIバンド&quot;,
+      &quot;description&quot;: &quot;AIバンド／グループが鳴らす物語性の強い作品。&quot;,
+      &quot;match&quot;: {
+        &quot;artistSlugs&quot;: [
+          &quot;nox&quot;,
+          &quot;eclypse&quot;
+        ]
+      }
+    }
+  ],
+  &quot;playlistDefinitions&quot;: [
+    {
+      &quot;slug&quot;: &quot;love&quot;,
+      &quot;label&quot;: &quot;恋愛&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;恋愛&quot;,
+          &quot;愛&quot;,
+          &quot;誓い&quot;
+        ],
+        &quot;artistSlugs&quot;: [
+          &quot;enomoto-mia&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;summer&quot;,
+      &quot;label&quot;: &quot;夏&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;夏&quot;,
+          &quot;海&quot;
+        ],
+        &quot;genres&quot;: [
+          &quot;サマーポップ&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;winter&quot;,
+      &quot;label&quot;: &quot;冬&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;冬&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;cheer&quot;,
+      &quot;label&quot;: &quot;応援&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;希望&quot;,
+          &quot;再生&quot;,
+          &quot;明日&quot;,
+          &quot;祈り&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;tearjerkers&quot;,
+      &quot;label&quot;: &quot;泣ける&quot;,
+      &quot;match&quot;: {
+        &quot;themes&quot;: [
+          &quot;別れ&quot;,
+          &quot;記憶&quot;,
+          &quot;痛み&quot;,
+          &quot;忘却&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;ai-idols&quot;,
+      &quot;label&quot;: &quot;AIアイドル&quot;,
+      &quot;match&quot;: {
+        &quot;artistSlugs&quot;: [
+          &quot;revive&quot;,
+          &quot;rangili&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;k-pop&quot;,
+      &quot;label&quot;: &quot;K-POP風&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;K-POP風&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;visual-kei&quot;,
+      &quot;label&quot;: &quot;V系&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;V系&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;enka&quot;,
+      &quot;label&quot;: &quot;演歌&quot;,
+      &quot;match&quot;: {
+        &quot;genres&quot;: [
+          &quot;演歌&quot;
+        ]
+      }
+    },
+    {
+      &quot;slug&quot;: &quot;popular&quot;,
+      &quot;label&quot;: &quot;人気曲&quot;,
+      &quot;sort&quot;: &quot;popular&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;latest&quot;,
+      &quot;label&quot;: &quot;最新曲&quot;,
+      &quot;sort&quot;: &quot;latest&quot;
+    },
+    {
+      &quot;slug&quot;: &quot;music-videos&quot;,
+      &quot;label&quot;: &quot;MV付き&quot;,
+      &quot;match&quot;: {
+        &quot;hasYoutube&quot;: true
+      }
+    }
+  ],
+  &quot;wiki&quot;: {
+    &quot;terms&quot;: [
+      {
+        &quot;term&quot;: &quot;SUZUKA&quot;,
+        &quot;description&quot;: &quot;音楽から新しい物語を始めるオリジナルAI音楽プロジェクト。&quot;
+      },
+      {
+        &quot;term&quot;: &quot;AIアーティスト&quot;,
+        &quot;description&quot;: &quot;SUZUKAの作品世界に登場する架空のアーティスト表現。&quot;
+      },
+      {
+        &quot;term&quot;: &quot;Weekly Pick&quot;,
+        &quot;description&quot;: &quot;正本データから週ごとに決定的に選ばれるおすすめ作品。&quot;
+      },
+      {
+        &quot;term&quot;: &quot;recommendationWeight&quot;,
+        &quot;description&quot;: &quot;ランキングとおすすめに利用する推薦値。&quot;
+      },
+      {
+        &quot;term&quot;: &quot;Official MV&quot;,
+        &quot;description&quot;: &quot;公式YouTubeで公開確認した映像。&quot;
+      }
+    ]
+  },
+  &quot;universe&quot;: {
+    &quot;title&quot;: &quot;SUZUKA UNIVERSE&quot;,
+    &quot;story&quot;: &quot;異なる世界観を持つAIアーティストと作品が、音楽を通してひとつの宇宙を形づくる。&quot;,
+    &quot;keywords&quot;: [
+      &quot;恋&quot;,
+      &quot;誓い&quot;,
+      &quot;光と闇&quot;,
+      &quot;記憶&quot;,
+      &quot;再生&quot;,
+      &quot;文化&quot;,
+      &quot;宇宙&quot;
+    ],
+    &quot;future&quot;: [
+      &quot;新アーティスト&quot;,
+      &quot;新作品&quot;,
+      &quot;物語連携&quot;,
+      &quot;イベント&quot;
+    ]
+  },
+  &quot;community&quot;: {
+    &quot;monthlyRankingSource&quot;: &quot;recommendations&quot;,
+    &quot;polls&quot;: [
+      {
+        &quot;id&quot;: &quot;favorite-song&quot;,
+        &quot;question&quot;: &quot;今月のおすすめ曲は？&quot;,
+        &quot;status&quot;: &quot;open&quot;
+      }
+    ],
+    &quot;surveys&quot;: [
+      {
+        &quot;id&quot;: &quot;next-feature&quot;,
+        &quot;question&quot;: &quot;次に読みたい特集は？&quot;,
+        &quot;status&quot;: &quot;open&quot;
+      }
+    ],
+    &quot;events&quot;: []
+  }
+}</textarea></label>
+<div class="explore-actions"><button id="cms-validate">検証</button><button id="cms-save">下書き保存</button>
+<button id="cms-download">JSONを書き出す</button><label class="creator-file">JSONを読み込む<input id="cms-import" type="file" accept="application/json"/></label></div>
+<output id="cms-status" aria-live="polite"></output></section>
+<section><h2>公開手順</h2><ol><li>JSONを検証</li><li><code>assets/data/creator-cms.json</code>へ反映</li>
+<li><code>python3 scripts/build_explore_catalog.py</code>を2回実行</li><li>全監査後に公開</li></ol></section></div><footer class="site-footer inner-footer"><div class="footer-top"><a class="footer-brand" href="../">SUZUKA</a><p>Original AI Music Project</p><a href="https://www.youtube.com/@suzuka1209" target="_blank" rel="noopener noreferrer">YouTube ↗</a></div><nav class="site-footer-nav" aria-label="フッターナビゲーション"><a href="../rankings/">Ranking</a><a href="../features/">Features</a><a href="../gallery/">Gallery</a><a href="../universe/">Universe</a><a href="../wiki/">Wiki</a><a href="../playlists/">Playlists</a><a href="../community/">Community</a><a href="../search/">Search</a><a href="../genres/">Genres</a><a href="../discography/">Discography</a><a href="../social/">Social</a></nav><p class="ai-footer-disclosure">SUZUKAに登場するアーティスト・人物は架空です。本プロジェクトではAIを制作支援に活用しています。</p></footer></main><script defer src="../assets/main.js"></script><script defer src="../assets/explorer-update.js"></script><script defer src="../assets/creator-admin.js"></script></body></html>

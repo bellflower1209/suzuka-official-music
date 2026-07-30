@@ -19,7 +19,9 @@
       "playerEnabled": false,
       "youtubeStatus": "published",
       "newsStatus": "published",
-      "shortsStatus": "unconfirmed"
+      "shortsStatus": "unconfirmed",
+      "coverImage": "images/nox-chimpanzee-no-rakuen.jpg",
+      "shortsUrl": ""
     },
     {
       "slug": "ashita-wa-kitto",
@@ -39,7 +41,9 @@
       "playerEnabled": false,
       "youtubeStatus": "published",
       "newsStatus": "published",
-      "shortsStatus": "unconfirmed"
+      "shortsStatus": "unconfirmed",
+      "coverImage": "images/mv-ashita-wa-kitto.jpg",
+      "shortsUrl": ""
     },
     {
       "slug": "heal-you-again",
@@ -196,18 +200,20 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "publishedDate": null,
+      "publishedDate": "2026-07-21",
       "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
       "playerEnabled": false,
-      "newsPage": null,
+      "newsPage": "",
       "newsUrl": null,
-      "newsStatus": "unavailable",
+      "newsStatus": "unconfirmed",
       "relatedReleases": [
         "my-queen-my-oath",
         "our-kingdom",
         "shadow-code"
       ],
-      "lyricsStatus": "excerpt_confirmed"
+      "lyricsStatus": "excerpt_confirmed",
+      "releaseType": "single",
+      "duration": 284
     },
     {
       "slug": "my-queen-my-oath",
@@ -272,7 +278,8 @@
         "boukyaku-no-ikimono"
       ],
       "credits": null,
-      "lyricsStatus": "unconfirmed"
+      "lyricsStatus": "unconfirmed",
+      "duration": 364
     },
     {
       "slug": "suki-ga-kyou-mo-fueteiku",
@@ -285,9 +292,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
+      "coverAlt": "榎本魅愛「好きが、今日も増えていく。」公式ジャケット",
+      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-16",
+      "duration": 351,
+      "playerEnabled": false
     },
     {
       "slug": "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -302,7 +316,14 @@
       "shortsStatus": "published",
       "newsPage": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
       "newsStatus": "published",
-      "status": "published"
+      "status": "published",
+      "coverImage": "images/mv-mia.jpg",
+      "coverAlt": "榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット",
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-16",
+      "duration": 417,
+      "playerEnabled": false
     },
     {
       "slug": "toriatsukai-chui",
@@ -317,7 +338,14 @@
       "shortsStatus": "published",
       "newsPage": "news/toriatsukai-chui-release/",
       "newsStatus": "published",
-      "status": "published"
+      "status": "published",
+      "coverImage": "images/mv-toriatsukai-chuui.jpg",
+      "coverAlt": "榎本魅愛「取り扱いチュー💋い」公式ジャケット",
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-14",
+      "duration": 324,
+      "playerEnabled": false
     },
     {
       "slug": "shadow-code",
@@ -332,7 +360,14 @@
       "shortsStatus": "unconfirmed",
       "newsPage": "news/shadow-code-announcement/",
       "newsStatus": "published",
-      "status": "published"
+      "status": "published",
+      "coverImage": "images/eclypse-shadow-code-cover.webp",
+      "coverAlt": "ECLYPSE「SHADOW//CODE」公式ジャケット",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-14",
+      "duration": 181,
+      "playerEnabled": false
     },
     {
       "slug": "our-kingdom",
@@ -345,13 +380,20 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
       "artistSlugs": [
         "enomoto-mia",
         "koga-kamishiro"
       ],
-      "status": "published"
+      "status": "published",
+      "coverImage": "images/mv-our-kingdom.jpg",
+      "coverAlt": "榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット",
+      "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-14",
+      "duration": 377,
+      "playerEnabled": false
     },
     {
       "slug": "mirai-no-watashi-ga-miteru",
@@ -364,9 +406,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-mirai-no-watashi-ga-miteru.jpg",
+      "coverAlt": "榎本魅愛「未来の私が見てる」公式ジャケット",
+      "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-14",
+      "duration": 484,
+      "playerEnabled": false
     },
     {
       "slug": "tokenai-mahou-wo-ai-to-yobu",
@@ -379,9 +428,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-mahou.jpg",
+      "coverAlt": "榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット",
+      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-13",
+      "duration": 380,
+      "playerEnabled": false
     },
     {
       "slug": "muteki-jikan-ato-3byou",
@@ -394,9 +450,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-muteki.jpg",
+      "coverAlt": "榎本魅愛「無敵時間、あと3秒」公式ジャケット",
+      "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-13",
+      "duration": 232,
+      "playerEnabled": false
     },
     {
       "slug": "mia",
@@ -409,9 +472,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-mia.jpg",
+      "coverAlt": "榎本魅愛「M・I・A」公式ジャケット",
+      "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-13",
+      "duration": 328,
+      "playerEnabled": false
     },
     {
       "slug": "kimi-to-nara-last-boss-made",
@@ -424,9 +494,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-lastboss.jpg",
+      "coverAlt": "榎本魅愛「君とならラスボスまで」公式ジャケット",
+      "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-13",
+      "duration": 329,
+      "playerEnabled": false
     },
     {
       "slug": "ai-demo-wakaranai",
@@ -439,9 +516,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-ai.jpg",
+      "coverAlt": "榎本魅愛「AIでもわからない」公式ジャケット",
+      "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-13",
+      "duration": 315,
+      "playerEnabled": false
     },
     {
       "slug": "sukitte-baretemo-ii",
@@ -454,9 +538,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-sukitte-baretemo-ii.jpg",
+      "coverAlt": "榎本魅愛「好きってバレてもいい」公式ジャケット",
+      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-12",
+      "duration": 274,
+      "playerEnabled": false
     },
     {
       "slug": "mermaid-merman",
@@ -469,9 +560,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-mermaid-merman.jpg",
+      "coverAlt": "榎本魅愛「MERMAID×MERMAN」公式ジャケット",
+      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-12",
+      "duration": 340,
+      "playerEnabled": false
     },
     {
       "slug": "kimi-wa-hanabi",
@@ -484,9 +582,16 @@
       "youtubeStatus": "published",
       "shortsUrl": null,
       "shortsStatus": "unconfirmed",
-      "newsPage": null,
-      "newsStatus": "unavailable",
-      "status": "published"
+      "newsPage": "",
+      "newsStatus": "unconfirmed",
+      "status": "published",
+      "coverImage": "images/mv-hanabi.jpg",
+      "coverAlt": "榎本魅愛「君は花火」公式ジャケット",
+      "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-12",
+      "duration": 280,
+      "playerEnabled": false
     },
     {
       "slug": "hyakumankoku",
@@ -501,7 +606,14 @@
       "shortsStatus": "published",
       "newsPage": "news/hyakumankoku-release/",
       "newsStatus": "published",
-      "status": "published"
+      "status": "published",
+      "coverImage": "images/mv-hyakumankoku.jpg",
+      "coverAlt": "榎本魅愛「百万告」公式ジャケット",
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "releaseType": "single",
+      "publishedDate": "2026-07-12",
+      "duration": 295,
+      "playerEnabled": false
     }
   ]
 }

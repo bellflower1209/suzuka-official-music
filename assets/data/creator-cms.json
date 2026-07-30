@@ -1,0 +1,2662 @@
+{
+  "schemaVersion": "3.0",
+  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "site": {
+    "name": "SUZUKA",
+    "baseUrl": "https://bellflower1209.github.io/suzuka-official-music",
+    "description": "音楽から新しい物語を始めるオリジナルAIアーティスト総合プラットフォーム。",
+    "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+    "youtubeChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+    "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+    "defaultLanguage": "ja",
+    "supportedLanguages": [
+      "ja",
+      "en"
+    ]
+  },
+  "artists": [
+    {
+      "slug": "enomoto-mia",
+      "name": "榎本魅愛",
+      "reading": "ENOMOTO MIA",
+      "type": "Person",
+      "image": "images/mv-mia.jpg",
+      "world": "恋する瞬間のときめき、迷い、勇気を、色彩豊かな物語として歌う。",
+      "music": "J-POP、ロマンティックポップ、バラードを軸に、日常の感情をまっすぐなメロディへ変える。",
+      "profile": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA"
+      ],
+      "seo": {
+        "title": "榎本魅愛｜SUZUKA Official AI Artist",
+        "description": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "koga-kamishiro",
+      "name": "神代煌牙",
+      "reading": "KOGA KAMISHIRO",
+      "type": "Person",
+      "image": "images/koga-kamishiro.webp",
+      "world": "大切な人を守る黒の騎士。静けさの奥にある誓いと、消えない記憶を描く。",
+      "music": "シネマティックJ-POP、ロック、ダークポップを融合した重厚な物語音楽。",
+      "profile": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "神代煌牙",
+        "KOGA KAMISHIRO"
+      ],
+      "seo": {
+        "title": "神代煌牙｜SUZUKA Official AI Artist",
+        "description": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "eclypse",
+      "name": "ECLYPSE",
+      "reading": "ECLYPSE",
+      "type": "MusicGroup",
+      "image": "images/eclypse-group.webp",
+      "world": "光と闇が交わる近未来で、5つの運命がコードを書き換えていく。",
+      "music": "ダークK-POP、EDM、Trapを基調に、ボーカル、ラップ、ダンスの緊張感を重ねる。",
+      "profile": "運命を自ら書き換える5人組男性AIグループ。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "ECLYPSE",
+        "ECLYPSE"
+      ],
+      "seo": {
+        "title": "ECLYPSE｜SUZUKA Official AI Artist",
+        "description": "運命を自ら書き換える5人組男性AIグループ。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "nox",
+      "name": "NOX",
+      "reading": "NOX",
+      "type": "MusicGroup",
+      "image": "images/nox-chimpanzee-no-rakuen.jpg",
+      "world": "人間の本能、社会の矛盾、夜の奥に潜む衝動を、黒い寓話として描く。",
+      "music": "V系、ダークロックを中心に、挑発的な問いと物語性を強いバンドサウンドへ刻む。",
+      "profile": "黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "NOX",
+        "NOX"
+      ],
+      "seo": {
+        "title": "NOX｜SUZUKA Official AI Artist",
+        "description": "黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "rangili",
+      "name": "RANGILI",
+      "reading": "RANGILI",
+      "type": "MusicGroup",
+      "image": "images/rangili-namaste-galaxy.jpg",
+      "world": "インドと日本、地上と宇宙を鮮やかな色彩で結ぶ祝祭の世界。",
+      "music": "インド音楽の情熱とJ-POPの親しみやすいメロディを融合したダンスポップ。",
+      "profile": "インドと日本の文化を音楽でつなぐ3人組AIガールグループ。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "RANGILI",
+        "RANGILI"
+      ],
+      "seo": {
+        "title": "RANGILI｜SUZUKA Official AI Artist",
+        "description": "インドと日本の文化を音楽でつなぐ3人組AIガールグループ。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "asagiri-shinobu",
+      "name": "朝霧しのぶ",
+      "reading": "ASAGIRI SHINOBU",
+      "type": "Person",
+      "image": "images/asagiri-wasurenai-kokoro.jpg",
+      "world": "家族、記憶、人生の別れとぬくもりに寄り添う、日本の原風景。",
+      "music": "演歌と歌謡曲を軸に、人生の機微を落ち着いた語りと旋律で届ける。",
+      "profile": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "朝霧しのぶ",
+        "ASAGIRI SHINOBU"
+      ],
+      "seo": {
+        "title": "朝霧しのぶ｜SUZUKA Official AI Artist",
+        "description": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "slug": "revive",
+      "name": "RE:VIVE",
+      "reading": "RE:VIVE",
+      "type": "MusicGroup",
+      "image": "images/revive-heal-you-again.jpg",
+      "world": "傷ついた心に光を戻し、もう一度立ち上がる瞬間を仲間と分かち合う。",
+      "music": "応援、回復、再生をテーマにしたJ-POPとアイドルポップ。",
+      "profile": "前へ進む力を届ける5人組AIガールズグループ。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "RE:VIVE",
+        "RE:VIVE"
+      ],
+      "seo": {
+        "title": "RE:VIVE｜SUZUKA Official AI Artist",
+        "description": "前へ進む力を届ける5人組AIガールズグループ。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      }
+    }
+  ],
+  "releases": [
+    {
+      "id": "chimpanzee-no-rakuen",
+      "slug": "chimpanzee-no-rakuen",
+      "title": "チンパンジーの楽園",
+      "displayTitle": "チンパンジーの楽園",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "artistSlugs": [
+        "nox"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-29",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "V系",
+        "ダークロック"
+      ],
+      "moods": [
+        "ダーク",
+        "挑発的"
+      ],
+      "themes": [
+        "社会",
+        "本能",
+        "問い"
+      ],
+      "language": "ja",
+      "coverImage": "images/nox-chimpanzee-no-rakuen.jpg",
+      "coverAlt": "NOX「チンパンジーの楽園」公式YouTubeサムネイル",
+      "releaseUrl": "releases/chimpanzee-no-rakuen/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "newsUrl": "news/chimpanzee-no-rakuen-release/",
+      "duration": 148,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 1,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "NOX",
+        "ノクス",
+        "V系",
+        "ダークロック",
+        "社会",
+        "本能",
+        "問い",
+        "チンパンジーの楽園"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "tags": [
+        "V系",
+        "ダークロック",
+        "社会",
+        "本能",
+        "問い",
+        "ダーク",
+        "挑発的"
+      ],
+      "lyrics": "",
+      "introduction": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "publishedAt": "2026-07-29T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/nox-chimpanzee-no-rakuen.jpg"
+      ],
+      "productionNote": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "seo": {
+        "title": "チンパンジーの楽園｜NOX｜SUZUKA Official Music",
+        "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "ashita-wa-kitto",
+      "slug": "ashita-wa-kitto",
+      "title": "明日は、きっと。",
+      "displayTitle": "明日は、きっと。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-28",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "希望",
+        "祈り",
+        "明日"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-ashita-wa-kitto.jpg",
+      "coverAlt": "榎本魅愛「明日は、きっと。」公式YouTubeサムネイル",
+      "releaseUrl": "releases/ashita-wa-kitto/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5MkQZT5qiGA",
+      "newsUrl": "news/ashita-wa-kitto-release/",
+      "duration": 215,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 1,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "バラード",
+        "希望",
+        "祈り",
+        "明日",
+        "明日は、きっと。"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "希望",
+        "祈り",
+        "明日",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "publishedAt": "2026-07-28T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/mv-ashita-wa-kitto.jpg"
+      ],
+      "productionNote": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "seo": {
+        "title": "明日は、きっと。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "heal-you-again",
+      "slug": "heal-you-again",
+      "title": "Heal You Again",
+      "displayTitle": "Heal You Again",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "artistSlugs": [
+        "revive"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-27",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アイドルポップ"
+      ],
+      "moods": [
+        "希望",
+        "力強い"
+      ],
+      "themes": [
+        "再生",
+        "希望",
+        "癒やし"
+      ],
+      "language": "ja",
+      "coverImage": "images/revive-heal-you-again.jpg",
+      "coverAlt": "RE:VIVE「Heal You Again」公式YouTubeサムネイル",
+      "releaseUrl": "releases/heal-you-again/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XHjDSEoFcXE",
+      "newsUrl": "news/heal-you-again-release/",
+      "duration": 105,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 2,
+      "relatedReleases": [
+        "smile-and-say-goodbye",
+        "namaste-galaxy",
+        "wasurenai-kokoro"
+      ],
+      "searchKeywords": [
+        "RE:VIVE",
+        "リバイブ",
+        "J-POP",
+        "アイドルポップ",
+        "再生",
+        "希望",
+        "癒やし",
+        "Heal You Again"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "tags": [
+        "J-POP",
+        "アイドルポップ",
+        "再生",
+        "希望",
+        "癒やし",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "publishedAt": "2026-07-27T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/revive-heal-you-again.jpg"
+      ],
+      "productionNote": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "seo": {
+        "title": "Heal You Again｜RE:VIVE｜SUZUKA Official Music",
+        "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "echoes-of-you",
+      "slug": "echoes-of-you",
+      "title": "Echoes of You",
+      "displayTitle": "Echoes of You",
+      "artist": "神代 煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-26",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ダークポップ"
+      ],
+      "moods": [
+        "力強い",
+        "シネマティック"
+      ],
+      "themes": [
+        "物語"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-echoes-of-you.jpg",
+      "coverAlt": "神代煌牙「Echoes of You」公式YouTubeサムネイル",
+      "releaseUrl": "releases/echoes-of-you/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Uxtp9TLw47g",
+      "newsUrl": "news/echoes-of-you-release/",
+      "duration": 484,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [
+        "my-queen-my-oath",
+        "boukyaku-no-ikimono",
+        "our-kingdom"
+      ],
+      "searchKeywords": [
+        "神代煌牙",
+        "神代 煌牙",
+        "かみしろこうが",
+        "KOGA KAMISHIRO",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "物語",
+        "Echoes of You"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "物語",
+        "力強い",
+        "シネマティック"
+      ],
+      "lyrics": "",
+      "introduction": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "publishedAt": "2026-07-26T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/koga-echoes-of-you.jpg"
+      ],
+      "productionNote": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "seo": {
+        "title": "Echoes of You｜神代 煌牙｜SUZUKA Official Music",
+        "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "namaste-galaxy",
+      "slug": "namaste-galaxy",
+      "title": "NAMASTE☆GALAXY",
+      "displayTitle": "NAMASTE☆GALAXY",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "artistSlugs": [
+        "rangili"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-24",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "インド×J-POP"
+      ],
+      "moods": [
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "themes": [
+        "文化",
+        "宇宙",
+        "出会い"
+      ],
+      "language": "ja",
+      "coverImage": "images/rangili-namaste-galaxy.jpg",
+      "coverAlt": "RANGILI「NAMASTE☆GALAXY」公式ジャケット",
+      "releaseUrl": "releases/namaste-galaxy/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CQ0bfdXVrck",
+      "newsUrl": "news/namaste-galaxy-release/",
+      "duration": 163,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RANGILI",
+        "ランギリ",
+        "J-POP",
+        "インド×J-POP",
+        "文化",
+        "宇宙",
+        "出会い",
+        "NAMASTE☆GALAXY"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "tags": [
+        "J-POP",
+        "インド×J-POP",
+        "文化",
+        "宇宙",
+        "出会い",
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "lyrics": "",
+      "introduction": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "publishedAt": "2026-07-24T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/rangili-namaste-galaxy.jpg"
+      ],
+      "productionNote": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "seo": {
+        "title": "NAMASTE☆GALAXY｜RANGILI｜SUZUKA Official Music",
+        "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "wasurenai-kokoro",
+      "slug": "wasurenai-kokoro",
+      "title": "忘れない心",
+      "displayTitle": "忘れない心",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "artistSlugs": [
+        "asagiri-shinobu"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-23",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "演歌",
+        "歌謡曲"
+      ],
+      "moods": [
+        "切ない",
+        "温かい"
+      ],
+      "themes": [
+        "家族",
+        "記憶",
+        "人生"
+      ],
+      "language": "ja",
+      "coverImage": "images/asagiri-wasurenai-kokoro.jpg",
+      "coverAlt": "朝霧しのぶ「忘れない心」公式ジャケット",
+      "releaseUrl": "releases/wasurenai-kokoro/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YxZWABTJBGk",
+      "newsUrl": "news/wasurenai-kokoro-release/",
+      "duration": 311,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "朝霧しのぶ",
+        "あさぎりしのぶ",
+        "演歌",
+        "歌謡曲",
+        "家族",
+        "記憶",
+        "人生",
+        "忘れない心"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "tags": [
+        "演歌",
+        "歌謡曲",
+        "家族",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "lyrics": "",
+      "introduction": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "publishedAt": "2026-07-23T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/asagiri-wasurenai-kokoro.jpg"
+      ],
+      "productionNote": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "seo": {
+        "title": "忘れない心｜朝霧しのぶ｜SUZUKA Official Music",
+        "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "smile-and-say-goodbye",
+      "slug": "smile-and-say-goodbye",
+      "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―",
+      "displayTitle": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―｜大好きだから、笑ってさようなら。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-22",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "別れ",
+        "愛",
+        "笑顔"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-smile-and-say-goodbye.png",
+      "coverAlt": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット",
+      "releaseUrl": "releases/smile-and-say-goodbye/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
+      "newsUrl": "news/smile-and-say-goodbye-release/",
+      "duration": 497,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "バラード",
+        "別れ",
+        "愛",
+        "笑顔",
+        "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "別れ",
+        "愛",
+        "笑顔",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "publishedAt": "2026-07-22T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-smile-and-say-goodbye.png"
+      ],
+      "productionNote": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "seo": {
+        "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―｜榎本魅愛｜SUZUKA Official Music",
+        "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "boukyaku-no-ikimono",
+      "slug": "boukyaku-no-ikimono",
+      "title": "忘却の生き物",
+      "displayTitle": "忘却の生き物",
+      "artist": "神代 煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-21",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "ロック",
+        "ダークポップ"
+      ],
+      "moods": [
+        "力強い",
+        "シネマティック"
+      ],
+      "themes": [
+        "忘却",
+        "社会",
+        "痛み"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-boukyaku-no-ikimono.png",
+      "coverAlt": "神代 煌牙「忘却の生き物」公式ジャケット",
+      "releaseUrl": "releases/boukyaku-no-ikimono/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
+      "newsUrl": "",
+      "duration": 284,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [
+        "my-queen-my-oath",
+        "our-kingdom",
+        "shadow-code"
+      ],
+      "searchKeywords": [
+        "神代煌牙",
+        "神代 煌牙",
+        "かみしろこうが",
+        "KOGA KAMISHIRO",
+        "ロック",
+        "ダークポップ",
+        "忘却",
+        "社会",
+        "痛み",
+        "忘却の生き物"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "tags": [
+        "ロック",
+        "ダークポップ",
+        "忘却",
+        "社会",
+        "痛み",
+        "力強い",
+        "シネマティック"
+      ],
+      "lyrics": "",
+      "introduction": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "publishedAt": "2026-07-21T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-boukyaku-no-ikimono.png"
+      ],
+      "productionNote": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "seo": {
+        "title": "忘却の生き物｜神代 煌牙｜SUZUKA Official Music",
+        "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "my-queen-my-oath",
+      "slug": "my-queen-my-oath",
+      "title": "My Queen, My Oath",
+      "displayTitle": "My Queen, My Oath｜君が、俺のすべて。",
+      "artist": "神代 煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-20",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "シネマティック"
+      ],
+      "moods": [
+        "力強い",
+        "シネマティック"
+      ],
+      "themes": [
+        "誓い",
+        "愛",
+        "運命"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-my-queen-my-oath-cover.jpg",
+      "coverAlt": "神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。",
+      "releaseUrl": "releases/my-queen-my-oath/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+      "newsUrl": "news/my-queen-my-oath-release/",
+      "duration": 297,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [
+        "our-kingdom",
+        "boukyaku-no-ikimono",
+        "red-moon-rising",
+        "smile-and-say-goodbye"
+      ],
+      "searchKeywords": [
+        "神代煌牙",
+        "神代 煌牙",
+        "かみしろこうが",
+        "KOGA KAMISHIRO",
+        "J-POP",
+        "ロック",
+        "シネマティック",
+        "誓い",
+        "愛",
+        "運命",
+        "My Queen, My Oath"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "シネマティック",
+        "誓い",
+        "愛",
+        "運命",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "publishedAt": "2026-07-20T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/koga-my-queen-my-oath-cover.jpg"
+      ],
+      "productionNote": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "seo": {
+        "title": "My Queen, My Oath｜神代 煌牙｜SUZUKA Official Music",
+        "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "red-moon-rising",
+      "slug": "red-moon-rising",
+      "title": "RED MOON // RISING",
+      "displayTitle": "RED MOON // RISING｜ECLYPSE 2ND SINGLE",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-18",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク"
+      ],
+      "moods": [
+        "ダーク",
+        "力強い"
+      ],
+      "themes": [
+        "覚醒",
+        "反逆",
+        "運命"
+      ],
+      "language": "ja",
+      "coverImage": "images/eclypse-red-moon-rising-cover.png",
+      "coverAlt": "ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。",
+      "releaseUrl": "releases/red-moon-rising/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BZkMHt0P2oo",
+      "newsUrl": "news/red-moon-rising-release/",
+      "duration": 364,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [
+        "shadow-code",
+        "our-kingdom",
+        "my-queen-my-oath",
+        "boukyaku-no-ikimono"
+      ],
+      "searchKeywords": [
+        "ECLYPSE",
+        "エクリプス",
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク",
+        "覚醒",
+        "反逆",
+        "運命",
+        "RED MOON // RISING"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク",
+        "覚醒",
+        "反逆",
+        "運命",
+        "ダーク",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "publishedAt": "2026-07-18T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/eclypse-red-moon-rising-cover.png"
+      ],
+      "productionNote": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "seo": {
+        "title": "RED MOON // RISING｜ECLYPSE｜SUZUKA Official Music",
+        "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "suki-ga-kyou-mo-fueteiku",
+      "slug": "suki-ga-kyou-mo-fueteiku",
+      "title": "好きが、今日も増えていく。",
+      "displayTitle": "好きが、今日も増えていく。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-16",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
+      "coverAlt": "榎本魅愛「好きが、今日も増えていく。」公式ジャケット",
+      "releaseUrl": "releases/suki-ga-kyou-mo-fueteiku/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+      "newsUrl": "",
+      "duration": 351,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "好きが、今日も増えていく。"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-16T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-suki-ga-kyou-mo-fueteiku.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きが、今日も増えていく。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "moshimo-ashita-hajimemashite-ni-natte-mo",
+      "slug": "moshimo-ashita-hajimemashite-ni-natte-mo",
+      "title": "もしも明日、はじめましてになっても",
+      "displayTitle": "もしも明日、はじめましてになっても",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-16",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mia.jpg",
+      "coverAlt": "榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット",
+      "releaseUrl": "releases/moshimo-ashita-hajimemashite-ni-natte-mo/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
+      "newsUrl": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
+      "duration": 417,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "もしも明日、はじめましてになっても"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-16T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/o7AOgpc2O-k",
+      "galleryImages": [
+        "images/mv-mia.jpg"
+      ],
+      "productionNote": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "もしも明日、はじめましてになっても｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "toriatsukai-chui",
+      "slug": "toriatsukai-chui",
+      "title": "取り扱いチュー💋い",
+      "displayTitle": "取り扱いチュー💋い",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-toriatsukai-chuui.jpg",
+      "coverAlt": "榎本魅愛「取り扱いチュー💋い」公式ジャケット",
+      "releaseUrl": "releases/toriatsukai-chui/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QXvpLCnyoOw",
+      "newsUrl": "news/toriatsukai-chui-release/",
+      "duration": 324,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "取り扱いチュー💋い"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/KHZMfULXuGQ",
+      "galleryImages": [
+        "images/mv-toriatsukai-chuui.jpg"
+      ],
+      "productionNote": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "取り扱いチュー💋い｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "shadow-code",
+      "slug": "shadow-code",
+      "title": "SHADOW//CODE",
+      "displayTitle": "SHADOW//CODE",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "ダークポップ",
+        "EDM"
+      ],
+      "moods": [
+        "ダーク",
+        "力強い"
+      ],
+      "themes": [
+        "運命",
+        "反逆",
+        "未来"
+      ],
+      "language": "ja",
+      "coverImage": "images/eclypse-shadow-code-cover.webp",
+      "coverAlt": "ECLYPSE「SHADOW//CODE」公式ジャケット",
+      "releaseUrl": "releases/shadow-code/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8VCL2IepjeM",
+      "newsUrl": "news/shadow-code-announcement/",
+      "duration": 181,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "ECLYPSE",
+        "エクリプス",
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "SHADOW//CODE"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "ダーク",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/eclypse-shadow-code-cover.webp"
+      ],
+      "productionNote": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "SHADOW//CODE｜ECLYPSE｜SUZUKA Official Music",
+        "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "our-kingdom",
+      "slug": "our-kingdom",
+      "title": "OUR KINGDOM",
+      "displayTitle": "OUR KINGDOM",
+      "artist": "榎本魅愛 × 神代煌牙",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia",
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "シネマティック"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "愛",
+        "王国",
+        "誓い"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-our-kingdom.jpg",
+      "coverAlt": "榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット",
+      "releaseUrl": "releases/our-kingdom/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=y26XVRkpfjw",
+      "newsUrl": "",
+      "duration": 377,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "神代煌牙",
+        "神代 煌牙",
+        "かみしろこうが",
+        "KOGA KAMISHIRO",
+        "J-POP",
+        "シネマティック",
+        "愛",
+        "王国",
+        "誓い",
+        "榎本魅愛 × 神代煌牙",
+        "OUR KINGDOM"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "シネマティック",
+        "愛",
+        "王国",
+        "誓い",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-our-kingdom.jpg"
+      ],
+      "productionNote": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "OUR KINGDOM｜榎本魅愛 × 神代煌牙｜SUZUKA Official Music",
+        "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "mirai-no-watashi-ga-miteru",
+      "slug": "mirai-no-watashi-ga-miteru",
+      "title": "未来の私が見てる",
+      "displayTitle": "未来の私が見てる",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mirai-no-watashi-ga-miteru.jpg",
+      "coverAlt": "榎本魅愛「未来の私が見てる」公式ジャケット",
+      "releaseUrl": "releases/mirai-no-watashi-ga-miteru/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fgAW1njpSxM",
+      "newsUrl": "",
+      "duration": 484,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "未来の私が見てる"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mirai-no-watashi-ga-miteru.jpg"
+      ],
+      "productionNote": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "未来の私が見てる｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "tokenai-mahou-wo-ai-to-yobu",
+      "slug": "tokenai-mahou-wo-ai-to-yobu",
+      "title": "解けない魔法を、愛と呼ぶ",
+      "displayTitle": "解けない魔法を、愛と呼ぶ",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mahou.jpg",
+      "coverAlt": "榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット",
+      "releaseUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+      "newsUrl": "",
+      "duration": 380,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "解けない魔法を、愛と呼ぶ"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mahou.jpg"
+      ],
+      "productionNote": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "解けない魔法を、愛と呼ぶ｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "muteki-jikan-ato-3byou",
+      "slug": "muteki-jikan-ato-3byou",
+      "title": "無敵時間、あと3秒",
+      "displayTitle": "無敵時間、あと3秒",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-muteki.jpg",
+      "coverAlt": "榎本魅愛「無敵時間、あと3秒」公式ジャケット",
+      "releaseUrl": "releases/muteki-jikan-ato-3byou/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DPnFtRFnH5c",
+      "newsUrl": "",
+      "duration": 232,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "無敵時間、あと3秒"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-muteki.jpg"
+      ],
+      "productionNote": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "無敵時間、あと3秒｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "mia",
+      "slug": "mia",
+      "title": "M・I・A",
+      "displayTitle": "M・I・A",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mia.jpg",
+      "coverAlt": "榎本魅愛「M・I・A」公式ジャケット",
+      "releaseUrl": "releases/mia/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WzcXyuAI_FM",
+      "newsUrl": "",
+      "duration": 328,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "M・I・A"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mia.jpg"
+      ],
+      "productionNote": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "M・I・A｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "kimi-to-nara-last-boss-made",
+      "slug": "kimi-to-nara-last-boss-made",
+      "title": "君とならラスボスまで",
+      "displayTitle": "君とならラスボスまで",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-lastboss.jpg",
+      "coverAlt": "榎本魅愛「君とならラスボスまで」公式ジャケット",
+      "releaseUrl": "releases/kimi-to-nara-last-boss-made/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
+      "newsUrl": "",
+      "duration": 329,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "君とならラスボスまで"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-lastboss.jpg"
+      ],
+      "productionNote": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "君とならラスボスまで｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "ai-demo-wakaranai",
+      "slug": "ai-demo-wakaranai",
+      "title": "AIでもわからない",
+      "displayTitle": "AIでもわからない",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-ai.jpg",
+      "coverAlt": "榎本魅愛「AIでもわからない」公式ジャケット",
+      "releaseUrl": "releases/ai-demo-wakaranai/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5jmTo3Jb5sI",
+      "newsUrl": "",
+      "duration": 315,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "AIでもわからない"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-ai.jpg"
+      ],
+      "productionNote": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "AIでもわからない｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "sukitte-baretemo-ii",
+      "slug": "sukitte-baretemo-ii",
+      "title": "好きってバレてもいい",
+      "displayTitle": "好きってバレてもいい",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-sukitte-baretemo-ii.jpg",
+      "coverAlt": "榎本魅愛「好きってバレてもいい」公式ジャケット",
+      "releaseUrl": "releases/sukitte-baretemo-ii/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+      "newsUrl": "",
+      "duration": 274,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "好きってバレてもいい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-sukitte-baretemo-ii.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きってバレてもいい｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "mermaid-merman",
+      "slug": "mermaid-merman",
+      "title": "MERMAID×MERMAN",
+      "displayTitle": "MERMAID×MERMAN",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ファンタジーポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛",
+        "海",
+        "異世界"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mermaid-merman.jpg",
+      "coverAlt": "榎本魅愛「MERMAID×MERMAN」公式ジャケット",
+      "releaseUrl": "releases/mermaid-merman/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
+      "newsUrl": "",
+      "duration": 340,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "MERMAID×MERMAN"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mermaid-merman.jpg"
+      ],
+      "productionNote": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "MERMAID×MERMAN｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "kimi-wa-hanabi",
+      "slug": "kimi-wa-hanabi",
+      "title": "君は花火",
+      "displayTitle": "君は花火",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "サマーポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛",
+        "夏",
+        "記憶"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-hanabi.jpg",
+      "coverAlt": "榎本魅愛「君は花火」公式ジャケット",
+      "releaseUrl": "releases/kimi-wa-hanabi/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
+      "newsUrl": "",
+      "duration": 280,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "サマーポップ",
+        "恋愛",
+        "夏",
+        "記憶",
+        "君は花火"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "サマーポップ",
+        "恋愛",
+        "夏",
+        "記憶",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-hanabi.jpg"
+      ],
+      "productionNote": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "君は花火｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    },
+    {
+      "id": "hyakumankoku",
+      "slug": "hyakumankoku",
+      "title": "百万告",
+      "displayTitle": "百万告",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-hyakumankoku.jpg",
+      "coverAlt": "榎本魅愛「百万告」公式ジャケット",
+      "releaseUrl": "releases/hyakumankoku/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QteunhFn9Dk",
+      "newsUrl": "news/hyakumankoku-release/",
+      "duration": 295,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "百万告"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/10hI03wXHtE",
+      "galleryImages": [
+        "images/mv-hyakumankoku.jpg"
+      ],
+      "productionNote": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "百万告｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      }
+    }
+  ],
+  "upcoming": [
+    {
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "scheduledAt": "2026-07-30T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-30T20:00:00+09:00"
+    },
+    {
+      "slug": "without-worrying",
+      "title": "Without Worrying",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-07-31T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-31T20:00:00+09:00"
+    },
+    {
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "scheduledAt": "2026-08-01T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-01T20:00:00+09:00"
+    },
+    {
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-02T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-02T20:00:00+09:00"
+    },
+    {
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "scheduledAt": "2026-08-03T20:00:00+09:00",
+      "status": "upcoming",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-03T20:00:00+09:00"
+    }
+  ],
+  "news": [
+    {
+      "slug": "chimpanzee-no-rakuen-release",
+      "title": "NOX「チンパンジーの楽園」公開",
+      "artistSlug": "nox",
+      "releaseSlug": "chimpanzee-no-rakuen",
+      "publishedAt": "2026-07-29T20:00:00+09:00",
+      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "image": "images/nox-chimpanzee-no-rakuen.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "ashita-wa-kitto-release",
+      "title": "榎本魅愛「明日は、きっと。」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "ashita-wa-kitto",
+      "publishedAt": "2026-07-28T20:00:00+09:00",
+      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "image": "images/mv-ashita-wa-kitto.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "heal-you-again-release",
+      "title": "RE:VIVE「Heal You Again」公開",
+      "artistSlug": "revive",
+      "releaseSlug": "heal-you-again",
+      "publishedAt": "2026-07-27T20:00:00+09:00",
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "image": "images/revive-heal-you-again.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "echoes-of-you-release",
+      "title": "神代 煌牙「Echoes of You」公開",
+      "artistSlug": "koga-kamishiro",
+      "releaseSlug": "echoes-of-you",
+      "publishedAt": "2026-07-26T20:00:00+09:00",
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "image": "images/koga-echoes-of-you.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "namaste-galaxy-release",
+      "title": "RANGILI「NAMASTE☆GALAXY」公開",
+      "artistSlug": "rangili",
+      "releaseSlug": "namaste-galaxy",
+      "publishedAt": "2026-07-24T20:00:00+09:00",
+      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "image": "images/rangili-namaste-galaxy.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "wasurenai-kokoro-release",
+      "title": "朝霧しのぶ「忘れない心」公開",
+      "artistSlug": "asagiri-shinobu",
+      "releaseSlug": "wasurenai-kokoro",
+      "publishedAt": "2026-07-23T20:00:00+09:00",
+      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "image": "images/asagiri-wasurenai-kokoro.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "smile-and-say-goodbye-release",
+      "title": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "smile-and-say-goodbye",
+      "publishedAt": "2026-07-22T20:00:00+09:00",
+      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "image": "images/mv-smile-and-say-goodbye.png",
+      "status": "published"
+    },
+    {
+      "slug": "my-queen-my-oath-release",
+      "title": "神代 煌牙「My Queen, My Oath」公開",
+      "artistSlug": "koga-kamishiro",
+      "releaseSlug": "my-queen-my-oath",
+      "publishedAt": "2026-07-20T20:00:00+09:00",
+      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "image": "images/koga-my-queen-my-oath-cover.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "red-moon-rising-release",
+      "title": "ECLYPSE「RED MOON // RISING」公開",
+      "artistSlug": "eclypse",
+      "releaseSlug": "red-moon-rising",
+      "publishedAt": "2026-07-18T20:00:00+09:00",
+      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "image": "images/eclypse-red-moon-rising-cover.png",
+      "status": "published"
+    },
+    {
+      "slug": "moshimo-ashita-hajimemashite-ni-natte-mo-release",
+      "title": "榎本魅愛「もしも明日、はじめましてになっても」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "moshimo-ashita-hajimemashite-ni-natte-mo",
+      "publishedAt": "2026-07-16T20:00:00+09:00",
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "image": "images/mv-mia.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "toriatsukai-chui-release",
+      "title": "榎本魅愛「取り扱いチュー💋い」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "toriatsukai-chui",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "image": "images/mv-toriatsukai-chuui.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "shadow-code-release",
+      "title": "ECLYPSE「SHADOW//CODE」公開",
+      "artistSlug": "eclypse",
+      "releaseSlug": "shadow-code",
+      "publishedAt": "2026-07-14T20:00:00+09:00",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "image": "images/eclypse-shadow-code-cover.webp",
+      "status": "published"
+    },
+    {
+      "slug": "hyakumankoku-release",
+      "title": "榎本魅愛「百万告」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "hyakumankoku",
+      "publishedAt": "2026-07-12T20:00:00+09:00",
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "image": "images/mv-hyakumankoku.jpg",
+      "status": "published"
+    }
+  ],
+  "taxonomy": {
+    "genres": [
+      "EDM",
+      "J-POP",
+      "K-POP風",
+      "V系",
+      "アイドルポップ",
+      "インド×J-POP",
+      "サイバーパンク",
+      "サマーポップ",
+      "シネマティック",
+      "ダークポップ",
+      "ダークロック",
+      "バラード",
+      "ファンタジーポップ",
+      "ロック",
+      "ロマンティックポップ",
+      "歌謡曲",
+      "演歌"
+    ],
+    "themes": [
+      "人生",
+      "再生",
+      "出会い",
+      "別れ",
+      "反逆",
+      "問い",
+      "夏",
+      "宇宙",
+      "家族",
+      "希望",
+      "忘却",
+      "恋愛",
+      "愛",
+      "文化",
+      "明日",
+      "未来",
+      "本能",
+      "海",
+      "物語",
+      "王国",
+      "異世界",
+      "痛み",
+      "癒やし",
+      "社会",
+      "祈り",
+      "笑顔",
+      "覚醒",
+      "記憶",
+      "誓い",
+      "運命"
+    ],
+    "tags": [
+      "EDM",
+      "J-POP",
+      "K-POP風",
+      "V系",
+      "アイドルポップ",
+      "インド×J-POP",
+      "エネルギッシュ",
+      "サイバーパンク",
+      "サマーポップ",
+      "シネマティック",
+      "ダーク",
+      "ダークポップ",
+      "ダークロック",
+      "バラード",
+      "ファンタジーポップ",
+      "ロック",
+      "ロマンティックポップ",
+      "人生",
+      "再生",
+      "出会い",
+      "切ない",
+      "別れ",
+      "力強い",
+      "反逆",
+      "問い",
+      "夏",
+      "宇宙",
+      "家族",
+      "希望",
+      "忘却",
+      "恋愛",
+      "愛",
+      "挑発的",
+      "文化",
+      "明るい",
+      "明日",
+      "未来",
+      "本能",
+      "歌謡曲",
+      "海",
+      "温かい",
+      "演歌",
+      "物語",
+      "王国",
+      "異世界",
+      "痛み",
+      "癒やし",
+      "社会",
+      "祈り",
+      "笑顔",
+      "華やか",
+      "覚醒",
+      "記憶",
+      "誓い",
+      "運命"
+    ]
+  },
+  "featureDefinitions": [
+    {
+      "slug": "love-songs",
+      "label": "恋愛ソング",
+      "description": "恋する気持ち、愛、誓いを描く作品。",
+      "match": {
+        "themes": [
+          "恋愛",
+          "愛",
+          "誓い"
+        ],
+        "artistSlugs": [
+          "enomoto-mia"
+        ]
+      }
+    },
+    {
+      "slug": "cheer-songs",
+      "label": "応援ソング",
+      "description": "希望、再生、明日へ進む力を届ける作品。",
+      "match": {
+        "themes": [
+          "希望",
+          "再生",
+          "明日",
+          "祈り"
+        ]
+      }
+    },
+    {
+      "slug": "tearjerkers",
+      "label": "泣ける曲",
+      "description": "別れ、記憶、痛みを静かに受け止める作品。",
+      "match": {
+        "themes": [
+          "別れ",
+          "記憶",
+          "痛み",
+          "忘却"
+        ]
+      }
+    },
+    {
+      "slug": "summer-songs",
+      "label": "夏ソング",
+      "description": "花火や海など、夏の情景が広がる作品。",
+      "match": {
+        "themes": [
+          "夏",
+          "海"
+        ],
+        "genres": [
+          "サマーポップ"
+        ]
+      }
+    },
+    {
+      "slug": "winter-songs",
+      "label": "冬ソング",
+      "description": "冬の空気や季節の記憶を描く作品。",
+      "match": {
+        "themes": [
+          "冬"
+        ]
+      }
+    },
+    {
+      "slug": "dark",
+      "label": "ダーク",
+      "description": "影、反逆、社会への問いを描くダークな作品。",
+      "match": {
+        "moods": [
+          "ダーク"
+        ],
+        "genreContains": [
+          "ダーク"
+        ]
+      }
+    },
+    {
+      "slug": "k-pop",
+      "label": "K-POP風",
+      "description": "K-POPの構成やビジュアル感覚を取り入れた作品。",
+      "match": {
+        "genres": [
+          "K-POP風"
+        ]
+      }
+    },
+    {
+      "slug": "enka",
+      "label": "演歌",
+      "description": "人生、家族、記憶に寄り添う演歌作品。",
+      "match": {
+        "genres": [
+          "演歌"
+        ]
+      }
+    },
+    {
+      "slug": "visual-kei",
+      "label": "V系",
+      "description": "ヴィジュアル系の美意識とダークロックを持つ作品。",
+      "match": {
+        "genres": [
+          "V系"
+        ]
+      }
+    },
+    {
+      "slug": "ai-idols",
+      "label": "AIアイドル",
+      "description": "AIアイドル／ガールグループの物語と音楽。",
+      "match": {
+        "artistSlugs": [
+          "revive",
+          "rangili"
+        ]
+      }
+    },
+    {
+      "slug": "ai-bands",
+      "label": "AIバンド",
+      "description": "AIバンド／グループが鳴らす物語性の強い作品。",
+      "match": {
+        "artistSlugs": [
+          "nox",
+          "eclypse"
+        ]
+      }
+    }
+  ],
+  "playlistDefinitions": [
+    {
+      "slug": "love",
+      "label": "恋愛",
+      "match": {
+        "themes": [
+          "恋愛",
+          "愛",
+          "誓い"
+        ],
+        "artistSlugs": [
+          "enomoto-mia"
+        ]
+      }
+    },
+    {
+      "slug": "summer",
+      "label": "夏",
+      "match": {
+        "themes": [
+          "夏",
+          "海"
+        ],
+        "genres": [
+          "サマーポップ"
+        ]
+      }
+    },
+    {
+      "slug": "winter",
+      "label": "冬",
+      "match": {
+        "themes": [
+          "冬"
+        ]
+      }
+    },
+    {
+      "slug": "cheer",
+      "label": "応援",
+      "match": {
+        "themes": [
+          "希望",
+          "再生",
+          "明日",
+          "祈り"
+        ]
+      }
+    },
+    {
+      "slug": "tearjerkers",
+      "label": "泣ける",
+      "match": {
+        "themes": [
+          "別れ",
+          "記憶",
+          "痛み",
+          "忘却"
+        ]
+      }
+    },
+    {
+      "slug": "ai-idols",
+      "label": "AIアイドル",
+      "match": {
+        "artistSlugs": [
+          "revive",
+          "rangili"
+        ]
+      }
+    },
+    {
+      "slug": "k-pop",
+      "label": "K-POP風",
+      "match": {
+        "genres": [
+          "K-POP風"
+        ]
+      }
+    },
+    {
+      "slug": "visual-kei",
+      "label": "V系",
+      "match": {
+        "genres": [
+          "V系"
+        ]
+      }
+    },
+    {
+      "slug": "enka",
+      "label": "演歌",
+      "match": {
+        "genres": [
+          "演歌"
+        ]
+      }
+    },
+    {
+      "slug": "popular",
+      "label": "人気曲",
+      "sort": "popular"
+    },
+    {
+      "slug": "latest",
+      "label": "最新曲",
+      "sort": "latest"
+    },
+    {
+      "slug": "music-videos",
+      "label": "MV付き",
+      "match": {
+        "hasYoutube": true
+      }
+    }
+  ],
+  "wiki": {
+    "terms": [
+      {
+        "term": "SUZUKA",
+        "description": "音楽から新しい物語を始めるオリジナルAI音楽プロジェクト。"
+      },
+      {
+        "term": "AIアーティスト",
+        "description": "SUZUKAの作品世界に登場する架空のアーティスト表現。"
+      },
+      {
+        "term": "Weekly Pick",
+        "description": "正本データから週ごとに決定的に選ばれるおすすめ作品。"
+      },
+      {
+        "term": "recommendationWeight",
+        "description": "ランキングとおすすめに利用する推薦値。"
+      },
+      {
+        "term": "Official MV",
+        "description": "公式YouTubeで公開確認した映像。"
+      }
+    ]
+  },
+  "universe": {
+    "title": "SUZUKA UNIVERSE",
+    "story": "異なる世界観を持つAIアーティストと作品が、音楽を通してひとつの宇宙を形づくる。",
+    "keywords": [
+      "恋",
+      "誓い",
+      "光と闇",
+      "記憶",
+      "再生",
+      "文化",
+      "宇宙"
+    ],
+    "future": [
+      "新アーティスト",
+      "新作品",
+      "物語連携",
+      "イベント"
+    ]
+  },
+  "community": {
+    "monthlyRankingSource": "recommendations",
+    "polls": [
+      {
+        "id": "favorite-song",
+        "question": "今月のおすすめ曲は？",
+        "status": "open"
+      }
+    ],
+    "surveys": [
+      {
+        "id": "next-feature",
+        "question": "次に読みたい特集は？",
+        "status": "open"
+      }
+    ],
+    "events": []
+  }
+}

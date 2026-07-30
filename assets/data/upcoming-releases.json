@@ -10,7 +10,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
       "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-30T20:00:00+09:00"
     },
     {
       "slug": "without-worrying",
@@ -21,7 +26,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
       "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-07-31T20:00:00+09:00"
     },
     {
       "slug": "lost-signal",
@@ -32,7 +42,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
       "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-01T20:00:00+09:00"
     },
     {
       "slug": "one-more-kiss",
@@ -43,7 +58,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
       "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-02T20:00:00+09:00"
     },
     {
       "slug": "zennin-saiban",
@@ -54,7 +74,12 @@
       "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
       "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。"
+      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "publishedAt": "2026-08-03T20:00:00+09:00"
     }
   ]
 }

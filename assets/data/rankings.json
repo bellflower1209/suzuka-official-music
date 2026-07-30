@@ -17,6 +17,21 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo"
       ]
     },
+    "latest": {
+      "label": "新着作品TOP10",
+      "items": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising"
+      ]
+    },
     "love": {
       "label": "恋愛ソングTOP10",
       "items": [
@@ -30,6 +45,20 @@
         "tokenai-mahou-wo-ai-to-yobu",
         "muteki-jikan-ato-3byou",
         "mia"
+      ]
+    },
+    "summer": {
+      "label": "夏ソングTOP10",
+      "items": [
+        "mermaid-merman",
+        "kimi-wa-hanabi"
+      ]
+    },
+    "cheer": {
+      "label": "応援ソングTOP10",
+      "items": [
+        "ashita-wa-kitto",
+        "heal-you-again"
       ]
     },
     "mv": {
@@ -48,21 +77,6 @@
       ],
       "fallback": "再生数未登録時はrecommendationWeightを使用"
     },
-    "latest": {
-      "label": "最新作品ランキング",
-      "items": [
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising"
-      ]
-    },
     "artists": {
       "label": "アーティストランキング",
       "items": [
@@ -73,6 +87,28 @@
         "revive",
         "rangili",
         "nox"
+      ]
+    },
+    "genres": {
+      "label": "ジャンルランキング",
+      "items": [
+        "J-POP",
+        "ロマンティックポップ",
+        "ダークポップ",
+        "ロック",
+        "バラード",
+        "シネマティック",
+        "K-POP風",
+        "V系",
+        "ダークロック",
+        "アイドルポップ",
+        "インド×J-POP",
+        "演歌",
+        "歌謡曲",
+        "サイバーパンク",
+        "EDM",
+        "ファンタジーポップ",
+        "サマーポップ"
       ]
     },
     "trending": {

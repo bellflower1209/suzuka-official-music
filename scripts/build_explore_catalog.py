@@ -123,6 +123,13 @@ def shell(route: str, title: str, description: str, h1: str, body: str, schema: 
 
 
 def catalog(root: Path) -> dict:
+    cms_path = root / "assets/data/creator-cms.json"
+    if cms_path.exists():
+        cms = json.loads(cms_path.read_text(encoding="utf-8"))
+        items = [dict(item) for item in cms["releases"] if item.get("status") == "published"]
+        items.sort(key=lambda x: (x["releaseDate"], x["slug"]), reverse=True)
+        upcoming = [dict(item) for item in cms.get("upcoming", []) if item.get("status") == "upcoming"]
+        return {"updatedAt": cms["updatedAt"], "releases": items, "upcoming": upcoming}
     source = json.loads((root / "assets/data/release-links.json").read_text(encoding="utf-8"))
     records = {item["slug"]: item for item in source["releases"]}
     for item in NEW:
@@ -160,9 +167,9 @@ def catalog(root: Path) -> dict:
 
 
 def search_page(data: dict) -> str:
-    desc = "SUZUKAの公開作品を、曲名・アーティスト・ジャンル・テーマから検索できます。"
+    desc = "SUZUKAの公開作品を、曲名・アーティスト・ジャンル・テーマ・タグ・歌詞・年代・作品タイプからAI補完検索できます。"
     schema = {"@context":"https://schema.org","@graph":[{"@type":"WebPage","url":f"{BASE}/search/","name":"楽曲検索｜SUZUKA Official Music","description":desc},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"楽曲検索","item":f"{BASE}/search/"}]}]}
-    body = '<section class="explore-shell"><form class="explore-toolbar" data-search-form role="search"><div class="explore-field"><label for="song-search">曲名・キーワード</label><input id="song-search" name="q" type="search" autocomplete="off" placeholder="恋、榎本魅愛、ECLYPSE…"/></div><div class="explore-field"><label for="artist-filter">アーティスト</label><select id="artist-filter" name="artist"><option value="">すべて</option></select></div><div class="explore-field"><label for="genre-filter">ジャンル</label><select id="genre-filter" name="genre"><option value="">すべて</option></select></div><div class="explore-field"><label for="sort-filter">並び順</label><select id="sort-filter" name="sort"><option value="newest">新しい順</option><option value="oldest">古い順</option><option value="title">曲名順</option></select></div><button class="explore-clear" type="reset">条件をクリア</button></form><p class="explore-count" aria-live="polite">検索結果 <strong data-search-count>0</strong>件</p><div class="explore-grid" data-search-results></div><p class="explore-empty" data-search-empty hidden>条件に一致する楽曲がありません。検索語やジャンルを変更してください。</p></section>'
+    body = '<section class="explore-shell"><form class="explore-toolbar" data-search-form role="search"><div class="explore-field"><label for="song-search">曲名・キーワード（AI補完）</label><input id="song-search" name="q" type="search" autocomplete="off" placeholder="恋、榎本魅愛、ECLYPSE…"/></div><div class="explore-field"><label for="artist-filter">アーティスト</label><select id="artist-filter" name="artist"><option value="">すべて</option></select></div><div class="explore-field"><label for="genre-filter">ジャンル</label><select id="genre-filter" name="genre"><option value="">すべて</option></select></div><div class="explore-field"><label for="theme-filter">テーマ</label><select id="theme-filter" name="theme"><option value="">すべて</option></select></div><div class="explore-field"><label for="year-filter">公開年</label><select id="year-filter" name="year"><option value="">すべて</option></select></div><div class="explore-field"><label for="type-filter">作品タイプ</label><select id="type-filter" name="type"><option value="">すべて</option></select></div><div class="explore-field"><label for="sort-filter">並び順</label><select id="sort-filter" name="sort"><option value="newest">新しい順</option><option value="oldest">古い順</option><option value="title">曲名順</option></select></div><button class="explore-clear" type="reset">条件をクリア</button></form><p class="explore-count" aria-live="polite">検索結果 <strong data-search-count>0</strong>件</p><div class="explore-grid" data-search-results></div><p class="explore-empty" data-search-empty hidden>条件に一致する楽曲がありません。検索語やジャンルを変更してください。</p></section>'
     return shell("search/", "楽曲検索｜SUZUKA Official Music", desc, "SEARCH", body, schema, True)
 
 
@@ -354,16 +361,34 @@ def main() -> None:
     data = catalog(ROOT)
     write(ROOT / "assets/data/releases-catalog.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     release_links = json.loads((ROOT / "assets/data/release-links.json").read_text(encoding="utf-8"))
-    by_slug = {x["slug"]: x for x in release_links["releases"]}
-    for item in NEW:
-        by_slug[item["slug"]] = {**item, "status":"published", "releaseType":"single", "publishedDate":DATES[item["slug"]][0], "duration":DATES[item["slug"]][1], "releasePage":f'releases/{item["slug"]}/', "playerEnabled":False, "youtubeStatus":"published", "newsStatus":"published"}
-    for item in by_slug.values():
-        item["status"] = "published"
-        item["youtubeStatus"] = "published"
-        item.setdefault("newsStatus", "published" if item.get("newsPage") or item.get("newsUrl") else "unconfirmed")
-        item.setdefault("shortsStatus", "unconfirmed")
-    release_links["updatedAt"] = "2026-07-30"
-    release_links["releases"] = [by_slug[x["slug"]] for x in data["releases"]]
+    existing = {x["slug"]: x for x in release_links["releases"]}
+    generated_links = []
+    for item in data["releases"]:
+        previous = existing.get(item["slug"], {})
+        generated_links.append({
+            **previous,
+            "slug": item["slug"],
+            "title": item["title"],
+            "artist": item["artist"],
+            "artistSlug": item["artistSlug"],
+            "coverImage": item["coverImage"],
+            "coverAlt": item["coverAlt"],
+            "youtubeUrl": item["youtubeUrl"],
+            "shortsUrl": item.get("shortsUrl", previous.get("shortsUrl", "")),
+            "newsPage": item.get("newsUrl", ""),
+            "description": item["description"],
+            "status": "published",
+            "releaseType": item.get("releaseType", "single"),
+            "publishedDate": item["releaseDate"],
+            "duration": item.get("duration", 0),
+            "releasePage": item["releaseUrl"],
+            "playerEnabled": previous.get("playerEnabled", False),
+            "youtubeStatus": "published",
+            "newsStatus": "published" if item.get("newsUrl") else "unconfirmed",
+            "shortsStatus": "published" if item.get("shortsUrl") else "unconfirmed",
+        })
+    release_links["updatedAt"] = data["updatedAt"][:10]
+    release_links["releases"] = generated_links
     write(ROOT / "assets/data/release-links.json", json.dumps(release_links, ensure_ascii=False, indent=2) + "\n")
     write(ROOT / "assets/data/upcoming-releases.json", json.dumps({"updatedAt":"2026-07-30T00:00:00+09:00","releases":data["upcoming"]}, ensure_ascii=False, indent=2) + "\n")
     write(ROOT / "search/index.html", search_page(data))
@@ -403,6 +428,16 @@ def main() -> None:
     inject_shared(ROOT, data)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_explorer_update.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_creator_platform.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("validate_sitemap.py")), "--root", str(ROOT), "--write"],
         cwd=ROOT,
         check=True,
     )

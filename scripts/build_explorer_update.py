@@ -146,7 +146,8 @@ def header(p: str) -> str:
     primary = (
         ("Home", ""), ("Artists", "artists/"), ("Releases", "releases/"), ("Search", "search/"),
         ("Ranking", "rankings/"), ("Features", "features/"), ("Gallery", "gallery/"),
-        ("Universe", "universe/"), ("Wiki", "wiki/"), ("Social", "social/"),
+        ("Universe", "universe/"), ("Wiki", "wiki/"), ("Playlists", "playlists/"),
+        ("Community", "community/"), ("Social", "social/"),
     )
     links = "".join(f'<a href="{p}{path}">{label}</a>' for label, path in primary)
     return (
@@ -168,6 +169,7 @@ def footer(p: str) -> str:
         '<nav class="site-footer-nav" aria-label="フッターナビゲーション">'
         f'<a href="{p}rankings/">Ranking</a><a href="{p}features/">Features</a>'
         f'<a href="{p}gallery/">Gallery</a><a href="{p}universe/">Universe</a><a href="{p}wiki/">Wiki</a>'
+        f'<a href="{p}playlists/">Playlists</a><a href="{p}community/">Community</a>'
         f'<a href="{p}search/">Search</a><a href="{p}genres/">Genres</a>'
         f'<a href="{p}discography/">Discography</a><a href="{p}social/">Social</a></nav>'
         '<p class="ai-footer-disclosure">SUZUKAに登場するアーティスト・人物は架空です。'
@@ -217,6 +219,7 @@ def shell(
         f'<link rel="stylesheet" href="{p}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{p}assets/explore.css"/>'
         f'<link rel="stylesheet" href="{p}assets/explorer-update.css"/>'
+        f'<link rel="stylesheet" href="{p}assets/creator-platform.css"/>'
         f'<link rel="stylesheet" href="{p}assets/player.css"/>'
         f'<link rel="stylesheet" href="{p}assets/ai-disclosure.css"/>'
         f'<script type="application/ld+json">{dump(graph)}</script></head><body><main>'
@@ -265,6 +268,25 @@ def load_rank_source(root: Path) -> dict[str, dict[str, int]]:
     return result
 
 
+def matches_rule(item: dict, rule: dict) -> bool:
+    checks = []
+    for field, item_field in (("genres", "genres"), ("themes", "themes"), ("moods", "moods"), ("tags", "tags")):
+        values = rule.get(field, [])
+        if values:
+            checks.append(bool(set(values) & set(item.get(item_field, []))))
+    if rule.get("genreContains"):
+        checks.append(any(
+            needle in genre
+            for needle in rule["genreContains"]
+            for genre in item.get("genres", [])
+        ))
+    if rule.get("artistSlugs"):
+        checks.append(bool(set(rule["artistSlugs"]) & set(item.get("artistSlugs", [item.get("artistSlug")]))))
+    if rule.get("hasYoutube"):
+        checks.append(bool(item.get("youtubeUrl")))
+    return any(checks) if checks else True
+
+
 def build_rankings(root: Path, releases: list[dict]) -> dict:
     source = load_rank_source(root)
     newest = {item["slug"]: len(releases) - index for index, item in enumerate(releases)}
@@ -281,6 +303,8 @@ def build_rankings(root: Path, releases: list[dict]) -> dict:
     love = sorted(love, key=lambda x: (score(x, "popularity"), x["releaseDate"]), reverse=True)[:10]
     mv = sorted(releases, key=lambda x: (score(x, "mvViews"), x["releaseDate"]), reverse=True)[:10]
     latest = releases[:10]
+    summer = [x for x in releases if matches_rule(x, {"themes": ["夏", "海"], "genres": ["サマーポップ"]})][:10]
+    cheer = [x for x in releases if matches_rule(x, {"themes": ["希望", "再生", "明日", "祈り"]})][:10]
     artist_counts = Counter(slug for item in releases for slug in item["artistSlugs"])
     artists = sorted(
         (
@@ -291,12 +315,16 @@ def build_rankings(root: Path, releases: list[dict]) -> dict:
         reverse=True,
     )
     trending = sorted(releases, key=lambda x: (score(x, "trend"), x["releaseDate"]), reverse=True)[:10]
+    genre_counts = Counter(genre for item in releases for genre in item["genres"])
     rankings = {
         "popular": {"label": "人気作品TOP10", "items": [x["slug"] for x in popular]},
+        "latest": {"label": "新着作品TOP10", "items": [x["slug"] for x in latest]},
         "love": {"label": "恋愛ソングTOP10", "items": [x["slug"] for x in love]},
+        "summer": {"label": "夏ソングTOP10", "items": [x["slug"] for x in summer]},
+        "cheer": {"label": "応援ソングTOP10", "items": [x["slug"] for x in cheer]},
         "mv": {"label": "MV再生数順", "items": [x["slug"] for x in mv], "fallback": "再生数未登録時はrecommendationWeightを使用"},
-        "latest": {"label": "最新作品ランキング", "items": [x["slug"] for x in latest]},
         "artists": {"label": "アーティストランキング", "items": [x["slug"] for x in artists]},
+        "genres": {"label": "ジャンルランキング", "items": [name for name, _ in genre_counts.most_common()]},
         "trending": {"label": "人気急上昇", "items": [x["slug"] for x in trending]},
     }
     payload = {"updatedAt": UPDATED_AT, "source": "ranking-source.json / ranking-source.csv", "rankings": rankings}
@@ -321,6 +349,16 @@ def rankings_page(root: Path, releases: list[dict], payload: dict) -> None:
                     f'<a href="../artists/{slug}/">プロフィール ↗</a></div></article>'
                 )
             content = "".join(artist_cards)
+        elif key == "genres":
+            genre_cards = []
+            for position, genre in enumerate(ranking["items"], 1):
+                count = sum(genre in item["genres"] for item in releases)
+                genre_cards.append(
+                    f'<article class="explorer-artist-rank"><strong>{position:02d}</strong>'
+                    f'<div><h3>{html.escape(genre)}</h3><p>公開作品 {count}件</p>'
+                    f'<a href="../search/?genre={html.escape(genre)}">作品を見る ↗</a></div></article>'
+                )
+            content = "".join(genre_cards)
         else:
             items = [by_slug[slug] for slug in ranking["items"]]
             content = "".join(card(item, "../", i) for i, item in enumerate(items, 1))
@@ -854,17 +892,35 @@ def javascript() -> str:
 
 
 def main() -> None:
+    global ARTISTS, FEATURES
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     root = args.root.resolve()
     catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
     releases = [item for item in catalog["releases"] if item["status"] == "published"]
+    cms_path = root / "assets/data/creator-cms.json"
+    if cms_path.exists():
+        cms = json.loads(cms_path.read_text(encoding="utf-8"))
+        ARTISTS = {
+            item["slug"]: {
+                "name": item["name"], "reading": item["reading"], "type": item["type"],
+                "image": item["image"], "world": item["world"], "music": item["music"],
+                "profile": item["profile"],
+            }
+            for item in cms["artists"] if item.get("status") == "published"
+        }
+        FEATURES = {
+            item["slug"]: (
+                item["label"],
+                item["description"],
+                (lambda rule: lambda release: matches_rule(release, rule))(item.get("match", {})),
+            )
+            for item in cms.get("featureDefinitions", [])
+        }
     release_links = json.loads((root / "assets/data/release-links.json").read_text(encoding="utf-8"))
-    if len(releases) != 25:
-        raise RuntimeError(f"Explorer Update expects 25 published releases, found {len(releases)}")
-    if len(ARTISTS) != 7:
-        raise RuntimeError(f"Explorer Update expects 7 artists, found {len(ARTISTS)}")
+    if not releases or not ARTISTS:
+        raise RuntimeError("Explorer Update requires at least one published release and artist")
     write(root / "assets/explorer-update.css", css())
     write(root / "assets/explorer-update.js", javascript())
     rankings = build_rankings(root, releases)

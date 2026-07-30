@@ -1,0 +1,269 @@
+{
+  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "playlists": [
+    {
+      "slug": "love",
+      "label": "恋愛",
+      "match": {
+        "themes": [
+          "恋愛",
+          "愛",
+          "誓い"
+        ],
+        "artistSlugs": [
+          "enomoto-mia"
+        ]
+      },
+      "name": "恋愛",
+      "description": "恋愛をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi",
+        "mermaid-merman",
+        "mia",
+        "mirai-no-watashi-ga-miteru",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "muteki-jikan-ato-3byou",
+        "my-queen-my-oath",
+        "our-kingdom",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "sukitte-baretemo-ii",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "toriatsukai-chui",
+        "ashita-wa-kitto"
+      ],
+      "count": 17
+    },
+    {
+      "slug": "summer",
+      "label": "夏",
+      "match": {
+        "themes": [
+          "夏",
+          "海"
+        ],
+        "genres": [
+          "サマーポップ"
+        ]
+      },
+      "name": "夏",
+      "description": "夏をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "kimi-wa-hanabi",
+        "mermaid-merman"
+      ],
+      "count": 2
+    },
+    {
+      "slug": "winter",
+      "label": "冬",
+      "match": {
+        "themes": [
+          "冬"
+        ]
+      },
+      "name": "冬",
+      "description": "冬をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [],
+      "count": 0
+    },
+    {
+      "slug": "cheer",
+      "label": "応援",
+      "match": {
+        "themes": [
+          "希望",
+          "再生",
+          "明日",
+          "祈り"
+        ]
+      },
+      "name": "応援",
+      "description": "応援をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "heal-you-again",
+        "ashita-wa-kitto"
+      ],
+      "count": 2
+    },
+    {
+      "slug": "tearjerkers",
+      "label": "泣ける",
+      "match": {
+        "themes": [
+          "別れ",
+          "記憶",
+          "痛み",
+          "忘却"
+        ]
+      },
+      "name": "泣ける",
+      "description": "泣けるをテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "boukyaku-no-ikimono",
+        "kimi-wa-hanabi",
+        "smile-and-say-goodbye",
+        "wasurenai-kokoro"
+      ],
+      "count": 4
+    },
+    {
+      "slug": "ai-idols",
+      "label": "AIアイドル",
+      "match": {
+        "artistSlugs": [
+          "revive",
+          "rangili"
+        ]
+      },
+      "name": "AIアイドル",
+      "description": "AIアイドルをテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "heal-you-again",
+        "namaste-galaxy"
+      ],
+      "count": 2
+    },
+    {
+      "slug": "k-pop",
+      "label": "K-POP風",
+      "match": {
+        "genres": [
+          "K-POP風"
+        ]
+      },
+      "name": "K-POP風",
+      "description": "K-POP風をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "red-moon-rising",
+        "shadow-code"
+      ],
+      "count": 2
+    },
+    {
+      "slug": "visual-kei",
+      "label": "V系",
+      "match": {
+        "genres": [
+          "V系"
+        ]
+      },
+      "name": "V系",
+      "description": "V系をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "chimpanzee-no-rakuen"
+      ],
+      "count": 1
+    },
+    {
+      "slug": "enka",
+      "label": "演歌",
+      "match": {
+        "genres": [
+          "演歌"
+        ]
+      },
+      "name": "演歌",
+      "description": "演歌をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "wasurenai-kokoro"
+      ],
+      "count": 1
+    },
+    {
+      "slug": "popular",
+      "label": "人気曲",
+      "sort": "popular",
+      "name": "人気曲",
+      "description": "人気曲をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "ai-demo-wakaranai",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "heal-you-again",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi",
+        "mermaid-merman",
+        "mia",
+        "mirai-no-watashi-ga-miteru",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "muteki-jikan-ato-3byou",
+        "my-queen-my-oath",
+        "namaste-galaxy",
+        "our-kingdom",
+        "red-moon-rising",
+        "shadow-code",
+        "smile-and-say-goodbye",
+        "suki-ga-kyou-mo-fueteiku",
+        "sukitte-baretemo-ii"
+      ],
+      "count": 20
+    },
+    {
+      "slug": "latest",
+      "label": "最新曲",
+      "sort": "latest",
+      "name": "最新曲",
+      "description": "最新曲をテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "shadow-code",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "muteki-jikan-ato-3byou",
+        "mia",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "count": 20
+    },
+    {
+      "slug": "music-videos",
+      "label": "MV付き",
+      "match": {
+        "hasYoutube": true
+      },
+      "name": "MV付き",
+      "description": "MV付きをテーマに選んだSUZUKA作品。",
+      "releaseSlugs": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "shadow-code",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "muteki-jikan-ato-3byou",
+        "mia",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "count": 20
+    }
+  ]
+}
