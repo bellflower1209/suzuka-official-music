@@ -96,6 +96,10 @@ LOCAL_REQUIRED_ASSETS = {
     Path("assets/data/releases-catalog.json"),
     Path("assets/explore.css"),
     Path("assets/explore.js"),
+    Path("assets/explorer-update.css"),
+    Path("assets/explorer-update.js"),
+    Path("assets/data/ranking-source.json"),
+    Path("assets/data/rankings.json"),
     Path("images/eclypse-shadow-code-cover.webp"),
     Path("images/eclypse-red-moon-rising-cover.png"),
     Path("images/koga-kamishiro.webp"),
@@ -666,7 +670,9 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
     )
     html = html.replace("</head>", f"{styles}</head>", 1)
     html = html.replace("</body>", f'<script defer src="{prefix}assets/main.js"></script></body>', 1)
-    return enhance_html(html, output_path).strip() + "\n"
+    enhanced = enhance_html(html, output_path)
+    enhanced = re.sub(r"[ \t]+(?=\n)", "", enhanced)
+    return enhanced.strip() + "\n"
 
 
 def write_bytes(path: Path, data: bytes) -> None:

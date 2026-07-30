@@ -1,0 +1,5 @@
+{
+  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "description": "将来の人気指標を登録する正本。値が未登録の作品はrecommendationWeightと公開順を使用します。",
+  "releases": {}
+}

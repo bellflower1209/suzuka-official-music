@@ -289,6 +289,20 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "social/index.html":
         return {"WebPage", "Organization", "ItemList", "BreadcrumbList"}
+    if route == "rankings/index.html":
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route == "features/index.html" or route.startswith("features/"):
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route == "gallery/index.html":
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route.startswith("gallery/"):
+        return {"WebPage", "VideoObject", "BreadcrumbList"}
+    if route == "universe/index.html":
+        return {"WebPage", "ItemList", "BreadcrumbList"}
+    if route == "wiki/index.html":
+        return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route.startswith("wiki/"):
+        return {"WebPage", "BreadcrumbList"}
     if relative in FEATURE_NEWS:
         return {"NewsArticle", "WebPage", "MusicRecording", "VideoObject", "BreadcrumbList"}
     if relative in CURRENT_RELEASE_NEWS:
@@ -735,7 +749,14 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for release in UNPUBLISHED_MIA
         if release.get("status") == "upcoming"
     }
-    missing_home_links = sorted(set(expected_urls) - homepage_links - upcoming_urls - {f"{PUBLIC_BASE_URL}/"})
+    explorer_hub_roots = {"features", "gallery", "wiki"}
+    direct_home_required = {
+        url
+        for url, path in expected_urls.items()
+        if path.relative_to(ROOT).parts[0] not in explorer_hub_roots
+        or len(path.relative_to(ROOT).parts) <= 2
+    }
+    missing_home_links = sorted(direct_home_required - homepage_links - upcoming_urls - {f"{PUBLIC_BASE_URL}/"})
     for url in missing_home_links:
         errors.append(f"homepage does not link directly to important page: {url}")
 

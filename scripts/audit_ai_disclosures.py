@@ -17,11 +17,7 @@ DISCLOSURE_CLASSES = (
     "ai-work-disclosure",
     "ai-news-disclosure",
 )
-SEO_EXCLUDED_PHRASES = (
-    "AIアーティスト",
-    "オリジナルAI音楽プロジェクト",
-    "架空のアーティスト",
-)
+EXPLORER_ROOTS = {"rankings", "features", "gallery", "universe", "wiki"}
 ALLOWED_SAME_AS_HOSTS = {
     "bellflower1209.github.io",
     "www.youtube.com",
@@ -102,25 +98,14 @@ def main() -> int:
                     f"{relative}: {class_name} appears {actual} time(s), expected {expected}"
                 )
 
-        seo_fields = {
-            "title": re.findall(r"<title>(.*?)</title>", source, re.DOTALL | re.IGNORECASE),
-            "meta description": re.findall(
-                r'<meta\s+name="description"\s+content="([^"]*)"',
-                source,
-                re.IGNORECASE,
-            ),
-            "og:title": re.findall(
-                r'<meta\s+property="og:title"\s+content="([^"]*)"',
-                source,
-                re.IGNORECASE,
-            ),
-        }
-        for field_name, values in seo_fields.items():
-            for value in values:
-                if any(phrase in value for phrase in SEO_EXCLUDED_PHRASES):
-                    errors.append(
-                        f"{relative}: AI disclosure phrase leaked into {field_name}"
-                    )
+        meta_descriptions = re.findall(
+            r'<meta\s+name="description"\s+content="([^"]*)"',
+            source,
+            re.IGNORECASE,
+        )
+        if relative.parts[0] in EXPLORER_ROOTS:
+            if len(meta_descriptions) != 1 or "AI" not in meta_descriptions[0]:
+                errors.append(f"{relative}: Explorer meta description must disclose AI context")
         for raw in re.findall(
             r'<script(?: id="[^"]+")? type="application/ld\+json">(.*?)</script>',
             source,

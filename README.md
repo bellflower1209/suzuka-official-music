@@ -24,6 +24,9 @@
 - `assets/data/releases-catalog.json`：検索・ジャンル・年表・Weekly Pickが共通利用する公開作品の正本
 - `search/` / `genres/` / `discography/`：作品を探すための静的ページ
 - `scripts/build_explore_catalog.py`：正本データと探索ページを再生成するスクリプト
+- `scripts/build_explorer_update.py`：ランキング、特集、MVギャラリー、世界観、Wiki、アーティスト強化を正本から再生成
+- `assets/data/ranking-source.json`：将来の人気指標を登録するランキング入力正本（CSVも利用可能）
+- `rankings/` / `features/` / `gallery/` / `universe/` / `wiki/`：SUZUKA Explorer Update
 - `.nojekyll`：GitHub Pages用設定
 
 ## GitHub Pagesで公開する手順
@@ -59,6 +62,7 @@ canonical、OGP、構造化データ、見出し、画像alt、sitemap、robots�
 python3 scripts/audit_seo.py
 python3 scripts/validate_sitemap.py
 python3 scripts/audit_social_links.py
+python3 scripts/audit_explorer_update.py
 ```
 
 `sitemap.xml` はHTMLの自己参照canonicalから自動生成します。公開ページの追加・削除後は `python3 scripts/validate_sitemap.py --write` を実行してください。候補XML、重複、絶対URL、canonical、noindex、未公開ページ、robots.txtの検証に合格した場合だけ更新されます。GitHub Pagesへの公開後は `python3 scripts/validate_sitemap.py --remote` で、Googlebot User-Agentによる本番取得、Content-Type、リダイレクト、全URLのHTTP 200も確認できます。

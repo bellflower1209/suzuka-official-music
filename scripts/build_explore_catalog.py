@@ -7,6 +7,8 @@ import argparse
 import html
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -399,6 +401,11 @@ def main() -> None:
     update_directories(ROOT, data)
     update_docs(ROOT, data)
     inject_shared(ROOT, data)
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_explorer_update.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
     print(f"Generated exploration catalog with {len(data['releases'])} published releases and {len(data['upcoming'])} upcoming releases.")
 
 

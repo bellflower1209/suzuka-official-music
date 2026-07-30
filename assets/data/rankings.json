@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "source": "ranking-source.json / ranking-source.csv",
+  "rankings": {
+    "popular": {
+      "label": "人気作品TOP10",
+      "items": [
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ]
+    },
+    "love": {
+      "label": "恋愛ソングTOP10",
+      "items": [
+        "smile-and-say-goodbye",
+        "my-queen-my-oath",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "toriatsukai-chui",
+        "our-kingdom",
+        "mirai-no-watashi-ga-miteru",
+        "tokenai-mahou-wo-ai-to-yobu",
+        "muteki-jikan-ato-3byou",
+        "mia"
+      ]
+    },
+    "mv": {
+      "label": "MV再生数順",
+      "items": [
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ],
+      "fallback": "再生数未登録時はrecommendationWeightを使用"
+    },
+    "latest": {
+      "label": "最新作品ランキング",
+      "items": [
+        "chimpanzee-no-rakuen",
+        "ashita-wa-kitto",
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising"
+      ]
+    },
+    "artists": {
+      "label": "アーティストランキング",
+      "items": [
+        "enomoto-mia",
+        "koga-kamishiro",
+        "eclypse",
+        "asagiri-shinobu",
+        "revive",
+        "rangili",
+        "nox"
+      ]
+    },
+    "trending": {
+      "label": "人気急上昇",
+      "items": [
+        "heal-you-again",
+        "echoes-of-you",
+        "namaste-galaxy",
+        "wasurenai-kokoro",
+        "smile-and-say-goodbye",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath",
+        "red-moon-rising",
+        "suki-ga-kyou-mo-fueteiku",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ]
+    }
+  }
+}
