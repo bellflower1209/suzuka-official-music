@@ -2,6 +2,121 @@
   "updatedAt": "2026-07-30T19:30:00+09:00",
   "releases": [
     {
+      "id": "koisuru-maharaja",
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "displayTitle": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "artistSlugs": [
+        "rangili"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-30",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "インド×J-POP"
+      ],
+      "moods": [
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "themes": [
+        "恋愛",
+        "文化"
+      ],
+      "language": "ja",
+      "coverImage": "images/rangili-koisuru-maharaja.jpg",
+      "coverAlt": "RANGILI「恋するマハラジャ」公式YouTubeサムネイル",
+      "releaseUrl": "releases/koisuru-maharaja/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "newsUrl": "news/koisuru-maharaja-release/",
+      "duration": 377,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RANGILI",
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "恋するマハラジャ"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "lyrics": "",
+      "introduction": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-30T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/rangili-koisuru-maharaja.jpg"
+      ],
+      "productionNote": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "恋するマハラジャ｜RANGILI｜SUZUKA Official Music",
+        "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "recommendations": {
+        "sameArtist": [
+          "namaste-galaxy"
+        ],
+        "sameGenre": [
+          "namaste-galaxy",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi",
+          "mermaid-merman"
+        ],
+        "sameTheme": [
+          "namaste-galaxy",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi",
+          "mermaid-merman"
+        ],
+        "popular": [
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "heal-you-again",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "recent": [
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy",
+          "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "namaste-galaxy",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi",
+          "mermaid-merman"
+        ]
+      }
+    },
+    {
       "id": "chimpanzee-no-rakuen",
       "slug": "chimpanzee-no-rakuen",
       "title": "チンパンジーの楽園",
@@ -81,28 +196,28 @@
           "boukyaku-no-ikimono"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro",
-          "smile-and-say-goodbye"
-        ],
-        "aiRecommended": [
-          "boukyaku-no-ikimono",
+          "koisuru-maharaja",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
           "namaste-galaxy",
           "wasurenai-kokoro"
+        ],
+        "aiRecommended": [
+          "boukyaku-no-ikimono",
+          "koisuru-maharaja",
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "echoes-of-you",
+          "namaste-galaxy"
         ]
       }
     },
@@ -202,20 +317,20 @@
           "heal-you-again"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "heal-you-again",
           "echoes-of-you",
           "namaste-galaxy",
-          "wasurenai-kokoro",
-          "smile-and-say-goodbye"
+          "wasurenai-kokoro"
         ],
         "aiRecommended": [
           "smile-and-say-goodbye",
@@ -308,37 +423,37 @@
         "sameGenre": [
           "ashita-wa-kitto",
           "echoes-of-you",
+          "koisuru-maharaja",
           "namaste-galaxy",
           "smile-and-say-goodbye",
-          "my-queen-my-oath",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "my-queen-my-oath"
         ],
         "sameTheme": [
           "ashita-wa-kitto"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "echoes-of-you",
           "namaste-galaxy",
-          "wasurenai-kokoro",
-          "smile-and-say-goodbye"
+          "wasurenai-kokoro"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
           "echoes-of-you",
+          "koisuru-maharaja",
           "namaste-galaxy",
           "smile-and-say-goodbye",
-          "my-queen-my-oath",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "my-queen-my-oath"
         ]
       }
     },
@@ -429,24 +544,24 @@
           "heal-you-again",
           "namaste-galaxy",
           "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "koisuru-maharaja"
         ],
         "sameTheme": [],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "heal-you-again",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "namaste-galaxy",
-          "wasurenai-kokoro",
-          "smile-and-say-goodbye"
+          "wasurenai-kokoro"
         ],
         "aiRecommended": [
           "boukyaku-no-ikimono",
@@ -454,7 +569,7 @@
           "heal-you-again",
           "namaste-galaxy",
           "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "koisuru-maharaja"
         ]
       }
     },
@@ -532,39 +647,43 @@
         "jsonLdEnabled": true
       },
       "recommendations": {
-        "sameArtist": [],
+        "sameArtist": [
+          "koisuru-maharaja"
+        ],
         "sameGenre": [
+          "koisuru-maharaja",
           "echoes-of-you",
           "smile-and-say-goodbye",
           "heal-you-again",
           "my-queen-my-oath",
-          "ashita-wa-kitto",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "ashita-wa-kitto"
         ],
-        "sameTheme": [],
+        "sameTheme": [
+          "koisuru-maharaja"
+        ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "wasurenai-kokoro",
-          "smile-and-say-goodbye"
+          "wasurenai-kokoro"
         ],
         "aiRecommended": [
+          "koisuru-maharaja",
           "echoes-of-you",
           "smile-and-say-goodbye",
           "heal-you-again",
           "my-queen-my-oath",
-          "ashita-wa-kitto",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "ashita-wa-kitto"
         ]
       }
     },
@@ -648,20 +767,20 @@
           "kimi-wa-hanabi"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "smile-and-say-goodbye"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "kimi-wa-hanabi",
@@ -770,20 +889,20 @@
           "my-queen-my-oath"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -889,20 +1008,20 @@
           "chimpanzee-no-rakuen"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "echoes-of-you",
           "heal-you-again",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -1016,20 +1135,20 @@
           "shadow-code"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -1136,20 +1255,20 @@
           "my-queen-my-oath"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -1256,20 +1375,20 @@
           "mia"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1376,20 +1495,20 @@
           "mia"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -1496,20 +1615,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -1611,20 +1730,20 @@
           "my-queen-my-oath"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -1739,20 +1858,20 @@
           "smile-and-say-goodbye"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -1859,20 +1978,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -1979,20 +2098,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2099,20 +2218,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2219,20 +2338,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2339,20 +2458,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-wa-hanabi"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2459,20 +2578,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "koisuru-maharaja",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -2579,20 +2698,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -2705,20 +2824,20 @@
           "mia"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -2831,20 +2950,20 @@
           "mia"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "hyakumankoku"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -2951,20 +3070,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "koisuru-maharaja",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "heal-you-again",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "recent": [
+          "koisuru-maharaja",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
           "heal-you-again",
           "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "namaste-galaxy"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -2978,22 +3097,6 @@
     }
   ],
   "upcoming": [
-    {
-      "slug": "koisuru-maharaja",
-      "title": "恋するマハラジャ",
-      "artist": "RANGILI",
-      "artistSlug": "rangili",
-      "scheduledAt": "2026-07-30T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
-      "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-07-30T20:00:00+09:00"
-    },
     {
       "slug": "without-worrying",
       "title": "Without Worrying",

@@ -17,6 +17,7 @@
       "name": "恋愛",
       "description": "恋愛をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "koisuru-maharaja",
         "ai-demo-wakaranai",
         "hyakumankoku",
         "kimi-to-nara-last-boss-made",
@@ -35,7 +36,7 @@
         "toriatsukai-chui",
         "ashita-wa-kitto"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "slug": "summer",
@@ -122,10 +123,11 @@
       "name": "AIアイドル",
       "description": "AIアイドルをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "koisuru-maharaja",
         "heal-you-again",
         "namaste-galaxy"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "slug": "k-pop",
@@ -180,6 +182,7 @@
       "name": "人気曲",
       "description": "人気曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "koisuru-maharaja",
         "ai-demo-wakaranai",
         "boukyaku-no-ikimono",
         "echoes-of-you",
@@ -198,8 +201,7 @@
         "red-moon-rising",
         "shadow-code",
         "smile-and-say-goodbye",
-        "suki-ga-kyou-mo-fueteiku",
-        "sukitte-baretemo-ii"
+        "suki-ga-kyou-mo-fueteiku"
       ],
       "count": 20
     },
@@ -210,6 +212,7 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
         "heal-you-again",
@@ -228,8 +231,7 @@
         "mirai-no-watashi-ga-miteru",
         "tokenai-mahou-wo-ai-to-yobu",
         "muteki-jikan-ato-3byou",
-        "mia",
-        "kimi-to-nara-last-boss-made"
+        "mia"
       ],
       "count": 20
     },
@@ -242,6 +244,7 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
         "heal-you-again",
@@ -260,8 +263,7 @@
         "mirai-no-watashi-ga-miteru",
         "tokenai-mahou-wo-ai-to-yobu",
         "muteki-jikan-ato-3byou",
-        "mia",
-        "kimi-to-nara-last-boss-made"
+        "mia"
       ],
       "count": 20
     }

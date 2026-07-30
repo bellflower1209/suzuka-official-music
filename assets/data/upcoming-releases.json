@@ -2,22 +2,6 @@
   "updatedAt": "2026-07-30T00:00:00+09:00",
   "releases": [
     {
-      "slug": "koisuru-maharaja",
-      "title": "恋するマハラジャ",
-      "artist": "RANGILI",
-      "artistSlug": "rangili",
-      "scheduledAt": "2026-07-30T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
-      "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-07-30T20:00:00+09:00"
-    },
-    {
       "slug": "without-worrying",
       "title": "Without Worrying",
       "artist": "榎本魅愛",

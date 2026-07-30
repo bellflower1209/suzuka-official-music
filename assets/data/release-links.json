@@ -2,6 +2,27 @@
   "updatedAt": "2026-07-30",
   "releases": [
     {
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "coverImage": "images/rangili-koisuru-maharaja.jpg",
+      "coverAlt": "RANGILI「恋するマハラジャ」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "shortsUrl": "",
+      "newsPage": "news/koisuru-maharaja-release/",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "status": "published",
+      "releaseType": "single",
+      "publishedDate": "2026-07-30",
+      "duration": 377,
+      "releasePage": "releases/koisuru-maharaja/",
+      "playerEnabled": false,
+      "youtubeStatus": "published",
+      "newsStatus": "published",
+      "shortsStatus": "unconfirmed"
+    },
+    {
       "slug": "chimpanzee-no-rakuen",
       "title": "チンパンジーの楽園",
       "artist": "NOX",

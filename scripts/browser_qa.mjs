@@ -46,6 +46,7 @@ const pages = [
   "news/heal-you-again-release/", "releases/echoes-of-you/", "releases/heal-you-again/",
   "news/ashita-wa-kitto-release/", "news/chimpanzee-no-rakuen-release/",
   "releases/ashita-wa-kitto/", "releases/chimpanzee-no-rakuen/",
+  "news/koisuru-maharaja-release/", "releases/koisuru-maharaja/",
   "social/", ...explorerPages,
 ];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];

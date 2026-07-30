@@ -5,6 +5,7 @@
     "popular": {
       "label": "人気作品TOP10",
       "items": [
+        "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
@@ -13,13 +14,13 @@
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "suki-ga-kyou-mo-fueteiku"
       ]
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
         "heal-you-again",
@@ -28,13 +29,13 @@
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising"
+        "my-queen-my-oath"
       ]
     },
     "love": {
       "label": "恋愛ソングTOP10",
       "items": [
+        "koisuru-maharaja",
         "smile-and-say-goodbye",
         "my-queen-my-oath",
         "suki-ga-kyou-mo-fueteiku",
@@ -43,8 +44,7 @@
         "our-kingdom",
         "mirai-no-watashi-ga-miteru",
         "tokenai-mahou-wo-ai-to-yobu",
-        "muteki-jikan-ato-3byou",
-        "mia"
+        "muteki-jikan-ato-3byou"
       ]
     },
     "summer": {
@@ -64,6 +64,7 @@
     "mv": {
       "label": "MV再生数順",
       "items": [
+        "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
@@ -72,8 +73,7 @@
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "suki-ga-kyou-mo-fueteiku"
       ],
       "fallback": "再生数未登録時はrecommendationWeightを使用"
     },
@@ -82,10 +82,10 @@
       "items": [
         "enomoto-mia",
         "koga-kamishiro",
+        "rangili",
         "eclypse",
         "asagiri-shinobu",
         "revive",
-        "rangili",
         "nox"
       ]
     },
@@ -96,13 +96,13 @@
         "ロマンティックポップ",
         "ダークポップ",
         "ロック",
+        "インド×J-POP",
         "バラード",
         "シネマティック",
         "K-POP風",
         "V系",
         "ダークロック",
         "アイドルポップ",
-        "インド×J-POP",
         "演歌",
         "歌謡曲",
         "サイバーパンク",
@@ -114,6 +114,7 @@
     "trending": {
       "label": "人気急上昇",
       "items": [
+        "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
@@ -122,8 +123,7 @@
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "suki-ga-kyou-mo-fueteiku"
       ]
     }
   }

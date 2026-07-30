@@ -106,7 +106,8 @@ def prefix(path: Path) -> str:
 
 
 def header(p: str) -> str:
-    return f'<header class="site-header inner-site-header"><a class="brand" href="{p}">SUZUKA<span class="brand-dot">●</span></a><nav class="desktop-nav" aria-label="メインナビゲーション"><a href="{p}">Home</a><a href="{p}artists/">Artists</a><a href="{p}releases/">Releases</a><a href="{p}search/">Search</a><a href="{p}genres/">Genres</a><a href="{p}discography/">Discography</a><a href="{p}news/">News</a><a href="{p}social/">Social</a></nav><a class="header-channel" href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTube ↗</a><details class="mobile-menu"><summary>Menu</summary><nav><a href="{p}">Home</a><a href="{p}artists/">Artists</a><a href="{p}releases/">Releases</a><a href="{p}search/">楽曲を探す</a><a href="{p}genres/">ジャンル</a><a href="{p}discography/">ディスコグラフィー</a><a href="{p}news/">News</a><a href="{p}social/">Social</a></nav></details></header>'
+    nav = f'<a href="{p}">Home</a><a href="{p}artists/">Artists</a><a href="{p}releases/">Releases</a><a href="{p}search/">Search</a><a href="{p}rankings/">Ranking</a><a href="{p}features/">Features</a><a href="{p}gallery/">Gallery</a><a href="{p}universe/">Universe</a><a href="{p}wiki/">Wiki</a><a href="{p}playlists/">Playlists</a><a href="{p}community/">Community</a><a href="{p}genres/">Genres</a><a href="{p}discography/">Discography</a><a href="{p}news/">News</a><a href="{p}social/">Social</a>'
+    return f'<header class="site-header inner-site-header"><a class="brand" href="{p}">SUZUKA<span class="brand-dot">●</span></a><nav class="desktop-nav" aria-label="メインナビゲーション">{nav}</nav><a class="header-channel" href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTube ↗</a><details class="mobile-menu"><summary>Menu</summary><nav>{nav}</nav></details></header>'
 
 
 def footer(p: str) -> str:
@@ -394,6 +395,14 @@ def main() -> None:
     write(ROOT / "search/index.html", search_page(data))
     genre_pages(ROOT, data)
     write(ROOT / "discography/index.html", discography_page(data))
+    for item in data["releases"]:
+        release_path = ROOT / item["releaseUrl"] / "index.html"
+        if not release_path.exists():
+            write(release_path, release_page(item))
+        if item.get("newsUrl"):
+            news_path = ROOT / item["newsUrl"] / "index.html"
+            if not news_path.exists():
+                write(news_path, news_page(item))
     for slug in ("ashita-wa-kitto", "chimpanzee-no-rakuen"):
         item = next(x for x in data["releases"] if x["slug"] == slug)
         write(ROOT / item["releaseUrl"] / "index.html", release_page(item))

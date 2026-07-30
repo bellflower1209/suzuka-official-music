@@ -91,6 +91,7 @@ def main() -> int:
     errors: list[str] = []
 
     catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
+    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     rankings = json.loads((root / "assets/data/rankings.json").read_text(encoding="utf-8"))
     releases = catalog["releases"]
     upcoming = catalog["upcoming"]
@@ -101,12 +102,12 @@ def main() -> int:
     new_pages = sorted(path for name in NEW_ROOTS for path in (root / name).rglob("index.html"))
 
     expected = {
-        "published": 25,
-        "upcoming": 5,
-        "artists": 7,
+        "published": len(cms["releases"]),
+        "upcoming": len(cms["upcoming"]),
+        "artists": len(cms["artists"]),
         "rankings": 9,
         "features": 10,
-        "galleryWorks": 25,
+        "galleryWorks": len(cms["releases"]),
         "wikiPages": 7,
         "universePages": 1,
     }

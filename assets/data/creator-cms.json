@@ -2024,25 +2024,79 @@
         "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
         "jsonLdEnabled": true
       }
+    },
+    {
+      "id": "koisuru-maharaja",
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "displayTitle": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "artistSlugs": [
+        "rangili"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-30",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "インド×J-POP"
+      ],
+      "moods": [
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "themes": [
+        "恋愛",
+        "文化"
+      ],
+      "language": "ja",
+      "coverImage": "images/rangili-koisuru-maharaja.jpg",
+      "coverAlt": "RANGILI「恋するマハラジャ」公式YouTubeサムネイル",
+      "releaseUrl": "releases/koisuru-maharaja/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "newsUrl": "news/koisuru-maharaja-release/",
+      "duration": 377,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RANGILI",
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "恋するマハラジャ"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "lyrics": "",
+      "introduction": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-30T20:00:00+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/rangili-koisuru-maharaja.jpg"
+      ],
+      "productionNote": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "恋するマハラジャ｜RANGILI｜SUZUKA Official Music",
+        "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      }
     }
   ],
   "upcoming": [
-    {
-      "slug": "koisuru-maharaja",
-      "title": "恋するマハラジャ",
-      "artist": "RANGILI",
-      "artistSlug": "rangili",
-      "scheduledAt": "2026-07-30T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
-      "image": "https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-07-30T20:00:00+09:00"
-    },
     {
       "slug": "without-worrying",
       "title": "Without Worrying",
@@ -2237,6 +2291,16 @@
       "publishedAt": "2026-07-12T20:00:00+09:00",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
       "image": "images/mv-hyakumankoku.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "koisuru-maharaja-release",
+      "title": "RANGILI「恋するマハラジャ」公開",
+      "artistSlug": "rangili",
+      "releaseSlug": "koisuru-maharaja",
+      "publishedAt": "2026-07-30T20:00:00+09:00",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "image": "images/rangili-koisuru-maharaja.jpg",
       "status": "published"
     }
   ],
