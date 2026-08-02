@@ -7,6 +7,7 @@ const cdpPort = process.env.CDP_PORT || "9223";
 const base = (process.argv[2] || "http://127.0.0.1:8765/").replace(/\/?$/, "/");
 const releaseCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/enomoto-mia-releases.json", import.meta.url), "utf8"));
 const explorerCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/releases-catalog.json", import.meta.url), "utf8"));
+const creatorCms = JSON.parse(fs.readFileSync(new URL("../assets/data/creator-cms.json", import.meta.url), "utf8"));
 const expectedTrackCount = releaseCatalog.releases.filter(item => item.status === "published" && item.playerEnabled !== false).length;
 const explorerPages = [
   "rankings/", "features/", "features/love-songs/", "features/cheer-songs/", "features/tearjerkers/",
@@ -21,7 +22,7 @@ const explorerPages = [
   "community/", "admin/", "admin/dashboard/",
   "en/", "en/artists/", "en/releases/", "en/search/", "en/genres/", "en/discography/", "en/universe/", "en/news/",
 ];
-const pages = [
+const pages = [...new Set([
   "", "artists/", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/",
   "artists/rangili/", "artists/asagiri-shinobu/", "artists/revive/",
   "artists/nox/",
@@ -47,8 +48,10 @@ const pages = [
   "news/ashita-wa-kitto-release/", "news/chimpanzee-no-rakuen-release/",
   "releases/ashita-wa-kitto/", "releases/chimpanzee-no-rakuen/",
   "news/koisuru-maharaja-release/", "releases/koisuru-maharaja/",
+  ...explorerCatalog.releases.map(item => item.releaseUrl),
+  ...creatorCms.news.filter(item => item.status === "published").map(item => `news/${item.slug}/`),
   "social/", ...explorerPages,
-];
+])];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];
 const screenshotDir = process.env.QA_SCREENSHOT_DIR;
 if (screenshotDir) fs.mkdirSync(screenshotDir, {recursive:true});
@@ -94,7 +97,8 @@ async function waitForPageReady(expectedUrl) {
 }
 await send("Runtime.enable"); await send("Network.enable"); await send("Network.clearBrowserCache"); await send("Page.enable");
 const results = [];
-for (const size of sizes) {
+const quickEventsOnly = process.env.QA_QUICK_EVENTS === "1";
+if (!quickEventsOnly) for (const size of sizes) {
   for (const route of pages) {
     if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "rankings/", "features/", "features/love-songs/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
     const before = problems.length;
@@ -152,6 +156,12 @@ await analyticsClick("releases/koisuru-maharaja/", "a[href*='youtube.com/watch']
 await analyticsClick("releases/koisuru-maharaja/", "a[href='../../artists/rangili/']", ["artist_click"]);
 await analyticsClick("artists/rangili/", "a[href*='instagram.com']", ["instagram_click"]);
 await analyticsClick("playlists/", ".creator-link-card a[href='./love/']", ["playlist_click"]);
+await analyticsClick("", ".explorer-news-link", ["news_click"]);
+await analyticsClick("", ".explorer-home-portals a[href='./gallery/']", ["gallery_click"]);
+await analyticsClick("", ".explorer-home-portals a[href='./wiki/']", ["wiki_click"]);
+await analyticsClick("", ".explorer-home-portals a[href='./universe/']", ["universe_click"]);
+await analyticsClick("", ".creator-link-card[href='./community/']", ["community_click"]);
+await analyticsClick("gallery/hyakumankoku/", "a[href*='youtube.com/shorts/']", ["shorts_click", "outbound_click"]);
 const searchQaUrl = new URL("search/", base).href;
 await send("Page.navigate", {url:searchQaUrl});
 await waitForPageReady(searchQaUrl);
@@ -164,4 +174,6 @@ if (results.length) {
   console.error(JSON.stringify(results, null, 2));
   process.exit(1);
 }
-console.log(`Browser QA passed: ${pages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or player regressions.`);
+console.log(quickEventsOnly
+  ? "Browser analytics QA passed: player persistence, sharing, search privacy and 15 event types."
+  : `Browser QA passed: ${pages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or player regressions.`);

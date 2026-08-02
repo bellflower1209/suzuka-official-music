@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch official YouTube publish-date evidence for published CMS releases."""
+"""Fetch official YouTube evidence for published and scheduled CMS releases."""
 from __future__ import annotations
 
 import argparse
@@ -7,7 +7,7 @@ import json
 import re
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
@@ -36,6 +36,8 @@ def fetch(item: dict, expected_channel_id: str) -> dict:
         "youtubePublishDate": "",
         "youtubeUploadDate": "",
         "liveStartTimestamp": "",
+        "playabilityStatus": "",
+        "durationSeconds": 0,
         "verifiedPublishedAt": "",
         "verificationSource": "",
         "status": "unverified",
@@ -56,6 +58,7 @@ def fetch(item: dict, expected_channel_id: str) -> dict:
         details = player.get("videoDetails", {})
         microformat = player.get("microformat", {}).get("playerMicroformatRenderer", {})
         live = microformat.get("liveBroadcastDetails", {})
+        playability = player.get("playabilityStatus", {}).get("status", "")
         result.update({
             "officialTitle": details.get("title", ""),
             "channelId": details.get("channelId", ""),
@@ -63,6 +66,8 @@ def fetch(item: dict, expected_channel_id: str) -> dict:
             "youtubePublishDate": microformat.get("publishDate", ""),
             "youtubeUploadDate": microformat.get("uploadDate", ""),
             "liveStartTimestamp": live.get("startTimestamp", ""),
+            "playabilityStatus": playability,
+            "durationSeconds": int(details.get("lengthSeconds") or 0),
         })
         publish_timestamp = live.get("startTimestamp") or microformat.get("publishDate") or microformat.get("uploadDate")
         if result["channelVerified"] and publish_timestamp:
@@ -70,6 +75,14 @@ def fetch(item: dict, expected_channel_id: str) -> dict:
             if instant.tzinfo is None:
                 result["status"] = "verified-date-only"
                 result["verificationSource"] = "official-youtube-date-only"
+                return result
+            if live.get("startTimestamp") and instant > datetime.now(timezone.utc):
+                result["verificationSource"] = "official-youtube-liveBroadcastDetails.startTimestamp"
+                result["status"] = "scheduled"
+                return result
+            if playability != "OK":
+                result["verificationSource"] = "official-youtube-playability-unavailable"
+                result["status"] = "unavailable"
                 return result
             result["verifiedPublishedAt"] = instant.astimezone(JST).isoformat(timespec="seconds")
             result["verificationSource"] = (
@@ -93,9 +106,10 @@ def main() -> None:
     root = args.root.resolve()
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     releases = [item for item in cms["releases"] if item.get("status") == "published"]
+    upcoming = [item for item in cms.get("upcoming", []) if item.get("status") == "upcoming"]
     channel_id = cms["site"]["youtubeChannelId"]
     with ThreadPoolExecutor(max_workers=6) as pool:
-        records = list(pool.map(lambda item: fetch(item, channel_id), releases))
+        records = list(pool.map(lambda item: fetch(item, channel_id), [*releases, *upcoming]))
     records.sort(key=lambda item: item["releaseSlug"])
     output = {
         "schemaVersion": "1.0",

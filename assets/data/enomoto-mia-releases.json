@@ -1,9 +1,30 @@
 {
   "artist": "榎本魅愛",
   "alternateName": "ENOMOTO MIA",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-08-03",
   "source": "https://www.youtube.com/@bellflower5215/videos",
   "releases": [
+    {
+      "title": "Without Worrying",
+      "titleEnglish": "Without Worrying",
+      "slug": "without-worrying",
+      "status": "published",
+      "pageUrl": "releases/without-worrying/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "youtubeId": "lMeYWn4Sqgk",
+      "youtubeVideoTitle": "Without Worrying／榎本魅愛｜あなたはひとりじゃない。",
+      "image": "images/mv-without-worrying.jpg",
+      "duration": 210,
+      "uploadDate": "2026-07-31",
+      "shortDescription": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "featured": true,
+      "playerEnabled": false,
+      "relatedSongs": [
+        "mirai-no-watashi-ga-miteru",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "hyakumankoku"
+      ]
+    },
     {
       "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―",
       "titleEnglish": "SMILE AND SAY GOODBYE",
@@ -15,7 +36,7 @@
       "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
       "youtubeId": "b2n8gcpen58",
       "youtubeVideoTitle": "【Official MV】榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」",
-      "image": "images/mv-smile-and-say-goodbye.png",
+      "image": "images/youtube-smile-and-say-goodbye.jpg",
       "duration": 497,
       "uploadDate": "2026-07-22",
       "shortDescription": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
@@ -27,6 +48,26 @@
         "mirai-no-watashi-ga-miteru",
         "kimi-wa-hanabi",
         "tokenai-mahou-wo-ai-to-yobu"
+      ]
+    },
+    {
+      "title": "好きが、今日も増えていく。",
+      "slug": "suki-ga-kyou-mo-fueteiku",
+      "status": "published",
+      "pageUrl": "releases/suki-ga-kyou-mo-fueteiku/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+      "youtubeId": "XAZy5k9Q4rE",
+      "youtubeVideoTitle": "榎本魅愛「好きが、今日も増えていく。」Official Music Video",
+      "image": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
+      "duration": 351,
+      "uploadDate": "2026-07-16",
+      "shortDescription": "昨日より今日へ、日常の中で増えていく「好き」を歌う王道ラブソング。",
+      "featured": true,
+      "jacketTitleVariant": "好きが、今日も増えていく",
+      "relatedSongs": [
+        "toriatsukai-chui",
+        "mirai-no-watashi-ga-miteru",
+        "hyakumankoku"
       ]
     },
     {
@@ -48,26 +89,6 @@
         "suki-ga-kyou-mo-fueteiku",
         "toriatsukai-chui",
         "mia"
-      ]
-    },
-    {
-      "title": "好きが、今日も増えていく。",
-      "slug": "suki-ga-kyou-mo-fueteiku",
-      "status": "published",
-      "pageUrl": "releases/suki-ga-kyou-mo-fueteiku/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
-      "youtubeId": "XAZy5k9Q4rE",
-      "youtubeVideoTitle": "榎本魅愛「好きが、今日も増えていく。」Official Music Video",
-      "image": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
-      "duration": 351,
-      "uploadDate": "2026-07-16",
-      "shortDescription": "昨日より今日へ、日常の中で増えていく「好き」を歌う王道ラブソング。",
-      "featured": true,
-      "jacketTitleVariant": "好きが、今日も増えていく",
-      "relatedSongs": [
-        "toriatsukai-chui",
-        "mirai-no-watashi-ga-miteru",
-        "hyakumankoku"
       ]
     },
     {
@@ -137,6 +158,26 @@
       ]
     },
     {
+      "title": "解けない魔法を、愛と呼ぶ",
+      "slug": "tokenai-mahou-wo-ai-to-yobu",
+      "status": "published",
+      "pageUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+      "youtubeId": "CAFQ-d7YHPQ",
+      "youtubeVideoTitle": "恋の魔法が解けたあと、それでも君を選べますか。榎本魅愛「解けない魔法を、愛と呼ぶ」Official Music Video",
+      "image": "images/mv-mahou.jpg",
+      "duration": 381,
+      "uploadDate": "2026-07-13",
+      "shortDescription": "恋によって変わった心を、解けない魔法として描くロマンティックな楽曲。",
+      "featured": false,
+      "relatedSongs": [
+        "mia",
+        "kimi-wa-hanabi",
+        "sukitte-baretemo-ii",
+        "mermaid-merman"
+      ]
+    },
+    {
       "title": "無敵時間、あと3秒",
       "slug": "muteki-jikan-ato-3byou",
       "status": "published",
@@ -174,26 +215,6 @@
         "muteki-jikan-ato-3byou",
         "toriatsukai-chui",
         "sukitte-baretemo-ii"
-      ]
-    },
-    {
-      "title": "解けない魔法を、愛と呼ぶ",
-      "slug": "tokenai-mahou-wo-ai-to-yobu",
-      "status": "published",
-      "pageUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
-      "youtubeId": "CAFQ-d7YHPQ",
-      "youtubeVideoTitle": "恋の魔法が解けたあと、それでも君を選べますか。榎本魅愛「解けない魔法を、愛と呼ぶ」Official Music Video",
-      "image": "images/mv-mahou.jpg",
-      "duration": 381,
-      "uploadDate": "2026-07-13",
-      "shortDescription": "恋によって変わった心を、解けない魔法として描くロマンティックな楽曲。",
-      "featured": false,
-      "relatedSongs": [
-        "mia",
-        "kimi-wa-hanabi",
-        "sukitte-baretemo-ii",
-        "mermaid-merman"
       ]
     },
     {
@@ -237,23 +258,23 @@
       ]
     },
     {
-      "title": "君は花火",
-      "slug": "kimi-wa-hanabi",
+      "title": "好きってバレてもいい",
+      "slug": "sukitte-baretemo-ii",
       "status": "published",
-      "pageUrl": "releases/kimi-wa-hanabi/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
-      "youtubeId": "ohylad3AWYI",
-      "youtubeVideoTitle": "一瞬で夜空を染めた、忘れられない夏の恋。榎本魅愛「君は花火」Official Music Video",
-      "image": "images/mv-hanabi.jpg",
-      "duration": 281,
+      "pageUrl": "releases/sukitte-baretemo-ii/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+      "youtubeId": "XP8yXMKFHVI",
+      "youtubeVideoTitle": "もう、好きってバレてもいい。榎本魅愛「好きってバレてもいい」Official Music Video",
+      "image": "images/mv-sukitte-baretemo-ii.jpg",
+      "duration": 275,
       "uploadDate": "2026-07-12",
-      "shortDescription": "夏の夜空を染める花火のように、強く眩しい恋の記憶を描いた楽曲。",
+      "shortDescription": "隠していた恋心を、もう隠さないと決める瞬間を描いた恋愛ソング。",
       "featured": false,
       "relatedSongs": [
-        "sukitte-baretemo-ii",
-        "tokenai-mahou-wo-ai-to-yobu",
+        "hyakumankoku",
         "mia",
-        "mermaid-merman"
+        "kimi-wa-hanabi",
+        "toriatsukai-chui"
       ]
     },
     {
@@ -277,23 +298,23 @@
       ]
     },
     {
-      "title": "好きってバレてもいい",
-      "slug": "sukitte-baretemo-ii",
+      "title": "君は花火",
+      "slug": "kimi-wa-hanabi",
       "status": "published",
-      "pageUrl": "releases/sukitte-baretemo-ii/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
-      "youtubeId": "XP8yXMKFHVI",
-      "youtubeVideoTitle": "もう、好きってバレてもいい。榎本魅愛「好きってバレてもいい」Official Music Video",
-      "image": "images/mv-sukitte-baretemo-ii.jpg",
-      "duration": 275,
+      "pageUrl": "releases/kimi-wa-hanabi/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
+      "youtubeId": "ohylad3AWYI",
+      "youtubeVideoTitle": "一瞬で夜空を染めた、忘れられない夏の恋。榎本魅愛「君は花火」Official Music Video",
+      "image": "images/mv-hanabi.jpg",
+      "duration": 281,
       "uploadDate": "2026-07-12",
-      "shortDescription": "隠していた恋心を、もう隠さないと決める瞬間を描いた恋愛ソング。",
+      "shortDescription": "夏の夜空を染める花火のように、強く眩しい恋の記憶を描いた楽曲。",
       "featured": false,
       "relatedSongs": [
-        "hyakumankoku",
+        "sukitte-baretemo-ii",
+        "tokenai-mahou-wo-ai-to-yobu",
         "mia",
-        "kimi-wa-hanabi",
-        "toriatsukai-chui"
+        "mermaid-merman"
       ]
     },
     {

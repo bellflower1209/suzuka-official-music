@@ -238,18 +238,98 @@ def news_page(item: dict) -> str:
     return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開｜SUZUKA News</title><meta name="description" content="{html.escape(news_desc)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:title" content="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{BASE}/{item["coverImage"]}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{BASE}/{item["coverImage"]}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["artist"])}<br/>「{html.escape(item["title"])}」公開</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストによる公式リリース情報です。</p></header><div class="news-article-body"><section><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a><a href="../../artists/{item["artistSlug"]}/">Artist</a></div></section><section class="social-context-section" aria-label="関連リンク"><h2>作品の関連情報</h2><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="../../social/">公式SNS・リンク</a><a href="../../artists/{item["artistSlug"]}/">アーティストページ</a></div></section></div></article>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
-def upsert_card(path: Path, item: dict, p: str) -> None:
+def upsert_card(path: Path, item: dict, p: str, href: str | None = None) -> None:
     text = path.read_text(encoding="utf-8")
-    href = f'{p}releases/{item["slug"]}/'
-    if href in text:
+    href = href or f'{p}releases/{item["slug"]}/'
+    existing_cards = re.findall(r'<article class="release-card[^>]*>.*?</article>', text, re.DOTALL)
+    matching_cards = [card for card in existing_cards if f'/{item["slug"]}/' in card]
+    if matching_cards:
+        first = matching_cards[0]
+        normalized = re.sub(
+            rf'href="(?:\.\./releases/|\./releases/|\./){re.escape(item["slug"])}/"',
+            f'href="{href}"',
+            first,
+        )
+        text = text.replace(first, normalized, 1)
+        for duplicate in matching_cards[1:]:
+            text = text.replace(duplicate, "", 1)
+        path.write_text(text, encoding="utf-8")
         return
     card = f'<article class="release-card release-card-new"><a class="release-image" href="{href}"><img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/></a><div class="release-info"><div class="release-row"><span>01</span><span>OFFICIAL RELEASE · {item["releaseDate"]}</span></div><h3>{html.escape(item["title"])}</h3><p>{html.escape(item["description"])}</p><p class="release-artist-credit">{html.escape(item["artist"])}</p><div class="release-card-actions"><a class="release-card-cta release-card-cta-detail" href="{href}">詳細を見る ↗</a><a class="release-card-cta" href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a></div></div></article>'
     text = text.replace('<div class="release-grid">', '<div class="release-grid">' + card, 1)
     path.write_text(text, encoding="utf-8")
 
 
+def update_home_status(root: Path, data: dict) -> None:
+    """Keep the legacy home hero/latest/upcoming surfaces aligned with the CMS."""
+    path = root / "index.html"
+    text = path.read_text(encoding="utf-8")
+    latest = data["releases"][0]
+    hero = (
+        f'<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース {html.escape(latest["title"])}のメニュー">'
+        f'<p><span>LATEST RELEASE</span><strong>{html.escape(latest["artist"])} — {html.escape(latest["title"])}</strong></p>'
+        f'<a class="button button-primary" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>'
+        f'<a class="button button-ghost" href="./{latest["releaseUrl"]}">楽曲情報を見る ▶</a>'
+        f'<a class="button button-youtube" href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTubeでSUZUKAをフォロー ↗</a>'
+        '<a class="button button-ghost" data-home-social-link="true" href="./social/">公式リンク一覧</a></div>'
+    )
+    text = re.sub(
+        r'<div class="hero-release-actions reveal-up delay-4".*?</div>',
+        hero,
+        text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    latest_section = (
+        '<section class="section latest-section label-latest" id="latest" aria-labelledby="latest-title">'
+        '<div class="section-heading section-heading-split"><div><p class="section-kicker">01 / Latest release</p>'
+        f'<h2 id="latest-title">{html.escape(latest["title"])}</h2></div><p>{html.escape(latest["artist"])}<br/>Official Release</p></div>'
+        '<article class="featured-release"><div class="featured-media">'
+        f'<img src="./{latest["coverImage"]}" alt="{html.escape(latest["coverAlt"])}" width="1280" height="720"/>'
+        '<div class="featured-glow"></div></div><div class="featured-copy"><div class="track-number">01</div>'
+        f'<p class="featured-label">{html.escape(latest["artist"])} · OFFICIAL MV · {latest["releaseDate"].replace("-", ".")}</p>'
+        f'<h3>{html.escape(latest["title"])}</h3><p>{html.escape(latest["description"])}</p>'
+        '<div class="featured-links">'
+        f'<a class="button button-primary" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">WATCH MV ↗</a>'
+        f'<a class="button button-ghost" href="./{latest["releaseUrl"]}">VIEW RELEASE ↗</a>'
+        f'</div></div></article><nav class="status-actions" aria-label="最新のアーティスト情報"><a href="./artists/{latest["artistSlug"]}/">{html.escape(latest["artist"])}を見る ↗</a>'
+        '<a href="./discography/">全公開作品を見る ↗</a></nav></section>'
+    )
+    text = re.sub(
+        r'<section class="section latest-section.*?(?=<section class="upcoming-section")',
+        latest_section,
+        text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    upcoming_cards = "".join(
+        '<article class="status-card">'
+        f'<img src="{item["image"]}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公式YouTube公開予定サムネイル" width="1280" height="720" loading="lazy"/>'
+        '<div>'
+        f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"][:10].replace("-", ".")} 20:00 JST</time>'
+        f'<h3>{html.escape(item["title"])}</h3><p>{html.escape(item["artist"])} · Official YouTube Premiere</p>'
+        f'<div class="status-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画を見る ↗</a>'
+        f'<a href="./artists/{item["artistSlug"]}/">Artist page ↗</a></div></div></article>'
+        for item in data["upcoming"]
+    )
+    upcoming_section = (
+        '<section class="upcoming-section" id="upcoming-artists" aria-labelledby="upcoming-title">'
+        '<div class="upcoming-heading"><div><p class="section-kicker">02 / Next releases</p><h2 id="upcoming-title">Upcoming</h2></div>'
+        '<p>公開済み作品と分けて、公式YouTubeで確認した公開予定をお知らせします。</p></div>'
+        f'<div class="status-strip-grid">{upcoming_cards}</div></section>'
+    )
+    text = re.sub(
+        r'<section class="upcoming-section".*?(?=<section class="section eclypse-home-section")',
+        upcoming_section,
+        text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    path.write_text(text, encoding="utf-8")
+
+
 def update_directories(root: Path, data: dict) -> None:
-    newest = [next(x for x in data["releases"] if x["slug"] == slug) for slug in ("chimpanzee-no-rakuen", "ashita-wa-kitto")]
+    newest = data["releases"][:3]
     news_path = root / "news/index.html"
     news = news_path.read_text(encoding="utf-8")
     for item in reversed(newest):
@@ -257,6 +337,20 @@ def update_directories(root: Path, data: dict) -> None:
         if href not in news:
             card = f'<article class="news-directory-card"><a href="{href}"><span class="news-directory-image"><img src="../{item["coverImage"]}" alt="{html.escape(item["title"])}公開News" width="1280" height="720" loading="lazy"/></span><span class="news-directory-meta"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><em>OFFICIAL RELEASE</em></span><h2>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開</h2><p>{html.escape(item["description"])}</p><b>記事を読む ↗</b></a></article>'
             news = news.replace('<div class="news-list news-feature-list">', '<div class="news-list news-feature-list">' + card, 1)
+    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    news_entries = [item for item in cms.get("news", []) if item.get("status") == "published"]
+    news_schema_match = re.search(r'<script type="application/ld\+json">(.*?)</script>', news, re.DOTALL)
+    if news_schema_match:
+        news_schema = json.loads(news_schema_match.group(1))
+        for node in news_schema.get("@graph", []):
+            if node.get("@type") == "ItemList":
+                node["numberOfItems"] = len(news_entries)
+                node["itemListElement"] = [
+                    {"@type": "ListItem", "position": position, "name": item["title"],
+                     "url": f'{BASE}/news/{item["slug"]}/'}
+                    for position, item in enumerate(news_entries, 1)
+                ]
+        news = news[:news_schema_match.start(1)] + dump(news_schema) + news[news_schema_match.end(1):]
     news_path.write_text(news, encoding="utf-8")
     social_path = root / "social/index.html"
     social = social_path.read_text(encoding="utf-8")
@@ -278,10 +372,13 @@ def update_directories(root: Path, data: dict) -> None:
     artists_path.write_text(artists, encoding="utf-8")
     mia = root / "artists/enomoto-mia/index.html"
     text = mia.read_text(encoding="utf-8")
-    item = next(x for x in data["releases"] if x["slug"] == "ashita-wa-kitto")
-    if "../../releases/ashita-wa-kitto/" not in text:
-        row = f'<a class="artist-track-row artist-track-row-new" href="../../releases/ashita-wa-kitto/"><span>01</span><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><strong>{html.escape(item["title"])}</strong><small>Official release · {item["releaseDate"]}</small></div><b aria-hidden="true">↗</b></a>'
-        text = text.replace('<div class="artist-track-list">', '<div class="artist-track-list">' + row, 1)
+    mia_latest = [item for item in data["releases"] if item["artistSlug"] == "enomoto-mia"]
+    for item in reversed(mia_latest):
+        href = f'../../releases/{item["slug"]}/'
+        track_list_html = re.search(r'<div class="artist-track-list">.*?</div>\s*</section>', text, re.DOTALL)
+        if not track_list_html or href not in track_list_html.group(0):
+            row = f'<a class="artist-track-row artist-track-row-new" href="{href}"><span>01</span><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><strong>{html.escape(item["title"])}</strong><small>Official release · {item["releaseDate"]}</small></div><b aria-hidden="true">↗</b></a>'
+            text = text.replace('<div class="artist-track-list">', '<div class="artist-track-list">' + row, 1)
     track_list = re.search(r'<div class="artist-track-list">.*?</div>\s*</section>', text, re.DOTALL)
     if track_list:
         number = 0
@@ -291,7 +388,7 @@ def update_directories(root: Path, data: dict) -> None:
             return f"{match.group(1)}{number:02d}{match.group(2)}"
         updated = re.sub(r'(<a class="artist-track-row[^"]*"[^>]*><span>)\d+(</span>)', renumber, track_list.group(0))
         text = text[:track_list.start()] + updated + text[track_list.end():]
-    text = re.sub(r'(公開作品\s*)15', r'\g<1>16', text)
+    text = re.sub(r'(公開作品\s*)\d+', rf'\g<1>{len(mia_latest)}', text)
     mia.write_text(text, encoding="utf-8")
 
 
@@ -299,26 +396,86 @@ def update_docs(root: Path, data: dict) -> None:
     path = root / "docs/youtube/youtube-seo-master.md"
     if path.exists():
         text = path.read_text(encoding="utf-8")
-        marker = "## 2026-07-30 公式公開確認"
-        published = [x for x in data["releases"] if x["slug"] in {"ashita-wa-kitto", "chimpanzee-no-rakuen"}]
-        rows = "\n".join(f'| 公開済み | {x["title"]} | {x["artist"]} | {x["releaseDate"]} | {x["duration"]//60}:{x["duration"]%60:02d} | {x["youtubeUrl"]} |' for x in published)
+        text = re.sub(r"最終監査日: \d{4}-\d{2}-\d{2}", "最終監査日: 2026-08-03", text, count=1)
+        rows = "\n".join(
+            f'| {n} | {x["title"]} | {x["artist"]} | [{x["youtubeUrl"].split("=")[-1]}]({x["youtubeUrl"]}) / {x["duration"]//60}:{x["duration"]%60:02d} | {x["publishedAt"]} | [作品]({BASE}/{x["releaseUrl"]}) | 公開確認済み |'
+            for n, x in enumerate(data["releases"], 1)
+        )
         upcoming = "\n".join(f'| 公開予定 | {x["title"]} | {x["artist"]} | {x["scheduledAt"].replace("T"," ")} | 未確定 | {x["youtubeUrl"]} |' for x in data["upcoming"])
+        current = f"""## 0. 結論と公開状況
+
+- 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は{len(data["releases"])}件。
+- Upcomingは{len(data["upcoming"])}件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
+- 公開日時と動画時間は公式YouTube証跡に保存し、未確認情報は推測しない。
+- 再生リスト、カード、終了画面などYouTube Studio内の設定は、実確認済みと提案済みを別管理する。
+
+## 1. YouTube SEO管理表
+
+| # | 作品名 | アーティスト | YouTube / 時間 | 公開日時（JST） | 公式サイト | 状態 |
+|---:|---|---|---|---|---|---|
+{rows}
+
+### Upcoming
+
+| 状態 | 作品 | アーティスト | 公開予定（JST） | 時間 | 正式URL |
+| --- | --- | --- | --- | --- | --- |
+{upcoming}
+
+"""
+        text = re.sub(r"## 0\. 結論と公開状況.*?(?=## 2\.)", current, text, count=1, flags=re.DOTALL)
+        marker = "## 2026-08-03 公式公開確認"
         section = f"""{marker}
 
 公式チャンネル `UCVde75yhByGQMu3SkO-fzrA` を一次情報として、一般視聴可否・公開日・時間を確認。
 
 | 状態 | 作品 | アーティスト | 公開日／予定 | 時間 | 正式URL |
 | --- | --- | --- | --- | --- | --- |
-{rows}
 {upcoming}
 
 予約中の作品は公開済み作品数・MusicRecordingへ含めない。
 """
-        if marker in text:
+        old_marker = "## 2026-07-30 公式公開確認"
+        if old_marker in text:
+            text = text[:text.index(old_marker)].rstrip() + "\n\n" + section
+        elif marker in text:
             text = text[:text.index(marker)].rstrip() + "\n\n" + section
         else:
             text = text.rstrip() + "\n\n" + section
         path.write_text(text.rstrip() + "\n", encoding="utf-8")
+    tracker = root / "docs/youtube/youtube-studio-implementation-tracker.md"
+    tracker_rows = []
+    for item in data["releases"]:
+        million = item["slug"] == "hyakumankoku"
+        actual = "実反映済み" if million else "提案済み"
+        playlist = "未確認"
+        tracker_rows.append(
+            f'| 公開済み | {item["title"]} | {item["artist"]} | {item["youtubeUrl"]} | {item["duration"]//60}:{item["duration"]%60:02d} | '
+            f'{item["title"]}｜{item["artist"]}【Official Music Video】 | {actual} | {actual} | {actual} | {actual} | {playlist} | {actual} | {actual} |'
+        )
+    for item in data["upcoming"]:
+        tracker_rows.append(
+            f'| Upcoming | {item["title"]} | {item["artist"]} | {item["youtubeUrl"]} | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |'
+        )
+    tracker.write_text(f"""# SUZUKA YouTube Studio Implementation Tracker
+
+確認基準: 2026-08-03T00:45:42+09:00
+
+`実反映済み`はYouTube Studio上で確認済みと明示された項目、`提案済み`は資料上の提案で実操作未確認、`未確認`は推測禁止の項目です。
+
+| 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+{"\n".join(tracker_rows)}
+
+## 百万告の実反映状況
+
+タイトル、説明欄、ハッシュタグ、タグ、固定コメント、カード、終了画面、AI使用申告、カテゴリ、サムネイルは実反映済みとして管理します。再生リストはYouTube Studio上の実確認がないため未確認です。
+
+## 運用ルール
+
+- YouTube Studioで実操作していない項目を`実反映済み`へ変更しない。
+- カードの表示時間、ティーザーテキスト、カスタムメッセージは動画を実見して確定する。
+- 公開後は公式URL、公開日時、動画時間を再取得してからサイト正本へ昇格する。
+""", encoding="utf-8")
     readme = root / "README.md"
     text = readme.read_text(encoding="utf-8")
     note = "\n- `assets/data/releases-catalog.json`：検索・ジャンル・年表・Weekly Pickが共通利用する公開作品の正本\n- `search/` / `genres/` / `discography/`：作品を探すための静的ページ\n- `scripts/build_explore_catalog.py`：正本データと探索ページを再生成するスクリプト"
@@ -372,6 +529,7 @@ def main() -> None:
             "title": item["title"],
             "artist": item["artist"],
             "artistSlug": item["artistSlug"],
+            "image": item["coverImage"],
             "coverImage": item["coverImage"],
             "coverAlt": item["coverAlt"],
             "youtubeUrl": item["youtubeUrl"],
@@ -408,7 +566,15 @@ def main() -> None:
         write(ROOT / item["releaseUrl"] / "index.html", release_page(item))
         write(ROOT / "news" / f"{slug}-release/index.html", news_page(item))
         upsert_card(ROOT / "index.html", item, "./")
-        upsert_card(ROOT / "releases/index.html", item, "../")
+        upsert_card(ROOT / "releases/index.html", item, "../", f'./{item["slug"]}/')
+    for item in data["releases"][:3]:
+        write(ROOT / item["releaseUrl"] / "index.html", release_page(item))
+        if item.get("newsUrl"):
+            write(ROOT / item["newsUrl"] / "index.html", news_page(item))
+    for item in data["releases"]:
+        upsert_card(ROOT / "index.html", item, "./")
+        upsert_card(ROOT / "releases/index.html", item, "../", f'./{item["slug"]}/')
+    update_home_status(ROOT, data)
     home = ROOT / "index.html"
     text = home.read_text(encoding="utf-8")
     if 'data-weekly-pick' not in text:
@@ -442,6 +608,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_creator_platform.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,
         check=True,
     )

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-03T00:45:42+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "assetReplacements": [
+    {
+      "slug": "boukyaku-no-ikimono",
+      "coverImage": "images/youtube-boukyaku-no-ikimono.jpg"
+    },
+    {
+      "slug": "smile-and-say-goodbye",
+      "coverImage": "images/youtube-smile-and-say-goodbye.jpg"
+    }
+  ],
+  "published": [
+    {
+      "slug": "without-worrying",
+      "title": "Without Worrying",
+      "englishTitle": "Without Worrying",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "coverImage": "images/mv-without-worrying.jpg",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "genres": ["J-POP", "バラード"],
+      "themes": ["癒やし", "応援", "希望"],
+      "moods": ["温かい", "切ない"]
+    },
+    {
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "englishTitle": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "coverImage": "images/eclypse-lost-signal.jpg",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "genres": ["K-POP風", "ダークポップ"],
+      "themes": ["喪失", "つながり", "未来"],
+      "moods": ["ダーク", "壮大"]
+    },
+    {
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "englishTitle": "One More Kiss",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "coverImage": "images/koga-one-more-kiss.jpg",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "genres": ["J-POP", "ロック", "ダークポップ"],
+      "themes": ["恋愛", "孤独", "夜"],
+      "moods": ["切ない", "危うい"]
+    }
+  ],
+  "upcoming": [
+    {
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "scheduledAt": "2026-08-03T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。"
+    },
+    {
+      "slug": "still-alive",
+      "title": "Still alive",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "scheduledAt": "2026-08-04T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。"
+    },
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-05T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。"
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "scheduledAt": "2026-08-06T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。"
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-07T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。"
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-08T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。"
+    },
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。"
+    }
+  ]
+}

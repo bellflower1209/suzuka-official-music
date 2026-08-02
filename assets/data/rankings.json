@@ -3,38 +3,41 @@
   "source": "ranking-source.json / ranking-source.csv",
   "rankings": {
     "popular": {
-      "label": "人気作品TOP10",
+      "label": "おすすめ作品TOP10",
       "items": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku"
-      ]
+        "boukyaku-no-ikimono"
+      ],
+      "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath"
+        "wasurenai-kokoro"
       ]
     },
     "love": {
-      "label": "恋愛ソングTOP10",
+      "label": "恋愛ソングおすすめTOP10",
       "items": [
+        "one-more-kiss",
+        "without-worrying",
         "koisuru-maharaja",
         "smile-and-say-goodbye",
         "my-queen-my-oath",
@@ -42,9 +45,7 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo",
         "toriatsukai-chui",
         "our-kingdom",
-        "mirai-no-watashi-ga-miteru",
-        "tokenai-mahou-wo-ai-to-yobu",
-        "muteki-jikan-ato-3byou"
+        "mirai-no-watashi-ga-miteru"
       ]
     },
     "summer": {
@@ -57,49 +58,50 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "without-worrying",
         "ashita-wa-kitto",
         "heal-you-again"
       ]
     },
     "mv": {
-      "label": "MV再生数順",
+      "label": "MVおすすめ順",
       "items": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku"
+        "boukyaku-no-ikimono"
       ],
-      "fallback": "再生数未登録時はrecommendationWeightを使用"
+      "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "artists": {
-      "label": "アーティストランキング",
+      "label": "アーティスト公開作品数順",
       "items": [
         "enomoto-mia",
         "koga-kamishiro",
-        "rangili",
         "eclypse",
+        "rangili",
         "asagiri-shinobu",
         "revive",
         "nox"
       ]
     },
     "genres": {
-      "label": "ジャンルランキング",
+      "label": "ジャンル公開作品数順",
       "items": [
         "J-POP",
         "ロマンティックポップ",
         "ダークポップ",
         "ロック",
-        "インド×J-POP",
-        "バラード",
-        "シネマティック",
         "K-POP風",
+        "バラード",
+        "インド×J-POP",
+        "シネマティック",
         "V系",
         "ダークロック",
         "アイドルポップ",
@@ -112,19 +114,20 @@
       ]
     },
     "trending": {
-      "label": "人気急上昇",
+      "label": "注目作品おすすめ順",
       "items": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku"
-      ]
+        "boukyaku-no-ikimono"
+      ],
+      "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }
   }
 }

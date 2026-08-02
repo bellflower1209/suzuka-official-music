@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://bellflower1209.github.io/suzuka-official-music/</id>
+  <title>SUZUKA Official Music Updates</title>
+  <updated>2026-08-03T00:45:42+09:00</updated>
+  <link rel="self" href="https://bellflower1209.github.io/suzuka-official-music/feed.xml" />
+  <link rel="alternate" href="https://bellflower1209.github.io/suzuka-official-music/" />
+  <author>
+    <name>SUZUKA</name>
+  </author>
+  <entry>
+    <id>https://www.youtube.com/watch?v=8BjnnX3xeGw</id>
+    <title>Upcoming｜NOX「善人裁判」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=8BjnnX3xeGw" />
+    <category term="upcoming" />
+    <summary>2026-08-03T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=tbysXktPNk4</id>
+    <title>Upcoming｜朝霧しのぶ「忘れじの人」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=tbysXktPNk4" />
+    <category term="upcoming" />
+    <summary>2026-08-06T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=KCviOsGatOY</id>
+    <title>Upcoming｜RE:VIVE「Still alive」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=KCviOsGatOY" />
+    <category term="upcoming" />
+    <summary>2026-08-04T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=uibakv4n2Dg</id>
+    <title>Upcoming｜神代煌牙「マーメイドの下僕」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=uibakv4n2Dg" />
+    <category term="upcoming" />
+    <summary>2026-08-08T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=iEFPd6kYYJc</id>
+    <title>Upcoming｜榎本魅愛「君にかかった魔法」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=iEFPd6kYYJc" />
+    <category term="upcoming" />
+    <summary>2026-08-09T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=mdTogs4Oiew</id>
+    <title>Upcoming｜榎本魅愛「花言葉」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=mdTogs4Oiew" />
+    <category term="upcoming" />
+    <summary>2026-08-07T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=rr12NZuWHHs</id>
+    <title>Upcoming｜榎本魅愛「はじめまして、奇跡」</title>
+    <updated>2026-08-03T00:45:42+09:00</updated>
+    <link href="https://www.youtube.com/watch?v=rr12NZuWHHs" />
+    <category term="upcoming" />
+    <summary>2026-08-05T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-02T20:00:05+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/one-more-kiss/</id>
+    <title>神代煌牙「One More Kiss」</title>
+    <updated>2026-08-02T20:00:05+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/one-more-kiss/" />
+    <category term="release" />
+    <summary>満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-02T20:00:05+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/one-more-kiss-release/</id>
+    <title>神代煌牙「One More Kiss」公開</title>
+    <updated>2026-08-02T20:00:05+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/one-more-kiss-release/" />
+    <category term="news" />
+    <summary>満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-01T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/lost-signal/</id>
+    <title>ECLYPSE「LOST SIGNAL」</title>
+    <updated>2026-08-01T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/lost-signal/" />
+    <category term="release" />
+    <summary>途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-01T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/lost-signal-release/</id>
+    <title>ECLYPSE「LOST SIGNAL」公開</title>
+    <updated>2026-08-01T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/lost-signal-release/" />
+    <category term="news" />
+    <summary>途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-31T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/without-worrying/</id>
+    <title>榎本魅愛「Without Worrying」</title>
+    <updated>2026-07-31T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/without-worrying/" />
+    <category term="release" />
+    <summary>笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-31T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/without-worrying-release/</id>
+    <title>榎本魅愛「Without Worrying」公開</title>
+    <updated>2026-07-31T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/without-worrying-release/" />
+    <category term="news" />
+    <summary>笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-30T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/koisuru-maharaja/</id>
+    <title>RANGILI「恋するマハラジャ」</title>
+    <updated>2026-07-30T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/koisuru-maharaja/" />
+    <category term="release" />
+    <summary>RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-30T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/koisuru-maharaja-release/</id>
+    <title>RANGILI「恋するマハラジャ」公開</title>
+    <updated>2026-07-30T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/koisuru-maharaja-release/" />
+    <category term="news" />
+    <summary>RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-29T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/chimpanzee-no-rakuen/</id>
+    <title>NOX「チンパンジーの楽園」</title>
+    <updated>2026-07-29T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/chimpanzee-no-rakuen/" />
+    <category term="release" />
+    <summary>人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-29T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/chimpanzee-no-rakuen-release/</id>
+    <title>NOX「チンパンジーの楽園」公開</title>
+    <updated>2026-07-29T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/chimpanzee-no-rakuen-release/" />
+    <category term="news" />
+    <summary>人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-29T01:22:23+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/ashita-wa-kitto/</id>
+    <title>榎本魅愛「明日は、きっと。」</title>
+    <updated>2026-07-29T01:22:23+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/ashita-wa-kitto/" />
+    <category term="release" />
+    <summary>不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-28T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/ashita-wa-kitto-release/</id>
+    <title>榎本魅愛「明日は、きっと。」公開</title>
+    <updated>2026-07-28T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/ashita-wa-kitto-release/" />
+    <category term="news" />
+    <summary>不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-27T20:00:06+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/</id>
+    <title>RE:VIVE「Heal You Again」</title>
+    <updated>2026-07-27T20:00:06+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/" />
+    <category term="release" />
+    <summary>傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-27T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/heal-you-again-release/</id>
+    <title>RE:VIVE「Heal You Again」公開</title>
+    <updated>2026-07-27T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/heal-you-again-release/" />
+    <category term="news" />
+    <summary>傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-26T20:00:22+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/</id>
+    <title>神代 煌牙「Echoes of You」</title>
+    <updated>2026-07-26T20:00:22+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/" />
+    <category term="release" />
+    <summary>幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-26T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/echoes-of-you-release/</id>
+    <title>神代 煌牙「Echoes of You」公開</title>
+    <updated>2026-07-26T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/echoes-of-you-release/" />
+    <category term="news" />
+    <summary>幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-24T20:00:11+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/namaste-galaxy/</id>
+    <title>RANGILI「NAMASTE☆GALAXY」</title>
+    <updated>2026-07-24T20:00:11+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/namaste-galaxy/" />
+    <category term="release" />
+    <summary>インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-24T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/namaste-galaxy-release/</id>
+    <title>RANGILI「NAMASTE☆GALAXY」公開</title>
+    <updated>2026-07-24T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/namaste-galaxy-release/" />
+    <category term="news" />
+    <summary>インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-23T20:00:34+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/wasurenai-kokoro/</id>
+    <title>朝霧しのぶ「忘れない心」</title>
+    <updated>2026-07-23T20:00:34+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/wasurenai-kokoro/" />
+    <category term="release" />
+    <summary>認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-23T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/wasurenai-kokoro-release/</id>
+    <title>朝霧しのぶ「忘れない心」公開</title>
+    <updated>2026-07-23T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/wasurenai-kokoro-release/" />
+    <category term="news" />
+    <summary>認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-22T20:00:31+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/</id>
+    <title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」</title>
+    <updated>2026-07-22T20:00:31+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/" />
+    <category term="release" />
+    <summary>好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-22T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/smile-and-say-goodbye-release/</id>
+    <title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公開</title>
+    <updated>2026-07-22T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/smile-and-say-goodbye-release/" />
+    <category term="news" />
+    <summary>好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-21T19:00:30+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/</id>
+    <title>神代 煌牙「忘却の生き物」</title>
+    <updated>2026-07-21T19:00:30+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/" />
+    <category term="release" />
+    <summary>弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-20T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/my-queen-my-oath-release/</id>
+    <title>神代 煌牙「My Queen, My Oath」公開</title>
+    <updated>2026-07-20T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/my-queen-my-oath-release/" />
+    <category term="news" />
+    <summary>夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-20T19:00:07+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/</id>
+    <title>神代 煌牙「My Queen, My Oath」</title>
+    <updated>2026-07-20T19:00:07+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/" />
+    <category term="release" />
+    <summary>夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-18T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/red-moon-rising-release/</id>
+    <title>ECLYPSE「RED MOON // RISING」公開</title>
+    <updated>2026-07-18T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/red-moon-rising-release/" />
+    <category term="news" />
+    <summary>赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-18T19:52:02+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/</id>
+    <title>ECLYPSE「RED MOON // RISING」</title>
+    <updated>2026-07-18T19:52:02+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/" />
+    <category term="release" />
+    <summary>赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-16T20:50:27+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/</id>
+    <title>榎本魅愛「もしも明日、はじめましてになっても」</title>
+    <updated>2026-07-16T20:50:27+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/" />
+    <category term="release" />
+    <summary>榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-16T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/moshimo-ashita-hajimemashite-ni-natte-mo-release/</id>
+    <title>榎本魅愛「もしも明日、はじめましてになっても」公開</title>
+    <updated>2026-07-16T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/moshimo-ashita-hajimemashite-ni-natte-mo-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-16T18:31:46+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/</id>
+    <title>榎本魅愛「好きが、今日も増えていく。」</title>
+    <updated>2026-07-16T18:31:46+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/" />
+    <category term="release" />
+    <summary>榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-15T00:51:42+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/</id>
+    <title>榎本魅愛「取り扱いチュー💋い」</title>
+    <updated>2026-07-15T00:51:42+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/" />
+    <category term="release" />
+    <summary>榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-14T23:24:10+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/</id>
+    <title>榎本魅愛 × 神代煌牙「OUR KINGDOM」</title>
+    <updated>2026-07-14T23:24:10+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/" />
+    <category term="release" />
+    <summary>榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-14T22:47:31+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/shadow-code/</id>
+    <title>ECLYPSE「SHADOW//CODE」</title>
+    <updated>2026-07-14T22:47:31+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/shadow-code/" />
+    <category term="release" />
+    <summary>ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-14T22:31:20+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/mirai-no-watashi-ga-miteru/</id>
+    <title>榎本魅愛「未来の私が見てる」</title>
+    <updated>2026-07-14T22:31:20+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/mirai-no-watashi-ga-miteru/" />
+    <category term="release" />
+    <summary>榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-14T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/toriatsukai-chui-release/</id>
+    <title>榎本魅愛「取り扱いチュー💋い」公開</title>
+    <updated>2026-07-14T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/toriatsukai-chui-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-14T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/shadow-code-announcement/</id>
+    <title>デビューシングル「SHADOW//CODE」を発表。</title>
+    <updated>2026-07-14T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/shadow-code-announcement/" />
+    <category term="news" />
+    <summary>ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T20:00:35+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/muteki-jikan-ato-3byou/</id>
+    <title>榎本魅愛「無敵時間、あと3秒」</title>
+    <updated>2026-07-13T20:00:35+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/muteki-jikan-ato-3byou/" />
+    <category term="release" />
+    <summary>榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T20:00:32+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/mia/</id>
+    <title>榎本魅愛「M・I・A」</title>
+    <updated>2026-07-13T20:00:32+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/mia/" />
+    <category term="release" />
+    <summary>榎本魅愛「M・I・A」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T20:00:23+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/tokenai-mahou-wo-ai-to-yobu/</id>
+    <title>榎本魅愛「解けない魔法を、愛と呼ぶ」</title>
+    <updated>2026-07-13T20:00:23+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/tokenai-mahou-wo-ai-to-yobu/" />
+    <category term="release" />
+    <summary>榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T15:27:23+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/kimi-to-nara-last-boss-made/</id>
+    <title>榎本魅愛「君とならラスボスまで」</title>
+    <updated>2026-07-13T15:27:23+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/kimi-to-nara-last-boss-made/" />
+    <category term="release" />
+    <summary>榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T15:14:26+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/</id>
+    <title>榎本魅愛「AIでもわからない」</title>
+    <updated>2026-07-13T15:14:26+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/" />
+    <category term="release" />
+    <summary>榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T00:54:50+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/kimi-wa-hanabi/</id>
+    <title>榎本魅愛「君は花火」</title>
+    <updated>2026-07-13T00:54:50+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/kimi-wa-hanabi/" />
+    <category term="release" />
+    <summary>榎本魅愛「君は花火」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-13T00:17:26+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/mermaid-merman/</id>
+    <title>榎本魅愛「MERMAID×MERMAN」</title>
+    <updated>2026-07-13T00:17:26+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/mermaid-merman/" />
+    <category term="release" />
+    <summary>榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-12T20:00:59+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/sukitte-baretemo-ii/</id>
+    <title>榎本魅愛「好きってバレてもいい」</title>
+    <updated>2026-07-12T20:00:59+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/sukitte-baretemo-ii/" />
+    <category term="release" />
+    <summary>榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-12T20:00:00+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/news/hyakumankoku-release/</id>
+    <title>榎本魅愛「百万告」公開</title>
+    <updated>2026-07-12T20:00:00+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/news/hyakumankoku-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「百万告」のSUZUKA公式作品ページ。</summary>
+  </entry>
+  <entry>
+    <published>2026-07-12T19:42:52+09:00</published>
+    <id>https://bellflower1209.github.io/suzuka-official-music/releases/hyakumankoku/</id>
+    <title>榎本魅愛「百万告」</title>
+    <updated>2026-07-12T19:42:52+09:00</updated>
+    <link href="https://bellflower1209.github.io/suzuka-official-music/releases/hyakumankoku/" />
+    <category term="release" />
+    <summary>榎本魅愛「百万告」のSUZUKA公式作品ページ。</summary>
+  </entry>
+</feed>

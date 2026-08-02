@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0",
-  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "updatedAt": "2026-08-03T00:45:42+09:00",
   "site": {
     "name": "SUZUKA",
     "baseUrl": "https://bellflower1209.github.io/suzuka-official-music",
@@ -171,6 +171,326 @@
     }
   ],
   "releases": [
+    {
+      "id": "one-more-kiss",
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "displayTitle": "One More Kiss",
+      "englishTitle": "One More Kiss",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-02",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ダークポップ"
+      ],
+      "moods": [
+        "切ない",
+        "危うい"
+      ],
+      "themes": [
+        "恋愛",
+        "孤独",
+        "夜"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-one-more-kiss.jpg",
+      "coverAlt": "神代煌牙「One More Kiss」公式YouTubeサムネイル",
+      "releaseUrl": "releases/one-more-kiss/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "newsUrl": "news/one-more-kiss-release/",
+      "duration": 337,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "One More Kiss",
+        "神代煌牙",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "切ない",
+        "危うい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "切ない",
+        "危うい"
+      ],
+      "lyrics": "",
+      "introduction": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "publishedAt": "2026-08-02T20:00:05+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/koga-one-more-kiss.jpg"
+      ],
+      "productionNote": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "seo": {
+        "title": "One More Kiss｜神代煌牙｜SUZUKA Official Music",
+        "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-02",
+      "videoPublishedAt": "2026-08-02T20:00:05+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=EP7NAPlGhuo"
+    },
+    {
+      "id": "lost-signal",
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "displayTitle": "LOST SIGNAL",
+      "englishTitle": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-08-01",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "ダークポップ"
+      ],
+      "moods": [
+        "ダーク",
+        "壮大"
+      ],
+      "themes": [
+        "喪失",
+        "つながり",
+        "未来"
+      ],
+      "language": "ja",
+      "coverImage": "images/eclypse-lost-signal.jpg",
+      "coverAlt": "ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル",
+      "releaseUrl": "releases/lost-signal/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "newsUrl": "news/lost-signal-release/",
+      "duration": 285,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "LOST SIGNAL",
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "ダーク",
+        "壮大"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "ダーク",
+        "壮大"
+      ],
+      "lyrics": "",
+      "introduction": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "publishedAt": "2026-08-01T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/eclypse-lost-signal.jpg"
+      ],
+      "productionNote": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "seo": {
+        "title": "LOST SIGNAL｜ECLYPSE｜SUZUKA Official Music",
+        "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-01",
+      "videoPublishedAt": "2026-08-01T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=CbpvpKllc6c"
+    },
+    {
+      "id": "without-worrying",
+      "slug": "without-worrying",
+      "title": "Without Worrying",
+      "displayTitle": "Without Worrying",
+      "englishTitle": "Without Worrying",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-31",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "moods": [
+        "温かい",
+        "切ない"
+      ],
+      "themes": [
+        "癒やし",
+        "応援",
+        "希望"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-without-worrying.jpg",
+      "coverAlt": "榎本魅愛「Without Worrying」公式YouTubeサムネイル",
+      "releaseUrl": "releases/without-worrying/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "newsUrl": "news/without-worrying-release/",
+      "duration": 210,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "Without Worrying",
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "温かい",
+        "切ない"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "温かい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "publishedAt": "2026-07-31T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/mv-without-worrying.jpg"
+      ],
+      "productionNote": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "seo": {
+        "title": "Without Worrying｜榎本魅愛｜SUZUKA Official Music",
+        "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-07-31T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk"
+    },
+    {
+      "id": "koisuru-maharaja",
+      "slug": "koisuru-maharaja",
+      "title": "恋するマハラジャ",
+      "displayTitle": "恋するマハラジャ",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "artistSlugs": [
+        "rangili"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-30",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "インド×J-POP"
+      ],
+      "moods": [
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "themes": [
+        "恋愛",
+        "文化"
+      ],
+      "language": "ja",
+      "coverImage": "images/rangili-koisuru-maharaja.jpg",
+      "coverAlt": "RANGILI「恋するマハラジャ」公式YouTubeサムネイル",
+      "releaseUrl": "releases/koisuru-maharaja/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
+      "newsUrl": "news/koisuru-maharaja-release/",
+      "duration": 377,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RANGILI",
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "恋するマハラジャ"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "華やか",
+        "エネルギッシュ"
+      ],
+      "lyrics": "",
+      "introduction": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-30T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/rangili-koisuru-maharaja.jpg"
+      ],
+      "productionNote": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "恋するマハラジャ｜RANGILI｜SUZUKA Official Music",
+        "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-30",
+      "videoPublishedAt": "2026-07-30T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published"
+    },
     {
       "id": "chimpanzee-no-rakuen",
       "slug": "chimpanzee-no-rakuen",
@@ -675,7 +995,7 @@
         "笑顔"
       ],
       "language": "ja",
-      "coverImage": "images/mv-smile-and-say-goodbye.png",
+      "coverImage": "images/youtube-smile-and-say-goodbye.jpg",
       "coverAlt": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット",
       "releaseUrl": "releases/smile-and-say-goodbye/",
       "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
@@ -714,7 +1034,7 @@
       "instagramUrl": "",
       "shortsUrl": null,
       "galleryImages": [
-        "images/mv-smile-and-say-goodbye.png"
+        "images/youtube-smile-and-say-goodbye.jpg"
       ],
       "productionNote": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
       "seo": {
@@ -755,7 +1075,7 @@
         "痛み"
       ],
       "language": "ja",
-      "coverImage": "images/mv-boukyaku-no-ikimono.png",
+      "coverImage": "images/youtube-boukyaku-no-ikimono.jpg",
       "coverAlt": "神代 煌牙「忘却の生き物」公式ジャケット",
       "releaseUrl": "releases/boukyaku-no-ikimono/",
       "youtubeUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
@@ -798,7 +1118,7 @@
       "instagramUrl": "",
       "shortsUrl": null,
       "galleryImages": [
-        "images/mv-boukyaku-no-ikimono.png"
+        "images/youtube-boukyaku-no-ikimono.jpg"
       ],
       "productionNote": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
       "seo": {
@@ -2124,149 +2444,163 @@
       "videoPublishedAt": "2026-07-12T19:42:52+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "koisuru-maharaja",
-      "slug": "koisuru-maharaja",
-      "title": "恋するマハラジャ",
-      "displayTitle": "恋するマハラジャ",
-      "artist": "RANGILI",
-      "artistSlug": "rangili",
-      "artistSlugs": [
-        "rangili"
-      ],
-      "artistType": "MusicGroup",
-      "releaseDate": "2026-07-30",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP",
-        "インド×J-POP"
-      ],
-      "moods": [
-        "華やか",
-        "エネルギッシュ"
-      ],
-      "themes": [
-        "恋愛",
-        "文化"
-      ],
-      "language": "ja",
-      "coverImage": "images/rangili-koisuru-maharaja.jpg",
-      "coverAlt": "RANGILI「恋するマハラジャ」公式YouTubeサムネイル",
-      "releaseUrl": "releases/koisuru-maharaja/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=V3DOM83zeLk",
-      "newsUrl": "news/koisuru-maharaja-release/",
-      "duration": 377,
-      "status": "published",
-      "featured": true,
-      "recommendationWeight": 3,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "RANGILI",
-        "J-POP",
-        "インド×J-POP",
-        "恋愛",
-        "文化",
-        "恋するマハラジャ"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
-      "tags": [
-        "J-POP",
-        "インド×J-POP",
-        "恋愛",
-        "文化",
-        "華やか",
-        "エネルギッシュ"
-      ],
-      "lyrics": "",
-      "introduction": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-30T20:00:06+09:00",
-      "instagramUrl": "",
-      "shortsUrl": "",
-      "galleryImages": [
-        "images/rangili-koisuru-maharaja.jpg"
-      ],
-      "productionNote": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "恋するマハラジャ｜RANGILI｜SUZUKA Official Music",
-        "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。 SUZUKAの架空のAIアーティスト作品です。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-30",
-      "videoPublishedAt": "2026-07-30T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "videoStructuredDataStatus": "published"
     }
   ],
   "upcoming": [
-    {
-      "slug": "without-worrying",
-      "title": "Without Worrying",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-07-31T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
-      "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-07-31T20:00:00+09:00"
-    },
-    {
-      "slug": "lost-signal",
-      "title": "LOST SIGNAL",
-      "artist": "ECLYPSE",
-      "artistSlug": "eclypse",
-      "scheduledAt": "2026-08-01T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
-      "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-08-01T20:00:00+09:00"
-    },
-    {
-      "slug": "one-more-kiss",
-      "title": "One More Kiss",
-      "artist": "神代煌牙",
-      "artistSlug": "koga-kamishiro",
-      "scheduledAt": "2026-08-02T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
-      "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-08-02T20:00:00+09:00"
-    },
     {
       "slug": "zennin-saiban",
       "title": "善人裁判",
       "artist": "NOX",
       "artistSlug": "nox",
       "scheduledAt": "2026-08-03T20:00:00+09:00",
-      "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "status": "upcoming",
       "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
       "genres": [],
       "themes": [],
       "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
       "publishedAt": "2026-08-03T20:00:00+09:00"
+    },
+    {
+      "slug": "still-alive",
+      "title": "Still alive",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "scheduledAt": "2026-08-04T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-04T20:00:00+09:00"
+    },
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-05T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-05T20:00:00+09:00"
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "scheduledAt": "2026-08-06T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-06T20:00:00+09:00"
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-07T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-07T20:00:00+09:00"
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-08T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/uibakv4n2Dg/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-08T20:00:00+09:00"
+    },
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-09T20:00:00+09:00"
     }
   ],
   "news": [
+    {
+      "slug": "one-more-kiss-release",
+      "title": "神代煌牙「One More Kiss」公開",
+      "artistSlug": "koga-kamishiro",
+      "releaseSlug": "one-more-kiss",
+      "publishedAt": "2026-08-02T20:00:05+09:00",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "image": "images/koga-one-more-kiss.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "lost-signal-release",
+      "title": "ECLYPSE「LOST SIGNAL」公開",
+      "artistSlug": "eclypse",
+      "releaseSlug": "lost-signal",
+      "publishedAt": "2026-08-01T20:00:06+09:00",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "image": "images/eclypse-lost-signal.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "without-worrying-release",
+      "title": "榎本魅愛「Without Worrying」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "without-worrying",
+      "publishedAt": "2026-07-31T20:00:06+09:00",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "image": "images/mv-without-worrying.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "koisuru-maharaja-release",
+      "title": "RANGILI「恋するマハラジャ」公開",
+      "artistSlug": "rangili",
+      "releaseSlug": "koisuru-maharaja",
+      "publishedAt": "2026-07-30T20:00:00+09:00",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "image": "images/rangili-koisuru-maharaja.jpg",
+      "status": "published"
+    },
     {
       "slug": "chimpanzee-no-rakuen-release",
       "title": "NOX「チンパンジーの楽園」公開",
@@ -2334,7 +2668,7 @@
       "releaseSlug": "smile-and-say-goodbye",
       "publishedAt": "2026-07-22T20:00:00+09:00",
       "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
-      "image": "images/mv-smile-and-say-goodbye.png",
+      "image": "images/youtube-smile-and-say-goodbye.jpg",
       "status": "published"
     },
     {
@@ -2378,8 +2712,8 @@
       "status": "published"
     },
     {
-      "slug": "shadow-code-release",
-      "title": "ECLYPSE「SHADOW//CODE」公開",
+      "slug": "shadow-code-announcement",
+      "title": "デビューシングル「SHADOW//CODE」を発表。",
       "artistSlug": "eclypse",
       "releaseSlug": "shadow-code",
       "publishedAt": "2026-07-14T20:00:00+09:00",
@@ -2395,16 +2729,6 @@
       "publishedAt": "2026-07-12T20:00:00+09:00",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
       "image": "images/mv-hyakumankoku.jpg",
-      "status": "published"
-    },
-    {
-      "slug": "koisuru-maharaja-release",
-      "title": "RANGILI「恋するマハラジャ」公開",
-      "artistSlug": "rangili",
-      "releaseSlug": "koisuru-maharaja",
-      "publishedAt": "2026-07-30T20:00:00+09:00",
-      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
-      "image": "images/rangili-koisuru-maharaja.jpg",
       "status": "published"
     }
   ],

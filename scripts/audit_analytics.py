@@ -8,6 +8,8 @@ MEASUREMENT_ID = "G-LS3PCRB60D"
 EVENTS = (
     "official_mv_click", "youtube_click", "instagram_click", "release_click",
     "search_use", "playlist_click", "weekly_pick_click", "artist_click",
+    "news_click", "gallery_click", "wiki_click", "universe_click",
+    "community_click", "shorts_click", "outbound_click",
 )
 
 def main() -> int:

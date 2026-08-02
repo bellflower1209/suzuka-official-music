@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-07-30T23:39:20+09:00",
+  "evidenceCheckedAt": "2026-08-03T00:50:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 154,
-    "videoObjects": 56,
+    "jsonLdBlocks": 163,
+    "videoObjects": 62,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -434,13 +434,49 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 51,
-  "removedUnverifiedVideoObjectCount": 7,
+  "fixedVideoObjectCount": 57,
+  "removedUnverifiedVideoObjectCount": 1,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
     "KHZMfULXuGQ",
     "o7AOgpc2O-k"
   ],
-  "heldReleases": [],
-  "heldReleaseCount": 0
+  "heldReleases": [
+    {
+      "releaseSlug": "hajimemashite-kiseki",
+      "youtubeId": "rr12NZuWHHs",
+      "verifiedDate": "2026-07-31"
+    },
+    {
+      "releaseSlug": "hanakotoba",
+      "youtubeId": "mdTogs4Oiew",
+      "verifiedDate": "2026-08-01"
+    },
+    {
+      "releaseSlug": "kimi-ni-kakatta-mahou",
+      "youtubeId": "iEFPd6kYYJc",
+      "verifiedDate": "2026-08-02"
+    },
+    {
+      "releaseSlug": "mermaid-no-geboku",
+      "youtubeId": "uibakv4n2Dg",
+      "verifiedDate": "2026-08-02"
+    },
+    {
+      "releaseSlug": "still-alive",
+      "youtubeId": "KCviOsGatOY",
+      "verifiedDate": "2026-07-31"
+    },
+    {
+      "releaseSlug": "wasureji-no-hito",
+      "youtubeId": "tbysXktPNk4",
+      "verifiedDate": "2026-07-31"
+    },
+    {
+      "releaseSlug": "zennin-saiban",
+      "youtubeId": "8BjnnX3xeGw",
+      "verifiedDate": "2026-07-29"
+    }
+  ],
+  "heldReleaseCount": 7
 }

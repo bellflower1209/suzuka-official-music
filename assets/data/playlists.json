@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "updatedAt": "2026-08-03T00:45:42+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -18,6 +18,8 @@
       "description": "恋愛をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "koisuru-maharaja",
+        "one-more-kiss",
+        "without-worrying",
         "ai-demo-wakaranai",
         "hyakumankoku",
         "kimi-to-nara-last-boss-made",
@@ -36,7 +38,7 @@
         "toriatsukai-chui",
         "ashita-wa-kitto"
       ],
-      "count": 18
+      "count": 20
     },
     {
       "slug": "summer",
@@ -85,10 +87,11 @@
       "name": "応援",
       "description": "応援をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "without-worrying",
         "heal-you-again",
         "ashita-wa-kitto"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "slug": "tearjerkers",
@@ -140,10 +143,11 @@
       "name": "K-POP風",
       "description": "K-POP風をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "lost-signal",
         "red-moon-rising",
         "shadow-code"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "slug": "visual-kei",
@@ -183,6 +187,9 @@
       "description": "人気曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "without-worrying",
         "ai-demo-wakaranai",
         "boukyaku-no-ikimono",
         "echoes-of-you",
@@ -198,10 +205,7 @@
         "my-queen-my-oath",
         "namaste-galaxy",
         "our-kingdom",
-        "red-moon-rising",
-        "shadow-code",
-        "smile-and-say-goodbye",
-        "suki-ga-kyou-mo-fueteiku"
+        "red-moon-rising"
       ],
       "count": 20
     },
@@ -212,6 +216,9 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
@@ -228,10 +235,7 @@
         "toriatsukai-chui",
         "shadow-code",
         "our-kingdom",
-        "mirai-no-watashi-ga-miteru",
-        "tokenai-mahou-wo-ai-to-yobu",
-        "muteki-jikan-ato-3byou",
-        "mia"
+        "mirai-no-watashi-ga-miteru"
       ],
       "count": 20
     },
@@ -244,6 +248,9 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
         "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
@@ -260,10 +267,7 @@
         "toriatsukai-chui",
         "shadow-code",
         "our-kingdom",
-        "mirai-no-watashi-ga-miteru",
-        "tokenai-mahou-wo-ai-to-yobu",
-        "muteki-jikan-ato-3byou",
-        "mia"
+        "mirai-no-watashi-ga-miteru"
       ],
       "count": 20
     }

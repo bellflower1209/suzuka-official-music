@@ -25,6 +25,11 @@ LEGACY_REDIRECTS = {
     Path("releases/toriatsukai-chuui/index.html"): f"{PUBLIC_BASE_URL}/releases/toriatsukai-chui/",
 }
 CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+CREATOR_CMS = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+CMS_RELEASES_BY_ARTIST = {
+    slug: [release for release in CREATOR_CMS["releases"] if slug in release.get("artistSlugs", [release.get("artistSlug")])]
+    for slug in {artist["slug"] for artist in CREATOR_CMS["artists"]}
+}
 YOUTUBE_EVIDENCE = json.loads(
     (ROOT / "assets/data/youtube-publish-dates.json").read_text(encoding="utf-8")
 )
@@ -480,25 +485,28 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         if relative == Path("artists/enomoto-mia/index.html"):
             itemlist_id = f"{page_url}#releases"
             itemlist = schema_nodes.get(itemlist_id, {})
-            if itemlist.get("numberOfItems") != len(PUBLISHED_MIA):
-                errors.append(f"{relative}: release ItemList count must be {len(PUBLISHED_MIA)}")
+            expected = CMS_RELEASES_BY_ARTIST["enomoto-mia"]
+            if itemlist.get("numberOfItems") != len(expected):
+                errors.append(f"{relative}: release ItemList count must be {len(expected)}")
             listed = itemlist.get("itemListElement", [])
-            if [item.get("name") for item in listed] != published_titles:
-                errors.append(f"{relative}: release ItemList titles do not match the catalog")
+            if [item.get("name") for item in listed] != [item["displayTitle"] for item in expected]:
+                errors.append(f"{relative}: release ItemList titles do not match the creator CMS")
         if relative == Path("artists/koga-kamishiro/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#releases", {})
             listed = itemlist.get("itemListElement", [])
-            if itemlist.get("numberOfItems") != 4 or len(listed) != 4:
-                errors.append(f"{relative}: release ItemList must contain 4 works")
+            expected = CMS_RELEASES_BY_ARTIST["koga-kamishiro"]
+            if itemlist.get("numberOfItems") != len(expected) or len(listed) != len(expected):
+                errors.append(f"{relative}: release ItemList must contain {len(expected)} works")
             for item in listed:
                 if not str(item.get("url", "")).startswith(("https://", "http://")):
                     errors.append(f"{relative}: ItemList contains a relative URL: {item.get('url')}")
         if relative == Path("artists/eclypse/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#releases", {})
             listed = itemlist.get("itemListElement", [])
-            if itemlist.get("numberOfItems") != 2 or len(listed) != 2:
-                errors.append(f"{relative}: release ItemList must contain 2 works")
-            if [item.get("name") for item in listed] != ["RED MOON // RISING", "SHADOW//CODE"]:
+            expected = CMS_RELEASES_BY_ARTIST["eclypse"]
+            if itemlist.get("numberOfItems") != len(expected) or len(listed) != len(expected):
+                errors.append(f"{relative}: release ItemList must contain {len(expected)} works")
+            if [item.get("name") for item in listed] != [item["displayTitle"] for item in expected]:
                 errors.append(f"{relative}: ECLYPSE release order or titles are incorrect")
         if relative == Path("releases/index.html"):
             itemlist = schema_nodes.get(f"{page_url}#itemlist", {})
@@ -513,8 +521,9 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             listed = itemlist.get("itemListElement", [])
             if itemlist.get("numberOfItems") != len(listed):
                 errors.append(f"{relative}: ItemList numberOfItems does not match itemListElement")
-            if len(listed) != 13:
-                errors.append(f"{relative}: expected 13 official News entries, found {len(listed)}")
+            expected_news = len([item for item in CREATOR_CMS["news"] if item.get("status") == "published"])
+            if len(listed) != expected_news:
+                errors.append(f"{relative}: expected {expected_news} official News entries, found {len(listed)}")
         if relative == Path("releases/shadow-code/index.html"):
             recording = schema_nodes.get(f"{page_url}#recording", {})
             video = schema_nodes.get(f"{page_url}#video", {})

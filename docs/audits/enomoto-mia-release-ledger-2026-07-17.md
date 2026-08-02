@@ -19,7 +19,7 @@
 
 | 正式楽曲名 | 区分 | 状態 | slug | 専用ページ | YouTube | ジャケット | Profile | Releases | Top | Player | Sitemap | News |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| もしも明日、はじめましてになっても | 単独 | published | moshimo-ashita-hajimemashite-ni-natte-mo | https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/ | https://www.youtube.com/watch?v=GN6eoBDRm3w | `images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png` | 掲載 | 掲載 | 掲載 | 掲載 | 掲載 | なし |
+| もしも明日、はじめましてになっても | 単独 | published | moshimo-ashita-hajimemashite-ni-natte-mo | https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/ | https://www.youtube.com/watch?v=GN6eoBDRm3w | `images/mv-mia.jpg` | 掲載 | 掲載 | 掲載 | 掲載 | 掲載 | なし |
 | 好きが、今日も増えていく。 | 単独 | published | suki-ga-kyou-mo-fueteiku | https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/ | https://www.youtube.com/watch?v=XAZy5k9Q4rE | `images/mv-suki-ga-kyou-mo-fueteiku.jpg` | 掲載 | 掲載 | 掲載 | 掲載 | 掲載 | なし |
 | 取り扱いチュー💋い | 単独 | published | toriatsukai-chui | https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/ | https://www.youtube.com/watch?v=QXvpLCnyoOw | `images/mv-toriatsukai-chuui.jpg` | 掲載 | 掲載 | 掲載 | 掲載 | 掲載 | なし |
 | OUR KINGDOM | 共作 | published | our-kingdom | https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/ | https://www.youtube.com/watch?v=y26XVRkpfjw | `images/mv-our-kingdom.jpg` | 掲載 | 掲載 | 掲載 | 掲載 | 掲載 | なし |

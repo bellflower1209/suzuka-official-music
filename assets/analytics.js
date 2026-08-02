@@ -35,6 +35,7 @@
   ) || document;
   const detailsFor = anchor => {
     const context = contextFor(anchor);
+    const linkedPath = new URL(anchor.href, location.href).pathname;
     const releaseLink = context.querySelector('a[href*="/releases/"]');
     const releaseUrl = new URL(releaseLink?.href || location.href, location.href);
     const slug = releaseUrl.pathname.match(/\/releases\/([^/]+)\/?/)?.[1] || pageRelease;
@@ -50,6 +51,16 @@
       release_slug: clean(slug),
       artist_name: artist,
       link_url: safeLink(anchor.href),
+      content_type: clean(
+        anchor.closest("[data-weekly-pick]") ? "weekly_pick" :
+        linkedPath.includes("/releases/") ? "release" :
+        linkedPath.includes("/news/") ? "news" :
+        linkedPath.includes("/gallery/") ? "gallery" :
+        linkedPath.includes("/wiki/") ? "wiki" :
+        linkedPath.includes("/universe/") ? "universe" :
+        linkedPath.includes("/community/") ? "community" :
+        linkedPath.includes("/playlists/") ? "playlist" : "link"
+      ),
     };
   };
   document.addEventListener("click", event => {
@@ -66,11 +77,18 @@
     const details = detailsFor(anchor);
     if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);
     if (youtubeChannel) send("youtube_click", details);
+    else if (youtubeVideo && path.includes("/shorts/")) send("shorts_click", details);
     else if (youtubeVideo) send("official_mv_click", details);
     if (url.hostname.includes("instagram.com")) send("instagram_click", details);
     if (url.origin === location.origin && /\/releases\/[^/]+\/?$/.test(path)) send("release_click", details);
     if (url.origin === location.origin && /\/playlists\/(?:[^/]+\/?)?$/.test(path)) send("playlist_click", details);
     if (url.origin === location.origin && /\/artists\/[^/]+\/?$/.test(path)) send("artist_click", details);
+    if (url.origin === location.origin && /\/news\/[^/]+\/?$/.test(path)) send("news_click", details);
+    if (url.origin === location.origin && /\/gallery\/(?:[^/]+\/?)?$/.test(path)) send("gallery_click", details);
+    if (url.origin === location.origin && /\/wiki\/(?:[^/]+\/?)?$/.test(path)) send("wiki_click", details);
+    if (url.origin === location.origin && /\/universe\/?$/.test(path)) send("universe_click", details);
+    if (url.origin === location.origin && /\/community\/?$/.test(path)) send("community_click", details);
+    if (url.origin !== location.origin) send("outbound_click", details);
   });
   const form = document.querySelector("[data-search-form]");
   if (form) {

@@ -223,7 +223,7 @@ def admin_pages(root: Path, cms: dict) -> None:
     fields = [
         "アーティスト", "作品", "News", "ジャケット", "MV", "Shorts", "Gallery", "Universe", "Wiki",
         "ジャンル", "テーマ", "タグ", "歌詞", "紹介文", "公開日時", "YouTube", "Instagram", "検索キーワード",
-        "関連作品", "JSON-LD", "SEO",
+        "関連作品", "英語表記", "JSON-LD", "SEO", "Feed",
     ]
     field_html = "".join(f"<li>{x}</li>" for x in fields)
     raw = html.escape(json.dumps(cms, ensure_ascii=False, indent=2))
@@ -237,7 +237,7 @@ def admin_pages(root: Path, cms: dict) -> None:
 <button id="cms-download">JSONを書き出す</button><label class="creator-file">JSONを読み込む<input id="cms-import" type="file" accept="application/json"/></label></div>
 <output id="cms-status" aria-live="polite"></output></section>
 <section><h2>公開手順</h2><ol><li>JSONを検証</li><li><code>assets/data/creator-cms.json</code>へ反映</li>
-<li><code>python3 scripts/build_explore_catalog.py</code>を2回実行</li><li>全監査後に公開</li></ol></section>"""
+<li><code>python3 scripts/build_explore_catalog.py</code>を2回実行</li><li>sitemap・画像・動画・feed監査後に公開</li></ol></section>"""
     page = shell("admin/", "Creator CMS｜SUZUKA Admin", "SUZUKA AIアーティスト総合プラットフォームの正本データ管理画面。",
                  "Creator CMS", body, [], page_type="WebPage")
     page = page.replace('content="index, follow"', 'content="noindex, nofollow"').replace(
@@ -352,8 +352,7 @@ def top_and_nav(root: Path, playlists_data: list[dict]) -> None:
         '<div class="creator-link-grid"><a class="creator-link-card" href="./playlists/"><h3>人気プレイリスト</h3><p>テーマや気分から作品を選ぶ</p></a>'
         '<a class="creator-link-card" href="./community/"><h3>Community</h3><p>人気投票とおすすめ曲</p></a>'
         '<a class="creator-link-card" href="./universe/"><h3>Universe 2.0</h3><p>年表・相関図・世界MAP</p></a>'
-        '<a class="creator-link-card" href="./en/" lang="en"><h3>English</h3><p>Explore SUZUKA in English</p></a>'
-        '<a class="creator-link-card" href="./admin/"><h3>Creator CMS</h3><p>正本データと公開品質を管理</p></a></div></section>'
+        '<a class="creator-link-card" href="./en/" lang="en"><h3>English</h3><p>Explore SUZUKA in English</p></a></div></section>'
     )
     marker_upsert(home, "HOME", content)
     for path in root.glob("**/index.html"):
@@ -372,7 +371,11 @@ def normalize_generated_assets(root: Path, cms: dict) -> None:
     current = {item["slug"]: item.get("coverImage", "") for item in cms["releases"]}
     replacements = {
         "images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png":
-            current.get("moshimo-ashita-hajimemashite-ni-natte-mo", "images/mv-mia.jpg")
+            current.get("moshimo-ashita-hajimemashite-ni-natte-mo", "images/mv-mia.jpg"),
+        "images/mv-boukyaku-no-ikimono.png":
+            current.get("boukyaku-no-ikimono", "images/youtube-boukyaku-no-ikimono.jpg"),
+        "images/mv-smile-and-say-goodbye.png":
+            current.get("smile-and-say-goodbye", "images/youtube-smile-and-say-goodbye.jpg"),
     }
     for path in root.glob("**/index.html"):
         text = path.read_text(encoding="utf-8")
@@ -436,6 +439,7 @@ gtag('config', '{GA4_MEASUREMENT_ID}', {{
   ) || document;
   const detailsFor = anchor => {
     const context = contextFor(anchor);
+    const linkedPath = new URL(anchor.href, location.href).pathname;
     const releaseLink = context.querySelector('a[href*="/releases/"]');
     const releaseUrl = new URL(releaseLink?.href || location.href, location.href);
     const slug = releaseUrl.pathname.match(/\\/releases\\/([^/]+)\\/?/)?.[1] || pageRelease;
@@ -451,6 +455,16 @@ gtag('config', '{GA4_MEASUREMENT_ID}', {{
       release_slug: clean(slug),
       artist_name: artist,
       link_url: safeLink(anchor.href),
+      content_type: clean(
+        anchor.closest("[data-weekly-pick]") ? "weekly_pick" :
+        linkedPath.includes("/releases/") ? "release" :
+        linkedPath.includes("/news/") ? "news" :
+        linkedPath.includes("/gallery/") ? "gallery" :
+        linkedPath.includes("/wiki/") ? "wiki" :
+        linkedPath.includes("/universe/") ? "universe" :
+        linkedPath.includes("/community/") ? "community" :
+        linkedPath.includes("/playlists/") ? "playlist" : "link"
+      ),
     };
   };
   document.addEventListener("click", event => {
@@ -467,11 +481,18 @@ gtag('config', '{GA4_MEASUREMENT_ID}', {{
     const details = detailsFor(anchor);
     if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);
     if (youtubeChannel) send("youtube_click", details);
+    else if (youtubeVideo && path.includes("/shorts/")) send("shorts_click", details);
     else if (youtubeVideo) send("official_mv_click", details);
     if (url.hostname.includes("instagram.com")) send("instagram_click", details);
     if (url.origin === location.origin && /\\/releases\\/[^/]+\\/?$/.test(path)) send("release_click", details);
     if (url.origin === location.origin && /\\/playlists\\/(?:[^/]+\\/?)?$/.test(path)) send("playlist_click", details);
     if (url.origin === location.origin && /\\/artists\\/[^/]+\\/?$/.test(path)) send("artist_click", details);
+    if (url.origin === location.origin && /\\/news\\/[^/]+\\/?$/.test(path)) send("news_click", details);
+    if (url.origin === location.origin && /\\/gallery\\/(?:[^/]+\\/?)?$/.test(path)) send("gallery_click", details);
+    if (url.origin === location.origin && /\\/wiki\\/(?:[^/]+\\/?)?$/.test(path)) send("wiki_click", details);
+    if (url.origin === location.origin && /\\/universe\\/?$/.test(path)) send("universe_click", details);
+    if (url.origin === location.origin && /\\/community\\/?$/.test(path)) send("community_click", details);
+    if (url.origin !== location.origin) send("outbound_click", details);
   });
   const form = document.querySelector("[data-search-form]");
   if (form) {

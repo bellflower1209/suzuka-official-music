@@ -1,6 +1,385 @@
 {
-  "updatedAt": "2026-07-30T19:30:00+09:00",
+  "updatedAt": "2026-08-03T00:45:42+09:00",
   "releases": [
+    {
+      "id": "one-more-kiss",
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "displayTitle": "One More Kiss",
+      "englishTitle": "One More Kiss",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-02",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ダークポップ"
+      ],
+      "moods": [
+        "切ない",
+        "危うい"
+      ],
+      "themes": [
+        "恋愛",
+        "孤独",
+        "夜"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-one-more-kiss.jpg",
+      "coverAlt": "神代煌牙「One More Kiss」公式YouTubeサムネイル",
+      "releaseUrl": "releases/one-more-kiss/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "newsUrl": "news/one-more-kiss-release/",
+      "duration": 337,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "One More Kiss",
+        "神代煌牙",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "切ない",
+        "危うい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "tags": [
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "切ない",
+        "危うい"
+      ],
+      "lyrics": "",
+      "introduction": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "publishedAt": "2026-08-02T20:00:05+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/koga-one-more-kiss.jpg"
+      ],
+      "productionNote": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "seo": {
+        "title": "One More Kiss｜神代煌牙｜SUZUKA Official Music",
+        "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-02",
+      "videoPublishedAt": "2026-08-02T20:00:05+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "recommendations": {
+        "sameArtist": [
+          "echoes-of-you",
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath"
+        ],
+        "sameGenre": [
+          "echoes-of-you",
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath",
+          "koisuru-maharaja",
+          "ai-demo-wakaranai",
+          "hyakumankoku"
+        ],
+        "sameTheme": [
+          "koisuru-maharaja",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "kimi-wa-hanabi",
+          "mermaid-merman"
+        ],
+        "popular": [
+          "koisuru-maharaja",
+          "lost-signal",
+          "without-worrying",
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you"
+        ],
+        "recent": [
+          "lost-signal",
+          "without-worrying",
+          "koisuru-maharaja",
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again"
+        ],
+        "aiRecommended": [
+          "echoes-of-you",
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath",
+          "koisuru-maharaja",
+          "ai-demo-wakaranai",
+          "hyakumankoku"
+        ]
+      }
+    },
+    {
+      "id": "lost-signal",
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "displayTitle": "LOST SIGNAL",
+      "englishTitle": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-08-01",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "ダークポップ"
+      ],
+      "moods": [
+        "ダーク",
+        "壮大"
+      ],
+      "themes": [
+        "喪失",
+        "つながり",
+        "未来"
+      ],
+      "language": "ja",
+      "coverImage": "images/eclypse-lost-signal.jpg",
+      "coverAlt": "ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル",
+      "releaseUrl": "releases/lost-signal/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "newsUrl": "news/lost-signal-release/",
+      "duration": 285,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "LOST SIGNAL",
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "ダーク",
+        "壮大"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "ダーク",
+        "壮大"
+      ],
+      "lyrics": "",
+      "introduction": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "publishedAt": "2026-08-01T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/eclypse-lost-signal.jpg"
+      ],
+      "productionNote": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "seo": {
+        "title": "LOST SIGNAL｜ECLYPSE｜SUZUKA Official Music",
+        "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-01",
+      "videoPublishedAt": "2026-08-01T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "recommendations": {
+        "sameArtist": [
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "sameGenre": [
+          "shadow-code",
+          "red-moon-rising",
+          "one-more-kiss",
+          "echoes-of-you",
+          "boukyaku-no-ikimono"
+        ],
+        "sameTheme": [
+          "shadow-code"
+        ],
+        "popular": [
+          "koisuru-maharaja",
+          "one-more-kiss",
+          "without-worrying",
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you"
+        ],
+        "recent": [
+          "one-more-kiss",
+          "without-worrying",
+          "koisuru-maharaja",
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again"
+        ],
+        "aiRecommended": [
+          "shadow-code",
+          "red-moon-rising",
+          "one-more-kiss",
+          "echoes-of-you",
+          "boukyaku-no-ikimono",
+          "without-worrying"
+        ]
+      }
+    },
+    {
+      "id": "without-worrying",
+      "slug": "without-worrying",
+      "title": "Without Worrying",
+      "displayTitle": "Without Worrying",
+      "englishTitle": "Without Worrying",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-31",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "moods": [
+        "温かい",
+        "切ない"
+      ],
+      "themes": [
+        "癒やし",
+        "応援",
+        "希望"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-without-worrying.jpg",
+      "coverAlt": "榎本魅愛「Without Worrying」公式YouTubeサムネイル",
+      "releaseUrl": "releases/without-worrying/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "newsUrl": "news/without-worrying-release/",
+      "duration": 210,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "Without Worrying",
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "温かい",
+        "切ない"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "温かい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "publishedAt": "2026-07-31T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/mv-without-worrying.jpg"
+      ],
+      "productionNote": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "seo": {
+        "title": "Without Worrying｜榎本魅愛｜SUZUKA Official Music",
+        "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-07-31T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "recommendations": {
+        "sameArtist": [
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo",
+          "toriatsukai-chui",
+          "our-kingdom"
+        ],
+        "sameGenre": [
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "smile-and-say-goodbye",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ],
+        "sameTheme": [
+          "ashita-wa-kitto",
+          "heal-you-again"
+        ],
+        "popular": [
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "ai-demo-wakaranai",
+          "boukyaku-no-ikimono",
+          "echoes-of-you"
+        ],
+        "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "koisuru-maharaja",
+          "chimpanzee-no-rakuen",
+          "ashita-wa-kitto",
+          "heal-you-again"
+        ],
+        "aiRecommended": [
+          "ashita-wa-kitto",
+          "heal-you-again",
+          "smile-and-say-goodbye",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made"
+        ]
+      }
+    },
     {
       "id": "koisuru-maharaja",
       "slug": "koisuru-maharaja",
@@ -80,43 +459,43 @@
         ],
         "sameGenre": [
           "namaste-galaxy",
+          "one-more-kiss",
           "ai-demo-wakaranai",
           "hyakumankoku",
           "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi",
-          "mermaid-merman"
+          "kimi-wa-hanabi"
         ],
         "sameTheme": [
           "namaste-galaxy",
+          "one-more-kiss",
           "ai-demo-wakaranai",
           "hyakumankoku",
           "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi",
-          "mermaid-merman"
+          "kimi-wa-hanabi"
         ],
         "popular": [
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
           "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "echoes-of-you"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "chimpanzee-no-rakuen",
           "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "heal-you-again"
         ],
         "aiRecommended": [
           "namaste-galaxy",
+          "one-more-kiss",
           "ai-demo-wakaranai",
           "hyakumankoku",
           "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi",
-          "mermaid-merman"
+          "kimi-wa-hanabi"
         ]
       }
     },
@@ -205,27 +584,27 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "heal-you-again"
         ],
         "aiRecommended": [
           "boukyaku-no-ikimono",
           "koisuru-maharaja",
+          "without-worrying",
           "ashita-wa-kitto",
           "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "lost-signal"
         ]
       }
     },
@@ -310,47 +689,48 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
           "toriatsukai-chui",
-          "our-kingdom",
-          "mirai-no-watashi-ga-miteru"
+          "our-kingdom"
         ],
         "sameGenre": [
+          "without-worrying",
           "smile-and-say-goodbye",
           "heal-you-again",
           "ai-demo-wakaranai",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "sameTheme": [
+          "without-worrying",
           "heal-you-again"
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "heal-you-again"
         ],
         "aiRecommended": [
+          "without-worrying",
           "smile-and-say-goodbye",
           "heal-you-again",
           "ai-demo-wakaranai",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ]
       }
     },
@@ -437,39 +817,40 @@
       "recommendations": {
         "sameArtist": [],
         "sameGenre": [
+          "without-worrying",
           "ashita-wa-kitto",
           "echoes-of-you",
           "koisuru-maharaja",
           "namaste-galaxy",
-          "smile-and-say-goodbye",
-          "my-queen-my-oath"
+          "one-more-kiss"
         ],
         "sameTheme": [
+          "without-worrying",
           "ashita-wa-kitto"
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "echoes-of-you",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
+          "without-worrying",
           "ashita-wa-kitto",
           "echoes-of-you",
           "koisuru-maharaja",
           "namaste-galaxy",
-          "smile-and-say-goodbye",
-          "my-queen-my-oath"
+          "one-more-kiss"
         ]
       }
     },
@@ -555,41 +936,42 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "one-more-kiss",
           "boukyaku-no-ikimono",
           "my-queen-my-oath"
         ],
         "sameGenre": [
+          "one-more-kiss",
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "heal-you-again",
           "namaste-galaxy",
-          "ashita-wa-kitto",
-          "koisuru-maharaja"
+          "ashita-wa-kitto"
         ],
         "sameTheme": [],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "namaste-galaxy",
-          "wasurenai-kokoro"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
+          "one-more-kiss",
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "heal-you-again",
           "namaste-galaxy",
-          "ashita-wa-kitto",
-          "koisuru-maharaja"
+          "ashita-wa-kitto"
         ]
       }
     },
@@ -687,19 +1069,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "wasurenai-kokoro"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -796,19 +1178,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "kimi-wa-hanabi",
@@ -848,7 +1230,7 @@
         "笑顔"
       ],
       "language": "ja",
-      "coverImage": "images/mv-smile-and-say-goodbye.png",
+      "coverImage": "images/youtube-smile-and-say-goodbye.jpg",
       "coverAlt": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット",
       "releaseUrl": "releases/smile-and-say-goodbye/",
       "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
@@ -887,7 +1269,7 @@
       "instagramUrl": "",
       "shortsUrl": null,
       "galleryImages": [
-        "images/mv-smile-and-say-goodbye.png"
+        "images/youtube-smile-and-say-goodbye.jpg"
       ],
       "productionNote": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
       "seo": {
@@ -901,20 +1283,20 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
           "toriatsukai-chui",
-          "our-kingdom",
-          "mirai-no-watashi-ga-miteru"
+          "our-kingdom"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
+          "without-worrying",
           "our-kingdom",
           "my-queen-my-oath",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "suki-ga-kyou-mo-fueteiku",
-          "mirai-no-watashi-ga-miteru"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameTheme": [
           "our-kingdom",
@@ -922,27 +1304,27 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
+          "without-worrying",
           "our-kingdom",
           "my-queen-my-oath",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "suki-ga-kyou-mo-fueteiku",
-          "mirai-no-watashi-ga-miteru"
+          "suki-ga-kyou-mo-fueteiku"
         ]
       }
     },
@@ -974,7 +1356,7 @@
         "痛み"
       ],
       "language": "ja",
-      "coverImage": "images/mv-boukyaku-no-ikimono.png",
+      "coverImage": "images/youtube-boukyaku-no-ikimono.jpg",
       "coverAlt": "神代 煌牙「忘却の生き物」公式ジャケット",
       "releaseUrl": "releases/boukyaku-no-ikimono/",
       "youtubeUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
@@ -1017,7 +1399,7 @@
       "instagramUrl": "",
       "shortsUrl": null,
       "galleryImages": [
-        "images/mv-boukyaku-no-ikimono.png"
+        "images/youtube-boukyaku-no-ikimono.jpg"
       ],
       "productionNote": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
       "seo": {
@@ -1031,41 +1413,44 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "one-more-kiss",
           "echoes-of-you",
           "my-queen-my-oath"
         ],
         "sameGenre": [
           "echoes-of-you",
+          "one-more-kiss",
           "my-queen-my-oath",
           "red-moon-rising",
-          "shadow-code"
+          "shadow-code",
+          "lost-signal"
         ],
         "sameTheme": [
           "chimpanzee-no-rakuen"
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "echoes-of-you"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "echoes-of-you",
+          "one-more-kiss",
           "my-queen-my-oath",
           "red-moon-rising",
           "shadow-code",
-          "chimpanzee-no-rakuen",
-          "smile-and-say-goodbye"
+          "lost-signal"
         ]
       }
     },
@@ -1157,16 +1542,17 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "one-more-kiss",
           "echoes-of-you",
           "boukyaku-no-ikimono"
         ],
         "sameGenre": [
           "our-kingdom",
           "echoes-of-you",
+          "one-more-kiss",
           "smile-and-say-goodbye",
           "boukyaku-no-ikimono",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "namaste-galaxy"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "sameTheme": [
           "our-kingdom",
@@ -1176,27 +1562,27 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "our-kingdom",
           "echoes-of-you",
+          "one-more-kiss",
           "smile-and-say-goodbye",
           "boukyaku-no-ikimono",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "namaste-galaxy"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ]
       }
     },
@@ -1287,12 +1673,15 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "lost-signal",
           "shadow-code"
         ],
         "sameGenre": [
           "shadow-code",
+          "lost-signal",
           "boukyaku-no-ikimono",
-          "echoes-of-you"
+          "echoes-of-you",
+          "one-more-kiss"
         ],
         "sameTheme": [
           "shadow-code",
@@ -1300,27 +1689,27 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "shadow-code",
+          "lost-signal",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "my-queen-my-oath",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "suki-ga-kyou-mo-fueteiku"
+          "one-more-kiss"
         ]
       }
     },
@@ -1399,12 +1788,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
           "toriatsukai-chui",
-          "our-kingdom",
-          "mirai-no-watashi-ga-miteru"
+          "our-kingdom"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1424,19 +1813,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1523,12 +1912,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "toriatsukai-chui",
-          "our-kingdom",
-          "mirai-no-watashi-ga-miteru"
+          "our-kingdom"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -1548,19 +1937,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -1647,12 +2036,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "our-kingdom",
-          "mirai-no-watashi-ga-miteru"
+          "our-kingdom"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -1672,19 +2061,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -1778,40 +2167,44 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "lost-signal",
           "red-moon-rising"
         ],
         "sameGenre": [
           "red-moon-rising",
+          "lost-signal",
           "boukyaku-no-ikimono",
+          "one-more-kiss",
           "echoes-of-you"
         ],
         "sameTheme": [
           "red-moon-rising",
+          "lost-signal",
           "my-queen-my-oath"
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "red-moon-rising",
+          "lost-signal",
           "boukyaku-no-ikimono",
+          "one-more-kiss",
           "echoes-of-you",
-          "my-queen-my-oath",
-          "mirai-no-watashi-ga-miteru",
-          "our-kingdom"
+          "my-queen-my-oath"
         ]
       }
     },
@@ -1902,12 +2295,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "mirai-no-watashi-ga-miteru"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -1923,19 +2316,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -2022,12 +2415,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -2047,19 +2440,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -2146,12 +2539,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2171,19 +2564,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2270,12 +2663,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2295,19 +2688,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2394,12 +2787,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2419,19 +2812,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2518,12 +2911,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2543,19 +2936,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2642,12 +3035,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -2667,19 +3060,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku",
-          "kimi-to-nara-last-boss-made"
+          "echoes-of-you"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -2766,12 +3159,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -2791,19 +3184,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -2896,12 +3289,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -2921,19 +3314,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -3026,12 +3419,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -3051,19 +3444,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "hyakumankoku"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -3150,12 +3543,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
           "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "toriatsukai-chui"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -3175,19 +3568,19 @@
         ],
         "popular": [
           "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "without-worrying",
           "ai-demo-wakaranai",
-          "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "heal-you-again",
-          "kimi-to-nara-last-boss-made"
+          "boukyaku-no-ikimono"
         ],
         "recent": [
+          "one-more-kiss",
+          "lost-signal",
+          "without-worrying",
           "koisuru-maharaja",
           "chimpanzee-no-rakuen",
-          "ashita-wa-kitto",
-          "heal-you-again",
-          "echoes-of-you",
-          "namaste-galaxy"
+          "ashita-wa-kitto"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -3202,68 +3595,116 @@
   ],
   "upcoming": [
     {
-      "slug": "without-worrying",
-      "title": "Without Worrying",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-07-31T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
-      "image": "https://i.ytimg.com/vi/lMeYWn4Sqgk/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-07-31T20:00:00+09:00"
-    },
-    {
-      "slug": "lost-signal",
-      "title": "LOST SIGNAL",
-      "artist": "ECLYPSE",
-      "artistSlug": "eclypse",
-      "scheduledAt": "2026-08-01T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CbpvpKllc6c",
-      "image": "https://i.ytimg.com/vi/CbpvpKllc6c/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-08-01T20:00:00+09:00"
-    },
-    {
-      "slug": "one-more-kiss",
-      "title": "One More Kiss",
-      "artist": "神代煌牙",
-      "artistSlug": "koga-kamishiro",
-      "scheduledAt": "2026-08-02T20:00:00+09:00",
-      "status": "upcoming",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
-      "image": "https://i.ytimg.com/vi/EP7NAPlGhuo/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
-      "publishedAt": "2026-08-02T20:00:00+09:00"
-    },
-    {
       "slug": "zennin-saiban",
       "title": "善人裁判",
       "artist": "NOX",
       "artistSlug": "nox",
       "scheduledAt": "2026-08-03T20:00:00+09:00",
-      "status": "upcoming",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "status": "upcoming",
       "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
       "genres": [],
       "themes": [],
       "tags": [],
-      "description": "公式YouTubeプレミア公開予定。公開済み作品には含めていません。",
       "publishedAt": "2026-08-03T20:00:00+09:00"
+    },
+    {
+      "slug": "still-alive",
+      "title": "Still alive",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "scheduledAt": "2026-08-04T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-04T20:00:00+09:00"
+    },
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-05T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-05T20:00:00+09:00"
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "scheduledAt": "2026-08-06T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-06T20:00:00+09:00"
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-07T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-07T20:00:00+09:00"
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-08T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/uibakv4n2Dg/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-08T20:00:00+09:00"
+    },
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-09T20:00:00+09:00"
     }
   ]
 }

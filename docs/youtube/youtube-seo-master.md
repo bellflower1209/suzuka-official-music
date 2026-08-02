@@ -1,6 +1,6 @@
 # SUZUKA YouTube SEO Master
 
-最終監査日: 2026-07-20
+最終監査日: 2026-08-03
 対象チャンネル: [SUZUKA Official Music](https://www.youtube.com/@suzuka1209)
 公式サイト: [SUZUKA Official Music](https://bellflower1209.github.io/suzuka-official-music/)
 Instagram: [@suzuka12090511](https://www.instagram.com/suzuka12090511/)
@@ -19,47 +19,56 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 
 ## 0. 結論と公開状況
 
-- GitHub Pagesでは、リリースページ19件、News 7件、Artists 3件、SNSハブ、JSON-LD、サイトマップを確認した。
-- 公開サイトの内部URL 65件はすべてHTTP 200。サイトマップは35 URLで、重複・canonical不一致なし。
-- リリース台帳19作品のうち、公式YouTube動画を確認できたのは17作品。
-- YouTube URL未登録は「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」「忘却の生き物」の2作品。
-- データには20件目として「たった1人の君へ」があるが、`status: unpublished`で、slug、ページ、YouTube URL、画像、公開日が未設定。したがって「公開済み全20作品」は現時点では確認できない。
-- 本書では、公開確認済み19作品と未公開候補1作品を分離する。未確認URL、公開日、チャプターは推測しない。
+- 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は29件。
+- Upcomingは7件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
+- 公開日時と動画時間は公式YouTube証跡に保存し、未確認情報は推測しない。
+- 再生リスト、カード、終了画面などYouTube Studio内の設定は、実確認済みと提案済みを別管理する。
 
 ## 1. YouTube SEO管理表
 
-URLはすべて2026-07-20時点の確認値。MV時間は公式動画で確認できたものだけを記載する。
+| # | 作品名 | アーティスト | YouTube / 時間 | 公開日時（JST） | 公式サイト | 状態 |
+|---:|---|---|---|---|---|---|
+| 1 | One More Kiss | 神代煌牙 | [EP7NAPlGhuo](https://www.youtube.com/watch?v=EP7NAPlGhuo) / 5:37 | 2026-08-02T20:00:05+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/one-more-kiss/) | 公開確認済み |
+| 2 | LOST SIGNAL | ECLYPSE | [CbpvpKllc6c](https://www.youtube.com/watch?v=CbpvpKllc6c) / 4:45 | 2026-08-01T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/lost-signal/) | 公開確認済み |
+| 3 | Without Worrying | 榎本魅愛 | [lMeYWn4Sqgk](https://www.youtube.com/watch?v=lMeYWn4Sqgk) / 3:30 | 2026-07-31T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/without-worrying/) | 公開確認済み |
+| 4 | 恋するマハラジャ | RANGILI | [V3DOM83zeLk](https://www.youtube.com/watch?v=V3DOM83zeLk) / 6:17 | 2026-07-30T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/koisuru-maharaja/) | 公開確認済み |
+| 5 | チンパンジーの楽園 | NOX | [EJJLBOo103I](https://www.youtube.com/watch?v=EJJLBOo103I) / 2:28 | 2026-07-29T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/chimpanzee-no-rakuen/) | 公開確認済み |
+| 6 | 明日は、きっと。 | 榎本魅愛 | [5MkQZT5qiGA](https://www.youtube.com/watch?v=5MkQZT5qiGA) / 3:35 | 2026-07-29T01:22:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/ashita-wa-kitto/) | 公開確認済み |
+| 7 | Heal You Again | RE:VIVE | [XHjDSEoFcXE](https://www.youtube.com/watch?v=XHjDSEoFcXE) / 1:45 | 2026-07-27T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/) | 公開確認済み |
+| 8 | Echoes of You | 神代 煌牙 | [Uxtp9TLw47g](https://www.youtube.com/watch?v=Uxtp9TLw47g) / 8:04 | 2026-07-26T20:00:22+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/) | 公開確認済み |
+| 9 | NAMASTE☆GALAXY | RANGILI | [CQ0bfdXVrck](https://www.youtube.com/watch?v=CQ0bfdXVrck) / 2:43 | 2026-07-24T20:00:11+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/namaste-galaxy/) | 公開確認済み |
+| 10 | 忘れない心 | 朝霧しのぶ | [YxZWABTJBGk](https://www.youtube.com/watch?v=YxZWABTJBGk) / 5:11 | 2026-07-23T20:00:34+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/wasurenai-kokoro/) | 公開確認済み |
+| 11 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | [b2n8gcpen58](https://www.youtube.com/watch?v=b2n8gcpen58) / 8:17 | 2026-07-22T20:00:31+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/) | 公開確認済み |
+| 12 | 忘却の生き物 | 神代 煌牙 | [yREvkT9gEk4](https://www.youtube.com/watch?v=yREvkT9gEk4) / 4:44 | 2026-07-21T19:00:30+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/) | 公開確認済み |
+| 13 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:57 | 2026-07-20T19:00:07+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/) | 公開確認済み |
+| 14 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:04 | 2026-07-18T19:52:02+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/) | 公開確認済み |
+| 15 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16T18:31:46+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/) | 公開確認済み |
+| 16 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:57 | 2026-07-16T20:50:27+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) | 公開確認済み |
+| 17 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:24 | 2026-07-15T00:51:42+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/) | 公開確認済み |
+| 18 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14T22:47:31+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/shadow-code/) | 公開確認済み |
+| 19 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:17 | 2026-07-14T23:24:10+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/) | 公開確認済み |
+| 20 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:04 | 2026-07-14T22:31:20+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mirai-no-watashi-ga-miteru/) | 公開確認済み |
+| 21 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:20 | 2026-07-13T20:00:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/tokenai-mahou-wo-ai-to-yobu/) | 公開確認済み |
+| 22 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:52 | 2026-07-13T20:00:35+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/muteki-jikan-ato-3byou/) | 公開確認済み |
+| 23 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13T20:00:32+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mia/) | 公開確認済み |
+| 24 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13T15:27:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-to-nara-last-boss-made/) | 公開確認済み |
+| 25 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13T15:14:26+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/) | 公開確認済み |
+| 26 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:34 | 2026-07-12T20:00:59+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/sukitte-baretemo-ii/) | 公開確認済み |
+| 27 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-13T00:17:26+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mermaid-merman/) | 公開確認済み |
+| 28 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:40 | 2026-07-13T00:54:50+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-wa-hanabi/) | 公開確認済み |
+| 29 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:55 | 2026-07-12T19:42:52+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/hyakumankoku/) | 公開確認済み |
 
-| # | 作品名 | アーティスト | YouTube / 時間 | 公開日 | リリース / News | サムネイル | カテゴリ | 状態 |
-|---:|---|---|---|---|---|---|---|---|
-| 1 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:58 | 2026-07-20 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/my-queen-my-oath-release/) | `images/koga-my-queen-my-oath-cover.jpg` | Cinematic J-POP / Rock / ロイヤルロマンス | 公開確認済み |
-| 2 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:05 | 2026-07-18 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/red-moon-rising-release/) | `images/eclypse-red-moon-rising-cover.png` | K-POP / Dark Pop / EDM | 公開確認済み |
-| 3 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | 未確認 | 未確認 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/) / News未設定 | `images/mv-smile-and-say-goodbye.png` | J-POP / 切ないバラード | 動画URL不足 |
-| 4 | 忘却の生き物 | 神代 煌牙 | 未確認 | 未確認 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/) / News未設定 | `images/mv-boukyaku-no-ikimono.png` | Cinematic J-POP / Dark Pop | 動画URL不足 |
-| 5 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:58 | 2026-07-16 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/moshimo-ashita-hajimemashite-ni-natte-mo-release/) | `images/mv-moshimo-ashita-hajimemashite-ni-natte-mo.png` | J-POP / Romantic Pop / 切ない曲 | 公開確認済み |
-| 6 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/) / News未設定 | `images/mv-suki-ga-kyou-mo-fueteiku.jpg` | J-POP / Romantic Pop / 恋愛 | 公開確認済み |
-| 7 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:25 | 2026-07-14 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/toriatsukai-chui-release/) | `images/mv-toriatsukai-chuui.jpg` | J-POP / Romantic Pop / 恋愛 | 公開確認済み |
-| 8 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:18 | 2026-07-14 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/) / News未設定 | `images/mv-our-kingdom.jpg` | Cinematic J-POP / ロイヤルロマンス | 公開確認済み |
-| 9 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:05 | 2026-07-14 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mirai-no-watashi-ga-miteru/) / News未設定 | `images/mv-mirai-no-watashi-ga-miteru.jpg` | J-POP / Hope / 応援歌 | 公開確認済み |
-| 10 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:53 | 2026-07-13 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/muteki-jikan-ato-3byou/) / News未設定 | `images/mv-muteki.jpg` | J-POP / Romantic Pop / 恋愛 | 公開確認済み |
-| 11 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mia/) / News未設定 | `images/mv-mia.jpg` | J-POP / Romantic Pop | 公開確認済み |
-| 12 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:21 | 2026-07-13 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/tokenai-mahou-wo-ai-to-yobu/) / News未設定 | `images/mv-mahou.jpg` | J-POP / Romantic Pop / 幻想 | 公開確認済み |
-| 13 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-to-nara-last-boss-made/) / News未設定 | `images/mv-lastboss.jpg` | J-POP / Romantic Pop / ゲーム | 公開確認済み |
-| 14 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/) / News未設定 | `images/mv-ai.jpg` | J-POP / AI Music / 恋愛 | 公開確認済み |
-| 15 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:41 | 2026-07-12 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-wa-hanabi/) / News未設定 | `images/mv-hanabi.jpg` | J-POP / Summer / 恋愛 | 公開確認済み |
-| 16 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-12 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mermaid-merman/) / News未設定 | `images/mv-mermaid-merman.jpg` | J-POP / Fantasy / Romantic Pop | 公開確認済み |
-| 17 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:35 | 2026-07-12 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/sukitte-baretemo-ii/) / News未設定 | `images/mv-sukitte-baretemo-ii.jpg` | J-POP / Romantic Pop / 告白 | 公開確認済み |
-| 18 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:56 | 2026-07-12 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/hyakumankoku/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/hyakumankoku-release/) | `images/mv-hyakumankoku.jpg` | J-POP / Romantic Pop / 告白 | 公開確認済み |
-| 19 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/shadow-code/) / [News](https://bellflower1209.github.io/suzuka-official-music/news/shadow-code-announcement/) | `images/eclypse-shadow-code-cover.webp` | K-POP / Dark Pop / EDM / Trap | 公開確認済み |
-| 20 | たった1人の君へ | 榎本魅愛 | 未設定 | 未設定 | 作品ページ・News未設定 | 未設定 | 未設定 | 未公開データ |
+### Upcoming
 
-### 不足データ
-
-1. 「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」のYouTube URL、公開日、MV時間、News。
-2. 「忘却の生き物」のYouTube URL、公開日、MV時間、News。
-3. 「たった1人の君へ」の公開可否、slug、公式動画、ジャケット、公開日、カテゴリ、作品ページ、News。
-4. Newsがない公開作品は11件。説明欄の「制作ストーリー」は、Newsを作成するまで作品ページへ案内する。
-5. 動画の区間構成を示す公式情報がないため、チャプターは全17本で未作成。映像を実見して正確な開始時刻を確定した後に追加する。
+| 状態 | 作品 | アーティスト | 公開予定（JST） | 時間 | 正式URL |
+| --- | --- | --- | --- | --- | --- |
+| 公開予定 | 善人裁判 | NOX | 2026-08-03 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=8BjnnX3xeGw |
+| 公開予定 | Still alive | RE:VIVE | 2026-08-04 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=KCviOsGatOY |
+| 公開予定 | はじめまして、奇跡 | 榎本魅愛 | 2026-08-05 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rr12NZuWHHs |
+| 公開予定 | 忘れじの人 | 朝霧しのぶ | 2026-08-06 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=tbysXktPNk4 |
+| 公開予定 | 花言葉 | 榎本魅愛 | 2026-08-07 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=mdTogs4Oiew |
+| 公開予定 | マーメイドの下僕 | 神代煌牙 | 2026-08-08 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=uibakv4n2Dg |
+| 公開予定 | 君にかかった魔法 | 榎本魅愛 | 2026-08-09 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=iEFPd6kYYJc |
 
 ## 2. 推奨タイトル一覧
 
@@ -400,17 +409,18 @@ UTMは作品ごとに `utm_source=youtube`、説明欄は `utm_medium=video_desc
 
 YouTube Studio上のタイトル・説明欄・タグ・カード・エンド画面は、この管理表の提案であり、実反映済みとは扱わない。
 
-## 2026-07-30 公式公開確認
+## 2026-08-03 公式公開確認
 
 公式チャンネル `UCVde75yhByGQMu3SkO-fzrA` を一次情報として、一般視聴可否・公開日・時間を確認。
 
 | 状態 | 作品 | アーティスト | 公開日／予定 | 時間 | 正式URL |
 | --- | --- | --- | --- | --- | --- |
-| 公開済み | チンパンジーの楽園 | NOX | 2026-07-29 | 2:28 | https://www.youtube.com/watch?v=EJJLBOo103I |
-| 公開済み | 明日は、きっと。 | 榎本魅愛 | 2026-07-28 | 3:35 | https://www.youtube.com/watch?v=5MkQZT5qiGA |
-| 公開予定 | Without Worrying | 榎本魅愛 | 2026-07-31 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=lMeYWn4Sqgk |
-| 公開予定 | LOST SIGNAL | ECLYPSE | 2026-08-01 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=CbpvpKllc6c |
-| 公開予定 | One More Kiss | 神代煌牙 | 2026-08-02 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=EP7NAPlGhuo |
 | 公開予定 | 善人裁判 | NOX | 2026-08-03 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=8BjnnX3xeGw |
+| 公開予定 | Still alive | RE:VIVE | 2026-08-04 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=KCviOsGatOY |
+| 公開予定 | はじめまして、奇跡 | 榎本魅愛 | 2026-08-05 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rr12NZuWHHs |
+| 公開予定 | 忘れじの人 | 朝霧しのぶ | 2026-08-06 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=tbysXktPNk4 |
+| 公開予定 | 花言葉 | 榎本魅愛 | 2026-08-07 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=mdTogs4Oiew |
+| 公開予定 | マーメイドの下僕 | 神代煌牙 | 2026-08-08 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=uibakv4n2Dg |
+| 公開予定 | 君にかかった魔法 | 榎本魅愛 | 2026-08-09 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=iEFPd6kYYJc |
 
 予約中の作品は公開済み作品数・MusicRecordingへ含めない。

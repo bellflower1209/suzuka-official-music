@@ -243,6 +243,7 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
         f'<h3>{html.escape(item["displayTitle"])}</h3><p>{html.escape(item["artist"])}</p>'
         '<div class="explore-actions">'
         f'<a href="{p}{item["releaseUrl"]}">作品ページ</a>'
+        f'<a href="{p}artists/{item["artistSlug"]}/">Artist</a>'
         f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MV ↗</a>{news}'
         "</div></div></article>"
     )
@@ -316,16 +317,31 @@ def build_rankings(root: Path, releases: list[dict]) -> dict:
     )
     trending = sorted(releases, key=lambda x: (score(x, "trend"), x["releaseDate"]), reverse=True)[:10]
     genre_counts = Counter(genre for item in releases for genre in item["genres"])
+    has_popularity = any("popularity" in values for values in source.values())
+    has_mv_views = any("mvViews" in values for values in source.values())
+    has_trend = any("trend" in values for values in source.values())
     rankings = {
-        "popular": {"label": "人気作品TOP10", "items": [x["slug"] for x in popular]},
+        "popular": {
+            "label": "人気作品TOP10" if has_popularity else "おすすめ作品TOP10",
+            "items": [x["slug"] for x in popular],
+            "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。" if not has_popularity else "",
+        },
         "latest": {"label": "新着作品TOP10", "items": [x["slug"] for x in latest]},
-        "love": {"label": "恋愛ソングTOP10", "items": [x["slug"] for x in love]},
+        "love": {"label": "恋愛ソングおすすめTOP10", "items": [x["slug"] for x in love]},
         "summer": {"label": "夏ソングTOP10", "items": [x["slug"] for x in summer]},
         "cheer": {"label": "応援ソングTOP10", "items": [x["slug"] for x in cheer]},
-        "mv": {"label": "MV再生数順", "items": [x["slug"] for x in mv], "fallback": "再生数未登録時はrecommendationWeightを使用"},
-        "artists": {"label": "アーティストランキング", "items": [x["slug"] for x in artists]},
-        "genres": {"label": "ジャンルランキング", "items": [name for name, _ in genre_counts.most_common()]},
-        "trending": {"label": "人気急上昇", "items": [x["slug"] for x in trending]},
+        "mv": {
+            "label": "MV再生数順" if has_mv_views else "MVおすすめ順",
+            "items": [x["slug"] for x in mv],
+            "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。" if not has_mv_views else "",
+        },
+        "artists": {"label": "アーティスト公開作品数順", "items": [x["slug"] for x in artists]},
+        "genres": {"label": "ジャンル公開作品数順", "items": [name for name, _ in genre_counts.most_common()]},
+        "trending": {
+            "label": "人気急上昇" if has_trend else "注目作品おすすめ順",
+            "items": [x["slug"] for x in trending],
+            "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。" if not has_trend else "",
+        },
     }
     payload = {"updatedAt": UPDATED_AT, "source": "ranking-source.json / ranking-source.csv", "rankings": rankings}
     write(root / "assets/data/rankings.json", json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
@@ -383,10 +399,10 @@ def rankings_page(root: Path, releases: list[dict], payload: dict) -> None:
     write(
         root / "rankings/index.html",
         shell(
-            "rankings/", "人気ランキング｜SUZUKA Official Music",
-            "公開作品とアーティストを、人気、恋愛、MV、最新、急上昇の視点で紹介するランキングです。",
+            "rankings/", "作品ランキング・おすすめ順｜SUZUKA Official Music",
+            "公開作品とアーティストを、確認済み指標または明示したおすすめ順で紹介します。実再生数がない場合は推測値を表示しません。",
             "RANKING", body,
-            [{"@type": "ItemList", "name": "SUZUKA人気ランキング", "numberOfItems": len(schema_items), "itemListElement": schema_items}],
+            [{"@type": "ItemList", "name": "SUZUKA作品ランキング・おすすめ順", "numberOfItems": len(schema_items), "itemListElement": schema_items}],
         ),
     )
 
@@ -738,7 +754,8 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
                  "description": f'{artist["profile"]} 架空のAIアーティストです。'},
                 {"@type": artist["type"], "name": artist["name"], "image": f'{BASE}/{artist["image"]}',
                  "description": f'{artist["world"]} SUZUKAの作品世界に登場する架空のAIアーティストです。'},
-                {"@type": "ItemList", "numberOfItems": len(works), "itemListElement": [
+                {"@type": "ItemList", "@id": f"{BASE}/artists/{slug}/#releases",
+                 "numberOfItems": len(works), "itemListElement": [
                     {"@type": "ListItem", "position": i, "name": item["displayTitle"], "url": f'{BASE}/{item["releaseUrl"]}'}
                     for i, item in enumerate(works, 1)
                 ]},
@@ -775,13 +792,13 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
     block = (
         '<!-- EXPLORER:HOME:START --><section class="explorer-home-update">'
         '<div class="explorer-section-heading"><p>SUZUKA EXPLORER UPDATE</p><h2>音楽世界を、もっと深く。</h2>'
-        '<p>ランキング、特集、MV、世界観、Wikiから、25作品と7組のAIアーティストを横断できます。</p></div>'
+        f'<p>ランキング、特集、MV、世界観、Wikiから、{len(releases)}作品と7組のAIアーティストを横断できます。</p></div>'
         '<section><div class="explorer-home-heading"><h3>人気ランキング</h3><a href="./rankings/">すべて見る ↗</a></div>'
         f'<div class="explorer-ranking-grid">{"".join(card(item, "./", i) for i, item in enumerate(popular, 1))}</div></section>'
         '<section><div class="explorer-home-heading"><h3>おすすめ特集</h3><a href="./features/">すべて見る ↗</a></div>'
         f'<div class="explorer-feature-grid">{feature_cards}</div></section>'
         '<section class="explorer-home-portals">'
-        '<a href="./gallery/"><span>25 WORKS</span><h3>MV GALLERY</h3><p>公式MVと制作ビジュアル</p></a>'
+        f'<a href="./gallery/"><span>{len(releases)} WORKS</span><h3>MV GALLERY</h3><p>公式MVと制作ビジュアル</p></a>'
         '<a href="./universe/"><span>7 ARTISTS</span><h3>UNIVERSE</h3><p>SUZUKAの世界観と関係性</p></a>'
         '<a href="./wiki/"><span>OFFICIAL GUIDE</span><h3>SUZUKA WIKI</h3><p>作品・用語・公開年表</p></a></section>'
         '<section><div class="explorer-home-heading"><h3>最新News</h3><a href="./news/">News一覧 ↗</a></div>'
