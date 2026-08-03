@@ -72,7 +72,7 @@ def main() -> int:
     workflow_path = root / ".github/workflows/indexnow.yml"
     workflow = workflow_path.read_text(encoding="utf-8") if workflow_path.exists() else ""
     required_workflow_markers = (
-        "branches: [main]", "pages/deployments/$GITHUB_SHA", "environment=github-pages",
+        "branches: [main]", "deployments: read", "pages/deployments/$GITHUB_SHA", "environment=github-pages",
         "scripts/submit_indexnow.py --submit", "actions/cache/restore@v4",
         "actions/cache/save@v4", "actions/upload-artifact@v4", "urlCount",
     )

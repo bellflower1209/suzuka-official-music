@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: read
+  deployments: read
   pages: read
   actions: write
 
@@ -62,7 +63,11 @@ jobs:
         run: |
           base_ref="$REQUESTED_BASE"
           if [ -z "$base_ref" ]; then
+            deployment_rows=$(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=100" --jq '.[] | [.sha, (.id|tostring)] | @tsv' || true)
             while IFS=$'\t' read -r candidate deployment_id; do
+              if [ -z "$candidate" ]; then
+                continue
+              fi
               if [ "$candidate" = "$GITHUB_SHA" ]; then
                 continue
               fi
@@ -72,7 +77,11 @@ jobs:
                 echo "Using previous Pages deployment $deployment_id at $candidate"
                 break
               fi
-            done < <(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=100" --jq '.[] | [.sha, (.id|tostring)] | @tsv')
+            done <<< "$deployment_rows"
+          fi
+          if [ -z "$base_ref" ]; then
+            base_ref=$(git rev-parse "$GITHUB_SHA^")
+            echo "Deployment history was unavailable; using first parent $base_ref"
           fi
           if [ -z "$base_ref" ]; then
             echo "No previous successful Pages deployment found" >&2
