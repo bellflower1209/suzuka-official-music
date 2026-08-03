@@ -75,6 +75,7 @@ def main() -> int:
         "branches: [main]", "deployments: read", "pages/deployments/$GITHUB_SHA", "environment=github-pages",
         "scripts/submit_indexnow.py --submit", "actions/cache/restore@v4",
         "actions/cache/save@v4", "actions/upload-artifact@v4", "urlCount",
+        "set -o pipefail", "2>&1 | tee",
     )
     for marker in required_workflow_markers:
         if marker not in workflow:

@@ -330,7 +330,35 @@ def main() -> int:
         print(json.dumps(preview, ensure_ascii=False, indent=2))
         return 0
 
-    key_check = verify_public_key(config)
+    try:
+        key_check = verify_public_key(config)
+    except IndexNowError as error:
+        record = {
+            "submittedAt": datetime.now(JST).isoformat(timespec="seconds"),
+            "targetCommit": preview["targetCommit"],
+            "baseRef": base_ref,
+            "urlCount": len(urls),
+            "urls": urls,
+            "changes": reasons,
+            "keyLocation": config["keyLocation"],
+            "keyVerification": None,
+            "payloadSha256": payload_hash,
+            "batches": [],
+            "httpStatus": 0,
+            "success": False,
+            "skipped": False,
+            "error": str(error),
+        }
+        log["submissions"].append(record)
+        write_log(log_path, log)
+        preview.update({
+            "success": False,
+            "error": str(error),
+            "httpStatus": 0,
+            "logFile": str(log_path),
+        })
+        print(json.dumps(preview, ensure_ascii=False, indent=2))
+        return 1
     results = [submit_batch(payload, config) for payload in preview["payloads"]]
     success = all(result["success"] for result in results)
     skipped = not urls

@@ -103,9 +103,10 @@ jobs:
         env:
           INDEXNOW_LOG: ${{ runner.temp }}/indexnow/submission-log.json
         run: |
+          set -o pipefail
           mkdir -p "$(dirname "$INDEXNOW_LOG")" .indexnow-cache
           cp docs/indexnow/submission-log.json "$INDEXNOW_LOG"
-          python3 scripts/submit_indexnow.py --submit --base-ref "${{ steps.base.outputs.base_ref }}" --log-file "$INDEXNOW_LOG" | tee "${{ runner.temp }}/indexnow/result.json"
+          python3 scripts/submit_indexnow.py --submit --base-ref "${{ steps.base.outputs.base_ref }}" --log-file "$INDEXNOW_LOG" 2>&1 | tee "${{ runner.temp }}/indexnow/result.json"
           python3 -c 'import json,sys; value=json.load(open(sys.argv[1])); print("IndexNow URL count: %s" % value.get("urlCount", 0))' "${{ runner.temp }}/indexnow/result.json"
           touch ".indexnow-cache/${GITHUB_SHA}.done"
 
