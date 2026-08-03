@@ -17,7 +17,6 @@ on:
 
 permissions:
   contents: read
-  deployments: read
   pages: read
   actions: write
 
@@ -63,25 +62,24 @@ jobs:
         run: |
           base_ref="$REQUESTED_BASE"
           if [ -z "$base_ref" ]; then
-            deployment_rows=$(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=100" --jq '.[] | [.sha, (.id|tostring)] | @tsv' || true)
-            while IFS=$'\t' read -r candidate deployment_id; do
+            page_build_rows=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds?per_page=100" --jq '.[] | select(.status == "built") | .commit' || true)
+            while IFS= read -r candidate; do
               if [ -z "$candidate" ]; then
                 continue
               fi
               if [ "$candidate" = "$GITHUB_SHA" ]; then
                 continue
               fi
-              status=$(gh api "repos/$GITHUB_REPOSITORY/pages/deployments/$candidate" --jq '.status' 2>/dev/null || true)
-              if [ "$status" = "succeed" ]; then
+              if git cat-file -e "$candidate^{commit}" 2>/dev/null; then
                 base_ref="$candidate"
-                echo "Using previous Pages deployment $deployment_id at $candidate"
+                echo "Using previous successful Pages build at $candidate"
                 break
               fi
-            done <<< "$deployment_rows"
+            done <<< "$page_build_rows"
           fi
           if [ -z "$base_ref" ]; then
             base_ref=$(git rev-parse "$GITHUB_SHA^")
-            echo "Deployment history was unavailable; using first parent $base_ref"
+            echo "Pages build history was unavailable; using first parent $base_ref"
           fi
           if [ -z "$base_ref" ]; then
             echo "No previous successful Pages deployment found" >&2
