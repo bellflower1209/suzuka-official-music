@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_BASE = "https://bellflower1209.github.io/suzuka-official-music"
+PUBLIC_BASE = "https://www.suzukaofficial.com"
 OLD_DOMAIN = "suzuka-official-music.ria20210815.chatgpt.site"
 SOCIAL_PATH = ROOT / "assets/data/social-links.json"
 RELEASE_PATH = ROOT / "assets/data/release-links.json"

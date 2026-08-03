@@ -10,7 +10,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-BASE = "https://bellflower1209.github.io/suzuka-official-music/"
+BASE = "https://www.suzukaofficial.com/"
 
 
 def main() -> int:
@@ -32,7 +32,7 @@ def main() -> int:
             errors.append("key file body must contain only the key")
     expected_location = f"{BASE}{key}.txt"
     if config.get("keyLocation") != expected_location:
-        errors.append("keyLocation does not match the GitHub Pages project URL")
+        errors.append("keyLocation does not match the canonical custom-domain URL")
     if config.get("endpoint") != "https://api.indexnow.org/indexnow":
         errors.append("IndexNow endpoint is invalid")
     if config.get("maximumUrlsPerRequest") != 10000:
@@ -50,7 +50,7 @@ def main() -> int:
         if payload.get("submitted") is not False or payload.get("urlCount") != 1:
             errors.append("dry-run submitted data or returned an incorrect count")
         request = payload.get("payloads", [{}])[0]
-        if request.get("host") != "bellflower1209.github.io":
+        if request.get("host") != "www.suzukaofficial.com":
             errors.append("dry-run host is invalid")
         if request.get("keyLocation") != expected_location:
             errors.append("dry-run keyLocation is invalid")
@@ -108,7 +108,7 @@ def main() -> int:
     if errors:
         print("IndexNow audit failed:\n- " + "\n- ".join(errors), file=sys.stderr)
         return 1
-    print(f"IndexNow audit passed: key {key_path.name}, project keyLocation, exclusions, dry-run and workflow.")
+    print(f"IndexNow audit passed: key {key_path.name}, custom-domain keyLocation, exclusions, dry-run and workflow.")
     return 0
 
 

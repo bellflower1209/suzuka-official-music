@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bellflower1209.github.io/suzuka-official-music/sitemap.xml
+Sitemap: https://www.suzukaofficial.com/sitemap.xml

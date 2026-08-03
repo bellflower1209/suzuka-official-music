@@ -2,7 +2,7 @@
 
 最終監査日: 2026-08-03
 対象チャンネル: [SUZUKA Official Music](https://www.youtube.com/@suzuka1209)
-公式サイト: [SUZUKA Official Music](https://bellflower1209.github.io/suzuka-official-music/)
+公式サイト: [SUZUKA Official Music](https://www.suzukaofficial.com/)
 Instagram: [@suzuka12090511](https://www.instagram.com/suzuka12090511/)
 
 ## AIアーティスト共通表記
@@ -28,35 +28,35 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 
 | # | 作品名 | アーティスト | YouTube / 時間 | 公開日時（JST） | 公式サイト | 状態 |
 |---:|---|---|---|---|---|---|
-| 1 | One More Kiss | 神代煌牙 | [EP7NAPlGhuo](https://www.youtube.com/watch?v=EP7NAPlGhuo) / 5:37 | 2026-08-02T20:00:05+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/one-more-kiss/) | 公開確認済み |
-| 2 | LOST SIGNAL | ECLYPSE | [CbpvpKllc6c](https://www.youtube.com/watch?v=CbpvpKllc6c) / 4:45 | 2026-08-01T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/lost-signal/) | 公開確認済み |
-| 3 | Without Worrying | 榎本魅愛 | [lMeYWn4Sqgk](https://www.youtube.com/watch?v=lMeYWn4Sqgk) / 3:30 | 2026-07-31T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/without-worrying/) | 公開確認済み |
-| 4 | 恋するマハラジャ | RANGILI | [V3DOM83zeLk](https://www.youtube.com/watch?v=V3DOM83zeLk) / 6:17 | 2026-07-30T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/koisuru-maharaja/) | 公開確認済み |
-| 5 | チンパンジーの楽園 | NOX | [EJJLBOo103I](https://www.youtube.com/watch?v=EJJLBOo103I) / 2:28 | 2026-07-29T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/chimpanzee-no-rakuen/) | 公開確認済み |
-| 6 | 明日は、きっと。 | 榎本魅愛 | [5MkQZT5qiGA](https://www.youtube.com/watch?v=5MkQZT5qiGA) / 3:35 | 2026-07-29T01:22:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/ashita-wa-kitto/) | 公開確認済み |
-| 7 | Heal You Again | RE:VIVE | [XHjDSEoFcXE](https://www.youtube.com/watch?v=XHjDSEoFcXE) / 1:45 | 2026-07-27T20:00:06+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/) | 公開確認済み |
-| 8 | Echoes of You | 神代 煌牙 | [Uxtp9TLw47g](https://www.youtube.com/watch?v=Uxtp9TLw47g) / 8:04 | 2026-07-26T20:00:22+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/) | 公開確認済み |
-| 9 | NAMASTE☆GALAXY | RANGILI | [CQ0bfdXVrck](https://www.youtube.com/watch?v=CQ0bfdXVrck) / 2:43 | 2026-07-24T20:00:11+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/namaste-galaxy/) | 公開確認済み |
-| 10 | 忘れない心 | 朝霧しのぶ | [YxZWABTJBGk](https://www.youtube.com/watch?v=YxZWABTJBGk) / 5:11 | 2026-07-23T20:00:34+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/wasurenai-kokoro/) | 公開確認済み |
-| 11 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | [b2n8gcpen58](https://www.youtube.com/watch?v=b2n8gcpen58) / 8:17 | 2026-07-22T20:00:31+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/smile-and-say-goodbye/) | 公開確認済み |
-| 12 | 忘却の生き物 | 神代 煌牙 | [yREvkT9gEk4](https://www.youtube.com/watch?v=yREvkT9gEk4) / 4:44 | 2026-07-21T19:00:30+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/boukyaku-no-ikimono/) | 公開確認済み |
-| 13 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:57 | 2026-07-20T19:00:07+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/my-queen-my-oath/) | 公開確認済み |
-| 14 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:04 | 2026-07-18T19:52:02+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/red-moon-rising/) | 公開確認済み |
-| 15 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16T18:31:46+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/suki-ga-kyou-mo-fueteiku/) | 公開確認済み |
-| 16 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:57 | 2026-07-16T20:50:27+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) | 公開確認済み |
-| 17 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:24 | 2026-07-15T00:51:42+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/toriatsukai-chui/) | 公開確認済み |
-| 18 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14T22:47:31+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/shadow-code/) | 公開確認済み |
-| 19 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:17 | 2026-07-14T23:24:10+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/our-kingdom/) | 公開確認済み |
-| 20 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:04 | 2026-07-14T22:31:20+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mirai-no-watashi-ga-miteru/) | 公開確認済み |
-| 21 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:20 | 2026-07-13T20:00:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/tokenai-mahou-wo-ai-to-yobu/) | 公開確認済み |
-| 22 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:52 | 2026-07-13T20:00:35+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/muteki-jikan-ato-3byou/) | 公開確認済み |
-| 23 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13T20:00:32+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mia/) | 公開確認済み |
-| 24 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13T15:27:23+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-to-nara-last-boss-made/) | 公開確認済み |
-| 25 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13T15:14:26+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/ai-demo-wakaranai/) | 公開確認済み |
-| 26 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:34 | 2026-07-12T20:00:59+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/sukitte-baretemo-ii/) | 公開確認済み |
-| 27 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-13T00:17:26+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/mermaid-merman/) | 公開確認済み |
-| 28 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:40 | 2026-07-13T00:54:50+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/kimi-wa-hanabi/) | 公開確認済み |
-| 29 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:55 | 2026-07-12T19:42:52+09:00 | [作品](https://bellflower1209.github.io/suzuka-official-music/releases/hyakumankoku/) | 公開確認済み |
+| 1 | One More Kiss | 神代煌牙 | [EP7NAPlGhuo](https://www.youtube.com/watch?v=EP7NAPlGhuo) / 5:37 | 2026-08-02T20:00:05+09:00 | [作品](https://www.suzukaofficial.com/releases/one-more-kiss/) | 公開確認済み |
+| 2 | LOST SIGNAL | ECLYPSE | [CbpvpKllc6c](https://www.youtube.com/watch?v=CbpvpKllc6c) / 4:45 | 2026-08-01T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/lost-signal/) | 公開確認済み |
+| 3 | Without Worrying | 榎本魅愛 | [lMeYWn4Sqgk](https://www.youtube.com/watch?v=lMeYWn4Sqgk) / 3:30 | 2026-07-31T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/without-worrying/) | 公開確認済み |
+| 4 | 恋するマハラジャ | RANGILI | [V3DOM83zeLk](https://www.youtube.com/watch?v=V3DOM83zeLk) / 6:17 | 2026-07-30T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/koisuru-maharaja/) | 公開確認済み |
+| 5 | チンパンジーの楽園 | NOX | [EJJLBOo103I](https://www.youtube.com/watch?v=EJJLBOo103I) / 2:28 | 2026-07-29T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/) | 公開確認済み |
+| 6 | 明日は、きっと。 | 榎本魅愛 | [5MkQZT5qiGA](https://www.youtube.com/watch?v=5MkQZT5qiGA) / 3:35 | 2026-07-29T01:22:23+09:00 | [作品](https://www.suzukaofficial.com/releases/ashita-wa-kitto/) | 公開確認済み |
+| 7 | Heal You Again | RE:VIVE | [XHjDSEoFcXE](https://www.youtube.com/watch?v=XHjDSEoFcXE) / 1:45 | 2026-07-27T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/heal-you-again/) | 公開確認済み |
+| 8 | Echoes of You | 神代 煌牙 | [Uxtp9TLw47g](https://www.youtube.com/watch?v=Uxtp9TLw47g) / 8:04 | 2026-07-26T20:00:22+09:00 | [作品](https://www.suzukaofficial.com/releases/echoes-of-you/) | 公開確認済み |
+| 9 | NAMASTE☆GALAXY | RANGILI | [CQ0bfdXVrck](https://www.youtube.com/watch?v=CQ0bfdXVrck) / 2:43 | 2026-07-24T20:00:11+09:00 | [作品](https://www.suzukaofficial.com/releases/namaste-galaxy/) | 公開確認済み |
+| 10 | 忘れない心 | 朝霧しのぶ | [YxZWABTJBGk](https://www.youtube.com/watch?v=YxZWABTJBGk) / 5:11 | 2026-07-23T20:00:34+09:00 | [作品](https://www.suzukaofficial.com/releases/wasurenai-kokoro/) | 公開確認済み |
+| 11 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | [b2n8gcpen58](https://www.youtube.com/watch?v=b2n8gcpen58) / 8:17 | 2026-07-22T20:00:31+09:00 | [作品](https://www.suzukaofficial.com/releases/smile-and-say-goodbye/) | 公開確認済み |
+| 12 | 忘却の生き物 | 神代 煌牙 | [yREvkT9gEk4](https://www.youtube.com/watch?v=yREvkT9gEk4) / 4:44 | 2026-07-21T19:00:30+09:00 | [作品](https://www.suzukaofficial.com/releases/boukyaku-no-ikimono/) | 公開確認済み |
+| 13 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:57 | 2026-07-20T19:00:07+09:00 | [作品](https://www.suzukaofficial.com/releases/my-queen-my-oath/) | 公開確認済み |
+| 14 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:04 | 2026-07-18T19:52:02+09:00 | [作品](https://www.suzukaofficial.com/releases/red-moon-rising/) | 公開確認済み |
+| 15 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16T18:31:46+09:00 | [作品](https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/) | 公開確認済み |
+| 16 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:57 | 2026-07-16T20:50:27+09:00 | [作品](https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) | 公開確認済み |
+| 17 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:24 | 2026-07-15T00:51:42+09:00 | [作品](https://www.suzukaofficial.com/releases/toriatsukai-chui/) | 公開確認済み |
+| 18 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14T22:47:31+09:00 | [作品](https://www.suzukaofficial.com/releases/shadow-code/) | 公開確認済み |
+| 19 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:17 | 2026-07-14T23:24:10+09:00 | [作品](https://www.suzukaofficial.com/releases/our-kingdom/) | 公開確認済み |
+| 20 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:04 | 2026-07-14T22:31:20+09:00 | [作品](https://www.suzukaofficial.com/releases/mirai-no-watashi-ga-miteru/) | 公開確認済み |
+| 21 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:20 | 2026-07-13T20:00:23+09:00 | [作品](https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/) | 公開確認済み |
+| 22 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:52 | 2026-07-13T20:00:35+09:00 | [作品](https://www.suzukaofficial.com/releases/muteki-jikan-ato-3byou/) | 公開確認済み |
+| 23 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13T20:00:32+09:00 | [作品](https://www.suzukaofficial.com/releases/mia/) | 公開確認済み |
+| 24 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13T15:27:23+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/) | 公開確認済み |
+| 25 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13T15:14:26+09:00 | [作品](https://www.suzukaofficial.com/releases/ai-demo-wakaranai/) | 公開確認済み |
+| 26 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:34 | 2026-07-12T20:00:59+09:00 | [作品](https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/) | 公開確認済み |
+| 27 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-13T00:17:26+09:00 | [作品](https://www.suzukaofficial.com/releases/mermaid-merman/) | 公開確認済み |
+| 28 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:40 | 2026-07-13T00:54:50+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-wa-hanabi/) | 公開確認済み |
+| 29 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:55 | 2026-07-12T19:42:52+09:00 | [作品](https://www.suzukaofficial.com/releases/hyakumankoku/) | 公開確認済み |
 
 ### Upcoming
 
@@ -126,7 +126,7 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 {Artist URL}?utm_source=youtube&utm_medium=video_description&utm_campaign={slug}
 
 🔗 SUZUKA Social Hub
-https://bellflower1209.github.io/suzuka-official-music/social/?utm_source=youtube&utm_medium=video_description&utm_campaign={slug}
+https://www.suzukaofficial.com/social/?utm_source=youtube&utm_medium=video_description&utm_campaign={slug}
 
 📷 Instagram
 https://www.instagram.com/suzuka12090511/
@@ -147,9 +147,9 @@ Unauthorized reproduction or redistribution is prohibited.
 
 ### アーティストURL
 
-- 榎本魅愛: `https://bellflower1209.github.io/suzuka-official-music/artists/enomoto-mia/`
-- 神代 煌牙: `https://bellflower1209.github.io/suzuka-official-music/artists/koga-kamishiro/`
-- ECLYPSE: `https://bellflower1209.github.io/suzuka-official-music/artists/eclypse/`
+- 榎本魅愛: `https://www.suzukaofficial.com/artists/enomoto-mia/`
+- 神代 煌牙: `https://www.suzukaofficial.com/artists/koga-kamishiro/`
+- ECLYPSE: `https://www.suzukaofficial.com/artists/eclypse/`
 - OUR KINGDOMは榎本魅愛と神代煌牙の両プロフィールを並記する。
 
 ## 4. 固定コメントテンプレート
@@ -162,7 +162,7 @@ Unauthorized reproduction or redistribution is prohibited.
 {News URL}?utm_source=youtube&utm_medium=pinned_comment&utm_campaign={slug}
 
 🎵 SUZUKA公式サイト / SNS
-https://bellflower1209.github.io/suzuka-official-music/social/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign={slug}
+https://www.suzukaofficial.com/social/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign={slug}
 
 この曲で心に残った場面や言葉を、ぜひコメントで教えてください。
 ```
@@ -312,10 +312,10 @@ ARTISTS
 チャンネル登録して、SUZUKAの新しい物語を見届けてください。
 
 Official Website
-https://bellflower1209.github.io/suzuka-official-music/
+https://www.suzukaofficial.com/
 
 Social Hub
-https://bellflower1209.github.io/suzuka-official-music/social/
+https://www.suzukaofficial.com/social/
 
 Instagram
 https://www.instagram.com/suzuka12090511/
@@ -390,13 +390,13 @@ UTMは作品ごとに `utm_source=youtube`、説明欄は `utm_medium=video_desc
 ### 新規公開作品の運用URL
 
 - `Heal You Again`
-  - 説明欄: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=video_description&utm_campaign=heal-you-again`
-  - 固定コメント: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=heal-you-again`
-  - Instagram: `https://bellflower1209.github.io/suzuka-official-music/releases/heal-you-again/?utm_source=instagram&utm_medium=social_post&utm_campaign=heal-you-again`
+  - 説明欄: `https://www.suzukaofficial.com/releases/heal-you-again/?utm_source=youtube&utm_medium=video_description&utm_campaign=heal-you-again`
+  - 固定コメント: `https://www.suzukaofficial.com/releases/heal-you-again/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=heal-you-again`
+  - Instagram: `https://www.suzukaofficial.com/releases/heal-you-again/?utm_source=instagram&utm_medium=social_post&utm_campaign=heal-you-again`
 - `Echoes of You`
-  - 説明欄: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=video_description&utm_campaign=echoes-of-you`
-  - 固定コメント: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=echoes-of-you`
-  - Instagram: `https://bellflower1209.github.io/suzuka-official-music/releases/echoes-of-you/?utm_source=instagram&utm_medium=social_post&utm_campaign=echoes-of-you`
+  - 説明欄: `https://www.suzukaofficial.com/releases/echoes-of-you/?utm_source=youtube&utm_medium=video_description&utm_campaign=echoes-of-you`
+  - 固定コメント: `https://www.suzukaofficial.com/releases/echoes-of-you/?utm_source=youtube&utm_medium=pinned_comment&utm_campaign=echoes-of-you`
+  - Instagram: `https://www.suzukaofficial.com/releases/echoes-of-you/?utm_source=instagram&utm_medium=social_post&utm_campaign=echoes-of-you`
 
 ### タイトル・タグ案
 

@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from PIL import Image
 
-BASE="https://bellflower1209.github.io/suzuka-official-music/"
+BASE="https://www.suzukaofficial.com/"
 NS={"s":"http://www.sitemaps.org/schemas/sitemap/0.9","i":"http://www.google.com/schemas/sitemap-image/1.1"}
 
 class Parser(HTMLParser):
@@ -30,8 +30,8 @@ def main()->int:
             if not image.get("width") or not image.get("height"): errors.append(f"{rel}: image dimensions missing: {src}")
             if not src: continue
             absolute=urljoin(parser.canonical,src); parsed=urlparse(absolute)
-            if parsed.netloc==urlparse(BASE).netloc and parsed.path.startswith("/suzuka-official-music/"):
-                local=root/parsed.path.removeprefix("/suzuka-official-music/"); local_files.add(local)
+            if parsed.netloc==urlparse(BASE).netloc and parsed.path.startswith(urlparse(BASE).path):
+                local=root/parsed.path[len(urlparse(BASE).path):].lstrip("/"); local_files.add(local)
                 if not local.is_file(): errors.append(f"{rel}: image missing: {src}")
     for path in sorted(local_files):
         if not path.is_file(): continue

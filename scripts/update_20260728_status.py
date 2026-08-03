@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_BASE = "https://bellflower1209.github.io/suzuka-official-music"
+PUBLIC_BASE = "https://www.suzukaofficial.com"
 CHANNEL = "https://www.youtube.com/@suzuka1209"
 
 RELEASES = [

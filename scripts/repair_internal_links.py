@@ -13,7 +13,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://bellflower1209.github.io/suzuka-official-music"
+BASE = "https://www.suzukaofficial.com"
 CHANNEL = "https://www.youtube.com/@bellflower5215"
 CATALOG_PATH = ROOT / "assets/data/enomoto-mia-releases.json"
 OTHER_RELEASES = {

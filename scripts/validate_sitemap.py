@@ -22,7 +22,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
+BASE_URL = "https://www.suzukaofficial.com"
 SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 ROBOTS_URL = f"{BASE_URL}/robots.txt"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -142,10 +142,10 @@ def validate_urls(urls: list[str], expected: dict[str, Path]) -> list[str]:
         errors.append(f"duplicate loc values: {duplicates}")
     for url in urls:
         parsed = urllib.parse.urlsplit(url)
-        if parsed.scheme != "https" or parsed.netloc != "bellflower1209.github.io":
-            errors.append(f"loc is not an HTTPS GitHub Pages URL: {url}")
+        if parsed.scheme != "https" or parsed.netloc != "www.suzukaofficial.com":
+            errors.append(f"loc is not an HTTPS canonical URL: {url}")
         if not url.startswith(f"{BASE_URL}/"):
-            errors.append(f"loc is outside the project subdirectory: {url}")
+            errors.append(f"loc is outside the canonical site: {url}")
         if parsed.query or parsed.fragment:
             errors.append(f"loc contains query parameters or a fragment: {url}")
         if OLD_DOMAIN in url:

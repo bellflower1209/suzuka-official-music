@@ -6,7 +6,7 @@
 
 対象プロパティ:
 
-`https://bellflower1209.github.io/suzuka-official-music/`
+`https://www.suzukaofficial.com/`
 
 公開後に人が行う操作:
 
@@ -18,21 +18,21 @@
 
 ## Bing Webmaster Tools
 
-1. GitHub Pagesの公開URLをサイトとして追加する。
+1. `https://www.suzukaofficial.com/`をサイトとして追加する。
 2. 所有権確認はBingの案内に従い、Google Search Consoleからのインポートまたは指定メタタグを使う。
 3. `sitemap.xml`を送信する。必要に応じて画像・動画サイトマップも個別送信する。
 4. GitHub Actionsの「IndexNow after GitHub Pages」で送信結果を確認する。
 
 ## IndexNow運用
 
-IndexNowキーは32文字の16進乱数で生成し、GitHub Pagesのプロジェクト配下へUTF-8テキストとして配置している。`keyLocation`は`assets/data/indexnow.json`で明示する。
+IndexNowキーは32文字の16進乱数で生成し、カスタムドメイン直下へUTF-8テキストとして配置している。`keyLocation`は`assets/data/indexnow.json`で明示する。
 
 ローカルdry-runと手動送信:
 
 ```bash
 python3 scripts/submit_indexnow.py --dry-run
 python3 scripts/submit_indexnow.py --submit
-python3 scripts/submit_indexnow.py --urls https://bellflower1209.github.io/suzuka-official-music/
+python3 scripts/submit_indexnow.py --urls https://www.suzukaofficial.com/
 ```
 
 `--urls`だけを指定した場合は送信せず、dry-runとしてペイロードを表示する。通常送信は直前の成功PagesデプロイSHAと現在のsitemap・公開HTMLハッシュを比較し、追加・更新・削除URLだけを送る。
@@ -40,9 +40,9 @@ python3 scripts/submit_indexnow.py --urls https://bellflower1209.github.io/suzuk
 送信前チェック:
 
 - キーファイルが本番URLでHTTP 200になること
-- `host`が`bellflower1209.github.io`であること
-- `keyLocation`が本番プロジェクト配下であること
-- `urlList`がHTTPSかつ`/suzuka-official-music/`配下だけであること
+- `host`が`www.suzukaofficial.com`であること
+- `keyLocation`が`https://www.suzukaofficial.com/{KEY}.txt`であること
+- `urlList`がHTTPSかつ`https://www.suzukaofficial.com/`配下だけであること
 - 前回から追加・更新・削除されたURLだけを通知し、同じURLを短時間に連続送信しないこと
 
 送信先はIndexNow公式エンドポイント`https://api.indexnow.org/indexnow`。HTTP 200または202だけを成功とし、それ以外はActions上で失敗として記録する。IndexNowは検索結果へのインデックス登録を保証しない。

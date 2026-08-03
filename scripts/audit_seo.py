@@ -16,9 +16,9 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
-PUBLIC_PATH_PREFIX = "/suzuka-official-music/"
-PUBLIC_HOST = "bellflower1209.github.io"
+PUBLIC_BASE_URL = "https://www.suzukaofficial.com"
+PUBLIC_PATH_PREFIX = "/"
+PUBLIC_HOST = "www.suzukaofficial.com"
 SITEMAP_URL = f"{PUBLIC_BASE_URL}/sitemap.xml"
 CATALOG_PATH = ROOT / "assets/data/enomoto-mia-releases.json"
 LEGACY_REDIRECTS = {
@@ -449,8 +449,8 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         if missing_types:
             errors.append(f"{relative}: missing schema types: {', '.join(sorted(missing_types))}")
         for value in schema_strings:
-            if value.startswith("https://bellflower1209.github.io/") and not value.startswith(PUBLIC_BASE_URL):
-                errors.append(f"{relative}: JSON-LD points outside the canonical project path: {value}")
+            if value.startswith("https://bellflower1209.github.io/"):
+                errors.append(f"{relative}: JSON-LD still points to the retired GitHub Pages hostname: {value}")
         if (
             relative.as_posix().startswith("releases/")
             and relative not in ({Path("releases/index.html")} | NO_VIDEO_RELEASE_PATHS)

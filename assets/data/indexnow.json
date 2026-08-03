@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "endpoint": "https://api.indexnow.org/indexnow",
-  "host": "bellflower1209.github.io",
-  "siteBase": "https://bellflower1209.github.io/suzuka-official-music/",
+  "host": "www.suzukaofficial.com",
+  "siteBase": "https://www.suzukaofficial.com/",
   "key": "b847cc0de013f946fdab3adbc476909b",
   "keyFile": "b847cc0de013f946fdab3adbc476909b.txt",
-  "keyLocation": "https://bellflower1209.github.io/suzuka-official-music/b847cc0de013f946fdab3adbc476909b.txt",
+  "keyLocation": "https://www.suzukaofficial.com/b847cc0de013f946fdab3adbc476909b.txt",
   "maximumUrlsPerRequest": 10000
 }

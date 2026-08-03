@@ -101,15 +101,17 @@ GitHub Pagesで先行追加した「好きが、今日も増えていく。」�
 
 ## 公開・SEO方針
 
-- SEO上の正式な本家：`https://bellflower1209.github.io/suzuka-official-music/`
+- SEO上の正式な本家：`https://www.suzukaofficial.com/`
 - コンテンツ同期元：上記GitHub Pages版
 - canonical・`og:url`・サイト内JSON-LD URL：各GitHub Pagesページの自己参照URL
 - sitemap：GitHub Pages版の公開URLのみを収録
 - Google Search Console：GitHub Pages版のURLプレフィックスを管理対象とします
 
+`CNAME`には`www.suzukaofficial.com`を保持します。DNSでは`www`のCNAMEを`bellflower1209.github.io`へ向け、GitHub Pagesが証明書を発行した後にHTTPSを強制します。旧`https://bellflower1209.github.io/suzuka-official-music/`は移行元URLであり、canonical・sitemap・IndexNow通知には使用しません。
+
 同期スクリプトでは、取得元と公開正規URLの両方をGitHub Pages版へ固定しています。同期を再実行しても、canonical・OGP・構造化データが別オリジンへ切り替わることはありません。
 
-Search Consoleへ追加するURLプレフィックスは `https://bellflower1209.github.io/suzuka-official-music/`、送信するサイトマップは `https://bellflower1209.github.io/suzuka-official-music/sitemap.xml` です。
+Search Consoleへ追加するURLプレフィックスは `https://www.suzukaofficial.com/`、送信するサイトマップは `https://www.suzukaofficial.com/sitemap.xml` です。
 
 ## IndexNow
 
@@ -125,7 +127,7 @@ Search Consoleへ追加するURLプレフィックスは `https://bellflower1209
 ```bash
 python3 scripts/submit_indexnow.py --dry-run
 python3 scripts/submit_indexnow.py --submit
-python3 scripts/submit_indexnow.py --urls https://bellflower1209.github.io/suzuka-official-music/
+python3 scripts/submit_indexnow.py --urls https://www.suzukaofficial.com/
 ```
 
 通常は直前の成功Pagesデプロイと現在の`sitemap.xml`・公開HTMLのSHA-256を比較します。`--urls`だけを指定した場合はdry-runとなり、外部送信しません。`/admin/`、noindex、アセット、クエリ・UTM付きURL、予約中ページは送信対象外です。

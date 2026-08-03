@@ -14,7 +14,7 @@ import urllib.request
 from pathlib import Path
 
 
-PUBLIC_CANONICAL_BASE_URL = "https://bellflower1209.github.io/suzuka-official-music"
+PUBLIC_CANONICAL_BASE_URL = "https://www.suzukaofficial.com"
 CONTENT_SOURCE_URL = PUBLIC_CANONICAL_BASE_URL
 SOURCE_ROUTES = {
     "/": Path("index.html"),

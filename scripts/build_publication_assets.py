@@ -14,12 +14,21 @@ from PIL import Image as PillowImage
 
 from structured_data_dates import JSONLD_RE, iter_nodes, types_of, video_id_from_node
 
-BASE = "https://bellflower1209.github.io/suzuka-official-music/"
+BASE = "https://www.suzukaofficial.com/"
 ATOM = "http://www.w3.org/2005/Atom"
 SITEMAP = "http://www.sitemaps.org/schemas/sitemap/0.9"
 IMAGE = "http://www.google.com/schemas/sitemap-image/1.1"
 VIDEO = "http://www.google.com/schemas/sitemap-video/1.1"
 ET.register_namespace("", ATOM)
+
+
+def local_path_from_public_url(root: Path, public_path: str) -> Path | None:
+    """Map a same-origin public URL path to a repository file."""
+    base_path = urlparse(BASE).path
+    if not public_path.startswith(base_path):
+        return None
+    relative = public_path[len(base_path):].lstrip("/")
+    return root / relative
 
 
 class ImageParser(HTMLParser):
@@ -85,9 +94,7 @@ def normalize_image_markup(root: Path) -> None:
                 parsed = urlparse(src)
                 local = None
                 if parsed.scheme in {"http", "https"} and parsed.netloc == urlparse(BASE).netloc:
-                    public_prefix = "/suzuka-official-music/"
-                    if parsed.path.startswith(public_prefix):
-                        local = root / parsed.path.removeprefix(public_prefix)
+                    local = local_path_from_public_url(root, parsed.path)
                 elif not parsed.scheme and not parsed.netloc:
                     local = (path.parent / parsed.path).resolve()
                 if local and local.is_file():
@@ -159,10 +166,10 @@ def build_image_sitemap(root: Path) -> int:
         for src, alt in parser.images:
             absolute = urljoin(canonical, src)
             parsed = urlparse(absolute)
-            if parsed.netloc != urlparse(BASE).netloc or not parsed.path.startswith("/suzuka-official-music/"):
+            if parsed.netloc != urlparse(BASE).netloc:
                 continue
-            relative = parsed.path.removeprefix("/suzuka-official-music/")
-            if (root / relative).is_file():
+            local = local_path_from_public_url(root, parsed.path)
+            if local and local.is_file():
                 local_images.append((absolute, alt))
         unique = list(dict.fromkeys(local_images))
         if not unique:
@@ -231,7 +238,7 @@ def main() -> None:
     videos = build_video_sitemap(root)
     expected_robots = (
         "User-agent: *\nAllow: /\n\n"
-        "Sitemap: https://bellflower1209.github.io/suzuka-official-music/sitemap.xml\n"
+        f"Sitemap: {BASE}sitemap.xml\n"
     )
     if (root / "robots.txt").read_text(encoding="utf-8") != expected_robots:
         raise RuntimeError("robots.txt differs from the approved public policy")

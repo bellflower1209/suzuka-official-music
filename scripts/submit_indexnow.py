@@ -70,7 +70,9 @@ def load_config(root: Path) -> dict[str, Any]:
     return config
 
 
-def parse_sitemap(data: bytes, config: dict[str, Any]) -> list[str]:
+def parse_sitemap(
+    data: bytes, config: dict[str, Any], *, allow_outside_scope: bool = False
+) -> list[str]:
     try:
         root = ET.fromstring(data)
     except ET.ParseError as error:
@@ -83,9 +85,16 @@ def parse_sitemap(data: bytes, config: dict[str, Any]) -> list[str]:
         raise IndexNowError("sitemap.xml does not contain indexable URLs")
     if len(urls) != len(set(urls)):
         raise IndexNowError("sitemap.xml contains duplicate URLs")
+    accepted: list[str] = []
     for url in urls:
-        validate_url(url, config)
-    return urls
+        try:
+            validate_url(url, config)
+        except IndexNowError:
+            if allow_outside_scope:
+                continue
+            raise
+        accepted.append(url)
+    return accepted
 
 
 def validate_url(url: str, config: dict[str, Any]) -> None:
@@ -96,7 +105,8 @@ def validate_url(url: str, config: dict[str, Any]) -> None:
         raise IndexNowError(f"URL is outside keyLocation scope: {url}")
     if parsed.query or parsed.fragment:
         raise IndexNowError(f"Query strings and fragments are not submitted: {url}")
-    relative = parsed.path.removeprefix("/suzuka-official-music/")
+    base_path = urlsplit(config["siteBase"]).path
+    relative = parsed.path[len(base_path):].lstrip("/")
     if relative.startswith("admin/") or relative in {"admin", "admin/dashboard"}:
         raise IndexNowError(f"Admin URL rejected: {url}")
     if Path(relative).suffix.lower() in {
@@ -142,7 +152,10 @@ def current_snapshot(root: Path, config: dict[str, Any]) -> dict[str, str]:
 
 def git_snapshot(root: Path, reference: str, config: dict[str, Any]) -> dict[str, str]:
     sitemap = git_bytes(root, reference, Path("sitemap.xml"))
-    urls = parse_sitemap(sitemap, config)
+    # A custom-domain migration can leave the preceding deployment's sitemap
+    # on the retired host. IndexNow keys are host-scoped, so those legacy URLs
+    # are ignored instead of being submitted with the new host's key.
+    urls = parse_sitemap(sitemap, config, allow_outside_scope=True)
     return {
         url: sha256(git_bytes(root, reference, url_to_html_path(url, config)))
         for url in urls

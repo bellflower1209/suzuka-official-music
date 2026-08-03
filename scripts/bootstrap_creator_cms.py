@@ -107,7 +107,7 @@ def main() -> None:
         "updatedAt": UPDATED_AT,
         "site": {
             "name": "SUZUKA",
-            "baseUrl": "https://bellflower1209.github.io/suzuka-official-music",
+            "baseUrl": "https://www.suzukaofficial.com",
             "description": "音楽から新しい物語を始めるオリジナルAIアーティスト総合プラットフォーム。",
             "youtubeUrl": "https://www.youtube.com/@suzuka1209",
             "youtubeChannelId": "UCVde75yhByGQMu3SkO-fzrA",

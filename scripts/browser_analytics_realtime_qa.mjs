@@ -2,7 +2,7 @@
 /* Confirm that production sends a GA4 page_view request for the configured ID. */
 
 const cdpPort = process.env.CDP_PORT || "9223";
-const targetUrl = process.argv[2] || "https://bellflower1209.github.io/suzuka-official-music/";
+const targetUrl = process.argv[2] || "https://www.suzukaofficial.com/";
 const measurementId = "G-LS3PCRB60D";
 const targets = await (await fetch(`http://127.0.0.1:${cdpPort}/json`)).json();
 const target = targets.find(item => item.type === "page");

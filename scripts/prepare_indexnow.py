@@ -5,7 +5,7 @@ import argparse, json, re, xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
 
-BASE="https://bellflower1209.github.io/suzuka-official-music/"
+BASE="https://www.suzukaofficial.com/"
 NS={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
 
 def main()->None:
@@ -15,8 +15,8 @@ def main()->None:
     urls=[node.text or "" for node in ET.parse(root/"sitemap.xml").getroot().findall("s:url/s:loc",NS)]
     for url in urls:
         parsed=urlparse(url)
-        if parsed.scheme!="https" or parsed.netloc!="bellflower1209.github.io" or not url.startswith(BASE): raise SystemExit(f"Non-production URL rejected: {url}")
-    payload={"host":"bellflower1209.github.io","key":key,"keyLocation":f"{BASE}{key}.txt","urlList":urls}
+        if parsed.scheme!="https" or parsed.netloc!="www.suzukaofficial.com" or not url.startswith(BASE): raise SystemExit(f"Non-production URL rejected: {url}")
+    payload={"host":"www.suzukaofficial.com","key":key,"keyLocation":f"{BASE}{key}.txt","urlList":urls}
     if args.write:
         (root/f"{key}.txt").write_text(key+"\n",encoding="utf-8")
         output=root/"docs/search/indexnow-payload.json"; output.parent.mkdir(parents=True,exist_ok=True); output.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

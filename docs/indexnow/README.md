@@ -1,6 +1,8 @@
 # IndexNow運用記録
 
-SUZUKA公式サイトでは、GitHub Pagesのデプロイ成功後に、直前の成功デプロイと現在の`sitemap.xml`・公開HTMLのSHA-256を比較します。追加・更新・削除されたindex可能URLがある場合だけ、`https://api.indexnow.org/indexnow`へPOSTします。
+SUZUKA公式サイトでは、GitHub Pagesのデプロイ成功後に、直前の成功デプロイと現在の`sitemap.xml`・公開HTMLのSHA-256を比較します。追加・更新・削除された`https://www.suzukaofficial.com/`配下のindex可能URLがある場合だけ、`https://api.indexnow.org/indexnow`へPOSTします。
+
+キーファイルはカスタムドメイン直下の`https://www.suzukaofficial.com/{KEY}.txt`で公開します。GitHub Pagesの旧プロジェクトURLはカスタムドメインへ転送されるため、IndexNowの`host`、`keyLocation`、`urlList`には使用しません。
 
 ## 自動送信
 

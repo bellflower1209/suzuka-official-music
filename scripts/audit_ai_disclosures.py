@@ -19,7 +19,7 @@ DISCLOSURE_CLASSES = (
 )
 EXPLORER_ROOTS = {"rankings", "features", "gallery", "universe", "wiki"}
 ALLOWED_SAME_AS_HOSTS = {
-    "bellflower1209.github.io",
+    "www.suzukaofficial.com",
     "www.youtube.com",
     "youtube.com",
     "youtu.be",

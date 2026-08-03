@@ -13,7 +13,7 @@ from datetime import date
 from pathlib import Path
 
 
-BASE = "https://bellflower1209.github.io/suzuka-official-music"
+BASE = "https://www.suzukaofficial.com"
 CHANNEL = "https://www.youtube.com/@suzuka1209"
 INSTAGRAM = "https://www.instagram.com/suzuka12090511/"
 UPDATED_AT = "2026-07-30T19:30:00+09:00"

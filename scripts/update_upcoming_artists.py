@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 
-BASE = "https://bellflower1209.github.io/suzuka-official-music"
+BASE = "https://www.suzukaofficial.com"
 BOUKYAKU_YOUTUBE = "https://www.youtube.com/watch?v=yREvkT9gEk4"
 
 
@@ -209,7 +209,7 @@ def update_koga_and_boukyaku(root: Path) -> None:
     release = release_path.read_text(encoding="utf-8")
     release = release.replace('<a class="button button-ghost" href="../../social/">OFFICIAL LINKS</a>', f'<a class="button button-primary" href="{BOUKYAKU_YOUTUBE}" target="_blank" rel="noopener noreferrer">公式MVを見る ↗</a><a class="button button-ghost" href="../../social/">OFFICIAL LINKS</a>') if BOUKYAKU_YOUTUBE not in release else release
     release = release.replace('<div><dt>VIDEO</dt><dd>未発表</dd></div>', '<div><dt>VIDEO</dt><dd>Official MV · 公開中</dd></div>')
-    release = release.replace('{"@type":"VideoObject","name":"忘却の生き物｜神代 煌牙 Official Music Video","embedUrl":"https://www.youtube.com/embed/yREvkT9gEk4","contentUrl":"https://www.youtube.com/watch?v=yREvkT9gEk4","thumbnailUrl":"https://bellflower1209.github.io/suzuka-official-music/images/mv-boukyaku-no-ikimono.png","description":"神代 煌牙「忘却の生き物」公式MV。"},', '')
+    release = release.replace('{"@type":"VideoObject","name":"忘却の生き物｜神代 煌牙 Official Music Video","embedUrl":"https://www.youtube.com/embed/yREvkT9gEk4","contentUrl":"https://www.youtube.com/watch?v=yREvkT9gEk4","thumbnailUrl":"https://www.suzukaofficial.com/images/mv-boukyaku-no-ikimono.png","description":"神代 煌牙「忘却の生き物」公式MV。"},', '')
     release_path.write_text(release, encoding="utf-8")
 
 

@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://bellflower1209.github.io/suzuka-official-music/"
+BASE = "https://www.suzukaofficial.com/"
 CATALOG = json.loads((ROOT / "assets/data/enomoto-mia-releases.json").read_text(encoding="utf-8"))
 OUTPUT = ROOT / "docs/audits/enomoto-mia-release-ledger-2026-07-17.md"
 
