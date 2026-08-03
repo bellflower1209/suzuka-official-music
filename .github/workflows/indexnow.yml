@@ -1,0 +1,117 @@
+name: IndexNow after GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      base_ref:
+        description: Previous successful Pages deployment SHA (optional)
+        required: false
+        type: string
+      force:
+        description: Re-submit even when this commit was already processed
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  pages: read
+  actions: write
+
+concurrency:
+  group: indexnow-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  submit-indexnow:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout full deployment history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Wait for this GitHub Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 60); do
+            status=$(gh api "repos/$GITHUB_REPOSITORY/pages/deployments/$GITHUB_SHA" --jq '.status' 2>/dev/null || true)
+            if [ "$status" = "succeed" ]; then
+              echo "GitHub Pages deployment succeeded for $GITHUB_SHA"
+              exit 0
+            fi
+            if [ "$status" = "failed" ] || [ "$status" = "errored" ] || [ "$status" = "canceled" ]; then
+              echo "GitHub Pages deployment did not succeed: $status" >&2
+              exit 1
+            fi
+            sleep 10
+          done
+          echo "Timed out waiting for GitHub Pages deployment" >&2
+          exit 1
+
+      - name: Resolve previous successful Pages deployment
+        id: base
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_BASE: ${{ inputs.base_ref }}
+        run: |
+          base_ref="$REQUESTED_BASE"
+          if [ -z "$base_ref" ]; then
+            while IFS=$'\t' read -r candidate deployment_id; do
+              if [ "$candidate" = "$GITHUB_SHA" ]; then
+                continue
+              fi
+              status=$(gh api "repos/$GITHUB_REPOSITORY/pages/deployments/$candidate" --jq '.status' 2>/dev/null || true)
+              if [ "$status" = "succeed" ]; then
+                base_ref="$candidate"
+                echo "Using previous Pages deployment $deployment_id at $candidate"
+                break
+              fi
+            done < <(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=100" --jq '.[] | [.sha, (.id|tostring)] | @tsv')
+          fi
+          if [ -z "$base_ref" ]; then
+            echo "No previous successful Pages deployment found" >&2
+            exit 1
+          fi
+          git cat-file -e "$base_ref^{commit}"
+          echo "base_ref=$base_ref" >> "$GITHUB_OUTPUT"
+
+      - name: Restore same-commit submission marker
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .indexnow-cache
+          key: indexnow-${{ github.sha }}
+
+      - name: Submit changed public URLs
+        id: submit
+        if: steps.cache.outputs.cache-hit != 'true' || inputs.force == true
+        env:
+          INDEXNOW_LOG: ${{ runner.temp }}/indexnow/submission-log.json
+        run: |
+          mkdir -p "$(dirname "$INDEXNOW_LOG")" .indexnow-cache
+          cp docs/indexnow/submission-log.json "$INDEXNOW_LOG"
+          python3 scripts/submit_indexnow.py --submit --base-ref "${{ steps.base.outputs.base_ref }}" --log-file "$INDEXNOW_LOG" | tee "${{ runner.temp }}/indexnow/result.json"
+          python3 -c 'import json,sys; value=json.load(open(sys.argv[1])); print("IndexNow URL count: %s" % value.get("urlCount", 0))' "${{ runner.temp }}/indexnow/result.json"
+          touch ".indexnow-cache/${GITHUB_SHA}.done"
+
+      - name: Save same-commit submission marker
+        if: steps.submit.outcome == 'success' && steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .indexnow-cache
+          key: indexnow-${{ github.sha }}
+
+      - name: Upload IndexNow result and log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-${{ github.sha }}
+          path: ${{ runner.temp }}/indexnow/
+          if-no-files-found: ignore
+          retention-days: 90

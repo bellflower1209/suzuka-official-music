@@ -21,22 +21,21 @@
 1. GitHub Pagesの公開URLをサイトとして追加する。
 2. 所有権確認はBingの案内に従い、Google Search Consoleからのインポートまたは指定メタタグを使う。
 3. `sitemap.xml`を送信する。必要に応じて画像・動画サイトマップも個別送信する。
-4. IndexNowを利用する場合は、下記の準備手順を実行する。
+4. GitHub Actionsの「IndexNow after GitHub Pages」で送信結果を確認する。
 
-## IndexNow準備
+## IndexNow運用
 
-IndexNowキーは8〜128文字の英数字またはハイフンで作成し、公開サイト配下のUTF-8テキストファイルとして配置する。キーはこのリポジトリへ事前生成していない。
+IndexNowキーは32文字の16進乱数で生成し、GitHub Pagesのプロジェクト配下へUTF-8テキストとして配置している。`keyLocation`は`assets/data/indexnow.json`で明示する。
 
-キー取得後のローカル準備例:
+ローカルdry-runと手動送信:
 
 ```bash
-python3 scripts/prepare_indexnow.py --key YOUR_INDEXNOW_KEY --write
+python3 scripts/submit_indexnow.py --dry-run
+python3 scripts/submit_indexnow.py --submit
+python3 scripts/submit_indexnow.py --urls https://bellflower1209.github.io/suzuka-official-music/
 ```
 
-この操作で次を生成する。
-
-- `YOUR_INDEXNOW_KEY.txt`：公開確認用キーファイル
-- `docs/search/indexnow-payload.json`：本番sitemap掲載URLだけを含む通知ペイロード
+`--urls`だけを指定した場合は送信せず、dry-runとしてペイロードを表示する。通常送信は直前の成功PagesデプロイSHAと現在のsitemap・公開HTMLハッシュを比較し、追加・更新・削除URLだけを送る。
 
 送信前チェック:
 
@@ -46,4 +45,4 @@ python3 scripts/prepare_indexnow.py --key YOUR_INDEXNOW_KEY --write
 - `urlList`がHTTPSかつ`/suzuka-official-music/`配下だけであること
 - 前回から追加・更新・削除されたURLだけを通知し、同じURLを短時間に連続送信しないこと
 
-送信先候補はIndexNow公式エンドポイント`https://api.indexnow.org/indexnow`。このプロジェクトのスクリプトは安全のため送信を実行しない。
+送信先はIndexNow公式エンドポイント`https://api.indexnow.org/indexnow`。HTTP 200または202だけを成功とし、それ以外はActions上で失敗として記録する。IndexNowは検索結果へのインデックス登録を保証しない。

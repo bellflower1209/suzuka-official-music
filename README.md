@@ -110,3 +110,22 @@ GitHub Pagesで先行追加した「好きが、今日も増えていく。」�
 同期スクリプトでは、取得元と公開正規URLの両方をGitHub Pages版へ固定しています。同期を再実行しても、canonical・OGP・構造化データが別オリジンへ切り替わることはありません。
 
 Search Consoleへ追加するURLプレフィックスは `https://bellflower1209.github.io/suzuka-official-music/`、送信するサイトマップは `https://bellflower1209.github.io/suzuka-official-music/sitemap.xml` です。
+
+## IndexNow
+
+本サイトは、新規公開・更新・削除されたindex可能な公開ページだけを、GitHub Pagesのデプロイ成功後にIndexNowへ通知します。IndexNowへの通知は検索エンジンへの更新通知であり、インデックス登録を保証しません。
+
+- 設定：`assets/data/indexnow.json`
+- 送信スクリプト：`scripts/submit_indexnow.py`
+- 自動送信：`.github/workflows/indexnow.yml`
+- 送信記録：`docs/indexnow/submission-log.json`およびGitHub Actionsの実行artifact
+
+手動確認と送信：
+
+```bash
+python3 scripts/submit_indexnow.py --dry-run
+python3 scripts/submit_indexnow.py --submit
+python3 scripts/submit_indexnow.py --urls https://bellflower1209.github.io/suzuka-official-music/
+```
+
+通常は直前の成功Pagesデプロイと現在の`sitemap.xml`・公開HTMLのSHA-256を比較します。`--urls`だけを指定した場合はdry-runとなり、外部送信しません。`/admin/`、noindex、アセット、クエリ・UTM付きURL、予約中ページは送信対象外です。

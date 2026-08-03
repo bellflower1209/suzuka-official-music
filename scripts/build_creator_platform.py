@@ -556,13 +556,33 @@ gtag('config', '{GA4_MEASUREMENT_ID}', {{
         'Googleのプライバシーポリシー ↗</a></p></div></section>'
         '<!-- SUZUKA:ANALYTICS-NOTICE:END -->'
     )
+    indexnow_notice = (
+        '<!-- SUZUKA:INDEXNOW-NOTICE:START -->'
+        '<section class="ai-about-section indexnow-notice" aria-labelledby="indexnow-title">'
+        '<div><p class="section-kicker">Search engine updates</p>'
+        '<h2 id="indexnow-title">検索エンジンへの更新通知について</h2>'
+        '<p>SUZUKAでは、新規公開・更新・削除された公開ページを検索エンジンへ速やかに知らせるため、IndexNowを利用しています。'
+        '通知対象は公開ページのURLに限り、検索条件や個人情報は送信しません。IndexNowへの通知は、検索結果への掲載を保証するものではありません。</p>'
+        '</div></section>'
+        '<!-- SUZUKA:INDEXNOW-NOTICE:END -->'
+    )
     about = re.sub(
         r"<!-- SUZUKA:ANALYTICS-NOTICE:START -->.*?<!-- SUZUKA:ANALYTICS-NOTICE:END -->",
         "",
         about,
         flags=re.DOTALL,
     )
-    about = about.replace('<section class="about-label-values"', privacy + '<section class="about-label-values"', 1)
+    about = re.sub(
+        r"<!-- SUZUKA:INDEXNOW-NOTICE:START -->.*?<!-- SUZUKA:INDEXNOW-NOTICE:END -->",
+        "",
+        about,
+        flags=re.DOTALL,
+    )
+    about = about.replace(
+        '<section class="about-label-values"',
+        privacy + indexnow_notice + '<section class="about-label-values"',
+        1,
+    )
     about_path.write_text(about, encoding="utf-8")
 
 
