@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T00:45:42+09:00",
+  "updatedAt": "2026-08-05T00:46:28+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -87,11 +87,12 @@
       "name": "応援",
       "description": "応援をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "still-alive",
         "without-worrying",
         "heal-you-again",
         "ashita-wa-kitto"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "tearjerkers",
@@ -127,10 +128,11 @@
       "description": "AIアイドルをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "koisuru-maharaja",
+        "still-alive",
         "heal-you-again",
         "namaste-galaxy"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "k-pop",
@@ -160,9 +162,10 @@
       "name": "V系",
       "description": "V系をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "zennin-saiban",
         "chimpanzee-no-rakuen"
       ],
-      "count": 1
+      "count": 2
     },
     {
       "slug": "enka",
@@ -189,7 +192,9 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
+        "zennin-saiban",
         "ai-demo-wakaranai",
         "boukyaku-no-ikimono",
         "echoes-of-you",
@@ -203,9 +208,7 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo",
         "muteki-jikan-ato-3byou",
         "my-queen-my-oath",
-        "namaste-galaxy",
-        "our-kingdom",
-        "red-moon-rising"
+        "namaste-galaxy"
       ],
       "count": 20
     },
@@ -216,6 +219,8 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -233,9 +238,7 @@
         "suki-ga-kyou-mo-fueteiku",
         "moshimo-ashita-hajimemashite-ni-natte-mo",
         "toriatsukai-chui",
-        "shadow-code",
-        "our-kingdom",
-        "mirai-no-watashi-ga-miteru"
+        "shadow-code"
       ],
       "count": 20
     },
@@ -248,6 +251,8 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -265,9 +270,7 @@
         "suki-ga-kyou-mo-fueteiku",
         "moshimo-ashita-hajimemashite-ni-natte-mo",
         "toriatsukai-chui",
-        "shadow-code",
-        "our-kingdom",
-        "mirai-no-watashi-ga-miteru"
+        "shadow-code"
       ],
       "count": 20
     }

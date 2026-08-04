@@ -6,28 +6,27 @@ import argparse
 import json
 from pathlib import Path
 
-ARTIST_TYPES = {
-    "enomoto-mia": "Person",
-    "koga-kamishiro": "Person",
-    "eclypse": "MusicGroup",
-}
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument(
+        "--catalog",
+        type=Path,
+        default=Path("assets/data/official-youtube-catalog-20260803.json"),
+        help="official YouTube catalog relative to the site root",
+    )
     args = parser.parse_args()
     root = args.root.resolve()
     cms_path = root / "assets/data/creator-cms.json"
     cms = json.loads(cms_path.read_text(encoding="utf-8"))
-    source = json.loads(
-        (root / "assets/data/official-youtube-catalog-20260803.json").read_text(encoding="utf-8")
-    )
+    catalog_path = args.catalog if args.catalog.is_absolute() else root / args.catalog
+    source = json.loads(catalog_path.read_text(encoding="utf-8"))
     evidence = json.loads(
         (root / "assets/data/youtube-publish-dates.json").read_text(encoding="utf-8")
     )
     verified = {item["releaseSlug"]: item for item in evidence["records"]}
     existing = {item["slug"]: item for item in cms["releases"]}
+    artist_types = {item["slug"]: item["type"] for item in cms["artists"]}
 
     for definition in source["published"]:
         record = verified.get(definition["slug"], {})
@@ -52,7 +51,7 @@ def main() -> None:
             "artist": definition["artist"],
             "artistSlug": definition["artistSlug"],
             "artistSlugs": [definition["artistSlug"]],
-            "artistType": ARTIST_TYPES[definition["artistSlug"]],
+            "artistType": artist_types[definition["artistSlug"]],
             "releaseDate": published_at[:10],
             "releaseYear": int(published_at[:4]),
             "releaseType": "single",

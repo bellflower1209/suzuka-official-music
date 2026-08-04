@@ -44,7 +44,7 @@ MIA_DEDICATED_RELEASES = {
     release.get("cardTitle", release["title"]): f"../../{release['pageUrl']}" for release in PUBLISHED_MIA
 }
 MIA_RELEASE_DETAILS = {
-    release.get("cardTitle", release["title"]): (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
+    release["title"]: (f"./{release['pageUrl']}", release["youtubeUrl"]) for release in PUBLISHED_MIA
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
 NO_VIDEO_RELEASE_PATHS = {

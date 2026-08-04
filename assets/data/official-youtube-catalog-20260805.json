@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-05T00:46:28+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "assetReplacements": [],
+  "published": [
+    {
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "englishTitle": "善人裁判",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "coverImage": "images/nox-zennin-saiban.jpg",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "genres": ["V系", "ダークロック"],
+      "themes": ["正義", "社会", "偽善"],
+      "moods": ["ダーク", "挑発的"]
+    },
+    {
+      "slug": "still-alive",
+      "title": "Still alive",
+      "englishTitle": "Still alive",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "coverImage": "images/revive-still-alive.jpg",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "genres": ["J-POP", "アイドルポップ", "バラード"],
+      "themes": ["応援", "回復", "再生"],
+      "moods": ["温かい", "希望"]
+    }
+  ],
+  "upcoming": [
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-05T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。"
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "scheduledAt": "2026-08-06T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。"
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-07T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。"
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-08T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。"
+    },
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。"
+    }
+  ]
+}

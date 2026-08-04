@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0",
-  "updatedAt": "2026-08-03T00:45:42+09:00",
+  "updatedAt": "2026-08-05T00:46:28+09:00",
   "site": {
     "name": "SUZUKA",
     "baseUrl": "https://www.suzukaofficial.com",
@@ -171,6 +171,171 @@
     }
   ],
   "releases": [
+    {
+      "id": "still-alive",
+      "slug": "still-alive",
+      "title": "Still alive",
+      "displayTitle": "Still alive",
+      "englishTitle": "Still alive",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "artistSlugs": [
+        "revive"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-08-04",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アイドルポップ",
+        "バラード"
+      ],
+      "moods": [
+        "温かい",
+        "希望"
+      ],
+      "themes": [
+        "応援",
+        "回復",
+        "再生"
+      ],
+      "language": "ja",
+      "coverImage": "images/revive-still-alive.jpg",
+      "coverAlt": "RE:VIVE「Still alive」公式YouTubeサムネイル",
+      "releaseUrl": "releases/still-alive/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "newsUrl": "news/still-alive-release/",
+      "duration": 468,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "Still alive",
+        "RE:VIVE",
+        "J-POP",
+        "アイドルポップ",
+        "バラード",
+        "応援",
+        "回復",
+        "再生",
+        "温かい",
+        "希望"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "tags": [
+        "J-POP",
+        "アイドルポップ",
+        "バラード",
+        "応援",
+        "回復",
+        "再生",
+        "温かい",
+        "希望"
+      ],
+      "lyrics": "",
+      "introduction": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "publishedAt": "2026-08-04T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/revive-still-alive.jpg"
+      ],
+      "productionNote": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "seo": {
+        "title": "Still alive｜RE:VIVE｜SUZUKA Official Music",
+        "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-08-04T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=KCviOsGatOY"
+    },
+    {
+      "id": "zennin-saiban",
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "displayTitle": "善人裁判",
+      "englishTitle": "善人裁判",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "artistSlugs": [
+        "nox"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-08-03",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "V系",
+        "ダークロック"
+      ],
+      "moods": [
+        "ダーク",
+        "挑発的"
+      ],
+      "themes": [
+        "正義",
+        "社会",
+        "偽善"
+      ],
+      "language": "ja",
+      "coverImage": "images/nox-zennin-saiban.jpg",
+      "coverAlt": "NOX「善人裁判」公式YouTubeサムネイル",
+      "releaseUrl": "releases/zennin-saiban/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "newsUrl": "news/zennin-saiban-release/",
+      "duration": 380,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "善人裁判",
+        "NOX",
+        "V系",
+        "ダークロック",
+        "正義",
+        "社会",
+        "偽善",
+        "ダーク",
+        "挑発的"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "tags": [
+        "V系",
+        "ダークロック",
+        "正義",
+        "社会",
+        "偽善",
+        "ダーク",
+        "挑発的"
+      ],
+      "lyrics": "",
+      "introduction": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "publishedAt": "2026-08-03T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/nox-zennin-saiban.jpg"
+      ],
+      "productionNote": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "seo": {
+        "title": "善人裁判｜NOX｜SUZUKA Official Music",
+        "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-29",
+      "videoPublishedAt": "2026-08-03T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=8BjnnX3xeGw"
+    },
     {
       "id": "one-more-kiss",
       "slug": "one-more-kiss",
@@ -2448,38 +2613,6 @@
   ],
   "upcoming": [
     {
-      "slug": "zennin-saiban",
-      "title": "善人裁判",
-      "artist": "NOX",
-      "artistSlug": "nox",
-      "scheduledAt": "2026-08-03T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
-      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-03T20:00:00+09:00"
-    },
-    {
-      "slug": "still-alive",
-      "title": "Still alive",
-      "artist": "RE:VIVE",
-      "artistSlug": "revive",
-      "scheduledAt": "2026-08-04T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
-      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-04T20:00:00+09:00"
-    },
-    {
       "slug": "hajimemashite-kiseki",
       "title": "はじめまして、奇跡",
       "artist": "榎本魅愛",
@@ -2561,6 +2694,26 @@
     }
   ],
   "news": [
+    {
+      "slug": "still-alive-release",
+      "title": "RE:VIVE「Still alive」公開",
+      "artistSlug": "revive",
+      "releaseSlug": "still-alive",
+      "publishedAt": "2026-08-04T20:00:06+09:00",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "image": "images/revive-still-alive.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "zennin-saiban-release",
+      "title": "NOX「善人裁判」公開",
+      "artistSlug": "nox",
+      "releaseSlug": "zennin-saiban",
+      "publishedAt": "2026-08-03T20:00:06+09:00",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "image": "images/nox-zennin-saiban.jpg",
+      "status": "published"
+    },
     {
       "slug": "one-more-kiss-release",
       "title": "神代煌牙「One More Kiss」公開",

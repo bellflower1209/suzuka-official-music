@@ -254,6 +254,17 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/gallery/still-alive/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Still alive Official MV</video:title>
+      <video:description>立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/KCviOsGatOY</video:player_loc>
+      <video:publication_date>2026-08-04T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/suki-ga-kyou-mo-fueteiku/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/XAZy5k9Q4rE/maxresdefault.jpg</video:thumbnail_loc>
@@ -316,6 +327,17 @@
       <video:description>笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。</video:description>
       <video:player_loc>https://www.youtube.com/embed/lMeYWn4Sqgk</video:player_loc>
       <video:publication_date>2026-07-31T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/gallery/zennin-saiban/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>善人裁判 Official MV</video:title>
+      <video:description>正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/8BjnnX3xeGw</video:player_loc>
+      <video:publication_date>2026-08-03T20:00:06+09:00</video:publication_date>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -634,6 +656,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/still-alive/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Still alive Official Video</video:title>
+      <video:description>立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=KCviOsGatOY</video:content_loc>
+      <video:publication_date>2026-08-04T20:00:06+09:00</video:publication_date>
+      <video:duration>468</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</video:thumbnail_loc>
@@ -698,6 +732,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=lMeYWn4Sqgk</video:content_loc>
       <video:publication_date>2026-07-31T20:00:06+09:00</video:publication_date>
       <video:duration>210</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/zennin-saiban/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>善人裁判 Official Video</video:title>
+      <video:description>正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=8BjnnX3xeGw</video:content_loc>
+      <video:publication_date>2026-08-03T20:00:06+09:00</video:publication_date>
+      <video:duration>380</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

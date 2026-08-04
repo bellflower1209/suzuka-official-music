@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-03T00:50:00+09:00",
+  "evidenceCheckedAt": "2026-08-05T00:46:28+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 163,
-    "videoObjects": 62,
+    "jsonLdBlocks": 169,
+    "videoObjects": 66,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -434,8 +434,8 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 57,
-  "removedUnverifiedVideoObjectCount": 1,
+  "fixedVideoObjectCount": 61,
+  "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
     "KHZMfULXuGQ",
@@ -463,20 +463,10 @@
       "verifiedDate": "2026-08-02"
     },
     {
-      "releaseSlug": "still-alive",
-      "youtubeId": "KCviOsGatOY",
-      "verifiedDate": "2026-07-31"
-    },
-    {
       "releaseSlug": "wasureji-no-hito",
       "youtubeId": "tbysXktPNk4",
       "verifiedDate": "2026-07-31"
-    },
-    {
-      "releaseSlug": "zennin-saiban",
-      "youtubeId": "8BjnnX3xeGw",
-      "verifiedDate": "2026-07-29"
     }
   ],
-  "heldReleaseCount": 7
+  "heldReleaseCount": 5
 }

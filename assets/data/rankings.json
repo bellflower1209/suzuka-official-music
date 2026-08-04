@@ -5,6 +5,8 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -12,15 +14,15 @@
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono"
+        "wasurenai-kokoro"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -28,9 +30,7 @@
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
         "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro"
+        "echoes-of-you"
       ]
     },
     "love": {
@@ -58,6 +58,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "still-alive",
         "without-worrying",
         "ashita-wa-kitto",
         "heal-you-again"
@@ -66,6 +67,8 @@
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -73,9 +76,7 @@
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono"
+        "wasurenai-kokoro"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -85,10 +86,10 @@
         "enomoto-mia",
         "koga-kamishiro",
         "eclypse",
-        "rangili",
-        "asagiri-shinobu",
         "revive",
-        "nox"
+        "rangili",
+        "nox",
+        "asagiri-shinobu"
       ]
     },
     "genres": {
@@ -97,14 +98,14 @@
         "J-POP",
         "ロマンティックポップ",
         "ダークポップ",
+        "バラード",
         "ロック",
         "K-POP風",
-        "バラード",
-        "インド×J-POP",
-        "シネマティック",
+        "アイドルポップ",
         "V系",
         "ダークロック",
-        "アイドルポップ",
+        "インド×J-POP",
+        "シネマティック",
         "演歌",
         "歌謡曲",
         "サイバーパンク",
@@ -116,6 +117,8 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
@@ -123,9 +126,7 @@
         "heal-you-again",
         "echoes-of-you",
         "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono"
+        "wasurenai-kokoro"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }

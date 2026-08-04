@@ -2,38 +2,6 @@
   "updatedAt": "2026-07-30T00:00:00+09:00",
   "releases": [
     {
-      "slug": "zennin-saiban",
-      "title": "善人裁判",
-      "artist": "NOX",
-      "artistSlug": "nox",
-      "scheduledAt": "2026-08-03T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
-      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/8BjnnX3xeGw/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-03T20:00:00+09:00"
-    },
-    {
-      "slug": "still-alive",
-      "title": "Still alive",
-      "artist": "RE:VIVE",
-      "artistSlug": "revive",
-      "scheduledAt": "2026-08-04T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
-      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/KCviOsGatOY/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-04T20:00:00+09:00"
-    },
-    {
       "slug": "hajimemashite-kiseki",
       "title": "はじめまして、奇跡",
       "artist": "榎本魅愛",

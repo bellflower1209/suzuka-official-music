@@ -19,8 +19,8 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 
 ## 0. 結論と公開状況
 
-- 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は29件。
-- Upcomingは7件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
+- 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は31件。
+- Upcomingは5件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
 - 公開日時と動画時間は公式YouTube証跡に保存し、未確認情報は推測しない。
 - 再生リスト、カード、終了画面などYouTube Studio内の設定は、実確認済みと提案済みを別管理する。
 
@@ -28,42 +28,42 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 
 | # | 作品名 | アーティスト | YouTube / 時間 | 公開日時（JST） | 公式サイト | 状態 |
 |---:|---|---|---|---|---|---|
-| 1 | One More Kiss | 神代煌牙 | [EP7NAPlGhuo](https://www.youtube.com/watch?v=EP7NAPlGhuo) / 5:37 | 2026-08-02T20:00:05+09:00 | [作品](https://www.suzukaofficial.com/releases/one-more-kiss/) | 公開確認済み |
-| 2 | LOST SIGNAL | ECLYPSE | [CbpvpKllc6c](https://www.youtube.com/watch?v=CbpvpKllc6c) / 4:45 | 2026-08-01T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/lost-signal/) | 公開確認済み |
-| 3 | Without Worrying | 榎本魅愛 | [lMeYWn4Sqgk](https://www.youtube.com/watch?v=lMeYWn4Sqgk) / 3:30 | 2026-07-31T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/without-worrying/) | 公開確認済み |
-| 4 | 恋するマハラジャ | RANGILI | [V3DOM83zeLk](https://www.youtube.com/watch?v=V3DOM83zeLk) / 6:17 | 2026-07-30T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/koisuru-maharaja/) | 公開確認済み |
-| 5 | チンパンジーの楽園 | NOX | [EJJLBOo103I](https://www.youtube.com/watch?v=EJJLBOo103I) / 2:28 | 2026-07-29T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/) | 公開確認済み |
-| 6 | 明日は、きっと。 | 榎本魅愛 | [5MkQZT5qiGA](https://www.youtube.com/watch?v=5MkQZT5qiGA) / 3:35 | 2026-07-29T01:22:23+09:00 | [作品](https://www.suzukaofficial.com/releases/ashita-wa-kitto/) | 公開確認済み |
-| 7 | Heal You Again | RE:VIVE | [XHjDSEoFcXE](https://www.youtube.com/watch?v=XHjDSEoFcXE) / 1:45 | 2026-07-27T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/heal-you-again/) | 公開確認済み |
-| 8 | Echoes of You | 神代 煌牙 | [Uxtp9TLw47g](https://www.youtube.com/watch?v=Uxtp9TLw47g) / 8:04 | 2026-07-26T20:00:22+09:00 | [作品](https://www.suzukaofficial.com/releases/echoes-of-you/) | 公開確認済み |
-| 9 | NAMASTE☆GALAXY | RANGILI | [CQ0bfdXVrck](https://www.youtube.com/watch?v=CQ0bfdXVrck) / 2:43 | 2026-07-24T20:00:11+09:00 | [作品](https://www.suzukaofficial.com/releases/namaste-galaxy/) | 公開確認済み |
-| 10 | 忘れない心 | 朝霧しのぶ | [YxZWABTJBGk](https://www.youtube.com/watch?v=YxZWABTJBGk) / 5:11 | 2026-07-23T20:00:34+09:00 | [作品](https://www.suzukaofficial.com/releases/wasurenai-kokoro/) | 公開確認済み |
-| 11 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | [b2n8gcpen58](https://www.youtube.com/watch?v=b2n8gcpen58) / 8:17 | 2026-07-22T20:00:31+09:00 | [作品](https://www.suzukaofficial.com/releases/smile-and-say-goodbye/) | 公開確認済み |
-| 12 | 忘却の生き物 | 神代 煌牙 | [yREvkT9gEk4](https://www.youtube.com/watch?v=yREvkT9gEk4) / 4:44 | 2026-07-21T19:00:30+09:00 | [作品](https://www.suzukaofficial.com/releases/boukyaku-no-ikimono/) | 公開確認済み |
-| 13 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:57 | 2026-07-20T19:00:07+09:00 | [作品](https://www.suzukaofficial.com/releases/my-queen-my-oath/) | 公開確認済み |
-| 14 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:04 | 2026-07-18T19:52:02+09:00 | [作品](https://www.suzukaofficial.com/releases/red-moon-rising/) | 公開確認済み |
-| 15 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16T18:31:46+09:00 | [作品](https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/) | 公開確認済み |
-| 16 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:57 | 2026-07-16T20:50:27+09:00 | [作品](https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) | 公開確認済み |
-| 17 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:24 | 2026-07-15T00:51:42+09:00 | [作品](https://www.suzukaofficial.com/releases/toriatsukai-chui/) | 公開確認済み |
-| 18 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14T22:47:31+09:00 | [作品](https://www.suzukaofficial.com/releases/shadow-code/) | 公開確認済み |
-| 19 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:17 | 2026-07-14T23:24:10+09:00 | [作品](https://www.suzukaofficial.com/releases/our-kingdom/) | 公開確認済み |
-| 20 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:04 | 2026-07-14T22:31:20+09:00 | [作品](https://www.suzukaofficial.com/releases/mirai-no-watashi-ga-miteru/) | 公開確認済み |
-| 21 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:20 | 2026-07-13T20:00:23+09:00 | [作品](https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/) | 公開確認済み |
-| 22 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:52 | 2026-07-13T20:00:35+09:00 | [作品](https://www.suzukaofficial.com/releases/muteki-jikan-ato-3byou/) | 公開確認済み |
-| 23 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13T20:00:32+09:00 | [作品](https://www.suzukaofficial.com/releases/mia/) | 公開確認済み |
-| 24 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13T15:27:23+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/) | 公開確認済み |
-| 25 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13T15:14:26+09:00 | [作品](https://www.suzukaofficial.com/releases/ai-demo-wakaranai/) | 公開確認済み |
-| 26 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:34 | 2026-07-12T20:00:59+09:00 | [作品](https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/) | 公開確認済み |
-| 27 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-13T00:17:26+09:00 | [作品](https://www.suzukaofficial.com/releases/mermaid-merman/) | 公開確認済み |
-| 28 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:40 | 2026-07-13T00:54:50+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-wa-hanabi/) | 公開確認済み |
-| 29 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:55 | 2026-07-12T19:42:52+09:00 | [作品](https://www.suzukaofficial.com/releases/hyakumankoku/) | 公開確認済み |
+| 1 | Still alive | RE:VIVE | [KCviOsGatOY](https://www.youtube.com/watch?v=KCviOsGatOY) / 7:48 | 2026-08-04T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/still-alive/) | 公開確認済み |
+| 2 | 善人裁判 | NOX | [8BjnnX3xeGw](https://www.youtube.com/watch?v=8BjnnX3xeGw) / 6:20 | 2026-08-03T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/zennin-saiban/) | 公開確認済み |
+| 3 | One More Kiss | 神代煌牙 | [EP7NAPlGhuo](https://www.youtube.com/watch?v=EP7NAPlGhuo) / 5:37 | 2026-08-02T20:00:05+09:00 | [作品](https://www.suzukaofficial.com/releases/one-more-kiss/) | 公開確認済み |
+| 4 | LOST SIGNAL | ECLYPSE | [CbpvpKllc6c](https://www.youtube.com/watch?v=CbpvpKllc6c) / 4:45 | 2026-08-01T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/lost-signal/) | 公開確認済み |
+| 5 | Without Worrying | 榎本魅愛 | [lMeYWn4Sqgk](https://www.youtube.com/watch?v=lMeYWn4Sqgk) / 3:30 | 2026-07-31T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/without-worrying/) | 公開確認済み |
+| 6 | 恋するマハラジャ | RANGILI | [V3DOM83zeLk](https://www.youtube.com/watch?v=V3DOM83zeLk) / 6:17 | 2026-07-30T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/koisuru-maharaja/) | 公開確認済み |
+| 7 | チンパンジーの楽園 | NOX | [EJJLBOo103I](https://www.youtube.com/watch?v=EJJLBOo103I) / 2:28 | 2026-07-29T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/) | 公開確認済み |
+| 8 | 明日は、きっと。 | 榎本魅愛 | [5MkQZT5qiGA](https://www.youtube.com/watch?v=5MkQZT5qiGA) / 3:35 | 2026-07-29T01:22:23+09:00 | [作品](https://www.suzukaofficial.com/releases/ashita-wa-kitto/) | 公開確認済み |
+| 9 | Heal You Again | RE:VIVE | [XHjDSEoFcXE](https://www.youtube.com/watch?v=XHjDSEoFcXE) / 1:45 | 2026-07-27T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/heal-you-again/) | 公開確認済み |
+| 10 | Echoes of You | 神代 煌牙 | [Uxtp9TLw47g](https://www.youtube.com/watch?v=Uxtp9TLw47g) / 8:04 | 2026-07-26T20:00:22+09:00 | [作品](https://www.suzukaofficial.com/releases/echoes-of-you/) | 公開確認済み |
+| 11 | NAMASTE☆GALAXY | RANGILI | [CQ0bfdXVrck](https://www.youtube.com/watch?v=CQ0bfdXVrck) / 2:43 | 2026-07-24T20:00:11+09:00 | [作品](https://www.suzukaofficial.com/releases/namaste-galaxy/) | 公開確認済み |
+| 12 | 忘れない心 | 朝霧しのぶ | [YxZWABTJBGk](https://www.youtube.com/watch?v=YxZWABTJBGk) / 5:11 | 2026-07-23T20:00:34+09:00 | [作品](https://www.suzukaofficial.com/releases/wasurenai-kokoro/) | 公開確認済み |
+| 13 | SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。― | 榎本魅愛 | [b2n8gcpen58](https://www.youtube.com/watch?v=b2n8gcpen58) / 8:17 | 2026-07-22T20:00:31+09:00 | [作品](https://www.suzukaofficial.com/releases/smile-and-say-goodbye/) | 公開確認済み |
+| 14 | 忘却の生き物 | 神代 煌牙 | [yREvkT9gEk4](https://www.youtube.com/watch?v=yREvkT9gEk4) / 4:44 | 2026-07-21T19:00:30+09:00 | [作品](https://www.suzukaofficial.com/releases/boukyaku-no-ikimono/) | 公開確認済み |
+| 15 | My Queen, My Oath | 神代 煌牙 | [_TfwreiEMMM](https://www.youtube.com/watch?v=_TfwreiEMMM) / 4:57 | 2026-07-20T19:00:07+09:00 | [作品](https://www.suzukaofficial.com/releases/my-queen-my-oath/) | 公開確認済み |
+| 16 | RED MOON // RISING | ECLYPSE | [BZkMHt0P2oo](https://www.youtube.com/watch?v=BZkMHt0P2oo) / 6:04 | 2026-07-18T19:52:02+09:00 | [作品](https://www.suzukaofficial.com/releases/red-moon-rising/) | 公開確認済み |
+| 17 | 好きが、今日も増えていく。 | 榎本魅愛 | [XAZy5k9Q4rE](https://www.youtube.com/watch?v=XAZy5k9Q4rE) / 5:51 | 2026-07-16T18:31:46+09:00 | [作品](https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/) | 公開確認済み |
+| 18 | もしも明日、はじめましてになっても | 榎本魅愛 | [GN6eoBDRm3w](https://www.youtube.com/watch?v=GN6eoBDRm3w) / 6:57 | 2026-07-16T20:50:27+09:00 | [作品](https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/) | 公開確認済み |
+| 19 | 取り扱いチュー💋い | 榎本魅愛 | [QXvpLCnyoOw](https://www.youtube.com/watch?v=QXvpLCnyoOw) / 5:24 | 2026-07-15T00:51:42+09:00 | [作品](https://www.suzukaofficial.com/releases/toriatsukai-chui/) | 公開確認済み |
+| 20 | SHADOW//CODE | ECLYPSE | [8VCL2IepjeM](https://www.youtube.com/watch?v=8VCL2IepjeM) / 3:01 | 2026-07-14T22:47:31+09:00 | [作品](https://www.suzukaofficial.com/releases/shadow-code/) | 公開確認済み |
+| 21 | OUR KINGDOM | 榎本魅愛 × 神代煌牙 | [y26XVRkpfjw](https://www.youtube.com/watch?v=y26XVRkpfjw) / 6:17 | 2026-07-14T23:24:10+09:00 | [作品](https://www.suzukaofficial.com/releases/our-kingdom/) | 公開確認済み |
+| 22 | 未来の私が見てる | 榎本魅愛 | [fgAW1njpSxM](https://www.youtube.com/watch?v=fgAW1njpSxM) / 8:04 | 2026-07-14T22:31:20+09:00 | [作品](https://www.suzukaofficial.com/releases/mirai-no-watashi-ga-miteru/) | 公開確認済み |
+| 23 | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | [CAFQ-d7YHPQ](https://www.youtube.com/watch?v=CAFQ-d7YHPQ) / 6:20 | 2026-07-13T20:00:23+09:00 | [作品](https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/) | 公開確認済み |
+| 24 | 無敵時間、あと3秒 | 榎本魅愛 | [DPnFtRFnH5c](https://www.youtube.com/watch?v=DPnFtRFnH5c) / 3:52 | 2026-07-13T20:00:35+09:00 | [作品](https://www.suzukaofficial.com/releases/muteki-jikan-ato-3byou/) | 公開確認済み |
+| 25 | M・I・A | 榎本魅愛 | [WzcXyuAI_FM](https://www.youtube.com/watch?v=WzcXyuAI_FM) / 5:28 | 2026-07-13T20:00:32+09:00 | [作品](https://www.suzukaofficial.com/releases/mia/) | 公開確認済み |
+| 26 | 君とならラスボスまで | 榎本魅愛 | [YVNs3I-KaHI](https://www.youtube.com/watch?v=YVNs3I-KaHI) / 5:29 | 2026-07-13T15:27:23+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/) | 公開確認済み |
+| 27 | AIでもわからない | 榎本魅愛 | [5jmTo3Jb5sI](https://www.youtube.com/watch?v=5jmTo3Jb5sI) / 5:15 | 2026-07-13T15:14:26+09:00 | [作品](https://www.suzukaofficial.com/releases/ai-demo-wakaranai/) | 公開確認済み |
+| 28 | 好きってバレてもいい | 榎本魅愛 | [XP8yXMKFHVI](https://www.youtube.com/watch?v=XP8yXMKFHVI) / 4:34 | 2026-07-12T20:00:59+09:00 | [作品](https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/) | 公開確認済み |
+| 29 | MERMAID×MERMAN | 榎本魅愛 | [29fpeNtUqfY](https://www.youtube.com/watch?v=29fpeNtUqfY) / 5:40 | 2026-07-13T00:17:26+09:00 | [作品](https://www.suzukaofficial.com/releases/mermaid-merman/) | 公開確認済み |
+| 30 | 君は花火 | 榎本魅愛 | [ohylad3AWYI](https://www.youtube.com/watch?v=ohylad3AWYI) / 4:40 | 2026-07-13T00:54:50+09:00 | [作品](https://www.suzukaofficial.com/releases/kimi-wa-hanabi/) | 公開確認済み |
+| 31 | 百万告 | 榎本魅愛 | [QteunhFn9Dk](https://www.youtube.com/watch?v=QteunhFn9Dk) / 4:55 | 2026-07-12T19:42:52+09:00 | [作品](https://www.suzukaofficial.com/releases/hyakumankoku/) | 公開確認済み |
 
 ### Upcoming
 
 | 状態 | 作品 | アーティスト | 公開予定（JST） | 時間 | 正式URL |
 | --- | --- | --- | --- | --- | --- |
-| 公開予定 | 善人裁判 | NOX | 2026-08-03 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=8BjnnX3xeGw |
-| 公開予定 | Still alive | RE:VIVE | 2026-08-04 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=KCviOsGatOY |
 | 公開予定 | はじめまして、奇跡 | 榎本魅愛 | 2026-08-05 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rr12NZuWHHs |
 | 公開予定 | 忘れじの人 | 朝霧しのぶ | 2026-08-06 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=tbysXktPNk4 |
 | 公開予定 | 花言葉 | 榎本魅愛 | 2026-08-07 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=mdTogs4Oiew |
@@ -415,8 +415,6 @@ YouTube Studio上のタイトル・説明欄・タグ・カード・エンド画
 
 | 状態 | 作品 | アーティスト | 公開日／予定 | 時間 | 正式URL |
 | --- | --- | --- | --- | --- | --- |
-| 公開予定 | 善人裁判 | NOX | 2026-08-03 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=8BjnnX3xeGw |
-| 公開予定 | Still alive | RE:VIVE | 2026-08-04 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=KCviOsGatOY |
 | 公開予定 | はじめまして、奇跡 | 榎本魅愛 | 2026-08-05 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rr12NZuWHHs |
 | 公開予定 | 忘れじの人 | 朝霧しのぶ | 2026-08-06 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=tbysXktPNk4 |
 | 公開予定 | 花言葉 | 榎本魅愛 | 2026-08-07 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=mdTogs4Oiew |

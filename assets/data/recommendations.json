@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-03T00:45:42+09:00",
+  "updatedAt": "2026-08-05T00:46:28+09:00",
   "recommendations": {
+    "still-alive": {
+      "sameArtist": [
+        "heal-you-again"
+      ],
+      "sameGenre": [
+        "heal-you-again",
+        "without-worrying",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "one-more-kiss",
+        "koisuru-maharaja"
+      ],
+      "sameTheme": [
+        "heal-you-again",
+        "without-worrying"
+      ],
+      "popular": [
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "without-worrying",
+        "zennin-saiban",
+        "ai-demo-wakaranai"
+      ],
+      "recent": [
+        "zennin-saiban",
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
+        "koisuru-maharaja",
+        "chimpanzee-no-rakuen"
+      ],
+      "aiRecommended": [
+        "heal-you-again",
+        "without-worrying",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "one-more-kiss",
+        "koisuru-maharaja"
+      ]
+    },
+    "zennin-saiban": {
+      "sameArtist": [
+        "chimpanzee-no-rakuen"
+      ],
+      "sameGenre": [
+        "chimpanzee-no-rakuen"
+      ],
+      "sameTheme": [
+        "chimpanzee-no-rakuen",
+        "boukyaku-no-ikimono"
+      ],
+      "popular": [
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive",
+        "without-worrying",
+        "ai-demo-wakaranai"
+      ],
+      "recent": [
+        "still-alive",
+        "one-more-kiss",
+        "lost-signal",
+        "without-worrying",
+        "koisuru-maharaja",
+        "chimpanzee-no-rakuen"
+      ],
+      "aiRecommended": [
+        "chimpanzee-no-rakuen",
+        "boukyaku-no-ikimono",
+        "one-more-kiss",
+        "still-alive",
+        "lost-signal",
+        "without-worrying"
+      ]
+    },
     "one-more-kiss": {
       "sameArtist": [
         "echoes-of-you",
@@ -26,18 +103,18 @@
       "popular": [
         "koisuru-maharaja",
         "lost-signal",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "zennin-saiban",
+        "ai-demo-wakaranai"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "lost-signal",
         "without-worrying",
         "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "chimpanzee-no-rakuen"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -66,18 +143,18 @@
       "popular": [
         "koisuru-maharaja",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "zennin-saiban",
+        "ai-demo-wakaranai"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "without-worrying",
         "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "chimpanzee-no-rakuen"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -99,39 +176,40 @@
       ],
       "sameGenre": [
         "ashita-wa-kitto",
+        "still-alive",
         "heal-you-again",
         "smile-and-say-goodbye",
         "ai-demo-wakaranai",
-        "hyakumankoku",
-        "kimi-to-nara-last-boss-made"
+        "hyakumankoku"
       ],
       "sameTheme": [
         "ashita-wa-kitto",
+        "still-alive",
         "heal-you-again"
       ],
       "popular": [
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "still-alive",
+        "zennin-saiban",
+        "ai-demo-wakaranai"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "chimpanzee-no-rakuen"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
+        "still-alive",
         "heal-you-again",
         "smile-and-say-goodbye",
         "ai-demo-wakaranai",
-        "hyakumankoku",
-        "kimi-to-nara-last-boss-made"
+        "hyakumankoku"
       ]
     },
     "koisuru-maharaja": {
@@ -157,18 +235,18 @@
       "popular": [
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "zennin-saiban",
+        "ai-demo-wakaranai"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "chimpanzee-no-rakuen"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -180,34 +258,39 @@
       ]
     },
     "chimpanzee-no-rakuen": {
-      "sameArtist": [],
-      "sameGenre": [],
+      "sameArtist": [
+        "zennin-saiban"
+      ],
+      "sameGenre": [
+        "zennin-saiban"
+      ],
       "sameTheme": [
+        "zennin-saiban",
         "boukyaku-no-ikimono"
       ],
       "popular": [
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
+        "zennin-saiban",
         "boukyaku-no-ikimono",
         "koisuru-maharaja",
         "without-worrying",
         "ashita-wa-kitto",
-        "heal-you-again",
-        "lost-signal"
+        "heal-you-again"
       ]
     },
     "ashita-wa-kitto": {
@@ -222,10 +305,10 @@
       "sameGenre": [
         "without-worrying",
         "smile-and-say-goodbye",
+        "still-alive",
         "heal-you-again",
         "ai-demo-wakaranai",
-        "hyakumankoku",
-        "kimi-to-nara-last-boss-made"
+        "hyakumankoku"
       ],
       "sameTheme": [
         "without-worrying",
@@ -235,38 +318,41 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "heal-you-again"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "without-worrying",
         "smile-and-say-goodbye",
+        "still-alive",
         "heal-you-again",
         "ai-demo-wakaranai",
-        "hyakumankoku",
-        "kimi-to-nara-last-boss-made"
+        "hyakumankoku"
       ]
     },
     "heal-you-again": {
-      "sameArtist": [],
+      "sameArtist": [
+        "still-alive"
+      ],
       "sameGenre": [
+        "still-alive",
         "without-worrying",
         "ashita-wa-kitto",
         "echoes-of-you",
         "koisuru-maharaja",
-        "namaste-galaxy",
-        "one-more-kiss"
+        "namaste-galaxy"
       ],
       "sameTheme": [
+        "still-alive",
         "without-worrying",
         "ashita-wa-kitto"
       ],
@@ -274,25 +360,25 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
+        "still-alive",
         "without-worrying",
         "ashita-wa-kitto",
         "echoes-of-you",
         "koisuru-maharaja",
-        "namaste-galaxy",
-        "one-more-kiss"
+        "namaste-galaxy"
       ]
     },
     "echoes-of-you": {
@@ -314,17 +400,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -354,17 +440,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -385,17 +471,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "kimi-wa-hanabi",
@@ -420,8 +506,8 @@
         "without-worrying",
         "our-kingdom",
         "my-queen-my-oath",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "still-alive",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameTheme": [
         "our-kingdom",
@@ -431,25 +517,25 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
         "without-worrying",
         "our-kingdom",
         "my-queen-my-oath",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "still-alive",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ]
     },
     "boukyaku-no-ikimono": {
@@ -467,23 +553,24 @@
         "lost-signal"
       ],
       "sameTheme": [
-        "chimpanzee-no-rakuen"
+        "chimpanzee-no-rakuen",
+        "zennin-saiban"
       ],
       "popular": [
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "echoes-of-you"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -518,17 +605,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -559,17 +646,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -609,17 +696,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -659,17 +746,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -709,17 +796,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -751,17 +838,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -797,17 +884,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -847,17 +934,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -897,17 +984,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -947,17 +1034,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -997,17 +1084,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1047,17 +1134,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1097,17 +1184,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -1147,17 +1234,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1197,17 +1284,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1247,17 +1334,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1297,17 +1384,17 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "still-alive",
         "without-worrying",
-        "ai-demo-wakaranai",
-        "boukyaku-no-ikimono"
+        "zennin-saiban"
       ],
       "recent": [
+        "still-alive",
+        "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto"
+        "koisuru-maharaja"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

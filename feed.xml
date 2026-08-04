@@ -2,40 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-03T00:45:42+09:00</updated>
+  <updated>2026-08-05T00:46:28+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
   <entry>
-    <id>https://www.youtube.com/watch?v=8BjnnX3xeGw</id>
-    <title>Upcoming｜NOX「善人裁判」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=8BjnnX3xeGw" />
-    <category term="upcoming" />
-    <summary>2026-08-03T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
-  </entry>
-  <entry>
     <id>https://www.youtube.com/watch?v=tbysXktPNk4</id>
     <title>Upcoming｜朝霧しのぶ「忘れじの人」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
+    <updated>2026-08-05T00:46:28+09:00</updated>
     <link href="https://www.youtube.com/watch?v=tbysXktPNk4" />
     <category term="upcoming" />
     <summary>2026-08-06T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=KCviOsGatOY</id>
-    <title>Upcoming｜RE:VIVE「Still alive」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=KCviOsGatOY" />
-    <category term="upcoming" />
-    <summary>2026-08-04T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
-  </entry>
-  <entry>
     <id>https://www.youtube.com/watch?v=uibakv4n2Dg</id>
     <title>Upcoming｜神代煌牙「マーメイドの下僕」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
+    <updated>2026-08-05T00:46:28+09:00</updated>
     <link href="https://www.youtube.com/watch?v=uibakv4n2Dg" />
     <category term="upcoming" />
     <summary>2026-08-08T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -43,7 +27,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=iEFPd6kYYJc</id>
     <title>Upcoming｜榎本魅愛「君にかかった魔法」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
+    <updated>2026-08-05T00:46:28+09:00</updated>
     <link href="https://www.youtube.com/watch?v=iEFPd6kYYJc" />
     <category term="upcoming" />
     <summary>2026-08-09T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -51,7 +35,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=mdTogs4Oiew</id>
     <title>Upcoming｜榎本魅愛「花言葉」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
+    <updated>2026-08-05T00:46:28+09:00</updated>
     <link href="https://www.youtube.com/watch?v=mdTogs4Oiew" />
     <category term="upcoming" />
     <summary>2026-08-07T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -59,10 +43,46 @@
   <entry>
     <id>https://www.youtube.com/watch?v=rr12NZuWHHs</id>
     <title>Upcoming｜榎本魅愛「はじめまして、奇跡」</title>
-    <updated>2026-08-03T00:45:42+09:00</updated>
+    <updated>2026-08-05T00:46:28+09:00</updated>
     <link href="https://www.youtube.com/watch?v=rr12NZuWHHs" />
     <category term="upcoming" />
     <summary>2026-08-05T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-04T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/still-alive/</id>
+    <title>RE:VIVE「Still alive」</title>
+    <updated>2026-08-04T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/still-alive/" />
+    <category term="release" />
+    <summary>立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-04T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/still-alive-release/</id>
+    <title>RE:VIVE「Still alive」公開</title>
+    <updated>2026-08-04T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/still-alive-release/" />
+    <category term="news" />
+    <summary>立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-03T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/zennin-saiban/</id>
+    <title>NOX「善人裁判」</title>
+    <updated>2026-08-03T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/zennin-saiban/" />
+    <category term="release" />
+    <summary>正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-03T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/zennin-saiban-release/</id>
+    <title>NOX「善人裁判」公開</title>
+    <updated>2026-08-03T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/zennin-saiban-release/" />
+    <category term="news" />
+    <summary>正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。</summary>
   </entry>
   <entry>
     <published>2026-08-02T20:00:05+09:00</published>

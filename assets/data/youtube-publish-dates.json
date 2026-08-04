@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-03T00:50:00+09:00",
+  "checkedAt": "2026-08-05T00:46:28+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -466,18 +466,18 @@
       "releaseSlug": "still-alive",
       "youtubeId": "KCviOsGatOY",
       "youtubeUrl": "https://www.youtube.com/watch?v=KCviOsGatOY",
-      "catalogReleaseDate": "",
-      "officialTitle": "【8月4日20時プレミア公開】RE:VIVE『Still alive』｜息をしてる、それだけで。",
+      "catalogReleaseDate": "2026-08-04",
+      "officialTitle": "RE:VIVE『Still alive』｜息をしてる、それだけで。",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA",
       "channelVerified": true,
       "youtubePublishDate": "2026-07-31T00:13:32-07:00",
       "youtubeUploadDate": "2026-07-31T00:13:32-07:00",
       "liveStartTimestamp": "2026-08-04T11:00:00+00:00",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE",
-      "durationSeconds": 0,
-      "verifiedPublishedAt": "",
-      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "status": "scheduled"
+      "playabilityStatus": "OK",
+      "durationSeconds": 468,
+      "verifiedPublishedAt": "2026-08-04T20:00:06+09:00",
+      "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "suki-ga-kyou-mo-fueteiku",
@@ -602,18 +602,18 @@
       "releaseSlug": "zennin-saiban",
       "youtubeId": "8BjnnX3xeGw",
       "youtubeUrl": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
-      "catalogReleaseDate": "",
-      "officialTitle": "【8月3日20:00 プレミア公開】NOX『善人裁判』― あなたは、本当に無罪か？",
+      "catalogReleaseDate": "2026-08-03",
+      "officialTitle": "NOX『善人裁判』― あなたは、本当に無罪か？",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA",
       "channelVerified": true,
       "youtubePublishDate": "2026-07-29T08:08:30-07:00",
       "youtubeUploadDate": "2026-07-29T08:08:30-07:00",
       "liveStartTimestamp": "2026-08-03T11:00:00+00:00",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE",
-      "durationSeconds": 0,
-      "verifiedPublishedAt": "",
-      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "status": "scheduled"
+      "playabilityStatus": "OK",
+      "durationSeconds": 380,
+      "verifiedPublishedAt": "2026-08-03T20:00:06+09:00",
+      "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
     }
   ]
 }

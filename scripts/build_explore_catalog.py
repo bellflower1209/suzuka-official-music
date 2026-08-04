@@ -241,21 +241,32 @@ def news_page(item: dict) -> str:
 def upsert_card(path: Path, item: dict, p: str, href: str | None = None) -> None:
     text = path.read_text(encoding="utf-8")
     href = href or f'{p}releases/{item["slug"]}/'
+    news_link = (
+        f'<a class="release-card-cta" href="{p}{item["newsUrl"]}">Newsを読む ↗</a>'
+        if item.get("newsUrl")
+        else ""
+    )
+    card = (
+        f'<article class="release-card release-card-new"><a class="release-image" href="{href}">'
+        f'<img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/></a>'
+        '<div class="release-info"><div class="release-row"><span>01</span>'
+        f'<span>OFFICIAL RELEASE · {item["releaseDate"]}</span></div><h3>{html.escape(item["title"])}</h3>'
+        f'<p>{html.escape(item["description"])}</p><p class="release-artist-credit">'
+        f'<a href="{p}artists/{item["artistSlug"]}/">{html.escape(item["artist"])}</a></p>'
+        '<div class="release-card-actions">'
+        f'<a class="release-card-cta release-card-cta-detail" href="{href}">詳細を見る ↗</a>'
+        f'<a class="release-card-cta" href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>'
+        f'{news_link}</div></div></article>'
+    )
     existing_cards = re.findall(r'<article class="release-card[^>]*>.*?</article>', text, re.DOTALL)
     matching_cards = [card for card in existing_cards if f'/{item["slug"]}/' in card]
     if matching_cards:
         first = matching_cards[0]
-        normalized = re.sub(
-            rf'href="(?:\.\./releases/|\./releases/|\./){re.escape(item["slug"])}/"',
-            f'href="{href}"',
-            first,
-        )
-        text = text.replace(first, normalized, 1)
+        text = text.replace(first, card, 1)
         for duplicate in matching_cards[1:]:
             text = text.replace(duplicate, "", 1)
         path.write_text(text, encoding="utf-8")
         return
-    card = f'<article class="release-card release-card-new"><a class="release-image" href="{href}"><img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/></a><div class="release-info"><div class="release-row"><span>01</span><span>OFFICIAL RELEASE · {item["releaseDate"]}</span></div><h3>{html.escape(item["title"])}</h3><p>{html.escape(item["description"])}</p><p class="release-artist-credit">{html.escape(item["artist"])}</p><div class="release-card-actions"><a class="release-card-cta release-card-cta-detail" href="{href}">詳細を見る ↗</a><a class="release-card-cta" href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a></div></div></article>'
     text = text.replace('<div class="release-grid">', '<div class="release-grid">' + card, 1)
     path.write_text(text, encoding="utf-8")
 
