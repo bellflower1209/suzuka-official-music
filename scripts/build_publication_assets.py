@@ -44,9 +44,14 @@ class ImageParser(HTMLParser):
             self.images.append((values["src"] or "", values.get("alt") or ""))
 
 
-def xml_write(path: Path, root: ET.Element) -> None:
+def xml_write(path: Path, root: ET.Element, *, standard_declaration: bool = False) -> None:
     ET.indent(root, space="  ")
-    path.write_bytes(ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n")
+    if standard_declaration:
+        body = ET.tostring(root, encoding="utf-8", xml_declaration=False)
+        data = b'<?xml version="1.0" encoding="UTF-8"?>\n' + body
+    else:
+        data = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+    path.write_bytes(data + b"\n")
 
 
 def public_pages(root: Path) -> list[tuple[Path, str]]:
@@ -182,7 +187,7 @@ def build_image_sitemap(root: Path) -> int:
             if alt:
                 ET.SubElement(image, f"{{{IMAGE}}}title").text = alt
             total += 1
-    xml_write(root / "image-sitemap.xml", urlset)
+    xml_write(root / "image-sitemap.xml", urlset, standard_declaration=True)
     return total
 
 
@@ -203,7 +208,14 @@ def build_video_sitemap(root: Path) -> int:
         ET.SubElement(url, f"{{{SITEMAP}}}loc").text = canonical
         for node in videos:
             video = ET.SubElement(url, f"{{{VIDEO}}}video")
-            ET.SubElement(video, f"{{{VIDEO}}}thumbnail_loc").text = str(node["thumbnailUrl"])
+            thumbnail_value = node["thumbnailUrl"]
+            if isinstance(thumbnail_value, list):
+                thumbnail_url = next((str(value) for value in thumbnail_value if str(value).strip()), "")
+            else:
+                thumbnail_url = str(thumbnail_value)
+            if not thumbnail_url:
+                raise ValueError(f"VideoObject has no usable thumbnailUrl: {canonical}")
+            ET.SubElement(video, f"{{{VIDEO}}}thumbnail_loc").text = thumbnail_url
             ET.SubElement(video, f"{{{VIDEO}}}title").text = str(node["name"])[:100]
             ET.SubElement(video, f"{{{VIDEO}}}description").text = str(node["description"])[:2048]
             if node.get("contentUrl"):
@@ -221,7 +233,7 @@ def build_video_sitemap(root: Path) -> int:
             if identifier:
                 ET.SubElement(video, f"{{{VIDEO}}}tag").text = "SUZUKA"
             total += 1
-    xml_write(root / "video-sitemap.xml", urlset)
+    xml_write(root / "video-sitemap.xml", urlset, standard_declaration=True)
     return total
 
 

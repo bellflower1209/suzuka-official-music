@@ -621,6 +621,11 @@ def main() -> None:
         cwd=ROOT,
         check=True,
     )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("audit_sitemaps.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
     print(f"Generated exploration catalog with {len(data['releases'])} published releases and {len(data['upcoming'])} upcoming releases.")
 
 

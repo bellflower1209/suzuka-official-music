@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.suzukaofficial.com/gallery/ai-demo-wakaranai/</loc>
@@ -322,7 +322,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/hyakumankoku-release/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg</video:thumbnail_loc>
       <video:title>【デビュー曲】「好き」は一回じゃ足りない。榎本魅愛「百万告」Official Music Video</video:title>
       <video:description>榎本魅愛のデビュー曲「百万告」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QteunhFn9Dk</video:content_loc>
@@ -334,7 +334,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/moshimo-ashita-hajimemashite-ni-natte-mo-release/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mia.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mia.jpg</video:thumbnail_loc>
       <video:title>もしも明日、はじめましてになっても｜榎本魅愛【Official Lyric Video】</video:title>
       <video:description>榎本魅愛「もしも明日、はじめましてになっても」の公式Lyric Video。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=GN6eoBDRm3w</video:content_loc>
@@ -346,7 +346,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/my-queen-my-oath-release/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</video:thumbnail_loc>
       <video:title>My Queen, My Oath｜君が、俺のすべて。― 神代煌牙</video:title>
       <video:description>神代煌牙が愛と忠誠、守り抜く覚悟、永遠の誓いを描く公式動画。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=_TfwreiEMMM</video:content_loc>
@@ -358,7 +358,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/red-moon-rising-release/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</video:thumbnail_loc>
       <video:title>ECLYPSE 2nd Single『RED MOON // RISING』</video:title>
       <video:description>ECLYPSEの2nd Single公式動画。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=BZkMHt0P2oo</video:content_loc>
@@ -370,7 +370,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/toriatsukai-chui-release/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</video:thumbnail_loc>
       <video:title>【恋の警報発令中】榎本魅愛「取り扱いチュー💋い」Official Music Video</video:title>
       <video:description>榎本魅愛「取り扱いチュー💋い」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QXvpLCnyoOw</video:content_loc>
@@ -382,7 +382,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/ai-demo-wakaranai/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-ai.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-ai.jpg</video:thumbnail_loc>
       <video:title>AIなら何でもわかる。でも、君の気持ちだけわからない。榎本魅愛『AIでもわからない』Official Music Video</video:title>
       <video:description>どれだけ分析しても計算では答えが出ない恋心を、AIと人間の感情を重ねて描く「AIでもわからない」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=5jmTo3Jb5sI</video:content_loc>
@@ -441,7 +441,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/hyakumankoku/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg</video:thumbnail_loc>
       <video:title>【デビュー曲】「好き」は一回じゃ足りない。榎本魅愛『百万告』Official Music Video</video:title>
       <video:description>「好き」という気持ちは一度伝えるだけでは足りないという、まっすぐで大胆な恋心を描く榎本魅愛のデビュー曲「百万告」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QteunhFn9Dk</video:content_loc>
@@ -452,7 +452,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-lastboss.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</video:thumbnail_loc>
       <video:title>人生に攻略本はない。でも君とならラスボスまで。榎本魅愛『君とならラスボスまで』Official Music Video</video:title>
       <video:description>恋愛とRPGの冒険を重ね、どんな困難も好きな人となら越えていける気持ちを描く「君とならラスボスまで」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=YVNs3I-KaHI</video:content_loc>
@@ -463,7 +463,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-wa-hanabi/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-hanabi.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</video:thumbnail_loc>
       <video:title>夏が来るたび、君を思い出す。榎本魅愛『君は花火』Official Music Video</video:title>
       <video:description>一瞬で夜空を染める花火のように、強く眩しい恋の記憶を描く「君は花火」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ohylad3AWYI</video:content_loc>
@@ -498,7 +498,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mermaid-merman/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</video:thumbnail_loc>
       <video:title>出会うはずのない二人が、恋をした。榎本魅愛『MERMAID×MERMAN』Official Music Video</video:title>
       <video:description>異なる世界に生きるふたりの出会いと恋を、海と人魚の幻想的なモチーフで描く「MERMAID×MERMAN」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=29fpeNtUqfY</video:content_loc>
@@ -509,7 +509,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mia/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mia.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mia.jpg</video:thumbnail_loc>
       <video:title>好きになったら、もう戻れない。榎本魅愛『M・I・A』Official Music Video</video:title>
       <video:description>榎本魅愛というアーティスト自身の存在感と、一度好きになったら戻れない恋の高揚感を描く「M・I・A」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=WzcXyuAI_FM</video:content_loc>
@@ -520,7 +520,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mirai-no-watashi-ga-miteru/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</video:thumbnail_loc>
       <video:title>未来の私が見てる 公式動画</video:title>
       <video:description>榎本魅愛（ENOMOTO MIA）の楽曲「未来の私が見てる」公式ページ。公式YouTube動画と関連楽曲を紹介します。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=fgAW1njpSxM</video:content_loc>
@@ -531,7 +531,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mia.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mia.jpg</video:thumbnail_loc>
       <video:title>もしも明日、はじめましてになっても 公式動画</video:title>
       <video:description>榎本魅愛（ENOMOTO MIA）の新曲「もしも明日、はじめましてになっても」公式ページ。2026年7月16日公開。公式YouTube動画と楽曲情報を紹介します。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=GN6eoBDRm3w</video:content_loc>
@@ -542,7 +542,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/muteki-jikan-ato-3byou/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-muteki.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</video:thumbnail_loc>
       <video:title>無敵になれるのは、あと3秒。榎本魅愛『無敵時間、あと3秒』Official Music Video</video:title>
       <video:description>好きな人の前で一歩踏み出す直前の短く強い勇気を、ゲーム感覚と恋愛の緊張感で描く「無敵時間、あと3秒」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=DPnFtRFnH5c</video:content_loc>
@@ -553,7 +553,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/my-queen-my-oath/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</video:thumbnail_loc>
       <video:title>My Queen, My Oath｜君が、俺のすべて。― 神代煌牙</video:title>
       <video:description>神代煌牙が愛と忠誠、守り抜く覚悟、永遠の誓いを描く公式動画。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=_TfwreiEMMM</video:content_loc>
@@ -589,7 +589,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/our-kingdom/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-our-kingdom.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</video:thumbnail_loc>
       <video:title>OUR KINGDOM 公式動画</video:title>
       <video:description>榎本魅愛 × 神代煌牙（ENOMOTO MIA × KOGA KAMISHIRO）の楽曲「OUR KINGDOM」公式ページ。公式YouTube動画と関連楽曲を紹介します。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=y26XVRkpfjw</video:content_loc>
@@ -600,7 +600,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/red-moon-rising/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</video:thumbnail_loc>
       <video:title>ECLYPSE 2nd Single『RED MOON // RISING』</video:title>
       <video:description>壊れたコードの先で赤い月が昇り、5人の運命が再び動き始めるECLYPSEの公式動画。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=BZkMHt0P2oo</video:content_loc>
@@ -612,7 +612,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/shadow-code/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</video:thumbnail_loc>
       <video:title>ECLYPSE – SHADOW//CODE Official Music Video</video:title>
       <video:description>ECLYPSEのデビューシングル「SHADOW//CODE」公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=8VCL2IepjeM</video:content_loc>
@@ -636,7 +636,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</video:thumbnail_loc>
       <video:title>好きが、今日も増えていく。 公式動画</video:title>
       <video:description>榎本魅愛（ENOMOTO MIA）の新曲「好きが、今日も増えていく。」公式ページ。2026年7月16日公開の王道恋愛J-POP。公式YouTube動画と楽曲情報を紹介します。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=XAZy5k9Q4rE</video:content_loc>
@@ -647,7 +647,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</video:thumbnail_loc>
       <video:title>好きなの、たぶんもうバレてる。榎本魅愛『好きってバレてもいい』Official Music Video</video:title>
       <video:description>隠していた恋心を、もう隠さなくてもいいと決める瞬間を描く「好きってバレてもいい」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=XP8yXMKFHVI</video:content_loc>
@@ -658,7 +658,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-mahou.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</video:thumbnail_loc>
       <video:title>恋の魔法が解けたあと、それでも君を選べますか。榎本魅愛『解けない魔法を、愛と呼ぶ』Official Music Video</video:title>
       <video:description>恋によって変わった心と、魔法が解けたあとにも残る想いを描く「解けない魔法を、愛と呼ぶ」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=CAFQ-d7YHPQ</video:content_loc>
@@ -669,7 +669,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/toriatsukai-chui/</loc>
     <video:video>
-      <video:thumbnail_loc>['https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg']</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</video:thumbnail_loc>
       <video:title>榎本魅愛「取り扱いチュー💋い」Official Music Video｜恋が暴走する胸キュンJ-POP</video:title>
       <video:description>好きな人との距離が近づくほど、心拍数も感情も制御不能になっていく瞬間を描いた榎本魅愛の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QXvpLCnyoOw</video:content_loc>

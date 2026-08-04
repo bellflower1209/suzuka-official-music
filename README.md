@@ -61,11 +61,14 @@ canonical、OGP、構造化データ、見出し、画像alt、sitemap、robots�
 ```bash
 python3 scripts/audit_seo.py
 python3 scripts/validate_sitemap.py
+python3 scripts/audit_sitemaps.py
 python3 scripts/audit_social_links.py
 python3 scripts/audit_explorer_update.py
 ```
 
 `sitemap.xml` はHTMLの自己参照canonicalから自動生成します。公開ページの追加・削除後は `python3 scripts/validate_sitemap.py --write` を実行してください。候補XML、重複、絶対URL、canonical、noindex、未公開ページ、robots.txtの検証に合格した場合だけ更新されます。GitHub Pagesへの公開後は `python3 scripts/validate_sitemap.py --remote` で、Googlebot User-Agentによる本番取得、Content-Type、リダイレクト、全URLのHTTP 200も確認できます。
+
+`sitemap.xml`、`image-sitemap.xml`、`video-sitemap.xml` の3ファイルは `python3 scripts/audit_sitemaps.py` で、UTF-8 XML宣言、Sitemap Protocol名前空間、`url` / `loc` 構造、HTTPS正式ホスト、重複、Googleの上限を一括監査できます。公開後は `python3 scripts/audit_sitemaps.py --remote` を実行すると、Googlebot User-AgentでのHTTP 200、リダイレクトなし、`application/xml`相当、本番XMLとリポジトリのバイト一致まで確認します。
 
 XML名前空間はGoogle Search CentralとSitemaps.orgの標準例に合わせて `http://www.sitemaps.org/schemas/sitemap/0.9` を使用します。これは名前空間識別子であり、`loc`および公開サイトのURLはすべてHTTPSです。
 
