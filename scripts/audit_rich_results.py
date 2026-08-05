@@ -18,6 +18,7 @@ from structured_data_dates import (
 )
 
 REQUIRED_VIDEO = ("name", "description", "thumbnailUrl", "uploadDate")
+PROFILE_ENTITY_TYPES = {"Person", "Organization", "MusicGroup"}
 
 
 def main() -> None:
@@ -55,8 +56,28 @@ def main() -> None:
         if canonical and ("?" in canonical[0] or "#" in canonical[0]):
             errors.append(f"{relative}: canonical contains parameters")
         seen_videos = set()
-        for block in JSONLD_RE.finditer(text):
-            data = json.loads(block.group(2))
+        data_blocks = [json.loads(block.group(2)) for block in JSONLD_RE.finditer(text)]
+        page_nodes = [node for data in data_blocks for node in iter_nodes(data)]
+        nodes_by_id = {}
+        for node in page_nodes:
+            node_id = node.get("@id")
+            if isinstance(node_id, str):
+                nodes_by_id.setdefault(node_id, {}).update(node)
+        for node in page_nodes:
+            if "ProfilePage" not in types_of(node):
+                continue
+            main_entity = node.get("mainEntity")
+            if not isinstance(main_entity, dict):
+                errors.append(f"{relative}: ProfilePage missing mainEntity")
+                continue
+            resolved = dict(main_entity)
+            if isinstance(main_entity.get("@id"), str):
+                resolved = {**nodes_by_id.get(main_entity["@id"], {}), **main_entity}
+            if not (types_of(resolved) & PROFILE_ENTITY_TYPES):
+                errors.append(f"{relative}: ProfilePage mainEntity must be Person or Organization")
+            if not resolved.get("name"):
+                errors.append(f"{relative}: ProfilePage mainEntity missing name")
+        for data in data_blocks:
             for node in iter_nodes(data):
                 if "VideoObject" not in types_of(node):
                     continue

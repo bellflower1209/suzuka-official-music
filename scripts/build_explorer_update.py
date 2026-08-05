@@ -750,9 +750,12 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
         schema = {
             "@context": "https://schema.org",
             "@graph": [
-                {"@type": "ProfilePage", "url": f"{BASE}/artists/{slug}/", "name": artist["name"],
-                 "description": f'{artist["profile"]} 架空のAIアーティストです。'},
-                {"@type": artist["type"], "name": artist["name"], "image": f'{BASE}/{artist["image"]}',
+                {"@type": "ProfilePage", "@id": f"{BASE}/artists/{slug}/",
+                 "url": f"{BASE}/artists/{slug}/", "name": artist["name"],
+                 "description": f'{artist["profile"]} 架空のAIアーティストです。',
+                 "mainEntity": {"@id": f"{BASE}/artists/{slug}/#artist"}},
+                {"@type": artist["type"], "@id": f"{BASE}/artists/{slug}/#artist",
+                 "name": artist["name"], "image": f'{BASE}/{artist["image"]}',
                  "description": f'{artist["world"]} SUZUKAの作品世界に登場する架空のAIアーティストです。'},
                 {"@type": "ItemList", "@id": f"{BASE}/artists/{slug}/#releases",
                  "numberOfItems": len(works), "itemListElement": [

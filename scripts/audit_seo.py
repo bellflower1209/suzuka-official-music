@@ -275,6 +275,19 @@ def collect_nodes(value: Any, found: dict[str, dict[str, Any]]) -> None:
             collect_nodes(child, found)
 
 
+def collect_profile_pages(value: Any, found: list[dict[str, Any]]) -> None:
+    if isinstance(value, dict):
+        value_type = value.get("@type", [])
+        value_types = set(value_type if isinstance(value_type, list) else [value_type])
+        if "ProfilePage" in value_types:
+            found.append(value)
+        for child in value.values():
+            collect_profile_pages(child, found)
+    elif isinstance(value, list):
+        for child in value:
+            collect_profile_pages(child, found)
+
+
 def required_schema_types(relative: Path) -> set[str]:
     route = relative.as_posix()
     if route == "index.html":
@@ -436,6 +449,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         schema_types: set[str] = set()
         schema_strings: list[str] = []
         schema_nodes: dict[str, dict[str, Any]] = {}
+        profile_pages: list[dict[str, Any]] = []
         for index, block in enumerate(parser.json_ld_blocks, start=1):
             try:
                 data = json.loads(block)
@@ -459,6 +473,21 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             collect_types(data, schema_types)
             collect_strings(data, schema_strings)
             collect_nodes(data, schema_nodes)
+            collect_profile_pages(data, profile_pages)
+        for profile_page in profile_pages:
+            main_entity = profile_page.get("mainEntity")
+            if not isinstance(main_entity, dict):
+                errors.append(f"{relative}: ProfilePage is missing mainEntity")
+                continue
+            resolved_entity = dict(main_entity)
+            if isinstance(main_entity.get("@id"), str):
+                resolved_entity = {**schema_nodes.get(main_entity["@id"], {}), **main_entity}
+            entity_type = resolved_entity.get("@type", [])
+            entity_types = set(entity_type if isinstance(entity_type, list) else [entity_type])
+            if not entity_types.intersection({"Person", "Organization", "MusicGroup"}):
+                errors.append(f"{relative}: ProfilePage mainEntity must be Person or Organization")
+            if not resolved_entity.get("name"):
+                errors.append(f"{relative}: ProfilePage mainEntity is missing name")
         missing_types = required_schema_types(relative) - schema_types
         if missing_types:
             errors.append(f"{relative}: missing schema types: {', '.join(sorted(missing_types))}")
