@@ -367,13 +367,15 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 169,
+    "jsonLdBlocks": 165,
     "videoObjects": 66,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
     "invalidDatePublished": [],
-    "jsonErrors": []
+    "jsonErrors": [],
+    "invalidTopLevelItems": [],
+    "invalidTopLevelItemCount": 0
   },
   "fixedPages": [
     "gallery/ai-demo-wakaranai/index.html",

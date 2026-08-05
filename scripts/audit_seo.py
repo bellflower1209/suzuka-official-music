@@ -442,6 +442,20 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             except json.JSONDecodeError as error:
                 errors.append(f"{relative}: JSON-LD block {index} is invalid: {error}")
                 continue
+            if data is None:
+                errors.append(f"{relative}: JSON-LD block {index} has an invalid null top-level item")
+                continue
+            if not isinstance(data, (dict, list)):
+                errors.append(f"{relative}: JSON-LD block {index} must contain an object or object list")
+                continue
+            if isinstance(data, list) and any(not isinstance(item, dict) for item in data):
+                errors.append(f"{relative}: JSON-LD block {index} contains a non-object top-level item")
+                continue
+            if isinstance(data, dict) and "@graph" in data:
+                graph = data["@graph"]
+                if not isinstance(graph, list) or not graph or any(not isinstance(item, dict) for item in graph):
+                    errors.append(f"{relative}: JSON-LD block {index} has an invalid @graph")
+                    continue
             collect_types(data, schema_types)
             collect_strings(data, schema_strings)
             collect_nodes(data, schema_nodes)

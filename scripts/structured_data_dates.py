@@ -65,11 +65,33 @@ def is_valid_date(value: object) -> bool:
     )
 
 
+def top_level_jsonld_error(value: object) -> str:
+    """Return a Google-facing error for JSON-LD values with no top-level item."""
+    if value is None:
+        return "top-level item is null"
+    if isinstance(value, list):
+        if not value:
+            return "top-level item list is empty"
+        if any(not isinstance(item, dict) for item in value):
+            return "top-level item list contains a non-object value"
+        return ""
+    if not isinstance(value, dict):
+        return f"top-level item is {type(value).__name__}, not an object"
+    graph = value.get("@graph")
+    if graph is not None:
+        if not isinstance(graph, list) or not graph:
+            return "@graph is not a non-empty list"
+        if any(not isinstance(item, dict) for item in graph):
+            return "@graph contains a non-object value"
+    return ""
+
+
 def scan(root: Path) -> dict:
     video_count = 0
     invalid_videos = []
     invalid_published = []
     json_errors = []
+    invalid_top_level_items = []
     pages_with_invalid_video = set()
     jsonld_count = 0
     for path in sorted(root.glob("**/index.html")):
@@ -83,6 +105,14 @@ def scan(root: Path) -> dict:
                 data = json.loads(match.group(2))
             except json.JSONDecodeError as error:
                 json_errors.append({"page": relative, "block": number, "error": str(error)})
+                continue
+            top_level_error = top_level_jsonld_error(data)
+            if top_level_error:
+                invalid_top_level_items.append({
+                    "page": relative,
+                    "block": number,
+                    "error": top_level_error,
+                })
                 continue
             for node in iter_nodes(data):
                 node_types = types_of(node)
@@ -112,6 +142,8 @@ def scan(root: Path) -> dict:
         "pagesWithInvalidUploadDate": sorted(pages_with_invalid_video),
         "invalidDatePublished": invalid_published,
         "jsonErrors": json_errors,
+        "invalidTopLevelItems": invalid_top_level_items,
+        "invalidTopLevelItemCount": len(invalid_top_level_items),
     }
 
 
@@ -216,6 +248,9 @@ def normalize(root: Path, evidence: dict, by_slug: dict[str, dict]) -> dict:
                 return transformed
 
             normalized = transform(data)
+            if normalized is None or normalized == []:
+                fixed_pages.add(relative)
+                return ""
             return match.group(1) + json.dumps(
                 normalized, ensure_ascii=False, separators=(",", ":")
             ) + match.group(3)

@@ -36,6 +36,10 @@ def main() -> None:
     errors = []
     metrics = scan(root)
     errors.extend(f"JSON-LD syntax: {item}" for item in metrics["jsonErrors"])
+    errors.extend(
+        f"invalid JSON-LD top-level item: {item}"
+        for item in metrics["invalidTopLevelItems"]
+    )
     errors.extend(f"invalid uploadDate: {item}" for item in metrics["invalidUploadDates"])
     errors.extend(f"invalid datePublished: {item}" for item in metrics["invalidDatePublished"])
     video_count = 0
@@ -96,6 +100,7 @@ def main() -> None:
         "videoObjects": video_count,
         "invalidUploadDates": metrics["invalidUploadDateCount"],
         "invalidDatePublished": len(metrics["invalidDatePublished"]),
+        "invalidTopLevelItems": metrics["invalidTopLevelItemCount"],
         "errors": errors,
     }
     print(json.dumps(result, ensure_ascii=False))
