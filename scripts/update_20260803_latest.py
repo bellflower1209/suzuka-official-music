@@ -92,6 +92,8 @@ def main() -> None:
             "videoPublishedAtSource": record["verificationSource"],
             "videoStructuredDataStatus": "published",
             "officialSource": definition["youtubeUrl"],
+            "playlistPriority": int(definition.get("playlistPriority", 0)),
+            "homeHero": definition.get("homeHero", {}),
         }
         existing[item["slug"]] = item
 
@@ -170,6 +172,32 @@ def main() -> None:
         "playerEnabled": False,
         "relatedSongs": ["mirai-no-watashi-ga-miteru", "moshimo-ashita-hajimemashite-ni-natte-mo", "hyakumankoku"],
     }
+    for definition in source["published"]:
+        if definition["artistSlug"] != "enomoto-mia":
+            continue
+        release = published_by_slug[definition["slug"]]
+        previous = mia_by_slug.get(definition["slug"], {})
+        mia_by_slug[definition["slug"]] = {
+            **previous,
+            "title": release["title"],
+            "titleEnglish": release["englishTitle"],
+            "slug": release["slug"],
+            "status": "published",
+            "pageUrl": release["releaseUrl"],
+            "youtubeUrl": release["youtubeUrl"],
+            "youtubeId": release["youtubeUrl"].split("=")[-1],
+            "youtubeVideoTitle": verified[release["slug"]]["officialTitle"],
+            "image": release["coverImage"],
+            "duration": release["duration"],
+            "uploadDate": release["releaseDate"],
+            "shortDescription": release["description"],
+            "featured": True,
+            "playerEnabled": False,
+            "relatedSongs": [
+                "without-worrying", "moshimo-ashita-hajimemashite-ni-natte-mo",
+                "mirai-no-watashi-ga-miteru"
+            ],
+        }
     unpublished = [item for item in mia["releases"] if not item.get("slug")]
     mia["releases"] = sorted(
         mia_by_slug.values(), key=lambda item: (item.get("uploadDate", ""), item["slug"]), reverse=True

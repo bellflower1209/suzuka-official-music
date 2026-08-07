@@ -5,37 +5,39 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
         "koisuru-maharaja",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro"
+        "heal-you-again"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
         "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again",
-        "echoes-of-you"
+        "chimpanzee-no-rakuen"
       ]
     },
     "love": {
       "label": "恋愛ソングおすすめTOP10",
       "items": [
+        "hanakotoba",
+        "hajimemashite-kiseki",
         "one-more-kiss",
         "without-worrying",
         "koisuru-maharaja",
@@ -43,9 +45,7 @@
         "my-queen-my-oath",
         "suki-ga-kyou-mo-fueteiku",
         "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "toriatsukai-chui",
-        "our-kingdom",
-        "mirai-no-watashi-ga-miteru"
+        "toriatsukai-chui"
       ]
     },
     "summer": {
@@ -58,6 +58,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "hajimemashite-kiseki",
         "still-alive",
         "without-worrying",
         "ashita-wa-kitto",
@@ -67,16 +68,16 @@
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
         "koisuru-maharaja",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro"
+        "heal-you-again"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -86,10 +87,10 @@
         "enomoto-mia",
         "koga-kamishiro",
         "eclypse",
+        "asagiri-shinobu",
         "revive",
         "rangili",
-        "nox",
-        "asagiri-shinobu"
+        "nox"
       ]
     },
     "genres": {
@@ -101,13 +102,13 @@
         "バラード",
         "ロック",
         "K-POP風",
+        "演歌",
+        "歌謡曲",
         "アイドルポップ",
         "V系",
         "ダークロック",
         "インド×J-POP",
         "シネマティック",
-        "演歌",
-        "歌謡曲",
         "サイバーパンク",
         "EDM",
         "ファンタジーポップ",
@@ -117,16 +118,16 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
         "koisuru-maharaja",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro"
+        "heal-you-again"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }

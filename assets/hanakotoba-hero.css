@@ -1,0 +1,262 @@
+.hanakotoba-home {
+  background: #f7fbff;
+}
+
+.hanakotoba-home .site-header {
+  color: #153f72;
+  border-color: rgba(39, 101, 165, .16);
+  background: rgba(250, 253, 255, .78);
+  backdrop-filter: blur(18px);
+}
+
+.hanakotoba-home .site-header a,
+.hanakotoba-home .site-header summary {
+  color: #153f72;
+}
+
+.latest-release-hero.hanakotoba-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, .82fr) minmax(22rem, 1.18fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 7rem);
+  min-height: 100svh;
+  padding: clamp(7.5rem, 12vw, 10rem) clamp(1.25rem, 6vw, 7rem) clamp(4rem, 8vw, 7rem);
+  overflow: hidden;
+  color: #14385f;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 16% 18%, rgba(255, 255, 255, .98) 0 14%, transparent 42%),
+    radial-gradient(circle at 78% 22%, rgba(126, 195, 255, .34), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #edf8ff 48%, #cfeaff 100%);
+}
+
+.hanakotoba-wash {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, .92) 0 36%, rgba(255, 255, 255, .18) 68%),
+    url("../images/enomoto-mia-hanakotoba.jpg") center/cover;
+  opacity: .18;
+  filter: saturate(.84);
+}
+
+.hanakotoba-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 43rem;
+}
+
+.hanakotoba-status {
+  display: inline-flex;
+  align-items: center;
+  gap: .65rem;
+  margin: 0 0 1.2rem;
+  padding: .55rem .9rem;
+  border: 1px solid rgba(23, 90, 151, .2);
+  border-radius: 999px;
+  color: #245d92;
+  background: rgba(255, 255, 255, .72);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.hanakotoba-status i {
+  width: .55rem;
+  height: .55rem;
+  border-radius: 50%;
+  background: #4d9de0;
+  box-shadow: 0 0 0 .35rem rgba(77, 157, 224, .15);
+}
+
+.hanakotoba-subtitle {
+  margin: 0;
+  color: #3974a8;
+  font-size: clamp(.85rem, 1.6vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: .13em;
+}
+
+.hanakotoba-copy h1 {
+  margin: .35rem 0 1rem;
+  color: #123f77;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: clamp(4.7rem, 11vw, 9.8rem);
+  font-weight: 500;
+  line-height: .95;
+  letter-spacing: -.08em;
+  text-shadow: 0 1rem 3rem rgba(74, 137, 194, .15);
+}
+
+.hanakotoba-lead {
+  max-width: 35rem;
+  margin: 0;
+  color: #385f82;
+  font-size: clamp(1rem, 1.8vw, 1.22rem);
+  line-height: 1.9;
+}
+
+.hanakotoba-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 2rem;
+}
+
+.hanakotoba-actions .button {
+  min-width: 9.5rem;
+  justify-content: center;
+  border-radius: 999px;
+}
+
+.hanakotoba-button-primary {
+  color: #fff !important;
+  border-color: #2367a5 !important;
+  background: #2367a5 !important;
+  box-shadow: 0 .8rem 2rem rgba(35, 103, 165, .24);
+}
+
+.hanakotoba-button-secondary {
+  color: #1f578b !important;
+  border-color: rgba(31, 87, 139, .28) !important;
+  background: rgba(255, 255, 255, .74) !important;
+}
+
+.hanakotoba-project {
+  margin: 1.8rem 0 0;
+  color: #6e8da8;
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.hanakotoba-artwork {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+}
+
+.hanakotoba-artwork-frame {
+  position: relative;
+  padding: clamp(.5rem, 1vw, .85rem);
+  border: 1px solid rgba(255, 255, 255, .9);
+  border-radius: clamp(1.2rem, 3vw, 2.4rem);
+  background: rgba(255, 255, 255, .54);
+  box-shadow: 0 2.2rem 5rem rgba(45, 103, 159, .24);
+  transform: rotate(1.2deg);
+}
+
+.hanakotoba-artwork img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: clamp(.85rem, 2.2vw, 1.8rem);
+}
+
+.hanakotoba-artwork-frame > span {
+  position: absolute;
+  right: 1.4rem;
+  bottom: 1.4rem;
+  padding: .55rem .8rem;
+  border-radius: 999px;
+  color: #205b91;
+  background: rgba(255, 255, 255, .88);
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.hanakotoba-artwork > p {
+  margin: 1rem .5rem 0;
+  color: #587b9b;
+  font-size: .72rem;
+  letter-spacing: .13em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.hanakotoba-petals span {
+  position: absolute;
+  z-index: -1;
+  width: clamp(1.2rem, 3vw, 2.8rem);
+  aspect-ratio: 1;
+  border-radius: 72% 28% 65% 35%;
+  background: rgba(86, 161, 226, .18);
+  transform: rotate(35deg);
+}
+
+.hanakotoba-petals span:nth-child(1) { left: 4%; top: 20%; }
+.hanakotoba-petals span:nth-child(2) { left: 42%; top: 12%; transform: rotate(82deg); }
+.hanakotoba-petals span:nth-child(3) { left: 34%; bottom: 13%; transform: rotate(112deg); }
+.hanakotoba-petals span:nth-child(4) { right: 4%; top: 28%; transform: rotate(145deg); }
+.hanakotoba-petals span:nth-child(5) { right: 9%; bottom: 10%; transform: rotate(205deg); }
+
+.hanakotoba-scroll {
+  position: absolute;
+  left: clamp(1.25rem, 6vw, 7rem);
+  bottom: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  color: #547896;
+  font-size: .68rem;
+  letter-spacing: .13em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hanakotoba-scroll i {
+  width: 2.8rem;
+  height: 1px;
+  background: #6b9bc4;
+}
+
+@media (max-width: 900px) {
+  .latest-release-hero.hanakotoba-hero {
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
+    min-height: auto;
+    padding-top: 8.5rem;
+  }
+
+  .hanakotoba-artwork {
+    grid-row: 1;
+  }
+
+  .hanakotoba-copy {
+    grid-row: 2;
+  }
+
+  .hanakotoba-copy h1 {
+    font-size: clamp(4.5rem, 19vw, 8rem);
+  }
+
+  .hanakotoba-scroll {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .latest-release-hero.hanakotoba-hero {
+    padding-inline: 1rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hanakotoba-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hanakotoba-actions .button:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .hanakotoba-actions .button {
+    min-width: 0;
+  }
+}

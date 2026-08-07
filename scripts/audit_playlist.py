@@ -6,6 +6,10 @@ def main():
  p=argparse.ArgumentParser();p.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[1]);r=p.parse_args().root;errors=[]
  data=json.loads((r/"assets/data/playlists.json").read_text())["playlists"]
  if len(data)!=12: errors.append(f"expected 12 playlists, found {len(data)}")
+ by_slug={x["slug"]:x for x in data}
+ for slug in ("love","latest","music-videos"):
+  releases=by_slug.get(slug,{}).get("releaseSlugs",[])
+  if not releases or releases[0]!="hanakotoba": errors.append(f"{slug}: hanakotoba must be first")
  for x in data:
   path=r/f"playlists/{x['slug']}/index.html"
   if not path.is_file(): errors.append(f"missing {path.relative_to(r)}");continue

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0",
-  "updatedAt": "2026-08-05T00:46:28+09:00",
+  "updatedAt": "2026-08-07T23:41:22+09:00",
   "site": {
     "name": "SUZUKA",
     "baseUrl": "https://www.suzukaofficial.com",
@@ -171,6 +171,267 @@
     }
   ],
   "releases": [
+    {
+      "id": "hanakotoba",
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "displayTitle": "花言葉",
+      "englishTitle": "Hanakotoba",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-07",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "優しい",
+        "透明感"
+      ],
+      "themes": [
+        "恋愛",
+        "花",
+        "永遠"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-hanakotoba.jpg",
+      "coverAlt": "榎本魅愛「花言葉」公式YouTubeサムネイル",
+      "releaseUrl": "releases/hanakotoba/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "newsUrl": "news/hanakotoba-release/",
+      "duration": 234,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "花言葉",
+        "Hanakotoba",
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "優しい",
+        "透明感"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "優しい",
+        "透明感"
+      ],
+      "lyrics": "",
+      "introduction": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "publishedAt": "2026-08-07T20:00:28+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/enomoto-mia-hanakotoba.jpg"
+      ],
+      "productionNote": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "seo": {
+        "title": "花言葉｜榎本魅愛｜SUZUKA Official Music",
+        "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-01",
+      "videoPublishedAt": "2026-08-07T20:00:28+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "playlistPriority": 100,
+      "homeHero": {
+        "title": "SUZUKA Official | 榎本魅愛「花言葉」公開中",
+        "description": "最新シングル「花言葉」を公開中。MV・歌詞・Gallery・Newsはこちら。",
+        "subtitle": "榎本魅愛 New Single",
+        "status": "Now Streaming",
+        "theme": "forget-me-not"
+      }
+    },
+    {
+      "id": "wasureji-no-hito",
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "displayTitle": "忘れじの人",
+      "englishTitle": "Wasureji no Hito",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "artistSlugs": [
+        "asagiri-shinobu"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-06",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "演歌",
+        "歌謡曲"
+      ],
+      "moods": [
+        "切ない",
+        "温かい"
+      ],
+      "themes": [
+        "夫婦愛",
+        "記憶",
+        "人生"
+      ],
+      "language": "ja",
+      "coverImage": "images/asagiri-wasureji-no-hito.jpg",
+      "coverAlt": "朝霧しのぶ「忘れじの人」公式YouTubeサムネイル",
+      "releaseUrl": "releases/wasureji-no-hito/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "newsUrl": "news/wasureji-no-hito-release/",
+      "duration": 479,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "忘れじの人",
+        "Wasureji no Hito",
+        "朝霧しのぶ",
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "tags": [
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "lyrics": "",
+      "introduction": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "publishedAt": "2026-08-06T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/asagiri-wasureji-no-hito.jpg"
+      ],
+      "productionNote": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "seo": {
+        "title": "忘れじの人｜朝霧しのぶ｜SUZUKA Official Music",
+        "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-08-06T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
+    {
+      "id": "hajimemashite-kiseki",
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "displayTitle": "はじめまして、奇跡",
+      "englishTitle": "Hajimemashite, Kiseki",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-05",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "爽やか",
+        "前向き"
+      ],
+      "themes": [
+        "奇跡",
+        "希望",
+        "成長"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-hajimemashite-kiseki.jpg",
+      "coverAlt": "榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル",
+      "releaseUrl": "releases/hajimemashite-kiseki/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "newsUrl": "news/hajimemashite-kiseki-release/",
+      "duration": 211,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "はじめまして、奇跡",
+        "Hajimemashite, Kiseki",
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "爽やか",
+        "前向き"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "爽やか",
+        "前向き"
+      ],
+      "lyrics": "",
+      "introduction": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "publishedAt": "2026-08-05T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/enomoto-mia-hajimemashite-kiseki.jpg"
+      ],
+      "productionNote": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "seo": {
+        "title": "はじめまして、奇跡｜榎本魅愛｜SUZUKA Official Music",
+        "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-08-05T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
     {
       "id": "still-alive",
       "slug": "still-alive",
@@ -2613,54 +2874,6 @@
   ],
   "upcoming": [
     {
-      "slug": "hajimemashite-kiseki",
-      "title": "はじめまして、奇跡",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-05T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
-      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-05T20:00:00+09:00"
-    },
-    {
-      "slug": "wasureji-no-hito",
-      "title": "忘れじの人",
-      "artist": "朝霧しのぶ",
-      "artistSlug": "asagiri-shinobu",
-      "scheduledAt": "2026-08-06T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
-      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-06T20:00:00+09:00"
-    },
-    {
-      "slug": "hanakotoba",
-      "title": "花言葉",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-07T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
-      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-07T20:00:00+09:00"
-    },
-    {
       "slug": "mermaid-no-geboku",
       "title": "マーメイドの下僕",
       "artist": "神代煌牙",
@@ -2694,6 +2907,36 @@
     }
   ],
   "news": [
+    {
+      "slug": "hanakotoba-release",
+      "title": "榎本魅愛「花言葉」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "hanakotoba",
+      "publishedAt": "2026-08-07T20:00:28+09:00",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "image": "images/enomoto-mia-hanakotoba.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "wasureji-no-hito-release",
+      "title": "朝霧しのぶ「忘れじの人」公開",
+      "artistSlug": "asagiri-shinobu",
+      "releaseSlug": "wasureji-no-hito",
+      "publishedAt": "2026-08-06T20:00:06+09:00",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "image": "images/asagiri-wasureji-no-hito.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "hajimemashite-kiseki-release",
+      "title": "榎本魅愛「はじめまして、奇跡」公開",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "hajimemashite-kiseki",
+      "publishedAt": "2026-08-05T20:00:06+09:00",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "image": "images/enomoto-mia-hajimemashite-kiseki.jpg",
+      "status": "published"
+    },
     {
       "slug": "still-alive-release",
       "title": "RE:VIVE「Still alive」公開",

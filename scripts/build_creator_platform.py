@@ -97,7 +97,11 @@ def playlist_items(definition: dict, releases: list[dict]) -> list[dict]:
     elif definition["slug"] in {"with-mv", "music-videos"}:
         items = [x for x in releases if x.get("youtubeUrl")]
     else:
-        items = sorted(items, key=lambda x: (-int(x.get("recommendationWeight", 0)), x["slug"]))
+        items = sorted(items, key=lambda x: (
+            -int(x.get("playlistPriority", 0)),
+            -int(x.get("recommendationWeight", 0)),
+            x["slug"],
+        ))
     return items[:20]
 
 

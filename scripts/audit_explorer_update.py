@@ -128,6 +128,29 @@ def main() -> int:
     if (root / "features/winter-songs/index.html").exists():
         errors.append("zero-work winter feature must not be generated")
 
+    latest = releases[0] if releases else {}
+    if latest.get("slug") != "hanakotoba":
+        errors.append("latest published release must be hanakotoba")
+    home = (root / "index.html").read_text(encoding="utf-8")
+    home_markers = (
+        '<title>SUZUKA Official | 榎本魅愛「花言葉」公開中</title>',
+        '最新シングル「花言葉」を公開中。MV・歌詞・Gallery・Newsはこちら。',
+        'data-home-hero', '榎本魅愛 New Single', 'Now Streaming',
+        './images/enomoto-mia-hanakotoba.jpg',
+        'https://www.youtube.com/watch?v=mdTogs4Oiew',
+        './releases/hanakotoba/', './gallery/hanakotoba/',
+        '"@type":"MusicRecording"', '"@type":"VideoObject"',
+    )
+    for marker in home_markers:
+        if marker not in home:
+            errors.append(f"index.html: flower Hero marker missing: {marker}")
+    for route in ("news", "gallery"):
+        source = (root / route / "index.html").read_text(encoding="utf-8")
+        first_card = re.search(rf'href="\./([^/]+)/"', source)
+        expected_first = "hanakotoba-release" if route == "news" else "hanakotoba"
+        if not first_card or first_card.group(1) != expected_first:
+            errors.append(f"{route}/index.html: flower item must be first")
+
     for path in new_pages:
         relative = path.relative_to(root)
         parsed, types, json_errors = parse(path)

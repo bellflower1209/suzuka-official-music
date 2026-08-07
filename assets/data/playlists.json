@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T00:46:28+09:00",
+  "updatedAt": "2026-08-07T23:41:22+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -17,6 +17,8 @@
       "name": "恋愛",
       "description": "恋愛をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hanakotoba",
+        "hajimemashite-kiseki",
         "koisuru-maharaja",
         "one-more-kiss",
         "without-worrying",
@@ -34,9 +36,7 @@
         "smile-and-say-goodbye",
         "suki-ga-kyou-mo-fueteiku",
         "sukitte-baretemo-ii",
-        "tokenai-mahou-wo-ai-to-yobu",
-        "toriatsukai-chui",
-        "ashita-wa-kitto"
+        "tokenai-mahou-wo-ai-to-yobu"
       ],
       "count": 20
     },
@@ -87,12 +87,13 @@
       "name": "応援",
       "description": "応援をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hajimemashite-kiseki",
         "still-alive",
         "without-worrying",
         "heal-you-again",
         "ashita-wa-kitto"
       ],
-      "count": 4
+      "count": 5
     },
     {
       "slug": "tearjerkers",
@@ -108,12 +109,13 @@
       "name": "泣ける",
       "description": "泣けるをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "wasureji-no-hito",
         "boukyaku-no-ikimono",
         "kimi-wa-hanabi",
         "smile-and-say-goodbye",
         "wasurenai-kokoro"
       ],
-      "count": 4
+      "count": 5
     },
     {
       "slug": "ai-idols",
@@ -178,9 +180,10 @@
       "name": "演歌",
       "description": "演歌をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "wasureji-no-hito",
         "wasurenai-kokoro"
       ],
-      "count": 1
+      "count": 2
     },
     {
       "slug": "popular",
@@ -189,10 +192,13 @@
       "name": "人気曲",
       "description": "人気曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
         "still-alive",
+        "wasureji-no-hito",
         "without-worrying",
         "zennin-saiban",
         "ai-demo-wakaranai",
@@ -205,10 +211,7 @@
         "mermaid-merman",
         "mia",
         "mirai-no-watashi-ga-miteru",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "muteki-jikan-ato-3byou",
-        "my-queen-my-oath",
-        "namaste-galaxy"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "count": 20
     },
@@ -219,6 +222,9 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
@@ -235,10 +241,7 @@
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "toriatsukai-chui",
-        "shadow-code"
+        "suki-ga-kyou-mo-fueteiku"
       ],
       "count": 20
     },
@@ -251,6 +254,9 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hanakotoba",
+        "wasureji-no-hito",
+        "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
@@ -267,10 +273,7 @@
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "toriatsukai-chui",
-        "shadow-code"
+        "suki-ga-kyou-mo-fueteiku"
       ],
       "count": 20
     }

@@ -276,17 +276,126 @@ def update_home_status(root: Path, data: dict) -> None:
     path = root / "index.html"
     text = path.read_text(encoding="utf-8")
     latest = data["releases"][0]
+    hero_config = latest.get("homeHero", {})
+    home_title = hero_config.get("title", "SUZUKA | Official Music Label")
+    home_description = hero_config.get(
+        "description",
+        "音楽レーベルSUZUKAの公式サイト。所属アーティスト、最新リリース、音楽作品、ニュースを紹介します。",
+    )
+    hero_subtitle = hero_config.get("subtitle", f'{latest["artist"]} New Single')
+    hero_status = hero_config.get("status", "Now Streaming")
     hero = (
-        f'<div class="hero-release-actions reveal-up delay-4" aria-label="最新リリース {html.escape(latest["title"])}のメニュー">'
-        f'<p><span>LATEST RELEASE</span><strong>{html.escape(latest["artist"])} — {html.escape(latest["title"])}</strong></p>'
-        f'<a class="button button-primary" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MVを見る ↗</a>'
-        f'<a class="button button-ghost" href="./{latest["releaseUrl"]}">楽曲情報を見る ▶</a>'
-        f'<a class="button button-youtube" href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTubeでSUZUKAをフォロー ↗</a>'
-        '<a class="button button-ghost" data-home-social-link="true" href="./social/">公式リンク一覧</a></div>'
+        '<section class="hero latest-release-hero hanakotoba-hero" aria-labelledby="hero-title" data-home-hero>'
+        '<div class="hanakotoba-wash" aria-hidden="true"></div><div class="hanakotoba-petals" aria-hidden="true">'
+        '<span></span><span></span><span></span><span></span><span></span></div>'
+        '<div class="hanakotoba-copy"><p class="hanakotoba-status"><i></i>'
+        f'{html.escape(hero_status)}</p><p class="hanakotoba-subtitle">{html.escape(hero_subtitle)}</p>'
+        f'<h1 id="hero-title">{html.escape(latest["title"])}</h1>'
+        f'<p class="hanakotoba-lead">{html.escape(latest["description"])}</p>'
+        f'<div class="hanakotoba-actions" aria-label="最新リリース {html.escape(latest["title"])}のメニュー">'
+        f'<a class="button hanakotoba-button-primary" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./{latest["releaseUrl"]}">楽曲ページ</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./gallery/{latest["slug"]}/">Gallery</a></div>'
+        '<p class="hanakotoba-project">SUZUKA Original AI Music Project</p></div>'
+        '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
+        f'<img src="./{latest["coverImage"]}" alt="{html.escape(latest["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
+        f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(latest["artist"])} / {latest["releaseDate"].replace("-", ".")}</p></div>'
+        '<a class="hanakotoba-scroll" href="#latest">Scroll to discover <i></i></a></section>'
     )
     text = re.sub(
-        r'<div class="hero-release-actions reveal-up delay-4".*?</div>',
+        r'<section class="hero[^>]*>.*?</section>(?=<div class="word-ribbon")',
         hero,
+        text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    text = re.sub(r'<body(?: class="[^"]*")?>', '<body class="hanakotoba-home">', text, count=1)
+    text = re.sub(r'<title>.*?</title>', f'<title>{html.escape(home_title)}</title>', text, count=1)
+    replacements = {
+        'description': home_description,
+        'twitter:title': home_title,
+        'twitter:description': home_description,
+        'twitter:image': f'{BASE}/{latest["coverImage"]}',
+    }
+    for name, value in replacements.items():
+        text = re.sub(
+            rf'<meta name="{re.escape(name)}" content="[^"]*"\s*/?>',
+            f'<meta name="{name}" content="{html.escape(value)}"/>',
+            text,
+            count=1,
+        )
+    property_replacements = {
+        'og:title': home_title,
+        'og:description': home_description,
+        'og:image': f'{BASE}/{latest["coverImage"]}',
+        'og:image:width': '1280',
+        'og:image:height': '720',
+        'og:image:alt': latest["coverAlt"],
+    }
+    for prop, value in property_replacements.items():
+        text = re.sub(
+            rf'<meta property="{re.escape(prop)}" content="[^"]*"\s*/?>',
+            f'<meta property="{prop}" content="{html.escape(value)}"/>',
+            text,
+            count=1,
+        )
+    text = re.sub(
+        r'<link rel="preload" href="[^"]+" as="image" fetchPriority="high"\s*/>',
+        f'<link rel="preload" href="./{latest["coverImage"]}" as="image" fetchPriority="high"/>',
+        text,
+        count=1,
+    )
+    if "assets/hanakotoba-hero.css" not in text:
+        text = text.replace(
+            '</head>', '<link rel="stylesheet" href="./assets/hanakotoba-hero.css"/></head>', 1
+        )
+
+    def update_home_schema(match: re.Match) -> str:
+        schema = json.loads(match.group(1))
+        graph = schema.get("@graph", [])
+        graph = [node for node in graph if node.get("@id") not in {
+            f"{BASE}/#latest-recording", f"{BASE}/#latest-video"
+        }]
+        for node in graph:
+            if node.get("@type") == "Organization":
+                node["image"] = {"@type": "ImageObject", "url": f'{BASE}/{latest["coverImage"]}'}
+            if node.get("@type") == "WebPage":
+                node["name"] = home_title
+                node["description"] = home_description
+                node["mainEntity"] = {"@id": f"{BASE}/#latest-recording"}
+                node["primaryImageOfPage"] = {
+                    "@type": "ImageObject", "url": f'{BASE}/{latest["coverImage"]}'
+                }
+        video_id = latest["youtubeUrl"].split("=")[-1]
+        graph.extend([
+            {
+                "@type": "MusicRecording", "@id": f"{BASE}/#latest-recording",
+                "name": latest["title"], "url": f'{BASE}/{latest["releaseUrl"]}',
+                "image": f'{BASE}/{latest["coverImage"]}', "datePublished": latest["releaseDate"],
+                "description": latest["description"],
+                "byArtist": {
+                    "@type": latest["artistType"], "name": latest["artist"],
+                    "description": "SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。",
+                },
+                "subjectOf": {"@id": f"{BASE}/#latest-video"},
+            },
+            {
+                "@type": "VideoObject", "@id": f"{BASE}/#latest-video",
+                "name": f'{latest["title"]} 公式動画', "description": latest["description"],
+                "thumbnailUrl": [f'{BASE}/{latest["coverImage"]}'],
+                "contentUrl": latest["youtubeUrl"],
+                "embedUrl": f"https://www.youtube.com/embed/{video_id}",
+                "uploadDate": latest["videoPublishedAt"],
+                "duration": f'PT{latest["duration"] // 60}M{latest["duration"] % 60}S',
+                "about": {"@id": f"{BASE}/#latest-recording"},
+            },
+        ])
+        schema["@graph"] = graph
+        return f'<script type="application/ld+json">{dump(schema)}</script>'
+
+    text = re.sub(
+        r'<script type="application/ld\+json">(.*?)</script>',
+        update_home_schema,
         text,
         count=1,
         flags=re.DOTALL,
@@ -596,8 +705,14 @@ def main() -> None:
         text = text.replace("<html lang=\"ja\">", '<html lang="ja" data-catalog-url="./assets/data/releases-catalog.json" data-site-base="./">', 1)
     if 'assets/explore.js' not in text:
         text = text.replace("</body>", '<script defer src="./assets/explore.js"></script></body>', 1)
-    if 'class="explore-links home-explore-links"' not in text:
-        text = text.replace("</footer>", '<nav class="explore-links home-explore-links" aria-label="音楽を探す"><a href="./search/">楽曲を探す</a><a href="./genres/">ジャンル</a><a href="./genres/j-pop/">J-POP</a><a href="./genres/enka/">演歌</a><a href="./genres/k-pop-inspired/">K-POP風</a><a href="./genres/visual-kei/">V系</a><a href="./discography/">ディスコグラフィー</a><a href="./news/ashita-wa-kitto-release/">「明日は、きっと。」News</a><a href="./news/chimpanzee-no-rakuen-release/">「チンパンジーの楽園」News</a></nav></footer>', 1)
+    home_explore_nav = '<nav class="explore-links home-explore-links" aria-label="音楽を探す"><a href="./search/">楽曲を探す</a><a href="./genres/">ジャンル</a><a href="./genres/j-pop/">J-POP</a><a href="./genres/enka/">演歌</a><a href="./genres/k-pop-inspired/">K-POP風</a><a href="./genres/visual-kei/">V系</a><a href="./discography/">ディスコグラフィー</a><a href="./social/">公式SNS・リンク</a><a href="./news/ashita-wa-kitto-release/">「明日は、きっと。」News</a><a href="./news/chimpanzee-no-rakuen-release/">「チンパンジーの楽園」News</a></nav>'
+    if 'class="explore-links home-explore-links"' in text:
+        text = re.sub(
+            r'<nav class="explore-links home-explore-links".*?</nav>',
+            home_explore_nav, text, count=1, flags=re.DOTALL,
+        )
+    else:
+        text = text.replace("</footer>", home_explore_nav + "</footer>", 1)
     home.write_text(text, encoding="utf-8")
     rel = ROOT / "releases/index.html"
     text = rel.read_text(encoding="utf-8")

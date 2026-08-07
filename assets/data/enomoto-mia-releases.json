@@ -1,9 +1,51 @@
 {
   "artist": "榎本魅愛",
   "alternateName": "ENOMOTO MIA",
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-07",
   "source": "https://www.youtube.com/@bellflower5215/videos",
   "releases": [
+    {
+      "title": "花言葉",
+      "titleEnglish": "Hanakotoba",
+      "slug": "hanakotoba",
+      "status": "published",
+      "pageUrl": "releases/hanakotoba/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "youtubeId": "mdTogs4Oiew",
+      "youtubeVideoTitle": "【8月7日公開】榎本魅愛　『花言葉』Official Music",
+      "image": "images/enomoto-mia-hanakotoba.jpg",
+      "duration": 234,
+      "uploadDate": "2026-08-07",
+      "shortDescription": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "featured": true,
+      "playerEnabled": false,
+      "relatedSongs": [
+        "without-worrying",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
+    {
+      "title": "はじめまして、奇跡",
+      "titleEnglish": "Hajimemashite, Kiseki",
+      "slug": "hajimemashite-kiseki",
+      "status": "published",
+      "pageUrl": "releases/hajimemashite-kiseki/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "youtubeId": "rr12NZuWHHs",
+      "youtubeVideoTitle": "榎本魅愛『はじめまして、奇跡』Official Music",
+      "image": "images/enomoto-mia-hajimemashite-kiseki.jpg",
+      "duration": 211,
+      "uploadDate": "2026-08-05",
+      "shortDescription": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "featured": true,
+      "playerEnabled": false,
+      "relatedSongs": [
+        "without-worrying",
+        "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "mirai-no-watashi-ga-miteru"
+      ]
+    },
     {
       "title": "Without Worrying",
       "titleEnglish": "Without Worrying",

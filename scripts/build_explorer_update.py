@@ -535,7 +535,7 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
         root / "gallery/index.html",
         shell(
             "gallery/", "MVギャラリー｜SUZUKA Official Music",
-            "公開25作品の公式MV、ジャケット、サムネイル、制作メモをモバイル対応のギャラリーで紹介します。",
+            f"公開{len(releases)}作品の公式MV、ジャケット、サムネイル、制作メモをモバイル対応のギャラリーで紹介します。",
             "MV GALLERY", body,
             [{"@type": "ItemList", "numberOfItems": len(releases), "itemListElement": elements}],
         ),
@@ -785,6 +785,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
     path = root / "index.html"
     text = clean_block(path.read_text(encoding="utf-8"), "HOME")
     by_slug = {item["slug"]: item for item in releases}
+    latest = releases[0]
     popular = [by_slug[slug] for slug in rankings["rankings"]["popular"]["items"][:5]]
     feature_cards = "".join(
         f'<a class="explorer-feature-card" href="./features/{slug}/"><span>{len(items):02d} WORKS</span>'
@@ -811,6 +812,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
             for item in latest_news
         ) + "</div></section>"
         '<nav class="explorer-home-search" aria-label="作品を探す">'
+        f'<a href="./search/?q={html.escape(latest["title"])}">検索候補：{html.escape(latest["title"])}</a>'
         '<a href="./search/">検索</a><a href="./genres/">ジャンル</a>'
         '<a href="./discography/">ディスコグラフィー</a><a href="./rankings/">ランキング</a></nav>'
         "</section><!-- EXPLORER:HOME:END -->"

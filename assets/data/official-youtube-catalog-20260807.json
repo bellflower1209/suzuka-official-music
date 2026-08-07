@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-07T23:41:22+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "assetReplacements": [],
+  "published": [
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "englishTitle": "Hajimemashite, Kiseki",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "coverImage": "images/enomoto-mia-hajimemashite-kiseki.jpg",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "genres": ["J-POP", "ロマンティックポップ"],
+      "themes": ["奇跡", "希望", "成長"],
+      "moods": ["爽やか", "前向き"]
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "englishTitle": "Wasureji no Hito",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "coverImage": "images/asagiri-wasureji-no-hito.jpg",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "genres": ["演歌", "歌謡曲"],
+      "themes": ["夫婦愛", "記憶", "人生"],
+      "moods": ["切ない", "温かい"]
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "englishTitle": "Hanakotoba",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "coverImage": "images/enomoto-mia-hanakotoba.jpg",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "genres": ["J-POP", "バラード", "ロマンティックポップ"],
+      "themes": ["恋愛", "花", "永遠"],
+      "moods": ["優しい", "透明感"],
+      "playlistPriority": 100,
+      "homeHero": {
+        "title": "SUZUKA Official | 榎本魅愛「花言葉」公開中",
+        "description": "最新シングル「花言葉」を公開中。MV・歌詞・Gallery・Newsはこちら。",
+        "subtitle": "榎本魅愛 New Single",
+        "status": "Now Streaming",
+        "theme": "forget-me-not"
+      }
+    }
+  ],
+  "upcoming": [
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-08T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。"
+    },
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。"
+    }
+  ]
+}

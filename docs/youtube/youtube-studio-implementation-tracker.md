@@ -6,6 +6,9 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | 花言葉 | 榎本魅愛 | https://www.youtube.com/watch?v=mdTogs4Oiew | 3:54 | 花言葉｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 忘れじの人 | 朝霧しのぶ | https://www.youtube.com/watch?v=tbysXktPNk4 | 7:59 | 忘れじの人｜朝霧しのぶ【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | はじめまして、奇跡 | 榎本魅愛 | https://www.youtube.com/watch?v=rr12NZuWHHs | 3:31 | はじめまして、奇跡｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Still alive | RE:VIVE | https://www.youtube.com/watch?v=KCviOsGatOY | 7:48 | Still alive｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 善人裁判 | NOX | https://www.youtube.com/watch?v=8BjnnX3xeGw | 6:20 | 善人裁判｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | One More Kiss | 神代煌牙 | https://www.youtube.com/watch?v=EP7NAPlGhuo | 5:37 | One More Kiss｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -37,9 +40,6 @@
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 君は花火 | 榎本魅愛 | https://www.youtube.com/watch?v=ohylad3AWYI | 4:40 | 君は花火｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
-| Upcoming | はじめまして、奇跡 | 榎本魅愛 | https://www.youtube.com/watch?v=rr12NZuWHHs | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| Upcoming | 忘れじの人 | 朝霧しのぶ | https://www.youtube.com/watch?v=tbysXktPNk4 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| Upcoming | 花言葉 | 榎本魅愛 | https://www.youtube.com/watch?v=mdTogs4Oiew | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | マーメイドの下僕 | 神代煌牙 | https://www.youtube.com/watch?v=uibakv4n2Dg | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | 君にかかった魔法 | 榎本魅愛 | https://www.youtube.com/watch?v=iEFPd6kYYJc | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 

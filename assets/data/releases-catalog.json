@@ -1,6 +1,400 @@
 {
-  "updatedAt": "2026-08-05T00:46:28+09:00",
+  "updatedAt": "2026-08-07T23:41:22+09:00",
   "releases": [
+    {
+      "id": "hanakotoba",
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "displayTitle": "花言葉",
+      "englishTitle": "Hanakotoba",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-07",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "優しい",
+        "透明感"
+      ],
+      "themes": [
+        "恋愛",
+        "花",
+        "永遠"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-hanakotoba.jpg",
+      "coverAlt": "榎本魅愛「花言葉」公式YouTubeサムネイル",
+      "releaseUrl": "releases/hanakotoba/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "newsUrl": "news/hanakotoba-release/",
+      "duration": 234,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "花言葉",
+        "Hanakotoba",
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "優しい",
+        "透明感"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "tags": [
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "優しい",
+        "透明感"
+      ],
+      "lyrics": "",
+      "introduction": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "publishedAt": "2026-08-07T20:00:28+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/enomoto-mia-hanakotoba.jpg"
+      ],
+      "productionNote": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "seo": {
+        "title": "花言葉｜榎本魅愛｜SUZUKA Official Music",
+        "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-01",
+      "videoPublishedAt": "2026-08-07T20:00:28+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "playlistPriority": 100,
+      "homeHero": {
+        "title": "SUZUKA Official | 榎本魅愛「花言葉」公開中",
+        "description": "最新シングル「花言葉」を公開中。MV・歌詞・Gallery・Newsはこちら。",
+        "subtitle": "榎本魅愛 New Single",
+        "status": "Now Streaming",
+        "theme": "forget-me-not"
+      },
+      "recommendations": {
+        "sameArtist": [
+          "hajimemashite-kiseki",
+          "without-worrying",
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "sameGenre": [
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "mirai-no-watashi-ga-miteru",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "sameTheme": [
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "mirai-no-watashi-ga-miteru",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive",
+          "wasureji-no-hito"
+        ],
+        "recent": [
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
+          "still-alive",
+          "zennin-saiban",
+          "one-more-kiss",
+          "lost-signal"
+        ],
+        "aiRecommended": [
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "mia",
+          "mirai-no-watashi-ga-miteru",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ]
+      }
+    },
+    {
+      "id": "wasureji-no-hito",
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "displayTitle": "忘れじの人",
+      "englishTitle": "Wasureji no Hito",
+      "artist": "朝霧しのぶ",
+      "artistSlug": "asagiri-shinobu",
+      "artistSlugs": [
+        "asagiri-shinobu"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-06",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "演歌",
+        "歌謡曲"
+      ],
+      "moods": [
+        "切ない",
+        "温かい"
+      ],
+      "themes": [
+        "夫婦愛",
+        "記憶",
+        "人生"
+      ],
+      "language": "ja",
+      "coverImage": "images/asagiri-wasureji-no-hito.jpg",
+      "coverAlt": "朝霧しのぶ「忘れじの人」公式YouTubeサムネイル",
+      "releaseUrl": "releases/wasureji-no-hito/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "newsUrl": "news/wasureji-no-hito-release/",
+      "duration": 479,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "忘れじの人",
+        "Wasureji no Hito",
+        "朝霧しのぶ",
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "tags": [
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ],
+      "lyrics": "",
+      "introduction": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "publishedAt": "2026-08-06T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/asagiri-wasureji-no-hito.jpg"
+      ],
+      "productionNote": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "seo": {
+        "title": "忘れじの人｜朝霧しのぶ｜SUZUKA Official Music",
+        "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-08-06T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=tbysXktPNk4",
+      "playlistPriority": 0,
+      "homeHero": {},
+      "recommendations": {
+        "sameArtist": [
+          "wasurenai-kokoro"
+        ],
+        "sameGenre": [
+          "wasurenai-kokoro"
+        ],
+        "sameTheme": [
+          "wasurenai-kokoro",
+          "kimi-wa-hanabi"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
+          "still-alive",
+          "zennin-saiban",
+          "one-more-kiss",
+          "lost-signal"
+        ],
+        "aiRecommended": [
+          "wasurenai-kokoro",
+          "kimi-wa-hanabi",
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "still-alive",
+          "zennin-saiban"
+        ]
+      }
+    },
+    {
+      "id": "hajimemashite-kiseki",
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "displayTitle": "はじめまして、奇跡",
+      "englishTitle": "Hajimemashite, Kiseki",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-05",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "爽やか",
+        "前向き"
+      ],
+      "themes": [
+        "奇跡",
+        "希望",
+        "成長"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-hajimemashite-kiseki.jpg",
+      "coverAlt": "榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル",
+      "releaseUrl": "releases/hajimemashite-kiseki/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "newsUrl": "news/hajimemashite-kiseki-release/",
+      "duration": 211,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "はじめまして、奇跡",
+        "Hajimemashite, Kiseki",
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "爽やか",
+        "前向き"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "爽やか",
+        "前向き"
+      ],
+      "lyrics": "",
+      "introduction": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "publishedAt": "2026-08-05T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "images/enomoto-mia-hajimemashite-kiseki.jpg"
+      ],
+      "productionNote": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "seo": {
+        "title": "はじめまして、奇跡｜榎本魅愛｜SUZUKA Official Music",
+        "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-31",
+      "videoPublishedAt": "2026-08-05T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "playlistPriority": 0,
+      "homeHero": {},
+      "recommendations": {
+        "sameArtist": [
+          "hanakotoba",
+          "without-worrying",
+          "ashita-wa-kitto",
+          "smile-and-say-goodbye",
+          "suki-ga-kyou-mo-fueteiku",
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
+        ],
+        "sameGenre": [
+          "hanakotoba",
+          "without-worrying",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ],
+        "sameTheme": [
+          "without-worrying",
+          "ashita-wa-kitto",
+          "heal-you-again"
+        ],
+        "popular": [
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive",
+          "wasureji-no-hito"
+        ],
+        "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "still-alive",
+          "zennin-saiban",
+          "one-more-kiss",
+          "lost-signal"
+        ],
+        "aiRecommended": [
+          "hanakotoba",
+          "without-worrying",
+          "ai-demo-wakaranai",
+          "hyakumankoku",
+          "kimi-to-nara-last-boss-made",
+          "mia"
+        ]
+      }
+    },
     {
       "id": "still-alive",
       "slug": "still-alive",
@@ -91,38 +485,38 @@
         "sameGenre": [
           "heal-you-again",
           "without-worrying",
+          "hanakotoba",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "one-more-kiss",
-          "koisuru-maharaja"
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "heal-you-again",
           "without-worrying"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "without-worrying",
-          "zennin-saiban",
-          "ai-demo-wakaranai"
+          "wasureji-no-hito"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "zennin-saiban",
           "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja",
-          "chimpanzee-no-rakuen"
+          "lost-signal"
         ],
         "aiRecommended": [
           "heal-you-again",
           "without-worrying",
+          "hanakotoba",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "one-more-kiss",
-          "koisuru-maharaja"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -218,28 +612,28 @@
           "boukyaku-no-ikimono"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "ai-demo-wakaranai"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja",
-          "chimpanzee-no-rakuen"
+          "lost-signal"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
           "boukyaku-no-ikimono",
           "one-more-kiss",
           "still-alive",
-          "lost-signal",
-          "without-worrying"
+          "hajimemashite-kiseki",
+          "lost-signal"
         ]
       }
     },
@@ -337,40 +731,40 @@
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "koisuru-maharaja",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "hanakotoba",
+          "ai-demo-wakaranai"
         ],
         "sameTheme": [
           "koisuru-maharaja",
+          "hanakotoba",
           "ai-demo-wakaranai",
           "hyakumankoku",
           "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi",
-          "mermaid-merman"
+          "kimi-wa-hanabi"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "still-alive",
-          "without-worrying",
-          "zennin-saiban",
-          "ai-demo-wakaranai"
+          "wasureji-no-hito"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja",
-          "chimpanzee-no-rakuen"
+          "lost-signal"
         ],
         "aiRecommended": [
           "echoes-of-you",
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "koisuru-maharaja",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "hanakotoba",
+          "ai-demo-wakaranai"
         ]
       }
     },
@@ -470,20 +864,20 @@
           "shadow-code"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "one-more-kiss",
           "still-alive",
-          "without-worrying",
-          "zennin-saiban",
-          "ai-demo-wakaranai"
+          "wasureji-no-hito"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "without-worrying",
-          "koisuru-maharaja",
-          "chimpanzee-no-rakuen"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -577,49 +971,50 @@
       "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
           "still-alive",
           "heal-you-again",
+          "hanakotoba",
           "smile-and-say-goodbye",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "ashita-wa-kitto",
           "still-alive",
-          "heal-you-again"
+          "heal-you-again",
+          "hajimemashite-kiseki"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "zennin-saiban",
-          "ai-demo-wakaranai"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "koisuru-maharaja",
-          "chimpanzee-no-rakuen"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
           "still-alive",
           "heal-you-again",
+          "hanakotoba",
           "smile-and-say-goodbye",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -703,42 +1098,42 @@
         "sameGenre": [
           "namaste-galaxy",
           "one-more-kiss",
+          "hanakotoba",
           "ai-demo-wakaranai",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "sameTheme": [
           "namaste-galaxy",
           "one-more-kiss",
+          "hanakotoba",
           "ai-demo-wakaranai",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "lost-signal",
           "one-more-kiss",
           "still-alive",
-          "without-worrying",
-          "zennin-saiban",
-          "ai-demo-wakaranai"
+          "wasureji-no-hito"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "chimpanzee-no-rakuen"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "namaste-galaxy",
           "one-more-kiss",
+          "hanakotoba",
           "ai-demo-wakaranai",
           "hyakumankoku",
-          "kimi-to-nara-last-boss-made",
-          "kimi-wa-hanabi"
+          "kimi-to-nara-last-boss-made"
         ]
       }
     },
@@ -831,20 +1226,20 @@
           "boukyaku-no-ikimono"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -937,48 +1332,49 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "smile-and-say-goodbye",
           "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "sameGenre": [
           "without-worrying",
           "smile-and-say-goodbye",
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "still-alive",
-          "heal-you-again",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "heal-you-again"
         ],
         "sameTheme": [
           "without-worrying",
+          "hajimemashite-kiseki",
           "heal-you-again"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "without-worrying",
           "smile-and-say-goodbye",
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "still-alive",
-          "heal-you-again",
-          "ai-demo-wakaranai",
-          "hyakumankoku"
+          "heal-you-again"
         ]
       }
     },
@@ -1070,38 +1466,39 @@
           "still-alive",
           "without-worrying",
           "ashita-wa-kitto",
+          "hajimemashite-kiseki",
           "echoes-of-you",
-          "koisuru-maharaja",
-          "namaste-galaxy"
+          "koisuru-maharaja"
         ],
         "sameTheme": [
           "still-alive",
           "without-worrying",
-          "ashita-wa-kitto"
+          "ashita-wa-kitto",
+          "hajimemashite-kiseki"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "still-alive",
           "without-worrying",
           "ashita-wa-kitto",
+          "hajimemashite-kiseki",
           "echoes-of-you",
-          "koisuru-maharaja",
-          "namaste-galaxy"
+          "koisuru-maharaja"
         ]
       }
     },
@@ -1201,20 +1598,20 @@
         ],
         "sameTheme": [],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -1319,20 +1716,20 @@
           "koisuru-maharaja"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -1422,34 +1819,39 @@
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
       "recommendations": {
-        "sameArtist": [],
-        "sameGenre": [],
+        "sameArtist": [
+          "wasureji-no-hito"
+        ],
+        "sameGenre": [
+          "wasureji-no-hito"
+        ],
         "sameTheme": [
+          "wasureji-no-hito",
           "kimi-wa-hanabi"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
+          "wasureji-no-hito",
           "kimi-wa-hanabi",
           "namaste-galaxy",
           "smile-and-say-goodbye",
           "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "my-queen-my-oath"
+          "echoes-of-you"
         ]
       }
     },
@@ -1534,48 +1936,48 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
           "without-worrying",
+          "hanakotoba",
           "our-kingdom",
           "my-queen-my-oath",
-          "still-alive",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "still-alive"
         ],
         "sameTheme": [
           "our-kingdom",
           "my-queen-my-oath"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
           "without-worrying",
+          "hanakotoba",
           "our-kingdom",
           "my-queen-my-oath",
-          "still-alive",
-          "moshimo-ashita-hajimemashite-ni-natte-mo"
+          "still-alive"
         ]
       }
     },
@@ -1681,20 +2083,20 @@
           "zennin-saiban"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -1813,20 +2215,20 @@
           "shadow-code"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -1940,20 +2342,20 @@
           "my-queen-my-oath"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -2040,12 +2442,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2064,20 +2466,20 @@
           "mia"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2164,12 +2566,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "toriatsukai-chui",
-          "our-kingdom"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -2188,20 +2590,20 @@
           "mia"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -2288,12 +2690,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "our-kingdom"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -2312,20 +2714,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -2435,20 +2837,20 @@
           "my-queen-my-oath"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -2547,12 +2949,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -2567,20 +2969,20 @@
           "smile-and-say-goodbye"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -2667,12 +3069,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -2691,20 +3093,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -2791,12 +3193,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2815,20 +3217,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2915,12 +3317,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2939,20 +3341,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -3039,12 +3441,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -3063,20 +3465,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -3163,12 +3565,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -3187,20 +3589,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -3287,12 +3689,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -3311,20 +3713,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -3411,12 +3813,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -3435,20 +3837,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -3541,12 +3943,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -3565,20 +3967,20 @@
           "mia"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -3671,12 +4073,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -3695,20 +4097,20 @@
           "mia"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -3795,12 +4197,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "hanakotoba",
+          "hajimemashite-kiseki",
           "without-worrying",
           "ashita-wa-kitto",
           "smile-and-say-goodbye",
-          "suki-ga-kyou-mo-fueteiku",
-          "moshimo-ashita-hajimemashite-ni-natte-mo",
-          "toriatsukai-chui"
+          "suki-ga-kyou-mo-fueteiku"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -3819,20 +4221,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "without-worrying",
-          "zennin-saiban"
+          "still-alive"
         ],
         "recent": [
+          "hanakotoba",
+          "wasureji-no-hito",
+          "hajimemashite-kiseki",
           "still-alive",
           "zennin-saiban",
-          "one-more-kiss",
-          "lost-signal",
-          "without-worrying",
-          "koisuru-maharaja"
+          "one-more-kiss"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -3846,54 +4248,6 @@
     }
   ],
   "upcoming": [
-    {
-      "slug": "hajimemashite-kiseki",
-      "title": "はじめまして、奇跡",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-05T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
-      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-05T20:00:00+09:00"
-    },
-    {
-      "slug": "wasureji-no-hito",
-      "title": "忘れじの人",
-      "artist": "朝霧しのぶ",
-      "artistSlug": "asagiri-shinobu",
-      "scheduledAt": "2026-08-06T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=tbysXktPNk4",
-      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-06T20:00:00+09:00"
-    },
-    {
-      "slug": "hanakotoba",
-      "title": "花言葉",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-07T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
-      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の楽曲。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-07T20:00:00+09:00"
-    },
     {
       "slug": "mermaid-no-geboku",
       "title": "マーメイドの下僕",

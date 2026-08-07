@@ -56,6 +56,28 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/gallery/hajimemashite-kiseki/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>はじめまして、奇跡 Official MV</video:title>
+      <video:description>遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/rr12NZuWHHs</video:player_loc>
+      <video:publication_date>2026-08-05T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/gallery/hanakotoba/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>花言葉 Official MV</video:title>
+      <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/mdTogs4Oiew</video:player_loc>
+      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/heal-you-again/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/XHjDSEoFcXE/maxresdefault.jpg</video:thumbnail_loc>
@@ -309,6 +331,17 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/gallery/wasureji-no-hito/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>忘れじの人 Official MV</video:title>
+      <video:description>記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/tbysXktPNk4</video:player_loc>
+      <video:publication_date>2026-08-06T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/wasurenai-kokoro/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/YxZWABTJBGk/maxresdefault.jpg</video:thumbnail_loc>
@@ -338,6 +371,18 @@
       <video:description>正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。</video:description>
       <video:player_loc>https://www.youtube.com/embed/8BjnnX3xeGw</video:player_loc>
       <video:publication_date>2026-08-03T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</video:thumbnail_loc>
+      <video:title>花言葉 公式動画</video:title>
+      <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=mdTogs4Oiew</video:content_loc>
+      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:duration>234</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -445,6 +490,30 @@
       <video:content_loc>https://www.youtube.com/watch?v=Uxtp9TLw47g</video:content_loc>
       <video:publication_date>2026-07-26T20:00:22+09:00</video:publication_date>
       <video:duration>484</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/hajimemashite-kiseki/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>はじめまして、奇跡 Official Video</video:title>
+      <video:description>遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=rr12NZuWHHs</video:content_loc>
+      <video:publication_date>2026-08-05T20:00:06+09:00</video:publication_date>
+      <video:duration>211</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/hanakotoba/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>花言葉 Official Video</video:title>
+      <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=mdTogs4Oiew</video:content_loc>
+      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:duration>234</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -708,6 +777,18 @@
       <video:description>好きな人との距離が近づくほど、心拍数も感情も制御不能になっていく瞬間を描いた榎本魅愛の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QXvpLCnyoOw</video:content_loc>
       <video:publication_date>2026-07-15T00:51:42+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/wasureji-no-hito/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tbysXktPNk4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>忘れじの人 Official Video</video:title>
+      <video:description>記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=tbysXktPNk4</video:content_loc>
+      <video:publication_date>2026-08-06T20:00:06+09:00</video:publication_date>
+      <video:duration>479</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
