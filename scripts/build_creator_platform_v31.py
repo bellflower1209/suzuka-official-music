@@ -222,14 +222,19 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
         gallery_hub_url = f'../gallery/{related_slugs[0]}/' if related_slugs else '../gallery/'
         gallery_detail_url = f'../../gallery/{related_slugs[0]}/' if related_slugs else '../../gallery/'
         cover = item.get("coverImage")
+        cover_alt = item.get("coverAlt") or f'{item["title"]} 公式写真集カバー'
+        cover_width = int(item.get("coverWidth") or 1280)
+        cover_height = int(item.get("coverHeight") or 720)
         cover_markup = (
-            f'<img src="../{html.escape(cover)}" alt="{html.escape(item["title"])} 公式写真集カバー" '
-            'width="1280" height="720" loading="lazy"/>' if cover else ""
+            f'<img src="../{html.escape(cover)}" alt="{html.escape(cover_alt)}" '
+            f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         cards.append(
             f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{cover_markup}'
             f'<div><p>Visual Collection / {html.escape(artist["name"])}</p><h2><a href="./{item["slug"]}/">{html.escape(item["title"])}</a></h2>'
-            f'<p>{html.escape(item.get("description") or "")}</p><div class="explore-actions">'
+            f'<p>{html.escape(item.get("description") or "")}</p>'
+            f'<time datetime="{html.escape(item["publishedAt"])}">{html.escape(item["publishedAt"][:10].replace("-", "."))}</time>'
+            f'<div class="explore-actions">'
             f'<a href="./{item["slug"]}/">写真集詳細</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで見る ↗</a>'
             f'<a href="../artists/{item["artistSlug"]}/">Artist</a><a href="{gallery_hub_url}">Gallery</a>'
             '</div></div></article>'
@@ -243,13 +248,13 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
         else:
             price = "未確認"
         detail_cover = (
-            f'<img src="../../{html.escape(cover)}" alt="{html.escape(item["title"])} 公式写真集カバー" '
-            'width="1280" height="720" loading="lazy"/>' if cover else ""
+            f'<img src="../../{html.escape(cover)}" alt="{html.escape(cover_alt)}" '
+            f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         body = (
             f'<article class="v31-photobook-detail" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{detail_cover}<div>'
             f'<p>SUZUKA Visual Collection</p><h2>{html.escape(item["title"])}</h2><p>{html.escape(artist["name"])}</p>'
-            f'<p>{html.escape(item.get("description") or "")}</p><dl><dt>公開日</dt><dd>{html.escape(item.get("publishedAt") or "未確認")}</dd>'
+            f'<p>{html.escape(item.get("description") or "")}</p><dl><dt>公開日</dt><dd><time datetime="{html.escape(item.get("publishedAt") or "")}">{html.escape((item.get("publishedAt") or "未確認")[:10])}</time></dd>'
             f'<dt>公開形式</dt><dd>{html.escape(price or "有料・価格未確認")}</dd></dl>'
             f'<div class="explore-actions"><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで写真集を見る ↗</a>'
             f'<a href="../../artists/{item["artistSlug"]}/">Artist</a><a href="{gallery_detail_url}">Gallery</a>'
@@ -260,14 +265,22 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
             "@type": "CreativeWork", "@id": f'{BASE}/photobooks/{item["slug"]}/#work',
             "name": item["title"], "url": f'{BASE}/photobooks/{item["slug"]}/',
             "description": item.get("description") or "", "author": {"@type": "Organization", "name": "SUZUKA"},
-            "about": {"@type": artist["type"], "name": artist["name"]},
-            "sameAs": item["noteUrl"],
+            "about": {
+                "@type": artist["type"], "name": artist["name"],
+                "description": "SUZUKAの架空のAIアーティストです。",
+            },
+            "image": f'{BASE}/{cover}' if cover else None,
+            "datePublished": item.get("publishedAt"),
+            "isAccessibleForFree": item.get("isPaid") is False,
         }]
-        write(root / f'photobooks/{item["slug"]}/index.html', shell(
+        page = shell(
             f'photobooks/{item["slug"]}/', f'{item["title"]} | {artist["name"]} | SUZUKA Photobooks',
             item.get("description") or f'{artist["name"]}のSUZUKA公式AIアーティスト写真集。',
             item["title"], body, graph, ("photobooks", "Photobooks"), page_type="WebPage",
-        ))
+        )
+        if cover:
+            page = page.replace(f'{BASE}/images/suzuka-channel.jpg', f'{BASE}/{cover}')
+        write(root / f'photobooks/{item["slug"]}/index.html', page)
         list_items.append({
             "@type": "ListItem", "position": position, "name": item["title"],
             "url": f'{BASE}/photobooks/{item["slug"]}/',
@@ -276,10 +289,13 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
     content = "".join(cards) or '<p class="v31-empty">公開URLと作品情報を確認済みの写真集は現在登録されていません。</p>'
     body = f'<section class="creator-copy"><p>{description}</p></section><section class="v31-photobook-grid">{content}</section>'
     graph = [{"@type": "ItemList", "numberOfItems": len(list_items), "itemListElement": list_items}]
-    write(root / "photobooks/index.html", shell(
+    hub = shell(
         "photobooks/", "SUZUKA Official Photobooks | Visual Collection", description,
         "PHOTOBOOKS", body, graph, page_type="CollectionPage",
-    ))
+    )
+    if published and published[0].get("coverImage"):
+        hub = hub.replace(f'{BASE}/images/suzuka-channel.jpg', f'{BASE}/{published[0]["coverImage"]}')
+    write(root / "photobooks/index.html", hub)
     return published
 
 
@@ -438,8 +454,11 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         artist_photobooks = [item for item in photobooks if item["artistSlug"] == slug]
         photobook_section = ""
         if artist_photobooks:
-            photobook_section = '<section><h2>Photobooks / Visual Collection</h2><div class="creator-link-grid">' + "".join(
-                f'<a class="creator-link-card" href="../../photobooks/{item["slug"]}/">{html.escape(item["title"])}</a>'
+            photobook_section = '<section><h2>Official Photobooks</h2><div class="v31-photobook-grid">' + "".join(
+                f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">'
+                f'<img src="../../{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
+                f'<h3><a href="../../photobooks/{item["slug"]}/">{html.escape(item["title"])}</a></h3><div class="explore-actions">'
+                f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
                 for item in artist_photobooks
             ) + '</div></section>'
         body = (
@@ -616,7 +635,9 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
     featured = [item for item in photobooks if item.get("featured")][:3]
     artist_names = {item["slug"]: item["name"] for item in cms["artists"]}
     featured_cards = "".join(
-        f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}"><h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
+        f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}">'
+        f'<img src="./{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
+        f'<p>{html.escape(artist_names.get(item["artistSlug"], ""))}</p><h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
         f'<a href="./photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
         for item in featured
     ) or '<p class="v31-empty">公開URLを確認済みの写真集は現在登録されていません。</p>'
@@ -680,6 +701,10 @@ def analytics_v31(root: Path) -> None:
     text = text.replace(
         "return {\n      work_title: title,\n      release_slug: clean(slug),\n      artist_name: artist,\n      link_url: safeLink(anchor.href),",
         "return {\n      work_title: title, title,\n      release_slug: clean(slug), slug: clean(slug),\n      artist_name: artist, artist,\n      link_url: safeLink(anchor.href), destination_url: safeLink(anchor.href),\n      current_page: safePageUrl,\n      source_section: clean(context.getAttribute?.('data-ranking-section') || context.className || 'page'),",
+    )
+    text = text.replace(
+        "work_title: title, title,\n",
+        "work_title: title, title, photobook_title: title,\n",
     )
     anchor = 'if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);'
     additions = '\n    if (anchor.closest(".v31-home-next")) send("next_release_click", details);\n    if (anchor.closest("[data-countdown]")) send("countdown_click", details);\n    if (anchor.closest("[data-upcoming]")) send("upcoming_click", details);\n    if (anchor.closest("[data-latest-release]")) send("latest_release_click", details);\n    if (url.origin === location.origin && /\\/lyrics\\/(?:[^/]+\\/?)?$/.test(path)) send("lyrics_click", details);\n    if (url.origin === location.origin && /\\/rankings\\/?$/.test(path)) send("ranking_click", details);\n    if (url.origin === location.origin && /\\/schedule\\/?$/.test(path)) send("schedule_click", details);'

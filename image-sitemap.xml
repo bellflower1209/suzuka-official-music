@@ -131,6 +131,14 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
       <image:title>榎本魅愛「君は負けない」公式YouTube公開予定サムネイル</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-natsu-ga-owaru-made.jpg</image:loc>
+      <image:title>榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』公式表紙</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-wasurenaide.jpg</image:loc>
+      <image:title>榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』公式表紙</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/artists/</loc>
@@ -1544,6 +1552,14 @@
       <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-natsu-ga-owaru-made.jpg</image:loc>
+      <image:title>榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』公式表紙</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-wasurenaide.jpg</image:loc>
+      <image:title>榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』公式表紙</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/anata-dake-no-savior-release/</loc>
@@ -1918,6 +1934,35 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/photobooks/enomoto-mia-natsu-ga-owaru-made-soba-ni-ite/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-natsu-ga-owaru-made.jpg</image:loc>
+      <image:title>榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』公式表紙</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/photobooks/enomoto-mia-wasurenaide-watashi-no-koto/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-wasurenaide.jpg</image:loc>
+      <image:title>榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』公式表紙</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/photobooks/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-natsu-ga-owaru-made.jpg</image:loc>
+      <image:title>榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』公式表紙</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/photobook-enomoto-mia-wasurenaide.jpg</image:loc>
+      <image:title>榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』公式表紙</image:title>
     </image:image>
   </url>
   <url>

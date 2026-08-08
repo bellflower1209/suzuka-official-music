@@ -48,7 +48,7 @@
       schemaArtist || (pageArtist ? document.querySelector("h1")?.textContent : "")
     );
     return {
-      work_title: title, title,
+      work_title: title, title, photobook_title: title,
       release_slug: clean(slug), slug: clean(slug),
       artist_name: artist, artist,
       link_url: safeLink(anchor.href), destination_url: safeLink(anchor.href),

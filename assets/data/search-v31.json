@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:40:00+09:00",
+  "updatedAt": "2026-08-08T22:58:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -1181,6 +1181,32 @@
       "url": "wiki/terms/",
       "keywords": [
         "Official MV"
+      ]
+    },
+    {
+      "type": "Photobook",
+      "contentType": "photobook",
+      "title": "榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』",
+      "description": "海、ラムネ、浴衣、夏祭り、花火とともに、魅愛と過ごす真夏の一日と終わりゆく夏の寂しさを描く2nd Digital Photo Story。",
+      "url": "photobooks/enomoto-mia-natsu-ga-owaru-made-soba-ni-ite/",
+      "keywords": [
+        "榎本魅愛",
+        "Photobook",
+        "Visual Collection",
+        "写真集"
+      ]
+    },
+    {
+      "type": "Photobook",
+      "contentType": "photobook",
+      "title": "【無料写真集】榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』",
+      "description": "青い勿忘草をテーマに、出会い、恋、言えなかった言葉と別れへの想いを30枚の写真と短い言葉で綴る、榎本魅愛の1st Digital Photo Story。",
+      "url": "photobooks/enomoto-mia-wasurenaide-watashi-no-koto/",
+      "keywords": [
+        "榎本魅愛",
+        "Photobook",
+        "Visual Collection",
+        "写真集"
       ]
     }
   ]

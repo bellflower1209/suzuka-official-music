@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 FIELDS = (
     "id", "slug", "title", "artistSlug", "coverImage", "noteUrl", "publishedAt",
     "status", "description", "relatedReleaseSlugs", "featured", "isPaid", "priceLabel",
+    "coverAlt", "coverWidth", "coverHeight", "contentType", "sourceVerifiedAt",
 )
 
 
@@ -45,6 +46,12 @@ def main() -> int:
             cover = root / str(item.get("coverImage") or "")
             if not cover.is_file():
                 errors.append(f"{item.get('slug')}: cover image missing")
+            if not str(item.get("publishedAt") or "").endswith("+09:00"):
+                errors.append(f"{item.get('slug')}: publishedAt must include +09:00")
+            if item.get("isPaid") is True and not item.get("priceLabel"):
+                errors.append(f"{item.get('slug')}: paid item missing verified priceLabel")
+            if item.get("isPaid") is False and item.get("priceLabel"):
+                errors.append(f"{item.get('slug')}: free item must not have a priceLabel")
     hub = (root / "photobooks/index.html").read_text(encoding="utf-8")
     for marker in ("SUZUKA公式AIアーティストの写真集・Visual Collection一覧。", "BreadcrumbList", "ItemList"):
         if marker not in hub:
@@ -57,6 +64,9 @@ def main() -> int:
     for event in ("lyrics_click", "photobook_click", "note_click"):
         if f'"{event}"' not in analytics:
             errors.append(f"analytics missing {event}")
+    for parameter in ("photobook_title", "artist", "source_section", "destination_url", "current_page"):
+        if parameter not in analytics:
+            errors.append(f"analytics missing photobook parameter: {parameter}")
     if re.search(r'https?://[^\s\"\']*note\.com', json.dumps(books, ensure_ascii=False)) and not published:
         errors.append("note URL exists without a published record")
     if errors:

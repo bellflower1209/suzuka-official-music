@@ -1,5 +1,48 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-08T22:40:00+09:00",
-  "photobooks": []
+  "updatedAt": "2026-08-08T22:58:00+09:00",
+  "photobooks": [
+    {
+      "id": "enomoto-mia-wasurenaide-watashi-no-koto",
+      "slug": "enomoto-mia-wasurenaide-watashi-no-koto",
+      "title": "【無料写真集】榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』",
+      "artistSlug": "enomoto-mia",
+      "coverImage": "images/photobook-enomoto-mia-wasurenaide.jpg",
+      "coverAlt": "榎本魅愛 1st Digital Photo Story『忘れないで、わたしのこと。』公式表紙",
+      "coverWidth": 1280,
+      "coverHeight": 670,
+      "noteUrl": "https://note.com/1209bellflower/n/nfc1aa55e4179",
+      "publishedAt": "2026-08-08T13:20:22+09:00",
+      "status": "published",
+      "description": "青い勿忘草をテーマに、出会い、恋、言えなかった言葉と別れへの想いを30枚の写真と短い言葉で綴る、榎本魅愛の1st Digital Photo Story。",
+      "relatedReleaseSlugs": [
+        "hanakotoba"
+      ],
+      "featured": true,
+      "isPaid": false,
+      "priceLabel": "",
+      "contentType": "Digital Photo Story",
+      "sourceVerifiedAt": "2026-08-08T22:58:00+09:00"
+    },
+    {
+      "id": "enomoto-mia-natsu-ga-owaru-made-soba-ni-ite",
+      "slug": "enomoto-mia-natsu-ga-owaru-made-soba-ni-ite",
+      "title": "榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』",
+      "artistSlug": "enomoto-mia",
+      "coverImage": "images/photobook-enomoto-mia-natsu-ga-owaru-made.jpg",
+      "coverAlt": "榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』公式表紙",
+      "coverWidth": 1280,
+      "coverHeight": 670,
+      "noteUrl": "https://note.com/1209bellflower/n/n861837f256fa",
+      "publishedAt": "2026-08-08T18:08:23+09:00",
+      "status": "published",
+      "description": "海、ラムネ、浴衣、夏祭り、花火とともに、魅愛と過ごす真夏の一日と終わりゆく夏の寂しさを描く2nd Digital Photo Story。",
+      "relatedReleaseSlugs": [],
+      "featured": true,
+      "isPaid": true,
+      "priceLabel": "¥500",
+      "contentType": "Digital Photo Story",
+      "sourceVerifiedAt": "2026-08-08T22:58:00+09:00"
+    }
+  ]
 }

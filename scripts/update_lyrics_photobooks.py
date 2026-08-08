@@ -6,7 +6,7 @@ import argparse
 import json
 from pathlib import Path
 
-UPDATED_AT = "2026-08-08T22:40:00+09:00"
+UPDATED_AT = "2026-08-08T22:58:00+09:00"
 
 
 def write_json(path: Path, value: object) -> None:
@@ -37,7 +37,8 @@ def main() -> None:
         "managedFields": [
             "id", "slug", "title", "artistSlug", "coverImage", "noteUrl",
             "publishedAt", "status", "description", "relatedReleaseSlugs",
-            "featured", "isPaid", "priceLabel",
+            "featured", "isPaid", "priceLabel", "coverAlt", "coverWidth",
+            "coverHeight", "contentType", "sourceVerifiedAt",
         ],
     }
     write_json(cms_path, cms)

@@ -1,18 +1,38 @@
 {
-  "auditedAt": "2026-08-08T22:40:00+09:00",
+  "auditedAt": "2026-08-08T22:58:00+09:00",
   "sourcesInspected": [
     "repository files",
     "docs",
     "Creator CMS",
     "existing external links",
     "official-site-linked YouTube and Instagram references",
-    "note.com web search for SUZUKA artist names and Visual Collection"
+    "note.com web search for SUZUKA artist names and Visual Collection",
+    "user-provided official note URLs and each page's visible content and JSON-LD"
   ],
-  "verifiedPhotobooks": [],
+  "verifiedPhotobooks": [
+    {
+      "url": "https://note.com/1209bellflower/n/nfc1aa55e4179",
+      "classification": "Digital Photo Story",
+      "registeredSlug": "enomoto-mia-wasurenaide-watashi-no-koto"
+    },
+    {
+      "url": "https://note.com/1209bellflower/n/n861837f256fa",
+      "classification": "Digital Photo Story",
+      "registeredSlug": "enomoto-mia-natsu-ga-owaru-made-soba-ni-ite"
+    }
+  ],
+  "verifiedNonPhotobookSources": [
+    {
+      "url": "https://note.com/1209bellflower/n/n41aeaef4fac9",
+      "classification": "release commentary",
+      "title": "孤独を従え、もう一度。神代煌牙『LEO — Rise Again —』が描く“立ち上がる強さ”",
+      "photobookRegistration": "excluded"
+    }
+  ],
   "thirdPartyOrUnrelatedResultsExcluded": true,
   "guessedNoteUrls": 0,
   "humanReviewRequired": [
-    "SUZUKA公式noteプロフィールURLが正本・公式サイト内で確認できない",
-    "正式な写真集記事URL、表紙、公開日、無料・有料、価格、関連作品を確認できる一次資料がない"
+    "2nd Digital Photo Storyに直接紐づくSUZUKA楽曲は記事内で確認できない",
+    "LEO — Rise Again —の記事は写真集ではないためPhotobooks正本へは登録しない"
   ]
 }
