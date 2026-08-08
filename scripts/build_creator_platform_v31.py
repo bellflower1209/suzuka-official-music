@@ -29,6 +29,8 @@ def eligible_lyrics(releases: list[dict]) -> list[dict]:
     return [
         item for item in releases
         if item.get("lyricsAvailable")
+        and item.get("lyricsVerified") is True
+        and str(item.get("lyricsVerifiedAt", "")).strip()
         and str(item.get("lyricsText") or item.get("lyrics") or "").strip()
         and str(item.get("lyricsSource", "")).strip()
     ]
@@ -172,7 +174,7 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
         }]
         write(root / f'lyrics/{item["slug"]}/index.html', shell(
             f'lyrics/{item["slug"]}/', f'{item["title"]} 歌詞 | {item["artist"]} | SUZUKA Official',
-            f'{item["artist"]}「{item["title"]}」の公式歌詞。楽曲情報、MV、関連作品も紹介。',
+            f'{item["artist"]}「{item["title"]}」の公式歌詞。MV、楽曲情報、関連作品も紹介。',
             f'{item["title"]} 歌詞', body, graph, ("lyrics", "Lyrics"), page_type="WebPage",
         ))
     entries = "".join(
@@ -201,6 +203,104 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
     page = page.replace("</body>", '<script defer src="../assets/creator-v31.js"></script></body>')
     write(root / "lyrics/index.html", page)
     return eligible
+
+
+def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
+    source = json.loads((root / "assets/data/photobooks.json").read_text(encoding="utf-8"))
+    artist_map = {item["slug"]: item for item in cms["artists"]}
+    release_map = {item["slug"]: item for item in releases}
+    published = [
+        item for item in source.get("photobooks", [])
+        if item.get("status") == "published" and item.get("noteUrl")
+    ]
+    published.sort(key=lambda item: (str(item.get("publishedAt") or ""), item["slug"]), reverse=True)
+    cards = []
+    list_items = []
+    for position, item in enumerate(published, 1):
+        artist = artist_map[item["artistSlug"]]
+        related_slugs = [slug for slug in item.get("relatedReleaseSlugs", []) if slug in release_map]
+        gallery_hub_url = f'../gallery/{related_slugs[0]}/' if related_slugs else '../gallery/'
+        gallery_detail_url = f'../../gallery/{related_slugs[0]}/' if related_slugs else '../../gallery/'
+        cover = item.get("coverImage")
+        cover_markup = (
+            f'<img src="../{html.escape(cover)}" alt="{html.escape(item["title"])} 公式写真集カバー" '
+            'width="1280" height="720" loading="lazy"/>' if cover else ""
+        )
+        cards.append(
+            f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{cover_markup}'
+            f'<div><p>Visual Collection / {html.escape(artist["name"])}</p><h2><a href="./{item["slug"]}/">{html.escape(item["title"])}</a></h2>'
+            f'<p>{html.escape(item.get("description") or "")}</p><div class="explore-actions">'
+            f'<a href="./{item["slug"]}/">写真集詳細</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで見る ↗</a>'
+            f'<a href="../artists/{item["artistSlug"]}/">Artist</a><a href="{gallery_hub_url}">Gallery</a>'
+            '</div></div></article>'
+        )
+        related = [release_map[slug] for slug in related_slugs]
+        related_html = "".join(card(release, "../../") for release in related)
+        if item.get("isPaid") is True:
+            price = item.get("priceLabel") or "有料・価格未確認"
+        elif item.get("isPaid") is False:
+            price = "無料"
+        else:
+            price = "未確認"
+        detail_cover = (
+            f'<img src="../../{html.escape(cover)}" alt="{html.escape(item["title"])} 公式写真集カバー" '
+            'width="1280" height="720" loading="lazy"/>' if cover else ""
+        )
+        body = (
+            f'<article class="v31-photobook-detail" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{detail_cover}<div>'
+            f'<p>SUZUKA Visual Collection</p><h2>{html.escape(item["title"])}</h2><p>{html.escape(artist["name"])}</p>'
+            f'<p>{html.escape(item.get("description") or "")}</p><dl><dt>公開日</dt><dd>{html.escape(item.get("publishedAt") or "未確認")}</dd>'
+            f'<dt>公開形式</dt><dd>{html.escape(price or "有料・価格未確認")}</dd></dl>'
+            f'<div class="explore-actions"><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで写真集を見る ↗</a>'
+            f'<a href="../../artists/{item["artistSlug"]}/">Artist</a><a href="{gallery_detail_url}">Gallery</a>'
+            f'<a href="../">Photobooks</a></div></div></article>'
+            + (f'<section><h2>関連作品</h2><div class="explorer-card-grid">{related_html}</div></section>' if related else "")
+        )
+        graph = [{
+            "@type": "CreativeWork", "@id": f'{BASE}/photobooks/{item["slug"]}/#work',
+            "name": item["title"], "url": f'{BASE}/photobooks/{item["slug"]}/',
+            "description": item.get("description") or "", "author": {"@type": "Organization", "name": "SUZUKA"},
+            "about": {"@type": artist["type"], "name": artist["name"]},
+            "sameAs": item["noteUrl"],
+        }]
+        write(root / f'photobooks/{item["slug"]}/index.html', shell(
+            f'photobooks/{item["slug"]}/', f'{item["title"]} | {artist["name"]} | SUZUKA Photobooks',
+            item.get("description") or f'{artist["name"]}のSUZUKA公式AIアーティスト写真集。',
+            item["title"], body, graph, ("photobooks", "Photobooks"), page_type="WebPage",
+        ))
+        list_items.append({
+            "@type": "ListItem", "position": position, "name": item["title"],
+            "url": f'{BASE}/photobooks/{item["slug"]}/',
+        })
+    description = "SUZUKA公式AIアーティストの写真集・Visual Collection一覧。"
+    content = "".join(cards) or '<p class="v31-empty">公開URLと作品情報を確認済みの写真集は現在登録されていません。</p>'
+    body = f'<section class="creator-copy"><p>{description}</p></section><section class="v31-photobook-grid">{content}</section>'
+    graph = [{"@type": "ItemList", "numberOfItems": len(list_items), "itemListElement": list_items}]
+    write(root / "photobooks/index.html", shell(
+        "photobooks/", "SUZUKA Official Photobooks | Visual Collection", description,
+        "PHOTOBOOKS", body, graph, page_type="CollectionPage",
+    ))
+    return published
+
+
+def photobook_crosslinks(root: Path, photobooks: list[dict]) -> None:
+    """Link existing Gallery and News pages only when a verified photobook exists."""
+    for item in photobooks:
+        link = (
+            '<section class="creator-copy v31-photobook-crosslink" data-photobook>'
+            '<p class="section-kicker">OFFICIAL PHOTOBOOK</p>'
+            f'<h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
+            f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a>'
+            f'<a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a>'
+            '</div></section>'
+        )
+        for slug in item.get("relatedReleaseSlugs", []):
+            gallery = root / f"gallery/{slug}/index.html"
+            if gallery.is_file():
+                marker_upsert(gallery, f'PHOTOBOOK-{item["slug"]}', link)
+            news = root / f"news/{slug}-release/index.html"
+            if news.is_file():
+                marker_upsert(news, f'PHOTOBOOK-{item["slug"]}', link)
 
 
 def rankings_v31(root: Path, cms: dict, releases: list[dict]) -> dict:
@@ -294,7 +394,7 @@ def rankings_v31(root: Path, cms: dict, releases: list[dict]) -> dict:
     return result
 
 
-def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], lyrics: list[dict]) -> None:
+def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], lyrics: list[dict], photobooks: list[dict]) -> None:
     lyrics_slugs = {item["slug"] for item in lyrics}
     artist_map = {item["slug"]: item for item in cms["artists"] if item.get("status") == "published"}
     release_genres = {
@@ -335,6 +435,13 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         upcoming_html = "".join(countdown_markup(item, "../../") for item in artist_upcoming) or '<p class="v31-empty">現在確認済みのUpcomingはありません。</p>'
         shorts = [item for item in works if item.get("shortsUrl")]
         news = [item for item in works if item.get("newsUrl")][:3]
+        artist_photobooks = [item for item in photobooks if item["artistSlug"] == slug]
+        photobook_section = ""
+        if artist_photobooks:
+            photobook_section = '<section><h2>Photobooks / Visual Collection</h2><div class="creator-link-grid">' + "".join(
+                f'<a class="creator-link-card" href="../../photobooks/{item["slug"]}/">{html.escape(item["title"])}</a>'
+                for item in artist_photobooks
+            ) + '</div></section>'
         body = (
             '<section class="v31-artist-hero"><div>'
             f'<p class="v31-ai-badge ai-artist-note">SUZUKA Original AI Artist / {"Group" if artist["type"] == "MusicGroup" else "Solo"}</p>'
@@ -357,6 +464,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             + f'<a class="creator-link-card" href="../../lyrics/">公式歌詞（{sum(item["slug"] in lyrics_slugs for item in works)}件）</a>'
             + '<a class="creator-link-card" href="../../discography/">Discography</a><a class="creator-link-card" href="../../wiki/artists/">Wiki</a>'
             + '<a class="creator-link-card" href="../../playlists/">Playlist</a><a class="creator-link-card" href="../../schedule/">Schedule</a></div></section>'
+            + photobook_section
             + f'<section><h2>関連ジャンルのアーティスト</h2><div class="explore-actions">{related_links}</div></section>'
         )
         graph = [
@@ -395,23 +503,53 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
     ))
 
 
-def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict]) -> None:
-    documents = []
+def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], photobooks: list[dict]) -> None:
+    documents = [
+        {
+            "type": "Lyrics", "contentType": "lyrics", "title": "公式歌詞",
+            "description": "出典と本文を確認済みの公式歌詞一覧。", "url": "lyrics/",
+            "keywords": ["歌詞あり", "Lyrics", "公式歌詞"],
+        },
+        {
+            "type": "Photobook", "contentType": "photobook", "title": "Photobooks / Visual Collection",
+            "description": "SUZUKA公式AIアーティストの写真集・Visual Collection一覧。", "url": "photobooks/",
+            "keywords": ["Photobook", "Visual Collection", "写真集"],
+        },
+    ]
+    for item in releases:
+        documents.append({
+            "type": "Release", "contentType": "release", "title": item["title"], "description": item.get("description", ""),
+            "url": item["releaseUrl"], "keywords": [item["artist"], *item.get("genres", []), *item.get("themes", []), *item.get("tags", [])],
+        })
+    for artist in cms.get("artists", []):
+        if artist.get("status") == "published":
+            documents.append({
+                "type": "Artist", "contentType": "artist", "title": artist["name"], "description": artist.get("profile", ""),
+                "url": f'artists/{artist["slug"]}/', "keywords": artist.get("searchKeywords", []),
+            })
     for item in cms.get("news", []):
         if item.get("status") == "published":
             documents.append({
-                "type": "News", "title": item["title"], "description": item.get("description", ""),
+                "type": "News", "contentType": "news", "title": item["title"], "description": item.get("description", ""),
                 "url": f'news/{item["slug"]}/', "keywords": [item.get("artistSlug", ""), item.get("releaseSlug", "")],
             })
     for term in cms.get("wiki", {}).get("terms", []):
         documents.append({
-            "type": "Wiki", "title": term["term"], "description": term["description"],
+            "type": "Wiki", "contentType": "wiki", "title": term["term"], "description": term["description"],
             "url": "wiki/terms/", "keywords": [term["term"]],
         })
     for item in lyrics:
         documents.append({
-            "type": "Lyrics", "title": item["title"], "description": f'{item["artist"]}公式歌詞',
+            "type": "Lyrics", "contentType": "lyrics", "title": item["title"], "description": f'{item["artist"]}公式歌詞',
             "url": f'lyrics/{item["slug"]}/', "keywords": [item["artist"], *item.get("genres", [])],
+        })
+    artist_map = {item["slug"]: item for item in cms["artists"]}
+    for item in photobooks:
+        artist = artist_map[item["artistSlug"]]
+        documents.append({
+            "type": "Photobook", "contentType": "photobook", "title": item["title"],
+            "description": item.get("description") or "", "url": f'photobooks/{item["slug"]}/',
+            "keywords": [artist["name"], "Photobook", "Visual Collection", "写真集"],
         })
     write(root / "assets/data/search-v31.json", json.dumps({
         "updatedAt": cms["updatedAt"], "documents": documents,
@@ -419,8 +557,8 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict]) 
     search_path = root / "search/index.html"
     marker_upsert(
         search_path, "SEARCH-DOCUMENTS",
-        '<section class="v31-search-documents"><h2>News / Wiki / Lyrics</h2>'
-        '<p>検索語に一致するNews、Wiki、公式歌詞を表示します。</p>'
+        '<section class="v31-search-documents"><h2>Release / Artist / Lyrics / Photobook / News / Wiki</h2>'
+        '<p>検索語に一致する作品、アーティスト、公式歌詞、写真集、News、Wikiを表示します。</p>'
         '<div data-v31-search-results></div></section>',
     )
     text = search_path.read_text(encoding="utf-8")
@@ -434,14 +572,14 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict]) 
   const esc=v=>String(v||'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
   fetch('../assets/data/search-v31.json').then(r=>r.json()).then(data=>{
     const render=()=>{const q=norm(form.elements.q.value);const docs=q?data.documents.filter(d=>norm([d.title,d.description,...d.keywords].join(' ')).includes(q)):[];
-      root.innerHTML=docs.map(d=>`<article class="v31-search-document"><small>${esc(d.type)}</small><h3><a href="../${esc(d.url)}">${esc(d.title)}</a></h3><p>${esc(d.description)}</p></article>`).join('')||(q?'<p>該当するNews・Wiki・公式歌詞はありません。</p>':'<p>検索語を入力すると関連コンテンツを表示します。</p>');};
+      root.innerHTML=docs.map(d=>`<article class="v31-search-document" data-content-type="${esc(d.contentType||d.type.toLowerCase())}"><small>${esc(d.type)}</small><h3><a href="../${esc(d.url)}">${esc(d.title)}</a></h3><p>${esc(d.description)}</p></article>`).join('')||(q?'<p>該当する公式コンテンツはありません。</p>':'<p>検索語を入力すると関連コンテンツを表示します。</p>');};
     form.addEventListener('input',render);form.addEventListener('change',render);render();
   }).catch(()=>{root.textContent='検索データを読み込めませんでした。';});
 })();\n"""
     write(root / "assets/search-v31.js", script)
 
 
-def home_v31(root: Path, releases: list[dict], upcoming: list[dict], lyrics: list[dict]) -> None:
+def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], lyrics: list[dict], photobooks: list[dict]) -> None:
     home = root / "index.html"
     text = home.read_text(encoding="utf-8")
     text = re.sub(r'<section class="section latest-section', '<section data-latest-release class="section latest-section', text, count=1)
@@ -468,12 +606,24 @@ def home_v31(root: Path, releases: list[dict], upcoming: list[dict], lyrics: lis
     portal = (
         '<section class="v31-home-portals"><a href="./schedule/"><span>JST</span><h2>Schedule</h2><p>Upcomingと最近の公開作品</p></a>'
         f'<a href="./lyrics/"><span>{len(lyrics)} LYRICS</span><h2>Lyrics</h2><p>出典確認済みの公式歌詞</p></a>'
-        '<a href="./rankings/"><span>V3.1</span><h2>Rankings</h2><p>おすすめと実測値を分離</p></a></section>'
+        '<a href="./rankings/"><span>V3.1</span><h2>Rankings</h2><p>おすすめと実測値を分離</p></a>'
+        f'<a href="./photobooks/"><span>{len(photobooks)} BOOKS</span><h2>Photobooks</h2><p>公式Visual Collection</p></a></section>'
     )
     if "<!-- V31:HOME-PORTALS:START -->" in text:
         text = re.sub(r'<!-- V31:HOME-PORTALS:START -->.*?<!-- V31:HOME-PORTALS:END -->', f'<!-- V31:HOME-PORTALS:START -->{portal}<!-- V31:HOME-PORTALS:END -->', text, flags=re.DOTALL)
     else:
         text = text.replace('</div><section class="youtube-growth-section"', f'</div><!-- V31:HOME-PORTALS:START -->{portal}<!-- V31:HOME-PORTALS:END --><section class="youtube-growth-section"', 1)
+    featured = [item for item in photobooks if item.get("featured")][:3]
+    artist_names = {item["slug"]: item["name"] for item in cms["artists"]}
+    featured_cards = "".join(
+        f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}"><h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
+        f'<a href="./photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
+        for item in featured
+    ) or '<p class="v31-empty">公開URLを確認済みの写真集は現在登録されていません。</p>'
+    photobook_home = '<section class="v31-home-photobooks" data-photobooks><div><p class="section-kicker">OFFICIAL PHOTOBOOK / VISUAL COLLECTION</p><h2>Photobooks</h2><a href="./photobooks/">写真集一覧 ↗</a></div><div class="v31-photobook-grid">' + featured_cards + '</div></section>'
+    home.write_text(text, encoding="utf-8")
+    marker_upsert(home, "HOME-PHOTOBOOKS", photobook_home)
+    text = home.read_text(encoding="utf-8")
     if "assets/creator-v31.css" not in text:
         text = text.replace("</head>", '<link rel="stylesheet" href="./assets/creator-v31.css"/></head>', 1)
     if "assets/creator-v31.js" not in text:
@@ -487,7 +637,7 @@ def navigation_and_assets(root: Path) -> None:
         text = path.read_text(encoding="utf-8").replace("CREATOR PLATFORM 3.0", "CREATOR PLATFORM 3.1")
         depth = len(relative.parts) - 1
         prefix = "../" * depth
-        for pattern in (r'<nav class="desktop-nav[^\"]*"[^>]*>.*?</nav>', r'<nav class="site-footer-nav[^\"]*"[^>]*>.*?</nav>'):
+        for pattern in (r'<nav class="desktop-nav[^\"]*"[^>]*>.*?</nav>', r'<nav class="site-footer-nav[^\"]*"[^>]*>.*?</nav>', r'<details class="mobile-menu".*?<nav[^>]*>.*?</nav>'):
             for match in reversed(list(re.finditer(pattern, text, re.DOTALL))):
                 block = match.group(0)
                 additions = ""
@@ -495,6 +645,8 @@ def navigation_and_assets(root: Path) -> None:
                     additions += f'<a href="{prefix}schedule/">Schedule</a>'
                 if "lyrics/" not in block:
                     additions += f'<a href="{prefix}lyrics/">Lyrics</a>'
+                if "photobooks/" not in block:
+                    additions += f'<a href="{prefix}photobooks/">Photobooks</a>'
                 if additions:
                     block = block.replace("</nav>", additions + "</nav>")
                     text = text[:match.start()] + block + text[match.end():]
@@ -503,11 +655,11 @@ def navigation_and_assets(root: Path) -> None:
         path.write_text(text, encoding="utf-8")
 
     css = """/* SUZUKA Creator Platform 3.1 */
-.v31-home-next,.v31-home-portals,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail{padding:clamp(2.5rem,6vw,6rem) clamp(1rem,6vw,7rem)}
+.v31-home-next,.v31-home-portals,.v31-home-photobooks,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail,.v31-photobook-grid{padding:clamp(2.5rem,6vw,6rem) clamp(1rem,6vw,7rem)}
 .v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.25rem,4vw,4rem);align-items:center;border:1px solid rgba(255,255,255,.14);border-radius:1.2rem;padding:clamp(1rem,3vw,2rem);background:linear-gradient(135deg,#0b0b10,#15111c)}
 .v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{width:100%;height:auto;border-radius:.8rem}.v31-countdown{font-size:clamp(1.2rem,3vw,2.3rem);font-weight:800;color:#9edbff}.v31-schedule-list{display:grid;gap:1.25rem}.v31-schedule-group>h2{font-size:clamp(2rem,5vw,4rem)}
-.v31-home-portals,.v31-artist-directory,.v31-member-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.v31-home-portals>a,.v31-artist-directory-card,.v31-member-grid article{padding:1.5rem;border:1px solid rgba(255,255,255,.14);border-radius:1rem;background:#101014;color:#fff;text-decoration:none}.v31-home-portals h2{font-size:2.2rem}.v31-home-portals span,.v31-ai-badge{color:#9edbff;letter-spacing:.1em}.v31-artist-directory-card img{width:100%;height:auto;border-radius:.7rem}.v31-artist-directory-card a{color:#fff;text-decoration:none}.v31-artist-facts{align-items:start}.v31-artist-facts>div{padding:1rem}.v31-lyrics{max-width:60rem;margin:auto;padding:clamp(2rem,6vw,6rem) clamp(1rem,4vw,3rem)}.v31-lyrics-text{font-size:1.08rem;line-height:2}.v31-lyrics-row,.v31-search-document{padding:1rem;border-bottom:1px solid rgba(255,255,255,.12)}.v31-filter{display:grid;gap:.5rem;max-width:42rem}.v31-filter input{padding:1rem;border-radius:.5rem}.v31-data-pending,.v31-empty{padding:1.5rem;border:1px dashed rgba(255,255,255,.25);border-radius:.8rem;color:#c9c4cf}.v31-home-next{background:#08090d}.v31-search-documents{padding:2rem 0}
-@media(max-width:760px){.v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts{grid-template-columns:1fr}.v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{grid-row:1}.v31-home-portals,.v31-artist-directory,.v31-member-grid{grid-template-columns:1fr}.v31-home-next,.v31-home-portals,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail{padding-left:1rem;padding-right:1rem}.v31-countdown-card .explore-actions a{width:100%;text-align:center}}
+.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.v31-home-portals>a,.v31-artist-directory-card,.v31-member-grid article,.v31-photobook-card{padding:1.5rem;border:1px solid rgba(255,255,255,.14);border-radius:1rem;background:#101014;color:#fff;text-decoration:none}.v31-home-portals h2{font-size:2.2rem}.v31-home-portals span,.v31-ai-badge{color:#9edbff;letter-spacing:.1em}.v31-artist-directory-card img,.v31-photobook-card img{width:100%;height:auto;border-radius:.7rem}.v31-artist-directory-card a{color:#fff;text-decoration:none}.v31-artist-facts{align-items:start}.v31-artist-facts>div{padding:1rem}.v31-lyrics{max-width:60rem;margin:auto;padding:clamp(2rem,6vw,6rem) clamp(1rem,4vw,3rem)}.v31-lyrics-text{font-size:1.08rem;line-height:2}.v31-lyrics-row,.v31-search-document{padding:1rem;border-bottom:1px solid rgba(255,255,255,.12)}.v31-filter{display:grid;gap:.5rem;max-width:42rem}.v31-filter input{padding:1rem;border-radius:.5rem}.v31-data-pending,.v31-empty{padding:1.5rem;border:1px dashed rgba(255,255,255,.25);border-radius:.8rem;color:#c9c4cf}.v31-home-next{background:#08090d}.v31-home-photobooks{display:grid;grid-template-columns:minmax(12rem,.35fr) 1fr;gap:2rem}.v31-photobook-detail{max-width:72rem;margin:auto;padding:clamp(2rem,6vw,6rem);display:grid;grid-template-columns:1fr 1fr;gap:2rem}.v31-search-documents{padding:2rem 0}
+@media(max-width:760px){.v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts,.v31-home-photobooks,.v31-photobook-detail{grid-template-columns:1fr}.v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{grid-row:1}.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{grid-template-columns:1fr}.v31-home-next,.v31-home-portals,.v31-home-photobooks,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail,.v31-photobook-grid{padding-left:1rem;padding-right:1rem}.v31-countdown-card .explore-actions a{width:100%;text-align:center}}
 """
     write(root / "assets/creator-v31.css", css)
     js = """(() => {
@@ -533,6 +685,29 @@ def analytics_v31(root: Path) -> None:
     additions = '\n    if (anchor.closest(".v31-home-next")) send("next_release_click", details);\n    if (anchor.closest("[data-countdown]")) send("countdown_click", details);\n    if (anchor.closest("[data-upcoming]")) send("upcoming_click", details);\n    if (anchor.closest("[data-latest-release]")) send("latest_release_click", details);\n    if (url.origin === location.origin && /\\/lyrics\\/(?:[^/]+\\/?)?$/.test(path)) send("lyrics_click", details);\n    if (url.origin === location.origin && /\\/rankings\\/?$/.test(path)) send("ranking_click", details);\n    if (url.origin === location.origin && /\\/schedule\\/?$/.test(path)) send("schedule_click", details);'
     if "next_release_click" not in text:
         text = text.replace(anchor, anchor + additions)
+    if "photobook_click" not in text:
+        text = text.replace(
+            'if (url.origin === location.origin && /\\/lyrics\\/(?:[^/]+\\/?)?$/.test(path)) send("lyrics_click", details);',
+            'if (url.origin === location.origin && /\\/lyrics\\/(?:[^/]+\\/?)?$/.test(path)) send("lyrics_click", details);\n'
+            '    if (url.origin === location.origin && /\\/photobooks\\/(?:[^/]+\\/?)?$/.test(path)) send("photobook_click", details);\n'
+            '    if (url.hostname === "note.com" || url.hostname === "www.note.com") send("note_click", details);',
+        )
+    text = text.replace(
+        'context.querySelector("[data-pick-title],h1,h2,h3")?.textContent || schemaTitle',
+        'context.dataset.title || context.querySelector("[data-pick-title],h1,h2,h3")?.textContent || schemaTitle',
+    ).replace(
+        'context.querySelector("[data-pick-artist],.release-card-artist,.artist-name")?.textContent ||',
+        'context.dataset.artist || context.querySelector("[data-pick-artist],.release-card-artist,.artist-name")?.textContent ||',
+    )
+    text = text.replace(
+        'const slug = releaseUrl.pathname.match(/\\/releases\\/([^/]+)\\/?/)?.[1] || pageRelease;',
+        'const contentSlug = linkedPath.match(/\\/(?:releases|lyrics|photobooks)\\/([^/]+)\\/?/)?.[1] || "";\n'
+        '    const slug = context.dataset.slug || contentSlug || releaseUrl.pathname.match(/\\/releases\\/([^/]+)\\/?/)?.[1] || pageRelease;',
+    )
+    text = text.replace(
+        'linkedPath.includes("/playlists/") ? "playlist" : "link"',
+        'linkedPath.includes("/playlists/") ? "playlist" :\n        linkedPath.includes("/lyrics/") ? "lyrics" :\n        linkedPath.includes("/photobooks/") ? "photobook" :\n        (new URL(anchor.href, location.href).hostname.includes("note.com")) ? "photobook" : "link"',
+    )
     write(path, text)
 
 
@@ -541,7 +716,8 @@ def admin_v31(root: Path, cms: dict) -> None:
     fields = (
         '<section class="creator-copy v31-admin-fields"><h2>Version 3.1管理項目</h2><p>'
         'releaseAt / status / lyricsAvailable / lyricsSource / lyricsText / featured / recommendationWeight / '
-        'weeklyPickEligible / analyticsEnabled / upcomingPriority / artistFeaturedTracks / artistType / artistStatus'
+        'lyricsVerified / lyricsVerifiedAt / weeklyPickEligible / analyticsEnabled / upcomingPriority / '
+        'artistFeaturedTracks / artistType / artistStatus / photobooks.json管理項目'
         '</p></section>'
     )
     marker_upsert(admin, "ADMIN-FIELDS", fields)
@@ -575,10 +751,12 @@ def main() -> None:
     schedule_page(root, cms, releases, upcoming)
     upcoming_pages(root, upcoming)
     lyrics = lyrics_pages(root, releases)
+    photobooks = photobook_pages(root, cms, releases)
+    photobook_crosslinks(root, photobooks)
     rankings = rankings_v31(root, cms, releases)
-    artist_pages(root, cms, releases, upcoming, lyrics)
-    search_v31(root, cms, releases, lyrics)
-    home_v31(root, releases, upcoming, lyrics)
+    artist_pages(root, cms, releases, upcoming, lyrics, photobooks)
+    search_v31(root, cms, releases, lyrics, photobooks)
+    home_v31(root, cms, releases, upcoming, lyrics, photobooks)
     admin_v31(root, cms)
     not_found_page(root)
     navigation_and_assets(root)
@@ -586,7 +764,7 @@ def main() -> None:
     analytics_v31(root)
     print(json.dumps({
         "version": "3.1", "artists": len(cms["artists"]), "releases": len(releases),
-        "upcoming": len(upcoming), "lyrics": len(lyrics),
+        "upcoming": len(upcoming), "lyrics": len(lyrics), "photobooks": len(photobooks),
         "ga4Data": rankings["ga4DataAvailable"], "youtubeData": rankings["youtubeDataAvailable"],
     }, ensure_ascii=False))
 

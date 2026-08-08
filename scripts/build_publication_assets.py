@@ -131,6 +131,15 @@ def build_feed(root: Path, cms: dict) -> None:
             rows.append((item.get("publishedAt", cms["updatedAt"]), "news", item))
     for item in cms["upcoming"]:
         rows.append((cms["updatedAt"], "upcoming", item))
+    for item in cms["releases"]:
+        if item.get("lyricsAvailable") and item.get("lyricsVerified") is True and item.get("lyricsVerifiedAt"):
+            rows.append((item["lyricsVerifiedAt"], "lyrics", item))
+    photobooks_path = root / "assets/data/photobooks.json"
+    if photobooks_path.exists():
+        photobooks = json.loads(photobooks_path.read_text(encoding="utf-8"))
+        for item in photobooks.get("photobooks", []):
+            if item.get("status") == "published" and item.get("publishedAt") and item.get("noteUrl"):
+                rows.append((item["publishedAt"], "photobook", item))
     rows.sort(key=lambda row: (row[0], row[1], row[2]["slug"]), reverse=True)
 
     for timestamp, kind, item in rows:
@@ -146,6 +155,16 @@ def build_feed(root: Path, cms: dict) -> None:
             summary = item["description"]
             if "T" in item.get("publishedAt", ""):
                 ET.SubElement(entry, f"{{{ATOM}}}published").text = item["publishedAt"]
+        elif kind == "lyrics":
+            url = f'{BASE}lyrics/{item["slug"]}/'
+            title = f'公式歌詞｜{item["artist"]}「{item["title"]}」'
+            summary = f'{item["artist"]}「{item["title"]}」の出典確認済み公式歌詞。'
+            ET.SubElement(entry, f"{{{ATOM}}}published").text = item["lyricsVerifiedAt"]
+        elif kind == "photobook":
+            url = f'{BASE}photobooks/{item["slug"]}/'
+            title = item["title"]
+            summary = item.get("description") or "SUZUKA公式AIアーティストのVisual Collection。"
+            ET.SubElement(entry, f"{{{ATOM}}}published").text = item["publishedAt"]
         else:
             url = item["youtubeUrl"]
             title = f'Upcoming｜{item["artist"]}「{item["title"]}」'
@@ -254,7 +273,8 @@ def main() -> None:
     )
     if (root / "robots.txt").read_text(encoding="utf-8") != expected_robots:
         raise RuntimeError("robots.txt differs from the approved public policy")
-    print(json.dumps({"feedEntries": len(cms["releases"]) + len(cms["news"]) + len(cms["upcoming"]), "images": images, "videos": videos}))
+    feed = ET.parse(root / "feed.xml").getroot()
+    print(json.dumps({"feedEntries": len(feed.findall(f'{{{ATOM}}}entry')), "images": images, "videos": videos}))
 
 
 if __name__ == "__main__":

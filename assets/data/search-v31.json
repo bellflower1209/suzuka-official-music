@@ -1,8 +1,877 @@
 {
-  "updatedAt": "2026-08-08T21:54:42+09:00",
+  "updatedAt": "2026-08-08T22:40:00+09:00",
   "documents": [
     {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "公式歌詞",
+      "description": "出典と本文を確認済みの公式歌詞一覧。",
+      "url": "lyrics/",
+      "keywords": [
+        "歌詞あり",
+        "Lyrics",
+        "公式歌詞"
+      ]
+    },
+    {
+      "type": "Photobook",
+      "contentType": "photobook",
+      "title": "Photobooks / Visual Collection",
+      "description": "SUZUKA公式AIアーティストの写真集・Visual Collection一覧。",
+      "url": "photobooks/",
+      "keywords": [
+        "Photobook",
+        "Visual Collection",
+        "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "マーメイドの下僕",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "url": "releases/mermaid-no-geboku/",
+      "keywords": [
+        "神代煌牙",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "物語",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "物語",
+        "明るい",
+        "シネマティック"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "花言葉",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "url": "releases/hanakotoba/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ",
+        "恋愛",
+        "花",
+        "永遠",
+        "優しい",
+        "透明感"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "あなただけのSAVIOR",
+      "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "url": "releases/anata-dake-no-savior/",
+      "keywords": [
+        "ASTERIA",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "癒やし",
+        "光",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "癒やし",
+        "光",
+        "明るい",
+        "温かい"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "忘れじの人",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "url": "releases/wasureji-no-hito/",
+      "keywords": [
+        "朝霧しのぶ",
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "演歌",
+        "歌謡曲",
+        "夫婦愛",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "はじめまして、奇跡",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "url": "releases/hajimemashite-kiseki/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "J-POP",
+        "ロマンティックポップ",
+        "奇跡",
+        "希望",
+        "成長",
+        "爽やか",
+        "前向き"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Still alive",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "url": "releases/still-alive/",
+      "keywords": [
+        "RE:VIVE",
+        "J-POP",
+        "アイドルポップ",
+        "バラード",
+        "応援",
+        "回復",
+        "再生",
+        "J-POP",
+        "アイドルポップ",
+        "バラード",
+        "応援",
+        "回復",
+        "再生",
+        "温かい",
+        "希望"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "善人裁判",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "url": "releases/zennin-saiban/",
+      "keywords": [
+        "NOX",
+        "V系",
+        "ダークロック",
+        "正義",
+        "社会",
+        "偽善",
+        "V系",
+        "ダークロック",
+        "正義",
+        "社会",
+        "偽善",
+        "ダーク",
+        "挑発的"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "One More Kiss",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "url": "releases/one-more-kiss/",
+      "keywords": [
+        "神代煌牙",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "恋愛",
+        "孤独",
+        "夜",
+        "切ない",
+        "危うい"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "LOST SIGNAL",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "url": "releases/lost-signal/",
+      "keywords": [
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "K-POP風",
+        "ダークポップ",
+        "喪失",
+        "つながり",
+        "未来",
+        "ダーク",
+        "壮大"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Without Worrying",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "url": "releases/without-worrying/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "J-POP",
+        "バラード",
+        "癒やし",
+        "応援",
+        "希望",
+        "温かい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "恋するマハラジャ",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "url": "releases/koisuru-maharaja/",
+      "keywords": [
+        "RANGILI",
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "J-POP",
+        "インド×J-POP",
+        "恋愛",
+        "文化",
+        "華やか",
+        "エネルギッシュ"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "チンパンジーの楽園",
+      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "url": "releases/chimpanzee-no-rakuen/",
+      "keywords": [
+        "NOX",
+        "V系",
+        "ダークロック",
+        "社会",
+        "本能",
+        "問い",
+        "V系",
+        "ダークロック",
+        "社会",
+        "本能",
+        "問い",
+        "ダーク",
+        "挑発的"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "明日は、きっと。",
+      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "url": "releases/ashita-wa-kitto/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "希望",
+        "祈り",
+        "明日",
+        "J-POP",
+        "バラード",
+        "希望",
+        "祈り",
+        "明日",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Heal You Again",
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "url": "releases/heal-you-again/",
+      "keywords": [
+        "RE:VIVE",
+        "J-POP",
+        "アイドルポップ",
+        "再生",
+        "希望",
+        "癒やし",
+        "J-POP",
+        "アイドルポップ",
+        "再生",
+        "希望",
+        "癒やし",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Echoes of You",
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "url": "releases/echoes-of-you/",
+      "keywords": [
+        "神代 煌牙",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "物語",
+        "J-POP",
+        "ロック",
+        "ダークポップ",
+        "物語",
+        "力強い",
+        "シネマティック"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "NAMASTE☆GALAXY",
+      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "url": "releases/namaste-galaxy/",
+      "keywords": [
+        "RANGILI",
+        "J-POP",
+        "インド×J-POP",
+        "文化",
+        "宇宙",
+        "出会い",
+        "J-POP",
+        "インド×J-POP",
+        "文化",
+        "宇宙",
+        "出会い",
+        "華やか",
+        "エネルギッシュ"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "忘れない心",
+      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "url": "releases/wasurenai-kokoro/",
+      "keywords": [
+        "朝霧しのぶ",
+        "演歌",
+        "歌謡曲",
+        "家族",
+        "記憶",
+        "人生",
+        "演歌",
+        "歌謡曲",
+        "家族",
+        "記憶",
+        "人生",
+        "切ない",
+        "温かい"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―",
+      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "url": "releases/smile-and-say-goodbye/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "別れ",
+        "愛",
+        "笑顔",
+        "J-POP",
+        "バラード",
+        "別れ",
+        "愛",
+        "笑顔",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "忘却の生き物",
+      "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
+      "url": "releases/boukyaku-no-ikimono/",
+      "keywords": [
+        "神代 煌牙",
+        "ロック",
+        "ダークポップ",
+        "忘却",
+        "社会",
+        "痛み",
+        "ロック",
+        "ダークポップ",
+        "忘却",
+        "社会",
+        "痛み",
+        "力強い",
+        "シネマティック"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "My Queen, My Oath",
+      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "url": "releases/my-queen-my-oath/",
+      "keywords": [
+        "神代 煌牙",
+        "J-POP",
+        "ロック",
+        "シネマティック",
+        "誓い",
+        "愛",
+        "運命",
+        "J-POP",
+        "ロック",
+        "シネマティック",
+        "誓い",
+        "愛",
+        "運命",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "RED MOON // RISING",
+      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "url": "releases/red-moon-rising/",
+      "keywords": [
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク",
+        "覚醒",
+        "反逆",
+        "運命",
+        "K-POP風",
+        "ダークポップ",
+        "サイバーパンク",
+        "覚醒",
+        "反逆",
+        "運命",
+        "ダーク",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "もしも明日、はじめましてになっても",
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "url": "releases/moshimo-ashita-hajimemashite-ni-natte-mo/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "好きが、今日も増えていく。",
+      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "url": "releases/suki-ga-kyou-mo-fueteiku/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "取り扱いチュー💋い",
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "url": "releases/toriatsukai-chui/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "OUR KINGDOM",
+      "description": "榎本魅愛 × 神代煌牙「OUR KINGDOM」のSUZUKA公式作品ページ。",
+      "url": "releases/our-kingdom/",
+      "keywords": [
+        "榎本魅愛 × 神代煌牙",
+        "J-POP",
+        "シネマティック",
+        "愛",
+        "王国",
+        "誓い",
+        "J-POP",
+        "シネマティック",
+        "愛",
+        "王国",
+        "誓い",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "SHADOW//CODE",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "url": "releases/shadow-code/",
+      "keywords": [
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "ダーク",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "未来の私が見てる",
+      "description": "榎本魅愛「未来の私が見てる」のSUZUKA公式作品ページ。",
+      "url": "releases/mirai-no-watashi-ga-miteru/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "無敵時間、あと3秒",
+      "description": "榎本魅愛「無敵時間、あと3秒」のSUZUKA公式作品ページ。",
+      "url": "releases/muteki-jikan-ato-3byou/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "M・I・A",
+      "description": "榎本魅愛「M・I・A」のSUZUKA公式作品ページ。",
+      "url": "releases/mia/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "解けない魔法を、愛と呼ぶ",
+      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "url": "releases/tokenai-mahou-wo-ai-to-yobu/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "君とならラスボスまで",
+      "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
+      "url": "releases/kimi-to-nara-last-boss-made/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "AIでもわからない",
+      "description": "榎本魅愛「AIでもわからない」のSUZUKA公式作品ページ。",
+      "url": "releases/ai-demo-wakaranai/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "君は花火",
+      "description": "榎本魅愛「君は花火」のSUZUKA公式作品ページ。",
+      "url": "releases/kimi-wa-hanabi/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "サマーポップ",
+        "恋愛",
+        "夏",
+        "記憶",
+        "J-POP",
+        "サマーポップ",
+        "恋愛",
+        "夏",
+        "記憶",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "MERMAID×MERMAN",
+      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "url": "releases/mermaid-merman/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "好きってバレてもいい",
+      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "url": "releases/sukitte-baretemo-ii/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "百万告",
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "url": "releases/hyakumankoku/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "朝霧しのぶ",
+      "description": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。",
+      "url": "artists/asagiri-shinobu/",
+      "keywords": [
+        "朝霧しのぶ",
+        "ASAGIRI SHINOBU"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "ASTERIA",
+      "description": "「あなたを照らす、5つの星の女神たち」を掲げる5人組AIアイドルグループ。",
+      "url": "artists/asteria/",
+      "keywords": [
+        "ASTERIA",
+        "アステリア",
+        "AIアイドル",
+        "AIアーティスト"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "ECLYPSE",
+      "description": "運命を自ら書き換える5人組男性AIグループ。",
+      "url": "artists/eclypse/",
+      "keywords": [
+        "ECLYPSE",
+        "ECLYPSE"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "榎本魅愛",
+      "description": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。",
+      "url": "artists/enomoto-mia/",
+      "keywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "神代煌牙",
+      "description": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
+      "url": "artists/koga-kamishiro/",
+      "keywords": [
+        "神代煌牙",
+        "KOGA KAMISHIRO"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "NOX",
+      "description": "黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。",
+      "url": "artists/nox/",
+      "keywords": [
+        "NOX",
+        "NOX"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "RANGILI",
+      "description": "インドと日本の文化を音楽でつなぐ3人組AIガールグループ。",
+      "url": "artists/rangili/",
+      "keywords": [
+        "RANGILI",
+        "RANGILI"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "RE:VIVE",
+      "description": "前へ進む力を届ける5人組AIガールズグループ。",
+      "url": "artists/revive/",
+      "keywords": [
+        "RE:VIVE",
+        "RE:VIVE"
+      ]
+    },
+    {
       "type": "News",
+      "contentType": "news",
       "title": "神代煌牙「マーメイドの下僕」公開",
       "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
       "url": "news/mermaid-no-geboku-release/",
@@ -13,6 +882,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「花言葉」公開",
       "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
       "url": "news/hanakotoba-release/",
@@ -23,6 +893,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "ASTERIA「あなただけのSAVIOR」公開",
       "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
       "url": "news/anata-dake-no-savior-release/",
@@ -33,6 +904,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "朝霧しのぶ「忘れじの人」公開",
       "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
       "url": "news/wasureji-no-hito-release/",
@@ -43,6 +915,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「はじめまして、奇跡」公開",
       "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
       "url": "news/hajimemashite-kiseki-release/",
@@ -53,6 +926,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "RE:VIVE「Still alive」公開",
       "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
       "url": "news/still-alive-release/",
@@ -63,6 +937,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "NOX「善人裁判」公開",
       "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
       "url": "news/zennin-saiban-release/",
@@ -73,6 +948,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "神代煌牙「One More Kiss」公開",
       "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
       "url": "news/one-more-kiss-release/",
@@ -83,6 +959,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "ECLYPSE「LOST SIGNAL」公開",
       "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
       "url": "news/lost-signal-release/",
@@ -93,6 +970,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「Without Worrying」公開",
       "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
       "url": "news/without-worrying-release/",
@@ -103,6 +981,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "RANGILI「恋するマハラジャ」公開",
       "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
       "url": "news/koisuru-maharaja-release/",
@@ -113,6 +992,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "NOX「チンパンジーの楽園」公開",
       "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
       "url": "news/chimpanzee-no-rakuen-release/",
@@ -123,6 +1003,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「明日は、きっと。」公開",
       "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
       "url": "news/ashita-wa-kitto-release/",
@@ -133,6 +1014,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "RE:VIVE「Heal You Again」公開",
       "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
       "url": "news/heal-you-again-release/",
@@ -143,6 +1025,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "神代 煌牙「Echoes of You」公開",
       "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
       "url": "news/echoes-of-you-release/",
@@ -153,6 +1036,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "RANGILI「NAMASTE☆GALAXY」公開",
       "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
       "url": "news/namaste-galaxy-release/",
@@ -163,6 +1047,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "朝霧しのぶ「忘れない心」公開",
       "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
       "url": "news/wasurenai-kokoro-release/",
@@ -173,6 +1058,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公開",
       "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
       "url": "news/smile-and-say-goodbye-release/",
@@ -183,6 +1069,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "神代 煌牙「My Queen, My Oath」公開",
       "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
       "url": "news/my-queen-my-oath-release/",
@@ -193,6 +1080,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "ECLYPSE「RED MOON // RISING」公開",
       "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
       "url": "news/red-moon-rising-release/",
@@ -203,6 +1091,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「もしも明日、はじめましてになっても」公開",
       "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
       "url": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
@@ -213,6 +1102,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「取り扱いチュー💋い」公開",
       "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
       "url": "news/toriatsukai-chui-release/",
@@ -223,6 +1113,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "デビューシングル「SHADOW//CODE」を発表。",
       "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
       "url": "news/shadow-code-announcement/",
@@ -233,6 +1124,7 @@
     },
     {
       "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「百万告」公開",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
       "url": "news/hyakumankoku-release/",
@@ -243,6 +1135,7 @@
     },
     {
       "type": "Wiki",
+      "contentType": "wiki",
       "title": "SUZUKA",
       "description": "音楽から新しい物語を始めるオリジナルAI音楽プロジェクト。",
       "url": "wiki/terms/",
@@ -252,6 +1145,7 @@
     },
     {
       "type": "Wiki",
+      "contentType": "wiki",
       "title": "AIアーティスト",
       "description": "SUZUKAの作品世界に登場する架空のアーティスト表現。",
       "url": "wiki/terms/",
@@ -261,6 +1155,7 @@
     },
     {
       "type": "Wiki",
+      "contentType": "wiki",
       "title": "Weekly Pick",
       "description": "正本データから週ごとに決定的に選ばれるおすすめ作品。",
       "url": "wiki/terms/",
@@ -270,6 +1165,7 @@
     },
     {
       "type": "Wiki",
+      "contentType": "wiki",
       "title": "recommendationWeight",
       "description": "ランキングとおすすめに利用する推薦値。",
       "url": "wiki/terms/",
@@ -279,6 +1175,7 @@
     },
     {
       "type": "Wiki",
+      "contentType": "wiki",
       "title": "Official MV",
       "description": "公式YouTubeで公開確認した映像。",
       "url": "wiki/terms/",

@@ -1,0 +1,18 @@
+{
+  "auditedAt": "2026-08-08T22:40:00+09:00",
+  "sourcesInspected": [
+    "repository files",
+    "docs",
+    "Creator CMS",
+    "existing external links",
+    "official-site-linked YouTube and Instagram references",
+    "note.com web search for SUZUKA artist names and Visual Collection"
+  ],
+  "verifiedPhotobooks": [],
+  "thirdPartyOrUnrelatedResultsExcluded": true,
+  "guessedNoteUrls": 0,
+  "humanReviewRequired": [
+    "SUZUKA公式noteプロフィールURLが正本・公式サイト内で確認できない",
+    "正式な写真集記事URL、表紙、公開日、無料・有料、価格、関連作品を確認できる一次資料がない"
+  ]
+}

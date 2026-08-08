@@ -38,12 +38,13 @@
     const linkedPath = new URL(anchor.href, location.href).pathname;
     const releaseLink = context.querySelector('a[href*="/releases/"]');
     const releaseUrl = new URL(releaseLink?.href || location.href, location.href);
-    const slug = releaseUrl.pathname.match(/\/releases\/([^/]+)\/?/)?.[1] || pageRelease;
+    const contentSlug = linkedPath.match(/\/(?:releases|lyrics|photobooks)\/([^/]+)\/?/)?.[1] || "";
+    const slug = context.dataset.slug || contentSlug || releaseUrl.pathname.match(/\/releases\/([^/]+)\/?/)?.[1] || pageRelease;
     const title = clean(
-      context.querySelector("[data-pick-title],h1,h2,h3")?.textContent || schemaTitle || document.querySelector("h1")?.textContent
+      context.dataset.title || context.querySelector("[data-pick-title],h1,h2,h3")?.textContent || schemaTitle || document.querySelector("h1")?.textContent
     );
     const artist = clean(
-      context.querySelector("[data-pick-artist],.release-card-artist,.artist-name")?.textContent ||
+      context.dataset.artist || context.querySelector("[data-pick-artist],.release-card-artist,.artist-name")?.textContent ||
       schemaArtist || (pageArtist ? document.querySelector("h1")?.textContent : "")
     );
     return {
@@ -61,7 +62,10 @@
         linkedPath.includes("/wiki/") ? "wiki" :
         linkedPath.includes("/universe/") ? "universe" :
         linkedPath.includes("/community/") ? "community" :
-        linkedPath.includes("/playlists/") ? "playlist" : "link"
+        linkedPath.includes("/playlists/") ? "playlist" :
+        linkedPath.includes("/lyrics/") ? "lyrics" :
+        linkedPath.includes("/photobooks/") ? "photobook" :
+        (new URL(anchor.href, location.href).hostname.includes("note.com")) ? "photobook" : "link"
       ),
     };
   };
@@ -83,6 +87,8 @@
     if (anchor.closest("[data-upcoming]")) send("upcoming_click", details);
     if (anchor.closest("[data-latest-release]")) send("latest_release_click", details);
     if (url.origin === location.origin && /\/lyrics\/(?:[^/]+\/?)?$/.test(path)) send("lyrics_click", details);
+    if (url.origin === location.origin && /\/photobooks\/(?:[^/]+\/?)?$/.test(path)) send("photobook_click", details);
+    if (url.hostname === "note.com" || url.hostname === "www.note.com") send("note_click", details);
     if (url.origin === location.origin && /\/rankings\/?$/.test(path)) send("ranking_click", details);
     if (url.origin === location.origin && /\/schedule\/?$/.test(path)) send("schedule_click", details);
     if (youtubeChannel) send("youtube_click", details);

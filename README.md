@@ -42,12 +42,16 @@ python3 scripts/audit_sync.py
 
 Version 3.1では`/schedule/`、`/lyrics/`、Solo / Group対応の全Artistプロフィール、4区分の`/rankings/`を正本から生成します。歌詞詳細は`lyricsAvailable`、`lyricsSource`、`lyricsText`がすべて確認済みの作品だけを生成します。GA4・YouTube Analyticsの実測値がない場合は人気順位を作らず、`assets/data/analytics/`に準備中として保持します。
 
+歌詞はさらに`lyricsVerified=true`と`lyricsVerifiedAt`を必須とし、全文・出典・確認日時が揃わない作品は詳細ページを生成しません。note写真集は`assets/data/photobooks.json`を正本とし、正式URLを確認できた`published`レコードだけを`/photobooks/`、Top、Artist、Gallery、News、Search、sitemap、feedへ反映します。note URL、歌詞、価格は推測して登録しません。
+
 追加監査：
 
 ```bash
 python3 scripts/audit_artist_v31.py
 python3 scripts/audit_schedule.py
 python3 scripts/audit_lyrics.py
+python3 scripts/audit_lyrics_sources.py --write
+python3 scripts/audit_photobooks.py
 python3 scripts/audit_v31.py
 ```
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T21:54:42+09:00",
+  "updatedAt": "2026-08-08T22:40:00+09:00",
   "releases": [
     {
       "id": "mermaid-no-geboku",
@@ -91,6 +91,8 @@
       "officialSource": "https://www.youtube.com/watch?v=uibakv4n2Dg",
       "playlistPriority": 0,
       "homeHero": {},
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "one-more-kiss",
@@ -239,6 +241,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hajimemashite-kiseki",
@@ -380,6 +384,8 @@
       "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
       "playlistPriority": 0,
       "homeHero": {},
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [],
         "sameGenre": [
@@ -512,6 +518,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "wasurenai-kokoro"
@@ -639,6 +647,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -778,6 +788,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "heal-you-again"
@@ -907,6 +919,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "chimpanzee-no-rakuen"
@@ -1034,6 +1048,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "mermaid-no-geboku",
@@ -1170,6 +1186,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "red-moon-rising",
@@ -1298,6 +1316,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -1428,6 +1448,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "namaste-galaxy"
@@ -1558,6 +1580,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "zennin-saiban"
@@ -1681,6 +1705,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -1817,6 +1843,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "still-alive"
@@ -1949,6 +1977,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "mermaid-no-geboku",
@@ -2077,6 +2107,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "koisuru-maharaja"
@@ -2202,6 +2234,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "wasureji-no-hito"
@@ -2325,6 +2359,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -2462,6 +2498,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "mermaid-no-geboku",
@@ -2600,6 +2638,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "mermaid-no-geboku",
@@ -2739,6 +2779,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "lost-signal",
@@ -2861,6 +2903,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -2992,6 +3036,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3123,6 +3169,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3266,6 +3314,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3400,6 +3450,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "lost-signal",
@@ -3523,6 +3575,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3654,6 +3708,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3785,6 +3841,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -3916,6 +3974,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4047,6 +4107,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4178,6 +4240,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4315,6 +4379,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4452,6 +4518,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4583,6 +4651,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",
@@ -4714,6 +4784,8 @@
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
           "hanakotoba",

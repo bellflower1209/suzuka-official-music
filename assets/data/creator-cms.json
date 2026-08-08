@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-08-08T21:54:42+09:00",
+  "updatedAt": "2026-08-08T22:40:00+09:00",
   "site": {
     "name": "SUZUKA",
     "baseUrl": "https://www.suzukaofficial.com",
@@ -361,7 +361,9 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=uibakv4n2Dg",
       "playlistPriority": 0,
-      "homeHero": {}
+      "homeHero": {},
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "hanakotoba",
@@ -461,7 +463,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "anata-dake-no-savior",
@@ -552,7 +556,9 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
       "playlistPriority": 0,
-      "homeHero": {}
+      "homeHero": {},
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "wasureji-no-hito",
@@ -643,7 +649,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "hajimemashite-kiseki",
@@ -734,7 +742,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "still-alive",
@@ -825,7 +835,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "zennin-saiban",
@@ -913,7 +925,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "one-more-kiss",
@@ -1004,7 +1018,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "lost-signal",
@@ -1092,7 +1108,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "without-worrying",
@@ -1180,7 +1198,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "koisuru-maharaja",
@@ -1261,7 +1281,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "chimpanzee-no-rakuen",
@@ -1346,7 +1368,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "ashita-wa-kitto",
@@ -1433,7 +1457,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "heal-you-again",
@@ -1521,7 +1547,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "echoes-of-you",
@@ -1609,7 +1637,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "namaste-galaxy",
@@ -1694,7 +1724,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "wasurenai-kokoro",
@@ -1779,7 +1811,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "smile-and-say-goodbye",
@@ -1866,7 +1900,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "boukyaku-no-ikimono",
@@ -1957,7 +1993,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "my-queen-my-oath",
@@ -2051,7 +2089,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "red-moon-rising",
@@ -2144,7 +2184,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2225,7 +2267,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "suki-ga-kyou-mo-fueteiku",
@@ -2306,7 +2350,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "toriatsukai-chui",
@@ -2387,7 +2433,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "our-kingdom",
@@ -2480,7 +2528,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "shadow-code",
@@ -2568,7 +2618,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "mirai-no-watashi-ga-miteru",
@@ -2649,7 +2701,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "muteki-jikan-ato-3byou",
@@ -2730,7 +2784,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "mia",
@@ -2811,7 +2867,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "tokenai-mahou-wo-ai-to-yobu",
@@ -2892,7 +2950,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "kimi-to-nara-last-boss-made",
@@ -2973,7 +3033,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "ai-demo-wakaranai",
@@ -3054,7 +3116,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "kimi-wa-hanabi",
@@ -3141,7 +3205,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "mermaid-merman",
@@ -3228,7 +3294,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "sukitte-baretemo-ii",
@@ -3309,7 +3377,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     },
     {
       "id": "hyakumankoku",
@@ -3390,7 +3460,9 @@
       "lyricsText": "",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 0
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
     }
   ],
   "upcoming": [
@@ -4133,5 +4205,23 @@
     "officialVideos": 42,
     "shorts": 26,
     "source": "official YouTube channel videos and shorts tabs via yt-dlp"
+  },
+  "photobooks": {
+    "source": "assets/data/photobooks.json",
+    "managedFields": [
+      "id",
+      "slug",
+      "title",
+      "artistSlug",
+      "coverImage",
+      "noteUrl",
+      "publishedAt",
+      "status",
+      "description",
+      "relatedReleaseSlugs",
+      "featured",
+      "isPaid",
+      "priceLabel"
+    ]
   }
 }

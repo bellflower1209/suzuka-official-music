@@ -148,6 +148,7 @@ def header(p: str) -> str:
         ("Ranking", "rankings/"), ("Features", "features/"), ("Gallery", "gallery/"),
         ("Universe", "universe/"), ("Wiki", "wiki/"), ("Playlists", "playlists/"),
         ("Community", "community/"), ("Social", "social/"),
+        ("Photobooks", "photobooks/"),
     )
     links = "".join(f'<a href="{p}{path}">{label}</a>' for label, path in primary)
     return (
@@ -170,6 +171,7 @@ def footer(p: str) -> str:
         f'<a href="{p}rankings/">Ranking</a><a href="{p}features/">Features</a>'
         f'<a href="{p}gallery/">Gallery</a><a href="{p}universe/">Universe</a><a href="{p}wiki/">Wiki</a>'
         f'<a href="{p}playlists/">Playlists</a><a href="{p}community/">Community</a>'
+        f'<a href="{p}photobooks/">Photobooks</a>'
         f'<a href="{p}search/">Search</a><a href="{p}genres/">Genres</a>'
         f'<a href="{p}discography/">Discography</a><a href="{p}social/">Social</a></nav>'
         '<p class="ai-footer-disclosure">SUZUKAに登場するアーティスト・人物は架空です。'
