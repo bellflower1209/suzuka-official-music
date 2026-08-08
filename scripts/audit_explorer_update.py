@@ -129,8 +129,8 @@ def main() -> int:
         errors.append("zero-work winter feature must not be generated")
 
     latest = releases[0] if releases else {}
-    if latest.get("slug") != "hanakotoba":
-        errors.append("latest published release must be hanakotoba")
+    if latest.get("slug") != "mermaid-no-geboku":
+        errors.append("latest published release must be mermaid-no-geboku")
     home = (root / "index.html").read_text(encoding="utf-8")
     home_markers = (
         '<title>SUZUKA Official | 榎本魅愛「花言葉」公開中</title>',
@@ -147,9 +147,9 @@ def main() -> int:
     for route in ("news", "gallery"):
         source = (root / route / "index.html").read_text(encoding="utf-8")
         first_card = re.search(rf'href="\./([^/]+)/"', source)
-        expected_first = "hanakotoba-release" if route == "news" else "hanakotoba"
+        expected_first = "mermaid-no-geboku-release" if route == "news" else "mermaid-no-geboku"
         if not first_card or first_card.group(1) != expected_first:
-            errors.append(f"{route}/index.html: flower item must be first")
+            errors.append(f"{route}/index.html: newest published item must be first")
 
     for path in new_pages:
         relative = path.relative_to(root)
@@ -196,7 +196,7 @@ def main() -> int:
         path = root / f"artists/{slug}/index.html"
         source = path.read_text(encoding="utf-8")
         for marker in (
-            "LATEST MV / PUBLIC RELEASE", "AUTOMATIC TOP 3", "最新News",
+            "最新曲", "代表曲 / おすすめ3件", "Official MV / Shorts / News / Gallery",
             "公開作品一覧", "SUZUKA Original AI Artist", "Instagram",
         ):
             if marker not in source:

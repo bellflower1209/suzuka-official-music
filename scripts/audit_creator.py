@@ -9,7 +9,7 @@ def main() -> int:
     cms=json.loads((root/"assets/data/creator-cms.json").read_text())
     catalog=json.loads((root/"assets/data/releases-catalog.json").read_text())
     rec=json.loads((root/"assets/data/recommendations.json").read_text())["recommendations"]
-    if cms.get("schemaVersion")!="3.0": errors.append("schemaVersion must be 3.0")
+    if cms.get("schemaVersion")!="3.1": errors.append("schemaVersion must be 3.1")
     for key in ("artists","releases","upcoming","news","taxonomy","featureDefinitions","playlistDefinitions","wiki","universe","community"):
         if key not in cms: errors.append(f"CMS missing {key}")
     for name, records in (("artist",cms["artists"]),("release",cms["releases"])):

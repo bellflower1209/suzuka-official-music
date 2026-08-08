@@ -296,6 +296,11 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"AboutPage", "BreadcrumbList"}
     if route == "artists/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
+    if route.startswith("artists/"):
+        slug = relative.parts[1]
+        artist = next((item for item in CREATOR_CMS["artists"] if item["slug"] == slug), None)
+        if artist:
+            return {artist["type"], "ProfilePage", "ItemList", "BreadcrumbList", "WebPage"}
     if route == "artists/eclypse/index.html":
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":
@@ -308,8 +313,6 @@ def required_schema_types(relative: Path) -> set[str]:
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/nox/index.html":
         return {"MusicGroup", "ProfilePage", "BreadcrumbList"}
-    if route.startswith("artists/"):
-        return {"Person", "ProfilePage", "BreadcrumbList"}
     if route == "releases/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "news/index.html":
@@ -650,7 +653,12 @@ def audit() -> tuple[list[str], dict[str, Any]]:
     artist_html = (ROOT / "artists/enomoto-mia/index.html").read_text(encoding="utf-8")
     track_list_match = re.search(r'<div class="artist-track-list">(.*?)</div></section>', artist_html, re.DOTALL)
     if not track_list_match:
-        errors.append("artists/enomoto-mia/index.html: discography list is missing")
+        if "v31-artist-hero" not in artist_html:
+            errors.append("artists/enomoto-mia/index.html: discography list is missing")
+        else:
+            for release in CMS_RELEASES_BY_ARTIST["enomoto-mia"]:
+                if f'../../{release["releaseUrl"]}' not in artist_html:
+                    errors.append(f'artists/enomoto-mia/index.html: V3.1 works list is missing {release["slug"]}')
     else:
         track_rows = re.findall(
             r'<a class="artist-track-row[^"]*" href="([^"]+)"><span>(\d+)</span>.*?<strong>(.*?)</strong>',

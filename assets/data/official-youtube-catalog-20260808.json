@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-08T21:54:42+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "channelSnapshot": {
+    "officialVideos": 42,
+    "shorts": 26,
+    "source": "official YouTube channel videos and shorts tabs via yt-dlp"
+  },
+  "artists": [
+    {
+      "slug": "asteria",
+      "name": "ASTERIA",
+      "reading": "アステリア",
+      "type": "MusicGroup",
+      "image": "images/asteria-anata-dake-no-savior.jpg",
+      "world": "暗闇さえ星に変え、涙を光にする5つの星の女神たち。",
+      "music": "希望と寄り添いを届けるJ-POP・アイドルポップ。",
+      "profile": "「あなたを照らす、5つの星の女神たち」を掲げる5人組AIアイドルグループ。",
+      "members": [
+        {"name": "天宮ひかり", "role": "センター・メインボーカル", "color": "ピンク"},
+        {"name": "白石せな", "role": "リーダー・リードボーカル", "color": "ラベンダー"},
+        {"name": "星乃みう", "role": "ダンスリーダー", "color": "スカイブルー"},
+        {"name": "月城れいな", "role": "サブリーダー・ビジュアル担当", "color": "ホワイト"},
+        {"name": "花咲こはる", "role": "最年少・コーラス担当", "color": "ミントグリーン"}
+      ],
+      "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA"
+    }
+  ],
+  "published": [
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "englishTitle": "Mermaid no Geboku",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "shortsUrl": "https://www.youtube.com/shorts/7CEFTBaNKsY",
+      "coverImage": "images/koga-mermaid-no-geboku.jpg",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "genres": ["J-POP", "ファンタジーポップ"],
+      "themes": ["恋愛", "海", "物語"],
+      "moods": ["明るい", "シネマティック"]
+    },
+    {
+      "slug": "anata-dake-no-savior",
+      "title": "あなただけのSAVIOR",
+      "englishTitle": "Anata Dake no SAVIOR",
+      "artist": "ASTERIA",
+      "artistSlug": "asteria",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
+      "shortsUrl": "https://www.youtube.com/shorts/9XCTlHr0LFI",
+      "coverImage": "images/asteria-anata-dake-no-savior.jpg",
+      "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "genres": ["J-POP", "アイドルポップ"],
+      "themes": ["希望", "癒やし", "光"],
+      "moods": ["明るい", "温かい"]
+    }
+  ],
+  "upcoming": [
+    {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。"
+    },
+    {
+      "slug": "leo-rise-again",
+      "title": "LEO — Rise Again —",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-10T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+      "image": "images/koga-leo-rise-again.jpg",
+      "description": "孤独を従え、もう一度立ち上がる神代煌牙の公開予定作品。"
+    },
+    {
+      "slug": "kimi-wa-makenai",
+      "title": "君は負けない",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-11T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+      "image": "images/enomoto-mia-kimi-wa-makenai.jpg",
+      "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の公開予定作品。"
+    }
+  ],
+  "otherOfficialVideos": [
+    {"youtubeId": "f9IrUpE8JzI", "type": "preview", "relatedReleaseSlug": "hanakotoba"},
+    {"youtubeId": "tFQPag-rSno", "type": "production-video", "relatedReleaseSlug": "hyakumankoku"},
+    {"youtubeId": "Bi1Sdb9kkUA", "type": "other-official-video", "relatedArtistSlug": "enomoto-mia"}
+  ]
+}

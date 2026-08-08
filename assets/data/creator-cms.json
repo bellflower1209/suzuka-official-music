@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "3.0",
-  "updatedAt": "2026-08-07T23:41:22+09:00",
+  "schemaVersion": "3.1",
+  "updatedAt": "2026-08-08T21:54:42+09:00",
   "site": {
     "name": "SUZUKA",
     "baseUrl": "https://www.suzukaofficial.com",
@@ -16,47 +16,87 @@
   },
   "artists": [
     {
-      "slug": "enomoto-mia",
-      "name": "榎本魅愛",
-      "reading": "ENOMOTO MIA",
+      "slug": "asagiri-shinobu",
+      "name": "朝霧しのぶ",
+      "reading": "ASAGIRI SHINOBU",
       "type": "Person",
-      "image": "images/mv-mia.jpg",
-      "world": "恋する瞬間のときめき、迷い、勇気を、色彩豊かな物語として歌う。",
-      "music": "J-POP、ロマンティックポップ、バラードを軸に、日常の感情をまっすぐなメロディへ変える。",
-      "profile": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。",
+      "image": "images/asagiri-wasurenai-kokoro.jpg",
+      "world": "家族、記憶、人生の別れとぬくもりに寄り添う、日本の原風景。",
+      "music": "演歌と歌謡曲を軸に、人生の機微を落ち着いた語りと旋律で届ける。",
+      "profile": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。",
       "status": "published",
       "youtubeUrl": "https://www.youtube.com/@suzuka1209",
       "instagramUrl": "https://www.instagram.com/suzuka12090511/",
       "searchKeywords": [
-        "榎本魅愛",
-        "ENOMOTO MIA"
+        "朝霧しのぶ",
+        "ASAGIRI SHINOBU"
       ],
       "seo": {
-        "title": "榎本魅愛｜SUZUKA Official AI Artist",
-        "description": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。 SUZUKAの架空のAIアーティストです。",
+        "title": "朝霧しのぶ｜SUZUKA Official AI Artist",
+        "description": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。 SUZUKAの架空のAIアーティストです。",
         "jsonLdEnabled": true
-      }
+      },
+      "artistType": "Person",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "wasureji-no-hito",
+        "wasurenai-kokoro"
+      ]
     },
     {
-      "slug": "koga-kamishiro",
-      "name": "神代煌牙",
-      "reading": "KOGA KAMISHIRO",
-      "type": "Person",
-      "image": "images/koga-kamishiro.webp",
-      "world": "大切な人を守る黒の騎士。静けさの奥にある誓いと、消えない記憶を描く。",
-      "music": "シネマティックJ-POP、ロック、ダークポップを融合した重厚な物語音楽。",
-      "profile": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
+      "slug": "asteria",
+      "name": "ASTERIA",
+      "reading": "アステリア",
+      "type": "MusicGroup",
+      "artistType": "MusicGroup",
+      "image": "images/asteria-anata-dake-no-savior.jpg",
+      "world": "暗闇さえ星に変え、涙を光にする5つの星の女神たち。",
+      "music": "希望と寄り添いを届けるJ-POP・アイドルポップ。",
+      "profile": "「あなたを照らす、5つの星の女神たち」を掲げる5人組AIアイドルグループ。",
+      "members": [
+        {
+          "name": "天宮ひかり",
+          "role": "センター・メインボーカル",
+          "color": "ピンク"
+        },
+        {
+          "name": "白石せな",
+          "role": "リーダー・リードボーカル",
+          "color": "ラベンダー"
+        },
+        {
+          "name": "星乃みう",
+          "role": "ダンスリーダー",
+          "color": "スカイブルー"
+        },
+        {
+          "name": "月城れいな",
+          "role": "サブリーダー・ビジュアル担当",
+          "color": "ホワイト"
+        },
+        {
+          "name": "花咲こはる",
+          "role": "最年少・コーラス担当",
+          "color": "ミントグリーン"
+        }
+      ],
       "status": "published",
+      "artistStatus": "published",
       "youtubeUrl": "https://www.youtube.com/@suzuka1209",
       "instagramUrl": "https://www.instagram.com/suzuka12090511/",
       "searchKeywords": [
-        "神代煌牙",
-        "KOGA KAMISHIRO"
+        "ASTERIA",
+        "アステリア",
+        "AIアイドル",
+        "AIアーティスト"
       ],
+      "artistFeaturedTracks": [
+        "anata-dake-no-savior"
+      ],
+      "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
       "seo": {
-        "title": "神代煌牙｜SUZUKA Official AI Artist",
-        "description": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。 SUZUKAの架空のAIアーティストです。",
-        "jsonLdEnabled": true
+        "title": "ASTERIA｜SUZUKA Official Music",
+        "description": "「あなたを照らす、5つの星の女神たち」を掲げる5人組AIアイドルグループ。 SUZUKAの架空のAIアーティストです。"
       }
     },
     {
@@ -79,7 +119,72 @@
         "title": "ECLYPSE｜SUZUKA Official AI Artist",
         "description": "運命を自ら書き換える5人組男性AIグループ。 SUZUKAの架空のAIアーティストです。",
         "jsonLdEnabled": true
-      }
+      },
+      "artistType": "MusicGroup",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "lost-signal",
+        "shadow-code",
+        "red-moon-rising"
+      ]
+    },
+    {
+      "slug": "enomoto-mia",
+      "name": "榎本魅愛",
+      "reading": "ENOMOTO MIA",
+      "type": "Person",
+      "image": "images/mv-mia.jpg",
+      "world": "恋する瞬間のときめき、迷い、勇気を、色彩豊かな物語として歌う。",
+      "music": "J-POP、ロマンティックポップ、バラードを軸に、日常の感情をまっすぐなメロディへ変える。",
+      "profile": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA"
+      ],
+      "seo": {
+        "title": "榎本魅愛｜SUZUKA Official AI Artist",
+        "description": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      },
+      "artistType": "Person",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "without-worrying",
+        "hajimemashite-kiseki",
+        "hanakotoba"
+      ]
+    },
+    {
+      "slug": "koga-kamishiro",
+      "name": "神代煌牙",
+      "reading": "KOGA KAMISHIRO",
+      "type": "Person",
+      "image": "images/koga-kamishiro.webp",
+      "world": "大切な人を守る黒の騎士。静けさの奥にある誓いと、消えない記憶を描く。",
+      "music": "シネマティックJ-POP、ロック、ダークポップを融合した重厚な物語音楽。",
+      "profile": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+      "searchKeywords": [
+        "神代煌牙",
+        "KOGA KAMISHIRO"
+      ],
+      "seo": {
+        "title": "神代煌牙｜SUZUKA Official AI Artist",
+        "description": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。 SUZUKAの架空のAIアーティストです。",
+        "jsonLdEnabled": true
+      },
+      "artistType": "Person",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "one-more-kiss",
+        "our-kingdom",
+        "my-queen-my-oath"
+      ]
     },
     {
       "slug": "nox",
@@ -101,7 +206,13 @@
         "title": "NOX｜SUZUKA Official AI Artist",
         "description": "黒羽狂司がVocal・作詞・世界観構築を担う5人組ヴィジュアル系AIバンド。 SUZUKAの架空のAIアーティストです。",
         "jsonLdEnabled": true
-      }
+      },
+      "artistType": "MusicGroup",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "zennin-saiban",
+        "chimpanzee-no-rakuen"
+      ]
     },
     {
       "slug": "rangili",
@@ -123,29 +234,13 @@
         "title": "RANGILI｜SUZUKA Official AI Artist",
         "description": "インドと日本の文化を音楽でつなぐ3人組AIガールグループ。 SUZUKAの架空のAIアーティストです。",
         "jsonLdEnabled": true
-      }
-    },
-    {
-      "slug": "asagiri-shinobu",
-      "name": "朝霧しのぶ",
-      "reading": "ASAGIRI SHINOBU",
-      "type": "Person",
-      "image": "images/asagiri-wasurenai-kokoro.jpg",
-      "world": "家族、記憶、人生の別れとぬくもりに寄り添う、日本の原風景。",
-      "music": "演歌と歌謡曲を軸に、人生の機微を落ち着いた語りと旋律で届ける。",
-      "profile": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。",
-      "status": "published",
-      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
-      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
-      "searchKeywords": [
-        "朝霧しのぶ",
-        "ASAGIRI SHINOBU"
-      ],
-      "seo": {
-        "title": "朝霧しのぶ｜SUZUKA Official AI Artist",
-        "description": "忘れても残る愛を歌う、SUZUKAの演歌AIアーティスト。 SUZUKAの架空のAIアーティストです。",
-        "jsonLdEnabled": true
-      }
+      },
+      "artistType": "MusicGroup",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "koisuru-maharaja",
+        "namaste-galaxy"
+      ]
     },
     {
       "slug": "revive",
@@ -167,10 +262,107 @@
         "title": "RE:VIVE｜SUZUKA Official AI Artist",
         "description": "前へ進む力を届ける5人組AIガールズグループ。 SUZUKAの架空のAIアーティストです。",
         "jsonLdEnabled": true
-      }
+      },
+      "artistType": "MusicGroup",
+      "artistStatus": "published",
+      "artistFeaturedTracks": [
+        "still-alive",
+        "heal-you-again"
+      ]
     }
   ],
   "releases": [
+    {
+      "id": "mermaid-no-geboku",
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "displayTitle": "マーメイドの下僕",
+      "englishTitle": "Mermaid no Geboku",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-08T20:00:06+09:00",
+      "releaseDate": "2026-08-08",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ファンタジーポップ"
+      ],
+      "moods": [
+        "明るい",
+        "シネマティック"
+      ],
+      "themes": [
+        "恋愛",
+        "海",
+        "物語"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-mermaid-no-geboku.jpg",
+      "coverAlt": "神代煌牙「マーメイドの下僕」公式YouTubeサムネイル",
+      "releaseUrl": "releases/mermaid-no-geboku/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "newsUrl": "news/mermaid-no-geboku-release/",
+      "duration": 351,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "マーメイドの下僕",
+        "Mermaid no Geboku",
+        "神代煌牙",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "物語",
+        "明るい",
+        "シネマティック"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "tags": [
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "物語",
+        "明るい",
+        "シネマティック"
+      ],
+      "lyrics": "",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "introduction": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "publishedAt": "2026-08-08T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/7CEFTBaNKsY",
+      "galleryImages": [
+        "images/koga-mermaid-no-geboku.jpg"
+      ],
+      "productionNote": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "seo": {
+        "title": "マーメイドの下僕｜神代煌牙｜SUZUKA Official Music",
+        "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-08",
+      "videoPublishedAt": "2026-08-08T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=uibakv4n2Dg",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
     {
       "id": "hanakotoba",
       "slug": "hanakotoba",
@@ -262,7 +454,105 @@
         "subtitle": "榎本魅愛 New Single",
         "status": "Now Streaming",
         "theme": "forget-me-not"
-      }
+      },
+      "releaseAt": "2026-08-07T20:00:28+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "anata-dake-no-savior",
+      "slug": "anata-dake-no-savior",
+      "title": "あなただけのSAVIOR",
+      "displayTitle": "あなただけのSAVIOR",
+      "englishTitle": "Anata Dake no SAVIOR",
+      "artist": "ASTERIA",
+      "artistSlug": "asteria",
+      "artistSlugs": [
+        "asteria"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-06T20:48:22+09:00",
+      "releaseDate": "2026-08-06",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アイドルポップ"
+      ],
+      "moods": [
+        "明るい",
+        "温かい"
+      ],
+      "themes": [
+        "希望",
+        "癒やし",
+        "光"
+      ],
+      "language": "ja",
+      "coverImage": "images/asteria-anata-dake-no-savior.jpg",
+      "coverAlt": "ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル",
+      "releaseUrl": "releases/anata-dake-no-savior/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
+      "newsUrl": "news/anata-dake-no-savior-release/",
+      "duration": 415,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "あなただけのSAVIOR",
+        "Anata Dake no SAVIOR",
+        "ASTERIA",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "癒やし",
+        "光",
+        "明るい",
+        "温かい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "tags": [
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "癒やし",
+        "光",
+        "明るい",
+        "温かい"
+      ],
+      "lyrics": "",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "introduction": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "publishedAt": "2026-08-06T20:48:22+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/9XCTlHr0LFI",
+      "galleryImages": [
+        "images/asteria-anata-dake-no-savior.jpg"
+      ],
+      "productionNote": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "seo": {
+        "title": "あなただけのSAVIOR｜ASTERIA｜SUZUKA Official Music",
+        "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-06",
+      "videoPublishedAt": "2026-08-06T20:48:22+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
+      "playlistPriority": 0,
+      "homeHero": {}
     },
     {
       "id": "wasureji-no-hito",
@@ -346,7 +636,14 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=tbysXktPNk4",
       "playlistPriority": 0,
-      "homeHero": {}
+      "homeHero": {},
+      "releaseAt": "2026-08-06T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "hajimemashite-kiseki",
@@ -430,7 +727,14 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=rr12NZuWHHs",
       "playlistPriority": 0,
-      "homeHero": {}
+      "homeHero": {},
+      "releaseAt": "2026-08-05T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "still-alive",
@@ -514,7 +818,14 @@
       "videoPublishedAt": "2026-08-04T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=KCviOsGatOY"
+      "officialSource": "https://www.youtube.com/watch?v=KCviOsGatOY",
+      "releaseAt": "2026-08-04T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "zennin-saiban",
@@ -595,7 +906,14 @@
       "videoPublishedAt": "2026-08-03T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=8BjnnX3xeGw"
+      "officialSource": "https://www.youtube.com/watch?v=8BjnnX3xeGw",
+      "releaseAt": "2026-08-03T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "one-more-kiss",
@@ -679,7 +997,14 @@
       "videoPublishedAt": "2026-08-02T20:00:05+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=EP7NAPlGhuo"
+      "officialSource": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "releaseAt": "2026-08-02T20:00:05+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "lost-signal",
@@ -760,7 +1085,14 @@
       "videoPublishedAt": "2026-08-01T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=CbpvpKllc6c"
+      "officialSource": "https://www.youtube.com/watch?v=CbpvpKllc6c",
+      "releaseAt": "2026-08-01T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "without-worrying",
@@ -841,7 +1173,14 @@
       "videoPublishedAt": "2026-07-31T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk"
+      "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "releaseAt": "2026-07-31T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "koisuru-maharaja",
@@ -915,7 +1254,14 @@
       "videoPublishDate": "2026-07-30",
       "videoPublishedAt": "2026-07-30T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-30T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "chimpanzee-no-rakuen",
@@ -993,7 +1339,14 @@
       "videoPublishDate": "2026-07-29",
       "videoPublishedAt": "2026-07-29T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-29T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "ashita-wa-kitto",
@@ -1073,7 +1426,14 @@
       "videoPublishDate": "2026-07-28",
       "videoPublishedAt": "2026-07-29T01:22:23+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-29T01:22:23+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "heal-you-again",
@@ -1154,7 +1514,14 @@
       "videoPublishDate": "2026-07-27",
       "videoPublishedAt": "2026-07-27T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-27T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "echoes-of-you",
@@ -1235,7 +1602,14 @@
       "videoPublishDate": "2026-07-26",
       "videoPublishedAt": "2026-07-26T20:00:22+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-26T20:00:22+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "namaste-galaxy",
@@ -1313,7 +1687,14 @@
       "videoPublishDate": "2026-07-24",
       "videoPublishedAt": "2026-07-24T20:00:11+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-24T20:00:11+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "wasurenai-kokoro",
@@ -1391,7 +1772,14 @@
       "videoPublishDate": "2026-07-23",
       "videoPublishedAt": "2026-07-23T20:00:34+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-23T20:00:34+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "smile-and-say-goodbye",
@@ -1471,7 +1859,14 @@
       "videoPublishDate": "2026-07-22",
       "videoPublishedAt": "2026-07-22T20:00:31+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-22T20:00:31+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "boukyaku-no-ikimono",
@@ -1555,7 +1950,14 @@
       "videoPublishDate": "2026-07-21",
       "videoPublishedAt": "2026-07-21T19:00:30+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-21T19:00:30+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "my-queen-my-oath",
@@ -1642,7 +2044,14 @@
       "videoPublishDate": "2026-07-20",
       "videoPublishedAt": "2026-07-20T19:00:07+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-20T19:00:07+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "red-moon-rising",
@@ -1728,81 +2137,14 @@
       "videoPublishDate": "2026-07-18",
       "videoPublishedAt": "2026-07-18T19:52:02+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "suki-ga-kyou-mo-fueteiku",
-      "slug": "suki-ga-kyou-mo-fueteiku",
-      "title": "好きが、今日も増えていく。",
-      "displayTitle": "好きが、今日も増えていく。",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "artistSlugs": [
-        "enomoto-mia"
-      ],
-      "artistType": "Person",
-      "releaseDate": "2026-07-16",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP",
-        "ロマンティックポップ"
-      ],
-      "moods": [
-        "明るい",
-        "切ない"
-      ],
-      "themes": [
-        "恋愛"
-      ],
-      "language": "ja",
-      "coverImage": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
-      "coverAlt": "榎本魅愛「好きが、今日も増えていく。」公式ジャケット",
-      "releaseUrl": "releases/suki-ga-kyou-mo-fueteiku/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
-      "newsUrl": "",
-      "duration": 351,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "榎本魅愛",
-        "えのもとみあ",
-        "ENOMOTO MIA",
-        "MIA",
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "好きが、今日も増えていく。"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
-      "tags": [
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "明るい",
-        "切ない"
-      ],
-      "lyrics": "",
-      "introduction": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-16T18:31:46+09:00",
-      "instagramUrl": "",
-      "shortsUrl": null,
-      "galleryImages": [
-        "images/mv-suki-ga-kyou-mo-fueteiku.jpg"
-      ],
-      "productionNote": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "好きが、今日も増えていく。｜榎本魅愛｜SUZUKA Official Music",
-        "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-16",
-      "videoPublishedAt": "2026-07-16T18:31:46+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-18T19:52:02+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1876,7 +2218,95 @@
       "videoPublishDate": "2026-07-16",
       "videoPublishedAt": "2026-07-16T20:50:27+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-16T20:50:27+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "suki-ga-kyou-mo-fueteiku",
+      "slug": "suki-ga-kyou-mo-fueteiku",
+      "title": "好きが、今日も増えていく。",
+      "displayTitle": "好きが、今日も増えていく。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-16",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
+      "coverAlt": "榎本魅愛「好きが、今日も増えていく。」公式ジャケット",
+      "releaseUrl": "releases/suki-ga-kyou-mo-fueteiku/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+      "newsUrl": "",
+      "duration": 351,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "好きが、今日も増えていく。"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-16T18:31:46+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-suki-ga-kyou-mo-fueteiku.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きが、今日も増えていく。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きが、今日も増えていく。」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-16",
+      "videoPublishedAt": "2026-07-16T18:31:46+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-16T18:31:46+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "toriatsukai-chui",
@@ -1950,88 +2380,14 @@
       "videoPublishDate": "2026-07-14",
       "videoPublishedAt": "2026-07-15T00:51:42+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "shadow-code",
-      "slug": "shadow-code",
-      "title": "SHADOW//CODE",
-      "displayTitle": "SHADOW//CODE",
-      "artist": "ECLYPSE",
-      "artistSlug": "eclypse",
-      "artistSlugs": [
-        "eclypse"
-      ],
-      "artistType": "MusicGroup",
-      "releaseDate": "2026-07-14",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "K-POP風",
-        "ダークポップ",
-        "EDM"
-      ],
-      "moods": [
-        "ダーク",
-        "力強い"
-      ],
-      "themes": [
-        "運命",
-        "反逆",
-        "未来"
-      ],
-      "language": "ja",
-      "coverImage": "images/eclypse-shadow-code-cover.webp",
-      "coverAlt": "ECLYPSE「SHADOW//CODE」公式ジャケット",
-      "releaseUrl": "releases/shadow-code/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8VCL2IepjeM",
-      "newsUrl": "news/shadow-code-announcement/",
-      "duration": 181,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "ECLYPSE",
-        "エクリプス",
-        "K-POP風",
-        "ダークポップ",
-        "EDM",
-        "運命",
-        "反逆",
-        "未来",
-        "SHADOW//CODE"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
-      "tags": [
-        "K-POP風",
-        "ダークポップ",
-        "EDM",
-        "運命",
-        "反逆",
-        "未来",
-        "ダーク",
-        "力強い"
-      ],
-      "lyrics": "",
-      "introduction": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-14T22:47:31+09:00",
-      "instagramUrl": "",
-      "shortsUrl": null,
-      "galleryImages": [
-        "images/eclypse-shadow-code-cover.webp"
-      ],
-      "productionNote": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "SHADOW//CODE｜ECLYPSE｜SUZUKA Official Music",
-        "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-14",
-      "videoPublishedAt": "2026-07-14T22:47:31+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-15T00:51:42+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "our-kingdom",
@@ -2117,7 +2473,102 @@
       "videoPublishDate": "2026-07-14",
       "videoPublishedAt": "2026-07-14T23:24:10+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-14T23:24:10+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "shadow-code",
+      "slug": "shadow-code",
+      "title": "SHADOW//CODE",
+      "displayTitle": "SHADOW//CODE",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-07-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "ダークポップ",
+        "EDM"
+      ],
+      "moods": [
+        "ダーク",
+        "力強い"
+      ],
+      "themes": [
+        "運命",
+        "反逆",
+        "未来"
+      ],
+      "language": "ja",
+      "coverImage": "images/eclypse-shadow-code-cover.webp",
+      "coverAlt": "ECLYPSE「SHADOW//CODE」公式ジャケット",
+      "releaseUrl": "releases/shadow-code/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8VCL2IepjeM",
+      "newsUrl": "news/shadow-code-announcement/",
+      "duration": 181,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "ECLYPSE",
+        "エクリプス",
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "SHADOW//CODE"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "tags": [
+        "K-POP風",
+        "ダークポップ",
+        "EDM",
+        "運命",
+        "反逆",
+        "未来",
+        "ダーク",
+        "力強い"
+      ],
+      "lyrics": "",
+      "introduction": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-14T22:47:31+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/eclypse-shadow-code-cover.webp"
+      ],
+      "productionNote": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "SHADOW//CODE｜ECLYPSE｜SUZUKA Official Music",
+        "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-14",
+      "videoPublishedAt": "2026-07-14T22:47:31+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-14T22:47:31+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "mirai-no-watashi-ga-miteru",
@@ -2191,81 +2642,14 @@
       "videoPublishDate": "2026-07-14",
       "videoPublishedAt": "2026-07-14T22:31:20+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "tokenai-mahou-wo-ai-to-yobu",
-      "slug": "tokenai-mahou-wo-ai-to-yobu",
-      "title": "解けない魔法を、愛と呼ぶ",
-      "displayTitle": "解けない魔法を、愛と呼ぶ",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "artistSlugs": [
-        "enomoto-mia"
-      ],
-      "artistType": "Person",
-      "releaseDate": "2026-07-13",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP",
-        "ロマンティックポップ"
-      ],
-      "moods": [
-        "明るい",
-        "切ない"
-      ],
-      "themes": [
-        "恋愛"
-      ],
-      "language": "ja",
-      "coverImage": "images/mv-mahou.jpg",
-      "coverAlt": "榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット",
-      "releaseUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
-      "newsUrl": "",
-      "duration": 380,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "榎本魅愛",
-        "えのもとみあ",
-        "ENOMOTO MIA",
-        "MIA",
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "解けない魔法を、愛と呼ぶ"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
-      "tags": [
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "明るい",
-        "切ない"
-      ],
-      "lyrics": "",
-      "introduction": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-13T20:00:23+09:00",
-      "instagramUrl": "",
-      "shortsUrl": null,
-      "galleryImages": [
-        "images/mv-mahou.jpg"
-      ],
-      "productionNote": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "解けない魔法を、愛と呼ぶ｜榎本魅愛｜SUZUKA Official Music",
-        "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-13",
-      "videoPublishedAt": "2026-07-13T20:00:23+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-14T22:31:20+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "muteki-jikan-ato-3byou",
@@ -2339,7 +2723,14 @@
       "videoPublishDate": "2026-07-13",
       "videoPublishedAt": "2026-07-13T20:00:35+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T20:00:35+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "mia",
@@ -2413,7 +2804,95 @@
       "videoPublishDate": "2026-07-13",
       "videoPublishedAt": "2026-07-13T20:00:32+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T20:00:32+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "tokenai-mahou-wo-ai-to-yobu",
+      "slug": "tokenai-mahou-wo-ai-to-yobu",
+      "title": "解けない魔法を、愛と呼ぶ",
+      "displayTitle": "解けない魔法を、愛と呼ぶ",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mahou.jpg",
+      "coverAlt": "榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット",
+      "releaseUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+      "newsUrl": "",
+      "duration": 380,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "解けない魔法を、愛と呼ぶ"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T20:00:23+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mahou.jpg"
+      ],
+      "productionNote": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "解けない魔法を、愛と呼ぶ｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「解けない魔法を、愛と呼ぶ」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-13",
+      "videoPublishedAt": "2026-07-13T20:00:23+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T20:00:23+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "kimi-to-nara-last-boss-made",
@@ -2487,7 +2966,14 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T15:27:23+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T15:27:23+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "ai-demo-wakaranai",
@@ -2561,161 +3047,14 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T15:14:26+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "sukitte-baretemo-ii",
-      "slug": "sukitte-baretemo-ii",
-      "title": "好きってバレてもいい",
-      "displayTitle": "好きってバレてもいい",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "artistSlugs": [
-        "enomoto-mia"
-      ],
-      "artistType": "Person",
-      "releaseDate": "2026-07-12",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP",
-        "ロマンティックポップ"
-      ],
-      "moods": [
-        "明るい",
-        "切ない"
-      ],
-      "themes": [
-        "恋愛"
-      ],
-      "language": "ja",
-      "coverImage": "images/mv-sukitte-baretemo-ii.jpg",
-      "coverAlt": "榎本魅愛「好きってバレてもいい」公式ジャケット",
-      "releaseUrl": "releases/sukitte-baretemo-ii/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
-      "newsUrl": "",
-      "duration": 274,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "榎本魅愛",
-        "えのもとみあ",
-        "ENOMOTO MIA",
-        "MIA",
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "好きってバレてもいい"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
-      "tags": [
-        "J-POP",
-        "ロマンティックポップ",
-        "恋愛",
-        "明るい",
-        "切ない"
-      ],
-      "lyrics": "",
-      "introduction": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-12T20:00:59+09:00",
-      "instagramUrl": "",
-      "shortsUrl": null,
-      "galleryImages": [
-        "images/mv-sukitte-baretemo-ii.jpg"
-      ],
-      "productionNote": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "好きってバレてもいい｜榎本魅愛｜SUZUKA Official Music",
-        "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-12",
-      "videoPublishedAt": "2026-07-12T20:00:59+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
-    },
-    {
-      "id": "mermaid-merman",
-      "slug": "mermaid-merman",
-      "title": "MERMAID×MERMAN",
-      "displayTitle": "MERMAID×MERMAN",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "artistSlugs": [
-        "enomoto-mia"
-      ],
-      "artistType": "Person",
-      "releaseDate": "2026-07-12",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP",
-        "ファンタジーポップ"
-      ],
-      "moods": [
-        "明るい",
-        "切ない"
-      ],
-      "themes": [
-        "恋愛",
-        "海",
-        "異世界"
-      ],
-      "language": "ja",
-      "coverImage": "images/mv-mermaid-merman.jpg",
-      "coverAlt": "榎本魅愛「MERMAID×MERMAN」公式ジャケット",
-      "releaseUrl": "releases/mermaid-merman/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
-      "newsUrl": "",
-      "duration": 340,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "榎本魅愛",
-        "えのもとみあ",
-        "ENOMOTO MIA",
-        "MIA",
-        "J-POP",
-        "ファンタジーポップ",
-        "恋愛",
-        "海",
-        "異世界",
-        "MERMAID×MERMAN"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
-      "tags": [
-        "J-POP",
-        "ファンタジーポップ",
-        "恋愛",
-        "海",
-        "異世界",
-        "明るい",
-        "切ない"
-      ],
-      "lyrics": "",
-      "introduction": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
-      "publishedAt": "2026-07-13T00:17:26+09:00",
-      "instagramUrl": "",
-      "shortsUrl": null,
-      "galleryImages": [
-        "images/mv-mermaid-merman.jpg"
-      ],
-      "productionNote": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
-      "seo": {
-        "title": "MERMAID×MERMAN｜榎本魅愛｜SUZUKA Official Music",
-        "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-07-12",
-      "videoPublishedAt": "2026-07-13T00:17:26+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T15:14:26+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "kimi-wa-hanabi",
@@ -2795,7 +3134,182 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T00:54:50+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T00:54:50+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "mermaid-merman",
+      "slug": "mermaid-merman",
+      "title": "MERMAID×MERMAN",
+      "displayTitle": "MERMAID×MERMAN",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ファンタジーポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛",
+        "海",
+        "異世界"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-mermaid-merman.jpg",
+      "coverAlt": "榎本魅愛「MERMAID×MERMAN」公式ジャケット",
+      "releaseUrl": "releases/mermaid-merman/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
+      "newsUrl": "",
+      "duration": 340,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "MERMAID×MERMAN"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ファンタジーポップ",
+        "恋愛",
+        "海",
+        "異世界",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-13T00:17:26+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-mermaid-merman.jpg"
+      ],
+      "productionNote": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "MERMAID×MERMAN｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-12",
+      "videoPublishedAt": "2026-07-13T00:17:26+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-13T00:17:26+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
+    },
+    {
+      "id": "sukitte-baretemo-ii",
+      "slug": "sukitte-baretemo-ii",
+      "title": "好きってバレてもいい",
+      "displayTitle": "好きってバレてもいい",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-07-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ロマンティックポップ"
+      ],
+      "moods": [
+        "明るい",
+        "切ない"
+      ],
+      "themes": [
+        "恋愛"
+      ],
+      "language": "ja",
+      "coverImage": "images/mv-sukitte-baretemo-ii.jpg",
+      "coverAlt": "榎本魅愛「好きってバレてもいい」公式ジャケット",
+      "releaseUrl": "releases/sukitte-baretemo-ii/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+      "newsUrl": "",
+      "duration": 274,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "榎本魅愛",
+        "えのもとみあ",
+        "ENOMOTO MIA",
+        "MIA",
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "好きってバレてもいい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "tags": [
+        "J-POP",
+        "ロマンティックポップ",
+        "恋愛",
+        "明るい",
+        "切ない"
+      ],
+      "lyrics": "",
+      "introduction": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "publishedAt": "2026-07-12T20:00:59+09:00",
+      "instagramUrl": "",
+      "shortsUrl": null,
+      "galleryImages": [
+        "images/mv-sukitte-baretemo-ii.jpg"
+      ],
+      "productionNote": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+      "seo": {
+        "title": "好きってバレてもいい｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「好きってバレてもいい」のSUZUKA公式作品ページ。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-07-12",
+      "videoPublishedAt": "2026-07-12T20:00:59+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-12T20:00:59+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     },
     {
       "id": "hyakumankoku",
@@ -2869,26 +3383,17 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-12T19:42:52+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published"
+      "videoStructuredDataStatus": "published",
+      "releaseAt": "2026-07-12T19:42:52+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0
     }
   ],
   "upcoming": [
-    {
-      "slug": "mermaid-no-geboku",
-      "title": "マーメイドの下僕",
-      "artist": "神代煌牙",
-      "artistSlug": "koga-kamishiro",
-      "scheduledAt": "2026-08-08T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=uibakv4n2Dg",
-      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
-      "status": "upcoming",
-      "image": "https://i.ytimg.com/vi/uibakv4n2Dg/maxresdefault.jpg",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-08T20:00:00+09:00"
-    },
     {
       "slug": "kimi-ni-kakatta-mahou",
       "title": "君にかかった魔法",
@@ -2896,17 +3401,86 @@
       "artistSlug": "enomoto-mia",
       "scheduledAt": "2026-08-09T20:00:00+09:00",
       "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
-      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
-      "status": "upcoming",
       "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "releaseAt": "2026-08-09T20:00:00+09:00",
+      "status": "upcoming",
       "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
       "genres": [],
       "themes": [],
       "tags": [],
-      "publishedAt": "2026-08-09T20:00:00+09:00"
+      "publishedAt": "2026-08-09T20:00:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "featured": false,
+      "recommendationWeight": null,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 1
+    },
+    {
+      "slug": "leo-rise-again",
+      "title": "LEO — Rise Again —",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-10T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+      "image": "images/koga-leo-rise-again.jpg",
+      "description": "孤独を従え、もう一度立ち上がる神代煌牙の公開予定作品。",
+      "releaseAt": "2026-08-10T20:00:00+09:00",
+      "status": "upcoming",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-10T20:00:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "featured": false,
+      "recommendationWeight": null,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 2
+    },
+    {
+      "slug": "kimi-wa-makenai",
+      "title": "君は負けない",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-11T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+      "image": "images/enomoto-mia-kimi-wa-makenai.jpg",
+      "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の公開予定作品。",
+      "releaseAt": "2026-08-11T20:00:00+09:00",
+      "status": "upcoming",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "publishedAt": "2026-08-11T20:00:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "featured": false,
+      "recommendationWeight": null,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 3
     }
   ],
   "news": [
+    {
+      "slug": "mermaid-no-geboku-release",
+      "title": "神代煌牙「マーメイドの下僕」公開",
+      "artistSlug": "koga-kamishiro",
+      "releaseSlug": "mermaid-no-geboku",
+      "publishedAt": "2026-08-08T20:00:06+09:00",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "image": "images/koga-mermaid-no-geboku.jpg",
+      "status": "published"
+    },
     {
       "slug": "hanakotoba-release",
       "title": "榎本魅愛「花言葉」公開",
@@ -2915,6 +3489,16 @@
       "publishedAt": "2026-08-07T20:00:28+09:00",
       "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
       "image": "images/enomoto-mia-hanakotoba.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "anata-dake-no-savior-release",
+      "title": "ASTERIA「あなただけのSAVIOR」公開",
+      "artistSlug": "asteria",
+      "releaseSlug": "anata-dake-no-savior",
+      "publishedAt": "2026-08-06T20:48:22+09:00",
+      "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "image": "images/asteria-anata-dake-no-savior.jpg",
       "status": "published"
     },
     {
@@ -3352,9 +3936,8 @@
       "label": "AIアイドル",
       "description": "AIアイドル／ガールグループの物語と音楽。",
       "match": {
-        "artistSlugs": [
-          "revive",
-          "rangili"
+        "genres": [
+          "アイドルポップ"
         ]
       }
     },
@@ -3435,9 +4018,8 @@
       "slug": "ai-idols",
       "label": "AIアイドル",
       "match": {
-        "artistSlugs": [
-          "revive",
-          "rangili"
+        "genres": [
+          "アイドルポップ"
         ]
       }
     },
@@ -3546,5 +4128,10 @@
       }
     ],
     "events": []
+  },
+  "youtubeSnapshot": {
+    "officialVideos": 42,
+    "shorts": 26,
+    "source": "official YouTube channel videos and shorts tabs via yt-dlp"
   }
 }

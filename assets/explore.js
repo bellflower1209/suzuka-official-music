@@ -32,6 +32,8 @@
         weekly.querySelector("[data-pick-genres]").textContent=item.genres.join(" · ");
         weekly.querySelector("[data-pick-release]").href=link(item.releaseUrl);
         weekly.querySelector("[data-pick-youtube]").href=item.youtubeUrl;
+        weekly.querySelector("[data-pick-artist-link]").href=link(`artists/${item.artistSlug}/`);
+        weekly.querySelector("[data-pick-lyrics]").href=item.lyricsAvailable?link(`lyrics/${item.slug}/`):link("lyrics/");
         const news=weekly.querySelector("[data-pick-news]"); if(item.newsUrl){news.href=link(item.newsUrl)}else{news.hidden=true}
       }
     }

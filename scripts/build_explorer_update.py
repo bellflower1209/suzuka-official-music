@@ -99,7 +99,7 @@ FEATURES = {
 }
 
 WIKI_PAGES = {
-    "artists": ("アーティスト", "7組のAIアーティストを、五十音・アルファベットから探せます。"),
+    "artists": ("アーティスト", "正本に登録されたAIアーティストを、五十音・アルファベットから探せます。"),
     "works": ("作品", "公開作品を作品名から探せるSUZUKA作品事典です。"),
     "terms": ("用語", "SUZUKAの世界観を理解するための主要用語を紹介します。"),
     "genres": ("ジャンル", "SUZUKA作品のジャンルと関連作品を整理します。"),
@@ -581,7 +581,7 @@ def universe_page(root: Path, releases: list[dict]) -> None:
         root / "universe/index.html",
         shell(
             "universe/", "SUZUKAの世界観｜AI音楽プロジェクト",
-            "SUZUKAとは何か、AI音楽プロジェクトの世界観、7組のアーティスト、代表作品、関係性、今後の展開を紹介します。",
+            "SUZUKAとは何か、AI音楽プロジェクトの世界観、所属アーティスト、代表作品、関係性、今後の展開を紹介します。",
             "SUZUKA UNIVERSE", body,
             [{"@type": "ItemList", "name": "SUZUKA Artists", "numberOfItems": len(ARTISTS), "itemListElement": [
                 {"@type": "ListItem", "position": i, "name": artist["name"], "url": f"{BASE}/artists/{slug}/"}
@@ -796,14 +796,14 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
     block = (
         '<!-- EXPLORER:HOME:START --><section class="explorer-home-update">'
         '<div class="explorer-section-heading"><p>SUZUKA EXPLORER UPDATE</p><h2>音楽世界を、もっと深く。</h2>'
-        f'<p>ランキング、特集、MV、世界観、Wikiから、{len(releases)}作品と7組のAIアーティストを横断できます。</p></div>'
+        f'<p>ランキング、特集、MV、世界観、Wikiから、{len(releases)}作品と{len(ARTISTS)}組のAIアーティストを横断できます。</p></div>'
         '<section><div class="explorer-home-heading"><h3>人気ランキング</h3><a href="./rankings/">すべて見る ↗</a></div>'
         f'<div class="explorer-ranking-grid">{"".join(card(item, "./", i) for i, item in enumerate(popular, 1))}</div></section>'
         '<section><div class="explorer-home-heading"><h3>おすすめ特集</h3><a href="./features/">すべて見る ↗</a></div>'
         f'<div class="explorer-feature-grid">{feature_cards}</div></section>'
         '<section class="explorer-home-portals">'
         f'<a href="./gallery/"><span>{len(releases)} WORKS</span><h3>MV GALLERY</h3><p>公式MVと制作ビジュアル</p></a>'
-        '<a href="./universe/"><span>7 ARTISTS</span><h3>UNIVERSE</h3><p>SUZUKAの世界観と関係性</p></a>'
+        f'<a href="./universe/"><span>{len(ARTISTS)} ARTISTS</span><h3>UNIVERSE</h3><p>SUZUKAの世界観と関係性</p></a>'
         '<a href="./wiki/"><span>OFFICIAL GUIDE</span><h3>SUZUKA WIKI</h3><p>作品・用語・公開年表</p></a></section>'
         '<section><div class="explorer-home-heading"><h3>最新News</h3><a href="./news/">News一覧 ↗</a></div>'
         '<div class="explorer-news-grid">' + "".join(

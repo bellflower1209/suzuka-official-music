@@ -12,6 +12,17 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/gallery/anata-dake-no-savior/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Z_IFHEG4CJA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>あなただけのSAVIOR Official MV</video:title>
+      <video:description>暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Z_IFHEG4CJA</video:player_loc>
+      <video:publication_date>2026-08-06T20:48:22+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/ashita-wa-kitto/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/5MkQZT5qiGA/maxresdefault.jpg</video:thumbnail_loc>
@@ -151,6 +162,17 @@
       <video:description>榎本魅愛「MERMAID×MERMAN」のSUZUKA公式作品ページ。</video:description>
       <video:player_loc>https://www.youtube.com/embed/29fpeNtUqfY</video:player_loc>
       <video:publication_date>2026-07-13T00:17:26+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/gallery/mermaid-no-geboku/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uibakv4n2Dg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>マーメイドの下僕 Official MV</video:title>
+      <video:description>おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/uibakv4n2Dg</video:player_loc>
+      <video:publication_date>2026-08-08T20:00:06+09:00</video:publication_date>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -458,6 +480,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/anata-dake-no-savior/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Z_IFHEG4CJA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>あなただけのSAVIOR Official Video</video:title>
+      <video:description>暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Z_IFHEG4CJA</video:content_loc>
+      <video:publication_date>2026-08-06T20:48:22+09:00</video:publication_date>
+      <video:duration>415</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/ashita-wa-kitto/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/5MkQZT5qiGA/maxresdefault.jpg</video:thumbnail_loc>
@@ -594,6 +628,18 @@
       <video:description>異なる世界に生きるふたりの出会いと恋を、海と人魚の幻想的なモチーフで描く「MERMAID×MERMAN」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=29fpeNtUqfY</video:content_loc>
       <video:publication_date>2026-07-13T00:17:26+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/mermaid-no-geboku/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uibakv4n2Dg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>マーメイドの下僕 Official Video</video:title>
+      <video:description>おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=uibakv4n2Dg</video:content_loc>
+      <video:publication_date>2026-08-08T20:00:06+09:00</video:publication_date>
+      <video:duration>351</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

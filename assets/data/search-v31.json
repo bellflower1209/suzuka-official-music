@@ -1,0 +1,290 @@
+{
+  "updatedAt": "2026-08-08T21:54:42+09:00",
+  "documents": [
+    {
+      "type": "News",
+      "title": "神代煌牙「マーメイドの下僕」公開",
+      "description": "おしゃべりな人魚姫を守りたい青年の恋を描く、神代煌牙の夏の物語。",
+      "url": "news/mermaid-no-geboku-release/",
+      "keywords": [
+        "koga-kamishiro",
+        "mermaid-no-geboku"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「花言葉」公開",
+      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "url": "news/hanakotoba-release/",
+      "keywords": [
+        "enomoto-mia",
+        "hanakotoba"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "ASTERIA「あなただけのSAVIOR」公開",
+      "description": "暗闇さえ星に変え、涙を光にするASTERIAの希望と寄り添いのアイドルソング。",
+      "url": "news/anata-dake-no-savior-release/",
+      "keywords": [
+        "asteria",
+        "anata-dake-no-savior"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "朝霧しのぶ「忘れじの人」公開",
+      "description": "記憶が薄れても残り続ける夫婦愛を歌う、朝霧しのぶのセカンドシングル。",
+      "url": "news/wasureji-no-hito-release/",
+      "keywords": [
+        "asagiri-shinobu",
+        "wasureji-no-hito"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「はじめまして、奇跡」公開",
+      "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。",
+      "url": "news/hajimemashite-kiseki-release/",
+      "keywords": [
+        "enomoto-mia",
+        "hajimemashite-kiseki"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "RE:VIVE「Still alive」公開",
+      "description": "立ち上がれる日までそばにいるという思いを描くRE:VIVEの2nd Single。",
+      "url": "news/still-alive-release/",
+      "keywords": [
+        "revive",
+        "still-alive"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "NOX「善人裁判」公開",
+      "description": "正義、偽善、無関心を問い、自分自身を裁く夜の法廷を描くNOXの2nd Single。",
+      "url": "news/zennin-saiban-release/",
+      "keywords": [
+        "nox",
+        "zennin-saiban"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "神代煌牙「One More Kiss」公開",
+      "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。",
+      "url": "news/one-more-kiss-release/",
+      "keywords": [
+        "koga-kamishiro",
+        "one-more-kiss"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "ECLYPSE「LOST SIGNAL」公開",
+      "description": "途切れた信号と失われない絆を、韓国語を中心としたダークK-POPサウンドで描くECLYPSEの3rd Single。",
+      "url": "news/lost-signal-release/",
+      "keywords": [
+        "eclypse",
+        "lost-signal"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「Without Worrying」公開",
+      "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。",
+      "url": "news/without-worrying-release/",
+      "keywords": [
+        "enomoto-mia",
+        "without-worrying"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "RANGILI「恋するマハラジャ」公開",
+      "description": "RANGILI「恋するマハラジャ」のSUZUKA公式作品ページ。",
+      "url": "news/koisuru-maharaja-release/",
+      "keywords": [
+        "rangili",
+        "koisuru-maharaja"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "NOX「チンパンジーの楽園」公開",
+      "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
+      "url": "news/chimpanzee-no-rakuen-release/",
+      "keywords": [
+        "nox",
+        "chimpanzee-no-rakuen"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「明日は、きっと。」公開",
+      "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
+      "url": "news/ashita-wa-kitto-release/",
+      "keywords": [
+        "enomoto-mia",
+        "ashita-wa-kitto"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "RE:VIVE「Heal You Again」公開",
+      "description": "傷ついた心に寄り添い、もう一度立ち上がる力を届けるRE:VIVEのデビュー作品。",
+      "url": "news/heal-you-again-release/",
+      "keywords": [
+        "revive",
+        "heal-you-again"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "神代 煌牙「Echoes of You」公開",
+      "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
+      "url": "news/echoes-of-you-release/",
+      "keywords": [
+        "koga-kamishiro",
+        "echoes-of-you"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "RANGILI「NAMASTE☆GALAXY」公開",
+      "description": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
+      "url": "news/namaste-galaxy-release/",
+      "keywords": [
+        "rangili",
+        "namaste-galaxy"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "朝霧しのぶ「忘れない心」公開",
+      "description": "認知症、家族、記憶、人生をテーマに、忘れても残る愛を歌う朝霧しのぶの演歌作品。",
+      "url": "news/wasurenai-kokoro-release/",
+      "keywords": [
+        "asagiri-shinobu",
+        "wasurenai-kokoro"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公開",
+      "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
+      "url": "news/smile-and-say-goodbye-release/",
+      "keywords": [
+        "enomoto-mia",
+        "smile-and-say-goodbye"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "神代 煌牙「My Queen, My Oath」公開",
+      "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
+      "url": "news/my-queen-my-oath-release/",
+      "keywords": [
+        "koga-kamishiro",
+        "my-queen-my-oath"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "ECLYPSE「RED MOON // RISING」公開",
+      "description": "赤い月と崩壊した近未来都市を舞台に、壊れたコードの先で5人の運命が再び動き始めるECLYPSEの2nd Single。",
+      "url": "news/red-moon-rising-release/",
+      "keywords": [
+        "eclypse",
+        "red-moon-rising"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「もしも明日、はじめましてになっても」公開",
+      "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
+      "url": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
+      "keywords": [
+        "enomoto-mia",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「取り扱いチュー💋い」公開",
+      "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
+      "url": "news/toriatsukai-chui-release/",
+      "keywords": [
+        "enomoto-mia",
+        "toriatsukai-chui"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "デビューシングル「SHADOW//CODE」を発表。",
+      "description": "ECLYPSE「SHADOW//CODE」のSUZUKA公式作品ページ。",
+      "url": "news/shadow-code-announcement/",
+      "keywords": [
+        "eclypse",
+        "shadow-code"
+      ]
+    },
+    {
+      "type": "News",
+      "title": "榎本魅愛「百万告」公開",
+      "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
+      "url": "news/hyakumankoku-release/",
+      "keywords": [
+        "enomoto-mia",
+        "hyakumankoku"
+      ]
+    },
+    {
+      "type": "Wiki",
+      "title": "SUZUKA",
+      "description": "音楽から新しい物語を始めるオリジナルAI音楽プロジェクト。",
+      "url": "wiki/terms/",
+      "keywords": [
+        "SUZUKA"
+      ]
+    },
+    {
+      "type": "Wiki",
+      "title": "AIアーティスト",
+      "description": "SUZUKAの作品世界に登場する架空のアーティスト表現。",
+      "url": "wiki/terms/",
+      "keywords": [
+        "AIアーティスト"
+      ]
+    },
+    {
+      "type": "Wiki",
+      "title": "Weekly Pick",
+      "description": "正本データから週ごとに決定的に選ばれるおすすめ作品。",
+      "url": "wiki/terms/",
+      "keywords": [
+        "Weekly Pick"
+      ]
+    },
+    {
+      "type": "Wiki",
+      "title": "recommendationWeight",
+      "description": "ランキングとおすすめに利用する推薦値。",
+      "url": "wiki/terms/",
+      "keywords": [
+        "recommendationWeight"
+      ]
+    },
+    {
+      "type": "Wiki",
+      "title": "Official MV",
+      "description": "公式YouTubeで公開確認した映像。",
+      "url": "wiki/terms/",
+      "keywords": [
+        "Official MV"
+      ]
+    }
+  ]
+}

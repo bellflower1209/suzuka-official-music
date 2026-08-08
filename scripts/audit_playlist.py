@@ -7,9 +7,12 @@ def main():
  data=json.loads((r/"assets/data/playlists.json").read_text())["playlists"]
  if len(data)!=12: errors.append(f"expected 12 playlists, found {len(data)}")
  by_slug={x["slug"]:x for x in data}
- for slug in ("love","latest","music-videos"):
+ for slug in ("love",):
   releases=by_slug.get(slug,{}).get("releaseSlugs",[])
   if not releases or releases[0]!="hanakotoba": errors.append(f"{slug}: hanakotoba must be first")
+ for slug in ("latest","music-videos"):
+  releases=by_slug.get(slug,{}).get("releaseSlugs",[])
+  if not releases or releases[0]!="mermaid-no-geboku": errors.append(f"{slug}: newest published release must be first")
  for x in data:
   path=r/f"playlists/{x['slug']}/index.html"
   if not path.is_file(): errors.append(f"missing {path.relative_to(r)}");continue

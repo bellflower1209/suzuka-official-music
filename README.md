@@ -29,6 +29,28 @@
 - `rankings/` / `features/` / `gallery/` / `universe/` / `wiki/`：SUZUKA Explorer Update
 - `.nojekyll`：GitHub Pages用設定
 
+## Creator Platform Version 3.1
+
+`assets/data/creator-cms.json`を公開情報の正本とし、HTMLを個別に直さず次の順で生成します。公開予定時刻に達しただけでは`published`へ変更せず、公式YouTubeで一般公開を確認してから正本の`status`を更新します。
+
+```bash
+python3 scripts/update_20260808_v31.py
+python3 scripts/build_explore_catalog.py
+python3 scripts/build_explore_catalog.py
+python3 scripts/audit_sync.py
+```
+
+Version 3.1では`/schedule/`、`/lyrics/`、Solo / Group対応の全Artistプロフィール、4区分の`/rankings/`を正本から生成します。歌詞詳細は`lyricsAvailable`、`lyricsSource`、`lyricsText`がすべて確認済みの作品だけを生成します。GA4・YouTube Analyticsの実測値がない場合は人気順位を作らず、`assets/data/analytics/`に準備中として保持します。
+
+追加監査：
+
+```bash
+python3 scripts/audit_artist_v31.py
+python3 scripts/audit_schedule.py
+python3 scripts/audit_lyrics.py
+python3 scripts/audit_v31.py
+```
+
 ## GitHub Pagesで公開する手順
 
 1. GitHubで新しいリポジトリを作成します。

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T23:41:22+09:00",
+  "updatedAt": "2026-08-08T21:54:42+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -56,9 +56,10 @@
       "description": "夏をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "kimi-wa-hanabi",
-        "mermaid-merman"
+        "mermaid-merman",
+        "mermaid-no-geboku"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "slug": "winter",
@@ -91,9 +92,10 @@
         "still-alive",
         "without-worrying",
         "heal-you-again",
+        "anata-dake-no-savior",
         "ashita-wa-kitto"
       ],
-      "count": 5
+      "count": 6
     },
     {
       "slug": "tearjerkers",
@@ -121,20 +123,18 @@
       "slug": "ai-idols",
       "label": "AIアイドル",
       "match": {
-        "artistSlugs": [
-          "revive",
-          "rangili"
+        "genres": [
+          "アイドルポップ"
         ]
       },
       "name": "AIアイドル",
       "description": "AIアイドルをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
-        "koisuru-maharaja",
         "still-alive",
         "heal-you-again",
-        "namaste-galaxy"
+        "anata-dake-no-savior"
       ],
-      "count": 4
+      "count": 3
     },
     {
       "slug": "k-pop",
@@ -222,8 +222,10 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
+        "anata-dake-no-savior",
         "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
@@ -239,9 +241,7 @@
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku"
+        "my-queen-my-oath"
       ],
       "count": 20
     },
@@ -254,7 +254,9 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "mermaid-no-geboku",
         "hanakotoba",
+        "anata-dake-no-savior",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
         "still-alive",
@@ -271,9 +273,7 @@
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "my-queen-my-oath",
-        "red-moon-rising",
-        "suki-ga-kyou-mo-fueteiku"
+        "my-queen-my-oath"
       ],
       "count": 20
     }

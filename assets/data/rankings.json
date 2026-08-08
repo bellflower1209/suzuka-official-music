@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "mermaid-no-geboku",
         "hanakotoba",
+        "anata-dake-no-savior",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
         "lost-signal",
-        "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen"
+        "without-worrying"
       ]
     },
     "love": {
@@ -43,21 +43,23 @@
         "koisuru-maharaja",
         "smile-and-say-goodbye",
         "my-queen-my-oath",
-        "suki-ga-kyou-mo-fueteiku",
         "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "suki-ga-kyou-mo-fueteiku",
         "toriatsukai-chui"
       ]
     },
     "summer": {
       "label": "夏ソングTOP10",
       "items": [
-        "mermaid-merman",
-        "kimi-wa-hanabi"
+        "mermaid-no-geboku",
+        "kimi-wa-hanabi",
+        "mermaid-merman"
       ]
     },
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "anata-dake-no-savior",
         "hajimemashite-kiseki",
         "still-alive",
         "without-worrying",
@@ -90,7 +92,8 @@
         "asagiri-shinobu",
         "revive",
         "rangili",
-        "nox"
+        "nox",
+        "asteria"
       ]
     },
     "genres": {
@@ -101,17 +104,17 @@
         "ダークポップ",
         "バラード",
         "ロック",
+        "アイドルポップ",
         "K-POP風",
+        "ファンタジーポップ",
         "演歌",
         "歌謡曲",
-        "アイドルポップ",
         "V系",
         "ダークロック",
         "インド×J-POP",
         "シネマティック",
         "サイバーパンク",
         "EDM",
-        "ファンタジーポップ",
         "サマーポップ"
       ]
     },

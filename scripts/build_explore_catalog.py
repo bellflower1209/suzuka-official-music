@@ -128,7 +128,7 @@ def catalog(root: Path) -> dict:
     if cms_path.exists():
         cms = json.loads(cms_path.read_text(encoding="utf-8"))
         items = [dict(item) for item in cms["releases"] if item.get("status") == "published"]
-        items.sort(key=lambda x: (x["releaseDate"], x["slug"]), reverse=True)
+        items.sort(key=lambda x: (x.get("publishedAt", x["releaseDate"]), x["slug"]), reverse=True)
         upcoming = [dict(item) for item in cms.get("upcoming", []) if item.get("status") == "upcoming"]
         return {"updatedAt": cms["updatedAt"], "releases": items, "upcoming": upcoming}
     source = json.loads((root / "assets/data/release-links.json").read_text(encoding="utf-8"))
@@ -276,13 +276,14 @@ def update_home_status(root: Path, data: dict) -> None:
     path = root / "index.html"
     text = path.read_text(encoding="utf-8")
     latest = data["releases"][0]
-    hero_config = latest.get("homeHero", {})
+    hero_item = next((item for item in data["releases"] if item.get("homeHero")), latest)
+    hero_config = hero_item.get("homeHero", {})
     home_title = hero_config.get("title", "SUZUKA | Official Music Label")
     home_description = hero_config.get(
         "description",
         "音楽レーベルSUZUKAの公式サイト。所属アーティスト、最新リリース、音楽作品、ニュースを紹介します。",
     )
-    hero_subtitle = hero_config.get("subtitle", f'{latest["artist"]} New Single')
+    hero_subtitle = hero_config.get("subtitle", f'{hero_item["artist"]} New Single')
     hero_status = hero_config.get("status", "Now Streaming")
     hero = (
         '<section class="hero latest-release-hero hanakotoba-hero" aria-labelledby="hero-title" data-home-hero>'
@@ -290,16 +291,17 @@ def update_home_status(root: Path, data: dict) -> None:
         '<span></span><span></span><span></span><span></span><span></span></div>'
         '<div class="hanakotoba-copy"><p class="hanakotoba-status"><i></i>'
         f'{html.escape(hero_status)}</p><p class="hanakotoba-subtitle">{html.escape(hero_subtitle)}</p>'
-        f'<h1 id="hero-title">{html.escape(latest["title"])}</h1>'
-        f'<p class="hanakotoba-lead">{html.escape(latest["description"])}</p>'
-        f'<div class="hanakotoba-actions" aria-label="最新リリース {html.escape(latest["title"])}のメニュー">'
-        f'<a class="button hanakotoba-button-primary" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a>'
-        f'<a class="button hanakotoba-button-secondary" href="./{latest["releaseUrl"]}">楽曲ページ</a>'
-        f'<a class="button hanakotoba-button-secondary" href="./gallery/{latest["slug"]}/">Gallery</a></div>'
+        f'<h1 id="hero-title">{html.escape(hero_item["title"])}</h1>'
+        f'<p class="hanakotoba-lead">{html.escape(hero_item["description"])}</p>'
+        f'<div class="hanakotoba-actions" aria-label="注目作品 {html.escape(hero_item["title"])}のメニュー">'
+        f'<a class="button hanakotoba-button-primary" href="{hero_item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./{hero_item["releaseUrl"]}">楽曲ページ</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./gallery/{hero_item["slug"]}/">Gallery</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./artists/{hero_item["artistSlug"]}/">Artist</a></div>'
         '<p class="hanakotoba-project">SUZUKA Original AI Music Project</p></div>'
         '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
-        f'<img src="./{latest["coverImage"]}" alt="{html.escape(latest["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
-        f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(latest["artist"])} / {latest["releaseDate"].replace("-", ".")}</p></div>'
+        f'<img src="./{hero_item["coverImage"]}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
+        f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(hero_item["artist"])} / {hero_item["releaseDate"].replace("-", ".")}</p></div>'
         '<a class="hanakotoba-scroll" href="#latest">Scroll to discover <i></i></a></section>'
     )
     text = re.sub(
@@ -315,7 +317,7 @@ def update_home_status(root: Path, data: dict) -> None:
         'description': home_description,
         'twitter:title': home_title,
         'twitter:description': home_description,
-        'twitter:image': f'{BASE}/{latest["coverImage"]}',
+        'twitter:image': f'{BASE}/{hero_item["coverImage"]}',
     }
     for name, value in replacements.items():
         text = re.sub(
@@ -327,10 +329,10 @@ def update_home_status(root: Path, data: dict) -> None:
     property_replacements = {
         'og:title': home_title,
         'og:description': home_description,
-        'og:image': f'{BASE}/{latest["coverImage"]}',
+        'og:image': f'{BASE}/{hero_item["coverImage"]}',
         'og:image:width': '1280',
         'og:image:height': '720',
-        'og:image:alt': latest["coverAlt"],
+        'og:image:alt': hero_item["coverAlt"],
     }
     for prop, value in property_replacements.items():
         text = re.sub(
@@ -341,7 +343,7 @@ def update_home_status(root: Path, data: dict) -> None:
         )
     text = re.sub(
         r'<link rel="preload" href="[^"]+" as="image" fetchPriority="high"\s*/>',
-        f'<link rel="preload" href="./{latest["coverImage"]}" as="image" fetchPriority="high"/>',
+        f'<link rel="preload" href="./{hero_item["coverImage"]}" as="image" fetchPriority="high"/>',
         text,
         count=1,
     )
@@ -354,40 +356,41 @@ def update_home_status(root: Path, data: dict) -> None:
         schema = json.loads(match.group(1))
         graph = schema.get("@graph", [])
         graph = [node for node in graph if node.get("@id") not in {
-            f"{BASE}/#latest-recording", f"{BASE}/#latest-video"
+            f"{BASE}/#latest-recording", f"{BASE}/#latest-video",
+            f"{BASE}/#hero-recording", f"{BASE}/#hero-video",
         }]
         for node in graph:
             if node.get("@type") == "Organization":
-                node["image"] = {"@type": "ImageObject", "url": f'{BASE}/{latest["coverImage"]}'}
+                node["image"] = {"@type": "ImageObject", "url": f'{BASE}/{hero_item["coverImage"]}'}
             if node.get("@type") == "WebPage":
                 node["name"] = home_title
                 node["description"] = home_description
-                node["mainEntity"] = {"@id": f"{BASE}/#latest-recording"}
+                node["mainEntity"] = {"@id": f"{BASE}/#hero-recording"}
                 node["primaryImageOfPage"] = {
-                    "@type": "ImageObject", "url": f'{BASE}/{latest["coverImage"]}'
+                    "@type": "ImageObject", "url": f'{BASE}/{hero_item["coverImage"]}'
                 }
-        video_id = latest["youtubeUrl"].split("=")[-1]
+        video_id = hero_item["youtubeUrl"].split("=")[-1]
         graph.extend([
             {
-                "@type": "MusicRecording", "@id": f"{BASE}/#latest-recording",
-                "name": latest["title"], "url": f'{BASE}/{latest["releaseUrl"]}',
-                "image": f'{BASE}/{latest["coverImage"]}', "datePublished": latest["releaseDate"],
-                "description": latest["description"],
+                "@type": "MusicRecording", "@id": f"{BASE}/#hero-recording",
+                "name": hero_item["title"], "url": f'{BASE}/{hero_item["releaseUrl"]}',
+                "image": f'{BASE}/{hero_item["coverImage"]}', "datePublished": hero_item["releaseDate"],
+                "description": hero_item["description"],
                 "byArtist": {
-                    "@type": latest["artistType"], "name": latest["artist"],
+                    "@type": hero_item["artistType"], "name": hero_item["artist"],
                     "description": "SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。",
                 },
-                "subjectOf": {"@id": f"{BASE}/#latest-video"},
+                "subjectOf": {"@id": f"{BASE}/#hero-video"},
             },
             {
-                "@type": "VideoObject", "@id": f"{BASE}/#latest-video",
-                "name": f'{latest["title"]} 公式動画', "description": latest["description"],
-                "thumbnailUrl": [f'{BASE}/{latest["coverImage"]}'],
-                "contentUrl": latest["youtubeUrl"],
+                "@type": "VideoObject", "@id": f"{BASE}/#hero-video",
+                "name": f'{hero_item["title"]} 公式動画', "description": hero_item["description"],
+                "thumbnailUrl": [f'{BASE}/{hero_item["coverImage"]}'],
+                "contentUrl": hero_item["youtubeUrl"],
                 "embedUrl": f"https://www.youtube.com/embed/{video_id}",
-                "uploadDate": latest["videoPublishedAt"],
-                "duration": f'PT{latest["duration"] // 60}M{latest["duration"] % 60}S',
-                "about": {"@id": f"{BASE}/#latest-recording"},
+                "uploadDate": hero_item["videoPublishedAt"],
+                "duration": f'PT{hero_item["duration"] // 60}M{hero_item["duration"] % 60}S',
+                "about": {"@id": f"{BASE}/#hero-recording"},
             },
         ])
         schema["@graph"] = graph
@@ -457,6 +460,18 @@ def update_directories(root: Path, data: dict) -> None:
         if href not in news:
             card = f'<article class="news-directory-card"><a href="{href}"><span class="news-directory-image"><img src="../{item["coverImage"]}" alt="{html.escape(item["title"])}公開News" width="1280" height="720" loading="lazy"/></span><span class="news-directory-meta"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><em>OFFICIAL RELEASE</em></span><h2>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開</h2><p>{html.escape(item["description"])}</p><b>記事を読む ↗</b></a></article>'
             news = news.replace('<div class="news-list news-feature-list">', '<div class="news-list news-feature-list">' + card, 1)
+    newest_cards = []
+    for item in newest:
+        pattern = rf'<article class="news-directory-card"><a href="\./{re.escape(item["slug"])}-release/".*?</article>'
+        match = re.search(pattern, news, re.DOTALL)
+        if match:
+            newest_cards.append(match.group(0))
+            news = news[:match.start()] + news[match.end():]
+    news = news.replace(
+        '<div class="news-list news-feature-list">',
+        '<div class="news-list news-feature-list">' + "".join(newest_cards),
+        1,
+    )
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     news_entries = [item for item in cms.get("news", []) if item.get("status") == "published"]
     news_schema_match = re.search(r'<script type="application/ld\+json">(.*?)</script>', news, re.DOTALL)
@@ -734,6 +749,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_creator_platform.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_creator_platform_v31.py")), "--root", str(ROOT)],
         cwd=ROOT,
         check=True,
     )

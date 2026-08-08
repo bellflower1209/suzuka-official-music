@@ -47,10 +47,12 @@
       schemaArtist || (pageArtist ? document.querySelector("h1")?.textContent : "")
     );
     return {
-      work_title: title,
-      release_slug: clean(slug),
-      artist_name: artist,
-      link_url: safeLink(anchor.href),
+      work_title: title, title,
+      release_slug: clean(slug), slug: clean(slug),
+      artist_name: artist, artist,
+      link_url: safeLink(anchor.href), destination_url: safeLink(anchor.href),
+      current_page: safePageUrl,
+      source_section: clean(context.getAttribute?.('data-ranking-section') || context.className || 'page'),
       content_type: clean(
         anchor.closest("[data-weekly-pick]") ? "weekly_pick" :
         linkedPath.includes("/releases/") ? "release" :
@@ -76,6 +78,13 @@
       (path === "/watch" || host === "youtu.be" || path.includes("/shorts/"));
     const details = detailsFor(anchor);
     if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);
+    if (anchor.closest(".v31-home-next")) send("next_release_click", details);
+    if (anchor.closest("[data-countdown]")) send("countdown_click", details);
+    if (anchor.closest("[data-upcoming]")) send("upcoming_click", details);
+    if (anchor.closest("[data-latest-release]")) send("latest_release_click", details);
+    if (url.origin === location.origin && /\/lyrics\/(?:[^/]+\/?)?$/.test(path)) send("lyrics_click", details);
+    if (url.origin === location.origin && /\/rankings\/?$/.test(path)) send("ranking_click", details);
+    if (url.origin === location.origin && /\/schedule\/?$/.test(path)) send("schedule_click", details);
     if (youtubeChannel) send("youtube_click", details);
     else if (youtubeVideo && path.includes("/shorts/")) send("shorts_click", details);
     else if (youtubeVideo) send("official_mv_click", details);

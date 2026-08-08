@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-07T23:41:22+09:00",
+  "evidenceCheckedAt": "2026-08-08T21:54:42+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 174,
-    "videoObjects": 73,
+    "jsonLdBlocks": 181,
+    "videoObjects": 77,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,7 +436,7 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 68,
+  "fixedVideoObjectCount": 72,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
@@ -450,10 +450,15 @@
       "verifiedDate": "2026-08-02"
     },
     {
-      "releaseSlug": "mermaid-no-geboku",
-      "youtubeId": "uibakv4n2Dg",
-      "verifiedDate": "2026-08-02"
+      "releaseSlug": "kimi-wa-makenai",
+      "youtubeId": "K_YN2bNRjY0",
+      "verifiedDate": ""
+    },
+    {
+      "releaseSlug": "leo-rise-again",
+      "youtubeId": "RRgMeJzb5PU",
+      "verifiedDate": ""
     }
   ],
-  "heldReleaseCount": 2
+  "heldReleaseCount": 3
 }

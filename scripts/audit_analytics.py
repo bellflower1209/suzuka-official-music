@@ -10,6 +10,8 @@ EVENTS = (
     "search_use", "playlist_click", "weekly_pick_click", "artist_click",
     "news_click", "gallery_click", "wiki_click", "universe_click",
     "community_click", "shorts_click", "outbound_click",
+    "next_release_click", "countdown_click", "upcoming_click",
+    "latest_release_click", "lyrics_click", "ranking_click", "schedule_click",
 )
 
 def main() -> int:
