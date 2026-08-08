@@ -1,0 +1,27 @@
+{
+  "auditedAt": "2026-08-08T23:30:00+09:00",
+  "photobookSlug": "enomoto-mia-natsu-ga-owaru-made-soba-ni-ite",
+  "title": "榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』",
+  "sourcesInspected": [
+    "https://note.com/1209bellflower/n/n861837f256fa",
+    "assets/data/photobooks.json",
+    "assets/data/creator-cms.json",
+    "assets/data/releases-catalog.json",
+    "assets/data/release-links.json",
+    "gallery/",
+    "news/",
+    "docs/"
+  ],
+  "noteEvidence": {
+    "checkedAt": "2026-08-08T23:30:00+09:00",
+    "pageTitle": "榎本魅愛2nd Digital Photo Story『夏が終わるまで、そばにいて。』",
+    "namedSuzukaRelease": null,
+    "directReleaseLink": null
+  },
+  "result": "related-release-unconfirmed",
+  "relatedReleaseSlugs": [],
+  "excludedInference": {
+    "slug": "kimi-wa-hanabi",
+    "reason": "夏・花火という題材の類似だけで、note本文または正本データに直接関係を示す記述がないため紐付けない"
+  }
+}

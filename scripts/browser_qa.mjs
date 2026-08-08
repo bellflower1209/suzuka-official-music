@@ -144,7 +144,7 @@ async function analyticsClick(route, selector, expectedEvents) {
   const url = new URL(route, base).href;
   await send("Page.navigate", {url});
   await waitForPageReady(url);
-  const checked = await send("Runtime.evaluate", {expression:`(async()=>{const anchor=document.querySelector(${JSON.stringify(selector)});if(!anchor)return {missing:true};const before=(window.dataLayer||[]).length;anchor.addEventListener("click",event=>event.preventDefault(),{once:true});anchor.dispatchEvent(new MouseEvent("click",{bubbles:true,cancelable:true}));await new Promise(resolve=>setTimeout(resolve,150));const events=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event").map(item=>item[1]);return {events};})()`, awaitPromise:true, returnByValue:true});
+  const checked = await send("Runtime.evaluate", {expression:`(async()=>{const anchor=document.querySelector(${JSON.stringify(selector)});if(!anchor)return {missing:true};const before=(window.dataLayer||[]).length;anchor.addEventListener("click",event=>event.preventDefault(),{once:true});anchor.dispatchEvent(new MouseEvent("click",{bubbles:true,cancelable:true}));await new Promise(resolve=>setTimeout(resolve,150));const events=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event").map(item=>item[1]);return {events,href:anchor.href,analyticsLoaded:!![...document.scripts].find(script=>script.src.endsWith("assets/analytics.js")),gtagType:typeof window.gtag};})()`, awaitPromise:true, returnByValue:true});
   const value = checked.result.value;
   if (value.missing || expectedEvents.some(name => !value.events.includes(name))) {
     results.push({route, analyticsSelector:selector, expectedEvents, analyticsResult:value});

@@ -67,6 +67,15 @@ def main() -> int:
     for parameter in ("photobook_title", "artist", "source_section", "destination_url", "current_page"):
         if parameter not in analytics:
             errors.append(f"analytics missing photobook parameter: {parameter}")
+    for item in published:
+        for release_slug in item.get("relatedReleaseSlugs", []):
+            for linked_page in (root / f"gallery/{release_slug}/index.html", root / f"news/{release_slug}-release/index.html"):
+                if not linked_page.is_file():
+                    continue
+                linked_text = linked_page.read_text(encoding="utf-8")
+                for attribute in (f'data-slug="{item["slug"]}"', f'data-title="{item["title"]}"', 'data-artist="'):
+                    if attribute not in linked_text:
+                        errors.append(f"{linked_page.relative_to(root)}: photobook analytics context missing {attribute}")
     if re.search(r'https?://[^\s\"\']*note\.com', json.dumps(books, ensure_ascii=False)) and not published:
         errors.append("note URL exists without a published record")
     if errors:

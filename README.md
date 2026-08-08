@@ -1,6 +1,6 @@
 # SUZUKA 公式音楽サイト — GitHub Pages版
 
-音楽レーベルSUZUKAの公式サイトを、GitHub Pagesでそのまま公開できる静的HTMLとして管理するパッケージです。SEO上の正式な本家とコンテンツ取得元は、どちらもGitHub Pages版へ統一しています。Node.jsやビルド作業は不要です。
+音楽レーベルSUZUKAの公式サイトを、GitHub Pagesで公開する静的HTMLとして管理するパッケージです。SEO上の正式な本家とコンテンツ取得元は、どちらもGitHub Pages版へ統一しています。公開物はPythonの正本同期で生成し、GitHub ActionsはNode.js 24環境で監査・デプロイします。
 
 ## 収録内容
 
@@ -60,9 +60,11 @@ python3 scripts/audit_v31.py
 1. GitHubで新しいリポジトリを作成します。
 2. このフォルダー内のファイルとフォルダーを、すべてリポジトリ直下へアップロードします。
 3. GitHubの `Settings` → `Pages` を開きます。
-4. `Build and deployment` のSourceを `Deploy from a branch` にします。
-5. Branchを `main`、フォルダーを `/(root)` に設定して保存します。
+4. `Build and deployment` のSourceを `GitHub Actions` にします。
+5. `main`へのpush後、`Deploy GitHub Pages` workflowの成功を確認します。
 6. 数分後に表示されるGitHub PagesのURLを開きます。
+
+`.github/workflows/pages.yml`と`.github/workflows/indexnow.yml`は、Node.js 24対応版の公式Actionを利用します。`FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true`を指定して旧Node.jsランタイムへの依存を検出し、`ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION`やNode.js 20への回避設定は使用しません。
 
 内部ページ、CSS、JavaScript、画像はすべて相対パスのため、`https://ユーザー名.github.io/リポジトリ名/`の形式でも動作します。
 

@@ -74,8 +74,9 @@ def main() -> int:
     required_workflow_markers = (
         "branches: [main]", "pages/deployments/$GITHUB_SHA", "pages/builds?per_page=100",
         'select(.status == "built")', "Using previous successful Pages build",
-        "scripts/submit_indexnow.py --submit", "actions/cache/restore@v4",
-        "actions/cache/save@v4", "actions/upload-artifact@v4", "urlCount",
+        "scripts/submit_indexnow.py --submit", "actions/cache/restore@v6",
+        "actions/cache/save@v6", "actions/upload-artifact@v7", "urlCount",
+        "FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true",
         "set -o pipefail", "2>&1 | tee",
     )
     for marker in required_workflow_markers:

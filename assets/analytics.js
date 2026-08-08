@@ -32,7 +32,7 @@
   const schemaTitle = clean(recording.name);
   const contextFor = anchor => anchor.closest(
     "[data-weekly-pick],.explorer-release-card,.explore-card,.release-card,.timeline-item,.gallery-card,article,section"
-  ) || document;
+  ) || document.body;
   const detailsFor = anchor => {
     const context = contextFor(anchor);
     const linkedPath = new URL(anchor.href, location.href).pathname;

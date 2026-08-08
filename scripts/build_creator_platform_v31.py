@@ -299,11 +299,16 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
     return published
 
 
-def photobook_crosslinks(root: Path, photobooks: list[dict]) -> None:
+def photobook_crosslinks(root: Path, photobooks: list[dict], cms: dict) -> None:
     """Link existing Gallery and News pages only when a verified photobook exists."""
+    artist_names = {artist["slug"]: artist["name"] for artist in cms.get("artists", [])}
     for item in photobooks:
+        artist_name = artist_names.get(item.get("artistSlug"), "")
         link = (
-            '<section class="creator-copy v31-photobook-crosslink" data-photobook>'
+            '<section class="creator-copy v31-photobook-crosslink" data-photobook '
+            f'data-slug="{html.escape(item["slug"])}" '
+            f'data-title="{html.escape(item["title"])}" '
+            f'data-artist="{html.escape(artist_name)}">'
             '<p class="section-kicker">OFFICIAL PHOTOBOOK</p>'
             f'<h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
             f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a>'
@@ -777,7 +782,7 @@ def main() -> None:
     upcoming_pages(root, upcoming)
     lyrics = lyrics_pages(root, releases)
     photobooks = photobook_pages(root, cms, releases)
-    photobook_crosslinks(root, photobooks)
+    photobook_crosslinks(root, photobooks, cms)
     rankings = rankings_v31(root, cms, releases)
     artist_pages(root, cms, releases, upcoming, lyrics, photobooks)
     search_v31(root, cms, releases, lyrics, photobooks)
