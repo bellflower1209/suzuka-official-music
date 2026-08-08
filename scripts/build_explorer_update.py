@@ -236,6 +236,11 @@ def shell(
 
 def card(item: dict, p: str, rank: int | None = None) -> str:
     news = f'<a href="{p}{item["newsUrl"]}">News</a>' if item.get("newsUrl") else ""
+    lyrics = (
+        f'<a href="{p}lyrics/{item["slug"]}/">歌詞</a>'
+        if item.get("lyricsAvailable") and item.get("lyricsVerified") is True
+        else ""
+    )
     rank_html = f'<strong class="explorer-rank-number">{rank:02d}</strong>' if rank else ""
     return (
         f'<article class="explorer-release-card">{rank_html}'
@@ -246,7 +251,7 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
         '<div class="explore-actions">'
         f'<a href="{p}{item["releaseUrl"]}">作品ページ</a>'
         f'<a href="{p}artists/{item["artistSlug"]}/">Artist</a>'
-        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MV ↗</a>{news}'
+        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MV ↗</a>{lyrics}{news}'
         "</div></div></article>"
     )
 

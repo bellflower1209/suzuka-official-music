@@ -44,6 +44,14 @@ Version 3.1では`/schedule/`、`/lyrics/`、Solo / Group対応の全Artistプ�
 
 歌詞はさらに`lyricsVerified=true`と`lyricsVerifiedAt`を必須とし、全文・出典・確認日時が揃わない作品は詳細ページを生成しません。note写真集は`assets/data/photobooks.json`を正本とし、正式URLを確認できた`published`レコードだけを`/photobooks/`、Top、Artist、Gallery、News、Search、sitemap、feedへ反映します。note URL、歌詞、価格は推測して登録しません。
 
+公式歌詞Version 1.0は、ユーザー本人から提供された10ファイルをSHA-256で照合して`creator-cms.json`と`releases-catalog.json`へ登録しています。照合情報は`assets/data/lyrics-sources.json`へ保存し、本文を生成・補完・改変しません。予約中作品の歌詞は正本登録のみ行い、作品が正式公開されるまでLyricsページ・sitemap・feedへ出しません。再取込時は、提供ファイルを置いたフォルダーと確認日時を明示します。
+
+```bash
+python3 scripts/import_official_lyrics_v1.py \
+  --source-dir /path/to/official-lyrics \
+  --verified-at 2026-08-09T00:28:12+09:00
+```
+
 追加監査：
 
 ```bash
@@ -51,6 +59,7 @@ python3 scripts/audit_artist_v31.py
 python3 scripts/audit_schedule.py
 python3 scripts/audit_lyrics.py
 python3 scripts/audit_lyrics_sources.py --write
+python3 scripts/audit_readability.py
 python3 scripts/audit_photobooks.py
 python3 scripts/audit_v31.py
 ```

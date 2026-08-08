@@ -821,7 +821,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for release in UNPUBLISHED_MIA
         if release.get("status") == "upcoming"
     }
-    explorer_hub_roots = {"features", "gallery", "wiki", "playlists", "en"}
+    explorer_hub_roots = {"features", "gallery", "wiki", "playlists", "lyrics", "en"}
     direct_home_required = {
         url
         for url, path in expected_urls.items()

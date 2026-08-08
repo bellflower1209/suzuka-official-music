@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-08T22:58:00+09:00</updated>
+  <updated>2026-08-09T00:28:12+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
@@ -11,7 +11,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=RRgMeJzb5PU</id>
     <title>Upcoming｜神代煌牙「LEO — Rise Again —」</title>
-    <updated>2026-08-08T22:58:00+09:00</updated>
+    <updated>2026-08-09T00:28:12+09:00</updated>
     <link href="https://www.youtube.com/watch?v=RRgMeJzb5PU" />
     <category term="upcoming" />
     <summary>2026-08-10T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -19,7 +19,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=K_YN2bNRjY0</id>
     <title>Upcoming｜榎本魅愛「君は負けない」</title>
-    <updated>2026-08-08T22:58:00+09:00</updated>
+    <updated>2026-08-09T00:28:12+09:00</updated>
     <link href="https://www.youtube.com/watch?v=K_YN2bNRjY0" />
     <category term="upcoming" />
     <summary>2026-08-11T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -27,10 +27,91 @@
   <entry>
     <id>https://www.youtube.com/watch?v=iEFPd6kYYJc</id>
     <title>Upcoming｜榎本魅愛「君にかかった魔法」</title>
-    <updated>2026-08-08T22:58:00+09:00</updated>
+    <updated>2026-08-09T00:28:12+09:00</updated>
     <link href="https://www.youtube.com/watch?v=iEFPd6kYYJc" />
     <category term="upcoming" />
     <summary>2026-08-09T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/zennin-saiban/</id>
+    <title>公式歌詞｜NOX「善人裁判」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/zennin-saiban/" />
+    <category term="lyrics" />
+    <summary>NOX「善人裁判」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/wasureji-no-hito/</id>
+    <title>公式歌詞｜朝霧しのぶ「忘れじの人」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/wasureji-no-hito/" />
+    <category term="lyrics" />
+    <summary>朝霧しのぶ「忘れじの人」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/toriatsukai-chui/</id>
+    <title>公式歌詞｜榎本魅愛「取り扱いチュー💋い」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/toriatsukai-chui/" />
+    <category term="lyrics" />
+    <summary>榎本魅愛「取り扱いチュー💋い」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/mermaid-no-geboku/</id>
+    <title>公式歌詞｜神代煌牙「マーメイドの下僕」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/mermaid-no-geboku/" />
+    <category term="lyrics" />
+    <summary>神代煌牙「マーメイドの下僕」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/hyakumankoku/</id>
+    <title>公式歌詞｜榎本魅愛「百万告」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/hyakumankoku/" />
+    <category term="lyrics" />
+    <summary>榎本魅愛「百万告」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/hanakotoba/</id>
+    <title>公式歌詞｜榎本魅愛「花言葉」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/hanakotoba/" />
+    <category term="lyrics" />
+    <summary>榎本魅愛「花言葉」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/chimpanzee-no-rakuen/</id>
+    <title>公式歌詞｜NOX「チンパンジーの楽園」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/chimpanzee-no-rakuen/" />
+    <category term="lyrics" />
+    <summary>NOX「チンパンジーの楽園」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/ashita-wa-kitto/</id>
+    <title>公式歌詞｜榎本魅愛「明日は、きっと。」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/ashita-wa-kitto/" />
+    <category term="lyrics" />
+    <summary>榎本魅愛「明日は、きっと。」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T00:28:12+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/anata-dake-no-savior/</id>
+    <title>公式歌詞｜ASTERIA「あなただけのSAVIOR」</title>
+    <updated>2026-08-09T00:28:12+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/anata-dake-no-savior/" />
+    <category term="lyrics" />
+    <summary>ASTERIA「あなただけのSAVIOR」の出典確認済み公式歌詞。</summary>
   </entry>
   <entry>
     <published>2026-08-08T20:00:06+09:00</published>

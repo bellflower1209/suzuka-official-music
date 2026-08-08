@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:58:00+09:00",
+  "updatedAt": "2026-08-09T00:28:12+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -1181,6 +1181,115 @@
       "url": "wiki/terms/",
       "keywords": [
         "Official MV"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "マーメイドの下僕",
+      "description": "神代煌牙公式歌詞",
+      "url": "lyrics/mermaid-no-geboku/",
+      "keywords": [
+        "神代煌牙",
+        "J-POP",
+        "ファンタジーポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "花言葉",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/hanakotoba/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード",
+        "ロマンティックポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "あなただけのSAVIOR",
+      "description": "ASTERIA公式歌詞",
+      "url": "lyrics/anata-dake-no-savior/",
+      "keywords": [
+        "ASTERIA",
+        "J-POP",
+        "アイドルポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "忘れじの人",
+      "description": "朝霧しのぶ公式歌詞",
+      "url": "lyrics/wasureji-no-hito/",
+      "keywords": [
+        "朝霧しのぶ",
+        "演歌",
+        "歌謡曲"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "善人裁判",
+      "description": "NOX公式歌詞",
+      "url": "lyrics/zennin-saiban/",
+      "keywords": [
+        "NOX",
+        "V系",
+        "ダークロック"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "チンパンジーの楽園",
+      "description": "NOX公式歌詞",
+      "url": "lyrics/chimpanzee-no-rakuen/",
+      "keywords": [
+        "NOX",
+        "V系",
+        "ダークロック"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "明日は、きっと。",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/ashita-wa-kitto/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "バラード"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "取り扱いチュー💋い",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/toriatsukai-chui/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "百万告",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/hyakumankoku/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ"
       ]
     },
     {

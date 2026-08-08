@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-09T00:28:12+09:00",
+  "policy": "ユーザー本人が提供した公式歌詞正本のみ。本文の生成・補完・改変は禁止。",
+  "sources": [
+    {
+      "slug": "anata-dake-no-savior",
+      "title": "あなただけのSAVIOR",
+      "filename": "anata-dake-no-savior_official_lyrics.txt",
+      "sha256": "fd6295b8181a509393036862377b31edbff0a60ccfa482678095a61a1c3aed57",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "ashita-wa-kitto",
+      "title": "明日は、きっと。",
+      "filename": "ashita_wa_kitto_official_lyrics.txt",
+      "sha256": "f49cd476a892204a36d7ae0d6b8e06362ccbceb9f7a5d5f6f92d7693c42e1cc9",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "chimpanzee-no-rakuen",
+      "title": "チンパンジーの楽園",
+      "filename": "chimpanzee_no_rakuen_official_lyrics.txt",
+      "sha256": "dc97bbd61a4d3abb9c70149c34eb3009683800cc5ddb49655c1e476e44cbe13f",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "hanakotoba",
+      "title": "花言葉",
+      "filename": "hanakotoba_official_lyrics.txt",
+      "sha256": "558dfe2fa95a4680001f3d0722eb13d69411e52a51df4018555e2420411b39c2",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "hyakumankoku",
+      "title": "百万告",
+      "filename": "hyakumankoku_official_lyrics.txt",
+      "sha256": "cb8a8e14065e7b82815a5f03920b17685cb37c066b570c7c2ce12636d70726ea",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "leo-rise-again",
+      "title": "LEO — Rise Again —",
+      "filename": "leo_rise_again_official_lyrics.txt",
+      "sha256": "b54e3d835618b285183e8434e67d03ff2b49c231025dc439f8eebd06945560da",
+      "publishedAtImport": false
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "filename": "mermaid_no_geboku_official_lyrics.txt",
+      "sha256": "0731d7fba19fb19e7739cfd220b32d3f9e2946cf89dc7fa06490efe263a6713d",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "toriatsukai-chui",
+      "title": "取り扱いチュー💋い",
+      "filename": "toriatsukai_chuui_official_lyrics.txt",
+      "sha256": "686fe750b5b485c890782e8171c9f96e14e1ae1727f68857c7d0c888622ba372",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "wasureji-no-hito",
+      "title": "忘れじの人",
+      "filename": "wasureji_no_hito_official_lyrics.txt",
+      "sha256": "b8ec22028913ddb896c71145b65823f81aa877d6abddaec8838a7e3a34c2c3c1",
+      "publishedAtImport": true
+    },
+    {
+      "slug": "zennin-saiban",
+      "title": "善人裁判",
+      "filename": "zenjin_saiban_official_lyrics.txt",
+      "sha256": "829765b6533a5c57aafeef214eba56cfe236846352980479a1d408da32747970",
+      "publishedAtImport": true
+    }
+  ]
+}

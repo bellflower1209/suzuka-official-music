@@ -46,6 +46,13 @@
   position: relative;
   z-index: 2;
   max-width: 43rem;
+  padding: clamp(1.15rem, 3vw, 2.2rem);
+  border: 1px solid rgba(255, 255, 255, .72);
+  border-radius: clamp(1rem, 2vw, 1.6rem);
+  background: rgba(250, 253, 255, .68);
+  box-shadow: 0 1.4rem 4rem rgba(45, 103, 159, .12);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
 }
 
 .hanakotoba-status {
@@ -113,16 +120,23 @@
 }
 
 .hanakotoba-button-primary {
-  color: #fff !important;
-  border-color: #2367a5 !important;
-  background: #2367a5 !important;
+  color: #fff;
+  border-color: #2367a5;
+  background: #2367a5;
   box-shadow: 0 .8rem 2rem rgba(35, 103, 165, .24);
 }
 
 .hanakotoba-button-secondary {
-  color: #1f578b !important;
-  border-color: rgba(31, 87, 139, .28) !important;
-  background: rgba(255, 255, 255, .74) !important;
+  color: #1f578b;
+  border-color: rgba(31, 87, 139, .38);
+  background: rgba(255, 255, 255, .88);
+}
+
+.hanakotoba-actions .button:hover,
+.hanakotoba-actions .button:focus-visible {
+  color: #fff;
+  border-color: #174d80;
+  background: #174d80;
 }
 
 .hanakotoba-project {
@@ -216,6 +230,13 @@
   background: #6b9bc4;
 }
 
+@media (min-width: 901px) {
+  .hanakotoba-home .suzuka-music-player {
+    right: auto;
+    left: max(18px, env(safe-area-inset-left));
+  }
+}
+
 @media (max-width: 900px) {
   .latest-release-hero.hanakotoba-hero {
     grid-template-columns: 1fr;
@@ -225,11 +246,11 @@
   }
 
   .hanakotoba-artwork {
-    grid-row: 1;
+    grid-row: 2;
   }
 
   .hanakotoba-copy {
-    grid-row: 2;
+    grid-row: 1;
   }
 
   .hanakotoba-copy h1 {

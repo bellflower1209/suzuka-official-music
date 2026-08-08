@@ -9,6 +9,9 @@ const releaseCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/enomot
 const explorerCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/releases-catalog.json", import.meta.url), "utf8"));
 const creatorCms = JSON.parse(fs.readFileSync(new URL("../assets/data/creator-cms.json", import.meta.url), "utf8"));
 const expectedTrackCount = releaseCatalog.releases.filter(item => item.status === "published" && item.playerEnabled !== false).length;
+const lyricsPages = creatorCms.releases
+  .filter(item => item.status === "published" && item.lyricsAvailable && item.lyricsVerified === true)
+  .map(item => `lyrics/${item.slug}/`);
 const explorerPages = [
   "rankings/", "features/", "features/love-songs/", "features/cheer-songs/", "features/tearjerkers/",
   "features/summer-songs/", "features/dark/", "features/k-pop/", "features/enka/", "features/visual-kei/",
@@ -50,10 +53,11 @@ const pages = [...new Set([
   "news/koisuru-maharaja-release/", "releases/koisuru-maharaja/",
   ...explorerCatalog.releases.map(item => item.releaseUrl),
   ...creatorCms.news.filter(item => item.status === "published").map(item => `news/${item.slug}/`),
-  "social/", ...explorerPages,
+  "social/", "lyrics/", ...lyricsPages, ...explorerPages,
 ])];
 const sizes = [{width:1280,height:900},{width:768,height:1024},{width:390,height:844}];
 const screenshotDir = process.env.QA_SCREENSHOT_DIR;
+const qaPages = process.env.QA_HOME_ONLY === "1" ? [""] : pages;
 if (screenshotDir) fs.mkdirSync(screenshotDir, {recursive:true});
 const targets = await (await fetch(`http://127.0.0.1:${cdpPort}/json`)).json();
 const target = targets.find(item => item.type === "page");
@@ -99,21 +103,21 @@ await send("Runtime.enable"); await send("Network.enable"); await send("Network.
 const results = [];
 const quickEventsOnly = process.env.QA_QUICK_EVENTS === "1";
 if (!quickEventsOnly) for (const size of sizes) {
-  for (const route of pages) {
-    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "rankings/", "features/", "features/love-songs/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
+  for (const route of qaPages) {
+    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "lyrics/", "lyrics/hanakotoba/", "lyrics/zennin-saiban/", "rankings/", "features/", "features/love-songs/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     const targetUrl = new URL(route, base).href;
     await send("Page.navigate", {url:targetUrl});
     await waitForPageReady(targetUrl);
-    const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const creatorStandalone=${JSON.stringify(route)}.startsWith('en/'); const adminPage=${JSON.stringify(route)}.startsWith('admin/'); const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'&&${JSON.stringify(route)}!=='news/upcoming-artists/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, socialHubLinks, creatorStandalone, adminPage, gaTagCount:document.querySelectorAll('script[src*="gtag/js?id=G-LS3PCRB60D"]').length, analyticsScriptCount:document.querySelectorAll('script[src$="assets/analytics.js"]').length, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
+    const evaluated = await send("Runtime.evaluate", {expression:`(() => { const p=document.querySelector('.suzuka-music-player'); const s=p?getComputedStyle(p):null; const select=p?.querySelector('.suzuka-player-track-select'); const lyrics=document.querySelector('.v31-lyrics-text'); const lyricsStyle=lyrics?getComputedStyle(lyrics):null; const lyricsFont=lyricsStyle?parseFloat(lyricsStyle.fontSize):0; const lyricsLine=lyricsStyle?parseFloat(lyricsStyle.lineHeight):0; const lyricsReadable=!lyrics||(lyricsFont>=16&&lyricsLine/lyricsFont>=1.8&&lyricsStyle.color==='rgb(255, 253, 253)'&&lyricsStyle.backgroundColor==='rgb(12, 10, 14)'); const intersects=(a,b)=>a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top; const playerRect=p?.getBoundingClientRect(); const heroCtas=[...document.querySelectorAll('.hanakotoba-actions a')].filter(a=>getComputedStyle(a).display!=='none'); const ctaRects=heroCtas.map(a=>a.getBoundingClientRect()).map(({left,right,top,bottom})=>({left,right,top,bottom})); const playerOverlapsHeroCta=!!playerRect&&ctaRects.some(a=>intersects(playerRect,a)); const playerBounds=playerRect?(({left,right,top,bottom})=>({left,right,top,bottom}))(playerRect):null; const socialHubLinks=[...document.querySelectorAll('a')].filter(a=>a.href.endsWith('/social/')).length; const creatorStandalone=${JSON.stringify(route)}.startsWith('en/'); const adminPage=${JSON.stringify(route)}.startsWith('admin/'); const needsContext=(${JSON.stringify(route)}.startsWith('releases/')&&${JSON.stringify(route)}!=='releases/')||(${JSON.stringify(route)}.startsWith('news/')&&${JSON.stringify(route)}!=='news/'&&${JSON.stringify(route)}!=='news/upcoming-artists/'); return {title:document.title, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, scrollWidth:document.documentElement.scrollWidth, clientWidth:document.documentElement.clientWidth, player:!!p, playerPosition:s&&s.position, playerOverlapsHeroCta, playerBounds, ctaRects, trackCount:select?.options.length||0, iframeCount:p?.querySelectorAll('iframe').length||0, pageLink:!!p?.querySelector('.suzuka-player-page')?.href, h1:document.querySelectorAll('h1').length, lyricsReadable, socialHubLinks, creatorStandalone, adminPage, gaTagCount:document.querySelectorAll('script[src*="gtag/js?id=G-LS3PCRB60D"]').length, analyticsScriptCount:document.querySelectorAll('script[src$="assets/analytics.js"]').length, socialContext:!!document.querySelector('.social-context-section'), needsContext}; })()`, returnByValue:true});
     const value = evaluated.result.value;
     if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "artists/nox/", "releases/", "social/", "rankings/", "features/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route) && [1280, 390].includes(size.width)) {
       const shot = await send("Page.captureScreenshot", {format:"png", captureBeyondViewport:false});
       const name = route === "" ? "home" : route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));
     }
-    if (value.overflow || !value.player || value.playerPosition !== "fixed" || value.trackCount !== expectedTrackCount || value.iframeCount !== 0 || !value.pageLink || value.h1 !== 1 || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || (value.adminPage ? value.gaTagCount !== 0 || value.analyticsScriptCount !== 0 : value.gaTagCount !== 1 || value.analyticsScriptCount !== 1) || problems.length > before) {
+    if (value.overflow || !value.player || value.playerPosition !== "fixed" || value.playerOverlapsHeroCta || value.trackCount !== expectedTrackCount || value.iframeCount !== 0 || !value.pageLink || value.h1 !== 1 || !value.lyricsReadable || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || (value.adminPage ? value.gaTagCount !== 0 || value.analyticsScriptCount !== 0 : value.gaTagCount !== 1 || value.analyticsScriptCount !== 1) || problems.length > before) {
       results.push({route:route||"/", width:size.width, ...value, errors:problems.slice(before)});
     }
   }
@@ -169,6 +173,23 @@ const searchAnalytics = await send("Runtime.evaluate", {expression:`(async()=>{c
 if (!searchAnalytics.result.value.events.includes("search_use") || searchAnalytics.result.value.rawLeak) {
   results.push({route:"search/", searchAnalytics:searchAnalytics.result.value});
 }
+
+const lyricsQaUrl = new URL("lyrics/zennin-saiban/", base).href;
+await send("Page.navigate", {url:lyricsQaUrl});
+await waitForPageReady(lyricsQaUrl);
+await send("DOM.enable"); await send("CSS.enable");
+const documentNode = await send("DOM.getDocument");
+const ctaNode = await send("DOM.querySelector", {nodeId:documentNode.root.nodeId, selector:".explore-actions a"});
+if (!ctaNode.nodeId) {
+  results.push({route:"lyrics/zennin-saiban/", readabilityState:"missing CTA"});
+} else {
+  await send("CSS.forcePseudoState", {nodeId:ctaNode.nodeId, forcedPseudoClasses:["hover","focus","focus-visible"]});
+  const interactionStyle = await send("Runtime.evaluate", {expression:`(() => {const anchor=document.querySelector('.explore-actions a');anchor.focus();const style=getComputedStyle(anchor);return {color:style.color,background:style.backgroundColor,outline:style.outlineStyle,outlineWidth:style.outlineWidth,visible:!!anchor.offsetParent};})()`, returnByValue:true});
+  const state = interactionStyle.result.value;
+  if (!state.visible || state.color !== "rgb(8, 6, 10)" || state.background !== "rgb(255, 255, 255)" || state.outline === "none" || parseFloat(state.outlineWidth) < 3) {
+    results.push({route:"lyrics/zennin-saiban/", readabilityState:state});
+  }
+}
 socket.close();
 if (results.length) {
   console.error(JSON.stringify(results, null, 2));
@@ -176,4 +197,4 @@ if (results.length) {
 }
 console.log(quickEventsOnly
   ? "Browser analytics QA passed: player persistence, sharing, search privacy and 15 event types."
-  : `Browser QA passed: ${pages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or player regressions.`);
+  : `Browser QA passed: ${qaPages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or player regressions.`);
