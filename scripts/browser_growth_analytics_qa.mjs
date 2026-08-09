@@ -29,12 +29,15 @@ socket.onmessage=event=>{
   if(message.id&&pending.has(message.id)){const p=pending.get(message.id);pending.delete(message.id);message.error?p.reject(new Error(message.error.message)):p.resolve(message.result);}
   if(message.method==="Network.requestWillBeSent"&&/google-analytics\.com\/g\/collect/.test(message.params.request.url)){
     const query=new URL(message.params.request.url).searchParams;
-    const body=new URLSearchParams(message.params.request.postData||"");
-    const value=key=>query.get(key)||body.get(key)||"";
-    requests.push({requestId:message.params.requestId,measurementId:value("tid"),eventName:value("en"),source:value("ep.source_section"),destination:value("ep.destination_url"),current:value("ep.current_page"),contentType:value("ep.content_type"),artist:value("ep.artist"),slug:value("ep.slug")});
+    const rows=(message.params.request.postData||"").split(/\r?\n/).filter(Boolean);
+    for(const row of rows.length?rows:[""]){
+      const body=new URLSearchParams(row);
+      const value=key=>body.get(key)||query.get(key)||"";
+      requests.push({requestId:message.params.requestId,measurementId:value("tid"),eventName:value("en"),source:value("ep.source_section"),destination:value("ep.destination_url"),current:value("ep.current_page"),contentType:value("ep.content_type"),artist:value("ep.artist"),slug:value("ep.slug")});
+    }
   }
   if(message.method==="Network.responseReceived"){
-    const match=requests.find(item=>item.requestId===message.params.requestId);if(match)match.httpStatus=message.params.response.status;
+    requests.filter(item=>item.requestId===message.params.requestId).forEach(item=>{item.httpStatus=message.params.response.status;});
   }
 };
 function send(method,params={}){const requestId=++id;socket.send(JSON.stringify({id:requestId,method,params}));return new Promise((resolve,reject)=>pending.set(requestId,{resolve,reject}));}
