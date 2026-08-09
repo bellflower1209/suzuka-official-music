@@ -21,6 +21,7 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
@@ -29,8 +30,7 @@
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
-        "lost-signal",
-        "without-worrying"
+        "lost-signal"
       ]
     },
     "love": {
@@ -41,11 +41,11 @@
         "one-more-kiss",
         "without-worrying",
         "koisuru-maharaja",
+        "kimi-ni-kakatta-mahou",
         "smile-and-say-goodbye",
         "my-queen-my-oath",
         "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku",
-        "toriatsukai-chui"
+        "suki-ga-kyou-mo-fueteiku"
       ]
     },
     "summer": {

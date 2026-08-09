@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T00:28:12+09:00",
+  "updatedAt": "2026-08-09T20:00:19+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -24,6 +24,7 @@
         "without-worrying",
         "ai-demo-wakaranai",
         "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
         "kimi-to-nara-last-boss-made",
         "kimi-wa-hanabi",
         "mermaid-merman",
@@ -35,8 +36,7 @@
         "our-kingdom",
         "smile-and-say-goodbye",
         "suki-ga-kyou-mo-fueteiku",
-        "sukitte-baretemo-ii",
-        "tokenai-mahou-wo-ai-to-yobu"
+        "sukitte-baretemo-ii"
       ],
       "count": 20
     },
@@ -206,12 +206,12 @@
         "echoes-of-you",
         "heal-you-again",
         "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
         "kimi-to-nara-last-boss-made",
         "kimi-wa-hanabi",
         "mermaid-merman",
         "mia",
-        "mirai-no-watashi-ga-miteru",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "mirai-no-watashi-ga-miteru"
       ],
       "count": 20
     },
@@ -222,6 +222,7 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
@@ -240,8 +241,7 @@
         "namaste-galaxy",
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath"
+        "boukyaku-no-ikimono"
       ],
       "count": 20
     },
@@ -254,6 +254,7 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
@@ -272,8 +273,7 @@
         "namaste-galaxy",
         "wasurenai-kokoro",
         "smile-and-say-goodbye",
-        "boukyaku-no-ikimono",
-        "my-queen-my-oath"
+        "boukyaku-no-ikimono"
       ],
       "count": 20
     }

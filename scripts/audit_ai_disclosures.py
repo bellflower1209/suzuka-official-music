@@ -25,6 +25,7 @@ ALLOWED_SAME_AS_HOSTS = {
     "youtu.be",
     "www.instagram.com",
     "instagram.com",
+    "note.com",
 }
 
 

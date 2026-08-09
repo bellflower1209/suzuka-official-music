@@ -31,7 +31,7 @@
   const schemaArtist = clean(recording.byArtist?.name || recording.byArtist?.[0]?.name);
   const schemaTitle = clean(recording.name);
   const contextFor = anchor => anchor.closest(
-    "[data-weekly-pick],.explorer-release-card,.explore-card,.release-card,.timeline-item,.gallery-card,article,section"
+    "[data-source-section],[data-weekly-pick],.explorer-release-card,.explore-card,.release-card,.timeline-item,.gallery-card,article,section"
   ) || document.body;
   const detailsFor = anchor => {
     const context = contextFor(anchor);
@@ -53,7 +53,7 @@
       artist_name: artist, artist,
       link_url: safeLink(anchor.href), destination_url: safeLink(anchor.href),
       current_page: safePageUrl,
-      source_section: clean(context.getAttribute?.('data-ranking-section') || context.className || 'page'),
+      source_section: clean(context.dataset.sourceSection || context.getAttribute?.('data-ranking-section') || context.className || 'page'),
       content_type: clean(
         anchor.closest("[data-weekly-pick]") ? "weekly_pick" :
         linkedPath.includes("/releases/") ? "release" :

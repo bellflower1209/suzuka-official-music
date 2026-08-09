@@ -84,6 +84,11 @@ ARTISTS = {
     },
 }
 
+
+def media_url(value: str, prefix_value: str = "") -> str:
+    """Return external media unchanged and prefix repository-local media."""
+    return value if value.startswith(("https://", "http://")) else f"{prefix_value}{value}"
+
 FEATURES = {
     "love-songs": ("恋愛ソング", "恋する気持ち、愛、誓いを描く作品。", lambda x: any(v in x["themes"] for v in ("恋愛", "愛", "誓い")) or x["artistSlug"] == "enomoto-mia"),
     "cheer-songs": ("応援ソング", "希望、再生、明日へ進む力を届ける作品。", lambda x: any(v in x["themes"] for v in ("希望", "再生", "明日", "祈り"))),
@@ -243,8 +248,9 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
     )
     rank_html = f'<strong class="explorer-rank-number">{rank:02d}</strong>' if rank else ""
     return (
-        f'<article class="explorer-release-card">{rank_html}'
-        f'<img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" '
+        f'<article class="explorer-release-card" data-slug="{html.escape(item["slug"])}" '
+        f'data-title="{html.escape(item["title"])}" data-artist="{html.escape(item["artist"])}">{rank_html}'
+        f'<img src="{media_url(item["coverImage"], p)}" alt="{html.escape(item["coverAlt"])}" '
         'width="1280" height="720" loading="lazy"/>'
         f'<div><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-", ".")}</time>'
         f'<h3>{html.escape(item["displayTitle"])}</h3><p>{html.escape(item["artist"])}</p>'
@@ -489,9 +495,9 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
         page = f"{BASE}/gallery/{item['slug']}/"
         body = (
             '<section class="explorer-gallery-detail">'
-            f'<button class="explorer-lightbox-trigger" type="button" data-lightbox-src="../../{item["coverImage"]}" '
+            f'<button class="explorer-lightbox-trigger" type="button" data-lightbox-src="{media_url(item["coverImage"], "../../")}" '
             f'data-lightbox-alt="{html.escape(item["coverAlt"])}">'
-            f'<img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" '
+            f'<img src="{media_url(item["coverImage"], "../../")}" alt="{html.escape(item["coverAlt"])}" '
             'width="1280" height="720" loading="lazy"/><span>画像を拡大</span></button>'
             '<div class="explorer-gallery-copy"><p class="section-kicker">OFFICIAL MV</p>'
             f'<h2>{html.escape(item["displayTitle"])}</h2><p>{html.escape(item["artist"])}</p>'
@@ -502,7 +508,7 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
             f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTubeでMV ↗</a>'
             f'<a href="../../{item["releaseUrl"]}">作品ページへ戻る</a>{shorts_link}</div></div></section>'
             '<section class="explorer-production-note"><h2>制作画像・サムネイル</h2>'
-            f'<div><img src="../../{item["coverImage"]}" alt="{html.escape(item["title"])} 制作画像・公式ジャケット" loading="lazy"/>'
+            f'<div><img src="{media_url(item["coverImage"], "../../")}" alt="{html.escape(item["title"])} 制作画像・公式ジャケット" loading="lazy"/>'
             f'<img src="https://i.ytimg.com/vi/{youtube_id}/hqdefault.jpg" '
             f'alt="{html.escape(item["title"])} YouTubeサムネイル" loading="lazy"/></div>'
             f'<h2>制作メモ</h2><p>{html.escape(item["description"])} '
@@ -525,7 +531,7 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
         )
         index_cards.append(
             f'<a class="explorer-gallery-card" href="./{item["slug"]}/">'
-            f'<img src="../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" loading="lazy"/>'
+            f'<img src="{media_url(item["coverImage"], "../")}" alt="{html.escape(item["coverAlt"])}" loading="lazy"/>'
             f'<span>{item["releaseDate"]}</span><h2>{html.escape(item["displayTitle"])}</h2>'
             f'<p>{html.escape(item["artist"])}</p></a>'
         )
@@ -559,7 +565,7 @@ def universe_page(root: Path, releases: list[dict]) -> None:
         )
         representative_html = (
             f'<a class="explorer-universe-work" href="../{representative["releaseUrl"]}">'
-            f'<img src="../{representative["coverImage"]}" alt="{html.escape(representative["coverAlt"])}" loading="lazy"/>'
+            f'<img src="{media_url(representative["coverImage"], "../")}" alt="{html.escape(representative["coverAlt"])}" loading="lazy"/>'
             f'<span>代表作品</span><strong>{html.escape(representative["displayTitle"])}</strong></a>'
             if representative else ""
         )
@@ -719,7 +725,7 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
             f'<strong>{html.escape(item["title"])}</strong><span>Newsを読む ↗</span></a>' for item in news
         ) or '<p class="explorer-muted">公開済みの関連Newsはありません。</p>'
         work_rows = "".join(
-            f'<article><time>{item["releaseDate"]}</time><img src="../../{item["coverImage"]}" '
+            f'<article><time>{item["releaseDate"]}</time><img src="{media_url(item["coverImage"], "../../")}" '
             f'alt="{html.escape(item["coverAlt"])}" loading="lazy"/><div><h3>{html.escape(item["displayTitle"])}</h3>'
             f'<p>{" / ".join(map(html.escape, item["genres"]))}</p></div>'
             f'<a href="../../{item["releaseUrl"]}">作品ページ ↗</a></article>' for item in works

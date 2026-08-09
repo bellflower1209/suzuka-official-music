@@ -96,6 +96,15 @@ def dump(value: object) -> str:
     return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
 
 
+def media_url(value: str, prefix_value: str = "") -> str:
+    """Return external media unchanged and prefix repository-local media."""
+    return value if value.startswith(("https://", "http://")) else f"{prefix_value}{value}"
+
+
+def public_media_url(value: str) -> str:
+    return media_url(value, f"{BASE}/")
+
+
 def write(path: Path, value: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(value, encoding="utf-8")
@@ -180,8 +189,8 @@ def genre_pages(root: Path, data: dict) -> None:
         matches = [x for x in data["releases"] if name in x["genres"]]
         if not matches:
             continue
-        cards.append(f'<a class="genre-card" href="./{slug}/"><img src="../{matches[0]["coverImage"]}" alt="{html.escape(matches[0]["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><small>{len(matches)}作品</small><h2>{html.escape(name)}</h2><p>{html.escape(description)}</p></div></a>')
-        elements = [{"@type":"ListItem","position":i,"name":x["displayTitle"],"url":f'{BASE}/{x["releaseUrl"]}',"image":f'{BASE}/{x["coverImage"]}'} for i,x in enumerate(matches,1)]
+        cards.append(f'<a class="genre-card" href="./{slug}/"><img src="{media_url(matches[0]["coverImage"], "../")}" alt="{html.escape(matches[0]["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><small>{len(matches)}作品</small><h2>{html.escape(name)}</h2><p>{html.escape(description)}</p></div></a>')
+        elements = [{"@type":"ListItem","position":i,"name":x["displayTitle"],"url":f'{BASE}/{x["releaseUrl"]}',"image":public_media_url(x["coverImage"])} for i,x in enumerate(matches,1)]
         artist_names = " / ".join(dict.fromkeys(x["artist"] for x in matches))
         grid = "".join(render_card(x, "../../") for x in matches)
         related = "".join(f'<a class="explore-tag" href="../{other}/">{html.escape(v[0])}</a>' for other,v in GENRES.items() if other != slug and any(v[0] in x["genres"] for x in data["releases"]))
@@ -195,7 +204,7 @@ def genre_pages(root: Path, data: dict) -> None:
 
 def render_card(item: dict, p: str) -> str:
     news = f'<a href="{p}{item["newsUrl"]}">News</a>' if item["newsUrl"] else ""
-    return f'<article class="explore-card"><img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-card-copy"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><h2>{html.escape(item["displayTitle"])}</h2><p>{html.escape(item["artist"])}</p><div class="explore-tags">{"".join(f"<span class=explore-tag>{html.escape(g)}</span>" for g in item["genres"])}</div><div class="explore-actions"><a href="{p}{item["releaseUrl"]}">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a>{news}</div></div></article>'
+    return f'<article class="explore-card"><img src="{media_url(item["coverImage"], p)}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-card-copy"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><h2>{html.escape(item["displayTitle"])}</h2><p>{html.escape(item["artist"])}</p><div class="explore-tags">{"".join(f"<span class=explore-tag>{html.escape(g)}</span>" for g in item["genres"])}</div><div class="explore-actions"><a href="{p}{item["releaseUrl"]}">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a>{news}</div></div></article>'
 
 
 def discography_page(data: dict) -> str:
@@ -211,7 +220,7 @@ def discography_page(data: dict) -> str:
             if current is not None:
                 timeline.insert(-1, "</div>")
             current = ym
-        timeline.append(f'<article class="timeline-item" data-release-date="{item["releaseDate"]}"><time datetime="{item["releaseDate"]}">{item["releaseDate"][5:].replace("-",".")}</time><img src="../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><h3>{html.escape(item["displayTitle"])}</h3><p>{html.escape(item["artist"])} · {" / ".join(map(html.escape,item["genres"]))}</p></div><a href="../{item["releaseUrl"]}">作品を見る ↗</a></article>')
+        timeline.append(f'<article class="timeline-item" data-release-date="{item["releaseDate"]}"><time datetime="{item["releaseDate"]}">{item["releaseDate"][5:].replace("-",".")}</time><img src="{media_url(item["coverImage"], "../")}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><h3>{html.escape(item["displayTitle"])}</h3><p>{html.escape(item["artist"])} · {" / ".join(map(html.escape,item["genres"]))}</p></div><a href="../{item["releaseUrl"]}">作品を見る ↗</a></article>')
     timeline.append("</div>")
     upcoming = "".join(f'<li><time datetime="{x["scheduledAt"]}">{x["scheduledAt"][:10].replace("-",".")} 20:00</time> {html.escape(x["artist"])}「{html.escape(x["title"])}」 <a href="{x["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画 ↗</a></li>' for x in data["upcoming"])
     elements = [{"@type":"ListItem","position":i,"name":x["displayTitle"],"url":f'{BASE}/{x["releaseUrl"]}'} for i,x in enumerate(items,1)]
@@ -224,17 +233,20 @@ def discography_page(data: dict) -> str:
 def release_page(item: dict) -> str:
     page = f"{BASE}/{item['releaseUrl']}"
     p = "../../"
-    graph = {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":page,"url":page,"name":f"{item['title']}｜{item['artist']}｜SUZUKA","description":item["description"]},{"@type":"MusicRecording","@id":f"{page}#recording","name":item["title"],"url":page,"datePublished":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"image":f'{BASE}/{item["coverImage"]}',"description":item["description"],"byArtist":{"@type":item["artistType"],"name":item["artist"],"description":"SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。"}},{"@type":"VideoObject","@id":f"{page}#video","name":f'{item["title"]} Official Video',"description":item["description"],"thumbnailUrl":f'https://i.ytimg.com/vi/{item["youtubeUrl"].split("=")[-1]}/maxresdefault.jpg',"uploadDate":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"embedUrl":f'https://www.youtube.com/embed/{item["youtubeUrl"].split("=")[-1]}',"contentUrl":item["youtubeUrl"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"Releases","item":f"{BASE}/releases/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
+    graph = {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":page,"url":page,"name":f"{item['title']}｜{item['artist']}｜SUZUKA","description":item["description"]},{"@type":"MusicRecording","@id":f"{page}#recording","name":item["title"],"url":page,"datePublished":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"image":public_media_url(item["coverImage"]),"description":item["description"],"byArtist":{"@type":item["artistType"],"name":item["artist"],"description":"SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。"}},{"@type":"VideoObject","@id":f"{page}#video","name":f'{item["title"]} Official Video',"description":item["description"],"thumbnailUrl":f'https://i.ytimg.com/vi/{item["youtubeUrl"].split("=")[-1]}/maxresdefault.jpg',"uploadDate":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"embedUrl":f'https://www.youtube.com/embed/{item["youtubeUrl"].split("=")[-1]}',"contentUrl":item["youtubeUrl"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"Releases","item":f"{BASE}/releases/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
     tags = "".join(f'<a class="explore-tag" href="../../search/?genre={html.escape(g)}">{html.escape(g)}</a>' for g in item["genres"])
     related = "".join(f'<a href="../{x}/">{html.escape(x.replace("-"," "))} ↗</a>' for x in ("mia","shadow-code","my-queen-my-oath"))
-    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["title"])}｜{html.escape(item["artist"])}｜SUZUKA Official Music</title><meta name="description" content="{html.escape(item["description"])}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="music.song"/><meta property="og:title" content="{html.escape(item["title"])}｜{html.escape(item["artist"])}"/><meta property="og:description" content="{html.escape(item["description"])}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{BASE}/{item["coverImage"]}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{BASE}/{item["coverImage"]}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/official-release.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<section class="release-detail-hero"><div class="release-detail-copy"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><div class="explore-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MVを見る ↗</a><a href="../../artists/{item["artistSlug"]}/">アーティストを見る</a></div></div><div class="release-detail-artwork"><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720"/></div></section><section class="release-detail-video"><iframe src="https://www.youtube-nocookie.com/embed/{item["youtubeUrl"].split("=")[-1]}" title="{html.escape(item["title"])} Official Video" loading="lazy" allowfullscreen></iframe></section><section class="release-related-section"><h2>関連作品</h2><div class="explore-actions">{related}</div></section><section class="release-genre-tags"><strong>GENRES / THEMES</strong>{tags}</section><section class="social-context-section" aria-label="作品の関連リンク"><h2>作品をもっと楽しむ</h2><div class="explore-actions"><a href="../../news/{item["slug"]}-release/">Newsを読む</a><a href="../../social/">公式SNS・リンク</a><a href="../../search/?artist={item["artistSlug"]}">同じアーティストの曲を探す</a></div></section><aside class="ai-work-disclosure">本作品は、SUZUKAのオリジナルAIアーティストによる架空の音楽プロジェクト作品です。</aside>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
+    news_link = f'<a href="../../{item["newsUrl"]}">Newsを読む</a>' if item.get("newsUrl") else ""
+    cover_public = public_media_url(item["coverImage"])
+    cover_page = media_url(item["coverImage"], "../../")
+    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["title"])}｜{html.escape(item["artist"])}｜SUZUKA Official Music</title><meta name="description" content="{html.escape(item["description"])}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="music.song"/><meta property="og:title" content="{html.escape(item["title"])}｜{html.escape(item["artist"])}"/><meta property="og:description" content="{html.escape(item["description"])}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{cover_public}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{cover_public}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/official-release.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<section class="release-detail-hero"><div class="release-detail-copy"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><div class="explore-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MVを見る ↗</a><a href="../../artists/{item["artistSlug"]}/">アーティストを見る</a></div></div><div class="release-detail-artwork"><img src="{cover_page}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720"/></div></section><section class="release-detail-video"><iframe src="https://www.youtube-nocookie.com/embed/{item["youtubeUrl"].split("=")[-1]}" title="{html.escape(item["title"])} Official Video" loading="lazy" allowfullscreen></iframe></section><section class="release-related-section"><h2>関連作品</h2><div class="explore-actions">{related}</div></section><section class="release-genre-tags"><strong>GENRES / THEMES</strong>{tags}</section><section class="social-context-section" aria-label="作品の関連リンク"><h2>作品をもっと楽しむ</h2><div class="explore-actions">{news_link}<a href="../../social/">公式SNS・リンク</a><a href="../../search/?artist={item["artistSlug"]}">同じアーティストの曲を探す</a></div></section><aside class="ai-work-disclosure">本作品は、SUZUKAのオリジナルAIアーティストによる架空の音楽プロジェクト作品です。</aside>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
 def news_page(item: dict) -> str:
     page = f"{BASE}/news/{item['slug']}-release/"
     p = "../../"
     news_desc = f'{item["artist"]}「{item["title"]}」の公開情報。公式MV、作品ページ、アーティスト情報を紹介します。'
-    graph = {"@context":"https://schema.org","@graph":[{"@type":["NewsArticle","Article"],"headline":f'{item["artist"]}「{item["title"]}」公開',"datePublished":item["releaseDate"],"mainEntityOfPage":page,"image":f'{BASE}/{item["coverImage"]}',"description":news_desc},{"@type":"WebPage","url":page,"name":f'{item["artist"]}「{item["title"]}」公開｜SUZUKA News',"description":news_desc},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
+    graph = {"@context":"https://schema.org","@graph":[{"@type":["NewsArticle","Article"],"headline":f'{item["artist"]}「{item["title"]}」公開',"datePublished":item["releaseDate"],"mainEntityOfPage":page,"image":public_media_url(item["coverImage"]),"description":news_desc},{"@type":"WebPage","url":page,"name":f'{item["artist"]}「{item["title"]}」公開｜SUZUKA News',"description":news_desc},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
     return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開｜SUZUKA News</title><meta name="description" content="{html.escape(news_desc)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:title" content="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{BASE}/{item["coverImage"]}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{BASE}/{item["coverImage"]}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["artist"])}<br/>「{html.escape(item["title"])}」公開</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストによる公式リリース情報です。</p></header><div class="news-article-body"><section><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a><a href="../../artists/{item["artistSlug"]}/">Artist</a></div></section><section class="social-context-section" aria-label="関連リンク"><h2>作品の関連情報</h2><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="../../social/">公式SNS・リンク</a><a href="../../artists/{item["artistSlug"]}/">アーティストページ</a></div></section></div></article>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
@@ -248,7 +260,7 @@ def upsert_card(path: Path, item: dict, p: str, href: str | None = None) -> None
     )
     card = (
         f'<article class="release-card release-card-new"><a class="release-image" href="{href}">'
-        f'<img src="{p}{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/></a>'
+        f'<img src="{media_url(item["coverImage"], p)}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/></a>'
         '<div class="release-info"><div class="release-row"><span>01</span>'
         f'<span>OFFICIAL RELEASE · {item["releaseDate"]}</span></div><h3>{html.escape(item["title"])}</h3>'
         f'<p>{html.escape(item["description"])}</p><p class="release-artist-credit">'
@@ -300,7 +312,7 @@ def update_home_status(root: Path, data: dict) -> None:
         f'<a class="button hanakotoba-button-secondary" href="./artists/{hero_item["artistSlug"]}/">Artist</a></div>'
         '<p class="hanakotoba-project">SUZUKA Original AI Music Project</p></div>'
         '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
-        f'<img src="./{hero_item["coverImage"]}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
+        f'<img src="{media_url(hero_item["coverImage"], "./")}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
         f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(hero_item["artist"])} / {hero_item["releaseDate"].replace("-", ".")}</p></div>'
         '<a class="hanakotoba-scroll" href="#latest">Scroll to discover <i></i></a></section>'
     )
@@ -317,7 +329,7 @@ def update_home_status(root: Path, data: dict) -> None:
         'description': home_description,
         'twitter:title': home_title,
         'twitter:description': home_description,
-        'twitter:image': f'{BASE}/{hero_item["coverImage"]}',
+        'twitter:image': public_media_url(hero_item["coverImage"]),
     }
     for name, value in replacements.items():
         text = re.sub(
@@ -329,7 +341,7 @@ def update_home_status(root: Path, data: dict) -> None:
     property_replacements = {
         'og:title': home_title,
         'og:description': home_description,
-        'og:image': f'{BASE}/{hero_item["coverImage"]}',
+        'og:image': public_media_url(hero_item["coverImage"]),
         'og:image:width': '1280',
         'og:image:height': '720',
         'og:image:alt': hero_item["coverAlt"],
@@ -343,7 +355,7 @@ def update_home_status(root: Path, data: dict) -> None:
         )
     text = re.sub(
         r'<link rel="preload" href="[^"]+" as="image" fetchPriority="high"\s*/>',
-        f'<link rel="preload" href="./{hero_item["coverImage"]}" as="image" fetchPriority="high"/>',
+        f'<link rel="preload" href="{media_url(hero_item["coverImage"], "./")}" as="image" fetchPriority="high"/>',
         text,
         count=1,
     )
@@ -361,20 +373,20 @@ def update_home_status(root: Path, data: dict) -> None:
         }]
         for node in graph:
             if node.get("@type") == "Organization":
-                node["image"] = {"@type": "ImageObject", "url": f'{BASE}/{hero_item["coverImage"]}'}
+                node["image"] = {"@type": "ImageObject", "url": public_media_url(hero_item["coverImage"])}
             if node.get("@type") == "WebPage":
                 node["name"] = home_title
                 node["description"] = home_description
                 node["mainEntity"] = {"@id": f"{BASE}/#hero-recording"}
                 node["primaryImageOfPage"] = {
-                    "@type": "ImageObject", "url": f'{BASE}/{hero_item["coverImage"]}'
+                    "@type": "ImageObject", "url": public_media_url(hero_item["coverImage"])
                 }
         video_id = hero_item["youtubeUrl"].split("=")[-1]
         graph.extend([
             {
                 "@type": "MusicRecording", "@id": f"{BASE}/#hero-recording",
                 "name": hero_item["title"], "url": f'{BASE}/{hero_item["releaseUrl"]}',
-                "image": f'{BASE}/{hero_item["coverImage"]}', "datePublished": hero_item["releaseDate"],
+                "image": public_media_url(hero_item["coverImage"]), "datePublished": hero_item["releaseDate"],
                 "description": hero_item["description"],
                 "byArtist": {
                     "@type": hero_item["artistType"], "name": hero_item["artist"],
@@ -385,7 +397,7 @@ def update_home_status(root: Path, data: dict) -> None:
             {
                 "@type": "VideoObject", "@id": f"{BASE}/#hero-video",
                 "name": f'{hero_item["title"]} 公式動画', "description": hero_item["description"],
-                "thumbnailUrl": [f'{BASE}/{hero_item["coverImage"]}'],
+                "thumbnailUrl": [public_media_url(hero_item["coverImage"])],
                 "contentUrl": hero_item["youtubeUrl"],
                 "embedUrl": f"https://www.youtube.com/embed/{video_id}",
                 "uploadDate": hero_item["videoPublishedAt"],
@@ -404,11 +416,11 @@ def update_home_status(root: Path, data: dict) -> None:
         flags=re.DOTALL,
     )
     latest_section = (
-        '<section class="section latest-section label-latest" id="latest" aria-labelledby="latest-title">'
+        '<section data-latest-release class="section latest-section label-latest" id="latest" aria-labelledby="latest-title">'
         '<div class="section-heading section-heading-split"><div><p class="section-kicker">01 / Latest release</p>'
         f'<h2 id="latest-title">{html.escape(latest["title"])}</h2></div><p>{html.escape(latest["artist"])}<br/>Official Release</p></div>'
         '<article class="featured-release"><div class="featured-media">'
-        f'<img src="./{latest["coverImage"]}" alt="{html.escape(latest["coverAlt"])}" width="1280" height="720"/>'
+        f'<img src="{media_url(latest["coverImage"], "./")}" alt="{html.escape(latest["coverAlt"])}" width="1280" height="720"/>'
         '<div class="featured-glow"></div></div><div class="featured-copy"><div class="track-number">01</div>'
         f'<p class="featured-label">{html.escape(latest["artist"])} · OFFICIAL MV · {latest["releaseDate"].replace("-", ".")}</p>'
         f'<h3>{html.escape(latest["title"])}</h3><p>{html.escape(latest["description"])}</p>'
@@ -419,7 +431,7 @@ def update_home_status(root: Path, data: dict) -> None:
         '<a href="./discography/">全公開作品を見る ↗</a></nav></section>'
     )
     text = re.sub(
-        r'<section class="section latest-section.*?(?=<section class="upcoming-section")',
+        r'<section(?: data-latest-release)? class="section latest-section.*?(?=<!-- V31:HOME-NEXT:START -->|<section class="upcoming-section")',
         latest_section,
         text,
         count=1,
@@ -453,15 +465,25 @@ def update_home_status(root: Path, data: dict) -> None:
 
 def update_directories(root: Path, data: dict) -> None:
     newest = data["releases"][:3]
+    newest_news = [item for item in data["releases"] if item.get("newsUrl")][:3]
+    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    news_entries = [item for item in cms.get("news", []) if item.get("status") == "published"]
+    valid_news_hrefs = {f'./{item["slug"]}/' for item in news_entries}
     news_path = root / "news/index.html"
     news = news_path.read_text(encoding="utf-8")
-    for item in reversed(newest):
+    news = re.sub(
+        r'<article class="news-directory-card"><a href="(\./[^"]+/)".*?</article>',
+        lambda match: match.group(0) if match.group(1) in valid_news_hrefs else "",
+        news,
+        flags=re.DOTALL,
+    )
+    for item in reversed(newest_news):
         href = f'./{item["slug"]}-release/'
         if href not in news:
-            card = f'<article class="news-directory-card"><a href="{href}"><span class="news-directory-image"><img src="../{item["coverImage"]}" alt="{html.escape(item["title"])}公開News" width="1280" height="720" loading="lazy"/></span><span class="news-directory-meta"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><em>OFFICIAL RELEASE</em></span><h2>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開</h2><p>{html.escape(item["description"])}</p><b>記事を読む ↗</b></a></article>'
+            card = f'<article class="news-directory-card"><a href="{href}"><span class="news-directory-image"><img src="{media_url(item["coverImage"], "../")}" alt="{html.escape(item["title"])}公開News" width="1280" height="720" loading="lazy"/></span><span class="news-directory-meta"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><em>OFFICIAL RELEASE</em></span><h2>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開</h2><p>{html.escape(item["description"])}</p><b>記事を読む ↗</b></a></article>'
             news = news.replace('<div class="news-list news-feature-list">', '<div class="news-list news-feature-list">' + card, 1)
     newest_cards = []
-    for item in newest:
+    for item in newest_news:
         pattern = rf'<article class="news-directory-card"><a href="\./{re.escape(item["slug"])}-release/".*?</article>'
         match = re.search(pattern, news, re.DOTALL)
         if match:
@@ -472,8 +494,6 @@ def update_directories(root: Path, data: dict) -> None:
         '<div class="news-list news-feature-list">' + "".join(newest_cards),
         1,
     )
-    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
-    news_entries = [item for item in cms.get("news", []) if item.get("status") == "published"]
     news_schema_match = re.search(r'<script type="application/ld\+json">(.*?)</script>', news, re.DOTALL)
     if news_schema_match:
         news_schema = json.loads(news_schema_match.group(1))
@@ -492,8 +512,9 @@ def update_directories(root: Path, data: dict) -> None:
     for item in reversed(newest):
         href = f'../releases/{item["slug"]}/'
         if href not in social:
-            card = f'<a class="social-hub-card" href="{href}"><img src="../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><small>{html.escape(item["artist"])} · OFFICIAL MV</small><strong>{html.escape(item["title"])}</strong><span>作品と公式MVを見る →</span></div></a>'
+            card = f'<a class="social-hub-card" href="{href}"><img src="{media_url(item["coverImage"], "../")}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><small>{html.escape(item["artist"])} · OFFICIAL MV</small><strong>{html.escape(item["title"])}</strong><span>作品と公式MVを見る →</span></div></a>'
             social = social.replace('<div class="social-hub-grid">', '<div class="social-hub-grid">' + card, 1)
+    social = social.replace('src="../https://', 'src="https://').replace('src="../http://', 'src="http://')
     social_path.write_text(social, encoding="utf-8")
     artists_path = root / "artists/index.html"
     artists = artists_path.read_text(encoding="utf-8")
@@ -512,8 +533,9 @@ def update_directories(root: Path, data: dict) -> None:
         href = f'../../releases/{item["slug"]}/'
         track_list_html = re.search(r'<div class="artist-track-list">.*?</div>\s*</section>', text, re.DOTALL)
         if not track_list_html or href not in track_list_html.group(0):
-            row = f'<a class="artist-track-row artist-track-row-new" href="{href}"><span>01</span><img src="../../{item["coverImage"]}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><strong>{html.escape(item["title"])}</strong><small>Official release · {item["releaseDate"]}</small></div><b aria-hidden="true">↗</b></a>'
+            row = f'<a class="artist-track-row artist-track-row-new" href="{href}"><span>01</span><img src="{media_url(item["coverImage"], "../../")}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><strong>{html.escape(item["title"])}</strong><small>Official release · {item["releaseDate"]}</small></div><b aria-hidden="true">↗</b></a>'
             text = text.replace('<div class="artist-track-list">', '<div class="artist-track-list">' + row, 1)
+    text = text.replace('src="../../https://', 'src="https://').replace('src="../../http://', 'src="http://')
     track_list = re.search(r'<div class="artist-track-list">.*?</div>\s*</section>', text, re.DOTALL)
     if track_list:
         number = 0
@@ -714,7 +736,7 @@ def main() -> None:
     text = home.read_text(encoding="utf-8")
     if 'data-weekly-pick' not in text:
         fallback = next(x for x in data["releases"] if x["slug"] == "mia")
-        weekly = f'<section class="weekly-pick" data-weekly-pick><div class="weekly-pick-grid"><img src="./{fallback["coverImage"]}" alt="{html.escape(fallback["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><p class="section-kicker">WEEKLY PICK / 今週のおすすめ曲</p><h2 data-pick-title>{html.escape(fallback["title"])}</h2><strong data-pick-artist>{html.escape(fallback["artist"])}</strong><p data-pick-description>{html.escape(fallback["description"])}</p><p data-pick-genres>{" · ".join(fallback["genres"])}</p><div class="explore-actions"><a data-pick-release href="./{fallback["releaseUrl"]}">作品ページ</a><a data-pick-youtube href="{fallback["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a><a data-pick-news href="./{fallback["newsUrl"]}">News</a><a href="./search/">ほかの曲を探す</a></div></div></div></section>'
+        weekly = f'<section class="weekly-pick" data-weekly-pick><div class="weekly-pick-grid"><img src="{media_url(fallback["coverImage"], "./")}" alt="{html.escape(fallback["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><p class="section-kicker">WEEKLY PICK / 今週のおすすめ曲</p><h2 data-pick-title>{html.escape(fallback["title"])}</h2><strong data-pick-artist>{html.escape(fallback["artist"])}</strong><p data-pick-description>{html.escape(fallback["description"])}</p><p data-pick-genres>{" · ".join(fallback["genres"])}</p><div class="explore-actions"><a data-pick-release href="./{fallback["releaseUrl"]}">作品ページ</a><a data-pick-youtube href="{fallback["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a><a data-pick-news href="./{fallback["newsUrl"]}">News</a><a href="./search/">ほかの曲を探す</a></div></div></div></section>'
         text = text.replace('<section class="section about-section', weekly + '<section class="section about-section', 1)
     if 'data-catalog-url' not in text:
         text = text.replace("<html lang=\"ja\">", '<html lang="ja" data-catalog-url="./assets/data/releases-catalog.json" data-site-base="./">', 1)
@@ -754,6 +776,11 @@ def main() -> None:
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_creator_platform_v31.py")), "--root", str(ROOT)],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(Path(__file__).resolve().with_name("build_brand_discovery_v11.py")), "--root", str(ROOT)],
         cwd=ROOT,
         check=True,
     )

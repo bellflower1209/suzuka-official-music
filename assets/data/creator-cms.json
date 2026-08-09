@@ -1,13 +1,17 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-08-09T00:28:12+09:00",
+  "updatedAt": "2026-08-09T20:00:19+09:00",
   "site": {
-    "name": "SUZUKA",
+    "name": "SUZUKA Official",
+    "shortName": "SUZUKA",
+    "descriptor": "Original AI Music Project",
     "baseUrl": "https://www.suzukaofficial.com",
-    "description": "音楽から新しい物語を始めるオリジナルAIアーティスト総合プラットフォーム。",
+    "description": "SUZUKAは、AIを活用して音楽・MV・ビジュアル・歌詞・物語を制作・公開するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。",
     "youtubeUrl": "https://www.youtube.com/@suzuka1209",
     "youtubeChannelId": "UCVde75yhByGQMu3SkO-fzrA",
     "instagramUrl": "https://www.instagram.com/suzuka12090511/",
+    "noteUrl": "https://note.com/1209bellflower",
+    "brandSource": "assets/data/brand.json",
     "defaultLanguage": "ja",
     "supportedLanguages": [
       "ja",
@@ -3463,34 +3467,97 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00"
-    }
-  ],
-  "upcoming": [
+    },
     {
+      "id": "kimi-ni-kakatta-mahou",
       "slug": "kimi-ni-kakatta-mahou",
       "title": "君にかかった魔法",
+      "displayTitle": "君にかかった魔法",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-09T20:00:00+09:00",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-09",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP"
+      ],
+      "moods": [
+        "優しい",
+        "甘い"
+      ],
+      "themes": [
+        "恋愛",
+        "愛",
+        "日常"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「君にかかった魔法」公式YouTubeサムネイル",
+      "releaseUrl": "releases/kimi-ni-kakatta-mahou/",
       "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
-      "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "newsUrl": "",
+      "duration": 380,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "君にかかった魔法",
+        "榎本魅愛",
+        "J-POP",
+        "ラブソング",
+        "恋愛",
+        "愛",
+        "日常"
+      ],
+      "aiArtistType": "fictional AI artist",
       "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
-      "releaseAt": "2026-08-09T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "publishedAt": "2026-08-09T20:00:00+09:00",
+      "tags": [
+        "J-POP",
+        "ラブソング",
+        "恋愛",
+        "愛",
+        "日常",
+        "優しい",
+        "甘い"
+      ],
+      "lyrics": "",
+      "introduction": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "publishedAt": "2026-08-09T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg"
+      ],
+      "productionNote": "公式YouTube説明欄で2026年8月9日20:00のプレミア公開を確認。",
+      "seo": {
+        "title": "君にかかった魔法｜榎本魅愛｜SUZUKA Official Music",
+        "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-02",
+      "videoPublishedAt": "2026-08-09T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "playlistPriority": 0,
+      "homeHero": {},
+      "releaseAt": "2026-08-09T20:00:06+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
       "lyricsText": "",
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
+      "weeklyPickEligible": true,
       "analyticsEnabled": true,
-      "upcomingPriority": 1
-    },
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
+    }
+  ],
+  "upcoming": [
     {
       "slug": "leo-rise-again",
       "title": "LEO — Rise Again —",

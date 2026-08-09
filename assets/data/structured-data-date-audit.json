@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-08T21:54:42+09:00",
+  "evidenceCheckedAt": "2026-08-09T20:09:51+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 193,
-    "videoObjects": 77,
+    "jsonLdBlocks": 188,
+    "videoObjects": 80,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,7 +436,7 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 72,
+  "fixedVideoObjectCount": 75,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
@@ -444,11 +444,6 @@
     "o7AOgpc2O-k"
   ],
   "heldReleases": [
-    {
-      "releaseSlug": "kimi-ni-kakatta-mahou",
-      "youtubeId": "iEFPd6kYYJc",
-      "verifiedDate": "2026-08-02"
-    },
     {
       "releaseSlug": "kimi-wa-makenai",
       "youtubeId": "K_YN2bNRjY0",
@@ -460,5 +455,5 @@
       "verifiedDate": ""
     }
   ],
-  "heldReleaseCount": 3
+  "heldReleaseCount": 2
 }

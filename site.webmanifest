@@ -1,0 +1,18 @@
+{
+  "name": "SUZUKA Official",
+  "short_name": "SUZUKA",
+  "description": "SUZUKAは、AIを活用して音楽・MV・ビジュアル・歌詞・物語を制作・公開するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070408",
+  "theme_color": "#070408",
+  "icons": [
+    {
+      "src": "/images/suzuka-channel.jpg",
+      "sizes": "900x900",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

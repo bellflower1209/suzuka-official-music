@@ -128,13 +128,21 @@ def main() -> int:
     if (root / "features/winter-songs/index.html").exists():
         errors.append("zero-work winter feature must not be generated")
 
+    published_cms = [item for item in cms["releases"] if item.get("status") == "published"]
+    expected_latest = max(
+        published_cms,
+        key=lambda item: (item.get("publishedAt") or item.get("releaseDate") or "", item.get("slug") or ""),
+        default={},
+    )
     latest = releases[0] if releases else {}
-    if latest.get("slug") != "mermaid-no-geboku":
-        errors.append("latest published release must be mermaid-no-geboku")
+    if latest.get("slug") != expected_latest.get("slug"):
+        errors.append(
+            f'latest published release must be {expected_latest.get("slug")}, found {latest.get("slug")}'
+        )
     home = (root / "index.html").read_text(encoding="utf-8")
     home_markers = (
-        '<title>SUZUKA Official | 榎本魅愛「花言葉」公開中</title>',
-        '最新シングル「花言葉」を公開中。MV・歌詞・Gallery・Newsはこちら。',
+        '<title>SUZUKA Official | Original AI Music Project</title>',
+        '架空のAIアーティストによるオリジナル音楽・MV・公式歌詞・ビジュアル・物語',
         'data-home-hero', '榎本魅愛 New Single', 'Now Streaming',
         './images/enomoto-mia-hanakotoba.jpg',
         'https://www.youtube.com/watch?v=mdTogs4Oiew',
@@ -144,12 +152,20 @@ def main() -> int:
     for marker in home_markers:
         if marker not in home:
             errors.append(f"index.html: flower Hero marker missing: {marker}")
+    latest_news = max(
+        (item for item in cms.get("news", []) if item.get("status") == "published"),
+        key=lambda item: (item.get("publishedAt") or item.get("releaseDate") or "", item.get("slug") or ""),
+        default={},
+    )
     for route in ("news", "gallery"):
         source = (root / route / "index.html").read_text(encoding="utf-8")
         first_card = re.search(rf'href="\./([^/]+)/"', source)
-        expected_first = "mermaid-no-geboku-release" if route == "news" else "mermaid-no-geboku"
+        expected_first = latest_news.get("slug") if route == "news" else expected_latest.get("slug")
         if not first_card or first_card.group(1) != expected_first:
-            errors.append(f"{route}/index.html: newest published item must be first")
+            errors.append(
+                f"{route}/index.html: newest published item must be first "
+                f"(expected {expected_first}, found {first_card.group(1) if first_card else 'none'})"
+            )
 
     for path in new_pages:
         relative = path.relative_to(root)
@@ -196,11 +212,20 @@ def main() -> int:
         path = root / f"artists/{slug}/index.html"
         source = path.read_text(encoding="utf-8")
         for marker in (
-            "最新曲", "代表曲 / おすすめ3件", "Official MV / Shorts / News / Gallery",
+            "最新曲", "SUZUKAおすすめ", "Official MV / Shorts / News / Gallery",
             "公開作品一覧", "SUZUKA Original AI Artist", "Instagram",
         ):
             if marker not in source:
                 errors.append(f"artists/{slug}: missing {marker}")
+        discovery = re.search(r'<section class="v11-artist-discovery">(.*?)</section>', source, re.S)
+        artist_work_count = sum(slug in item.get("artistSlugs", []) for item in releases)
+        expected_discovery_count = min(3, artist_work_count)
+        visible_discovery_count = len(re.findall(r'class="explorer-release-card"', discovery.group(1))) if discovery else 0
+        expected_heading = f"初めて聴くなら、この{expected_discovery_count}曲"
+        if not discovery or visible_discovery_count != expected_discovery_count or expected_heading not in discovery.group(1):
+            errors.append(
+                f"artists/{slug}: discovery expected={expected_discovery_count}, visible={visible_discovery_count}"
+            )
 
     if errors:
         print("Explorer Update audit failed:", file=sys.stderr)

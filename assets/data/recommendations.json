@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-08-09T00:28:12+09:00",
+  "updatedAt": "2026-08-09T20:00:19+09:00",
   "recommendations": {
+    "kimi-ni-kakatta-mahou": {
+      "sameArtist": [
+        "hanakotoba",
+        "hajimemashite-kiseki",
+        "without-worrying",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye",
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
+      ],
+      "sameGenre": [
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi",
+        "mermaid-merman"
+      ],
+      "sameTheme": [
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi",
+        "mermaid-merman"
+      ],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "mermaid-no-geboku",
+        "hanakotoba",
+        "wasureji-no-hito",
+        "anata-dake-no-savior",
+        "hajimemashite-kiseki",
+        "still-alive"
+      ],
+      "aiRecommended": [
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-to-nara-last-boss-made",
+        "kimi-wa-hanabi",
+        "mermaid-merman"
+      ]
+    },
     "mermaid-no-geboku": {
       "sameArtist": [
         "one-more-kiss",
@@ -13,16 +63,16 @@
         "one-more-kiss",
         "echoes-of-you",
         "hanakotoba",
-        "koisuru-maharaja",
-        "ai-demo-wakaranai"
+        "kimi-ni-kakatta-mahou",
+        "koisuru-maharaja"
       ],
       "sameTheme": [
         "mermaid-merman",
         "one-more-kiss",
         "echoes-of-you",
         "hanakotoba",
-        "koisuru-maharaja",
-        "ai-demo-wakaranai"
+        "kimi-ni-kakatta-mahou",
+        "koisuru-maharaja"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -33,30 +83,30 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban"
+        "still-alive"
       ],
       "aiRecommended": [
         "mermaid-merman",
         "one-more-kiss",
         "echoes-of-you",
         "hanakotoba",
-        "koisuru-maharaja",
-        "ai-demo-wakaranai"
+        "kimi-ni-kakatta-mahou",
+        "koisuru-maharaja"
       ]
     },
     "hanakotoba": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
         "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -83,12 +133,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "wasureji-no-hito",
         "anata-dake-no-savior",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban"
+        "still-alive"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -124,12 +174,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban"
+        "still-alive"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -160,12 +210,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban"
+        "still-alive"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -178,12 +228,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "without-worrying",
         "ashita-wa-kitto",
         "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -208,12 +258,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "still-alive",
-        "zennin-saiban"
+        "still-alive"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -249,12 +299,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "zennin-saiban"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -285,12 +335,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -320,9 +370,9 @@
         "mermaid-no-geboku",
         "koisuru-maharaja",
         "hanakotoba",
+        "kimi-ni-kakatta-mahou",
         "ai-demo-wakaranai",
-        "hyakumankoku",
-        "kimi-to-nara-last-boss-made"
+        "hyakumankoku"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -333,12 +383,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -373,12 +423,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -391,12 +441,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "ashita-wa-kitto",
         "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -422,12 +472,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -446,17 +496,17 @@
         "namaste-galaxy",
         "one-more-kiss",
         "hanakotoba",
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai",
-        "hyakumankoku"
+        "ai-demo-wakaranai"
       ],
       "sameTheme": [
         "namaste-galaxy",
         "one-more-kiss",
         "hanakotoba",
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai",
-        "hyakumankoku"
+        "ai-demo-wakaranai"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -467,20 +517,20 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "namaste-galaxy",
         "one-more-kiss",
         "hanakotoba",
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai",
-        "hyakumankoku"
+        "ai-demo-wakaranai"
       ]
     },
     "chimpanzee-no-rakuen": {
@@ -503,12 +553,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -521,12 +571,12 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameGenre": [
         "without-worrying",
@@ -551,12 +601,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -595,12 +645,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -638,12 +688,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -678,12 +728,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -714,12 +764,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -732,23 +782,24 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "moshimo-ashita-hajimemashite-ni-natte-mo",
-        "suki-ga-kyou-mo-fueteiku"
+        "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
         "without-worrying",
         "hanakotoba",
         "our-kingdom",
-        "my-queen-my-oath",
-        "still-alive"
+        "kimi-ni-kakatta-mahou",
+        "my-queen-my-oath"
       ],
       "sameTheme": [
         "our-kingdom",
+        "kimi-ni-kakatta-mahou",
         "my-queen-my-oath"
       ],
       "popular": [
@@ -760,20 +811,20 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
         "without-worrying",
         "hanakotoba",
         "our-kingdom",
-        "my-queen-my-oath",
-        "still-alive"
+        "kimi-ni-kakatta-mahou",
+        "my-queen-my-oath"
       ]
     },
     "boukyaku-no-ikimono": {
@@ -804,12 +855,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -833,11 +884,12 @@
         "one-more-kiss",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "mermaid-no-geboku"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameTheme": [
         "our-kingdom",
         "smile-and-say-goodbye",
+        "kimi-ni-kakatta-mahou",
         "red-moon-rising",
         "shadow-code"
       ],
@@ -850,12 +902,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -863,7 +915,7 @@
         "one-more-kiss",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "mermaid-no-geboku"
+        "kimi-ni-kakatta-mahou"
       ]
     },
     "red-moon-rising": {
@@ -891,12 +943,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -909,12 +961,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "suki-ga-kyou-mo-fueteiku"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -941,12 +993,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -959,12 +1011,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -991,12 +1043,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1009,12 +1061,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -1041,12 +1093,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -1059,24 +1111,25 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "my-queen-my-oath",
         "smile-and-say-goodbye",
+        "kimi-ni-kakatta-mahou",
         "mirai-no-watashi-ga-miteru",
         "toriatsukai-chui",
-        "ai-demo-wakaranai",
-        "kimi-to-nara-last-boss-made"
+        "ai-demo-wakaranai"
       ],
       "sameTheme": [
         "my-queen-my-oath",
-        "smile-and-say-goodbye"
+        "smile-and-say-goodbye",
+        "kimi-ni-kakatta-mahou"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -1087,20 +1140,20 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
         "smile-and-say-goodbye",
+        "kimi-ni-kakatta-mahou",
         "mirai-no-watashi-ga-miteru",
         "toriatsukai-chui",
-        "ai-demo-wakaranai",
-        "kimi-to-nara-last-boss-made"
+        "ai-demo-wakaranai"
       ]
     },
     "shadow-code": {
@@ -1129,12 +1182,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -1147,12 +1200,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -1179,12 +1232,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -1197,12 +1250,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1229,12 +1282,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1247,12 +1300,12 @@
     },
     "mia": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1279,12 +1332,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1297,12 +1350,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1329,12 +1382,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1347,12 +1400,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1379,12 +1432,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1397,12 +1450,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -1429,12 +1482,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -1447,12 +1500,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1479,12 +1532,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1497,12 +1550,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -1529,12 +1582,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -1547,12 +1600,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1579,12 +1632,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1597,12 +1650,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -1629,12 +1682,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

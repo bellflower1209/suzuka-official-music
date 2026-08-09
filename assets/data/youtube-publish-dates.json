@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-08T21:54:42+09:00",
+  "checkedAt": "2026-08-09T20:09:51+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -183,12 +183,12 @@
       "channelVerified": true,
       "youtubePublishDate": "2026-08-02T07:27:48-07:00",
       "youtubeUploadDate": "2026-08-02T07:27:48-07:00",
-      "liveStartTimestamp": "2026-08-09T20:00:00+09:00",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE",
-      "durationSeconds": 0,
-      "verifiedPublishedAt": "",
+      "liveStartTimestamp": "2026-08-09T20:00:06+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 380,
+      "verifiedPublishedAt": "2026-08-09T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "status": "scheduled"
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "kimi-to-nara-last-boss-made",

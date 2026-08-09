@@ -144,13 +144,18 @@ if (shareFallback.result.value.buttons < 4 || !shareFallback.result.value.copySt
   results.push({route:"releases/mia/", width:390, shareFallback:shareFallback.result.value});
 }
 
-async function analyticsClick(route, selector, expectedEvents) {
+async function analyticsClick(route, selector, expectedEvents, expectedSource = "") {
   const url = new URL(route, base).href;
   await send("Page.navigate", {url});
   await waitForPageReady(url);
-  const checked = await send("Runtime.evaluate", {expression:`(async()=>{const anchor=document.querySelector(${JSON.stringify(selector)});if(!anchor)return {missing:true};const before=(window.dataLayer||[]).length;anchor.addEventListener("click",event=>event.preventDefault(),{once:true});anchor.dispatchEvent(new MouseEvent("click",{bubbles:true,cancelable:true}));await new Promise(resolve=>setTimeout(resolve,150));const events=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event").map(item=>item[1]);return {events,href:anchor.href,analyticsLoaded:!![...document.scripts].find(script=>script.src.endsWith("assets/analytics.js")),gtagType:typeof window.gtag};})()`, awaitPromise:true, returnByValue:true});
+  const checked = await send("Runtime.evaluate", {expression:`(async()=>{const anchor=document.querySelector(${JSON.stringify(selector)});if(!anchor)return {missing:true};const before=(window.dataLayer||[]).length;anchor.addEventListener("click",event=>event.preventDefault(),{once:true});anchor.dispatchEvent(new MouseEvent("click",{bubbles:true,cancelable:true}));await new Promise(resolve=>setTimeout(resolve,150));const rows=(window.dataLayer||[]).slice(before).map(item=>Array.from(item)).filter(item=>item[0]==="event");return {events:rows.map(item=>item[1]),payloads:rows.map(item=>({name:item[1],parameters:item[2]})),href:anchor.href,analyticsLoaded:!![...document.scripts].find(script=>script.src.endsWith("assets/analytics.js")),gtagType:typeof window.gtag};})()`, awaitPromise:true, returnByValue:true});
   const value = checked.result.value;
-  if (value.missing || expectedEvents.some(name => !value.events.includes(name))) {
+  const primary = value.payloads?.find(item => expectedEvents.includes(item.name))?.parameters || {};
+  const invalidParameters = expectedSource && (
+    primary.source_section !== expectedSource || !primary.destination_url || !primary.current_page ||
+    !primary.work_title || !primary.release_slug || !primary.artist
+  );
+  if (value.missing || expectedEvents.some(name => !value.events.includes(name)) || invalidParameters) {
     results.push({route, analyticsSelector:selector, expectedEvents, analyticsResult:value});
   }
 }
@@ -166,6 +171,9 @@ await analyticsClick("", ".explorer-home-portals a[href='./wiki/']", ["wiki_clic
 await analyticsClick("", ".explorer-home-portals a[href='./universe/']", ["universe_click"]);
 await analyticsClick("", ".creator-link-card[href='./community/']", ["community_click"]);
 await analyticsClick("gallery/hyakumankoku/", "a[href*='youtube.com/shorts/']", ["shorts_click", "outbound_click"]);
+await analyticsClick("lyrics/hanakotoba/", "[data-source-section='lyrics_header'] a[href*='youtube.com/watch']", ["official_mv_click"], "lyrics_header");
+await analyticsClick("lyrics/hanakotoba/", "[data-source-section='lyrics_footer'] a[href*='youtube.com/watch']", ["official_mv_click"], "lyrics_footer");
+await analyticsClick("lyrics/hanakotoba/", "[data-source-section='related'] a[href*='youtube.com/watch']", ["official_mv_click"], "related");
 const searchQaUrl = new URL("search/", base).href;
 await send("Page.navigate", {url:searchQaUrl});
 await waitForPageReady(searchQaUrl);

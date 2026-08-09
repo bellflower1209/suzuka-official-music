@@ -143,9 +143,26 @@ GitHub Pagesで先行追加した「好きが、今日も増えていく。」�
 
 - SEO上の正式な本家：`https://www.suzukaofficial.com/`
 - コンテンツ同期元：上記GitHub Pages版
-- canonical・`og:url`・サイト内JSON-LD URL：各GitHub Pagesページの自己参照URL
-- sitemap：GitHub Pages版の公開URLのみを収録
-- Google Search Console：GitHub Pages版のURLプレフィックスを管理対象とします
+- canonical・`og:url`・サイト内JSON-LD URL：`https://www.suzukaofficial.com/`配下の自己参照URL
+- sitemap：正式ドメインの公開URLのみを収録
+- Google Search Console：正式ドメインのURLプレフィックスを管理対象とします
+
+### Version 1.1 — Brand Discovery & Growth
+
+サイト名の正本は `assets/data/brand.json` です。正式名を `SUZUKA Official`、短縮名を `SUZUKA`、説明語を `Original AI Music Project` とし、Homeの `WebSite` と `Organization` だけがブランド実体を定義します。各公開ページは `#website` と `#organization` を参照し、作品・歌詞・News間で同じ楽曲を同一の `MusicRecording @id` へ統一します。
+
+公開件数、初めて聴く人向けの代表曲、作品ページの「次に聴くなら」はHTMLへ手入力せず、Creator CMSと公開カタログから決定的に生成します。推薦は同一アーティスト、正本の関連作品、共通テーマ、共通ジャンル、`recommendationWeight`、公開日の順で算出し、実人気ランキングとは区別して表示します。
+
+生成とブランド監査：
+
+```bash
+python3 scripts/build_explore_catalog.py
+python3 scripts/audit_brand_entity.py
+python3 scripts/audit_public_counts.py
+python3 scripts/audit_structured_entity_ids.py
+```
+
+Googleのサイト名は検索システムが自動決定するため表示は保証されません。Homeの名称、構造化データ、OGP、Aboutの表記を継続して一致させ、公開後はSearch Consoleで再クロールを依頼してください。
 
 `CNAME`には`www.suzukaofficial.com`を保持します。DNSでは`www`のCNAMEを`bellflower1209.github.io`へ向け、GitHub Pagesが証明書を発行した後にHTTPSを強制します。旧`https://bellflower1209.github.io/suzuka-official-music/`は移行元URLであり、canonical・sitemap・IndexNow通知には使用しません。
 

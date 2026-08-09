@@ -111,6 +111,17 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/gallery/kimi-ni-kakatta-mahou/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>君にかかった魔法 Official MV</video:title>
+      <video:description>何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。</video:description>
+      <video:player_loc>https://www.youtube.com/embed/iEFPd6kYYJc</video:player_loc>
+      <video:publication_date>2026-08-09T20:00:06+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/kimi-to-nara-last-boss-made/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/YVNs3I-KaHI/maxresdefault.jpg</video:thumbnail_loc>
@@ -571,6 +582,18 @@
       <video:description>「好き」という気持ちは一度伝えるだけでは足りないという、まっすぐで大胆な恋心を描く榎本魅愛のデビュー曲「百万告」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QteunhFn9Dk</video:content_loc>
       <video:publication_date>2026-07-12T19:42:52+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/kimi-ni-kakatta-mahou/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>君にかかった魔法 Official Video</video:title>
+      <video:description>何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=iEFPd6kYYJc</video:content_loc>
+      <video:publication_date>2026-08-09T20:00:06+09:00</video:publication_date>
+      <video:duration>380</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

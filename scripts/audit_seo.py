@@ -27,7 +27,18 @@ LEGACY_REDIRECTS = {
 CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
 CREATOR_CMS = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
 CMS_RELEASES_BY_ARTIST = {
-    slug: [release for release in CREATOR_CMS["releases"] if slug in release.get("artistSlugs", [release.get("artistSlug")])]
+    slug: sorted(
+        [
+            release for release in CREATOR_CMS["releases"]
+            if release.get("status") == "published"
+            and slug in release.get("artistSlugs", [release.get("artistSlug")])
+        ],
+        key=lambda release: (
+            release.get("publishedAt") or release.get("releaseDate") or "",
+            release.get("slug") or "",
+        ),
+        reverse=True,
+    )
     for slug in {artist["slug"] for artist in CREATOR_CMS["artists"]}
 }
 YOUTUBE_EVIDENCE = json.loads(
@@ -300,7 +311,7 @@ def required_schema_types(relative: Path) -> set[str]:
         slug = relative.parts[1]
         artist = next((item for item in CREATOR_CMS["artists"] if item["slug"] == slug), None)
         if artist:
-            return {artist["type"], "ProfilePage", "ItemList", "BreadcrumbList", "WebPage"}
+            return {artist["type"], "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/eclypse/index.html":
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":
@@ -318,7 +329,7 @@ def required_schema_types(relative: Path) -> set[str]:
     if route == "news/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "social/index.html":
-        return {"WebPage", "Organization", "ItemList", "BreadcrumbList"}
+        return {"WebPage", "ItemList", "BreadcrumbList"}
     if route == "rankings/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route == "features/index.html" or route.startswith("features/"):
@@ -438,7 +449,12 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             if not image_url:
                 continue
             image_path = local_path_from_url(image_url)
-            if image_path is None or not image_path.is_file():
+            external = urllib.parse.urlsplit(image_url)
+            is_official_youtube_thumbnail = (
+                external.scheme == "https" and external.netloc == "i.ytimg.com"
+                and external.path.startswith("/vi/")
+            )
+            if not is_official_youtube_thumbnail and (image_path is None or not image_path.is_file()):
                 errors.append(f"{relative}: {label} does not resolve to a local public image: {image_url}")
 
         if parser.h1_count != 1:

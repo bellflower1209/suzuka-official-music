@@ -42,6 +42,9 @@ jobs:
           python3 scripts/audit_photobooks.py
           python3 scripts/audit_lyrics_sources.py
           python3 scripts/audit_rich_results.py
+          python3 scripts/audit_brand_entity.py
+          python3 scripts/audit_public_counts.py
+          python3 scripts/audit_structured_entity_ids.py
           python3 scripts/validate_sitemap.py
           python3 scripts/audit_sitemaps.py
           python3 scripts/audit_feed.py

@@ -2,6 +2,28 @@
   "updatedAt": "2026-08-09",
   "releases": [
     {
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "image": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "coverImage": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「君にかかった魔法」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "shortsUrl": "",
+      "newsPage": "",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "status": "published",
+      "releaseType": "single",
+      "publishedDate": "2026-08-09",
+      "duration": 380,
+      "releasePage": "releases/kimi-ni-kakatta-mahou/",
+      "playerEnabled": false,
+      "youtubeStatus": "published",
+      "newsStatus": "unconfirmed",
+      "shortsStatus": "unconfirmed"
+    },
+    {
       "slug": "mermaid-no-geboku",
       "title": "マーメイドの下僕",
       "artist": "神代煌牙",

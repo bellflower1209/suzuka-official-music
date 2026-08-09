@@ -5,6 +5,9 @@ from pathlib import Path
 def main():
  p=argparse.ArgumentParser();p.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[1]);r=p.parse_args().root;errors=[]
  data=json.loads((r/"assets/data/playlists.json").read_text())["playlists"]
+ cms=json.loads((r/"assets/data/creator-cms.json").read_text())
+ published=[x for x in cms["releases"] if x.get("status")=="published"]
+ newest=max(published,key=lambda x:(x.get("publishedAt") or x.get("releaseDate") or "",x.get("slug") or ""))["slug"]
  if len(data)!=12: errors.append(f"expected 12 playlists, found {len(data)}")
  by_slug={x["slug"]:x for x in data}
  for slug in ("love",):
@@ -12,7 +15,7 @@ def main():
   if not releases or releases[0]!="hanakotoba": errors.append(f"{slug}: hanakotoba must be first")
  for slug in ("latest","music-videos"):
   releases=by_slug.get(slug,{}).get("releaseSlugs",[])
-  if not releases or releases[0]!="mermaid-no-geboku": errors.append(f"{slug}: newest published release must be first")
+  if not releases or releases[0]!=newest: errors.append(f"{slug}: newest published release must be first ({newest})")
  for x in data:
   path=r/f"playlists/{x['slug']}/index.html"
   if not path.is_file(): errors.append(f"missing {path.relative_to(r)}");continue

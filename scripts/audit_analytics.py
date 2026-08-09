@@ -47,6 +47,26 @@ def main() -> int:
         if f'"{event}"' not in source: errors.append(f"assets/analytics.js: missing {event}")
     if "search_term" in source:
         errors.append("assets/analytics.js: raw search terms must not be transmitted")
+    if '"[data-source-section],[data-weekly-pick]' not in source:
+        errors.append("assets/analytics.js: source_section ancestor priority missing")
+    for path in sorted((root / "lyrics").glob("*/index.html")):
+        text = path.read_text(encoding="utf-8")
+        for section in ("lyrics_header", "lyrics_footer", "related"):
+            if f'data-source-section="{section}"' not in text:
+                errors.append(f"{path.relative_to(root)}: missing source_section={section}")
+        for field in ("data-title=", "data-artist=", "data-slug="):
+            if field not in text:
+                errors.append(f"{path.relative_to(root)}: missing analytics {field[:-1]}")
+    expected_sources = {
+        root / "index.html": "home_photobooks",
+        root / "artists/enomoto-mia/index.html": "artist_photobooks",
+        root / "photobooks/enomoto-mia-natsu-ga-owaru-made-soba-ni-ite/index.html": "photobook_detail",
+        root / "gallery/hanakotoba/index.html": "gallery_photobook",
+        root / "news/hanakotoba-release/index.html": "news_photobook",
+    }
+    for path, section in expected_sources.items():
+        if path.is_file() and f'data-source-section="{section}"' not in path.read_text(encoding="utf-8"):
+            errors.append(f"{path.relative_to(root)}: missing source_section={section}")
     sitemap=(root/"sitemap.xml").read_text(encoding="utf-8")
     if MEASUREMENT_ID in sitemap or "utm_" in sitemap: errors.append("sitemap contains analytics data")
     about=(root/"about/index.html").read_text(encoding="utf-8")

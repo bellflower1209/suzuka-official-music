@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T00:28:12+09:00",
+  "updatedAt": "2026-08-09T20:00:19+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,27 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "君にかかった魔法",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "url": "releases/kimi-ni-kakatta-mahou/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "恋愛",
+        "愛",
+        "日常",
+        "J-POP",
+        "ラブソング",
+        "恋愛",
+        "愛",
+        "日常",
+        "優しい",
+        "甘い"
       ]
     },
     {

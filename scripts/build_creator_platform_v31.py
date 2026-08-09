@@ -36,6 +36,32 @@ def eligible_lyrics(releases: list[dict]) -> list[dict]:
     ]
 
 
+def discovery_recommendations(item: dict, releases: list[dict], limit: int = 3) -> list[dict]:
+    """Select published follow-up works with a stable, documented priority order."""
+    item_artists = set(item.get("artistSlugs", [])) or {item.get("artistSlug", "")}
+    explicit = set(item.get("relatedReleaseSlugs", [])) | set(item.get("relatedReleases", []))
+    themes = set(item.get("themes", []))
+    genres = set(item.get("genres", []))
+
+    def priority(candidate: dict) -> tuple:
+        candidate_artists = set(candidate.get("artistSlugs", [])) or {candidate.get("artistSlug", "")}
+        return (
+            bool(item_artists & candidate_artists),
+            candidate["slug"] in explicit,
+            len(themes & set(candidate.get("themes", []))),
+            len(genres & set(candidate.get("genres", []))),
+            int(candidate.get("recommendationWeight") or 0),
+            candidate.get("publishedAt", candidate.get("releaseDate", "")),
+            candidate["slug"],
+        )
+
+    candidates = [
+        candidate for candidate in releases
+        if candidate.get("status") == "published" and candidate["slug"] != item["slug"]
+    ]
+    return sorted(candidates, key=priority, reverse=True)[:limit]
+
+
 def countdown_markup(item: dict, prefix: str = "") -> str:
     image = item["image"] if str(item["image"]).startswith(("http://", "https://")) else prefix + item["image"]
     return (
@@ -156,9 +182,15 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             ) + '</p>'
             for block in re.split(r"\n\s*\n", lyrics_text)
         )
-        related = [x for x in releases if x["slug"] != item["slug"] and (
-            x["artistSlug"] == item["artistSlug"] or set(x.get("genres", [])) & set(item.get("genres", []))
-        )][:3]
+        related = discovery_recommendations(item, releases)
+        analytics_attrs = (
+            f'data-title="{html.escape(item["title"])}" '
+            f'data-artist="{html.escape(item["artist"])}" data-slug="{html.escape(item["slug"])}"'
+        )
+        related_cards = "".join(card(x, "../../") for x in related).replace(
+            'class="explorer-release-card"',
+            'class="explorer-release-card" data-source-section="related"',
+        )
         previous = eligible[index - 1] if index else None
         following = eligible[index + 1] if index + 1 < len(eligible) else None
         paging = "".join([
@@ -168,16 +200,26 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
         body = (
             '<article class="v31-lyrics"><header>'
             f'<p>{html.escape(item["artist"])}</p><h2>{html.escape(item["title"])}</h2>'
-            f'<p>歌詞出典：{html.escape(item["lyricsSource"])}</p></header>'
+            f'<p>「{html.escape(item["title"])}」は、SUZUKA所属AIアーティスト'
+            f'{html.escape(item["artist"])}の楽曲です。</p>'
+            f'<p>歌詞出典：{html.escape(item["lyricsSource"])}</p>'
+            f'<div class="explore-actions" data-source-section="lyrics_header" {analytics_attrs}><a href="{item["youtubeUrl"]}" '
+            'target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
+            f'<a href="../../{item["releaseUrl"]}">作品ページ</a></div></header>'
             f'<div class="v31-lyrics-text">{paragraphs}</div></article>'
-            '<nav class="explore-actions">'
-            f'<a href="../../{item["releaseUrl"]}">作品ページ</a><a href="{item["youtubeUrl"]}">公式MV ↗</a>'
+            f'<nav class="explore-actions" data-source-section="lyrics_footer" {analytics_attrs}>'
+            f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
+            f'<a href="../../{item["releaseUrl"]}">作品ページ</a>'
             f'<a href="../../gallery/{item["slug"]}/">Gallery</a><a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
-            f'<section><h2>関連作品</h2><div class="explorer-card-grid">{"".join(card(x, "../../") for x in related)}</div></section>'
+            '<p class="v31-brand-return"><a href="../../about/">SUZUKAについて ↗</a></p>'
+            f'<section data-source-section="related"><h2>次に聴くなら</h2><p>SUZUKAおすすめ。実人気順位ではありません。</p>'
+            f'<div class="explorer-card-grid">{related_cards}</div></section>'
         )
         graph = [{
             "@type": "MusicRecording", "@id": f'{BASE}/{item["releaseUrl"]}#recording',
             "name": item["title"], "url": f'{BASE}/{item["releaseUrl"]}',
+            "description": item.get("description", ""),
+            "byArtist": {"@id": f'{BASE}/artists/{item["artistSlug"]}/#artist'},
         }]
         write(root / f'lyrics/{item["slug"]}/index.html', shell(
             f'lyrics/{item["slug"]}/', f'{item["title"]} 歌詞 | {item["artist"]} | SUZUKA Official',
@@ -252,7 +294,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
             f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         cards.append(
-            f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{cover_markup}'
+            f'<article class="v31-photobook-card" data-source-section="photobooks_hub" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{cover_markup}'
             f'<div><p>Visual Collection / {html.escape(artist["name"])}</p><h2><a href="./{item["slug"]}/">{html.escape(item["title"])}</a></h2>'
             f'<p>{html.escape(item.get("description") or "")}</p>'
             f'<time datetime="{html.escape(item["publishedAt"])}">{html.escape(item["publishedAt"][:10].replace("-", "."))}</time>'
@@ -274,7 +316,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
             f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         body = (
-            f'<article class="v31-photobook-detail" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{detail_cover}<div>'
+            f'<article class="v31-photobook-detail" data-source-section="photobook_detail" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">{detail_cover}<div>'
             f'<p>SUZUKA Visual Collection</p><h2>{html.escape(item["title"])}</h2><p>{html.escape(artist["name"])}</p>'
             f'<p>{html.escape(item.get("description") or "")}</p><dl><dt>公開日</dt><dd><time datetime="{html.escape(item.get("publishedAt") or "")}">{html.escape((item.get("publishedAt") or "未確認")[:10])}</time></dd>'
             f'<dt>公開形式</dt><dd>{html.escape(price or "有料・価格未確認")}</dd></dl>'
@@ -327,7 +369,7 @@ def photobook_crosslinks(root: Path, photobooks: list[dict], cms: dict) -> None:
     for item in photobooks:
         artist_name = artist_names.get(item.get("artistSlug"), "")
         link = (
-            '<section class="creator-copy v31-photobook-crosslink" data-photobook '
+            '<section class="creator-copy v31-photobook-crosslink" data-source-section="SOURCE_SECTION" data-photobook '
             f'data-slug="{html.escape(item["slug"])}" '
             f'data-title="{html.escape(item["title"])}" '
             f'data-artist="{html.escape(artist_name)}">'
@@ -340,10 +382,10 @@ def photobook_crosslinks(root: Path, photobooks: list[dict], cms: dict) -> None:
         for slug in item.get("relatedReleaseSlugs", []):
             gallery = root / f"gallery/{slug}/index.html"
             if gallery.is_file():
-                marker_upsert(gallery, f'PHOTOBOOK-{item["slug"]}', link)
+                marker_upsert(gallery, f'PHOTOBOOK-{item["slug"]}', link.replace("SOURCE_SECTION", "gallery_photobook"))
             news = root / f"news/{slug}-release/index.html"
             if news.is_file():
-                marker_upsert(news, f'PHOTOBOOK-{item["slug"]}', link)
+                marker_upsert(news, f'PHOTOBOOK-{item["slug"]}', link.replace("SOURCE_SECTION", "news_photobook"))
 
 
 def rankings_v31(root: Path, cms: dict, releases: list[dict]) -> dict:
@@ -452,9 +494,14 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         artist_upcoming = [item for item in upcoming if item["artistSlug"] == slug]
         latest = works[0] if works else None
         featured_slugs = artist.get("artistFeaturedTracks", [])
-        top = [next(item for item in works if item["slug"] == track) for track in featured_slugs if any(item["slug"] == track for item in works)][:3]
-        if len(top) < 3:
-            top = sorted(works, key=lambda x: (-int(x.get("recommendationWeight") or 0), x["slug"]))[:3]
+        top = sorted(works, key=lambda item: (
+            item["slug"] in featured_slugs,
+            bool(item.get("representative")),
+            bool(item.get("featured")),
+            int(item.get("recommendationWeight") or 0),
+            item.get("publishedAt", item.get("releaseDate", "")),
+            item["slug"],
+        ), reverse=True)[:3]
         related = sorted(
             (
                 (len(release_genres[slug] & release_genres[other]), other)
@@ -490,24 +537,32 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         photobook_section = ""
         if artist_photobooks:
             photobook_section = '<section><h2>Official Photobooks</h2><div class="v31-photobook-grid">' + "".join(
-                f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">'
+                f'<article class="v31-photobook-card" data-source-section="artist_photobooks" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">'
                 f'<img src="../../{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
                 f'<h3><a href="../../photobooks/{item["slug"]}/">{html.escape(item["title"])}</a></h3><div class="explore-actions">'
                 f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
                 for item in artist_photobooks
             ) + '</div></section>'
+        discovery_count = len(top)
+        discovery_heading = f'初めて聴くなら、この{discovery_count}曲'
+        discovery_cards = "".join(card(item, "../../") for item in top).replace(
+            'class="explorer-release-card"',
+            'class="explorer-release-card" data-source-section="artist_discovery"',
+        )
         body = (
             '<section class="v31-artist-hero"><div>'
             f'<p class="v31-ai-badge ai-artist-note">SUZUKA Original AI Artist / {"Group" if artist["type"] == "MusicGroup" else "Solo"}</p>'
             f'<h2>{html.escape(artist["name"])}</h2><p>{html.escape(artist["reading"])}</p>'
             f'<p>{html.escape(artist["profile"])}</p><div class="explore-actions">{social}<a href="../../schedule/">Schedule</a>'
-            f'<a href="../../search/?artist={slug}">作品を検索</a></div></div>'
+            f'<a href="../../search/?artist={slug}">作品を検索</a><a href="../../about/">About SUZUKA</a></div></div>'
             f'<img src="../../{artist["image"]}" alt="{html.escape(artist["name"])}代表画像" width="1280" height="720"/></section>'
             '<section class="v31-artist-facts"><div><h2>世界観</h2><p>' + html.escape(artist["world"]) + '</p></div>'
             '<div><h2>音楽性</h2><p>' + html.escape(artist["music"]) + '</p><p>' + html.escape(" / ".join(sorted(release_genres[slug]))) + '</p></div></section>'
             + members
             + (f'<section><h2>最新曲</h2>{card(latest, "../../")}</section>' if latest else "")
-            + f'<section><h2>代表曲 / おすすめ3件</h2><div class="explorer-card-grid">{"".join(card(item, "../../") for item in top)}</div></section>'
+            + '<section class="v11-artist-discovery"><p class="section-kicker">SUZUKAおすすめ</p>'
+            f'<h2>{discovery_heading}</h2><p>正本のfeatured・代表設定・recommendationWeight・公開日の順で決定的に選んでいます。実人気順位ではありません。</p>'
+            f'<div class="explorer-card-grid">{discovery_cards}</div></section>'
             + f'<section><h2>公開作品一覧</h2><div class="explorer-card-grid">{"".join(card(item, "../../") for item in works)}</div></section>'
             + f'<section><h2>Upcoming</h2><div class="v31-schedule-list">{upcoming_html}</div></section>'
             + '<section><h2>Official MV / Shorts / News / Gallery</h2><div class="creator-link-grid">'
@@ -671,7 +726,7 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
     featured = [item for item in photobooks if item.get("featured")][:3]
     artist_names = {item["slug"]: item["name"] for item in cms["artists"]}
     featured_cards = "".join(
-        f'<article class="v31-photobook-card" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}">'
+        f'<article class="v31-photobook-card" data-source-section="home_photobooks" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}">'
         f'<img src="./{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
         f'<p>{html.escape(artist_names.get(item["artistSlug"], ""))}</p><h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
         f'<a href="./photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
@@ -772,6 +827,10 @@ def analytics_v31(root: Path) -> None:
     text = text.replace(
         'linkedPath.includes("/playlists/") ? "playlist" : "link"',
         'linkedPath.includes("/playlists/") ? "playlist" :\n        linkedPath.includes("/lyrics/") ? "lyrics" :\n        linkedPath.includes("/photobooks/") ? "photobook" :\n        (new URL(anchor.href, location.href).hostname.includes("note.com")) ? "photobook" : "link"',
+    )
+    text = text.replace(
+        "context.getAttribute?.('data-ranking-section') || context.className || 'page'",
+        "context.dataset.sourceSection || context.getAttribute?.('data-ranking-section') || context.className || 'page'",
     )
     write(path, text)
 

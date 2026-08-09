@@ -9,6 +9,7 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     root = parser.parse_args().root.resolve()
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
     home = (root / "index.html").read_text(encoding="utf-8")
     rankings = (root / "rankings/index.html").read_text(encoding="utf-8")
     analytics = (root / "assets/analytics.js").read_text(encoding="utf-8")
@@ -28,7 +29,17 @@ def main() -> int:
     tracks = [item for item in player['releases'] if item.get('status') == 'published' and all(item.get(key) for key in ('youtubeId', 'image', 'pageUrl')) and item.get('playerEnabled', True)]
     if len(tracks) != 14:
         errors.append(f'fixed player must remain 14 tracks, found {len(tracks)}')
-    if cms.get('schemaVersion') != '3.1' or len(cms.get('artists', [])) != 8 or len(cms.get('releases', [])) != 36 or len(cms.get('upcoming', [])) != 3:
+    if (
+        cms.get('schemaVersion') != '3.1'
+        or len(cms.get('artists', [])) != len({
+            slug
+            for release in catalog.get('releases', [])
+            for slug in release.get('artistSlugs', [release.get('artistSlug')])
+            if slug
+        })
+        or len(cms.get('releases', [])) != len(catalog.get('releases', []))
+        or len(cms.get('upcoming', [])) != len(catalog.get('upcoming', []))
+    ):
         errors.append('CMS V3.1 counts/schema mismatch')
     if errors:
         print("V3.1 audit failed:\n- " + "\n- ".join(errors), file=sys.stderr)

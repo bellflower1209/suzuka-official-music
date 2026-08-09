@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.1",
+  "brandName": "SUZUKA Official",
+  "shortName": "SUZUKA",
+  "descriptor": "Original AI Music Project",
+  "officialUrl": "https://www.suzukaofficial.com/",
+  "description": "SUZUKAは、AIを活用して音楽・MV・ビジュアル・歌詞・物語を制作・公開するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。",
+  "organizationId": "https://www.suzukaofficial.com/#organization",
+  "websiteId": "https://www.suzukaofficial.com/#website",
+  "homeWebPageId": "https://www.suzukaofficial.com/#webpage",
+  "logo": "https://www.suzukaofficial.com/images/suzuka-channel.jpg",
+  "alternateNames": [
+    "SUZUKA",
+    "SUZUKA Original AI Music Project",
+    "suzukaofficial.com"
+  ],
+  "sameAs": [
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@suzuka1209",
+      "verifiedProfileName": "suzuka"
+    },
+    {
+      "platform": "note",
+      "url": "https://note.com/1209bellflower",
+      "verifiedProfileName": "SUZUKA｜Original AI Music Label"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/suzuka12090511/",
+      "verifiedProfileName": "SUZUKA MUSIC"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 (async () => {
   const root="../../", cms=await fetch(root+"assets/data/creator-cms.json").then(r=>r.json());
+  const photobooks=await fetch(root+"assets/data/photobooks.json").then(r=>r.json());
   const rec=await fetch(root+"assets/data/recommendations.json").then(r=>r.json());
   const set=(key,items)=>{const value=document.querySelector(`[data-dashboard="${key}"]`),list=document.querySelector(`[data-dashboard-list="${key}"]`);value.textContent=Array.isArray(items)?items.length:items; if(list&&Array.isArray(items))list.innerHTML=items.slice(0,8).map(x=>`<li>${x}</li>`).join("")};
   const releases=cms.releases, artists=cms.artists, newsSlugs=new Set(cms.news.map(x=>x.releaseSlug).filter(Boolean));
@@ -11,4 +12,6 @@
   set("searchconsole",["/playlists/","/community/","/universe/","/en/"]); set("youtube",releases.filter(x=>!x.youtubeUrl).map(x=>x.title));
   set("instagram",artists.filter(x=>!x.instagramUrl).map(x=>x.name)); set("publishedat",releases.filter(x=>!x.publishedAt).map(x=>x.title));
   set("recommendations",releases.filter(x=>!rec.recommendations[x.slug]?.aiRecommended?.length).map(x=>x.title));
+  set("lyrics",releases.filter(x=>x.status==="published"&&x.lyricsAvailable===true&&x.lyricsVerified===true&&x.lyricsVerifiedAt&&x.lyricsText).map(x=>x.title));
+  set("photobooks",photobooks.photobooks.filter(x=>x.status==="published").map(x=>x.title));
 })().catch(error=>{document.body.dataset.dashboardError=error.message});

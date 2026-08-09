@@ -37,12 +37,12 @@
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
-      <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
       <image:title>ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
+      <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -56,12 +56,12 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
+      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
@@ -190,12 +190,12 @@
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
-      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
+      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
@@ -1229,10 +1229,6 @@
   <url>
     <loc>https://www.suzukaofficial.com/genres/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -1393,10 +1389,6 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
       <image:title>神代煌牙「LEO — Rise Again —」公式YouTube公開予定サムネイル</image:title>
     </image:image>
@@ -1419,6 +1411,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
+      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -1564,12 +1560,12 @@
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/anata-dake-no-savior/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
+      <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
+      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -1579,16 +1575,16 @@
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/ashita-wa-kitto/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
+      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -1597,65 +1593,73 @@
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
+      <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/hanakotoba/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
+      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
+      <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/hyakumankoku/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
+      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/mermaid-no-geboku/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
+      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
+      <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
+      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/toriatsukai-chui/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
+      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1664,12 +1668,28 @@
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
+      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/zennin-saiban/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-chimpanzee-no-rakuen.jpg</image:loc>
       <image:title>NOX「チンパンジーの楽園」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
+      <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -1819,10 +1839,6 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE」公開 News</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/rangili-coming-soon.jpg</image:loc>
-      <image:title>SUZUKA Upcoming Artists News</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
       <image:title>神代煌牙「My Queen, My Oath」公開記事のサムネイル</image:title>
     </image:image>
@@ -1841,10 +1857,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「もしも明日、はじめましてになっても」｜記憶を越えて、もう一度恋をするの記事サムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
-      <image:title>ECLYPSE、SUZUKA所属アーティストとして始動。の記事サムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
@@ -2222,10 +2234,6 @@
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
-      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/love/</loc>
@@ -2304,10 +2312,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
       <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
-      <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2388,10 +2392,6 @@
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
-      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/popular/</loc>
@@ -2470,10 +2470,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
       <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2568,36 +2564,28 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
-      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
+      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
-      <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
+      <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
+      <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/nox-chimpanzee-no-rakuen.jpg</image:loc>
+      <image:title>NOX「チンパンジーの楽園」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
+      <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
-      <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
-      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
+      <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2643,20 +2631,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2674,12 +2654,12 @@
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
-      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
+      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
@@ -2692,10 +2672,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2709,16 +2685,16 @@
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
-      <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
+      <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
@@ -2731,10 +2707,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2791,10 +2763,6 @@
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/</loc>
@@ -2811,6 +2779,10 @@
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -2819,16 +2791,8 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2836,22 +2800,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
-      <image:title>My Queen, My Oath ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
-      <image:title>忘却の生き物 ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
-      <image:title>OUR KINGDOM ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
-      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
@@ -2862,6 +2810,14 @@
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
+      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
+      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -2877,10 +2833,6 @@
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hajimemashite-kiseki/</loc>
@@ -2889,20 +2841,20 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
-      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
+      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
@@ -2920,16 +2872,24 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hanakotoba/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
+      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
+      <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
@@ -2952,10 +2912,6 @@
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
-      <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -2971,10 +2927,6 @@
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/heal-you-again/</loc>
@@ -2983,24 +2935,20 @@
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
-      <image:title>SMILE AND SAY GOODBYE ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
+      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
-      <image:title>NAMASTE☆GALAXY ジャケット</image:title>
+      <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
-      <image:title>忘れない心 ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
+      <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
-      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
@@ -3021,10 +2969,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3070,20 +3014,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3234,6 +3170,49 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/kimi-ni-kakatta-mahou/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
+      <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
+      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg</image:loc>
+      <image:title>榎本魅愛「百万告」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
+      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
+      <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
+      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
+      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
@@ -3276,20 +3255,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3335,20 +3306,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3362,12 +3325,12 @@
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
-      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
+      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -3380,10 +3343,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3419,10 +3378,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3468,16 +3423,8 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3487,16 +3434,20 @@
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
-      <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
+      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
+      <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
@@ -3517,10 +3468,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3566,20 +3513,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3625,20 +3564,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3676,20 +3607,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3735,20 +3658,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3786,10 +3701,6 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
-      <image:title>ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3805,10 +3716,6 @@
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/namaste-galaxy/</loc>
@@ -3817,20 +3724,16 @@
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
-      <image:title>RED MOON // RISING ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
-      <image:title>取り扱いチュー💋い ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>M・I・A ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
@@ -3841,20 +3744,8 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3862,6 +3753,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
+      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
@@ -3876,10 +3771,6 @@
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3890,10 +3781,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3927,10 +3814,6 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3939,20 +3822,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4000,10 +3875,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4056,10 +3927,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/smile-and-say-goodbye/</loc>
@@ -4068,32 +3935,20 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
-      <image:title>好きが、今日も増えていく。 ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>未来の私が見てる ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
-      <image:title>君は花火 ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
-      <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
+      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
-      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
+      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
+      <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
@@ -4110,10 +3965,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4145,10 +3996,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4190,20 +4037,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4249,20 +4088,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4308,20 +4139,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4367,20 +4190,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4398,12 +4213,12 @@
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
@@ -4413,28 +4228,12 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
-      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/wasurenai-kokoro/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
-      <image:title>忘却の生き物 ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>未来の私が見てる ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
-      <image:title>SMILE AND SAY GOODBYE ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
@@ -4445,16 +4244,16 @@
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
@@ -4476,6 +4275,14 @@
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4484,24 +4291,12 @@
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4519,6 +4314,10 @@
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4527,20 +4326,12 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
