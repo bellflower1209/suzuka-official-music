@@ -7,6 +7,7 @@ import html
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 from build_creator_platform_v31 import discovery_recommendations, eligible_lyrics
 from build_explorer_update import BASE, card
@@ -389,6 +390,247 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
         path.write_text(text, encoding="utf-8")
 
 
+def add_anchor_attributes(tag: str, attributes: dict[str, str | None]) -> str:
+    """Add or replace attributes on one generated anchor tag."""
+    for name, value in attributes.items():
+        tag = re.sub(
+            rf'\s+{re.escape(name)}(?:=(?:"[^"]*"|\'[^\']*\'|[^\s>]+))?',
+            "", tag, flags=re.I,
+        )
+        if value is None:
+            tag = tag[:-1] + f" {name}>"
+        else:
+            tag = tag[:-1] + f' {name}="{html.escape(value, quote=True)}">'
+    return tag
+
+
+def youtube_channel_url(brand: dict) -> str:
+    channels = [item["url"] for item in brand.get("sameAs", []) if item.get("platform") == "YouTube"]
+    if len(channels) != 1:
+        raise ValueError("brand.json must contain exactly one verified YouTube profile")
+    return channels[0]
+
+
+def subscribe_section(channel: str, source: str, content_type: str, *, item: dict | None = None) -> str:
+    data = [
+        f'data-source-section="{source}"', 'data-subscribe-cta',
+        f'data-content-type="{content_type}"',
+    ]
+    if item:
+        data.extend([
+            f'data-slug="{html.escape(item["slug"], quote=True)}"',
+            f'data-title="{html.escape(item["title"], quote=True)}"',
+            f'data-artist="{html.escape(item["artist"], quote=True)}"',
+        ])
+    return (
+        f'<section class="v11-subscribe-cta" {" ".join(data)}>'
+        '<div><p class="section-kicker">OFFICIAL YOUTUBE</p><h2>新曲を見逃さない</h2>'
+        '<p>SUZUKAの新しいMVと音楽をYouTubeでチェック。</p></div>'
+        f'<a class="v31-readable-cta" href="{html.escape(channel, quote=True)}" '
+        'target="_blank" rel="noopener noreferrer">SUZUKAをYouTubeでフォロー ↗</a></section>'
+    )
+
+
+def upsert_before_footer(text: str, name: str, content: str) -> str:
+    block = f"<!-- BRAND-V11:{name}:START -->{content}<!-- BRAND-V11:{name}:END -->"
+    pattern = rf"<!-- BRAND-V11:{re.escape(name)}:START -->.*?<!-- BRAND-V11:{re.escape(name)}:END -->"
+    if re.search(pattern, text, re.S):
+        return re.sub(pattern, block, text, count=1, flags=re.S)
+    for anchor in ('<footer class="site-footer', '</main>'):
+        if anchor in text:
+            return text.replace(anchor, block + anchor, 1)
+    raise ValueError(f"No insertion point for {name}")
+
+
+def upsert_growth_links(text: str, name: str, content: str) -> str:
+    block = f"<!-- BRAND-V11:{name}:START -->{content}<!-- BRAND-V11:{name}:END -->"
+    pattern = rf"<!-- BRAND-V11:{re.escape(name)}:START -->.*?<!-- BRAND-V11:{re.escape(name)}:END -->"
+    if re.search(pattern, text, re.S):
+        return re.sub(pattern, block, text, count=1, flags=re.S)
+    for anchor in ('<section class="social-context-section"', '<footer class="site-footer', '</main>'):
+        if anchor in text:
+            return text.replace(anchor, block + anchor, 1)
+    raise ValueError(f"No insertion point for {name}")
+
+
+def standardize_channel_links(text: str, channel: str) -> str:
+    """Label common header/footer channel links and the dedicated Home CTA."""
+    def label_block(match: re.Match, source: str) -> str:
+        block = match.group(0)
+        pattern = re.compile(r'<a\b[^>]*href=["\']' + re.escape(channel) + r'["\'][^>]*>', re.I)
+        return pattern.sub(
+            lambda anchor: add_anchor_attributes(anchor.group(0), {"data-source-section": source}),
+            block,
+        )
+
+    text = re.sub(r'<header\b.*?</header>', lambda match: label_block(match, "header_channel"), text, flags=re.I | re.S)
+    text = re.sub(r'<footer\b.*?</footer>', lambda match: label_block(match, "footer_channel"), text, flags=re.I | re.S)
+    home_pattern = re.compile(
+        r'<section\b[^>]*class=["\'][^"\']*youtube-growth-section[^"\']*["\'][^>]*>.*?</section>',
+        re.I | re.S,
+    )
+
+    def home_cta(match: re.Match) -> str:
+        block = match.group(0)
+        pattern = re.compile(r'<a\b[^>]*href=["\']' + re.escape(channel) + r'["\'][^>]*>', re.I)
+        return pattern.sub(
+            lambda anchor: add_anchor_attributes(anchor.group(0), {
+                "data-source-section": "home_subscribe", "data-subscribe-cta": None,
+                "data-content-type": "home",
+            }),
+            block,
+        )
+
+    return home_pattern.sub(home_cta, text)
+
+
+def normalize_external_links(text: str) -> tuple[str, int]:
+    """Apply the site's established new-tab security policy to external anchors."""
+    changed = 0
+    pattern = re.compile(r'<a\b[^>]*href=["\']https?://[^"\']+["\'][^>]*>', re.I)
+
+    def replace(match: re.Match) -> str:
+        nonlocal changed
+        tag = match.group(0)
+        href_match = re.search(r'href=["\']([^"\']+)', tag, re.I)
+        if not href_match or urlparse(href_match.group(1)).hostname == "www.suzukaofficial.com":
+            return tag
+        target = re.search(r'target=["\']([^"\']+)', tag, re.I)
+        rel = re.search(r'rel=["\']([^"\']+)', tag, re.I)
+        if (
+            target and target.group(1) == "_blank"
+            and rel and {"noopener", "noreferrer"}.issubset(set(rel.group(1).split()))
+        ):
+            return tag
+        updated = add_anchor_attributes(tag, {"target": "_blank", "rel": "noopener noreferrer"})
+        changed += updated != tag
+        return updated
+
+    return pattern.sub(replace, text), changed
+
+
+def install_growth_routes(root: Path, brand: dict, cms: dict, releases: list[dict], lyrics: list[dict]) -> dict[str, int]:
+    """Generate only confirmed Discovery & Growth crosslinks and subscribe CTAs."""
+    channel = youtube_channel_url(brand)
+    lyrics_by_slug = {
+        item["slug"]: item for item in lyrics
+        if (root / f'lyrics/{item["slug"]}/index.html').is_file()
+    }
+    published_artists = {
+        item["slug"] for item in cms.get("artists", [])
+        if item.get("status") == "published" and (root / f'artists/{item["slug"]}/index.html').is_file()
+    }
+    published_news = {
+        item.get("releaseSlug"): item for item in cms.get("news", [])
+        if item.get("status") == "published" and item.get("releaseSlug")
+    }
+    counts = {
+        "releaseGallery": 0, "galleryArtist": 0, "galleryLyrics": 0,
+        "newsLyrics": 0, "newsGallery": 0, "galleryNews": 0,
+        "lyricsSubscribe": 0, "releaseSubscribe": 0, "playlistSubscribe": 0,
+        "externalLinksFixed": 0,
+    }
+
+    for item in releases:
+        release_path = root / item["releaseUrl"] / "index.html"
+        gallery_path = root / f'gallery/{item["slug"]}/index.html'
+        gallery_exists = gallery_path.is_file()
+        artist_exists = item["artistSlug"] in published_artists
+        lyrics_exists = item["slug"] in lyrics_by_slug
+        news = published_news.get(item["slug"])
+        news_path = root / "news" / news["slug"] / "index.html" if news else None
+        news_exists = bool(news_path and news_path.is_file())
+
+        if release_path.is_file():
+            text = release_path.read_text(encoding="utf-8")
+            if gallery_exists:
+                section = (
+                    '<section class="v11-growth-links" data-source-section="release_gallery">'
+                    '<p class="section-kicker">VISUAL DISCOVERY</p><h2>作品のビジュアルを見る</h2>'
+                    f'<div class="explore-actions"><a href="../../gallery/{item["slug"]}/">Galleryを見る</a></div></section>'
+                )
+                text = upsert_growth_links(text, "RELEASE-GALLERY", section)
+                counts["releaseGallery"] += 1
+            text = upsert_before_footer(text, "RELEASE-SUBSCRIBE", subscribe_section(
+                channel, "release_subscribe", "release", item=item,
+            ))
+            counts["releaseSubscribe"] += 1
+            release_path.write_text(text, encoding="utf-8")
+
+        if gallery_exists:
+            actions = [f'<a href="../../{item["releaseUrl"]}">作品ページへ戻る</a>']
+            if artist_exists:
+                actions.append(f'<a href="../../artists/{item["artistSlug"]}/">Artistを見る</a>')
+                counts["galleryArtist"] += 1
+            if lyrics_exists:
+                actions.append(f'<a href="../../lyrics/{item["slug"]}/">公式歌詞を見る</a>')
+                counts["galleryLyrics"] += 1
+            if news_exists:
+                actions.append(f'<a href="../../news/{news["slug"]}/">Newsを読む</a>')
+                counts["galleryNews"] += 1
+            section = (
+                '<section class="v11-growth-links" data-source-section="gallery_related">'
+                '<p class="section-kicker">RELATED CONTENT</p><h2>作品の関連情報</h2>'
+                f'<div class="explore-actions">{"".join(actions)}</div></section>'
+            )
+            text = gallery_path.read_text(encoding="utf-8")
+            text = marker_upsert(text, "GALLERY-RELATED", section, '<section class="explorer-production-note"')
+            gallery_path.write_text(text, encoding="utf-8")
+
+        if news_exists:
+            actions = [
+                f'<a href="../../{item["releaseUrl"]}">作品ページ</a>',
+                f'<a href="../../artists/{item["artistSlug"]}/">Artist</a>',
+            ]
+            if lyrics_exists:
+                actions.append(f'<a href="../../lyrics/{item["slug"]}/">公式歌詞を見る</a>')
+                counts["newsLyrics"] += 1
+            if gallery_exists:
+                actions.append(f'<a href="../../gallery/{item["slug"]}/">Galleryを見る</a>')
+                counts["newsGallery"] += 1
+            section = (
+                '<section class="v11-growth-links" data-source-section="news_related">'
+                '<p class="section-kicker">RELATED CONTENT</p><h2>作品の関連情報</h2>'
+                f'<div class="explore-actions">{"".join(actions)}</div></section>'
+            )
+            text = news_path.read_text(encoding="utf-8")
+            text = upsert_growth_links(text, "NEWS-RELATED", section)
+            news_path.write_text(text, encoding="utf-8")
+
+    lyrics_pages = [root / "lyrics/index.html", *sorted(root.glob("lyrics/*/index.html"))]
+    for path in lyrics_pages:
+        if not path.is_file() or 'content="noindex' in path.read_text(encoding="utf-8"):
+            continue
+        item = next((value for value in releases if path.parent.name == value["slug"]), None)
+        text = path.read_text(encoding="utf-8")
+        text = upsert_before_footer(text, "LYRICS-SUBSCRIBE", subscribe_section(
+            channel, "lyrics_subscribe", "lyrics", item=item,
+        ))
+        path.write_text(text, encoding="utf-8")
+        counts["lyricsSubscribe"] += 1
+
+    playlist_pages = [root / "playlists/index.html", *sorted(root.glob("playlists/*/index.html"))]
+    for path in playlist_pages:
+        if not path.is_file() or 'content="noindex' in path.read_text(encoding="utf-8"):
+            continue
+        text = path.read_text(encoding="utf-8")
+        text = upsert_before_footer(text, "PLAYLIST-SUBSCRIBE", subscribe_section(
+            channel, "playlist_subscribe", "playlist",
+        ))
+        path.write_text(text, encoding="utf-8")
+        counts["playlistSubscribe"] += 1
+
+    for path in sorted([*root.glob("**/index.html"), root / "404.html"]):
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8")
+        text = standardize_channel_links(text, channel)
+        text, fixed = normalize_external_links(text)
+        counts["externalLinksFixed"] += fixed
+        path.write_text(text, encoding="utf-8")
+    return counts
+
+
 def install_shared_assets(root: Path, brand: dict) -> None:
     manifest = {
         "name": brand["brandName"], "short_name": brand["shortName"],
@@ -398,9 +640,10 @@ def install_shared_assets(root: Path, brand: dict) -> None:
     }
     (root / "site.webmanifest").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     css = """/* SUZUKA Brand Discovery & Growth 1.1 */
-.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen{margin:clamp(2rem,6vw,6rem) auto;padding:clamp(1.25rem,4vw,3rem);max-width:74rem;color:var(--text-on-dark,#fff7fb);border:1px solid var(--border-contrast,#746c78);border-radius:1.2rem;background:linear-gradient(145deg,#15111a,#08070a)}
+.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin:clamp(2rem,6vw,6rem) auto;padding:clamp(1.25rem,4vw,3rem);max-width:74rem;color:var(--text-on-dark,#fff7fb);border:1px solid var(--border-contrast,#746c78);border-radius:1.2rem;background:linear-gradient(145deg,#15111a,#08070a)}
 .v11-brand-summary dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem}.v11-brand-summary dl>div{padding:1rem;border:1px solid var(--border-contrast,#746c78);border-radius:.8rem;background:#0d0b10}.v11-brand-summary dt{color:var(--text-secondary,#ddd3df)}.v11-brand-summary dd{margin:.35rem 0 0;font-size:clamp(1.5rem,4vw,2.8rem);font-weight:800}.v11-about-entity>p,.v11-work-context>p,.v11-next-listen>p{max-width:62rem;line-height:1.9}.v11-work-context a,.v11-disambiguation,.v31-brand-return a{color:var(--link-color,#ffd1eb)}.v11-artist-discovery{padding:clamp(2rem,6vw,6rem) clamp(1rem,6vw,7rem)}
-@media(max-width:760px){.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen{margin-left:1rem;margin-right:1rem}.v11-brand-summary dl{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.v11-subscribe-cta{display:flex;align-items:center;justify-content:space-between;gap:1.25rem}.v11-subscribe-cta h2{margin:.2rem 0;font-size:clamp(1.5rem,4vw,2.5rem)}.v11-subscribe-cta p{margin:.35rem 0;color:var(--text-secondary,#ddd3df)}.v11-subscribe-cta .v31-readable-cta{flex:0 0 auto;margin:0;text-align:center}.v11-growth-links .explore-actions{margin-top:1rem}
+@media(max-width:760px){.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin-left:1rem;margin-right:1rem}.v11-brand-summary dl{grid-template-columns:repeat(2,minmax(0,1fr))}.v11-subscribe-cta{display:grid;margin-bottom:11rem}.v11-subscribe-cta .v31-readable-cta{width:100%;justify-content:center}}
 """
     (root / "assets/brand-discovery-v11.css").write_text(css, encoding="utf-8")
     for path in sorted([*root.glob("**/index.html"), root / "404.html"]):
@@ -435,6 +678,7 @@ def main() -> None:
     lyrics = eligible_lyrics(releases)
     photobooks = [item for item in photobook_source["photobooks"] if item.get("status") == "published"]
     enhance_visible_pages(root, brand, cms, releases, lyrics, photobooks)
+    growth_counts = install_growth_routes(root, brand, cms, releases, lyrics)
     install_shared_assets(root, brand)
 
     release_map = {item["slug"]: item for item in releases}
@@ -453,6 +697,7 @@ def main() -> None:
     print(json.dumps({
         "version": "1.1", "brand": brand["brandName"], "artists": len(artist_map),
         "releases": len(releases), "lyrics": len(lyrics), "photobooks": len(photobooks),
+        "growth": growth_counts,
     }, ensure_ascii=False))
 
 

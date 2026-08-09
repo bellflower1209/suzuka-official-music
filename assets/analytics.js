@@ -81,6 +81,8 @@
     const youtubeVideo = isYoutube && !youtubeChannel &&
       (path === "/watch" || host === "youtu.be" || path.includes("/shorts/"));
     const details = detailsFor(anchor);
+    const contentContext = anchor.closest("[data-content-type]");
+    if (contentContext) details.content_type = clean(contentContext.dataset.contentType);
     if (anchor.closest("[data-weekly-pick]")) send("weekly_pick_click", details);
     if (anchor.closest(".v31-home-next")) send("next_release_click", details);
     if (anchor.closest("[data-countdown]")) send("countdown_click", details);
@@ -91,7 +93,8 @@
     if (url.hostname === "note.com" || url.hostname === "www.note.com") send("note_click", details);
     if (url.origin === location.origin && /\/rankings\/?$/.test(path)) send("ranking_click", details);
     if (url.origin === location.origin && /\/schedule\/?$/.test(path)) send("schedule_click", details);
-    if (youtubeChannel) send("youtube_click", details);
+    if (youtubeChannel && anchor.closest("[data-subscribe-cta]")) send("youtube_subscribe_click", details);
+    else if (youtubeChannel) send("youtube_click", details);
     else if (youtubeVideo && path.includes("/shorts/")) send("shorts_click", details);
     else if (youtubeVideo) send("official_mv_click", details);
     if (url.hostname.includes("instagram.com")) send("instagram_click", details);

@@ -12,6 +12,7 @@ EVENTS = (
     "community_click", "shorts_click", "outbound_click",
     "next_release_click", "countdown_click", "upcoming_click",
     "latest_release_click", "lyrics_click", "photobook_click", "note_click", "ranking_click", "schedule_click",
+    "youtube_subscribe_click",
 )
 
 def main() -> int:
@@ -58,15 +59,22 @@ def main() -> int:
             if field not in text:
                 errors.append(f"{path.relative_to(root)}: missing analytics {field[:-1]}")
     expected_sources = {
-        root / "index.html": "home_photobooks",
-        root / "artists/enomoto-mia/index.html": "artist_photobooks",
-        root / "photobooks/enomoto-mia-natsu-ga-owaru-made-soba-ni-ite/index.html": "photobook_detail",
-        root / "gallery/hanakotoba/index.html": "gallery_photobook",
-        root / "news/hanakotoba-release/index.html": "news_photobook",
+        root / "index.html": ("home_photobooks", "home_subscribe"),
+        root / "artists/enomoto-mia/index.html": ("artist_photobooks",),
+        root / "photobooks/enomoto-mia-natsu-ga-owaru-made-soba-ni-ite/index.html": ("photobook_detail",),
+        root / "gallery/hanakotoba/index.html": ("gallery_photobook",),
+        root / "news/hanakotoba-release/index.html": ("news_photobook",),
+        root / "lyrics/index.html": ("lyrics_subscribe",),
+        root / "releases/hanakotoba/index.html": ("release_subscribe",),
+        root / "playlists/index.html": ("playlist_subscribe",),
     }
-    for path, section in expected_sources.items():
-        if path.is_file() and f'data-source-section="{section}"' not in path.read_text(encoding="utf-8"):
-            errors.append(f"{path.relative_to(root)}: missing source_section={section}")
+    for path, sections in expected_sources.items():
+        if not path.is_file():
+            continue
+        value = path.read_text(encoding="utf-8")
+        for section in sections:
+            if f'data-source-section="{section}"' not in value:
+                errors.append(f"{path.relative_to(root)}: missing source_section={section}")
     sitemap=(root/"sitemap.xml").read_text(encoding="utf-8")
     if MEASUREMENT_ID in sitemap or "utm_" in sitemap: errors.append("sitemap contains analytics data")
     about=(root/"about/index.html").read_text(encoding="utf-8")

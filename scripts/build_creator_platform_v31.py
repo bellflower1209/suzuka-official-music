@@ -832,6 +832,18 @@ def analytics_v31(root: Path) -> None:
         "context.getAttribute?.('data-ranking-section') || context.className || 'page'",
         "context.dataset.sourceSection || context.getAttribute?.('data-ranking-section') || context.className || 'page'",
     )
+    if "youtube_subscribe_click" not in text:
+        text = text.replace(
+            'const details = detailsFor(anchor);',
+            'const details = detailsFor(anchor);\n'
+            '    const contentContext = anchor.closest("[data-content-type]");\n'
+            '    if (contentContext) details.content_type = clean(contentContext.dataset.contentType);',
+        )
+        text = text.replace(
+            'if (youtubeChannel) send("youtube_click", details);',
+            'if (youtubeChannel && anchor.closest("[data-subscribe-cta]")) send("youtube_subscribe_click", details);\n'
+            '    else if (youtubeChannel) send("youtube_click", details);',
+        )
     write(path, text)
 
 

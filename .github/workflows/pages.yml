@@ -37,7 +37,9 @@ jobs:
           node --check assets/explorer-update.js
           node --check scripts/browser_analytics_realtime_qa.mjs
           node --check scripts/browser_photobook_analytics_qa.mjs
+          node --check scripts/browser_growth_analytics_qa.mjs
           python3 scripts/audit_actions_node24.py
+          python3 scripts/audit_growth_routes.py
           python3 scripts/audit_analytics.py
           python3 scripts/audit_photobooks.py
           python3 scripts/audit_lyrics_sources.py
