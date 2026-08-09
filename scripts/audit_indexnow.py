@@ -72,8 +72,9 @@ def main() -> int:
     workflow_path = root / ".github/workflows/indexnow.yml"
     workflow = workflow_path.read_text(encoding="utf-8") if workflow_path.exists() else ""
     required_workflow_markers = (
-        "branches: [main]", "pages/deployments/$GITHUB_SHA", "pages/builds?per_page=100",
-        'select(.status == "built")', "Using previous successful Pages build",
+        "branches: [main]", "pages/deployments/$GITHUB_SHA",
+        "actions/workflows/pages.yml/runs?branch=main&status=success&per_page=100",
+        ".workflow_runs[].head_sha", "Using previous successful Pages workflow run",
         "scripts/submit_indexnow.py --submit", "actions/cache/restore@v6",
         "actions/cache/save@v6", "actions/upload-artifact@v7", "urlCount",
         "FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true",
@@ -82,6 +83,8 @@ def main() -> int:
     for marker in required_workflow_markers:
         if marker not in workflow:
             errors.append(f"workflow is missing: {marker}")
+    if "pages/builds?" in workflow:
+        errors.append("workflow must not use stale legacy Pages build history")
     submit_source = (root / "scripts/submit_indexnow.py").read_text(encoding="utf-8")
     for status in (200, 202, 400, 403, 422, 429):
         if f"{status}:" not in submit_source:

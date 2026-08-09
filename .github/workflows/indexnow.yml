@@ -65,24 +65,21 @@ jobs:
         run: |
           base_ref="$REQUESTED_BASE"
           if [ -z "$base_ref" ]; then
-            page_build_rows=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds?per_page=100" --jq '.[] | select(.status == "built") | .commit' || true)
+            successful_pages=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/pages.yml/runs?branch=main&status=success&per_page=100" --jq '.workflow_runs[].head_sha' || true)
             while IFS= read -r candidate; do
-              if [ -z "$candidate" ]; then
-                continue
-              fi
-              if [ "$candidate" = "$GITHUB_SHA" ]; then
+              if [ -z "$candidate" ] || [ "$candidate" = "$GITHUB_SHA" ]; then
                 continue
               fi
               if git cat-file -e "$candidate^{commit}" 2>/dev/null; then
                 base_ref="$candidate"
-                echo "Using previous successful Pages build at $candidate"
+                echo "Using previous successful Pages workflow run at $candidate"
                 break
               fi
-            done <<< "$page_build_rows"
+            done <<< "$successful_pages"
           fi
           if [ -z "$base_ref" ]; then
             base_ref=$(git rev-parse "$GITHUB_SHA^")
-            echo "Pages build history was unavailable; using first parent $base_ref"
+            echo "Pages deployment history was unavailable; using first parent $base_ref"
           fi
           if [ -z "$base_ref" ]; then
             echo "No previous successful Pages deployment found" >&2
