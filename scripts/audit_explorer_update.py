@@ -107,7 +107,7 @@ def main() -> int:
         "artists": len(cms["artists"]),
         "rankings": 9,
         "features": 10,
-        "galleryWorks": len(cms["releases"]),
+        "galleryWorks": sum(item.get("galleryPublished", True) for item in cms["releases"]),
         "wikiPages": 7,
         "universePages": 1,
     }
@@ -157,10 +157,15 @@ def main() -> int:
         key=lambda item: (item.get("publishedAt") or item.get("releaseDate") or "", item.get("slug") or ""),
         default={},
     )
+    expected_latest_gallery = max(
+        (item for item in published_cms if item.get("galleryPublished", True)),
+        key=lambda item: (item.get("publishedAt") or item.get("releaseDate") or "", item.get("slug") or ""),
+        default={},
+    )
     for route in ("news", "gallery"):
         source = (root / route / "index.html").read_text(encoding="utf-8")
         first_card = re.search(rf'href="\./([^/]+)/"', source)
-        expected_first = latest_news.get("slug") if route == "news" else expected_latest.get("slug")
+        expected_first = latest_news.get("slug") if route == "news" else expected_latest_gallery.get("slug")
         if not first_card or first_card.group(1) != expected_first:
             errors.append(
                 f"{route}/index.html: newest published item must be first "

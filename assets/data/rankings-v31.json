@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T20:00:19+09:00",
+  "updatedAt": "2026-08-12T00:01:07+09:00",
   "ga4DataAvailable": false,
   "youtubeDataAvailable": false,
   "rankings": {
@@ -18,16 +18,16 @@
     "sitePopular": [],
     "youtubePopular": [],
     "weeklySpotlight": [
+      "wasureji-no-hito",
+      "wasurenai-kokoro",
+      "without-worrying",
       "zennin-saiban",
       "ai-demo-wakaranai",
       "anata-dake-no-savior",
       "ashita-wa-kitto",
       "boukyaku-no-ikimono",
       "chimpanzee-no-rakuen",
-      "echoes-of-you",
-      "hajimemashite-kiseki",
-      "hanakotoba",
-      "heal-you-again"
+      "echoes-of-you"
     ]
   }
 }

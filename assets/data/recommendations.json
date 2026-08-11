@@ -1,14 +1,146 @@
 {
-  "updatedAt": "2026-08-09T20:00:19+09:00",
+  "updatedAt": "2026-08-12T00:01:07+09:00",
   "recommendations": {
-    "kimi-ni-kakatta-mahou": {
+    "kimi-wa-makenai": {
       "sameArtist": [
+        "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
+      ],
+      "sameGenre": [
+        "without-worrying",
+        "hajimemashite-kiseki",
+        "ashita-wa-kitto",
+        "last-dance-tonight",
+        "anata-dake-no-savior",
+        "still-alive"
+      ],
+      "sameTheme": [
+        "without-worrying",
+        "hajimemashite-kiseki",
+        "ashita-wa-kitto",
+        "last-dance-tonight",
+        "anata-dake-no-savior",
+        "still-alive"
+      ],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "leo-rise-again",
+        "last-dance-tonight",
+        "kimi-ni-kakatta-mahou",
+        "mermaid-no-geboku",
+        "hanakotoba",
+        "wasureji-no-hito"
+      ],
+      "aiRecommended": [
+        "without-worrying",
+        "hajimemashite-kiseki",
+        "ashita-wa-kitto",
+        "last-dance-tonight",
+        "anata-dake-no-savior",
+        "still-alive"
+      ]
+    },
+    "leo-rise-again": {
+      "sameArtist": [
+        "mermaid-no-geboku",
+        "one-more-kiss",
+        "echoes-of-you",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath"
+      ],
+      "sameGenre": [],
+      "sameTheme": [
+        "one-more-kiss"
+      ],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "kimi-wa-makenai",
+        "last-dance-tonight",
+        "kimi-ni-kakatta-mahou",
+        "mermaid-no-geboku",
+        "hanakotoba",
+        "wasureji-no-hito"
+      ],
+      "aiRecommended": [
+        "one-more-kiss",
+        "mermaid-no-geboku",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "kimi-ni-kakatta-mahou"
+      ]
+    },
+    "last-dance-tonight": {
+      "sameArtist": [
+        "anata-dake-no-savior"
+      ],
+      "sameGenre": [
+        "anata-dake-no-savior",
+        "heal-you-again",
+        "still-alive",
+        "kimi-wa-makenai",
+        "hajimemashite-kiseki",
+        "one-more-kiss"
+      ],
+      "sameTheme": [
+        "anata-dake-no-savior",
+        "heal-you-again",
+        "kimi-wa-makenai",
+        "hajimemashite-kiseki",
+        "one-more-kiss",
+        "without-worrying"
+      ],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "kimi-ni-kakatta-mahou",
+        "mermaid-no-geboku",
+        "hanakotoba",
+        "wasureji-no-hito"
+      ],
+      "aiRecommended": [
+        "anata-dake-no-savior",
+        "heal-you-again",
+        "still-alive",
+        "kimi-wa-makenai",
+        "hajimemashite-kiseki",
+        "one-more-kiss"
+      ]
+    },
+    "kimi-ni-kakatta-mahou": {
+      "sameArtist": [
+        "kimi-wa-makenai",
+        "hanakotoba",
+        "hajimemashite-kiseki",
+        "without-worrying",
+        "ashita-wa-kitto",
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -35,12 +167,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "mermaid-no-geboku",
         "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "wasureji-no-hito"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -53,6 +185,7 @@
     },
     "mermaid-no-geboku": {
       "sameArtist": [
+        "leo-rise-again",
         "one-more-kiss",
         "echoes-of-you",
         "boukyaku-no-ikimono",
@@ -83,12 +216,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "wasureji-no-hito"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -101,12 +234,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hajimemashite-kiseki",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -133,12 +266,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "wasureji-no-hito"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -150,19 +283,23 @@
       ]
     },
     "anata-dake-no-savior": {
-      "sameArtist": [],
+      "sameArtist": [
+        "last-dance-tonight"
+      ],
       "sameGenre": [
         "heal-you-again",
+        "last-dance-tonight",
         "without-worrying",
         "still-alive",
         "hajimemashite-kiseki",
-        "ashita-wa-kitto",
-        "hanakotoba"
+        "kimi-wa-makenai"
       ],
       "sameTheme": [
         "heal-you-again",
+        "last-dance-tonight",
         "without-worrying",
         "hajimemashite-kiseki",
+        "kimi-wa-makenai",
         "ashita-wa-kitto"
       ],
       "popular": [
@@ -174,20 +311,20 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "heal-you-again",
+        "last-dance-tonight",
         "without-worrying",
         "still-alive",
         "hajimemashite-kiseki",
-        "ashita-wa-kitto",
-        "hanakotoba"
+        "kimi-wa-makenai"
       ]
     },
     "wasureji-no-hito": {
@@ -210,12 +347,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -228,12 +365,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "without-worrying",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -245,8 +382,10 @@
       ],
       "sameTheme": [
         "without-worrying",
+        "kimi-wa-makenai",
         "ashita-wa-kitto",
         "anata-dake-no-savior",
+        "last-dance-tonight",
         "heal-you-again"
       ],
       "popular": [
@@ -258,12 +397,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "still-alive"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -283,12 +422,13 @@
         "without-worrying",
         "hanakotoba",
         "anata-dake-no-savior",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "last-dance-tonight",
+        "ashita-wa-kitto"
       ],
       "sameTheme": [
         "heal-you-again",
-        "without-worrying"
+        "without-worrying",
+        "kimi-wa-makenai"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -299,20 +439,20 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "heal-you-again",
         "without-worrying",
         "hanakotoba",
         "anata-dake-no-savior",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "last-dance-tonight",
+        "ashita-wa-kitto"
       ]
     },
     "zennin-saiban": {
@@ -335,12 +475,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -353,6 +493,7 @@
     },
     "one-more-kiss": {
       "sameArtist": [
+        "leo-rise-again",
         "mermaid-no-geboku",
         "echoes-of-you",
         "boukyaku-no-ikimono",
@@ -371,8 +512,8 @@
         "koisuru-maharaja",
         "hanakotoba",
         "kimi-ni-kakatta-mahou",
-        "ai-demo-wakaranai",
-        "hyakumankoku"
+        "last-dance-tonight",
+        "ai-demo-wakaranai"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -383,12 +524,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -423,12 +564,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -441,23 +582,24 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "ashita-wa-kitto",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
+        "kimi-wa-makenai",
         "still-alive",
         "heal-you-again",
         "hanakotoba",
-        "anata-dake-no-savior",
-        "smile-and-say-goodbye"
+        "anata-dake-no-savior"
       ],
       "sameTheme": [
         "ashita-wa-kitto",
+        "kimi-wa-makenai",
         "still-alive",
         "heal-you-again",
         "anata-dake-no-savior",
@@ -472,20 +614,20 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
+        "kimi-wa-makenai",
         "still-alive",
         "heal-you-again",
         "hanakotoba",
-        "anata-dake-no-savior",
-        "smile-and-say-goodbye"
+        "anata-dake-no-savior"
       ]
     },
     "koisuru-maharaja": {
@@ -517,12 +659,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -553,12 +695,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -571,26 +713,28 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "smile-and-say-goodbye",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "smile-and-say-goodbye"
       ],
       "sameGenre": [
         "without-worrying",
         "smile-and-say-goodbye",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "still-alive",
-        "heal-you-again"
+        "kimi-wa-makenai",
+        "still-alive"
       ],
       "sameTheme": [
         "without-worrying",
         "hajimemashite-kiseki",
+        "kimi-wa-makenai",
         "heal-you-again",
-        "anata-dake-no-savior"
+        "anata-dake-no-savior",
+        "last-dance-tonight"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -601,20 +745,20 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "without-worrying",
         "smile-and-say-goodbye",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "still-alive",
-        "heal-you-again"
+        "kimi-wa-makenai",
+        "still-alive"
       ]
     },
     "heal-you-again": {
@@ -625,14 +769,15 @@
         "anata-dake-no-savior",
         "still-alive",
         "without-worrying",
+        "last-dance-tonight",
         "ashita-wa-kitto",
-        "hajimemashite-kiseki",
-        "echoes-of-you"
+        "hajimemashite-kiseki"
       ],
       "sameTheme": [
         "anata-dake-no-savior",
         "still-alive",
         "without-worrying",
+        "last-dance-tonight",
         "ashita-wa-kitto",
         "hajimemashite-kiseki"
       ],
@@ -645,24 +790,25 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
         "still-alive",
         "without-worrying",
+        "last-dance-tonight",
         "ashita-wa-kitto",
-        "hajimemashite-kiseki",
-        "echoes-of-you"
+        "hajimemashite-kiseki"
       ]
     },
     "echoes-of-you": {
       "sameArtist": [
+        "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
         "boukyaku-no-ikimono",
@@ -688,12 +834,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -728,12 +874,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -764,12 +910,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -782,12 +928,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -811,12 +957,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -829,6 +975,7 @@
     },
     "boukyaku-no-ikimono": {
       "sameArtist": [
+        "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
         "echoes-of-you",
@@ -855,12 +1002,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -873,6 +1020,7 @@
     },
     "my-queen-my-oath": {
       "sameArtist": [
+        "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
         "echoes-of-you",
@@ -902,12 +1050,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -943,12 +1091,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -961,12 +1109,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -993,12 +1141,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1011,12 +1159,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1043,12 +1191,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1061,12 +1209,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -1093,12 +1241,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -1111,12 +1259,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -1140,12 +1288,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1182,12 +1330,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -1200,12 +1348,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -1232,12 +1380,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -1250,12 +1398,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1282,12 +1430,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1300,12 +1448,12 @@
     },
     "mia": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1332,12 +1480,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1350,12 +1498,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1382,12 +1530,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1400,12 +1548,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1432,12 +1580,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1450,12 +1598,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -1482,12 +1630,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -1500,12 +1648,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1532,12 +1680,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1550,12 +1698,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -1582,12 +1730,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -1600,12 +1748,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1632,12 +1780,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1650,12 +1798,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -1682,12 +1830,12 @@
         "still-alive"
       ],
       "recent": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "hanakotoba"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

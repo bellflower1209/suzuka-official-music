@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-08-09T20:00:19+09:00",
+  "updatedAt": "2026-08-12T00:01:07+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -95,6 +95,7 @@
         "AIアーティスト"
       ],
       "artistFeaturedTracks": [
+        "last-dance-tonight",
         "anata-dake-no-savior"
       ],
       "officialSource": "https://www.youtube.com/watch?v=Z_IFHEG4CJA",
@@ -128,8 +129,8 @@
       "artistStatus": "published",
       "artistFeaturedTracks": [
         "lost-signal",
-        "shadow-code",
-        "red-moon-rising"
+        "red-moon-rising",
+        "shadow-code"
       ]
     },
     {
@@ -156,9 +157,9 @@
       "artistType": "Person",
       "artistStatus": "published",
       "artistFeaturedTracks": [
-        "without-worrying",
+        "hanakotoba",
         "hajimemashite-kiseki",
-        "hanakotoba"
+        "without-worrying"
       ]
     },
     {
@@ -186,8 +187,8 @@
       "artistStatus": "published",
       "artistFeaturedTracks": [
         "one-more-kiss",
-        "our-kingdom",
-        "my-queen-my-oath"
+        "echoes-of-you",
+        "boukyaku-no-ikimono"
       ]
     },
     {
@@ -276,6 +277,379 @@
     }
   ],
   "releases": [
+    {
+      "slug": "kimi-wa-makenai",
+      "title": "君は負けない",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-11T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+      "image": "images/enomoto-mia-kimi-wa-makenai.jpg",
+      "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。",
+      "releaseAt": "2026-08-11T20:00:06+09:00",
+      "status": "published",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [
+        "J-POP",
+        "応援歌"
+      ],
+      "themes": [
+        "希望",
+        "応援",
+        "夢"
+      ],
+      "tags": [
+        "J-POP",
+        "応援歌",
+        "希望",
+        "応援",
+        "夢",
+        "温かい",
+        "力強い"
+      ],
+      "publishedAt": "2026-08-11T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "id": "kimi-wa-makenai",
+      "displayTitle": "君は負けない",
+      "englishTitle": "君は負けない",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-11",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [
+        "温かい",
+        "力強い"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-kimi-wa-makenai.jpg",
+      "coverAlt": "榎本魅愛「君は負けない」公式YouTubeサムネイル",
+      "releaseUrl": "releases/kimi-wa-makenai/",
+      "newsUrl": "",
+      "duration": 236,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "君は負けない",
+        "榎本魅愛",
+        "J-POP",
+        "応援歌",
+        "希望",
+        "応援",
+        "夢",
+        "温かい",
+        "力強い"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "lyrics": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "introduction": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。",
+      "seo": {
+        "title": "君は負けない｜榎本魅愛｜SUZUKA Official Music",
+        "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-11",
+      "videoPublishedAt": "2026-08-11T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
+    {
+      "slug": "leo-rise-again",
+      "title": "LEO — Rise Again —",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-10T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+      "image": "images/koga-leo-rise-again.jpg",
+      "description": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。",
+      "releaseAt": "2026-08-10T20:00:06+09:00",
+      "status": "published",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock"
+      ],
+      "themes": [
+        "再起",
+        "孤独",
+        "勇気"
+      ],
+      "tags": [
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock",
+        "再起",
+        "孤独",
+        "勇気",
+        "力強い",
+        "シネマティック"
+      ],
+      "publishedAt": "2026-08-10T20:00:06+09:00",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（leo_rise_again_suzuka_master.txt）",
+      "lyricsText": "\n風が止む\n胸の底\nまだ誰も知らない鼓動\n\n砂の上に残した　昨日の足跡は\n夜明け前の寒さで　すぐ形をなくす\n群れを離れた影　震える背中でも\n聞こえる　遠くで　微かな呼ぶ声\n\n負け癖を噛み砕く　奥歯に灯る火\n怖さごと連れていく\nI’ll carry it with me\n\n吠える代わりに　今はただ　喉で祈る\n破れた地図でも　進む先はひとつだけ\nRise again, I’m not afraid\n爪はまだ温いけど　心はもう焼けてる\nレオみたいに\n孤独を従えて行け\n\n転んで見つけたのは　土の匂いよりも\nまだ終われないことを　証明する熱\n誰の正しさでも　この胸は測れない\n迷いは羅針盤　触れながら指す方角\n\n言い訳の鎖ごと　ちぎって走れよ\n暗闇の中央で\n光は生まれる\n\n— Rise again…\nNo retreat.\n\n吠える代わりに　全身で　空を震わせ\n傷だらけの夢でも　抱きしめたら武器になる\nI am the one, I stand my ground\n涙が乾く前に　次の一歩刻もう\nレオみたいに\n孤高を味方にする\n\n心臓が太鼓になる\nStep by step, the night is thinning\n倒れるたびに強く\n呼吸は歌になる\nCall my name inside the storm\n誰もいない砂丘で\n自分の名を叫ぶ\n\nまだ終われない\nまだ倒れない\n傷も　孤独も\n全部連れて行け\nRise again…\nRise again…\n\n吠える声は　この胸で　火花になって\n揺れる影を連れても　朝焼けへ歩いて行け\nRise again, I won’t fade\n孤独と手を組んで　背中を押す追い風に\nレオみたいに\n誇りで道を開け\n\nRise again\nI’m not afraid\n何度この膝が\n砂に沈んでも\nRise again\nI won’t fade\nこの命が燃える限り\n俺は行く\n\n風が笑う\n目を開ける\n長い夜を越えた音\n静かに\nでも確かに\nI am the one…\nI rise again.",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "id": "leo-rise-again",
+      "displayTitle": "LEO — Rise Again —",
+      "englishTitle": "LEO — Rise Again —",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-10",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [
+        "力強い",
+        "シネマティック"
+      ],
+      "language": "ja",
+      "coverImage": "images/koga-leo-rise-again.jpg",
+      "coverAlt": "神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル",
+      "releaseUrl": "releases/leo-rise-again/",
+      "newsUrl": "",
+      "duration": 314,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "LEO — Rise Again —",
+        "神代煌牙",
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock",
+        "再起",
+        "孤独",
+        "勇気",
+        "力強い",
+        "シネマティック"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "lyrics": "",
+      "introduction": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。",
+      "seo": {
+        "title": "LEO — Rise Again —｜神代煌牙｜SUZUKA Official Music",
+        "description": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-10",
+      "videoPublishedAt": "2026-08-10T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
+    {
+      "id": "last-dance-tonight",
+      "slug": "last-dance-tonight",
+      "title": "LAST DANCE TONIGHT",
+      "displayTitle": "LAST DANCE TONIGHT",
+      "englishTitle": "LAST DANCE TONIGHT",
+      "artist": "ASTERIA",
+      "artistSlug": "asteria",
+      "artistSlugs": [
+        "asteria"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-10T20:00:06+09:00",
+      "releaseDate": "2026-08-10",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ"
+      ],
+      "moods": [
+        "疾走感",
+        "力強い"
+      ],
+      "themes": [
+        "今",
+        "夜",
+        "希望"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/ULMwbXtotsE/maxresdefault.jpg",
+      "coverAlt": "ASTERIA「LAST DANCE TONIGHT」公式YouTubeサムネイル",
+      "releaseUrl": "releases/last-dance-tonight/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ULMwbXtotsE",
+      "newsUrl": "",
+      "duration": 353,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "LAST DANCE TONIGHT",
+        "ASTERIA",
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ",
+        "今",
+        "夜",
+        "希望",
+        "疾走感",
+        "力強い"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。",
+      "tags": [
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ",
+        "今",
+        "夜",
+        "希望",
+        "疾走感",
+        "力強い"
+      ],
+      "lyrics": "",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（last_dance_tonight_suzuka_master.txt）",
+      "lyricsText": "\nNeon lights\nMidnight sky\nAre you ready?\nFive stars shining tonight\nThree, two, one—\nLAST DANCE TONIGHT！\n\nネオンの夜を駆け抜けて\n胸の炎　止まらない\n追いかけた夢の声\n空の果てで呼んでるよ\n昨日までの迷いさえ\n風の中へ投げ捨てて\n瞬きする暇もない\n未来がほら　待っている\n\n心の光が灯る\n暗闇なんて怖くない\n君がここにいるから\n時は今——\nわたしたち生きてる！\n\nLAST DANCE TONIGHT\nこのビートに乗せて\n\nHeartbeat…\nOne more time…\n(Ride the beat, don’t let it die)\n消えない星になる\n(We’re the stars that never fade)\n何度転んだって\nもう一度走り出せる\n輝いて　止まらない\n(Shining wild, we light the way)\nLAST DANCE TONIGHT！\n\nOh-oh-oh\nWe’re running through the night\nOh-oh-oh\nUntil the morning light\nFive stars\nOne sky\nLAST DANCE TONIGHT！\n\n未来はこの手の中\n(The future’s in our hands)\n夜明けをつかむように\n(Chasing the dawn we see)\nまだ知らない景色へ\nアクセル踏んで飛び込もう\nまぶしい奇跡を\nFive stars shining tonight\n(Every step’s a miracle)\nこの夜に刻んで\n振り返らない足跡を\n星座に変えてゆこう\n\n遠く離れていたって\n同じ空を見上げれば\n君の光が見えるよ\nひとりじゃない——\n走り続けよう！\n\nLAST DANCE TONIGHT\nこの鼓動響かせ\n\nLAST DANCE TONIGHT\nこの鼓動響かせ\n(Feel the beat inside your heart)\n夜空を突き抜けて\n(We can fly beyond the dark)\n一秒ごとの今が\n永遠へ変わってゆく\n輝いて　止まらない\n(Shining wild, we light the way)\nLAST DANCE TONIGHT！\n\nWhoa-oh！\nHigher！\nHigher！\nFaster！\nFaster！\nDon’t stop now！\nFive lights crossing the sky—\nASTERIA！\n\n涙も　風も\n明日へのメロディ\nASTERIA\nLAST DANCE…\n(Every tear, every breeze, our melody)\n傷ついた夜だって\n無駄じゃなかったんだ\n一瞬の煌めきが\n永遠になる\n(One spark becomes eternity)\nもし夜が終わっても\n君と見た星空は——\n消えない！\n\n静かになった街で\n夜明けの風が吹いてる\n長い夜の向こうから\n新しい光が差す\nねぇ\nもしこれが\n最後のダンスだとしても\n笑っていたい\n君と——\n\nHeartbeat…\nOne more time…\nOne more dream…\nOne more night…\nThree…\nTwo…\nOne…\nGO！\n\nLAST DANCE TONIGHT\n人生は今だけ\n\nLAST DANCE TONIGHT\n人生は今だけ\n(Life is now, no turning back)\n戻れない時を越えて\n(Life is now, no turning back)\n戻れない時を越えて\n(Through the fire, through the night)\n限界なんていらない\nもっと遠くへ行ける\n駆け抜けろ　LAST DANCE\n(Run forever in this light)\nLAST DANCE TONIGHT！\n\nLAST DANCE TONIGHT\nこの夜が明けても\nWe’re shining forever！\nLAST DANCE TONIGHT！\n五つの光と\n数え切れない星たち\n一緒なら怖くない\nWe’re shining forever！\nLAST DANCE TONIGHT！\n\nOh-oh-oh\nWe’re running through the light\nOh-oh-oh\nOur stars will never die\n夜が明ける\nそれでも——\nわたしたちの光は\n終わらない\nFive stars\nOne sky\nASTERIA\nLAST DANCE…\nFOREVER.",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "introduction": "ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。",
+      "publishedAt": "2026-08-10T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。",
+      "seo": {
+        "title": "LAST DANCE TONIGHT｜ASTERIA｜SUZUKA Official Music",
+        "description": "ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-10",
+      "videoPublishedAt": "2026-08-10T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=ULMwbXtotsE",
+      "playlistPriority": 0,
+      "homeHero": {}
+    },
+    {
+      "id": "kimi-ni-kakatta-mahou",
+      "slug": "kimi-ni-kakatta-mahou",
+      "title": "君にかかった魔法",
+      "displayTitle": "君にかかった魔法",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-09",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP"
+      ],
+      "moods": [
+        "優しい",
+        "甘い"
+      ],
+      "themes": [
+        "恋愛",
+        "愛",
+        "日常"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「君にかかった魔法」公式YouTubeサムネイル",
+      "releaseUrl": "releases/kimi-ni-kakatta-mahou/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "newsUrl": "",
+      "duration": 380,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 2,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "君にかかった魔法",
+        "榎本魅愛",
+        "J-POP",
+        "ラブソング",
+        "恋愛",
+        "愛",
+        "日常"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "tags": [
+        "J-POP",
+        "ラブソング",
+        "恋愛",
+        "愛",
+        "日常",
+        "優しい",
+        "甘い"
+      ],
+      "lyrics": "",
+      "introduction": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
+      "publishedAt": "2026-08-09T20:00:06+09:00",
+      "instagramUrl": "",
+      "shortsUrl": "",
+      "galleryImages": [
+        "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg"
+      ],
+      "productionNote": "公式YouTube説明欄で2026年8月9日20:00のプレミア公開を確認。",
+      "seo": {
+        "title": "君にかかった魔法｜榎本魅愛｜SUZUKA Official Music",
+        "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-02",
+      "videoPublishedAt": "2026-08-09T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "playlistPriority": 0,
+      "homeHero": {},
+      "releaseAt": "2026-08-09T20:00:06+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
+    },
     {
       "id": "mermaid-no-geboku",
       "slug": "mermaid-no-geboku",
@@ -741,14 +1115,14 @@
       "playlistPriority": 0,
       "homeHero": {},
       "releaseAt": "2026-08-05T20:00:06+09:00",
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（hajimemashite_kiseki_suzuka_master.txt）",
+      "lyricsText": "\n風吹けば　合図みたいに\n今日が　走り出す\n\n新しい靴で　踏み出した瞬間\nまだ白いページが　音を立てた\n知らない名前　知らない景色\nでも不思議と　怖くはない\n\n失敗も遠回りも\n全部　伏線みたいだ\n息を吸って　笑ったら\n世界が　目を覚ます\n\n人生はギャンブル　それでいい\n賭けたのは　今日のわたし\n偶然が　手を引いて\n「こっちだよ」って　春が呼ぶ\n\n転がしたサイコロが\n光を連れて止まる\nはじめまして、奇跡\n\n予定通りじゃ　つまらないね\n寄り道の先に　物語がある\n間違えた数だけ\nちゃんと　今に来た\n\n信じるって　怖いけど\n止まるより　ずっといい\n胸の鼓動が\nもう　答えだ\n\n人生はギャンブル　だからこそ\nこの一歩が　眩しい\nすれ違いざまの　視線が\n未来を　書き換えていく\n\nありふれた一秒が\n奇跡に　変わるなら\n今　振り切っていけ\n\nもしもを数えてたら\n春は　追い越していく\nだから今　迷いごと\n風に　預けた\n\n人生はギャンブル　それでも\n賭ける価値が　あるんだ\n偶然が重なって\n運命に　名前がつく\n\n走り出したこの季節\nもう　止まらない\nはじめまして、奇跡\n\n風吹けば　背中を押す\n今日が　はじまりだ",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00"
     },
     {
       "id": "still-alive",
@@ -1107,14 +1481,14 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=CbpvpKllc6c",
       "releaseAt": "2026-08-01T20:00:06+09:00",
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（lost_signal_suzuka_master.txt）",
+      "lyricsText": "\nCan you hear me…\n\nHello…\n\nIs anybody there…\n\nSignal lost…\n\n보라색 하늘이 조용히 울고 있었습니다.\n\n부서진 코드 조각이 비처럼 떨어집니다.\n\n어제까지 들리던 당신의 목소리는\n\n소음 너머로 사라져 버렸습니다.\n\n뻗은 손은 닿지 않는다\n\n남는 것은 흰 잡음뿐입니다.\n\n몇 번이라도 외칠게\n\n세상이 거부한다 해도\n\n이 심장 박동만은\n\n아직 끝내지 않겠습니다\n\nLost Signal\n\n당신에게 이어지는 주파수\n\n아직 사라질 것 같은 빛을 찾고 있습니다.\n\nLost Signal\n\n끊어진 미래에서도\n\n우리의 소원은 사라지지 않습니다.\n\n밤하늘을 찢으며\n\n다시 한 번\n\n연결해\n\n빨간 달이 세상을 뒤덮습니다\n\n고요함만이 답이 됩니다.\n\n아무도 없는 거리 모퉁이에서\n\n이름을 불러도\n\n바람만이 대답했습니다.\n\n기억만은\n\n지금도 따뜻합니다\n\n외로움은 분명히\n\n시련인 것 같습니다.\n\n그래서 앞만\n\n계속 보다\n\nLost Signal\n\n당신에게 이어지는 주파수\n\n끊어진 코드를 연결합니다\n\nLost Signal\n\n눈물의 저 너머로\n\n희망은 아직 잠들어 있습니다.\n\n밤을 넘어\n\n반드시\n\n만날 수 있습니다\n\nStatic…\n\nBreaking down…\n\nSearching every frequency…\n\nZero…\n\nOne…\n\nEcho…\n\nTell me where you are…\n\nLost in the silence\n\nLost in the code\n\nRunning through darkness\n\nNever alone\n\nEven if tomorrow\n\nNever arrives\n\nI’ll keep believing\n\nYou’re still alive\n\n이미 끝났다고\n\n누군가가 웃어도\n\n마지막 심장 박동까지\n\n포기하지 않겠습니다\n\n당신이 주신 빛이\n\n아직도 가슴 안에서\n\n사라지지 않고\n\n불타고 있습니다\n\nLost Signal\n\n도착하지 않더라도\n\n저는 계속 노래합니다\n\nLost Signal\n\n세계의 끝에서도\n\n당신을 계속 찾아다\n\n부서진 운명도\n\n고장 난 코드도\n\n모든 것을 넘어\n\n다시\n\n하나가 되다\n\nLost Signal…\n\nLost Signal…\n\nWe’ll find the light again…\n\nConnection…\n\nRestored…\n\n…\n\nTo be continued.",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00"
     },
     {
       "id": "without-worrying",
@@ -2617,14 +2991,14 @@
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-14T22:47:31+09:00",
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（shadow_code_suzuka_master.txt）",
+      "lyricsText": "\n(Whisper)\n\nSystem online…\n\nECLYPSE…\n\nBreak the code.\n\n깊어진 밤을 가르고\n숨겨진 빛을 찾아가\n멈춘 시간 너머에서\n우린 다시 눈을 떠\n\n차가운 도시의 불빛\n거짓은 모두 지워져\n끝이 아닌 시작을\n이제 우리가 써 내려가\n\nCan’t stop now\n\n심장은 더 크게 뛰어\n\n닫힌 문을 넘어\n\nWe become alive\n\nShadow Code\n\n운명을 다시 써\n\nShadow Code\n\n어둠 끝을 넘어\n\nWe don’t run\n\nWe don’t fall\n\n끝까지 함께 가\n\nShadow Code\n\n빛을 깨워\n\nTonight\n\n검은 하늘 갈라지는\n붉은 새벽 그 순간에\n두려움은 뒤로 두고\n앞만 보고 달려가\n\n흔들리는 세상 위에\n우리 이름 새겨져\n잃어버린 내일도\n다시 손에 쥐어\n\nBreak it\n\nReset\n\n새로운 page\n\nNo fear\n\nNo chains\n\nWe never change\n\n한계를 넘어\n\n불꽃이 돼\n\nFive voices\n\nOne flame\n\nRemember the name\n\nECLYPSE\n\n심장이 외쳐\n\n더 크게 외쳐\n\n멈추지 않아\n\nWe’re breaking through\n\nShadow Code\n\n세상을 밝혀\n\nShadow Code\n\n우리만의 미래\n\nHands up high\n\nFeel the fire\n\n하늘 끝까지\n\nShadow Code\n\n영원히\n\n빛나\n\nECLYPSE\n\n(Whisper)\n\nShadow…\n\nCode…\n\nECLYPSE.",
       "weeklyPickEligible": true,
       "analyticsEnabled": true,
       "upcomingPriority": 0,
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00"
     },
     {
       "id": "mirai-no-watashi-ga-miteru",
@@ -3467,148 +3841,116 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00"
-    },
-    {
-      "id": "kimi-ni-kakatta-mahou",
-      "slug": "kimi-ni-kakatta-mahou",
-      "title": "君にかかった魔法",
-      "displayTitle": "君にかかった魔法",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "artistSlugs": [
-        "enomoto-mia"
-      ],
-      "artistType": "Person",
-      "releaseDate": "2026-08-09",
-      "releaseYear": 2026,
-      "releaseType": "single",
-      "genres": [
-        "J-POP"
-      ],
-      "moods": [
-        "優しい",
-        "甘い"
-      ],
-      "themes": [
-        "恋愛",
-        "愛",
-        "日常"
-      ],
-      "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
-      "coverAlt": "榎本魅愛「君にかかった魔法」公式YouTubeサムネイル",
-      "releaseUrl": "releases/kimi-ni-kakatta-mahou/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
-      "newsUrl": "",
-      "duration": 380,
-      "status": "published",
-      "featured": false,
-      "recommendationWeight": 2,
-      "relatedReleases": [],
-      "searchKeywords": [
-        "君にかかった魔法",
-        "榎本魅愛",
-        "J-POP",
-        "ラブソング",
-        "恋愛",
-        "愛",
-        "日常"
-      ],
-      "aiArtistType": "fictional AI artist",
-      "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
-      "tags": [
-        "J-POP",
-        "ラブソング",
-        "恋愛",
-        "愛",
-        "日常",
-        "優しい",
-        "甘い"
-      ],
-      "lyrics": "",
-      "introduction": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。",
-      "publishedAt": "2026-08-09T20:00:06+09:00",
-      "instagramUrl": "",
-      "shortsUrl": "",
-      "galleryImages": [
-        "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg"
-      ],
-      "productionNote": "公式YouTube説明欄で2026年8月9日20:00のプレミア公開を確認。",
-      "seo": {
-        "title": "君にかかった魔法｜榎本魅愛｜SUZUKA Official Music",
-        "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。 SUZUKAの架空のAIアーティスト作品です。",
-        "jsonLdEnabled": true
-      },
-      "videoPublishDate": "2026-08-02",
-      "videoPublishedAt": "2026-08-09T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
-      "playlistPriority": 0,
-      "homeHero": {},
-      "releaseAt": "2026-08-09T20:00:06+09:00",
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
-      "weeklyPickEligible": true,
-      "analyticsEnabled": true,
-      "upcomingPriority": 0,
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null
     }
   ],
   "upcoming": [
     {
-      "slug": "leo-rise-again",
-      "title": "LEO — Rise Again —",
+      "slug": "kamisama-wa-rusu",
+      "title": "神様は留守",
       "artist": "神代煌牙",
       "artistSlug": "koga-kamishiro",
-      "scheduledAt": "2026-08-10T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
-      "image": "images/koga-leo-rise-again.jpg",
-      "description": "孤独を従え、もう一度立ち上がる神代煌牙の公開予定作品。",
-      "releaseAt": "2026-08-10T20:00:00+09:00",
+      "scheduledAt": "2026-08-12T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+      "image": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
+      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "releaseAt": "2026-08-12T20:00:00+09:00",
+      "publishedAt": "2026-08-12T20:00:00+09:00",
       "status": "upcoming",
       "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
       "genres": [],
       "themes": [],
       "tags": [],
-      "publishedAt": "2026-08-10T20:00:00+09:00",
       "lyricsAvailable": true,
-      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（leo_rise_again_official_lyrics.txt）",
-      "lyricsText": "[Intro – Whispered]\n\n風が止む\n胸の底\nまだ誰も知らない鼓動\n\n[Verse 1]\n\n砂の上に残した　昨日の足跡は\n夜明け前の寒さで　すぐ形をなくす\n群れを離れた影　震える背中でも\n聞こえる　遠くで　微かな呼ぶ声\n\n[Pre-Chorus]\n\n負け癖を噛み砕く　奥歯に灯る火\n怖さごと連れていく\nI’ll carry it with me\n\n[Chorus]\n\n吠える代わりに　今はただ　喉で祈る\n破れた地図でも　進む先はひとつだけ\n\nRise again, I’m not afraid\n\n爪はまだ温いけど　心はもう焼けてる\nレオみたいに\n孤独を従えて行け\n\n[Verse 2]\n\n転んで見つけたのは　土の匂いよりも\nまだ終われないことを　証明する熱\n誰の正しさでも　この胸は測れない\n迷いは羅針盤　触れながら指す方角\n\n[Pre-Chorus 2]\n\n言い訳の鎖ごと　ちぎって走れよ\n暗闇の中央で\n光は生まれる\n\n[Break – Full Stop]\n\n— Rise again…\n\nNo retreat.\n\n[Chorus 2]\n\n吠える代わりに　全身で　空を震わせ\n傷だらけの夢でも　抱きしめたら武器になる\n\nI am the one, I stand my ground\n\n涙が乾く前に　次の一歩刻もう\nレオみたいに\n孤高を味方にする\n\n[Instrumental Break]\n\n[Bridge – Halftime]\n\n心臓が太鼓になる\nStep by step, the night is thinning\n\n倒れるたびに強く\n呼吸は歌になる\n\nCall my name inside the storm\n\n誰もいない砂丘で\n自分の名を叫ぶ\n\n[Build Up]\n\nまだ終われない\nまだ倒れない\n\n傷も　孤独も\n全部連れて行け\n\nRise again…\n\nRise again…\n\n[Final Chorus]\n\n吠える声は　この胸で　火花になって\n揺れる影を連れても　朝焼けへ歩いて行け\n\nRise again, I won’t fade\n\n孤独と手を組んで　背中を押す追い風に\nレオみたいに\n誇りで道を開け\n\n[Final Refrain]\n\nRise again\nI’m not afraid\n\n何度この膝が\n砂に沈んでも\n\nRise again\nI won’t fade\n\nこの命が燃える限り\n\n俺は行く\n\n[Outro]\n\n風が笑う\n目を開ける\n\n長い夜を越えた音\n\n静かに\nでも確かに\n\nI am the one…\n\nI rise again.",
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（kamisama_wa_rusu_suzuka_master.txt）",
+      "lyricsText": "\n一体、僕の何が悪くて\n毎晩、夢も見れないのよ\n夜明け近く　タバコの火は落ち\n焦がした未来と彼女のレター\n全くどうして人の心\n変わりやすい　誰かと秋の空\n一人暮らしの部屋にペアグラス\n手酌酒で不満な水玉\n\nまだ\nやれることだらけ\n\nもしも\nやり直せるなら\n駅の\nホームで待ってる\n馬鹿だと\n笑われたって\n今夜も\n帰れずにいる\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　終わっちゃいない\n\nOh-oh\n神様は留守\nOh-oh\n今夜も留守\n\n二人分だった歯ブラシも\n一本だけじゃ妙に寒々しい\n消せない番号　眺めながら\nかけもしないで朝を待ってる\n君が置いてった古いシャツ\n洗えもしないで椅子に掛けた\n幸せなんて逃げ足が速い\nなのに未練だけ居座っている\n\nもしも\n戻ってくるなら\n同じ\nホームで待ってる\nだけど\n来ないと知って\n僕にも\nやっと分かった\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　やれることだらけ\n\n誰かのせいにして\n夜を使い切って\n奇跡を待つほど\n暇じゃないだろ\n失くしたものばかり\n数えているより\nこの手で\n何かを掴め\n\n神様が\n留守なら――\n\n震える指先で期待した\n叶わなかった約束\nだけど願いを叶えるのは\n神様だけじゃないだろ\nいつでも神様は留守\nそれなら僕が歩くだけ\n歯がゆく感じるうちは\nまだ　終わっちゃいない\n僕の願いを叶えて\nそんな祈りはもういい\n傷だらけでも構わない\nまだ　やれることだらけ\n\nOh-oh\n神様は留守\nOh-oh\nそれでいいさ\n\nまだ\nやれることだらけ",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "featured": false,
       "recommendationWeight": null,
       "weeklyPickEligible": false,
       "analyticsEnabled": true,
-      "upcomingPriority": 2,
-      "lyricsVerified": true,
-      "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00"
+      "upcomingPriority": 1
     },
     {
-      "slug": "kimi-wa-makenai",
-      "title": "君は負けない",
+      "slug": "caramel",
+      "title": "キャラメ〜ル",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-11T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
-      "image": "images/enomoto-mia-kimi-wa-makenai.jpg",
-      "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の公開予定作品。",
-      "releaseAt": "2026-08-11T20:00:00+09:00",
+      "scheduledAt": "2026-08-13T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+      "image": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
+      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "releaseAt": "2026-08-13T20:00:00+09:00",
+      "publishedAt": "2026-08-13T20:00:00+09:00",
       "status": "upcoming",
       "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
       "genres": [],
       "themes": [],
       "tags": [],
-      "publishedAt": "2026-08-11T20:00:00+09:00",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（caramel_suzuka_master.txt）",
+      "lyricsText": "\nCaramel…\nCaramel…\nねぇ\nそんな顔で笑わないで\nまた今日も\nわたしのハートが――\nキャラメ〜ル♡\nHey！\n\nいつもの駅　いつもの時間\nいつもの角で　君を見つけた\n別に待ってたわけじゃないし\n偶然だから！　ほんとだから！\n昨日より少し短い前髪\n気づいてくれたら嬉しいけど\n「なんか今日、違う？」\nその一言で\n頭の中　全部真っ白！\n\nひとつ　ふたつ\n目が合うたびに\n甘く　甘く\n胸が熱くなる\nほどけそうで\nほどけない\nもう！\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n視線と視線が　からまる\n甘いだけじゃ\n物足りないの\nちょっと苦いのも\n恋でしょ？\nねぇ　この気持ち\nどうしたらいい？\n答えはきっと\n君なんです♡\n\n日曜日　朝からキッチン\nキャラメルソースと大格闘\n焦がして　やり直して\n味見して……\nあれ？\n半分なくなってる！\n君に渡す小さな袋\nリボン結んで　またほどいて\n「別に君だけじゃないからね」\nだけど君が\n「これ、俺のため？」\nやめてよもう！\n心臓もたない！\n\n近づくたびに\n逃げたくなるし\n離れた瞬間\n会いたくなる\n恋ってほんと\n忙しい！\n\nキャラメ〜ル！　キャラメ〜ル！\n君に触れたら　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n指先までも　からまる\n嬉しいくせに\n知らないふりで\nまた強がって\n損してる！\nCara Cara Caramel！\nハートを混ぜて Caramel！\n甘くなって\n苦くなって\nまた君のこと\n好きになる！\n\n本当はずっと\n怖かったんだ\n「好き」って言ったら\n何かが変わりそうで\nだけど君が\n誰かと笑うだけで\n胸が少し\n苦しくなるなら\nもう\nごまかせない\nこの気持ちは\nキャラメルみたいに\nゆっくり\n心の奥で\n溶けていたんだ\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう！\nキャラメ〜ル！　キャラメ〜ル！\nふたりの気持ちが　からまる！\n甘いだけじゃ\n終わらないから\nこんな恋ほど\n忘れない！\nキャラメ〜ル！　キャラメ〜ル！\nもう隠したって　バレちゃうよ！\n昨日よりも\n今日のほうが\n今日より明日\n好きになる！\nほどけなくても\nかまわない\n君とだったら\nかまわない！\nわたし君が――\n大好きです！\n\nCaramel…\nCaramel…\nねぇ\n明日もまた会える？\n……やった♡\nキャラメ〜ル。",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "featured": false,
+      "recommendationWeight": null,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 2
+    },
+    {
+      "slug": "natsu-ga-owaru-made-soba-ni-ite",
+      "title": "夏が終わるまで、そばにいて。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-14T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+      "image": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
+      "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた公開予定作品。",
+      "releaseAt": "2026-08-14T20:00:00+09:00",
+      "publishedAt": "2026-08-14T20:00:00+09:00",
+      "status": "upcoming",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
       "lyricsAvailable": false,
       "lyricsSource": "",
       "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
       "featured": false,
       "recommendationWeight": null,
       "weeklyPickEligible": false,
       "analyticsEnabled": true,
       "upcomingPriority": 3
+    },
+    {
+      "slug": "monsoon-promise",
+      "title": "Monsoon Promise",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "scheduledAt": "2026-08-16T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fecMNfrTUgs",
+      "image": "https://i.ytimg.com/vi/fecMNfrTUgs/maxresdefault.jpg",
+      "description": "雨の街で交わした約束を信じて待ち続ける、RANGILIの公開予定作品。",
+      "releaseAt": "2026-08-16T20:00:00+09:00",
+      "publishedAt": "2026-08-16T20:00:00+09:00",
+      "status": "upcoming",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（monsoon_promise_suzuka_master.txt）",
+      "lyricsText": "\n遠くで雷が鳴る\nLantern lights…\nStill waiting…\nRain…\nMonsoon…\n\n雨が降り始めた　夕暮れの街角\n濡れた石畳に　君の影を探してる\nあの日交わした約束\n「またここで会おうね」\n笑って手を振る君が\n今も胸に残ってる\n傘を閉じた瞬間\n空が泣き出した\nわたしの願いまで\n流さないで\n\nRain…\nRain…\n落ちる雫の数だけ\n恋しくなる\nMonsoon…\n胸の奥で\n君の名前を呼ぶ\n\nMonsoon Promise\n雨が止んでも\n君を待ってる\n流れる季節も\n変わる景色も\n約束だけは\n消えないから\nHold my hand…\nもう一度だけ\nあの日みたいに\n笑ってよ\nMonsoon Promise\nきっとまた会える\n\n水たまりに映る\n二人の思い出\n風が揺らして\n少しだけ滲んだ\n街は賑やかなのに\n心だけ静か\n君がいないだけで\nこんなにも違うんだね\n遠くのランタンが\n揺れている\n「帰っておいで」\nそんな風に\n見えた気がした\n\nRain…\n涙じゃない\n雨だから\nそう言い聞かせても\n心だけは\n君を探してる\n\nMonsoon Promise\n雨の向こうに\n君がいるなら\n何度だって\n歩いていくよ\n濡れた花びらも\n優しく笑う\nPromise…\n忘れない\nあの日の約束を\nMonsoon Promise\n心はひとつ\n\n夜明けが近づいて\n少しずつ\n空が青く染まる\n雨はいつの間にか\n静かに止んでいた\n振り向いたその先で\n君が微笑む\n「待たせたね」\nたった一言で\n涙が笑顔になった\n\nMonsoon Promise\n雨は終わっても\nこの恋は\n終わらない\n君の隣で\n歩いていこう\nどんな未来でも\n手を離さない\nMonsoon Promise\n雨上がりの空へ\n虹が架かるように\n二人の明日も\n輝いていく\nHold my hand…\nForever…\nMonsoon Promise\nAlways with you…\n\n雨音が消えて\n朝日が差し込む\nランタンがゆっくり消え\n二人の影だけが\n未来へ歩いていく\nMonsoon…\nPromise…",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "featured": false,
+      "recommendationWeight": null,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 4
     }
   ],
   "news": [
@@ -4271,9 +4613,9 @@
     "events": []
   },
   "youtubeSnapshot": {
-    "officialVideos": 42,
-    "shorts": 26,
-    "source": "official YouTube channel videos and shorts tabs via yt-dlp"
+    "officialVideos": 47,
+    "shorts": 29,
+    "source": "公式YouTubeチャンネルのvideos/shortsタブと各動画をyt-dlpで照合"
   },
   "photobooks": {
     "source": "assets/data/photobooks.json",

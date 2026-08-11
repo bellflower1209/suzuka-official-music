@@ -52,6 +52,19 @@ python3 scripts/import_official_lyrics_v1.py \
   --verified-at 2026-08-09T00:28:12+09:00
 ```
 
+2026年8月12日追加の10作品は、公式YouTube・既存Release正本と一致した作品だけを`creator-cms.json`へ紐付けます。照合できない歌詞は本文とSHA-256を`assets/data/lyrics-holds.json`へ非公開保存し、Artistやslugを推測しません。
+
+```bash
+python3 scripts/update_20260812_latest.py
+python3 scripts/build_explore_catalog.py
+python3 scripts/import_official_lyrics_20260812.py \
+  --source-dir /path/to/SUZUKA_lyrics_master_10 \
+  --verified-at 2026-08-12T00:01:07+09:00
+python3 scripts/build_explore_catalog.py
+python3 scripts/build_explore_catalog.py
+python3 scripts/audit_lyrics_master_20260812.py
+```
+
 追加監査：
 
 ```bash

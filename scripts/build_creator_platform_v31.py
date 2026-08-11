@@ -197,6 +197,16 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             f'<a href="../{previous["slug"]}/">前の歌詞：{html.escape(previous["title"])}</a>' if previous else "",
             f'<a href="../{following["slug"]}/">次の歌詞：{html.escape(following["title"])}</a>' if following else "",
         ])
+        gallery_link = (
+            f'<a href="../../gallery/{item["slug"]}/">Gallery</a>'
+            if (root / f'gallery/{item["slug"]}/index.html').is_file()
+            else ""
+        )
+        news_link = (
+            f'<a href="../../{item["newsUrl"]}">News</a>'
+            if item.get("newsUrl") and (root / item["newsUrl"] / "index.html").is_file()
+            else ""
+        )
         body = (
             '<article class="v31-lyrics"><header>'
             f'<p>{html.escape(item["artist"])}</p><h2>{html.escape(item["title"])}</h2>'
@@ -210,7 +220,7 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             f'<nav class="explore-actions" data-source-section="lyrics_footer" {analytics_attrs}>'
             f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
             f'<a href="../../{item["releaseUrl"]}">作品ページ</a>'
-            f'<a href="../../gallery/{item["slug"]}/">Gallery</a><a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
+            f'{gallery_link}{news_link}<a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
             '<p class="v31-brand-return"><a href="../../about/">SUZUKAについて ↗</a></p>'
             f'<section data-source-section="related"><h2>次に聴くなら</h2><p>SUZUKAおすすめ。実人気順位ではありません。</p>'
             f'<div class="explorer-card-grid">{related_cards}</div></section>'
@@ -525,6 +535,10 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         upcoming_html = "".join(countdown_markup(item, "../../") for item in artist_upcoming) or '<p class="v31-empty">現在確認済みのUpcomingはありません。</p>'
         shorts = [item for item in works if item.get("shortsUrl")]
         news = [item for item in works if item.get("newsUrl")][:3]
+        latest_gallery = next(
+            (item for item in works if (root / f'gallery/{item["slug"]}/index.html').is_file()),
+            None,
+        )
         artist_photobooks = [item for item in photobooks if item["artistSlug"] == slug]
         artist_lyrics = [item for item in works if item["slug"] in lyrics_slugs]
         lyrics_section = ""
@@ -569,7 +583,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             + (f'<a class="creator-link-card" href="{latest["youtubeUrl"]}">Official MV</a>' if latest else "")
             + (f'<a class="creator-link-card" href="{shorts[0]["shortsUrl"]}">Shorts</a>' if shorts else "")
             + (f'<a class="creator-link-card" href="../../{news[0]["newsUrl"]}">News</a>' if news else "")
-            + (f'<a class="creator-link-card" href="../../gallery/{latest["slug"]}/">Gallery</a>' if latest else "")
+            + (f'<a class="creator-link-card" href="../../gallery/{latest_gallery["slug"]}/">Gallery</a>' if latest_gallery else "")
             + f'<a class="creator-link-card" href="../../lyrics/">公式歌詞（{sum(item["slug"] in lyrics_slugs for item in works)}件）</a>'
             + '<a class="creator-link-card" href="../../discography/">Discography</a><a class="creator-link-card" href="../../wiki/artists/">Wiki</a>'
             + '<a class="creator-link-card" href="../../playlists/">Playlist</a><a class="creator-link-card" href="../../schedule/">Schedule</a></div></section>'

@@ -46,38 +46,49 @@ def main() -> int:
         slug = item["slug"]
         release_path = ROOT / item["releaseUrl"] / "index.html"
         gallery_path = ROOT / "gallery" / slug / "index.html"
-        if not release_path.is_file() or not gallery_path.is_file():
-            errors.append(f"{slug}: published Release/Gallery pair missing")
+        if not release_path.is_file():
+            errors.append(f"{slug}: published Release missing")
             continue
-        release_html, gallery_html = text(release_path), text(gallery_path)
-        if f'../../gallery/{slug}/' not in release_html:
-            errors.append(f"{slug}: Release -> Gallery missing")
-        else:
-            counts["releaseGallery"] += 1
-        if f'../../{item["releaseUrl"]}' not in gallery_html:
-            errors.append(f"{slug}: Gallery -> Release missing")
-        if item["artistSlug"] in artists:
-            if f'../../artists/{item["artistSlug"]}/' not in gallery_html:
-                errors.append(f"{slug}: Gallery -> Artist missing")
+        release_html = text(release_path)
+        gallery_expected = item.get("galleryPublished", True)
+        gallery_html = text(gallery_path) if gallery_path.is_file() else ""
+        if gallery_expected:
+            if not gallery_html:
+                errors.append(f"{slug}: confirmed Gallery missing")
+                continue
+            if f'../../gallery/{slug}/' not in release_html:
+                errors.append(f"{slug}: Release -> Gallery missing")
             else:
-                counts["galleryArtist"] += 1
+                counts["releaseGallery"] += 1
+            if f'../../{item["releaseUrl"]}' not in gallery_html:
+                errors.append(f"{slug}: Gallery -> Release missing")
+            if item["artistSlug"] in artists:
+                if f'../../artists/{item["artistSlug"]}/' not in gallery_html:
+                    errors.append(f"{slug}: Gallery -> Artist missing")
+                else:
+                    counts["galleryArtist"] += 1
+        else:
+            if gallery_html:
+                errors.append(f"{slug}: unconfirmed Gallery must not be published")
+            if f'../../gallery/{slug}/' in release_html:
+                errors.append(f"{slug}: unconfirmed Gallery CTA must not be displayed")
         lyrics_link = f'../../lyrics/{slug}/'
-        if (lyrics_link in gallery_html) != (slug in verified):
+        if gallery_expected and (lyrics_link in gallery_html) != (slug in verified):
             errors.append(f"{slug}: Gallery Lyrics condition mismatch")
-        if slug in verified:
+        if gallery_expected and slug in verified:
             counts["galleryLyrics"] += 1
         if slug in news:
             news_html = text(ROOT / "news" / news[slug] / "index.html")
             gallery_link = f'../../gallery/{slug}/'
-            if gallery_link not in news_html:
-                errors.append(f"{slug}: News -> Gallery missing")
-            else:
+            if (gallery_link in news_html) != gallery_expected:
+                errors.append(f"{slug}: News Gallery condition mismatch")
+            if gallery_expected:
                 counts["newsGallery"] += 1
-            news_link = f'../../news/{news[slug]}/'
-            if news_link not in gallery_html:
-                errors.append(f"{slug}: Gallery -> News missing")
-            else:
-                counts["galleryNews"] += 1
+                news_link = f'../../news/{news[slug]}/'
+                if news_link not in gallery_html:
+                    errors.append(f"{slug}: Gallery -> News missing")
+                else:
+                    counts["galleryNews"] += 1
             if (lyrics_link in news_html) != (slug in verified):
                 errors.append(f"{slug}: News Lyrics condition mismatch")
             if slug in verified:

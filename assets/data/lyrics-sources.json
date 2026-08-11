@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-09T00:28:12+09:00",
-  "policy": "ユーザー本人が提供した公式歌詞正本のみ。本文の生成・補完・改変は禁止。",
+  "schemaVersion": "1.1",
+  "verifiedAt": "2026-08-12T00:01:07+09:00",
+  "policy": "ユーザー本人が提供した公式歌詞正本のみ。本文の生成・補完・改変は禁止。作品照合できない歌詞は原文ハッシュを保持し公開しない。",
   "sources": [
     {
       "slug": "anata-dake-no-savior",
@@ -18,11 +18,47 @@
       "publishedAtImport": true
     },
     {
+      "slug": "caramel",
+      "title": "キャラメ〜ル",
+      "sourceTitle": "キャラメ〜ル",
+      "artist": "榎本魅愛",
+      "filename": "caramel_suzuka_master.txt",
+      "sha256": "b857070a1826bf1a03e498944d65aa8fbc4902fb948872124b3c47979a975020",
+      "lyricsTextSha256": "374ef2bffa4029b1cc6887f1da1f7e1d777162707047f2a79a6008e4be625b09",
+      "registrationStatus": "registered",
+      "publishedAtImport": false,
+      "holdReason": ""
+    },
+    {
       "slug": "chimpanzee-no-rakuen",
       "title": "チンパンジーの楽園",
       "filename": "chimpanzee_no_rakuen_official_lyrics.txt",
       "sha256": "dc97bbd61a4d3abb9c70149c34eb3009683800cc5ddb49655c1e476e44cbe13f",
       "publishedAtImport": true
+    },
+    {
+      "sourceKey": "false-dentity-unmatched",
+      "title": "FALSE//DENTITY",
+      "sourceTitle": "FALSE//DENTITY",
+      "artist": "",
+      "filename": "false_dentity_suzuka_master.txt",
+      "sha256": "907bf439455a715e1735c7b1d85aaa602fa6ea967593be77ce294fa11060d651",
+      "lyricsTextSha256": "a1de275143db64ec3c68a90006f577afdcdeeeebf454c5ff9f9a8df3e2a8cbed",
+      "registrationStatus": "held-unmatched",
+      "publishedAtImport": false,
+      "holdReason": "既存正本と公式YouTubeに一致作品がなく、Artist・slugを推測しないため保留"
+    },
+    {
+      "slug": "hajimemashite-kiseki",
+      "title": "はじめまして、奇跡",
+      "sourceTitle": "はじめまして、奇跡",
+      "artist": "榎本魅愛",
+      "filename": "hajimemashite_kiseki_suzuka_master.txt",
+      "sha256": "e46147fc0c9f30bf97009daba05545cd7b513fdf6e868e4d758f2ae74c8139af",
+      "lyricsTextSha256": "a562bb0a848d4f53a5e75b66fa29e5eff4453ea9096786dffcf2fc9a1706a187",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
     },
     {
       "slug": "hanakotoba",
@@ -39,11 +75,52 @@
       "publishedAtImport": true
     },
     {
+      "slug": "kamisama-wa-rusu",
+      "title": "神様は留守",
+      "sourceTitle": "神様は留守",
+      "artist": "神代煌牙",
+      "filename": "kamisama_wa_rusu_suzuka_master.txt",
+      "sha256": "560e9d002b79ce5ba31d41f41a4d546cfceef8dac34b74f7f014e894a5bb1cca",
+      "lyricsTextSha256": "f2b7ca6182eaf901f4c93507d2e3e3fb0609fc363b49e3c20a0520257ef616fd",
+      "registrationStatus": "registered",
+      "publishedAtImport": false,
+      "holdReason": ""
+    },
+    {
+      "slug": "last-dance-tonight",
+      "title": "LAST DANCE TONIGHT",
+      "sourceTitle": "LAST DANCE TONIGHT",
+      "artist": "ASTERIA",
+      "filename": "last_dance_tonight_suzuka_master.txt",
+      "sha256": "6fe12d4c3f275d150fcac95bd9fcecf329eeff33106724ac520db6c45a8748b4",
+      "lyricsTextSha256": "e6a1c472ca2497c547403ad740dc7db46dfe07c746388a569a865212ef9e6019",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
+    },
+    {
       "slug": "leo-rise-again",
       "title": "LEO — Rise Again —",
-      "filename": "leo_rise_again_official_lyrics.txt",
-      "sha256": "b54e3d835618b285183e8434e67d03ff2b49c231025dc439f8eebd06945560da",
-      "publishedAtImport": false
+      "sourceTitle": "LEO-Rise Again-",
+      "artist": "神代煌牙",
+      "filename": "leo_rise_again_suzuka_master.txt",
+      "sha256": "fdcc74fb2375e75b31312f49d03d719bdbfaaf914b12740ecfa0e89d81dd51c9",
+      "lyricsTextSha256": "501753b738a0487c30c58b75e069a6910de24c658cb35b8c253d266217efde8d",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
+    },
+    {
+      "slug": "lost-signal",
+      "title": "LOST SIGNAL",
+      "sourceTitle": "LOST SIGNAL",
+      "artist": "ECLYPSE",
+      "filename": "lost_signal_suzuka_master.txt",
+      "sha256": "0851c773bda6413610115e074a7e92cbf8c05f632b9d648db957058fe2bfc0f4",
+      "lyricsTextSha256": "6b11810b286a15660e926b897b77129f28264258d4f3f9477eab0ce9bb05a23e",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
     },
     {
       "slug": "mermaid-no-geboku",
@@ -51,6 +128,42 @@
       "filename": "mermaid_no_geboku_official_lyrics.txt",
       "sha256": "0731d7fba19fb19e7739cfd220b32d3f9e2946cf89dc7fa06490efe263a6713d",
       "publishedAtImport": true
+    },
+    {
+      "slug": "monsoon-promise",
+      "title": "Monsoon Promise",
+      "sourceTitle": "Monsoon Promise",
+      "artist": "RANGILI",
+      "filename": "monsoon_promise_suzuka_master.txt",
+      "sha256": "52416d49e54bf161f5d2846a1f449fc4f58957a79547170aec0bf97090405c69",
+      "lyricsTextSha256": "f2895edcbd208eb8b4d4b82488574dd8aab20fb851d9e8586d22569b25a708fd",
+      "registrationStatus": "registered",
+      "publishedAtImport": false,
+      "holdReason": ""
+    },
+    {
+      "sourceKey": "our-generation-unmatched",
+      "title": "OUR GENERATION",
+      "sourceTitle": "OUR GENERATION",
+      "artist": "",
+      "filename": "our_generation_suzuka_master.txt",
+      "sha256": "6be2fa0dd8d9f87f844696eb67484659321a8a98bab2359662e60432b727af9a",
+      "lyricsTextSha256": "74054c6e1d6648981b922a8b8bd4eff06aceb3ad7223d67b4e77666b169d8150",
+      "registrationStatus": "held-unmatched",
+      "publishedAtImport": false,
+      "holdReason": "既存正本と公式YouTubeに一致作品がなく、Artist・slugを推測しないため保留"
+    },
+    {
+      "slug": "shadow-code",
+      "title": "SHADOW//CODE",
+      "sourceTitle": "SHADOW//CODE",
+      "artist": "ECLYPSE",
+      "filename": "shadow_code_suzuka_master.txt",
+      "sha256": "d4148bbc70057e52e008e91bd276d39f3ec54dd3f92201f7c5625286a2384ea9",
+      "lyricsTextSha256": "031dd82fb19e147c17a62a48d9074b676c867cc3f2a999bd5e8f2770793879d0",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
     },
     {
       "slug": "toriatsukai-chui",

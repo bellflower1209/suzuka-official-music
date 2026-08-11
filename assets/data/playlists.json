@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T20:00:19+09:00",
+  "updatedAt": "2026-08-12T00:01:07+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -93,9 +93,11 @@
         "without-worrying",
         "heal-you-again",
         "anata-dake-no-savior",
-        "ashita-wa-kitto"
+        "ashita-wa-kitto",
+        "kimi-wa-makenai",
+        "last-dance-tonight"
       ],
-      "count": 6
+      "count": 8
     },
     {
       "slug": "tearjerkers",
@@ -132,9 +134,10 @@
       "releaseSlugs": [
         "still-alive",
         "heal-you-again",
-        "anata-dake-no-savior"
+        "anata-dake-no-savior",
+        "last-dance-tonight"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "k-pop",
@@ -222,6 +225,9 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
@@ -238,10 +244,7 @@
         "ashita-wa-kitto",
         "heal-you-again",
         "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono"
+        "namaste-galaxy"
       ],
       "count": 20
     },
@@ -254,6 +257,9 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
@@ -270,10 +276,7 @@
         "ashita-wa-kitto",
         "heal-you-again",
         "echoes-of-you",
-        "namaste-galaxy",
-        "wasurenai-kokoro",
-        "smile-and-say-goodbye",
-        "boukyaku-no-ikimono"
+        "namaste-galaxy"
       ],
       "count": 20
     }

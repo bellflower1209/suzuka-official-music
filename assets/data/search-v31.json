@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T20:00:19+09:00",
+  "updatedAt": "2026-08-12T00:01:07+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,76 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "君は負けない",
+      "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。",
+      "url": "releases/kimi-wa-makenai/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "応援歌",
+        "希望",
+        "応援",
+        "夢",
+        "J-POP",
+        "応援歌",
+        "希望",
+        "応援",
+        "夢",
+        "温かい",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "LEO — Rise Again —",
+      "description": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。",
+      "url": "releases/leo-rise-again/",
+      "keywords": [
+        "神代煌牙",
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock",
+        "再起",
+        "孤独",
+        "勇気",
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock",
+        "再起",
+        "孤独",
+        "勇気",
+        "力強い",
+        "シネマティック"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "LAST DANCE TONIGHT",
+      "description": "ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。",
+      "url": "releases/last-dance-tonight/",
+      "keywords": [
+        "ASTERIA",
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ",
+        "今",
+        "夜",
+        "希望",
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ",
+        "今",
+        "夜",
+        "希望",
+        "疾走感",
+        "力強い"
       ]
     },
     {
@@ -1207,6 +1277,32 @@
     {
       "type": "Lyrics",
       "contentType": "lyrics",
+      "title": "LEO — Rise Again —",
+      "description": "神代煌牙公式歌詞",
+      "url": "lyrics/leo-rise-again/",
+      "keywords": [
+        "神代煌牙",
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "LAST DANCE TONIGHT",
+      "description": "ASTERIA公式歌詞",
+      "url": "lyrics/last-dance-tonight/",
+      "keywords": [
+        "ASTERIA",
+        "J-POP",
+        "EUROBEAT",
+        "アイドルポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
       "title": "マーメイドの下僕",
       "description": "神代煌牙公式歌詞",
       "url": "lyrics/mermaid-no-geboku/",
@@ -1256,6 +1352,18 @@
     {
       "type": "Lyrics",
       "contentType": "lyrics",
+      "title": "はじめまして、奇跡",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/hajimemashite-kiseki/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "ロマンティックポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
       "title": "善人裁判",
       "description": "NOX公式歌詞",
       "url": "lyrics/zennin-saiban/",
@@ -1263,6 +1371,18 @@
         "NOX",
         "V系",
         "ダークロック"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "LOST SIGNAL",
+      "description": "ECLYPSE公式歌詞",
+      "url": "lyrics/lost-signal/",
+      "keywords": [
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ"
       ]
     },
     {
@@ -1299,6 +1419,19 @@
         "榎本魅愛",
         "J-POP",
         "ロマンティックポップ"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "SHADOW//CODE",
+      "description": "ECLYPSE公式歌詞",
+      "url": "lyrics/shadow-code/",
+      "keywords": [
+        "ECLYPSE",
+        "K-POP風",
+        "ダークポップ",
+        "EDM"
       ]
     },
     {

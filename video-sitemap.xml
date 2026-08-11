@@ -620,6 +620,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/kimi-wa-makenai/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/K_YN2bNRjY0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>君は負けない Official Video</video:title>
+      <video:description>負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=K_YN2bNRjY0</video:content_loc>
+      <video:publication_date>2026-08-11T20:00:06+09:00</video:publication_date>
+      <video:duration>236</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/koisuru-maharaja/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/V3DOM83zeLk/maxresdefault.jpg</video:thumbnail_loc>
@@ -628,6 +640,30 @@
       <video:content_loc>https://www.youtube.com/watch?v=V3DOM83zeLk</video:content_loc>
       <video:publication_date>2026-07-30T20:00:06+09:00</video:publication_date>
       <video:duration>377</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/last-dance-tonight/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ULMwbXtotsE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>LAST DANCE TONIGHT Official Video</video:title>
+      <video:description>ネオンの夜を駆け抜け、戻れない今を最高速度で踊り切るASTERIAのEUROBEATナンバー。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ULMwbXtotsE</video:content_loc>
+      <video:publication_date>2026-08-10T20:00:06+09:00</video:publication_date>
+      <video:duration>353</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/leo-rise-again/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/RRgMeJzb5PU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>LEO — Rise Again — Official Video</video:title>
+      <video:description>恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=RRgMeJzb5PU</video:content_loc>
+      <video:publication_date>2026-08-10T20:00:06+09:00</video:publication_date>
+      <video:duration>314</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

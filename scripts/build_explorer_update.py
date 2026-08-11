@@ -483,8 +483,9 @@ def features_pages(root: Path, releases: list[dict]) -> dict[str, list[dict]]:
 
 def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None:
     links = {item["slug"]: item for item in release_links["releases"]}
+    gallery_releases = [item for item in releases if item.get("galleryPublished", True)]
     index_cards = []
-    for item in releases:
+    for item in gallery_releases:
         youtube_id = item["youtubeUrl"].split("=")[-1]
         source = links.get(item["slug"], {})
         shorts = source.get("shortsUrl")
@@ -537,7 +538,7 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
         )
     elements = [
         {"@type": "ListItem", "position": i, "name": item["displayTitle"], "url": f"{BASE}/gallery/{item['slug']}/"}
-        for i, item in enumerate(releases, 1)
+        for i, item in enumerate(gallery_releases, 1)
     ]
     body = (
         '<section class="explorer-gallery-grid">' + "".join(index_cards) + "</section>"
@@ -548,7 +549,7 @@ def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None
         root / "gallery/index.html",
         shell(
             "gallery/", "MVギャラリー｜SUZUKA Official Music",
-            f"公開{len(releases)}作品の公式MV、ジャケット、サムネイル、制作メモをモバイル対応のギャラリーで紹介します。",
+            f"公開{len(gallery_releases)}作品の公式MV、ジャケット、サムネイル、制作メモをモバイル対応のギャラリーで紹介します。",
             "MV GALLERY", body,
             [{"@type": "ItemList", "numberOfItems": len(releases), "itemListElement": elements}],
         ),
@@ -806,6 +807,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
         for slug, items in list(features.items())[:6]
     )
     latest_news = [item for item in releases if item.get("newsUrl")][:3]
+    gallery_count = sum(item.get("galleryPublished", True) for item in releases)
     block = (
         '<!-- EXPLORER:HOME:START --><section class="explorer-home-update">'
         '<div class="explorer-section-heading"><p>SUZUKA EXPLORER UPDATE</p><h2>音楽世界を、もっと深く。</h2>'
@@ -815,7 +817,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
         '<section><div class="explorer-home-heading"><h3>おすすめ特集</h3><a href="./features/">すべて見る ↗</a></div>'
         f'<div class="explorer-feature-grid">{feature_cards}</div></section>'
         '<section class="explorer-home-portals">'
-        f'<a href="./gallery/"><span>{len(releases)} WORKS</span><h3>MV GALLERY</h3><p>公式MVと制作ビジュアル</p></a>'
+        f'<a href="./gallery/"><span>{gallery_count} WORKS</span><h3>MV GALLERY</h3><p>公式MVと制作ビジュアル</p></a>'
         f'<a href="./universe/"><span>{len(ARTISTS)} ARTISTS</span><h3>UNIVERSE</h3><p>SUZUKAの世界観と関係性</p></a>'
         '<a href="./wiki/"><span>OFFICIAL GUIDE</span><h3>SUZUKA WIKI</h3><p>作品・用語・公開年表</p></a></section>'
         '<section><div class="explorer-home-heading"><h3>最新News</h3><a href="./news/">News一覧 ↗</a></div>'
@@ -970,7 +972,8 @@ def main() -> None:
     print(
         f"Generated SUZUKA Explorer Update: {len(releases)} releases, {len(ARTISTS)} artists, "
         f"{len(rankings['rankings'])} rankings, {len(features)} features, "
-        f"{len(releases)} gallery works, {len(WIKI_PAGES) + 1} wiki pages."
+        f"{sum(item.get('galleryPublished', True) for item in releases)} gallery works, "
+        f"{len(WIKI_PAGES) + 1} wiki pages."
     )
 
 

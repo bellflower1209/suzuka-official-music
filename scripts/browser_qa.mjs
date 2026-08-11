@@ -16,7 +16,7 @@ const explorerPages = [
   "rankings/", "features/", "features/love-songs/", "features/cheer-songs/", "features/tearjerkers/",
   "features/summer-songs/", "features/dark/", "features/k-pop/", "features/enka/", "features/visual-kei/",
   "features/ai-idols/", "features/ai-bands/", "gallery/",
-  ...explorerCatalog.releases.map(item => `gallery/${item.slug}/`),
+  ...explorerCatalog.releases.filter(item => item.galleryPublished !== false).map(item => `gallery/${item.slug}/`),
   "universe/", "wiki/", "wiki/artists/", "wiki/works/", "wiki/terms/", "wiki/genres/",
   "wiki/timeline/", "wiki/ai-artists/",
   "playlists/", "playlists/love/", "playlists/summer/", "playlists/winter/", "playlists/cheer/",

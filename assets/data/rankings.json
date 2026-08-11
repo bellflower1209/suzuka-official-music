@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal"
+        "still-alive"
       ]
     },
     "love": {
@@ -59,6 +59,8 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "kimi-wa-makenai",
+        "last-dance-tonight",
         "anata-dake-no-savior",
         "hajimemashite-kiseki",
         "still-alive",
@@ -103,8 +105,8 @@
         "ロマンティックポップ",
         "ダークポップ",
         "バラード",
-        "ロック",
         "アイドルポップ",
+        "ロック",
         "K-POP風",
         "ファンタジーポップ",
         "演歌",
@@ -113,6 +115,11 @@
         "ダークロック",
         "インド×J-POP",
         "シネマティック",
+        "応援歌",
+        "J-ROCK",
+        "Cinematic Rock",
+        "Dark Rock",
+        "EUROBEAT",
         "サイバーパンク",
         "EDM",
         "サマーポップ"
