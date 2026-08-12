@@ -12,6 +12,8 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
+from release_state import is_publishable_lyrics
+
 
 BASE = "https://www.suzukaofficial.com"
 CHANNEL = "https://www.youtube.com/@suzuka1209"
@@ -241,11 +243,7 @@ def shell(
 
 def card(item: dict, p: str, rank: int | None = None) -> str:
     news = f'<a href="{p}{item["newsUrl"]}">News</a>' if item.get("newsUrl") else ""
-    lyrics = (
-        f'<a href="{p}lyrics/{item["slug"]}/">歌詞</a>'
-        if item.get("lyricsAvailable") and item.get("lyricsVerified") is True
-        else ""
-    )
+    lyrics = f'<a href="{p}lyrics/{item["slug"]}/">歌詞</a>' if is_publishable_lyrics(item) else ""
     rank_html = f'<strong class="explorer-rank-number">{rank:02d}</strong>' if rank else ""
     return (
         f'<article class="explorer-release-card" data-slug="{html.escape(item["slug"])}" '

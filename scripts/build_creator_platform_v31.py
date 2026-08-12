@@ -12,6 +12,7 @@ from pathlib import Path
 
 from build_explorer_update import BASE, card, dump, shell, write
 from build_creator_platform import analytics as install_analytics
+from release_state import publishable_lyrics
 
 
 def marker_upsert(path: Path, name: str, content: str, anchor: str = "</main>") -> None:
@@ -26,14 +27,8 @@ def marker_upsert(path: Path, name: str, content: str, anchor: str = "</main>") 
 
 
 def eligible_lyrics(releases: list[dict]) -> list[dict]:
-    return [
-        item for item in releases
-        if item.get("lyricsAvailable")
-        and item.get("lyricsVerified") is True
-        and str(item.get("lyricsVerifiedAt", "")).strip()
-        and str(item.get("lyricsText") or item.get("lyrics") or "").strip()
-        and str(item.get("lyricsSource", "")).strip()
-    ]
+    """Compatibility wrapper around the Version 1.2 publication gate."""
+    return publishable_lyrics(releases)
 
 
 def discovery_recommendations(item: dict, releases: list[dict], limit: int = 3) -> list[dict]:
@@ -169,6 +164,13 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
 def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
     eligible = eligible_lyrics(releases)
     by_slug = {item["slug"]: item for item in eligible}
+    for stale in sorted((root / "lyrics").glob("*/index.html")):
+        if stale.parent.name not in by_slug:
+            stale.unlink()
+            try:
+                stale.parent.rmdir()
+            except OSError:
+                pass
     for index, item in enumerate(eligible):
         lyrics_text = str(item.get("lyricsText") or item.get("lyrics") or "").strip()
         paragraphs = "".join(

@@ -3,13 +3,14 @@
 from __future__ import annotations
 import argparse, json, sys
 from pathlib import Path
+from release_state import publishable_lyrics
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     root = parser.parse_args().root.resolve()
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
-    eligible = {item["slug"] for item in cms["releases"] if item.get("lyricsAvailable") and item.get("lyricsVerified") is True and str(item.get("lyricsVerifiedAt", "")).strip() and str(item.get("lyricsText", "")).strip() and str(item.get("lyricsSource", "")).strip()}
+    eligible = {item["slug"] for item in publishable_lyrics(cms["releases"])}
     actual = {path.parent.name for path in (root / "lyrics").glob("*/index.html")}
     errors = []
     if eligible != actual:

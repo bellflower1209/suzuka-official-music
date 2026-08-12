@@ -9,6 +9,8 @@ import re
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
+
+from release_state import is_publishable_lyrics
 from urllib.parse import urljoin, urlparse
 from PIL import Image as PillowImage
 
@@ -132,7 +134,7 @@ def build_feed(root: Path, cms: dict) -> None:
     for item in cms["upcoming"]:
         rows.append((cms["updatedAt"], "upcoming", item))
     for item in cms["releases"]:
-        if item.get("lyricsAvailable") and item.get("lyricsVerified") is True and item.get("lyricsVerifiedAt"):
+        if is_publishable_lyrics(item):
             rows.append((item["lyricsVerifiedAt"], "lyrics", item))
     photobooks_path = root / "assets/data/photobooks.json"
     if photobooks_path.exists():

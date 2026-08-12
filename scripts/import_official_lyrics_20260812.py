@@ -21,6 +21,21 @@ SOURCES = [
     {"filename": "our_generation_suzuka_master.txt", "sourceTitle": "OUR GENERATION", "sourceKey": "our-generation-unmatched", "sha256": "6be2fa0dd8d9f87f844696eb67484659321a8a98bab2359662e60432b727af9a"}
 ]
 
+CONFIRMED_HOLD_METADATA = {
+    "our-generation-unmatched": {
+        "artist": "ASTERIA",
+        "confirmedMetadata": {
+            "artist": "ASTERIA", "lyricist": "JUN", "composer": "SUNO",
+            "source": "user_confirmed",
+        },
+        "reason": "Artist=ASTERIAはユーザー確認済みだが、既存Release・公式YouTube・Scheduleに同名作品がない",
+    },
+    "false-dentity-unmatched": {
+        "artist": "",
+        "reason": "FALSE//IDENTITYを含む既存正本・Git履歴・公式YouTubeに同一作品と確定できる記録がない",
+    },
+}
+
 
 def write_json(path: Path, value: object) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -118,13 +133,13 @@ def main() -> None:
             **({"slug": source["slug"]} if source.get("slug") else {"sourceKey": source["sourceKey"]}),
             "title": item["title"] if item else source["sourceTitle"],
             "sourceTitle": source["sourceTitle"],
-            "artist": item["artist"] if item else "",
+            "artist": item["artist"] if item else CONFIRMED_HOLD_METADATA.get(source.get("sourceKey", ""), {}).get("artist", ""),
             "filename": source["filename"],
             "sha256": source["sha256"],
             "lyricsTextSha256": source["lyricsTextSha256"],
             "registrationStatus": "registered" if item else "held-unmatched",
             "publishedAtImport": bool(item and item.get("status") == "published"),
-            "holdReason": "" if item else "既存正本と公式YouTubeに一致作品がなく、Artist・slugを推測しないため保留",
+            "holdReason": "" if item else CONFIRMED_HOLD_METADATA.get(source.get("sourceKey", ""), {}).get("reason", "既存正本と公式YouTubeに一致作品がないため保留"),
         }
     manifest.update({
         "schemaVersion": "1.1",
@@ -133,21 +148,30 @@ def main() -> None:
         "sources": sorted(existing.values(), key=lambda item: item.get("slug") or item["sourceKey"]),
     })
     write_json(manifest_path, manifest)
-    holds = [
-        {
+    holds = []
+    for source in loaded:
+        if source.get("slug"):
+            continue
+        metadata = CONFIRMED_HOLD_METADATA.get(source["sourceKey"], {})
+        holds.append({
             "sourceKey": source["sourceKey"],
             "sourceTitle": source["sourceTitle"],
+            "sourceFile": source["filename"],
             "filename": source["filename"],
+            "receivedAt": verified_at,
             "sha256": source["sha256"],
             "lyricsTextSha256": source["lyricsTextSha256"],
             "lyricsText": source["lyricsText"],
             "status": "held-unmatched",
-            "holdReason": "既存正本と公式YouTubeに一致作品がなく、Artist・slugを推測しないため保留",
-        }
-        for source in loaded if not source.get("slug")
-    ]
+            "reason": metadata.get("reason", "既存正本と公式YouTubeに一致作品がないため保留"),
+            "holdReason": metadata.get("reason", "既存正本と公式YouTubeに一致作品がないため保留"),
+            **({"confirmedMetadata": metadata["confirmedMetadata"]} if metadata.get("confirmedMetadata") else {}),
+            "candidateMatches": [],
+            "resolved": False,
+            "resolvedSlug": None,
+        })
     write_json(root / "assets/data/lyrics-holds.json", {
-        "schemaVersion": "1.0",
+        "schemaVersion": "1.2",
         "verifiedAt": args.verified_at,
         "publicationPolicy": "作品・Artist・slugの正本照合完了まで公開、検索、sitemap、feedへ含めない。",
         "holds": holds,

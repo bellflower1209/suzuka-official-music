@@ -46,6 +46,10 @@ jobs:
           python3 scripts/audit_lyrics_sources.py
           python3 scripts/audit_lyrics.py
           python3 scripts/audit_lyrics_master_20260812.py
+          python3 scripts/audit_release_state.py
+          python3 scripts/audit_release_automation.py
+          python3 scripts/audit_lyrics_publish_state.py
+          python3 scripts/audit_holds.py
           python3 scripts/audit_rich_results.py
           python3 scripts/audit_brand_entity.py
           python3 scripts/audit_public_counts.py
@@ -58,10 +62,16 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
+      - name: Prepare public artifact
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git/' --exclude='_site/' --exclude='assets/data/lyrics-holds.json' ./ _site/
+          test ! -e _site/assets/data/lyrics-holds.json
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: .
+          path: _site
 
   deploy:
     environment:

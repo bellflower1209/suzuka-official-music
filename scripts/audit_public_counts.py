@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from release_state import publishable_lyrics
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -16,7 +17,7 @@ def main() -> None:
     releases = [item for item in catalog["releases"] if item.get("status") == "published"]
     upcoming = [item for item in cms["upcoming"] if item.get("status") == "upcoming"]
     artists = [item for item in cms["artists"] if item.get("status") == "published"]
-    lyrics = [item for item in releases if item.get("lyricsAvailable") is True and item.get("lyricsVerified") is True and item.get("lyricsVerifiedAt") and item.get("lyricsText")]
+    lyrics = publishable_lyrics(releases)
     photobooks = [item for item in books if item.get("status") == "published"]
     counts = {"lyrics": len(lyrics), "artists": len(artists), "releases": len(releases), "upcoming": len(upcoming), "photobooks": len(photobooks)}
     home = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -36,9 +37,9 @@ def main() -> None:
             errors.append(f'{artist["slug"]}: lyrics expected={expected}, visible={visible}')
     if '<strong data-dashboard="lyrics">' not in (ROOT / "admin/dashboard/index.html").read_text(encoding="utf-8"):
         errors.append("Dashboard Lyrics tile missing")
-    dashboard_js = (ROOT / "assets/creator-dashboard.js").read_text(encoding="utf-8")
-    if 'x.status==="published"&&x.lyricsAvailable===true&&x.lyricsVerified===true' not in dashboard_js:
-        errors.append("Dashboard Lyrics canonical filter missing")
+    dashboard_status = json.loads((ROOT / "assets/data/dashboard-status.json").read_text(encoding="utf-8"))
+    if dashboard_status.get("publishedLyrics", {}).get("count") != len(lyrics):
+        errors.append("Dashboard Lyrics canonical count mismatch")
     latest = max(releases, key=lambda item: (item.get("publishedAt", item["releaseDate"]), item["slug"]))
     if not re.search(rf'id="latest-title">{re.escape(latest["displayTitle"])}<', home):
         errors.append(f'Latest Release mismatch: {latest["slug"]}')

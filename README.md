@@ -77,6 +77,34 @@ python3 scripts/audit_photobooks.py
 python3 scripts/audit_v31.py
 ```
 
+## Version 1.2 — Release & Lyrics Automation
+
+Releaseの公開状態とLyrics公開条件は`scripts/release_state.py`に集約しています。公閏条件は`status=published`、`lyricsAvailable=true`、`lyricsVerified=true`、確認日時・出典・本文がすべてあることです。Upcomingや`assets/data/lyrics-holds.json`の保留歌詞は、Search・sitemap・feed・公開Lyrics数に含めません。保留歌詞本文はGitHub Pages用artifactからも除外します。
+
+公式YouTubeの一般公開状態を確認し、差分生成・監査まで実行する単一入口：
+
+```bash
+python3 scripts/sync_release_state.py --root . --dry-run
+python3 scripts/sync_release_state.py --root .
+```
+
+`--dry-run`は公式YouTubeの確認と隔離生成・監査のみ行い、ファイルを書き換えません。同じ公開状態で再実行した場合は差分0、IndexNow対象0となります。`yt-dlp`が取得する公式チャンネルID、`availability=public`、公開時刻、`live_status`、再生可能な長さがすべて揃う場合だけ`upcoming`から`published`へ移行します。Premiere待機・非公開・限定公開・時刻未到達は公開しません。
+
+既存Releaseへユーザー確定歌詞を登録するコマンド：
+
+```bash
+python3 scripts/import_verified_lyrics.py \
+  --slug <existing-slug> \
+  --file /absolute/path/to/lyrics.txt \
+  --dry-run
+
+python3 scripts/import_verified_lyrics.py \
+  --slug <existing-slug> \
+  --file /absolute/path/to/lyrics.txt
+```
+
+未知slugとファイル先頭titleの不一致はエラーにし、title・Artist・slugを自動生成しません。登録後の公開可否はRelease statusと共通公開判定に委ねます。生成だけを差分反映する場合は`python3 scripts/build_changed_content.py --root .`を使用します。
+
 ## GitHub Pagesで公開する手順
 
 1. GitHubで新しいリポジトリを作成します。

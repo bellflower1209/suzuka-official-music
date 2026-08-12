@@ -145,13 +145,13 @@
       "sourceKey": "our-generation-unmatched",
       "title": "OUR GENERATION",
       "sourceTitle": "OUR GENERATION",
-      "artist": "",
+      "artist": "ASTERIA",
       "filename": "our_generation_suzuka_master.txt",
       "sha256": "6be2fa0dd8d9f87f844696eb67484659321a8a98bab2359662e60432b727af9a",
       "lyricsTextSha256": "74054c6e1d6648981b922a8b8bd4eff06aceb3ad7223d67b4e77666b169d8150",
       "registrationStatus": "held-unmatched",
       "publishedAtImport": false,
-      "holdReason": "既存正本と公式YouTubeに一致作品がなく、Artist・slugを推測しないため保留"
+      "holdReason": "Artist=ASTERIAはユーザー確認済みだが、既存Release・公式YouTube・Scheduleに同名作品がないため保留"
     },
     {
       "slug": "shadow-code",

@@ -706,7 +706,7 @@ def main() -> None:
     release_links["updatedAt"] = data["updatedAt"][:10]
     release_links["releases"] = generated_links
     write(ROOT / "assets/data/release-links.json", json.dumps(release_links, ensure_ascii=False, indent=2) + "\n")
-    write(ROOT / "assets/data/upcoming-releases.json", json.dumps({"updatedAt":"2026-07-30T00:00:00+09:00","releases":data["upcoming"]}, ensure_ascii=False, indent=2) + "\n")
+    write(ROOT / "assets/data/upcoming-releases.json", json.dumps({"updatedAt": data["updatedAt"], "releases": data["upcoming"]}, ensure_ascii=False, indent=2) + "\n")
     write(ROOT / "search/index.html", search_page(data))
     genre_pages(ROOT, data)
     write(ROOT / "discography/index.html", discography_page(data))
