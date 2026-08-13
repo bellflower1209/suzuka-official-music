@@ -91,8 +91,10 @@ def published_record(item: dict, evidence: dict, cms: dict, now: datetime) -> di
     genres = list(item.get("genres", []))
     themes = list(item.get("themes", []))
     tags = list(dict.fromkeys([*item.get("tags", []), *genres, *themes]))
+    description = str(item.get("description", "")).replace("公開予定", "")
+    canonical = {key: value for key, value in item.items() if key not in {"scheduledAt", "note"}}
     return {
-        **item,
+        **canonical,
         "id": item["slug"],
         "displayTitle": item["title"],
         "englishTitle": item.get("englishTitle", item["title"]),
@@ -122,13 +124,14 @@ def published_record(item: dict, evidence: dict, cms: dict, now: datetime) -> di
         "searchKeywords": list(dict.fromkeys([item["title"], item["artist"], *tags])),
         "aiArtistType": "fictional AI artist",
         "publishedAt": published_at,
-        "introduction": item.get("description", ""),
+        "description": description,
+        "introduction": description,
         "galleryImages": list(item.get("galleryImages", [])),
         "galleryPublished": bool(item.get("galleryPublished", False)),
-        "productionNote": item.get("productionNote", item.get("description", "")),
+        "productionNote": str(item.get("productionNote") or description).replace("公開予定", ""),
         "seo": {
             "title": f'{item["title"]}｜{item["artist"]}｜SUZUKA Official Music',
-            "description": f'{item.get("description", "")} SUZUKAの架空のAIアーティスト作品です。',
+            "description": f'{description} SUZUKAの架空のAIアーティスト作品です。',
             "jsonLdEnabled": True,
         },
         "videoPublishDate": published_at[:10],
@@ -189,6 +192,19 @@ def apply_release_state(stage: Path, evidence: dict[str, dict], now: datetime) -
     promoted: list[str] = []
     remaining = []
     releases = {item["slug"]: item for item in cms["releases"]}
+    normalized = False
+    for record in releases.values():
+        if record.get("status") != "published" or not record.get("promotionVerifiedAt"):
+            continue
+        before = json.dumps(record, ensure_ascii=False, sort_keys=True)
+        record.pop("scheduledAt", None)
+        record.pop("note", None)
+        for field in ("description", "introduction", "productionNote"):
+            if field in record:
+                record[field] = str(record[field]).replace("公開予定", "")
+        if isinstance(record.get("seo"), dict) and "description" in record["seo"]:
+            record["seo"]["description"] = str(record["seo"]["description"]).replace("公開予定", "")
+        normalized = normalized or before != json.dumps(record, ensure_ascii=False, sort_keys=True)
     evidence_log = []
     for item in cms.get("upcoming", []):
         video_id = item["youtubeUrl"].split("v=", 1)[-1].split("&", 1)[0]
@@ -208,7 +224,7 @@ def apply_release_state(stage: Path, evidence: dict[str, dict], now: datetime) -
             promoted.append(item["slug"])
         else:
             remaining.append(item)
-    if promoted:
+    if promoted or normalized:
         cms["releases"] = sorted(
             releases.values(),
             key=lambda item: (item.get("publishedAt", item.get("releaseDate", "")), item["slug"]),
@@ -217,13 +233,14 @@ def apply_release_state(stage: Path, evidence: dict[str, dict], now: datetime) -
         cms["upcoming"] = sorted(remaining, key=lambda item: (item["scheduledAt"], item["slug"]))
         cms["updatedAt"] = now.isoformat(timespec="seconds")
         atomic_json(cms_path, cms)
-        atomic_json(stage / "assets/data/official-youtube-release-state.json", {
-            "schemaVersion": "1.0",
-            "verifiedAt": now.isoformat(timespec="seconds"),
-            "officialChannelId": official_channel_id,
-            "promoted": promoted,
-            "evidence": evidence_log,
-        })
+        if promoted:
+            atomic_json(stage / "assets/data/official-youtube-release-state.json", {
+                "schemaVersion": "1.0",
+                "verifiedAt": now.isoformat(timespec="seconds"),
+                "officialChannelId": official_channel_id,
+                "promoted": promoted,
+                "evidence": evidence_log,
+            })
     return promoted
 
 

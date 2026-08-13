@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:26:02+09:00",
+  "updatedAt": "2026-08-13T22:46:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -29,7 +29,7 @@
       "type": "Release",
       "contentType": "release",
       "title": "キャラメ〜ル",
-      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の作品。",
       "url": "releases/caramel/",
       "keywords": [
         "榎本魅愛"
@@ -39,7 +39,7 @@
       "type": "Release",
       "contentType": "release",
       "title": "神様は留守",
-      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙のロックナンバー。",
       "url": "releases/kamisama-wa-rusu/",
       "keywords": [
         "神代煌牙"

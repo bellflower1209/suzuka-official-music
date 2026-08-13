@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-13T22:26:02+09:00</updated>
+  <updated>2026-08-13T22:46:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
@@ -11,7 +11,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=rPTopOOZMkM</id>
     <title>Upcoming｜榎本魅愛「夏が終わるまで、そばにいて。」</title>
-    <updated>2026-08-13T22:26:02+09:00</updated>
+    <updated>2026-08-13T22:46:00+09:00</updated>
     <link href="https://www.youtube.com/watch?v=rPTopOOZMkM" />
     <category term="upcoming" />
     <summary>2026-08-14T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -19,7 +19,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=fecMNfrTUgs</id>
     <title>Upcoming｜RANGILI「Monsoon Promise」</title>
-    <updated>2026-08-13T22:26:02+09:00</updated>
+    <updated>2026-08-13T22:46:00+09:00</updated>
     <link href="https://www.youtube.com/watch?v=fecMNfrTUgs" />
     <category term="upcoming" />
     <summary>2026-08-16T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -31,7 +31,7 @@
     <updated>2026-08-13T20:00:06+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/caramel/" />
     <category term="release" />
-    <summary>甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。</summary>
+    <summary>甘くて少し苦い、素直になれない恋を描く榎本魅愛の作品。</summary>
   </entry>
   <entry>
     <published>2026-08-12T20:00:06+09:00</published>
@@ -40,7 +40,7 @@
     <updated>2026-08-12T20:00:06+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/kamisama-wa-rusu/" />
     <category term="release" />
-    <summary>神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。</summary>
+    <summary>神様が留守なら自分の足で歩くと歌う、神代煌牙のロックナンバー。</summary>
   </entry>
   <entry>
     <published>2026-08-12T00:01:07+09:00</published>
