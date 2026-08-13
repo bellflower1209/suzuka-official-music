@@ -18,6 +18,18 @@ from structured_data_dates import apply_evidence_to_cms, normalize as normalize_
 GA4_MEASUREMENT_ID = "G-LS3PCRB60D"
 
 
+def artist_visual(artist: dict, prefix: str) -> str:
+    image = str(artist.get("image") or "").strip()
+    name = html.escape(artist["name"])
+    if image:
+        return f'<img src="{prefix}{html.escape(image)}" alt="{name}の代表画像" loading="lazy"/>'
+    return (
+        f'<div class="v31-artist-image-placeholder" role="img" '
+        f'aria-label="{name}の公式Artist画像は確認中">'
+        '<span>OFFICIAL VISUAL</span><strong>IMAGE PENDING</strong></div>'
+    )
+
+
 def marker_upsert(path: Path, name: str, content: str, anchor: str = "</main>") -> None:
     text = path.read_text(encoding="utf-8")
     block = f"<!-- CREATOR:{name}:START -->{content}<!-- CREATOR:{name}:END -->"
@@ -169,7 +181,7 @@ def universe(root: Path, cms: dict, releases: list[dict]) -> None:
     future = "、".join(future_value) if isinstance(future_value, list) else str(future_value)
     newest = sorted(releases, key=lambda x: (x["releaseDate"], x["slug"]), reverse=True)
     artist_cards = "".join(
-        f'<article class="creator-universe-node"><img src="../{a["image"]}" alt="{html.escape(a["name"])}の代表画像" loading="lazy"/>'
+        f'<article class="creator-universe-node">{artist_visual(a, "../")}'
         f'<h3>{html.escape(a["name"])}</h3><p>{html.escape(a["world"])}</p><strong>{html.escape(a["music"])}</strong>'
         f'<a href="../artists/{a["slug"]}/">アーティストページ</a></article>' for a in artists
     )

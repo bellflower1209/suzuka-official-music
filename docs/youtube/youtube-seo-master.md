@@ -20,7 +20,7 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 ## 0. 結論と公開状況
 
 - 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は42件。
-- Upcomingは2件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
+- Upcomingは3件。予約中は公開作品数、MusicRecording、VideoObjectへ含めない。
 - 公開日時と動画時間は公式YouTube証跡に保存し、未確認情報は推測しない。
 - 再生リスト、カード、終了画面などYouTube Studio内の設定は、実確認済みと提案済みを別管理する。
 
@@ -77,6 +77,7 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 | --- | --- | --- | --- | --- | --- |
 | 公開予定 | 夏が終わるまで、そばにいて。 | 榎本魅愛 | 2026-08-14 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rPTopOOZMkM |
 | 公開予定 | Monsoon Promise | RANGILI | 2026-08-16 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=fecMNfrTUgs |
+| 公開予定 | たった1人の君へ | 妃みちる | 2026-08-17 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=CPIDy31wnc4 |
 
 ## 2. 推奨タイトル一覧
 
@@ -425,5 +426,6 @@ YouTube Studio上のタイトル・説明欄・タグ・カード・エンド画
 | --- | --- | --- | --- | --- | --- |
 | 公開予定 | 夏が終わるまで、そばにいて。 | 榎本魅愛 | 2026-08-14 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=rPTopOOZMkM |
 | 公開予定 | Monsoon Promise | RANGILI | 2026-08-16 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=fecMNfrTUgs |
+| 公開予定 | たった1人の君へ | 妃みちる | 2026-08-17 20:00:00+09:00 | 未確定 | https://www.youtube.com/watch?v=CPIDy31wnc4 |
 
 予約中の作品は公開済み作品数・MusicRecordingへ含めない。

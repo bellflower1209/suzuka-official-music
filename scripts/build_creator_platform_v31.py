@@ -57,6 +57,24 @@ def discovery_recommendations(item: dict, releases: list[dict], limit: int = 3) 
     return sorted(candidates, key=priority, reverse=True)[:limit]
 
 
+def artist_visual(artist: dict, prefix: str, *, loading: bool = False) -> str:
+    """Render a verified artist image, or an explicit non-image placeholder."""
+    image = str(artist.get("image") or "").strip()
+    name = html.escape(artist["name"])
+    if image:
+        loading_attr = ' loading="lazy"' if loading else ""
+        return (
+            f'<img src="{prefix}{html.escape(image)}" alt="{name}代表画像" '
+            f'width="1280" height="720"{loading_attr}/>'
+        )
+    return (
+        f'<div class="v31-artist-image-placeholder" role="img" '
+        f'aria-label="{name}の公式Artist画像は確認中">'
+        '<span>OFFICIAL VISUAL</span><strong>IMAGE PENDING</strong>'
+        '<small>確認済みの公式画像はまだ登録されていません。</small></div>'
+    )
+
+
 def countdown_markup(item: dict, prefix: str = "") -> str:
     image = item["image"] if str(item["image"]).startswith(("http://", "https://")) else prefix + item["image"]
     return (
@@ -543,6 +561,19 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         )
         artist_photobooks = [item for item in photobooks if item["artistSlug"] == slug]
         artist_lyrics = [item for item in works if item["slug"] in lyrics_slugs]
+        profile_details = ""
+        facts = []
+        if artist.get("birthday"):
+            facts.append(("誕生日", str(artist["birthday"])))
+        if artist.get("age") is not None:
+            facts.append(("年齢", f'{artist["age"]}歳'))
+        if artist.get("appearance"):
+            facts.append(("外見プロフィール", " / ".join(map(str, artist["appearance"]))))
+        if facts:
+            profile_details = '<dl class="v31-artist-profile-details">' + "".join(
+                f'<div><dt>{html.escape(label)}</dt><dd>{html.escape(value)}</dd></div>'
+                for label, value in facts
+            ) + "</dl>"
         lyrics_section = ""
         if artist_lyrics:
             lyrics_section = '<section><h2>Official Lyrics</h2><div class="v31-lyrics-links">' + "".join(
@@ -559,50 +590,70 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
                 f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
                 for item in artist_photobooks
             ) + '</div></section>'
-        discovery_count = len(top)
-        discovery_heading = f'初めて聴くなら、この{discovery_count}曲'
         discovery_cards = "".join(card(item, "../../") for item in top).replace(
             'class="explorer-release-card"',
             'class="explorer-release-card" data-source-section="artist_discovery"',
         )
+        discovery_section = (
+            '<section class="v11-artist-discovery"><p class="section-kicker">SUZUKAおすすめ</p>'
+            f'<h2>初めて聴くなら、この{len(top)}曲</h2>'
+            '<p>正本のfeatured・代表設定・recommendationWeight・公開日の順で決定的に選んでいます。実人気順位ではありません。</p>'
+            f'<div class="explorer-card-grid">{discovery_cards}</div></section>'
+            if top else
+            '<section class="v11-artist-discovery"><p class="section-kicker">SUZUKAおすすめ</p>'
+            '<h2>公開作品は準備中です。</h2><p>確認済みの公開作品が登録されるまで、推測の代表曲は表示しません。</p></section>'
+        )
+        works_section = (
+            f'<section><h2>公開作品一覧</h2><div class="explorer-card-grid">'
+            f'{"".join(card(item, "../../") for item in works)}</div></section>'
+            if works else
+            '<section><h2>公開作品一覧</h2><p class="v31-empty">現在、公開済み作品はありません。</p></section>'
+        )
+        content_links = "".join([
+            f'<a class="creator-link-card" href="{latest["youtubeUrl"]}">Official MV</a>' if latest else "",
+            f'<a class="creator-link-card" href="{shorts[0]["shortsUrl"]}">Shorts</a>' if shorts else "",
+            f'<a class="creator-link-card" href="../../{news[0]["newsUrl"]}">News</a>' if news else "",
+            f'<a class="creator-link-card" href="../../gallery/{latest_gallery["slug"]}/">Gallery</a>' if latest_gallery else "",
+            f'<a class="creator-link-card" href="../../lyrics/">公式歌詞（{len(artist_lyrics)}件）</a>' if artist_lyrics else "",
+        ]) or '<p class="v31-empty">公開済みのMV・Shorts・News・Gallery・Lyricsはまだありません。</p>'
         body = (
             '<section class="v31-artist-hero"><div>'
             f'<p class="v31-ai-badge ai-artist-note">SUZUKA Original AI Artist / {"Group" if artist["type"] == "MusicGroup" else "Solo"}</p>'
             f'<h2>{html.escape(artist["name"])}</h2><p>{html.escape(artist["reading"])}</p>'
-            f'<p>{html.escape(artist["profile"])}</p><div class="explore-actions">{social}<a href="../../schedule/">Schedule</a>'
+            f'<p>{html.escape(artist["profile"])}</p>{profile_details}<div class="explore-actions">{social}<a href="../../schedule/">Schedule</a>'
             f'<a href="../../search/?artist={slug}">作品を検索</a><a href="../../about/">About SUZUKA</a></div></div>'
-            f'<img src="../../{artist["image"]}" alt="{html.escape(artist["name"])}代表画像" width="1280" height="720"/></section>'
+            f'{artist_visual(artist, "../../")}</section>'
             '<section class="v31-artist-facts"><div><h2>世界観</h2><p>' + html.escape(artist["world"]) + '</p></div>'
             '<div><h2>音楽性</h2><p>' + html.escape(artist["music"]) + '</p><p>' + html.escape(" / ".join(sorted(release_genres[slug]))) + '</p></div></section>'
             + members
             + (f'<section><h2>最新曲</h2>{card(latest, "../../")}</section>' if latest else "")
-            + '<section class="v11-artist-discovery"><p class="section-kicker">SUZUKAおすすめ</p>'
-            f'<h2>{discovery_heading}</h2><p>正本のfeatured・代表設定・recommendationWeight・公開日の順で決定的に選んでいます。実人気順位ではありません。</p>'
-            f'<div class="explorer-card-grid">{discovery_cards}</div></section>'
-            + f'<section><h2>公開作品一覧</h2><div class="explorer-card-grid">{"".join(card(item, "../../") for item in works)}</div></section>'
+            + discovery_section
+            + works_section
             + f'<section><h2>Upcoming</h2><div class="v31-schedule-list">{upcoming_html}</div></section>'
             + '<section><h2>Official MV / Shorts / News / Gallery</h2><div class="creator-link-grid">'
-            + (f'<a class="creator-link-card" href="{latest["youtubeUrl"]}">Official MV</a>' if latest else "")
-            + (f'<a class="creator-link-card" href="{shorts[0]["shortsUrl"]}">Shorts</a>' if shorts else "")
-            + (f'<a class="creator-link-card" href="../../{news[0]["newsUrl"]}">News</a>' if news else "")
-            + (f'<a class="creator-link-card" href="../../gallery/{latest_gallery["slug"]}/">Gallery</a>' if latest_gallery else "")
-            + f'<a class="creator-link-card" href="../../lyrics/">公式歌詞（{sum(item["slug"] in lyrics_slugs for item in works)}件）</a>'
+            + content_links
             + '<a class="creator-link-card" href="../../discography/">Discography</a><a class="creator-link-card" href="../../wiki/artists/">Wiki</a>'
             + '<a class="creator-link-card" href="../../playlists/">Playlist</a><a class="creator-link-card" href="../../schedule/">Schedule</a></div></section>'
             + lyrics_section
             + photobook_section
             + f'<section><h2>関連ジャンルのアーティスト</h2><div class="explore-actions">{related_links}</div></section>'
         )
+        artist_entity = {
+            "@type": artist["type"], "@id": f'{BASE}/artists/{slug}/#artist', "name": artist["name"],
+            "description": f'{artist["profile"]} SUZUKAの架空のAIアーティストです。',
+            "sameAs": [url for url in (artist.get("youtubeUrl"), artist.get("instagramUrl")) if url],
+        }
+        if artist.get("image"):
+            artist_entity["image"] = f'{BASE}/{artist["image"]}'
         graph = [
             {"@type": "ProfilePage", "@id": f'{BASE}/artists/{slug}/#profile', "mainEntity": {"@id": f'{BASE}/artists/{slug}/#artist'}},
-            {"@type": artist["type"], "@id": f'{BASE}/artists/{slug}/#artist', "name": artist["name"],
-             "image": f'{BASE}/{artist["image"]}', "description": f'{artist["profile"]} SUZUKAの架空のAIアーティストです。',
-             "sameAs": [url for url in (artist.get("youtubeUrl"), artist.get("instagramUrl")) if url]},
-            {"@type": "ItemList", "@id": f'{BASE}/artists/{slug}/#releases', "numberOfItems": len(works), "itemListElement": [
+            artist_entity,
+        ]
+        if works:
+            graph.append({"@type": "ItemList", "@id": f'{BASE}/artists/{slug}/#releases', "numberOfItems": len(works), "itemListElement": [
                 {"@type": "ListItem", "position": i, "name": item.get("displayTitle", item["title"]), "url": f'{BASE}/{item["releaseUrl"]}'}
                 for i, item in enumerate(works, 1)
-            ]},
-        ]
+            ]})
         page = shell(
             f'artists/{slug}/', f'{artist["name"]}｜SUZUKA Original AI Artist',
             f'{artist["profile"]} 公開作品、Official MV、News、Galleryを紹介します。',
@@ -611,8 +662,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         page = page.replace("</body>", '<script defer src="../../assets/creator-v31.js"></script></body>')
         write(root / f'artists/{slug}/index.html', page)
         directory_cards.append(
-            f'<article class="v31-artist-directory-card"><a href="./{slug}/"><img src="../{artist["image"]}" '
-            f'alt="{html.escape(artist["name"])}代表画像" width="1280" height="720" loading="lazy"/>'
+            f'<article class="v31-artist-directory-card"><a href="./{slug}/">{artist_visual(artist, "../", loading=True)}'
             f'<p>{"Group" if artist["type"] == "MusicGroup" else "Solo"} / SUZUKA Original AI Artist</p>'
             f'<h2>{html.escape(artist["name"])}</h2><span>公開作品 {len(works)}件</span></a></article>'
         )
@@ -790,8 +840,9 @@ body{color:var(--text-primary)}a:visited{color:inherit}a:hover{color:var(--link-
 .v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.25rem,4vw,4rem);align-items:center;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1.2rem;padding:clamp(1rem,3vw,2rem);background:linear-gradient(135deg,#0b0b10,#15111c)}
 .v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{width:100%;height:auto;border-radius:.8rem}.v31-countdown{font-size:clamp(1.2rem,3vw,2.3rem);font-weight:800;color:#9edbff}.v31-schedule-list{display:grid;gap:1.25rem}.v31-schedule-group>h2{font-size:clamp(2rem,5vw,4rem)}
 .v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.v31-home-portals>a,.v31-artist-directory-card,.v31-member-grid article,.v31-photobook-card{padding:1.5rem;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1rem;background:#101014;text-decoration:none}.v31-home-portals h2{font-size:2.2rem}.v31-home-portals span,.v31-ai-badge{color:#9edbff;letter-spacing:.1em}.v31-artist-directory-card img,.v31-photobook-card img{width:100%;height:auto;border-radius:.7rem}.v31-artist-directory-card a{color:var(--text-on-dark);text-decoration:none}.v31-artist-facts{align-items:start}.v31-artist-facts>div{padding:1rem}
+.v31-artist-image-placeholder{display:grid;place-content:center;gap:.55rem;width:100%;min-height:clamp(14rem,36vw,30rem);padding:1.5rem;color:var(--text-on-dark);text-align:center;border:1px solid var(--border-contrast);border-radius:.8rem;background:radial-gradient(circle at 70% 25%,rgba(139,80,169,.28),transparent 38%),linear-gradient(145deg,#17121b,#09080b)}.v31-artist-image-placeholder span{color:#b8dcff;font-size:.72rem;letter-spacing:.16em}.v31-artist-image-placeholder strong{font-size:clamp(1.4rem,3vw,2.5rem)}.v31-artist-image-placeholder small{max-width:25rem;color:var(--text-secondary);line-height:1.7}.v31-artist-directory-card .v31-artist-image-placeholder{min-height:15rem}.explorer-artist-rank .v31-artist-image-placeholder{width:7rem;min-height:7rem;padding:.6rem;border-radius:50%}.explorer-artist-rank .v31-artist-image-placeholder span{font-size:.5rem}.explorer-artist-rank .v31-artist-image-placeholder strong{font-size:.65rem}.v31-artist-profile-details{display:grid;gap:.55rem;margin:1.25rem 0}.v31-artist-profile-details>div{display:grid;grid-template-columns:8rem 1fr;gap:.8rem;padding:.65rem 0;border-top:1px solid rgba(255,255,255,.16)}.v31-artist-profile-details dt{color:var(--text-secondary);font-size:.82rem}.v31-artist-profile-details dd{margin:0;color:var(--text-on-dark)}
 .v31-lyrics{max-width:66rem;margin:clamp(2rem,5vw,5rem) auto;padding:clamp(1.25rem,4vw,3rem);color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1.25rem;background:linear-gradient(145deg,rgba(19,15,22,.98),rgba(8,7,10,.98));box-shadow:0 1.5rem 5rem rgba(0,0,0,.28)}.v31-lyrics header{padding-bottom:1.5rem;border-bottom:1px solid var(--border-contrast)}.v31-lyrics header>p{color:var(--text-secondary);line-height:1.75}.v31-lyrics-text{margin-top:2rem;padding:clamp(1.1rem,4vw,3rem);color:#fffdfd;border:1px solid rgba(255,255,255,.22);border-radius:1rem;background:#0c0a0e;font-size:clamp(1rem,1.2vw,1.125rem);line-height:1.9;overflow-wrap:anywhere;word-break:normal}.v31-lyrics-text p{margin:0 0 1.8em}.v31-lyrics-text p:last-child{margin-bottom:0}.v31-lyrics-cue{color:#a9dfff;font-weight:700;font-style:italic;letter-spacing:.025em}.v31-lyrics-row,.v31-search-document{padding:1.2rem;border-bottom:1px solid var(--border-contrast);background:rgba(255,255,255,.025)}.v31-lyrics-row a,.v31-search-document a{color:var(--link-color);text-decoration:underline;text-decoration-color:rgba(255,209,235,.45);text-underline-offset:.25em}.v31-filter{display:grid;gap:.5rem;max-width:42rem}.v31-filter input{padding:1rem;border-radius:.5rem}.v31-data-pending,.v31-empty{padding:1.5rem;border:1px dashed var(--border-contrast);border-radius:.8rem;color:var(--text-secondary)}.v31-home-next{background:#08090d}.v31-home-photobooks{display:grid;grid-template-columns:minmax(12rem,.35fr) 1fr;gap:2rem}.v31-photobook-detail{max-width:72rem;margin:auto;padding:clamp(2rem,6vw,6rem);display:grid;grid-template-columns:1fr 1fr;gap:2rem}.v31-search-documents{padding:2rem 0}.v31-release-lyrics-link{margin:clamp(2rem,5vw,5rem) clamp(1rem,6vw,7rem);padding:clamp(1.4rem,4vw,3rem);color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1rem;background:linear-gradient(135deg,#17111b,#0a090c)}.v31-release-lyrics-link h2{font-size:clamp(1.8rem,4vw,3.5rem)}.v31-readable-cta{display:inline-flex;margin-top:1rem;padding:.85rem 1.2rem;border:1px solid;border-radius:999px;font-weight:800}.v31-lyrics-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.8rem}.v31-lyrics-links a{display:grid;gap:.45rem;padding:1.2rem;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:.8rem;background:#101014}.v31-lyrics-links span{color:var(--text-secondary);font-size:.8rem}.v31-lyrics-links b{color:#9edbff;font-size:.75rem}
-@media(max-width:760px){.v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts,.v31-home-photobooks,.v31-photobook-detail{grid-template-columns:1fr}.v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{grid-row:1}.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{grid-template-columns:1fr}.v31-home-next,.v31-home-portals,.v31-home-photobooks,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail,.v31-photobook-grid{padding-left:1rem;padding-right:1rem}.v31-countdown-card .explore-actions a{width:100%;text-align:center}.v31-lyrics{margin:1rem;padding:1rem}.v31-lyrics-text{padding:1.1rem;font-size:1rem;line-height:1.85}.v31-release-lyrics-link{margin-left:1rem;margin-right:1rem}}
+@media(max-width:760px){.v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts,.v31-home-photobooks,.v31-photobook-detail{grid-template-columns:1fr}.v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img,.v31-artist-hero>.v31-artist-image-placeholder{grid-row:1}.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{grid-template-columns:1fr}.v31-home-next,.v31-home-portals,.v31-home-photobooks,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail,.v31-photobook-grid{padding-left:1rem;padding-right:1rem}.v31-countdown-card .explore-actions a{width:100%;text-align:center}.v31-lyrics{margin:1rem;padding:1rem}.v31-lyrics-text{padding:1.1rem;font-size:1rem;line-height:1.85}.v31-release-lyrics-link{margin-left:1rem;margin-right:1rem}.v31-artist-profile-details>div{grid-template-columns:1fr}}
 """
     write(root / "assets/creator-v31.css", css)
     js = """(() => {

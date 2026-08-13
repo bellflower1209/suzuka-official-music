@@ -27,7 +27,9 @@ SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 ROBOTS_URL = f"{BASE_URL}/robots.txt"
 NAMESPACE = "http://www.sitemaps.org/schemas/sitemap/0.9"
 OLD_DOMAIN = "suzuka-official-music.ria20210815.chatgpt.site"
-UNPUBLISHED_MARKERS = ("たった1人の君へ",)
+# Upcoming titles may legitimately appear on indexable Artist/Schedule pages.
+# Indexability is enforced from robots/canonical state instead of title text.
+UNPUBLISHED_MARKERS: tuple[str, ...] = ()
 LEGACY_REDIRECTS = {Path("releases/toriatsukai-chuui/index.html")}
 GOOGLEBOT = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 

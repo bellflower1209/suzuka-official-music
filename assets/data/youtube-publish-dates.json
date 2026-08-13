@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-13T22:26:02+09:00",
+  "checkedAt": "2026-08-13T23:05:38+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -648,6 +648,23 @@
       "verifiedPublishedAt": "2026-07-12T20:00:59+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "tatta-hitori-no-kimi-e",
+      "youtubeId": "CPIDy31wnc4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "catalogReleaseDate": "",
+      "officialTitle": "妃みちる『たった1人の君へ』Official Music ｜SUZUKA Debut Single",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "",
+      "youtubeUploadDate": "",
+      "liveStartTimestamp": "2026-08-17T20:00:00+09:00",
+      "playabilityStatus": "LIVE_STREAM_OFFLINE",
+      "durationSeconds": 0,
+      "verifiedPublishedAt": "",
+      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "status": "scheduled"
     },
     {
       "releaseSlug": "tokenai-mahou-wo-ai-to-yobu",

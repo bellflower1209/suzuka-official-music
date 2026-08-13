@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:46:00+09:00",
+  "updatedAt": "2026-08-13T23:05:38+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -945,6 +945,16 @@
       "keywords": [
         "神代煌牙",
         "KOGA KAMISHIRO"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "妃みちる",
+      "description": "9月8日生まれ、30歳のSUZUKAソロAIアーティスト。",
+      "url": "artists/michiru/",
+      "keywords": [
+        "妃みちる"
       ]
     },
     {

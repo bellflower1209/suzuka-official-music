@@ -91,6 +91,18 @@ def media_url(value: str, prefix_value: str = "") -> str:
     """Return external media unchanged and prefix repository-local media."""
     return value if value.startswith(("https://", "http://")) else f"{prefix_value}{value}"
 
+
+def artist_visual(artist: dict, prefix: str) -> str:
+    image = str(artist.get("image") or "").strip()
+    name = html.escape(artist["name"])
+    if image:
+        return f'<img src="{prefix}{html.escape(image)}" alt="{name} 代表画像" loading="lazy"/>'
+    return (
+        f'<div class="v31-artist-image-placeholder" role="img" '
+        f'aria-label="{name}の公式Artist画像は確認中">'
+        '<span>OFFICIAL VISUAL</span><strong>IMAGE PENDING</strong></div>'
+    )
+
 FEATURES = {
     "love-songs": ("恋愛ソング", "恋する気持ち、愛、誓いを描く作品。", lambda x: any(v in x["themes"] for v in ("恋愛", "愛", "誓い")) or x["artistSlug"] == "enomoto-mia"),
     "cheer-songs": ("応援ソング", "希望、再生、明日へ進む力を届ける作品。", lambda x: any(v in x["themes"] for v in ("希望", "再生", "明日", "祈り"))),
@@ -371,7 +383,7 @@ def rankings_page(root: Path, releases: list[dict], payload: dict) -> None:
                 count = sum(slug in item["artistSlugs"] for item in releases)
                 artist_cards.append(
                     f'<article class="explorer-artist-rank"><strong>{position:02d}</strong>'
-                    f'<img src="../{artist["image"]}" alt="{html.escape(artist["name"])} 代表画像" loading="lazy"/>'
+                    f'{artist_visual(artist, "../")}'
                     f'<div><h3>{html.escape(artist["name"])}</h3><p>公開作品 {count}件</p>'
                     f'<a href="../artists/{slug}/">プロフィール ↗</a></div></article>'
                 )

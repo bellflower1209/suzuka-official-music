@@ -50,6 +50,7 @@
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
 | Upcoming | 夏が終わるまで、そばにいて。 | 榎本魅愛 | https://www.youtube.com/watch?v=rPTopOOZMkM | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | Monsoon Promise | RANGILI | https://www.youtube.com/watch?v=fecMNfrTUgs | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| Upcoming | たった1人の君へ | 妃みちる | https://www.youtube.com/watch?v=CPIDy31wnc4 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 
 ## 百万告の実反映状況
 

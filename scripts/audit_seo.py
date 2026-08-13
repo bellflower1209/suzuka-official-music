@@ -311,7 +311,10 @@ def required_schema_types(relative: Path) -> set[str]:
         slug = relative.parts[1]
         artist = next((item for item in CREATOR_CMS["artists"] if item["slug"] == slug), None)
         if artist:
-            return {artist["type"], "ProfilePage", "ItemList", "BreadcrumbList"}
+            required = {artist["type"], "ProfilePage", "BreadcrumbList"}
+            if CMS_RELEASES_BY_ARTIST.get(slug):
+                required.add("ItemList")
+            return required
     if route == "artists/eclypse/index.html":
         return {"MusicGroup", "ProfilePage", "ItemList", "BreadcrumbList"}
     if route == "artists/koga-kamishiro/index.html":

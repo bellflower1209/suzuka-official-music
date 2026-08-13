@@ -12,6 +12,9 @@ const expectedTrackCount = releaseCatalog.releases.filter(item => item.status ==
 const lyricsPages = creatorCms.releases
   .filter(item => item.status === "published" && item.lyricsAvailable && item.lyricsVerified === true)
   .map(item => `lyrics/${item.slug}/`);
+const artistPages = creatorCms.artists
+  .filter(item => item.status === "published")
+  .map(item => `artists/${item.slug}/`);
 const explorerPages = [
   "rankings/", "features/", "features/love-songs/", "features/cheer-songs/", "features/tearjerkers/",
   "features/summer-songs/", "features/dark/", "features/k-pop/", "features/enka/", "features/visual-kei/",
@@ -26,9 +29,7 @@ const explorerPages = [
   "en/", "en/artists/", "en/releases/", "en/search/", "en/genres/", "en/discography/", "en/universe/", "en/news/",
 ];
 const pages = [...new Set([
-  "", "artists/", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/",
-  "artists/rangili/", "artists/asagiri-shinobu/", "artists/revive/",
-  "artists/nox/",
+  "", "artists/", ...artistPages,
   "search/", "genres/", "genres/j-pop/", "genres/enka/", "genres/k-pop-inspired/", "genres/visual-kei/", "discography/",
   "releases/", "news/", "news/eclypse-joins-suzuka/", "news/shadow-code-announcement/",
   "releases/mia/", "releases/hyakumankoku/", "releases/muteki-jikan-ato-3byou/",
@@ -104,7 +105,7 @@ const results = [];
 const quickEventsOnly = process.env.QA_QUICK_EVENTS === "1";
 if (!quickEventsOnly) for (const size of sizes) {
   for (const route of qaPages) {
-    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "lyrics/", "lyrics/hanakotoba/", "lyrics/zennin-saiban/", "rankings/", "features/", "features/love-songs/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
+    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/michiru/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "lyrics/", "lyrics/hanakotoba/", "lyrics/zennin-saiban/", "rankings/", "features/", "features/love-songs/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     const targetUrl = new URL(route, base).href;
@@ -117,7 +118,7 @@ if (!quickEventsOnly) for (const size of sizes) {
       const settled = await send("Runtime.evaluate", {expression:`(() => {const p=document.querySelector('.suzuka-music-player');const pr=p?.getBoundingClientRect();const hit=(a,b)=>a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;return !!pr&&[...document.querySelectorAll('.hanakotoba-actions a,.v11-subscribe-cta a')].some(a=>getComputedStyle(a).display!=='none'&&hit(a.getBoundingClientRect(),pr));})()`, returnByValue:true});
       value.playerOverlapsHeroCta = settled.result.value;
     }
-    if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "artists/nox/", "releases/", "social/", "rankings/", "features/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route) && [1280, 390].includes(size.width)) {
+    if (screenshotDir && ["", "about/", "artists/", "artists/enomoto-mia/", "artists/michiru/", "artists/nox/", "releases/", "social/", "rankings/", "features/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "releases/namaste-galaxy/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/", "news/namaste-galaxy-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route) && [1280, 390].includes(size.width)) {
       const shot = await send("Page.captureScreenshot", {format:"png", captureBeyondViewport:false});
       const name = route === "" ? "home" : route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));
