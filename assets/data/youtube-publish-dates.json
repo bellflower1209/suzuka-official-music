@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-12T00:01:07+09:00",
+  "checkedAt": "2026-08-13T22:26:02+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -75,18 +75,18 @@
       "releaseSlug": "caramel",
       "youtubeId": "rtN3V6DDmFw",
       "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
-      "catalogReleaseDate": "",
-      "officialTitle": "キャラメ〜ル",
+      "catalogReleaseDate": "2026-08-13",
+      "officialTitle": "【8/13 20:00解禁】榎本魅愛『キャラメ〜ル』｜甘くて、苦くて、とろける恋♡",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA",
       "channelVerified": true,
-      "youtubePublishDate": "",
-      "youtubeUploadDate": "",
-      "liveStartTimestamp": "2026-08-13T20:00:00+09:00",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE",
-      "durationSeconds": 0,
-      "verifiedPublishedAt": "",
+      "youtubePublishDate": "2026-08-13T20:00:06+09:00",
+      "youtubeUploadDate": "2026-08-13T20:00:06+09:00",
+      "liveStartTimestamp": "2026-08-13T20:00:06+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 254,
+      "verifiedPublishedAt": "2026-08-13T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "status": "scheduled"
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "chimpanzee-no-rakuen",
@@ -194,18 +194,18 @@
       "releaseSlug": "kamisama-wa-rusu",
       "youtubeId": "RxfHwhP1Sx4",
       "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
-      "catalogReleaseDate": "",
-      "officialTitle": "神様は留守",
+      "catalogReleaseDate": "2026-08-12",
+      "officialTitle": "神代煌牙『神様は留守』Official Audio｜いつでも神様は留守。",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA",
       "channelVerified": true,
-      "youtubePublishDate": "",
-      "youtubeUploadDate": "",
-      "liveStartTimestamp": "2026-08-12T20:00:00+09:00",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE",
-      "durationSeconds": 0,
-      "verifiedPublishedAt": "",
+      "youtubePublishDate": "2026-08-12T20:00:06+09:00",
+      "youtubeUploadDate": "2026-08-12T20:00:06+09:00",
+      "liveStartTimestamp": "2026-08-12T20:00:06+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 312,
+      "verifiedPublishedAt": "2026-08-12T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
-      "status": "scheduled"
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "kimi-ni-kakatta-mahou",

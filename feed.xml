@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-12T00:01:07+09:00</updated>
+  <updated>2026-08-13T22:26:02+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
@@ -11,7 +11,7 @@
   <entry>
     <id>https://www.youtube.com/watch?v=rPTopOOZMkM</id>
     <title>Upcoming｜榎本魅愛「夏が終わるまで、そばにいて。」</title>
-    <updated>2026-08-12T00:01:07+09:00</updated>
+    <updated>2026-08-13T22:26:02+09:00</updated>
     <link href="https://www.youtube.com/watch?v=rPTopOOZMkM" />
     <category term="upcoming" />
     <summary>2026-08-14T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -19,26 +19,28 @@
   <entry>
     <id>https://www.youtube.com/watch?v=fecMNfrTUgs</id>
     <title>Upcoming｜RANGILI「Monsoon Promise」</title>
-    <updated>2026-08-12T00:01:07+09:00</updated>
+    <updated>2026-08-13T22:26:02+09:00</updated>
     <link href="https://www.youtube.com/watch?v=fecMNfrTUgs" />
     <category term="upcoming" />
     <summary>2026-08-16T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=RxfHwhP1Sx4</id>
-    <title>Upcoming｜神代煌牙「神様は留守」</title>
-    <updated>2026-08-12T00:01:07+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=RxfHwhP1Sx4" />
-    <category term="upcoming" />
-    <summary>2026-08-12T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-08-13T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/caramel/</id>
+    <title>榎本魅愛「キャラメ〜ル」</title>
+    <updated>2026-08-13T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/caramel/" />
+    <category term="release" />
+    <summary>甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。</summary>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=rtN3V6DDmFw</id>
-    <title>Upcoming｜榎本魅愛「キャラメ〜ル」</title>
-    <updated>2026-08-12T00:01:07+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=rtN3V6DDmFw" />
-    <category term="upcoming" />
-    <summary>2026-08-13T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-08-12T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/kamisama-wa-rusu/</id>
+    <title>神代煌牙「神様は留守」</title>
+    <updated>2026-08-12T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/kamisama-wa-rusu/" />
+    <category term="release" />
+    <summary>神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。</summary>
   </entry>
   <entry>
     <published>2026-08-12T00:01:07+09:00</published>
@@ -78,12 +80,30 @@
   </entry>
   <entry>
     <published>2026-08-12T00:01:07+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/kamisama-wa-rusu/</id>
+    <title>公式歌詞｜神代煌牙「神様は留守」</title>
+    <updated>2026-08-12T00:01:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/kamisama-wa-rusu/" />
+    <category term="lyrics" />
+    <summary>神代煌牙「神様は留守」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-12T00:01:07+09:00</published>
     <id>https://www.suzukaofficial.com/lyrics/hajimemashite-kiseki/</id>
     <title>公式歌詞｜榎本魅愛「はじめまして、奇跡」</title>
     <updated>2026-08-12T00:01:07+09:00</updated>
     <link href="https://www.suzukaofficial.com/lyrics/hajimemashite-kiseki/" />
     <category term="lyrics" />
     <summary>榎本魅愛「はじめまして、奇跡」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-12T00:01:07+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/caramel/</id>
+    <title>公式歌詞｜榎本魅愛「キャラメ〜ル」</title>
+    <updated>2026-08-12T00:01:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/caramel/" />
+    <category term="lyrics" />
+    <summary>榎本魅愛「キャラメ〜ル」の出典確認済み公式歌詞。</summary>
   </entry>
   <entry>
     <published>2026-08-11T20:00:06+09:00</published>

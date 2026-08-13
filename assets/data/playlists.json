@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T00:01:07+09:00",
+  "updatedAt": "2026-08-13T22:26:02+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -225,6 +225,8 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
@@ -242,9 +244,7 @@
         "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy"
+        "heal-you-again"
       ],
       "count": 20
     },
@@ -257,6 +257,8 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
@@ -274,9 +276,7 @@
         "koisuru-maharaja",
         "chimpanzee-no-rakuen",
         "ashita-wa-kitto",
-        "heal-you-again",
-        "echoes-of-you",
-        "namaste-galaxy"
+        "heal-you-again"
       ],
       "count": 20
     }

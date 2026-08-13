@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-12T00:01:07+09:00",
+  "evidenceCheckedAt": "2026-08-13T22:26:02+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 198,
-    "videoObjects": 83,
+    "jsonLdBlocks": 192,
+    "videoObjects": 84,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,7 +436,7 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 78,
+  "fixedVideoObjectCount": 79,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
@@ -444,16 +444,6 @@
     "o7AOgpc2O-k"
   ],
   "heldReleases": [
-    {
-      "releaseSlug": "caramel",
-      "youtubeId": "rtN3V6DDmFw",
-      "verifiedDate": ""
-    },
-    {
-      "releaseSlug": "kamisama-wa-rusu",
-      "youtubeId": "RxfHwhP1Sx4",
-      "verifiedDate": ""
-    },
     {
       "releaseSlug": "monsoon-promise",
       "youtubeId": "fecMNfrTUgs",
@@ -465,5 +455,5 @@
       "verifiedDate": ""
     }
   ],
-  "heldReleaseCount": 4
+  "heldReleaseCount": 2
 }

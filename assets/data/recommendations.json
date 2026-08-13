@@ -1,14 +1,86 @@
 {
-  "updatedAt": "2026-08-12T00:01:07+09:00",
+  "updatedAt": "2026-08-13T22:26:02+09:00",
   "recommendations": {
-    "kimi-wa-makenai": {
+    "caramel": {
       "sameArtist": [
+        "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "kamisama-wa-rusu",
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
+        "kimi-ni-kakatta-mahou",
+        "mermaid-no-geboku"
+      ],
+      "aiRecommended": [
+        "kimi-wa-makenai",
+        "kimi-ni-kakatta-mahou",
+        "hanakotoba",
+        "hajimemashite-kiseki",
+        "without-worrying",
+        "ai-demo-wakaranai"
+      ]
+    },
+    "kamisama-wa-rusu": {
+      "sameArtist": [
+        "leo-rise-again",
+        "mermaid-no-geboku",
+        "one-more-kiss",
+        "echoes-of-you",
+        "boukyaku-no-ikimono",
+        "my-queen-my-oath"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "still-alive"
+      ],
+      "recent": [
+        "caramel",
+        "kimi-wa-makenai",
+        "leo-rise-again",
+        "last-dance-tonight",
+        "kimi-ni-kakatta-mahou",
+        "mermaid-no-geboku"
+      ],
+      "aiRecommended": [
+        "leo-rise-again",
+        "mermaid-no-geboku",
+        "one-more-kiss",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath"
+      ]
+    },
+    "kimi-wa-makenai": {
+      "sameArtist": [
+        "caramel",
+        "kimi-ni-kakatta-mahou",
+        "hanakotoba",
+        "hajimemashite-kiseki",
+        "without-worrying",
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "without-worrying",
@@ -35,12 +107,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "mermaid-no-geboku"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -53,6 +125,7 @@
     },
     "leo-rise-again": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "mermaid-no-geboku",
         "one-more-kiss",
         "echoes-of-you",
@@ -72,20 +145,20 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "mermaid-no-geboku"
       ],
       "aiRecommended": [
         "one-more-kiss",
+        "kamisama-wa-rusu",
         "mermaid-no-geboku",
         "boukyaku-no-ikimono",
         "echoes-of-you",
-        "my-queen-my-oath",
-        "kimi-ni-kakatta-mahou"
+        "my-queen-my-oath"
       ]
     },
     "last-dance-tonight": {
@@ -117,12 +190,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "mermaid-no-geboku"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -135,12 +208,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "hanakotoba",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -167,12 +240,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "mermaid-no-geboku"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -185,6 +258,7 @@
     },
     "mermaid-no-geboku": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "one-more-kiss",
         "echoes-of-you",
@@ -216,12 +290,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -234,12 +308,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hajimemashite-kiseki",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -266,12 +340,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "wasureji-no-hito"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -311,12 +385,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -347,12 +421,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -365,12 +439,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "without-worrying",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -397,12 +471,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -439,12 +513,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -475,12 +549,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -493,6 +567,7 @@
     },
     "one-more-kiss": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
         "echoes-of-you",
@@ -524,12 +599,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -564,12 +639,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -582,12 +657,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "ashita-wa-kitto",
-        "smile-and-say-goodbye"
+        "ashita-wa-kitto"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -614,12 +689,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -659,12 +734,12 @@
         "wasureji-no-hito"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -695,12 +770,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -713,12 +788,12 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "smile-and-say-goodbye"
+        "without-worrying"
       ],
       "sameGenre": [
         "without-worrying",
@@ -745,12 +820,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -790,12 +865,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -808,6 +883,7 @@
     },
     "echoes-of-you": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
@@ -834,12 +910,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -874,12 +950,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -910,12 +986,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -928,12 +1004,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -957,12 +1033,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -975,6 +1051,7 @@
     },
     "boukyaku-no-ikimono": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
@@ -1002,12 +1079,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1020,6 +1097,7 @@
     },
     "my-queen-my-oath": {
       "sameArtist": [
+        "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
@@ -1050,12 +1128,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1091,12 +1169,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1109,12 +1187,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1141,12 +1219,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1159,12 +1237,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1191,12 +1269,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1209,12 +1287,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -1241,12 +1319,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -1259,12 +1337,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -1288,12 +1366,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1330,12 +1408,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -1348,12 +1426,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -1380,12 +1458,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -1398,12 +1476,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1430,12 +1508,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1448,12 +1526,12 @@
     },
     "mia": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1480,12 +1558,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1498,12 +1576,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1530,12 +1608,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1548,12 +1626,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1580,12 +1658,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1598,12 +1676,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -1630,12 +1708,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -1648,12 +1726,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1680,12 +1758,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1698,12 +1776,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -1730,12 +1808,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -1748,12 +1826,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -1780,12 +1858,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -1798,12 +1876,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "caramel",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "hajimemashite-kiseki",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -1830,12 +1908,12 @@
         "still-alive"
       ],
       "recent": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

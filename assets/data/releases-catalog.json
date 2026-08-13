@@ -1,6 +1,208 @@
 {
-  "updatedAt": "2026-08-12T00:01:07+09:00",
+  "updatedAt": "2026-08-13T22:26:02+09:00",
   "releases": [
+    {
+      "slug": "caramel",
+      "title": "キャラメ〜ル",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-08-13T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+      "image": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
+      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "releaseAt": "2026-08-13T20:00:06+09:00",
+      "publishedAt": "2026-08-13T20:00:06+09:00",
+      "status": "published",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（caramel_suzuka_master.txt）",
+      "lyricsText": "\nCaramel…\nCaramel…\nねぇ\nそんな顔で笑わないで\nまた今日も\nわたしのハートが――\nキャラメ〜ル♡\nHey！\n\nいつもの駅　いつもの時間\nいつもの角で　君を見つけた\n別に待ってたわけじゃないし\n偶然だから！　ほんとだから！\n昨日より少し短い前髪\n気づいてくれたら嬉しいけど\n「なんか今日、違う？」\nその一言で\n頭の中　全部真っ白！\n\nひとつ　ふたつ\n目が合うたびに\n甘く　甘く\n胸が熱くなる\nほどけそうで\nほどけない\nもう！\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n視線と視線が　からまる\n甘いだけじゃ\n物足りないの\nちょっと苦いのも\n恋でしょ？\nねぇ　この気持ち\nどうしたらいい？\n答えはきっと\n君なんです♡\n\n日曜日　朝からキッチン\nキャラメルソースと大格闘\n焦がして　やり直して\n味見して……\nあれ？\n半分なくなってる！\n君に渡す小さな袋\nリボン結んで　またほどいて\n「別に君だけじゃないからね」\nだけど君が\n「これ、俺のため？」\nやめてよもう！\n心臓もたない！\n\n近づくたびに\n逃げたくなるし\n離れた瞬間\n会いたくなる\n恋ってほんと\n忙しい！\n\nキャラメ〜ル！　キャラメ〜ル！\n君に触れたら　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n指先までも　からまる\n嬉しいくせに\n知らないふりで\nまた強がって\n損してる！\nCara Cara Caramel！\nハートを混ぜて Caramel！\n甘くなって\n苦くなって\nまた君のこと\n好きになる！\n\n本当はずっと\n怖かったんだ\n「好き」って言ったら\n何かが変わりそうで\nだけど君が\n誰かと笑うだけで\n胸が少し\n苦しくなるなら\nもう\nごまかせない\nこの気持ちは\nキャラメルみたいに\nゆっくり\n心の奥で\n溶けていたんだ\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう！\nキャラメ〜ル！　キャラメ〜ル！\nふたりの気持ちが　からまる！\n甘いだけじゃ\n終わらないから\nこんな恋ほど\n忘れない！\nキャラメ〜ル！　キャラメ〜ル！\nもう隠したって　バレちゃうよ！\n昨日よりも\n今日のほうが\n今日より明日\n好きになる！\nほどけなくても\nかまわない\n君とだったら\nかまわない！\nわたし君が――\n大好きです！\n\nCaramel…\nCaramel…\nねぇ\n明日もまた会える？\n……やった♡\nキャラメ〜ル。",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "id": "caramel",
+      "displayTitle": "キャラメ〜ル",
+      "englishTitle": "キャラメ〜ル",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「キャラメ〜ル」公式YouTubeサムネイル",
+      "releaseUrl": "releases/caramel/",
+      "newsUrl": "",
+      "duration": 254,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "キャラメ〜ル",
+        "榎本魅愛"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "introduction": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "seo": {
+        "title": "キャラメ〜ル｜榎本魅愛｜SUZUKA Official Music",
+        "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-13",
+      "videoPublishedAt": "2026-08-13T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+      "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
+      "recommendations": {
+        "sameArtist": [
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki",
+          "without-worrying",
+          "ashita-wa-kitto"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "kamisama-wa-rusu",
+          "kimi-wa-makenai",
+          "leo-rise-again",
+          "last-dance-tonight",
+          "kimi-ni-kakatta-mahou",
+          "mermaid-no-geboku"
+        ],
+        "aiRecommended": [
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki",
+          "without-worrying",
+          "ai-demo-wakaranai"
+        ]
+      }
+    },
+    {
+      "slug": "kamisama-wa-rusu",
+      "title": "神様は留守",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "scheduledAt": "2026-08-12T20:00:00+09:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+      "image": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
+      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "releaseAt": "2026-08-12T20:00:06+09:00",
+      "publishedAt": "2026-08-12T20:00:06+09:00",
+      "status": "published",
+      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（kamisama_wa_rusu_suzuka_master.txt）",
+      "lyricsText": "\n一体、僕の何が悪くて\n毎晩、夢も見れないのよ\n夜明け近く　タバコの火は落ち\n焦がした未来と彼女のレター\n全くどうして人の心\n変わりやすい　誰かと秋の空\n一人暮らしの部屋にペアグラス\n手酌酒で不満な水玉\n\nまだ\nやれることだらけ\n\nもしも\nやり直せるなら\n駅の\nホームで待ってる\n馬鹿だと\n笑われたって\n今夜も\n帰れずにいる\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　終わっちゃいない\n\nOh-oh\n神様は留守\nOh-oh\n今夜も留守\n\n二人分だった歯ブラシも\n一本だけじゃ妙に寒々しい\n消せない番号　眺めながら\nかけもしないで朝を待ってる\n君が置いてった古いシャツ\n洗えもしないで椅子に掛けた\n幸せなんて逃げ足が速い\nなのに未練だけ居座っている\n\nもしも\n戻ってくるなら\n同じ\nホームで待ってる\nだけど\n来ないと知って\n僕にも\nやっと分かった\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　やれることだらけ\n\n誰かのせいにして\n夜を使い切って\n奇跡を待つほど\n暇じゃないだろ\n失くしたものばかり\n数えているより\nこの手で\n何かを掴め\n\n神様が\n留守なら――\n\n震える指先で期待した\n叶わなかった約束\nだけど願いを叶えるのは\n神様だけじゃないだろ\nいつでも神様は留守\nそれなら僕が歩くだけ\n歯がゆく感じるうちは\nまだ　終わっちゃいない\n僕の願いを叶えて\nそんな祈りはもういい\n傷だらけでも構わない\nまだ　やれることだらけ\n\nOh-oh\n神様は留守\nOh-oh\nそれでいいさ\n\nまだ\nやれることだらけ",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "id": "kamisama-wa-rusu",
+      "displayTitle": "神様は留守",
+      "englishTitle": "神様は留守",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
+      "coverAlt": "神代煌牙「神様は留守」公式YouTubeサムネイル",
+      "releaseUrl": "releases/kamisama-wa-rusu/",
+      "newsUrl": "",
+      "duration": 312,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "神様は留守",
+        "神代煌牙"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "introduction": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "seo": {
+        "title": "神様は留守｜神代煌牙｜SUZUKA Official Music",
+        "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-12",
+      "videoPublishedAt": "2026-08-12T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+      "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
+      "recommendations": {
+        "sameArtist": [
+          "leo-rise-again",
+          "mermaid-no-geboku",
+          "one-more-kiss",
+          "echoes-of-you",
+          "boukyaku-no-ikimono",
+          "my-queen-my-oath"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "caramel",
+          "kimi-wa-makenai",
+          "leo-rise-again",
+          "last-dance-tonight",
+          "kimi-ni-kakatta-mahou",
+          "mermaid-no-geboku"
+        ],
+        "aiRecommended": [
+          "leo-rise-again",
+          "mermaid-no-geboku",
+          "one-more-kiss",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "my-queen-my-oath"
+        ]
+      }
+    },
     {
       "slug": "kimi-wa-makenai",
       "title": "君は負けない",
@@ -96,12 +298,12 @@
       "homeHero": {},
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
           "without-worrying",
-          "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "ashita-wa-kitto"
         ],
         "sameGenre": [
           "without-worrying",
@@ -128,12 +330,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "last-dance-tonight",
           "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba",
-          "wasureji-no-hito"
+          "mermaid-no-geboku"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -243,6 +445,7 @@
       "homeHero": {},
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "mermaid-no-geboku",
           "one-more-kiss",
           "echoes-of-you",
@@ -262,20 +465,20 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "last-dance-tonight",
           "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba",
-          "wasureji-no-hito"
+          "mermaid-no-geboku"
         ],
         "aiRecommended": [
           "one-more-kiss",
+          "kamisama-wa-rusu",
           "mermaid-no-geboku",
           "boukyaku-no-ikimono",
           "echoes-of-you",
-          "my-queen-my-oath",
-          "kimi-ni-kakatta-mahou"
+          "my-queen-my-oath"
         ]
       }
     },
@@ -401,12 +604,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba",
-          "wasureji-no-hito"
+          "mermaid-no-geboku"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -507,12 +710,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "hanakotoba",
           "hajimemashite-kiseki",
           "without-worrying",
-          "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "ashita-wa-kitto"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -539,12 +742,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "mermaid-no-geboku",
-          "hanakotoba",
-          "wasureji-no-hito"
+          "mermaid-no-geboku"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -650,6 +853,7 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "one-more-kiss",
           "echoes-of-you",
@@ -681,12 +885,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "wasureji-no-hito"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -801,12 +1005,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hajimemashite-kiseki",
           "without-worrying",
-          "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "ashita-wa-kitto"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -833,12 +1037,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "wasureji-no-hito"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -971,12 +1175,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -1100,12 +1304,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -1211,12 +1415,12 @@
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "without-worrying",
-          "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "ashita-wa-kitto"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -1243,12 +1447,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -1378,12 +1582,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -1504,12 +1708,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -1615,6 +1819,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "echoes-of-you",
@@ -1646,12 +1851,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -1776,12 +1981,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -1884,12 +2089,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "ashita-wa-kitto",
-          "smile-and-say-goodbye"
+          "ashita-wa-kitto"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -1916,12 +2121,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -2044,12 +2249,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -2167,12 +2372,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -2274,12 +2479,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "smile-and-say-goodbye"
+          "without-worrying"
         ],
         "sameGenre": [
           "without-worrying",
@@ -2306,12 +2511,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -2441,12 +2646,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -2549,6 +2754,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
@@ -2575,12 +2781,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -2702,12 +2908,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -2825,12 +3031,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -2932,12 +3138,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -2961,12 +3167,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -3072,6 +3278,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
@@ -3099,12 +3306,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -3213,6 +3420,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
@@ -3243,12 +3451,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -3379,12 +3587,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -3480,12 +3688,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -3512,12 +3720,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -3613,12 +3821,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3645,12 +3853,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3746,12 +3954,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -3778,12 +3986,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -3891,12 +4099,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -3920,12 +4128,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -4052,12 +4260,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -4153,12 +4361,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -4185,12 +4393,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -4286,12 +4494,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4318,12 +4526,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4419,12 +4627,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4451,12 +4659,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4552,12 +4760,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4584,12 +4792,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4685,12 +4893,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4717,12 +4925,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4818,12 +5026,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -4850,12 +5058,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -4957,12 +5165,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -4989,12 +5197,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -5096,12 +5304,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "mermaid-no-geboku",
@@ -5128,12 +5336,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -5229,12 +5437,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -5261,12 +5469,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -5362,12 +5570,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "without-worrying"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -5394,12 +5602,12 @@
           "still-alive"
         ],
         "recent": [
+          "caramel",
+          "kamisama-wa-rusu",
           "kimi-wa-makenai",
           "leo-rise-again",
           "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -5413,60 +5621,6 @@
     }
   ],
   "upcoming": [
-    {
-      "slug": "kamisama-wa-rusu",
-      "title": "神様は留守",
-      "artist": "神代煌牙",
-      "artistSlug": "koga-kamishiro",
-      "scheduledAt": "2026-08-12T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
-      "image": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
-      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
-      "releaseAt": "2026-08-12T20:00:00+09:00",
-      "publishedAt": "2026-08-12T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "lyricsAvailable": true,
-      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（kamisama_wa_rusu_suzuka_master.txt）",
-      "lyricsText": "\n一体、僕の何が悪くて\n毎晩、夢も見れないのよ\n夜明け近く　タバコの火は落ち\n焦がした未来と彼女のレター\n全くどうして人の心\n変わりやすい　誰かと秋の空\n一人暮らしの部屋にペアグラス\n手酌酒で不満な水玉\n\nまだ\nやれることだらけ\n\nもしも\nやり直せるなら\n駅の\nホームで待ってる\n馬鹿だと\n笑われたって\n今夜も\n帰れずにいる\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　終わっちゃいない\n\nOh-oh\n神様は留守\nOh-oh\n今夜も留守\n\n二人分だった歯ブラシも\n一本だけじゃ妙に寒々しい\n消せない番号　眺めながら\nかけもしないで朝を待ってる\n君が置いてった古いシャツ\n洗えもしないで椅子に掛けた\n幸せなんて逃げ足が速い\nなのに未練だけ居座っている\n\nもしも\n戻ってくるなら\n同じ\nホームで待ってる\nだけど\n来ないと知って\n僕にも\nやっと分かった\n\n震える指先で期待した\nできるはずの約束\n僕の願いを叶えて\n手を合わせてる時\nいつでも神様は留守\n歯がゆく感じるのなら\nまだ　祈るには早い\nまだ　やれることだらけ\n\n誰かのせいにして\n夜を使い切って\n奇跡を待つほど\n暇じゃないだろ\n失くしたものばかり\n数えているより\nこの手で\n何かを掴め\n\n神様が\n留守なら――\n\n震える指先で期待した\n叶わなかった約束\nだけど願いを叶えるのは\n神様だけじゃないだろ\nいつでも神様は留守\nそれなら僕が歩くだけ\n歯がゆく感じるうちは\nまだ　終わっちゃいない\n僕の願いを叶えて\nそんな祈りはもういい\n傷だらけでも構わない\nまだ　やれることだらけ\n\nOh-oh\n神様は留守\nOh-oh\nそれでいいさ\n\nまだ\nやれることだらけ",
-      "lyricsVerified": true,
-      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 1
-    },
-    {
-      "slug": "caramel",
-      "title": "キャラメ〜ル",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-13T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
-      "image": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
-      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
-      "releaseAt": "2026-08-13T20:00:00+09:00",
-      "publishedAt": "2026-08-13T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "lyricsAvailable": true,
-      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（caramel_suzuka_master.txt）",
-      "lyricsText": "\nCaramel…\nCaramel…\nねぇ\nそんな顔で笑わないで\nまた今日も\nわたしのハートが――\nキャラメ〜ル♡\nHey！\n\nいつもの駅　いつもの時間\nいつもの角で　君を見つけた\n別に待ってたわけじゃないし\n偶然だから！　ほんとだから！\n昨日より少し短い前髪\n気づいてくれたら嬉しいけど\n「なんか今日、違う？」\nその一言で\n頭の中　全部真っ白！\n\nひとつ　ふたつ\n目が合うたびに\n甘く　甘く\n胸が熱くなる\nほどけそうで\nほどけない\nもう！\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n視線と視線が　からまる\n甘いだけじゃ\n物足りないの\nちょっと苦いのも\n恋でしょ？\nねぇ　この気持ち\nどうしたらいい？\n答えはきっと\n君なんです♡\n\n日曜日　朝からキッチン\nキャラメルソースと大格闘\n焦がして　やり直して\n味見して……\nあれ？\n半分なくなってる！\n君に渡す小さな袋\nリボン結んで　またほどいて\n「別に君だけじゃないからね」\nだけど君が\n「これ、俺のため？」\nやめてよもう！\n心臓もたない！\n\n近づくたびに\n逃げたくなるし\n離れた瞬間\n会いたくなる\n恋ってほんと\n忙しい！\n\nキャラメ〜ル！　キャラメ〜ル！\n君に触れたら　とろけちゃう\nキャラメ〜ル！　キャラメ〜ル！\n指先までも　からまる\n嬉しいくせに\n知らないふりで\nまた強がって\n損してる！\nCara Cara Caramel！\nハートを混ぜて Caramel！\n甘くなって\n苦くなって\nまた君のこと\n好きになる！\n\n本当はずっと\n怖かったんだ\n「好き」って言ったら\n何かが変わりそうで\nだけど君が\n誰かと笑うだけで\n胸が少し\n苦しくなるなら\nもう\nごまかせない\nこの気持ちは\nキャラメルみたいに\nゆっくり\n心の奥で\n溶けていたんだ\n\nキャラメ〜ル！　キャラメ〜ル！\n君を見るたび　とろけちゃう！\nキャラメ〜ル！　キャラメ〜ル！\nふたりの気持ちが　からまる！\n甘いだけじゃ\n終わらないから\nこんな恋ほど\n忘れない！\nキャラメ〜ル！　キャラメ〜ル！\nもう隠したって　バレちゃうよ！\n昨日よりも\n今日のほうが\n今日より明日\n好きになる！\nほどけなくても\nかまわない\n君とだったら\nかまわない！\nわたし君が――\n大好きです！\n\nCaramel…\nCaramel…\nねぇ\n明日もまた会える？\n……やった♡\nキャラメ〜ル。",
-      "lyricsVerified": true,
-      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 2
-    },
     {
       "slug": "natsu-ga-owaru-made-soba-ni-ite",
       "title": "夏が終わるまで、そばにいて。",

@@ -21,6 +21,8 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "caramel",
+        "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
         "last-dance-tonight",
@@ -28,9 +30,7 @@
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
-        "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "wasureji-no-hito"
       ]
     },
     "love": {

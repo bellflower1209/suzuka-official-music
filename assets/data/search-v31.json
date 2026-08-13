@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T00:01:07+09:00",
+  "updatedAt": "2026-08-13T22:26:02+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,26 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "キャラメ〜ル",
+      "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の公開予定作品。",
+      "url": "releases/caramel/",
+      "keywords": [
+        "榎本魅愛"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "神様は留守",
+      "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙の公開予定ロックナンバー。",
+      "url": "releases/kamisama-wa-rusu/",
+      "keywords": [
+        "神代煌牙"
       ]
     },
     {
@@ -1272,6 +1292,26 @@
       "url": "wiki/terms/",
       "keywords": [
         "Official MV"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "キャラメ〜ル",
+      "description": "榎本魅愛公式歌詞",
+      "url": "lyrics/caramel/",
+      "keywords": [
+        "榎本魅愛"
+      ]
+    },
+    {
+      "type": "Lyrics",
+      "contentType": "lyrics",
+      "title": "神様は留守",
+      "description": "神代煌牙公式歌詞",
+      "url": "lyrics/kamisama-wa-rusu/",
+      "keywords": [
+        "神代煌牙"
       ]
     },
     {

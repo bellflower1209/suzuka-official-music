@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-08-13T22:26:02+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "promoted": [
+    "kamisama-wa-rusu",
+    "caramel"
+  ],
+  "evidence": [
+    {
+      "slug": "kamisama-wa-rusu",
+      "videoId": "RxfHwhP1Sx4",
+      "availability": "public",
+      "liveStatus": "not_live",
+      "releaseTimestamp": 1786532406,
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "caramel",
+      "videoId": "rtN3V6DDmFw",
+      "availability": "public",
+      "liveStatus": "not_live",
+      "releaseTimestamp": 1786618806,
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "natsu-ga-owaru-made-soba-ni-ite",
+      "videoId": "rPTopOOZMkM",
+      "availability": "public",
+      "liveStatus": "is_upcoming",
+      "releaseTimestamp": 1786705200,
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "monsoon-promise",
+      "videoId": "fecMNfrTUgs",
+      "availability": "public",
+      "liveStatus": "is_upcoming",
+      "releaseTimestamp": 1786878000,
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    }
+  ]
+}

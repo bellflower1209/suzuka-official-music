@@ -133,11 +133,53 @@ def published_record(item: dict, evidence: dict, cms: dict, now: datetime) -> di
         },
         "videoPublishDate": published_at[:10],
         "videoPublishedAt": published_at,
-        "videoPublishedAtSource": "official-youtube-release_timestamp",
+        "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
         "videoStructuredDataStatus": "published",
         "officialSource": item["youtubeUrl"],
         "promotionVerifiedAt": now.isoformat(timespec="seconds"),
     }
+
+
+def update_youtube_publish_dates(
+    stage: Path,
+    cms: dict,
+    evidence: dict[str, dict],
+    promoted: list[str],
+    now: datetime,
+) -> None:
+    """Persist the verified YouTube timestamp used by structured-data generation."""
+    if not promoted:
+        return
+    path = stage / "assets/data/youtube-publish-dates.json"
+    source = json.loads(path.read_text(encoding="utf-8"))
+    records = {item["releaseSlug"]: item for item in source["records"]}
+    upcoming_by_slug = {item["slug"]: item for item in cms.get("upcoming", [])}
+    for slug in promoted:
+        item = upcoming_by_slug[slug]
+        video_id = item["youtubeUrl"].split("v=", 1)[-1].split("&", 1)[0]
+        current = evidence[video_id]
+        timestamp = current.get("actual_start_timestamp") or current.get("release_timestamp")
+        published_at = datetime.fromtimestamp(int(timestamp), JST).isoformat(timespec="seconds")
+        records[slug] = {
+            "releaseSlug": slug,
+            "youtubeId": video_id,
+            "youtubeUrl": item["youtubeUrl"],
+            "catalogReleaseDate": published_at[:10],
+            "officialTitle": current.get("title") or item["title"],
+            "channelId": current.get("channel_id"),
+            "channelVerified": current.get("channel_id") == cms["site"]["youtubeChannelId"],
+            "youtubePublishDate": published_at,
+            "youtubeUploadDate": published_at,
+            "liveStartTimestamp": published_at,
+            "playabilityStatus": "OK",
+            "durationSeconds": int(current["duration"]),
+            "verifiedPublishedAt": published_at,
+            "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+            "status": "verified-datetime",
+        }
+    source["checkedAt"] = now.isoformat(timespec="seconds")
+    source["records"] = sorted(records.values(), key=lambda item: item["releaseSlug"])
+    atomic_json(path, source)
 
 
 def apply_release_state(stage: Path, evidence: dict[str, dict], now: datetime) -> list[str]:
@@ -213,6 +255,7 @@ def main() -> int:
         stage = Path(tmp) / "site"
         copy_source(root, stage)
         promoted = apply_release_state(stage, evidence, now)
+        update_youtube_publish_dates(stage, cms, evidence, promoted, now)
         run_generator(stage)
         run_audits(stage)
         changed, deleted, digest = compare(root, stage)

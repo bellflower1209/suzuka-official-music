@@ -11,6 +11,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from structured_data_dates import normalize as normalize_structured_dates
+
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://www.suzukaofficial.com"
 CHANNEL = "https://www.youtube.com/@suzuka1209"
@@ -783,6 +785,12 @@ def main() -> None:
         [sys.executable, str(Path(__file__).resolve().with_name("build_brand_discovery_v11.py")), "--root", str(ROOT)],
         cwd=ROOT,
         check=True,
+    )
+    evidence = json.loads((ROOT / "assets/data/youtube-publish-dates.json").read_text(encoding="utf-8"))
+    normalize_structured_dates(
+        ROOT,
+        evidence,
+        {item["releaseSlug"]: item for item in evidence["records"]},
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],

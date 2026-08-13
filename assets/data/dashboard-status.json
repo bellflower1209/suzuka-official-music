@@ -1,8 +1,10 @@
 {
-  "updatedAt": "2026-08-12T00:01:07+09:00",
+  "updatedAt": "2026-08-13T22:26:02+09:00",
   "publishedReleases": {
-    "count": 40,
+    "count": 42,
     "items": [
+      "キャラメ〜ル",
+      "神様は留守",
       "君は負けない",
       "LEO — Rise Again —",
       "LAST DANCE TONIGHT",
@@ -46,17 +48,17 @@
     ]
   },
   "upcoming": {
-    "count": 4,
+    "count": 2,
     "items": [
-      "神様は留守",
-      "キャラメ〜ル",
       "夏が終わるまで、そばにいて。",
       "Monsoon Promise"
     ]
   },
   "publishedLyrics": {
-    "count": 14,
+    "count": 16,
     "items": [
+      "キャラメ〜ル",
+      "神様は留守",
       "LEO — Rise Again —",
       "LAST DANCE TONIGHT",
       "マーメイドの下僕",
@@ -74,10 +76,8 @@
     ]
   },
   "verifiedLyricsWaiting": {
-    "count": 3,
+    "count": 1,
     "items": [
-      "神様は留守",
-      "キャラメ〜ル",
       "Monsoon Promise"
     ]
   },
@@ -91,7 +91,7 @@
   "nextRelease": {
     "count": 1,
     "items": [
-      "神様は留守 / 2026-08-12T20:00:00+09:00"
+      "夏が終わるまで、そばにいて。 / 2026-08-14T20:00:00+09:00"
     ]
   }
 }

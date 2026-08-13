@@ -6,6 +6,8 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | キャラメ〜ル | 榎本魅愛 | https://www.youtube.com/watch?v=rtN3V6DDmFw | 4:14 | キャラメ〜ル｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 神様は留守 | 神代煌牙 | https://www.youtube.com/watch?v=RxfHwhP1Sx4 | 5:12 | 神様は留守｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 君は負けない | 榎本魅愛 | https://www.youtube.com/watch?v=K_YN2bNRjY0 | 3:56 | 君は負けない｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | LEO — Rise Again — | 神代煌牙 | https://www.youtube.com/watch?v=RRgMeJzb5PU | 5:14 | LEO — Rise Again —｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | LAST DANCE TONIGHT | ASTERIA | https://www.youtube.com/watch?v=ULMwbXtotsE | 5:53 | LAST DANCE TONIGHT｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -46,8 +48,6 @@
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 好きってバレてもいい | 榎本魅愛 | https://www.youtube.com/watch?v=XP8yXMKFHVI | 4:34 | 好きってバレてもいい｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
-| Upcoming | 神様は留守 | 神代煌牙 | https://www.youtube.com/watch?v=RxfHwhP1Sx4 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| Upcoming | キャラメ〜ル | 榎本魅愛 | https://www.youtube.com/watch?v=rtN3V6DDmFw | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | 夏が終わるまで、そばにいて。 | 榎本魅愛 | https://www.youtube.com/watch?v=rPTopOOZMkM | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | Monsoon Promise | RANGILI | https://www.youtube.com/watch?v=fecMNfrTUgs | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 
