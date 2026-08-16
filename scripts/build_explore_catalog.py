@@ -714,7 +714,11 @@ def main() -> None:
     write(ROOT / "discography/index.html", discography_page(data))
     for item in data["releases"]:
         release_path = ROOT / item["releaseUrl"] / "index.html"
-        if not release_path.exists():
+        if (
+            not release_path.exists()
+            or 'content="noindex' in release_path.read_text(encoding="utf-8")
+            or "UPCOMING / NOT YET PUBLISHED" in release_path.read_text(encoding="utf-8")
+        ):
             write(release_path, release_page(item))
         if item.get("newsUrl"):
             news_path = ROOT / item["newsUrl"] / "index.html"
@@ -790,7 +794,11 @@ def main() -> None:
     normalize_structured_dates(
         ROOT,
         evidence,
-        {item["releaseSlug"]: item for item in evidence["records"]},
+        {
+            item["releaseSlug"]: item
+            for item in evidence["records"]
+            if item.get("contentType") != "short"
+        },
     )
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],

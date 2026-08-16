@@ -177,6 +177,7 @@ await analyticsClick("", ".explorer-home-portals a[href='./wiki/']", ["wiki_clic
 await analyticsClick("", ".explorer-home-portals a[href='./universe/']", ["universe_click"]);
 await analyticsClick("", ".creator-link-card[href='./community/']", ["community_click"]);
 await analyticsClick("gallery/hyakumankoku/", "a[href*='youtube.com/shorts/']", ["shorts_click", "outbound_click"]);
+await analyticsClick("artists/michiru/", "[data-source-section='artist_shorts'] a[href*='youtube.com/shorts/HuWmUFlwh6s']", ["shorts_click", "outbound_click"], "artist_shorts");
 await analyticsClick("lyrics/hanakotoba/", "[data-source-section='lyrics_header'] a[href*='youtube.com/watch']", ["official_mv_click"], "lyrics_header");
 await analyticsClick("lyrics/hanakotoba/", "[data-source-section='lyrics_footer'] a[href*='youtube.com/watch']", ["official_mv_click"], "lyrics_footer");
 await analyticsClick("lyrics/hanakotoba/", "[data-source-section='related'] a[href*='youtube.com/watch']", ["official_mv_click"], "related");

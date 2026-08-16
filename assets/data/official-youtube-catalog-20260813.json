@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1",
+  "verifiedAt": "2026-08-13T23:20:00+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "channelUrl": "https://www.youtube.com/@suzuka1209",
+  "verificationMethod": "公式YouTubeチャンネルのvideos/shortsタブと各動画をyt-dlpで再取得し、タイトル・description・公開状態・公開日時を照合",
+  "channelSnapshot": {
+    "officialVideos": 50,
+    "shorts": 31
+  },
+  "shorts": [
+    {
+      "videoId": "HuWmUFlwh6s",
+      "title": "「いま、幸せですか？」｜妃みちる『たった1人の君へ』8.17 20:00 Debut",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
+      "publishedAt": "2026-08-13T21:44:14+09:00",
+      "relatedRelease": "tatta-hitori-no-kimi-e",
+      "thumbnail": "https://i.ytimg.com/vi/HuWmUFlwh6s/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 25,
+      "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。",
+      "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public"
+    }
+  ],
+  "relatedUpcoming": [
+    {
+      "slug": "tatta-hitori-no-kimi-e",
+      "title": "たった1人の君へ",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeId": "CPIDy31wnc4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "scheduledAt": "2026-08-17T20:00:00+09:00",
+      "status": "upcoming"
+    }
+  ]
+}

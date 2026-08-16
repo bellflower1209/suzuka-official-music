@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://www.suzukaofficial.com/artists/enomoto-mia/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/HJugNSYcBI0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>タイパなんて知らなかった。｜榎本魅愛 #Shorts</video:title>
+      <video:description>榎本魅愛「タイパなんて知らなかった」の公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/HJugNSYcBI0</video:content_loc>
+      <video:publication_date>2026-08-15T16:13:18+09:00</video:publication_date>
+      <video:duration>31</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/artists/michiru/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/HuWmUFlwh6s/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>「いま、幸せですか？」｜妃みちる『たった1人の君へ』8.17 20:00 Debut</video:title>
+      <video:description>SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/HuWmUFlwh6s</video:content_loc>
+      <video:publication_date>2026-08-13T21:44:14+09:00</video:publication_date>
+      <video:duration>25</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/artists/nox/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/pZTC_mEwl5s/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>NOX『FAMILY PORTRAIT』― この家族写真、どこかおかしい。【Official Short MV】</video:title>
+      <video:description>NOX「FAMILY PORTRAIT」のOfficial Short MV。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/pZTC_mEwl5s</video:content_loc>
+      <video:publication_date>2026-08-14T21:38:30+09:00</video:publication_date>
+      <video:duration>25</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/gallery/ai-demo-wakaranai/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/5jmTo3Jb5sI/maxresdefault.jpg</video:thumbnail_loc>
@@ -551,6 +587,30 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/false-identity/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jGyeBZmhgKc/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>FALSE//IDENTITY Official Video</video:title>
+      <video:description>書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=jGyeBZmhgKc</video:content_loc>
+      <video:publication_date>2026-08-14T22:10:08+09:00</video:publication_date>
+      <video:duration>310</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/family-portrait/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/QOn7Jfq9t1k/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>FAMILY PORTRAIT Official Video</video:title>
+      <video:description>写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=QOn7Jfq9t1k</video:content_loc>
+      <video:publication_date>2026-08-15T20:00:06+09:00</video:publication_date>
+      <video:duration>274</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/hajimemashite-kiseki/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg</video:thumbnail_loc>
@@ -749,6 +809,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/monsoon-promise/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fecMNfrTUgs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Monsoon Promise Official Video</video:title>
+      <video:description>雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=fecMNfrTUgs</video:content_loc>
+      <video:publication_date>2026-08-16T20:00:06+09:00</video:publication_date>
+      <video:duration>345</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mia.jpg</video:thumbnail_loc>
@@ -791,6 +863,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=CQ0bfdXVrck</video:content_loc>
       <video:publication_date>2026-07-24T20:00:11+09:00</video:publication_date>
       <video:duration>163</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>夏が終わるまで、そばにいて。 Official Video</video:title>
+      <video:description>榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=rPTopOOZMkM</video:content_loc>
+      <video:publication_date>2026-08-14T20:00:06+09:00</video:publication_date>
+      <video:duration>307</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -884,6 +968,18 @@
       <video:description>隠していた恋心を、もう隠さなくてもいいと決める瞬間を描く「好きってバレてもいい」の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=XP8yXMKFHVI</video:content_loc>
       <video:publication_date>2026-07-12T20:00:59+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/taipa-nante-shiranakatta/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/s0zOTuR4GQI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>タイパなんて知らなかった Official Video</video:title>
+      <video:description>待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=s0zOTuR4GQI</video:content_loc>
+      <video:publication_date>2026-08-16T19:00:06+09:00</video:publication_date>
+      <video:duration>265</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

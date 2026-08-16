@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-13T23:05:38+09:00</updated>
+  <updated>2026-08-17T00:15:19+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
@@ -11,26 +11,55 @@
   <entry>
     <id>https://www.youtube.com/watch?v=CPIDy31wnc4</id>
     <title>Upcoming｜妃みちる「たった1人の君へ」</title>
-    <updated>2026-08-13T23:05:38+09:00</updated>
+    <updated>2026-08-17T00:15:19+09:00</updated>
     <link href="https://www.youtube.com/watch?v=CPIDy31wnc4" />
     <category term="upcoming" />
     <summary>2026-08-17T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=rPTopOOZMkM</id>
-    <title>Upcoming｜榎本魅愛「夏が終わるまで、そばにいて。」</title>
-    <updated>2026-08-13T23:05:38+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=rPTopOOZMkM" />
-    <category term="upcoming" />
-    <summary>2026-08-14T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-08-16T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/monsoon-promise/</id>
+    <title>RANGILI「Monsoon Promise」</title>
+    <updated>2026-08-16T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/monsoon-promise/" />
+    <category term="release" />
+    <summary>雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。</summary>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=fecMNfrTUgs</id>
-    <title>Upcoming｜RANGILI「Monsoon Promise」</title>
-    <updated>2026-08-13T23:05:38+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=fecMNfrTUgs" />
-    <category term="upcoming" />
-    <summary>2026-08-16T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-08-16T19:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/taipa-nante-shiranakatta/</id>
+    <title>榎本魅愛「タイパなんて知らなかった」</title>
+    <updated>2026-08-16T19:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/taipa-nante-shiranakatta/" />
+    <category term="release" />
+    <summary>待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-15T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/family-portrait/</id>
+    <title>NOX「FAMILY PORTRAIT」</title>
+    <updated>2026-08-15T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/family-portrait/" />
+    <category term="release" />
+    <summary>写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-14T22:10:08+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/false-identity/</id>
+    <title>ECLYPSE「FALSE//IDENTITY」</title>
+    <updated>2026-08-14T22:10:08+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/false-identity/" />
+    <category term="release" />
+    <summary>書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-14T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/</id>
+    <title>榎本魅愛「夏が終わるまで、そばにいて。」</title>
+    <updated>2026-08-14T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/" />
+    <category term="release" />
+    <summary>榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。</summary>
   </entry>
   <entry>
     <published>2026-08-13T20:00:06+09:00</published>
@@ -58,6 +87,15 @@
     <link href="https://www.suzukaofficial.com/lyrics/shadow-code/" />
     <category term="lyrics" />
     <summary>ECLYPSE「SHADOW//CODE」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-12T00:01:07+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/monsoon-promise/</id>
+    <title>公式歌詞｜RANGILI「Monsoon Promise」</title>
+    <updated>2026-08-12T00:01:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/monsoon-promise/" />
+    <category term="lyrics" />
+    <summary>RANGILI「Monsoon Promise」の出典確認済み公式歌詞。</summary>
   </entry>
   <entry>
     <published>2026-08-12T00:01:07+09:00</published>

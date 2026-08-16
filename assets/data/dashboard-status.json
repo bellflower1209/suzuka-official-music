@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-08-13T23:05:38+09:00",
+  "updatedAt": "2026-08-17T00:15:19+09:00",
   "publishedReleases": {
-    "count": 42,
+    "count": 47,
     "items": [
+      "Monsoon Promise",
+      "タイパなんて知らなかった",
+      "FAMILY PORTRAIT",
+      "FALSE//IDENTITY",
+      "夏が終わるまで、そばにいて。",
       "キャラメ〜ル",
       "神様は留守",
       "君は負けない",
@@ -48,16 +53,15 @@
     ]
   },
   "upcoming": {
-    "count": 3,
+    "count": 1,
     "items": [
-      "夏が終わるまで、そばにいて。",
-      "Monsoon Promise",
       "たった1人の君へ"
     ]
   },
   "publishedLyrics": {
-    "count": 16,
+    "count": 17,
     "items": [
+      "Monsoon Promise",
       "キャラメ〜ル",
       "神様は留守",
       "LEO — Rise Again —",
@@ -77,10 +81,8 @@
     ]
   },
   "verifiedLyricsWaiting": {
-    "count": 1,
-    "items": [
-      "Monsoon Promise"
-    ]
+    "count": 0,
+    "items": []
   },
   "unresolvedLyrics": {
     "count": 2,
@@ -92,7 +94,7 @@
   "nextRelease": {
     "count": 1,
     "items": [
-      "夏が終わるまで、そばにいて。 / 2026-08-14T20:00:00+09:00"
+      "たった1人の君へ / 2026-08-17T20:00:00+09:00"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-13T23:05:38+09:00",
+  "evidenceCheckedAt": "2026-08-17T00:15:19+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 194,
-    "videoObjects": 84,
+    "jsonLdBlocks": 198,
+    "videoObjects": 92,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,7 +436,7 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 79,
+  "fixedVideoObjectCount": 87,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
@@ -445,20 +445,10 @@
   ],
   "heldReleases": [
     {
-      "releaseSlug": "monsoon-promise",
-      "youtubeId": "fecMNfrTUgs",
-      "verifiedDate": ""
-    },
-    {
-      "releaseSlug": "natsu-ga-owaru-made-soba-ni-ite",
-      "youtubeId": "rPTopOOZMkM",
-      "verifiedDate": ""
-    },
-    {
       "releaseSlug": "tatta-hitori-no-kimi-e",
       "youtubeId": "CPIDy31wnc4",
       "verifiedDate": ""
     }
   ],
-  "heldReleaseCount": 3
+  "heldReleaseCount": 1
 }

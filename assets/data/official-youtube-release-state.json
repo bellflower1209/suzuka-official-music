@@ -1,42 +1,34 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-13T22:26:02+09:00",
+  "verifiedAt": "2026-08-17T00:15:19+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
-    "kamisama-wa-rusu",
-    "caramel"
+    "natsu-ga-owaru-made-soba-ni-ite",
+    "monsoon-promise"
   ],
   "evidence": [
-    {
-      "slug": "kamisama-wa-rusu",
-      "videoId": "RxfHwhP1Sx4",
-      "availability": "public",
-      "liveStatus": "not_live",
-      "releaseTimestamp": 1786532406,
-      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
-    },
-    {
-      "slug": "caramel",
-      "videoId": "rtN3V6DDmFw",
-      "availability": "public",
-      "liveStatus": "not_live",
-      "releaseTimestamp": 1786618806,
-      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
-    },
     {
       "slug": "natsu-ga-owaru-made-soba-ni-ite",
       "videoId": "rPTopOOZMkM",
       "availability": "public",
-      "liveStatus": "is_upcoming",
-      "releaseTimestamp": 1786705200,
+      "liveStatus": "not_live",
+      "releaseTimestamp": 1786705206,
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {
       "slug": "monsoon-promise",
       "videoId": "fecMNfrTUgs",
       "availability": "public",
+      "liveStatus": "not_live",
+      "releaseTimestamp": 1786878006,
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "tatta-hitori-no-kimi-e",
+      "videoId": "CPIDy31wnc4",
+      "availability": "public",
       "liveStatus": "is_upcoming",
-      "releaseTimestamp": 1786878000,
+      "releaseTimestamp": 1786964400,
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     }
   ]

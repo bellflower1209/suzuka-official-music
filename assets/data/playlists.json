@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:05:38+09:00",
+  "updatedAt": "2026-08-17T00:15:19+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -95,9 +95,10 @@
         "anata-dake-no-savior",
         "ashita-wa-kitto",
         "kimi-wa-makenai",
-        "last-dance-tonight"
+        "last-dance-tonight",
+        "taipa-nante-shiranakatta"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "slug": "tearjerkers",
@@ -117,9 +118,10 @@
         "boukyaku-no-ikimono",
         "kimi-wa-hanabi",
         "smile-and-say-goodbye",
-        "wasurenai-kokoro"
+        "wasurenai-kokoro",
+        "false-identity"
       ],
-      "count": 5
+      "count": 6
     },
     {
       "slug": "ai-idols",
@@ -152,9 +154,10 @@
       "releaseSlugs": [
         "lost-signal",
         "red-moon-rising",
-        "shadow-code"
+        "shadow-code",
+        "false-identity"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "visual-kei",
@@ -168,9 +171,10 @@
       "description": "V系をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "zennin-saiban",
-        "chimpanzee-no-rakuen"
+        "chimpanzee-no-rakuen",
+        "family-portrait"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "slug": "enka",
@@ -225,6 +229,11 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "taipa-nante-shiranakatta",
+        "monsoon-promise",
+        "family-portrait",
+        "natsu-ga-owaru-made-soba-ni-ite",
+        "false-identity",
         "caramel",
         "kamisama-wa-rusu",
         "kimi-wa-makenai",
@@ -239,12 +248,7 @@
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
-        "lost-signal",
-        "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "lost-signal"
       ],
       "count": 20
     },
@@ -257,6 +261,11 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "monsoon-promise",
+        "taipa-nante-shiranakatta",
+        "family-portrait",
+        "false-identity",
+        "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
         "kamisama-wa-rusu",
         "kimi-wa-makenai",
@@ -271,12 +280,7 @@
         "still-alive",
         "zennin-saiban",
         "one-more-kiss",
-        "lost-signal",
-        "without-worrying",
-        "koisuru-maharaja",
-        "chimpanzee-no-rakuen",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "lost-signal"
       ],
       "count": 20
     }

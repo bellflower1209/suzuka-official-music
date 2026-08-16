@@ -32,7 +32,7 @@ CONFIRMED_HOLD_METADATA = {
     },
     "false-dentity-unmatched": {
         "artist": "",
-        "reason": "FALSE//IDENTITYを含む既存正本・Git履歴・公式YouTubeに同一作品と確定できる記録がない",
+        "reason": "公式YouTubeにFALSE//IDENTITYが公開されたが、提供正本の表記FALSE//DENTITYと同一作品かは未確認",
     },
 }
 

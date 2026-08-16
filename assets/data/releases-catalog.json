@@ -1,6 +1,592 @@
 {
-  "updatedAt": "2026-08-13T23:05:38+09:00",
+  "updatedAt": "2026-08-17T00:15:19+09:00",
   "releases": [
+    {
+      "slug": "monsoon-promise",
+      "title": "Monsoon Promise",
+      "artist": "RANGILI",
+      "artistSlug": "rangili",
+      "youtubeUrl": "https://www.youtube.com/watch?v=fecMNfrTUgs",
+      "image": "https://i.ytimg.com/vi/fecMNfrTUgs/maxresdefault.jpg",
+      "description": "雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。",
+      "releaseAt": "2026-08-16T20:00:06+09:00",
+      "publishedAt": "2026-08-16T20:00:06+09:00",
+      "status": "published",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（monsoon_promise_suzuka_master.txt）",
+      "lyricsText": "\n遠くで雷が鳴る\nLantern lights…\nStill waiting…\nRain…\nMonsoon…\n\n雨が降り始めた　夕暮れの街角\n濡れた石畳に　君の影を探してる\nあの日交わした約束\n「またここで会おうね」\n笑って手を振る君が\n今も胸に残ってる\n傘を閉じた瞬間\n空が泣き出した\nわたしの願いまで\n流さないで\n\nRain…\nRain…\n落ちる雫の数だけ\n恋しくなる\nMonsoon…\n胸の奥で\n君の名前を呼ぶ\n\nMonsoon Promise\n雨が止んでも\n君を待ってる\n流れる季節も\n変わる景色も\n約束だけは\n消えないから\nHold my hand…\nもう一度だけ\nあの日みたいに\n笑ってよ\nMonsoon Promise\nきっとまた会える\n\n水たまりに映る\n二人の思い出\n風が揺らして\n少しだけ滲んだ\n街は賑やかなのに\n心だけ静か\n君がいないだけで\nこんなにも違うんだね\n遠くのランタンが\n揺れている\n「帰っておいで」\nそんな風に\n見えた気がした\n\nRain…\n涙じゃない\n雨だから\nそう言い聞かせても\n心だけは\n君を探してる\n\nMonsoon Promise\n雨の向こうに\n君がいるなら\n何度だって\n歩いていくよ\n濡れた花びらも\n優しく笑う\nPromise…\n忘れない\nあの日の約束を\nMonsoon Promise\n心はひとつ\n\n夜明けが近づいて\n少しずつ\n空が青く染まる\n雨はいつの間にか\n静かに止んでいた\n振り向いたその先で\n君が微笑む\n「待たせたね」\nたった一言で\n涙が笑顔になった\n\nMonsoon Promise\n雨は終わっても\nこの恋は\n終わらない\n君の隣で\n歩いていこう\nどんな未来でも\n手を離さない\nMonsoon Promise\n雨上がりの空へ\n虹が架かるように\n二人の明日も\n輝いていく\nHold my hand…\nForever…\nMonsoon Promise\nAlways with you…\n\n雨音が消えて\n朝日が差し込む\nランタンがゆっくり消え\n二人の影だけが\n未来へ歩いていく\nMonsoon…\nPromise…",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "id": "monsoon-promise",
+      "displayTitle": "Monsoon Promise",
+      "englishTitle": "Monsoon Promise",
+      "artistSlugs": [
+        "rangili"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-08-16",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/fecMNfrTUgs/maxresdefault.jpg",
+      "coverAlt": "RANGILI「Monsoon Promise」公式YouTubeサムネイル",
+      "releaseUrl": "releases/monsoon-promise/",
+      "newsUrl": "",
+      "duration": 345,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "Monsoon Promise",
+        "RANGILI"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "introduction": "雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。",
+      "seo": {
+        "title": "Monsoon Promise｜RANGILI｜SUZUKA Official Music",
+        "description": "雨の街で交わした約束を信じて待ち続ける、RANGILIの作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-16",
+      "videoPublishedAt": "2026-08-16T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=fecMNfrTUgs",
+      "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
+      "recommendations": {
+        "sameArtist": [
+          "koisuru-maharaja",
+          "namaste-galaxy"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "taipa-nante-shiranakatta",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel",
+          "kamisama-wa-rusu"
+        ],
+        "aiRecommended": [
+          "koisuru-maharaja",
+          "namaste-galaxy",
+          "taipa-nante-shiranakatta",
+          "family-portrait",
+          "false-identity",
+          "natsu-ga-owaru-made-soba-ni-ite"
+        ]
+      }
+    },
+    {
+      "slug": "taipa-nante-shiranakatta",
+      "id": "taipa-nante-shiranakatta",
+      "title": "タイパなんて知らなかった",
+      "displayTitle": "タイパなんて知らなかった",
+      "englishTitle": "タイパなんて知らなかった",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-16T19:00:06+09:00",
+      "releaseDate": "2026-08-16",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP"
+      ],
+      "moods": [],
+      "themes": [
+        "時間",
+        "思い出",
+        "明日"
+      ],
+      "tags": [
+        "JPOP",
+        "平成の思い出",
+        "令和",
+        "タイパ",
+        "懐かしい",
+        "J-POP",
+        "時間",
+        "思い出",
+        "明日"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/s0zOTuR4GQI/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「タイパなんて知らなかった」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
+      "shortsUrl": "https://www.youtube.com/shorts/HJugNSYcBI0",
+      "releaseUrl": "releases/taipa-nante-shiranakatta/",
+      "newsUrl": "",
+      "duration": 265,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "タイパなんて知らなかった",
+        "榎本魅愛",
+        "JPOP",
+        "平成の思い出",
+        "令和",
+        "タイパ",
+        "懐かしい",
+        "J-POP",
+        "時間",
+        "思い出",
+        "明日"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "publishedAt": "2026-08-16T19:00:06+09:00",
+      "description": "待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。",
+      "introduction": "待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。",
+      "seo": {
+        "title": "タイパなんて知らなかった｜榎本魅愛｜SUZUKA Official Music",
+        "description": "待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-16",
+      "videoPublishedAt": "2026-08-16T19:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
+      "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "caramel",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki"
+        ],
+        "sameGenre": [
+          "ashita-wa-kitto",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki",
+          "without-worrying"
+        ],
+        "sameTheme": [
+          "ashita-wa-kitto"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel",
+          "kamisama-wa-rusu"
+        ],
+        "aiRecommended": [
+          "ashita-wa-kitto",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki",
+          "without-worrying"
+        ]
+      }
+    },
+    {
+      "slug": "family-portrait",
+      "id": "family-portrait",
+      "title": "FAMILY PORTRAIT",
+      "displayTitle": "FAMILY PORTRAIT",
+      "englishTitle": "FAMILY PORTRAIT",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "artistSlugs": [
+        "nox"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-15T20:00:06+09:00",
+      "releaseDate": "2026-08-15",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "V系",
+        "ゴシックロック"
+      ],
+      "moods": [],
+      "themes": [
+        "家族",
+        "真実",
+        "笑顔"
+      ],
+      "tags": [
+        "FAMILYPORTRAIT",
+        "VisualKei",
+        "ビジュアル系",
+        "V系",
+        "ゴシックロック",
+        "家族",
+        "真実",
+        "笑顔"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/QOn7Jfq9t1k/maxresdefault.jpg",
+      "coverAlt": "NOX「FAMILY PORTRAIT」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QOn7Jfq9t1k",
+      "shortsUrl": "https://www.youtube.com/shorts/pZTC_mEwl5s",
+      "releaseUrl": "releases/family-portrait/",
+      "newsUrl": "",
+      "duration": 274,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "FAMILY PORTRAIT",
+        "NOX",
+        "FAMILYPORTRAIT",
+        "VisualKei",
+        "ビジュアル系",
+        "V系",
+        "ゴシックロック",
+        "家族",
+        "真実",
+        "笑顔"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "publishedAt": "2026-08-15T20:00:06+09:00",
+      "description": "写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。",
+      "introduction": "写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。",
+      "seo": {
+        "title": "FAMILY PORTRAIT｜NOX｜SUZUKA Official Music",
+        "description": "写真には写らない喧嘩、沈黙、涙、裏切りと、幸せな家族を演じる笑顔を描くNOXの作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-15",
+      "videoPublishedAt": "2026-08-15T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=QOn7Jfq9t1k",
+      "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "zennin-saiban",
+          "chimpanzee-no-rakuen"
+        ],
+        "sameGenre": [
+          "zennin-saiban",
+          "chimpanzee-no-rakuen"
+        ],
+        "sameTheme": [
+          "smile-and-say-goodbye",
+          "wasurenai-kokoro"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel",
+          "kamisama-wa-rusu"
+        ],
+        "aiRecommended": [
+          "zennin-saiban",
+          "chimpanzee-no-rakuen",
+          "smile-and-say-goodbye",
+          "wasurenai-kokoro",
+          "false-identity",
+          "monsoon-promise"
+        ]
+      }
+    },
+    {
+      "slug": "false-identity",
+      "id": "false-identity",
+      "title": "FALSE//IDENTITY",
+      "displayTitle": "FALSE//IDENTITY",
+      "englishTitle": "FALSE//IDENTITY",
+      "artist": "ECLYPSE",
+      "artistSlug": "eclypse",
+      "artistSlugs": [
+        "eclypse"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-14T22:10:08+09:00",
+      "releaseDate": "2026-08-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "K-POP風",
+        "Dark K-POP"
+      ],
+      "moods": [],
+      "themes": [
+        "記憶",
+        "IDENTITY",
+        "監視"
+      ],
+      "tags": [
+        "FALSEIDENTITY",
+        "KPOP",
+        "DarkKPOP",
+        "Cyberpunk",
+        "K-POP風",
+        "Dark K-POP",
+        "記憶",
+        "IDENTITY",
+        "監視"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/jGyeBZmhgKc/maxresdefault.jpg",
+      "coverAlt": "ECLYPSE「FALSE//IDENTITY」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jGyeBZmhgKc",
+      "shortsUrl": "",
+      "releaseUrl": "releases/false-identity/",
+      "newsUrl": "",
+      "duration": 310,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [
+        "shadow-code",
+        "red-moon-rising",
+        "lost-signal"
+      ],
+      "searchKeywords": [
+        "FALSE//IDENTITY",
+        "ECLYPSE",
+        "FALSEIDENTITY",
+        "KPOP",
+        "DarkKPOP",
+        "Cyberpunk",
+        "K-POP風",
+        "Dark K-POP",
+        "記憶",
+        "IDENTITY",
+        "監視"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "publishedAt": "2026-08-14T22:10:08+09:00",
+      "description": "書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。",
+      "introduction": "書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。",
+      "seo": {
+        "title": "FALSE//IDENTITY｜ECLYPSE｜SUZUKA Official Music",
+        "description": "書き換えられた記憶、失われたIDENTITY、存在しないはずの6人目を描くECLYPSE 4th Single。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-14",
+      "videoPublishedAt": "2026-08-14T22:10:08+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=jGyeBZmhgKc",
+      "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "lost-signal",
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "sameGenre": [
+          "lost-signal",
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "sameTheme": [
+          "wasureji-no-hito",
+          "kimi-wa-hanabi",
+          "wasurenai-kokoro"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "caramel",
+          "kamisama-wa-rusu"
+        ],
+        "aiRecommended": [
+          "lost-signal",
+          "red-moon-rising",
+          "shadow-code",
+          "wasureji-no-hito",
+          "kimi-wa-hanabi",
+          "wasurenai-kokoro"
+        ]
+      }
+    },
+    {
+      "slug": "natsu-ga-owaru-made-soba-ni-ite",
+      "title": "夏が終わるまで、そばにいて。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+      "image": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
+      "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。",
+      "releaseAt": "2026-08-14T20:00:06+09:00",
+      "publishedAt": "2026-08-14T20:00:06+09:00",
+      "status": "published",
+      "genres": [],
+      "themes": [],
+      "tags": [],
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "id": "natsu-ga-owaru-made-soba-ni-ite",
+      "displayTitle": "夏が終わるまで、そばにいて。",
+      "englishTitle": "夏が終わるまで、そばにいて。",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-08-14",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "moods": [],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
+      "coverAlt": "榎本魅愛「夏が終わるまで、そばにいて。」公式YouTubeサムネイル",
+      "releaseUrl": "releases/natsu-ga-owaru-made-soba-ni-ite/",
+      "newsUrl": "",
+      "duration": 307,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "夏が終わるまで、そばにいて。",
+        "榎本魅愛"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "introduction": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。",
+      "seo": {
+        "title": "夏が終わるまで、そばにいて。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-14",
+      "videoPublishedAt": "2026-08-14T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+      "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
+      "recommendations": {
+        "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "caramel",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "false-identity",
+          "caramel",
+          "kamisama-wa-rusu"
+        ],
+        "aiRecommended": [
+          "caramel",
+          "taipa-nante-shiranakatta",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "hajimemashite-kiseki"
+        ]
+      }
+    },
     {
       "slug": "caramel",
       "title": "キャラメ〜ル",
@@ -65,12 +651,12 @@
       "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "hajimemashite-kiseki"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -83,20 +669,20 @@
           "still-alive"
         ],
         "recent": [
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "kamisama-wa-rusu"
         ],
         "aiRecommended": [
+          "natsu-ga-owaru-made-soba-ni-ite",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
+          "taipa-nante-shiranakatta",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying",
-          "ai-demo-wakaranai"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -182,12 +768,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "leo-rise-again",
@@ -294,12 +880,12 @@
       "homeHero": {},
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "hajimemashite-kiseki"
         ],
         "sameGenre": [
           "without-worrying",
@@ -326,12 +912,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -461,12 +1047,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -600,12 +1186,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "kimi-ni-kakatta-mahou",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -706,12 +1292,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "hajimemashite-kiseki"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -738,12 +1324,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "mermaid-no-geboku"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -881,12 +1467,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -1001,12 +1587,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hajimemashite-kiseki",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "hajimemashite-kiseki"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -1033,12 +1619,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -1171,12 +1757,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -1289,6 +1875,7 @@
         ],
         "sameTheme": [
           "wasurenai-kokoro",
+          "false-identity",
           "kimi-wa-hanabi"
         ],
         "popular": [
@@ -1300,20 +1887,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
+          "false-identity",
           "kimi-wa-hanabi",
           "hajimemashite-kiseki",
           "hanakotoba",
-          "anata-dake-no-savior",
-          "still-alive"
+          "anata-dake-no-savior"
         ]
       }
     },
@@ -1411,12 +1998,12 @@
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "without-worrying",
-          "ashita-wa-kitto"
+          "hanakotoba"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -1443,12 +2030,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -1578,12 +2165,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -1686,10 +2273,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "family-portrait",
           "chimpanzee-no-rakuen"
         ],
         "sameGenre": [
-          "chimpanzee-no-rakuen"
+          "chimpanzee-no-rakuen",
+          "family-portrait"
         ],
         "sameTheme": [
           "chimpanzee-no-rakuen",
@@ -1704,20 +2293,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
+          "family-portrait",
           "boukyaku-no-ikimono",
           "one-more-kiss",
           "still-alive",
-          "hajimemashite-kiseki",
-          "lost-signal"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -1847,12 +2436,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -1955,12 +2544,14 @@
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "recommendations": {
         "sameArtist": [
+          "false-identity",
           "red-moon-rising",
           "shadow-code"
         ],
         "sameGenre": [
           "shadow-code",
           "red-moon-rising",
+          "false-identity",
           "one-more-kiss",
           "echoes-of-you",
           "boukyaku-no-ikimono"
@@ -1977,20 +2568,20 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "shadow-code",
           "red-moon-rising",
+          "false-identity",
           "one-more-kiss",
           "echoes-of-you",
-          "boukyaku-no-ikimono",
-          "without-worrying"
+          "boukyaku-no-ikimono"
         ]
       }
     },
@@ -2085,12 +2676,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "ashita-wa-kitto"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -2117,12 +2708,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -2218,6 +2809,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "monsoon-promise",
           "namaste-galaxy"
         ],
         "sameGenre": [
@@ -2245,12 +2837,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -2350,10 +2942,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "family-portrait",
           "zennin-saiban"
         ],
         "sameGenre": [
-          "zennin-saiban"
+          "zennin-saiban",
+          "family-portrait"
         ],
         "sameTheme": [
           "zennin-saiban",
@@ -2368,20 +2962,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "zennin-saiban",
+          "family-portrait",
           "boukyaku-no-ikimono",
           "koisuru-maharaja",
           "without-worrying",
-          "ashita-wa-kitto",
-          "heal-you-again"
+          "ashita-wa-kitto"
         ]
       }
     },
@@ -2475,12 +3069,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "without-worrying",
@@ -2488,15 +3082,15 @@
           "hanakotoba",
           "hajimemashite-kiseki",
           "kimi-wa-makenai",
-          "still-alive"
+          "taipa-nante-shiranakatta"
         ],
         "sameTheme": [
           "without-worrying",
           "hajimemashite-kiseki",
           "kimi-wa-makenai",
+          "taipa-nante-shiranakatta",
           "heal-you-again",
-          "anata-dake-no-savior",
-          "last-dance-tonight"
+          "anata-dake-no-savior"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -2507,12 +3101,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -2520,7 +3114,7 @@
           "hanakotoba",
           "hajimemashite-kiseki",
           "kimi-wa-makenai",
-          "still-alive"
+          "taipa-nante-shiranakatta"
         ]
       }
     },
@@ -2642,12 +3236,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -2777,12 +3371,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -2882,6 +3476,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "monsoon-promise",
           "koisuru-maharaja"
         ],
         "sameGenre": [
@@ -2904,12 +3499,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -3016,7 +3611,9 @@
         ],
         "sameTheme": [
           "wasureji-no-hito",
-          "kimi-wa-hanabi"
+          "kimi-wa-hanabi",
+          "false-identity",
+          "family-portrait"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -3027,20 +3624,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
           "kimi-wa-hanabi",
+          "false-identity",
+          "family-portrait",
           "namaste-galaxy",
-          "smile-and-say-goodbye",
-          "boukyaku-no-ikimono",
-          "echoes-of-you"
+          "smile-and-say-goodbye"
         ]
       }
     },
@@ -3134,12 +3731,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -3152,7 +3749,8 @@
         "sameTheme": [
           "our-kingdom",
           "kimi-ni-kakatta-mahou",
-          "my-queen-my-oath"
+          "my-queen-my-oath",
+          "family-portrait"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -3163,12 +3761,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -3302,12 +3900,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -3447,12 +4045,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -3560,12 +4158,14 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "false-identity",
           "lost-signal",
           "shadow-code"
         ],
         "sameGenre": [
           "shadow-code",
           "lost-signal",
+          "false-identity",
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "one-more-kiss"
@@ -3583,20 +4183,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "shadow-code",
           "lost-signal",
+          "false-identity",
           "boukyaku-no-ikimono",
           "echoes-of-you",
-          "my-queen-my-oath",
-          "one-more-kiss"
+          "my-queen-my-oath"
         ]
       }
     },
@@ -3684,12 +4284,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -3716,12 +4316,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -3817,12 +4417,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3849,12 +4449,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3950,12 +4550,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -3982,12 +4582,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -4095,12 +4695,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -4124,12 +4724,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -4232,12 +4832,14 @@
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "recommendations": {
         "sameArtist": [
+          "false-identity",
           "lost-signal",
           "red-moon-rising"
         ],
         "sameGenre": [
           "red-moon-rising",
           "lost-signal",
+          "false-identity",
           "boukyaku-no-ikimono",
           "one-more-kiss",
           "echoes-of-you"
@@ -4256,20 +4858,20 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "red-moon-rising",
           "lost-signal",
+          "false-identity",
           "boukyaku-no-ikimono",
           "one-more-kiss",
-          "echoes-of-you",
-          "my-queen-my-oath"
+          "echoes-of-you"
         ]
       }
     },
@@ -4357,12 +4959,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -4389,12 +4991,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -4490,12 +5092,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4522,12 +5124,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4623,12 +5225,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4655,12 +5257,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4756,12 +5358,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4788,12 +5390,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -4889,12 +5491,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -4921,12 +5523,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5022,12 +5624,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -5054,12 +5656,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -5161,12 +5763,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -5193,12 +5795,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -5300,12 +5902,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "mermaid-no-geboku",
@@ -5332,12 +5934,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -5433,12 +6035,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -5465,12 +6067,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -5566,12 +6168,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "hanakotoba"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -5598,12 +6200,12 @@
           "still-alive"
         ],
         "recent": [
-          "caramel",
-          "kamisama-wa-rusu",
-          "kimi-wa-makenai",
-          "leo-rise-again",
-          "last-dance-tonight",
-          "kimi-ni-kakatta-mahou"
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "false-identity",
+          "caramel"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -5618,66 +6220,13 @@
   ],
   "upcoming": [
     {
-      "slug": "natsu-ga-owaru-made-soba-ni-ite",
-      "title": "夏が終わるまで、そばにいて。",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-08-14T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
-      "image": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
-      "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた公開予定作品。",
-      "releaseAt": "2026-08-14T20:00:00+09:00",
-      "publishedAt": "2026-08-14T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null,
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 3
-    },
-    {
-      "slug": "monsoon-promise",
-      "title": "Monsoon Promise",
-      "artist": "RANGILI",
-      "artistSlug": "rangili",
-      "scheduledAt": "2026-08-16T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fecMNfrTUgs",
-      "image": "https://i.ytimg.com/vi/fecMNfrTUgs/maxresdefault.jpg",
-      "description": "雨の街で交わした約束を信じて待ち続ける、RANGILIの公開予定作品。",
-      "releaseAt": "2026-08-16T20:00:00+09:00",
-      "publishedAt": "2026-08-16T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [],
-      "themes": [],
-      "tags": [],
-      "lyricsAvailable": true,
-      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（monsoon_promise_suzuka_master.txt）",
-      "lyricsText": "\n遠くで雷が鳴る\nLantern lights…\nStill waiting…\nRain…\nMonsoon…\n\n雨が降り始めた　夕暮れの街角\n濡れた石畳に　君の影を探してる\nあの日交わした約束\n「またここで会おうね」\n笑って手を振る君が\n今も胸に残ってる\n傘を閉じた瞬間\n空が泣き出した\nわたしの願いまで\n流さないで\n\nRain…\nRain…\n落ちる雫の数だけ\n恋しくなる\nMonsoon…\n胸の奥で\n君の名前を呼ぶ\n\nMonsoon Promise\n雨が止んでも\n君を待ってる\n流れる季節も\n変わる景色も\n約束だけは\n消えないから\nHold my hand…\nもう一度だけ\nあの日みたいに\n笑ってよ\nMonsoon Promise\nきっとまた会える\n\n水たまりに映る\n二人の思い出\n風が揺らして\n少しだけ滲んだ\n街は賑やかなのに\n心だけ静か\n君がいないだけで\nこんなにも違うんだね\n遠くのランタンが\n揺れている\n「帰っておいで」\nそんな風に\n見えた気がした\n\nRain…\n涙じゃない\n雨だから\nそう言い聞かせても\n心だけは\n君を探してる\n\nMonsoon Promise\n雨の向こうに\n君がいるなら\n何度だって\n歩いていくよ\n濡れた花びらも\n優しく笑う\nPromise…\n忘れない\nあの日の約束を\nMonsoon Promise\n心はひとつ\n\n夜明けが近づいて\n少しずつ\n空が青く染まる\n雨はいつの間にか\n静かに止んでいた\n振り向いたその先で\n君が微笑む\n「待たせたね」\nたった一言で\n涙が笑顔になった\n\nMonsoon Promise\n雨は終わっても\nこの恋は\n終わらない\n君の隣で\n歩いていこう\nどんな未来でも\n手を離さない\nMonsoon Promise\n雨上がりの空へ\n虹が架かるように\n二人の明日も\n輝いていく\nHold my hand…\nForever…\nMonsoon Promise\nAlways with you…\n\n雨音が消えて\n朝日が差し込む\nランタンがゆっくり消え\n二人の影だけが\n未来へ歩いていく\nMonsoon…\nPromise…",
-      "lyricsVerified": true,
-      "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 4
-    },
-    {
       "slug": "tatta-hitori-no-kimi-e",
       "title": "たった1人の君へ",
       "artist": "妃みちる",
       "artistSlug": "michiru",
       "scheduledAt": "2026-08-17T20:00:00+09:00",
       "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
       "image": "https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg",
       "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
       "releaseAt": "2026-08-17T20:00:00+09:00",

@@ -67,6 +67,7 @@ def main() -> int:
         root / "lyrics/index.html": ("lyrics_subscribe",),
         root / "releases/hanakotoba/index.html": ("release_subscribe",),
         root / "playlists/index.html": ("playlist_subscribe",),
+        root / "artists/michiru/index.html": ("artist_shorts",),
     }
     for path, sections in expected_sources.items():
         if not path.is_file():

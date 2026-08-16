@@ -150,7 +150,11 @@ def scan(root: Path) -> dict:
 def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]:
     evidence_path = root / "assets/data/youtube-publish-dates.json"
     evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
-    by_slug = {item["releaseSlug"]: item for item in evidence["records"]}
+    by_slug = {
+        item["releaseSlug"]: item
+        for item in evidence["records"]
+        if item.get("contentType") != "short"
+    }
     for release in cms["releases"]:
         record = by_slug.get(release["slug"], {})
         verified = record.get("verifiedPublishedAt", "")

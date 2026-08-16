@@ -155,7 +155,10 @@ def update_youtube_publish_dates(
         return
     path = stage / "assets/data/youtube-publish-dates.json"
     source = json.loads(path.read_text(encoding="utf-8"))
-    records = {item["releaseSlug"]: item for item in source["records"]}
+    records = {
+        (item["releaseSlug"], item.get("youtubeId", "")): item
+        for item in source["records"]
+    }
     upcoming_by_slug = {item["slug"]: item for item in cms.get("upcoming", [])}
     for slug in promoted:
         item = upcoming_by_slug[slug]
@@ -163,7 +166,7 @@ def update_youtube_publish_dates(
         current = evidence[video_id]
         timestamp = current.get("actual_start_timestamp") or current.get("release_timestamp")
         published_at = datetime.fromtimestamp(int(timestamp), JST).isoformat(timespec="seconds")
-        records[slug] = {
+        records[(slug, video_id)] = {
             "releaseSlug": slug,
             "youtubeId": video_id,
             "youtubeUrl": item["youtubeUrl"],
@@ -181,7 +184,9 @@ def update_youtube_publish_dates(
             "status": "verified-datetime",
         }
     source["checkedAt"] = now.isoformat(timespec="seconds")
-    source["records"] = sorted(records.values(), key=lambda item: item["releaseSlug"])
+    source["records"] = sorted(
+        records.values(), key=lambda item: (item["releaseSlug"], item.get("youtubeId", ""))
+    )
     atomic_json(path, source)
 
 

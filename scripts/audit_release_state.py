@@ -44,6 +44,13 @@ def main() -> int:
             errors.append(f'{item["slug"]}: upcoming page missing or indexable')
         if (root / f'lyrics/{item["slug"]}/index.html').exists():
             errors.append(f'{item["slug"]}: upcoming Lyrics leaked')
+    for item in collections["releases"]:
+        path = root / f'releases/{item["slug"]}/index.html'
+        if not path.is_file():
+            errors.append(f'{item["slug"]}: published page missing')
+            continue
+        if 'content="noindex' in path.read_text(encoding="utf-8").lower():
+            errors.append(f'{item["slug"]}: published page remains noindex')
     if errors:
         raise SystemExit("Release state audit failed:\n- " + "\n- ".join(errors))
     print(json.dumps({

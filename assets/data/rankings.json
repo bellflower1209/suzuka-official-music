@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "monsoon-promise",
+        "taipa-nante-shiranakatta",
+        "family-portrait",
+        "false-identity",
+        "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
         "kamisama-wa-rusu",
         "kimi-wa-makenai",
         "leo-rise-again",
-        "last-dance-tonight",
-        "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "anata-dake-no-savior",
-        "wasureji-no-hito"
+        "last-dance-tonight"
       ]
     },
     "love": {
@@ -59,6 +59,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "taipa-nante-shiranakatta",
         "kimi-wa-makenai",
         "last-dance-tonight",
         "anata-dake-no-savior",
@@ -91,10 +92,10 @@
         "enomoto-mia",
         "koga-kamishiro",
         "eclypse",
-        "asagiri-shinobu",
-        "revive",
         "rangili",
         "nox",
+        "asagiri-shinobu",
+        "revive",
         "asteria",
         "michiru"
       ]
@@ -106,16 +107,18 @@
         "ロマンティックポップ",
         "ダークポップ",
         "バラード",
+        "K-POP風",
         "アイドルポップ",
         "ロック",
-        "K-POP風",
+        "V系",
         "ファンタジーポップ",
         "演歌",
         "歌謡曲",
-        "V系",
         "ダークロック",
         "インド×J-POP",
         "シネマティック",
+        "ゴシックロック",
+        "Dark K-POP",
         "応援歌",
         "J-ROCK",
         "Cinematic Rock",
