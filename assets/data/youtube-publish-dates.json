@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-17T00:15:19+09:00",
+  "checkedAt": "2026-08-17T09:48:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -170,6 +170,24 @@
       "playabilityStatus": "OK",
       "durationSeconds": 25,
       "verifiedPublishedAt": "2026-08-14T21:38:30+09:00",
+      "verificationSource": "official-youtube-timestamp-and-description",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "friendlikesong",
+      "youtubeId": "QG2KN01CsJ4",
+      "youtubeUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
+      "catalogReleaseDate": "2026-08-16",
+      "officialTitle": "【8/20 MV解禁】friend like song / 妃みちる｜何年経っても、変わらないメンツがいる。🍺☀️",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-16T20:37:31+09:00",
+      "youtubeUploadDate": "2026-08-16T20:37:31+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 32,
+      "verifiedPublishedAt": "2026-08-16T20:37:31+09:00",
       "verificationSource": "official-youtube-timestamp-and-description",
       "status": "verified-datetime",
       "contentType": "short"

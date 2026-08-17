@@ -5100,9 +5100,23 @@
   "youtubeSnapshot": {
     "officialVideos": 55,
     "shorts": 34,
-    "verifiedAt": "2026-08-17T00:15:19+09:00",
+    "verifiedAt": "2026-08-17T09:48:00+09:00",
     "source": "公式YouTubeチャンネルのvideos/shortsタブと各動画をyt-dlpで照合",
     "shortVideos": [
+      {
+        "videoId": "QG2KN01CsJ4",
+        "title": "【8/20 MV解禁】friend like song / 妃みちる｜何年経っても、変わらないメンツがいる。🍺☀️",
+        "artist": "妃みちる",
+        "artistSlug": "michiru",
+        "youtubeUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
+        "publishedAt": "2026-08-16T20:37:31+09:00",
+        "relatedRelease": "friendlikesong",
+        "thumbnail": "https://i.ytimg.com/vi/QG2KN01CsJ4/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "duration": 32,
+        "description": "妃みちる『friendlikesong』の2026年8月20日MV解禁を案内する、SUZUKA公式YouTubeの公開済みShorts。"
+      },
       {
         "videoId": "HJugNSYcBI0",
         "title": "タイパなんて知らなかった。｜榎本魅愛 #Shorts",

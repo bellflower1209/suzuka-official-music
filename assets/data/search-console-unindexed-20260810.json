@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "searchConsoleLastUpdated": "2026-08-10",
+  "source": "Google Search Console user-exported CSV files",
+  "urlCount": 61,
+  "records": [
+    {
+      "url": "https://www.suzukaofficial.com/releases/kimi-ni-kakatta-mahou/",
+      "searchConsoleReason": "noindex タグによって除外されました",
+      "lastCrawl": "2026-08-09",
+      "sourceGroup": "."
+    },
+    {
+      "url": "http://www.suzukaofficial.com/",
+      "searchConsoleReason": "ページにリダイレクトがあります",
+      "lastCrawl": "2026-08-06",
+      "sourceGroup": "１"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/search/?genre=J-POP",
+      "searchConsoleReason": "代替ページ（適切な canonical タグあり）",
+      "lastCrawl": "2026-08-06",
+      "sourceGroup": "２"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/search/?artist=nox",
+      "searchConsoleReason": "代替ページ（適切な canonical タグあり）",
+      "lastCrawl": "2026-08-06",
+      "sourceGroup": "２"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/search/?genre=%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%9D%E3%83%83%E3%83%97",
+      "searchConsoleReason": "代替ページ（適切な canonical タグあり）",
+      "lastCrawl": "2026-08-05",
+      "sourceGroup": "２"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/kimi-wa-hanabi/",
+      "searchConsoleReason": "重複しています。Google により、ユーザーがマークしたページとは異なるページが正規ページとして選択されました",
+      "lastCrawl": "2026-08-09",
+      "sourceGroup": "４"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/feed.xml",
+      "searchConsoleReason": "クロール済み - インデックス未登録",
+      "lastCrawl": "2026-08-10",
+      "sourceGroup": "５"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/artists/asteria/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/anata-dake-no-savior/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/hajimemashite-kiseki/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/kimi-ni-kakatta-mahou/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/lost-signal/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/mermaid-merman/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/mermaid-no-geboku/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/mia/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/moshimo-ashita-hajimemashite-ni-natte-mo/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/muteki-jikan-ato-3byou/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/my-queen-my-oath/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/namaste-galaxy/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/one-more-kiss/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/our-kingdom/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/red-moon-rising/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/smile-and-say-goodbye/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/still-alive/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/suki-ga-kyou-mo-fueteiku/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/sukitte-baretemo-ii/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/tokenai-mahou-wo-ai-to-yobu/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/toriatsukai-chui/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/wasureji-no-hito/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/wasurenai-kokoro/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/gallery/zennin-saiban/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/genres/j-pop/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/lyrics/chimpanzee-no-rakuen/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/lyrics/hyakumankoku/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/lyrics/mermaid-no-geboku/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/lyrics/wasureji-no-hito/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/lyrics/zennin-saiban/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/news/namaste-galaxy-release/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/enka/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/latest/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/love/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/music-videos/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/popular/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/summer/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/tearjerkers/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/visual-kei/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/playlists/winter/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/rankings/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/boukyaku-no-ikimono/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/hanakotoba/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/hyakumankoku/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/one-more-kiss/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/toriatsukai-chui/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/releases/wasurenai-kokoro/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/wiki/artists/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/wiki/genres/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/wiki/terms/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    },
+    {
+      "url": "https://www.suzukaofficial.com/wiki/timeline/",
+      "searchConsoleReason": "検出 - インデックス未登録",
+      "lastCrawl": "1970-01-01",
+      "sourceGroup": "６"
+    }
+  ]
+}
