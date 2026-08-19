@@ -63,9 +63,12 @@ def artist_visual(artist: dict, prefix: str, *, loading: bool = False) -> str:
     name = html.escape(artist["name"])
     if image:
         loading_attr = ' loading="lazy"' if loading else ""
+        width = int(artist.get("imageWidth") or 1280)
+        height = int(artist.get("imageHeight") or 720)
+        alt = html.escape(str(artist.get("imageAlt") or f'{artist["name"]}代表画像'))
         return (
-            f'<img src="{prefix}{html.escape(image)}" alt="{name}代表画像" '
-            f'width="1280" height="720"{loading_attr}/>'
+            f'<img src="{prefix}{html.escape(image)}" alt="{alt}" '
+            f'width="{width}" height="{height}"{loading_attr}/>'
         )
     return (
         f'<div class="v31-artist-image-placeholder" role="img" '
@@ -550,9 +553,28 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         ) or '<span>関連ジャンルのアーティストは今後追加予定です。</span>'
         members = ""
         if artist.get("type") == "MusicGroup" and artist.get("members"):
+            def member_card(member: dict) -> str:
+                image = ""
+                if member.get("image"):
+                    image = (
+                        f'<img src="../../{html.escape(member["image"])}" '
+                        f'alt="{html.escape(member.get("imageAlt") or member["name"] + " 公式プロフィール")}" '
+                        f'width="{int(member.get("imageWidth") or 1280)}" '
+                        f'height="{int(member.get("imageHeight") or 720)}" loading="lazy"/>'
+                    )
+                name = html.escape(member["name"])
+                if member.get("artistSlug"):
+                    name = f'<a href="../{html.escape(member["artistSlug"])}/">{name}</a>'
+                details = "".join(
+                    f'<p>{html.escape(str(value))}</p>' for value in (
+                        member.get("reading"), member.get("stageName"), member.get("role")
+                    ) if value
+                )
+                color = f'<span>{html.escape(member["color"])}</span>' if member.get("color") else ""
+                return f'<article class="v31-member-card">{image}<div class="v31-member-copy"><h3>{name}</h3>{details}{color}</div></article>'
+
             members = '<section><h2>確認済みメンバー</h2><div class="v31-member-grid">' + "".join(
-                f'<article><h3>{html.escape(member["name"])}</h3><p>{html.escape(member["role"])}</p>'
-                f'<span>{html.escape(member.get("color", ""))}</span></article>' for member in artist["members"]
+                member_card(member) for member in artist["members"]
             ) + '</div></section>'
         social = "".join([
             f'<a href="{artist["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>' if artist.get("youtubeUrl") else "",
@@ -576,6 +598,15 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             facts.append(("年齢", f'{artist["age"]}歳'))
         if artist.get("appearance"):
             facts.append(("外見プロフィール", " / ".join(map(str, artist["appearance"]))))
+        for key, label in (
+            ("englishName", "英字名"), ("stageName", "活動名"), ("hometown", "出身地"),
+            ("affiliation", "現在所属"), ("role", "役割"), ("memberColor", "メンバーカラー"),
+            ("motif", "イメージモチーフ"), ("catchphrase", "キャッチフレーズ"),
+        ):
+            if artist.get(key):
+                facts.append((label, str(artist[key])))
+        if artist.get("formerAffiliations"):
+            facts.append(("過去の所属", " / ".join(map(str, artist["formerAffiliations"]))))
         if facts:
             profile_details = '<dl class="v31-artist-profile-details">' + "".join(
                 f'<div><dt>{html.escape(label)}</dt><dd>{html.escape(value)}</dd></div>'
@@ -666,6 +697,32 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         }
         if artist.get("image"):
             artist_entity["image"] = f'{BASE}/{artist["image"]}'
+        if artist.get("affiliation"):
+            affiliation_slug = next(
+                (item_slug for item_slug, item_value in artist_map.items() if item_value["name"] == artist["affiliation"]),
+                None,
+            )
+            artist_entity["memberOf"] = {
+                "@type": "MusicGroup",
+                "name": artist["affiliation"],
+                "description": "SUZUKAの作品世界に登場する架空のAIアーティストグループです。",
+                **({"@id": f'{BASE}/artists/{affiliation_slug}/#artist'} if affiliation_slug else {}),
+            }
+        if artist.get("type") == "MusicGroup" and artist.get("members"):
+            artist_entity["member"] = [
+                {
+                    "@type": "Person",
+                    "@id": (
+                        f'{BASE}/artists/{member["artistSlug"]}/#artist'
+                        if member.get("artistSlug")
+                        else f'{BASE}/artists/{slug}/#member-{position}'
+                    ),
+                    "name": member["name"],
+                    "description": "SUZUKAの作品世界に登場する架空のAIアーティストです。",
+                    **({"image": f'{BASE}/{member["image"]}'} if member.get("image") else {}),
+                }
+                for position, member in enumerate(artist["members"], 1)
+            ]
         graph = [
             {"@type": "ProfilePage", "@id": f'{BASE}/artists/{slug}/#profile', "mainEntity": {"@id": f'{BASE}/artists/{slug}/#artist'}},
             artist_entity,
@@ -690,6 +747,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             f'artists/{slug}/', f'{artist["name"]}｜SUZUKA Original AI Artist',
             f'{artist["profile"]} 公開作品、Official MV、News、Galleryを紹介します。',
             artist["name"], body, graph, ("artists", "Artists"), page_type="WebPage",
+            og_image=f'{BASE}/{artist["image"]}' if artist.get("image") else None,
         )
         page = page.replace("</body>", '<script defer src="../../assets/creator-v31.js"></script></body>')
         write(root / f'artists/{slug}/index.html', page)
@@ -829,6 +887,26 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
         text = re.sub(r'<!-- V31:HOME-PORTALS:START -->.*?<!-- V31:HOME-PORTALS:END -->', f'<!-- V31:HOME-PORTALS:START -->{portal}<!-- V31:HOME-PORTALS:END -->', text, flags=re.DOTALL)
     else:
         text = text.replace('</div><section class="youtube-growth-section"', f'</div><!-- V31:HOME-PORTALS:START -->{portal}<!-- V31:HOME-PORTALS:END --><section class="youtube-growth-section"', 1)
+    featured_profiles = [artist for artist in cms["artists"] if artist.get("status") == "published" and artist.get("homeFeatured")]
+    profile_cards = "".join(
+        f'<a class="creator-link-card" href="./artists/{html.escape(artist["slug"])}/">'
+        f'<span>{html.escape(str(artist.get("affiliation") or "SUZUKA"))}</span>'
+        f'<h2>{html.escape(artist["name"])}</h2><p>{html.escape(artist["profile"])}</p></a>'
+        for artist in featured_profiles
+    )
+    profile_section = (
+        '<section class="v31-home-artist-updates"><p class="section-kicker">CURRENT ARTIST PROFILES</p>'
+        f'<h2>所属・新体制更新</h2><div class="creator-link-grid">{profile_cards}</div></section>'
+        if profile_cards else ""
+    )
+    profile_block = f'<!-- V31:HOME-ARTIST-UPDATES:START -->{profile_section}<!-- V31:HOME-ARTIST-UPDATES:END -->'
+    if "<!-- V31:HOME-ARTIST-UPDATES:START -->" in text:
+        text = re.sub(
+            r'<!-- V31:HOME-ARTIST-UPDATES:START -->.*?<!-- V31:HOME-ARTIST-UPDATES:END -->',
+            profile_block, text, flags=re.DOTALL,
+        )
+    else:
+        text = text.replace("<!-- V31:HOME-PORTALS:END -->", "<!-- V31:HOME-PORTALS:END -->" + profile_block, 1)
     featured = [item for item in photobooks if item.get("featured")][:3]
     artist_names = {item["slug"]: item["name"] for item in cms["artists"]}
     featured_cards = "".join(
@@ -879,7 +957,7 @@ body{color:var(--text-primary)}a:visited{color:inherit}a:hover{color:var(--link-
 .v31-home-next,.v31-home-portals,.v31-home-photobooks,.v31-schedule-group,.v31-lyrics-list,.v31-artist-directory,.v31-artist-hero,.v31-artist-facts,.v31-member-grid,.v31-upcoming-detail,.v31-photobook-grid{padding:clamp(2.5rem,6vw,6rem) clamp(1rem,6vw,7rem)}
 .v31-countdown-card,.v31-upcoming-detail,.v31-artist-hero,.v31-artist-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.25rem,4vw,4rem);align-items:center;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1.2rem;padding:clamp(1rem,3vw,2rem);background:linear-gradient(135deg,#0b0b10,#15111c)}
 .v31-countdown-card img,.v31-upcoming-detail img,.v31-artist-hero img{width:100%;height:auto;border-radius:.8rem}.v31-countdown{font-size:clamp(1.2rem,3vw,2.3rem);font-weight:800;color:#9edbff}.v31-schedule-list{display:grid;gap:1.25rem}.v31-schedule-group>h2{font-size:clamp(2rem,5vw,4rem)}
-.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.v31-home-portals>a,.v31-artist-directory-card,.v31-member-grid article,.v31-photobook-card{padding:1.5rem;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1rem;background:#101014;text-decoration:none}.v31-home-portals h2{font-size:2.2rem}.v31-home-portals span,.v31-ai-badge{color:#9edbff;letter-spacing:.1em}.v31-artist-directory-card img,.v31-photobook-card img{width:100%;height:auto;border-radius:.7rem}.v31-artist-directory-card a{color:var(--text-on-dark);text-decoration:none}.v31-artist-facts{align-items:start}.v31-artist-facts>div{padding:1rem}
+.v31-home-portals,.v31-artist-directory,.v31-member-grid,.v31-photobook-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.v31-home-portals>a,.v31-artist-directory-card,.v31-member-grid article,.v31-photobook-card{padding:1.5rem;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1rem;background:#101014;text-decoration:none}.v31-home-portals h2{font-size:2.2rem}.v31-home-portals span,.v31-ai-badge{color:#9edbff;letter-spacing:.1em}.v31-artist-directory-card img,.v31-photobook-card img{width:100%;height:auto;border-radius:.7rem}.v31-artist-directory-card a{color:var(--text-on-dark);text-decoration:none}.v31-artist-facts{align-items:start}.v31-artist-facts>div{padding:1rem}.v31-member-grid .v31-member-card{padding:0;overflow:hidden}.v31-member-card>img{display:block;width:100%;height:auto;background:#eef2f8}.v31-member-copy{display:grid;gap:.45rem;padding:1.25rem}.v31-member-copy h3,.v31-member-copy p{margin:0}.v31-member-copy a{color:var(--link-color);text-decoration:underline;text-underline-offset:.2em}.v31-member-copy span{color:#b8dcff}
 .v31-artist-image-placeholder{display:grid;place-content:center;gap:.55rem;width:100%;min-height:clamp(14rem,36vw,30rem);padding:1.5rem;color:var(--text-on-dark);text-align:center;border:1px solid var(--border-contrast);border-radius:.8rem;background:radial-gradient(circle at 70% 25%,rgba(139,80,169,.28),transparent 38%),linear-gradient(145deg,#17121b,#09080b)}.v31-artist-image-placeholder span{color:#b8dcff;font-size:.72rem;letter-spacing:.16em}.v31-artist-image-placeholder strong{font-size:clamp(1.4rem,3vw,2.5rem)}.v31-artist-image-placeholder small{max-width:25rem;color:var(--text-secondary);line-height:1.7}.v31-artist-directory-card .v31-artist-image-placeholder{min-height:15rem}.explorer-artist-rank .v31-artist-image-placeholder{width:7rem;min-height:7rem;padding:.6rem;border-radius:50%}.explorer-artist-rank .v31-artist-image-placeholder span{font-size:.5rem}.explorer-artist-rank .v31-artist-image-placeholder strong{font-size:.65rem}.v31-artist-profile-details{display:grid;gap:.55rem;margin:1.25rem 0}.v31-artist-profile-details>div{display:grid;grid-template-columns:8rem 1fr;gap:.8rem;padding:.65rem 0;border-top:1px solid rgba(255,255,255,.16)}.v31-artist-profile-details dt{color:var(--text-secondary);font-size:.82rem}.v31-artist-profile-details dd{margin:0;color:var(--text-on-dark)}
 .v31-lyrics{max-width:66rem;margin:clamp(2rem,5vw,5rem) auto;padding:clamp(1.25rem,4vw,3rem);color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1.25rem;background:linear-gradient(145deg,rgba(19,15,22,.98),rgba(8,7,10,.98));box-shadow:0 1.5rem 5rem rgba(0,0,0,.28)}.v31-lyrics header{padding-bottom:1.5rem;border-bottom:1px solid var(--border-contrast)}.v31-lyrics header>p{color:var(--text-secondary);line-height:1.75}.v31-lyrics-text{margin-top:2rem;padding:clamp(1.1rem,4vw,3rem);color:#fffdfd;border:1px solid rgba(255,255,255,.22);border-radius:1rem;background:#0c0a0e;font-size:clamp(1rem,1.2vw,1.125rem);line-height:1.9;overflow-wrap:anywhere;word-break:normal}.v31-lyrics-text p{margin:0 0 1.8em}.v31-lyrics-text p:last-child{margin-bottom:0}.v31-lyrics-cue{color:#a9dfff;font-weight:700;font-style:italic;letter-spacing:.025em}.v31-lyrics-row,.v31-search-document{padding:1.2rem;border-bottom:1px solid var(--border-contrast);background:rgba(255,255,255,.025)}.v31-lyrics-row a,.v31-search-document a{color:var(--link-color);text-decoration:underline;text-decoration-color:rgba(255,209,235,.45);text-underline-offset:.25em}.v31-filter{display:grid;gap:.5rem;max-width:42rem}.v31-filter input{padding:1rem;border-radius:.5rem}.v31-data-pending,.v31-empty{padding:1.5rem;border:1px dashed var(--border-contrast);border-radius:.8rem;color:var(--text-secondary)}.v31-home-next{background:#08090d}.v31-home-photobooks{display:grid;grid-template-columns:minmax(12rem,.35fr) 1fr;gap:2rem}.v31-photobook-detail{max-width:72rem;margin:auto;padding:clamp(2rem,6vw,6rem);display:grid;grid-template-columns:1fr 1fr;gap:2rem}.v31-search-documents{padding:2rem 0}.v31-release-lyrics-link{margin:clamp(2rem,5vw,5rem) clamp(1rem,6vw,7rem);padding:clamp(1.4rem,4vw,3rem);color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:1rem;background:linear-gradient(135deg,#17111b,#0a090c)}.v31-release-lyrics-link h2{font-size:clamp(1.8rem,4vw,3.5rem)}.v31-readable-cta{display:inline-flex;margin-top:1rem;padding:.85rem 1.2rem;border:1px solid;border-radius:999px;font-weight:800}.v31-lyrics-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.8rem}.v31-lyrics-links a{display:grid;gap:.45rem;padding:1.2rem;color:var(--text-on-dark);border:1px solid var(--border-contrast);border-radius:.8rem;background:#101014}.v31-lyrics-links span{color:var(--text-secondary);font-size:.8rem}.v31-lyrics-links b{color:#9edbff;font-size:.75rem}
 .v31-artist-shorts{padding:clamp(2.5rem,6vw,6rem) clamp(1rem,6vw,7rem)}.v31-shorts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),20rem));gap:1rem}.v31-short-card{overflow:hidden;border:1px solid var(--border-contrast);border-radius:1rem;background:#101014}.v31-short-card>a{display:grid;color:var(--text-on-dark);text-decoration:none}.v31-short-card img{width:100%;aspect-ratio:9/16;object-fit:cover}.v31-short-card span{display:grid;gap:.55rem;padding:1rem}.v31-short-card time{color:var(--text-secondary);font-size:.8rem}.v31-short-card strong{line-height:1.6}.v31-short-card b{color:#9edbff;font-size:.8rem}

@@ -29,14 +29,16 @@ def main() -> int:
     tracks = [item for item in player['releases'] if item.get('status') == 'published' and all(item.get(key) for key in ('youtubeId', 'image', 'pageUrl')) and item.get('playerEnabled', True)]
     if len(tracks) != 14:
         errors.append(f'fixed player must remain 14 tracks, found {len(tracks)}')
+    release_artist_slugs = {
+        slug
+        for release in catalog.get('releases', [])
+        for slug in release.get('artistSlugs', [release.get('artistSlug')])
+        if slug
+    }
+    cms_artist_slugs = {item.get('slug') for item in cms.get('artists', []) if item.get('status') == 'published'}
     if (
         cms.get('schemaVersion') != '3.1'
-        or len(cms.get('artists', [])) != len({
-            slug
-            for release in catalog.get('releases', [])
-            for slug in release.get('artistSlugs', [release.get('artistSlug')])
-            if slug
-        })
+        or not release_artist_slugs.issubset(cms_artist_slugs)
         or len(cms.get('releases', [])) != len(catalog.get('releases', []))
         or len(cms.get('upcoming', [])) != len(catalog.get('upcoming', []))
     ):

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T00:15:19+09:00",
+  "updatedAt": "2026-08-19T00:00:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -1029,6 +1029,35 @@
     {
       "type": "Artist",
       "contentType": "artist",
+      "title": "星宮 羽音",
+      "description": "透明感あふれる歌声で、RE:VIVEの希望と未来を照らす存在。素直で好奇心旺盛だが芯が強く、決めたことは曲げない。",
+      "url": "artists/hoshimiya-hanon/",
+      "keywords": [
+        "星宮 羽音",
+        "星宮羽音",
+        "ほしみや はのん",
+        "HANON",
+        "Hoshimiya Hanon",
+        "RE:VIVE"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "星乃みう",
+      "description": "星乃みうは、過去にRE:VIVEのメンバーとして活動し、現在はASTERIAに所属するAIアーティスト。",
+      "url": "artists/hoshino-miu/",
+      "keywords": [
+        "星乃みう",
+        "Hoshino Miu",
+        "MIU",
+        "ASTERIA",
+        "RE:VIVE"
+      ]
+    },
+    {
+      "type": "Artist",
+      "contentType": "artist",
       "title": "神代煌牙",
       "description": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
       "url": "artists/koga-kamishiro/",
@@ -1073,11 +1102,17 @@
       "type": "Artist",
       "contentType": "artist",
       "title": "RE:VIVE",
-      "description": "前へ進む力を届ける5人組AIガールズグループ。",
+      "description": "前へ進む力を届ける、現行5人体制のAIガールズグループ。",
       "url": "artists/revive/",
       "keywords": [
         "RE:VIVE",
-        "RE:VIVE"
+        "リバイブ",
+        "白石陽向",
+        "天城結衣",
+        "月城蒼依",
+        "橘紗良",
+        "星宮羽音",
+        "HANON"
       ]
     },
     {

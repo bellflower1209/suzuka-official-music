@@ -207,10 +207,12 @@ def shell(
     graph_nodes: list[dict],
     parent: tuple[str, str] | None = None,
     page_type: str = "CollectionPage",
+    og_image: str | None = None,
 ) -> str:
     depth = len([part for part in route.split("/") if part])
     p = "../" * depth
     canonical = f"{BASE}/{route}"
+    social_image = og_image or f"{BASE}/images/suzuka-channel.jpg"
     crumb_html, crumb_schema = breadcrumb(route, heading, parent)
     ai_description = description if "AI" in description else f"{description} SUZUKAの架空のAIアーティスト作品を紹介します。"
     graph = {
@@ -232,11 +234,11 @@ def shell(
         f'<meta property="og:title" content="{html.escape(title)}"/>'
         f'<meta property="og:description" content="{html.escape(ai_description)}"/>'
         f'<meta property="og:url" content="{canonical}"/>'
-        f'<meta property="og:image" content="{BASE}/images/suzuka-channel.jpg"/>'
+        f'<meta property="og:image" content="{html.escape(social_image)}"/>'
         '<meta name="twitter:card" content="summary_large_image"/>'
         f'<meta name="twitter:title" content="{html.escape(title)}"/>'
         f'<meta name="twitter:description" content="{html.escape(ai_description)}"/>'
-        f'<meta name="twitter:image" content="{BASE}/images/suzuka-channel.jpg"/>'
+        f'<meta name="twitter:image" content="{html.escape(social_image)}"/>'
         f'<link rel="stylesheet" href="{p}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{p}assets/explore.css"/>'
         f'<link rel="stylesheet" href="{p}assets/explorer-update.css"/>'

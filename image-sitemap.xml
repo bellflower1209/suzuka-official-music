@@ -141,6 +141,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/artists/hoshimiya-hanon/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-hanon-hoshimiya-profile.png</image:loc>
+      <image:title>RE:VIVE 星宮羽音 公式プロフィール</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/artists/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
@@ -161,6 +168,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-hanon-hoshimiya-profile.png</image:loc>
+      <image:title>RE:VIVE 星宮羽音 公式プロフィール</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
@@ -245,6 +256,26 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-hinata-shiraishi-profile.png</image:loc>
+      <image:title>RE:VIVE 白石陽向 公式プロフィール</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-yui-amagi-profile.png</image:loc>
+      <image:title>RE:VIVE 天城結衣 公式プロフィール</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-aoi-tsukishiro-profile.png</image:loc>
+      <image:title>RE:VIVE 月城蒼依 公式プロフィール</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-sara-tachibana-profile.png</image:loc>
+      <image:title>RE:VIVE 橘紗良 公式プロフィール</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-hanon-hoshimiya-profile.png</image:loc>
+      <image:title>RE:VIVE 星宮羽音 公式プロフィール</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
@@ -4566,14 +4597,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
-      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
-      <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/social/</loc>
@@ -4695,6 +4718,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛の代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-hanon-hoshimiya-profile.png</image:loc>
+      <image:title>星宮 羽音の代表画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro.webp</image:loc>
