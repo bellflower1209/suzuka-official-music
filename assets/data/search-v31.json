@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T00:00:00+09:00",
+  "updatedAt": "2026-08-22T21:39:45+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,104 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "分かれた道",
+      "description": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。",
+      "url": "releases/wakareta-michi/",
+      "keywords": [
+        "神代煌牙",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "別れ",
+        "未来",
+        "祈り",
+        "神代煌牙",
+        "分かれた道",
+        "CinematicJPOP",
+        "JROCK",
+        "失恋ソング",
+        "別れの歌",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "別れ",
+        "未来",
+        "祈り"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "friendlikesong",
+      "description": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
+      "url": "releases/friendlikesong/",
+      "keywords": [
+        "妃みちる",
+        "J-POP",
+        "サマーソング",
+        "友情",
+        "夏",
+        "仲間",
+        "妃みちる",
+        "friendlikesong",
+        "夏ソング",
+        "海",
+        "友情",
+        "仲間",
+        "J-POP",
+        "サマーソング",
+        "夏"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "私の選んだ道",
+      "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。",
+      "url": "releases/watashi-no-eranda-michi/",
+      "keywords": [
+        "妃みちる",
+        "J-POP",
+        "バラード",
+        "初恋",
+        "別れ",
+        "未来",
+        "妃みちる",
+        "失恋ソング",
+        "恋愛ソング",
+        "青春",
+        "初恋",
+        "バラード",
+        "J-POP",
+        "別れ",
+        "未来"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "たった1人の君へ",
+      "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
+      "url": "releases/tatta-hitori-no-kimi-e/",
+      "keywords": [
+        "妃みちる",
+        "J-POP",
+        "アコースティック",
+        "恋愛",
+        "感謝",
+        "シンガーソングライター",
+        "JPOP",
+        "アコースティック",
+        "恋愛ソング",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "感謝"
       ]
     },
     {
@@ -1113,6 +1211,45 @@
         "橘紗良",
         "星宮羽音",
         "HANON"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【8/23 MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』",
+      "description": "妃みちる『私の選んだ道』MVの公開予定を案内する公式Shorts。",
+      "url": "artists/michiru/#short-hjqiZqPdrv8",
+      "keywords": [
+        "妃みちる",
+        "watashi-no-eranda-michi",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【先行公開】榎本魅愛『花言葉』｜8月19日20時 フルMV解禁｜両親の結婚記念日に #shorts",
+      "description": "榎本魅愛『花言葉』フルMVの公開を案内する公式Shorts。",
+      "url": "artists/enomoto-mia/#short-wpzMoz2LgWE",
+      "keywords": [
+        "榎本魅愛",
+        "hanakotoba",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【MV】愛してるからこそ、手を離した。｜神代煌牙『分かれた道』",
+      "description": "神代煌牙『分かれた道』Official MVの先行公開Shorts。",
+      "url": "artists/koga-kamishiro/#short-ksYJEnyC284",
+      "keywords": [
+        "神代煌牙",
+        "wakareta-michi",
+        "YouTube Shorts",
+        "Shorts"
       ]
     },
     {

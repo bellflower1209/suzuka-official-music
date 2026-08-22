@@ -1,34 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-17T00:15:19+09:00",
+  "verifiedAt": "2026-08-22T21:39:45+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
-    "natsu-ga-owaru-made-soba-ni-ite",
-    "monsoon-promise"
+    "friendlikesong",
+    "tatta-hitori-no-kimi-e",
+    "wakareta-michi",
+    "watashi-no-eranda-michi"
   ],
   "evidence": [
-    {
-      "slug": "natsu-ga-owaru-made-soba-ni-ite",
-      "videoId": "rPTopOOZMkM",
-      "availability": "public",
-      "liveStatus": "not_live",
-      "releaseTimestamp": 1786705206,
-      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
-    },
-    {
-      "slug": "monsoon-promise",
-      "videoId": "fecMNfrTUgs",
-      "availability": "public",
-      "liveStatus": "not_live",
-      "releaseTimestamp": 1786878006,
-      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
-    },
     {
       "slug": "tatta-hitori-no-kimi-e",
       "videoId": "CPIDy31wnc4",
       "availability": "public",
-      "liveStatus": "is_upcoming",
-      "releaseTimestamp": 1786964400,
+      "liveStatus": "was_live",
+      "releaseTimestamp": "2026-08-17T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "watashi-no-eranda-michi",
+      "videoId": "rsrkmzJM1kk",
+      "availability": "public",
+      "liveStatus": "was_live",
+      "releaseTimestamp": "2026-08-18T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "friendlikesong",
+      "videoId": "IbydSXmEyVQ",
+      "availability": "public",
+      "liveStatus": "was_live",
+      "releaseTimestamp": "2026-08-20T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "wakareta-michi",
+      "videoId": "EU_5CqN1zZw",
+      "availability": "public",
+      "liveStatus": "was_live",
+      "releaseTimestamp": "2026-08-22T20:00:06+09:00",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     }
   ]

@@ -312,14 +312,14 @@ def update_home_status(root: Path, data: dict) -> None:
         f'<a class="button hanakotoba-button-secondary" href="./{hero_item["releaseUrl"]}">楽曲ページ</a>'
         f'<a class="button hanakotoba-button-secondary" href="./gallery/{hero_item["slug"]}/">Gallery</a>'
         f'<a class="button hanakotoba-button-secondary" href="./artists/{hero_item["artistSlug"]}/">Artist</a></div>'
-        '<p class="hanakotoba-project">SUZUKA Original AI Music Project</p></div>'
+        '<p class="hanakotoba-project">SUZUKA Official · Original AI Music Project</p></div>'
         '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
         f'<img src="{media_url(hero_item["coverImage"], "./")}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
         f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(hero_item["artist"])} / {hero_item["releaseDate"].replace("-", ".")}</p></div>'
         '<a class="hanakotoba-scroll" href="#latest">Scroll to discover <i></i></a></section>'
     )
     text = re.sub(
-        r'<section class="hero[^>]*>.*?</section>(?=<div class="word-ribbon")',
+        r'<section class="hero[^>]*\bdata-home-hero\b[^>]*>.*?</section>',
         hero,
         text,
         count=1,
@@ -369,10 +369,17 @@ def update_home_status(root: Path, data: dict) -> None:
     def update_home_schema(match: re.Match) -> str:
         schema = json.loads(match.group(1))
         graph = schema.get("@graph", [])
-        graph = [node for node in graph if node.get("@id") not in {
+        replaced_ids = {
             f"{BASE}/#latest-recording", f"{BASE}/#latest-video",
             f"{BASE}/#hero-recording", f"{BASE}/#hero-video",
-        }]
+        }
+        for node in graph:
+            if node.get("@type") == "WebPage" and isinstance(node.get("mainEntity"), dict):
+                replaced_ids.add(node["mainEntity"].get("@id"))
+        for node in graph:
+            if node.get("@id") in replaced_ids and isinstance(node.get("subjectOf"), dict):
+                replaced_ids.add(node["subjectOf"].get("@id"))
+        graph = [node for node in graph if node.get("@id") not in replaced_ids]
         for node in graph:
             if node.get("@type") == "Organization":
                 node["image"] = {"@type": "ImageObject", "url": public_media_url(hero_item["coverImage"])}
@@ -714,10 +721,19 @@ def main() -> None:
     write(ROOT / "discography/index.html", discography_page(data))
     for item in data["releases"]:
         release_path = ROOT / item["releaseUrl"] / "index.html"
+        release_source = release_path.read_text(encoding="utf-8") if release_path.exists() else ""
         if (
             not release_path.exists()
-            or 'content="noindex' in release_path.read_text(encoding="utf-8")
-            or "UPCOMING / NOT YET PUBLISHED" in release_path.read_text(encoding="utf-8")
+            or 'content="noindex' in release_source
+            or "UPCOMING / NOT YET PUBLISHED" in release_source
+            or (
+                item.get("videoStructuredDataStatus") == "published"
+                and item["slug"] not in {"boukyaku-no-ikimono"}
+                and (
+                    item["youtubeUrl"] not in release_source
+                    or item.get("videoPublishedAt", "") not in release_source
+                )
+            )
         ):
             write(release_path, release_page(item))
         if item.get("newsUrl"):
@@ -790,7 +806,14 @@ def main() -> None:
         cwd=ROOT,
         check=True,
     )
+    # Later platform builders may replace the legacy Home block. Re-apply the
+    # canonical Hero and its schema as the final HTML-generation step.
+    update_home_status(ROOT, data)
     evidence = json.loads((ROOT / "assets/data/youtube-publish-dates.json").read_text(encoding="utf-8"))
+    active_video_ids = {
+        item["slug"]: str(item.get("youtubeUrl", "")).split("v=", 1)[-1].split("&", 1)[0]
+        for item in json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))["releases"]
+    }
     normalize_structured_dates(
         ROOT,
         evidence,
@@ -798,6 +821,7 @@ def main() -> None:
             item["releaseSlug"]: item
             for item in evidence["records"]
             if item.get("contentType") != "short"
+            and item.get("youtubeId") == active_video_ids.get(item["releaseSlug"])
         },
     )
     subprocess.run(

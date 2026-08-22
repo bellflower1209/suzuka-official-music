@@ -6,6 +6,10 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | 分かれた道 | 神代煌牙 | https://www.youtube.com/watch?v=EU_5CqN1zZw | 5:19 | 分かれた道｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | friendlikesong | 妃みちる | https://www.youtube.com/watch?v=IbydSXmEyVQ | 4:23 | friendlikesong｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 私の選んだ道 | 妃みちる | https://www.youtube.com/watch?v=rsrkmzJM1kk | 5:22 | 私の選んだ道｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | たった1人の君へ | 妃みちる | https://www.youtube.com/watch?v=CPIDy31wnc4 | 5:38 | たった1人の君へ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Monsoon Promise | RANGILI | https://www.youtube.com/watch?v=fecMNfrTUgs | 5:45 | Monsoon Promise｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | タイパなんて知らなかった | 榎本魅愛 | https://www.youtube.com/watch?v=s0zOTuR4GQI | 4:25 | タイパなんて知らなかった｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | FAMILY PORTRAIT | NOX | https://www.youtube.com/watch?v=QOn7Jfq9t1k | 4:34 | FAMILY PORTRAIT｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -18,7 +22,7 @@
 | 公開済み | LAST DANCE TONIGHT | ASTERIA | https://www.youtube.com/watch?v=ULMwbXtotsE | 5:53 | LAST DANCE TONIGHT｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 君にかかった魔法 | 榎本魅愛 | https://www.youtube.com/watch?v=iEFPd6kYYJc | 6:20 | 君にかかった魔法｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | マーメイドの下僕 | 神代煌牙 | https://www.youtube.com/watch?v=uibakv4n2Dg | 5:51 | マーメイドの下僕｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 花言葉 | 榎本魅愛 | https://www.youtube.com/watch?v=mdTogs4Oiew | 3:54 | 花言葉｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 花言葉 | 榎本魅愛 | https://www.youtube.com/watch?v=iinLScSzA9w | 3:54 | 花言葉｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | あなただけのSAVIOR | ASTERIA | https://www.youtube.com/watch?v=Z_IFHEG4CJA | 6:55 | あなただけのSAVIOR｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 忘れじの人 | 朝霧しのぶ | https://www.youtube.com/watch?v=tbysXktPNk4 | 7:59 | 忘れじの人｜朝霧しのぶ【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | はじめまして、奇跡 | 榎本魅愛 | https://www.youtube.com/watch?v=rr12NZuWHHs | 3:31 | はじめまして、奇跡｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -53,7 +57,6 @@
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 好きってバレてもいい | 榎本魅愛 | https://www.youtube.com/watch?v=XP8yXMKFHVI | 4:34 | 好きってバレてもいい｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
-| Upcoming | たった1人の君へ | 妃みちる | https://www.youtube.com/watch?v=CPIDy31wnc4 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 
 ## 百万告の実反映状況
 

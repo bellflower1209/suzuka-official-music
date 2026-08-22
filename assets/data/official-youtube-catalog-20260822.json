@@ -1,0 +1,266 @@
+{
+  "schemaVersion": "1.2",
+  "verifiedAt": "2026-08-22T21:39:45+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "channelUrl": "https://www.youtube.com/@suzuka1209",
+  "verificationMethod": "公式YouTube Atomフィード、videos/shortsタブ、各動画のytInitialPlayerResponseを照合",
+  "channelSnapshot": {
+    "officialVideos": 58,
+    "shorts": 37
+  },
+  "published": [
+    {
+      "slug": "tatta-hitori-no-kimi-e",
+      "title": "たった1人の君へ",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "releaseAt": "2026-08-17T20:00:06+09:00",
+      "youtubeId": "CPIDy31wnc4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "videoPublishedAt": "2026-08-17T20:00:06+09:00",
+      "duration": 338,
+      "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
+      "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
+      "genres": [
+        "J-POP",
+        "アコースティック"
+      ],
+      "themes": [
+        "恋愛",
+        "感謝"
+      ],
+      "tags": [
+        "シンガーソングライター",
+        "JPOP",
+        "アコースティック",
+        "恋愛ソング",
+        "青春"
+      ],
+      "relatedReleases": [
+        "watashi-no-eranda-michi",
+        "friendlikesong"
+      ]
+    },
+    {
+      "slug": "watashi-no-eranda-michi",
+      "title": "私の選んだ道",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "releaseAt": "2026-08-18T20:00:06+09:00",
+      "youtubeId": "rsrkmzJM1kk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
+      "videoPublishedAt": "2026-08-18T20:00:06+09:00",
+      "duration": 322,
+      "shortsUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
+      "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "themes": [
+        "初恋",
+        "別れ",
+        "未来"
+      ],
+      "tags": [
+        "妃みちる",
+        "失恋ソング",
+        "恋愛ソング",
+        "青春",
+        "初恋",
+        "バラード"
+      ],
+      "relatedReleases": [
+        "tatta-hitori-no-kimi-e"
+      ]
+    },
+    {
+      "slug": "friendlikesong",
+      "title": "friendlikesong",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "releaseAt": "2026-08-19T20:00:06+09:00",
+      "youtubeId": "IbydSXmEyVQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+      "videoPublishedAt": "2026-08-20T20:00:06+09:00",
+      "duration": 263,
+      "audioUrl": "https://www.youtube.com/watch?v=8xRXgVv0Z_o",
+      "shortsUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
+      "description": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
+      "genres": [
+        "J-POP",
+        "サマーソング"
+      ],
+      "themes": [
+        "友情",
+        "夏",
+        "仲間"
+      ],
+      "tags": [
+        "妃みちる",
+        "friendlikesong",
+        "夏ソング",
+        "海",
+        "友情",
+        "仲間"
+      ],
+      "relatedReleases": [
+        "tatta-hitori-no-kimi-e"
+      ]
+    },
+    {
+      "slug": "wakareta-michi",
+      "title": "分かれた道",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "releaseAt": "2026-08-21T20:00:06+09:00",
+      "youtubeId": "EU_5CqN1zZw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+      "videoPublishedAt": "2026-08-22T20:00:06+09:00",
+      "duration": 319,
+      "audioUrl": "https://www.youtube.com/watch?v=9vt1rkClDos",
+      "shortsUrl": "https://www.youtube.com/shorts/ksYJEnyC284",
+      "description": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。",
+      "genres": [
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop"
+      ],
+      "themes": [
+        "別れ",
+        "未来",
+        "祈り"
+      ],
+      "tags": [
+        "神代煌牙",
+        "分かれた道",
+        "CinematicJPOP",
+        "JROCK",
+        "失恋ソング",
+        "別れの歌"
+      ],
+      "relatedReleases": []
+    }
+  ],
+  "updatedVideos": [
+    {
+      "releaseSlug": "hanakotoba",
+      "videoId": "iinLScSzA9w",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iinLScSzA9w",
+      "publishedAt": "2026-08-19T20:00:06+09:00",
+      "duration": 234,
+      "status": "published",
+      "playabilityStatus": "OK"
+    }
+  ],
+  "shorts": [
+    {
+      "videoId": "hjqiZqPdrv8",
+      "title": "【8/23 MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
+      "publishedAt": "2026-08-19T22:26:01+09:00",
+      "relatedRelease": "watashi-no-eranda-michi",
+      "thumbnail": "https://i.ytimg.com/vi/hjqiZqPdrv8/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 86,
+      "description": "妃みちる『私の選んだ道』MVの公開予定を案内する公式Shorts。"
+    },
+    {
+      "videoId": "wpzMoz2LgWE",
+      "title": "【先行公開】榎本魅愛『花言葉』｜8月19日20時 フルMV解禁｜両親の結婚記念日に #shorts",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/shorts/wpzMoz2LgWE",
+      "publishedAt": "2026-08-19T01:54:13+09:00",
+      "relatedRelease": "hanakotoba",
+      "thumbnail": "https://i.ytimg.com/vi/wpzMoz2LgWE/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 40,
+      "description": "榎本魅愛『花言葉』フルMVの公開を案内する公式Shorts。"
+    },
+    {
+      "videoId": "ksYJEnyC284",
+      "title": "【MV】愛してるからこそ、手を離した。｜神代煌牙『分かれた道』",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "youtubeUrl": "https://www.youtube.com/shorts/ksYJEnyC284",
+      "publishedAt": "2026-08-17T21:31:55+09:00",
+      "relatedRelease": "wakareta-michi",
+      "thumbnail": "https://i.ytimg.com/vi/ksYJEnyC284/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 40,
+      "description": "神代煌牙『分かれた道』Official MVの先行公開Shorts。"
+    },
+    {
+      "videoId": "QG2KN01CsJ4",
+      "title": "【8/20 MV解禁】friend like song / 妃みちる｜何年経っても、変わらないメンツがいる。🍺☀️",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
+      "publishedAt": "2026-08-16T20:37:31+09:00",
+      "relatedRelease": "friendlikesong",
+      "thumbnail": "https://i.ytimg.com/vi/QG2KN01CsJ4/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 32,
+      "description": "妃みちる『friendlikesong』の2026年8月20日MV解禁を案内する、SUZUKA公式YouTubeの公開済みShorts。"
+    },
+    {
+      "videoId": "HJugNSYcBI0",
+      "title": "タイパなんて知らなかった。｜榎本魅愛 #Shorts",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/shorts/HJugNSYcBI0",
+      "publishedAt": "2026-08-15T16:13:18+09:00",
+      "relatedRelease": "taipa-nante-shiranakatta",
+      "thumbnail": "https://i.ytimg.com/vi/HJugNSYcBI0/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 31,
+      "description": "榎本魅愛「タイパなんて知らなかった」の公式Shorts。"
+    },
+    {
+      "videoId": "pZTC_mEwl5s",
+      "title": "NOX『FAMILY PORTRAIT』― この家族写真、どこかおかしい。【Official Short MV】",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "youtubeUrl": "https://www.youtube.com/shorts/pZTC_mEwl5s",
+      "publishedAt": "2026-08-14T21:38:30+09:00",
+      "relatedRelease": "family-portrait",
+      "thumbnail": "https://i.ytimg.com/vi/pZTC_mEwl5s/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 25,
+      "description": "NOX「FAMILY PORTRAIT」のOfficial Short MV。"
+    },
+    {
+      "videoId": "HuWmUFlwh6s",
+      "title": "「いま、幸せですか？」｜妃みちる『たった1人の君へ』8.17 20:00 Debut",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
+      "publishedAt": "2026-08-13T21:44:14+09:00",
+      "relatedRelease": "tatta-hitori-no-kimi-e",
+      "thumbnail": "https://i.ytimg.com/vi/HuWmUFlwh6s/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 25,
+      "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。"
+    }
+  ],
+  "upcomingHeld": [
+    {
+      "videoId": "FC1D7-0SeBc",
+      "title": "【MV】妃みちる『私の選んだ道』｜好きだから、追わない道を選んだ。",
+      "scheduledAt": "2026-08-23T20:00:00+09:00",
+      "relatedRelease": "watashi-no-eranda-michi",
+      "status": "upcoming",
+      "playabilityStatus": "LIVE_STREAM_OFFLINE"
+    }
+  ]
+}

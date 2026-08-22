@@ -1,45 +1,4 @@
 {
-  "updatedAt": "2026-08-19T00:00:00+09:00",
-  "releases": [
-    {
-      "slug": "tatta-hitori-no-kimi-e",
-      "title": "たった1人の君へ",
-      "artist": "妃みちる",
-      "artistSlug": "michiru",
-      "scheduledAt": "2026-08-17T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
-      "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
-      "image": "https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg",
-      "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
-      "releaseAt": "2026-08-17T20:00:00+09:00",
-      "publishedAt": "2026-08-17T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "SUZUKA公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [
-        "J-POP",
-        "アコースティック"
-      ],
-      "themes": [
-        "恋愛",
-        "感謝"
-      ],
-      "tags": [
-        "シンガーソングライター",
-        "JPOP",
-        "アコースティック",
-        "恋愛ソング",
-        "青春"
-      ],
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null,
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 5
-    }
-  ]
+  "updatedAt": "2026-08-22T21:39:45+09:00",
+  "releases": []
 }

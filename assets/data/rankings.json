@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e",
         "monsoon-promise",
         "taipa-nante-shiranakatta",
         "family-portrait",
         "false-identity",
         "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kamisama-wa-rusu",
-        "kimi-wa-makenai",
-        "leo-rise-again",
-        "last-dance-tonight"
+        "caramel"
       ]
     },
     "love": {
@@ -51,6 +51,7 @@
     "summer": {
       "label": "夏ソングTOP10",
       "items": [
+        "friendlikesong",
         "mermaid-no-geboku",
         "kimi-wa-hanabi",
         "mermaid-merman"
@@ -59,6 +60,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "wakareta-michi",
         "taipa-nante-shiranakatta",
         "kimi-wa-makenai",
         "last-dance-tonight",
@@ -92,14 +94,14 @@
         "enomoto-mia",
         "koga-kamishiro",
         "eclypse",
+        "michiru",
         "rangili",
         "nox",
         "asagiri-shinobu",
         "revive",
         "asteria",
         "hoshimiya-hanon",
-        "hoshino-miu",
-        "michiru"
+        "hoshino-miu"
       ]
     },
     "genres": {
@@ -107,22 +109,25 @@
       "items": [
         "J-POP",
         "ロマンティックポップ",
-        "ダークポップ",
         "バラード",
+        "ダークポップ",
         "K-POP風",
         "アイドルポップ",
         "ロック",
         "V系",
+        "J-ROCK",
         "ファンタジーポップ",
         "演歌",
         "歌謡曲",
         "ダークロック",
         "インド×J-POP",
         "シネマティック",
+        "Dark Pop",
+        "サマーソング",
+        "アコースティック",
         "ゴシックロック",
         "Dark K-POP",
         "応援歌",
-        "J-ROCK",
         "Cinematic Rock",
         "Dark Rock",
         "EUROBEAT",

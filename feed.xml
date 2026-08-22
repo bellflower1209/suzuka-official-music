@@ -2,19 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-19T00:00:00+09:00</updated>
+  <updated>2026-08-22T21:39:45+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
   <entry>
-    <id>https://www.youtube.com/watch?v=CPIDy31wnc4</id>
-    <title>Upcoming｜妃みちる「たった1人の君へ」</title>
-    <updated>2026-08-19T00:00:00+09:00</updated>
-    <link href="https://www.youtube.com/watch?v=CPIDy31wnc4" />
-    <category term="upcoming" />
-    <summary>2026-08-17T20:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-08-21T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/wakareta-michi/</id>
+    <title>神代煌牙「分かれた道」</title>
+    <updated>2026-08-21T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/wakareta-michi/" />
+    <category term="release" />
+    <summary>愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-19T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/friendlikesong/</id>
+    <title>妃みちる「friendlikesong」</title>
+    <updated>2026-08-19T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/friendlikesong/" />
+    <category term="release" />
+    <summary>大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-18T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</id>
+    <title>妃みちる「私の選んだ道」</title>
+    <updated>2026-08-18T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/" />
+    <category term="release" />
+    <summary>好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-17T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</id>
+    <title>妃みちる「たった1人の君へ」</title>
+    <updated>2026-08-17T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/" />
+    <category term="release" />
+    <summary>過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。</summary>
   </entry>
   <entry>
     <published>2026-08-16T20:00:06+09:00</published>

@@ -3,6 +3,15 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/enomoto-mia/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wpzMoz2LgWE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>【先行公開】榎本魅愛『花言葉』｜8月19日20時 フルMV解禁｜両親の結婚記念日に #shorts</video:title>
+      <video:description>榎本魅愛『花言葉』フルMVの公開を案内する公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/wpzMoz2LgWE</video:content_loc>
+      <video:publication_date>2026-08-19T01:54:13+09:00</video:publication_date>
+      <video:duration>40</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/HJugNSYcBI0/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>タイパなんて知らなかった。｜榎本魅愛 #Shorts</video:title>
       <video:description>榎本魅愛「タイパなんて知らなかった」の公式Shorts。</video:description>
@@ -13,7 +22,28 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/artists/koga-kamishiro/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ksYJEnyC284/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>【MV】愛してるからこそ、手を離した。｜神代煌牙『分かれた道』</video:title>
+      <video:description>神代煌牙『分かれた道』Official MVの先行公開Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/ksYJEnyC284</video:content_loc>
+      <video:publication_date>2026-08-17T21:31:55+09:00</video:publication_date>
+      <video:duration>40</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/artists/michiru/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hjqiZqPdrv8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>【8/23 MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』</video:title>
+      <video:description>妃みちる『私の選んだ道』MVの公開予定を案内する公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/hjqiZqPdrv8</video:content_loc>
+      <video:publication_date>2026-08-19T22:26:01+09:00</video:publication_date>
+      <video:duration>86</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/QG2KN01CsJ4/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>【8/20 MV解禁】friend like song / 妃みちる｜何年経っても、変わらないメンツがいる。🍺☀️</video:title>
@@ -125,11 +155,11 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/hanakotoba/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/iinLScSzA9w/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>花言葉 Official MV</video:title>
       <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
-      <video:player_loc>https://www.youtube.com/embed/mdTogs4Oiew</video:player_loc>
-      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:player_loc>https://www.youtube.com/embed/iinLScSzA9w</video:player_loc>
+      <video:publication_date>2026-08-19T20:00:06+09:00</video:publication_date>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -458,8 +488,8 @@
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</video:thumbnail_loc>
       <video:title>花言葉 公式動画</video:title>
       <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=mdTogs4Oiew</video:content_loc>
-      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:content_loc>https://www.youtube.com/watch?v=iinLScSzA9w</video:content_loc>
+      <video:publication_date>2026-08-19T20:00:06+09:00</video:publication_date>
       <video:duration>234</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
@@ -620,6 +650,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/friendlikesong/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/IbydSXmEyVQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>friendlikesong Official Video</video:title>
+      <video:description>大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=IbydSXmEyVQ</video:content_loc>
+      <video:publication_date>2026-08-20T20:00:06+09:00</video:publication_date>
+      <video:duration>263</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/hajimemashite-kiseki/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/rr12NZuWHHs/maxresdefault.jpg</video:thumbnail_loc>
@@ -634,11 +676,11 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/hanakotoba/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/mdTogs4Oiew/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/iinLScSzA9w/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>花言葉 Official Video</video:title>
       <video:description>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=mdTogs4Oiew</video:content_loc>
-      <video:publication_date>2026-08-07T20:00:28+09:00</video:publication_date>
+      <video:content_loc>https://www.youtube.com/watch?v=iinLScSzA9w</video:content_loc>
+      <video:publication_date>2026-08-19T20:00:06+09:00</video:publication_date>
       <video:duration>234</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
@@ -993,6 +1035,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>たった1人の君へ Official Video</video:title>
+      <video:description>過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=CPIDy31wnc4</video:content_loc>
+      <video:publication_date>2026-08-17T20:00:06+09:00</video:publication_date>
+      <video:duration>338</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</video:thumbnail_loc>
@@ -1011,6 +1065,18 @@
       <video:description>好きな人との距離が近づくほど、心拍数も感情も制御不能になっていく瞬間を描いた榎本魅愛の公式ミュージックビデオ。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=QXvpLCnyoOw</video:content_loc>
       <video:publication_date>2026-07-15T00:51:42+09:00</video:publication_date>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/wakareta-michi/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EU_5CqN1zZw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>分かれた道 Official Video</video:title>
+      <video:description>愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=EU_5CqN1zZw</video:content_loc>
+      <video:publication_date>2026-08-22T20:00:06+09:00</video:publication_date>
+      <video:duration>319</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -1035,6 +1101,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=YxZWABTJBGk</video:content_loc>
       <video:publication_date>2026-07-23T20:00:34+09:00</video:publication_date>
       <video:duration>311</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rsrkmzJM1kk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>私の選んだ道 Official Video</video:title>
+      <video:description>好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=rsrkmzJM1kk</video:content_loc>
+      <video:publication_date>2026-08-18T20:00:06+09:00</video:publication_date>
+      <video:duration>322</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

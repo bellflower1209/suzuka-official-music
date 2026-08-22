@@ -25,8 +25,10 @@ def main() -> int:
             errors.append(f'{item["slug"]}: scheduled video must not expose VideoObject')
         if item["scheduledAt"] not in source or "data-countdown-output" not in source:
             errors.append(f'{item["slug"]}: countdown evidence missing')
-    if not re.search(r'2026-\d\d-\d\dT\d\d:\d\d:\d\d\+09:00', schedule):
+    if cms["upcoming"] and not re.search(r'2026-\d\d-\d\dT\d\d:\d\d:\d\d\+09:00', schedule):
         errors.append("schedule has no timezone-aware JST datetime")
+    if not cms["upcoming"] and "現在該当する公開予定はありません" not in schedule:
+        errors.append("schedule empty state missing")
     sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
     for item in cms["upcoming"]:
         if f'/releases/{item["slug"]}/' in sitemap:

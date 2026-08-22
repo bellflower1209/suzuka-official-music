@@ -96,6 +96,8 @@ def main() -> int:
     releases = catalog["releases"]
     upcoming = catalog["upcoming"]
     artist_slugs = sorted({slug for item in releases for slug in item["artistSlugs"]})
+    published_artists = [item for item in cms["artists"] if item.get("status") == "published"]
+    artists_by_slug = {item["slug"]: item for item in published_artists}
     feature_pages = sorted((root / "features").glob("*/index.html"))
     gallery_pages = sorted((root / "gallery").glob("*/index.html"))
     wiki_pages = sorted((root / "wiki").glob("*/index.html"))
@@ -114,7 +116,7 @@ def main() -> int:
     actual = {
         "published": len(releases),
         "upcoming": len(upcoming),
-        "artists": len(artist_slugs),
+        "artists": sum((root / f'artists/{item["slug"]}/index.html').is_file() for item in published_artists),
         "rankings": len(rankings["rankings"]),
         "features": len(feature_pages),
         "galleryWorks": len(gallery_pages),
@@ -140,12 +142,14 @@ def main() -> int:
             f'latest published release must be {expected_latest.get("slug")}, found {latest.get("slug")}'
         )
     home = (root / "index.html").read_text(encoding="utf-8")
+    hero_item = next(item for item in releases if item.get("homeHero"))
+    hero_config = hero_item["homeHero"]
     home_markers = (
-        '<title>SUZUKA Official | Original AI Music Project</title>',
-        '架空のAIアーティストによるオリジナル音楽・MV・公式歌詞・ビジュアル・物語',
+        f'<title>{hero_config["title"]}</title>',
+        hero_config["description"],
         'data-home-hero', '榎本魅愛 New Single', 'Now Streaming',
         './images/enomoto-mia-hanakotoba.jpg',
-        'https://www.youtube.com/watch?v=mdTogs4Oiew',
+        hero_item["youtubeUrl"],
         './releases/hanakotoba/', './gallery/hanakotoba/',
         '"@type":"MusicRecording"', '"@type":"VideoObject"',
     )
@@ -216,10 +220,13 @@ def main() -> int:
     for slug in artist_slugs:
         path = root / f"artists/{slug}/index.html"
         source = path.read_text(encoding="utf-8")
-        for marker in (
+        markers = [
             "最新曲", "SUZUKAおすすめ", "Official MV / Shorts / News / Gallery",
-            "公開作品一覧", "SUZUKA Original AI Artist", "Instagram",
-        ):
+            "公開作品一覧", "SUZUKA Original AI Artist",
+        ]
+        if artists_by_slug[slug].get("instagramUrl"):
+            markers.append("Instagram")
+        for marker in markers:
             if marker not in source:
                 errors.append(f"artists/{slug}: missing {marker}")
         discovery = re.search(r'<section class="v11-artist-discovery">(.*?)</section>', source, re.S)

@@ -49,7 +49,8 @@ def main() -> None:
             errors.append(f"unverified sameAs entry: {profile}")
     if '<meta property="og:site_name" content="SUZUKA Official"' not in home:
         errors.append("Home og:site_name mismatch")
-    if "<title>SUZUKA Official | Original AI Music Project</title>" not in home:
+    hero_release = next(item for item in cms["releases"] if item.get("homeHero"))
+    if f'<title>{hero_release["homeHero"]["title"]}</title>' not in home:
         errors.append("Home title mismatch")
     if "SUZUKA Official · Original AI Music Project" not in home:
         errors.append("Home visible brand descriptor missing")

@@ -150,13 +150,20 @@ def scan(root: Path) -> dict:
 def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]:
     evidence_path = root / "assets/data/youtube-publish-dates.json"
     evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
-    by_slug = {
-        item["releaseSlug"]: item
-        for item in evidence["records"]
-        if item.get("contentType") != "short"
-    }
+    candidates: dict[str, list[dict]] = {}
+    for item in evidence["records"]:
+        if item.get("contentType") != "short":
+            candidates.setdefault(item["releaseSlug"], []).append(item)
+    by_slug: dict[str, dict] = {}
     for release in cms["releases"]:
-        record = by_slug.get(release["slug"], {})
+        video_id = str(release.get("youtubeUrl", "")).split("v=", 1)[-1].split("&", 1)[0]
+        options = candidates.get(release["slug"], [])
+        record = next((item for item in options if item.get("youtubeId") == video_id), None)
+        if record is None and options:
+            record = max(options, key=lambda item: item.get("verifiedPublishedAt", ""))
+        record = record or {}
+        if record:
+            by_slug[release["slug"]] = record
         verified = record.get("verifiedPublishedAt", "")
         release["videoPublishDate"] = (
             record.get("youtubePublishDate", "")[:10]
@@ -166,7 +173,7 @@ def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]
         release["videoPublishedAt"] = verified
         release["videoPublishedAtSource"] = record.get("verificationSource", "")
         release["videoStructuredDataStatus"] = "published" if verified else "held-date-only"
-        release["publishedAt"] = verified or release["videoPublishDate"]
+        release.setdefault("publishedAt", verified or release["videoPublishDate"])
     cms_path = root / "assets/data/creator-cms.json"
     cms_path.write_text(json.dumps(cms, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return evidence, by_slug

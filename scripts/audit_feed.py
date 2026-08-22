@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate Atom feed contents and discovery links."""
 from __future__ import annotations
-import argparse, re, sys, xml.etree.ElementTree as ET
+import argparse, json, re, sys, xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
 from structured_data_dates import ISO_DATETIME_TZ_RE
@@ -19,7 +19,10 @@ def main()->int:
         category=entry.find("a:category",NS); term=category.get("term","") if category is not None else ""; categories.add(term)
         if term=="upcoming" and not (entry.findtext("a:title",default="",namespaces=NS).startswith("Upcoming｜")): errors.append("upcoming entry not clearly labeled")
     if len(ids)!=len(set(ids)): errors.append("feed duplicate entry IDs")
-    if not {"release","news","upcoming"}.issubset(categories): errors.append("feed categories incomplete")
+    required = {"release", "news"}
+    if json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8")).get("upcoming"):
+        required.add("upcoming")
+    if not required.issubset(categories): errors.append("feed categories incomplete")
     public=0
     for path in root.glob("**/index.html"):
         rel=path.relative_to(root); text=path.read_text(encoding="utf-8"); links=len(re.findall(r'type="application/atom\+xml"',text))

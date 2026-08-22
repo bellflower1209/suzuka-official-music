@@ -16,7 +16,10 @@ JST = ZoneInfo("Asia/Tokyo")
 
 def main() -> int:
     cms = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
-    item = cms["upcoming"][0]
+    item = cms["upcoming"][0] if cms["upcoming"] else {
+        "slug": "audit-fixture",
+        "scheduledAt": "2026-08-23T20:00:00+09:00",
+    }
     channel_id = cms["site"]["youtubeChannelId"]
     scheduled = datetime.fromisoformat(item["scheduledAt"])
     timestamp = int(scheduled.timestamp())

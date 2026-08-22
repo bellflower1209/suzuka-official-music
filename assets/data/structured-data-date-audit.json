@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-08-17T09:48:00+09:00",
+  "evidenceCheckedAt": "2026-08-22T21:39:45+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 200,
-    "videoObjects": 93,
+    "jsonLdBlocks": 203,
+    "videoObjects": 100,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,19 +436,13 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 88,
+  "fixedVideoObjectCount": 95,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",
     "KHZMfULXuGQ",
     "o7AOgpc2O-k"
   ],
-  "heldReleases": [
-    {
-      "releaseSlug": "tatta-hitori-no-kimi-e",
-      "youtubeId": "CPIDy31wnc4",
-      "verifiedDate": ""
-    }
-  ],
-  "heldReleaseCount": 1
+  "heldReleases": [],
+  "heldReleaseCount": 0
 }

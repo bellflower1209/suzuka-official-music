@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -18,6 +19,7 @@ IMAGES = {
     "星宮 羽音": "images/revive-hanon-hoshimiya-profile.png",
 }
 BASE = "https://www.suzukaofficial.com/"
+SARA_IMAGE_SHA256 = "ebe887062628806c3c22272e6a4718dccce1fe998fd5b3db9055b00b499b3fa4"
 
 
 def jsonld(path: Path) -> list[dict]:
@@ -47,6 +49,9 @@ def main() -> int:
             errors.append(f'profile image mismatch: {member["name"]}')
         if not member.get("imageAlt") or not member.get("imageWidth") or not member.get("imageHeight"):
             errors.append(f'image metadata missing: {member["name"]}')
+    sara_image = root / IMAGES["橘 紗良"]
+    if sara_image.is_file() and hashlib.sha256(sara_image.read_bytes()).hexdigest() != SARA_IMAGE_SHA256:
+        errors.append("橘紗良 profile image content mismatch")
 
     hanon = artists.get("hoshimiya-hanon", {})
     if hanon.get("affiliation") != "RE:VIVE" or hanon.get("type") != "Person":

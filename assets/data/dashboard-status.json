@@ -1,8 +1,12 @@
 {
-  "updatedAt": "2026-08-19T00:00:00+09:00",
+  "updatedAt": "2026-08-22T21:39:45+09:00",
   "publishedReleases": {
-    "count": 47,
+    "count": 51,
     "items": [
+      "分かれた道",
+      "friendlikesong",
+      "私の選んだ道",
+      "たった1人の君へ",
       "Monsoon Promise",
       "タイパなんて知らなかった",
       "FAMILY PORTRAIT",
@@ -53,10 +57,8 @@
     ]
   },
   "upcoming": {
-    "count": 1,
-    "items": [
-      "たった1人の君へ"
-    ]
+    "count": 0,
+    "items": []
   },
   "publishedLyrics": {
     "count": 17,
@@ -92,9 +94,7 @@
     ]
   },
   "nextRelease": {
-    "count": 1,
-    "items": [
-      "たった1人の君へ / 2026-08-17T20:00:00+09:00"
-    ]
+    "count": 0,
+    "items": []
   }
 }

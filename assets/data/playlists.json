@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T00:00:00+09:00",
+  "updatedAt": "2026-08-22T21:39:45+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -57,9 +57,10 @@
       "releaseSlugs": [
         "kimi-wa-hanabi",
         "mermaid-merman",
+        "friendlikesong",
         "mermaid-no-geboku"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "winter",
@@ -96,9 +97,10 @@
         "ashita-wa-kitto",
         "kimi-wa-makenai",
         "last-dance-tonight",
-        "taipa-nante-shiranakatta"
+        "taipa-nante-shiranakatta",
+        "wakareta-michi"
       ],
-      "count": 9
+      "count": 10
     },
     {
       "slug": "tearjerkers",
@@ -119,9 +121,11 @@
         "kimi-wa-hanabi",
         "smile-and-say-goodbye",
         "wasurenai-kokoro",
-        "false-identity"
+        "false-identity",
+        "wakareta-michi",
+        "watashi-no-eranda-michi"
       ],
-      "count": 6
+      "count": 8
     },
     {
       "slug": "ai-idols",
@@ -229,6 +233,10 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e",
         "taipa-nante-shiranakatta",
         "monsoon-promise",
         "family-portrait",
@@ -244,11 +252,7 @@
         "hanakotoba",
         "wasureji-no-hito",
         "anata-dake-no-savior",
-        "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal"
+        "hajimemashite-kiseki"
       ],
       "count": 20
     },
@@ -261,6 +265,10 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e",
         "monsoon-promise",
         "taipa-nante-shiranakatta",
         "family-portrait",
@@ -276,11 +284,7 @@
         "hanakotoba",
         "anata-dake-no-savior",
         "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal"
+        "hajimemashite-kiseki"
       ],
       "count": 20
     }

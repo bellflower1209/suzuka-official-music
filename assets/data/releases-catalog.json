@@ -1,6 +1,550 @@
 {
-  "updatedAt": "2026-08-19T00:00:00+09:00",
+  "updatedAt": "2026-08-22T21:39:45+09:00",
   "releases": [
+    {
+      "slug": "wakareta-michi",
+      "id": "wakareta-michi",
+      "title": "分かれた道",
+      "displayTitle": "分かれた道",
+      "englishTitle": "分かれた道",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-21T20:00:06+09:00",
+      "publishedAt": "2026-08-21T20:00:06+09:00",
+      "releaseDate": "2026-08-21",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop"
+      ],
+      "moods": [],
+      "themes": [
+        "別れ",
+        "未来",
+        "祈り"
+      ],
+      "tags": [
+        "神代煌牙",
+        "分かれた道",
+        "CinematicJPOP",
+        "JROCK",
+        "失恋ソング",
+        "別れの歌",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "別れ",
+        "未来",
+        "祈り"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/EU_5CqN1zZw/maxresdefault.jpg",
+      "coverAlt": "神代煌牙「分かれた道」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+      "shortsUrl": "https://www.youtube.com/shorts/ksYJEnyC284",
+      "releaseUrl": "releases/wakareta-michi/",
+      "newsUrl": "",
+      "duration": 319,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "分かれた道",
+        "神代煌牙",
+        "CinematicJPOP",
+        "JROCK",
+        "失恋ソング",
+        "別れの歌",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "別れ",
+        "未来",
+        "祈り"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。",
+      "introduction": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。",
+      "seo": {
+        "title": "分かれた道｜神代煌牙｜SUZUKA Official Music",
+        "description": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-22",
+      "videoPublishedAt": "2026-08-22T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "audioUrl": "https://www.youtube.com/watch?v=9vt1rkClDos",
+      "recommendations": {
+        "sameArtist": [
+          "kamisama-wa-rusu",
+          "leo-rise-again",
+          "mermaid-no-geboku",
+          "one-more-kiss",
+          "echoes-of-you",
+          "boukyaku-no-ikimono"
+        ],
+        "sameGenre": [
+          "watashi-no-eranda-michi",
+          "smile-and-say-goodbye",
+          "ashita-wa-kitto",
+          "one-more-kiss",
+          "echoes-of-you",
+          "leo-rise-again"
+        ],
+        "sameTheme": [
+          "watashi-no-eranda-michi",
+          "smile-and-say-goodbye",
+          "ashita-wa-kitto",
+          "lost-signal",
+          "shadow-code"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait"
+        ],
+        "aiRecommended": [
+          "watashi-no-eranda-michi",
+          "smile-and-say-goodbye",
+          "ashita-wa-kitto",
+          "one-more-kiss",
+          "echoes-of-you",
+          "leo-rise-again"
+        ]
+      }
+    },
+    {
+      "slug": "friendlikesong",
+      "id": "friendlikesong",
+      "title": "friendlikesong",
+      "displayTitle": "friendlikesong",
+      "englishTitle": "friendlikesong",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-19T20:00:06+09:00",
+      "publishedAt": "2026-08-19T20:00:06+09:00",
+      "releaseDate": "2026-08-19",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "サマーソング"
+      ],
+      "moods": [],
+      "themes": [
+        "友情",
+        "夏",
+        "仲間"
+      ],
+      "tags": [
+        "妃みちる",
+        "friendlikesong",
+        "夏ソング",
+        "海",
+        "友情",
+        "仲間",
+        "J-POP",
+        "サマーソング",
+        "夏"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/IbydSXmEyVQ/maxresdefault.jpg",
+      "coverAlt": "妃みちる「friendlikesong」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+      "shortsUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
+      "releaseUrl": "releases/friendlikesong/",
+      "newsUrl": "",
+      "duration": 263,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [
+        "tatta-hitori-no-kimi-e"
+      ],
+      "searchKeywords": [
+        "friendlikesong",
+        "妃みちる",
+        "夏ソング",
+        "海",
+        "友情",
+        "仲間",
+        "J-POP",
+        "サマーソング",
+        "夏"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
+      "introduction": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
+      "seo": {
+        "title": "friendlikesong｜妃みちる｜SUZUKA Official Music",
+        "description": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-20",
+      "videoPublishedAt": "2026-08-20T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "audioUrl": "https://www.youtube.com/watch?v=8xRXgVv0Z_o",
+      "recommendations": {
+        "sameArtist": [
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e"
+        ],
+        "sameGenre": [
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "kimi-wa-hanabi",
+          "wakareta-michi",
+          "taipa-nante-shiranakatta",
+          "kimi-wa-makenai"
+        ],
+        "sameTheme": [
+          "kimi-wa-hanabi"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "wakareta-michi",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait"
+        ],
+        "aiRecommended": [
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "kimi-wa-hanabi",
+          "wakareta-michi",
+          "taipa-nante-shiranakatta",
+          "kimi-wa-makenai"
+        ]
+      }
+    },
+    {
+      "slug": "watashi-no-eranda-michi",
+      "id": "watashi-no-eranda-michi",
+      "title": "私の選んだ道",
+      "displayTitle": "私の選んだ道",
+      "englishTitle": "私の選んだ道",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-18T20:00:06+09:00",
+      "publishedAt": "2026-08-18T20:00:06+09:00",
+      "releaseDate": "2026-08-18",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "moods": [],
+      "themes": [
+        "初恋",
+        "別れ",
+        "未来"
+      ],
+      "tags": [
+        "妃みちる",
+        "失恋ソング",
+        "恋愛ソング",
+        "青春",
+        "初恋",
+        "バラード",
+        "J-POP",
+        "別れ",
+        "未来"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/rsrkmzJM1kk/maxresdefault.jpg",
+      "coverAlt": "妃みちる「私の選んだ道」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
+      "shortsUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
+      "releaseUrl": "releases/watashi-no-eranda-michi/",
+      "newsUrl": "",
+      "duration": 322,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [
+        "tatta-hitori-no-kimi-e"
+      ],
+      "searchKeywords": [
+        "私の選んだ道",
+        "妃みちる",
+        "失恋ソング",
+        "恋愛ソング",
+        "青春",
+        "初恋",
+        "バラード",
+        "J-POP",
+        "別れ",
+        "未来"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。",
+      "introduction": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。",
+      "seo": {
+        "title": "私の選んだ道｜妃みちる｜SUZUKA Official Music",
+        "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-18",
+      "videoPublishedAt": "2026-08-18T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "friendlikesong",
+          "tatta-hitori-no-kimi-e"
+        ],
+        "sameGenre": [
+          "wakareta-michi",
+          "smile-and-say-goodbye",
+          "hanakotoba",
+          "still-alive",
+          "without-worrying",
+          "ashita-wa-kitto"
+        ],
+        "sameTheme": [
+          "wakareta-michi",
+          "smile-and-say-goodbye",
+          "lost-signal",
+          "shadow-code"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "tatta-hitori-no-kimi-e",
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait"
+        ],
+        "aiRecommended": [
+          "wakareta-michi",
+          "smile-and-say-goodbye",
+          "hanakotoba",
+          "still-alive",
+          "without-worrying",
+          "ashita-wa-kitto"
+        ]
+      }
+    },
+    {
+      "slug": "tatta-hitori-no-kimi-e",
+      "id": "tatta-hitori-no-kimi-e",
+      "title": "たった1人の君へ",
+      "displayTitle": "たった1人の君へ",
+      "englishTitle": "たった1人の君へ",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-17T20:00:06+09:00",
+      "publishedAt": "2026-08-17T20:00:06+09:00",
+      "releaseDate": "2026-08-17",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アコースティック"
+      ],
+      "moods": [],
+      "themes": [
+        "恋愛",
+        "感謝"
+      ],
+      "tags": [
+        "シンガーソングライター",
+        "JPOP",
+        "アコースティック",
+        "恋愛ソング",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "感謝"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg",
+      "coverAlt": "妃みちる「たった1人の君へ」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
+      "releaseUrl": "releases/tatta-hitori-no-kimi-e/",
+      "newsUrl": "",
+      "duration": 338,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [
+        "watashi-no-eranda-michi",
+        "friendlikesong"
+      ],
+      "searchKeywords": [
+        "たった1人の君へ",
+        "妃みちる",
+        "シンガーソングライター",
+        "JPOP",
+        "アコースティック",
+        "恋愛ソング",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "感謝"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
+      "introduction": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
+      "seo": {
+        "title": "たった1人の君へ｜妃みちる｜SUZUKA Official Music",
+        "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-17",
+      "videoPublishedAt": "2026-08-17T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "friendlikesong",
+          "watashi-no-eranda-michi"
+        ],
+        "sameGenre": [
+          "kimi-ni-kakatta-mahou",
+          "watashi-no-eranda-michi",
+          "friendlikesong",
+          "hanakotoba",
+          "mermaid-no-geboku",
+          "koisuru-maharaja"
+        ],
+        "sameTheme": [
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba",
+          "mermaid-no-geboku",
+          "koisuru-maharaja",
+          "one-more-kiss",
+          "ai-demo-wakaranai"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "taipa-nante-shiranakatta",
+          "monsoon-promise",
+          "family-portrait"
+        ],
+        "aiRecommended": [
+          "kimi-ni-kakatta-mahou",
+          "watashi-no-eranda-michi",
+          "friendlikesong",
+          "hanakotoba",
+          "mermaid-no-geboku",
+          "koisuru-maharaja"
+        ]
+      }
+    },
     {
       "slug": "monsoon-promise",
       "title": "Monsoon Promise",
@@ -79,20 +623,20 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel",
-          "kamisama-wa-rusu"
+          "family-portrait"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
           "namaste-galaxy",
           "taipa-nante-shiranakatta",
           "family-portrait",
-          "false-identity",
-          "natsu-ga-owaru-made-soba-ni-ite"
+          "tatta-hitori-no-kimi-e",
+          "false-identity"
         ]
       }
     },
@@ -212,12 +756,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel",
-          "kamisama-wa-rusu"
+          "family-portrait"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -337,12 +881,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel",
-          "kamisama-wa-rusu"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -471,12 +1015,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "caramel",
-          "kamisama-wa-rusu"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -570,12 +1114,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "false-identity",
-          "caramel",
-          "kamisama-wa-rusu"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "caramel",
@@ -669,12 +1213,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "kamisama-wa-rusu"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "natsu-ga-owaru-made-soba-ni-ite",
@@ -750,12 +1294,12 @@
       "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
           "echoes-of-you",
-          "boukyaku-no-ikimono",
-          "my-queen-my-oath"
+          "boukyaku-no-ikimono"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -768,20 +1312,20 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
+          "wakareta-michi",
           "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "my-queen-my-oath"
+          "echoes-of-you"
         ]
       }
     },
@@ -912,12 +1456,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -1027,14 +1571,16 @@
       "homeHero": {},
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "mermaid-no-geboku",
           "one-more-kiss",
           "echoes-of-you",
-          "boukyaku-no-ikimono",
-          "my-queen-my-oath"
+          "boukyaku-no-ikimono"
         ],
-        "sameGenre": [],
+        "sameGenre": [
+          "wakareta-michi"
+        ],
         "sameTheme": [
           "one-more-kiss"
         ],
@@ -1047,20 +1593,20 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
+          "wakareta-michi",
           "one-more-kiss",
           "kamisama-wa-rusu",
           "mermaid-no-geboku",
           "boukyaku-no-ikimono",
-          "echoes-of-you",
-          "my-queen-my-oath"
+          "echoes-of-you"
         ]
       }
     },
@@ -1186,12 +1732,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -1324,12 +1870,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -1435,12 +1981,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "leo-rise-again",
           "one-more-kiss",
           "echoes-of-you",
-          "boukyaku-no-ikimono",
-          "my-queen-my-oath"
+          "boukyaku-no-ikimono"
         ],
         "sameGenre": [
           "mermaid-merman",
@@ -1467,12 +2013,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -1517,7 +2063,7 @@
       "coverImage": "images/enomoto-mia-hanakotoba.jpg",
       "coverAlt": "榎本魅愛「花言葉」公式YouTubeサムネイル",
       "releaseUrl": "releases/hanakotoba/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iinLScSzA9w",
       "newsUrl": "news/hanakotoba-release/",
       "duration": 234,
       "status": "published",
@@ -1553,7 +2099,7 @@
       "introduction": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
       "publishedAt": "2026-08-07T20:00:28+09:00",
       "instagramUrl": "",
-      "shortsUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/wpzMoz2LgWE",
       "galleryImages": [
         "images/enomoto-mia-hanakotoba.jpg"
       ],
@@ -1563,11 +2109,11 @@
         "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-01",
-      "videoPublishedAt": "2026-08-07T20:00:28+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-08-19",
+      "videoPublishedAt": "2026-08-19T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "officialSource": "https://www.youtube.com/watch?v=iinLScSzA9w",
       "playlistPriority": 100,
       "homeHero": {
         "title": "SUZUKA Official | 榎本魅愛「花言葉」公開中",
@@ -1585,6 +2131,8 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "audioUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
       "recommendations": {
         "sameArtist": [
           "taipa-nante-shiranakatta",
@@ -1619,12 +2167,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -1757,12 +2305,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -1887,12 +2435,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -2030,12 +2578,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2165,12 +2713,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -2293,12 +2841,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -2404,12 +2952,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "echoes-of-you",
-          "boukyaku-no-ikimono",
-          "my-queen-my-oath"
+          "boukyaku-no-ikimono"
         ],
         "sameGenre": [
           "echoes-of-you",
@@ -2436,12 +2984,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -2557,7 +3105,9 @@
           "boukyaku-no-ikimono"
         ],
         "sameTheme": [
-          "shadow-code"
+          "shadow-code",
+          "wakareta-michi",
+          "watashi-no-eranda-michi"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -2568,12 +3118,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -2708,12 +3258,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -2837,12 +3387,12 @@
           "wasureji-no-hito"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -2962,12 +3512,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -3101,12 +3651,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -3236,12 +3786,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -3344,20 +3894,20 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
-          "boukyaku-no-ikimono",
-          "my-queen-my-oath"
+          "boukyaku-no-ikimono"
         ],
         "sameGenre": [
           "one-more-kiss",
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "mermaid-no-geboku",
-          "heal-you-again",
-          "namaste-galaxy"
+          "wakareta-michi",
+          "heal-you-again"
         ],
         "sameTheme": [
           "mermaid-no-geboku"
@@ -3371,20 +3921,20 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "one-more-kiss",
           "boukyaku-no-ikimono",
           "my-queen-my-oath",
           "mermaid-no-geboku",
-          "heal-you-again",
-          "namaste-galaxy"
+          "wakareta-michi",
+          "heal-you-again"
         ]
       }
     },
@@ -3499,12 +4049,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -3624,12 +4174,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -3740,16 +4290,18 @@
         ],
         "sameGenre": [
           "ashita-wa-kitto",
+          "watashi-no-eranda-michi",
           "without-worrying",
           "hanakotoba",
           "our-kingdom",
-          "kimi-ni-kakatta-mahou",
-          "my-queen-my-oath"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameTheme": [
+          "watashi-no-eranda-michi",
           "our-kingdom",
           "kimi-ni-kakatta-mahou",
           "my-queen-my-oath",
+          "wakareta-michi",
           "family-portrait"
         ],
         "popular": [
@@ -3761,20 +4313,20 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
+          "watashi-no-eranda-michi",
           "without-worrying",
           "hanakotoba",
           "our-kingdom",
-          "kimi-ni-kakatta-mahou",
-          "my-queen-my-oath"
+          "kimi-ni-kakatta-mahou"
         ]
       }
     },
@@ -3872,12 +4424,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
-          "echoes-of-you",
-          "my-queen-my-oath"
+          "echoes-of-you"
         ],
         "sameGenre": [
           "echoes-of-you",
@@ -3900,12 +4452,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -4014,12 +4566,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "wakareta-michi",
           "kamisama-wa-rusu",
           "leo-rise-again",
           "mermaid-no-geboku",
           "one-more-kiss",
-          "echoes-of-you",
-          "boukyaku-no-ikimono"
+          "echoes-of-you"
         ],
         "sameGenre": [
           "our-kingdom",
@@ -4045,12 +4597,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -4183,12 +4735,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -4316,12 +4868,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -4449,12 +5001,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -4582,12 +5134,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -4724,12 +5276,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -4847,7 +5399,9 @@
         "sameTheme": [
           "red-moon-rising",
           "lost-signal",
-          "my-queen-my-oath"
+          "my-queen-my-oath",
+          "wakareta-michi",
+          "watashi-no-eranda-michi"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -4858,12 +5412,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -4991,12 +5545,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -5124,12 +5678,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5257,12 +5811,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5390,12 +5944,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5523,12 +6077,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5656,12 +6210,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -5795,12 +6349,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -5934,12 +6488,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -6067,12 +6621,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -6200,12 +6754,12 @@
           "still-alive"
         ],
         "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait",
-          "natsu-ga-owaru-made-soba-ni-ite",
-          "false-identity",
-          "caramel"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -6218,46 +6772,5 @@
       }
     }
   ],
-  "upcoming": [
-    {
-      "slug": "tatta-hitori-no-kimi-e",
-      "title": "たった1人の君へ",
-      "artist": "妃みちる",
-      "artistSlug": "michiru",
-      "scheduledAt": "2026-08-17T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
-      "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
-      "image": "https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg",
-      "description": "過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。",
-      "releaseAt": "2026-08-17T20:00:00+09:00",
-      "publishedAt": "2026-08-17T20:00:00+09:00",
-      "status": "upcoming",
-      "note": "SUZUKA公式YouTubeで公開予定を確認済み。公開済み作品には含めていません。",
-      "genres": [
-        "J-POP",
-        "アコースティック"
-      ],
-      "themes": [
-        "恋愛",
-        "感謝"
-      ],
-      "tags": [
-        "シンガーソングライター",
-        "JPOP",
-        "アコースティック",
-        "恋愛ソング",
-        "青春"
-      ],
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null,
-      "featured": false,
-      "recommendationWeight": null,
-      "weeklyPickEligible": false,
-      "analyticsEnabled": true,
-      "upcomingPriority": 5
-    }
-  ]
+  "upcoming": []
 }
