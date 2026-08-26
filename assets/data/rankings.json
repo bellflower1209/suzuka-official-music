@@ -5,6 +5,7 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
@@ -13,14 +14,14 @@
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "heal-you-again"
+        "koisuru-maharaja"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
@@ -29,8 +30,7 @@
         "taipa-nante-shiranakatta",
         "family-portrait",
         "false-identity",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel"
+        "natsu-ga-owaru-made-soba-ni-ite"
       ]
     },
     "love": {
@@ -60,6 +60,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "re-sonance",
         "wakareta-michi",
         "taipa-nante-shiranakatta",
         "kimi-wa-makenai",
@@ -68,13 +69,13 @@
         "hajimemashite-kiseki",
         "still-alive",
         "without-worrying",
-        "ashita-wa-kitto",
-        "heal-you-again"
+        "ashita-wa-kitto"
       ]
     },
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
@@ -83,8 +84,7 @@
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "heal-you-again"
+        "koisuru-maharaja"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -95,10 +95,10 @@
         "koga-kamishiro",
         "eclypse",
         "michiru",
+        "revive",
         "rangili",
         "nox",
         "asagiri-shinobu",
-        "revive",
         "asteria",
         "hoshimiya-hanon",
         "hoshino-miu"
@@ -111,8 +111,8 @@
         "ロマンティックポップ",
         "バラード",
         "ダークポップ",
-        "K-POP風",
         "アイドルポップ",
+        "K-POP風",
         "ロック",
         "V系",
         "J-ROCK",
@@ -139,6 +139,7 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
@@ -147,8 +148,7 @@
         "one-more-kiss",
         "lost-signal",
         "without-worrying",
-        "koisuru-maharaja",
-        "heal-you-again"
+        "koisuru-maharaja"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }

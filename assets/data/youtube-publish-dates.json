@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-22T21:39:45+09:00",
+  "checkedAt": "2026-08-26T18:16:37+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -104,6 +104,41 @@
       "verifiedPublishedAt": "2026-07-29T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "chimpanzee-no-rakuen",
+      "youtubeId": "eSRxfGqzYOk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eSRxfGqzYOk",
+      "catalogReleaseDate": "2026-08-24",
+      "officialTitle": "百年後、人間は檻の中。｜NOX「チンパンジーの楽園」Official MV",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-24T00:44:44+09:00",
+      "youtubeUploadDate": "2026-08-24T00:44:44+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 149,
+      "verifiedPublishedAt": "2026-08-24T00:44:44+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "chimpanzee-no-rakuen",
+      "youtubeId": "rOuv1KMQCL8",
+      "youtubeUrl": "https://www.youtube.com/shorts/rOuv1KMQCL8",
+      "catalogReleaseDate": "2026-08-24",
+      "officialTitle": "「人間が主役の動物園」｜NOX「チンパンジーの楽園」 #shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-24T00:48:48+09:00",
+      "youtubeUploadDate": "2026-08-24T00:48:48+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 51,
+      "verifiedPublishedAt": "2026-08-24T00:48:48+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
     },
     {
       "releaseSlug": "echoes-of-you",
@@ -362,6 +397,42 @@
       "verifiedPublishedAt": "2026-08-09T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "kimi-to-nara-last-boss-made",
+      "youtubeId": "14sVB_BZ3sU",
+      "youtubeUrl": "https://www.youtube.com/shorts/14sVB_BZ3sU",
+      "catalogReleaseDate": "2026-08-25",
+      "officialTitle": "剣も魔法もない。それでも君となら。｜榎本魅愛「君とならラスボスまで」1番先行公開",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-25T22:21:55+09:00",
+      "youtubeUploadDate": "2026-08-25T22:21:55+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 120,
+      "verifiedPublishedAt": "2026-08-25T22:21:55+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "kimi-to-nara-last-boss-made",
+      "youtubeId": "5cWf76QSruU",
+      "youtubeUrl": "https://www.youtube.com/shorts/5cWf76QSruU",
+      "catalogReleaseDate": "2026-08-25",
+      "officialTitle": "【MV Teaser】伝説の剣なんて、なくてもいい。｜榎本魅愛「君とならラスボスまで」#shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-25T00:33:13+09:00",
+      "youtubeUploadDate": "2026-08-25T00:33:13+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 76,
+      "verifiedPublishedAt": "2026-08-25T00:33:13+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
     },
     {
       "releaseSlug": "kimi-to-nara-last-boss-made",
@@ -636,6 +707,24 @@
       "status": "verified-datetime"
     },
     {
+      "releaseSlug": "namaste-galaxy",
+      "youtubeId": "ERC1LArVpEk",
+      "youtubeUrl": "https://www.youtube.com/shorts/ERC1LArVpEk",
+      "catalogReleaseDate": "2026-08-24",
+      "officialTitle": "【制作中】RANGILI「Namaste Galaxy」MV制作中！✨",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-24T20:35:00+09:00",
+      "youtubeUploadDate": "2026-08-24T20:35:00+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 49,
+      "verifiedPublishedAt": "2026-08-24T20:35:00+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
       "releaseSlug": "natsu-ga-owaru-made-soba-ni-ite",
       "youtubeId": "rPTopOOZMkM",
       "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
@@ -684,6 +773,23 @@
       "durationSeconds": 377,
       "verifiedPublishedAt": "2026-07-14T23:24:10+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "re-sonance",
+      "youtubeId": "EZp_Mtxt4G4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EZp_Mtxt4G4",
+      "catalogReleaseDate": "2026-08-22",
+      "officialTitle": "【新章開幕】RE:VIVE『RE:SONANCE』｜星宮羽音 加入、新体制初の新曲｜MV近日解禁",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-22T22:13:44+09:00",
+      "youtubeUploadDate": "2026-08-22T22:13:44+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 329,
+      "verifiedPublishedAt": "2026-08-22T22:13:44+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {
@@ -976,6 +1082,23 @@
       "durationSeconds": 311,
       "verifiedPublishedAt": "2026-07-23T20:00:34+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "watashi-no-eranda-michi",
+      "youtubeId": "FC1D7-0SeBc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+      "catalogReleaseDate": "2026-08-23",
+      "officialTitle": "【MV】妃みちる『私の選んだ道』｜好きだから、追わない道を選んだ。",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-23T20:00:06+09:00",
+      "youtubeUploadDate": "2026-08-23T20:00:06+09:00",
+      "liveStartTimestamp": "2026-08-23T20:00:06+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 343,
+      "verifiedPublishedAt": "2026-08-23T20:00:06+09:00",
+      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "status": "verified-datetime"
     },
     {

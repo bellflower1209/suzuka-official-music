@@ -2,12 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-22T21:39:45+09:00</updated>
+  <updated>2026-08-26T18:16:37+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-08-22T22:13:44+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/re-sonance/</id>
+    <title>RE:VIVE「RE:SONANCE」</title>
+    <updated>2026-08-22T22:13:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/re-sonance/" />
+    <category term="release" />
+    <summary>星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。</summary>
+  </entry>
   <entry>
     <published>2026-08-21T20:00:06+09:00</published>
     <id>https://www.suzukaofficial.com/releases/wakareta-michi/</id>

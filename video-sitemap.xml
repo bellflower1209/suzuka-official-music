@@ -3,6 +3,24 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/enomoto-mia/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/14sVB_BZ3sU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>剣も魔法もない。それでも君となら。｜榎本魅愛「君とならラスボスまで」1番先行公開</video:title>
+      <video:description>榎本魅愛「君とならラスボスまで」新作MVの1番を公開した公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/14sVB_BZ3sU</video:content_loc>
+      <video:publication_date>2026-08-25T22:21:55+09:00</video:publication_date>
+      <video:duration>120</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/5cWf76QSruU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>【MV Teaser】伝説の剣なんて、なくてもいい。｜榎本魅愛「君とならラスボスまで」#shorts</video:title>
+      <video:description>榎本魅愛「君とならラスボスまで」新作MVの公式ティザーShorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/5cWf76QSruU</video:content_loc>
+      <video:publication_date>2026-08-25T00:33:13+09:00</video:publication_date>
+      <video:duration>76</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wpzMoz2LgWE/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>【先行公開】榎本魅愛『花言葉』｜8月19日20時 フルMV解禁｜両親の結婚記念日に #shorts</video:title>
       <video:description>榎本魅愛『花言葉』フルMVの公開を案内する公式Shorts。</video:description>
@@ -66,12 +84,33 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/nox/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rOuv1KMQCL8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>「人間が主役の動物園」｜NOX「チンパンジーの楽園」 #shorts</video:title>
+      <video:description>NOX「チンパンジーの楽園」Official MVの世界を紹介する公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/rOuv1KMQCL8</video:content_loc>
+      <video:publication_date>2026-08-24T00:48:48+09:00</video:publication_date>
+      <video:duration>51</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/pZTC_mEwl5s/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>NOX『FAMILY PORTRAIT』― この家族写真、どこかおかしい。【Official Short MV】</video:title>
       <video:description>NOX「FAMILY PORTRAIT」のOfficial Short MV。</video:description>
       <video:content_loc>https://www.youtube.com/shorts/pZTC_mEwl5s</video:content_loc>
       <video:publication_date>2026-08-14T21:38:30+09:00</video:publication_date>
       <video:duration>25</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/artists/rangili/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ERC1LArVpEk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>【制作中】RANGILI「Namaste Galaxy」MV制作中！✨</video:title>
+      <video:description>RANGILI「NAMASTE☆GALAXY」MVの制作中映像を紹介する公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/ERC1LArVpEk</video:content_loc>
+      <video:publication_date>2026-08-24T20:35:00+09:00</video:publication_date>
+      <video:duration>49</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -122,11 +161,11 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/chimpanzee-no-rakuen/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/EJJLBOo103I/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/eSRxfGqzYOk/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>チンパンジーの楽園 Official MV</video:title>
       <video:description>人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。</video:description>
-      <video:player_loc>https://www.youtube.com/embed/EJJLBOo103I</video:player_loc>
-      <video:publication_date>2026-07-29T20:00:06+09:00</video:publication_date>
+      <video:player_loc>https://www.youtube.com/embed/eSRxfGqzYOk</video:player_loc>
+      <video:publication_date>2026-08-24T00:44:44+09:00</video:publication_date>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -604,12 +643,12 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/EJJLBOo103I/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/eSRxfGqzYOk/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>チンパンジーの楽園 Official Video</video:title>
       <video:description>人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=EJJLBOo103I</video:content_loc>
-      <video:publication_date>2026-07-29T20:00:06+09:00</video:publication_date>
-      <video:duration>148</video:duration>
+      <video:content_loc>https://www.youtube.com/watch?v=eSRxfGqzYOk</video:content_loc>
+      <video:publication_date>2026-08-24T00:44:44+09:00</video:publication_date>
+      <video:duration>149</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -953,6 +992,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/re-sonance/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EZp_Mtxt4G4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>RE:SONANCE Official Video</video:title>
+      <video:description>星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=EZp_Mtxt4G4</video:content_loc>
+      <video:publication_date>2026-08-22T22:13:44+09:00</video:publication_date>
+      <video:duration>329</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/red-moon-rising/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</video:thumbnail_loc>
@@ -1107,12 +1158,12 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/rsrkmzJM1kk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/FC1D7-0SeBc/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>私の選んだ道 Official Video</video:title>
       <video:description>好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=rsrkmzJM1kk</video:content_loc>
-      <video:publication_date>2026-08-18T20:00:06+09:00</video:publication_date>
-      <video:duration>322</video:duration>
+      <video:content_loc>https://www.youtube.com/watch?v=FC1D7-0SeBc</video:content_loc>
+      <video:publication_date>2026-08-23T20:00:06+09:00</video:publication_date>
+      <video:duration>343</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

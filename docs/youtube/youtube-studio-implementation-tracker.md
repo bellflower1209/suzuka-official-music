@@ -6,9 +6,10 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | RE:SONANCE | RE:VIVE | https://www.youtube.com/watch?v=EZp_Mtxt4G4 | 5:29 | RE:SONANCE｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 分かれた道 | 神代煌牙 | https://www.youtube.com/watch?v=EU_5CqN1zZw | 5:19 | 分かれた道｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | friendlikesong | 妃みちる | https://www.youtube.com/watch?v=IbydSXmEyVQ | 4:23 | friendlikesong｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 私の選んだ道 | 妃みちる | https://www.youtube.com/watch?v=rsrkmzJM1kk | 5:22 | 私の選んだ道｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 私の選んだ道 | 妃みちる | https://www.youtube.com/watch?v=FC1D7-0SeBc | 5:43 | 私の選んだ道｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | たった1人の君へ | 妃みちる | https://www.youtube.com/watch?v=CPIDy31wnc4 | 5:38 | たった1人の君へ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Monsoon Promise | RANGILI | https://www.youtube.com/watch?v=fecMNfrTUgs | 5:45 | Monsoon Promise｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | タイパなんて知らなかった | 榎本魅愛 | https://www.youtube.com/watch?v=s0zOTuR4GQI | 4:25 | タイパなんて知らなかった｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -32,7 +33,7 @@
 | 公開済み | LOST SIGNAL | ECLYPSE | https://www.youtube.com/watch?v=CbpvpKllc6c | 4:45 | LOST SIGNAL｜ECLYPSE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Without Worrying | 榎本魅愛 | https://www.youtube.com/watch?v=lMeYWn4Sqgk | 3:30 | Without Worrying｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 恋するマハラジャ | RANGILI | https://www.youtube.com/watch?v=V3DOM83zeLk | 6:17 | 恋するマハラジャ｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | チンパンジーの楽園 | NOX | https://www.youtube.com/watch?v=EJJLBOo103I | 2:28 | チンパンジーの楽園｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | チンパンジーの楽園 | NOX | https://www.youtube.com/watch?v=eSRxfGqzYOk | 2:29 | チンパンジーの楽園｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 明日は、きっと。 | 榎本魅愛 | https://www.youtube.com/watch?v=5MkQZT5qiGA | 3:35 | 明日は、きっと。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Heal You Again | RE:VIVE | https://www.youtube.com/watch?v=XHjDSEoFcXE | 1:45 | Heal You Again｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Echoes of You | 神代 煌牙 | https://www.youtube.com/watch?v=Uxtp9TLw47g | 8:04 | Echoes of You｜神代 煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

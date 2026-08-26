@@ -1718,10 +1718,6 @@
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/lyrics/leo-rise-again/</loc>
@@ -1769,10 +1765,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2317,10 +2309,6 @@
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/love/</loc>
@@ -2427,10 +2415,6 @@
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/popular/</loc>
@@ -2505,10 +2489,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2599,8 +2579,12 @@
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
-      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
+      <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
@@ -2621,14 +2605,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
       <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
-      <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
-      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2984,16 +2960,16 @@
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
+      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
-      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
@@ -3072,10 +3048,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -3519,14 +3491,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
-      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
-      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
@@ -4000,16 +3964,16 @@
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
+      <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
-      <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
@@ -4057,6 +4021,33 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
+      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
+      <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/re-sonance/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
+      <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
+      <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
+      <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -4205,10 +4196,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
-      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -4624,21 +4611,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://www.suzukaofficial.com/schedule/</loc>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
-      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
-      <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://www.suzukaofficial.com/social/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
@@ -4802,10 +4774,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
 </urlset>

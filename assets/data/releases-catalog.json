@@ -1,6 +1,151 @@
 {
-  "updatedAt": "2026-08-22T21:39:45+09:00",
+  "updatedAt": "2026-08-26T18:16:37+09:00",
   "releases": [
+    {
+      "slug": "re-sonance",
+      "id": "re-sonance",
+      "title": "RE:SONANCE",
+      "displayTitle": "RE:SONANCE",
+      "englishTitle": "RE:SONANCE",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "artistSlugs": [
+        "revive"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-22T22:13:44+09:00",
+      "publishedAt": "2026-08-22T22:13:44+09:00",
+      "releaseDate": "2026-08-22",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アイドルポップ"
+      ],
+      "moods": [
+        "希望",
+        "温かい"
+      ],
+      "themes": [
+        "希望",
+        "再生",
+        "つながり"
+      ],
+      "tags": [
+        "RE:VIVE",
+        "RE:SONANCE",
+        "新生RE:VIVE",
+        "星宮羽音",
+        "JPOP",
+        "EmoJPop",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "温かい"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/EZp_Mtxt4G4/maxresdefault.jpg",
+      "coverAlt": "RE:VIVE「RE:SONANCE」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EZp_Mtxt4G4",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoButtonLabel": "WATCH VIDEO",
+      "shortsUrl": "",
+      "releaseUrl": "releases/re-sonance/",
+      "newsUrl": "",
+      "duration": 329,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RE:SONANCE",
+        "RE:VIVE",
+        "新生RE:VIVE",
+        "星宮羽音",
+        "JPOP",
+        "EmoJPop",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "温かい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "introduction": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "seo": {
+        "title": "RE:SONANCE｜RE:VIVE｜SUZUKA Official Music",
+        "description": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-22",
+      "videoPublishedAt": "2026-08-22T22:13:44+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=EZp_Mtxt4G4",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "still-alive",
+          "heal-you-again"
+        ],
+        "sameGenre": [
+          "heal-you-again",
+          "still-alive",
+          "anata-dake-no-savior",
+          "last-dance-tonight",
+          "hajimemashite-kiseki",
+          "without-worrying"
+        ],
+        "sameTheme": [
+          "heal-you-again",
+          "still-alive",
+          "anata-dake-no-savior",
+          "last-dance-tonight",
+          "hajimemashite-kiseki",
+          "without-worrying"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "still-alive"
+        ],
+        "recent": [
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "taipa-nante-shiranakatta",
+          "monsoon-promise"
+        ],
+        "aiRecommended": [
+          "heal-you-again",
+          "still-alive",
+          "anata-dake-no-savior",
+          "last-dance-tonight",
+          "hajimemashite-kiseki",
+          "without-worrying"
+        ]
+      }
+    },
     {
       "slug": "wakareta-michi",
       "id": "wakareta-michi",
@@ -125,15 +270,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
@@ -243,9 +388,9 @@
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "kimi-wa-hanabi",
+          "re-sonance",
           "wakareta-michi",
-          "taipa-nante-shiranakatta",
-          "kimi-wa-makenai"
+          "taipa-nante-shiranakatta"
         ],
         "sameTheme": [
           "kimi-wa-hanabi"
@@ -256,23 +401,23 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "kimi-wa-hanabi",
+          "re-sonance",
           "wakareta-michi",
-          "taipa-nante-shiranakatta",
-          "kimi-wa-makenai"
+          "taipa-nante-shiranakatta"
         ]
       }
     },
@@ -315,13 +460,13 @@
         "未来"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/rsrkmzJM1kk/maxresdefault.jpg",
+      "coverImage": "https://i.ytimg.com/vi/FC1D7-0SeBc/maxresdefault.jpg",
       "coverAlt": "妃みちる「私の選んだ道」公式YouTubeサムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
       "shortsUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
       "releaseUrl": "releases/watashi-no-eranda-michi/",
       "newsUrl": "",
-      "duration": 322,
+      "duration": 343,
       "status": "published",
       "featured": false,
       "recommendationWeight": 1,
@@ -354,17 +499,18 @@
         "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-18",
-      "videoPublishedAt": "2026-08-18T20:00:06+09:00",
+      "videoPublishDate": "2026-08-23",
+      "videoPublishedAt": "2026-08-23T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
-      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "officialSource": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
       "lyricsText": "",
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "audioUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
       "recommendations": {
         "sameArtist": [
           "friendlikesong",
@@ -390,15 +536,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "tatta-hitori-no-kimi-e",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -525,15 +671,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "taipa-nante-shiranakatta",
-          "monsoon-promise",
-          "family-portrait"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "kimi-ni-kakatta-mahou",
@@ -620,15 +766,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "family-portrait"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -753,15 +899,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "monsoon-promise",
-          "family-portrait"
+          "monsoon-promise"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -878,15 +1024,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -1012,15 +1158,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -1111,15 +1257,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "caramel",
@@ -1210,15 +1356,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "natsu-ga-owaru-made-soba-ni-ite",
@@ -1309,15 +1455,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "leo-rise-again",
@@ -1453,15 +1599,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -1590,15 +1736,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -1709,19 +1855,19 @@
         ],
         "sameGenre": [
           "anata-dake-no-savior",
+          "re-sonance",
           "heal-you-again",
           "still-alive",
           "kimi-wa-makenai",
-          "hajimemashite-kiseki",
-          "one-more-kiss"
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "anata-dake-no-savior",
+          "re-sonance",
           "heal-you-again",
           "kimi-wa-makenai",
           "hajimemashite-kiseki",
-          "one-more-kiss",
-          "without-worrying"
+          "one-more-kiss"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -1729,23 +1875,23 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
+          "re-sonance",
           "heal-you-again",
           "still-alive",
           "kimi-wa-makenai",
-          "hajimemashite-kiseki",
-          "one-more-kiss"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -1867,15 +2013,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2010,15 +2156,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -2163,16 +2309,16 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "wasureji-no-hito"
+          "re-sonance",
+          "still-alive"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2283,18 +2429,18 @@
         "sameGenre": [
           "heal-you-again",
           "last-dance-tonight",
+          "re-sonance",
           "without-worrying",
           "still-alive",
-          "hajimemashite-kiseki",
-          "kimi-wa-makenai"
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "heal-you-again",
           "last-dance-tonight",
+          "re-sonance",
           "without-worrying",
           "hajimemashite-kiseki",
-          "kimi-wa-makenai",
-          "ashita-wa-kitto"
+          "kimi-wa-makenai"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -2302,23 +2448,23 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "heal-you-again",
           "last-dance-tonight",
+          "re-sonance",
           "without-worrying",
           "still-alive",
-          "hajimemashite-kiseki",
-          "kimi-wa-makenai"
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -2432,15 +2578,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -2574,16 +2720,16 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "wasureji-no-hito"
+          "re-sonance",
+          "still-alive"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2689,18 +2835,20 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "re-sonance",
           "heal-you-again"
         ],
         "sameGenre": [
           "heal-you-again",
+          "re-sonance",
           "without-worrying",
           "hanakotoba",
           "anata-dake-no-savior",
-          "last-dance-tonight",
-          "ashita-wa-kitto"
+          "last-dance-tonight"
         ],
         "sameTheme": [
           "heal-you-again",
+          "re-sonance",
           "without-worrying",
           "kimi-wa-makenai"
         ],
@@ -2710,23 +2858,23 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "wasureji-no-hito"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "heal-you-again",
+          "re-sonance",
           "without-worrying",
           "hanakotoba",
           "anata-dake-no-savior",
-          "last-dance-tonight",
-          "ashita-wa-kitto"
+          "last-dance-tonight"
         ]
       }
     },
@@ -2838,15 +2986,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -2980,16 +3128,16 @@
           "hanakotoba",
           "koisuru-maharaja",
           "lost-signal",
-          "still-alive",
-          "wasureji-no-hito"
+          "re-sonance",
+          "still-alive"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -3106,6 +3254,7 @@
         ],
         "sameTheme": [
           "shadow-code",
+          "re-sonance",
           "wakareta-michi",
           "watashi-no-eranda-michi"
         ],
@@ -3114,16 +3263,16 @@
           "hanakotoba",
           "koisuru-maharaja",
           "one-more-kiss",
-          "still-alive",
-          "wasureji-no-hito"
+          "re-sonance",
+          "still-alive"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -3255,15 +3404,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -3383,16 +3532,16 @@
           "hanakotoba",
           "lost-signal",
           "one-more-kiss",
-          "still-alive",
-          "wasureji-no-hito"
+          "re-sonance",
+          "still-alive"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -3435,9 +3584,9 @@
       "coverImage": "images/nox-chimpanzee-no-rakuen.jpg",
       "coverAlt": "NOX「チンパンジーの楽園」公式YouTubeサムネイル",
       "releaseUrl": "releases/chimpanzee-no-rakuen/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eSRxfGqzYOk",
       "newsUrl": "news/chimpanzee-no-rakuen-release/",
-      "duration": 148,
+      "duration": 149,
       "status": "published",
       "featured": true,
       "recommendationWeight": 1,
@@ -3467,7 +3616,7 @@
       "introduction": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
       "publishedAt": "2026-07-29T20:00:06+09:00",
       "instagramUrl": "",
-      "shortsUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/rOuv1KMQCL8",
       "galleryImages": [
         "images/nox-chimpanzee-no-rakuen.jpg"
       ],
@@ -3477,9 +3626,9 @@
         "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-29",
-      "videoPublishedAt": "2026-07-29T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-08-24",
+      "videoPublishedAt": "2026-08-24T00:44:44+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-29T20:00:06+09:00",
       "lyricsAvailable": true,
@@ -3490,6 +3639,9 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "audioUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "officialSource": "https://www.youtube.com/watch?v=eSRxfGqzYOk",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
       "recommendations": {
         "sameArtist": [
           "family-portrait",
@@ -3509,15 +3661,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -3648,15 +3800,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -3759,23 +3911,24 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "re-sonance",
           "still-alive"
         ],
         "sameGenre": [
+          "re-sonance",
           "anata-dake-no-savior",
           "still-alive",
           "without-worrying",
           "last-dance-tonight",
-          "ashita-wa-kitto",
-          "hajimemashite-kiseki"
+          "ashita-wa-kitto"
         ],
         "sameTheme": [
+          "re-sonance",
           "anata-dake-no-savior",
           "still-alive",
           "without-worrying",
           "last-dance-tonight",
-          "ashita-wa-kitto",
-          "hajimemashite-kiseki"
+          "ashita-wa-kitto"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -3783,23 +3936,23 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
+          "re-sonance",
           "anata-dake-no-savior",
           "still-alive",
           "without-worrying",
           "last-dance-tonight",
-          "ashita-wa-kitto",
-          "hajimemashite-kiseki"
+          "ashita-wa-kitto"
         ]
       }
     },
@@ -3918,15 +4071,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -4001,7 +4154,7 @@
       "introduction": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
       "publishedAt": "2026-07-24T20:00:11+09:00",
       "instagramUrl": "",
-      "shortsUrl": null,
+      "shortsUrl": "https://www.youtube.com/shorts/ERC1LArVpEk",
       "galleryImages": [
         "images/rangili-namaste-galaxy.jpg"
       ],
@@ -4024,6 +4177,7 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
       "recommendations": {
         "sameArtist": [
           "monsoon-promise",
@@ -4046,15 +4200,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -4171,15 +4325,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -4310,15 +4464,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -4449,15 +4603,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -4594,15 +4748,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -4732,15 +4886,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -4865,15 +5019,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -4998,15 +5152,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -5131,15 +5285,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -5273,15 +5427,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -5409,15 +5563,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -5542,15 +5696,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -5675,15 +5829,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5808,15 +5962,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5941,15 +6095,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6020,7 +6174,7 @@
       "introduction": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
       "publishedAt": "2026-07-13T15:27:23+09:00",
       "instagramUrl": "",
-      "shortsUrl": null,
+      "shortsUrl": "https://www.youtube.com/shorts/14sVB_BZ3sU",
       "galleryImages": [
         "images/mv-lastboss.jpg"
       ],
@@ -6043,6 +6197,7 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
       "recommendations": {
         "sameArtist": [
           "taipa-nante-shiranakatta",
@@ -6074,15 +6229,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6207,15 +6362,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -6346,15 +6501,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -6485,15 +6640,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -6618,15 +6773,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -6751,15 +6906,15 @@
           "koisuru-maharaja",
           "lost-signal",
           "one-more-kiss",
-          "still-alive"
+          "re-sonance"
         ],
         "recent": [
+          "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",

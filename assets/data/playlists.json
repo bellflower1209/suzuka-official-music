@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T21:39:45+09:00",
+  "updatedAt": "2026-08-26T18:16:37+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -90,6 +90,7 @@
       "description": "応援をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "hajimemashite-kiseki",
+        "re-sonance",
         "still-alive",
         "without-worrying",
         "heal-you-again",
@@ -100,7 +101,7 @@
         "taipa-nante-shiranakatta",
         "wakareta-michi"
       ],
-      "count": 10
+      "count": 11
     },
     {
       "slug": "tearjerkers",
@@ -138,12 +139,13 @@
       "name": "AIアイドル",
       "description": "AIアイドルをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "re-sonance",
         "still-alive",
         "heal-you-again",
         "anata-dake-no-savior",
         "last-dance-tonight"
       ],
-      "count": 4
+      "count": 5
     },
     {
       "slug": "k-pop",
@@ -208,6 +210,7 @@
         "koisuru-maharaja",
         "lost-signal",
         "one-more-kiss",
+        "re-sonance",
         "still-alive",
         "wasureji-no-hito",
         "without-worrying",
@@ -221,8 +224,7 @@
         "kimi-to-nara-last-boss-made",
         "kimi-wa-hanabi",
         "mermaid-merman",
-        "mia",
-        "mirai-no-watashi-ga-miteru"
+        "mia"
       ],
       "count": 20
     },
@@ -233,6 +235,7 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
@@ -251,8 +254,7 @@
         "mermaid-no-geboku",
         "hanakotoba",
         "wasureji-no-hito",
-        "anata-dake-no-savior",
-        "hajimemashite-kiseki"
+        "anata-dake-no-savior"
       ],
       "count": 20
     },
@@ -265,6 +267,7 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
@@ -283,8 +286,7 @@
         "mermaid-no-geboku",
         "hanakotoba",
         "anata-dake-no-savior",
-        "wasureji-no-hito",
-        "hajimemashite-kiseki"
+        "wasureji-no-hito"
       ],
       "count": 20
     }

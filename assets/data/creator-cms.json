@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-08-22T21:39:45+09:00",
+  "updatedAt": "2026-08-26T18:16:37+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -394,6 +394,7 @@
       "artistType": "MusicGroup",
       "artistStatus": "published",
       "artistFeaturedTracks": [
+        "re-sonance",
         "still-alive",
         "heal-you-again"
       ],
@@ -452,6 +453,105 @@
     }
   ],
   "releases": [
+    {
+      "slug": "re-sonance",
+      "id": "re-sonance",
+      "title": "RE:SONANCE",
+      "displayTitle": "RE:SONANCE",
+      "englishTitle": "RE:SONANCE",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "artistSlugs": [
+        "revive"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-22T22:13:44+09:00",
+      "publishedAt": "2026-08-22T22:13:44+09:00",
+      "releaseDate": "2026-08-22",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "アイドルポップ"
+      ],
+      "moods": [
+        "希望",
+        "温かい"
+      ],
+      "themes": [
+        "希望",
+        "再生",
+        "つながり"
+      ],
+      "tags": [
+        "RE:VIVE",
+        "RE:SONANCE",
+        "新生RE:VIVE",
+        "星宮羽音",
+        "JPOP",
+        "EmoJPop",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "温かい"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/EZp_Mtxt4G4/maxresdefault.jpg",
+      "coverAlt": "RE:VIVE「RE:SONANCE」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EZp_Mtxt4G4",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoButtonLabel": "WATCH VIDEO",
+      "shortsUrl": "",
+      "releaseUrl": "releases/re-sonance/",
+      "newsUrl": "",
+      "duration": 329,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "RE:SONANCE",
+        "RE:VIVE",
+        "新生RE:VIVE",
+        "星宮羽音",
+        "JPOP",
+        "EmoJPop",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "温かい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "introduction": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "seo": {
+        "title": "RE:SONANCE｜RE:VIVE｜SUZUKA Official Music",
+        "description": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-22",
+      "videoPublishedAt": "2026-08-22T22:13:44+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=EZp_Mtxt4G4",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
+    },
     {
       "slug": "wakareta-michi",
       "id": "wakareta-michi",
@@ -676,13 +776,13 @@
         "未来"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/rsrkmzJM1kk/maxresdefault.jpg",
+      "coverImage": "https://i.ytimg.com/vi/FC1D7-0SeBc/maxresdefault.jpg",
       "coverAlt": "妃みちる「私の選んだ道」公式YouTubeサムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
       "shortsUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
       "releaseUrl": "releases/watashi-no-eranda-michi/",
       "newsUrl": "",
-      "duration": 322,
+      "duration": 343,
       "status": "published",
       "featured": false,
       "recommendationWeight": 1,
@@ -715,17 +815,18 @@
         "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-18",
-      "videoPublishedAt": "2026-08-18T20:00:06+09:00",
+      "videoPublishDate": "2026-08-23",
+      "videoPublishedAt": "2026-08-23T20:00:06+09:00",
       "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
-      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "officialSource": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
       "lyricsText": "",
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "audioUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk"
     },
     {
       "slug": "tatta-hitori-no-kimi-e",
@@ -2755,9 +2856,9 @@
       "coverImage": "images/nox-chimpanzee-no-rakuen.jpg",
       "coverAlt": "NOX「チンパンジーの楽園」公式YouTubeサムネイル",
       "releaseUrl": "releases/chimpanzee-no-rakuen/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eSRxfGqzYOk",
       "newsUrl": "news/chimpanzee-no-rakuen-release/",
-      "duration": 148,
+      "duration": 149,
       "status": "published",
       "featured": true,
       "recommendationWeight": 1,
@@ -2787,7 +2888,7 @@
       "introduction": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
       "publishedAt": "2026-07-29T20:00:06+09:00",
       "instagramUrl": "",
-      "shortsUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/rOuv1KMQCL8",
       "galleryImages": [
         "images/nox-chimpanzee-no-rakuen.jpg"
       ],
@@ -2797,9 +2898,9 @@
         "description": "人間の本能と社会への問いを、ダークなバンドサウンドと物語で描くNOXのデビュー作品。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-29",
-      "videoPublishedAt": "2026-07-29T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-08-24",
+      "videoPublishedAt": "2026-08-24T00:44:44+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-29T20:00:06+09:00",
       "lyricsAvailable": true,
@@ -2809,7 +2910,10 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": true,
-      "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00"
+      "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "audioUrl": "https://www.youtube.com/watch?v=EJJLBOo103I",
+      "officialSource": "https://www.youtube.com/watch?v=eSRxfGqzYOk",
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00"
     },
     {
       "id": "ashita-wa-kitto",
@@ -3143,7 +3247,7 @@
       "introduction": "インドの情熱と日本のメロディが響き合う、RANGILIの公式デビュー作品。",
       "publishedAt": "2026-07-24T20:00:11+09:00",
       "instagramUrl": "",
-      "shortsUrl": null,
+      "shortsUrl": "https://www.youtube.com/shorts/ERC1LArVpEk",
       "galleryImages": [
         "images/rangili-namaste-galaxy.jpg"
       ],
@@ -3165,7 +3269,8 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00"
     },
     {
       "id": "wasurenai-kokoro",
@@ -4452,7 +4557,7 @@
       "introduction": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
       "publishedAt": "2026-07-13T15:27:23+09:00",
       "instagramUrl": "",
-      "shortsUrl": null,
+      "shortsUrl": "https://www.youtube.com/shorts/14sVB_BZ3sU",
       "galleryImages": [
         "images/mv-lastboss.jpg"
       ],
@@ -4474,7 +4579,8 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00"
     },
     {
       "id": "ai-demo-wakaranai",
@@ -5565,11 +5671,67 @@
     "events": []
   },
   "youtubeSnapshot": {
-    "officialVideos": 58,
-    "shorts": 37,
-    "verifiedAt": "2026-08-22T21:39:45+09:00",
-    "source": "公式YouTubeフィード・videos/shortsタブ・各動画のytInitialPlayerResponseを照合",
+    "officialVideos": 61,
+    "shorts": 41,
+    "verifiedAt": "2026-08-26T18:16:37+09:00",
+    "source": "公式YouTube Atomフィード・videos/shortsタブ・各動画のytInitialPlayerResponseを照合",
     "shortVideos": [
+      {
+        "videoId": "14sVB_BZ3sU",
+        "title": "剣も魔法もない。それでも君となら。｜榎本魅愛「君とならラスボスまで」1番先行公開",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "publishedAt": "2026-08-25T22:21:55+09:00",
+        "relatedRelease": "kimi-to-nara-last-boss-made",
+        "duration": 120,
+        "description": "榎本魅愛「君とならラスボスまで」新作MVの1番を公開した公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/14sVB_BZ3sU",
+        "thumbnail": "https://i.ytimg.com/vi/14sVB_BZ3sU/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
+      {
+        "videoId": "5cWf76QSruU",
+        "title": "【MV Teaser】伝説の剣なんて、なくてもいい。｜榎本魅愛「君とならラスボスまで」#shorts",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "publishedAt": "2026-08-25T00:33:13+09:00",
+        "relatedRelease": "kimi-to-nara-last-boss-made",
+        "duration": 76,
+        "description": "榎本魅愛「君とならラスボスまで」新作MVの公式ティザーShorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/5cWf76QSruU",
+        "thumbnail": "https://i.ytimg.com/vi/5cWf76QSruU/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
+      {
+        "videoId": "ERC1LArVpEk",
+        "title": "【制作中】RANGILI「Namaste Galaxy」MV制作中！✨",
+        "artist": "RANGILI",
+        "artistSlug": "rangili",
+        "publishedAt": "2026-08-24T20:35:00+09:00",
+        "relatedRelease": "namaste-galaxy",
+        "duration": 49,
+        "description": "RANGILI「NAMASTE☆GALAXY」MVの制作中映像を紹介する公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/ERC1LArVpEk",
+        "thumbnail": "https://i.ytimg.com/vi/ERC1LArVpEk/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
+      {
+        "videoId": "rOuv1KMQCL8",
+        "title": "「人間が主役の動物園」｜NOX「チンパンジーの楽園」 #shorts",
+        "artist": "NOX",
+        "artistSlug": "nox",
+        "publishedAt": "2026-08-24T00:48:48+09:00",
+        "relatedRelease": "chimpanzee-no-rakuen",
+        "duration": 51,
+        "description": "NOX「チンパンジーの楽園」Official MVの世界を紹介する公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/rOuv1KMQCL8",
+        "thumbnail": "https://i.ytimg.com/vi/rOuv1KMQCL8/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
       {
         "videoId": "hjqiZqPdrv8",
         "title": "【8/23 MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』",
@@ -5667,6 +5829,17 @@
         "contentType": "short",
         "duration": 25,
         "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。"
+      }
+    ],
+    "totalPublishedVideos": 102,
+    "scheduledVideos": [
+      {
+        "videoId": "VyFAFnfn5dc",
+        "title": "【本日解禁】君となら、ラスボスまで行ける。｜榎本魅愛「君とならラスボスまで」MV",
+        "scheduledAt": "2026-08-27T20:00:00+09:00",
+        "relatedRelease": "kimi-to-nara-last-boss-made",
+        "status": "upcoming",
+        "playabilityStatus": "LIVE_STREAM_OFFLINE"
       }
     ]
   },

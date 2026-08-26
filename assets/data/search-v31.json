@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T21:39:45+09:00",
+  "updatedAt": "2026-08-26T18:16:37+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,33 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "RE:SONANCE",
+      "description": "星宮羽音を迎えた現行5人体制のRE:VIVEが、小さな声が5つの光へ変わる瞬間を描く新体制初のシングル。",
+      "url": "releases/re-sonance/",
+      "keywords": [
+        "RE:VIVE",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "RE:VIVE",
+        "RE:SONANCE",
+        "新生RE:VIVE",
+        "星宮羽音",
+        "JPOP",
+        "EmoJPop",
+        "J-POP",
+        "アイドルポップ",
+        "希望",
+        "再生",
+        "つながり",
+        "温かい"
       ]
     },
     {
@@ -1211,6 +1238,58 @@
         "橘紗良",
         "星宮羽音",
         "HANON"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "剣も魔法もない。それでも君となら。｜榎本魅愛「君とならラスボスまで」1番先行公開",
+      "description": "榎本魅愛「君とならラスボスまで」新作MVの1番を公開した公式Shorts。",
+      "url": "artists/enomoto-mia/#short-14sVB_BZ3sU",
+      "keywords": [
+        "榎本魅愛",
+        "kimi-to-nara-last-boss-made",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【MV Teaser】伝説の剣なんて、なくてもいい。｜榎本魅愛「君とならラスボスまで」#shorts",
+      "description": "榎本魅愛「君とならラスボスまで」新作MVの公式ティザーShorts。",
+      "url": "artists/enomoto-mia/#short-5cWf76QSruU",
+      "keywords": [
+        "榎本魅愛",
+        "kimi-to-nara-last-boss-made",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【制作中】RANGILI「Namaste Galaxy」MV制作中！✨",
+      "description": "RANGILI「NAMASTE☆GALAXY」MVの制作中映像を紹介する公式Shorts。",
+      "url": "artists/rangili/#short-ERC1LArVpEk",
+      "keywords": [
+        "RANGILI",
+        "namaste-galaxy",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "「人間が主役の動物園」｜NOX「チンパンジーの楽園」 #shorts",
+      "description": "NOX「チンパンジーの楽園」Official MVの世界を紹介する公式Shorts。",
+      "url": "artists/nox/#short-rOuv1KMQCL8",
+      "keywords": [
+        "NOX",
+        "chimpanzee-no-rakuen",
+        "YouTube Shorts",
+        "Shorts"
       ]
     },
     {
