@@ -1,6 +1,152 @@
 {
-  "updatedAt": "2026-08-26T18:16:37+09:00",
+  "updatedAt": "2026-08-28T00:37:35+09:00",
   "releases": [
+    {
+      "slug": "updown",
+      "id": "updown",
+      "title": "UPdown",
+      "displayTitle": "UPdown",
+      "englishTitle": "UPdown",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-27T22:48:02+09:00",
+      "publishedAt": "2026-08-27T22:48:02+09:00",
+      "releaseDate": "2026-08-27",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP"
+      ],
+      "moods": [
+        "明るい",
+        "コミカル"
+      ],
+      "themes": [
+        "恋愛",
+        "告白",
+        "夏祭り"
+      ],
+      "tags": [
+        "妃みちる",
+        "UPdown",
+        "恋愛ソング",
+        "告白ソング",
+        "夏祭り",
+        "花火",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "告白",
+        "明るい",
+        "コミカル"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/SKUMF7ZhpRM/maxresdefault.jpg",
+      "coverAlt": "妃みちる「UPdown」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+      "videoLabel": "OFFICIAL VIDEO",
+      "youtubeVideoTitle": "【新曲】UPdown｜好きな子の前じゃ、平常心なんて無理。🎆💓｜妃みちる",
+      "videoCtaLabel": "公式動画を見る",
+      "videoButtonLabel": "WATCH VIDEO",
+      "shortsUrl": "",
+      "releaseUrl": "releases/updown/",
+      "newsUrl": "",
+      "duration": 245,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 3,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "UPdown",
+        "妃みちる",
+        "恋愛ソング",
+        "告白ソング",
+        "夏祭り",
+        "花火",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "告白",
+        "明るい",
+        "コミカル"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。",
+      "introduction": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。",
+      "seo": {
+        "title": "UPdown｜妃みちる｜SUZUKA Official Music",
+        "description": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-27",
+      "videoPublishedAt": "2026-08-27T22:48:02+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+      "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e"
+        ],
+        "sameGenre": [
+          "tatta-hitori-no-kimi-e",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "one-more-kiss",
+          "ai-demo-wakaranai",
+          "hyakumankoku"
+        ],
+        "sameTheme": [
+          "tatta-hitori-no-kimi-e",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "one-more-kiss",
+          "ai-demo-wakaranai",
+          "hyakumankoku"
+        ],
+        "popular": [
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "lost-signal",
+          "one-more-kiss",
+          "re-sonance"
+        ],
+        "recent": [
+          "re-sonance",
+          "wakareta-michi",
+          "friendlikesong",
+          "watashi-no-eranda-michi",
+          "tatta-hitori-no-kimi-e",
+          "taipa-nante-shiranakatta"
+        ],
+        "aiRecommended": [
+          "tatta-hitori-no-kimi-e",
+          "hanakotoba",
+          "koisuru-maharaja",
+          "one-more-kiss",
+          "ai-demo-wakaranai",
+          "hyakumankoku"
+        ]
+      }
+    },
     {
       "slug": "re-sonance",
       "id": "re-sonance",
@@ -129,12 +275,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -273,12 +419,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "friendlikesong",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
@@ -381,6 +527,7 @@
       "audioUrl": "https://www.youtube.com/watch?v=8xRXgVv0Z_o",
       "recommendations": {
         "sameArtist": [
+          "updown",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e"
         ],
@@ -388,9 +535,9 @@
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "kimi-wa-hanabi",
+          "updown",
           "re-sonance",
-          "wakareta-michi",
-          "taipa-nante-shiranakatta"
+          "wakareta-michi"
         ],
         "sameTheme": [
           "kimi-wa-hanabi"
@@ -404,20 +551,20 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
           "tatta-hitori-no-kimi-e",
           "kimi-wa-hanabi",
+          "updown",
           "re-sonance",
-          "wakareta-michi",
-          "taipa-nante-shiranakatta"
+          "wakareta-michi"
         ]
       }
     },
@@ -513,6 +660,7 @@
       "audioUrl": "https://www.youtube.com/watch?v=rsrkmzJM1kk",
       "recommendations": {
         "sameArtist": [
+          "updown",
           "friendlikesong",
           "tatta-hitori-no-kimi-e"
         ],
@@ -539,12 +687,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -646,24 +794,25 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "updown",
           "friendlikesong",
           "watashi-no-eranda-michi"
         ],
         "sameGenre": [
+          "updown",
           "kimi-ni-kakatta-mahou",
           "watashi-no-eranda-michi",
           "friendlikesong",
           "hanakotoba",
-          "mermaid-no-geboku",
-          "koisuru-maharaja"
+          "mermaid-no-geboku"
         ],
         "sameTheme": [
+          "updown",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
           "mermaid-no-geboku",
           "koisuru-maharaja",
-          "one-more-kiss",
-          "ai-demo-wakaranai"
+          "one-more-kiss"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -674,20 +823,20 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "taipa-nante-shiranakatta",
-          "monsoon-promise"
+          "taipa-nante-shiranakatta"
         ],
         "aiRecommended": [
+          "updown",
           "kimi-ni-kakatta-mahou",
           "watashi-no-eranda-michi",
           "friendlikesong",
           "hanakotoba",
-          "mermaid-no-geboku",
-          "koisuru-maharaja"
+          "mermaid-no-geboku"
         ]
       }
     },
@@ -769,12 +918,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -902,12 +1051,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "monsoon-promise"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -1027,12 +1176,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -1161,12 +1310,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -1260,12 +1409,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "caramel",
@@ -1359,12 +1508,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "natsu-ga-owaru-made-soba-ni-ite",
@@ -1458,12 +1607,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "leo-rise-again",
@@ -1602,12 +1751,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -1739,12 +1888,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -1878,12 +2027,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -2016,12 +2165,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2159,12 +2308,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -2313,12 +2462,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2451,12 +2600,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -2581,12 +2730,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -2724,12 +2873,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2861,12 +3010,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -2989,12 +3138,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -3121,7 +3270,7 @@
           "hanakotoba",
           "kimi-ni-kakatta-mahou",
           "last-dance-tonight",
-          "ai-demo-wakaranai"
+          "updown"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -3132,12 +3281,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -3267,12 +3416,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -3407,12 +3556,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -3517,7 +3666,7 @@
           "hanakotoba",
           "kimi-ni-kakatta-mahou",
           "mermaid-no-geboku",
-          "ai-demo-wakaranai"
+          "updown"
         ],
         "sameTheme": [
           "namaste-galaxy",
@@ -3525,7 +3674,7 @@
           "hanakotoba",
           "kimi-ni-kakatta-mahou",
           "mermaid-no-geboku",
-          "ai-demo-wakaranai"
+          "updown"
         ],
         "popular": [
           "hajimemashite-kiseki",
@@ -3536,12 +3685,12 @@
           "still-alive"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -3549,7 +3698,7 @@
           "hanakotoba",
           "kimi-ni-kakatta-mahou",
           "mermaid-no-geboku",
-          "ai-demo-wakaranai"
+          "updown"
         ]
       }
     },
@@ -3664,12 +3813,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -3712,9 +3861,9 @@
       "coverImage": "images/mv-ashita-wa-kitto.jpg",
       "coverAlt": "榎本魅愛「明日は、きっと。」公式YouTubeサムネイル",
       "releaseUrl": "releases/ashita-wa-kitto/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5MkQZT5qiGA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
       "newsUrl": "news/ashita-wa-kitto-release/",
-      "duration": 215,
+      "duration": 217,
       "status": "published",
       "featured": true,
       "recommendationWeight": 1,
@@ -3746,7 +3895,7 @@
       "introduction": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
       "publishedAt": "2026-07-29T01:22:23+09:00",
       "instagramUrl": "",
-      "shortsUrl": "",
+      "shortsUrl": "https://www.youtube.com/shorts/YqXpqb19crM",
       "galleryImages": [
         "images/mv-ashita-wa-kitto.jpg"
       ],
@@ -3756,9 +3905,9 @@
         "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-28",
-      "videoPublishedAt": "2026-07-29T01:22:23+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-08-26",
+      "videoPublishedAt": "2026-08-26T21:13:36+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-29T01:22:23+09:00",
       "lyricsAvailable": true,
@@ -3769,6 +3918,10 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "audioUrl": "https://www.youtube.com/watch?v=5MkQZT5qiGA",
+      "officialSource": "https://www.youtube.com/watch?v=HKm8cUorTOs",
+      "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
+      "youtubeVideoTitle": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
       "recommendations": {
         "sameArtist": [
           "taipa-nante-shiranakatta",
@@ -3803,12 +3956,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -3939,12 +4092,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "re-sonance",
@@ -4074,12 +4227,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -4203,12 +4356,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -4328,12 +4481,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -4467,12 +4620,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -4606,12 +4759,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -4751,12 +4904,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -4889,12 +5042,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -5022,12 +5175,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -5155,12 +5308,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -5288,12 +5441,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -5430,12 +5583,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -5566,12 +5719,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -5699,12 +5852,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -5832,12 +5985,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -5965,12 +6118,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6098,12 +6251,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6144,9 +6297,9 @@
       "coverImage": "images/mv-lastboss.jpg",
       "coverAlt": "榎本魅愛「君とならラスボスまで」公式ジャケット",
       "releaseUrl": "releases/kimi-to-nara-last-boss-made/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
       "newsUrl": "",
-      "duration": 329,
+      "duration": 328,
       "status": "published",
       "featured": false,
       "recommendationWeight": 2,
@@ -6184,9 +6337,9 @@
         "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-12",
-      "videoPublishedAt": "2026-07-13T15:27:23+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-08-26",
+      "videoPublishedAt": "2026-08-26T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-13T15:27:23+09:00",
       "lyricsAvailable": false,
@@ -6197,7 +6350,10 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
-      "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
+      "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
+      "audioUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
+      "officialSource": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+      "youtubeVideoTitle": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
       "recommendations": {
         "sameArtist": [
           "taipa-nante-shiranakatta",
@@ -6232,12 +6388,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6365,12 +6521,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -6504,12 +6660,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -6643,12 +6799,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -6776,12 +6932,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -6909,12 +7065,12 @@
           "re-sonance"
         ],
         "recent": [
+          "updown",
           "re-sonance",
           "wakareta-michi",
           "friendlikesong",
           "watashi-no-eranda-michi",
-          "tatta-hitori-no-kimi-e",
-          "taipa-nante-shiranakatta"
+          "tatta-hitori-no-kimi-e"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",

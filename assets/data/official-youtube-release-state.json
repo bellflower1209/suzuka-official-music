@@ -1,15 +1,24 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-26T18:16:37+09:00",
+  "verifiedAt": "2026-08-28T00:37:35+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
     "friendlikesong",
     "re-sonance",
     "tatta-hitori-no-kimi-e",
+    "updown",
     "wakareta-michi",
     "watashi-no-eranda-michi"
   ],
   "evidence": [
+    {
+      "slug": "ashita-wa-kitto",
+      "videoId": "HKm8cUorTOs",
+      "releaseTimestamp": "2026-08-26T21:13:36+09:00",
+      "liveStatus": "was_live",
+      "availability": "public",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
     {
       "slug": "chimpanzee-no-rakuen",
       "videoId": "eSRxfGqzYOk",
@@ -27,6 +36,14 @@
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {
+      "slug": "kimi-to-nara-last-boss-made",
+      "videoId": "VyFAFnfn5dc",
+      "releaseTimestamp": "2026-08-26T20:00:06+09:00",
+      "liveStatus": "was_live",
+      "availability": "public",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
       "slug": "re-sonance",
       "videoId": "EZp_Mtxt4G4",
       "releaseTimestamp": "2026-08-22T22:13:44+09:00",
@@ -40,6 +57,14 @@
       "availability": "public",
       "liveStatus": "was_live",
       "releaseTimestamp": "2026-08-17T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "updown",
+      "videoId": "SKUMF7ZhpRM",
+      "releaseTimestamp": "2026-08-27T22:48:02+09:00",
+      "liveStatus": "not_live",
+      "availability": "public",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {
@@ -67,14 +92,5 @@
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     }
   ],
-  "upcomingHeld": [
-    {
-      "videoId": "VyFAFnfn5dc",
-      "title": "【本日解禁】君となら、ラスボスまで行ける。｜榎本魅愛「君とならラスボスまで」MV",
-      "scheduledAt": "2026-08-27T20:00:00+09:00",
-      "relatedRelease": "kimi-to-nara-last-boss-made",
-      "status": "upcoming",
-      "playabilityStatus": "LIVE_STREAM_OFFLINE"
-    }
-  ]
+  "upcomingHeld": []
 }

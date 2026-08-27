@@ -6,6 +6,7 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | UPdown | 妃みちる | https://www.youtube.com/watch?v=SKUMF7ZhpRM | 4:05 | UPdown｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | RE:SONANCE | RE:VIVE | https://www.youtube.com/watch?v=EZp_Mtxt4G4 | 5:29 | RE:SONANCE｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 分かれた道 | 神代煌牙 | https://www.youtube.com/watch?v=EU_5CqN1zZw | 5:19 | 分かれた道｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | friendlikesong | 妃みちる | https://www.youtube.com/watch?v=IbydSXmEyVQ | 4:23 | friendlikesong｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -34,7 +35,7 @@
 | 公開済み | Without Worrying | 榎本魅愛 | https://www.youtube.com/watch?v=lMeYWn4Sqgk | 3:30 | Without Worrying｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 恋するマハラジャ | RANGILI | https://www.youtube.com/watch?v=V3DOM83zeLk | 6:17 | 恋するマハラジャ｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | チンパンジーの楽園 | NOX | https://www.youtube.com/watch?v=eSRxfGqzYOk | 2:29 | チンパンジーの楽園｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 明日は、きっと。 | 榎本魅愛 | https://www.youtube.com/watch?v=5MkQZT5qiGA | 3:35 | 明日は、きっと。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 明日は、きっと。 | 榎本魅愛 | https://www.youtube.com/watch?v=HKm8cUorTOs | 3:37 | 明日は、きっと。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Heal You Again | RE:VIVE | https://www.youtube.com/watch?v=XHjDSEoFcXE | 1:45 | Heal You Again｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Echoes of You | 神代 煌牙 | https://www.youtube.com/watch?v=Uxtp9TLw47g | 8:04 | Echoes of You｜神代 煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | NAMASTE☆GALAXY | RANGILI | https://www.youtube.com/watch?v=CQ0bfdXVrck | 2:43 | NAMASTE☆GALAXY｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -52,7 +53,7 @@
 | 公開済み | 無敵時間、あと3秒 | 榎本魅愛 | https://www.youtube.com/watch?v=DPnFtRFnH5c | 3:52 | 無敵時間、あと3秒｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | M・I・A | 榎本魅愛 | https://www.youtube.com/watch?v=WzcXyuAI_FM | 5:28 | M・I・A｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 解けない魔法を、愛と呼ぶ | 榎本魅愛 | https://www.youtube.com/watch?v=CAFQ-d7YHPQ | 6:20 | 解けない魔法を、愛と呼ぶ｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 君とならラスボスまで | 榎本魅愛 | https://www.youtube.com/watch?v=YVNs3I-KaHI | 5:29 | 君とならラスボスまで｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 君とならラスボスまで | 榎本魅愛 | https://www.youtube.com/watch?v=VyFAFnfn5dc | 5:28 | 君とならラスボスまで｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | AIでもわからない | 榎本魅愛 | https://www.youtube.com/watch?v=5jmTo3Jb5sI | 5:15 | AIでもわからない｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 君は花火 | 榎本魅愛 | https://www.youtube.com/watch?v=ohylad3AWYI | 4:40 | 君は花火｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

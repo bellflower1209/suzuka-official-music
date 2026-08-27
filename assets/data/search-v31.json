@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T18:16:37+09:00",
+  "updatedAt": "2026-08-28T00:37:35+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,32 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "UPdown",
+      "description": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。",
+      "url": "releases/updown/",
+      "keywords": [
+        "妃みちる",
+        "J-POP",
+        "恋愛",
+        "告白",
+        "夏祭り",
+        "妃みちる",
+        "UPdown",
+        "恋愛ソング",
+        "告白ソング",
+        "夏祭り",
+        "花火",
+        "青春",
+        "J-POP",
+        "恋愛",
+        "告白",
+        "明るい",
+        "コミカル"
       ]
     },
     {
@@ -1238,6 +1264,19 @@
         "橘紗良",
         "星宮羽音",
         "HANON"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "泣いてもいい。それでも明日は、きっと来る。｜榎本魅愛 #shorts",
+      "description": "榎本魅愛「明日は、きっと。」Official Music Videoの希望を伝える公式Shorts。",
+      "url": "artists/enomoto-mia/#short-YqXpqb19crM",
+      "keywords": [
+        "榎本魅愛",
+        "ashita-wa-kitto",
+        "YouTube Shorts",
+        "Shorts"
       ]
     },
     {

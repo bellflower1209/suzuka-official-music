@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-26T18:16:37+09:00",
+  "checkedAt": "2026-08-28T00:37:35+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -53,6 +53,41 @@
       "verifiedPublishedAt": "2026-07-29T01:22:23+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "ashita-wa-kitto",
+      "youtubeId": "HKm8cUorTOs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
+      "catalogReleaseDate": "2026-08-26",
+      "officialTitle": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-26T21:13:36+09:00",
+      "youtubeUploadDate": "2026-08-26T21:13:36+09:00",
+      "liveStartTimestamp": "2026-08-26T21:13:36+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 217,
+      "verifiedPublishedAt": "2026-08-26T21:13:36+09:00",
+      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "ashita-wa-kitto",
+      "youtubeId": "YqXpqb19crM",
+      "youtubeUrl": "https://www.youtube.com/shorts/YqXpqb19crM",
+      "catalogReleaseDate": "2026-08-26",
+      "officialTitle": "泣いてもいい。それでも明日は、きっと来る。｜榎本魅愛 #shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-26T21:19:39+09:00",
+      "youtubeUploadDate": "2026-08-26T21:19:39+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 61,
+      "verifiedPublishedAt": "2026-08-26T21:19:39+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
     },
     {
       "releaseSlug": "boukyaku-no-ikimono",
@@ -433,6 +468,23 @@
       "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime",
       "contentType": "short"
+    },
+    {
+      "releaseSlug": "kimi-to-nara-last-boss-made",
+      "youtubeId": "VyFAFnfn5dc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+      "catalogReleaseDate": "2026-08-26",
+      "officialTitle": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-26T20:00:06+09:00",
+      "youtubeUploadDate": "2026-08-26T20:00:06+09:00",
+      "liveStartTimestamp": "2026-08-26T20:00:06+09:00",
+      "playabilityStatus": "OK",
+      "durationSeconds": 328,
+      "verifiedPublishedAt": "2026-08-26T20:00:06+09:00",
+      "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "kimi-to-nara-last-boss-made",
@@ -996,6 +1048,23 @@
       "durationSeconds": 324,
       "verifiedPublishedAt": "2026-07-15T00:51:42+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "updown",
+      "youtubeId": "SKUMF7ZhpRM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+      "catalogReleaseDate": "2026-08-27",
+      "officialTitle": "【新曲】UPdown｜好きな子の前じゃ、平常心なんて無理。🎆💓｜妃みちる",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-27T22:48:02+09:00",
+      "youtubeUploadDate": "2026-08-27T22:48:02+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 245,
+      "verifiedPublishedAt": "2026-08-27T22:48:02+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {

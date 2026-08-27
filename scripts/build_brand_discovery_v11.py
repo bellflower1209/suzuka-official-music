@@ -208,6 +208,15 @@ def normalize_graph(text: str, canonical: str, relative: Path, brand: dict, rele
                 "url": brand["officialUrl"], "description": brand["description"],
                 "logo": {"@type": "ImageObject", "url": brand["logo"], "contentUrl": brand["logo"]},
                 "sameAs": [item["url"] for item in brand["sameAs"]],
+                "employee": [
+                    {
+                        "@type": "Person",
+                        "name": item["name"],
+                        "jobTitle": f'{item["role"]} / {item["jobTitle"]}',
+                        "worksFor": {"@id": brand["organizationId"]},
+                    }
+                    for item in brand.get("leadership", [])
+                ],
             }
             website = {
                 "@type": "WebSite", "@id": brand["websiteId"], "url": brand["officialUrl"],
@@ -358,6 +367,19 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
         '<a href="../photobooks/">Photobooks</a></nav><p class="v11-disambiguation">本サイトのSUZUKAは、音楽・ビジュアル・物語を展開する独立したオリジナルAI音楽プロジェクトです。</p></section>'
     )
     about = marker_upsert(about, "ABOUT-ENTITY", source, '<section class="about-label-story">')
+    leadership_cards = "".join(
+        '<article><p class="section-kicker">' + html.escape(item["role"]) + '</p>'
+        '<h3>' + html.escape(item["name"]) + '</h3>'
+        '<p>' + html.escape(item["jobTitle"]) + '</p></article>'
+        for item in brand.get("leadership", [])
+    )
+    leadership = (
+        '<section class="v11-leadership" aria-labelledby="v11-leadership-title">'
+        '<p class="section-kicker">PROJECT LEADERSHIP</p>'
+        '<h2 id="v11-leadership-title">運営体制</h2>'
+        f'<div class="v11-leadership-grid">{leadership_cards}</div></section>'
+    )
+    about = marker_upsert(about, "ABOUT-LEADERSHIP", leadership, '<section class="about-label-story">')
     about_path.write_text(about, encoding="utf-8")
 
     for item in releases:

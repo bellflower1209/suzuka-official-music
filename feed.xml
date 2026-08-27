@@ -2,12 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-26T18:16:37+09:00</updated>
+  <updated>2026-08-28T00:37:35+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-08-27T22:48:02+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/updown/</id>
+    <title>妃みちる「UPdown」</title>
+    <updated>2026-08-27T22:48:02+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/updown/" />
+    <category term="release" />
+    <summary>夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。</summary>
+  </entry>
   <entry>
     <published>2026-08-22T22:13:44+09:00</published>
     <id>https://www.suzukaofficial.com/releases/re-sonance/</id>

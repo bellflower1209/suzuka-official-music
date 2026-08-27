@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-28",
   "releases": [
+    {
+      "slug": "updown",
+      "title": "UPdown",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "image": "https://i.ytimg.com/vi/SKUMF7ZhpRM/maxresdefault.jpg",
+      "coverImage": "https://i.ytimg.com/vi/SKUMF7ZhpRM/maxresdefault.jpg",
+      "coverAlt": "妃みちる「UPdown」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+      "shortsUrl": "",
+      "newsPage": "",
+      "description": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。",
+      "status": "published",
+      "releaseType": "single",
+      "publishedDate": "2026-08-27",
+      "duration": 245,
+      "releasePage": "releases/updown/",
+      "playerEnabled": false,
+      "youtubeStatus": "published",
+      "newsStatus": "unconfirmed",
+      "shortsStatus": "unconfirmed"
+    },
     {
       "slug": "re-sonance",
       "title": "RE:SONANCE",
@@ -624,20 +646,20 @@
       "artistSlug": "enomoto-mia",
       "image": "images/mv-ashita-wa-kitto.jpg",
       "coverAlt": "榎本魅愛「明日は、きっと。」公式YouTubeサムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5MkQZT5qiGA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
       "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
       "newsPage": "news/ashita-wa-kitto-release/",
       "status": "published",
       "releaseType": "single",
       "publishedDate": "2026-07-28",
-      "duration": 215,
+      "duration": 217,
       "releasePage": "releases/ashita-wa-kitto/",
       "playerEnabled": false,
       "youtubeStatus": "published",
       "newsStatus": "published",
-      "shortsStatus": "unconfirmed",
+      "shortsStatus": "published",
       "coverImage": "images/mv-ashita-wa-kitto.jpg",
-      "shortsUrl": ""
+      "shortsUrl": "https://www.youtube.com/shorts/YqXpqb19crM"
     },
     {
       "slug": "heal-you-again",
@@ -1084,7 +1106,7 @@
       "artistSlug": "enomoto-mia",
       "image": "images/mv-lastboss.jpg",
       "releasePage": "releases/kimi-to-nara-last-boss-made/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
       "youtubeStatus": "published",
       "shortsUrl": "https://www.youtube.com/shorts/14sVB_BZ3sU",
       "shortsStatus": "published",
@@ -1096,7 +1118,7 @@
       "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
       "releaseType": "single",
       "publishedDate": "2026-07-13",
-      "duration": 329,
+      "duration": 328,
       "playerEnabled": false
     },
     {

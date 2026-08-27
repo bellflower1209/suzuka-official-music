@@ -1,6 +1,53 @@
 {
-  "updatedAt": "2026-08-26T18:16:37+09:00",
+  "updatedAt": "2026-08-28T00:37:35+09:00",
   "recommendations": {
+    "updown": {
+      "sameArtist": [
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e"
+      ],
+      "sameGenre": [
+        "tatta-hitori-no-kimi-e",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "one-more-kiss",
+        "ai-demo-wakaranai",
+        "hyakumankoku"
+      ],
+      "sameTheme": [
+        "tatta-hitori-no-kimi-e",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "one-more-kiss",
+        "ai-demo-wakaranai",
+        "hyakumankoku"
+      ],
+      "popular": [
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss",
+        "re-sonance"
+      ],
+      "recent": [
+        "re-sonance",
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e",
+        "taipa-nante-shiranakatta"
+      ],
+      "aiRecommended": [
+        "tatta-hitori-no-kimi-e",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "one-more-kiss",
+        "ai-demo-wakaranai",
+        "hyakumankoku"
+      ]
+    },
     "re-sonance": {
       "sameArtist": [
         "still-alive",
@@ -31,12 +78,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta",
-        "monsoon-promise"
+        "taipa-nante-shiranakatta"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -80,12 +127,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "friendlikesong",
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta",
-        "monsoon-promise"
+        "taipa-nante-shiranakatta"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -98,6 +145,7 @@
     },
     "friendlikesong": {
       "sameArtist": [
+        "updown",
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e"
       ],
@@ -105,9 +153,9 @@
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
         "kimi-wa-hanabi",
+        "updown",
         "re-sonance",
-        "wakareta-michi",
-        "taipa-nante-shiranakatta"
+        "wakareta-michi"
       ],
       "sameTheme": [
         "kimi-wa-hanabi"
@@ -121,24 +169,25 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta",
-        "monsoon-promise"
+        "taipa-nante-shiranakatta"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
         "kimi-wa-hanabi",
+        "updown",
         "re-sonance",
-        "wakareta-michi",
-        "taipa-nante-shiranakatta"
+        "wakareta-michi"
       ]
     },
     "watashi-no-eranda-michi": {
       "sameArtist": [
+        "updown",
         "friendlikesong",
         "tatta-hitori-no-kimi-e"
       ],
@@ -165,12 +214,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta",
-        "monsoon-promise"
+        "taipa-nante-shiranakatta"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -183,24 +232,25 @@
     },
     "tatta-hitori-no-kimi-e": {
       "sameArtist": [
+        "updown",
         "friendlikesong",
         "watashi-no-eranda-michi"
       ],
       "sameGenre": [
+        "updown",
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
         "hanakotoba",
-        "mermaid-no-geboku",
-        "koisuru-maharaja"
+        "mermaid-no-geboku"
       ],
       "sameTheme": [
+        "updown",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "mermaid-no-geboku",
         "koisuru-maharaja",
-        "one-more-kiss",
-        "ai-demo-wakaranai"
+        "one-more-kiss"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -211,20 +261,20 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "taipa-nante-shiranakatta",
-        "monsoon-promise"
+        "taipa-nante-shiranakatta"
       ],
       "aiRecommended": [
+        "updown",
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
         "hanakotoba",
-        "mermaid-no-geboku",
-        "koisuru-maharaja"
+        "mermaid-no-geboku"
       ]
     },
     "monsoon-promise": {
@@ -243,12 +293,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -288,12 +338,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "monsoon-promise"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -326,12 +376,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -367,12 +417,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -403,12 +453,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "caramel",
@@ -439,12 +489,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -475,12 +525,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -525,12 +575,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -565,12 +615,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -610,12 +660,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -660,12 +710,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -710,12 +760,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -760,12 +810,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -805,12 +855,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -842,12 +892,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -892,12 +942,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -936,12 +986,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -974,12 +1024,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -1013,7 +1063,7 @@
         "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "last-dance-tonight",
-        "ai-demo-wakaranai"
+        "updown"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -1024,12 +1074,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1069,12 +1119,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1119,12 +1169,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1146,7 +1196,7 @@
         "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai"
+        "updown"
       ],
       "sameTheme": [
         "namaste-galaxy",
@@ -1154,7 +1204,7 @@
         "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai"
+        "updown"
       ],
       "popular": [
         "hajimemashite-kiseki",
@@ -1165,12 +1215,12 @@
         "still-alive"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -1178,7 +1228,7 @@
         "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
-        "ai-demo-wakaranai"
+        "updown"
       ]
     },
     "chimpanzee-no-rakuen": {
@@ -1203,12 +1253,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -1253,12 +1303,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1299,12 +1349,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1344,12 +1394,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -1385,12 +1435,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1423,12 +1473,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -1473,12 +1523,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1519,12 +1569,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1568,12 +1618,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1611,12 +1661,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1661,12 +1711,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1711,12 +1761,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1761,12 +1811,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -1808,12 +1858,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1854,12 +1904,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -1904,12 +1954,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -1954,12 +2004,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2004,12 +2054,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2054,12 +2104,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2104,12 +2154,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2154,12 +2204,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -2204,12 +2254,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2254,12 +2304,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -2304,12 +2354,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2354,12 +2404,12 @@
         "re-sonance"
       ],
       "recent": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

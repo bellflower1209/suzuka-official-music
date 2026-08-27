@@ -265,12 +265,12 @@
       "slug": "kimi-to-nara-last-boss-made",
       "status": "published",
       "pageUrl": "releases/kimi-to-nara-last-boss-made/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
-      "youtubeId": "YVNs3I-KaHI",
-      "youtubeVideoTitle": "人生に攻略本はない。でも君とならラスボスまで。榎本魅愛「君とならラスボスまで」Official Music Video",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+      "youtubeId": "VyFAFnfn5dc",
+      "youtubeVideoTitle": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
       "image": "images/mv-lastboss.jpg",
-      "duration": 329,
-      "uploadDate": "2026-07-13",
+      "duration": 328,
+      "uploadDate": "2026-08-26T20:00:06+09:00",
       "shortDescription": "恋愛とRPGを重ね、二人なら困難も越えられると歌う冒険ラブソング。",
       "featured": false,
       "relatedSongs": [
@@ -278,7 +278,8 @@
         "ai-demo-wakaranai",
         "mia",
         "mermaid-merman"
-      ]
+      ],
+      "audioUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI"
     },
     {
       "title": "AIでもわからない",

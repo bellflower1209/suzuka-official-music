@@ -55,7 +55,13 @@ def update_json_ld(source: str) -> str:
         if isinstance(value, dict):
             schema_type = value.get("@type")
             schema_types = schema_type if isinstance(schema_type, list) else [schema_type]
-            if any(item in {"Person", "MusicGroup"} for item in schema_types):
+            is_project_staff = (
+                "Person" in schema_types
+                and bool(value.get("jobTitle"))
+                and isinstance(value.get("worksFor"), dict)
+                and value["worksFor"].get("@id") == "https://www.suzukaofficial.com/#organization"
+            )
+            if any(item in {"Person", "MusicGroup"} for item in schema_types) and not is_project_staff:
                 if not value.get("name"):
                     if value.get("description") == ARTIST_SCHEMA_COPY:
                         value.pop("description")

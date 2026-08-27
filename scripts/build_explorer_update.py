@@ -269,7 +269,7 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
         '<div class="explore-actions">'
         f'<a href="{p}{item["releaseUrl"]}">作品ページ</a>'
         f'<a href="{p}artists/{item["artistSlug"]}/">Artist</a>'
-        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">MV ↗</a>{lyrics}{news}'
+        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(item.get("videoCtaLabel", "MV"))} ↗</a>{lyrics}{news}'
         "</div></div></article>"
     )
 
@@ -748,7 +748,7 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
             '<div class="explorer-artist-hub-hero"><div><p class="section-kicker">LATEST MV / PUBLIC RELEASE</p>'
             f'<h2>{html.escape(latest["displayTitle"])}</h2><p>{html.escape(latest["description"])}</p>'
             '<div class="explore-actions">'
-            f'<a href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">最新MV ↗</a>'
+            f'<a href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(latest.get("videoCtaLabel", "最新MV"))} ↗</a>'
             f'<a href="../../{latest["releaseUrl"]}">最新公開曲</a>'
             f'<a href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>'
             f'<a href="{INSTAGRAM}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>'

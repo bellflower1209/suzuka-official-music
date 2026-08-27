@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T18:16:37+09:00",
+  "updatedAt": "2026-08-28T00:37:35+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -21,6 +21,7 @@
         "hajimemashite-kiseki",
         "koisuru-maharaja",
         "one-more-kiss",
+        "updown",
         "without-worrying",
         "ai-demo-wakaranai",
         "hyakumankoku",
@@ -35,8 +36,7 @@
         "my-queen-my-oath",
         "our-kingdom",
         "smile-and-say-goodbye",
-        "suki-ga-kyou-mo-fueteiku",
-        "sukitte-baretemo-ii"
+        "suki-ga-kyou-mo-fueteiku"
       ],
       "count": 20
     },
@@ -212,6 +212,7 @@
         "one-more-kiss",
         "re-sonance",
         "still-alive",
+        "updown",
         "wasureji-no-hito",
         "without-worrying",
         "zennin-saiban",
@@ -223,8 +224,7 @@
         "kimi-ni-kakatta-mahou",
         "kimi-to-nara-last-boss-made",
         "kimi-wa-hanabi",
-        "mermaid-merman",
-        "mia"
+        "mermaid-merman"
       ],
       "count": 20
     },
@@ -235,6 +235,7 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
@@ -253,8 +254,7 @@
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
-        "wasureji-no-hito",
-        "anata-dake-no-savior"
+        "wasureji-no-hito"
       ],
       "count": 20
     },
@@ -267,6 +267,7 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "updown",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
@@ -285,8 +286,7 @@
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
         "hanakotoba",
-        "anata-dake-no-savior",
-        "wasureji-no-hito"
+        "anata-dake-no-savior"
       ],
       "count": 20
     }

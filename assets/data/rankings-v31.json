@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T18:16:37+09:00",
+  "updatedAt": "2026-08-28T00:37:35+09:00",
   "ga4DataAvailable": false,
   "youtubeDataAvailable": false,
   "rankings": {
@@ -11,15 +11,13 @@
       "one-more-kiss",
       "re-sonance",
       "still-alive",
+      "updown",
       "wasureji-no-hito",
-      "without-worrying",
-      "zennin-saiban"
+      "without-worrying"
     ],
     "sitePopular": [],
     "youtubePopular": [],
     "weeklySpotlight": [
-      "moshimo-ashita-hajimemashite-ni-natte-mo",
-      "muteki-jikan-ato-3byou",
       "my-queen-my-oath",
       "namaste-galaxy",
       "natsu-ga-owaru-made-soba-ni-ite",
@@ -27,7 +25,9 @@
       "our-kingdom",
       "re-sonance",
       "red-moon-rising",
-      "shadow-code"
+      "shadow-code",
+      "smile-and-say-goodbye",
+      "still-alive"
     ]
   }
 }

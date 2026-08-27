@@ -41,6 +41,17 @@ def main() -> None:
             errors.append("Home Organization identity mismatch")
         if organization.get("sameAs") != expected_same_as:
             errors.append("Organization sameAs mismatch")
+        expected_leadership = {
+            (item["name"], f'{item["role"]} / {item["jobTitle"]}')
+            for item in brand.get("leadership", [])
+        }
+        actual_leadership = {
+            (item.get("name"), item.get("jobTitle"))
+            for item in organization.get("employee", [])
+            if isinstance(item, dict)
+        }
+        if actual_leadership != expected_leadership:
+            errors.append("Organization leadership mismatch")
         forbidden = {"address", "telephone", "email", "foundingDate", "taxID", "legalName"}
         if forbidden & organization.keys():
             errors.append(f"unverified Organization fields: {sorted(forbidden & organization.keys())}")
@@ -56,6 +67,9 @@ def main() -> None:
         errors.append("Home visible brand descriptor missing")
     if "BRAND-V11:ABOUT-ENTITY:START" not in about or "本サイトのSUZUKAは" not in about:
         errors.append("About entity source missing")
+    for item in brand.get("leadership", []):
+        if item["name"] not in about or item["role"] not in about or item["jobTitle"] not in about:
+            errors.append(f'About leadership missing: {item["name"]}')
     manifest = json.loads((ROOT / "site.webmanifest").read_text(encoding="utf-8"))
     if manifest.get("name") != brand["brandName"] or manifest.get("short_name") != brand["shortName"]:
         errors.append("manifest brand mismatch")

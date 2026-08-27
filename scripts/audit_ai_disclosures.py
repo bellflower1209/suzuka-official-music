@@ -33,7 +33,13 @@ def walk(value: object, errors: list[str], page: Path) -> None:
     if isinstance(value, dict):
         schema_type = value.get("@type")
         schema_types = schema_type if isinstance(schema_type, list) else [schema_type]
-        if any(item in {"Person", "MusicGroup"} for item in schema_types) and value.get("name"):
+        is_project_staff = (
+            "Person" in schema_types
+            and bool(value.get("jobTitle"))
+            and isinstance(value.get("worksFor"), dict)
+            and value["worksFor"].get("@id") == "https://www.suzukaofficial.com/#organization"
+        )
+        if any(item in {"Person", "MusicGroup"} for item in schema_types) and value.get("name") and not is_project_staff:
             description = str(value.get("description", ""))
             if "架空" not in description and "fictional" not in description.lower():
                 errors.append(f"{page}: Person/MusicGroup description lacks fictional AI context")

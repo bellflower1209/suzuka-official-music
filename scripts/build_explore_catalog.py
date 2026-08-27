@@ -112,6 +112,26 @@ def write(path: Path, value: str) -> None:
     path.write_text(value, encoding="utf-8")
 
 
+def sync_preserved_release_video(source: str, item: dict) -> str:
+    """Update verified video evidence without replacing a bespoke release page."""
+    previous_url = item.get("audioUrl", "")
+    current_url = item.get("youtubeUrl", "")
+    if previous_url and current_url and previous_url != current_url:
+        source = source.replace(previous_url, current_url)
+        previous_id = previous_url.split("v=", 1)[-1].split("&", 1)[0]
+        current_id = current_url.split("v=", 1)[-1].split("&", 1)[0]
+        source = source.replace(f"youtube.com/embed/{previous_id}", f"youtube.com/embed/{current_id}")
+    published_at = item.get("videoPublishedAt", "")
+    if published_at:
+        source = re.sub(
+            r'("uploadDate":")[^"]+("\s*,\s*"contentUrl")',
+            rf'\g<1>{published_at}\g<2>',
+            source,
+            count=1,
+        )
+    return source
+
+
 def prefix(path: Path) -> str:
     return "../" * len(path.relative_to(ROOT).parent.parts)
 
@@ -206,7 +226,8 @@ def genre_pages(root: Path, data: dict) -> None:
 
 def render_card(item: dict, p: str) -> str:
     news = f'<a href="{p}{item["newsUrl"]}">News</a>' if item["newsUrl"] else ""
-    return f'<article class="explore-card"><img src="{media_url(item["coverImage"], p)}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-card-copy"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><h2>{html.escape(item["displayTitle"])}</h2><p>{html.escape(item["artist"])}</p><div class="explore-tags">{"".join(f"<span class=explore-tag>{html.escape(g)}</span>" for g in item["genres"])}</div><div class="explore-actions"><a href="{p}{item["releaseUrl"]}">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式MV ↗</a>{news}</div></div></article>'
+    video_cta = html.escape(item.get("videoCtaLabel", "公式MV"))
+    return f'<article class="explore-card"><img src="{media_url(item["coverImage"], p)}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-card-copy"><time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-",".")}</time><h2>{html.escape(item["displayTitle"])}</h2><p>{html.escape(item["artist"])}</p><div class="explore-tags">{"".join(f"<span class=explore-tag>{html.escape(g)}</span>" for g in item["genres"])}</div><div class="explore-actions"><a href="{p}{item["releaseUrl"]}">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{video_cta} ↗</a>{news}</div></div></article>'
 
 
 def discography_page(data: dict) -> str:
@@ -733,6 +754,9 @@ def main() -> None:
     for item in data["releases"]:
         release_path = ROOT / item["releaseUrl"] / "index.html"
         release_source = release_path.read_text(encoding="utf-8") if release_path.exists() else ""
+        if item["slug"] == "kimi-to-nara-last-boss-made" and release_source:
+            release_source = sync_preserved_release_video(release_source, item)
+            write(release_path, release_source)
         if (
             not release_path.exists()
             or 'content="noindex' in release_source
