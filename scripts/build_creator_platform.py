@@ -326,7 +326,7 @@ def english_pages(root: Path, cms: dict, releases: list[dict]) -> None:
         elif route == "universe":
             content = f'<section class="creator-copy"><p>{html.escape(cms["universe"].get("overview", cms["universe"].get("story", "")))}</p></section><section class="creator-link-grid">{artist_links}</section>'
         else:
-            content = f'<section class="creator-link-grid">{artist_links}</section><section class="creator-link-grid">{release_cards[:6000]}</section>'
+            content = f'<section class="creator-link-grid">{artist_links}</section><section class="creator-link-grid">{release_cards}</section>'
         graph = {"@context": "https://schema.org", "@graph": [
             {"@type": "CollectionPage" if route in {"artists", "releases", "genres", "discography", "news"} else "WebPage",
              "url": f"{BASE}/{canonical_path}", "name": f"{title} | SUZUKA", "description": description,

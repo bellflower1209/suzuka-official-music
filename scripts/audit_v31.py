@@ -14,7 +14,14 @@ def main() -> int:
     rankings = (root / "rankings/index.html").read_text(encoding="utf-8")
     analytics = (root / "assets/analytics.js").read_text(encoding="utf-8")
     errors = []
-    for marker in ('data-home-hero', '>花言葉</h1>', './images/enomoto-mia-hanakotoba.jpg', 'マーメイドの下僕', '君にかかった魔法', './schedule/', './lyrics/'):
+    releases = sorted(
+        [item for item in cms.get('releases', []) if item.get('status') == 'published'],
+        key=lambda item: (item.get('publishedAt', ''), item.get('slug', '')), reverse=True,
+    )
+    hero = next((item for item in releases if item.get('homeHero')), releases[0])
+    cover = hero.get('coverImage', '')
+    cover_marker = cover if cover.startswith(('https://', 'http://')) else f'./{cover}'
+    for marker in ('data-home-hero', f'>{hero["title"]}</h1>', cover_marker, 'マーメイドの下僕', '君にかかった魔法', './schedule/', './lyrics/'):
         if marker not in home:
             errors.append(f'home missing {marker}')
     for marker in ('A. SUZUKAおすすめ', 'B. サイト人気', 'C. YouTube人気', 'D. 今週の注目', 'データ準備中'):
@@ -46,7 +53,7 @@ def main() -> int:
     if errors:
         print("V3.1 audit failed:\n- " + "\n- ".join(errors), file=sys.stderr)
         return 1
-    print("V3.1 audit passed: flower Hero, latest/next release, four ranking surfaces, GA4 events and fixed player invariants.")
+    print("V3.1 audit passed: canonical latest Hero, latest/next release, four ranking surfaces, GA4 events and fixed player invariants.")
     return 0
 
 if __name__ == "__main__": raise SystemExit(main())

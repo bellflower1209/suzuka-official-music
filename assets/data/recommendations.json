@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-28T00:37:35+09:00",
+  "updatedAt": "2026-08-31T21:30:00+09:00",
   "recommendations": {
+    "akuyaku-de-ii": {
+      "sameArtist": [
+        "wakareta-michi",
+        "kamisama-wa-rusu",
+        "leo-rise-again",
+        "mermaid-no-geboku",
+        "one-more-kiss",
+        "echoes-of-you"
+      ],
+      "sameGenre": [
+        "wakareta-michi",
+        "one-more-kiss",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "leo-rise-again",
+        "mermaid-no-geboku"
+      ],
+      "sameTheme": [],
+      "popular": [
+        "iine-sougisha",
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss"
+      ],
+      "recent": [
+        "iine-sougisha",
+        "updown",
+        "re-sonance",
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi"
+      ],
+      "aiRecommended": [
+        "wakareta-michi",
+        "one-more-kiss",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "leo-rise-again",
+        "mermaid-no-geboku"
+      ]
+    },
+    "iine-sougisha": {
+      "sameArtist": [
+        "family-portrait",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen"
+      ],
+      "sameGenre": [
+        "zennin-saiban",
+        "chimpanzee-no-rakuen",
+        "family-portrait"
+      ],
+      "sameTheme": [],
+      "popular": [
+        "akuyaku-de-ii",
+        "hajimemashite-kiseki",
+        "hanakotoba",
+        "koisuru-maharaja",
+        "lost-signal",
+        "one-more-kiss"
+      ],
+      "recent": [
+        "akuyaku-de-ii",
+        "updown",
+        "re-sonance",
+        "wakareta-michi",
+        "friendlikesong",
+        "watashi-no-eranda-michi"
+      ],
+      "aiRecommended": [
+        "zennin-saiban",
+        "chimpanzee-no-rakuen",
+        "family-portrait",
+        "akuyaku-de-ii",
+        "updown",
+        "re-sonance"
+      ]
+    },
     "updown": {
       "sameArtist": [
         "friendlikesong",
@@ -24,20 +104,20 @@
         "hyakumankoku"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "watashi-no-eranda-michi"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -70,20 +150,20 @@
         "without-worrying"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "still-alive"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "wakareta-michi",
         "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "watashi-no-eranda-michi"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -96,20 +176,20 @@
     },
     "wakareta-michi": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
-        "echoes-of-you",
-        "boukyaku-no-ikimono"
+        "echoes-of-you"
       ],
       "sameGenre": [
+        "akuyaku-de-ii",
         "watashi-no-eranda-michi",
         "smile-and-say-goodbye",
         "ashita-wa-kitto",
         "one-more-kiss",
-        "echoes-of-you",
-        "leo-rise-again"
+        "echoes-of-you"
       ],
       "sameTheme": [
         "watashi-no-eranda-michi",
@@ -119,28 +199,28 @@
         "shadow-code"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "watashi-no-eranda-michi"
       ],
       "aiRecommended": [
+        "akuyaku-de-ii",
         "watashi-no-eranda-michi",
         "smile-and-say-goodbye",
         "ashita-wa-kitto",
         "one-more-kiss",
-        "echoes-of-you",
-        "leo-rise-again"
+        "echoes-of-you"
       ]
     },
     "friendlikesong": {
@@ -161,20 +241,20 @@
         "kimi-wa-hanabi"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "watashi-no-eranda-michi"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -206,20 +286,20 @@
         "shadow-code"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "tatta-hitori-no-kimi-e",
-        "taipa-nante-shiranakatta"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -253,20 +333,20 @@
         "one-more-kiss"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "taipa-nante-shiranakatta"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "updown",
@@ -285,20 +365,20 @@
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -330,20 +410,20 @@
         "ashita-wa-kitto"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -356,10 +436,12 @@
     },
     "family-portrait": {
       "sameArtist": [
+        "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen"
       ],
       "sameGenre": [
+        "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen"
       ],
@@ -368,28 +450,28 @@
         "wasurenai-kokoro"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
+        "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen",
         "smile-and-say-goodbye",
         "wasurenai-kokoro",
-        "false-identity",
-        "monsoon-promise"
+        "false-identity"
       ]
     },
     "false-identity": {
@@ -409,20 +491,20 @@
         "wasurenai-kokoro"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -445,20 +527,20 @@
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "caramel",
@@ -481,20 +563,20 @@
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -507,38 +589,38 @@
     },
     "kamisama-wa-rusu": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
-        "echoes-of-you",
-        "boukyaku-no-ikimono"
+        "echoes-of-you"
       ],
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
+        "akuyaku-de-ii",
         "wakareta-michi",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "boukyaku-no-ikimono"
       ]
     },
     "kimi-wa-makenai": {
@@ -567,20 +649,20 @@
         "still-alive"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -593,42 +675,43 @@
     },
     "leo-rise-again": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "mermaid-no-geboku",
         "one-more-kiss",
-        "echoes-of-you",
-        "boukyaku-no-ikimono"
+        "echoes-of-you"
       ],
       "sameGenre": [
+        "akuyaku-de-ii",
         "wakareta-michi"
       ],
       "sameTheme": [
         "one-more-kiss"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "one-more-kiss",
         "kamisama-wa-rusu",
         "mermaid-no-geboku",
-        "boukyaku-no-ikimono",
-        "echoes-of-you"
+        "boukyaku-no-ikimono"
       ]
     },
     "last-dance-tonight": {
@@ -652,20 +735,20 @@
         "one-more-kiss"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -702,20 +785,20 @@
         "mermaid-merman"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -728,12 +811,12 @@
     },
     "mermaid-no-geboku": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "one-more-kiss",
-        "echoes-of-you",
-        "boukyaku-no-ikimono"
+        "echoes-of-you"
       ],
       "sameGenre": [
         "mermaid-merman",
@@ -752,20 +835,20 @@
         "koisuru-maharaja"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -802,20 +885,20 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "koisuru-maharaja",
         "lost-signal",
-        "one-more-kiss",
-        "re-sonance",
-        "still-alive"
+        "one-more-kiss"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -847,20 +930,20 @@
         "kimi-wa-makenai"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -884,20 +967,20 @@
         "kimi-wa-hanabi"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -934,20 +1017,20 @@
         "heal-you-again"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hanakotoba",
         "koisuru-maharaja",
         "lost-signal",
-        "one-more-kiss",
-        "re-sonance",
-        "still-alive"
+        "one-more-kiss"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -978,20 +1061,20 @@
         "kimi-wa-makenai"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1004,11 +1087,13 @@
     },
     "zennin-saiban": {
       "sameArtist": [
+        "iine-sougisha",
         "family-portrait",
         "chimpanzee-no-rakuen"
       ],
       "sameGenre": [
         "chimpanzee-no-rakuen",
+        "iine-sougisha",
         "family-portrait"
       ],
       "sameTheme": [
@@ -1016,38 +1101,38 @@
         "boukyaku-no-ikimono"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
+        "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
         "one-more-kiss",
-        "still-alive",
-        "hajimemashite-kiseki"
+        "still-alive"
       ]
     },
     "one-more-kiss": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "echoes-of-you",
-        "boukyaku-no-ikimono"
+        "echoes-of-you"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1066,20 +1151,20 @@
         "updown"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "re-sonance",
-        "still-alive"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1111,20 +1196,20 @@
         "watashi-no-eranda-michi"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "one-more-kiss",
-        "re-sonance",
-        "still-alive"
+        "one-more-kiss"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1161,20 +1246,20 @@
         "hajimemashite-kiseki"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1207,20 +1292,20 @@
         "updown"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "lost-signal",
-        "one-more-kiss",
-        "re-sonance",
-        "still-alive"
+        "one-more-kiss"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -1233,11 +1318,13 @@
     },
     "chimpanzee-no-rakuen": {
       "sameArtist": [
+        "iine-sougisha",
         "family-portrait",
         "zennin-saiban"
       ],
       "sameGenre": [
         "zennin-saiban",
+        "iine-sougisha",
         "family-portrait"
       ],
       "sameTheme": [
@@ -1245,28 +1332,28 @@
         "boukyaku-no-ikimono"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "zennin-saiban",
+        "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
         "koisuru-maharaja",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ]
     },
     "ashita-wa-kitto": {
@@ -1295,20 +1382,20 @@
         "anata-dake-no-savior"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1341,20 +1428,20 @@
         "ashita-wa-kitto"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1367,47 +1454,47 @@
     },
     "echoes-of-you": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "boukyaku-no-ikimono"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "one-more-kiss",
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "mermaid-no-geboku",
-        "wakareta-michi",
-        "heal-you-again"
+        "akuyaku-de-ii",
+        "wakareta-michi"
       ],
       "sameTheme": [
         "mermaid-no-geboku"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "one-more-kiss",
         "boukyaku-no-ikimono",
         "my-queen-my-oath",
         "mermaid-no-geboku",
-        "wakareta-michi",
-        "heal-you-again"
+        "akuyaku-de-ii",
+        "wakareta-michi"
       ]
     },
     "namaste-galaxy": {
@@ -1427,20 +1514,20 @@
         "koisuru-maharaja"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1465,20 +1552,20 @@
         "family-portrait"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -1515,20 +1602,20 @@
         "family-portrait"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1541,12 +1628,12 @@
     },
     "boukyaku-no-ikimono": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1561,20 +1648,20 @@
         "zennin-saiban"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1587,12 +1674,12 @@
     },
     "my-queen-my-oath": {
       "sameArtist": [
+        "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "our-kingdom",
@@ -1610,20 +1697,20 @@
         "shadow-code"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1653,20 +1740,20 @@
         "my-queen-my-oath"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1703,20 +1790,20 @@
         "mia"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1753,20 +1840,20 @@
         "mia"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1803,20 +1890,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -1850,20 +1937,20 @@
         "kimi-ni-kakatta-mahou"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1896,20 +1983,20 @@
         "watashi-no-eranda-michi"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -1946,20 +2033,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -1996,20 +2083,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2046,20 +2133,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2096,20 +2183,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2146,20 +2233,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2196,20 +2283,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -2246,20 +2333,20 @@
         "mia"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2296,20 +2383,20 @@
         "kimi-to-nara-last-boss-made"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -2346,20 +2433,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2396,20 +2483,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
-        "lost-signal",
-        "one-more-kiss",
-        "re-sonance"
+        "lost-signal"
       ],
       "recent": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

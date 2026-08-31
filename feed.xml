@@ -2,12 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-28T00:37:35+09:00</updated>
+  <updated>2026-08-31T21:30:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-08-31T20:00:18+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/akuyaku-de-ii/</id>
+    <title>神代煌牙「悪役でいい」</title>
+    <updated>2026-08-31T20:00:18+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/akuyaku-de-ii/" />
+    <category term="release" />
+    <summary>世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-31T20:00:18+09:00</published>
+    <id>https://www.suzukaofficial.com/news/akuyaku-de-ii-release/</id>
+    <title>神代煌牙「悪役でいい」公開</title>
+    <updated>2026-08-31T20:00:18+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/akuyaku-de-ii-release/" />
+    <category term="news" />
+    <summary>世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-30T20:36:02+09:00</published>
+    <id>https://www.suzukaofficial.com/news/enomoto-mia-anime-opening-theme/</id>
+    <title>榎本魅愛「また、君に恋をする」アニメOP決定</title>
+    <updated>2026-08-30T20:36:02+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/enomoto-mia-anime-opening-theme/" />
+    <category term="news" />
+    <summary>アニメ「それでも、僕は君を探していた」のオープニングテーマ決定を伝える公式映像。アニメ本編の公開日は未定。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-29T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/iine-sougisha/</id>
+    <title>NOX「いいね葬儀社」</title>
+    <updated>2026-08-29T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/iine-sougisha/" />
+    <category term="release" />
+    <summary>死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-29T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/iine-sougisha-release/</id>
+    <title>NOX「いいね葬儀社」公開</title>
+    <updated>2026-08-29T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/iine-sougisha-release/" />
+    <category term="news" />
+    <summary>死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。</summary>
+  </entry>
   <entry>
     <published>2026-08-27T22:48:02+09:00</published>
     <id>https://www.suzukaofficial.com/releases/updown/</id>
@@ -232,6 +277,15 @@
     <link href="https://www.suzukaofficial.com/releases/kimi-ni-kakatta-mahou/" />
     <category term="release" />
     <summary>何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。</summary>
+  </entry>
+  <entry>
+    <published>2026-08-09T02:17:04+09:00</published>
+    <id>https://www.suzukaofficial.com/photobooks/koga-kamishiro-black-knight/</id>
+    <title>【神代煌牙 1st Digital Photo Book】BLACK KNIGHT ── この声は、守るためにある。</title>
+    <updated>2026-08-09T02:17:04+09:00</updated>
+    <link href="https://www.suzukaofficial.com/photobooks/koga-kamishiro-black-knight/" />
+    <category term="photobook" />
+    <summary>夜の街に立つ神代煌牙を通して、孤独、傷、弱さ、欲望、誓いと「守る」意志を描く、神代煌牙初の公式デジタル写真集。</summary>
   </entry>
   <entry>
     <published>2026-08-09T00:28:12+09:00</published>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-28T00:37:35+09:00",
+  "checkedAt": "2026-08-31T21:30:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -18,6 +18,23 @@
       "durationSeconds": 315,
       "verifiedPublishedAt": "2026-07-13T15:14:26+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "akuyaku-de-ii",
+      "youtubeId": "pESx9p7lIHw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pESx9p7lIHw",
+      "catalogReleaseDate": "2026-08-31",
+      "officialTitle": "【新曲】神代煌牙『悪役でいい』｜Official Audio｜MV制作決定",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-31T20:00:18+09:00",
+      "youtubeUploadDate": "2026-08-31T20:00:18+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 315,
+      "verifiedPublishedAt": "2026-08-31T20:00:18+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {
@@ -397,6 +414,59 @@
       "durationSeconds": 295,
       "verifiedPublishedAt": "2026-07-12T19:42:52+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "iine-sougisha",
+      "youtubeId": "5P30pcwkd80",
+      "youtubeUrl": "https://www.youtube.com/shorts/5P30pcwkd80",
+      "catalogReleaseDate": "2026-08-28",
+      "officialTitle": "死んだ途端、みんな優しくなった。｜NOX「いいね葬儀社」フルMV制作中",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-28T22:51:11+09:00",
+      "youtubeUploadDate": "2026-08-28T22:51:11+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 45,
+      "verifiedPublishedAt": "2026-08-28T22:51:11+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "iine-sougisha",
+      "youtubeId": "UVKSB3-Itqw",
+      "youtubeUrl": "https://www.youtube.com/shorts/UVKSB3-Itqw",
+      "catalogReleaseDate": "2026-08-29",
+      "officialTitle": "死んだ途端、みんな「大好きでした」｜本日20:00公開『いいね葬儀社』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-29T19:37:07+09:00",
+      "youtubeUploadDate": "2026-08-29T19:37:07+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 27,
+      "verifiedPublishedAt": "2026-08-29T19:37:07+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "iine-sougisha",
+      "youtubeId": "lP_OZ_6hu-0",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lP_OZ_6hu-0",
+      "catalogReleaseDate": "2026-08-29",
+      "officialTitle": "【MV】死んだ途端、みんな「大好きでした」｜NOX『いいね葬儀社』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-29T20:00:06+09:00",
+      "youtubeUploadDate": "2026-08-29T20:00:06+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 227,
+      "verifiedPublishedAt": "2026-08-29T20:00:06+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {
@@ -1049,6 +1119,24 @@
       "verifiedPublishedAt": "2026-07-15T00:51:42+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "unreleased-mata-kimi-ni-koi-wo-suru",
+      "youtubeId": "kIs_YvTk8hE",
+      "youtubeUrl": "https://www.youtube.com/shorts/kIs_YvTk8hE",
+      "catalogReleaseDate": "2026-08-30",
+      "officialTitle": "【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-08-30T20:40:37+09:00",
+      "youtubeUploadDate": "2026-08-30T20:40:37+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 25,
+      "verifiedPublishedAt": "2026-08-30T20:40:37+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
     },
     {
       "releaseSlug": "updown",

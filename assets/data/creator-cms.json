@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-08-28T00:37:35+09:00",
+  "updatedAt": "2026-08-31T21:30:00+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -268,9 +268,9 @@
       "artistType": "Person",
       "artistStatus": "published",
       "artistFeaturedTracks": [
+        "akuyaku-de-ii",
         "wakareta-michi",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ]
     },
     {
@@ -332,6 +332,7 @@
       "artistType": "MusicGroup",
       "artistStatus": "published",
       "artistFeaturedTracks": [
+        "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen"
       ]
@@ -453,6 +454,218 @@
     }
   ],
   "releases": [
+    {
+      "slug": "akuyaku-de-ii",
+      "id": "akuyaku-de-ii",
+      "title": "悪役でいい",
+      "displayTitle": "悪役でいい",
+      "englishTitle": "悪役でいい",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-08-31T20:00:18+09:00",
+      "publishedAt": "2026-08-31T20:00:18+09:00",
+      "releaseDate": "2026-08-31",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop"
+      ],
+      "moods": [
+        "ダーク",
+        "力強い"
+      ],
+      "themes": [
+        "護る",
+        "決意",
+        "悪役"
+      ],
+      "tags": [
+        "神代煌牙",
+        "悪役でいい",
+        "KOGA KAMISHIRO",
+        "Official Audio",
+        "Black Knight",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "護る",
+        "決意",
+        "悪役",
+        "ダーク",
+        "力強い"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/pESx9p7lIHw/maxresdefault.jpg",
+      "coverAlt": "神代煌牙「悪役でいい」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pESx9p7lIHw",
+      "youtubeVideoTitle": "【新曲】神代煌牙『悪役でいい』｜Official Audio｜MV制作決定",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "videoButtonLabel": "LISTEN",
+      "shortsUrl": "",
+      "releaseUrl": "releases/akuyaku-de-ii/",
+      "newsUrl": "news/akuyaku-de-ii-release/",
+      "duration": 315,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 4,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "悪役でいい",
+        "神代煌牙",
+        "KOGA KAMISHIRO",
+        "Official Audio",
+        "Black Knight",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "護る",
+        "決意",
+        "悪役",
+        "ダーク",
+        "力強い"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "introduction": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "seo": {
+        "title": "悪役でいい｜神代煌牙｜SUZUKA Official Music",
+        "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-31",
+      "videoPublishedAt": "2026-08-31T20:00:18+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=pESx9p7lIHw",
+      "promotionVerifiedAt": "2026-08-31T21:30:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "homeHero": {
+        "title": "SUZUKA Official | 神代煌牙「悪役でいい」公開中",
+        "description": "神代煌牙の最新曲「悪役でいい」Official Audioを公開中。作品・Artist・NewsをSUZUKA公式サイトで紹介します。",
+        "subtitle": "神代煌牙 New Single / Official Audio",
+        "status": "Now Streaming"
+      }
+    },
+    {
+      "slug": "iine-sougisha",
+      "id": "iine-sougisha",
+      "title": "いいね葬儀社",
+      "displayTitle": "いいね葬儀社",
+      "englishTitle": "いいね葬儀社",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "artistSlugs": [
+        "nox"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-08-29T20:00:06+09:00",
+      "publishedAt": "2026-08-29T20:00:06+09:00",
+      "releaseDate": "2026-08-29",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "V系",
+        "ダークロック",
+        "邦ロック"
+      ],
+      "moods": [
+        "ダーク",
+        "挑発的"
+      ],
+      "themes": [
+        "SNS",
+        "承認欲求",
+        "社会風刺"
+      ],
+      "tags": [
+        "NOX",
+        "いいね葬儀社",
+        "Visual Kei",
+        "ブラックユーモア",
+        "Music Video",
+        "V系",
+        "ダークロック",
+        "邦ロック",
+        "SNS",
+        "承認欲求",
+        "社会風刺",
+        "ダーク",
+        "挑発的"
+      ],
+      "language": "ja",
+      "coverImage": "https://i.ytimg.com/vi/lP_OZ_6hu-0/maxresdefault.jpg",
+      "coverAlt": "NOX「いいね葬儀社」公式YouTubeサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lP_OZ_6hu-0",
+      "youtubeVideoTitle": "【MV】死んだ途端、みんな「大好きでした」｜NOX『いいね葬儀社』",
+      "videoLabel": "OFFICIAL MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoButtonLabel": "WATCH MV",
+      "shortsUrl": "https://www.youtube.com/shorts/UVKSB3-Itqw",
+      "releaseUrl": "releases/iine-sougisha/",
+      "newsUrl": "news/iine-sougisha-release/",
+      "duration": 227,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 4,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "いいね葬儀社",
+        "NOX",
+        "Visual Kei",
+        "ブラックユーモア",
+        "Music Video",
+        "V系",
+        "ダークロック",
+        "邦ロック",
+        "SNS",
+        "承認欲求",
+        "社会風刺",
+        "ダーク",
+        "挑発的"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "introduction": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "seo": {
+        "title": "いいね葬儀社｜NOX｜SUZUKA Official Music",
+        "description": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-08-29",
+      "videoPublishedAt": "2026-08-29T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=lP_OZ_6hu-0",
+      "promotionVerifiedAt": "2026-08-31T21:30:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null
+    },
     {
       "slug": "updown",
       "id": "updown",
@@ -5119,6 +5332,37 @@
   "upcoming": [],
   "news": [
     {
+      "slug": "akuyaku-de-ii-release",
+      "title": "神代煌牙「悪役でいい」公開",
+      "artistSlug": "koga-kamishiro",
+      "releaseSlug": "akuyaku-de-ii",
+      "publishedAt": "2026-08-31T20:00:18+09:00",
+      "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "image": "https://i.ytimg.com/vi/pESx9p7lIHw/maxresdefault.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "enomoto-mia-anime-opening-theme",
+      "title": "榎本魅愛「また、君に恋をする」アニメOP決定",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "",
+      "publishedAt": "2026-08-30T20:36:02+09:00",
+      "description": "アニメ「それでも、僕は君を探していた」のオープニングテーマ決定を伝える公式映像。アニメ本編の公開日は未定。",
+      "image": "https://i.ytimg.com/vi/dKnu4aEwkIY/maxresdefault.jpg",
+      "status": "published",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dKnu4aEwkIY"
+    },
+    {
+      "slug": "iine-sougisha-release",
+      "title": "NOX「いいね葬儀社」公開",
+      "artistSlug": "nox",
+      "releaseSlug": "iine-sougisha",
+      "publishedAt": "2026-08-29T20:00:06+09:00",
+      "description": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "image": "https://i.ytimg.com/vi/lP_OZ_6hu-0/maxresdefault.jpg",
+      "status": "published"
+    },
+    {
       "slug": "mermaid-no-geboku-release",
       "title": "神代煌牙「マーメイドの下僕」公開",
       "artistSlug": "koga-kamishiro",
@@ -5777,11 +6021,53 @@
     "events": []
   },
   "youtubeSnapshot": {
-    "officialVideos": 63,
-    "shorts": 42,
-    "verifiedAt": "2026-08-28T00:37:35+09:00",
-    "source": "公式YouTube Atomフィード・videos/shortsタブ・各動画のytInitialPlayerResponseを照合",
+    "officialVideos": 66,
+    "shorts": 45,
+    "verifiedAt": "2026-08-31T21:30:00+09:00",
+    "source": "公式YouTube Atomフィード・videos/shortsタブ・各動画の公開メタデータを照合",
     "shortVideos": [
+      {
+        "videoId": "kIs_YvTk8hE",
+        "title": "【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "publishedAt": "2026-08-30T20:40:37+09:00",
+        "relatedRelease": "",
+        "duration": 25,
+        "description": "榎本魅愛が担当するアニメOP「また、君に恋をする」の公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/kIs_YvTk8hE",
+        "thumbnail": "https://i.ytimg.com/vi/kIs_YvTk8hE/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
+      {
+        "videoId": "UVKSB3-Itqw",
+        "title": "死んだ途端、みんな「大好きでした」｜本日20:00公開『いいね葬儀社』",
+        "artist": "NOX",
+        "artistSlug": "nox",
+        "publishedAt": "2026-08-29T19:37:07+09:00",
+        "relatedRelease": "iine-sougisha",
+        "duration": 27,
+        "description": "NOX「いいね葬儀社」公閏MVの公開を告知する公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/UVKSB3-Itqw",
+        "thumbnail": "https://i.ytimg.com/vi/UVKSB3-Itqw/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
+      {
+        "videoId": "5P30pcwkd80",
+        "title": "死んだ途端、みんな優しくなった。｜NOX「いいね葬儀社」フルMV制作中",
+        "artist": "NOX",
+        "artistSlug": "nox",
+        "publishedAt": "2026-08-28T22:51:11+09:00",
+        "relatedRelease": "iine-sougisha",
+        "duration": 45,
+        "description": "NOX「いいね葬儀社」の世界観を紹介する公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/5P30pcwkd80",
+        "thumbnail": "https://i.ytimg.com/vi/5P30pcwkd80/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short"
+      },
       {
         "videoId": "YqXpqb19crM",
         "title": "泣いてもいい。それでも明日は、きっと来る。｜榎本魅愛 #shorts",
@@ -5951,7 +6237,7 @@
         "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。"
       }
     ],
-    "totalPublishedVideos": 105,
+    "totalPublishedVideos": 111,
     "scheduledVideos": []
   },
   "photobooks": {

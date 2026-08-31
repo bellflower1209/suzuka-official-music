@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T00:37:35+09:00",
+  "updatedAt": "2026-08-31T21:30:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,64 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "悪役でいい",
+      "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "url": "releases/akuyaku-de-ii/",
+      "keywords": [
+        "神代煌牙",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "護る",
+        "決意",
+        "悪役",
+        "神代煌牙",
+        "悪役でいい",
+        "KOGA KAMISHIRO",
+        "Official Audio",
+        "Black Knight",
+        "J-POP",
+        "J-ROCK",
+        "Dark Pop",
+        "護る",
+        "決意",
+        "悪役",
+        "ダーク",
+        "力強い"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "いいね葬儀社",
+      "description": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "url": "releases/iine-sougisha/",
+      "keywords": [
+        "NOX",
+        "V系",
+        "ダークロック",
+        "邦ロック",
+        "SNS",
+        "承認欲求",
+        "社会風刺",
+        "NOX",
+        "いいね葬儀社",
+        "Visual Kei",
+        "ブラックユーモア",
+        "Music Video",
+        "V系",
+        "ダークロック",
+        "邦ロック",
+        "SNS",
+        "承認欲求",
+        "社会風刺",
+        "ダーク",
+        "挑発的"
       ]
     },
     {
@@ -1269,6 +1327,45 @@
     {
       "type": "Shorts",
       "contentType": "short",
+      "title": "【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』",
+      "description": "榎本魅愛が担当するアニメOP「また、君に恋をする」の公式Shorts。",
+      "url": "artists/enomoto-mia/#short-kIs_YvTk8hE",
+      "keywords": [
+        "榎本魅愛",
+        "",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "死んだ途端、みんな「大好きでした」｜本日20:00公開『いいね葬儀社』",
+      "description": "NOX「いいね葬儀社」公閏MVの公開を告知する公式Shorts。",
+      "url": "artists/nox/#short-UVKSB3-Itqw",
+      "keywords": [
+        "NOX",
+        "iine-sougisha",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "死んだ途端、みんな優しくなった。｜NOX「いいね葬儀社」フルMV制作中",
+      "description": "NOX「いいね葬儀社」の世界観を紹介する公式Shorts。",
+      "url": "artists/nox/#short-5P30pcwkd80",
+      "keywords": [
+        "NOX",
+        "iine-sougisha",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
       "title": "泣いてもいい。それでも明日は、きっと来る。｜榎本魅愛 #shorts",
       "description": "榎本魅愛「明日は、きっと。」Official Music Videoの希望を伝える公式Shorts。",
       "url": "artists/enomoto-mia/#short-YqXpqb19crM",
@@ -1420,6 +1517,39 @@
         "tatta-hitori-no-kimi-e",
         "YouTube Shorts",
         "Shorts"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「悪役でいい」公開",
+      "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。",
+      "url": "news/akuyaku-de-ii-release/",
+      "keywords": [
+        "koga-kamishiro",
+        "akuyaku-de-ii"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「また、君に恋をする」アニメOP決定",
+      "description": "アニメ「それでも、僕は君を探していた」のオープニングテーマ決定を伝える公式映像。アニメ本編の公開日は未定。",
+      "url": "news/enomoto-mia-anime-opening-theme/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "NOX「いいね葬儀社」公開",
+      "description": "死の後だけ届く優しさと、悲しみさえ投稿に変えるSNS時代を風刺するNOXのダークロック。",
+      "url": "news/iine-sougisha-release/",
+      "keywords": [
+        "nox",
+        "iine-sougisha"
       ]
     },
     {
@@ -1936,6 +2066,19 @@
         "榎本魅愛",
         "J-POP",
         "ロマンティックポップ"
+      ]
+    },
+    {
+      "type": "Photobook",
+      "contentType": "photobook",
+      "title": "【神代煌牙 1st Digital Photo Book】BLACK KNIGHT ── この声は、守るためにある。",
+      "description": "夜の街に立つ神代煌牙を通して、孤独、傷、弱さ、欲望、誓いと「守る」意志を描く、神代煌牙初の公式デジタル写真集。",
+      "url": "photobooks/koga-kamishiro-black-knight/",
+      "keywords": [
+        "神代煌牙",
+        "Photobook",
+        "Visual Collection",
+        "写真集"
       ]
     },
     {

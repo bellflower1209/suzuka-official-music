@@ -5,6 +5,8 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "hanakotoba",
@@ -12,15 +14,15 @@
         "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal",
-        "without-worrying"
+        "one-more-kiss"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
@@ -28,9 +30,7 @@
         "watashi-no-eranda-michi",
         "tatta-hitori-no-kimi-e",
         "monsoon-promise",
-        "taipa-nante-shiranakatta",
-        "family-portrait",
-        "false-identity"
+        "taipa-nante-shiranakatta"
       ]
     },
     "love": {
@@ -75,6 +75,8 @@
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "hanakotoba",
@@ -82,9 +84,7 @@
         "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal",
-        "without-worrying"
+        "one-more-kiss"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -94,10 +94,10 @@
         "enomoto-mia",
         "koga-kamishiro",
         "michiru",
+        "nox",
         "eclypse",
         "revive",
         "rangili",
-        "nox",
         "asagiri-shinobu",
         "asteria",
         "hoshimiya-hanon",
@@ -112,17 +112,18 @@
         "バラード",
         "ダークポップ",
         "アイドルポップ",
+        "V系",
         "K-POP風",
         "ロック",
-        "V系",
         "J-ROCK",
+        "ダークロック",
+        "Dark Pop",
         "ファンタジーポップ",
         "演歌",
         "歌謡曲",
-        "ダークロック",
         "インド×J-POP",
         "シネマティック",
-        "Dark Pop",
+        "邦ロック",
         "サマーソング",
         "アコースティック",
         "ゴシックロック",
@@ -139,6 +140,8 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "hanakotoba",
@@ -146,9 +149,7 @@
         "hajimemashite-kiseki",
         "still-alive",
         "zennin-saiban",
-        "one-more-kiss",
-        "lost-signal",
-        "without-worrying"
+        "one-more-kiss"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }

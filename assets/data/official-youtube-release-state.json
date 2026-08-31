@@ -1,9 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-28T00:37:35+09:00",
+  "verifiedAt": "2026-08-31T21:30:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
+    "akuyaku-de-ii",
     "friendlikesong",
+    "iine-sougisha",
     "re-sonance",
     "tatta-hitori-no-kimi-e",
     "updown",
@@ -11,6 +13,14 @@
     "watashi-no-eranda-michi"
   ],
   "evidence": [
+    {
+      "slug": "akuyaku-de-ii",
+      "videoId": "pESx9p7lIHw",
+      "releaseTimestamp": "2026-08-31T20:00:18+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
     {
       "slug": "ashita-wa-kitto",
       "videoId": "HKm8cUorTOs",
@@ -33,6 +43,14 @@
       "availability": "public",
       "liveStatus": "was_live",
       "releaseTimestamp": "2026-08-20T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "iine-sougisha",
+      "videoId": "lP_OZ_6hu-0",
+      "releaseTimestamp": "2026-08-29T20:00:06+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T00:37:35+09:00",
+  "updatedAt": "2026-08-31T21:30:00+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -176,11 +176,12 @@
       "name": "V系",
       "description": "V系をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen",
         "family-portrait"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "slug": "enka",
@@ -205,6 +206,8 @@
       "name": "人気曲",
       "description": "人気曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
@@ -222,9 +225,7 @@
         "heal-you-again",
         "hyakumankoku",
         "kimi-ni-kakatta-mahou",
-        "kimi-to-nara-last-boss-made",
-        "kimi-wa-hanabi",
-        "mermaid-merman"
+        "kimi-to-nara-last-boss-made"
       ],
       "count": 20
     },
@@ -235,6 +236,8 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
@@ -252,9 +255,7 @@
         "leo-rise-again",
         "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "wasureji-no-hito"
+        "mermaid-no-geboku"
       ],
       "count": 20
     },
@@ -267,6 +268,8 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "akuyaku-de-ii",
+        "iine-sougisha",
         "updown",
         "re-sonance",
         "wakareta-michi",
@@ -284,9 +287,7 @@
         "leo-rise-again",
         "last-dance-tonight",
         "kimi-ni-kakatta-mahou",
-        "mermaid-no-geboku",
-        "hanakotoba",
-        "anata-dake-no-savior"
+        "mermaid-no-geboku"
       ],
       "count": 20
     }

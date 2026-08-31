@@ -818,7 +818,16 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
         f'<h3>{html.escape(FEATURES[slug][0])}</h3><p>{html.escape(FEATURES[slug][1])}</p></a>'
         for slug, items in list(features.items())[:6]
     )
-    latest_news = [item for item in releases if item.get("newsUrl")][:3]
+    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    latest_news = sorted(
+        [item for item in cms.get("news", []) if item.get("status") == "published"],
+        key=lambda item: (item.get("publishedAt", ""), item.get("slug", "")), reverse=True,
+    )[:3]
+    news_cards = "".join(
+        f'<a class="explorer-news-link" href="./news/{item["slug"]}/"><time>{item.get("publishedAt", "")[:10]}</time>'
+        f'<strong>{html.escape(item["title"])}</strong><span>Newsを読む ↗</span></a>'
+        for item in latest_news
+    )
     gallery_count = sum(item.get("galleryPublished", True) for item in releases)
     block = (
         '<!-- EXPLORER:HOME:START --><section class="explorer-home-update">'
@@ -833,11 +842,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
         f'<a href="./universe/"><span>{len(ARTISTS)} ARTISTS</span><h3>UNIVERSE</h3><p>SUZUKAの世界観と関係性</p></a>'
         '<a href="./wiki/"><span>OFFICIAL GUIDE</span><h3>SUZUKA WIKI</h3><p>作品・用語・公開年表</p></a></section>'
         '<section><div class="explorer-home-heading"><h3>最新News</h3><a href="./news/">News一覧 ↗</a></div>'
-        '<div class="explorer-news-grid">' + "".join(
-            f'<a class="explorer-news-link" href="./{item["newsUrl"]}"><time>{item["releaseDate"]}</time>'
-            f'<strong>{html.escape(item["artist"])}「{html.escape(item["title"])}」</strong><span>Newsを読む ↗</span></a>'
-            for item in latest_news
-        ) + "</div></section>"
+        f'<div class="explorer-news-grid">{news_cards}</div></section>'
         '<nav class="explorer-home-search" aria-label="作品を探す">'
         f'<a href="./search/?q={html.escape(latest["title"])}">検索候補：{html.escape(latest["title"])}</a>'
         '<a href="./search/">検索</a><a href="./genres/">ジャンル</a>'

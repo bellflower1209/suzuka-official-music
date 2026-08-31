@@ -144,18 +144,25 @@ def main() -> int:
     home = (root / "index.html").read_text(encoding="utf-8")
     hero_item = next(item for item in releases if item.get("homeHero"))
     hero_config = hero_item["homeHero"]
+    cover = hero_item.get("coverImage", "")
+    cover_marker = cover if cover.startswith(("https://", "http://")) else f'./{cover}'
     home_markers = (
         f'<title>{hero_config["title"]}</title>',
         hero_config["description"],
-        'data-home-hero', '榎本魅愛 New Single', 'Now Streaming',
-        './images/enomoto-mia-hanakotoba.jpg',
+        'data-home-hero', hero_config.get("subtitle", f'{hero_item["artist"]} New Single'),
+        hero_config.get("status", "Now Streaming"), cover_marker,
         hero_item["youtubeUrl"],
-        './releases/hanakotoba/', './gallery/hanakotoba/',
+        f'./releases/{hero_item["slug"]}/',
         '"@type":"MusicRecording"', '"@type":"VideoObject"',
     )
     for marker in home_markers:
         if marker not in home:
-            errors.append(f"index.html: flower Hero marker missing: {marker}")
+            errors.append(f"index.html: canonical Hero marker missing: {marker}")
+    gallery_marker = f'./gallery/{hero_item["slug"]}/'
+    if hero_item.get("galleryPublished", True) and gallery_marker not in home:
+        errors.append(f"index.html: verified Hero Gallery marker missing: {gallery_marker}")
+    if not hero_item.get("galleryPublished", True) and gallery_marker in home:
+        errors.append(f"index.html: unavailable Hero Gallery marker must be hidden: {gallery_marker}")
     latest_news = max(
         (item for item in cms.get("news", []) if item.get("status") == "published"),
         key=lambda item: (item.get("publishedAt") or item.get("releaseDate") or "", item.get("slug") or ""),

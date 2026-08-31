@@ -6,6 +6,8 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | 悪役でいい | 神代煌牙 | https://www.youtube.com/watch?v=pESx9p7lIHw | 5:15 | 悪役でいい｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | いいね葬儀社 | NOX | https://www.youtube.com/watch?v=lP_OZ_6hu-0 | 3:47 | いいね葬儀社｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | UPdown | 妃みちる | https://www.youtube.com/watch?v=SKUMF7ZhpRM | 4:05 | UPdown｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | RE:SONANCE | RE:VIVE | https://www.youtube.com/watch?v=EZp_Mtxt4G4 | 5:29 | RE:SONANCE｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 分かれた道 | 神代煌牙 | https://www.youtube.com/watch?v=EU_5CqN1zZw | 5:19 | 分かれた道｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
