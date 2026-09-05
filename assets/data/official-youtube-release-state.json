@@ -1,18 +1,28 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-08-31T21:30:00+09:00",
+  "verifiedAt": "2026-09-04T22:30:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
     "akuyaku-de-ii",
     "friendlikesong",
+    "gekka-no-chigiri",
     "iine-sougisha",
     "re-sonance",
     "tatta-hitori-no-kimi-e",
     "updown",
     "wakareta-michi",
-    "watashi-no-eranda-michi"
+    "watashi-no-eranda-michi",
+    "yume-to-kaigo-to-watashitachi"
   ],
   "evidence": [
+    {
+      "slug": "akuyaku-de-ii",
+      "videoId": "OldWXAS32lI",
+      "releaseTimestamp": "2026-09-02T21:01:37+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
     {
       "slug": "akuyaku-de-ii",
       "videoId": "pESx9p7lIHw",
@@ -43,6 +53,14 @@
       "availability": "public",
       "liveStatus": "was_live",
       "releaseTimestamp": "2026-08-20T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "gekka-no-chigiri",
+      "videoId": "Slv8e81DJ84",
+      "releaseTimestamp": "2026-09-04T20:40:11+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {
@@ -107,6 +125,14 @@
       "availability": "public",
       "liveStatus": "was_live",
       "releaseTimestamp": "2026-08-18T20:00:06+09:00",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "yume-to-kaigo-to-watashitachi",
+      "videoId": "PVX_5_MybgM",
+      "releaseTimestamp": "2026-09-04T21:22:14+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     }
   ],

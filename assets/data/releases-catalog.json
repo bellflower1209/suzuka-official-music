@@ -1,6 +1,339 @@
 {
-  "updatedAt": "2026-08-31T21:30:00+09:00",
+  "updatedAt": "2026-09-04T22:30:00+09:00",
   "releases": [
+    {
+      "slug": "yume-to-kaigo-to-watashitachi",
+      "id": "yume-to-kaigo-to-watashitachi",
+      "title": "夢と、介護と、わたしたち。",
+      "displayTitle": "夢と、介護と、わたしたち。",
+      "englishTitle": "夢と、介護と、わたしたち。",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-09-04T21:22:14+09:00",
+      "publishedAt": "2026-09-04T21:22:14+09:00",
+      "releaseDate": "2026-09-04",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "応援歌"
+      ],
+      "moods": [
+        "希望",
+        "あたたかい"
+      ],
+      "themes": [
+        "介護",
+        "夢",
+        "仕事",
+        "応援",
+        "希望",
+        "未来"
+      ],
+      "tags": [
+        "夢と、介護と、わたしたち。",
+        "榎本魅愛",
+        "介護WITH",
+        "敬寿会",
+        "SUZUKA WITH",
+        "SUZUKA WITH CARE",
+        "福祉",
+        "介護職",
+        "Official Audio",
+        "J-POP",
+        "応援歌",
+        "介護",
+        "夢",
+        "仕事",
+        "応援",
+        "希望",
+        "未来",
+        "あたたかい"
+      ],
+      "language": "ja",
+      "coverImage": "images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg",
+      "coverAlt": "紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、わたしたち。」公式ビジュアル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PVX_5_MybgM",
+      "youtubeVideoTitle": "榎本魅愛「夢と、介護と、わたしたち。」Official Audio｜介護WITH 応援ソング",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoCtaLabel": "Official Audioを聴く",
+      "videoButtonLabel": "LISTEN",
+      "shortsUrl": "",
+      "releaseUrl": "releases/yume-to-kaigo-to-watashitachi/",
+      "newsUrl": "news/yume-to-kaigo-to-watashitachi-release/",
+      "duration": 315,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 5,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "夢と、介護と、わたしたち。",
+        "榎本魅愛",
+        "介護WITH",
+        "敬寿会",
+        "SUZUKA WITH",
+        "SUZUKA WITH CARE",
+        "福祉",
+        "介護職",
+        "Official Audio",
+        "J-POP",
+        "応援歌",
+        "介護",
+        "夢",
+        "仕事",
+        "応援",
+        "希望",
+        "未来",
+        "あたたかい"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
+      "introduction": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
+      "seo": {
+        "title": "夢と、介護と、わたしたち。｜榎本魅愛｜SUZUKA Official Music",
+        "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-09-04",
+      "videoPublishedAt": "2026-09-04T21:22:14+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=PVX_5_MybgM",
+      "promotionVerifiedAt": "2026-09-04T22:30:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "newsTitle": "榎本魅愛、新曲「夢と、介護と、わたしたち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
+      "newsDescription": "介護の現場で働く人たちと、仕事の中でも夢を大切にするすべての人へ贈る榎本魅愛の新曲。",
+      "newsBodyParagraphs": [
+        "「夢と、介護と、わたしたち。」は、誰かの暮らしを支える毎日の中にも、一人ひとりの夢があることを見つめた応援歌です。",
+        "SUZUKA公式YouTubeの公開情報では、介護WITHへの応募に取り組む社会福祉法人敬寿会を応援する作品として紹介されています。"
+      ],
+      "specialFeatureUrl": "features/suzuka-with-care/",
+      "homeHero": {
+        "title": "SUZUKA Official | 榎本魅愛「夢と、介護と、わたしたち。」公開中",
+        "description": "介護の現場で働く人たちへ贈る、榎本魅愛の新たな応援歌。Official Audio・作品・特集をSUZUKA公式サイトで紹介します。",
+        "subtitle": "ENOMOTO MIA · Official Audio",
+        "status": "NEW RELEASE",
+        "lead": "夢は、誰かを支える毎日の中にもある。",
+        "projectLabel": "SUZUKA WITH CARE",
+        "primaryLabel": "Official Audioを聴く",
+        "secondaryLabel": "作品について",
+        "featureLabel": "特集を読む",
+        "featureUrl": "features/suzuka-with-care/"
+      },
+      "recommendations": {
+        "sameArtist": [
+          "taipa-nante-shiranakatta",
+          "natsu-ga-owaru-made-soba-ni-ite",
+          "caramel",
+          "kimi-wa-makenai",
+          "kimi-ni-kakatta-mahou",
+          "hanakotoba"
+        ],
+        "sameGenre": [
+          "kimi-wa-makenai",
+          "without-worrying",
+          "hajimemashite-kiseki",
+          "ashita-wa-kitto",
+          "re-sonance",
+          "still-alive"
+        ],
+        "sameTheme": [
+          "kimi-wa-makenai",
+          "without-worrying",
+          "hajimemashite-kiseki",
+          "ashita-wa-kitto",
+          "re-sonance",
+          "still-alive"
+        ],
+        "popular": [
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha",
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja"
+        ],
+        "recent": [
+          "gekka-no-chigiri",
+          "akuyaku-de-ii",
+          "iine-sougisha",
+          "updown",
+          "re-sonance",
+          "wakareta-michi"
+        ],
+        "aiRecommended": [
+          "kimi-wa-makenai",
+          "without-worrying",
+          "hajimemashite-kiseki",
+          "ashita-wa-kitto",
+          "re-sonance",
+          "still-alive"
+        ]
+      }
+    },
+    {
+      "slug": "gekka-no-chigiri",
+      "id": "gekka-no-chigiri",
+      "title": "月下契",
+      "displayTitle": "月下契",
+      "englishTitle": "月下契",
+      "artist": "VEILFANG",
+      "artistSlug": "veilfang",
+      "artistSlugs": [
+        "veilfang"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-09-04T20:40:11+09:00",
+      "publishedAt": "2026-09-04T20:40:11+09:00",
+      "releaseDate": "2026-09-04",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [
+        "J-POP",
+        "ダークファンタジー"
+      ],
+      "moods": [
+        "神秘的",
+        "力強い"
+      ],
+      "themes": [
+        "契り",
+        "運命",
+        "月",
+        "絆"
+      ],
+      "tags": [
+        "月下契",
+        "VEILFANG",
+        "ヴェイルファング",
+        "KOTOU",
+        "KURAMA",
+        "白狼",
+        "九尾狐",
+        "Official Audio",
+        "J-POP",
+        "ダークファンタジー",
+        "契り",
+        "運命",
+        "月",
+        "絆",
+        "神秘的",
+        "力強い"
+      ],
+      "language": "ja",
+      "coverImage": "images/veilfang-gekka-no-chigiri.jpg",
+      "coverAlt": "VEILFANG『月下契』公式YouTubeビジュアル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Slv8e81DJ84",
+      "youtubeVideoTitle": "VEILFANG『月下契』Official Audio｜白狼 × 九尾狐",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoCtaLabel": "Official Audioを聴く",
+      "videoButtonLabel": "LISTEN",
+      "shortsUrl": "",
+      "releaseUrl": "releases/gekka-no-chigiri/",
+      "newsUrl": "news/gekka-no-chigiri-release/",
+      "duration": 269,
+      "status": "published",
+      "featured": true,
+      "recommendationWeight": 4,
+      "weeklyPickEligible": true,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "月下契",
+        "VEILFANG",
+        "ヴェイルファング",
+        "KOTOU",
+        "KURAMA",
+        "白狼",
+        "九尾狐",
+        "Official Audio",
+        "J-POP",
+        "ダークファンタジー",
+        "契り",
+        "運命",
+        "月",
+        "絆",
+        "神秘的",
+        "力強い"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。",
+      "introduction": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "productionNote": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。",
+      "seo": {
+        "title": "月下契｜VEILFANG｜SUZUKA Official Music",
+        "description": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "jsonLdEnabled": true
+      },
+      "videoPublishDate": "2026-09-04",
+      "videoPublishedAt": "2026-09-04T20:40:11+09:00",
+      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "officialSource": "https://www.youtube.com/watch?v=Slv8e81DJ84",
+      "promotionVerifiedAt": "2026-09-04T22:30:00+09:00",
+      "lyricsAvailable": false,
+      "lyricsSource": "",
+      "lyricsText": "",
+      "lyricsVerified": false,
+      "lyricsVerifiedAt": null,
+      "recommendations": {
+        "sameArtist": [],
+        "sameGenre": [
+          "my-queen-my-oath",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "updown",
+          "hajimemashite-kiseki",
+          "hanakotoba"
+        ],
+        "sameTheme": [
+          "my-queen-my-oath",
+          "red-moon-rising",
+          "shadow-code"
+        ],
+        "popular": [
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "iine-sougisha",
+          "hajimemashite-kiseki",
+          "hanakotoba",
+          "koisuru-maharaja"
+        ],
+        "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "iine-sougisha",
+          "updown",
+          "re-sonance",
+          "wakareta-michi"
+        ],
+        "aiRecommended": [
+          "my-queen-my-oath",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "updown",
+          "hajimemashite-kiseki",
+          "hanakotoba"
+        ]
+      }
+    },
     {
       "slug": "akuyaku-de-ii",
       "id": "akuyaku-de-ii",
@@ -48,17 +381,17 @@
         "力強い"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/pESx9p7lIHw/maxresdefault.jpg",
-      "coverAlt": "神代煌牙「悪役でいい」公式YouTubeサムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=pESx9p7lIHw",
-      "youtubeVideoTitle": "【新曲】神代煌牙『悪役でいい』｜Official Audio｜MV制作決定",
-      "videoLabel": "OFFICIAL AUDIO",
-      "videoCtaLabel": "公式音源を聴く",
-      "videoButtonLabel": "LISTEN",
-      "shortsUrl": "",
+      "coverImage": "images/koga-akuyaku-de-ii-mv.jpg",
+      "coverAlt": "神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OldWXAS32lI",
+      "youtubeVideoTitle": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
+      "videoLabel": "OFFICIAL MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoButtonLabel": "WATCH MV",
+      "shortsUrl": "https://www.youtube.com/shorts/Ah4kM2T6mr0",
       "releaseUrl": "releases/akuyaku-de-ii/",
       "newsUrl": "news/akuyaku-de-ii-release/",
-      "duration": 315,
+      "duration": 314,
       "status": "published",
       "featured": true,
       "recommendationWeight": 4,
@@ -92,12 +425,12 @@
         "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-31",
-      "videoPublishedAt": "2026-08-31T20:00:18+09:00",
+      "videoPublishDate": "2026-09-02",
+      "videoPublishedAt": "2026-09-02T21:01:37+09:00",
       "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=pESx9p7lIHw",
-      "promotionVerifiedAt": "2026-08-31T21:30:00+09:00",
+      "officialSource": "https://www.youtube.com/watch?v=OldWXAS32lI",
+      "promotionVerifiedAt": "2026-09-04T22:30:00+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
       "lyricsText": "",
@@ -128,20 +461,20 @@
         ],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
           "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal",
-          "one-more-kiss"
+          "koisuru-maharaja"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "updown",
           "re-sonance",
-          "wakareta-michi",
-          "friendlikesong",
-          "watashi-no-eranda-michi"
+          "wakareta-michi"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -268,20 +601,20 @@
         ],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "hajimemashite-kiseki",
           "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal",
-          "one-more-kiss"
+          "koisuru-maharaja"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "updown",
           "re-sonance",
-          "wakareta-michi",
-          "friendlikesong",
-          "watashi-no-eranda-michi"
+          "wakareta-michi"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -289,7 +622,7 @@
           "family-portrait",
           "akuyaku-de-ii",
           "updown",
-          "re-sonance"
+          "yume-to-kaigo-to-watashitachi"
         ]
       }
     },
@@ -414,20 +747,20 @@
           "hyakumankoku"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "re-sonance",
-          "wakareta-michi",
-          "friendlikesong",
-          "watashi-no-eranda-michi"
+          "wakareta-michi"
         ],
         "aiRecommended": [
           "tatta-hitori-no-kimi-e",
@@ -547,40 +880,40 @@
           "still-alive",
           "anata-dake-no-savior",
           "last-dance-tonight",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "yume-to-kaigo-to-watashitachi",
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "heal-you-again",
           "still-alive",
           "anata-dake-no-savior",
           "last-dance-tonight",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "yume-to-kaigo-to-watashitachi",
+          "hajimemashite-kiseki"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "wakareta-michi",
-          "friendlikesong",
-          "watashi-no-eranda-michi"
+          "wakareta-michi"
         ],
         "aiRecommended": [
           "heal-you-again",
           "still-alive",
           "anata-dake-no-savior",
           "last-dance-tonight",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "yume-to-kaigo-to-watashitachi",
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -690,41 +1023,42 @@
         "sameGenre": [
           "akuyaku-de-ii",
           "watashi-no-eranda-michi",
+          "yume-to-kaigo-to-watashitachi",
           "smile-and-say-goodbye",
           "ashita-wa-kitto",
-          "one-more-kiss",
-          "echoes-of-you"
+          "one-more-kiss"
         ],
         "sameTheme": [
           "watashi-no-eranda-michi",
+          "yume-to-kaigo-to-watashitachi",
           "smile-and-say-goodbye",
           "ashita-wa-kitto",
           "lost-signal",
           "shadow-code"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "friendlikesong",
-          "watashi-no-eranda-michi"
+          "re-sonance"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
           "watashi-no-eranda-michi",
+          "yume-to-kaigo-to-watashitachi",
           "smile-and-say-goodbye",
           "ashita-wa-kitto",
-          "one-more-kiss",
-          "echoes-of-you"
+          "one-more-kiss"
         ]
       }
     },
@@ -835,20 +1169,20 @@
           "kimi-wa-hanabi"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "watashi-no-eranda-michi"
+          "re-sonance"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
@@ -967,24 +1301,25 @@
         "sameTheme": [
           "wakareta-michi",
           "smile-and-say-goodbye",
+          "yume-to-kaigo-to-watashitachi",
           "lost-signal",
           "shadow-code"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -1107,20 +1442,20 @@
           "one-more-kiss"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "updown",
@@ -1202,20 +1537,20 @@
         "sameGenre": [],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -1316,47 +1651,47 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki"
+          "hanakotoba"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "yume-to-kaigo-to-watashitachi",
+          "hajimemashite-kiseki"
         ],
         "sameTheme": [
           "ashita-wa-kitto"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
           "hanakotoba",
-          "hajimemashite-kiseki",
-          "without-worrying"
+          "yume-to-kaigo-to-watashitachi",
+          "hajimemashite-kiseki"
         ]
       }
     },
@@ -1462,20 +1797,20 @@
           "wasurenai-kokoro"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "iine-sougisha",
@@ -1596,20 +1931,20 @@
           "wasurenai-kokoro"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -1685,30 +2020,30 @@
       "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "caramel",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki"
+          "hanakotoba"
         ],
         "sameGenre": [],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "caramel",
@@ -1784,30 +2119,30 @@
       "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "kimi-wa-makenai",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki"
+          "hanakotoba"
         ],
         "sameGenre": [],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "natsu-ga-owaru-made-soba-ni-ite",
@@ -1893,20 +2228,20 @@
         "sameGenre": [],
         "sameTheme": [],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "leo-rise-again",
@@ -2013,52 +2348,52 @@
       "homeHero": {},
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-ni-kakatta-mahou",
-          "hanakotoba",
-          "hajimemashite-kiseki"
+          "hanakotoba"
         ],
         "sameGenre": [
+          "yume-to-kaigo-to-watashitachi",
           "without-worrying",
           "hajimemashite-kiseki",
           "ashita-wa-kitto",
           "last-dance-tonight",
-          "anata-dake-no-savior",
-          "still-alive"
+          "anata-dake-no-savior"
         ],
         "sameTheme": [
+          "yume-to-kaigo-to-watashitachi",
           "without-worrying",
           "hajimemashite-kiseki",
           "ashita-wa-kitto",
           "last-dance-tonight",
-          "anata-dake-no-savior",
-          "still-alive"
+          "anata-dake-no-savior"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
+          "yume-to-kaigo-to-watashitachi",
           "without-worrying",
           "hajimemashite-kiseki",
           "ashita-wa-kitto",
           "last-dance-tonight",
-          "anata-dake-no-savior",
-          "still-alive"
+          "anata-dake-no-savior"
         ]
       }
     },
@@ -2175,20 +2510,20 @@
           "one-more-kiss"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
@@ -2314,20 +2649,20 @@
           "one-more-kiss"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -2428,12 +2763,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "hanakotoba",
-          "hajimemashite-kiseki"
+          "hanakotoba"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -2452,20 +2787,20 @@
           "mermaid-merman"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2595,20 +2930,20 @@
           "koisuru-maharaja"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -2725,12 +3060,12 @@
       "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hajimemashite-kiseki"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -2749,20 +3084,20 @@
           "moshimo-ashita-hajimemashite-ni-natte-mo"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "koisuru-maharaja",
-          "lost-signal",
-          "one-more-kiss"
+          "koisuru-maharaja"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -2887,20 +3222,20 @@
           "kimi-wa-makenai"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -3017,20 +3352,20 @@
           "kimi-wa-hanabi"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -3136,12 +3471,12 @@
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -3155,25 +3490,25 @@
           "without-worrying",
           "kimi-wa-makenai",
           "ashita-wa-kitto",
+          "yume-to-kaigo-to-watashitachi",
           "anata-dake-no-savior",
-          "last-dance-tonight",
-          "heal-you-again"
+          "last-dance-tonight"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal",
-          "one-more-kiss"
+          "koisuru-maharaja"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -3294,23 +3629,24 @@
           "heal-you-again",
           "re-sonance",
           "without-worrying",
-          "kimi-wa-makenai"
+          "kimi-wa-makenai",
+          "yume-to-kaigo-to-watashitachi"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -3427,20 +3763,20 @@
           "boukyaku-no-ikimono"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -3570,20 +3906,20 @@
           "updown"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -3700,25 +4036,26 @@
         ],
         "sameTheme": [
           "shadow-code",
+          "yume-to-kaigo-to-watashitachi",
           "re-sonance",
           "wakareta-michi",
           "watashi-no-eranda-michi"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "one-more-kiss"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -3821,52 +4158,52 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
+          "yume-to-kaigo-to-watashitachi",
           "kimi-wa-makenai",
           "still-alive",
           "heal-you-again",
-          "hanakotoba",
-          "anata-dake-no-savior"
+          "hanakotoba"
         ],
         "sameTheme": [
           "ashita-wa-kitto",
+          "yume-to-kaigo-to-watashitachi",
           "kimi-wa-makenai",
           "still-alive",
           "heal-you-again",
-          "anata-dake-no-savior",
-          "hajimemashite-kiseki"
+          "anata-dake-no-savior"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
+          "yume-to-kaigo-to-watashitachi",
           "kimi-wa-makenai",
           "still-alive",
           "heal-you-again",
-          "hanakotoba",
-          "anata-dake-no-savior"
+          "hanakotoba"
         ]
       }
     },
@@ -3974,20 +4311,20 @@
           "updown"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "lost-signal",
-          "one-more-kiss"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -4104,20 +4441,20 @@
           "boukyaku-no-ikimono"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -4223,52 +4560,52 @@
       "youtubeVideoTitle": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "without-worrying",
           "smile-and-say-goodbye",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "kimi-wa-makenai",
-          "taipa-nante-shiranakatta"
+          "yume-to-kaigo-to-watashitachi",
+          "kimi-wa-makenai"
         ],
         "sameTheme": [
           "without-worrying",
           "hajimemashite-kiseki",
+          "yume-to-kaigo-to-watashitachi",
           "kimi-wa-makenai",
           "taipa-nante-shiranakatta",
-          "heal-you-again",
-          "anata-dake-no-savior"
+          "heal-you-again"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "without-worrying",
           "smile-and-say-goodbye",
           "hanakotoba",
           "hajimemashite-kiseki",
-          "kimi-wa-makenai",
-          "taipa-nante-shiranakatta"
+          "yume-to-kaigo-to-watashitachi",
+          "kimi-wa-makenai"
         ]
       }
     },
@@ -4383,20 +4720,20 @@
           "ashita-wa-kitto"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "re-sonance",
@@ -4518,20 +4855,20 @@
           "mermaid-no-geboku"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -4647,20 +4984,20 @@
           "koisuru-maharaja"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -4772,20 +5109,20 @@
           "family-portrait"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -4887,12 +5224,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -4911,20 +5248,20 @@
           "family-portrait"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -5050,20 +5387,20 @@
           "zennin-saiban"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -5185,30 +5522,31 @@
           "one-more-kiss",
           "smile-and-say-goodbye",
           "boukyaku-no-ikimono",
-          "kimi-ni-kakatta-mahou"
+          "gekka-no-chigiri"
         ],
         "sameTheme": [
           "our-kingdom",
           "smile-and-say-goodbye",
+          "gekka-no-chigiri",
           "kimi-ni-kakatta-mahou",
           "red-moon-rising",
           "shadow-code"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -5216,7 +5554,7 @@
           "one-more-kiss",
           "smile-and-say-goodbye",
           "boukyaku-no-ikimono",
-          "kimi-ni-kakatta-mahou"
+          "gekka-no-chigiri"
         ]
       }
     },
@@ -5330,23 +5668,24 @@
         ],
         "sameTheme": [
           "shadow-code",
-          "my-queen-my-oath"
+          "my-queen-my-oath",
+          "gekka-no-chigiri"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -5442,12 +5781,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -5466,20 +5805,20 @@
           "mia"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -5575,12 +5914,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -5599,20 +5938,20 @@
           "mia"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -5708,12 +6047,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -5732,20 +6071,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -5853,12 +6192,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -5874,20 +6213,20 @@
           "kimi-ni-kakatta-mahou"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -6006,24 +6345,25 @@
           "red-moon-rising",
           "lost-signal",
           "my-queen-my-oath",
-          "wakareta-michi",
-          "watashi-no-eranda-michi"
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
+          "wakareta-michi"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -6119,12 +6459,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -6143,20 +6483,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -6252,12 +6592,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -6276,20 +6616,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6385,12 +6725,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -6409,20 +6749,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6518,12 +6858,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -6542,20 +6882,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6655,12 +6995,12 @@
       "youtubeVideoTitle": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -6679,20 +7019,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6788,12 +7128,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -6812,20 +7152,20 @@
           "mirai-no-watashi-ga-miteru"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -6927,12 +7267,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -6951,20 +7291,20 @@
           "mia"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -7066,12 +7406,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "mermaid-no-geboku",
@@ -7090,20 +7430,20 @@
           "kimi-to-nara-last-boss-made"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -7199,12 +7539,12 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -7223,20 +7563,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -7332,12 +7672,12 @@
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "recommendations": {
         "sameArtist": [
+          "yume-to-kaigo-to-watashitachi",
           "taipa-nante-shiranakatta",
           "natsu-ga-owaru-made-soba-ni-ite",
           "caramel",
           "kimi-wa-makenai",
-          "kimi-ni-kakatta-mahou",
-          "hanakotoba"
+          "kimi-ni-kakatta-mahou"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -7356,20 +7696,20 @@
           "tokenai-mahou-wo-ai-to-yobu"
         ],
         "popular": [
+          "yume-to-kaigo-to-watashitachi",
           "akuyaku-de-ii",
+          "gekka-no-chigiri",
           "iine-sougisha",
           "hajimemashite-kiseki",
-          "hanakotoba",
-          "koisuru-maharaja",
-          "lost-signal"
+          "hanakotoba"
         ],
         "recent": [
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri",
           "akuyaku-de-ii",
           "iine-sougisha",
           "updown",
-          "re-sonance",
-          "wakareta-michi",
-          "friendlikesong"
+          "re-sonance"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",

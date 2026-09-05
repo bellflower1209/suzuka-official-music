@@ -28,6 +28,168 @@
   color-scheme: dark;
 }
 
+/* SUZUKA WITH CARE: warm light on the existing high-contrast dark system. */
+.suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) {
+  background:
+    radial-gradient(circle at 82% 24%, rgba(240, 190, 105, 0.16), transparent 34%),
+    linear-gradient(135deg, #071014 0%, #101a1d 54%, #1b1711 100%);
+}
+
+.suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) .hanakotoba-copy {
+  background: rgba(5, 12, 15, 0.84);
+  border-color: rgba(239, 199, 126, 0.45);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+}
+
+.suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) .hanakotoba-status,
+.suzuka-care-label {
+  color: #f4ce88;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) .hanakotoba-lead {
+  color: #f8fbfa;
+  font-size: clamp(1.02rem, 1.8vw, 1.32rem);
+  font-weight: 650;
+}
+
+.suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) .hanakotoba-copy h1 {
+  max-width: 9.5em;
+  font-size: clamp(3rem, 5vw, 4.8rem);
+  line-height: 1.06;
+  letter-spacing: -0.055em;
+  overflow-wrap: anywhere;
+}
+
+.suzuka-special-feature {
+  width: min(1180px, calc(100% - 40px));
+  margin: clamp(3rem, 8vw, 7rem) auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+  overflow: hidden;
+  border: 1px solid rgba(239, 199, 126, 0.35);
+  border-radius: 24px;
+  background: linear-gradient(135deg, #0b1417, #18150f);
+  color: #f8fbfa;
+}
+
+.suzuka-special-feature-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 380px;
+  object-fit: cover;
+}
+
+.suzuka-special-feature-copy {
+  align-self: center;
+  padding: clamp(2rem, 5vw, 4.5rem);
+}
+
+.suzuka-special-feature-copy h2 {
+  margin: 0.7rem 0 1rem;
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 4.6rem);
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+.suzuka-special-feature-copy p { color: #dce6e3; }
+.suzuka-special-subtitle { color: #f2d8aa !important; font-weight: 700; }
+
+.care-feature {
+  width: min(1120px, calc(100% - 40px));
+  margin: 2rem auto 7rem;
+  color: #edf5f3;
+}
+
+.care-feature-visual {
+  position: relative;
+  min-height: 520px;
+  overflow: hidden;
+  border: 1px solid rgba(239, 199, 126, 0.34);
+  border-radius: 24px;
+  background: #0a1012;
+}
+
+.care-feature-visual::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, rgba(3, 8, 10, 0.92) 0%, rgba(3, 8, 10, 0.6) 46%, rgba(3, 8, 10, 0.08) 78%);
+}
+
+.care-feature-visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  object-fit: cover;
+}
+
+.care-feature-visual > div {
+  position: absolute;
+  z-index: 1;
+  inset: auto auto clamp(2rem, 6vw, 5rem) clamp(1.5rem, 6vw, 5rem);
+  width: min(600px, calc(100% - 3rem));
+}
+
+.care-feature-visual h2 {
+  color: #fff;
+  font-size: clamp(2rem, 5vw, 5rem);
+  line-height: 1.08;
+}
+
+.care-feature-section {
+  margin-top: 1.5rem;
+  padding: clamp(1.6rem, 4vw, 3.5rem);
+  border: 1px solid rgba(219, 232, 228, 0.18);
+  border-radius: 20px;
+  background: rgba(11, 20, 23, 0.94);
+}
+
+.care-feature-section h2 { color: #f4ce88; letter-spacing: 0.12em; }
+.care-feature-section p { max-width: 48rem; color: #e6efed; font-size: 1.05rem; line-height: 1.9; }
+.care-feature-project { border-color: rgba(239, 199, 126, 0.4); }
+
+.care-feature-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.care-feature-actions a {
+  padding: 0.9rem 1.15rem;
+  border: 1px solid #e9c37d;
+  border-radius: 999px;
+  color: #fff;
+  background: #18201f;
+}
+
+.care-feature-actions a:hover,
+.care-feature-actions a:focus-visible {
+  color: #071014;
+  background: #f4ce88;
+}
+
+@media (max-width: 760px) {
+  .suzuka-home .hanakotoba-hero:has(img[src*="yume-to-kaigo-to-watashitachi"]) .hanakotoba-copy h1 {
+    max-width: none;
+    font-size: clamp(2.55rem, 10.5vw, 3.4rem);
+    line-height: 1.08;
+  }
+  .suzuka-special-feature { width: min(100% - 24px, 680px); grid-template-columns: 1fr; }
+  .suzuka-special-feature-media img { min-height: 0; aspect-ratio: 16 / 9; }
+  .care-feature { width: min(100% - 24px, 680px); }
+  .care-feature-visual, .care-feature-visual img { min-height: 580px; }
+  .care-feature-visual img { object-position: 62% center; }
+  .care-feature-visual::after {
+    background: linear-gradient(0deg, rgba(3, 8, 10, 0.96) 0%, rgba(3, 8, 10, 0.56) 60%, rgba(3, 8, 10, 0.12) 100%);
+  }
+  .care-feature-actions { flex-direction: column; }
+  .care-feature-actions a { text-align: center; }
+}
+
 html { background: var(--suzuka-bg); }
 
 body {

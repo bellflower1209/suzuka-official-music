@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-08-31T21:30:00+09:00",
+  "checkedAt": "2026-09-04T22:30:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -18,6 +18,41 @@
       "durationSeconds": 315,
       "verifiedPublishedAt": "2026-07-13T15:14:26+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "akuyaku-de-ii",
+      "youtubeId": "Ah4kM2T6mr0",
+      "youtubeUrl": "https://www.youtube.com/shorts/Ah4kM2T6mr0",
+      "catalogReleaseDate": "2026-09-02",
+      "officialTitle": "世界が俺を悪と呼んでも。｜神代煌牙『悪役でいい』Official MV #Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-02T21:12:43+09:00",
+      "youtubeUploadDate": "2026-09-02T21:12:43+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 61,
+      "verifiedPublishedAt": "2026-09-02T21:12:43+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "akuyaku-de-ii",
+      "youtubeId": "OldWXAS32lI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OldWXAS32lI",
+      "catalogReleaseDate": "2026-09-02",
+      "officialTitle": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-02T21:01:37+09:00",
+      "youtubeUploadDate": "2026-09-02T21:01:37+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 314,
+      "verifiedPublishedAt": "2026-09-02T21:01:37+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {
@@ -312,6 +347,23 @@
       "verificationSource": "official-youtube-timestamp-and-description",
       "status": "verified-datetime",
       "contentType": "short"
+    },
+    {
+      "releaseSlug": "gekka-no-chigiri",
+      "youtubeId": "Slv8e81DJ84",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Slv8e81DJ84",
+      "catalogReleaseDate": "2026-09-04",
+      "officialTitle": "VEILFANG『月下契』Official Audio｜白狼 × 九尾狐",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-04T20:40:11+09:00",
+      "youtubeUploadDate": "2026-09-04T20:40:11+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 269,
+      "verifiedPublishedAt": "2026-09-04T20:40:11+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
     },
     {
       "releaseSlug": "hajimemashite-kiseki",
@@ -1308,6 +1360,23 @@
       "durationSeconds": 210,
       "verifiedPublishedAt": "2026-07-31T20:00:06+09:00",
       "verificationSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "yume-to-kaigo-to-watashitachi",
+      "youtubeId": "PVX_5_MybgM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=PVX_5_MybgM",
+      "catalogReleaseDate": "2026-09-04",
+      "officialTitle": "榎本魅愛「夢と、介護と、わたしたち。」Official Audio｜介護WITH 応援ソング",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-04T21:22:14+09:00",
+      "youtubeUploadDate": "2026-09-04T21:22:14+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 315,
+      "verifiedPublishedAt": "2026-09-04T21:22:14+09:00",
+      "verificationSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "status": "verified-datetime"
     },
     {

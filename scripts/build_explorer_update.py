@@ -92,6 +92,11 @@ def media_url(value: str, prefix_value: str = "") -> str:
     return value if value.startswith(("https://", "http://")) else f"{prefix_value}{value}"
 
 
+def public_media_url(value: str) -> str:
+    """Return an absolute production URL for structured and social metadata."""
+    return value if value.startswith(("https://", "http://")) else f"{BASE}/{value.lstrip('/')}"
+
+
 def artist_visual(artist: dict, prefix: str) -> str:
     image = str(artist.get("image") or "").strip()
     name = html.escape(artist["name"])
@@ -493,6 +498,62 @@ def features_pages(root: Path, releases: list[dict]) -> dict[str, list[dict]]:
     return generated
 
 
+def special_feature_pages(root: Path, releases: list[dict], cms: dict) -> int:
+    """Generate editorial features whose copy is explicitly stored in the CMS."""
+    by_slug = {item["slug"]: item for item in releases}
+    generated = 0
+    for feature in cms.get("specialFeatures", []):
+        if feature.get("status") != "published":
+            continue
+        release = by_slug.get(feature.get("releaseSlug"))
+        if not release:
+            continue
+        route = f'features/{feature["slug"]}/'
+        page = f"{BASE}/{route}"
+        paragraphs = lambda values: "".join(f'<p>{html.escape(value)}</p>' for value in values)
+        body = (
+            '<article class="care-feature">'
+            '<section class="care-feature-visual">'
+            f'<img src="{media_url(release["coverImage"], "../../")}" alt="{html.escape(release["coverAlt"])}" width="1280" height="720"/>'
+            '<div><p class="section-kicker">SPECIAL FEATURE</p>'
+            f'<p class="suzuka-care-label">{html.escape(feature["projectLabel"])}</p>'
+            f'<h2>{html.escape(feature["heroCopy"])}</h2><p>{html.escape(feature["subtitle"])}</p></div></section>'
+            f'<section class="care-feature-section"><h2>{html.escape(feature["introHeading"])}</h2>{paragraphs(feature["introParagraphs"])}</section>'
+            f'<section class="care-feature-section"><h2>{html.escape(feature["messageHeading"])}</h2>{paragraphs(feature["messageParagraphs"])}</section>'
+            f'<section class="care-feature-section care-feature-project"><h2>{html.escape(feature["careHeading"])}</h2>{paragraphs(feature["careParagraphs"])}</section>'
+            '<section class="care-feature-actions" aria-label="作品の公式リンク">'
+            f'<a href="{html.escape(release["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">Official Audioを聴く ↗</a>'
+            f'<a href="../../{html.escape(release["releaseUrl"])}">作品について</a>'
+            f'<a href="../../artists/{html.escape(release["artistSlug"])}/">榎本魅愛を見る</a>'
+            f'<a href="../../{html.escape(release["newsUrl"])}">Newsを読む</a></section></article>'
+        )
+        graph_nodes = [
+            {"@type": "ItemList", "name": feature["title"], "numberOfItems": 1,
+             "itemListElement": [{"@type": "ListItem", "position": 1,
+                                   "name": release["title"], "url": f'{BASE}/{release["releaseUrl"]}'}]},
+            {"@type": "Article", "@id": f"{page}#article", "headline": feature["title"],
+             "description": feature["heroCopy"], "datePublished": feature["publishedAt"],
+             "dateModified": feature["publishedAt"], "image": public_media_url(release["coverImage"]),
+             "mainEntityOfPage": {"@id": f"{page}#webpage"},
+             "about": {"@id": f'{BASE}/{release["releaseUrl"]}#recording'}},
+            {"@type": "MusicRecording", "@id": f'{BASE}/{release["releaseUrl"]}#recording',
+             "name": release["title"], "url": f'{BASE}/{release["releaseUrl"]}',
+             "datePublished": release["releaseDate"], "image": public_media_url(release["coverImage"]),
+             "byArtist": {"@type": release["artistType"], "name": release["artist"],
+                          "description": "SUZUKAの架空のAIアーティストです。"}},
+        ]
+        write(
+            root / route / "index.html",
+            shell(
+                route, f'{feature["title"]}｜{feature["projectLabel"]}｜SUZUKA Official',
+                feature["heroCopy"], feature["title"], body, graph_nodes,
+                ("features", "Features"), "CollectionPage", public_media_url(release["coverImage"]),
+            ),
+        )
+        generated += 1
+    return generated
+
+
 def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None:
     links = {item["slug"]: item for item in release_links["releases"]}
     gallery_releases = [item for item in releases if item.get("galleryPublished", True)]
@@ -822,7 +883,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
     latest_news = sorted(
         [item for item in cms.get("news", []) if item.get("status") == "published"],
         key=lambda item: (item.get("publishedAt", ""), item.get("slug", "")), reverse=True,
-    )[:3]
+    )[:4]
     news_cards = "".join(
         f'<a class="explorer-news-link" href="./news/{item["slug"]}/"><time>{item.get("publishedAt", "")[:10]}</time>'
         f'<strong>{html.escape(item["title"])}</strong><span>Newsを読む ↗</span></a>'
@@ -980,6 +1041,7 @@ def main() -> None:
     rankings = build_rankings(root, releases)
     rankings_page(root, releases, rankings)
     features = features_pages(root, releases)
+    special_features = special_feature_pages(root, releases, cms if cms_path.exists() else {})
     gallery_pages(root, releases, release_links)
     universe_page(root, releases)
     wiki_pages(root, releases)
@@ -988,7 +1050,7 @@ def main() -> None:
     inject_navigation(root)
     print(
         f"Generated SUZUKA Explorer Update: {len(releases)} releases, {len(ARTISTS)} artists, "
-        f"{len(rankings['rankings'])} rankings, {len(features)} features, "
+        f"{len(rankings['rankings'])} rankings, {len(features)} features ({special_features} editorial), "
         f"{sum(item.get('galleryPublished', True) for item in releases)} gallery works, "
         f"{len(WIKI_PAGES) + 1} wiki pages."
     )

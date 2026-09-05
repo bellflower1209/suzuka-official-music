@@ -2,12 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-08-31T21:30:00+09:00</updated>
+  <updated>2026-09-04T22:30:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-09-04T21:22:14+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</id>
+    <title>榎本魅愛「夢と、介護と、わたしたち。」</title>
+    <updated>2026-09-04T21:22:14+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/" />
+    <category term="release" />
+    <summary>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-04T21:22:14+09:00</published>
+    <id>https://www.suzukaofficial.com/news/yume-to-kaigo-to-watashitachi-release/</id>
+    <title>榎本魅愛、新曲「夢と、介護と、わたしたち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌</title>
+    <updated>2026-09-04T21:22:14+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/yume-to-kaigo-to-watashitachi-release/" />
+    <category term="news" />
+    <summary>介護の現場で働く人たちと、仕事の中でも夢を大切にするすべての人へ贈る榎本魅愛の新曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-04T20:40:11+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/gekka-no-chigiri/</id>
+    <title>VEILFANG「月下契」</title>
+    <updated>2026-09-04T20:40:11+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/gekka-no-chigiri/" />
+    <category term="release" />
+    <summary>白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-04T20:40:11+09:00</published>
+    <id>https://www.suzukaofficial.com/news/gekka-no-chigiri-release/</id>
+    <title>VEILFANG「月下契」公開</title>
+    <updated>2026-09-04T20:40:11+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/gekka-no-chigiri-release/" />
+    <category term="news" />
+    <summary>白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。</summary>
+  </entry>
   <entry>
     <published>2026-08-31T20:00:18+09:00</published>
     <id>https://www.suzukaofficial.com/releases/akuyaku-de-ii/</id>

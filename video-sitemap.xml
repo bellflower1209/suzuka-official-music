@@ -60,6 +60,15 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/koga-kamishiro/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Ah4kM2T6mr0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>世界が俺を悪と呼んでも。｜神代煌牙『悪役でいい』Official MV #Shorts</video:title>
+      <video:description>神代煌牙『悪役でいい』Official MVの公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Ah4kM2T6mr0</video:content_loc>
+      <video:publication_date>2026-09-02T21:12:43+09:00</video:publication_date>
+      <video:duration>61</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ksYJEnyC284/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>【MV】愛してるからこそ、手を離した。｜神代煌牙『分かれた道』</video:title>
       <video:description>神代煌牙『分かれた道』Official MVの先行公開Shorts。</video:description>
@@ -560,11 +569,11 @@
   <url>
     <loc>https://www.suzukaofficial.com/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/pESx9p7lIHw/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>悪役でいい 公式動画</video:title>
-      <video:description>世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=pESx9p7lIHw</video:content_loc>
-      <video:publication_date>2026-08-31T20:00:18+09:00</video:publication_date>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</video:thumbnail_loc>
+      <video:title>夢と、介護と、わたしたち。 公式動画</video:title>
+      <video:description>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=PVX_5_MybgM</video:content_loc>
+      <video:publication_date>2026-09-04T21:22:14+09:00</video:publication_date>
       <video:duration>315</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
@@ -643,12 +652,12 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/akuyaku-de-ii/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/pESx9p7lIHw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/OldWXAS32lI/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>悪役でいい Official Video</video:title>
       <video:description>世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=pESx9p7lIHw</video:content_loc>
-      <video:publication_date>2026-08-31T20:00:18+09:00</video:publication_date>
-      <video:duration>315</video:duration>
+      <video:content_loc>https://www.youtube.com/watch?v=OldWXAS32lI</video:content_loc>
+      <video:publication_date>2026-09-02T21:01:37+09:00</video:publication_date>
+      <video:duration>314</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -745,6 +754,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=IbydSXmEyVQ</video:content_loc>
       <video:publication_date>2026-08-20T20:00:06+09:00</video:publication_date>
       <video:duration>263</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/gekka-no-chigiri/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Slv8e81DJ84/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>月下契 Official Video</video:title>
+      <video:description>白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Slv8e81DJ84</video:content_loc>
+      <video:publication_date>2026-09-04T20:40:11+09:00</video:publication_date>
+      <video:duration>269</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -1248,6 +1269,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=lMeYWn4Sqgk</video:content_loc>
       <video:publication_date>2026-07-31T20:00:06+09:00</video:publication_date>
       <video:duration>210</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/PVX_5_MybgM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>夢と、介護と、わたしたち。 Official Video</video:title>
+      <video:description>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=PVX_5_MybgM</video:content_loc>
+      <video:publication_date>2026-09-04T21:22:14+09:00</video:publication_date>
+      <video:duration>315</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

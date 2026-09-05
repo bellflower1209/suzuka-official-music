@@ -70,6 +70,27 @@ def collect_types(value: object, found: set[str]) -> None:
             collect_types(child, found)
 
 
+def matches_feature_rule(item: dict, rule: dict) -> bool:
+    """Mirror the CMS feature matching used by the generator."""
+    checks: list[bool] = []
+    for field in ("genres", "themes", "moods", "tags"):
+        values = rule.get(field, [])
+        if values:
+            checks.append(bool(set(values) & set(item.get(field, []))))
+    if rule.get("genreContains"):
+        checks.append(any(
+            needle in genre
+            for needle in rule["genreContains"]
+            for genre in item.get("genres", [])
+        ))
+    if rule.get("artistSlugs"):
+        artist_slugs = item.get("artistSlugs", [item.get("artistSlug")])
+        checks.append(bool(set(rule["artistSlugs"]) & set(artist_slugs)))
+    if rule.get("hasYoutube"):
+        checks.append(bool(item.get("youtubeUrl")))
+    return any(checks) if checks else True
+
+
 def parse(path: Path) -> tuple[Parser, set[str], list[str]]:
     parser = Parser()
     parser.feed(path.read_text(encoding="utf-8"))
@@ -103,12 +124,22 @@ def main() -> int:
     wiki_pages = sorted((root / "wiki").glob("*/index.html"))
     new_pages = sorted(path for name in NEW_ROOTS for path in (root / name).rglob("index.html"))
 
+    expected_feature_slugs = {
+        item["slug"]
+        for item in cms.get("featureDefinitions", [])
+        if any(matches_feature_rule(release, item.get("match", {})) for release in releases)
+    }
+    expected_feature_slugs.update(
+        item["slug"]
+        for item in cms.get("specialFeatures", [])
+        if item.get("status") == "published"
+    )
     expected = {
         "published": len(cms["releases"]),
         "upcoming": len(cms["upcoming"]),
         "artists": len(cms["artists"]),
         "rankings": 9,
-        "features": 10,
+        "features": len(expected_feature_slugs),
         "galleryWorks": sum(item.get("galleryPublished", True) for item in cms["releases"]),
         "wikiPages": 7,
         "universePages": 1,

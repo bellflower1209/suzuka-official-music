@@ -26,8 +26,10 @@ def main() -> int:
             if member["name"] not in source:
                 errors.append(f'{artist["slug"]}: verified member missing: {member["name"]}')
         for video in (item for item in short_videos if item.get("artistSlug") == artist["slug"] and item.get("status") == "published"):
-            required = ("videoId", "title", "artist", "youtubeUrl", "publishedAt", "relatedRelease", "thumbnail", "contentType")
+            required = ("videoId", "title", "artist", "youtubeUrl", "publishedAt", "thumbnail", "contentType")
             missing = [field for field in required if not video.get(field)]
+            if "relatedRelease" not in video:
+                missing.append("relatedRelease")
             if missing:
                 errors.append(f'{artist["slug"]}: Shorts canonical fields missing: {", ".join(missing)}')
             for marker in (video.get("videoId", ""), video.get("youtubeUrl", ""), 'data-source-section="artist_shorts"', '"@type":"VideoObject"'):

@@ -267,16 +267,23 @@ def release_page(item: dict) -> str:
 
 
 def news_page(item: dict) -> str:
-    page = f"{BASE}/news/{item['slug']}-release/"
+    news_route = item.get("newsUrl") or f"news/{item['slug']}-release/"
+    page = f"{BASE}/{news_route}"
     p = "../../"
     video_label = item.get("videoLabel", "OFFICIAL MV")
     video_cta = item.get("videoCtaLabel", "公式MVを見る")
-    news_desc = f'{item["artist"]}「{item["title"]}」の公開情報。{video_label}、作品ページ、アーティスト情報を紹介します。'
+    news_title = item.get("newsTitle") or f'{item["artist"]}「{item["title"]}」公開'
+    news_desc = item.get("newsDescription") or f'{item["artist"]}「{item["title"]}」の公開情報。{video_label}、作品ページ、アーティスト情報を紹介します。'
+    news_body = "".join(f'<p>{html.escape(paragraph)}</p>' for paragraph in item.get("newsBodyParagraphs", []))
+    feature_link = (
+        f'<a href="../../{html.escape(item["specialFeatureUrl"])}">特集を読む</a>'
+        if item.get("specialFeatureUrl") else ""
+    )
     cover_public = public_media_url(item["coverImage"])
     cover_page = media_url(item["coverImage"], "../../")
     published_at = item.get("publishedAt") or item.get("videoPublishedAt") or item["releaseDate"]
-    graph = {"@context":"https://schema.org","@graph":[{"@type":["NewsArticle","Article"],"headline":f'{item["artist"]}「{item["title"]}」公開',"datePublished":published_at,"dateModified":published_at,"mainEntityOfPage":page,"image":cover_public,"description":news_desc},{"@type":"WebPage","url":page,"name":f'{item["artist"]}「{item["title"]}」公開｜SUZUKA News',"description":news_desc},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
-    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["artist"])}「{html.escape(item["title"])}」公開｜SUZUKA News</title><meta name="description" content="{html.escape(news_desc)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:title" content="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{cover_public}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{cover_public}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<article class="news-article"><header class="news-article-hero"><p>{html.escape(video_label)} · {item["releaseDate"]}</p><h1>{html.escape(item["artist"])}<br/>「{html.escape(item["title"])}」公開</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストによる公式リリース情報です。</p></header><div class="news-article-body"><section><img src="{cover_page}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(video_cta)} ↗</a><a href="../../artists/{item["artistSlug"]}/">Artist</a></div></section><section class="social-context-section" aria-label="関連リンク"><h2>作品の関連情報</h2><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="../../social/">公式SNS・リンク</a><a href="../../artists/{item["artistSlug"]}/">アーティストページ</a></div></section></div></article>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
+    graph = {"@context":"https://schema.org","@graph":[{"@type":["NewsArticle","Article"],"headline":news_title,"datePublished":published_at,"dateModified":published_at,"mainEntityOfPage":page,"image":cover_public,"description":news_desc},{"@type":"WebPage","url":page,"name":f'{news_title}｜SUZUKA News',"description":news_desc},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
+    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(news_title)}｜SUZUKA News</title><meta name="description" content="{html.escape(news_desc)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:title" content="{html.escape(news_title)}"/><meta property="og:description" content="{html.escape(news_desc)}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{cover_public}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{html.escape(news_title)}"/><meta name="twitter:description" content="{html.escape(news_desc)}"/><meta name="twitter:image" content="{cover_public}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<article class="news-article"><header class="news-article-hero"><p>{html.escape(video_label)} · {item["releaseDate"]}</p><h1>{html.escape(news_title)}</h1><p>{html.escape(news_desc)}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストによる公式リリース情報です。</p></header><div class="news-article-body"><section><img src="{cover_page}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/>{news_body}<div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(video_cta)} ↗</a>{feature_link}<a href="../../artists/{item["artistSlug"]}/">Artist</a></div></section><section class="social-context-section" aria-label="関連リンク"><h2>作品の関連情報</h2><div class="explore-actions"><a href="../../releases/{item["slug"]}/">作品ページ</a>{feature_link}<a href="../../social/">公式SNS・リンク</a><a href="../../artists/{item["artistSlug"]}/">アーティストページ</a></div></section></div></article>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
 def standalone_news_page(item: dict, artist: dict) -> str:
@@ -302,7 +309,7 @@ def standalone_news_page(item: dict, artist: dict) -> str:
             {"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},
             {"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
     title = f'{item["title"]} | SUZUKA News'
-    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(title)}</title><meta name="description" content="{html.escape(description)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:title" content="{html.escape(title)}"/><meta property="og:description" content="{html.escape(description)}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{public_image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{html.escape(title)}"/><meta name="twitter:description" content="{html.escape(description)}"/><meta name="twitter:image" content="{public_image}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header("../../")}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL NEWS · {item["publishedAt"][:10]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストに関する公式情報です。</p></header><div class="news-article-body"><section><img src="{html.escape(local_image)}" alt="{html.escape(item["title"])} 公式YouTube画像" width="1280" height="720" loading="lazy"/><div class="explore-actions"><a href="{html.escape(youtube_url)}" target="_blank" rel="noopener noreferrer">公式動画を見る ↗</a><a href="../../artists/{html.escape(item["artistSlug"])}/">Artist</a><a href="../">News一覧</a></div></section></div></article>{footer("../../")}</main><script defer src="../../assets/main.js"></script></body></html>\n'
+    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(title)}</title><meta name="description" content="{html.escape(description)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:title" content="{html.escape(title)}"/><meta property="og:description" content="{html.escape(description)}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{public_image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{html.escape(title)}"/><meta name="twitter:description" content="{html.escape(description)}"/><meta name="twitter:image" content="{public_image}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header("../../")}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL NEWS · {item["publishedAt"][:10]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストに関する公式情報です。</p></header><div class="news-article-body"><section><img src="{html.escape(local_image)}" alt="{html.escape(item["title"])} 公式YouTube画像" width="1280" height="720" loading="lazy"/></section><section class="social-context-section" aria-label="関連リンク"><h2>関連情報</h2><div class="explore-actions"><a href="{html.escape(youtube_url)}" target="_blank" rel="noopener noreferrer">公式動画を見る ↗</a><a href="../../artists/{html.escape(item["artistSlug"])}/">Artist</a><a href="../">News一覧</a><a href="../../social/">公式SNS・リンク</a></div></section></div></article>{footer("../../")}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
 def upsert_card(path: Path, item: dict, p: str, href: str | None = None) -> None:
@@ -352,6 +359,22 @@ def update_home_status(root: Path, data: dict) -> None:
     )
     hero_subtitle = hero_config.get("subtitle", f'{hero_item["artist"]} New Single')
     hero_status = hero_config.get("status", "Now Streaming")
+    hero_lead = hero_config.get("lead", hero_item["description"])
+    hero_project = hero_config.get("projectLabel", "SUZUKA Official · Original AI Music Project")
+    if "SUZUKA Official · Original AI Music Project" not in hero_project:
+        hero_project = f"{hero_project} · SUZUKA Official · Original AI Music Project"
+    primary_label = hero_config.get("primaryLabel", "YouTubeで見る")
+    secondary_label = hero_config.get("secondaryLabel", "楽曲ページ")
+    feature_cta = (
+        f'<a class="button hanakotoba-button-secondary" href="./{html.escape(hero_config["featureUrl"])}">'
+        f'{html.escape(hero_config.get("featureLabel", "特集を読む"))}</a>'
+        if hero_config.get("featureUrl") else ""
+    )
+    hero_background = (
+        hero_item["coverImage"]
+        if hero_item["coverImage"].startswith(("https://", "http://"))
+        else f'/{hero_item["coverImage"].lstrip("/")}'
+    )
     gallery_cta = (
         f'<a class="button hanakotoba-button-secondary" href="./gallery/{hero_item["slug"]}/">Gallery</a>'
         if hero_item.get("galleryPublished", True) and (root / "gallery" / hero_item["slug"] / "index.html").is_file()
@@ -359,18 +382,17 @@ def update_home_status(root: Path, data: dict) -> None:
     )
     hero = (
         '<section class="hero latest-release-hero hanakotoba-hero suzuka-latest-hero" aria-labelledby="hero-title" data-home-hero>'
-        f'<div class="hanakotoba-wash" style="--hero-image:url(\'{media_url(hero_item["coverImage"], "./")}\')" aria-hidden="true"></div><div class="hanakotoba-petals" aria-hidden="true">'
+        f'<div class="hanakotoba-wash" style="--hero-image:url(\'{html.escape(hero_background)}\')" aria-hidden="true"></div><div class="hanakotoba-petals" aria-hidden="true">'
         '<span></span><span></span><span></span><span></span><span></span></div>'
         '<div class="hanakotoba-copy"><p class="hanakotoba-status"><i></i>'
         f'{html.escape(hero_status)}</p><p class="hanakotoba-subtitle">{html.escape(hero_subtitle)}</p>'
         f'<h1 id="hero-title">{html.escape(hero_item["title"])}</h1>'
-        f'<p class="hanakotoba-lead">{html.escape(hero_item["description"])}</p>'
+        f'<p class="hanakotoba-lead">{html.escape(hero_lead)}</p>'
         f'<div class="hanakotoba-actions" aria-label="注目作品 {html.escape(hero_item["title"])}のメニュー">'
-        f'<a class="button hanakotoba-button-primary" href="{hero_item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTubeで見る ↗</a>'
-        f'<a class="button hanakotoba-button-secondary" href="./{hero_item["releaseUrl"]}">楽曲ページ</a>'
-        f'{gallery_cta}'
-        f'<a class="button hanakotoba-button-secondary" href="./artists/{hero_item["artistSlug"]}/">Artist</a></div>'
-        '<p class="hanakotoba-project">SUZUKA Official · Original AI Music Project</p></div>'
+        f'<a class="button hanakotoba-button-primary" href="{hero_item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(primary_label)} ↗</a>'
+        f'<a class="button hanakotoba-button-secondary" href="./{hero_item["releaseUrl"]}">{html.escape(secondary_label)}</a>'
+        f'{feature_cta}{gallery_cta}</div>'
+        f'<p class="hanakotoba-project">{html.escape(hero_project)}</p></div>'
         '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
         f'<img src="{media_url(hero_item["coverImage"], "./")}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'
         f'<span>{html.escape(hero_status)}</span></div><p>{html.escape(hero_item["artist"])} / {hero_item["releaseDate"].replace("-", ".")}</p></div>'
@@ -504,6 +526,27 @@ def update_home_status(root: Path, data: dict) -> None:
         count=1,
         flags=re.DOTALL,
     )
+    cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+    special = next((item for item in cms.get("specialFeatures", []) if item.get("status") == "published"), None)
+    text = re.sub(
+        r'\s*<!-- SUZUKA:SPECIAL-FEATURE:START -->.*?<!-- SUZUKA:SPECIAL-FEATURE:END -->\s*',
+        "\n", text, flags=re.DOTALL,
+    )
+    if special:
+        special_block = (
+            '<!-- SUZUKA:SPECIAL-FEATURE:START -->'
+            '<section class="suzuka-special-feature" aria-labelledby="special-feature-title">'
+            f'<div class="suzuka-special-feature-media"><img src="{media_url(hero_item["coverImage"], "./")}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" loading="lazy"/></div>'
+            '<div class="suzuka-special-feature-copy">'
+            f'<p class="section-kicker">{html.escape(special["label"])}</p>'
+            f'<p class="suzuka-care-label">{html.escape(special["projectLabel"])}</p>'
+            f'<h2 id="special-feature-title">{html.escape(special["title"])}</h2>'
+            f'<p class="suzuka-special-subtitle">{html.escape(special["subtitle"])}</p>'
+            f'<p>{html.escape(special["heroCopy"])}</p>'
+            f'<a class="button button-primary" href="./features/{html.escape(special["slug"])}/">特集を読む ↗</a></div></section>'
+            '<!-- SUZUKA:SPECIAL-FEATURE:END -->'
+        )
+        text = text.replace(latest_section, special_block + latest_section, 1)
     upcoming_cards = "".join(
         '<article class="status-card">'
         f'<img src="{item["image"]}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公式YouTube公開予定サムネイル" width="1280" height="720" loading="lazy"/>'
@@ -818,7 +861,13 @@ def main() -> None:
             # Recover safely if an interrupted generation left an empty file.
             # A zero-byte News page cannot provide an insertion point to the
             # downstream Discovery & Growth builder.
-            if not news_path.exists() or news_path.stat().st_size == 0:
+            news_source = news_path.read_text(encoding="utf-8") if news_path.exists() else ""
+            if (
+                not news_path.exists() or news_path.stat().st_size == 0
+                or item["youtubeUrl"] not in news_source
+                or (item.get("newsTitle") and item["newsTitle"] not in news_source)
+                or f'{BASE}/{item.get("newsUrl", f"news/{item["slug"]}-release/")}' not in news_source
+            ):
                 write(news_path, news_page(item))
     cms_source = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     artist_map = {item["slug"]: item for item in cms_source.get("artists", [])}

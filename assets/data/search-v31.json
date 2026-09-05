@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T21:30:00+09:00",
+  "updatedAt": "2026-09-04T22:30:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,74 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "夢と、介護と、わたしたち。",
+      "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
+      "url": "releases/yume-to-kaigo-to-watashitachi/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "応援歌",
+        "介護",
+        "夢",
+        "仕事",
+        "応援",
+        "希望",
+        "未来",
+        "夢と、介護と、わたしたち。",
+        "榎本魅愛",
+        "介護WITH",
+        "敬寿会",
+        "SUZUKA WITH",
+        "SUZUKA WITH CARE",
+        "福祉",
+        "介護職",
+        "Official Audio",
+        "J-POP",
+        "応援歌",
+        "介護",
+        "夢",
+        "仕事",
+        "応援",
+        "希望",
+        "未来",
+        "あたたかい"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "月下契",
+      "description": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。",
+      "url": "releases/gekka-no-chigiri/",
+      "keywords": [
+        "VEILFANG",
+        "J-POP",
+        "ダークファンタジー",
+        "契り",
+        "運命",
+        "月",
+        "絆",
+        "月下契",
+        "VEILFANG",
+        "ヴェイルファング",
+        "KOTOU",
+        "KURAMA",
+        "白狼",
+        "九尾狐",
+        "Official Audio",
+        "J-POP",
+        "ダークファンタジー",
+        "契り",
+        "運命",
+        "月",
+        "絆",
+        "神秘的",
+        "力強い"
       ]
     },
     {
@@ -1325,6 +1393,36 @@
       ]
     },
     {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "VEILFANG",
+      "description": "白狼・孤闘（KOTOU）と九尾狐・九羅護（KURAMA）による、SUZUKAの幻想獣デュオ。",
+      "url": "artists/veilfang/",
+      "keywords": [
+        "VEILFANG",
+        "ヴェイルファング",
+        "KOTOU",
+        "KURAMA",
+        "孤闘",
+        "九羅護",
+        "白狼",
+        "九尾狐"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "世界が俺を悪と呼んでも。｜神代煌牙『悪役でいい』Official MV #Shorts",
+      "description": "神代煌牙『悪役でいい』Official MVの公式Shorts。",
+      "url": "artists/koga-kamishiro/#short-Ah4kM2T6mr0",
+      "keywords": [
+        "神代煌牙",
+        "akuyaku-de-ii",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
       "type": "Shorts",
       "contentType": "short",
       "title": "【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』",
@@ -1517,6 +1615,28 @@
         "tatta-hitori-no-kimi-e",
         "YouTube Shorts",
         "Shorts"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛、新曲「夢と、介護と、わたしたち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
+      "description": "介護の現場で働く人たちと、仕事の中でも夢を大切にするすべての人へ贈る榎本魅愛の新曲。",
+      "url": "news/yume-to-kaigo-to-watashitachi-release/",
+      "keywords": [
+        "enomoto-mia",
+        "yume-to-kaigo-to-watashitachi"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "VEILFANG「月下契」公開",
+      "description": "白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。",
+      "url": "news/gekka-no-chigiri-release/",
+      "keywords": [
+        "veilfang",
+        "gekka-no-chigiri"
       ]
     },
     {

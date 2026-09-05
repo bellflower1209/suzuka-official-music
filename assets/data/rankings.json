@@ -5,6 +5,8 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
         "updown",
@@ -12,15 +14,15 @@
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss"
+        "still-alive"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
         "updown",
@@ -28,14 +30,13 @@
         "wakareta-michi",
         "friendlikesong",
         "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e",
-        "monsoon-promise",
-        "taipa-nante-shiranakatta"
+        "tatta-hitori-no-kimi-e"
       ]
     },
     "love": {
       "label": "恋愛ソングおすすめTOP10",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
         "updown",
         "hanakotoba",
         "hajimemashite-kiseki",
@@ -44,8 +45,7 @@
         "koisuru-maharaja",
         "kimi-ni-kakatta-mahou",
         "smile-and-say-goodbye",
-        "my-queen-my-oath",
-        "moshimo-ashita-hajimemashite-ni-natte-mo"
+        "my-queen-my-oath"
       ]
     },
     "summer": {
@@ -60,6 +60,7 @@
     "cheer": {
       "label": "応援ソングTOP10",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
         "re-sonance",
         "wakareta-michi",
         "taipa-nante-shiranakatta",
@@ -68,13 +69,14 @@
         "anata-dake-no-savior",
         "hajimemashite-kiseki",
         "still-alive",
-        "without-worrying",
-        "ashita-wa-kitto"
+        "without-worrying"
       ]
     },
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
         "updown",
@@ -82,9 +84,7 @@
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss"
+        "still-alive"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -100,6 +100,7 @@
         "rangili",
         "asagiri-shinobu",
         "asteria",
+        "veilfang",
         "hoshimiya-hanon",
         "hoshino-miu"
       ]
@@ -117,18 +118,19 @@
         "ロック",
         "J-ROCK",
         "ダークロック",
+        "応援歌",
         "Dark Pop",
         "ファンタジーポップ",
         "演歌",
         "歌謡曲",
         "インド×J-POP",
         "シネマティック",
+        "ダークファンタジー",
         "邦ロック",
         "サマーソング",
         "アコースティック",
         "ゴシックロック",
         "Dark K-POP",
-        "応援歌",
         "Cinematic Rock",
         "Dark Rock",
         "EUROBEAT",
@@ -140,6 +142,8 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
         "updown",
@@ -147,9 +151,7 @@
         "hanakotoba",
         "wasureji-no-hito",
         "hajimemashite-kiseki",
-        "still-alive",
-        "zennin-saiban",
-        "one-more-kiss"
+        "still-alive"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }
