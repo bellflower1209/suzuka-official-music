@@ -3,6 +3,15 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/enomoto-mia/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/8Heg7Aomqwk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、私たち。』#shorts</video:title>
+      <video:description>榎本魅愛「夢と、介護と、私たち。」Official Music Videoの公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/8Heg7Aomqwk</video:content_loc>
+      <video:publication_date>2026-09-06T23:43:52+09:00</video:publication_date>
+      <video:duration>89</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kIs_YvTk8hE/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』</video:title>
       <video:description>榎本魅愛が担当するアニメOP「また、君に恋をする」の公式Shorts。</video:description>
@@ -570,10 +579,10 @@
     <loc>https://www.suzukaofficial.com/</loc>
     <video:video>
       <video:thumbnail_loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</video:thumbnail_loc>
-      <video:title>夢と、介護と、わたしたち。 公式動画</video:title>
+      <video:title>夢と、介護と、私たち。 公式動画</video:title>
       <video:description>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=PVX_5_MybgM</video:content_loc>
-      <video:publication_date>2026-09-04T21:22:14+09:00</video:publication_date>
+      <video:content_loc>https://www.youtube.com/watch?v=giTYuKyIk3c</video:content_loc>
+      <video:publication_date>2026-09-06T23:21:54+09:00</video:publication_date>
       <video:duration>315</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
@@ -1275,11 +1284,11 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/PVX_5_MybgM/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>夢と、介護と、わたしたち。 Official Video</video:title>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/giTYuKyIk3c/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>夢と、介護と、私たち。 Official Video</video:title>
       <video:description>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=PVX_5_MybgM</video:content_loc>
-      <video:publication_date>2026-09-04T21:22:14+09:00</video:publication_date>
+      <video:content_loc>https://www.youtube.com/watch?v=giTYuKyIk3c</video:content_loc>
+      <video:publication_date>2026-09-06T23:21:54+09:00</video:publication_date>
       <video:duration>315</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>

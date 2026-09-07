@@ -257,13 +257,32 @@ def release_page(item: dict) -> str:
     page = f"{BASE}/{item['releaseUrl']}"
     p = "../../"
     graph = {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":page,"url":page,"name":f"{item['title']}｜{item['artist']}｜SUZUKA","description":item["description"]},{"@type":"MusicRecording","@id":f"{page}#recording","name":item["title"],"url":page,"datePublished":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"image":public_media_url(item["coverImage"]),"description":item["description"],"byArtist":{"@type":item["artistType"],"name":item["artist"],"description":"SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。"}},{"@type":"VideoObject","@id":f"{page}#video","name":f'{item["title"]} Official Video',"description":item["description"],"thumbnailUrl":f'https://i.ytimg.com/vi/{item["youtubeUrl"].split("=")[-1]}/maxresdefault.jpg',"uploadDate":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"embedUrl":f'https://www.youtube.com/embed/{item["youtubeUrl"].split("=")[-1]}',"contentUrl":item["youtubeUrl"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"Releases","item":f"{BASE}/releases/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
+    credits = ""
+    if item.get("lyricist") or item.get("composer"):
+        credit_parts = [
+            f'作詞：{item["lyricist"]}' if item.get("lyricist") else "",
+            f'作曲：{item["composer"]}' if item.get("composer") else "",
+            f'アーティスト：{item["artist"]}',
+        ]
+        credit_parts = [value for value in credit_parts if value]
+        graph["@graph"][1]["creditText"] = " / ".join(credit_parts)
+        credits = (
+            '<section class="release-credit-section" aria-label="作品クレジット"><h2>CREDITS</h2><dl>'
+            + (f'<div><dt>作詞</dt><dd>{html.escape(item["lyricist"])}</dd></div>' if item.get("lyricist") else "")
+            + (f'<div><dt>作曲</dt><dd>{html.escape(item["composer"])}</dd></div>' if item.get("composer") else "")
+            + f'<div><dt>アーティスト</dt><dd>{html.escape(item["artist"])}</dd></div></dl></section>'
+        )
+    audio_link = (
+        f'<a href="{html.escape(item["officialAudioUrl"])}" target="_blank" rel="noopener noreferrer">Official Audioを聴く ↗</a>'
+        if item.get("officialAudioUrl") and item["officialAudioUrl"] != item["youtubeUrl"] else ""
+    )
     tags = "".join(f'<a class="explore-tag" href="../../search/?genre={html.escape(g)}">{html.escape(g)}</a>' for g in item["genres"])
     related = "".join(f'<a href="../{x}/">{html.escape(x.replace("-"," "))} ↗</a>' for x in ("mia","shadow-code","my-queen-my-oath"))
     news_link = f'<a href="../../{item["newsUrl"]}">Newsを読む</a>' if item.get("newsUrl") else ""
     cover_public = public_media_url(item["coverImage"])
     cover_page = media_url(item["coverImage"], "../../")
     video_cta = html.escape(item.get("videoCtaLabel", "公式MVを見る"))
-    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["title"])}｜{html.escape(item["artist"])}｜SUZUKA Official Music</title><meta name="description" content="{html.escape(item["description"])}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="music.song"/><meta property="og:title" content="{html.escape(item["title"])}｜{html.escape(item["artist"])}"/><meta property="og:description" content="{html.escape(item["description"])}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{cover_public}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{cover_public}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/official-release.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<section class="release-detail-hero"><div class="release-detail-copy"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><div class="explore-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{video_cta} ↗</a><a href="../../artists/{item["artistSlug"]}/">アーティストを見る</a></div></div><div class="release-detail-artwork"><img src="{cover_page}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720"/></div></section><section class="release-detail-video"><iframe src="https://www.youtube-nocookie.com/embed/{item["youtubeUrl"].split("=")[-1]}" title="{html.escape(item["title"])} Official Video" loading="lazy" allowfullscreen></iframe></section><section class="release-related-section"><h2>関連作品</h2><div class="explore-actions">{related}</div></section><section class="release-genre-tags"><strong>GENRES / THEMES</strong>{tags}</section><section class="social-context-section" aria-label="作品の関連リンク"><h2>作品をもっと楽しむ</h2><div class="explore-actions">{news_link}<a href="../../social/">公式SNS・リンク</a><a href="../../search/?artist={item["artistSlug"]}">同じアーティストの曲を探す</a></div></section><aside class="ai-work-disclosure">本作品は、SUZUKAのオリジナルAIアーティストによる架空の音楽プロジェクト作品です。</aside>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
+    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(item["title"])}｜{html.escape(item["artist"])}｜SUZUKA Official Music</title><meta name="description" content="{html.escape(item["description"])}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="music.song"/><meta property="og:title" content="{html.escape(item["title"])}｜{html.escape(item["artist"])}"/><meta property="og:description" content="{html.escape(item["description"])}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{cover_public}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="{cover_public}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/official-release.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header(p)}<section class="release-detail-hero"><div class="release-detail-copy"><p>OFFICIAL RELEASE · {item["releaseDate"]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><div class="explore-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{video_cta} ↗</a>{audio_link}<a href="../../artists/{item["artistSlug"]}/">アーティストを見る</a></div></div><div class="release-detail-artwork"><img src="{cover_page}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720"/></div></section><section class="release-detail-video"><iframe src="https://www.youtube-nocookie.com/embed/{item["youtubeUrl"].split("=")[-1]}" title="{html.escape(item["title"])} Official Video" loading="lazy" allowfullscreen></iframe></section>{credits}<section class="release-related-section"><h2>関連作品</h2><div class="explore-actions">{related}</div></section><section class="release-genre-tags"><strong>GENRES / THEMES</strong>{tags}</section><section class="social-context-section" aria-label="作品の関連リンク"><h2>作品をもっと楽しむ</h2><div class="explore-actions">{news_link}<a href="../../social/">公式SNS・リンク</a><a href="../../search/?artist={item["artistSlug"]}">同じアーティストの曲を探す</a></div></section><aside class="ai-work-disclosure">本作品は、SUZUKAのオリジナルAIアーティストによる架空の音楽プロジェクト作品です。</aside>{footer(p)}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
 def news_page(item: dict) -> str:
@@ -370,6 +389,11 @@ def update_home_status(root: Path, data: dict) -> None:
         f'{html.escape(hero_config.get("featureLabel", "特集を読む"))}</a>'
         if hero_config.get("featureUrl") else ""
     )
+    lyrics_cta = (
+        f'<a class="button hanakotoba-button-secondary" href="./lyrics/{hero_item["slug"]}/">'
+        f'{html.escape(hero_config.get("lyricsLabel", "公式Lyrics"))}</a>'
+        if hero_item.get("lyricsAvailable") and hero_item.get("lyricsVerified") else ""
+    )
     hero_background = (
         hero_item["coverImage"]
         if hero_item["coverImage"].startswith(("https://", "http://"))
@@ -391,7 +415,7 @@ def update_home_status(root: Path, data: dict) -> None:
         f'<div class="hanakotoba-actions" aria-label="注目作品 {html.escape(hero_item["title"])}のメニュー">'
         f'<a class="button hanakotoba-button-primary" href="{hero_item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(primary_label)} ↗</a>'
         f'<a class="button hanakotoba-button-secondary" href="./{hero_item["releaseUrl"]}">{html.escape(secondary_label)}</a>'
-        f'{feature_cta}{gallery_cta}</div>'
+        f'{feature_cta}{lyrics_cta}{gallery_cta}</div>'
         f'<p class="hanakotoba-project">{html.escape(hero_project)}</p></div>'
         '<div class="hanakotoba-artwork"><div class="hanakotoba-artwork-frame">'
         f'<img src="{media_url(hero_item["coverImage"], "./")}" alt="{html.escape(hero_item["coverAlt"])}" width="1280" height="720" fetchpriority="high"/>'

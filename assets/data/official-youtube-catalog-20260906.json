@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.2",
+  "verifiedAt": "2026-09-06T23:56:37+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "channelUrl": "https://www.youtube.com/@suzuka1209",
+  "verificationMethod": "公式YouTube Atomフィードと各動画のplayerMicroformatRendererを照合",
+  "channelSnapshot": {
+    "officialVideos": 71,
+    "shorts": 47,
+    "totalPublishedVideos": 118
+  },
+  "published": [],
+  "updatedReleaseVideos": [
+    {
+      "releaseSlug": "yume-to-kaigo-to-watashitachi",
+      "videoId": "giTYuKyIk3c",
+      "title": "【MV】榎本魅愛「夢と、介護と、私たち。」｜介護職だって、夢を持っていい。",
+      "sourceTitle": "【MV】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。",
+      "youtubeUrl": "https://www.youtube.com/watch?v=giTYuKyIk3c",
+      "publishedAt": "2026-09-06T23:21:54+09:00",
+      "duration": 315
+    }
+  ],
+  "promotionalVideos": [],
+  "shorts": [
+    {
+      "videoId": "8Heg7Aomqwk",
+      "title": "「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、私たち。』#shorts",
+      "sourceTitle": "「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、わたしたち。』#shorts",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "youtubeUrl": "https://www.youtube.com/shorts/8Heg7Aomqwk",
+      "publishedAt": "2026-09-06T23:43:52+09:00",
+      "relatedRelease": "yume-to-kaigo-to-watashitachi",
+      "thumbnail": "https://i.ytimg.com/vi/8Heg7Aomqwk/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 89,
+      "description": "榎本魅愛「夢と、介護と、私たち。」Official Music Videoの公式Shorts。"
+    }
+  ],
+  "upcomingHeld": []
+}

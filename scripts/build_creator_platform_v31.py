@@ -232,11 +232,21 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             if item.get("newsUrl") and (root / item["newsUrl"] / "index.html").is_file()
             else ""
         )
+        feature_link = (
+            f'<a href="../../{html.escape(item["specialFeatureUrl"])}">SUZUKA WITH CARE</a>'
+            if item.get("specialFeatureUrl") else ""
+        )
+        credits = " / ".join(value for value in (
+            f'作詞：{item.get("lyricist", "")}' if item.get("lyricist") else "",
+            f'作曲：{item.get("composer", "")}' if item.get("composer") else "",
+            f'アーティスト：{item["artist"]}',
+        ) if value)
         body = (
             '<article class="v31-lyrics"><header>'
             f'<p>{html.escape(item["artist"])}</p><h2>{html.escape(item["title"])}</h2>'
             f'<p>「{html.escape(item["title"])}」は、SUZUKA所属AIアーティスト'
             f'{html.escape(item["artist"])}の楽曲です。</p>'
+            f'<p class="v31-lyrics-credits">{html.escape(credits)}</p>'
             f'<p>歌詞出典：{html.escape(item["lyricsSource"])}</p>'
             f'<div class="explore-actions" data-source-section="lyrics_header" {analytics_attrs}><a href="{item["youtubeUrl"]}" '
             'target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
@@ -245,7 +255,7 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             f'<nav class="explore-actions" data-source-section="lyrics_footer" {analytics_attrs}>'
             f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
             f'<a href="../../{item["releaseUrl"]}">作品ページ</a>'
-            f'{gallery_link}{news_link}<a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
+            f'{feature_link}{gallery_link}{news_link}<a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
             '<p class="v31-brand-return"><a href="../../about/">SUZUKAについて ↗</a></p>'
             f'<section data-source-section="related"><h2>次に聴くなら</h2><p>SUZUKAおすすめ。実人気順位ではありません。</p>'
             f'<div class="explorer-card-grid">{related_cards}</div></section>'
@@ -254,6 +264,7 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             "@type": "MusicRecording", "@id": f'{BASE}/{item["releaseUrl"]}#recording',
             "name": item["title"], "url": f'{BASE}/{item["releaseUrl"]}',
             "description": item.get("description", ""),
+            "creditText": credits,
             "byArtist": {"@id": f'{BASE}/artists/{item["artistSlug"]}/#artist'},
         }]
         write(root / f'lyrics/{item["slug"]}/index.html', shell(
@@ -785,7 +796,11 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
     for item in releases:
         documents.append({
             "type": "Release", "contentType": "release", "title": item["title"], "description": item.get("description", ""),
-            "url": item["releaseUrl"], "keywords": [item["artist"], *item.get("genres", []), *item.get("themes", []), *item.get("tags", [])],
+            "url": item["releaseUrl"], "keywords": [
+                item["artist"], *item.get("genres", []), *item.get("themes", []), *item.get("tags", []),
+                *item.get("searchKeywords", []), item.get("lyricist", ""), item.get("composer", ""),
+                item.get("lyricsText", ""),
+            ],
         })
     for artist in cms.get("artists", []):
         if artist.get("status") == "published":
@@ -815,7 +830,10 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
     for item in lyrics:
         documents.append({
             "type": "Lyrics", "contentType": "lyrics", "title": item["title"], "description": f'{item["artist"]}公式歌詞',
-            "url": f'lyrics/{item["slug"]}/', "keywords": [item["artist"], *item.get("genres", [])],
+            "url": f'lyrics/{item["slug"]}/', "keywords": [
+                item["artist"], *item.get("genres", []), item.get("lyricist", ""), item.get("composer", ""),
+                item.get("lyricsText", ""), *item.get("searchKeywords", []),
+            ],
         })
     artist_map = {item["slug"]: item for item in cms["artists"]}
     for item in photobooks:

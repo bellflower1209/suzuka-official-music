@@ -28,7 +28,7 @@ SUZUKAは、AIを活用して音楽・ビジュアル・物語を制作する
 
 | # | 作品名 | アーティスト | YouTube / 時間 | 公開日時（JST） | 公式サイト | 状態 |
 |---:|---|---|---|---|---|---|
-| 1 | 夢と、介護と、わたしたち。 | 榎本魅愛 | [PVX_5_MybgM](https://www.youtube.com/watch?v=PVX_5_MybgM) / 5:15 | 2026-09-04T21:22:14+09:00 | [作品](https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/) | 公開確認済み |
+| 1 | 夢と、介護と、私たち。 | 榎本魅愛 | [giTYuKyIk3c](https://www.youtube.com/watch?v=giTYuKyIk3c) / 5:15 | 2026-09-04T21:22:14+09:00 | [作品](https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/) | 公開確認済み |
 | 2 | 月下契 | VEILFANG | [Slv8e81DJ84](https://www.youtube.com/watch?v=Slv8e81DJ84) / 4:29 | 2026-09-04T20:40:11+09:00 | [作品](https://www.suzukaofficial.com/releases/gekka-no-chigiri/) | 公開確認済み |
 | 3 | 悪役でいい | 神代煌牙 | [OldWXAS32lI](https://www.youtube.com/watch?v=OldWXAS32lI) / 5:14 | 2026-08-31T20:00:18+09:00 | [作品](https://www.suzukaofficial.com/releases/akuyaku-de-ii/) | 公開確認済み |
 | 4 | いいね葬儀社 | NOX | [lP_OZ_6hu-0](https://www.youtube.com/watch?v=lP_OZ_6hu-0) / 3:47 | 2026-08-29T20:00:06+09:00 | [作品](https://www.suzukaofficial.com/releases/iine-sougisha/) | 公開確認済み |

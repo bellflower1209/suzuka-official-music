@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-09-04T22:30:00+09:00",
+  "updatedAt": "2026-09-06T23:56:37+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -491,9 +491,9 @@
     {
       "slug": "yume-to-kaigo-to-watashitachi",
       "id": "yume-to-kaigo-to-watashitachi",
-      "title": "夢と、介護と、わたしたち。",
-      "displayTitle": "夢と、介護と、わたしたち。",
-      "englishTitle": "夢と、介護と、わたしたち。",
+      "title": "夢と、介護と、私たち。",
+      "displayTitle": "夢と、介護と、私たち。",
+      "englishTitle": "夢と、介護と、私たち。",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
       "artistSlugs": [
@@ -522,7 +522,7 @@
         "未来"
       ],
       "tags": [
-        "夢と、介護と、わたしたち。",
+        "夢と、介護と、私たち。",
         "榎本魅愛",
         "介護WITH",
         "敬寿会",
@@ -539,17 +539,23 @@
         "応援",
         "希望",
         "未来",
-        "あたたかい"
+        "あたたかい",
+        "JUN",
+        "SUNO",
+        "WITH",
+        "WITH OUR DREAMS",
+        "支える人も輝ける",
+        "好きなことを好きなままで"
       ],
       "language": "ja",
       "coverImage": "images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg",
-      "coverAlt": "紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、わたしたち。」公式ビジュアル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=PVX_5_MybgM",
-      "youtubeVideoTitle": "榎本魅愛「夢と、介護と、わたしたち。」Official Audio｜介護WITH 応援ソング",
-      "videoLabel": "OFFICIAL AUDIO",
-      "videoCtaLabel": "Official Audioを聴く",
-      "videoButtonLabel": "LISTEN",
-      "shortsUrl": "",
+      "coverAlt": "紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=giTYuKyIk3c",
+      "youtubeVideoTitle": "【MV】榎本魅愛「夢と、介護と、私たち。」｜介護職だって、夢を持っていい。",
+      "videoLabel": "OFFICIAL MV",
+      "videoCtaLabel": "Official MVを見る",
+      "videoButtonLabel": "WATCH MV",
+      "shortsUrl": "https://www.youtube.com/shorts/8Heg7Aomqwk",
       "releaseUrl": "releases/yume-to-kaigo-to-watashitachi/",
       "newsUrl": "news/yume-to-kaigo-to-watashitachi-release/",
       "duration": 315,
@@ -561,7 +567,7 @@
       "upcomingPriority": 0,
       "relatedReleases": [],
       "searchKeywords": [
-        "夢と、介護と、わたしたち。",
+        "夢と、介護と、私たち。",
         "榎本魅愛",
         "介護WITH",
         "敬寿会",
@@ -578,7 +584,13 @@
         "応援",
         "希望",
         "未来",
-        "あたたかい"
+        "あたたかい",
+        "JUN",
+        "SUNO",
+        "WITH",
+        "WITH OUR DREAMS",
+        "支える人も輝ける",
+        "好きなことを好きなままで"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
@@ -587,40 +599,52 @@
       "galleryPublished": false,
       "productionNote": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。",
       "seo": {
-        "title": "夢と、介護と、わたしたち。｜榎本魅愛｜SUZUKA Official Music",
+        "title": "夢と、介護と、私たち。｜榎本魅愛｜SUZUKA Official Music",
         "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-09-04",
-      "videoPublishedAt": "2026-09-04T21:22:14+09:00",
+      "videoPublishDate": "2026-09-06",
+      "videoPublishedAt": "2026-09-06T23:21:54+09:00",
       "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
-      "officialSource": "https://www.youtube.com/watch?v=PVX_5_MybgM",
-      "promotionVerifiedAt": "2026-09-04T22:30:00+09:00",
-      "lyricsAvailable": false,
-      "lyricsSource": "",
-      "lyricsText": "",
-      "lyricsVerified": false,
-      "lyricsVerifiedAt": null,
-      "newsTitle": "榎本魅愛、新曲「夢と、介護と、わたしたち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
+      "officialSource": "https://www.youtube.com/watch?v=giTYuKyIk3c",
+      "promotionVerifiedAt": "2026-09-06T23:56:37+09:00",
+      "lyricsAvailable": true,
+      "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（2026-09-06確定）",
+      "lyricsText": "好きなことを　好きなままで\n誰かの明日を　支えていこう\n夢も　仕事も\nどっちかなんて　選ばなくていい\n\n朝の「おはよう」から始まる\nいつもの廊下　いつもの笑顔\n名前を呼んで　手を取り合って\n今日という一日を歩いてく\nだけど僕らにも　それぞれに\n胸の奥で輝くものがある\n走ること　歌うこと\n描くこと　夢を見ること\nその全部が　僕らなんだ\n\n誰かを支えるその手で\n自分の未来もつかんでいい\n「介護だから」じゃなく\n「介護と一緒に」歩いていこう\n\n好きなままで　働こう\n夢を抱いたまま　歩いていこう\n君らしさが消えない場所で\n誰かの笑顔をつくっていこう\nスポーツも　音楽も\n新しい挑戦も\nここでは全部　力になる\n支える人も　輝ける\nそれが僕らの WITH\n\nうまくいかない日だってある\n悔しくて立ち止まる日もある\nそれでも誰かの「ありがとう」が\nもう一度　背中を押してくれる\n仲間の夢を応援したら\nいつの間にか自分も強くなる\n違う個性　違う未来\nだからこそ面白いんだ\n一人じゃない　この場所なら\n\n働くことと　生きること\n境界線なんてなくていい\n僕らが僕らでいられること\nそこから介護は変わっていく\n\n好きなままで　働こう\n夢を抱いたまま　歩いていこう\n君らしさが輝くほどに\n誰かの笑顔も増えていく\nスポーツも　芸能も\nクリエイティブな未来も\n挑戦する背中を支えよう\n支える人も　支えられる\nそれが僕らの WITH\n\n夢を諦めないことが\nわがままだなんて思わないで\n誰かの人生を支える僕らも\n一度きりの人生を生きている\nだから――\nやりたいことを　やろう\nなりたい自分になろう\n仕事も　夢も\n仲間と一緒なら越えていける\n\n好きなままで　働こう\n夢を抱いたまま　歩いていこう\n介護の未来を変えるのは\n特別な誰かじゃなく　僕らだから\n笑って　悩んで\nまた挑戦して\n一人ひとりの「やりたい」を\n一緒に育てていこう\n支える人も　輝ける\n夢と介護は　つながってる\n好きなことも\n誰かを想うことも\nどちらも大切にできる場所へ\n僕らは進む\n一緒に進む\nWITH OUR DREAMS\n\n好きなことを　好きなままで\n誰かの明日を　支えていこう\n僕らの夢と\n介護の未来を\n一緒に。",
+      "lyricsVerified": true,
+      "lyricsVerifiedAt": "2026-09-06T23:56:37+09:00",
+      "newsTitle": "榎本魅愛、新曲「夢と、介護と、私たち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
       "newsDescription": "介護の現場で働く人たちと、仕事の中でも夢を大切にするすべての人へ贈る榎本魅愛の新曲。",
       "newsBodyParagraphs": [
-        "「夢と、介護と、わたしたち。」は、誰かの暮らしを支える毎日の中にも、一人ひとりの夢があることを見つめた応援歌です。",
+        "「夢と、介護と、私たち。」は、誰かの暮らしを支える毎日の中にも、一人ひとりの夢があることを見つめた応援歌です。",
         "SUZUKA公式YouTubeの公開情報では、介護WITHへの応募に取り組む社会福祉法人敬寿会を応援する作品として紹介されています。"
       ],
       "specialFeatureUrl": "features/suzuka-with-care/",
       "homeHero": {
-        "title": "SUZUKA Official | 榎本魅愛「夢と、介護と、わたしたち。」公開中",
-        "description": "介護の現場で働く人たちへ贈る、榎本魅愛の新たな応援歌。Official Audio・作品・特集をSUZUKA公式サイトで紹介します。",
-        "subtitle": "ENOMOTO MIA · Official Audio",
+        "title": "SUZUKA Official | 榎本魅愛「夢と、介護と、私たち。」公開中",
+        "description": "榎本魅愛「夢と、介護と、私たち。」公式MVと歌詞を公開中。介護の現場で働く人へ贈る応援歌です。",
+        "subtitle": "ENOMOTO MIA · Official MV",
         "status": "NEW RELEASE",
         "lead": "夢は、誰かを支える毎日の中にもある。",
         "projectLabel": "SUZUKA WITH CARE",
-        "primaryLabel": "Official Audioを聴く",
+        "primaryLabel": "Official MVを見る",
         "secondaryLabel": "作品について",
         "featureLabel": "特集を読む",
-        "featureUrl": "features/suzuka-with-care/"
-      }
+        "featureUrl": "features/suzuka-with-care/",
+        "lyricsLabel": "公式Lyrics"
+      },
+      "lyricist": "JUN",
+      "composer": "SUNO",
+      "credits": {
+        "lyrics": "JUN",
+        "music": "SUNO",
+        "artist": "榎本魅愛"
+      },
+      "officialAudioUrl": "https://www.youtube.com/watch?v=PVX_5_MybgM",
+      "officialAudioVideoId": "PVX_5_MybgM",
+      "officialAudioPublishedAt": "2026-09-04T21:22:14+09:00",
+      "officialAudioDuration": 315
     },
     {
       "slug": "gekka-no-chigiri",
@@ -5610,7 +5634,7 @@
   "news": [
     {
       "slug": "yume-to-kaigo-to-watashitachi-release",
-      "title": "榎本魅愛、新曲「夢と、介護と、わたしたち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
+      "title": "榎本魅愛、新曲「夢と、介護と、私たち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌",
       "artistSlug": "enomoto-mia",
       "releaseSlug": "yume-to-kaigo-to-watashitachi",
       "publishedAt": "2026-09-04T21:22:14+09:00",
@@ -6328,11 +6352,26 @@
     "events": []
   },
   "youtubeSnapshot": {
-    "officialVideos": 70,
-    "shorts": 46,
-    "verifiedAt": "2026-09-04T22:30:00+09:00",
+    "officialVideos": 71,
+    "shorts": 47,
+    "verifiedAt": "2026-09-06T23:56:37+09:00",
     "source": "公式YouTube Atomフィード・videos/shortsタブ・各動画の公開メタデータを照合",
     "shortVideos": [
+      {
+        "videoId": "8Heg7Aomqwk",
+        "title": "「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、私たち。』#shorts",
+        "sourceTitle": "「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、わたしたち。』#shorts",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "youtubeUrl": "https://www.youtube.com/shorts/8Heg7Aomqwk",
+        "publishedAt": "2026-09-06T23:43:52+09:00",
+        "relatedRelease": "yume-to-kaigo-to-watashitachi",
+        "thumbnail": "https://i.ytimg.com/vi/8Heg7Aomqwk/maxresdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "duration": 89,
+        "description": "榎本魅愛「夢と、介護と、私たち。」Official Music Videoの公式Shorts。"
+      },
       {
         "youtubeUrl": "https://www.youtube.com/shorts/Ah4kM2T6mr0",
         "thumbnail": "https://i.ytimg.com/vi/Ah4kM2T6mr0/maxresdefault.jpg",
@@ -6558,7 +6597,7 @@
         "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。"
       }
     ],
-    "totalPublishedVideos": 116,
+    "totalPublishedVideos": 118,
     "scheduledVideos": []
   },
   "photobooks": {
@@ -6589,7 +6628,7 @@
       "slug": "suzuka-with-care",
       "label": "SPECIAL FEATURE",
       "projectLabel": "SUZUKA WITH CARE",
-      "title": "夢と、介護と、わたしたち。",
+      "title": "夢と、介護と、私たち。",
       "subtitle": "── 介護の現場から生まれた歌。",
       "heroCopy": "夢は、誰かを支える毎日の中にもある。",
       "releaseSlug": "yume-to-kaigo-to-watashitachi",
@@ -6599,7 +6638,7 @@
       "introHeading": "INTRODUCTION",
       "introParagraphs": [
         "誰かの人生と暮らしを支える介護の仕事。その毎日の中にも、働く人一人ひとりの夢と物語があります。",
-        "「夢と、介護と、わたしたち。」は、介護の現場で働く人たちに向けて、榎本魅愛が歌う応援歌です。"
+        "「夢と、介護と、私たち。」は、介護の現場で働く人たちに向けて、榎本魅愛が歌う応援歌です。"
       ],
       "messageHeading": "MESSAGE",
       "messageParagraphs": [
@@ -6610,6 +6649,12 @@
       "careParagraphs": [
         "SUZUKA公式YouTubeの公開情報により、本作は介護WITHへの応募に取り組む社会福祉法人敬寿会を応援する作品として確認しています。",
         "介護の仕事と、そこで働く人の夢を音楽でつなぐ、SUZUKA WITHの新しい取り組みです。"
+      ],
+      "keyPhrases": [
+        "好きなことを　好きなままで",
+        "誰かを支えるその手で\n自分の未来もつかんでいい",
+        "支える人も　輝ける",
+        "夢と介護は　つながってる"
       ]
     }
   ]

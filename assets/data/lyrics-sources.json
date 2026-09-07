@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "verifiedAt": "2026-08-12T00:01:07+09:00",
+  "verifiedAt": "2026-09-06T23:56:37+09:00",
   "policy": "ユーザー本人が提供した公式歌詞正本のみ。本文の生成・補完・改変は禁止。作品照合できない歌詞は原文ハッシュを保持し公開しない。",
   "sources": [
     {
@@ -178,6 +178,20 @@
       "filename": "wasureji_no_hito_official_lyrics.txt",
       "sha256": "b8ec22028913ddb896c71145b65823f81aa877d6abddaec8838a7e3a34c2c3c1",
       "publishedAtImport": true
+    },
+    {
+      "slug": "yume-to-kaigo-to-watashitachi",
+      "title": "夢と、介護と、私たち。",
+      "sourceTitle": "夢と、介護と、私たち。",
+      "artist": "榎本魅愛",
+      "filename": "yume_to_kaigo_to_watashitachi_official_lyrics.txt",
+      "sha256": "67cac51be65b6d5184ad31e169a8428d2785d5a6f7cfeb4a5eedd1b0db1edfab",
+      "lyricsTextSha256": "e4eca250963b6834acd9ef67fa05725635d4b78d56afb9a5f3229fd207abfb69",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": "",
+      "lyricist": "JUN",
+      "composer": "SUNO"
     },
     {
       "slug": "zennin-saiban",

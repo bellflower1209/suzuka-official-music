@@ -511,6 +511,22 @@ def special_feature_pages(root: Path, releases: list[dict], cms: dict) -> int:
         route = f'features/{feature["slug"]}/'
         page = f"{BASE}/{route}"
         paragraphs = lambda values: "".join(f'<p>{html.escape(value)}</p>' for value in values)
+        key_phrases = ""
+        if feature.get("keyPhrases"):
+            key_phrases = (
+                '<section class="care-feature-section care-feature-lyrics"><p class="section-kicker">LYRIC PHRASES</p>'
+                '<h2>歌が届ける言葉</h2><div class="care-feature-quotes">'
+                + "".join(
+                    f'<blockquote>{"<br/>".join(html.escape(line) for line in phrase.splitlines())}</blockquote>'
+                    for phrase in feature["keyPhrases"]
+                )
+                + "</div></section>"
+            )
+        lyrics_link = (
+            f'<a href="../../lyrics/{html.escape(release["slug"])}/">公式Lyricsを読む</a>'
+            if is_publishable_lyrics(release) else ""
+        )
+        video_cta = html.escape(release.get("videoCtaLabel", "公式MVを見る"))
         body = (
             '<article class="care-feature">'
             '<section class="care-feature-visual">'
@@ -520,10 +536,12 @@ def special_feature_pages(root: Path, releases: list[dict], cms: dict) -> int:
             f'<h2>{html.escape(feature["heroCopy"])}</h2><p>{html.escape(feature["subtitle"])}</p></div></section>'
             f'<section class="care-feature-section"><h2>{html.escape(feature["introHeading"])}</h2>{paragraphs(feature["introParagraphs"])}</section>'
             f'<section class="care-feature-section"><h2>{html.escape(feature["messageHeading"])}</h2>{paragraphs(feature["messageParagraphs"])}</section>'
+            f'{key_phrases}'
             f'<section class="care-feature-section care-feature-project"><h2>{html.escape(feature["careHeading"])}</h2>{paragraphs(feature["careParagraphs"])}</section>'
             '<section class="care-feature-actions" aria-label="作品の公式リンク">'
-            f'<a href="{html.escape(release["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">Official Audioを聴く ↗</a>'
+            f'<a href="{html.escape(release["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">{video_cta} ↗</a>'
             f'<a href="../../{html.escape(release["releaseUrl"])}">作品について</a>'
+            f'{lyrics_link}'
             f'<a href="../../artists/{html.escape(release["artistSlug"])}/">榎本魅愛を見る</a>'
             f'<a href="../../{html.escape(release["newsUrl"])}">Newsを読む</a></section></article>'
         )
@@ -539,6 +557,11 @@ def special_feature_pages(root: Path, releases: list[dict], cms: dict) -> int:
             {"@type": "MusicRecording", "@id": f'{BASE}/{release["releaseUrl"]}#recording',
              "name": release["title"], "url": f'{BASE}/{release["releaseUrl"]}',
              "datePublished": release["releaseDate"], "image": public_media_url(release["coverImage"]),
+             "creditText": " / ".join(value for value in (
+                 f'作詞：{release.get("lyricist", "")}' if release.get("lyricist") else "",
+                 f'作曲：{release.get("composer", "")}' if release.get("composer") else "",
+                 f'アーティスト：{release["artist"]}',
+             ) if value),
              "byArtist": {"@type": release["artistType"], "name": release["artist"],
                           "description": "SUZUKAの架空のAIアーティストです。"}},
         ]

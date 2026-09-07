@@ -531,6 +531,44 @@ button:disabled,
 
 .v31-lyrics-cue { color: #9be8ff; }
 
+.release-credit-section {
+  margin: clamp(1.25rem, 3vw, 2.5rem) auto;
+  padding: clamp(1.25rem, 3vw, 2.25rem);
+  color: var(--suzuka-text);
+  border: 1px solid var(--suzuka-border);
+  background: linear-gradient(145deg, rgba(16, 27, 45, .98), rgba(7, 12, 23, .98));
+}
+
+.release-credit-section dl {
+  display: grid;
+  gap: .7rem;
+  margin: 1rem 0 0;
+}
+
+.release-credit-section dl div {
+  display: grid;
+  grid-template-columns: minmax(6rem, 9rem) 1fr;
+  gap: 1rem;
+  padding-top: .7rem;
+  border-top: 1px solid var(--suzuka-border);
+}
+
+.release-credit-section dt,
+.v31-lyrics-credits { color: var(--suzuka-text-secondary); }
+.release-credit-section dd { margin: 0; color: var(--suzuka-text); }
+
+.care-feature-lyrics { background: rgba(8, 19, 34, .95); }
+.care-feature-quotes { display: grid; gap: .9rem; }
+.care-feature-quotes blockquote {
+  margin: 0;
+  padding: 1rem 1.2rem;
+  color: #fbfdff;
+  border-left: .2rem solid var(--suzuka-gold);
+  background: rgba(255, 255, 255, .055);
+  font-size: clamp(1rem, 1.7vw, 1.18rem);
+  line-height: 1.85;
+}
+
 .suzuka-music-player {
   color: var(--suzuka-text);
   border-color: var(--suzuka-border-strong);
