@@ -258,7 +258,7 @@ def release_page(item: dict) -> str:
     p = "../../"
     graph = {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":page,"url":page,"name":f"{item['title']}｜{item['artist']}｜SUZUKA","description":item["description"]},{"@type":"MusicRecording","@id":f"{page}#recording","name":item["title"],"url":page,"datePublished":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"image":public_media_url(item["coverImage"]),"description":item["description"],"byArtist":{"@type":item["artistType"],"name":item["artist"],"description":"SUZUKAのオリジナルAI音楽プロジェクトに登場する架空のAIアーティストです。"}},{"@type":"VideoObject","@id":f"{page}#video","name":f'{item["title"]} Official Video',"description":item["description"],"thumbnailUrl":f'https://i.ytimg.com/vi/{item["youtubeUrl"].split("=")[-1]}/maxresdefault.jpg',"uploadDate":item["releaseDate"],"duration":f'PT{item["duration"]//60}M{item["duration"]%60}S',"embedUrl":f'https://www.youtube.com/embed/{item["youtubeUrl"].split("=")[-1]}',"contentUrl":item["youtubeUrl"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"Releases","item":f"{BASE}/releases/"},{"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
     credits = ""
-    if item.get("lyricist") or item.get("composer"):
+    if item.get("credits") or item.get("lyricist") or item.get("composer"):
         credit_parts = [
             f'作詞：{item["lyricist"]}' if item.get("lyricist") else "",
             f'作曲：{item["composer"]}' if item.get("composer") else "",

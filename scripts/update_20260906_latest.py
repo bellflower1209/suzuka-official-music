@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the 2026-09-06 confirmed title, credits, lyrics, MV and Short."""
+"""Apply the confirmed title, artist-only credit, lyrics, MV and Short."""
 from __future__ import annotations
 
 import hashlib
@@ -95,9 +95,7 @@ def main() -> None:
         "title": TITLE,
         "displayTitle": TITLE,
         "englishTitle": TITLE,
-        "lyricist": "JUN",
-        "composer": "SUNO",
-        "credits": {"lyrics": "JUN", "music": "SUNO", "artist": "榎本魅愛"},
+        "credits": {"artist": "榎本魅愛"},
         "lyricsAvailable": True,
         "lyricsSource": "ユーザー提供・SUZUKA公式歌詞正本（2026-09-06確定）",
         "lyricsText": lyrics,
@@ -121,14 +119,18 @@ def main() -> None:
         "promotionVerifiedAt": NOW,
     })
     requested_keywords = [
-        TITLE, "JUN", "SUNO", "介護", "WITH", "WITH OUR DREAMS",
+        TITLE, "介護", "WITH", "WITH OUR DREAMS",
         "支える人も輝ける", "好きなことを好きなままで",
     ]
+    release.pop("lyricist", None)
+    release.pop("composer", None)
     release["tags"] = list(dict.fromkeys([
         TITLE if value == OLD_TITLE else value for value in release.get("tags", [])
+        if value not in {"JUN", "SUNO"}
     ] + requested_keywords))
     release["searchKeywords"] = list(dict.fromkeys([
         TITLE if value == OLD_TITLE else value for value in release.get("searchKeywords", [])
+        if value not in {"JUN", "SUNO"}
     ] + requested_keywords))
     hero = release.setdefault("homeHero", {})
     hero.update({
@@ -187,8 +189,6 @@ def main() -> None:
         "registrationStatus": "registered",
         "publishedAtImport": True,
         "holdReason": "",
-        "lyricist": "JUN",
-        "composer": "SUNO",
     }
     sources.update({"verifiedAt": NOW, "sources": sorted(records.values(), key=lambda item: item.get("slug") or item["sourceKey"])})
     write_json(SOURCES_PATH, sources)
