@@ -109,14 +109,14 @@ def main() -> None:
 
     tags = [
         TITLE, "妃みちる", "ママ", "母", "子育て", "家族", "応援歌", "ありがとうママ",
-        "J-POP", "愛", "人生", "親子", "育児",
+        "J-POP", "感謝", "人生", "親子", "育児",
     ]
     release = {
         "slug": SLUG, "id": SLUG, "title": TITLE, "displayTitle": TITLE, "englishTitle": TITLE,
         "artist": "妃みちる", "artistSlug": "michiru", "artistSlugs": ["michiru"], "artistType": "Person",
         "releaseAt": MV["publishedAt"], "publishedAt": MV["publishedAt"], "releaseDate": "2026-09-08",
         "releaseYear": 2026, "releaseType": "single", "genres": ["J-POP", "応援歌"],
-        "moods": ["温かい"], "themes": ["家族", "愛", "人生"], "tags": tags, "language": "ja",
+        "moods": ["温かい"], "themes": ["家族", "感謝", "人生"], "tags": tags, "language": "ja",
         "coverImage": "https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg",
         "coverAlt": "妃みちる「世代を超えてママへ」公式YouTube MVサムネイル",
         "youtubeUrl": MV["youtubeUrl"], "youtubeVideoTitle": MV["title"], "videoLabel": "OFFICIAL MV",

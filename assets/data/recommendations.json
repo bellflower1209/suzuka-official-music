@@ -9,20 +9,18 @@
         "tatta-hitori-no-kimi-e"
       ],
       "sameGenre": [
+        "tatta-hitori-no-kimi-e",
         "yume-to-kaigo-to-watashitachi",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "my-queen-my-oath",
-        "our-kingdom",
-        "smile-and-say-goodbye"
+        "updown",
+        "friendlikesong",
+        "watashi-no-eranda-michi"
       ],
       "sameTheme": [
-        "kimi-ni-kakatta-mahou",
-        "my-queen-my-oath",
-        "our-kingdom",
-        "smile-and-say-goodbye",
+        "tatta-hitori-no-kimi-e",
         "wasurenai-kokoro",
-        "wasureji-no-hito"
+        "wasureji-no-hito",
+        "family-portrait"
       ],
       "popular": [
         "yume-to-kaigo-to-watashitachi",
@@ -41,12 +39,12 @@
         "re-sonance"
       ],
       "aiRecommended": [
+        "tatta-hitori-no-kimi-e",
         "yume-to-kaigo-to-watashitachi",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "my-queen-my-oath",
-        "our-kingdom",
-        "smile-and-say-goodbye"
+        "updown",
+        "wasurenai-kokoro",
+        "friendlikesong"
       ]
     },
     "yume-to-kaigo-to-watashitachi": {
@@ -461,20 +459,20 @@
         "watashi-no-eranda-michi"
       ],
       "sameGenre": [
+        "sedai-wo-koete-mama-e",
         "updown",
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
-        "hanakotoba",
-        "mermaid-no-geboku"
+        "hanakotoba"
       ],
       "sameTheme": [
+        "sedai-wo-koete-mama-e",
         "updown",
         "kimi-ni-kakatta-mahou",
         "hanakotoba",
         "mermaid-no-geboku",
-        "koisuru-maharaja",
-        "one-more-kiss"
+        "koisuru-maharaja"
       ],
       "popular": [
         "sedai-wo-koete-mama-e",
@@ -493,12 +491,12 @@
         "updown"
       ],
       "aiRecommended": [
+        "sedai-wo-koete-mama-e",
         "updown",
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
-        "hanakotoba",
-        "mermaid-no-geboku"
+        "hanakotoba"
       ]
     },
     "monsoon-promise": {
@@ -1747,8 +1745,8 @@
         "our-kingdom",
         "kimi-ni-kakatta-mahou",
         "my-queen-my-oath",
-        "sedai-wo-koete-mama-e",
-        "wakareta-michi"
+        "wakareta-michi",
+        "family-portrait"
       ],
       "popular": [
         "sedai-wo-koete-mama-e",
@@ -1836,15 +1834,15 @@
         "one-more-kiss",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "sedai-wo-koete-mama-e"
+        "gekka-no-chigiri"
       ],
       "sameTheme": [
         "our-kingdom",
         "smile-and-say-goodbye",
-        "sedai-wo-koete-mama-e",
         "gekka-no-chigiri",
         "kimi-ni-kakatta-mahou",
-        "red-moon-rising"
+        "red-moon-rising",
+        "shadow-code"
       ],
       "popular": [
         "sedai-wo-koete-mama-e",
@@ -1868,7 +1866,7 @@
         "one-more-kiss",
         "smile-and-say-goodbye",
         "boukyaku-no-ikimono",
-        "sedai-wo-koete-mama-e"
+        "gekka-no-chigiri"
       ]
     },
     "red-moon-rising": {
@@ -2085,8 +2083,7 @@
       "sameTheme": [
         "my-queen-my-oath",
         "smile-and-say-goodbye",
-        "kimi-ni-kakatta-mahou",
-        "sedai-wo-koete-mama-e"
+        "kimi-ni-kakatta-mahou"
       ],
       "popular": [
         "sedai-wo-koete-mama-e",
