@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-09-06T23:56:37+09:00",
+  "updatedAt": "2026-09-08T01:05:00+09:00",
   "ga4DataAvailable": false,
   "youtubeDataAvailable": false,
   "rankings": {
     "recommended": [
+      "sedai-wo-koete-mama-e",
       "yume-to-kaigo-to-watashitachi",
       "akuyaku-de-ii",
       "gekka-no-chigiri",
@@ -12,22 +13,21 @@
       "hanakotoba",
       "koisuru-maharaja",
       "lost-signal",
-      "one-more-kiss",
-      "re-sonance"
+      "one-more-kiss"
     ],
     "sitePopular": [],
     "youtubePopular": [],
     "weeklySpotlight": [
-      "shadow-code",
-      "smile-and-say-goodbye",
-      "still-alive",
-      "suki-ga-kyou-mo-fueteiku",
-      "sukitte-baretemo-ii",
-      "taipa-nante-shiranakatta",
-      "tatta-hitori-no-kimi-e",
-      "tokenai-mahou-wo-ai-to-yobu",
-      "toriatsukai-chui",
-      "updown"
+      "watashi-no-eranda-michi",
+      "without-worrying",
+      "yume-to-kaigo-to-watashitachi",
+      "zennin-saiban",
+      "ai-demo-wakaranai",
+      "akuyaku-de-ii",
+      "anata-dake-no-savior",
+      "ashita-wa-kitto",
+      "boukyaku-no-ikimono",
+      "caramel"
     ]
   }
 }

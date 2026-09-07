@@ -473,6 +473,7 @@ button:disabled,
 .suzuka-latest-hero .hanakotoba-actions .button:focus-visible { color: #07101b; border-color: #fff; background: #fff; }
 
 .release-detail-hero,
+.release-introduction,
 .release-detail-video,
 .release-related-section,
 .social-context-section,
@@ -585,6 +586,14 @@ button:disabled,
 .site-footer p,
 .site-footer span,
 .ai-footer-disclosure { color: var(--suzuka-text-secondary); }
+
+@media (min-width: 761px) {
+  .latest-release-hero.hanakotoba-hero { padding-bottom: 11rem; }
+}
+
+@media (min-width: 1100px) {
+  .suzuka-latest-hero .hanakotoba-actions { max-width: 10rem; }
+}
 
 @media (max-width: 760px) {
   .site-header { background: rgba(4, 8, 15, .97); }

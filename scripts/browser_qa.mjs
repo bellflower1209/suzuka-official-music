@@ -64,6 +64,9 @@ let qaPages = process.env.QA_HOME_ONLY === "1"
   : process.env.QA_PUBLIC_ONLY === "1"
     ? pages.filter(route => !route.startsWith("admin/"))
     : pages;
+if (process.env.QA_ROUTES) {
+  qaPages = process.env.QA_ROUTES.split(",").map(route => route.trim()).filter(Boolean);
+}
 const pageOffset = Number(process.env.QA_PAGE_OFFSET || "0");
 const pageLimit = Number(process.env.QA_PAGE_LIMIT || "0");
 if (pageLimit > 0) qaPages = qaPages.slice(pageOffset, pageOffset + pageLimit);
@@ -113,7 +116,7 @@ const results = [];
 const quickEventsOnly = process.env.QA_QUICK_EVENTS === "1";
 if (!quickEventsOnly) for (const size of sizes) {
   for (const route of qaPages) {
-    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/michiru/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "lyrics/", "lyrics/hanakotoba/", "lyrics/zennin-saiban/", "lyrics/yume-to-kaigo-to-watashitachi/", "rankings/", "features/", "features/love-songs/", "features/suzuka-with-care/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/yume-to-kaigo-to-watashitachi/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
+    if (size.width !== 390 && !["", "artists/enomoto-mia/", "artists/eclypse/", "artists/koga-kamishiro/", "artists/michiru/", "artists/revive/", "artists/nox/", "releases/", "news/", "social/", "lyrics/", "lyrics/hanakotoba/", "lyrics/zennin-saiban/", "lyrics/yume-to-kaigo-to-watashitachi/", "lyrics/sedai-wo-koete-mama-e/", "rankings/", "features/", "features/love-songs/", "features/suzuka-with-care/", "gallery/", "gallery/chimpanzee-no-rakuen/", "universe/", "wiki/", "wiki/artists/", "playlists/", "playlists/love/", "community/", "admin/", "admin/dashboard/", "en/", "en/search/", "releases/mia/", "releases/yume-to-kaigo-to-watashitachi/", "releases/sedai-wo-koete-mama-e/", "releases/shadow-code/", "releases/red-moon-rising/", "releases/my-queen-my-oath/", "releases/smile-and-say-goodbye/", "releases/boukyaku-no-ikimono/", "releases/echoes-of-you/", "releases/heal-you-again/", "news/sedai-wo-koete-mama-e-release/", "news/hyakumankoku-release/", "news/toriatsukai-chui-release/", "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/", "news/red-moon-rising-release/", "news/my-queen-my-oath-release/", "news/echoes-of-you-release/", "news/heal-you-again-release/"].includes(route)) continue;
     const before = problems.length;
     await send("Emulation.setDeviceMetricsOverride", {width:size.width,height:size.height,deviceScaleFactor:1,mobile:size.width===390});
     const targetUrl = new URL(route, base).href;

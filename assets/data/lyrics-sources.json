@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1",
-  "verifiedAt": "2026-09-06T23:56:37+09:00",
+  "verifiedAt": "2026-09-08T01:05:00+09:00",
   "policy": "ユーザー本人が提供した公式歌詞正本のみ。本文の生成・補完・改変は禁止。作品照合できない歌詞は原文ハッシュを保持し公開しない。",
   "sources": [
     {
@@ -152,6 +152,18 @@
       "registrationStatus": "held-unmatched",
       "publishedAtImport": false,
       "holdReason": "Artist=ASTERIAはユーザー確認済みだが、既存Release・公式YouTube・Scheduleに同名作品がないため保留"
+    },
+    {
+      "slug": "sedai-wo-koete-mama-e",
+      "title": "世代を超えてママへ",
+      "sourceTitle": "世代を超えてママへ",
+      "artist": "妃みちる",
+      "filename": "sedai-wo-koete-mama-e_official_lyrics.txt",
+      "sha256": "0ef3930c4172058b9ae5953de3873007b8660b2c22990f63662544f3e298ddd3",
+      "lyricsTextSha256": "1af138956c13484e7aab46b393e444e2032d684a418217d2d1c2be1f07c4483c",
+      "registrationStatus": "registered",
+      "publishedAtImport": true,
+      "holdReason": ""
     },
     {
       "slug": "shadow-code",

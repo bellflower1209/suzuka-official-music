@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-08",
   "releases": [
+    {
+      "slug": "sedai-wo-koete-mama-e",
+      "title": "世代を超えてママへ",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "image": "https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg",
+      "coverImage": "https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg",
+      "coverAlt": "妃みちる「世代を超えてママへ」公式YouTube MVサムネイル",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+      "shortsUrl": "https://www.youtube.com/shorts/Fw-JEWaKwdM",
+      "newsPage": "news/sedai-wo-koete-mama-e-release/",
+      "description": "怒ってしまった夜も、眠れなかった朝も、すべては愛の中にある。妃みちるが、子育ての真ん中にいるママ、そして子育てを終えたすべてのママへ贈る楽曲。",
+      "status": "published",
+      "releaseType": "single",
+      "publishedDate": "2026-09-08",
+      "duration": 178,
+      "releasePage": "releases/sedai-wo-koete-mama-e/",
+      "playerEnabled": false,
+      "youtubeStatus": "published",
+      "newsStatus": "published",
+      "shortsStatus": "published"
+    },
     {
       "slug": "yume-to-kaigo-to-watashitachi",
       "title": "夢と、介護と、私たち。",

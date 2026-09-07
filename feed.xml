@@ -2,12 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-09-06T23:56:37+09:00</updated>
+  <updated>2026-09-08T01:05:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-09-08T01:05:00+09:00</published>
+    <id>https://www.suzukaofficial.com/lyrics/sedai-wo-koete-mama-e/</id>
+    <title>公式歌詞｜妃みちる「世代を超えてママへ」</title>
+    <updated>2026-09-08T01:05:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/lyrics/sedai-wo-koete-mama-e/" />
+    <category term="lyrics" />
+    <summary>妃みちる「世代を超えてママへ」の出典確認済み公式歌詞。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-08T00:22:28+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</id>
+    <title>妃みちる「世代を超えてママへ」</title>
+    <updated>2026-09-08T00:22:28+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/" />
+    <category term="release" />
+    <summary>怒ってしまった夜も、眠れなかった朝も、すべては愛の中にある。妃みちるが、子育ての真ん中にいるママ、そして子育てを終えたすべてのママへ贈る楽曲。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-08T00:22:28+09:00</published>
+    <id>https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-release/</id>
+    <title>妃みちる「世代を超えてママへ」公開──今を生きるママ、そしてすべての世代のママへ</title>
+    <updated>2026-09-08T00:22:28+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-release/" />
+    <category term="news" />
+    <summary>妃みちるの新曲「世代を超えてママへ」を公開。今子育てをしている人、子育てを終えた人、家族を支えてきたすべてのママへ感謝を届けます。</summary>
+  </entry>
   <entry>
     <published>2026-09-06T23:56:37+09:00</published>
     <id>https://www.suzukaofficial.com/lyrics/yume-to-kaigo-to-watashitachi/</id>

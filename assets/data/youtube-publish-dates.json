@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "checkedAt": "2026-09-06T23:56:37+09:00",
+  "checkedAt": "2026-09-08T01:05:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "records": [
     {
@@ -981,6 +981,41 @@
       "durationSeconds": 364,
       "verifiedPublishedAt": "2026-07-18T19:52:02+09:00",
       "verificationSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "status": "verified-datetime"
+    },
+    {
+      "releaseSlug": "sedai-wo-koete-mama-e",
+      "youtubeId": "Fw-JEWaKwdM",
+      "youtubeUrl": "https://www.youtube.com/shorts/Fw-JEWaKwdM",
+      "catalogReleaseDate": "2026-09-08",
+      "officialTitle": "今日、妃みちるは誕生日を迎えました。🎂｜『世代を超えてママへ』MV公開",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-08T00:29:53+09:00",
+      "youtubeUploadDate": "2026-09-08T00:29:53+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 60,
+      "verifiedPublishedAt": "2026-09-08T00:29:53+09:00",
+      "verificationSource": "official-youtube-videos-or-shorts-tab-and-player-metadata",
+      "status": "verified-datetime",
+      "contentType": "short"
+    },
+    {
+      "releaseSlug": "sedai-wo-koete-mama-e",
+      "youtubeId": "Hho3xHOw8pg",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+      "catalogReleaseDate": "2026-09-08",
+      "officialTitle": "【MV】世代を超えてママへ / 妃みちる｜誕生日に贈る、すべてのママへの歌",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "channelVerified": true,
+      "youtubePublishDate": "2026-09-08T00:22:28+09:00",
+      "youtubeUploadDate": "2026-09-08T00:22:28+09:00",
+      "liveStartTimestamp": "",
+      "playabilityStatus": "OK",
+      "durationSeconds": 178,
+      "verifiedPublishedAt": "2026-09-08T00:22:28+09:00",
+      "verificationSource": "official-youtube-videos-or-shorts-tab-and-player-metadata",
       "status": "verified-datetime"
     },
     {

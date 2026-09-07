@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.2",
+  "verifiedAt": "2026-09-08T01:05:00+09:00",
+  "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+  "channelUrl": "https://www.youtube.com/@suzuka1209",
+  "verificationMethod": "公式YouTube videos/shortsタブと各動画の公開メタデータを照合",
+  "channelSnapshot": {
+    "officialVideos": 72,
+    "shorts": 48,
+    "totalPublishedVideos": 120
+  },
+  "published": [
+    {
+      "releaseSlug": "sedai-wo-koete-mama-e",
+      "videoId": "Hho3xHOw8pg",
+      "title": "【MV】世代を超えてママへ / 妃みちる｜誕生日に贈る、すべてのママへの歌",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+      "publishedAt": "2026-09-08T00:22:28+09:00",
+      "duration": 178
+    }
+  ],
+  "updatedReleaseVideos": [],
+  "promotionalVideos": [],
+  "shorts": [
+    {
+      "videoId": "Fw-JEWaKwdM",
+      "title": "今日、妃みちるは誕生日を迎えました。🎂｜『世代を超えてママへ』MV公開",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "youtubeUrl": "https://www.youtube.com/shorts/Fw-JEWaKwdM",
+      "publishedAt": "2026-09-08T00:29:53+09:00",
+      "relatedRelease": "sedai-wo-koete-mama-e",
+      "thumbnail": "https://i.ytimg.com/vi/Fw-JEWaKwdM/maxresdefault.jpg",
+      "status": "published",
+      "contentType": "short",
+      "duration": 60,
+      "description": "妃みちる「世代を超えてママへ」Official MV公開を伝える公式Shorts。"
+    }
+  ],
+  "upcomingHeld": []
+}

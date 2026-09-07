@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-09-06T23:56:37+09:00",
+  "verifiedAt": "2026-09-08T01:05:00+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
     "akuyaku-de-ii",
@@ -83,6 +83,14 @@
       "slug": "re-sonance",
       "videoId": "EZp_Mtxt4G4",
       "releaseTimestamp": "2026-08-22T22:13:44+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "sedai-wo-koete-mama-e",
+      "videoId": "Hho3xHOw8pg",
+      "releaseTimestamp": "2026-09-08T00:22:28+09:00",
       "availability": "public",
       "liveStatus": "not_live",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"

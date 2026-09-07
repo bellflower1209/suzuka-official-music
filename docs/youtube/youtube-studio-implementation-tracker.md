@@ -6,6 +6,7 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | 世代を超えてママへ | 妃みちる | https://www.youtube.com/watch?v=Hho3xHOw8pg | 2:58 | 世代を超えてママへ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 夢と、介護と、私たち。 | 榎本魅愛 | https://www.youtube.com/watch?v=giTYuKyIk3c | 5:15 | 夢と、介護と、私たち。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 月下契 | VEILFANG | https://www.youtube.com/watch?v=Slv8e81DJ84 | 4:29 | 月下契｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 悪役でいい | 神代煌牙 | https://www.youtube.com/watch?v=OldWXAS32lI | 5:14 | 悪役でいい｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

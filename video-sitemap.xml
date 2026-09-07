@@ -90,6 +90,15 @@
   <url>
     <loc>https://www.suzukaofficial.com/artists/michiru/</loc>
     <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Fw-JEWaKwdM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>今日、妃みちるは誕生日を迎えました。🎂｜『世代を超えてママへ』MV公開</video:title>
+      <video:description>妃みちる「世代を超えてママへ」Official MV公開を伝える公式Shorts。</video:description>
+      <video:content_loc>https://www.youtube.com/shorts/Fw-JEWaKwdM</video:content_loc>
+      <video:publication_date>2026-09-08T00:29:53+09:00</video:publication_date>
+      <video:duration>60</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+    <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/hjqiZqPdrv8/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>【8/23 MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』</video:title>
       <video:description>妃みちる『私の選んだ道』MVの公開予定を案内する公式Shorts。</video:description>
@@ -578,12 +587,12 @@
   <url>
     <loc>https://www.suzukaofficial.com/</loc>
     <video:video>
-      <video:thumbnail_loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</video:thumbnail_loc>
-      <video:title>夢と、介護と、私たち。 公式動画</video:title>
-      <video:description>介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=giTYuKyIk3c</video:content_loc>
-      <video:publication_date>2026-09-06T23:21:54+09:00</video:publication_date>
-      <video:duration>315</video:duration>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>世代を超えてママへ 公式動画</video:title>
+      <video:description>怒ってしまった夜も、眠れなかった朝も、すべては愛の中にある。妃みちるが、子育ての真ん中にいるママ、そして子育てを終えたすべてのママへ贈る楽曲。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Hho3xHOw8pg</video:content_loc>
+      <video:publication_date>2026-09-08T00:22:28+09:00</video:publication_date>
+      <video:duration>178</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -1102,6 +1111,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=BZkMHt0P2oo</video:content_loc>
       <video:publication_date>2026-07-18T19:52:02+09:00</video:publication_date>
       <video:duration>364</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>世代を超えてママへ Official Video</video:title>
+      <video:description>怒ってしまった夜も、眠れなかった朝も、すべては愛の中にある。妃みちるが、子育ての真ん中にいるママ、そして子育てを終えたすべてのママへ贈る楽曲。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Hho3xHOw8pg</video:content_loc>
+      <video:publication_date>2026-09-08T00:22:28+09:00</video:publication_date>
+      <video:duration>178</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>

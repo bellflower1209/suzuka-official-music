@@ -5,6 +5,7 @@
     "popular": {
       "label": "おすすめ作品TOP10",
       "items": [
+        "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
@@ -13,14 +14,14 @@
         "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "fallback": "実人気指標未登録のため、おすすめ度と公開順で紹介しています。"
     },
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
@@ -29,13 +30,13 @@
         "re-sonance",
         "wakareta-michi",
         "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "watashi-no-eranda-michi"
       ]
     },
     "love": {
       "label": "恋愛ソングおすすめTOP10",
       "items": [
+        "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "updown",
         "hanakotoba",
@@ -44,8 +45,7 @@
         "without-worrying",
         "koisuru-maharaja",
         "kimi-ni-kakatta-mahou",
-        "smile-and-say-goodbye",
-        "my-queen-my-oath"
+        "smile-and-say-goodbye"
       ]
     },
     "summer": {
@@ -75,6 +75,7 @@
     "mv": {
       "label": "MVおすすめ順",
       "items": [
+        "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
@@ -83,8 +84,7 @@
         "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "fallback": "実再生数未登録のため、おすすめ度と公開順で紹介しています。"
     },
@@ -116,9 +116,9 @@
         "V系",
         "K-POP風",
         "ロック",
+        "応援歌",
         "J-ROCK",
         "ダークロック",
-        "応援歌",
         "Dark Pop",
         "ファンタジーポップ",
         "演歌",
@@ -142,6 +142,7 @@
     "trending": {
       "label": "注目作品おすすめ順",
       "items": [
+        "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
@@ -150,8 +151,7 @@
         "re-sonance",
         "hanakotoba",
         "wasureji-no-hito",
-        "hajimemashite-kiseki",
-        "still-alive"
+        "hajimemashite-kiseki"
       ],
       "fallback": "急上昇指標未登録のため、おすすめ度と公開順で紹介しています。"
     }
