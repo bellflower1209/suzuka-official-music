@@ -53,6 +53,17 @@ def build(root):
             block = panel(item, prefix)
             if route == 'index.html':
                 text, count = re.subn(r'(<section\b[^>]*data-home-hero[^>]*>.*?</section>)', lambda m:m[0]+block, text, count=1, flags=re.S)
+            elif route == item['releaseUrl']+'index.html':
+                text, count = re.subn(r'(<section class="release-detail-hero")', block+r'\1', text, count=1)
+                if count != 1:
+                    raise ValueError(f'Missing streaming insertion point: {route}')
+                credits = '<section class="release-credit-section" aria-label="作品クレジット"><h2>CREDITS</h2><dl><div><dt>作詞</dt><dd>JUN</dd></div><div><dt>作曲</dt><dd>SUNO×JUN</dd></div><div><dt>アーティスト</dt><dd>榎本魅愛</dd></div></dl></section>'
+                if 'release-credit-section' in text:
+                    text = re.sub(r'<section class="release-credit-section".*?</section>', credits, text, count=1, flags=re.S)
+                else:
+                    text, count = re.subn(r'(<section class="v31-release-lyrics-link")', credits+r'\1', text, count=1)
+                    if count != 1:
+                        raise ValueError(f'Missing credits insertion point: {route}')
             elif route.startswith('news/'):
                 text, count = re.subn(r'(<div class="news-article-body">)', lambda m:m[0]+block, text, count=1)
             else:
