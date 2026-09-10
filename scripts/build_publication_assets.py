@@ -265,6 +265,9 @@ def main() -> None:
     root = args.root.resolve()
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     normalize_image_markup(root)
+    # Serve the browser's fallback icon using the already published site brand image.
+    with PillowImage.open(root / "images/suzuka-channel.jpg") as icon:
+        icon.convert("RGBA").save(root / "favicon.ico", format="ICO", sizes=[(16, 16), (32, 32), (48, 48)])
     inject_feed_discovery(root)
     build_feed(root, cms)
     images = build_image_sitemap(root)
