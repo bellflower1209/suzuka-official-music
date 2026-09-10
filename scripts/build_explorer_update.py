@@ -931,7 +931,7 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
     latest_news = sorted(
         [item for item in cms.get("news", []) if item.get("status") == "published"],
         key=lambda item: (item.get("publishedAt", ""), item.get("slug", "")), reverse=True,
-    )[:5]
+    )[:6]
     news_cards = "".join(
         f'<a class="explorer-news-link" href="./news/{item["slug"]}/"><time>{item.get("publishedAt", "")[:10]}</time>'
         f'<strong>{html.escape(item["title"])}</strong><span>Newsを読む ↗</span></a>'

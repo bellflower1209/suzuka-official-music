@@ -836,6 +836,11 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=ROOT)
     ROOT = parser.parse_args().root.resolve()
+    from build_streaming_releases import MARKER
+    for page in ROOT.rglob('index.html'):
+        source = page.read_text(encoding='utf-8')
+        if '<!-- streaming-release:start -->' in source:
+            page.write_text(MARKER.sub('', source), encoding='utf-8')
     data = catalog(ROOT)
     write(ROOT / "assets/data/releases-catalog.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     release_links = json.loads((ROOT / "assets/data/release-links.json").read_text(encoding="utf-8"))
@@ -909,11 +914,16 @@ def main() -> None:
     cms_source = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     artist_map = {item["slug"]: item for item in cms_source.get("artists", [])}
     for item in cms_source.get("news", []):
-        if item.get("status") != "published" or item.get("releaseSlug"):
+        if item.get("status") != "published" or (item.get("releaseSlug") and not item.get("streamingAnnouncement")):
             continue
         artist = artist_map.get(item.get("artistSlug"))
         if artist:
-            write(ROOT / "news" / item["slug"] / "index.html", standalone_news_page(item, artist))
+            if item.get("streamingAnnouncement"):
+                from build_streaming_releases import build_news
+                release = next(r for r in data["releases"] if r["slug"] == item["releaseSlug"])
+                write(ROOT / "news" / item["slug"] / "index.html", build_news(item, artist, release, standalone_news_page))
+            else:
+                write(ROOT / "news" / item["slug"] / "index.html", standalone_news_page(item, artist))
     for slug in ("ashita-wa-kitto", "chimpanzee-no-rakuen"):
         item = next(x for x in data["releases"] if x["slug"] == slug)
         write(ROOT / item["releaseUrl"] / "index.html", release_page(item))
@@ -999,6 +1009,8 @@ def main() -> None:
         },
     )
     inject_design_refresh(ROOT)
+    from build_streaming_releases import build as build_streaming_releases
+    build_streaming_releases(ROOT)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:05:00+09:00",
+  "updatedAt": "2026-09-10T00:00:00+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -237,6 +237,7 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
@@ -255,8 +256,7 @@
         "false-identity",
         "caramel",
         "kamisama-wa-rusu",
-        "kimi-wa-makenai",
-        "leo-rise-again"
+        "kimi-wa-makenai"
       ],
       "count": 20
     },

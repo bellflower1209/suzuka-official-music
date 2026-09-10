@@ -2009,6 +2009,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/og.png</image:loc>
+      <image:title>榎本魅愛『花言葉』、9月11日より各音楽配信サービスで配信開始の公式News画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>榎本魅愛、新曲「夢と、介護と、私たち。」公開──介護の現場で働く人たちへ贈る、新たな応援歌の公式News画像</image:title>
     </image:image>
@@ -2442,6 +2446,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/playlists/latest/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
@@ -2456,10 +2464,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
-      <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2778,8 +2782,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2807,6 +2811,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2836,8 +2844,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2869,10 +2877,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -2922,8 +2926,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2952,10 +2956,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/chimpanzee-no-rakuen/</loc>
@@ -2980,8 +2980,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3019,8 +3019,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3058,8 +3058,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3089,8 +3089,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3108,8 +3108,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3137,6 +3137,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3172,10 +3176,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -3252,8 +3252,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3299,8 +3299,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3322,8 +3322,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3524,8 +3524,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3557,10 +3557,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -3606,8 +3602,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3653,8 +3649,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3684,8 +3680,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3714,10 +3710,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/last-dance-tonight/</loc>
@@ -3742,8 +3734,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3773,8 +3765,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3804,8 +3796,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3851,8 +3843,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3886,8 +3878,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3933,8 +3925,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -3980,8 +3972,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4005,10 +3997,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4046,8 +4034,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4093,8 +4081,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4143,6 +4131,10 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/namaste-galaxy/</loc>
@@ -4178,10 +4170,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/</loc>
@@ -4208,10 +4196,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4245,10 +4229,6 @@
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
@@ -4257,8 +4237,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4300,8 +4280,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4327,8 +4307,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4373,6 +4353,10 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</loc>
@@ -4399,6 +4383,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4440,8 +4428,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4474,10 +4462,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/still-alive/</loc>
@@ -4504,10 +4488,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4549,8 +4529,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4596,8 +4576,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4626,10 +4606,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</loc>
@@ -4644,10 +4620,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4693,8 +4665,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4740,8 +4712,8 @@
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4761,10 +4733,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4798,8 +4766,8 @@
       <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4828,10 +4796,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/wasurenai-kokoro/</loc>
@@ -4859,10 +4823,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
@@ -4881,10 +4841,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4917,10 +4873,6 @@
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</loc>
@@ -4948,6 +4900,10 @@
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/zennin-saiban/</loc>
@@ -4974,10 +4930,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
       <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>

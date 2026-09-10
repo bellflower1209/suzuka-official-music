@@ -2,12 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-09-08T01:05:00+09:00</updated>
+  <updated>2026-09-10T00:00:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-09-10T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/hanakotoba-streaming-release/</id>
+    <title>榎本魅愛『花言葉』、9月11日より各音楽配信サービスで配信開始</title>
+    <updated>2026-09-10T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/hanakotoba-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「花言葉」が2026年9月11日より各音楽配信サービスでリリース。Apple Music、Spotify、YouTube Music、Amazon Music等で順次配信予定。配信サービスの情報はLinkCoreでご確認ください。</summary>
+  </entry>
   <entry>
     <published>2026-09-08T01:05:00+09:00</published>
     <id>https://www.suzukaofficial.com/lyrics/sedai-wo-koete-mama-e/</id>
@@ -483,7 +492,7 @@
     <updated>2026-08-07T20:00:28+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/hanakotoba/" />
     <category term="release" />
-    <summary>青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。</summary>
+    <summary>榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。</summary>
   </entry>
   <entry>
     <published>2026-08-07T20:00:28+09:00</published>

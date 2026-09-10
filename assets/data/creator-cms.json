@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-09-08T01:05:00+09:00",
+  "updatedAt": "2026-09-10T00:00:00+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -2643,7 +2643,7 @@
         "enomoto-mia"
       ],
       "artistType": "Person",
-      "releaseDate": "2026-08-07",
+      "releaseDate": "2026-09-11",
       "releaseYear": 2026,
       "releaseType": "single",
       "genres": [
@@ -2682,10 +2682,14 @@
         "花",
         "永遠",
         "優しい",
-        "透明感"
+        "透明感",
+        "ストリーミング",
+        "配信",
+        "2026年9月11日",
+        "TuneCore Japan"
       ],
       "aiArtistType": "fictional AI artist",
-      "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
+      "description": "榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。",
       "tags": [
         "J-POP",
         "バラード",
@@ -2707,7 +2711,7 @@
       "productionNote": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。",
       "seo": {
         "title": "花言葉｜榎本魅愛｜SUZUKA Official Music",
-        "description": "青い花と二人の時間に、終わらない愛の言葉を重ねる榎本魅愛の最新シングル。 SUZUKAの架空のAIアーティスト作品です。",
+        "description": "榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
       "videoPublishDate": "2026-08-19",
@@ -2733,7 +2737,25 @@
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
       "audioUrl": "https://www.youtube.com/watch?v=mdTogs4Oiew",
-      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00"
+      "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
+      "originalReleaseDate": "2026-08-07",
+      "streamingRelease": {
+        "releaseDate": "2026-09-11",
+        "timezone": "Asia/Tokyo",
+        "label": "SUZUKA",
+        "genre": "J-Pop",
+        "distributor": "TuneCore Japan",
+        "releaseId": "TCJPR0001951259",
+        "linkcoreUrl": "https://linkco.re/0xHr8N9e",
+        "artistId": "1153013",
+        "distributionPeriod": {
+          "start": "2026-09-10",
+          "end": "2027-09-09"
+        },
+        "coverImage": null,
+        "coverStatus": "unconfirmed",
+        "source": "user-confirmed-release-information"
+      }
     },
     {
       "id": "anata-dake-no-savior",
@@ -5747,6 +5769,17 @@
   ],
   "upcoming": [],
   "news": [
+    {
+      "slug": "hanakotoba-streaming-release",
+      "title": "榎本魅愛『花言葉』、9月11日より各音楽配信サービスで配信開始",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "hanakotoba",
+      "streamingAnnouncement": true,
+      "publishedAt": "2026-09-10T00:00:00+09:00",
+      "description": "榎本魅愛「花言葉」が2026年9月11日より各音楽配信サービスでリリース。Apple Music、Spotify、YouTube Music、Amazon Music等で順次配信予定。配信サービスの情報はLinkCoreでご確認ください。",
+      "image": "og.png",
+      "status": "published"
+    },
     {
       "slug": "sedai-wo-koete-mama-e-release",
       "title": "妃みちる「世代を超えてママへ」公開──今を生きるママ、そしてすべての世代のママへ",

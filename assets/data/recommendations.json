@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:05:00+09:00",
+  "updatedAt": "2026-09-10T00:00:00+09:00",
   "recommendations": {
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
@@ -31,12 +31,12 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
-        "updown",
-        "re-sonance"
+        "updown"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -81,12 +81,12 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
         "iine-sougisha",
-        "updown",
-        "re-sonance"
+        "updown"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -104,8 +104,8 @@
         "yume-to-kaigo-to-watashitachi",
         "sedai-wo-koete-mama-e",
         "akuyaku-de-ii",
-        "updown",
-        "hajimemashite-kiseki"
+        "hanakotoba",
+        "updown"
       ],
       "sameTheme": [
         "my-queen-my-oath",
@@ -121,20 +121,20 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "iine-sougisha",
-        "updown",
-        "re-sonance"
+        "updown"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
         "yume-to-kaigo-to-watashitachi",
         "sedai-wo-koete-mama-e",
         "akuyaku-de-ii",
-        "updown",
-        "hajimemashite-kiseki"
+        "hanakotoba",
+        "updown"
       ]
     },
     "akuyaku-de-ii": {
@@ -164,12 +164,12 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "iine-sougisha",
-        "updown",
-        "re-sonance"
+        "updown"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -201,12 +201,12 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "updown",
-        "re-sonance"
+        "updown"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -249,12 +249,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "re-sonance"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -295,12 +295,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -345,12 +345,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -388,12 +388,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -435,12 +435,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -464,14 +464,14 @@
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
-        "hanakotoba"
+        "mermaid-no-geboku"
       ],
       "sameTheme": [
         "sedai-wo-koete-mama-e",
         "updown",
         "kimi-ni-kakatta-mahou",
-        "hanakotoba",
         "mermaid-no-geboku",
+        "hanakotoba",
         "koisuru-maharaja"
       ],
       "popular": [
@@ -483,12 +483,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -496,7 +496,7 @@
         "kimi-ni-kakatta-mahou",
         "watashi-no-eranda-michi",
         "friendlikesong",
-        "hanakotoba"
+        "mermaid-no-geboku"
       ]
     },
     "monsoon-promise": {
@@ -515,12 +515,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -544,9 +544,9 @@
         "ashita-wa-kitto",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
-        "hanakotoba",
         "yume-to-kaigo-to-watashitachi",
-        "hajimemashite-kiseki"
+        "hajimemashite-kiseki",
+        "hanakotoba"
       ],
       "sameTheme": [
         "ashita-wa-kitto"
@@ -560,20 +560,20 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
-        "hanakotoba",
         "yume-to-kaigo-to-watashitachi",
-        "hajimemashite-kiseki"
+        "hajimemashite-kiseki",
+        "hanakotoba"
       ]
     },
     "family-portrait": {
@@ -601,12 +601,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -642,12 +642,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -678,20 +678,20 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "caramel",
         "taipa-nante-shiranakatta",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
-        "hanakotoba",
-        "hajimemashite-kiseki"
+        "hajimemashite-kiseki",
+        "yume-to-kaigo-to-watashitachi"
       ]
     },
     "caramel": {
@@ -714,20 +714,20 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "taipa-nante-shiranakatta",
-        "hanakotoba",
-        "hajimemashite-kiseki"
+        "hajimemashite-kiseki",
+        "yume-to-kaigo-to-watashitachi"
       ]
     },
     "kamisama-wa-rusu": {
@@ -750,12 +750,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -800,12 +800,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -841,12 +841,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -886,12 +886,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -936,12 +936,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -965,17 +965,17 @@
         "mermaid-merman",
         "one-more-kiss",
         "echoes-of-you",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
-        "koisuru-maharaja"
+        "koisuru-maharaja",
+        "tatta-hitori-no-kimi-e"
       ],
       "sameTheme": [
         "mermaid-merman",
         "one-more-kiss",
         "echoes-of-you",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
-        "koisuru-maharaja"
+        "koisuru-maharaja",
+        "tatta-hitori-no-kimi-e"
       ],
       "popular": [
         "sedai-wo-koete-mama-e",
@@ -986,20 +986,20 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "mermaid-merman",
         "one-more-kiss",
         "echoes-of-you",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
-        "koisuru-maharaja"
+        "koisuru-maharaja",
+        "tatta-hitori-no-kimi-e"
       ]
     },
     "hanakotoba": {
@@ -1081,12 +1081,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1119,12 +1119,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -1132,7 +1132,7 @@
         "sedai-wo-koete-mama-e",
         "kimi-wa-hanabi",
         "hajimemashite-kiseki",
-        "hanakotoba"
+        "anata-dake-no-savior"
       ]
     },
     "hajimemashite-kiseki": {
@@ -1145,8 +1145,8 @@
         "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [
-        "hanakotoba",
         "without-worrying",
+        "hanakotoba",
         "ai-demo-wakaranai",
         "hyakumankoku",
         "kimi-to-nara-last-boss-made",
@@ -1169,16 +1169,16 @@
         "hanakotoba"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
-        "hanakotoba",
         "without-worrying",
+        "hanakotoba",
         "ai-demo-wakaranai",
         "hyakumankoku",
         "kimi-to-nara-last-boss-made",
@@ -1194,9 +1194,9 @@
         "heal-you-again",
         "re-sonance",
         "without-worrying",
-        "hanakotoba",
         "anata-dake-no-savior",
-        "last-dance-tonight"
+        "last-dance-tonight",
+        "ashita-wa-kitto"
       ],
       "sameTheme": [
         "heal-you-again",
@@ -1214,20 +1214,20 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "heal-you-again",
         "re-sonance",
         "without-worrying",
-        "hanakotoba",
         "anata-dake-no-savior",
-        "last-dance-tonight"
+        "last-dance-tonight",
+        "ashita-wa-kitto"
       ]
     },
     "zennin-saiban": {
@@ -1254,12 +1254,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -1285,14 +1285,14 @@
         "my-queen-my-oath",
         "mermaid-no-geboku",
         "koisuru-maharaja",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameTheme": [
         "mermaid-no-geboku",
         "koisuru-maharaja",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "last-dance-tonight",
+        "hanakotoba",
         "updown"
       ],
       "popular": [
@@ -1304,12 +1304,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1317,7 +1317,7 @@
         "my-queen-my-oath",
         "mermaid-no-geboku",
         "koisuru-maharaja",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ]
     },
     "lost-signal": {
@@ -1350,12 +1350,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1381,7 +1381,7 @@
         "kimi-wa-makenai",
         "still-alive",
         "heal-you-again",
-        "hanakotoba"
+        "anata-dake-no-savior"
       ],
       "sameTheme": [
         "ashita-wa-kitto",
@@ -1400,12 +1400,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1413,7 +1413,7 @@
         "kimi-wa-makenai",
         "still-alive",
         "heal-you-again",
-        "hanakotoba"
+        "anata-dake-no-savior"
       ]
     },
     "koisuru-maharaja": {
@@ -1424,17 +1424,17 @@
       "sameGenre": [
         "namaste-galaxy",
         "one-more-kiss",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
+        "hanakotoba",
         "updown"
       ],
       "sameTheme": [
         "namaste-galaxy",
         "one-more-kiss",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
+        "hanakotoba",
         "updown"
       ],
       "popular": [
@@ -1446,19 +1446,19 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "namaste-galaxy",
         "one-more-kiss",
-        "hanakotoba",
         "kimi-ni-kakatta-mahou",
         "mermaid-no-geboku",
+        "hanakotoba",
         "updown"
       ]
     },
@@ -1486,12 +1486,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -1536,12 +1536,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1582,12 +1582,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1627,12 +1627,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -1668,12 +1668,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1707,12 +1707,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -1757,12 +1757,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1803,12 +1803,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1853,12 +1853,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1897,12 +1897,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1947,12 +1947,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1997,12 +1997,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2047,12 +2047,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -2094,12 +2094,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -2141,12 +2141,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -2191,12 +2191,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -2241,12 +2241,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2291,12 +2291,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2341,12 +2341,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2391,12 +2391,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2441,12 +2441,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -2491,12 +2491,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2541,12 +2541,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -2591,12 +2591,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2641,12 +2641,12 @@
         "hajimemashite-kiseki"
       ],
       "recent": [
+        "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "iine-sougisha"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

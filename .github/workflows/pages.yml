@@ -33,6 +33,9 @@ jobs:
         run: |
           node --version
           node --check assets/analytics.js
+          node --check assets/streaming-release.js
+          node scripts/test_streaming_date.mjs
+          python3 scripts/audit_streaming_release.py
           node --check assets/main.js
           node --check assets/explorer-update.js
           node --check scripts/browser_analytics_realtime_qa.mjs
