@@ -231,7 +231,7 @@ def render_card(item: dict, p: str) -> str:
 
 
 def discography_page(data: dict) -> str:
-    items = data["releases"]
+    items = sorted(data["releases"], key=lambda item: (item["releaseDate"], item["slug"]), reverse=True)
     timeline = []
     current = None
     for item in items:
@@ -914,11 +914,15 @@ def main() -> None:
     cms_source = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     artist_map = {item["slug"]: item for item in cms_source.get("artists", [])}
     for item in cms_source.get("news", []):
-        if item.get("status") != "published" or (item.get("releaseSlug") and not item.get("streamingAnnouncement")):
+        if item.get("status") != "published" or (item.get("releaseSlug") and not item.get("streamingAnnouncement") and not item.get("karaokeAnnouncement")):
             continue
         artist = artist_map.get(item.get("artistSlug"))
         if artist:
-            if item.get("streamingAnnouncement"):
+            if item.get("karaokeAnnouncement"):
+                from build_karaoke import build_news
+                release = next(r for r in cms_source["releases"] if r["slug"] == item["releaseSlug"])
+                write(ROOT / "news" / item["slug"] / "index.html", build_news(item, artist, release, standalone_news_page))
+            elif item.get("streamingAnnouncement"):
                 from build_streaming_releases import build_news
                 release = next(r for r in data["releases"] if r["slug"] == item["releaseSlug"])
                 write(ROOT / "news" / item["slug"] / "index.html", build_news(item, artist, release, standalone_news_page))
@@ -1011,6 +1015,8 @@ def main() -> None:
     inject_design_refresh(ROOT)
     from build_streaming_releases import build as build_streaming_releases
     build_streaming_releases(ROOT)
+    from build_karaoke import build as build_karaoke
+    build_karaoke(ROOT)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,

@@ -316,6 +316,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/discography/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
@@ -340,16 +344,12 @@
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
+      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
@@ -420,28 +420,32 @@
       <image:title>ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
       <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
+      <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
-      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
       <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
+      <image:title>榎本魅愛 × 神代煌牙「OUR KINGDOM」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
       <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
+      <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
@@ -452,10 +456,6 @@
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
-      <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
@@ -464,16 +464,16 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
-      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
+      <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
       <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
-      <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
+      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg</image:loc>
@@ -1966,6 +1966,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/hanakotoba-joysound-karaoke/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba-joysound.jpg</image:loc>
+      <image:title>榎本魅愛 花言葉 JOYSOUNDカラオケ配信決定 公式告知画像</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/hanakotoba-release/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
@@ -2008,6 +2015,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba-joysound.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」9月18日よりJOYSOUNDカラオケ配信決定！公式音源で全国への公式News画像</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/og.png</image:loc>
       <image:title>榎本魅愛『花言葉』、9月11日より各音楽配信サービスで配信開始の公式News画像</image:title>

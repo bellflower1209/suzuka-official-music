@@ -3200,7 +3200,9 @@
         "ストリーミング",
         "配信",
         "2026年9月11日",
-        "TuneCore Japan"
+        "TuneCore Japan",
+        "JOYSOUND",
+        "カラオケ"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。",
@@ -3272,6 +3274,15 @@
       },
       "lyricist": "JUN",
       "composer": "SUNO×JUN",
+      "karaoke": {
+        "service": "JOYSOUND",
+        "startDate": "2026-09-18",
+        "availability": "全国のJOYSOUND対応機種",
+        "audio": "公式音源",
+        "newsUrl": "news/hanakotoba-joysound-karaoke/",
+        "couponUrl": "https://social.kicks.video/v1/re/kr/101592/joysound_coupon?utm_source=vk&utm_medium=sw&utm_campaign=share&utm_term=101592",
+        "source": "user-confirmed-official-information"
+      },
       "recommendations": {
         "sameArtist": [
           "yume-to-kaigo-to-watashitachi",

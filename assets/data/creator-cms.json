@@ -2686,7 +2686,9 @@
         "ストリーミング",
         "配信",
         "2026年9月11日",
-        "TuneCore Japan"
+        "TuneCore Japan",
+        "JOYSOUND",
+        "カラオケ"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。",
@@ -2757,7 +2759,16 @@
         "source": "user-confirmed-release-information"
       },
       "lyricist": "JUN",
-      "composer": "SUNO×JUN"
+      "composer": "SUNO×JUN",
+      "karaoke": {
+        "service": "JOYSOUND",
+        "startDate": "2026-09-18",
+        "availability": "全国のJOYSOUND対応機種",
+        "audio": "公式音源",
+        "newsUrl": "news/hanakotoba-joysound-karaoke/",
+        "couponUrl": "https://social.kicks.video/v1/re/kr/101592/joysound_coupon?utm_source=vk&utm_medium=sw&utm_campaign=share&utm_term=101592",
+        "source": "user-confirmed-official-information"
+      }
     },
     {
       "id": "anata-dake-no-savior",
@@ -5771,6 +5782,32 @@
   ],
   "upcoming": [],
   "news": [
+    {
+      "slug": "hanakotoba-joysound-karaoke",
+      "title": "榎本魅愛「花言葉」9月18日よりJOYSOUNDカラオケ配信決定！公式音源で全国へ",
+      "artistSlug": "enomoto-mia",
+      "releaseSlug": "hanakotoba",
+      "karaokeAnnouncement": true,
+      "publishedAt": "2026-09-11T00:00:00+09:00",
+      "description": "榎本魅愛 / ENOMOTO MIA「花言葉」が2026年9月18日（金）より全国のJOYSOUND対応機種にて公式音源でカラオケ配信決定。JOYSOUND特別クーポンもご案内します。",
+      "image": "images/enomoto-mia-hanakotoba-joysound.jpg",
+      "status": "published",
+      "bodyParagraphs": [
+        "Virtual AI Artist 榎本魅愛の楽曲「花言葉」が、\n2026年9月18日（金）より全国のJOYSOUND対応機種にてカラオケ配信されることが決定しました。",
+        "今回の「花言葉」は、公式音源での配信となります。",
+        "これまで作品として聴いていただいてきた「花言葉」が、\n今度はカラオケという場所で、皆さん自身の声によって歌われる一曲になります。",
+        "誰かを想いながら。\n大切な人と一緒に。\nあるいは、自分だけの思い出を重ねながら。",
+        "それぞれの「花言葉」を、ぜひJOYSOUNDで歌ってください。",
+        "何回だって、君に届け。"
+      ],
+      "closingParagraphs": [
+        "9月18日からJOYSOUNDで「榎本魅愛」を検索して、\nぜひ「花言葉」を歌ってみてください。",
+        "SNSでの「歌ったよ！」報告もお待ちしています。",
+        "#榎本魅愛 #花言葉",
+        "恋するすべての瞬間を、歌にする。",
+        "榎本魅愛 / ENOMOTO MIA\nSUZUKA"
+      ]
+    },
     {
       "slug": "hanakotoba-streaming-release",
       "title": "榎本魅愛『花言葉』、9月11日より各音楽配信サービスで配信開始",
