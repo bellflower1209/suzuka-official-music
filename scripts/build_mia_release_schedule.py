@@ -77,6 +77,29 @@ def build(root: Path) -> None:
     insert(root / "index.html", schedule_panel(schedule, "./", compact=True), "<!-- V31:HOME-NEXT:START -->", "./")
     insert(root / "artists/enomoto-mia/index.html", schedule_panel(schedule, "../../", compact=False), '<section class="v31-artist-hero">', "../../")
     build_news(root, schedule)
+    artist = next(a for a in cms["artists"] if a["slug"] == "enomoto-mia")
+    url = artist.get("officialYoutubeUrl")
+    if not url:
+        return
+    channel = (
+        '<aside class="mia-official-channel" aria-label="榎本魅愛 Official YouTube Channel">'
+        '<p>ENOMOTO MIA / ARTIST OFFICIAL</p><h2>OFFICIAL YOUTUBE CHANNEL</h2>'
+        '<p>榎本魅愛 Official YouTube<br>Music Video / Official Audio / Shorts</p>'
+        f'<a class="button button-primary" href="{html.escape(url)}" target="_blank" rel="noopener noreferrer">Official YouTubeを見る ↗</a>'
+        f'<p><a href="{html.escape(artist["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">SUZUKA YouTube · Label / Project Official ↗</a></p></aside>'
+    )
+    paths = [root / "index.html", root / "artists/enomoto-mia/index.html"]
+    paths += [root / "releases" / r["slug"] / "index.html" for r in cms["releases"] + cms.get("upcoming", []) if r.get("artistSlug") == "enomoto-mia"]
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        text = re.sub(r'<!-- MIA-CHANNEL:START -->.*?<!-- MIA-CHANNEL:END -->', '', text, flags=re.S)
+        content = channel if path in paths[:2] else channel.replace('Official YouTubeを見る ↗', '榎本魅愛 Official YouTube ↗')
+        block = '<!-- MIA-CHANNEL:START -->' + content + '<!-- MIA-CHANNEL:END -->'
+        marker = END if path in paths[:2] else '</main>'
+        text = text.replace(marker, block + marker, 1)
+        if 'assets/mia-release-schedule.css' not in text:
+            text = text.replace('</head>', '<link rel="stylesheet" href="../../assets/mia-release-schedule.css"/></head>', 1)
+        path.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":

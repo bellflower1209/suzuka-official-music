@@ -726,7 +726,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         artist_entity = {
             "@type": artist["type"], "@id": f'{BASE}/artists/{slug}/#artist', "name": artist["name"],
             "description": f'{artist["profile"]} SUZUKAの架空のAIアーティストです。',
-            "sameAs": [url for url in (artist.get("youtubeUrl"), artist.get("instagramUrl")) if url],
+            "sameAs": list(dict.fromkeys(url for url in (artist.get("youtubeUrl"), artist.get("instagramUrl"), artist.get("officialYoutubeUrl")) if url)),
         }
         if artist.get("image"):
             artist_entity["image"] = f'{BASE}/{artist["image"]}'

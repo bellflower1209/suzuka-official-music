@@ -149,7 +149,10 @@
       "instagramUrl": "https://www.instagram.com/suzuka12090511/",
       "searchKeywords": [
         "榎本魅愛",
-        "ENOMOTO MIA"
+        "ENOMOTO MIA",
+        "YouTube",
+        "Official YouTube",
+        "Official Channel"
       ],
       "seo": {
         "title": "榎本魅愛｜SUZUKA Official AI Artist",
@@ -162,7 +165,8 @@
         "yume-to-kaigo-to-watashitachi",
         "hanakotoba",
         "hajimemashite-kiseki"
-      ]
+      ],
+      "officialYoutubeUrl": "https://www.youtube.com/@enomotomia"
     },
     {
       "slug": "hoshimiya-hanon",

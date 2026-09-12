@@ -294,7 +294,14 @@ def normalize_graph(text: str, canonical: str, relative: Path, brand: dict, rele
                         node["@type"] = artist["type"]
                         node["@id"] = artist_id
                         node["url"] = f'{BASE}/artists/{artist["slug"]}/'
-                        node.pop("sameAs", None)
+                        brand_profiles = {item["url"] for item in brand["sameAs"]}
+                        profiles = [url for url in node.get("sameAs", []) if url not in brand_profiles]
+                        if artist.get("officialYoutubeUrl"):
+                            profiles.append(artist["officialYoutubeUrl"])
+                        if profiles:
+                            node["sameAs"] = list(dict.fromkeys(profiles))
+                        else:
+                            node.pop("sameAs", None)
                     if "ProfilePage" in types_of(node):
                         node["mainEntity"] = {"@id": artist_id}
 
