@@ -719,7 +719,10 @@ def update_docs(root: Path, data: dict) -> None:
             f'| {n} | {x["title"]} | {x["artist"]} | [{x["youtubeUrl"].split("=")[-1]}]({x["youtubeUrl"]}) / {x["duration"]//60}:{x["duration"]%60:02d} | {x["publishedAt"]} | [作品]({BASE}/{x["releaseUrl"]}) | 公開確認済み |'
             for n, x in enumerate(data["releases"], 1)
         )
-        upcoming = "\n".join(f'| 公開予定 | {x["title"]} | {x["artist"]} | {x["scheduledAt"].replace("T"," ")} | 未確定 | {x["youtubeUrl"]} |' for x in data["upcoming"])
+        upcoming = "\n".join(
+            f'| 公開予定 | {x["title"]} | {x["artist"]} | {x["scheduledAt"].replace("T"," ")} | 未確定 | {x.get("youtubeUrl") or "未確認"} |'
+            for x in data["upcoming"]
+        )
         current = f"""## 0. 結論と公開状況
 
 - 2026年8月3日0:45（日本時間）時点で、公式YouTubeから公開確認できた作品は{len(data["releases"])}件。
@@ -772,7 +775,7 @@ def update_docs(root: Path, data: dict) -> None:
         )
     for item in data["upcoming"]:
         tracker_rows.append(
-            f'| Upcoming | {item["title"]} | {item["artist"]} | {item["youtubeUrl"]} | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |'
+            f'| Upcoming | {item["title"]} | {item["artist"]} | {item.get("youtubeUrl") or "未確認"} | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |'
         )
     tracker_content = "\n".join(tracker_rows)
     tracker.write_text(f"""# SUZUKA YouTube Studio Implementation Tracker

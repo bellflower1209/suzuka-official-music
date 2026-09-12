@@ -34,14 +34,7 @@ def main() -> None:
         "artistSlug": "enomoto-mia",
         "scheduledAt": "2026-09-21T00:00:00+09:00",
         "releaseDate": "2026-09-21",
-        "releaseChannel": "streaming",
-        "releaseType": "single",
-        "label": "SUZUKA",
         "status": "upcoming",
-        "description": "榎本魅愛「Hello Hello Halloween」は2026年9月21日リリース予定です。",
-        "image": "",
-        "youtubeUrl": "",
-        "searchKeywords": ["榎本魅愛", "ENOMOTO MIA", "Hello Hello Halloween", "2026年9月21日", "Upcoming", "TuneCore"],
         "source": "user-confirmed-tunecore-management-screen",
     }
     cms["upcoming"] = [item for item in cms.get("upcoming", []) if item["slug"] != hello["slug"]] + [hello]

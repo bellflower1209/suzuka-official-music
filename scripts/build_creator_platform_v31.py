@@ -186,7 +186,7 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
             '<section class="v31-upcoming-detail" data-upcoming>'
             f'{visual}'
             '<div><p class="section-kicker">UPCOMING / NOT YET PUBLISHED</p>'
-            f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["description"])}</p>'
+            f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item.get("description") or f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。')}</p>'
             f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"].replace("T", " ")[:16]} JST</time>'
             '<p data-countdown data-release-at="' + item["scheduledAt"] + '"><strong data-countdown-output>公開予定時刻までを計算中</strong></p>'
             '<div class="explore-actions">'
@@ -828,7 +828,7 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
         if item.get("status") == "upcoming":
             documents.append({
                 "type": "Upcoming", "contentType": "upcoming", "title": item["title"],
-                "description": item.get("description", ""), "url": f'releases/{item["slug"]}/',
+                "description": item.get("description") or f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。', "url": f'releases/{item["slug"]}/',
                 "keywords": [item["artist"], *item.get("searchKeywords", []), "Upcoming", "リリース予定"],
             })
     for artist in cms.get("artists", []):

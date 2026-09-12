@@ -10,7 +10,7 @@ NS={"s":"http://www.sitemaps.org/schemas/sitemap/0.9","v":"http://www.google.com
 def main()->int:
     ap=argparse.ArgumentParser(); ap.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[1]); root=ap.parse_args().root.resolve()
     cms=json.loads((root/"assets/data/creator-cms.json").read_text(encoding="utf-8")); evidence=json.loads((root/"assets/data/youtube-publish-dates.json").read_text(encoding="utf-8"))
-    upcoming={x["youtubeUrl"].split("=")[-1] for x in cms["upcoming"]}; verified={x["youtubeId"]:x for x in evidence["records"] if x.get("status")=="verified-datetime"}
+    upcoming={x.get("youtubeUrl", "").split("=")[-1] for x in cms["upcoming"] if x.get("youtubeUrl")}; verified={x["youtubeId"]:x for x in evidence["records"] if x.get("status")=="verified-datetime"}
     errors=[]; count=0
     for path in sorted(root.glob("**/index.html")):
         if path.relative_to(root).parts[0]=="admin": continue

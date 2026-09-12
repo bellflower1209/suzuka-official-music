@@ -24,7 +24,7 @@ def main() -> None:
     }
     hello = upcoming[0]
     assert hello["scheduledAt"] == "2026-09-21T00:00:00+09:00"
-    assert hello["youtubeUrl"] == "" and hello["image"] == ""
+    assert "youtubeUrl" not in hello and "image" not in hello
     flower = hanakotoba[0]
     assert flower["streamingRelease"]["releaseDate"] == "2026-09-11"
     assert flower["streamingRelease"]["linkcoreUrl"] == "https://linkco.re/0xHr8N9e"
