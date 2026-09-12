@@ -1,4 +1,29 @@
 {
-  "updatedAt": "2026-09-10T00:00:00+09:00",
-  "releases": []
+  "updatedAt": "2026-09-12T00:00:00+09:00",
+  "releases": [
+    {
+      "slug": "hello-hello-halloween",
+      "title": "Hello Hello Halloween",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-21T00:00:00+09:00",
+      "releaseDate": "2026-09-21",
+      "releaseChannel": "streaming",
+      "releaseType": "single",
+      "label": "SUZUKA",
+      "status": "upcoming",
+      "description": "榎本魅愛「Hello Hello Halloween」は2026年9月21日リリース予定です。",
+      "image": "",
+      "youtubeUrl": "",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Hello Hello Halloween",
+        "2026年9月21日",
+        "Upcoming",
+        "TuneCore"
+      ],
+      "source": "user-confirmed-tunecore-management-screen"
+    }
+  ]
 }

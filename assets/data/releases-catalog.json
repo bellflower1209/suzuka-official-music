@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:00:00+09:00",
+  "updatedAt": "2026-09-12T00:00:00+09:00",
   "releases": [
     {
       "slug": "sedai-wo-koete-mama-e",
@@ -7859,7 +7859,10 @@
         "J-POP",
         "ロマンティックポップ",
         "恋愛",
-        "百万告"
+        "百万告",
+        "2026年9月21日",
+        "Streaming Release",
+        "TuneCore"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
@@ -7897,6 +7900,14 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-09-21",
+        "timezone": "Asia/Tokyo",
+        "label": "SUZUKA",
+        "status": "upcoming",
+        "source": "user-confirmed-tunecore-management-screen",
+        "linkcoreUrl": null
+      },
       "recommendations": {
         "sameArtist": [
           "yume-to-kaigo-to-watashitachi",
@@ -7949,5 +7960,30 @@
       }
     }
   ],
-  "upcoming": []
+  "upcoming": [
+    {
+      "slug": "hello-hello-halloween",
+      "title": "Hello Hello Halloween",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-21T00:00:00+09:00",
+      "releaseDate": "2026-09-21",
+      "releaseChannel": "streaming",
+      "releaseType": "single",
+      "label": "SUZUKA",
+      "status": "upcoming",
+      "description": "榎本魅愛「Hello Hello Halloween」は2026年9月21日リリース予定です。",
+      "image": "",
+      "youtubeUrl": "",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Hello Hello Halloween",
+        "2026年9月21日",
+        "Upcoming",
+        "TuneCore"
+      ],
+      "source": "user-confirmed-tunecore-management-screen"
+    }
+  ]
 }

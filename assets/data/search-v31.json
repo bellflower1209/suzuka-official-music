@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:00:00+09:00",
+  "updatedAt": "2026-09-12T00:00:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -2009,9 +2009,30 @@
         "ロマンティックポップ",
         "恋愛",
         "百万告",
+        "2026年9月21日",
+        "Streaming Release",
+        "TuneCore",
         "",
         "",
         "[Intro]\n\nねえ\n今日も言っていい？\n\n何回目かは\nもう忘れたけど\n\n[Verse 1]\n\n最初に「好き」って言った日は\n心臓がうるさすぎて\n君の返事も聞けないまま\n下ばっか見てたっけ\n\n今では隣にいること\n当たり前みたいだけど\n当たり前にしたくないから\n今日もちゃんと言わせて\n\n[Pre-Chorus]\n\n一回じゃ足りない\n一生でも足りない\n\n昨日の君と\n今日の君は\n少し違うから\n\nまた好きになる\n\n[Chorus]\n\n百万回でも告白するよ\n百万回でも「好き」って言うよ\n今日も　明日も\nその次の日も\n\nまた君に恋をする\n\n百万回でも告白するよ\n聞き飽きたって告白するよ\n\n好き\n好き\n大好き\n\n何回だって更新中\n\n君に\n君に\n君に届け\n\n終わらない\n私の百万告\n\n[Post-Chorus]\n\n百万回でも\n百万回でも\n\n好きって言うよ\n\n百万回でも\n百万回でも\n\nまた恋をするよ\n\n[Verse 2]\n\n返信ちょっと遅いだけで\n勝手に不安になったり\n「別に平気」って言った日は\nだいたい平気じゃなかったり\n\n面倒なところもあるし\n素直じゃない日もあるけど\nそんな私を笑いながら\n君はわかってくれる\n\n[Pre-Chorus]\n\n特別な夜も\nなんでもない朝も\n\n伝えたいことは\n結局いつも\nひとつだけなんだ\n\nまた好きになる\n\n[Chorus]\n\n百万回でも告白するよ\n百万回でも「好き」って言うよ\nケンカした日も\n泣いちゃった日も\n\n最後は君を選ぶよ\n\n百万回でも告白するよ\n「もうわかった」って笑われても\n\n好き\n好き\n大好き\n\n何回だって更新中\n\n君に\n君に\n君に届け\n\nまだ終われない\n私の百万告\n\n[Bridge]\n\n初めての「好き」だけが\n告白じゃないでしょう？\n\n一緒にいるほど\n知っていくほど\n\nまた伝えたくなる\n\nもしもいつか\nときめきの形が変わっても\n\nそのときの君に\nそのときの私で\n\nもう一度\nちゃんと言うよ\n\n[Break]\n\nねえ\n\n何回目でも\n初めてみたいに\n\n聞いてくれる？\n\n[Final Chorus]\n\n百万回でも告白するよ\n百万回でも「好き」って言うよ\n今日も　明日も\n何十年後も\n\nまた君に恋をする\n\n百万回じゃ足りないくらい\n君を好きになっていくから\n\n好き\n好き\n大好き\n\n何回だって更新中\n\n君に\n君に\n君に届け\n\n一回きりじゃ\n足りないから\n\n百万回でも\n百万回でも\n\n君に告白するよ\n\n百万回でも\n百万回でも\n\nまた君を選ぶよ\n\n好き\n好き\n大好き\n\nこれからもずっと更新中\n\n終わらない\n\n私の百万告\n\n[Outro]\n\nねえ\n明日も言っていい？\n\nたぶん\n\n百万回目まで"
+      ]
+    },
+    {
+      "type": "Upcoming",
+      "contentType": "upcoming",
+      "title": "Hello Hello Halloween",
+      "description": "榎本魅愛「Hello Hello Halloween」は2026年9月21日リリース予定です。",
+      "url": "releases/hello-hello-halloween/",
+      "keywords": [
+        "榎本魅愛",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Hello Hello Halloween",
+        "2026年9月21日",
+        "Upcoming",
+        "TuneCore",
+        "Upcoming",
+        "リリース予定"
       ]
     },
     {
@@ -2398,6 +2419,23 @@
         "tatta-hitori-no-kimi-e",
         "YouTube Shorts",
         "Shorts"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をリリース",
+      "description": "榎本魅愛の「百万告」「Hello Hello Halloween」が2026年9月21日にリリース予定。9月11日の「花言葉」Streaming Release、9月18日のJOYSOUND配信から続く9月の活動をお知らせします。",
+      "url": "news/enomoto-mia-september-21-double-release/",
+      "keywords": [
+        "enomoto-mia",
+        "",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "百万告",
+        "Hello Hello Halloween",
+        "9月21日",
+        "連続リリース"
       ]
     },
     {
@@ -3261,7 +3299,10 @@
         "J-POP",
         "ロマンティックポップ",
         "恋愛",
-        "百万告"
+        "百万告",
+        "2026年9月21日",
+        "Streaming Release",
+        "TuneCore"
       ]
     },
     {

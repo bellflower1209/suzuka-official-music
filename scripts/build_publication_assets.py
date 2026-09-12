@@ -168,7 +168,7 @@ def build_feed(root: Path, cms: dict) -> None:
             summary = item.get("description") or "SUZUKA公式AIアーティストのVisual Collection。"
             ET.SubElement(entry, f"{{{ATOM}}}published").text = item["publishedAt"]
         else:
-            url = item["youtubeUrl"]
+            url = item.get("youtubeUrl") or f'{BASE}releases/{item["slug"]}/'
             title = f'Upcoming｜{item["artist"]}「{item["title"]}」'
             summary = f'{item["scheduledAt"]} 公開予定。公開済み作品とは分離しています。'
         ET.SubElement(entry, f"{{{ATOM}}}id").text = url

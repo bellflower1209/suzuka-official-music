@@ -5,7 +5,7 @@
 <section class="creator-cms">
 <label>正本JSON<textarea id="cms-json" spellcheck="false">{
   &quot;schemaVersion&quot;: &quot;3.1&quot;,
-  &quot;updatedAt&quot;: &quot;2026-09-10T00:00:00+09:00&quot;,
+  &quot;updatedAt&quot;: &quot;2026-09-12T00:00:00+09:00&quot;,
   &quot;site&quot;: {
     &quot;name&quot;: &quot;SUZUKA Official&quot;,
     &quot;shortName&quot;: &quot;SUZUKA&quot;,
@@ -5745,7 +5745,10 @@
         &quot;J-POP&quot;,
         &quot;ロマンティックポップ&quot;,
         &quot;恋愛&quot;,
-        &quot;百万告&quot;
+        &quot;百万告&quot;,
+        &quot;2026年9月21日&quot;,
+        &quot;Streaming Release&quot;,
+        &quot;TuneCore&quot;
       ],
       &quot;aiArtistType&quot;: &quot;fictional AI artist&quot;,
       &quot;description&quot;: &quot;榎本魅愛「百万告」のSUZUKA公式作品ページ。&quot;,
@@ -5782,11 +5785,62 @@
       &quot;analyticsEnabled&quot;: true,
       &quot;upcomingPriority&quot;: 0,
       &quot;lyricsVerified&quot;: true,
-      &quot;lyricsVerifiedAt&quot;: &quot;2026-08-09T00:28:12+09:00&quot;
+      &quot;lyricsVerifiedAt&quot;: &quot;2026-08-09T00:28:12+09:00&quot;,
+      &quot;scheduledStreamingRelease&quot;: {
+        &quot;releaseDate&quot;: &quot;2026-09-21&quot;,
+        &quot;timezone&quot;: &quot;Asia/Tokyo&quot;,
+        &quot;label&quot;: &quot;SUZUKA&quot;,
+        &quot;status&quot;: &quot;upcoming&quot;,
+        &quot;source&quot;: &quot;user-confirmed-tunecore-management-screen&quot;,
+        &quot;linkcoreUrl&quot;: null
+      }
     }
   ],
-  &quot;upcoming&quot;: [],
+  &quot;upcoming&quot;: [
+    {
+      &quot;slug&quot;: &quot;hello-hello-halloween&quot;,
+      &quot;title&quot;: &quot;Hello Hello Halloween&quot;,
+      &quot;artist&quot;: &quot;榎本魅愛&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;scheduledAt&quot;: &quot;2026-09-21T00:00:00+09:00&quot;,
+      &quot;releaseDate&quot;: &quot;2026-09-21&quot;,
+      &quot;releaseChannel&quot;: &quot;streaming&quot;,
+      &quot;releaseType&quot;: &quot;single&quot;,
+      &quot;label&quot;: &quot;SUZUKA&quot;,
+      &quot;status&quot;: &quot;upcoming&quot;,
+      &quot;description&quot;: &quot;榎本魅愛「Hello Hello Halloween」は2026年9月21日リリース予定です。&quot;,
+      &quot;image&quot;: &quot;&quot;,
+      &quot;youtubeUrl&quot;: &quot;&quot;,
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;Hello Hello Halloween&quot;,
+        &quot;2026年9月21日&quot;,
+        &quot;Upcoming&quot;,
+        &quot;TuneCore&quot;
+      ],
+      &quot;source&quot;: &quot;user-confirmed-tunecore-management-screen&quot;
+    }
+  ],
   &quot;news&quot;: [
+    {
+      &quot;slug&quot;: &quot;enomoto-mia-september-21-double-release&quot;,
+      &quot;title&quot;: &quot;榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をリリース&quot;,
+      &quot;artistSlug&quot;: &quot;enomoto-mia&quot;,
+      &quot;publishedAt&quot;: &quot;2026-09-12T00:00:00+09:00&quot;,
+      &quot;description&quot;: &quot;榎本魅愛の「百万告」「Hello Hello Halloween」が2026年9月21日にリリース予定。9月11日の「花言葉」Streaming Release、9月18日のJOYSOUND配信から続く9月の活動をお知らせします。&quot;,
+      &quot;image&quot;: &quot;og.png&quot;,
+      &quot;status&quot;: &quot;published&quot;,
+      &quot;miaCampaignAnnouncement&quot;: true,
+      &quot;searchKeywords&quot;: [
+        &quot;榎本魅愛&quot;,
+        &quot;ENOMOTO MIA&quot;,
+        &quot;百万告&quot;,
+        &quot;Hello Hello Halloween&quot;,
+        &quot;9月21日&quot;,
+        &quot;連続リリース&quot;
+      ]
+    },
     {
       &quot;slug&quot;: &quot;hanakotoba-joysound-karaoke&quot;,
       &quot;title&quot;: &quot;榎本魅愛「花言葉」9月18日よりJOYSOUNDカラオケ配信決定！公式音源で全国へ&quot;,
@@ -6873,7 +6927,39 @@
         &quot;夢と介護は　つながってる&quot;
       ]
     }
-  ]
+  ],
+  &quot;miaReleaseSchedule&quot;: {
+    &quot;artist&quot;: &quot;榎本魅愛&quot;,
+    &quot;artistEnglish&quot;: &quot;ENOMOTO MIA&quot;,
+    &quot;timezone&quot;: &quot;Asia/Tokyo&quot;,
+    &quot;activities&quot;: [
+      {
+        &quot;date&quot;: &quot;2026-09-11&quot;,
+        &quot;title&quot;: &quot;花言葉&quot;,
+        &quot;kind&quot;: &quot;NOW STREAMING&quot;,
+        &quot;url&quot;: &quot;releases/hanakotoba/&quot;
+      },
+      {
+        &quot;date&quot;: &quot;2026-09-18&quot;,
+        &quot;title&quot;: &quot;花言葉&quot;,
+        &quot;kind&quot;: &quot;KARAOKE / JOYSOUND&quot;,
+        &quot;url&quot;: &quot;news/hanakotoba-joysound-karaoke/&quot;
+      },
+      {
+        &quot;date&quot;: &quot;2026-09-21&quot;,
+        &quot;title&quot;: &quot;百万告&quot;,
+        &quot;kind&quot;: &quot;NEW RELEASE&quot;,
+        &quot;url&quot;: &quot;releases/hyakumankoku/&quot;
+      },
+      {
+        &quot;date&quot;: &quot;2026-09-21&quot;,
+        &quot;title&quot;: &quot;Hello Hello Halloween&quot;,
+        &quot;kind&quot;: &quot;NEW RELEASE&quot;,
+        &quot;url&quot;: &quot;releases/hello-hello-halloween/&quot;
+      }
+    ],
+    &quot;newsUrl&quot;: &quot;news/enomoto-mia-september-21-double-release/&quot;
+  }
 }</textarea></label>
 <div class="explore-actions"><button id="cms-validate">検証</button><button id="cms-save">下書き保存</button>
 <button id="cms-download">JSONを書き出す</button><label class="creator-file">JSONを読み込む<input id="cms-import" type="file" accept="application/json"/></label></div>

@@ -30,7 +30,7 @@ def main() -> int:
                 parse_iso8601(timestamp)
             except (TypeError, ValueError) as error:
                 errors.append(f'{item["slug"]}: invalid timestamp: {error}')
-            if not str(item.get("youtubeUrl", "")).startswith("https://www.youtube.com/watch?v="):
+            if item.get("releaseChannel") != "streaming" and not str(item.get("youtubeUrl", "")).startswith("https://www.youtube.com/watch?v="):
                 errors.append(f'{item["slug"]}: official YouTube URL missing')
     catalog_published = {item["slug"] for item in catalog["releases"]}
     catalog_upcoming = {item["slug"] for item in catalog["upcoming"]}

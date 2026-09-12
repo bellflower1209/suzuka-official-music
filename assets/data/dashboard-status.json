@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:00:00+09:00",
+  "updatedAt": "2026-09-12T00:00:00+09:00",
   "publishedReleases": {
     "count": 58,
     "items": [
@@ -64,8 +64,10 @@
     ]
   },
   "upcoming": {
-    "count": 0,
-    "items": []
+    "count": 1,
+    "items": [
+      "Hello Hello Halloween"
+    ]
   },
   "publishedLyrics": {
     "count": 19,
@@ -103,7 +105,9 @@
     ]
   },
   "nextRelease": {
-    "count": 0,
-    "items": []
+    "count": 1,
+    "items": [
+      "Hello Hello Halloween / 2026-09-21T00:00:00+09:00"
+    ]
   }
 }

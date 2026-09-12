@@ -245,7 +245,12 @@ def discography_page(data: dict) -> str:
             current = ym
         timeline.append(f'<article class="timeline-item" data-release-date="{item["releaseDate"]}"><time datetime="{item["releaseDate"]}">{item["releaseDate"][5:].replace("-",".")}</time><img src="{media_url(item["coverImage"], "../")}" alt="{html.escape(item["coverAlt"])}" width="1280" height="720" loading="lazy"/><div><h3>{html.escape(item["displayTitle"])}</h3><p>{html.escape(item["artist"])} · {" / ".join(map(html.escape,item["genres"]))}</p></div><a href="../{item["releaseUrl"]}">作品を見る ↗</a></article>')
     timeline.append("</div>")
-    upcoming = "".join(f'<li><time datetime="{x["scheduledAt"]}">{x["scheduledAt"][:10].replace("-",".")} 20:00</time> {html.escape(x["artist"])}「{html.escape(x["title"])}」 <a href="{x["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画 ↗</a></li>' for x in data["upcoming"])
+    upcoming = "".join(
+        f'<li><time datetime="{x["scheduledAt"]}">{x["scheduledAt"][:10].replace("-",".")}</time> '
+        f'{html.escape(x["artist"])}「{html.escape(x["title"])}」 '
+        + (f'<a href="{x["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画 ↗</a>' if x.get("youtubeUrl") else f'<a href="../releases/{x["slug"]}/">予定を見る ↗</a>')
+        + '</li>' for x in data["upcoming"]
+    )
     elements = [{"@type":"ListItem","position":i,"name":x["displayTitle"],"url":f'{BASE}/{x["releaseUrl"]}'} for i,x in enumerate(items,1)]
     desc = "SUZUKA所属アーティストが発表した作品を、公開日順に紹介します。"
     schema = {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","url":f"{BASE}/discography/","name":"ディスコグラフィー｜SUZUKA Official Music","description":desc},{"@type":"ItemList","numberOfItems":len(items),"itemListElement":elements},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},{"@type":"ListItem","position":2,"name":"Discography","item":f"{BASE}/discography/"}]}]}
@@ -584,20 +589,28 @@ def update_home_status(root: Path, data: dict) -> None:
             '<!-- SUZUKA:SPECIAL-FEATURE:END -->'
         )
         text = text.replace(latest_section, special_block + latest_section, 1)
-    upcoming_cards = "".join(
-        '<article class="status-card">'
-        f'<img src="{item["image"]}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公式YouTube公開予定サムネイル" width="1280" height="720" loading="lazy"/>'
-        '<div>'
-        f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"][:10].replace("-", ".")} 20:00 JST</time>'
-        f'<h3>{html.escape(item["title"])}</h3><p>{html.escape(item["artist"])} · Official YouTube Premiere</p>'
-        f'<div class="status-actions"><a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画を見る ↗</a>'
-        f'<a href="./artists/{item["artistSlug"]}/">Artist page ↗</a></div></div></article>'
-        for item in data["upcoming"]
-    )
+    upcoming_cards = ""
+    for item in data["upcoming"]:
+        date_label = item["scheduledAt"][5:10].replace("-", ".")
+        visual = (
+            f'<img src="{item["image"]}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" width="1280" height="720" loading="lazy"/>'
+            if item.get("image") else
+            f'<div class="v31-upcoming-placeholder" role="img" aria-label="公式画像は未確認"><span>NEW RELEASE</span><strong>{date_label}</strong><small>OFFICIAL VISUAL PENDING</small></div>'
+        )
+        external = (
+            f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">予約動画を見る ↗</a>'
+            if item.get("youtubeUrl") else f'<a href="./releases/{item["slug"]}/">リリース予定を見る ↗</a>'
+        )
+        upcoming_cards += (
+            f'<article class="status-card">{visual}<div>'
+            f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"][:10].replace("-", ".")} JST</time>'
+            f'<h3>{html.escape(item["title"])}</h3><p>{html.escape(item["artist"])} · Streaming Release</p>'
+            f'<div class="status-actions">{external}<a href="./artists/{item["artistSlug"]}/">Artist page ↗</a></div></div></article>'
+        )
     upcoming_section = (
         '<section class="upcoming-section" id="upcoming-artists" aria-labelledby="upcoming-title">'
         '<div class="upcoming-heading"><div><p class="section-kicker">02 / Next releases</p><h2 id="upcoming-title">Upcoming</h2></div>'
-        '<p>公開済み作品と分けて、公式YouTubeで確認した公開予定をお知らせします。</p></div>'
+        '<p>公開済み作品と分けて、確認済みの公開予定をお知らせします。</p></div>'
         f'<div class="status-strip-grid">{upcoming_cards}</div></section>'
     )
     text = re.sub(
@@ -1017,6 +1030,8 @@ def main() -> None:
     build_streaming_releases(ROOT)
     from build_karaoke import build as build_karaoke
     build_karaoke(ROOT)
+    from build_mia_release_schedule import build as build_mia_release_schedule
+    build_mia_release_schedule(ROOT)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,

@@ -2,12 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-09-10T00:00:00+09:00</updated>
+  <updated>2026-09-12T00:00:00+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/hello-hello-halloween/</id>
+    <title>Upcoming｜榎本魅愛「Hello Hello Halloween」</title>
+    <updated>2026-09-12T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/hello-hello-halloween/" />
+    <category term="upcoming" />
+    <summary>2026-09-21T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-12T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/enomoto-mia-september-21-double-release/</id>
+    <title>榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をリリース</title>
+    <updated>2026-09-12T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/enomoto-mia-september-21-double-release/" />
+    <category term="news" />
+    <summary>榎本魅愛の「百万告」「Hello Hello Halloween」が2026年9月21日にリリース予定。9月11日の「花言葉」Streaming Release、9月18日のJOYSOUND配信から続く9月の活動をお知らせします。</summary>
+  </entry>
   <entry>
     <published>2026-09-11T00:00:00+09:00</published>
     <id>https://www.suzukaofficial.com/news/hanakotoba-joysound-karaoke/</id>

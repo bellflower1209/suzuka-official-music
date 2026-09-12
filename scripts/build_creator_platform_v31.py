@@ -79,18 +79,29 @@ def artist_visual(artist: dict, prefix: str, *, loading: bool = False) -> str:
 
 
 def countdown_markup(item: dict, prefix: str = "") -> str:
-    image = item["image"] if str(item["image"]).startswith(("http://", "https://")) else prefix + item["image"]
+    raw_image = str(item.get("image") or "").strip()
+    image = raw_image if raw_image.startswith(("http://", "https://")) else prefix + raw_image
+    date_label = item["scheduledAt"][5:10].replace("-", ".")
+    visual = (
+        f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" '
+        'width="1280" height="720" loading="lazy"/>'
+        if raw_image else
+        '<div class="v31-upcoming-placeholder" role="img" aria-label="公式画像は未確認">'
+        f'<span>NEW RELEASE</span><strong>{date_label}</strong><small>OFFICIAL VISUAL PENDING</small></div>'
+    )
+    external = (
+        f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
+        if item.get("youtubeUrl") else ""
+    )
     return (
         f'<article class="v31-countdown-card" data-countdown data-release-at="{item["scheduledAt"]}" '
         f'data-upcoming data-release-slug="{item["slug"]}">'
-        f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公式YouTube公開予定サムネイル" '
-        'width="1280" height="720" loading="lazy"/>'
-        '<div><p class="section-kicker">NEXT RELEASE / JST</p>'
+        f'{visual}<div><p class="section-kicker">NEW RELEASE / JST</p>'
         f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
         f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"][:10].replace("-", ".")} {item["scheduledAt"][11:16]} JST</time>'
         '<p class="v31-countdown" data-countdown-output>公開予定時刻までを計算中</p>'
         '<div class="explore-actions">'
-        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
+        f'{external}'
         f'<a href="{prefix}releases/{item["slug"]}/">作品ページ</a>'
         f'<a href="{prefix}schedule/">スケジュール</a></div></div></article>'
     )
@@ -159,16 +170,27 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
 
 def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
     for item in upcoming:
-        image = item["image"] if str(item["image"]).startswith(("http://", "https://")) else "../../" + item["image"]
+        raw_image = str(item.get("image") or "").strip()
+        image = raw_image if raw_image.startswith(("http://", "https://")) else "../../" + raw_image
+        date_label = item["scheduledAt"][5:10].replace("-", ".")
+        visual = (
+            f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" width="1280" height="720" loading="lazy"/>'
+            if raw_image else
+            f'<div class="v31-upcoming-placeholder" role="img" aria-label="公式画像は未確認"><span>NEW RELEASE</span><strong>{date_label}</strong><small>OFFICIAL VISUAL PENDING</small></div>'
+        )
+        external = (
+            f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
+            if item.get("youtubeUrl") else ""
+        )
         body = (
             '<section class="v31-upcoming-detail" data-upcoming>'
-            f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定サムネイル" width="1280" height="720" loading="lazy"/>'
+            f'{visual}'
             '<div><p class="section-kicker">UPCOMING / NOT YET PUBLISHED</p>'
             f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["description"])}</p>'
             f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"].replace("T", " ")[:16]} JST</time>'
             '<p data-countdown data-release-at="' + item["scheduledAt"] + '"><strong data-countdown-output>公開予定時刻までを計算中</strong></p>'
             '<div class="explore-actions">'
-            f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
+            f'{external}'
             + (f'<a href="{item["shortsUrl"]}" target="_blank" rel="noopener noreferrer" data-source-section="release_shorts">公式Shortsを見る ↗</a>' if item.get("shortsUrl") else "")
             +
             f'<a href="../../artists/{item["artistSlug"]}/">Artist</a><a href="../../schedule/">Schedule</a>'
@@ -176,7 +198,7 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
         )
         page = shell(
             f'releases/{item["slug"]}/', f'{item["title"]}｜公開予定｜SUZUKA',
-            f'{item["artist"]}「{item["title"]}」は公式YouTubeで公開予定のAIアーティスト作品です。',
+            f'{item["artist"]}「{item["title"]}」は{item["scheduledAt"][:10]}リリース予定です。',
             item["title"], body, [], ("releases", "Releases"), page_type="WebPage",
         )
         page = page.replace('content="index, follow"', 'content="noindex, follow"')
@@ -802,6 +824,13 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
                 item.get("lyricsText", ""),
             ],
         })
+    for item in cms.get("upcoming", []):
+        if item.get("status") == "upcoming":
+            documents.append({
+                "type": "Upcoming", "contentType": "upcoming", "title": item["title"],
+                "description": item.get("description", ""), "url": f'releases/{item["slug"]}/',
+                "keywords": [item["artist"], *item.get("searchKeywords", []), "Upcoming", "リリース予定"],
+            })
     for artist in cms.get("artists", []):
         if artist.get("status") == "published":
             documents.append({
@@ -820,7 +849,7 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
         if item.get("status") == "published":
             documents.append({
                 "type": "News", "contentType": "news", "title": item["title"], "description": item.get("description", ""),
-                "url": f'news/{item["slug"]}/', "keywords": [item.get("artistSlug", ""), item.get("releaseSlug", "")],
+                "url": f'news/{item["slug"]}/', "keywords": [item.get("artistSlug", ""), item.get("releaseSlug", ""), *item.get("searchKeywords", [])],
             })
     for term in cms.get("wiki", {}).get("terms", []):
         documents.append({
@@ -969,6 +998,7 @@ def navigation_and_assets(root: Path) -> None:
         path.write_text(text, encoding="utf-8")
 
     css = """/* SUZUKA Creator Platform 3.1 */
+.v31-upcoming-placeholder{display:grid;place-content:center;gap:.6rem;min-height:14rem;padding:1.5rem;text-align:center;border:1px solid rgba(158,219,255,.4);border-radius:.8rem;background:radial-gradient(circle at 70% 25%,rgba(139,80,169,.3),transparent 42%),#0d0b12}.v31-upcoming-placeholder span,.v31-upcoming-placeholder small{color:#b8dcff;letter-spacing:.12em}.v31-upcoming-placeholder strong{font-size:clamp(2rem,6vw,4rem)}
 :root{--text-primary:#fff7fb;--text-secondary:#ddd3df;--text-muted:#c7bbc9;--text-on-dark:#fff7fb;--text-on-light:#153f72;--surface-dark:#070408;--surface-light:#f7fbff;--surface-overlay:rgba(8,6,10,.86);--border-contrast:#746c78;--link-color:#ffd1eb;--link-hover:#fff;--button-text:#fff;--focus-ring:#8fdcff;--muted:var(--text-muted)}
 body{color:var(--text-primary)}a:visited{color:inherit}a:hover{color:var(--link-hover)}:focus-visible{outline:3px solid var(--focus-ring);outline-offset:4px}input,select,textarea{color:var(--text-primary);border:1px solid var(--border-contrast);background:#101015}input::placeholder,textarea::placeholder{color:#b9afbd;opacity:1}button:disabled,[aria-disabled="true"]{color:#c9c0cd;border-color:#736b77;background:#262229;opacity:1}
 .explore-actions a,.v31-readable-cta{color:var(--button-text);border-color:var(--border-contrast);background:#211825}.explore-actions a:hover,.explore-actions a:focus-visible,.v31-readable-cta:hover,.v31-readable-cta:focus-visible{color:#08060a;border-color:#fff;background:#fff}.section-kicker,.explorer-section-heading>p,.v31-ai-badge{color:#ff9bd5}.explorer-muted,.explorer-data-note,.explorer-release-card p,.explorer-release-card time,.explorer-gallery-card p,.explorer-gallery-card span{color:var(--text-muted)}

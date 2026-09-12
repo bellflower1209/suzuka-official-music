@@ -64,6 +64,7 @@
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 好きってバレてもいい | 榎本魅愛 | https://www.youtube.com/watch?v=XP8yXMKFHVI | 4:34 | 好きってバレてもいい｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
+| Upcoming | Hello Hello Halloween | 榎本魅愛 |  | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 
 ## 百万告の実反映状況
 

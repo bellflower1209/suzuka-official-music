@@ -36,6 +36,9 @@ jobs:
           node --check assets/streaming-release.js
           node scripts/test_streaming_date.mjs
           python3 scripts/audit_streaming_release.py
+          python3 scripts/audit_mia_release_schedule.py
+          node --check assets/mia-release-schedule.js
+          node --check scripts/browser_mia_schedule_qa.mjs
           node --check assets/main.js
           node --check assets/explorer-update.js
           node --check scripts/browser_analytics_realtime_qa.mjs
