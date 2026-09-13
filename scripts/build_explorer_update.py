@@ -101,7 +101,8 @@ def artist_visual(artist: dict, prefix: str) -> str:
     image = str(artist.get("image") or "").strip()
     name = html.escape(artist["name"])
     if image:
-        return f'<img src="{prefix}{html.escape(image)}" alt="{name} 代表画像" loading="lazy"/>'
+        src = image if image.startswith(("https://", "http://")) else prefix + image
+        return f'<img src="{html.escape(src)}" alt="{name} 代表画像" loading="lazy"/>'
     return (
         f'<div class="v31-artist-image-placeholder" role="img" '
         f'aria-label="{name}の公式Artist画像は確認中">'
@@ -692,7 +693,7 @@ def universe_page(root: Path, releases: list[dict]) -> None:
             if representative else ""
         )
         artist_sections.append(
-            f'<article class="explorer-universe-artist" id="{slug}"><img src="../{artist["image"]}" '
+            f'<article class="explorer-universe-artist" id="{slug}"><img src="{html.escape(media_url(artist["image"], "../"))}" '
             f'alt="{html.escape(artist["name"])} 代表画像" loading="lazy"/><div>'
             f'<p class="section-kicker">{html.escape(artist["reading"])}</p><h2>{html.escape(artist["name"])}</h2>'
             f'<h3>世界観</h3><p>{html.escape(artist["world"])}</p>'
@@ -890,7 +891,7 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
                  "description": f'{artist["profile"]} 架空のAIアーティストです。',
                  "mainEntity": {"@id": f"{BASE}/artists/{slug}/#artist"}},
                 {"@type": artist["type"], "@id": f"{BASE}/artists/{slug}/#artist",
-                 "name": artist["name"], "image": f'{BASE}/{artist["image"]}',
+                 "name": artist["name"], "image": public_media_url(artist["image"]),
                  "description": f'{artist["world"]} SUZUKAの作品世界に登場する架空のAIアーティストです。'},
                 {"@type": "ItemList", "@id": f"{BASE}/artists/{slug}/#releases",
                  "numberOfItems": len(works), "itemListElement": [

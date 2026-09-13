@@ -53,22 +53,17 @@ def main() -> int:
     if sara_image.is_file() and hashlib.sha256(sara_image.read_bytes()).hexdigest() != SARA_IMAGE_SHA256:
         errors.append("橘紗良 profile image content mismatch")
 
-    hanon = artists.get("hoshimiya-hanon", {})
-    if hanon.get("affiliation") != "RE:VIVE" or hanon.get("type") != "Person":
-        errors.append("星宮羽音 Person/current affiliation mismatch")
-    miu = artists.get("hoshino-miu", {})
-    if miu.get("affiliation") != "ASTERIA" or "RE:VIVE" not in miu.get("formerAffiliations", []):
-        errors.append("星乃みう current/history affiliation mismatch")
+    for removed in ("hoshimiya-hanon", "hoshino-miu"):
+        if removed in artists:
+            errors.append(f"retired standalone artist remains: {removed}")
     asteria = artists["asteria"]
     miu_member = next((item for item in asteria.get("members", []) if item["name"] == "星乃みう"), {})
-    if miu_member.get("artistSlug") != "hoshino-miu":
-        errors.append("ASTERIA member link for 星乃みう is missing")
+    if not miu_member or miu_member.get("artistSlug"):
+        errors.append("ASTERIA member record for 星乃みう must remain without a standalone link")
 
     for slug, expected_type, affiliation in (
         ("revive", "MusicGroup", None),
         ("asteria", "MusicGroup", None),
-        ("hoshimiya-hanon", "Person", "RE:VIVE"),
-        ("hoshino-miu", "Person", "ASTERIA"),
     ):
         page = root / f"artists/{slug}/index.html"
         if not page.is_file():
@@ -96,8 +91,10 @@ def main() -> int:
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9", "i": "http://www.google.com/schemas/sitemap-image/1.1"}
     sitemap = {node.text for node in ET.parse(root / "sitemap.xml").findall("s:url/s:loc", namespace)}
     for slug in ("hoshimiya-hanon", "hoshino-miu"):
-        if f"{BASE}artists/{slug}/" not in sitemap:
-            errors.append(f"sitemap URL missing: {slug}")
+        if f"{BASE}artists/{slug}/" in sitemap:
+            errors.append(f"retired standalone artist remains in sitemap: {slug}")
+        if (root / f"artists/{slug}/index.html").exists():
+            errors.append(f"retired standalone artist page remains: {slug}")
     image_locations = {node.text for node in ET.parse(root / "image-sitemap.xml").findall(".//i:loc", namespace)}
     for image in IMAGES.values():
         if f"{BASE}{image}" not in image_locations:
@@ -111,8 +108,7 @@ def main() -> int:
         "currentMembers": EXPECTED,
         "profileImages": len(IMAGES),
         "artists": len(artists),
-        "hanonUrl": f"{BASE}artists/hoshimiya-hanon/",
-        "miuAffiliation": "ASTERIA",
+        "retiredStandaloneArtists": sorted(REMOVED for REMOVED in ("hoshimiya-hanon", "hoshino-miu")),
     }, ensure_ascii=False, indent=2))
     return 0
 

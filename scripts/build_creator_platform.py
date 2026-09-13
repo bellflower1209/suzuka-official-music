@@ -22,7 +22,8 @@ def artist_visual(artist: dict, prefix: str) -> str:
     image = str(artist.get("image") or "").strip()
     name = html.escape(artist["name"])
     if image:
-        return f'<img src="{prefix}{html.escape(image)}" alt="{name}の代表画像" loading="lazy"/>'
+        src = image if image.startswith(("https://", "http://")) else prefix + image
+        return f'<img src="{html.escape(src)}" alt="{name}の代表画像" loading="lazy"/>'
     return (
         f'<div class="v31-artist-image-placeholder" role="img" '
         f'aria-label="{name}の公式Artist画像は確認中">'

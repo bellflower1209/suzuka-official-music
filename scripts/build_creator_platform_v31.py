@@ -62,12 +62,13 @@ def artist_visual(artist: dict, prefix: str, *, loading: bool = False) -> str:
     image = str(artist.get("image") or "").strip()
     name = html.escape(artist["name"])
     if image:
+        src = image if image.startswith(("https://", "http://")) else prefix + image
         loading_attr = ' loading="lazy"' if loading else ""
         width = int(artist.get("imageWidth") or 1280)
         height = int(artist.get("imageHeight") or 720)
         alt = html.escape(str(artist.get("imageAlt") or f'{artist["name"]}代表画像'))
         return (
-            f'<img src="{prefix}{html.escape(image)}" alt="{alt}" '
+            f'<img src="{html.escape(src)}" alt="{alt}" '
             f'width="{width}" height="{height}"{loading_attr}/>'
         )
     return (
@@ -76,6 +77,11 @@ def artist_visual(artist: dict, prefix: str, *, loading: bool = False) -> str:
         '<span>OFFICIAL VISUAL</span><strong>IMAGE PENDING</strong>'
         '<small>確認済みの公式画像はまだ登録されていません。</small></div>'
     )
+
+
+def artist_image_url(artist: dict) -> str:
+    image = str(artist.get("image") or "").strip()
+    return image if image.startswith(("https://", "http://")) else f'{BASE}/{image.lstrip("/")}'
 
 
 def countdown_markup(item: dict, prefix: str = "") -> str:
@@ -729,7 +735,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             "sameAs": list(dict.fromkeys(url for url in (artist.get("youtubeUrl"), artist.get("instagramUrl"), artist.get("officialYoutubeUrl")) if url)),
         }
         if artist.get("image"):
-            artist_entity["image"] = f'{BASE}/{artist["image"]}'
+            artist_entity["image"] = artist_image_url(artist)
         if artist.get("affiliation"):
             affiliation_slug = next(
                 (item_slug for item_slug, item_value in artist_map.items() if item_value["name"] == artist["affiliation"]),
@@ -780,7 +786,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             f'artists/{slug}/', f'{artist["name"]}｜SUZUKA Original AI Artist',
             f'{artist["profile"]} 公開作品、Official MV、News、Galleryを紹介します。',
             artist["name"], body, graph, ("artists", "Artists"), page_type="WebPage",
-            og_image=f'{BASE}/{artist["image"]}' if artist.get("image") else None,
+            og_image=artist_image_url(artist) if artist.get("image") else None,
         )
         page = page.replace("</body>", '<script defer src="../../assets/creator-v31.js"></script></body>')
         write(root / f'artists/{slug}/index.html', page)

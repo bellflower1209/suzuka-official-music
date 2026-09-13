@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-09-12T00:00:00+09:00",
+  "updatedAt": "2026-09-13T00:00:00+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -72,7 +72,6 @@
           "name": "星乃みう",
           "role": "ダンスリーダー",
           "color": "スカイブルー",
-          "artistSlug": "hoshino-miu",
           "currentAffiliation": "ASTERIA"
         },
         {
@@ -140,7 +139,7 @@
       "name": "榎本魅愛",
       "reading": "ENOMOTO MIA",
       "type": "Person",
-      "image": "images/mv-mia.jpg",
+      "image": "https://i.ytimg.com/vi/vw1bP_5kZuM/maxresdefault.jpg",
       "world": "恋する瞬間のときめき、迷い、勇気を、色彩豊かな物語として歌う。",
       "music": "J-POP、ロマンティックポップ、バラードを軸に、日常の感情をまっすぐなメロディへ変える。",
       "profile": "恋するすべての瞬間を歌にする、SUZUKAのVirtual AI Artist。",
@@ -166,94 +165,19 @@
         "hanakotoba",
         "hajimemashite-kiseki"
       ],
-      "officialYoutubeUrl": "https://www.youtube.com/@enomotomia"
-    },
-    {
-      "slug": "hoshimiya-hanon",
-      "name": "星宮 羽音",
-      "reading": "ほしみや はのん",
-      "englishName": "Hoshimiya Hanon",
-      "stageName": "HANON",
-      "type": "Person",
-      "artistType": "Person",
-      "image": "images/revive-hanon-hoshimiya-profile.png",
-      "imageAlt": "RE:VIVE 星宮羽音 公式プロフィール",
-      "imageWidth": 1448,
-      "imageHeight": 1086,
-      "world": "RE:VIVEの希望と未来を照らす、星と新しい羽をモチーフとする存在。",
-      "music": "透明感あふれる歌声でRE:VIVEの楽曲を支えるボーカル。",
-      "profile": "透明感あふれる歌声で、RE:VIVEの希望と未来を照らす存在。素直で好奇心旺盛だが芯が強く、決めたことは曲げない。",
-      "birthday": "12月24日",
-      "age": 18,
-      "hometown": "千葉県",
-      "affiliation": "RE:VIVE",
-      "role": "最年少／透明感ボーカル",
-      "memberColor": "スノーホワイト",
-      "motif": "星と新しい羽",
-      "catchphrase": "小さな声でも、ちゃんと届くって信じてる。",
-      "status": "published",
-      "artistStatus": "published",
-      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
-      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
-      "searchKeywords": [
-        "星宮 羽音",
-        "星宮羽音",
-        "ほしみや はのん",
-        "HANON",
-        "Hoshimiya Hanon",
-        "RE:VIVE"
-      ],
-      "artistFeaturedTracks": [],
-      "homeFeatured": true,
-      "officialSource": "user-verified profile and official visual supplied 2026-08-19",
-      "seo": {
-        "title": "星宮羽音｜RE:VIVE｜SUZUKA Official Music",
-        "description": "RE:VIVEの最年少・透明感ボーカル、星宮羽音の公式プロフィール。SUZUKAの架空のAIアーティストです。"
-      }
-    },
-    {
-      "slug": "hoshino-miu",
-      "name": "星乃みう",
-      "reading": "ほしの みう",
-      "englishName": "Hoshino Miu",
-      "stageName": "MIU",
-      "type": "Person",
-      "artistType": "Person",
-      "image": "",
-      "world": "RE:VIVEでの活動履歴を経て、現在はASTERIAに所属する。",
-      "music": "ASTERIAではダンスリーダーを担当。",
-      "profile": "星乃みうは、過去にRE:VIVEのメンバーとして活動し、現在はASTERIAに所属するAIアーティスト。",
-      "affiliation": "ASTERIA",
-      "formerAffiliations": [
-        "RE:VIVE"
-      ],
-      "role": "ダンスリーダー",
-      "memberColor": "スカイブルー",
-      "status": "published",
-      "artistStatus": "published",
-      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
-      "instagramUrl": "https://www.instagram.com/suzuka12090511/",
-      "searchKeywords": [
-        "星乃みう",
-        "Hoshino Miu",
-        "MIU",
-        "ASTERIA",
-        "RE:VIVE"
-      ],
-      "artistFeaturedTracks": [],
-      "homeFeatured": true,
-      "officialSource": "user-verified current affiliation supplied 2026-08-19",
-      "seo": {
-        "title": "星乃みう｜ASTERIA｜SUZUKA Official Music",
-        "description": "ASTERIA所属の星乃みう公式プロフィール。RE:VIVE在籍時の活動履歴も保持しています。SUZUKAの架空のAIアーティストです。"
-      }
+      "officialYoutubeUrl": "https://www.youtube.com/@enomotomia",
+      "imageAlt": "榎本魅愛「Hello Hello Halloween」公式YouTubeビジュアル",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageSource": "https://www.youtube.com/watch?v=vw1bP_5kZuM",
+      "officialYoutubeChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
     },
     {
       "slug": "koga-kamishiro",
       "name": "神代煌牙",
       "reading": "KOGA KAMISHIRO",
       "type": "Person",
-      "image": "images/koga-kamishiro.webp",
+      "image": "https://i.ytimg.com/vi/g_SmyjPGIfc/maxresdefault.jpg",
       "world": "大切な人を守る黒の騎士。静けさの奥にある誓いと、消えない記憶を描く。",
       "music": "シネマティックJ-POP、ロック、ダークポップを融合した重厚な物語音楽。",
       "profile": "愛する人を守るために歌う、SUZUKAの男性ソロAIアーティスト。",
@@ -275,14 +199,18 @@
         "akuyaku-de-ii",
         "wakareta-michi",
         "one-more-kiss"
-      ]
+      ],
+      "imageAlt": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」公式YouTubeビジュアル",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageSource": "https://www.youtube.com/watch?v=g_SmyjPGIfc"
     },
     {
       "slug": "michiru",
       "name": "妃みちる",
       "reading": "妃みちる",
       "type": "Person",
-      "image": "",
+      "image": "https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg",
       "world": "過去の大切な人への感謝と、今の幸せを見つめる物語。",
       "music": "最新曲「世代を超えてママへ」をはじめ、人生、家族、恋や友情の物語を届ける。",
       "profile": "9月8日生まれ、30歳のSUZUKAソロAIアーティスト。",
@@ -310,7 +238,11 @@
         "updown",
         "friendlikesong"
       ],
-      "officialSource": "https://www.youtube.com/watch?v=CPIDy31wnc4"
+      "officialSource": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "imageAlt": "妃みちる「世代を超えてママへ」公式YouTubeビジュアル",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageSource": "https://www.youtube.com/watch?v=Hho3xHOw8pg"
     },
     {
       "slug": "nox",
@@ -444,7 +376,6 @@
           "name": "星宮 羽音",
           "reading": "ほしみや はのん",
           "stageName": "HANON",
-          "artistSlug": "hoshimiya-hanon",
           "role": "最年少／透明感ボーカル",
           "color": "スノーホワイト",
           "motif": "星と新しい羽",
@@ -6593,10 +6524,10 @@
     "events": []
   },
   "youtubeSnapshot": {
-    "officialVideos": 72,
-    "shorts": 48,
-    "verifiedAt": "2026-09-08T01:05:00+09:00",
-    "source": "公式YouTube videos/shortsタブ・各動画の公開メタデータを照合",
+    "officialVideos": 79,
+    "shorts": 54,
+    "verifiedAt": "2026-09-13T00:00:00+09:00",
+    "source": "SUZUKA公式YouTubeと榎本魅愛Official YouTubeのvideos/shortsタブを照合",
     "shortVideos": [
       {
         "videoId": "Fw-JEWaKwdM",
@@ -6852,8 +6783,28 @@
         "description": "SUZUKA新アーティスト・妃みちるのDebut Single『たった1人の君へ』を2026年8月17日20:00に公開することを告知する公式Shorts。"
       }
     ],
-    "totalPublishedVideos": 120,
-    "scheduledVideos": []
+    "totalPublishedVideos": 133,
+    "scheduledVideos": [],
+    "channels": [
+      {
+        "name": "SUZUKA",
+        "role": "Label / Project Official",
+        "channelUrl": "https://www.youtube.com/@suzuka1209",
+        "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+        "officialVideos": 75,
+        "shorts": 52,
+        "totalPublishedVideos": 127
+      },
+      {
+        "name": "榎本魅愛",
+        "role": "Artist Official",
+        "channelUrl": "https://www.youtube.com/@enomotomia",
+        "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialVideos": 4,
+        "shorts": 2,
+        "totalPublishedVideos": 6
+      }
+    ]
   },
   "photobooks": {
     "source": "assets/data/photobooks.json",

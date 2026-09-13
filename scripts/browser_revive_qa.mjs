@@ -3,7 +3,7 @@
 
 const cdpPort = process.env.CDP_PORT || "9223";
 const base = (process.argv[2] || "http://127.0.0.1:8765/").replace(/\/?$/, "/");
-const routes = ["artists/", "artists/revive/", "artists/hoshimiya-hanon/", "artists/hoshino-miu/", "artists/asteria/", "wiki/artists/"];
+const routes = ["artists/", "artists/revive/", "artists/asteria/", "wiki/artists/"];
 const sizes = [{width:390,height:844},{width:768,height:1024},{width:1280,height:900}];
 const targets = await (await fetch(`http://127.0.0.1:${cdpPort}/json`)).json();
 const target = targets.find(item => item.type === "page");
