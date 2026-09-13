@@ -1035,6 +1035,8 @@ def main() -> None:
     build_karaoke(ROOT)
     from build_mia_release_schedule import build as build_mia_release_schedule
     build_mia_release_schedule(ROOT)
+    from build_scheduled_linkcore import build as build_scheduled_linkcore
+    build_scheduled_linkcore(ROOT)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,

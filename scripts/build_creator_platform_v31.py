@@ -99,6 +99,10 @@ def countdown_markup(item: dict, prefix: str = "") -> str:
         f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
         if item.get("youtubeUrl") else ""
     )
+    linkcore = (
+        f'<a href="{html.escape(item["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCoreで配信情報を見る ↗</a>'
+        if item.get("linkcoreUrl") else ""
+    )
     return (
         f'<article class="v31-countdown-card" data-countdown data-release-at="{item["scheduledAt"]}" '
         f'data-upcoming data-release-slug="{item["slug"]}">'
@@ -108,6 +112,7 @@ def countdown_markup(item: dict, prefix: str = "") -> str:
         '<p class="v31-countdown" data-countdown-output>公開予定時刻までを計算中</p>'
         '<div class="explore-actions">'
         f'{external}'
+        f'{linkcore}'
         f'<a href="{prefix}releases/{item["slug"]}/">作品ページ</a>'
         f'<a href="{prefix}schedule/">スケジュール</a></div></div></article>'
     )
@@ -188,6 +193,10 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
             f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">公式YouTube予約 ↗</a>'
             if item.get("youtubeUrl") else ""
         )
+        linkcore = (
+            f'<a href="{html.escape(item["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCoreで配信情報を見る ↗</a>'
+            if item.get("linkcoreUrl") else ""
+        )
         body = (
             '<section class="v31-upcoming-detail" data-upcoming>'
             f'{visual}'
@@ -197,6 +206,7 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
             '<p data-countdown data-release-at="' + item["scheduledAt"] + '"><strong data-countdown-output>公開予定時刻までを計算中</strong></p>'
             '<div class="explore-actions">'
             f'{external}'
+            f'{linkcore}'
             + (f'<a href="{item["shortsUrl"]}" target="_blank" rel="noopener noreferrer" data-source-section="release_shorts">公式Shortsを見る ↗</a>' if item.get("shortsUrl") else "")
             +
             f'<a href="../../artists/{item["artistSlug"]}/">Artist</a><a href="../../schedule/">Schedule</a>'

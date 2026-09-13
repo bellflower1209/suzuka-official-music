@@ -9,7 +9,51 @@
       "scheduledAt": "2026-09-21T00:00:00+09:00",
       "releaseDate": "2026-09-21",
       "status": "upcoming",
-      "source": "user-confirmed-tunecore-management-screen"
+      "source": "user-confirmed-tunecore-management-screen",
+      "linkcoreUrl": "https://linkco.re/QfzZUy6f",
+      "searchKeywords": [
+        "LinkCore",
+        "配信",
+        "2026年9月21日"
+      ]
+    },
+    {
+      "slug": "september-blue",
+      "title": "September Blue",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-22T00:00:00+09:00",
+      "releaseDate": "2026-09-22",
+      "status": "upcoming",
+      "source": "user-provided LinkCore release page",
+      "linkcoreUrl": "https://linkco.re/HCvApf7V",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "September Blue",
+        "LinkCore",
+        "配信",
+        "2026年9月22日"
+      ]
+    },
+    {
+      "slug": "over-drive",
+      "title": "Over Drive",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-22T00:00:00+09:00",
+      "releaseDate": "2026-09-22",
+      "status": "upcoming",
+      "source": "user-provided LinkCore release page",
+      "linkcoreUrl": "https://linkco.re/3tHVbvXs",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Over Drive",
+        "LinkCore",
+        "配信",
+        "2026年9月22日"
+      ]
     }
   ]
 }

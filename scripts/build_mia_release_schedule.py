@@ -57,9 +57,11 @@ def build_news(root: Path, schedule: dict) -> None:
         '<h2>「百万告」<br>「Hello Hello Halloween」</h2>'
         '<p>が、2026年9月21日にリリース予定です。</p>'
         '<p>9月11日の「花言葉」Streaming Release、9月18日のJOYSOUNDカラオケ配信から続く、榎本魅愛の9月の活動としてお知らせします。</p>'
-        '<p>配信先URL、各配信ストア、追加クレジットは、正式情報の確認後にご案内します。</p>'
+        '<p>配信情報は、確認済みの公式LinkCoreページからご確認いただけます。</p>'
         '<div class="explore-actions"><a href="../../releases/hyakumankoku/">百万告</a>'
+        '<a href="https://linkco.re/Qd5Tzb0q" target="_blank" rel="noopener noreferrer">百万告 LinkCore ↗</a>'
         '<a href="../../releases/hello-hello-halloween/">Hello Hello Halloween</a>'
+        '<a href="https://linkco.re/QfzZUy6f" target="_blank" rel="noopener noreferrer">Hello Hello Halloween LinkCore ↗</a>'
         '<a href="../../releases/hanakotoba/">花言葉</a>'
         '<a href="../hanakotoba-joysound-karaoke/">JOYSOUND NEWS</a></div></section>'
     )

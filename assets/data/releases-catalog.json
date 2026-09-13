@@ -6234,7 +6234,10 @@
         "J-POP",
         "ロマンティックポップ",
         "恋愛",
-        "取り扱いチュー💋い"
+        "取り扱いチュー💋い",
+        "LinkCore",
+        "配信",
+        "2026年9月21日"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「取り扱いチュー💋い」のSUZUKA公式作品ページ。",
@@ -6272,6 +6275,14 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-09-21",
+        "timezone": "Asia/Tokyo",
+        "label": "SUZUKA",
+        "status": "upcoming",
+        "source": "user-provided LinkCore release page",
+        "linkcoreUrl": "https://linkco.re/9r6szVDg"
+      },
       "recommendations": {
         "sameArtist": [
           "yume-to-kaigo-to-watashitachi",
@@ -7862,7 +7873,9 @@
         "百万告",
         "2026年9月21日",
         "Streaming Release",
-        "TuneCore"
+        "TuneCore",
+        "LinkCore",
+        "配信"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
@@ -7906,7 +7919,7 @@
         "label": "SUZUKA",
         "status": "upcoming",
         "source": "user-confirmed-tunecore-management-screen",
-        "linkcoreUrl": null
+        "linkcoreUrl": "https://linkco.re/Qd5Tzb0q"
       },
       "recommendations": {
         "sameArtist": [
@@ -7969,7 +7982,51 @@
       "scheduledAt": "2026-09-21T00:00:00+09:00",
       "releaseDate": "2026-09-21",
       "status": "upcoming",
-      "source": "user-confirmed-tunecore-management-screen"
+      "source": "user-confirmed-tunecore-management-screen",
+      "linkcoreUrl": "https://linkco.re/QfzZUy6f",
+      "searchKeywords": [
+        "LinkCore",
+        "配信",
+        "2026年9月21日"
+      ]
+    },
+    {
+      "slug": "september-blue",
+      "title": "September Blue",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-22T00:00:00+09:00",
+      "releaseDate": "2026-09-22",
+      "status": "upcoming",
+      "source": "user-provided LinkCore release page",
+      "linkcoreUrl": "https://linkco.re/HCvApf7V",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "September Blue",
+        "LinkCore",
+        "配信",
+        "2026年9月22日"
+      ]
+    },
+    {
+      "slug": "over-drive",
+      "title": "Over Drive",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "scheduledAt": "2026-09-22T00:00:00+09:00",
+      "releaseDate": "2026-09-22",
+      "status": "upcoming",
+      "source": "user-provided LinkCore release page",
+      "linkcoreUrl": "https://linkco.re/3tHVbvXs",
+      "searchKeywords": [
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Over Drive",
+        "LinkCore",
+        "配信",
+        "2026年9月22日"
+      ]
     }
   ]
 }

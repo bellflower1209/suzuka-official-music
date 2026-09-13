@@ -64,9 +64,11 @@
     ]
   },
   "upcoming": {
-    "count": 1,
+    "count": 3,
     "items": [
-      "Hello Hello Halloween"
+      "Hello Hello Halloween",
+      "Over Drive",
+      "September Blue"
     ]
   },
   "publishedLyrics": {
