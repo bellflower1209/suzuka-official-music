@@ -9,6 +9,7 @@
     const kind = item.dataset.activityKind;
     if (!status || !date) return;
     if (kind === 'KARAOKE / JOYSOUND') status.textContent = today() >= date ? kind : `${kind} · COMING ${date.slice(5).replace('-', '.')}`;
+    else if (kind === 'STREAMING RELEASE') status.textContent = today() >= date ? 'STREAMING RELEASE · 配信状況はLinkCoreへ' : `${kind} · COMING ${date.slice(5).replace('-', '.')}`;
     else if (kind === 'NEW RELEASE') status.textContent = today() >= date ? 'NOW STREAMING' : `${kind} · COMING ${date.slice(5).replace('-', '.')}`;
     else status.textContent = kind;
   });

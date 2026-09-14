@@ -23,7 +23,9 @@ def schedule_panel(schedule: dict, prefix: str, *, compact: bool) -> str:
             f'data-activity-date="{activity["date"]}" data-activity-kind="{html.escape(activity["kind"])}">'
             f'<time datetime="{activity["date"]}">{month_day}</time><span>'
             f'<strong>{html.escape(activity["title"])}</strong>'
-            f'<small data-activity-status>{html.escape(activity["kind"])}</small></span></a>'
+            f'<small data-activity-status>{html.escape(activity["kind"])}</small>'
+            + (f'<small>OFFICIAL RELEASE {activity["officialReleaseDate"].replace("-", ".")}</small>' if activity.get("officialReleaseDate") else "")
+            + '</span></a>'
         )
     klass = " mia-release-schedule-compact" if compact else ""
     return (
@@ -31,7 +33,7 @@ def schedule_panel(schedule: dict, prefix: str, *, compact: bool) -> str:
         '<header><p>ENOMOTO MIA</p><h2 id="mia-release-schedule-title">SEPTEMBER RELEASES</h2>'
         '<span>Asia / Tokyo</span></header>'
         f'<div class="mia-schedule-grid">{"".join(cards)}</div>'
-        f'<a class="mia-schedule-news" href="{prefix}{schedule["newsUrl"]}">9月21日 2作品リリースNEWSを見る ↗</a>'
+        f'<a class="mia-schedule-news" href="{prefix}{schedule["newsUrl"]}">9月21日 ストリーミング配信NEWSを見る ↗</a>'
         f'</section>{END}'
     )
 
@@ -53,9 +55,9 @@ def build_news(root: Path, schedule: dict) -> None:
     path = root / "news" / slug / "index.html"
     text = path.read_text(encoding="utf-8")
     body = (
-        '<section class="mia-campaign-news"><p>榎本魅愛の新たな2作品</p>'
+        '<section class="mia-campaign-news"><p>榎本魅愛の2作品がストリーミング配信へ</p>'
         '<h2>「百万告」<br>「Hello Hello Halloween」</h2>'
-        '<p>が、2026年9月21日にリリース予定です。</p>'
+        '<p>が、2026年9月21日にストリーミング配信予定です。</p><p>「百万告」のSUZUKA作品公開日は2026年7月12日です。作品公開日とストリーミング配信日は異なります。</p>'
         '<p>9月11日の「花言葉」Streaming Release、9月18日のJOYSOUNDカラオケ配信から続く、榎本魅愛の9月の活動としてお知らせします。</p>'
         '<p>配信情報は、確認済みの公式LinkCoreページからご確認いただけます。</p>'
         '<div class="explore-actions"><a href="../../releases/hyakumankoku/">百万告</a>'

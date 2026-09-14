@@ -12,24 +12,31 @@ ws.onmessage=event=>{const message=JSON.parse(event.data);if(message.id){const t
 const send=(method,params={})=>{const requestId=++id;ws.send(JSON.stringify({id:requestId,method,params}));return new Promise((resolve,reject)=>pending.set(requestId,{resolve,reject}));};
 const evaluate=async expression=>(await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true})).result.value;
 await send('Page.enable');await send('Runtime.enable');await send('Network.enable');await send('Network.setCacheDisabled',{cacheDisabled:true});
-const routes=['','artists/enomoto-mia/','news/enomoto-mia-september-21-double-release/','releases/hello-hello-halloween/','schedule/','search/?q=Hello%20Hello%20Halloween','search/?q=百万告','search/?q=JOYSOUND','search/?q=カラオケ'];
-const results=[];fs.mkdirSync('/private/tmp/suzuka-mia-schedule-qa',{recursive:true});
+const routes=['artists/koga-kamishiro/','releases/mahou-ga-toketemo/','releases/hyakumankoku/','search/?q=神代煌牙','search/?q=魔法が解けても','search/?q=榎本魅愛','search/?q=Streaming%20Release','search/?q=Over%20Drive','search/?q=September%20Blue','','artists/enomoto-mia/','news/enomoto-mia-september-21-double-release/','releases/hello-hello-halloween/','schedule/','search/?q=Hello%20Hello%20Halloween','search/?q=百万告','search/?q=JOYSOUND','search/?q=カラオケ'];
+const results=[];fs.mkdirSync('/private/tmp/suzuka-postpublication-qa',{recursive:true});
 for(const width of [390,768,1280])for(const route of routes){
   await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width===390});
   await send('Page.navigate',{url:new URL(route,base).href});
   for(let tick=0;tick<80;tick++){if(await evaluate("document.readyState==='complete'"))break;await new Promise(resolve=>setTimeout(resolve,100));}
-  await evaluate("Promise.race([Promise.all([...document.images].map(image=>image.decode().catch(()=>{}))),new Promise(resolve=>setTimeout(resolve,800))])");
+  await evaluate("document.querySelectorAll('img[loading=lazy]').forEach(image=>image.loading='eager')");
+  await evaluate("Promise.race([Promise.all([...document.images].map(image=>image.decode().catch(()=>{}))),new Promise(resolve=>setTimeout(resolve,8000))])");
   if(route.startsWith('search/?q='))await new Promise(resolve=>setTimeout(resolve,300));
   const result=await evaluate(`(()=>{const player=document.querySelector('.suzuka-music-player');const panel=document.querySelector('.mia-release-schedule');const playerRect=player?.getBoundingClientRect();const panelRect=panel?.getBoundingClientRect();const hit=(a,b)=>!!a&&!!b&&a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;return {overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,brokenImages:[...document.images].filter(image=>!image.complete||image.naturalWidth===0).map(image=>image.src),autoplay:document.querySelectorAll('[autoplay],iframe[src*="autoplay=1"]').length,player:!!player,playerOverlap:hit(playerRect,panelRect),scheduleItems:panel?.querySelectorAll('.mia-schedule-item').length||0,searchText:document.querySelector('[data-v31-search-results]')?.textContent||'',musicRecording:document.body.textContent.includes('MusicRecording')}})()`);
   assert.equal(result.overflow,0,JSON.stringify({route,width,result}));
+  assert.deepEqual(result.brokenImages,[],route);
   assert.equal(result.autoplay,0,route);assert.equal(result.player,true,route);assert.equal(result.playerOverlap,false,route);
   if(route===''||route==='artists/enomoto-mia/')assert.equal(result.scheduleItems,6,route);
   if(route.startsWith('search/?q='))assert.ok(result.searchText.trim()&&!result.searchText.includes('該当する公式コンテンツはありません'),route);
-  results.push({route,width,...result});
-  if(width===390&&['','artists/enomoto-mia/','news/enomoto-mia-september-21-double-release/'].includes(route)){
+  await evaluate("window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'})");
+  await new Promise(resolve=>setTimeout(resolve,150));
+  const bottom=await evaluate(`(()=>{const player=document.querySelector('.suzuka-music-player')?.getBoundingClientRect();const links=[...document.querySelectorAll('footer a,.site-footer a')].filter(n=>n.getBoundingClientRect().height);const last=links.at(-1)?.getBoundingClientRect();return {playerTop:player?.top,lastBottom:last?.bottom,overlap:!!player&&!!last&&last.bottom>player.top&&last.top<player.bottom};})()`);
+  assert.equal(bottom.overlap,false,JSON.stringify({route,width,bottom}));
+  await evaluate("window.scrollTo({top:0,behavior:'instant'})");
+  results.push({route,width,...result,bottom});
+  if(width===390&&['','artists/enomoto-mia/','artists/koga-kamishiro/','schedule/','releases/mahou-ga-toketemo/','releases/hyakumankoku/'].includes(route)){
     if(result.scheduleItems){await evaluate("(()=>{const element=document.querySelector('.mia-release-schedule');window.scrollTo({top:element.offsetTop-80,behavior:'instant'});})()");await new Promise(resolve=>setTimeout(resolve,300));}
     const screenshot=await send('Page.captureScreenshot',{format:'png'});
-    fs.writeFileSync(`/private/tmp/suzuka-mia-schedule-qa/${route.replaceAll('/','-')||'home'}-${width}.png`,Buffer.from(screenshot.data,'base64'));
+    fs.writeFileSync(`/private/tmp/suzuka-postpublication-qa/${route.replaceAll('/','-')||'home'}-${width}.png`,Buffer.from(screenshot.data,'base64'));
   }
 }
 const statuses=async instant=>{
@@ -40,6 +47,20 @@ const statuses=async instant=>{
 };
 assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
 assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','NOW STREAMING','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+for(const timezoneId of ['Asia/Tokyo','America/Los_Angeles','UTC']) {
+  await send('Emulation.setTimezoneOverride',{timezoneId});
+  for(const instant of ['2026-09-14T00:00:00+09:00','2026-09-21T00:00:00+09:00']) {
+    const {identifier}=await send('Page.addScriptToEvaluateOnNewDocument',{source:`{const RealDate=Date;window.Date=class extends RealDate{constructor(...args){super(...(args.length?args:[${JSON.stringify(instant)}]));}static now(){return new RealDate(${JSON.stringify(instant)}).getTime();}};}`});
+    await send('Page.navigate',{url:new URL('schedule/',base).href});
+    await new Promise(resolve=>setTimeout(resolve,800));
+    const group=instant.startsWith('2026-09-14')?'next-week':'this-week';
+    const slugs=await evaluate(`[...document.querySelectorAll('#${group} [data-release-slug]')].map(n=>n.dataset.releaseSlug)`);
+    assert.ok(slugs.includes('over-drive')&&slugs.includes('september-blue'),JSON.stringify({timezoneId,instant,slugs}));
+    const helloGroup=instant.startsWith('2026-09-14')?'next-week':'today';
+    assert.ok(await evaluate(`!!document.querySelector('#${helloGroup} [data-release-slug="hello-hello-halloween"]')`));
+    await send('Page.removeScriptToEvaluateOnNewDocument',{identifier});
+  }
+}
 assert.deepEqual(errors,[]);ws.close();
-fs.writeFileSync('/private/tmp/suzuka-mia-schedule-qa/results.json',JSON.stringify({base,views:results.length,results,errors,dateBoundary:'passed'},null,2));
-console.log(`MIA schedule browser QA passed: ${results.length} views, 390/768/1280, date boundary, no overflow/image/JS/autoplay/player overlap errors.`);
+fs.writeFileSync('/private/tmp/suzuka-postpublication-qa/results.json',JSON.stringify({base,views:results.length,results,errors,dateBoundary:'passed'},null,2));
+console.log(`Postpublication browser QA passed: ${results.length} views, 390/768/1280, date boundary, no overflow/image/JS/autoplay/player overlap errors.`);

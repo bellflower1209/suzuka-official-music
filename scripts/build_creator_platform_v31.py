@@ -9,6 +9,7 @@ import json
 import re
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from build_explorer_update import BASE, card, dump, shell, write
 from build_creator_platform import analytics as install_analytics
@@ -118,16 +119,41 @@ def countdown_markup(item: dict, prefix: str = "") -> str:
     )
 
 
+def coming_soon_card(item: dict, prefix: str) -> str:
+    return (
+        '<article class="v31-countdown-card" data-upcoming>'
+        '<div><p class="section-kicker">UPCOMING</p><strong>COMING SOON</strong></div><div>'
+        f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
+        '<p>リリース日は確認でき次第お知らせします。</p><div class="explore-actions">'
+        f'<a href="{prefix}releases/{item["slug"]}/">作品ページ</a>'
+        f'<a href="{prefix}artists/{item["artistSlug"]}/">Artist</a></div></div></article>'
+    )
+
+
+def coming_soon_pages(root: Path, cms: dict) -> None:
+    for item in cms.get("comingSoon", []):
+        page = shell(
+            f'releases/{item["slug"]}/', f'{item["title"]}｜COMING SOON｜SUZUKA',
+            f'{item["artist"]}「{item["title"]}」はUpcoming。リリース日は確認でき次第お知らせします。',
+            item["title"], '<section class="v31-schedule-group">' + coming_soon_card(item, "../../").replace(f'<a href="../../releases/{item["slug"]}/">作品ページ</a>', "") +
+            '<p><a href="../../schedule/#coming-soon">SUZUKA Upcomingを見る</a></p></section>',
+            [], ("releases", "Releases"), page_type="WebPage",
+        )
+        write(root / f'releases/{item["slug"]}/index.html', page.replace('content="index, follow"', 'content="noindex, follow"'))
+
+
 def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[dict]) -> None:
-    today = date.fromisoformat(cms["updatedAt"][:10])
+    today = datetime.fromisoformat(cms["updatedAt"]).astimezone(ZoneInfo("Asia/Tokyo")).date()
     current_week_end = today + timedelta(days=6 - today.weekday())
     next_week_end = current_week_end + timedelta(days=7)
     buckets: dict[str, list[dict]] = {
-        "Today": [], "This Week": [], "Next Week": [], "This Month": [],
+        "Today": [], "This Week": [], "Next Week": [], "This Month": [], "Later": [], "Awaiting Confirmation": [],
     }
     for item in sorted(upcoming, key=lambda x: (x["scheduledAt"], x["slug"])):
-        scheduled = date.fromisoformat(item["scheduledAt"][:10])
-        if scheduled == today:
+        scheduled = datetime.fromisoformat(item["scheduledAt"]).astimezone(ZoneInfo("Asia/Tokyo")).date()
+        if scheduled < today:
+            buckets["Awaiting Confirmation"].append(item)
+        elif scheduled == today:
             buckets["Today"].append(item)
         elif today < scheduled <= current_week_end:
             buckets["This Week"].append(item)
@@ -135,6 +161,8 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
             buckets["Next Week"].append(item)
         elif scheduled.year == today.year and scheduled.month == today.month:
             buckets["This Month"].append(item)
+        else:
+            buckets["Later"].append(item)
     sections = []
     item_nodes = []
     position = 0
@@ -152,6 +180,25 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
                 "@type": "ListItem", "position": position,
                 "name": item["title"], "url": f'{BASE}/releases/{item["slug"]}/',
             })
+    streaming_cards = []
+    for item in cms["releases"]:
+        streaming = item.get("scheduledStreamingRelease") or {}
+        if not streaming.get("releaseDate"):
+            continue
+        streaming_cards.append(
+            '<article class="v31-countdown-card"><div><p class="section-kicker">STREAMING RELEASE</p>'
+            f'<time datetime="{streaming["releaseDate"]}">{streaming["releaseDate"].replace("-", ".")}</time></div><div>'
+            f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
+            f'<p>OFFICIAL RELEASE · {item["releaseDate"].replace("-", ".")} · SUZUKA作品公開</p>'
+            f'<div class="explore-actions"><a href="../{item["releaseUrl"]}">作品・配信情報を見る</a></div></div></article>'
+        )
+    if streaming_cards:
+        sections.append('<section class="v31-schedule-group" id="streaming-releases"><h2>Streaming Release</h2>'
+                        '<p>公開済み作品のストリーミング配信日。作品の初回公開日とは区別しています。</p>'
+                        '<div class="v31-schedule-list">' + "".join(streaming_cards) + '</div></section>')
+    if cms.get("comingSoon"):
+        sections.append('<section class="v31-schedule-group" id="coming-soon"><h2>Upcoming / Coming Soon</h2><div class="v31-schedule-list">'
+                        + "".join(coming_soon_card(item, "../") for item in cms["comingSoon"]) + '</div></section>')
     recent = [
         item for item in releases
         if 0 <= (today - date.fromisoformat(item["releaseDate"])).days <= 14
@@ -166,7 +213,7 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
         "numberOfItems": len(item_nodes), "itemListElement": item_nodes,
     }]
     body = (
-        '<section class="creator-copy"><p>JST基準の公式YouTube公開予定と、最近の公開作品を表示します。'
+        '<section class="creator-copy"><p>SUZUKA全Artistの公開予定と、最近の公開作品を表示します。Asia/Tokyo（JST）基準・月曜始まりです。'
         '時刻を迎えただけでは公開済みに変更しません。</p></section>'
         + "".join(sections)
     )
@@ -175,7 +222,7 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
         "SUZUKAのAIアーティスト作品の公開予定と最近の公開作品をJSTで確認できます。",
         "RELEASE SCHEDULE", body, graph, page_type="CollectionPage",
     )
-    page = page.replace("</body>", '<script defer src="../assets/creator-v31.js"></script></body>')
+    page = page.replace("</body>", '<script defer src="../assets/creator-v31.js"></script><script defer src="../assets/release-schedule.js"></script></body>')
     write(root / "schedule/index.html", page)
 
 
@@ -201,7 +248,7 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
             '<section class="v31-upcoming-detail" data-upcoming>'
             f'{visual}'
             '<div><p class="section-kicker">UPCOMING / NOT YET PUBLISHED</p>'
-            f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item.get("description") or f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。')}</p>'
+            f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item.get("description") or (f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。' if item.get("releaseDate") else f'{item["artist"]}「{item["title"]}」はCOMING SOON。リリース日は確認でき次第お知らせします。'))}</p>'
             f'<time datetime="{item["scheduledAt"]}">{item["scheduledAt"].replace("T", " ")[:16]} JST</time>'
             '<p data-countdown data-release-at="' + item["scheduledAt"] + '"><strong data-countdown-output>公開予定時刻までを計算中</strong></p>'
             '<div class="explore-actions">'
@@ -629,7 +676,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             f'<a href="{artist["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>' if artist.get("youtubeUrl") else "",
             f'<a href="{artist["instagramUrl"]}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>' if artist.get("instagramUrl") else "",
         ])
-        upcoming_html = "".join(countdown_markup(item, "../../") for item in artist_upcoming) or '<p class="v31-empty">現在確認済みのUpcomingはありません。</p>'
+        upcoming_html = ("".join(countdown_markup(item, "../../") for item in artist_upcoming) + "".join(coming_soon_card(item, "../../") for item in cms.get("comingSoon", []) if item["artistSlug"] == slug)) or '<p class="v31-empty">現在確認済みのUpcomingはありません。</p>'
         release_shorts = [item for item in works if item.get("shortsUrl")]
         artist_shorts = [item for item in verified_shorts if item.get("artistSlug") == slug]
         news = [item for item in works if item.get("newsUrl")][:3]
@@ -840,11 +887,11 @@ def search_v31(root: Path, cms: dict, releases: list[dict], lyrics: list[dict], 
                 item.get("lyricsText", ""),
             ],
         })
-    for item in cms.get("upcoming", []):
+    for item in cms.get("upcoming", []) + cms.get("comingSoon", []):
         if item.get("status") == "upcoming":
             documents.append({
                 "type": "Upcoming", "contentType": "upcoming", "title": item["title"],
-                "description": item.get("description") or f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。', "url": f'releases/{item["slug"]}/',
+                "description": item.get("description") or (f'{item["artist"]}「{item["title"]}」は{item["releaseDate"]}リリース予定です。' if item.get("releaseDate") else f'{item["artist"]}「{item["title"]}」はCOMING SOON。リリース日は確認でき次第お知らせします。'), "url": f'releases/{item["slug"]}/',
                 "keywords": [item["artist"], *item.get("searchKeywords", []), "Upcoming", "リリース予定"],
             })
     for artist in cms.get("artists", []):
@@ -933,6 +980,7 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
         '<section class="v31-home-next"><div class="explorer-home-heading"><h2>Next Release</h2>'
         '<a href="./schedule/">公開スケジュール ↗</a></div>'
         + (countdown_markup(next_release, "./") if next_release else '<p class="v31-empty">確認済みの次回公開予定はありません。</p>')
+        + ('<h2>SUZUKA Upcoming / Coming Soon</h2>' + "".join(coming_soon_card(item, "./") for item in cms.get("comingSoon", [])) if cms.get("comingSoon") else "")
         + '</section>'
     )
     marker = '<section class="upcoming-section"'
@@ -1136,6 +1184,7 @@ def main() -> None:
     upcoming = [item for item in cms.get("upcoming", []) if item.get("status") == "upcoming"]
     schedule_page(root, cms, releases, upcoming)
     upcoming_pages(root, upcoming)
+    coming_soon_pages(root, cms)
     lyrics = lyrics_pages(root, releases)
     lyrics_crosslinks(root, lyrics)
     photobooks = photobook_pages(root, cms, releases)
@@ -1151,7 +1200,7 @@ def main() -> None:
     analytics_v31(root)
     print(json.dumps({
         "version": "3.1", "artists": len(cms["artists"]), "releases": len(releases),
-        "upcoming": len(upcoming), "lyrics": len(lyrics), "photobooks": len(photobooks),
+        "upcoming": len(upcoming), "comingSoon": len(cms.get("comingSoon", [])), "lyrics": len(lyrics), "photobooks": len(photobooks),
         "ga4Data": rankings["ga4DataAvailable"], "youtubeData": rankings["youtubeDataAvailable"],
     }, ensure_ascii=False))
 

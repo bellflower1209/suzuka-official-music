@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-09-13T00:00:00+09:00",
+  "updatedAt": "2026-09-14T00:00:00+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -5798,10 +5798,10 @@
   "news": [
     {
       "slug": "enomoto-mia-september-21-double-release",
-      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をリリース",
+      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をストリーミング配信",
       "artistSlug": "enomoto-mia",
       "publishedAt": "2026-09-12T00:00:00+09:00",
-      "description": "榎本魅愛の「百万告」「Hello Hello Halloween」が2026年9月21日にリリース予定。9月11日の「花言葉」Streaming Release、9月18日のJOYSOUND配信から続く9月の活動をお知らせします。",
+      "description": "榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信予定。「百万告」のSUZUKA作品公開日は2026年7月12日です。花言葉の配信・JOYSOUNDに続く9月の活動をお知らせします。",
       "image": "og.png",
       "status": "published",
       "miaCampaignAnnouncement": true,
@@ -6941,8 +6941,9 @@
       {
         "date": "2026-09-21",
         "title": "百万告",
-        "kind": "NEW RELEASE",
-        "url": "releases/hyakumankoku/"
+        "kind": "STREAMING RELEASE",
+        "url": "releases/hyakumankoku/",
+        "officialReleaseDate": "2026-07-12"
       },
       {
         "date": "2026-09-21",
@@ -6964,5 +6965,21 @@
       }
     ],
     "newsUrl": "news/enomoto-mia-september-21-double-release/"
-  }
+  },
+  "comingSoon": [
+    {
+      "slug": "mahou-ga-toketemo",
+      "title": "魔法が解けても",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "status": "upcoming",
+      "source": "user-confirmed-title-and-artist-2026-09-14",
+      "searchKeywords": [
+        "COMING SOON",
+        "Upcoming",
+        "神代煌牙",
+        "魔法が解けても"
+      ]
+    }
+  ]
 }

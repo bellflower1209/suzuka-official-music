@@ -161,7 +161,7 @@ def catalog(root: Path) -> dict:
         items = [dict(item) for item in cms["releases"] if item.get("status") == "published"]
         items.sort(key=lambda x: (x.get("publishedAt", x["releaseDate"]), x["slug"]), reverse=True)
         upcoming = [dict(item) for item in cms.get("upcoming", []) if item.get("status") == "upcoming"]
-        return {"updatedAt": cms["updatedAt"], "releases": items, "upcoming": upcoming}
+        return {"updatedAt": cms["updatedAt"], "releases": items, "upcoming": upcoming, "comingSoon": cms.get("comingSoon", [])}
     source = json.loads((root / "assets/data/release-links.json").read_text(encoding="utf-8"))
     records = {item["slug"]: item for item in source["releases"]}
     for item in NEW:
@@ -890,7 +890,7 @@ def main() -> None:
     release_links["updatedAt"] = data["updatedAt"][:10]
     release_links["releases"] = generated_links
     write(ROOT / "assets/data/release-links.json", json.dumps(release_links, ensure_ascii=False, indent=2) + "\n")
-    write(ROOT / "assets/data/upcoming-releases.json", json.dumps({"updatedAt": data["updatedAt"], "releases": data["upcoming"]}, ensure_ascii=False, indent=2) + "\n")
+    write(ROOT / "assets/data/upcoming-releases.json", json.dumps({"updatedAt": data["updatedAt"], "releases": data["upcoming"], "comingSoon": data.get("comingSoon", [])}, ensure_ascii=False, indent=2) + "\n")
     write(ROOT / "search/index.html", search_page(data))
     genre_pages(ROOT, data)
     write(ROOT / "discography/index.html", discography_page(data))

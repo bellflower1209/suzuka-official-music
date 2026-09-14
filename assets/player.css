@@ -370,3 +370,9 @@
     transition: none;
   }
 }
+
+/* Reserve the actual fixed-player height, including enlarged text / expanded mode. */
+body footer, body .site-footer, body .artist-profile-footer {
+  padding-bottom: max(9rem, var(--suzuka-player-clearance, 10rem)) !important;
+}
+html { scroll-padding-bottom: var(--suzuka-player-clearance, 10rem); }

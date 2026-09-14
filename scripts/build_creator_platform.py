@@ -288,7 +288,7 @@ def admin_pages(root: Path, cms: dict) -> None:
     write(root / "assets/data/dashboard-status.json", json.dumps({
         "updatedAt": cms["updatedAt"],
         "publishedReleases": {"count": len(cms["releases"]), "items": [item["title"] for item in cms["releases"]]},
-        "upcoming": {"count": len(upcoming), "items": [item["title"] for item in upcoming]},
+        "upcoming": {"count": len(upcoming) + len(cms.get("comingSoon", [])), "items": [item["title"] for item in upcoming + cms.get("comingSoon", [])]},
         "publishedLyrics": {"count": len(published_lyrics), "items": [item["title"] for item in published_lyrics]},
         "verifiedLyricsWaiting": {"count": len(waiting_lyrics), "items": [item["title"] for item in waiting_lyrics]},
         "unresolvedLyrics": {"count": len(unresolved), "items": [item["sourceTitle"] for item in unresolved]},

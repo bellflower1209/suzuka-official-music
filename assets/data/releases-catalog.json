@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T00:00:00+09:00",
+  "updatedAt": "2026-09-14T00:00:00+09:00",
   "releases": [
     {
       "slug": "sedai-wo-koete-mama-e",
@@ -8026,6 +8026,22 @@
         "LinkCore",
         "配信",
         "2026年9月22日"
+      ]
+    }
+  ],
+  "comingSoon": [
+    {
+      "slug": "mahou-ga-toketemo",
+      "title": "魔法が解けても",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "status": "upcoming",
+      "source": "user-confirmed-title-and-artist-2026-09-14",
+      "searchKeywords": [
+        "COMING SOON",
+        "Upcoming",
+        "神代煌牙",
+        "魔法が解けても"
       ]
     }
   ]

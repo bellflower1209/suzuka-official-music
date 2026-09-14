@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T00:00:00+09:00",
+  "updatedAt": "2026-09-14T00:00:00+09:00",
   "publishedReleases": {
     "count": 58,
     "items": [
@@ -64,11 +64,12 @@
     ]
   },
   "upcoming": {
-    "count": 3,
+    "count": 4,
     "items": [
       "Hello Hello Halloween",
       "Over Drive",
-      "September Blue"
+      "September Blue",
+      "魔法が解けても"
     ]
   },
   "publishedLyrics": {

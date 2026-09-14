@@ -35,10 +35,15 @@ jobs:
           node --check assets/analytics.js
           node --check assets/streaming-release.js
           node scripts/test_streaming_date.mjs
+          TZ=Asia/Tokyo node scripts/test_schedule_date.cjs
+          TZ=UTC node scripts/test_schedule_date.cjs
+          TZ=America/Los_Angeles node scripts/test_schedule_date.cjs
+          python3 scripts/audit_postpublication_schedule.py
           python3 scripts/audit_streaming_release.py
           python3 scripts/audit_mia_release_schedule.py
           node --check assets/mia-release-schedule.js
           node --check scripts/browser_mia_schedule_qa.mjs
+          node --check scripts/browser_postpublication_qa.mjs
           node --check assets/main.js
           node --check assets/explorer-update.js
           node --check scripts/browser_analytics_realtime_qa.mjs

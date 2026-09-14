@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T00:00:00+09:00",
+  "updatedAt": "2026-09-14T00:00:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -2074,6 +2074,22 @@
       ]
     },
     {
+      "type": "Upcoming",
+      "contentType": "upcoming",
+      "title": "魔法が解けても",
+      "description": "神代煌牙「魔法が解けても」はCOMING SOON。リリース日は確認でき次第お知らせします。",
+      "url": "releases/mahou-ga-toketemo/",
+      "keywords": [
+        "神代煌牙",
+        "COMING SOON",
+        "Upcoming",
+        "神代煌牙",
+        "魔法が解けても",
+        "Upcoming",
+        "リリース予定"
+      ]
+    },
+    {
       "type": "Artist",
       "contentType": "artist",
       "title": "朝霧しのぶ",
@@ -2436,8 +2452,8 @@
     {
       "type": "News",
       "contentType": "news",
-      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をリリース",
-      "description": "榎本魅愛の「百万告」「Hello Hello Halloween」が2026年9月21日にリリース予定。9月11日の「花言葉」Streaming Release、9月18日のJOYSOUND配信から続く9月の活動をお知らせします。",
+      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をストリーミング配信",
+      "description": "榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信予定。「百万告」のSUZUKA作品公開日は2026年7月12日です。花言葉の配信・JOYSOUNDに続く9月の活動をお知らせします。",
       "url": "news/enomoto-mia-september-21-double-release/",
       "keywords": [
         "enomoto-mia",

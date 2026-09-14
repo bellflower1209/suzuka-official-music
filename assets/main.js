@@ -128,6 +128,16 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
     </div>`;
   document.body.append(playerShell);
 
+  // Keep the final links reachable above the fixed player at every text size.
+  const updatePlayerClearance = () => {
+    const height = playerShell.getBoundingClientRect().height;
+    const bottom = parseFloat(getComputedStyle(playerShell).bottom) || 0;
+    document.documentElement.style.setProperty("--suzuka-player-clearance", `${Math.ceil(height + bottom + 24)}px`);
+  };
+  if (typeof ResizeObserver !== "undefined") new ResizeObserver(updatePlayerClearance).observe(playerShell);
+  window.addEventListener("resize", updatePlayerClearance);
+  updatePlayerClearance();
+
   const cover = playerShell.querySelector(".suzuka-player-cover");
   const toggle = playerShell.querySelector(".suzuka-player-toggle");
   const title = playerShell.querySelector(".suzuka-player-details strong");

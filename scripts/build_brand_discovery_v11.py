@@ -341,7 +341,7 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
     )
     counts = {
         "lyrics": len(lyrics), "artists": len([item for item in cms["artists"] if item.get("status") == "published"]),
-        "releases": len(releases), "upcoming": len([item for item in cms["upcoming"] if item.get("status") == "upcoming"]),
+        "releases": len(releases), "upcoming": len([item for item in cms["upcoming"] + cms.get("comingSoon", []) if item.get("status") == "upcoming"]),
         "photobooks": len(photobooks),
     }
     home = re.sub(r'<span>\d+ LYRICS</span>', f'<span data-public-count="lyrics">{counts["lyrics"]} LYRICS</span>', home)

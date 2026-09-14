@@ -19,7 +19,7 @@ def main() -> None:
     artists = [item for item in cms["artists"] if item.get("status") == "published"]
     lyrics = publishable_lyrics(releases)
     photobooks = [item for item in books if item.get("status") == "published"]
-    counts = {"lyrics": len(lyrics), "artists": len(artists), "releases": len(releases), "upcoming": len(upcoming), "photobooks": len(photobooks)}
+    counts = {"lyrics": len(lyrics), "artists": len(artists), "releases": len(releases), "upcoming": len(upcoming) + len(cms.get("comingSoon", [])), "photobooks": len(photobooks)}
     home = (ROOT / "index.html").read_text(encoding="utf-8")
     errors = []
     for key, expected in counts.items():
