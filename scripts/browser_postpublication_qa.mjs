@@ -17,16 +17,35 @@ const results=[];fs.mkdirSync('/private/tmp/suzuka-postpublication-qa',{recursiv
 for(const width of [390,768,1280])for(const route of routes){
   await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width===390});
   await send('Page.navigate',{url:new URL(route,base).href});
-  for(let tick=0;tick<80;tick++){if(await evaluate("document.readyState==='complete'"))break;await new Promise(resolve=>setTimeout(resolve,100));}
-  await evaluate("document.querySelectorAll('img[loading=lazy]').forEach(image=>image.loading='eager')");
-  await evaluate("Promise.race([Promise.all([...document.images].map(image=>image.decode().catch(()=>{}))),new Promise(resolve=>setTimeout(resolve,8000))])");
-  if(route.startsWith('search/?q='))await new Promise(resolve=>setTimeout(resolve,300));
+  const expectedUrl = new URL(route,base).href;
+  for(let tick=0;tick<200;tick++) {
+    if(await evaluate(`location.pathname===${JSON.stringify(new URL(expectedUrl).pathname)}&&new URL(location.href).searchParams.get('q')===${JSON.stringify(new URL(expectedUrl).searchParams.get('q'))}&&document.readyState==='complete'`)) break;
+    await new Promise(resolve=>setTimeout(resolve,100));
+  }
+  // Both search renderers fetch asynchronously; await their results before images.
+  if(route.startsWith('search/?q=')) {
+    for(let tick=0;tick<200;tick++) {
+      if(await evaluate("!!document.querySelector('[data-v31-search-results]')?.textContent.trim() && document.querySelector('[name=artist]')?.options.length>1")) break;
+      await new Promise(resolve=>setTimeout(resolve,100));
+    }
+  }
+  let stableImages=0, previousImages='';
+  for(let tick=0;tick<200 && stableImages<3;tick++) {
+    const state=await evaluate("(()=>{document.querySelectorAll('img[loading=lazy]').forEach(image=>image.loading='eager');return {sources:[...document.images].map(image=>image.src).join('|'),loaded:[...document.images].every(image=>image.complete)};})()");
+    stableImages=state.loaded&&state.sources===previousImages?stableImages+1:0;
+    previousImages=state.sources;
+    await new Promise(resolve=>setTimeout(resolve,100));
+  }
   const result=await evaluate(`(()=>{const player=document.querySelector('.suzuka-music-player');const panel=document.querySelector('.mia-release-schedule');const playerRect=player?.getBoundingClientRect();const panelRect=panel?.getBoundingClientRect();const hit=(a,b)=>!!a&&!!b&&a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;return {overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,brokenImages:[...document.images].filter(image=>!image.complete||image.naturalWidth===0).map(image=>image.src),autoplay:document.querySelectorAll('[autoplay],iframe[src*="autoplay=1"]').length,player:!!player,playerOverlap:hit(playerRect,panelRect),scheduleItems:panel?.querySelectorAll('.mia-schedule-item').length||0,searchText:document.querySelector('[data-v31-search-results]')?.textContent||'',musicRecording:document.body.textContent.includes('MusicRecording')}})()`);
   assert.equal(result.overflow,0,JSON.stringify({route,width,result}));
   assert.deepEqual(result.brokenImages,[],route);
   assert.equal(result.autoplay,0,route);assert.equal(result.player,true,route);assert.equal(result.playerOverlap,false,route);
   if(route===''||route==='artists/enomoto-mia/')assert.equal(result.scheduleItems,6,route);
-  if(route.startsWith('search/?q='))assert.ok(result.searchText.trim()&&!result.searchText.includes('該当する公式コンテンツはありません'),route);
+  if(route.startsWith('search/?q=')) {
+    const query=new URL(route,base).searchParams.get('q');
+    const expected={'神代煌牙':'artists/koga-kamishiro/','魔法が解けても':'releases/mahou-ga-toketemo/','榎本魅愛':'artists/enomoto-mia/','百万告':'releases/hyakumankoku/','Streaming Release':'releases/hyakumankoku/','Over Drive':'releases/over-drive/','September Blue':'releases/september-blue/','Hello Hello Halloween':'releases/hello-hello-halloween/','JOYSOUND':'releases/hanakotoba/','カラオケ':'releases/hanakotoba/'}[query];
+    assert.ok(await evaluate(`[...document.querySelectorAll('[data-v31-search-results] a')].some(a=>new URL(a.href).pathname===${JSON.stringify('/'+expected)})`),JSON.stringify({route,width,searchText:result.searchText}));
+  }
   await evaluate("window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'})");
   await new Promise(resolve=>setTimeout(resolve,150));
   const bottom=await evaluate(`(()=>{const player=document.querySelector('.suzuka-music-player')?.getBoundingClientRect();const links=[...document.querySelectorAll('footer a,.site-footer a')].filter(n=>n.getBoundingClientRect().height);const last=links.at(-1)?.getBoundingClientRect();return {playerTop:player?.top,lastBottom:last?.bottom,overlap:!!player&&!!last&&last.bottom>player.top&&last.top<player.bottom};})()`);

@@ -35,6 +35,7 @@ jobs:
           node --check assets/analytics.js
           node --check assets/streaming-release.js
           node scripts/test_streaming_date.mjs
+          node scripts/test_search_init.cjs
           TZ=Asia/Tokyo node scripts/test_schedule_date.cjs
           TZ=UTC node scripts/test_schedule_date.cjs
           TZ=America/Los_Angeles node scripts/test_schedule_date.cjs
