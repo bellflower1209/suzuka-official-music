@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T00:00:00+09:00",
+  "updatedAt": "2026-09-19T00:40:59+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -18,6 +18,7 @@
       "description": "恋愛をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
         "hanakotoba",
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "hajimemashite-kiseki",
         "koisuru-maharaja",
@@ -35,8 +36,7 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo",
         "muteki-jikan-ato-3byou",
         "my-queen-my-oath",
-        "our-kingdom",
-        "smile-and-say-goodbye"
+        "our-kingdom"
       ],
       "count": 20
     },
@@ -207,11 +207,13 @@
       "name": "人気曲",
       "description": "人気曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
         "iine-sougisha",
+        "mahou-ga-toketemo",
         "hajimemashite-kiseki",
         "hanakotoba",
         "koisuru-maharaja",
@@ -224,9 +226,7 @@
         "without-worrying",
         "zennin-saiban",
         "ai-demo-wakaranai",
-        "boukyaku-no-ikimono",
-        "echoes-of-you",
-        "heal-you-again"
+        "boukyaku-no-ikimono"
       ],
       "count": 20
     },
@@ -237,6 +237,8 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
@@ -254,9 +256,7 @@
         "family-portrait",
         "natsu-ga-owaru-made-soba-ni-ite",
         "false-identity",
-        "caramel",
-        "kamisama-wa-rusu",
-        "kimi-wa-makenai"
+        "caramel"
       ],
       "count": 20
     },
@@ -269,6 +269,8 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
@@ -286,9 +288,7 @@
         "false-identity",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kamisama-wa-rusu",
-        "kimi-wa-makenai",
-        "leo-rise-again"
+        "kamisama-wa-rusu"
       ],
       "count": 20
     }

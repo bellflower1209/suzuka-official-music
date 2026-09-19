@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-09-14T00:00:00+09:00</updated>
+  <updated>2026-09-19T00:40:59+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
@@ -11,7 +11,7 @@
   <entry>
     <id>https://www.suzukaofficial.com/releases/september-blue/</id>
     <title>Upcoming｜榎本魅愛「September Blue」</title>
-    <updated>2026-09-14T00:00:00+09:00</updated>
+    <updated>2026-09-19T00:40:59+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/september-blue/" />
     <category term="upcoming" />
     <summary>2026-09-22T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
@@ -19,18 +19,46 @@
   <entry>
     <id>https://www.suzukaofficial.com/releases/over-drive/</id>
     <title>Upcoming｜榎本魅愛「Over Drive」</title>
-    <updated>2026-09-14T00:00:00+09:00</updated>
+    <updated>2026-09-19T00:40:59+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/over-drive/" />
     <category term="upcoming" />
     <summary>2026-09-22T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
   </entry>
   <entry>
+    <published>2026-09-16T20:00:07+09:00</published>
     <id>https://www.suzukaofficial.com/releases/hello-hello-halloween/</id>
-    <title>Upcoming｜榎本魅愛「Hello Hello Halloween」</title>
-    <updated>2026-09-14T00:00:00+09:00</updated>
+    <title>榎本魅愛「Hello Hello Halloween」</title>
+    <updated>2026-09-16T20:00:07+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/hello-hello-halloween/" />
-    <category term="upcoming" />
-    <summary>2026-09-21T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <category term="release" />
+    <summary>榎本魅愛「Hello Hello Halloween」Official MVを公開中。2026年9月21日のストリーミング配信情報も掲載します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-16T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/news/hello-hello-halloween-release/</id>
+    <title>榎本魅愛「Hello Hello Halloween」Official MV公開</title>
+    <updated>2026-09-16T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/hello-hello-halloween-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「Hello Hello Halloween」Official MV公開と、2026年9月21日のストリーミング配信情報をSUZUKA Newsで案内します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-14T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/mahou-ga-toketemo/</id>
+    <title>神代煌牙「魔法が解けても」</title>
+    <updated>2026-09-14T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/mahou-ga-toketemo/" />
+    <category term="release" />
+    <summary>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MVを公開中。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-14T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/mahou-ga-toketemo-release/</id>
+    <title>神代煌牙「魔法が解けても」Official MV公開</title>
+    <updated>2026-09-14T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/mahou-ga-toketemo-release/" />
+    <category term="news" />
+    <summary>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MVの公開をSUZUKA Newsでお知らせします。</summary>
   </entry>
   <entry>
     <published>2026-09-12T00:00:00+09:00</published>
@@ -39,7 +67,7 @@
     <updated>2026-09-12T00:00:00+09:00</updated>
     <link href="https://www.suzukaofficial.com/news/enomoto-mia-september-21-double-release/" />
     <category term="news" />
-    <summary>榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信予定。「百万告」のSUZUKA作品公開日は2026年7月12日です。花言葉の配信・JOYSOUNDに続く9月の活動をお知らせします。</summary>
+    <summary>榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信予定。「Hello Hello Halloween」は2026年9月16日にOfficial MVを公開し、「百万告」はAnime Versionを9月17日に公開しました。</summary>
   </entry>
   <entry>
     <published>2026-09-11T00:00:00+09:00</published>

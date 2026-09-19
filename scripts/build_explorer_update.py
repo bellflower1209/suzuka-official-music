@@ -929,10 +929,14 @@ def enhance_home(root: Path, releases: list[dict], rankings: dict, features: dic
         for slug, items in list(features.items())[:6]
     )
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
-    latest_news = sorted(
+    published_news = sorted(
         [item for item in cms.get("news", []) if item.get("status") == "published"],
         key=lambda item: (item.get("publishedAt", ""), item.get("slug", "")), reverse=True,
-    )[:8]
+    )
+    latest_news = published_news[:8]
+    for featured_news in (item for item in published_news if item.get("homeFeatured")):
+        if featured_news not in latest_news:
+            latest_news[-1] = featured_news
     news_cards = "".join(
         f'<a class="explorer-news-link" href="./news/{item["slug"]}/"><time>{item.get("publishedAt", "")[:10]}</time>'
         f'<strong>{html.escape(item["title"])}</strong><span>Newsを読む ↗</span></a>'

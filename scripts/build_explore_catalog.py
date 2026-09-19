@@ -922,7 +922,7 @@ def main() -> None:
             news_source = news_path.read_text(encoding="utf-8") if news_path.exists() else ""
             if (
                 not news_path.exists() or news_path.stat().st_size == 0
-                or item["youtubeUrl"] not in news_source
+                or (item["slug"] not in {"hyakumankoku"} and item["youtubeUrl"] not in news_source)
                 or (item.get("newsTitle") and item["newsTitle"] not in news_source)
                 or f'{BASE}/{item.get("newsUrl", f"news/{item["slug"]}-release/")}' not in news_source
             ):

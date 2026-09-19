@@ -34,23 +34,25 @@ def main():
     assert million['scheduledStreamingRelease']['releaseDate']=='2026-09-21'
     activity=next(x for x in cms['miaReleaseSchedule']['activities'] if x['title']=='百万告')
     assert activity['kind']=='STREAMING RELEASE' and activity['officialReleaseDate']=='2026-07-12'
-    upcoming=[x for x in all_works if x['title']=='魔法が解けても']
-    assert len(upcoming)==1
-    item=upcoming[0]
-    assert item['artistSlug']=='koga-kamishiro' and item['status']=='upcoming'
-    assert not any(item.get(k) for k in ['releaseDate','scheduledAt','publishedAt'])
+    magic=next(x for x in all_works if x['slug']=='mahou-ga-toketemo')
+    assert magic['artistSlug']=='koga-kamishiro' and magic['status']=='published'
+    assert magic['releaseDate']=='2026-09-14' and magic['youtubeUrl']=='https://www.youtube.com/watch?v=g_SmyjPGIfc'
+    hello=next(x for x in all_works if x['slug']=='hello-hello-halloween')
+    assert hello['status']=='published' and hello['releaseDate']=='2026-09-16'
+    assert hello['scheduledStreamingRelease']['releaseDate']=='2026-09-21'
     for route in ['index.html','artists/koga-kamishiro/index.html','schedule/index.html','releases/mahou-ga-toketemo/index.html']:
-        text=(ROOT/route).read_text(); assert '魔法が解けても' in text and 'COMING SOON' in text,route
+        text=(ROOT/route).read_text(); assert '魔法が解けても' in text,route
     page=(ROOT/'releases/mahou-ga-toketemo/index.html').read_text()
-    assert 'content="noindex, follow"' in page
-    assert 'MusicRecording' not in page and 'VideoObject' not in page and 'data-countdown' not in page
+    assert 'content="noindex, follow"' not in page
+    assert 'MusicRecording' in page and 'VideoObject' in page and 'data-countdown' not in page
     for name in ['sitemap.xml','image-sitemap.xml','video-sitemap.xml']:
-        assert '/releases/mahou-ga-toketemo/' not in (ROOT/name).read_text()
+        assert '/releases/mahou-ga-toketemo/' in (ROOT/name).read_text()
     parser=Parser();parser.feed((ROOT/'releases/hyakumankoku/index.html').read_text())
     recordings=[x for x in nodes(parser.graphs) if x.get('@type')=='MusicRecording']
     assert recordings and all(x.get('datePublished', '2026-07-12').startswith('2026-07-12') for x in recordings)  # Existing schema omits this field.
     videos=[x for x in nodes(parser.graphs) if x.get('@type')=='VideoObject']
-    assert videos and all(x['uploadDate'].startswith('2026-07-12') for x in videos)
+    assert videos and all(x['uploadDate'].startswith('2026-09-17') for x in videos)
+    assert all('7FaDutNfIxo' in x.get('contentUrl', '') for x in videos)
     schedule=(ROOT/'schedule/index.html').read_text()
     # Test the static renderer at an explicit baseline, independent of later CMS updates.
     import tempfile
@@ -59,12 +61,12 @@ def main():
         schedule_page(Path(tmp), {**cms, 'updatedAt':'2026-09-13T15:00:00+00:00'}, cms['releases'], cms['upcoming'])
         fixture=(Path(tmp)/'schedule/index.html').read_text()
     next_week=fixture.split('id="next-week"')[1].split('</section>')[0]
-    for slug in ['hello-hello-halloween','over-drive','september-blue']: assert slug in next_week
+    for slug in ['over-drive','september-blue']: assert slug in next_week
     assert 'Asia/Tokyo' in schedule and '月曜始まり' in schedule and 'assets/release-schedule.js' in schedule
     search=json.loads((ROOT/'assets/data/search-v31.json').read_text())
     raw=json.dumps(search,ensure_ascii=False)
     for term in ['神代煌牙','魔法が解けても','榎本魅愛','百万告','Streaming Release','Hello Hello Halloween','Over Drive','September Blue']: assert term in raw,term
     koga=(ROOT/'artists/koga-kamishiro/index.html').read_text()
     assert '悪役でいい' in koga and 'youtube.com/' in koga
-    print('Postpublication audit passed: 3 Next Week works, preserved July 12 schema / September 21 streaming, 1 undated Koga Upcoming, artist/home/search links.')
+    print('Postpublication audit passed: published Koga/Mia MV pages, preserved July 12 schema / September 21 streaming, 2 Next Week works, artist/home/search links.')
 if __name__=='__main__': main()

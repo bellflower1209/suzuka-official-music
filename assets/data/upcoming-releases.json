@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-09-14T00:00:00+09:00",
+  "updatedAt": "2026-09-19T00:40:59+09:00",
   "releases": [
-    {
-      "slug": "hello-hello-halloween",
-      "title": "Hello Hello Halloween",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-09-21T00:00:00+09:00",
-      "releaseDate": "2026-09-21",
-      "status": "upcoming",
-      "source": "user-confirmed-tunecore-management-screen",
-      "linkcoreUrl": "https://linkco.re/QfzZUy6f",
-      "searchKeywords": [
-        "LinkCore",
-        "配信",
-        "2026年9月21日"
-      ]
-    },
     {
       "slug": "september-blue",
       "title": "September Blue",
@@ -34,7 +18,12 @@
         "LinkCore",
         "配信",
         "2026年9月22日"
-      ]
+      ],
+      "image": "images/enomoto-mia-september-blue.jpg",
+      "imageAlt": "榎本魅愛「September Blue」公式ビジュアル",
+      "imageWidth": 886,
+      "imageHeight": 886,
+      "imageSource": "user-provided-official-asset-2026-09-19"
     },
     {
       "slug": "over-drive",
@@ -53,23 +42,13 @@
         "LinkCore",
         "配信",
         "2026年9月22日"
-      ]
+      ],
+      "image": "images/enomoto-mia-over-drive.jpg",
+      "imageAlt": "榎本魅愛「Over Drive」公式ビジュアル",
+      "imageWidth": 886,
+      "imageHeight": 886,
+      "imageSource": "user-provided-official-asset-2026-09-19"
     }
   ],
-  "comingSoon": [
-    {
-      "slug": "mahou-ga-toketemo",
-      "title": "魔法が解けても",
-      "artist": "神代煌牙",
-      "artistSlug": "koga-kamishiro",
-      "status": "upcoming",
-      "source": "user-confirmed-title-and-artist-2026-09-14",
-      "searchKeywords": [
-        "COMING SOON",
-        "Upcoming",
-        "神代煌牙",
-        "魔法が解けても"
-      ]
-    }
-  ]
+  "comingSoon": []
 }

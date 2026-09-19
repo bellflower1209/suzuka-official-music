@@ -1,8 +1,10 @@
 {
-  "updatedAt": "2026-09-14T00:00:00+09:00",
+  "updatedAt": "2026-09-19T00:40:59+09:00",
   "publishedReleases": {
-    "count": 58,
+    "count": 60,
     "items": [
+      "Hello Hello Halloween",
+      "魔法が解けても",
       "世代を超えてママへ",
       "夢と、介護と、私たち。",
       "月下契",
@@ -64,12 +66,10 @@
     ]
   },
   "upcoming": {
-    "count": 4,
+    "count": 2,
     "items": [
-      "Hello Hello Halloween",
       "Over Drive",
-      "September Blue",
-      "魔法が解けても"
+      "September Blue"
     ]
   },
   "publishedLyrics": {
@@ -110,7 +110,7 @@
   "nextRelease": {
     "count": 1,
     "items": [
-      "Hello Hello Halloween / 2026-09-21T00:00:00+09:00"
+      "Over Drive / 2026-09-22T00:00:00+09:00"
     ]
   }
 }

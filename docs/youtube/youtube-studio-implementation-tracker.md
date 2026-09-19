@@ -6,6 +6,8 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | Hello Hello Halloween | 榎本魅愛 | https://www.youtube.com/watch?v=vuZiHlpo9Ak | 3:38 | Hello Hello Halloween｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 魔法が解けても | 神代煌牙 | https://www.youtube.com/watch?v=g_SmyjPGIfc | 4:10 | 魔法が解けても｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 世代を超えてママへ | 妃みちる | https://www.youtube.com/watch?v=Hho3xHOw8pg | 2:58 | 世代を超えてママへ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 夢と、介護と、私たち。 | 榎本魅愛 | https://www.youtube.com/watch?v=giTYuKyIk3c | 5:15 | 夢と、介護と、私たち。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 月下契 | VEILFANG | https://www.youtube.com/watch?v=Slv8e81DJ84 | 4:29 | 月下契｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -63,8 +65,7 @@
 | 公開済み | 君は花火 | 榎本魅愛 | https://www.youtube.com/watch?v=ohylad3AWYI | 4:40 | 君は花火｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 好きってバレてもいい | 榎本魅愛 | https://www.youtube.com/watch?v=XP8yXMKFHVI | 4:34 | 好きってバレてもいい｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=QteunhFn9Dk | 4:55 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
-| Upcoming | Hello Hello Halloween | 榎本魅愛 | 未確認 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=7FaDutNfIxo | 4:56 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
 | Upcoming | September Blue | 榎本魅愛 | 未確認 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | Upcoming | Over Drive | 榎本魅愛 | 未確認 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 

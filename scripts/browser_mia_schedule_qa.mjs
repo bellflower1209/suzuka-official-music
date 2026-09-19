@@ -38,8 +38,8 @@ const statuses=async instant=>{
   const value=await evaluate("[...document.querySelectorAll('[data-activity-status]')].map(node=>node.textContent)");
   await send('Page.removeScriptToEvaluateOnNewDocument',{identifier});return value;
 };
-assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
-assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','NOW STREAMING','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','STREAMING RELEASE · 配信状況はLinkCoreへ','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
 assert.deepEqual(errors,[]);ws.close();
 fs.writeFileSync('/private/tmp/suzuka-mia-schedule-qa/results.json',JSON.stringify({base,views:results.length,results,errors,dateBoundary:'passed'},null,2));
 console.log(`MIA schedule browser QA passed: ${results.length} views, 390/768/1280, date boundary, no overflow/image/JS/autoplay/player overlap errors.`);

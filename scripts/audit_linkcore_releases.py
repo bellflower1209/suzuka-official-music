@@ -48,7 +48,7 @@ def main() -> None:
     assert releases["hyakumankoku"]["releaseDate"] == "2026-07-12"
     assert releases["toriatsukai-chui"]["releaseDate"] == "2026-07-14"
     assert {item["slug"] for item in cms["upcoming"]} >= {
-        "hello-hello-halloween", "september-blue", "over-drive",
+        "september-blue", "over-drive",
     }
     schedule_titles = [item["title"] for item in cms["miaReleaseSchedule"]["activities"]]
     assert schedule_titles[-2:] == ["September Blue", "Over Drive"]

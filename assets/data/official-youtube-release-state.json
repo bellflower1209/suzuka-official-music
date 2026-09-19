@@ -1,12 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "verifiedAt": "2026-09-08T01:05:00+09:00",
+  "verifiedAt": "2026-09-19T00:40:59+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "promoted": [
     "akuyaku-de-ii",
     "friendlikesong",
     "gekka-no-chigiri",
+    "hello-hello-halloween",
     "iine-sougisha",
+    "mahou-ga-toketemo",
     "re-sonance",
     "tatta-hitori-no-kimi-e",
     "updown",
@@ -77,6 +79,14 @@
       "releaseTimestamp": "2026-08-26T20:00:06+09:00",
       "liveStatus": "was_live",
       "availability": "public",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "mahou-ga-toketemo",
+      "videoId": "g_SmyjPGIfc",
+      "releaseTimestamp": "2026-09-14T20:00:06+09:00",
+      "availability": "public",
+      "liveStatus": "not_live",
       "channelId": "UCVde75yhByGQMu3SkO-fzrA"
     },
     {

@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-14T00:00:00+09:00",
+  "updatedAt": "2026-09-19T00:40:59+09:00",
   "recommendations": {
+    "hello-hello-halloween": {
+      "sameArtist": [
+        "yume-to-kaigo-to-watashitachi",
+        "taipa-nante-shiranakatta",
+        "natsu-ga-owaru-made-soba-ni-ite",
+        "caramel",
+        "kimi-wa-makenai",
+        "kimi-ni-kakatta-mahou"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha",
+        "mahou-ga-toketemo"
+      ],
+      "recent": [
+        "mahou-ga-toketemo",
+        "hanakotoba",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
+        "akuyaku-de-ii"
+      ],
+      "aiRecommended": [
+        "hanakotoba",
+        "yume-to-kaigo-to-watashitachi",
+        "hajimemashite-kiseki",
+        "without-worrying",
+        "ai-demo-wakaranai",
+        "hyakumankoku"
+      ]
+    },
+    "mahou-ga-toketemo": {
+      "sameArtist": [
+        "akuyaku-de-ii",
+        "wakareta-michi",
+        "kamisama-wa-rusu",
+        "leo-rise-again",
+        "mermaid-no-geboku",
+        "one-more-kiss"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "hello-hello-halloween",
+        "hanakotoba",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "gekka-no-chigiri",
+        "akuyaku-de-ii"
+      ],
+      "aiRecommended": [
+        "akuyaku-de-ii",
+        "one-more-kiss",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath",
+        "kamisama-wa-rusu"
+      ]
+    },
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
         "updown",
@@ -23,20 +95,20 @@
         "family-portrait"
       ],
       "popular": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
         "iine-sougisha",
-        "hajimemashite-kiseki",
-        "hanakotoba"
+        "mahou-ga-toketemo"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "akuyaku-de-ii"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -49,12 +121,12 @@
     },
     "yume-to-kaigo-to-watashitachi": {
       "sameArtist": [
+        "hello-hello-halloween",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [
         "kimi-wa-makenai",
@@ -73,20 +145,20 @@
         "still-alive"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
         "iine-sougisha",
-        "hajimemashite-kiseki",
-        "hanakotoba"
+        "mahou-ga-toketemo"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "akuyaku-de-ii"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -113,20 +185,20 @@
         "shadow-code"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "iine-sougisha",
-        "hajimemashite-kiseki",
-        "hanakotoba"
+        "mahou-ga-toketemo"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "akuyaku-de-ii"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -139,12 +211,12 @@
     },
     "akuyaku-de-ii": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "wakareta-michi",
@@ -156,20 +228,20 @@
       ],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
         "iine-sougisha",
-        "hajimemashite-kiseki",
-        "hanakotoba"
+        "mahou-ga-toketemo"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "iine-sougisha",
-        "updown"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -193,20 +265,20 @@
       ],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "hajimemashite-kiseki",
-        "hanakotoba"
+        "mahou-ga-toketemo"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "updown"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -241,20 +313,20 @@
         "hyakumankoku"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -287,20 +359,20 @@
         "hajimemashite-kiseki"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -313,12 +385,12 @@
     },
     "wakareta-michi": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "kamisama-wa-rusu",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "akuyaku-de-ii",
@@ -337,20 +409,20 @@
         "shadow-code"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -380,20 +452,20 @@
         "kimi-wa-hanabi"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -427,20 +499,20 @@
         "shadow-code"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -475,20 +547,20 @@
         "koisuru-maharaja"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -507,20 +579,20 @@
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -533,12 +605,12 @@
     },
     "taipa-nante-shiranakatta": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -552,20 +624,20 @@
         "ashita-wa-kitto"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -593,20 +665,20 @@
         "wasurenai-kokoro"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -634,20 +706,20 @@
         "wasurenai-kokoro"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -660,30 +732,30 @@
     },
     "natsu-ga-owaru-made-soba-ni-ite": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "caramel",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "caramel",
@@ -691,35 +763,35 @@
         "kimi-wa-makenai",
         "kimi-ni-kakatta-mahou",
         "hajimemashite-kiseki",
-        "yume-to-kaigo-to-watashitachi"
+        "hello-hello-halloween"
       ]
     },
     "caramel": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -727,53 +799,53 @@
         "kimi-ni-kakatta-mahou",
         "taipa-nante-shiranakatta",
         "hajimemashite-kiseki",
-        "yume-to-kaigo-to-watashitachi"
+        "hello-hello-halloween"
       ]
     },
     "kamisama-wa-rusu": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "leo-rise-again",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [],
       "sameTheme": [],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "leo-rise-again",
         "mermaid-no-geboku",
         "one-more-kiss",
         "akuyaku-de-ii",
-        "wakareta-michi",
-        "boukyaku-no-ikimono"
+        "mahou-ga-toketemo",
+        "wakareta-michi"
       ]
     },
     "kimi-wa-makenai": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-ni-kakatta-mahou",
-        "hanakotoba"
+        "kimi-ni-kakatta-mahou"
       ],
       "sameGenre": [
         "yume-to-kaigo-to-watashitachi",
@@ -792,20 +864,20 @@
         "anata-dake-no-savior"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -818,12 +890,12 @@
     },
     "leo-rise-again": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "mermaid-no-geboku",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "akuyaku-de-ii",
@@ -833,20 +905,20 @@
         "one-more-kiss"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -854,7 +926,7 @@
         "one-more-kiss",
         "kamisama-wa-rusu",
         "mermaid-no-geboku",
-        "boukyaku-no-ikimono"
+        "mahou-ga-toketemo"
       ]
     },
     "last-dance-tonight": {
@@ -878,20 +950,20 @@
         "one-more-kiss"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -904,12 +976,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "hanakotoba"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -928,20 +1000,20 @@
         "mermaid-merman"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -954,12 +1026,12 @@
     },
     "mermaid-no-geboku": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "one-more-kiss",
-        "echoes-of-you"
+        "one-more-kiss"
       ],
       "sameGenre": [
         "mermaid-merman",
@@ -978,20 +1050,20 @@
         "tatta-hitori-no-kimi-e"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -1004,12 +1076,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1028,20 +1100,20 @@
         "moshimo-ashita-hajimemashite-ni-natte-mo"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown"
+        "akuyaku-de-ii"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1073,20 +1145,20 @@
         "kimi-wa-makenai"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1111,20 +1183,20 @@
         "kimi-wa-hanabi"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -1137,12 +1209,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "without-worrying",
@@ -1161,20 +1233,20 @@
         "last-dance-tonight"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hanakotoba"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1206,20 +1278,20 @@
         "yume-to-kaigo-to-watashitachi"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1246,20 +1318,20 @@
         "boukyaku-no-ikimono"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -1272,12 +1344,12 @@
     },
     "one-more-kiss": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "echoes-of-you"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1296,20 +1368,20 @@
         "updown"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1342,20 +1414,20 @@
         "watashi-no-eranda-michi"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1368,12 +1440,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1392,20 +1464,20 @@
         "anata-dake-no-savior"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1438,20 +1510,20 @@
         "updown"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -1478,20 +1550,20 @@
         "boukyaku-no-ikimono"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -1504,12 +1576,12 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "without-worrying",
@@ -1528,20 +1600,20 @@
         "heal-you-again"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1574,20 +1646,20 @@
         "ashita-wa-kitto"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1600,12 +1672,12 @@
     },
     "echoes-of-you": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "one-more-kiss",
@@ -1619,20 +1691,20 @@
         "mermaid-no-geboku"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -1660,20 +1732,20 @@
         "koisuru-maharaja"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1699,20 +1771,20 @@
         "family-portrait"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -1725,12 +1797,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1749,20 +1821,20 @@
         "family-portrait"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1775,12 +1847,12 @@
     },
     "boukyaku-no-ikimono": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1795,20 +1867,20 @@
         "zennin-saiban"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1821,12 +1893,12 @@
     },
     "my-queen-my-oath": {
       "sameArtist": [
+        "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "our-kingdom",
@@ -1845,20 +1917,20 @@
         "shadow-code"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1889,20 +1961,20 @@
         "gekka-no-chigiri"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1915,12 +1987,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1939,20 +2011,20 @@
         "mia"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -1965,12 +2037,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -1989,20 +2061,20 @@
         "mia"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2015,12 +2087,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -2039,20 +2111,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -2065,12 +2137,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -2086,20 +2158,20 @@
         "kimi-ni-kakatta-mahou"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -2133,20 +2205,20 @@
         "wakareta-michi"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -2159,12 +2231,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -2183,20 +2255,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -2209,12 +2281,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2233,20 +2305,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2259,12 +2331,12 @@
     },
     "mia": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2283,20 +2355,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2309,12 +2381,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2333,20 +2405,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2359,12 +2431,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2383,20 +2455,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2409,12 +2481,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -2433,20 +2505,20 @@
         "mirai-no-watashi-ga-miteru"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -2459,12 +2531,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -2483,20 +2555,20 @@
         "mia"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2509,12 +2581,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -2533,20 +2605,20 @@
         "kimi-to-nara-last-boss-made"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -2559,12 +2631,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -2583,20 +2655,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2609,12 +2681,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "hello-hello-halloween",
         "yume-to-kaigo-to-watashitachi",
         "taipa-nante-shiranakatta",
         "natsu-ga-owaru-made-soba-ni-ite",
         "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "kimi-wa-makenai"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -2633,20 +2705,20 @@
         "tokenai-mahou-wo-ai-to-yobu"
       ],
       "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
         "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "iine-sougisha",
-        "hajimemashite-kiseki"
+        "iine-sougisha"
       ],
       "recent": [
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
         "hanakotoba",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha"
+        "gekka-no-chigiri"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

@@ -64,8 +64,8 @@ const statuses=async instant=>{
   const value=await evaluate("[...document.querySelectorAll('[data-activity-status]')].map(node=>node.textContent)");
   await send('Page.removeScriptToEvaluateOnNewDocument',{identifier});return value;
 };
-assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
-assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','NOW STREAMING','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','STREAMING RELEASE · 配信状況はLinkCoreへ','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
 for(const timezoneId of ['Asia/Tokyo','America/Los_Angeles','UTC']) {
   await send('Emulation.setTimezoneOverride',{timezoneId});
   for(const instant of ['2026-09-14T00:00:00+09:00','2026-09-21T00:00:00+09:00']) {
@@ -75,8 +75,7 @@ for(const timezoneId of ['Asia/Tokyo','America/Los_Angeles','UTC']) {
     const group=instant.startsWith('2026-09-14')?'next-week':'this-week';
     const slugs=await evaluate(`[...document.querySelectorAll('#${group} [data-release-slug]')].map(n=>n.dataset.releaseSlug)`);
     assert.ok(slugs.includes('over-drive')&&slugs.includes('september-blue'),JSON.stringify({timezoneId,instant,slugs}));
-    const helloGroup=instant.startsWith('2026-09-14')?'next-week':'today';
-    assert.ok(await evaluate(`!!document.querySelector('#${helloGroup} [data-release-slug="hello-hello-halloween"]')`));
+    assert.ok(await evaluate(`!!document.querySelector('#streaming-releases a[href*="releases/hello-hello-halloween/"]')`));
     await send('Page.removeScriptToEvaluateOnNewDocument',{identifier});
   }
 }

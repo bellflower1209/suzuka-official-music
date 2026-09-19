@@ -1,9 +1,30 @@
 {
   "artist": "榎本魅愛",
   "alternateName": "ENOMOTO MIA",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-09-19",
   "source": "https://www.youtube.com/@bellflower5215/videos",
   "releases": [
+    {
+      "title": "Hello Hello Halloween",
+      "titleEnglish": "Hello Hello Halloween",
+      "slug": "hello-hello-halloween",
+      "status": "published",
+      "pageUrl": "releases/hello-hello-halloween/",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vuZiHlpo9Ak",
+      "youtubeId": "vuZiHlpo9Ak",
+      "youtubeVideoTitle": "【Official MV】Hello Hello Halloween／榎本魅愛（ENOMOTO MIA）🎃",
+      "image": "images/enomoto-mia-hello-hello-halloween.jpg",
+      "duration": 218,
+      "uploadDate": "2026-09-16",
+      "shortDescription": "榎本魅愛「Hello Hello Halloween」Official MV。",
+      "featured": true,
+      "playerEnabled": false,
+      "relatedSongs": [
+        "hyakumankoku",
+        "hanakotoba",
+        "hajimemashite-kiseki"
+      ]
+    },
     {
       "title": "花言葉",
       "titleEnglish": "Hanakotoba",
@@ -366,12 +387,12 @@
       "slug": "hyakumankoku",
       "status": "published",
       "pageUrl": "releases/hyakumankoku/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=QteunhFn9Dk",
-      "youtubeId": "QteunhFn9Dk",
-      "youtubeVideoTitle": "【デビュー曲】「好き」は一回じゃ足りない。榎本魅愛「百万告」Official Music Video",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7FaDutNfIxo",
+      "youtubeId": "7FaDutNfIxo",
+      "youtubeVideoTitle": "【MV】榎本魅愛「百万告」Anime Version｜百万回でも、君に告白する。",
       "image": "images/mv-hyakumankoku.jpg",
       "duration": 296,
-      "uploadDate": "2026-07-12",
+      "uploadDate": "2026-09-17",
       "shortDescription": "「好き」は一度では足りないという、まっすぐで大胆な告白ソング。",
       "featured": false,
       "relatedSongs": [
