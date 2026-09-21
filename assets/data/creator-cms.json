@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-09-19T00:40:59+09:00",
+  "updatedAt": "2026-09-21T16:12:49+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -458,7 +458,10 @@
         "Official MV",
         "2026-09-16",
         "SUZUKA",
-        "YouTube"
+        "YouTube",
+        "NOW STREAMING",
+        "配信開始",
+        "2026-09-21"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「Hello Hello Halloween」Official MVを公開中。2026年9月21日のストリーミング配信情報も掲載します。",
@@ -497,9 +500,11 @@
         "releaseDate": "2026-09-21",
         "timezone": "Asia/Tokyo",
         "label": "SUZUKA",
-        "status": "upcoming",
+        "status": "published",
         "source": "user-confirmed-tunecore-management-screen",
-        "linkcoreUrl": "https://linkco.re/QfzZUy6f"
+        "linkcoreUrl": "https://linkco.re/QfzZUy6f",
+        "verifiedAt": "2026-09-21T16:12:49+09:00",
+        "verificationSource": "official-linkcore-available-store-links"
       },
       "youtubeVideoTitle": "【Official MV】Hello Hello Halloween／榎本魅愛（ENOMOTO MIA）🎃",
       "videoLabel": "OFFICIAL MV",
@@ -5879,7 +5884,10 @@
         "配信",
         "Anime Version",
         "Official MV",
-        "百万告 Anime Version"
+        "百万告 Anime Version",
+        "NOW STREAMING",
+        "配信開始",
+        "2026-09-21"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
@@ -5921,9 +5929,11 @@
         "releaseDate": "2026-09-21",
         "timezone": "Asia/Tokyo",
         "label": "SUZUKA",
-        "status": "upcoming",
+        "status": "published",
         "source": "user-confirmed-tunecore-management-screen",
-        "linkcoreUrl": "https://linkco.re/Qd5Tzb0q"
+        "linkcoreUrl": "https://linkco.re/Qd5Tzb0q",
+        "verifiedAt": "2026-09-21T16:12:49+09:00",
+        "verificationSource": "official-linkcore-available-store-links"
       },
       "youtubeVideoTitle": "【MV】榎本魅愛「百万告」Anime Version｜百万回でも、君に告白する。",
       "videoLabel": "OFFICIAL MV · ANIME VERSION",
@@ -6019,10 +6029,10 @@
     },
     {
       "slug": "enomoto-mia-september-21-double-release",
-      "title": "榎本魅愛、9月21日に「百万告」「Hello Hello Halloween」2作品をストリーミング配信",
+      "title": "榎本魅愛「百万告」「Hello Hello Halloween」ストリーミング配信開始",
       "artistSlug": "enomoto-mia",
       "publishedAt": "2026-09-12T00:00:00+09:00",
-      "description": "榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信予定。「Hello Hello Halloween」は2026年9月16日にOfficial MVを公開し、「百万告」はAnime Versionを9月17日に公開しました。",
+      "description": "榎本魅愛「百万告」「Hello Hello Halloween」は2026年9月21日にストリーミング配信開始。公式LinkCoreの配信サービス案内を確認。「百万告」の作品公開日は7月12日、「Hello Hello Halloween」のOfficial MV公開日は9月16日です。",
       "image": "og.png",
       "status": "published",
       "miaCampaignAnnouncement": true,
@@ -7429,26 +7439,30 @@
         "title": "百万告",
         "kind": "STREAMING RELEASE",
         "url": "releases/hyakumankoku/",
-        "officialReleaseDate": "2026-07-12"
+        "officialReleaseDate": "2026-07-12",
+        "status": "published"
       },
       {
         "date": "2026-09-21",
         "title": "Hello Hello Halloween",
         "kind": "STREAMING RELEASE",
         "url": "releases/hello-hello-halloween/",
-        "officialReleaseDate": "2026-09-16"
+        "officialReleaseDate": "2026-09-16",
+        "status": "published"
       },
       {
         "date": "2026-09-22",
         "title": "September Blue",
         "kind": "NEW RELEASE",
-        "url": "releases/september-blue/"
+        "url": "releases/september-blue/",
+        "status": "upcoming"
       },
       {
         "date": "2026-09-22",
         "title": "Over Drive",
         "kind": "NEW RELEASE",
-        "url": "releases/over-drive/"
+        "url": "releases/over-drive/",
+        "status": "upcoming"
       }
     ],
     "newsUrl": "news/enomoto-mia-september-21-double-release/"

@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-09-21T16:12:49+09:00",
+  "basis": "Official TuneCore LinkCore: Release Date 2026/09/21 and Available on store links; destination HTTP 200",
+  "releases": [
+    {
+      "slug": "hyakumankoku",
+      "source": "https://linkco.re/Qd5Tzb0q",
+      "status": "published",
+      "releaseDate": "2026-09-21",
+      "destination": "https://music.apple.com/jp/album/a-million-confessions-single/6811280872?at=10l7qr",
+      "httpStatus": 200,
+      "sourceSha256": "01fd7652973a48394fda7b63dcd0d435aaeb588698db897294acc1d17abab40c"
+    },
+    {
+      "slug": "hello-hello-halloween",
+      "source": "https://linkco.re/QfzZUy6f",
+      "status": "published",
+      "releaseDate": "2026-09-21",
+      "destination": "https://music.line.me/webapp/album/mb0000000005bc4ecb",
+      "httpStatus": 200,
+      "sourceSha256": "a08b893a371a29434b0098c372c71127a5ab508c10b3f592e33bf43927e56291"
+    }
+  ]
+}

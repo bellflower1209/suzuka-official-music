@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T00:40:59+09:00",
+  "updatedAt": "2026-09-21T16:12:49+09:00",
   "releases": [
     {
       "id": "hello-hello-halloween",
@@ -36,7 +36,10 @@
         "Official MV",
         "2026-09-16",
         "SUZUKA",
-        "YouTube"
+        "YouTube",
+        "NOW STREAMING",
+        "配信開始",
+        "2026-09-21"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「Hello Hello Halloween」Official MVを公開中。2026年9月21日のストリーミング配信情報も掲載します。",
@@ -75,9 +78,11 @@
         "releaseDate": "2026-09-21",
         "timezone": "Asia/Tokyo",
         "label": "SUZUKA",
-        "status": "upcoming",
+        "status": "published",
         "source": "user-confirmed-tunecore-management-screen",
-        "linkcoreUrl": "https://linkco.re/QfzZUy6f"
+        "linkcoreUrl": "https://linkco.re/QfzZUy6f",
+        "verifiedAt": "2026-09-21T16:12:49+09:00",
+        "verificationSource": "official-linkcore-available-store-links"
       },
       "youtubeVideoTitle": "【Official MV】Hello Hello Halloween／榎本魅愛（ENOMOTO MIA）🎃",
       "videoLabel": "OFFICIAL MV",
@@ -8135,7 +8140,10 @@
         "配信",
         "Anime Version",
         "Official MV",
-        "百万告 Anime Version"
+        "百万告 Anime Version",
+        "NOW STREAMING",
+        "配信開始",
+        "2026-09-21"
       ],
       "aiArtistType": "fictional AI artist",
       "description": "榎本魅愛「百万告」のSUZUKA公式作品ページ。",
@@ -8177,9 +8185,11 @@
         "releaseDate": "2026-09-21",
         "timezone": "Asia/Tokyo",
         "label": "SUZUKA",
-        "status": "upcoming",
+        "status": "published",
         "source": "user-confirmed-tunecore-management-screen",
-        "linkcoreUrl": "https://linkco.re/Qd5Tzb0q"
+        "linkcoreUrl": "https://linkco.re/Qd5Tzb0q",
+        "verifiedAt": "2026-09-21T16:12:49+09:00",
+        "verificationSource": "official-linkcore-available-store-links"
       },
       "youtubeVideoTitle": "【MV】榎本魅愛「百万告」Anime Version｜百万回でも、君に告白する。",
       "videoLabel": "OFFICIAL MV · ANIME VERSION",

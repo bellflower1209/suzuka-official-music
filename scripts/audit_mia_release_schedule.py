@@ -20,17 +20,17 @@ def main() -> None:
     assert len({item["slug"] for group in (cms["releases"], cms["upcoming"], cms.get("comingSoon", [])) for item in group}) == len(cms["releases"]) + len(cms["upcoming"]) + len(cms.get("comingSoon", []))
     million = releases[0]
     assert million["releaseDate"] == "2026-07-12" and million["status"] == "published"
-    assert million["scheduledStreamingRelease"] == {
+    assert {k:v for k,v in million["scheduledStreamingRelease"].items() if k not in {"verifiedAt","verificationSource"}} == {
         "releaseDate": "2026-09-21", "timezone": "Asia/Tokyo", "label": "SUZUKA",
-        "status": "upcoming", "source": "user-confirmed-tunecore-management-screen",
+        "status": "published", "source": "user-confirmed-tunecore-management-screen",
         "linkcoreUrl": "https://linkco.re/Qd5Tzb0q",
     }
     hello = hello_release[0]
     assert hello["status"] == "published" and hello["releaseDate"] == "2026-09-16"
     assert hello["youtubeUrl"] == "https://www.youtube.com/watch?v=vuZiHlpo9Ak"
-    assert hello["scheduledStreamingRelease"] == {
+    assert {k:v for k,v in hello["scheduledStreamingRelease"].items() if k not in {"verifiedAt","verificationSource"}} == {
         "releaseDate": "2026-09-21", "timezone": "Asia/Tokyo", "label": "SUZUKA",
-        "status": "upcoming", "source": "user-confirmed-tunecore-management-screen",
+        "status": "published", "source": "user-confirmed-tunecore-management-screen",
         "linkcoreUrl": "https://linkco.re/QfzZUy6f",
     }
     expected_upcoming = {

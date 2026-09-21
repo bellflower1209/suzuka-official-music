@@ -29,7 +29,10 @@ def main() -> None:
         if slug in releases:
             item = releases[slug]
             assert item["scheduledStreamingRelease"]["linkcoreUrl"] == url
-            assert item["scheduledStreamingRelease"]["status"] == "upcoming"
+            assert item["scheduledStreamingRelease"]["status"] == ("published" if slug in {"hyakumankoku", "hello-hello-halloween"} else "upcoming")
+            if item["scheduledStreamingRelease"]["status"] == "published":
+                assert item["scheduledStreamingRelease"]["verifiedAt"]
+                assert "NOW STREAMING" in (ROOT / item["releaseUrl"] / "index.html").read_text()
             assert item["scheduledStreamingRelease"]["timezone"] == "Asia/Tokyo"
             page = ROOT / item["releaseUrl"] / "index.html"
         else:

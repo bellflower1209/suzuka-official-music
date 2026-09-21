@@ -12,7 +12,7 @@ ws.onmessage=event=>{const message=JSON.parse(event.data);if(message.id){const t
 const send=(method,params={})=>{const requestId=++id;ws.send(JSON.stringify({id:requestId,method,params}));return new Promise((resolve,reject)=>pending.set(requestId,{resolve,reject}));};
 const evaluate=async expression=>(await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true})).result.value;
 await send('Page.enable');await send('Runtime.enable');await send('Network.enable');await send('Network.setCacheDisabled',{cacheDisabled:true});
-const routes=['artists/koga-kamishiro/','releases/mahou-ga-toketemo/','releases/hyakumankoku/','search/?q=神代煌牙','search/?q=魔法が解けても','search/?q=榎本魅愛','search/?q=Streaming%20Release','search/?q=Over%20Drive','search/?q=September%20Blue','','artists/enomoto-mia/','news/enomoto-mia-september-21-double-release/','releases/hello-hello-halloween/','schedule/','search/?q=Hello%20Hello%20Halloween','search/?q=百万告','search/?q=JOYSOUND','search/?q=カラオケ'];
+const routes=['artists/koga-kamishiro/','releases/mahou-ga-toketemo/','releases/hyakumankoku/','search/?q=神代煌牙','search/?q=魔法が解けても','search/?q=榎本魅愛','search/?q=Streaming%20Release','search/?q=Over%20Drive','search/?q=September%20Blue','','artists/enomoto-mia/','news/enomoto-mia-september-21-double-release/','releases/hello-hello-halloween/','schedule/','search/?q=Hello%20Hello%20Halloween','search/?q=百万告','search/?q=JOYSOUND','search/?q=カラオケ','search/?q=花言葉','search/?q=悪役でいい'];
 const results=[];fs.mkdirSync('/private/tmp/suzuka-postpublication-qa',{recursive:true});
 for(const width of [390,768,1280])for(const route of routes){
   await send('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width===390});
@@ -43,7 +43,7 @@ for(const width of [390,768,1280])for(const route of routes){
   if(route===''||route==='artists/enomoto-mia/')assert.equal(result.scheduleItems,6,route);
   if(route.startsWith('search/?q=')) {
     const query=new URL(route,base).searchParams.get('q');
-    const expected={'神代煌牙':'artists/koga-kamishiro/','魔法が解けても':'releases/mahou-ga-toketemo/','榎本魅愛':'artists/enomoto-mia/','百万告':'releases/hyakumankoku/','Streaming Release':'releases/hyakumankoku/','Over Drive':'releases/over-drive/','September Blue':'releases/september-blue/','Hello Hello Halloween':'releases/hello-hello-halloween/','JOYSOUND':'releases/hanakotoba/','カラオケ':'releases/hanakotoba/'}[query];
+    const expected={'花言葉':'releases/hanakotoba/','悪役でいい':'releases/akuyaku-de-ii/','神代煌牙':'artists/koga-kamishiro/','魔法が解けても':'releases/mahou-ga-toketemo/','榎本魅愛':'artists/enomoto-mia/','百万告':'releases/hyakumankoku/','Streaming Release':'releases/hyakumankoku/','Over Drive':'releases/over-drive/','September Blue':'releases/september-blue/','Hello Hello Halloween':'releases/hello-hello-halloween/','JOYSOUND':'releases/hanakotoba/','カラオケ':'releases/hanakotoba/'}[query];
     assert.ok(await evaluate(`[...document.querySelectorAll('[data-v31-search-results] a')].some(a=>new URL(a.href).pathname===${JSON.stringify('/'+expected)})`),JSON.stringify({route,width,searchText:result.searchText}));
   }
   await evaluate("window.scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'})");
@@ -64,8 +64,9 @@ const statuses=async instant=>{
   const value=await evaluate("[...document.querySelectorAll('[data-activity-status]')].map(node=>node.textContent)");
   await send('Page.removeScriptToEvaluateOnNewDocument',{identifier});return value;
 };
-assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','STREAMING RELEASE · COMING 09.21','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
-assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · 配信状況はLinkCoreへ','STREAMING RELEASE · 配信状況はLinkCoreへ','NEW RELEASE · COMING 09.22','NEW RELEASE · COMING 09.22']);
+assert.deepEqual(await statuses('2026-09-12T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND · COMING 09.18','STREAMING RELEASE · COMING 09.21','STREAMING RELEASE · COMING 09.21','UPCOMING · 09.22','UPCOMING · 09.22']);
+assert.deepEqual(await statuses('2026-09-21T00:00:00+09:00'),['NOW STREAMING','KARAOKE / JOYSOUND','STREAMING RELEASE · NOW STREAMING','STREAMING RELEASE · NOW STREAMING','UPCOMING · 09.22','UPCOMING · 09.22']);
+assert.ok((await statuses('2026-09-23T00:00:00+09:00')).slice(-2).every(s=>s==='UPCOMING · 09.22 · 公開確認待ち'));
 for(const timezoneId of ['Asia/Tokyo','America/Los_Angeles','UTC']) {
   await send('Emulation.setTimezoneOverride',{timezoneId});
   for(const instant of ['2026-09-14T00:00:00+09:00','2026-09-21T00:00:00+09:00']) {

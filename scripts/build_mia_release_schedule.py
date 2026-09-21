@@ -20,10 +20,10 @@ def schedule_panel(schedule: dict, prefix: str, *, compact: bool) -> str:
         href = prefix + activity["url"]
         cards.append(
             f'<a class="mia-schedule-item" href="{html.escape(href)}" '
-            f'data-activity-date="{activity["date"]}" data-activity-kind="{html.escape(activity["kind"])}">'
+            f'data-activity-date="{activity["date"]}" data-activity-kind="{html.escape(activity["kind"])}" data-activity-state="{html.escape(activity.get("status", ""))}">'
             f'<time datetime="{activity["date"]}">{month_day}</time><span>'
             f'<strong>{html.escape(activity["title"])}</strong>'
-            f'<small data-activity-status>{html.escape(activity["kind"])}</small>'
+            f'<small data-activity-status>{html.escape(activity["kind"])}{" · NOW STREAMING" if activity.get("status") == "published" else " · UPCOMING" if activity.get("status") == "upcoming" else ""}</small>'
             + (f'<small>OFFICIAL RELEASE {activity["officialReleaseDate"].replace("-", ".")}</small>' if activity.get("officialReleaseDate") else "")
             + '</span></a>'
         )
@@ -54,10 +54,12 @@ def build_news(root: Path, schedule: dict) -> None:
     slug = "enomoto-mia-september-21-double-release"
     path = root / "news" / slug / "index.html"
     text = path.read_text(encoding="utf-8")
+    confirmed = all(a.get("status") == "published" for a in schedule["activities"] if a["title"] in {"百万告", "Hello Hello Halloween"})
+    release_text = "ストリーミング配信開始しました" if confirmed else "ストリーミング配信予定です"
     body = (
         '<section class="mia-campaign-news"><p>榎本魅愛の2作品がストリーミング配信へ</p>'
         '<h2>「百万告」<br>「Hello Hello Halloween」</h2>'
-        '<p>が、2026年9月21日にストリーミング配信予定です。</p><p>「百万告」のSUZUKA作品公開日は2026年7月12日です。作品公開日とストリーミング配信日は異なります。</p>'
+        f'<p>が、2026年9月21日に{release_text}。</p><p>「百万告」のSUZUKA作品公開日は2026年7月12日です。作品公開日とストリーミング配信日は異なります。</p>'
         '<p>9月11日の「花言葉」Streaming Release、9月18日のJOYSOUNDカラオケ配信から続く、榎本魅愛の9月の活動としてお知らせします。</p>'
         '<p>配信情報は、確認済みの公式LinkCoreページからご確認いただけます。</p>'
         '<div class="explore-actions"><a href="../../releases/hyakumankoku/">百万告</a>'

@@ -186,7 +186,7 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
         if not streaming.get("releaseDate"):
             continue
         streaming_cards.append(
-            '<article class="v31-countdown-card"><div><p class="section-kicker">STREAMING RELEASE</p>'
+            f'<article class="v31-countdown-card"><div><p class="section-kicker">STREAMING RELEASE{" · NOW STREAMING" if streaming.get("status") == "published" and streaming.get("verifiedAt") else " · SCHEDULED"}</p>'
             f'<time datetime="{streaming["releaseDate"]}">{streaming["releaseDate"].replace("-", ".")}</time></div><div>'
             f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
             f'<p>OFFICIAL RELEASE · {item["releaseDate"].replace("-", ".")} · SUZUKA作品公開</p>'

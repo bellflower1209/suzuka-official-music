@@ -22,14 +22,17 @@ def panel(item: dict, scheduled: dict) -> str:
     title = html.escape(item["title"])
     artist = html.escape(item["artist"])
     slug = html.escape(item["slug"])
+    live = scheduled.get("status") == "published" and bool(scheduled.get("verifiedAt"))
+    state = "NOW STREAMING" if live else "SCHEDULED"
+    label = "配信開始" if live else "配信予定"
     return (
         f'<!-- SCHEDULED-LINKCORE:{slug}:START -->'
-        f'<section class="streaming-release scheduled-streaming-release" aria-label="Streaming Release 配信予定">'
-        '<div><p class="streaming-kicker">STREAMING RELEASE / SCHEDULED</p>'
-        f'<p class="streaming-status" data-streaming-date="{release_date}" aria-live="polite">{japanese_date}配信予定</p>'
+        f'<section class="streaming-release scheduled-streaming-release" aria-label="Streaming Release {label}">'
+        f'<div><p class="streaming-kicker">STREAMING RELEASE / {state}</p>'
+        f'<p class="streaming-status" data-streaming-date="{release_date}" aria-live="polite">{japanese_date}{label}</p>'
         f'<h2>{title}</h2><p class="streaming-artist">{artist}</p>'
         f'<p>OFFICIAL RELEASE · <time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-", ".")}</time> · SUZUKA作品公開</p>'
-        f'<p>STREAMING RELEASE · <time datetime="{release_date}">{display_date}</time> — {japanese_date} 配信予定</p>'
+        f'<p>STREAMING RELEASE · <time datetime="{release_date}">{display_date}</time> — {japanese_date} {label}</p>'
         '<p class="streaming-credit">Label：SUZUKA</p></div>'
         '<div class="streaming-actions">'
         f'<a class="streaming-primary" href="{url}" target="_blank" rel="noopener noreferrer">LinkCoreで配信情報を見る ↗</a>'
