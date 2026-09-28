@@ -52,7 +52,17 @@ def main() -> None:
         }
         if actual_leadership != expected_leadership:
             errors.append("Organization leadership mismatch")
-        forbidden = {"address", "telephone", "email", "foundingDate", "taxID", "legalName"}
+        if organization.get("email") != brand["officialContactEmail"]:
+            errors.append("Organization official contact email mismatch")
+        expected_contact = {
+            "@type": "ContactPoint",
+            "contactType": "official contact",
+            "email": brand["officialContactEmail"],
+            "availableLanguage": ["ja", "en"],
+        }
+        if organization.get("contactPoint") != expected_contact:
+            errors.append("Organization contactPoint mismatch")
+        forbidden = {"address", "telephone", "foundingDate", "taxID", "legalName"}
         if forbidden & organization.keys():
             errors.append(f"unverified Organization fields: {sorted(forbidden & organization.keys())}")
     for profile in brand["sameAs"]:
@@ -67,6 +77,17 @@ def main() -> None:
         errors.append("Home visible brand descriptor missing")
     if "BRAND-V11:ABOUT-ENTITY:START" not in about or "本サイトのSUZUKAは" not in about:
         errors.append("About entity source missing")
+    required_contact_fragments = [
+        "BRAND-V11:OFFICIAL-CONTACT:START",
+        brand["labelDescriptor"],
+        f'Record Label</dt><dd>{brand["labelName"]}',
+        f'href="mailto:{brand["officialContactEmail"]}"',
+        f'>{brand["officialContactEmail"]}</a>',
+    ]
+    if any(fragment not in about for fragment in required_contact_fragments):
+        errors.append("About official label contact missing")
+    if '<meta name="robots" content="index, follow"' not in about:
+        errors.append("About robots index/follow missing")
     for item in brand.get("leadership", []):
         if item["name"] not in about or item["role"] not in about or item["jobTitle"] not in about:
             errors.append(f'About leadership missing: {item["name"]}')

@@ -54,6 +54,61 @@ def set_meta(text: str, selector: str, value: str) -> str:
     return text.replace("</head>", tag + "</head>", 1)
 
 
+def official_contact_html(brand: dict) -> str:
+    contact_email = html.escape(brand["officialContactEmail"])
+    return (
+        '<section class="v11-official-contact" id="official-contact" aria-labelledby="official-contact-title">'
+        '<p class="section-kicker">OFFICIAL / CONTACT</p>'
+        f'<h2 id="official-contact-title">{html.escape(brand["labelName"])}</h2>'
+        f'<p class="v11-label-descriptor">{html.escape(brand["labelDescriptor"])}</p>'
+        '<dl class="v11-contact-details">'
+        f'<div><dt>Record Label</dt><dd>{html.escape(brand["labelName"])}</dd></div>'
+        f'<div><dt>Official Contact</dt><dd><a href="mailto:{contact_email}">{contact_email}</a></dd></div>'
+        '</dl>'
+        '<p>SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。</p>'
+        f'<p>レーベル名：{html.escape(brand["labelName"])}<br/>公式連絡先：<a href="mailto:{contact_email}">{contact_email}</a></p>'
+        '</section>'
+    )
+
+
+def install_spotify_contact(root: Path, brand: dict) -> None:
+    """Render only the Spotify label-review evidence without rebuilding unrelated pages."""
+    about_path = root / "about/index.html"
+    about = about_path.read_text(encoding="utf-8")
+    description = "SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。"
+    for selector in ("name:description", "property:og:description", "name:twitter:description"):
+        about = set_meta(about, selector, description)
+    if 'href="#official-contact"' not in about:
+        about = about.replace(
+            '<a href="../photobooks/">Photobooks</a></nav>',
+            '<a href="../photobooks/">Photobooks</a><a href="#official-contact">Official / Contact</a></nav>',
+            1,
+        )
+    about = marker_upsert(about, "OFFICIAL-CONTACT", official_contact_html(brand), '<section class="about-label-story">')
+    about_path.write_text(about, encoding="utf-8")
+
+    home_path = root / "index.html"
+    home = home_path.read_text(encoding="utf-8")
+
+    def add_contact(match: re.Match) -> str:
+        data = json.loads(match.group(2))
+        graph = data.get("@graph", []) if isinstance(data, dict) else []
+        for node in graph:
+            if isinstance(node, dict) and node.get("@id") == brand["organizationId"]:
+                node["email"] = brand["officialContactEmail"]
+                node["contactPoint"] = {
+                    "@type": "ContactPoint",
+                    "contactType": "official contact",
+                    "email": brand["officialContactEmail"],
+                    "availableLanguage": ["ja", "en"],
+                }
+        payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+        return match.group(1) + payload + match.group(3)
+
+    home = JSONLD_RE.sub(add_contact, home)
+    home_path.write_text(home, encoding="utf-8")
+
+
 def consolidate_jsonld(text: str) -> str:
     """Publish one graph per page and merge repeated canonical entities."""
     matches = list(JSONLD_RE.finditer(text))
@@ -206,6 +261,13 @@ def normalize_graph(text: str, canonical: str, relative: Path, brand: dict, rele
                 "@type": "Organization", "@id": brand["organizationId"],
                 "name": brand["brandName"], "alternateName": brand["shortName"],
                 "url": brand["officialUrl"], "description": brand["description"],
+                "email": brand["officialContactEmail"],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "official contact",
+                    "email": brand["officialContactEmail"],
+                    "availableLanguage": ["ja", "en"],
+                },
                 "logo": {"@type": "ImageObject", "url": brand["logo"], "contentUrl": brand["logo"]},
                 "sameAs": [item["url"] for item in brand["sameAs"]],
                 "employee": [
@@ -360,7 +422,7 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
     about_path = root / "about/index.html"
     about = about_path.read_text(encoding="utf-8")
     about = set_meta(about, "title", "SUZUKAとは | Original AI Music Project | SUZUKA Official")
-    about_description = "SUZUKA Officialは、AIを活用して音楽・MV・ビジュアル・歌詞・物語を制作・公開するオリジナルAI音楽プロジェクトです。"
+    about_description = "SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。"
     for selector in ("name:description", "property:og:description", "name:twitter:description"):
         about = set_meta(about, selector, about_description)
     about = about.replace("Music Label / Creative Music Project", "Original AI Music Project")
@@ -371,7 +433,8 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
         '<p>所属アーティストと登場人物は架空のAIアーティストです。公開作品は、音楽、映像、公式歌詞、Visual Collectionを通してそれぞれの作品世界を描きます。</p>'
         '<nav class="explore-actions" aria-label="SUZUKAの公式コンテンツ"><a href="../artists/">Artists</a><a href="../releases/">Releases</a>'
         '<a href="../lyrics/">Lyrics</a><a href="https://www.youtube.com/@suzuka1209" target="_blank" rel="noopener noreferrer">Official YouTube ↗</a>'
-        '<a href="../photobooks/">Photobooks</a></nav><p class="v11-disambiguation">本サイトのSUZUKAは、音楽・ビジュアル・物語を展開する独立したオリジナルAI音楽プロジェクトです。</p></section>'
+        '<a href="../photobooks/">Photobooks</a><a href="#official-contact">Official / Contact</a></nav>'
+        '<p class="v11-disambiguation">本サイトのSUZUKAは、音楽・ビジュアル・物語を展開する独立したオリジナルAI音楽プロジェクトです。</p></section>'
     )
     about = marker_upsert(about, "ABOUT-ENTITY", source, '<section class="about-label-story">')
     leadership_cards = "".join(
@@ -387,6 +450,7 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
         f'<div class="v11-leadership-grid">{leadership_cards}</div></section>'
     )
     about = marker_upsert(about, "ABOUT-LEADERSHIP", leadership, '<section class="about-label-story">')
+    about = marker_upsert(about, "OFFICIAL-CONTACT", official_contact_html(brand), '<section class="about-label-story">')
     about_path.write_text(about, encoding="utf-8")
 
     for item in releases:
@@ -669,10 +733,11 @@ def install_shared_assets(root: Path, brand: dict) -> None:
     }
     (root / "site.webmanifest").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     css = """/* SUZUKA Brand Discovery & Growth 1.1 */
-.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin:clamp(2rem,6vw,6rem) auto;padding:clamp(1.25rem,4vw,3rem);max-width:74rem;color:var(--text-on-dark,#fff7fb);border:1px solid var(--border-contrast,#746c78);border-radius:1.2rem;background:linear-gradient(145deg,#15111a,#08070a)}
+.v11-brand-summary,.v11-about-entity,.v11-official-contact,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin:clamp(2rem,6vw,6rem) auto;padding:clamp(1.25rem,4vw,3rem);max-width:74rem;color:var(--text-on-dark,#fff7fb);border:1px solid var(--border-contrast,#746c78);border-radius:1.2rem;background:linear-gradient(145deg,#15111a,#08070a)}
 .v11-brand-summary dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem}.v11-brand-summary dl>div{padding:1rem;border:1px solid var(--border-contrast,#746c78);border-radius:.8rem;background:#0d0b10}.v11-brand-summary dt{color:var(--text-secondary,#ddd3df)}.v11-brand-summary dd{margin:.35rem 0 0;font-size:clamp(1.5rem,4vw,2.8rem);font-weight:800}.v11-about-entity>p,.v11-work-context>p,.v11-next-listen>p{max-width:62rem;line-height:1.9}.v11-work-context a,.v11-disambiguation,.v31-brand-return a{color:var(--link-color,#ffd1eb)}.v11-artist-discovery{padding:clamp(2rem,6vw,6rem) clamp(1rem,6vw,7rem)}
+.v11-official-contact h2{margin:.75rem 0 .2rem;font-size:clamp(2.3rem,6vw,4.8rem)}.v11-label-descriptor{margin:0 0 1.5rem;color:var(--text-secondary,#ddd3df);font-size:clamp(1rem,2vw,1.3rem)}.v11-contact-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:1.5rem 0}.v11-contact-details>div{padding:1rem;border:1px solid var(--border-contrast,#746c78);border-radius:.8rem;background:#0d0b10}.v11-contact-details dt{color:var(--text-secondary,#ddd3df);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em}.v11-contact-details dd{margin:.45rem 0 0;font-size:clamp(1rem,2vw,1.25rem);font-weight:700;overflow-wrap:anywhere}.v11-official-contact>p{max-width:62rem;line-height:1.9}.v11-official-contact a{color:var(--link-color,#ffd1eb);text-decoration:underline;text-underline-offset:.2em}
 .v11-subscribe-cta{display:flex;align-items:center;justify-content:space-between;gap:1.25rem}.v11-subscribe-cta h2{margin:.2rem 0;font-size:clamp(1.5rem,4vw,2.5rem)}.v11-subscribe-cta p{margin:.35rem 0;color:var(--text-secondary,#ddd3df)}.v11-subscribe-cta .v31-readable-cta{flex:0 0 auto;margin:0;text-align:center}.v11-growth-links .explore-actions{margin-top:1rem}
-@media(max-width:760px){.v11-brand-summary,.v11-about-entity,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin-left:1rem;margin-right:1rem}.v11-brand-summary dl{grid-template-columns:repeat(2,minmax(0,1fr))}.v11-subscribe-cta{display:grid;margin-bottom:11rem}.v11-subscribe-cta .v31-readable-cta{width:100%;justify-content:center}}
+@media(max-width:760px){.v11-brand-summary,.v11-about-entity,.v11-official-contact,.v11-work-context,.v11-next-listen,.v11-growth-links,.v11-subscribe-cta{margin-left:1rem;margin-right:1rem}.v11-brand-summary dl,.v11-contact-details{grid-template-columns:1fr}.v11-subscribe-cta{display:grid;margin-bottom:11rem}.v11-subscribe-cta .v31-readable-cta{width:100%;justify-content:center}}
 """
     (root / "assets/brand-discovery-v11.css").write_text(css, encoding="utf-8")
     for path in sorted([*root.glob("**/index.html"), root / "404.html"]):
@@ -698,8 +763,14 @@ def install_shared_assets(root: Path, brand: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    root = parser.parse_args().root.resolve()
+    parser.add_argument("--spotify-contact-only", action="store_true")
+    args = parser.parse_args()
+    root = args.root.resolve()
     brand = json.loads((root / "assets/data/brand.json").read_text(encoding="utf-8"))
+    if args.spotify_contact_only:
+        install_spotify_contact(root, brand)
+        print(json.dumps({"status": "PASS", "mode": "spotify-contact-only"}))
+        return
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
     photobook_source = json.loads((root / "assets/data/photobooks.json").read_text(encoding="utf-8"))
