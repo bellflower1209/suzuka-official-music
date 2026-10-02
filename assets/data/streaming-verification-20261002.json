@@ -1,0 +1,108 @@
+{
+  "verifiedAt": "2026-10-02T14:10:36+09:00",
+  "source": "public-linkcore-and-destination-http",
+  "records": [
+    {
+      "code": "r01YHhrv",
+      "title": "Eternity of Flower Words by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1960708",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/eternity-of-flower-words-single/6812762638?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1960708",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/0ivOsbn8HcpECzy4jQMFvC"
+        }
+      ]
+    },
+    {
+      "code": "00FG1Rd6",
+      "title": "何度生まれ変わっても - RE:BORN OATH - by 神代煌牙 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969058",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/no-matter-how-many-times-im-reborn-re-born-oath-single/6814719527?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1969058",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/1Hu3ZtFLEbDsPvtqGzPRTp"
+        }
+      ]
+    },
+    {
+      "code": "TYNMGrUr",
+      "title": "恋愛対象外 (仮) by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1960949",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/not-my-type-for-now-single/6812777202?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1960949",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/35vQ50TpepLiFyCbDniP2H"
+        }
+      ]
+    },
+    {
+      "code": "C7nAndeS",
+      "title": "心に残る宝モノ by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-09-29",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969089",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/treasure-that-remains-in-my-heart-single/6814719029?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1969089",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/3TCudVgNXKEYgDTGQXJZB5"
+        }
+      ]
+    },
+    {
+      "code": "0X3neT7N",
+      "title": "君とならラスボスまで by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-01",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969247",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/with-you-until-the-final-boss-single/6814720313?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1969247",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/1IwXvI02gpPoRAuq2oDlR3"
+        }
+      ]
+    },
+    {
+      "code": "u07vdbbg",
+      "title": "世代を超えてママへ by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-02",
+      "stores": [
+        {
+          "url": "https://www.tunecore.co.jp/to/apple_music/1970337",
+          "status": 200,
+          "destination": "https://music.apple.com/jp/album/across-generations-to-mom-single/6814790228?at=10l7qr"
+        },
+        {
+          "url": "https://www.tunecore.co.jp/to/spotify/1970337",
+          "status": 200,
+          "destination": "https://open.spotify.com/album/2OX77pxSdH6irBwbmYj025"
+        }
+      ]
+    }
+  ]
+}

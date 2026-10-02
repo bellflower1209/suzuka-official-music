@@ -31,8 +31,14 @@ def main() -> int:
             except (TypeError, ValueError) as error:
                 errors.append(f'{item["slug"]}: invalid timestamp: {error}')
             if expected != "upcoming" or not item.get("releaseDate"):
-                if not str(item.get("youtubeUrl", "")).startswith("https://www.youtube.com/watch?v="):
-                    errors.append(f'{item["slug"]}: official YouTube URL missing')
+                has_video = str(item.get("youtubeUrl", "")).startswith("https://www.youtube.com/watch?v=")
+                streaming = item.get("scheduledStreamingRelease") or item.get("streamingRelease") or {}
+                has_distribution = (
+                    streaming.get("status") == "published"
+                    and str(streaming.get("linkcoreUrl", "")).startswith("https://linkco.re/")
+                )
+                if not (has_video or has_distribution):
+                    errors.append(f'{item["slug"]}: official YouTube or published LinkCore source missing')
     catalog_published = {item["slug"] for item in catalog["releases"]}
     catalog_upcoming = {item["slug"] for item in catalog["upcoming"]}
     if catalog_published != {item["slug"] for item in collections["releases"]}:

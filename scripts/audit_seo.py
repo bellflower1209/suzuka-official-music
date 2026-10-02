@@ -60,6 +60,11 @@ MIA_RELEASE_DETAILS = {
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
 NO_VIDEO_RELEASE_PATHS = {
     Path("releases/boukyaku-no-ikimono/index.html"),
+    *{
+        Path(f'releases/{release["slug"]}/index.html')
+        for release in CREATOR_CMS["releases"]
+        if release.get("status") == "published" and not release.get("youtubeUrl")
+    },
 }
 CURRENT_RELEASE_NEWS = {
     Path("news/namaste-galaxy-release/index.html"),
@@ -356,7 +361,10 @@ def required_schema_types(relative: Path) -> set[str]:
     if route.startswith("news/"):
         return {"Article", "WebPage", "BreadcrumbList"}
     if relative in NO_VIDEO_RELEASE_PATHS:
-        return {"MusicRecording", "BreadcrumbList", "WebPage"}
+        slug = relative.parts[1]
+        release = next((item for item in CREATOR_CMS["releases"] if item["slug"] == slug), None)
+        music_type = "MusicAlbum" if release and release.get("releaseType") == "album" else "MusicRecording"
+        return {music_type, "BreadcrumbList", "WebPage"}
     if route.startswith("releases/"):
         return {"MusicRecording", "VideoObject", "BreadcrumbList", "WebPage"}
     return set()
@@ -617,10 +625,9 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             if video.get("uploadDate") != expected_date or video.get("duration") != "PT4M57S":
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
-            recording = schema_nodes.get(f"{page_url}#recording", {})
             if "VideoObject" in schema_types:
                 errors.append(f"{relative}: must not claim VideoObject without a confirmed official video")
-            if any("datePublished" in node for node in schema_nodes.values()):
+            if relative == Path("releases/boukyaku-no-ikimono/index.html") and any("datePublished" in node for node in schema_nodes.values()):
                 errors.append(f"{relative}: must not infer datePublished")
         if relative in FEATURE_NEWS:
             article = schema_nodes.get(f"{page_url}#article", {})
@@ -840,7 +847,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for release in UNPUBLISHED_MIA
         if release.get("status") == "upcoming"
     }
-    explorer_hub_roots = {"features", "gallery", "wiki", "playlists", "lyrics", "en"}
+    explorer_hub_roots = {"features", "gallery", "wiki", "playlists", "lyrics", "en", "news", "photobooks"}
     direct_home_required = {
         url
         for url, path in expected_urls.items()

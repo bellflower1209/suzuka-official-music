@@ -2,27 +2,470 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-09-21T16:12:49+09:00</updated>
+  <updated>2026-10-02T14:10:36+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
   <entry>
-    <id>https://www.suzukaofficial.com/releases/september-blue/</id>
-    <title>Upcoming｜榎本魅愛「September Blue」</title>
-    <updated>2026-09-21T16:12:49+09:00</updated>
-    <link href="https://www.suzukaofficial.com/releases/september-blue/" />
-    <category term="upcoming" />
-    <summary>2026-09-22T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <published>2026-10-02T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-streaming-release/</id>
+    <title>妃みちる「世代を超えてママへ」配信開始</title>
+    <updated>2026-10-02T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-streaming-release/" />
+    <category term="news" />
+    <summary>妃みちる「世代を超えてママへ」が2026-10-02にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。</summary>
   </entry>
   <entry>
+    <published>2026-10-01T22:47:35+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/without-worrying-reimagined/</id>
+    <title>榎本魅愛「Without worrying - Reimagined -」</title>
+    <updated>2026-10-01T22:47:35+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/without-worrying-reimagined/" />
+    <category term="release" />
+    <summary>榎本魅愛「Without worrying」の新しい音源を公式YouTubeで先行公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-01T22:47:35+09:00</published>
+    <id>https://www.suzukaofficial.com/news/without-worrying-reimagined-release/</id>
+    <title>榎本魅愛「Without worrying - Reimagined -」先行音源公開</title>
+    <updated>2026-10-01T22:47:35+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/without-worrying-reimagined-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「Without worrying - Reimagined -」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-01T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/renkinku/</id>
+    <title>榎本魅愛「恋禁区。」</title>
+    <updated>2026-10-01T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/renkinku/" />
+    <category term="release" />
+    <summary>忘れたい恋ほど心が君へ向かう、榎本魅愛の失恋と再出発の物語。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-01T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/news/renkinku-release/</id>
+    <title>榎本魅愛「恋禁区。」MV公開</title>
+    <updated>2026-10-01T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/renkinku-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「恋禁区。」のOFFICIAL MV公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-01T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kimi-to-nara-last-boss-made-streaming-release/</id>
+    <title>榎本魅愛「君とならラスボスまで」配信開始</title>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kimi-to-nara-last-boss-made-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「君とならラスボスまで」が2026-10-01にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-30T20:00:39+09:00</published>
+    <id>https://www.suzukaofficial.com/news/watashi-no-eranda-michi-artist-video-20260930/</id>
+    <title>妃みちる「私の選んだ道」Artistチャンネル動画公開</title>
+    <updated>2026-09-30T20:00:39+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/watashi-no-eranda-michi-artist-video-20260930/" />
+    <category term="news" />
+    <summary>妃みちるの公式Artistチャンネルで「私の選んだ道」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-30T20:00:38+09:00</published>
+    <id>https://www.suzukaofficial.com/news/caramel-artist-video-20260930/</id>
+    <title>榎本魅愛「キャラメ〜ル」Artistチャンネル動画公開</title>
+    <updated>2026-09-30T20:00:38+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/caramel-artist-video-20260930/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「キャラメ〜ル」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-30T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/news/leo-rise-again-artist-video-20260930/</id>
+    <title>神代煌牙「LEO — Rise Again —」Artistチャンネル動画公開</title>
+    <updated>2026-09-30T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/leo-rise-again-artist-video-20260930/" />
+    <category term="news" />
+    <summary>神代煌牙の公式Artistチャンネルで「LEO — Rise Again —」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-29T23:17:34+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kamisama-wa-rusu-artist-video-20260929/</id>
+    <title>神代煌牙「神様は留守」Artistチャンネル動画公開</title>
+    <updated>2026-09-29T23:17:34+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kamisama-wa-rusu-artist-video-20260929/" />
+    <category term="news" />
+    <summary>神代煌牙の公式Artistチャンネルで「神様は留守」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-29T23:02:44+09:00</published>
+    <id>https://www.suzukaofficial.com/news/natsu-ga-owaru-made-soba-ni-ite-artist-video-20260929/</id>
+    <title>榎本魅愛「夏が終わるまで、そばにいて。」Artistチャンネル動画公開</title>
+    <updated>2026-09-29T23:02:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/natsu-ga-owaru-made-soba-ni-ite-artist-video-20260929/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「夏が終わるまで、そばにいて。」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-29T22:42:18+09:00</published>
+    <id>https://www.suzukaofficial.com/news/updown-artist-video-20260929/</id>
+    <title>妃みちる「UPdown」Artistチャンネル動画公開</title>
+    <updated>2026-09-29T22:42:18+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/updown-artist-video-20260929/" />
+    <category term="news" />
+    <summary>妃みちるの公式Artistチャンネルで「UPdown」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-29T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/kokoro-ni-nokoru-takaramono/</id>
+    <title>妃みちる「心に残る宝モノ」</title>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/kokoro-ni-nokoru-takaramono/" />
+    <category term="release" />
+    <summary>妃みちる「心に残る宝モノ」は2026年09月29日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-29T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kokoro-ni-nokoru-takaramono-streaming-release/</id>
+    <title>妃みちる「心に残る宝モノ」配信開始</title>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kokoro-ni-nokoru-takaramono-streaming-release/" />
+    <category term="news" />
+    <summary>妃みちる「心に残る宝モノ」のストリーミング配信開始をお知らせします。2026年9月29日リリース。確認済みの公式LinkCoreから各サービスへ進めます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/news/yume-to-kaigo-to-watashitachi-artist-video-20260926/</id>
+    <title>榎本魅愛「夢と、介護と、私たち。」Artistチャンネル動画公開</title>
+    <updated>2026-09-26T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/yume-to-kaigo-to-watashitachi-artist-video-20260926/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「夢と、介護と、私たち。」のMV / 89秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/mahou-ga-toketemo-artist-video-20260926/</id>
+    <title>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Artistチャンネル動画公開</title>
+    <updated>2026-09-26T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/mahou-ga-toketemo-artist-video-20260926/" />
+    <category term="news" />
+    <summary>神代煌牙の公式Artistチャンネルで「魔法が解けても ― Pumpkin Carriage ―」のちょいMV / 15秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/renai-taishogai-kari/</id>
+    <title>榎本魅愛「恋愛対象外 (仮)」</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/renai-taishogai-kari/" />
+    <category term="release" />
+    <summary>榎本魅愛「恋愛対象外 (仮)」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/nando-umarekawattemo-reborn-oath/</id>
+    <title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/nando-umarekawattemo-reborn-oath/" />
+    <category term="release" />
+    <summary>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/eternity-of-flower-words/</id>
+    <title>榎本魅愛「Eternity of Flower Words」</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/eternity-of-flower-words/" />
+    <category term="release" />
+    <summary>榎本魅愛「Eternity of Flower Words」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/renai-taishogai-kari-streaming-release/</id>
+    <title>榎本魅愛「恋愛対象外 (仮)」配信開始</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/renai-taishogai-kari-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「恋愛対象外 (仮)」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/nando-umarekawattemo-reborn-oath-streaming-release/</id>
+    <title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」配信開始</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/nando-umarekawattemo-reborn-oath-streaming-release/" />
+    <category term="news" />
+    <summary>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-26T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/eternity-of-flower-words-streaming-release/</id>
+    <title>榎本魅愛「Eternity of Flower Words」配信開始</title>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/eternity-of-flower-words-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「Eternity of Flower Words」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-25T22:42:44+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/hello-life/</id>
+    <title>妃みちる「HELLO, LIFE!」</title>
+    <updated>2026-09-25T22:42:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/hello-life/" />
+    <category term="release" />
+    <summary>妃みちる「HELLO, LIFE!」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-25T22:42:44+09:00</published>
+    <id>https://www.suzukaofficial.com/news/hello-life-release/</id>
+    <title>妃みちる「HELLO, LIFE!」先行音源公開</title>
+    <updated>2026-09-25T22:42:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/hello-life-release/" />
+    <category term="news" />
+    <summary>妃みちる「HELLO, LIFE!」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-24T23:55:13+09:00</published>
+    <id>https://www.suzukaofficial.com/news/wakareta-michi-artist-video-20260924/</id>
+    <title>神代煌牙「分かれた道」Artistチャンネル動画公開</title>
+    <updated>2026-09-24T23:55:13+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/wakareta-michi-artist-video-20260924/" />
+    <category term="news" />
+    <summary>神代煌牙の公式Artistチャンネルで「分かれた道」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-24T22:40:02+09:00</published>
+    <id>https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-artist-video-20260924/</id>
+    <title>妃みちる「世代を超えてママへ」Artistチャンネル動画公開</title>
+    <updated>2026-09-24T22:40:02+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-artist-video-20260924/" />
+    <category term="news" />
+    <summary>妃みちるの公式Artistチャンネルで「世代を超えてママへ」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-24T00:33:51+09:00</published>
+    <id>https://www.suzukaofficial.com/photobooks/michiru-arinomama-just-as-i-am/</id>
+    <title>妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』</title>
+    <updated>2026-09-24T00:33:51+09:00</updated>
+    <link href="https://www.suzukaofficial.com/photobooks/michiru-arinomama-just-as-i-am/" />
+    <category term="photobook" />
+    <summary>日常の中にある小さな幸せを描く、妃みちるの1st Digital Photo Book。note公式記事で50カットを収録。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-24T00:33:51+09:00</published>
+    <id>https://www.suzukaofficial.com/news/michiru-arinomama-photobook/</id>
+    <title>妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』公開</title>
+    <updated>2026-09-24T00:33:51+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/michiru-arinomama-photobook/" />
+    <category term="news" />
+    <summary>妃みちるの1st Digital Photo Book『ありのまま。 — Just As I Am. —』がnoteで公開されました。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-23T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/mata-kimi-ni-koi-wo-suru/</id>
+    <title>榎本魅愛「また、君に恋をする。」</title>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/mata-kimi-ni-koi-wo-suru/" />
+    <category term="release" />
+    <summary>榎本魅愛「また、君に恋をする。」は2026年9月23日にストリーミング配信を開始しました。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-23T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/koisuru-subete-no-shunkan/</id>
+    <title>榎本魅愛「恋するすべての瞬間」</title>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/koisuru-subete-no-shunkan/" />
+    <category term="release" />
+    <summary>榎本魅愛の5曲入りアルバム「恋するすべての瞬間」は2026年9月23日にストリーミング配信を開始しました。収録曲は「Over Drive」「キャラメ〜ル」「取り扱いチューい」「百万告」「花言葉」です。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-23T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/mata-kimi-ni-koi-wo-suru-streaming-release/</id>
+    <title>榎本魅愛「また、君に恋をする。」配信開始</title>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/mata-kimi-ni-koi-wo-suru-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛「また、君に恋をする。」が2026年9月23日にストリーミング配信を開始しました。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-23T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/koisuru-subete-no-shunkan-streaming-release/</id>
+    <title>榎本魅愛「恋するすべての瞬間」アルバム配信開始</title>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/koisuru-subete-no-shunkan-streaming-release/" />
+    <category term="news" />
+    <summary>榎本魅愛の5曲入りアルバム「恋するすべての瞬間」が2026年9月23日にストリーミング配信を開始しました。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/news/taipa-nante-shiranakatta-artist-video-20260922/</id>
+    <title>榎本魅愛「タイパなんて知らなかった」Artistチャンネル動画公開</title>
+    <updated>2026-09-22T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/taipa-nante-shiranakatta-artist-video-20260922/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「タイパなんて知らなかった」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/september-blue-artist-video-20260922/</id>
+    <title>榎本魅愛「September Blue」Artistチャンネル動画公開</title>
+    <updated>2026-09-22T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/september-blue-artist-video-20260922/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「September Blue」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T01:02:48+09:00</published>
+    <id>https://www.suzukaofficial.com/news/tatta-hitori-no-kimi-e-streaming-release/</id>
+    <title>妃みちる「たった1人の君へ」ストリーミング配信開始</title>
+    <updated>2026-09-22T01:02:48+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/tatta-hitori-no-kimi-e-streaming-release/" />
+    <category term="news" />
+    <summary>2026-09-20に配信開始した妃みちる「たった1人の君へ」の公式配信リンクをSUZUKA Newsでお知らせします。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T01:02:48+09:00</published>
+    <id>https://www.suzukaofficial.com/news/september-blue-streaming-release/</id>
+    <title>榎本魅愛「September Blue」ストリーミング配信開始</title>
+    <updated>2026-09-22T01:02:48+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/september-blue-streaming-release/" />
+    <category term="news" />
+    <summary>2026-09-22に配信開始した榎本魅愛「September Blue」の公式配信リンクをSUZUKA Newsでお知らせします。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T01:02:48+09:00</published>
+    <id>https://www.suzukaofficial.com/news/over-drive-streaming-release/</id>
+    <title>榎本魅愛「Over Drive」ストリーミング配信開始</title>
+    <updated>2026-09-22T01:02:48+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/over-drive-streaming-release/" />
+    <category term="news" />
+    <summary>2026-09-22に配信開始した榎本魅愛「Over Drive」の公式配信リンクをSUZUKA Newsでお知らせします。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T01:02:48+09:00</published>
+    <id>https://www.suzukaofficial.com/news/friendlikesong-streaming-release/</id>
+    <title>妃みちる「friend like song」ストリーミング配信開始</title>
+    <updated>2026-09-22T01:02:48+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/friendlikesong-streaming-release/" />
+    <category term="news" />
+    <summary>2026-09-20に配信開始した妃みちる「friend like song」の公式配信リンクをSUZUKA Newsでお知らせします。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T00:00:00+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/september-blue/</id>
+    <title>榎本魅愛「September Blue」</title>
+    <updated>2026-09-22T00:00:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/september-blue/" />
+    <category term="release" />
+    <summary>榎本魅愛「September Blue」は2026-09-22ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-22T00:00:00+09:00</published>
     <id>https://www.suzukaofficial.com/releases/over-drive/</id>
-    <title>Upcoming｜榎本魅愛「Over Drive」</title>
-    <updated>2026-09-21T16:12:49+09:00</updated>
+    <title>榎本魅愛「Over Drive」</title>
+    <updated>2026-09-22T00:00:00+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/over-drive/" />
-    <category term="upcoming" />
-    <summary>2026-09-22T00:00:00+09:00 公開予定。公開済み作品とは分離しています。</summary>
+    <category term="release" />
+    <summary>榎本魅愛「Over Drive」は2026-09-22ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/rinne-no-chigiri/</id>
+    <title>VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」</title>
+    <updated>2026-09-21T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/rinne-no-chigiri/" />
+    <category term="release" />
+    <summary>VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/news/rinne-no-chigiri-release/</id>
+    <title>VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」先行音源公開</title>
+    <updated>2026-09-21T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/rinne-no-chigiri-release/" />
+    <category term="news" />
+    <summary>VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T20:00:03+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kimi-to-nara-last-boss-made-artist-video-20260921/</id>
+    <title>榎本魅愛「君とならラスボスまで」Artistチャンネル動画公開</title>
+    <updated>2026-09-21T20:00:03+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kimi-to-nara-last-boss-made-artist-video-20260921/" />
+    <category term="news" />
+    <summary>榎本魅愛の公式Artistチャンネルで「君とならラスボスまで」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T18:30:44+09:00</published>
+    <id>https://www.suzukaofficial.com/news/akuyaku-de-ii-artist-video-20260921/</id>
+    <title>神代煌牙「悪役でいい」Artistチャンネル動画公開</title>
+    <updated>2026-09-21T18:30:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/akuyaku-de-ii-artist-video-20260921/" />
+    <category term="news" />
+    <summary>神代煌牙の公式Artistチャンネルで「悪役でいい」のMV告知 / 61秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T01:19:19+09:00</published>
+    <id>https://www.suzukaofficial.com/news/michiru-official-channel-open/</id>
+    <title>妃みちる Official Channelオープン</title>
+    <updated>2026-09-21T01:19:19+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/michiru-official-channel-open/" />
+    <category term="news" />
+    <summary>妃みちるの音楽を届けるYouTube「妃みちる Official Channel」のオープンがnoteで公式発表されました。チャンネルの直接URLは確認できた時点で追加します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T01:16:08+09:00</published>
+    <id>https://www.suzukaofficial.com/news/enomoto-mia-three-streaming-releases/</id>
+    <title>榎本魅愛「百万告」「取り扱いチューい」「Hello Hello Halloween」3曲同時リリース</title>
+    <updated>2026-09-21T01:16:08+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/enomoto-mia-three-streaming-releases/" />
+    <category term="news" />
+    <summary>榎本魅愛の「百万告」「取り扱いチューい」「Hello Hello Halloween」が2026年9月21日に各音楽配信サービスで配信開始されました。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-21T00:01:38+09:00</published>
+    <id>https://www.suzukaofficial.com/news/friendlikesong-artist-video-20260921/</id>
+    <title>妃みちる「friend like song」Artistチャンネル動画公開</title>
+    <updated>2026-09-21T00:01:38+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/friendlikesong-artist-video-20260921/" />
+    <category term="news" />
+    <summary>妃みちるの公式Artistチャンネルで「friend like song」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-20T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/kimi-ga-iru-hougaku-e/</id>
+    <title>RE:VIVE「君がいる方角へ」</title>
+    <updated>2026-09-20T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/kimi-ga-iru-hougaku-e/" />
+    <category term="release" />
+    <summary>RE:VIVE「君がいる方角へ」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-20T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kimi-ga-iru-hougaku-e-release/</id>
+    <title>RE:VIVE「君がいる方角へ」先行音源公開</title>
+    <updated>2026-09-20T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kimi-ga-iru-hougaku-e-release/" />
+    <category term="news" />
+    <summary>RE:VIVE「君がいる方角へ」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-19T21:21:44+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/dalkomhan-jugeumeul-geudaeege/</id>
+    <title>ECLYPSE「달콤한 죽음을 그대에게」</title>
+    <updated>2026-09-19T21:21:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/dalkomhan-jugeumeul-geudaeege/" />
+    <category term="release" />
+    <summary>ECLYPSE「달콤한 죽음을 그대에게」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-19T21:21:44+09:00</published>
+    <id>https://www.suzukaofficial.com/news/dalkomhan-jugeumeul-geudaeege-release/</id>
+    <title>ECLYPSE「달콤한 죽음을 그대에게」先行音源公開</title>
+    <updated>2026-09-19T21:21:44+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/dalkomhan-jugeumeul-geudaeege-release/" />
+    <category term="news" />
+    <summary>ECLYPSE「달콤한 죽음을 그대에게」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
   </entry>
   <entry>
     <published>2026-09-16T20:00:07+09:00</published>
@@ -43,9 +486,45 @@
     <summary>榎本魅愛「Hello Hello Halloween」Official MV公開と、2026年9月21日のストリーミング配信情報をSUZUKA Newsで案内します。</summary>
   </entry>
   <entry>
+    <published>2026-09-16T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/henpin-sareta-ningen/</id>
+    <title>NOX「返品された人間」</title>
+    <updated>2026-09-16T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/henpin-sareta-ningen/" />
+    <category term="release" />
+    <summary>NOX「返品された人間」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-16T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/henpin-sareta-ningen-release/</id>
+    <title>NOX「返品された人間」先行音源公開</title>
+    <updated>2026-09-16T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/henpin-sareta-ningen-release/" />
+    <category term="news" />
+    <summary>NOX「返品された人間」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-15T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/kinmokusei-to-hoshifuru-yoru/</id>
+    <title>ASTERIA「金木犀と星降る夜」</title>
+    <updated>2026-09-15T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/kinmokusei-to-hoshifuru-yoru/" />
+    <category term="release" />
+    <summary>ASTERIA「金木犀と星降る夜」の先行音源を公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-15T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/kinmokusei-to-hoshifuru-yoru-release/</id>
+    <title>ASTERIA「金木犀と星降る夜」先行音源公開</title>
+    <updated>2026-09-15T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/kinmokusei-to-hoshifuru-yoru-release/" />
+    <category term="news" />
+    <summary>ASTERIA「金木犀と星降る夜」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
     <published>2026-09-14T20:00:06+09:00</published>
     <id>https://www.suzukaofficial.com/releases/mahou-ga-toketemo/</id>
-    <title>神代煌牙「魔法が解けても」</title>
+    <title>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」</title>
     <updated>2026-09-14T20:00:06+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/mahou-ga-toketemo/" />
     <category term="release" />
@@ -58,7 +537,7 @@
     <updated>2026-09-14T20:00:06+09:00</updated>
     <link href="https://www.suzukaofficial.com/news/mahou-ga-toketemo-release/" />
     <category term="news" />
-    <summary>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MVの公開をSUZUKA Newsでお知らせします。</summary>
+    <summary>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MV公開中。10月3日のストリーミング配信予定と公式LinkCoreを追加しました。</summary>
   </entry>
   <entry>
     <published>2026-09-12T00:00:00+09:00</published>
@@ -234,7 +713,7 @@
   <entry>
     <published>2026-08-19T20:00:06+09:00</published>
     <id>https://www.suzukaofficial.com/releases/friendlikesong/</id>
-    <title>妃みちる「friendlikesong」</title>
+    <title>妃みちる「friend like song」</title>
     <updated>2026-08-19T20:00:06+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/friendlikesong/" />
     <category term="release" />

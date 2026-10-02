@@ -1,0 +1,678 @@
+{
+  "verifiedAt": "2026-09-22T01:02:48+09:00",
+  "releases": [
+    {
+      "slug": "september-blue",
+      "source": "https://linkco.re/HCvApf7V",
+      "title": "September Blue",
+      "artist": "榎本魅愛",
+      "releaseDate": "2026-09-22",
+      "status": "published",
+      "httpStatus": 200,
+      "sourceSha256": "48361fbe278d200f975a2051b067f93f3047777d576816aea694c07a6d1a32b1",
+      "storeLinks": [
+        {
+          "label": "Apple Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1955123"
+        },
+        {
+          "label": "Spotifyで聴く",
+          "url": "https://www.tunecore.co.jp/to/spotify/1955123"
+        },
+        {
+          "label": "YouTube Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1955123"
+        },
+        {
+          "label": "LINE MUSICで聴く",
+          "url": "https://www.tunecore.co.jp/to/line/1955123"
+        },
+        {
+          "label": "Amazon Music Unlimitedで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1955123"
+        },
+        {
+          "label": "AWAで聴く",
+          "url": "https://awa.fm/"
+        },
+        {
+          "label": "iTunesで購入する",
+          "url": "https://www.tunecore.co.jp/to/itunes/1955123"
+        },
+        {
+          "label": "Amazon Musicで購入する",
+          "url": "https://www.tunecore.co.jp/to/amazon_music/1955123"
+        },
+        {
+          "label": "recochokuで購入する",
+          "url": "https://www.tunecore.co.jp/to/recochoku401/1955123"
+        },
+        {
+          "label": "moraで購入する",
+          "url": "https://www.tunecore.co.jp/to/mora1701/1955123"
+        },
+        {
+          "label": "Prime Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_prime_music/1955123"
+        },
+        {
+          "label": "Amazon Music Freeで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_free/1955123"
+        },
+        {
+          "label": "Deezerで聴く",
+          "url": "https://www.deezer.com/search/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "KKBOXで聴く",
+          "url": "https://www.kkbox.com/jp/ja/search.php?word=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "dヒッツ powered by レコチョクで聴く",
+          "url": "https://dhits.docomo.ne.jp/search/freeword/musics?k_q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "dミュージック powered by レコチョクで購入する",
+          "url": "https://www.tunecore.co.jp/to/recochoku402/1955123"
+        },
+        {
+          "label": "Music Store powered by レコチョクで購入する",
+          "url": "https://www.tunecore.co.jp/to/recochoku403/1955123"
+        },
+        {
+          "label": "music.jp STOREで購入する",
+          "url": "https://music-book.jp/Search?Keyword=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "ドワンゴジェイピーで購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "animelo mixで購入する",
+          "url": "https://pc.animelo.jp/search/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "K-POP Lifeで購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "ビルボード公式(Billboard x dwango)で購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "OTOTOYで購入する",
+          "url": "https://ototoy.jp/find/?q=%20September%20Blue&search=%E6%A4%9C%E7%B4%A2"
+        },
+        {
+          "label": "auスマートパスプレミアムミュージックで聴く",
+          "url": "https://au.utapass.auone.jp/"
+        },
+        {
+          "label": "Rakuten Musicで聴く",
+          "url": "https://music.rakuten.co.jp/link/search/result/ALBUM?q=%20September%20Blue"
+        },
+        {
+          "label": "スマホでUSENで聴く",
+          "url": "http://smart.usen.com/"
+        },
+        {
+          "label": "OTORAKU－ 音・楽－で聴く",
+          "url": "http://otoraku.jp"
+        },
+        {
+          "label": "QQ Musicで聴く",
+          "url": "https://y.qq.com/portal/search.html?t=album&w=Mia%20Enomoto%20September%20Blue"
+        },
+        {
+          "label": "Kugou Music で聴く",
+          "url": "https://www.kugou.com/"
+        },
+        {
+          "label": "Kuwo Music で聴く",
+          "url": "https://www.kuwo.cn/search/album?key=Mia%20Enomoto%20September%20Blue"
+        },
+        {
+          "label": "NetEase で聴く",
+          "url": "https://music.163.com/#/search/m/?s=Mia%20Enomoto%20September%20Blue&type=10"
+        },
+        {
+          "label": null,
+          "url": "https://www.joox.com/za/search?keyword=%20September%20Blue"
+        },
+        {
+          "label": "TIDALで聴く",
+          "url": "https://listen.tidal.com/search?q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20September%20Blue"
+        },
+        {
+          "label": "FLO で聴く",
+          "url": "https://www.music-flo.com/search/all?keyword=Mia%20Enomoto%20September%20Blue"
+        },
+        {
+          "label": "VIBE で聴く",
+          "url": "https://vibe.naver.com/search?query=Mia%20Enomoto%20September%20Blue"
+        },
+        {
+          "label": "Qobuz で聴く",
+          "url": "https://www.qobuz.com/"
+        },
+        {
+          "label": "genie で聴く",
+          "url": "https://www.genie.co.kr/search/searchMain?query=Mia%20Enomoto%20September%20Blue&popular=true"
+        },
+        {
+          "label": "TikTokで使う",
+          "url": "https://www.tiktok.com"
+        }
+      ],
+      "checkedDestinations": [
+        {
+          "url": "https://music.apple.com/jp/album/september-blue-single/6811593899?at=10l7qr",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "slug": "over-drive",
+      "source": "https://linkco.re/3tHVbvXs",
+      "title": "Over Drive",
+      "artist": "榎本魅愛",
+      "releaseDate": "2026-09-22",
+      "status": "published",
+      "httpStatus": 200,
+      "sourceSha256": "1f7432ef4b87c59aec4d116de512fc8296194508a562a16a3860924afcce1df2",
+      "storeLinks": [
+        {
+          "label": "Apple Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1955863"
+        },
+        {
+          "label": "Spotifyで聴く",
+          "url": "https://www.tunecore.co.jp/to/spotify/1955863"
+        },
+        {
+          "label": "YouTube Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1955863"
+        },
+        {
+          "label": "LINE MUSICで聴く",
+          "url": "https://www.tunecore.co.jp/to/line/1955863"
+        },
+        {
+          "label": "Amazon Music Unlimitedで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1955863"
+        },
+        {
+          "label": "AWAで聴く",
+          "url": "https://awa.fm/"
+        },
+        {
+          "label": "iTunesで購入する",
+          "url": "https://www.tunecore.co.jp/to/itunes/1955863"
+        },
+        {
+          "label": "Amazon Musicで購入する",
+          "url": "https://www.tunecore.co.jp/to/amazon_music/1955863"
+        },
+        {
+          "label": "recochokuで購入する",
+          "url": "https://recochoku.jp/search/all/?q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "moraで購入する",
+          "url": "https://www.tunecore.co.jp/to/mora1701/1955863"
+        },
+        {
+          "label": "Prime Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_prime_music/1955863"
+        },
+        {
+          "label": "Amazon Music Freeで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_free/1955863"
+        },
+        {
+          "label": "Deezerで聴く",
+          "url": "https://www.deezer.com/search/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "KKBOXで聴く",
+          "url": "https://www.kkbox.com/jp/ja/search.php?word=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "dヒッツ powered by レコチョクで聴く",
+          "url": "https://dhits.docomo.ne.jp/search/freeword/musics?k_q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "dミュージック powered by レコチョクで購入する",
+          "url": "https://dmusic.docomo.ne.jp/search?q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "Music Store powered by レコチョクで購入する",
+          "url": "https://musicstore.auone.jp/s/search/freeWord?q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "music.jp STOREで購入する",
+          "url": "https://music-book.jp/Search?Keyword=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "ドワンゴジェイピーで購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "animelo mixで購入する",
+          "url": "https://pc.animelo.jp/search/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "K-POP Lifeで購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "ビルボード公式(Billboard x dwango)で購入する",
+          "url": "https://pc.dwango.jp/searches/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "OTOTOYで購入する",
+          "url": "https://ototoy.jp/find/?q=%20Over%20Drive&search=%E6%A4%9C%E7%B4%A2"
+        },
+        {
+          "label": "auスマートパスプレミアムミュージックで聴く",
+          "url": "https://au.utapass.auone.jp/"
+        },
+        {
+          "label": "Rakuten Musicで聴く",
+          "url": "https://music.rakuten.co.jp/link/search/result/ALBUM?q=%20Over%20Drive"
+        },
+        {
+          "label": "スマホでUSENで聴く",
+          "url": "http://smart.usen.com/"
+        },
+        {
+          "label": "OTORAKU－ 音・楽－で聴く",
+          "url": "http://otoraku.jp"
+        },
+        {
+          "label": "QQ Musicで聴く",
+          "url": "https://y.qq.com/portal/search.html?t=album&w=Mia%20Enomoto%20Over%20Drive"
+        },
+        {
+          "label": "Kugou Music で聴く",
+          "url": "https://www.kugou.com/"
+        },
+        {
+          "label": "Kuwo Music で聴く",
+          "url": "https://www.kuwo.cn/search/album?key=Mia%20Enomoto%20Over%20Drive"
+        },
+        {
+          "label": "NetEase で聴く",
+          "url": "https://music.163.com/#/search/m/?s=Mia%20Enomoto%20Over%20Drive&type=10"
+        },
+        {
+          "label": null,
+          "url": "https://www.joox.com/za/search?keyword=%20Over%20Drive"
+        },
+        {
+          "label": "TIDALで聴く",
+          "url": "https://listen.tidal.com/search?q=%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B%20Over%20Drive"
+        },
+        {
+          "label": "FLO で聴く",
+          "url": "https://www.music-flo.com/search/all?keyword=Mia%20Enomoto%20Over%20Drive"
+        },
+        {
+          "label": "VIBE で聴く",
+          "url": "https://vibe.naver.com/search?query=Mia%20Enomoto%20Over%20Drive"
+        },
+        {
+          "label": "Qobuz で聴く",
+          "url": "https://www.qobuz.com/"
+        },
+        {
+          "label": "genie で聴く",
+          "url": "https://www.genie.co.kr/search/searchMain?query=Mia%20Enomoto%20Over%20Drive&popular=true"
+        },
+        {
+          "label": "TikTokで使う",
+          "url": "https://www.tiktok.com"
+        }
+      ],
+      "checkedDestinations": [
+        {
+          "url": "https://music.apple.com/jp/album/over-drive-single/6811598305?at=10l7qr",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "slug": "friendlikesong",
+      "source": "https://linkco.re/QFNB1r1u",
+      "title": "friend like song",
+      "artist": "妃みちる",
+      "releaseDate": "2026-09-20",
+      "status": "published",
+      "httpStatus": 200,
+      "sourceSha256": "a37d89b0ec4196c5e5e37b7aee37629648cce140815310f469c27ccd5962e860",
+      "storeLinks": [
+        {
+          "label": "Apple Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1963488"
+        },
+        {
+          "label": "Spotifyで聴く",
+          "url": "https://open.spotify.com/search/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song/albums"
+        },
+        {
+          "label": "YouTube Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1963488"
+        },
+        {
+          "label": "LINE MUSICで聴く",
+          "url": "https://www.tunecore.co.jp/to/line/1963488"
+        },
+        {
+          "label": "Amazon Music Unlimitedで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1963488"
+        },
+        {
+          "label": "AWAで聴く",
+          "url": "https://www.tunecore.co.jp/to/awa/1963488"
+        },
+        {
+          "label": "iTunesで購入する",
+          "url": "https://www.tunecore.co.jp/to/itunes/1963488"
+        },
+        {
+          "label": "Amazon Musicで購入する",
+          "url": "https://www.tunecore.co.jp/to/amazon_music/1963488"
+        },
+        {
+          "label": "recochokuで購入する",
+          "url": "https://recochoku.jp/search/all/?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "moraで購入する",
+          "url": "https://www.tunecore.co.jp/to/mora1701/1963488"
+        },
+        {
+          "label": "Prime Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_prime_music/1963488"
+        },
+        {
+          "label": "Amazon Music Freeで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_free/1963488"
+        },
+        {
+          "label": "Deezerで聴く",
+          "url": "https://www.deezer.com/search/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "KKBOXで聴く",
+          "url": "https://www.kkbox.com/jp/ja/search.php?word=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "dヒッツ powered by レコチョクで聴く",
+          "url": "https://dhits.docomo.ne.jp/search/freeword/musics?k_q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "dミュージック powered by レコチョクで購入する",
+          "url": "https://dmusic.docomo.ne.jp/search?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "Music Store powered by レコチョクで購入する",
+          "url": "https://musicstore.auone.jp/s/search/freeWord?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "music.jp STOREで購入する",
+          "url": "https://music-book.jp/Search?Keyword=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "OTOTOYで購入する",
+          "url": "https://ototoy.jp/find/?q=%20friend%20like%20song&search=%E6%A4%9C%E7%B4%A2"
+        },
+        {
+          "label": "auスマートパスプレミアムミュージックで聴く",
+          "url": "https://au.utapass.auone.jp/"
+        },
+        {
+          "label": "Rakuten Musicで聴く",
+          "url": "https://music.rakuten.co.jp/link/search/result/ALBUM?q=%20friend%20like%20song"
+        },
+        {
+          "label": "スマホでUSENで聴く",
+          "url": "http://smart.usen.com/"
+        },
+        {
+          "label": "OTORAKU－ 音・楽－で聴く",
+          "url": "http://otoraku.jp"
+        },
+        {
+          "label": "QQ Musicで聴く",
+          "url": "https://y.qq.com/portal/search.html?t=album&w=michiru%20kisaki%20friend%20like%20song"
+        },
+        {
+          "label": "Kugou Music で聴く",
+          "url": "https://www.kugou.com/"
+        },
+        {
+          "label": "Kuwo Music で聴く",
+          "url": "https://www.kuwo.cn/search/album?key=michiru%20kisaki%20friend%20like%20song"
+        },
+        {
+          "label": "NetEase で聴く",
+          "url": "https://music.163.com/#/search/m/?s=michiru%20kisaki%20friend%20like%20song&type=10"
+        },
+        {
+          "label": null,
+          "url": "https://www.joox.com/za/search?keyword=%20friend%20like%20song"
+        },
+        {
+          "label": "TIDALで聴く",
+          "url": "https://listen.tidal.com/search?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20friend%20like%20song"
+        },
+        {
+          "label": "FLO で聴く",
+          "url": "https://www.music-flo.com/search/all?keyword=michiru%20kisaki%20friend%20like%20song"
+        },
+        {
+          "label": "VIBE で聴く",
+          "url": "https://vibe.naver.com/search?query=michiru%20kisaki%20friend%20like%20song"
+        },
+        {
+          "label": "Melon で聴く",
+          "url": "https://www.melon.com/search/album/index.htm?q=michiru%20kisaki%20friend%20like%20song"
+        },
+        {
+          "label": "Qobuz で聴く",
+          "url": "https://www.qobuz.com/"
+        },
+        {
+          "label": "genie で聴く",
+          "url": "https://www.genie.co.kr/search/searchMain?query=michiru%20kisaki%20friend%20like%20song&popular=true"
+        },
+        {
+          "label": "TikTokで使う",
+          "url": "https://www.tiktok.com"
+        }
+      ],
+      "checkedDestinations": [
+        {
+          "url": "https://music.apple.com/jp/album/friend-like-song-single/6813773047?at=10l7qr",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "slug": "tatta-hitori-no-kimi-e",
+      "source": "https://linkco.re/3Z3vDYPG",
+      "title": "たった1人の君へ",
+      "artist": "妃みちる",
+      "releaseDate": "2026-09-20",
+      "status": "published",
+      "httpStatus": 200,
+      "sourceSha256": "a8297fa940083538d4c651d8fcaa7f0b7abc4b563a4ede42ee39ec3b5707d885",
+      "storeLinks": [
+        {
+          "label": "Apple Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1963697"
+        },
+        {
+          "label": "Spotifyで聴く",
+          "url": "https://open.spotify.com/search/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8/albums"
+        },
+        {
+          "label": "YouTube Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1963697"
+        },
+        {
+          "label": "LINE MUSICで聴く",
+          "url": "https://www.tunecore.co.jp/to/line/1963697"
+        },
+        {
+          "label": "Amazon Music Unlimitedで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1963697"
+        },
+        {
+          "label": "AWAで聴く",
+          "url": "https://www.tunecore.co.jp/to/awa/1963697"
+        },
+        {
+          "label": "iTunesで購入する",
+          "url": "https://www.tunecore.co.jp/to/itunes/1963697"
+        },
+        {
+          "label": "Amazon Musicで購入する",
+          "url": "https://www.tunecore.co.jp/to/amazon_music/1963697"
+        },
+        {
+          "label": "recochokuで購入する",
+          "url": "https://recochoku.jp/search/all/?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "moraで購入する",
+          "url": "https://www.tunecore.co.jp/to/mora1701/1963697"
+        },
+        {
+          "label": "Prime Musicで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_prime_music/1963697"
+        },
+        {
+          "label": "Amazon Music Freeで聴く",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_free/1963697"
+        },
+        {
+          "label": "Deezerで聴く",
+          "url": "https://www.deezer.com/search/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "KKBOXで聴く",
+          "url": "https://www.kkbox.com/jp/ja/search.php?word=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "dヒッツ powered by レコチョクで聴く",
+          "url": "https://dhits.docomo.ne.jp/search/freeword/musics?k_q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "dミュージック powered by レコチョクで購入する",
+          "url": "https://dmusic.docomo.ne.jp/search?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "Music Store powered by レコチョクで購入する",
+          "url": "https://musicstore.auone.jp/s/search/freeWord?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "music.jp STOREで購入する",
+          "url": "https://music-book.jp/Search?Keyword=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "OTOTOYで購入する",
+          "url": "https://ototoy.jp/find/?q=%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8&search=%E6%A4%9C%E7%B4%A2"
+        },
+        {
+          "label": "auスマートパスプレミアムミュージックで聴く",
+          "url": "https://au.utapass.auone.jp/"
+        },
+        {
+          "label": "Rakuten Musicで聴く",
+          "url": "https://music.rakuten.co.jp/link/search/result/ALBUM?q=%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "スマホでUSENで聴く",
+          "url": "http://smart.usen.com/"
+        },
+        {
+          "label": "OTORAKU－ 音・楽－で聴く",
+          "url": "http://otoraku.jp"
+        },
+        {
+          "label": "QQ Musicで聴く",
+          "url": "https://y.qq.com/portal/search.html?t=album&w=michiru%20kisaki%20To%20the%20Only%20One"
+        },
+        {
+          "label": "Kugou Music で聴く",
+          "url": "https://www.kugou.com/"
+        },
+        {
+          "label": "Kuwo Music で聴く",
+          "url": "https://www.kuwo.cn/search/album?key=michiru%20kisaki%20To%20the%20Only%20One"
+        },
+        {
+          "label": "NetEase で聴く",
+          "url": "https://music.163.com/#/search/m/?s=michiru%20kisaki%20To%20the%20Only%20One&type=10"
+        },
+        {
+          "label": null,
+          "url": "https://www.joox.com/za/search?keyword=%20To%20the%20Only%20One"
+        },
+        {
+          "label": "TIDALで聴く",
+          "url": "https://listen.tidal.com/search?q=%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B%20%E3%81%9F%E3%81%A3%E3%81%9F1%E4%BA%BA%E3%81%AE%E5%90%9B%E3%81%B8"
+        },
+        {
+          "label": "FLO で聴く",
+          "url": "https://www.music-flo.com/search/all?keyword=michiru%20kisaki%20To%20the%20Only%20One"
+        },
+        {
+          "label": "VIBE で聴く",
+          "url": "https://vibe.naver.com/search?query=michiru%20kisaki%20To%20the%20Only%20One"
+        },
+        {
+          "label": "Melon で聴く",
+          "url": "https://www.melon.com/search/album/index.htm?q=michiru%20kisaki%20To%20the%20Only%20One"
+        },
+        {
+          "label": "Qobuz で聴く",
+          "url": "https://www.qobuz.com/"
+        },
+        {
+          "label": "genie で聴く",
+          "url": "https://www.genie.co.kr/search/searchMain?query=michiru%20kisaki%20To%20the%20Only%20One&popular=true"
+        },
+        {
+          "label": "TikTokで使う",
+          "url": "https://www.tiktok.com"
+        }
+      ],
+      "checkedDestinations": [
+        {
+          "url": "https://music.apple.com/jp/album/to-the-only-one-single/6813770785?at=10l7qr",
+          "httpStatus": 200
+        }
+      ]
+    },
+    {
+      "slug": "mahou-ga-toketemo",
+      "source": "https://linkco.re/tSpMyUFE",
+      "title": "魔法が解けても ― Pumpkin Carriage ―",
+      "artist": "神代煌牙",
+      "releaseDate": "2026-10-03",
+      "status": "upcoming",
+      "httpStatus": 200,
+      "sourceSha256": "c2bcd6051660ea7b5dbf236725585a84e0f6ba1cbdd8684cdd66af61587353c7",
+      "storeLinks": [
+        {
+          "label": "iTunesで購入する",
+          "url": "https://www.tunecore.co.jp/to/itunes/1963735"
+        }
+      ],
+      "checkedDestinations": []
+    }
+  ]
+}

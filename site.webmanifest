@@ -1,7 +1,7 @@
 {
   "name": "SUZUKA Official",
   "short_name": "SUZUKA",
-  "description": "SUZUKAは、AIを活用して音楽・MV・ビジュアル・歌詞・物語を制作・公開するオリジナルAI音楽プロジェクトです。登場するアーティスト・人物は架空です。",
+  "description": "SUZUKAは、AIを制作支援に活用し、榎本魅愛、妃みちる、神代煌牙をはじめとする架空のAIアーティストのオリジナル楽曲、Music Video、ストリーミング作品、物語を発信する音楽プロジェクトです。",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

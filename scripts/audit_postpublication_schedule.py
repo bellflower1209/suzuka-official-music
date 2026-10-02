@@ -54,19 +54,22 @@ def main():
     assert videos and all(x['uploadDate'].startswith('2026-09-17') for x in videos)
     assert all('7FaDutNfIxo' in x.get('contentUrl', '') for x in videos)
     schedule=(ROOT/'schedule/index.html').read_text()
-    # Test the static renderer at an explicit baseline, independent of later CMS updates.
+    # Test the static renderer at the explicit 2026-09-24 JST audit baseline.
     import tempfile
     from build_creator_platform_v31 import schedule_page
     with tempfile.TemporaryDirectory() as tmp:
-        schedule_page(Path(tmp), {**cms, 'updatedAt':'2026-09-13T15:00:00+00:00'}, cms['releases'], cms['upcoming'])
+        schedule_page(Path(tmp), {**cms, 'updatedAt':'2026-09-24T20:15:46+09:00'}, cms['releases'], json.loads((ROOT/'scripts/fixtures/schedule-20260924.json').read_text()))
         fixture=(Path(tmp)/'schedule/index.html').read_text()
+    this_week=fixture.split('id="this-week"')[1].split('</section>')[0]
     next_week=fixture.split('id="next-week"')[1].split('</section>')[0]
-    for slug in ['over-drive','september-blue']: assert slug in next_week
+    for slug in ['eternity-of-flower-words','renai-taishogai-kari','nando-umarekawattemo-reborn-oath']:
+        assert slug in this_week
+    assert 'kokoro-ni-nokoru-takaramono' in next_week
     assert 'Asia/Tokyo' in schedule and '月曜始まり' in schedule and 'assets/release-schedule.js' in schedule
     search=json.loads((ROOT/'assets/data/search-v31.json').read_text())
     raw=json.dumps(search,ensure_ascii=False)
     for term in ['神代煌牙','魔法が解けても','榎本魅愛','百万告','Streaming Release','Hello Hello Halloween','Over Drive','September Blue']: assert term in raw,term
     koga=(ROOT/'artists/koga-kamishiro/index.html').read_text()
     assert '悪役でいい' in koga and 'youtube.com/' in koga
-    print('Postpublication audit passed: published Koga/Mia MV pages, preserved July 12 schema / September 21 streaming, 2 Next Week works, artist/home/search links.')
+    print('Postpublication audit passed: published MV pages, distinct work/streaming dates, 3 This Week and 1 Next Week works, artist/home/search links.')
 if __name__=='__main__': main()

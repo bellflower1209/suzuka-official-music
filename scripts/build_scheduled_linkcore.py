@@ -29,11 +29,11 @@ def panel(item: dict, scheduled: dict) -> str:
         f'<!-- SCHEDULED-LINKCORE:{slug}:START -->'
         f'<section class="streaming-release scheduled-streaming-release" aria-label="Streaming Release {label}">'
         f'<div><p class="streaming-kicker">STREAMING RELEASE / {state}</p>'
-        f'<p class="streaming-status" data-streaming-date="{release_date}" aria-live="polite">{japanese_date}{label}</p>'
+        f'<p class="streaming-status" data-streaming-date="{release_date}" data-streaming-state="{scheduled.get("status", "upcoming")}" aria-live="polite">{japanese_date}{label}</p>'
         f'<h2>{title}</h2><p class="streaming-artist">{artist}</p>'
         f'<p>OFFICIAL RELEASE · <time datetime="{item["releaseDate"]}">{item["releaseDate"].replace("-", ".")}</time> · SUZUKA作品公開</p>'
         f'<p>STREAMING RELEASE · <time datetime="{release_date}">{display_date}</time> — {japanese_date} {label}</p>'
-        '<p class="streaming-credit">Label：SUZUKA</p></div>'
+        + (f'<p class="streaming-credit">Label：{html.escape(scheduled["label"])}</p>' if scheduled.get("label") else '') + '</div>'
         '<div class="streaming-actions">'
         f'<a class="streaming-primary" href="{url}" target="_blank" rel="noopener noreferrer">LinkCoreで配信情報を見る ↗</a>'
         f'<a href="../../artists/{html.escape(item["artistSlug"])}/">アーティストページ</a>'
@@ -56,12 +56,33 @@ def build(root: Path = ROOT) -> None:
         if anchor not in text:
             raise ValueError(f"Scheduled LinkCore insertion point missing: {path}")
         text = text.replace(anchor, panel(item, scheduled) + anchor, 1)
+        if item.get("seo"):
+            description = html.escape(item["seo"]["description"], quote=True)
+            text = re.sub(r'(<meta (?:name="(?:description|twitter:description)"|property="og:description") content=")[^"]*("/?>)', lambda m: m[1]+description+m[2], text)
+            text = re.sub(r'<title>.*?</title>', '<title>'+html.escape(item['seo']['title'])+'</title>', text, count=1)
+        def update_schema(match):
+            graph = json.loads(match[1])
+            def walk(node):
+                if isinstance(node, list):
+                    for child in node: walk(child)
+                elif isinstance(node, dict):
+                    if node.get('@type') == 'MusicRecording' and node.get('url') == BASE + item['releaseUrl']:
+                        node['name'] = item['title']
+                        node['sameAs'] = scheduled['linkcoreUrl']
+                        if item.get('englishTitle') and item['englishTitle'] != item['title']:
+                            node['alternateName'] = item['englishTitle']
+                    for child in node.values(): walk(child)
+            walk(graph)
+            return '<script type="application/ld+json">'+json.dumps(graph,ensure_ascii=False,separators=(',',':'))+'</script>'
+        text = re.sub(r'<script type="application/ld\+json">(.*?)</script>', update_schema, text, flags=re.S)
         if "assets/streaming-release.css" not in text:
             text = text.replace(
                 "</head>",
                 '<link rel="stylesheet" href="../../assets/streaming-release.css"/></head>',
                 1,
             )
+        if "assets/streaming-release.js" not in text:
+            text=text.replace('</body>','<script defer src="../../assets/streaming-release.js"></script></body>',1)
         path.write_text(text, encoding="utf-8")
 
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T16:12:49+09:00",
+  "updatedAt": "2026-10-02T14:10:36+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,302 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Without worrying - Reimagined -",
+      "description": "榎本魅愛「Without worrying」の新しい音源を公式YouTubeで先行公開。",
+      "url": "releases/without-worrying-reimagined/",
+      "keywords": [
+        "榎本魅愛",
+        "Without worrying - Reimagined -",
+        "榎本魅愛",
+        "先行音源",
+        "Without worrying - Reimagined -",
+        "榎本魅愛",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "恋禁区。",
+      "description": "忘れたい恋ほど心が君へ向かう、榎本魅愛の失恋と再出発の物語。",
+      "url": "releases/renkinku/",
+      "keywords": [
+        "榎本魅愛",
+        "恋禁区。",
+        "榎本魅愛",
+        "OFFICIAL MV",
+        "恋禁区。",
+        "榎本魅愛",
+        "OFFICIAL MV",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "心に残る宝モノ",
+      "description": "妃みちる「心に残る宝モノ」は2026年09月29日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。",
+      "url": "releases/kokoro-ni-nokoru-takaramono/",
+      "keywords": [
+        "妃みちる",
+        "妃みちる",
+        "心に残る宝モノ",
+        "Streaming Release",
+        "妃みちる",
+        "心に残る宝モノ",
+        "Streaming Release",
+        "2026-09-29",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "恋愛対象外 (仮)",
+      "description": "榎本魅愛「恋愛対象外 (仮)」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。",
+      "url": "releases/renai-taishogai-kari/",
+      "keywords": [
+        "榎本魅愛",
+        "榎本魅愛",
+        "恋愛対象外 (仮)",
+        "Streaming Release",
+        "榎本魅愛",
+        "恋愛対象外 (仮)",
+        "Streaming Release",
+        "2026-09-26",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "何度生まれ変わっても - RE:BORN OATH -",
+      "description": "神代煌牙「何度生まれ変わっても - RE:BORN OATH -」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。",
+      "url": "releases/nando-umarekawattemo-reborn-oath/",
+      "keywords": [
+        "神代煌牙",
+        "神代煌牙",
+        "何度生まれ変わっても - RE:BORN OATH -",
+        "Streaming Release",
+        "神代煌牙",
+        "何度生まれ変わっても - RE:BORN OATH -",
+        "Streaming Release",
+        "2026-09-26",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Eternity of Flower Words",
+      "description": "榎本魅愛「Eternity of Flower Words」は2026年09月26日よりストリーミング配信中。配信サービスは公式LinkCoreからご確認いただけます。",
+      "url": "releases/eternity-of-flower-words/",
+      "keywords": [
+        "榎本魅愛",
+        "榎本魅愛",
+        "Eternity of Flower Words",
+        "Streaming Release",
+        "榎本魅愛",
+        "Eternity of Flower Words",
+        "Streaming Release",
+        "2026-09-26",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "HELLO, LIFE!",
+      "description": "妃みちる「HELLO, LIFE!」の先行音源を公式YouTubeで公開。",
+      "url": "releases/hello-life/",
+      "keywords": [
+        "妃みちる",
+        "HELLO, LIFE!",
+        "妃みちる",
+        "先行音源",
+        "HELLO, LIFE!",
+        "妃みちる",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "また、君に恋をする。",
+      "description": "榎本魅愛「また、君に恋をする。」は2026年9月23日にストリーミング配信を開始しました。",
+      "url": "releases/mata-kimi-ni-koi-wo-suru/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "恋愛",
+        "また君に恋をする",
+        "I Fall in Love With You Again",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "また、君に恋をする。",
+        "TuneCore",
+        "LinkCore",
+        "2026-09-23",
+        "また君に恋をする",
+        "I Fall in Love With You Again",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "恋するすべての瞬間",
+      "description": "榎本魅愛の5曲入りアルバム「恋するすべての瞬間」は2026年9月23日にストリーミング配信を開始しました。収録曲は「Over Drive」「キャラメ〜ル」「取り扱いチューい」「百万告」「花言葉」です。",
+      "url": "releases/koisuru-subete-no-shunkan/",
+      "keywords": [
+        "榎本魅愛",
+        "J-POP",
+        "恋愛",
+        "アルバム",
+        "All the Moments We Fall in Love",
+        "Over Drive",
+        "キャラメ〜ル",
+        "取り扱いチューい",
+        "百万告",
+        "花言葉",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "恋するすべての瞬間",
+        "TuneCore",
+        "LinkCore",
+        "2026-09-23",
+        "アルバム",
+        "All the Moments We Fall in Love",
+        "Over Drive",
+        "キャラメ〜ル",
+        "取り扱いチューい",
+        "百万告",
+        "花言葉",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "September Blue",
+      "description": "榎本魅愛「September Blue」は2026-09-22ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。",
+      "url": "releases/september-blue/",
+      "keywords": [
+        "榎本魅愛",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "September Blue",
+        "LinkCore",
+        "配信",
+        "2026年9月22日",
+        "配信開始",
+        "2026-09-22",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "Over Drive",
+      "description": "榎本魅愛「Over Drive」は2026-09-22ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。",
+      "url": "releases/over-drive/",
+      "keywords": [
+        "榎本魅愛",
+        "榎本魅愛",
+        "ENOMOTO MIA",
+        "Over Drive",
+        "LinkCore",
+        "配信",
+        "2026年9月22日",
+        "配信開始",
+        "2026-09-22",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "輪廻ノ契 -RINNE NO CHIGIRI-",
+      "description": "VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」の先行音源を公式YouTubeで公開。",
+      "url": "releases/rinne-no-chigiri/",
+      "keywords": [
+        "VEILFANG",
+        "輪廻ノ契 -RINNE NO CHIGIRI-",
+        "VEILFANG",
+        "先行音源",
+        "輪廻ノ契 -RINNE NO CHIGIRI-",
+        "VEILFANG",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "君がいる方角へ",
+      "description": "RE:VIVE「君がいる方角へ」の先行音源を公式YouTubeで公開。",
+      "url": "releases/kimi-ga-iru-hougaku-e/",
+      "keywords": [
+        "RE:VIVE",
+        "君がいる方角へ",
+        "RE:VIVE",
+        "先行音源",
+        "君がいる方角へ",
+        "RE:VIVE",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "달콤한 죽음을 그대에게",
+      "description": "ECLYPSE「달콤한 죽음을 그대에게」の先行音源を公式YouTubeで公開。",
+      "url": "releases/dalkomhan-jugeumeul-geudaeege/",
+      "keywords": [
+        "ECLYPSE",
+        "달콤한 죽음을 그대에게",
+        "ECLYPSE",
+        "先行音源",
+        "달콤한 죽음을 그대에게",
+        "ECLYPSE",
+        "先行音源",
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -55,7 +351,45 @@
     {
       "type": "Release",
       "contentType": "release",
-      "title": "魔法が解けても",
+      "title": "返品された人間",
+      "description": "NOX「返品された人間」の先行音源を公式YouTubeで公開。",
+      "url": "releases/henpin-sareta-ningen/",
+      "keywords": [
+        "NOX",
+        "返品された人間",
+        "NOX",
+        "先行音源",
+        "返品された人間",
+        "NOX",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "金木犀と星降る夜",
+      "description": "ASTERIA「金木犀と星降る夜」の先行音源を公式YouTubeで公開。",
+      "url": "releases/kinmokusei-to-hoshifuru-yoru/",
+      "keywords": [
+        "ASTERIA",
+        "金木犀と星降る夜",
+        "ASTERIA",
+        "先行音源",
+        "金木犀と星降る夜",
+        "ASTERIA",
+        "先行音源",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "魔法が解けても ― Pumpkin Carriage ―",
       "description": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MVを公開中。",
       "url": "releases/mahou-ga-toketemo/",
       "keywords": [
@@ -71,6 +405,10 @@
         "2026-09-14",
         "SUZUKA",
         "YouTube",
+        "魔法が解けても ― Pumpkin Carriage ―",
+        "LinkCore",
+        "配信予定",
+        "2026-10-03",
         "",
         "",
         ""
@@ -455,7 +793,7 @@
     {
       "type": "Release",
       "contentType": "release",
-      "title": "friendlikesong",
+      "title": "friend like song",
       "description": "大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。",
       "url": "releases/friendlikesong/",
       "keywords": [
@@ -483,6 +821,10 @@
         "J-POP",
         "サマーソング",
         "夏",
+        "friend like song",
+        "LinkCore",
+        "配信開始",
+        "2026-09-20",
         "",
         "",
         ""
@@ -555,6 +897,10 @@
         "J-POP",
         "恋愛",
         "感謝",
+        "To the Only One",
+        "LinkCore",
+        "配信開始",
+        "2026-09-20",
         "",
         "",
         ""
@@ -2080,42 +2426,6 @@
       ]
     },
     {
-      "type": "Upcoming",
-      "contentType": "upcoming",
-      "title": "September Blue",
-      "description": "榎本魅愛「September Blue」は2026-09-22リリース予定です。",
-      "url": "releases/september-blue/",
-      "keywords": [
-        "榎本魅愛",
-        "榎本魅愛",
-        "ENOMOTO MIA",
-        "September Blue",
-        "LinkCore",
-        "配信",
-        "2026年9月22日",
-        "Upcoming",
-        "リリース予定"
-      ]
-    },
-    {
-      "type": "Upcoming",
-      "contentType": "upcoming",
-      "title": "Over Drive",
-      "description": "榎本魅愛「Over Drive」は2026-09-22リリース予定です。",
-      "url": "releases/over-drive/",
-      "keywords": [
-        "榎本魅愛",
-        "榎本魅愛",
-        "ENOMOTO MIA",
-        "Over Drive",
-        "LinkCore",
-        "配信",
-        "2026年9月22日",
-        "Upcoming",
-        "リリース予定"
-      ]
-    },
-    {
       "type": "Artist",
       "contentType": "artist",
       "title": "朝霧しのぶ",
@@ -2647,6 +2957,128 @@
     {
       "type": "News",
       "contentType": "news",
+      "title": "妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』公開",
+      "description": "妃みちるの1st Digital Photo Book『ありのまま。 — Just As I Am. —』がnoteで公開されました。",
+      "url": "news/michiru-arinomama-photobook/",
+      "keywords": [
+        "michiru",
+        "",
+        "妃みちる",
+        "ありのまま",
+        "Just As I Am",
+        "Digital Photo Book",
+        "note"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「また、君に恋をする。」配信開始",
+      "description": "榎本魅愛「また、君に恋をする。」が2026年9月23日にストリーミング配信を開始しました。",
+      "url": "news/mata-kimi-ni-koi-wo-suru-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        "",
+        "榎本魅愛",
+        "また君に恋をする",
+        "TuneCore",
+        "LinkCore"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「恋するすべての瞬間」アルバム配信開始",
+      "description": "榎本魅愛の5曲入りアルバム「恋するすべての瞬間」が2026年9月23日にストリーミング配信を開始しました。",
+      "url": "news/koisuru-subete-no-shunkan-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        "",
+        "榎本魅愛",
+        "恋するすべての瞬間",
+        "アルバム",
+        "TuneCore",
+        "LinkCore"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「たった1人の君へ」ストリーミング配信開始",
+      "description": "2026-09-20に配信開始した妃みちる「たった1人の君へ」の公式配信リンクをSUZUKA Newsでお知らせします。",
+      "url": "news/tatta-hitori-no-kimi-e-streaming-release/",
+      "keywords": [
+        "michiru",
+        "tatta-hitori-no-kimi-e"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「September Blue」ストリーミング配信開始",
+      "description": "2026-09-22に配信開始した榎本魅愛「September Blue」の公式配信リンクをSUZUKA Newsでお知らせします。",
+      "url": "news/september-blue-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        "september-blue"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「Over Drive」ストリーミング配信開始",
+      "description": "2026-09-22に配信開始した榎本魅愛「Over Drive」の公式配信リンクをSUZUKA Newsでお知らせします。",
+      "url": "news/over-drive-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        "over-drive"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「friend like song」ストリーミング配信開始",
+      "description": "2026-09-20に配信開始した妃みちる「friend like song」の公式配信リンクをSUZUKA Newsでお知らせします。",
+      "url": "news/friendlikesong-streaming-release/",
+      "keywords": [
+        "michiru",
+        "friendlikesong"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる Official Channelオープン",
+      "description": "妃みちるの音楽を届けるYouTube「妃みちる Official Channel」のオープンがnoteで公式発表されました。チャンネルの直接URLは確認できた時点で追加します。",
+      "url": "news/michiru-official-channel-open/",
+      "keywords": [
+        "michiru",
+        "",
+        "妃みちる",
+        "Official Channel",
+        "YouTube",
+        "note"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「百万告」「取り扱いチューい」「Hello Hello Halloween」3曲同時リリース",
+      "description": "榎本魅愛の「百万告」「取り扱いチューい」「Hello Hello Halloween」が2026年9月21日に各音楽配信サービスで配信開始されました。",
+      "url": "news/enomoto-mia-three-streaming-releases/",
+      "keywords": [
+        "enomoto-mia",
+        "",
+        "榎本魅愛",
+        "百万告",
+        "取り扱いチューい",
+        "Hello Hello Halloween",
+        "Streaming Release"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
       "title": "榎本魅愛「Hello Hello Halloween」Official MV公開",
       "description": "榎本魅愛「Hello Hello Halloween」Official MV公開と、2026年9月21日のストリーミング配信情報をSUZUKA Newsで案内します。",
       "url": "news/hello-hello-halloween-release/",
@@ -2663,7 +3095,7 @@
       "type": "News",
       "contentType": "news",
       "title": "神代煌牙「魔法が解けても」Official MV公開",
-      "description": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MVの公開をSUZUKA Newsでお知らせします。",
+      "description": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Official MV公開中。10月3日のストリーミング配信予定と公式LinkCoreを追加しました。",
       "url": "news/mahou-ga-toketemo-release/",
       "keywords": [
         "koga-kamishiro",
@@ -3043,6 +3475,325 @@
       "keywords": [
         "enomoto-mia",
         "hyakumankoku"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「世代を超えてママへ」配信開始",
+      "description": "妃みちる「世代を超えてママへ」が2026-10-02にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。",
+      "url": "news/sedai-wo-koete-mama-e-streaming-release/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「君とならラスボスまで」配信開始",
+      "description": "榎本魅愛「君とならラスボスまで」が2026-10-01にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。",
+      "url": "news/kimi-to-nara-last-boss-made-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「Eternity of Flower Words」配信開始",
+      "description": "榎本魅愛「Eternity of Flower Words」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。",
+      "url": "news/eternity-of-flower-words-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「何度生まれ変わっても - RE:BORN OATH -」配信開始",
+      "description": "神代煌牙「何度生まれ変わっても - RE:BORN OATH -」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。",
+      "url": "news/nando-umarekawattemo-reborn-oath-streaming-release/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「恋愛対象外 (仮)」配信開始",
+      "description": "榎本魅愛「恋愛対象外 (仮)」が2026-09-26にストリーミング配信を開始しました。MV公開日と配信日は個別に管理しています。",
+      "url": "news/renai-taishogai-kari-streaming-release/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「心に残る宝モノ」配信開始",
+      "description": "妃みちる「心に残る宝モノ」のストリーミング配信開始をお知らせします。2026年9月29日リリース。確認済みの公式LinkCoreから各サービスへ進めます。",
+      "url": "news/kokoro-ni-nokoru-takaramono-streaming-release/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「恋禁区。」MV公開",
+      "description": "榎本魅愛「恋禁区。」のOFFICIAL MV公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/renkinku-release/",
+      "keywords": [
+        "enomoto-mia",
+        "renkinku"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「Without worrying - Reimagined -」先行音源公開",
+      "description": "榎本魅愛「Without worrying - Reimagined -」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/without-worrying-reimagined-release/",
+      "keywords": [
+        "enomoto-mia",
+        "without-worrying-reimagined"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「HELLO, LIFE!」先行音源公開",
+      "description": "妃みちる「HELLO, LIFE!」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/hello-life-release/",
+      "keywords": [
+        "michiru",
+        "hello-life"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」先行音源公開",
+      "description": "VEILFANG「輪廻ノ契 -RINNE NO CHIGIRI-」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/rinne-no-chigiri-release/",
+      "keywords": [
+        "veilfang",
+        "rinne-no-chigiri"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "RE:VIVE「君がいる方角へ」先行音源公開",
+      "description": "RE:VIVE「君がいる方角へ」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/kimi-ga-iru-hougaku-e-release/",
+      "keywords": [
+        "revive",
+        "kimi-ga-iru-hougaku-e"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "ECLYPSE「달콤한 죽음을 그대에게」先行音源公開",
+      "description": "ECLYPSE「달콤한 죽음을 그대에게」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/dalkomhan-jugeumeul-geudaeege-release/",
+      "keywords": [
+        "eclypse",
+        "dalkomhan-jugeumeul-geudaeege"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "NOX「返品された人間」先行音源公開",
+      "description": "NOX「返品された人間」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/henpin-sareta-ningen-release/",
+      "keywords": [
+        "nox",
+        "henpin-sareta-ningen"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "ASTERIA「金木犀と星降る夜」先行音源公開",
+      "description": "ASTERIA「金木犀と星降る夜」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "url": "news/kinmokusei-to-hoshifuru-yoru-release/",
+      "keywords": [
+        "asteria",
+        "kinmokusei-to-hoshifuru-yoru"
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「September Blue」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「September Blue」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/september-blue-artist-video-20260922/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「君とならラスボスまで」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「君とならラスボスまで」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/kimi-to-nara-last-boss-made-artist-video-20260921/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「タイパなんて知らなかった」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「タイパなんて知らなかった」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/taipa-nante-shiranakatta-artist-video-20260922/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「夢と、介護と、私たち。」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「夢と、介護と、私たち。」のMV / 89秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/yume-to-kaigo-to-watashitachi-artist-video-20260926/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「キャラメ〜ル」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「キャラメ〜ル」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/caramel-artist-video-20260930/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "榎本魅愛「夏が終わるまで、そばにいて。」Artistチャンネル動画公開",
+      "description": "榎本魅愛の公式Artistチャンネルで「夏が終わるまで、そばにいて。」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/natsu-ga-owaru-made-soba-ni-ite-artist-video-20260929/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「私の選んだ道」Artistチャンネル動画公開",
+      "description": "妃みちるの公式Artistチャンネルで「私の選んだ道」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/watashi-no-eranda-michi-artist-video-20260930/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「UPdown」Artistチャンネル動画公開",
+      "description": "妃みちるの公式Artistチャンネルで「UPdown」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/updown-artist-video-20260929/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「世代を超えてママへ」Artistチャンネル動画公開",
+      "description": "妃みちるの公式Artistチャンネルで「世代を超えてママへ」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/sedai-wo-koete-mama-e-artist-video-20260924/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "妃みちる「friend like song」Artistチャンネル動画公開",
+      "description": "妃みちるの公式Artistチャンネルで「friend like song」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/friendlikesong-artist-video-20260921/",
+      "keywords": [
+        "michiru",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「LEO — Rise Again —」Artistチャンネル動画公開",
+      "description": "神代煌牙の公式Artistチャンネルで「LEO — Rise Again —」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/leo-rise-again-artist-video-20260930/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「神様は留守」Artistチャンネル動画公開",
+      "description": "神代煌牙の公式Artistチャンネルで「神様は留守」のOFFICIAL VIDEOを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/kamisama-wa-rusu-artist-video-20260929/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「分かれた道」Artistチャンネル動画公開",
+      "description": "神代煌牙の公式Artistチャンネルで「分かれた道」のOFFICIAL MVを公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/wakareta-michi-artist-video-20260924/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」Artistチャンネル動画公開",
+      "description": "神代煌牙の公式Artistチャンネルで「魔法が解けても ― Pumpkin Carriage ―」のちょいMV / 15秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/mahou-ga-toketemo-artist-video-20260926/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "神代煌牙「悪役でいい」Artistチャンネル動画公開",
+      "description": "神代煌牙の公式Artistチャンネルで「悪役でいい」のMV告知 / 61秒版を公開。既存のSUZUKA公開版も作品ページからご覧いただけます。",
+      "url": "news/akuyaku-de-ii-artist-video-20260921/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
       ]
     },
     {
@@ -3569,6 +4320,19 @@
         "NOW STREAMING",
         "配信開始",
         "2026-09-21"
+      ]
+    },
+    {
+      "type": "Photobook",
+      "contentType": "photobook",
+      "title": "妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』",
+      "description": "日常の中にある小さな幸せを描く、妃みちるの1st Digital Photo Book。note公式記事で50カットを収録。",
+      "url": "photobooks/michiru-arinomama-just-as-i-am/",
+      "keywords": [
+        "妃みちる",
+        "Photobook",
+        "Visual Collection",
+        "写真集"
       ]
     },
     {

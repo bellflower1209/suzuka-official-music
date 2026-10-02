@@ -1,10 +1,14 @@
 {
-  "updatedAt": "2026-09-21T16:12:49+09:00",
+  "updatedAt": "2026-10-02T14:10:36+09:00",
   "publishedReleases": {
-    "count": 60,
+    "count": 76,
     "items": [
+      "また、君に恋をする。",
+      "恋するすべての瞬間",
+      "September Blue",
+      "Over Drive",
       "Hello Hello Halloween",
-      "魔法が解けても",
+      "魔法が解けても ― Pumpkin Carriage ―",
       "世代を超えてママへ",
       "夢と、介護と、私たち。",
       "月下契",
@@ -13,7 +17,7 @@
       "UPdown",
       "RE:SONANCE",
       "分かれた道",
-      "friendlikesong",
+      "friend like song",
       "私の選んだ道",
       "たった1人の君へ",
       "Monsoon Promise",
@@ -62,15 +66,24 @@
       "君は花火",
       "MERMAID×MERMAN",
       "好きってバレてもいい",
-      "百万告"
+      "百万告",
+      "Eternity of Flower Words",
+      "何度生まれ変わっても - RE:BORN OATH -",
+      "恋愛対象外 (仮)",
+      "心に残る宝モノ",
+      "恋禁区。",
+      "Without worrying - Reimagined -",
+      "HELLO, LIFE!",
+      "輪廻ノ契 -RINNE NO CHIGIRI-",
+      "君がいる方角へ",
+      "달콤한 죽음을 그대에게",
+      "返品された人間",
+      "金木犀と星降る夜"
     ]
   },
   "upcoming": {
-    "count": 2,
-    "items": [
-      "Over Drive",
-      "September Blue"
-    ]
+    "count": 0,
+    "items": []
   },
   "publishedLyrics": {
     "count": 19,
@@ -108,9 +121,7 @@
     ]
   },
   "nextRelease": {
-    "count": 1,
-    "items": [
-      "Over Drive / 2026-09-22T00:00:00+09:00"
-    ]
+    "count": 0,
+    "items": []
   }
 }

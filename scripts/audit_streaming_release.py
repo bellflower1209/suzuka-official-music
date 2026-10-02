@@ -25,6 +25,10 @@ def main():
     routes=['index.html','releases/index.html','releases/hanakotoba/index.html','artists/enomoto-mia/index.html','news/hanakotoba-streaming-release/index.html']
     for route in routes:
         text=(ROOT/route).read_text()
+        if route == 'index.html':
+            card=re.search(r'<article class="upgrade-card" data-work-slug="hanakotoba">.*?</article>',text,re.S)[0]
+            assert 'https://linkco.re/0xHr8N9e' in card and '2026.09.11' in card
+            continue
         assert text.count('class="streaming-release"')==1, route
         assert '2026年9月11日' in text and 'https://linkco.re/0xHr8N9e' in text
         block=re.search(r'<!-- streaming-release:start -->.*?<!-- streaming-release:end -->',text,re.S)[0]

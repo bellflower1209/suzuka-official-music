@@ -8,14 +8,15 @@ def main():
  cms=json.loads((r/"assets/data/creator-cms.json").read_text())
  published=[x for x in cms["releases"] if x.get("status")=="published"]
  newest=max(published,key=lambda x:(x.get("publishedAt") or x.get("releaseDate") or "",x.get("slug") or ""))["slug"]
+ newest_video=max((x for x in published if x.get("youtubeUrl")),key=lambda x:(x.get("publishedAt") or x.get("releaseDate") or "",x.get("slug") or ""))["slug"]
  if len(data)!=12: errors.append(f"expected 12 playlists, found {len(data)}")
  by_slug={x["slug"]:x for x in data}
  for slug in ("love",):
   releases=by_slug.get(slug,{}).get("releaseSlugs",[])
   if not releases or releases[0]!="hanakotoba": errors.append(f"{slug}: hanakotoba must be first")
- for slug in ("latest","music-videos"):
+ for slug, expected in (("latest", newest), ("music-videos", newest_video)):
   releases=by_slug.get(slug,{}).get("releaseSlugs",[])
-  if not releases or releases[0]!=newest: errors.append(f"{slug}: newest published release must be first ({newest})")
+  if not releases or releases[0]!=expected: errors.append(f"{slug}: expected first release {expected}")
  for x in data:
   path=r/f"playlists/{x['slug']}/index.html"
   if not path.is_file(): errors.append(f"missing {path.relative_to(r)}");continue

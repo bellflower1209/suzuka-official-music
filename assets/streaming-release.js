@@ -9,7 +9,8 @@
       const release = node.dataset.streamingDate;
       const previousDay = new Date(`${release}T00:00:00+09:00`);
       previousDay.setTime(previousDay.getTime() - 86400000);
-      node.textContent = today >= release ? 'NOW STREAMING'
+      const confirmed = !node.dataset.streamingState || node.dataset.streamingState === 'published';
+      node.textContent = today >= release ? (confirmed ? 'NOW STREAMING' : '配信状況確認中')
         : today === todayInTokyo(previousDay) ? '明日リリース' : 'COMING SOON';
     });
   };

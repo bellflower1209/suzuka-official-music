@@ -31,7 +31,7 @@
       if ([...nav.querySelectorAll("a")].some((anchor) => anchor.href === siteUrl("social/"))) return;
       const anchor = makeLink("Official Links", siteUrl("social/"));
       anchor.dataset.socialHubLink = "true";
-      anchor.setAttribute("aria-label", "SUZUKA公式SNS・作品リンク一覧");
+      anchor.setAttribute("aria-label", "OFFICIAL LINKS：SUZUKA公式SNS・作品リンク一覧");
       nav.append(anchor);
     });
   };

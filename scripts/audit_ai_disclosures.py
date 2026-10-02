@@ -26,6 +26,7 @@ ALLOWED_SAME_AS_HOSTS = {
     "www.instagram.com",
     "instagram.com",
     "note.com",
+    "linkco.re",
 }
 
 

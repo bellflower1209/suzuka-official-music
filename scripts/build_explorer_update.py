@@ -265,6 +265,12 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
     news = f'<a href="{p}{item["newsUrl"]}">News</a>' if item.get("newsUrl") else ""
     lyrics = f'<a href="{p}lyrics/{item["slug"]}/">歌詞</a>' if is_publishable_lyrics(item) else ""
     rank_html = f'<strong class="explorer-rank-number">{rank:02d}</strong>' if rank else ""
+    external = (
+        f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">{html.escape(item.get("videoCtaLabel", "MV"))} ↗</a>'
+        if item.get("youtubeUrl") else
+        f'<a href="{html.escape((item.get("scheduledStreamingRelease") or {})["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCore ↗</a>'
+        if (item.get("scheduledStreamingRelease") or {}).get("linkcoreUrl") else ""
+    )
     return (
         f'<article class="explorer-release-card" data-slug="{html.escape(item["slug"])}" '
         f'data-title="{html.escape(item["title"])}" data-artist="{html.escape(item["artist"])}">{rank_html}'
@@ -275,7 +281,7 @@ def card(item: dict, p: str, rank: int | None = None) -> str:
         '<div class="explore-actions">'
         f'<a href="{p}{item["releaseUrl"]}">作品ページ</a>'
         f'<a href="{p}artists/{item["artistSlug"]}/">Artist</a>'
-        f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(item.get("videoCtaLabel", "MV"))} ↗</a>{lyrics}{news}'
+        f'{external}{lyrics}{news}'
         "</div></div></article>"
     )
 
@@ -580,7 +586,7 @@ def special_feature_pages(root: Path, releases: list[dict], cms: dict) -> int:
 
 def gallery_pages(root: Path, releases: list[dict], release_links: dict) -> None:
     links = {item["slug"]: item for item in release_links["releases"]}
-    gallery_releases = [item for item in releases if item.get("galleryPublished", True)]
+    gallery_releases = [item for item in releases if item.get("galleryPublished", True) and item.get("youtubeUrl")]
     index_cards = []
     for position, item in enumerate(gallery_releases):
         youtube_id = item["youtubeUrl"].split("=")[-1]
@@ -853,12 +859,18 @@ def enhance_artist_pages(root: Path, releases: list[dict]) -> None:
             f'<p>{" / ".join(map(html.escape, item["genres"]))}</p></div>'
             f'<a href="../../{item["releaseUrl"]}">作品ページ ↗</a></article>' for item in works
         )
+        latest_external = (
+            f'<a href="{html.escape(latest["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">{html.escape(latest.get("videoCtaLabel", "最新MV"))} ↗</a>'
+            if latest.get("youtubeUrl") else
+            f'<a href="{html.escape((latest.get("scheduledStreamingRelease") or {})["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCoreで聴く ↗</a>'
+            if (latest.get("scheduledStreamingRelease") or {}).get("linkcoreUrl") else ""
+        )
         section = (
             f'<!-- EXPLORER:ARTIST-{slug}:START --><section class="explorer-artist-hub">'
             '<div class="explorer-artist-hub-hero"><div><p class="section-kicker">LATEST MV / PUBLIC RELEASE</p>'
             f'<h2>{html.escape(latest["displayTitle"])}</h2><p>{html.escape(latest["description"])}</p>'
             '<div class="explore-actions">'
-            f'<a href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">{html.escape(latest.get("videoCtaLabel", "最新MV"))} ↗</a>'
+            f'{latest_external}'
             f'<a href="../../{latest["releaseUrl"]}">最新公開曲</a>'
             f'<a href="{CHANNEL}" target="_blank" rel="noopener noreferrer">YouTube ↗</a>'
             f'<a href="{INSTAGRAM}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>'

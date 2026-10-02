@@ -375,6 +375,18 @@ button:disabled,
   box-shadow: 0 10px 26px rgba(55, 194, 241, .16);
 }
 
+.status-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: .65rem 1rem;
+}
+
+.site-footer .footer-bottom a {
+  color: #b8b1b9;
+  font-size: .75rem;
+}
+
 .button-ghost,
 .release-card-cta-detail,
 .explore-actions a:nth-child(even) {
@@ -456,6 +468,7 @@ button:disabled,
 
 .suzuka-latest-hero .hanakotoba-copy h1 {
   color: #fff;
+  font-size: clamp(4.7rem, 9.5vw, 8.6rem);
   text-shadow: 0 3px 30px rgba(0, 0, 0, .72);
 }
 
@@ -586,6 +599,17 @@ button:disabled,
 .site-footer p,
 .site-footer span,
 .ai-footer-disclosure { color: var(--suzuka-text-secondary); }
+
+/* Keep frequently read release notes and fixed-player controls at a usable minimum. */
+.release-info p,
+.ai-project-note,
+.ai-news-disclosure,
+.ai-work-disclosure,
+.ai-footer-disclosure,
+.hanakotoba-project,
+.suzuka-music-player :where(span, small, a, button, select, label) {
+  font-size: .75rem;
+}
 
 @media (min-width: 761px) {
   .latest-release-hero.hanakotoba-hero { padding-bottom: 11rem; }

@@ -1,7 +1,28 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-31T21:30:00+09:00",
+  "updatedAt": "2026-09-24T20:15:46+09:00",
   "photobooks": [
+    {
+      "id": "michiru-arinomama-just-as-i-am",
+      "slug": "michiru-arinomama-just-as-i-am",
+      "title": "妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』",
+      "artistSlug": "michiru",
+      "coverImage": "images/michiru-arinomama-note.png",
+      "coverAlt": "妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』公式表紙",
+      "coverWidth": 1672,
+      "coverHeight": 875,
+      "noteUrl": "https://note.com/1209bellflower/n/n599c9798e768",
+      "instagramUrl": "https://www.instagram.com/p/DdoqSqJCY-0/",
+      "publishedAt": "2026-09-24T00:33:51+09:00",
+      "status": "published",
+      "description": "日常の中にある小さな幸せを描く、妃みちるの1st Digital Photo Book。note公式記事で50カットを収録。",
+      "relatedReleaseSlugs": [],
+      "featured": true,
+      "isPaid": true,
+      "priceLabel": "¥300",
+      "contentType": "Digital Photo Book",
+      "sourceVerifiedAt": "2026-09-24T20:15:46+09:00"
+    },
     {
       "id": "koga-kamishiro-black-knight",
       "slug": "koga-kamishiro-black-knight",

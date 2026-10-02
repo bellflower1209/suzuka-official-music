@@ -54,61 +54,6 @@ def set_meta(text: str, selector: str, value: str) -> str:
     return text.replace("</head>", tag + "</head>", 1)
 
 
-def official_contact_html(brand: dict) -> str:
-    contact_email = html.escape(brand["officialContactEmail"])
-    return (
-        '<section class="v11-official-contact" id="official-contact" aria-labelledby="official-contact-title">'
-        '<p class="section-kicker">OFFICIAL / CONTACT</p>'
-        f'<h2 id="official-contact-title">{html.escape(brand["labelName"])}</h2>'
-        f'<p class="v11-label-descriptor">{html.escape(brand["labelDescriptor"])}</p>'
-        '<dl class="v11-contact-details">'
-        f'<div><dt>Record Label</dt><dd>{html.escape(brand["labelName"])}</dd></div>'
-        f'<div><dt>Official Contact</dt><dd><a href="mailto:{contact_email}">{contact_email}</a></dd></div>'
-        '</dl>'
-        '<p>SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。</p>'
-        f'<p>レーベル名：{html.escape(brand["labelName"])}<br/>公式連絡先：<a href="mailto:{contact_email}">{contact_email}</a></p>'
-        '</section>'
-    )
-
-
-def install_spotify_contact(root: Path, brand: dict) -> None:
-    """Render only the Spotify label-review evidence without rebuilding unrelated pages."""
-    about_path = root / "about/index.html"
-    about = about_path.read_text(encoding="utf-8")
-    description = "SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。"
-    for selector in ("name:description", "property:og:description", "name:twitter:description"):
-        about = set_meta(about, selector, description)
-    if 'href="#official-contact"' not in about:
-        about = about.replace(
-            '<a href="../photobooks/">Photobooks</a></nav>',
-            '<a href="../photobooks/">Photobooks</a><a href="#official-contact">Official / Contact</a></nav>',
-            1,
-        )
-    about = marker_upsert(about, "OFFICIAL-CONTACT", official_contact_html(brand), '<section class="about-label-story">')
-    about_path.write_text(about, encoding="utf-8")
-
-    home_path = root / "index.html"
-    home = home_path.read_text(encoding="utf-8")
-
-    def add_contact(match: re.Match) -> str:
-        data = json.loads(match.group(2))
-        graph = data.get("@graph", []) if isinstance(data, dict) else []
-        for node in graph:
-            if isinstance(node, dict) and node.get("@id") == brand["organizationId"]:
-                node["email"] = brand["officialContactEmail"]
-                node["contactPoint"] = {
-                    "@type": "ContactPoint",
-                    "contactType": "official contact",
-                    "email": brand["officialContactEmail"],
-                    "availableLanguage": ["ja", "en"],
-                }
-        payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
-        return match.group(1) + payload + match.group(3)
-
-    home = JSONLD_RE.sub(add_contact, home)
-    home_path.write_text(home, encoding="utf-8")
-
-
 def consolidate_jsonld(text: str) -> str:
     """Publish one graph per page and merge repeated canonical entities."""
     matches = list(JSONLD_RE.finditer(text))
@@ -450,7 +395,21 @@ def enhance_visible_pages(root: Path, brand: dict, cms: dict, releases: list[dic
         f'<div class="v11-leadership-grid">{leadership_cards}</div></section>'
     )
     about = marker_upsert(about, "ABOUT-LEADERSHIP", leadership, '<section class="about-label-story">')
-    about = marker_upsert(about, "OFFICIAL-CONTACT", official_contact_html(brand), '<section class="about-label-story">')
+    contact_email = html.escape(brand["officialContactEmail"])
+    official_contact = (
+        '<section class="v11-official-contact" id="official-contact" aria-labelledby="official-contact-title">'
+        '<p class="section-kicker">OFFICIAL / CONTACT</p>'
+        f'<h2 id="official-contact-title">{html.escape(brand["labelName"])}</h2>'
+        f'<p class="v11-label-descriptor">{html.escape(brand["labelDescriptor"])}</p>'
+        '<dl class="v11-contact-details">'
+        f'<div><dt>Record Label</dt><dd>{html.escape(brand["labelName"])}</dd></div>'
+        f'<div><dt>Official Contact</dt><dd><a href="mailto:{contact_email}">{contact_email}</a></dd></div>'
+        '</dl>'
+        '<p>SUZUKAは、音楽作品の企画・制作・リリースを行う独立系音楽レーベル／音楽プロジェクトです。</p>'
+        f'<p>レーベル名：{html.escape(brand["labelName"])}<br/>公式連絡先：<a href="mailto:{contact_email}">{contact_email}</a></p>'
+        '</section>'
+    )
+    about = marker_upsert(about, "OFFICIAL-CONTACT", official_contact, '<section class="about-label-story">')
     about_path.write_text(about, encoding="utf-8")
 
     for item in releases:
@@ -763,14 +722,8 @@ def install_shared_assets(root: Path, brand: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--spotify-contact-only", action="store_true")
-    args = parser.parse_args()
-    root = args.root.resolve()
+    root = parser.parse_args().root.resolve()
     brand = json.loads((root / "assets/data/brand.json").read_text(encoding="utf-8"))
-    if args.spotify_contact_only:
-        install_spotify_contact(root, brand)
-        print(json.dumps({"status": "PASS", "mode": "spotify-contact-only"}))
-        return
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
     photobook_source = json.loads((root / "assets/data/photobooks.json").read_text(encoding="utf-8"))

@@ -6,8 +6,24 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | Without worrying - Reimagined - | 榎本魅愛 | https://www.youtube.com/watch?v=tLStIcqnWCs | 3:29 | Without worrying - Reimagined -｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 恋禁区。 | 榎本魅愛 | https://www.youtube.com/watch?v=M3ZMeK9_GrI | 4:12 | 恋禁区。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 心に残る宝モノ | 妃みちる | https://linkco.re/C7nAndeS | 0:00 | 心に残る宝モノ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 恋愛対象外 (仮) | 榎本魅愛 | https://linkco.re/TYNMGrUr | 0:00 | 恋愛対象外 (仮)｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 何度生まれ変わっても - RE:BORN OATH - | 神代煌牙 | https://linkco.re/00FG1Rd6 | 0:00 | 何度生まれ変わっても - RE:BORN OATH -｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | Eternity of Flower Words | 榎本魅愛 | https://linkco.re/r01YHhrv | 0:00 | Eternity of Flower Words｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | HELLO, LIFE! | 妃みちる | https://www.youtube.com/watch?v=tHpviFBXBTk | 6:09 | HELLO, LIFE!｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | また、君に恋をする。 | 榎本魅愛 | https://linkco.re/5acNsXS6 | 0:00 | また、君に恋をする。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 恋するすべての瞬間 | 榎本魅愛 | https://linkco.re/rGeEn03r | 0:00 | 恋するすべての瞬間｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | September Blue | 榎本魅愛 | https://www.youtube.com/watch?v=QTMgWAnIHv4 | 3:46 | September Blue｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | Over Drive | 榎本魅愛 | https://www.youtube.com/watch?v=2JnHqQwfC1s | 3:42 | Over Drive｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 輪廻ノ契 -RINNE NO CHIGIRI- | VEILFANG | https://www.youtube.com/watch?v=Q5qwGFCYO-o | 4:32 | 輪廻ノ契 -RINNE NO CHIGIRI-｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 君がいる方角へ | RE:VIVE | https://www.youtube.com/watch?v=8he3RGLNeY4 | 4:38 | 君がいる方角へ｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 달콤한 죽음을 그대에게 | ECLYPSE | https://www.youtube.com/watch?v=MH9jv3L8is8 | 4:26 | 달콤한 죽음을 그대에게｜ECLYPSE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Hello Hello Halloween | 榎本魅愛 | https://www.youtube.com/watch?v=vuZiHlpo9Ak | 3:38 | Hello Hello Halloween｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | 魔法が解けても | 神代煌牙 | https://www.youtube.com/watch?v=g_SmyjPGIfc | 4:10 | 魔法が解けても｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 返品された人間 | NOX | https://www.youtube.com/watch?v=H8iljjkdNGE | 4:05 | 返品された人間｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 金木犀と星降る夜 | ASTERIA | https://www.youtube.com/watch?v=fyLGRZpxeUg | 5:53 | 金木犀と星降る夜｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 魔法が解けても ― Pumpkin Carriage ― | 神代煌牙 | https://www.youtube.com/watch?v=g_SmyjPGIfc | 4:10 | 魔法が解けても ― Pumpkin Carriage ―｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 世代を超えてママへ | 妃みちる | https://www.youtube.com/watch?v=Hho3xHOw8pg | 2:58 | 世代を超えてママへ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 夢と、介護と、私たち。 | 榎本魅愛 | https://www.youtube.com/watch?v=giTYuKyIk3c | 5:15 | 夢と、介護と、私たち。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 月下契 | VEILFANG | https://www.youtube.com/watch?v=Slv8e81DJ84 | 4:29 | 月下契｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -16,7 +32,7 @@
 | 公開済み | UPdown | 妃みちる | https://www.youtube.com/watch?v=SKUMF7ZhpRM | 4:05 | UPdown｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | RE:SONANCE | RE:VIVE | https://www.youtube.com/watch?v=EZp_Mtxt4G4 | 5:29 | RE:SONANCE｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 分かれた道 | 神代煌牙 | https://www.youtube.com/watch?v=EU_5CqN1zZw | 5:19 | 分かれた道｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| 公開済み | friendlikesong | 妃みちる | https://www.youtube.com/watch?v=IbydSXmEyVQ | 4:23 | friendlikesong｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | friend like song | 妃みちる | https://www.youtube.com/watch?v=IbydSXmEyVQ | 4:23 | friend like song｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 私の選んだ道 | 妃みちる | https://www.youtube.com/watch?v=FC1D7-0SeBc | 5:43 | 私の選んだ道｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | たった1人の君へ | 妃みちる | https://www.youtube.com/watch?v=CPIDy31wnc4 | 5:38 | たった1人の君へ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Monsoon Promise | RANGILI | https://www.youtube.com/watch?v=fecMNfrTUgs | 5:45 | Monsoon Promise｜RANGILI【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -66,8 +82,6 @@
 | 公開済み | MERMAID×MERMAN | 榎本魅愛 | https://www.youtube.com/watch?v=29fpeNtUqfY | 5:40 | MERMAID×MERMAN｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 好きってバレてもいい | 榎本魅愛 | https://www.youtube.com/watch?v=XP8yXMKFHVI | 4:34 | 好きってバレてもいい｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 百万告 | 榎本魅愛 | https://www.youtube.com/watch?v=7FaDutNfIxo | 4:56 | 百万告｜榎本魅愛【Official Music Video】 | 実反映済み | 実反映済み | 実反映済み | 実反映済み | 未確認 | 実反映済み | 実反映済み |
-| Upcoming | September Blue | 榎本魅愛 | 未確認 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
-| Upcoming | Over Drive | 榎本魅愛 | 未確認 | 未確認 | 公開後に確定 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 
 ## 百万告の実反映状況
 

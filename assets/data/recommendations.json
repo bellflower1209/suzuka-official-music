@@ -1,50 +1,14 @@
 {
-  "updatedAt": "2026-09-21T16:12:49+09:00",
+  "updatedAt": "2026-10-02T14:10:36+09:00",
   "recommendations": {
-    "hello-hello-halloween": {
+    "without-worrying-reimagined": {
       "sameArtist": [
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
-      ],
-      "sameGenre": [],
-      "sameTheme": [],
-      "popular": [
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "akuyaku-de-ii",
-        "gekka-no-chigiri",
-        "iine-sougisha",
-        "mahou-ga-toketemo"
-      ],
-      "recent": [
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii"
-      ],
-      "aiRecommended": [
-        "hanakotoba",
-        "yume-to-kaigo-to-watashitachi",
-        "hajimemashite-kiseki",
-        "without-worrying",
-        "ai-demo-wakaranai",
-        "hyakumankoku"
-      ]
-    },
-    "mahou-ga-toketemo": {
-      "sameArtist": [
-        "akuyaku-de-ii",
-        "wakareta-michi",
-        "kamisama-wa-rusu",
-        "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan",
+        "september-blue"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -57,12 +21,636 @@
         "iine-sougisha"
       ],
       "recent": [
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "renkinku",
+        "eternity-of-flower-words",
+        "renai-taishogai-kari",
         "hello-hello-halloween",
-        "hanakotoba",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru"
+      ]
+    },
+    "renkinku": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan",
+        "september-blue"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
         "sedai-wo-koete-mama-e",
         "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
         "gekka-no-chigiri",
-        "akuyaku-de-ii"
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "without-worrying-reimagined",
+        "eternity-of-flower-words",
+        "renai-taishogai-kari",
+        "hello-hello-halloween",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru"
+      ]
+    },
+    "kokoro-ni-nokoru-takaramono": {
+      "sameArtist": [
+        "hello-life",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "hello-life",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong",
+        "tatta-hitori-no-kimi-e",
+        "watashi-no-eranda-michi"
+      ]
+    },
+    "renai-taishogai-kari": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan",
+        "september-blue"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "eternity-of-flower-words",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru",
+        "over-drive",
+        "september-blue",
+        "renkinku"
+      ]
+    },
+    "nando-umarekawattemo-reborn-oath": {
+      "sameArtist": [
+        "mahou-ga-toketemo",
+        "akuyaku-de-ii",
+        "wakareta-michi",
+        "kamisama-wa-rusu",
+        "leo-rise-again",
+        "mermaid-no-geboku"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "akuyaku-de-ii",
+        "mahou-ga-toketemo",
+        "one-more-kiss",
+        "boukyaku-no-ikimono",
+        "echoes-of-you",
+        "my-queen-my-oath"
+      ]
+    },
+    "eternity-of-flower-words": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan",
+        "september-blue"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "hello-life"
+      ],
+      "aiRecommended": [
+        "renai-taishogai-kari",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru",
+        "over-drive",
+        "september-blue",
+        "renkinku"
+      ]
+    },
+    "hello-life": {
+      "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong",
+        "watashi-no-eranda-michi",
+        "tatta-hitori-no-kimi-e"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "kokoro-ni-nokoru-takaramono",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong",
+        "tatta-hitori-no-kimi-e",
+        "watashi-no-eranda-michi"
+      ]
+    },
+    "mata-kimi-ni-koi-wo-suru": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "koisuru-subete-no-shunkan",
+        "september-blue"
+      ],
+      "sameGenre": [
+        "koisuru-subete-no-shunkan",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "sameTheme": [
+        "koisuru-subete-no-shunkan",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "koisuru-subete-no-shunkan",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ]
+    },
+    "koisuru-subete-no-shunkan": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "september-blue"
+      ],
+      "sameGenre": [
+        "mata-kimi-ni-koi-wo-suru",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "sameTheme": [
+        "mata-kimi-ni-koi-wo-suru",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "mata-kimi-ni-koi-wo-suru",
+        "hanakotoba",
+        "ai-demo-wakaranai",
+        "hyakumankoku",
+        "kimi-ni-kakatta-mahou",
+        "kimi-to-nara-last-boss-made"
+      ]
+    },
+    "september-blue": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "over-drive",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru",
+        "hello-hello-halloween",
+        "eternity-of-flower-words",
+        "renai-taishogai-kari"
+      ]
+    },
+    "over-drive": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "september-blue",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru",
+        "hello-hello-halloween",
+        "eternity-of-flower-words",
+        "renai-taishogai-kari"
+      ]
+    },
+    "rinne-no-chigiri": {
+      "sameArtist": [
+        "gekka-no-chigiri"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "gekka-no-chigiri",
+        "hello-hello-halloween",
+        "kimi-ga-iru-hougaku-e",
+        "over-drive",
+        "september-blue",
+        "dalkomhan-jugeumeul-geudaeege"
+      ]
+    },
+    "kimi-ga-iru-hougaku-e": {
+      "sameArtist": [
+        "re-sonance",
+        "still-alive",
+        "heal-you-again"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "re-sonance",
+        "still-alive",
+        "heal-you-again",
+        "hello-hello-halloween",
+        "dalkomhan-jugeumeul-geudaeege",
+        "rinne-no-chigiri"
+      ]
+    },
+    "dalkomhan-jugeumeul-geudaeege": {
+      "sameArtist": [
+        "false-identity",
+        "lost-signal",
+        "red-moon-rising",
+        "shadow-code"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "lost-signal",
+        "red-moon-rising",
+        "shadow-code",
+        "false-identity",
+        "hello-hello-halloween",
+        "kimi-ga-iru-hougaku-e"
+      ]
+    },
+    "hello-hello-halloween": {
+      "sameArtist": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha",
+        "mahou-ga-toketemo"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "hanakotoba",
+        "over-drive",
+        "september-blue",
+        "koisuru-subete-no-shunkan",
+        "mata-kimi-ni-koi-wo-suru",
+        "yume-to-kaigo-to-watashitachi"
+      ]
+    },
+    "henpin-sareta-ningen": {
+      "sameArtist": [
+        "iine-sougisha",
+        "family-portrait",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "iine-sougisha",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen",
+        "family-portrait",
+        "hello-hello-halloween",
+        "mahou-ga-toketemo"
+      ]
+    },
+    "kinmokusei-to-hoshifuru-yoru": {
+      "sameArtist": [
+        "last-dance-tonight",
+        "anata-dake-no-savior"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
+      ],
+      "aiRecommended": [
+        "anata-dake-no-savior",
+        "last-dance-tonight",
+        "hello-hello-halloween",
+        "mahou-ga-toketemo",
+        "henpin-sareta-ningen",
+        "hanakotoba"
+      ]
+    },
+    "mahou-ga-toketemo": {
+      "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
+        "akuyaku-de-ii",
+        "wakareta-michi",
+        "kamisama-wa-rusu",
+        "leo-rise-again",
+        "mermaid-no-geboku"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -75,6 +663,8 @@
     },
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
         "updown",
         "friendlikesong",
         "watashi-no-eranda-michi",
@@ -103,12 +693,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -121,12 +711,12 @@
     },
     "yume-to-kaigo-to-watashitachi": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "kimi-wa-makenai",
@@ -153,12 +743,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -170,7 +760,9 @@
       ]
     },
     "gekka-no-chigiri": {
-      "sameArtist": [],
+      "sameArtist": [
+        "rinne-no-chigiri"
+      ],
       "sameGenre": [
         "my-queen-my-oath",
         "yume-to-kaigo-to-watashitachi",
@@ -193,12 +785,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "akuyaku-de-ii"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -211,12 +803,12 @@
     },
     "akuyaku-de-ii": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "wakareta-michi",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "wakareta-michi",
@@ -236,12 +828,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -254,6 +846,7 @@
     },
     "iine-sougisha": {
       "sameArtist": [
+        "henpin-sareta-ningen",
         "family-portrait",
         "zennin-saiban",
         "chimpanzee-no-rakuen"
@@ -273,24 +866,26 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "zennin-saiban",
         "chimpanzee-no-rakuen",
         "family-portrait",
+        "henpin-sareta-ningen",
         "akuyaku-de-ii",
-        "updown",
-        "yume-to-kaigo-to-watashitachi"
+        "updown"
       ]
     },
     "updown": {
       "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
         "sedai-wo-koete-mama-e",
         "friendlikesong",
         "watashi-no-eranda-michi",
@@ -321,12 +916,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -339,6 +934,7 @@
     },
     "re-sonance": {
       "sameArtist": [
+        "kimi-ga-iru-hougaku-e",
         "still-alive",
         "heal-you-again"
       ],
@@ -367,12 +963,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -385,12 +981,12 @@
     },
     "wakareta-michi": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "kamisama-wa-rusu",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "akuyaku-de-ii",
@@ -417,12 +1013,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -435,6 +1031,8 @@
     },
     "friendlikesong": {
       "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
         "sedai-wo-koete-mama-e",
         "updown",
         "watashi-no-eranda-michi",
@@ -460,12 +1058,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -478,6 +1076,8 @@
     },
     "watashi-no-eranda-michi": {
       "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
         "sedai-wo-koete-mama-e",
         "updown",
         "friendlikesong",
@@ -507,12 +1107,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -525,6 +1125,8 @@
     },
     "tatta-hitori-no-kimi-e": {
       "sameArtist": [
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
         "sedai-wo-koete-mama-e",
         "updown",
         "friendlikesong",
@@ -555,12 +1157,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -587,12 +1189,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -605,12 +1207,12 @@
     },
     "taipa-nante-shiranakatta": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -632,12 +1234,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -650,6 +1252,7 @@
     },
     "family-portrait": {
       "sameArtist": [
+        "henpin-sareta-ningen",
         "iine-sougisha",
         "zennin-saiban",
         "chimpanzee-no-rakuen"
@@ -673,12 +1276,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -691,6 +1294,7 @@
     },
     "false-identity": {
       "sameArtist": [
+        "dalkomhan-jugeumeul-geudaeege",
         "lost-signal",
         "red-moon-rising",
         "shadow-code"
@@ -714,12 +1318,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -732,12 +1336,12 @@
     },
     "natsu-ga-owaru-made-soba-ni-ite": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "caramel",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -750,12 +1354,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "caramel",
@@ -768,12 +1372,12 @@
     },
     "caramel": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "kimi-wa-makenai",
-        "kimi-ni-kakatta-mahou"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -786,12 +1390,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -804,12 +1408,12 @@
     },
     "kamisama-wa-rusu": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "leo-rise-again",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -822,12 +1426,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -840,12 +1444,12 @@
     },
     "kimi-wa-makenai": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-ni-kakatta-mahou"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "yume-to-kaigo-to-watashitachi",
@@ -872,12 +1476,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -890,12 +1494,12 @@
     },
     "leo-rise-again": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "mermaid-no-geboku",
-        "one-more-kiss"
+        "mermaid-no-geboku"
       ],
       "sameGenre": [
         "akuyaku-de-ii",
@@ -913,12 +1517,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -931,6 +1535,7 @@
     },
     "last-dance-tonight": {
       "sameArtist": [
+        "kinmokusei-to-hoshifuru-yoru",
         "anata-dake-no-savior"
       ],
       "sameGenre": [
@@ -958,12 +1563,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -976,12 +1581,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -1008,12 +1613,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -1026,12 +1631,12 @@
     },
     "mermaid-no-geboku": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "leo-rise-again",
-        "one-more-kiss"
+        "leo-rise-again"
       ],
       "sameGenre": [
         "mermaid-merman",
@@ -1058,12 +1663,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -1076,12 +1681,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1108,12 +1713,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1126,6 +1731,7 @@
     },
     "anata-dake-no-savior": {
       "sameArtist": [
+        "kinmokusei-to-hoshifuru-yoru",
         "last-dance-tonight"
       ],
       "sameGenre": [
@@ -1153,12 +1759,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1191,12 +1797,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -1209,12 +1815,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "without-worrying",
@@ -1241,12 +1847,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1259,6 +1865,7 @@
     },
     "still-alive": {
       "sameArtist": [
+        "kimi-ga-iru-hougaku-e",
         "re-sonance",
         "heal-you-again"
       ],
@@ -1286,12 +1893,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1304,6 +1911,7 @@
     },
     "zennin-saiban": {
       "sameArtist": [
+        "henpin-sareta-ningen",
         "iine-sougisha",
         "family-portrait",
         "chimpanzee-no-rakuen"
@@ -1326,30 +1934,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
         "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
-        "one-more-kiss",
-        "still-alive"
+        "henpin-sareta-ningen",
+        "one-more-kiss"
       ]
     },
     "one-more-kiss": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "leo-rise-again",
-        "mermaid-no-geboku"
+        "leo-rise-again"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1376,12 +1984,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1394,6 +2002,7 @@
     },
     "lost-signal": {
       "sameArtist": [
+        "dalkomhan-jugeumeul-geudaeege",
         "false-identity",
         "red-moon-rising",
         "shadow-code"
@@ -1422,12 +2031,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1440,12 +2049,12 @@
     },
     "without-worrying": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1472,12 +2081,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1518,12 +2127,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -1536,6 +2145,7 @@
     },
     "chimpanzee-no-rakuen": {
       "sameArtist": [
+        "henpin-sareta-ningen",
         "iine-sougisha",
         "family-portrait",
         "zennin-saiban"
@@ -1558,30 +2168,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "zennin-saiban",
         "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
-        "koisuru-maharaja",
-        "without-worrying"
+        "henpin-sareta-ningen",
+        "koisuru-maharaja"
       ]
     },
     "ashita-wa-kitto": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "without-worrying",
@@ -1608,12 +2218,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1626,6 +2236,7 @@
     },
     "heal-you-again": {
       "sameArtist": [
+        "kimi-ga-iru-hougaku-e",
         "re-sonance",
         "still-alive"
       ],
@@ -1654,12 +2265,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1672,12 +2283,12 @@
     },
     "echoes-of-you": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "leo-rise-again",
-        "mermaid-no-geboku"
+        "leo-rise-again"
       ],
       "sameGenre": [
         "one-more-kiss",
@@ -1699,12 +2310,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -1740,12 +2351,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1779,12 +2390,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -1797,12 +2408,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1829,12 +2440,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1847,12 +2458,12 @@
     },
     "boukyaku-no-ikimono": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "leo-rise-again",
-        "mermaid-no-geboku"
+        "leo-rise-again"
       ],
       "sameGenre": [
         "echoes-of-you",
@@ -1875,12 +2486,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -1893,12 +2504,12 @@
     },
     "my-queen-my-oath": {
       "sameArtist": [
+        "nando-umarekawattemo-reborn-oath",
         "mahou-ga-toketemo",
         "akuyaku-de-ii",
         "wakareta-michi",
         "kamisama-wa-rusu",
-        "leo-rise-again",
-        "mermaid-no-geboku"
+        "leo-rise-again"
       ],
       "sameGenre": [
         "our-kingdom",
@@ -1925,12 +2536,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -1943,6 +2554,7 @@
     },
     "red-moon-rising": {
       "sameArtist": [
+        "dalkomhan-jugeumeul-geudaeege",
         "false-identity",
         "lost-signal",
         "shadow-code"
@@ -1969,12 +2581,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -1987,12 +2599,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -2019,12 +2631,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -2037,12 +2649,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2069,12 +2681,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2087,12 +2699,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -2119,12 +2731,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -2137,12 +2749,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -2166,12 +2778,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -2184,6 +2796,7 @@
     },
     "shadow-code": {
       "sameArtist": [
+        "dalkomhan-jugeumeul-geudaeege",
         "false-identity",
         "lost-signal",
         "red-moon-rising"
@@ -2213,12 +2826,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -2231,12 +2844,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -2263,12 +2876,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -2281,12 +2894,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2313,12 +2926,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2331,12 +2944,12 @@
     },
     "mia": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2363,12 +2976,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2381,12 +2994,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2413,12 +3026,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2431,12 +3044,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2463,12 +3076,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2481,12 +3094,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -2513,12 +3126,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -2531,12 +3144,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -2563,12 +3176,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2581,12 +3194,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -2613,12 +3226,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -2631,12 +3244,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -2663,12 +3276,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -2681,12 +3294,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
-        "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "taipa-nante-shiranakatta",
-        "natsu-ga-owaru-made-soba-ni-ite",
-        "caramel",
-        "kimi-wa-makenai"
+        "without-worrying-reimagined",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -2713,12 +3326,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "without-worrying-reimagined",
+        "renkinku",
+        "kokoro-ni-nokoru-takaramono",
+        "renai-taishogai-kari",
+        "nando-umarekawattemo-reborn-oath",
+        "eternity-of-flower-words"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

@@ -11,7 +11,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from build_explorer_update import BASE, card, dump, shell, write
+from build_explorer_update import BASE, card, dump, media_url, public_media_url, shell, write
 from build_creator_platform import analytics as install_analytics
 from release_state import publishable_lyrics
 
@@ -91,7 +91,7 @@ def countdown_markup(item: dict, prefix: str = "") -> str:
     date_label = item["scheduledAt"][5:10].replace("-", ".")
     visual = (
         f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" '
-        'width="1280" height="720" loading="lazy"/>'
+        f'width="{item.get("imageWidth", 1280)}" height="{item.get("imageHeight", 720)}" loading="lazy"/>'
         if raw_image else
         '<div class="v31-upcoming-placeholder" role="img" aria-label="公式画像は未確認">'
         f'<span>NEW RELEASE</span><strong>{date_label}</strong><small>OFFICIAL VISUAL PENDING</small></div>'
@@ -142,6 +142,24 @@ def coming_soon_pages(root: Path, cms: dict) -> None:
         write(root / f'releases/{item["slug"]}/index.html', page.replace('content="index, follow"', 'content="noindex, follow"'))
 
 
+def streaming_summary(items: list[dict], prefix: str) -> str:
+    cards = []
+    for item in sorted(items, key=lambda r: (r['scheduledStreamingRelease']['releaseDate'], r['slug']), reverse=True):
+        streaming = item['scheduledStreamingRelease']
+        live = streaming.get('status') == 'published' and streaming.get('verifiedAt')
+        label = 'NOW STREAMING / 配信開始' if live else '配信予定'
+        cards.append(
+            f'<article class="v31-countdown-card" data-streaming-slug="{item["slug"]}"><div>'
+            f'<p class="section-kicker">STREAMING RELEASE · {label}</p>'
+            f'<time datetime="{streaming["releaseDate"]}">{streaming["releaseDate"].replace("-", ".")}</time></div><div>'
+            f'<h3>{html.escape(item["title"])}</h3><p>{html.escape(item["artist"])}</p><div class="explore-actions">'
+            f'<a href="{prefix}{item["releaseUrl"]}">作品情報</a>'
+            f'<a href="{html.escape(streaming["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCoreで配信情報を見る ↗</a>'
+            '</div></div></article>'
+        )
+    return '<div class="v31-schedule-list">'+''.join(cards)+'</div>'
+
+
 def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[dict]) -> None:
     today = datetime.fromisoformat(cms["updatedAt"]).astimezone(ZoneInfo("Asia/Tokyo")).date()
     current_week_end = today + timedelta(days=6 - today.weekday())
@@ -168,6 +186,8 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
     position = 0
     for label, items in buckets.items():
         cards = "".join(countdown_markup(item, "../") for item in items)
+        if label == "Awaiting Confirmation":
+            cards = cards.replace("NEW RELEASE / JST", "公開状況確認中 / JST")
         if not cards:
             cards = '<p class="v31-empty">現在該当する公開予定はありません。</p>'
         sections.append(
@@ -190,7 +210,8 @@ def schedule_page(root: Path, cms: dict, releases: list[dict], upcoming: list[di
             f'<time datetime="{streaming["releaseDate"]}">{streaming["releaseDate"].replace("-", ".")}</time></div><div>'
             f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
             f'<p>OFFICIAL RELEASE · {item["releaseDate"].replace("-", ".")} · SUZUKA作品公開</p>'
-            f'<div class="explore-actions"><a href="../{item["releaseUrl"]}">作品・配信情報を見る</a></div></div></article>'
+            f'<div class="explore-actions"><a href="../{item["releaseUrl"]}">作品・配信情報を見る</a>'
+            + (f'<a href="{html.escape(streaming["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCore ↗</a>' if streaming.get('linkcoreUrl') else '') + '</div></div></article>'
         )
     if streaming_cards:
         sections.append('<section class="v31-schedule-group" id="streaming-releases"><h2>Streaming Release</h2>'
@@ -232,7 +253,7 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
         image = raw_image if raw_image.startswith(("http://", "https://")) else "../../" + raw_image
         date_label = item["scheduledAt"][5:10].replace("-", ".")
         visual = (
-            f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" width="1280" height="720" loading="lazy"/>'
+            f'<img src="{image}" alt="{html.escape(item["artist"])}「{html.escape(item["title"])}」公開予定画像" width="{item.get("imageWidth", 1280)}" height="{item.get("imageHeight", 720)}" loading="lazy"/>'
             if raw_image else
             f'<div class="v31-upcoming-placeholder" role="img" aria-label="公式画像は未確認"><span>NEW RELEASE</span><strong>{date_label}</strong><small>OFFICIAL VISUAL PENDING</small></div>'
         )
@@ -258,6 +279,10 @@ def upcoming_pages(root: Path, upcoming: list[dict]) -> None:
             +
             f'<a href="../../artists/{item["artistSlug"]}/">Artist</a><a href="../../schedule/">Schedule</a>'
             '</div></div></section>'
+            '<section class="social-context-section" aria-label="関連リンク"><h2>関連情報</h2><div class="explore-actions">'
+            f'<a href="../../artists/{item["artistSlug"]}/">アーティストページ</a>'
+            '<a href="../../schedule/">公開スケジュール</a><a href="../../social/">公式SNS・リンク</a>'
+            '</div></section>'
         )
         page = shell(
             f'releases/{item["slug"]}/', f'{item["title"]}｜公開予定｜SUZUKA',
@@ -421,7 +446,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
         cover_width = int(item.get("coverWidth") or 1280)
         cover_height = int(item.get("coverHeight") or 720)
         cover_markup = (
-            f'<img src="../{html.escape(cover)}" alt="{html.escape(cover_alt)}" '
+            f'<img src="{html.escape(media_url(cover, "../"))}" alt="{html.escape(cover_alt)}" '
             f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         cards.append(
@@ -443,7 +468,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
         else:
             price = "未確認"
         detail_cover = (
-            f'<img src="../../{html.escape(cover)}" alt="{html.escape(cover_alt)}" '
+            f'<img src="{html.escape(media_url(cover, "../../"))}" alt="{html.escape(cover_alt)}" '
             f'width="{cover_width}" height="{cover_height}" loading="lazy"/>' if cover else ""
         )
         body = (
@@ -464,7 +489,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
                 "@type": artist["type"], "name": artist["name"],
                 "description": "SUZUKAの架空のAIアーティストです。",
             },
-            "image": f'{BASE}/{cover}' if cover else None,
+            "image": public_media_url(cover) if cover else None,
             "datePublished": item.get("publishedAt"),
             "isAccessibleForFree": item.get("isPaid") is False,
         }]
@@ -474,7 +499,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
             item["title"], body, graph, ("photobooks", "Photobooks"), page_type="WebPage",
         )
         if cover:
-            page = page.replace(f'{BASE}/images/suzuka-channel.jpg', f'{BASE}/{cover}')
+            page = page.replace(f'{BASE}/images/suzuka-channel.jpg', public_media_url(cover))
         write(root / f'photobooks/{item["slug"]}/index.html', page)
         list_items.append({
             "@type": "ListItem", "position": position, "name": item["title"],
@@ -489,7 +514,7 @@ def photobook_pages(root: Path, cms: dict, releases: list[dict]) -> list[dict]:
         "PHOTOBOOKS", body, graph, page_type="CollectionPage",
     )
     if published and published[0].get("coverImage"):
-        hub = hub.replace(f'{BASE}/images/suzuka-channel.jpg', f'{BASE}/{published[0]["coverImage"]}')
+        hub = hub.replace(f'{BASE}/images/suzuka-channel.jpg', public_media_url(published[0]["coverImage"]))
     write(root / "photobooks/index.html", hub)
     return published
 
@@ -719,7 +744,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
         if artist_photobooks:
             photobook_section = '<section><h2>Official Photobooks</h2><div class="v31-photobook-grid">' + "".join(
                 f'<article class="v31-photobook-card" data-source-section="artist_photobooks" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist["name"])}">'
-                f'<img src="../../{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
+                f'<img src="{html.escape(media_url(item["coverImage"], "../../"))}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
                 f'<h3><a href="../../photobooks/{item["slug"]}/">{html.escape(item["title"])}</a></h3><div class="explore-actions">'
                 f'<a href="../../photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
                 for item in artist_photobooks
@@ -754,8 +779,14 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             if works else
             '<section><h2>公開作品一覧</h2><p class="v31-empty">現在、公開済み作品はありません。</p></section>'
         )
+        latest_media_link = (
+            f'<a class="creator-link-card" href="{html.escape(latest["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">Official MV</a>'
+            if latest and latest.get("youtubeUrl") else
+            f'<a class="creator-link-card" href="{html.escape((latest.get("scheduledStreamingRelease") or {})["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">LinkCore / Streaming</a>'
+            if latest and (latest.get("scheduledStreamingRelease") or {}).get("linkcoreUrl") else ""
+        )
         content_links = "".join([
-            f'<a class="creator-link-card" href="{latest["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">Official MV</a>' if latest else "",
+            latest_media_link,
             f'<a class="creator-link-card" href="{artist_shorts[0]["youtubeUrl"]}" target="_blank" rel="noopener noreferrer" data-source-section="artist_shorts">Official Shorts</a>' if artist_shorts else (
                 f'<a class="creator-link-card" href="{release_shorts[0]["shortsUrl"]}" target="_blank" rel="noopener noreferrer" data-source-section="artist_shorts">Shorts</a>' if release_shorts else ""
             ),
@@ -776,6 +807,7 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             + (f'<section><h2>最新曲</h2>{card(latest, "../../")}</section>' if latest else "")
             + discovery_section
             + works_section
+            + ('<section><h2>Streaming Release</h2>'+streaming_summary([r for r in works if r.get('scheduledStreamingRelease', {}).get('linkcoreUrl')], '../../')+'</section>' if any(r.get('scheduledStreamingRelease', {}).get('linkcoreUrl') for r in works) else '')
             + f'<section><h2>Upcoming</h2><div class="v31-schedule-list">{upcoming_html}</div></section>'
             + '<section><h2>Official MV / Shorts / News / Gallery</h2><div class="creator-link-grid">'
             + content_links
@@ -978,11 +1010,13 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
             1,
         )
         text = text[:weekly_match.start()] + weekly + text[weekly_match.end():]
-    next_release = sorted(upcoming, key=lambda x: (x["scheduledAt"], x["slug"]))[0] if upcoming else None
+    future_upcoming = [r for r in upcoming if r["scheduledAt"][:10] >= cms["updatedAt"][:10]]
+    next_release = sorted(future_upcoming, key=lambda x: (x["scheduledAt"], x["slug"]))[0] if future_upcoming else None
     countdown = (
         '<section class="v31-home-next"><div class="explorer-home-heading"><h2>Next Release</h2>'
         '<a href="./schedule/">公開スケジュール ↗</a></div>'
         + (countdown_markup(next_release, "./") if next_release else '<p class="v31-empty">確認済みの次回公開予定はありません。</p>')
+        + '<h2>Streaming Release</h2>' + streaming_summary([r for r in releases if r.get('scheduledStreamingRelease', {}).get('linkcoreUrl')], './')
         + ('<h2>SUZUKA Upcoming / Coming Soon</h2>' + "".join(coming_soon_card(item, "./") for item in cms.get("comingSoon", [])) if cms.get("comingSoon") else "")
         + '</section>'
     )
@@ -1025,7 +1059,7 @@ def home_v31(root: Path, cms: dict, releases: list[dict], upcoming: list[dict], 
     artist_names = {item["slug"]: item["name"] for item in cms["artists"]}
     featured_cards = "".join(
         f'<article class="v31-photobook-card" data-source-section="home_photobooks" data-photobook data-slug="{html.escape(item["slug"])}" data-title="{html.escape(item["title"])}" data-artist="{html.escape(artist_names.get(item["artistSlug"], ""))}">'
-        f'<img src="./{html.escape(item["coverImage"])}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
+        f'<img src="{html.escape(media_url(item["coverImage"], "./"))}" alt="{html.escape(item.get("coverAlt") or item["title"])}" width="{int(item.get("coverWidth") or 1280)}" height="{int(item.get("coverHeight") or 720)}" loading="lazy"/>'
         f'<p>{html.escape(artist_names.get(item["artistSlug"], ""))}</p><h2>{html.escape(item["title"])}</h2><div class="explore-actions">'
         f'<a href="./photobooks/{item["slug"]}/">写真集を見る</a><a data-note-link href="{html.escape(item["noteUrl"])}" target="_blank" rel="noopener noreferrer">noteで読む ↗</a></div></article>'
         for item in featured

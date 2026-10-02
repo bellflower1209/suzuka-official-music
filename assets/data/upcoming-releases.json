@@ -1,54 +1,5 @@
 {
-  "updatedAt": "2026-09-21T16:12:49+09:00",
-  "releases": [
-    {
-      "slug": "september-blue",
-      "title": "September Blue",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-09-22T00:00:00+09:00",
-      "releaseDate": "2026-09-22",
-      "status": "upcoming",
-      "source": "user-provided LinkCore release page",
-      "linkcoreUrl": "https://linkco.re/HCvApf7V",
-      "searchKeywords": [
-        "榎本魅愛",
-        "ENOMOTO MIA",
-        "September Blue",
-        "LinkCore",
-        "配信",
-        "2026年9月22日"
-      ],
-      "image": "images/enomoto-mia-september-blue.jpg",
-      "imageAlt": "榎本魅愛「September Blue」公式ビジュアル",
-      "imageWidth": 886,
-      "imageHeight": 886,
-      "imageSource": "user-provided-official-asset-2026-09-19"
-    },
-    {
-      "slug": "over-drive",
-      "title": "Over Drive",
-      "artist": "榎本魅愛",
-      "artistSlug": "enomoto-mia",
-      "scheduledAt": "2026-09-22T00:00:00+09:00",
-      "releaseDate": "2026-09-22",
-      "status": "upcoming",
-      "source": "user-provided LinkCore release page",
-      "linkcoreUrl": "https://linkco.re/3tHVbvXs",
-      "searchKeywords": [
-        "榎本魅愛",
-        "ENOMOTO MIA",
-        "Over Drive",
-        "LinkCore",
-        "配信",
-        "2026年9月22日"
-      ],
-      "image": "images/enomoto-mia-over-drive.jpg",
-      "imageAlt": "榎本魅愛「Over Drive」公式ビジュアル",
-      "imageWidth": 886,
-      "imageHeight": 886,
-      "imageSource": "user-provided-official-asset-2026-09-19"
-    }
-  ],
+  "updatedAt": "2026-10-02T14:10:36+09:00",
+  "releases": [],
   "comingSoon": []
 }

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-09-24T20:15:46+09:00",
+  "timezone": "Asia/Tokyo",
+  "source": "authenticated TuneCore Japan dashboard plus public LinkCore pages",
+  "summary": {
+    "total": 21,
+    "published": 13,
+    "scheduled": 7,
+    "underReview": 1
+  },
+  "releases": [
+    {
+      "releaseId": "1972974",
+      "title": "夢と、介護と、わたしたち",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "under-review",
+      "dashboardLabel": "審査中",
+      "releaseDate": null,
+      "linkcoreUrl": null
+    },
+    {
+      "releaseId": "1970337",
+      "title": "世代を超えてママへ",
+      "artist": "妃みちる",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 10/02 リリース予定",
+      "releaseDate": "2026-10-02",
+      "linkcoreUrl": "https://linkco.re/u07vdbbg"
+    },
+    {
+      "releaseId": "1957717",
+      "title": "夏が終わるまで、そばにいて。",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-14",
+      "releaseDate": "2026-09-23",
+      "linkcoreUrl": "https://linkco.re/EQtNSDgr"
+    },
+    {
+      "releaseId": "1957206",
+      "title": "恋するすべての瞬間",
+      "artist": "榎本魅愛",
+      "type": "album",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-14",
+      "releaseDate": "2026-09-23",
+      "linkcoreUrl": "https://linkco.re/rGeEn03r",
+      "tracks": [
+        "Over Drive",
+        "キャラメ〜ル",
+        "取り扱いチューい",
+        "百万告",
+        "花言葉"
+      ]
+    },
+    {
+      "releaseId": "1957176",
+      "title": "キャラメ〜ル",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-14",
+      "releaseDate": "2026-09-23",
+      "linkcoreUrl": "https://linkco.re/GVzS1dUY"
+    },
+    {
+      "releaseId": "1957040",
+      "title": "タイパなんて知らなかった。",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-14",
+      "releaseDate": "2026-09-23",
+      "linkcoreUrl": "https://linkco.re/uYYFxG62"
+    },
+    {
+      "releaseId": "1956870",
+      "title": "また、君に恋をする。",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-14",
+      "releaseDate": "2026-09-23",
+      "linkcoreUrl": "https://linkco.re/5acNsXS6"
+    },
+    {
+      "releaseId": "1969247",
+      "title": "君とならラスボスまで",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 10/01 リリース予定",
+      "releaseDate": "2026-10-01",
+      "linkcoreUrl": "https://linkco.re/0X3neT7N"
+    },
+    {
+      "releaseId": "1969058",
+      "title": "何度生まれ変わっても - RE:BORN OATH -",
+      "artist": "神代煌牙",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 09/26 リリース予定",
+      "releaseDate": "2026-09-26",
+      "linkcoreUrl": "https://linkco.re/00FG1Rd6"
+    },
+    {
+      "releaseId": "1969089",
+      "title": "心に残る宝モノ",
+      "artist": "妃みちる",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 09/29 リリース予定",
+      "releaseDate": "2026-09-29",
+      "linkcoreUrl": "https://linkco.re/C7nAndeS"
+    },
+    {
+      "releaseId": "1963735",
+      "title": "魔法が解けても ― Pumpkin Carriage ―",
+      "artist": "神代煌牙",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 10/03 リリース予定",
+      "releaseDate": "2026-10-03",
+      "linkcoreUrl": "https://linkco.re/tSpMyUFE"
+    },
+    {
+      "releaseId": "1955863",
+      "title": "Over Drive",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-22",
+      "linkcoreUrl": "https://linkco.re/3tHVbvXs"
+    },
+    {
+      "releaseId": "1955123",
+      "title": "September Blue",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-22",
+      "linkcoreUrl": "https://linkco.re/HCvApf7V"
+    },
+    {
+      "releaseId": "1954742",
+      "title": "取り扱いチューい",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-21",
+      "linkcoreUrl": "https://linkco.re/9r6szVDg"
+    },
+    {
+      "releaseId": "1954597",
+      "title": "百万告",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-21",
+      "linkcoreUrl": "https://linkco.re/Qd5Tzb0q"
+    },
+    {
+      "releaseId": "1954551",
+      "title": "Hello Hello Halloween",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-21",
+      "linkcoreUrl": "https://linkco.re/QfzZUy6f"
+    },
+    {
+      "releaseId": "1963697",
+      "title": "たった1人の君へ",
+      "artist": "妃みちる",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-20",
+      "linkcoreUrl": "https://linkco.re/3Z3vDYPG"
+    },
+    {
+      "releaseId": "1963488",
+      "title": "friend like song",
+      "artist": "妃みちる",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "releaseDate": "2026-09-20",
+      "linkcoreUrl": "https://linkco.re/QFNB1r1u"
+    },
+    {
+      "releaseId": "1960949",
+      "title": "恋愛対象外 (仮)",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 09/26 リリース予定",
+      "releaseDate": "2026-09-26",
+      "linkcoreUrl": "https://linkco.re/TYNMGrUr"
+    },
+    {
+      "releaseId": "1960708",
+      "title": "Eternity of Flower Words",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "scheduled",
+      "dashboardLabel": "配信中 / 09/26 リリース予定",
+      "releaseDate": "2026-09-26",
+      "linkcoreUrl": "https://linkco.re/r01YHhrv"
+    },
+    {
+      "releaseId": "1951259",
+      "title": "花言葉",
+      "artist": "榎本魅愛",
+      "type": "single",
+      "status": "published",
+      "dashboardLabel": "配信中",
+      "dashboardDistributionPeriodStart": "2026-09-10",
+      "releaseDate": "2026-09-11",
+      "linkcoreUrl": "https://linkco.re/0xHr8N9e"
+    }
+  ],
+  "notes": [
+    "TuneCore管理画面の配信期間開始日とLinkCoreの公開リリース日が異なる場合は、別フィールドとして保存した。",
+    "『夢と、介護と、わたしたち』は審査中のため、配信予定として公開サイトには掲載しない。"
+  ]
+}

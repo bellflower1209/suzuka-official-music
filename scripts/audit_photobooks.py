@@ -43,8 +43,12 @@ def main() -> int:
             parsed = urlparse(str(item.get("noteUrl") or ""))
             if parsed.scheme != "https" or parsed.hostname not in {"note.com", "www.note.com"}:
                 errors.append(f"{item.get('slug')}: published noteUrl is not a verified note.com HTTPS URL")
-            cover = root / str(item.get("coverImage") or "")
-            if not cover.is_file():
+            cover_image = str(item.get("coverImage") or "")
+            cover_url = urlparse(cover_image)
+            if cover_url.scheme in {"http", "https"}:
+                if cover_url.scheme != "https" or not cover_url.hostname:
+                    errors.append(f"{item.get('slug')}: remote cover must use an absolute HTTPS URL")
+            elif not (root / cover_image).is_file():
                 errors.append(f"{item.get('slug')}: cover image missing")
             if not str(item.get("publishedAt") or "").endswith("+09:00"):
                 errors.append(f"{item.get('slug')}: publishedAt must include +09:00")

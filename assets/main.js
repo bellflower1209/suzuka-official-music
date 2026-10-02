@@ -40,18 +40,19 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
   };
 
   let tracks = [fallbackTrack];
-  try {
-    const response = await fetch(catalogUrl, { cache: "no-cache" });
-    if (!response.ok) throw new Error(`release catalog HTTP ${response.status}`);
-    const catalog = await response.json();
-    const published = catalog.releases.filter((release) =>
+  const catalogPromise = fetch(catalogUrl, { cache: "no-cache" })
+    .then((response) => {
+      if (!response.ok) throw new Error(`release catalog HTTP ${response.status}`);
+      return response.json();
+    })
+    .then((catalog) => catalog.releases.filter((release) =>
       release.status === "published" && release.playerEnabled !== false &&
       release.youtubeId && release.youtubeUrl && release.image && release.pageUrl
-    );
-    if (published.length) tracks = published;
-  } catch (error) {
-    console.warn("SUZUKA release catalog fallback is active.", error);
-  }
+    ))
+    .catch((error) => {
+      console.warn("SUZUKA release catalog fallback is active.", error);
+      return [];
+    });
 
   const readState = () => {
     try {
@@ -152,12 +153,16 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
   const videoRegion = playerShell.querySelector(".suzuka-player-video");
   const status = playerShell.querySelector(".suzuka-player-status");
 
-  tracks.forEach((track, index) => {
-    const option = document.createElement("option");
-    option.value = String(index);
-    option.textContent = track.title;
-    select.append(option);
-  });
+  const renderTrackOptions = () => {
+    select.replaceChildren();
+    tracks.forEach((track, index) => {
+      const option = document.createElement("option");
+      option.value = String(index);
+      option.textContent = track.title;
+      select.append(option);
+    });
+  };
+  renderTrackOptions();
 
   const setPlayingState = (isPlaying) => {
     playerShell.classList.toggle("is-playing", isPlaying);
@@ -177,7 +182,7 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
     youtubeLink.href = currentTrack.youtubeUrl;
     youtubeLink.setAttribute("aria-label", `${currentTrack.title}をYouTubeで開く`);
     pageLink.href = new URL(currentTrack.pageUrl, siteRoot).href;
-    pageLink.setAttribute("aria-label", `${currentTrack.title}の公式楽曲ページを開く`);
+    pageLink.setAttribute("aria-label", `楽曲情報：${currentTrack.title}の公式ページを開く`);
     videoRegion.setAttribute("aria-label", `${currentTrack.title} 公式YouTube動画`);
     seek.max = String(Math.max(1, duration));
     seek.value = String(Math.min(pendingSeek, duration));
@@ -301,5 +306,13 @@ document.querySelectorAll(".mobile-menu a").forEach((link) => {
   window.addEventListener("pagehide", updateProgress);
 
   renderTrack();
-  loadYouTubeApi(false);
+  catalogPromise.then((published) => {
+    if (!published.length) return;
+    tracks = published;
+    trackIndex = Math.max(0, tracks.findIndex((track) => track.slug === savedState.slug));
+    currentTrack = tracks[trackIndex];
+    renderTrackOptions();
+    renderTrack();
+    updatePlayerClearance();
+  });
 })();
