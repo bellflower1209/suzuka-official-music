@@ -437,3 +437,10 @@
     grid-column: 1 / -1;
   }
 }
+
+/* Long official announcements retain the existing article and button styles. */
+.news-announcement-copy > section:first-child { min-width: 0; }
+.news-announcement-copy p { margin: 1.3rem 0; line-height: 1.9; overflow-wrap: anywhere; }
+.news-announcement-copy h2 { margin: 2.6rem 0 1.2rem; font-size: clamp(1.3rem, 3vw, 1.8rem); line-height: 1.5; }
+.news-announcement-copy h3 { margin: 1.8rem 0 .8rem; font-size: 1rem; line-height: 1.6; overflow-wrap: anywhere; }
+.news-announcement-copy .explore-actions a { min-height: 44px; max-width: 100%; white-space: normal; }

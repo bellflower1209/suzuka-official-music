@@ -7497,6 +7497,99 @@
   "upcoming": [],
   "news": [
     {
+      "slug": "youtube-channel-policy",
+      "title": "YouTubeチャンネル運用変更のお知らせ",
+      "publishedAt": "2026-10-03T00:00:00+09:00",
+      "description": "SUZUKA公式YouTubeチャンネルと、榎本魅愛・妃みちる・神代煌牙の各公式YouTubeチャンネルの今後の運用についてお知らせします。",
+      "status": "published",
+      "homeFeatured": true,
+      "siteAnnouncement": true,
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "いつもSUZUKA、そして各アーティストを応援していただきありがとうございます。"
+        },
+        {
+          "type": "paragraph",
+          "text": "SUZUKAでは、各アーティストそれぞれの音楽や世界観をより深く楽しんでいただける環境をつくるため、YouTubeチャンネルの役割を整理し、今後の発信方法を変更いたします。"
+        },
+        {
+          "type": "heading",
+          "text": "各アーティストの作品は公式チャンネルへ"
+        },
+        {
+          "type": "paragraph",
+          "text": "今後、各アーティストのMusic Video、YouTube Shorts、新曲・作品情報などのメインコンテンツは、それぞれの公式YouTubeチャンネルを中心に公開していきます。"
+        },
+        {
+          "type": "channel",
+          "text": "榎本魅愛 Official YouTube Channel",
+          "url": "https://www.youtube.com/@enomotomia"
+        },
+        {
+          "type": "channel",
+          "text": "妃みちる Official YouTube Channel",
+          "url": "https://www.youtube.com/@michirukisaki"
+        },
+        {
+          "type": "channel",
+          "text": "神代煌牙 Official YouTube Channel",
+          "url": "https://www.youtube.com/@KOGAKAMISHIRO"
+        },
+        {
+          "type": "paragraph",
+          "text": "これまでSUZUKA公式YouTubeチャンネルで公開してきた各アーティストの作品について、すぐにすべて削除するということではありません。"
+        },
+        {
+          "type": "paragraph",
+          "text": "今後公開する新しい作品から、各アーティストの公式チャンネルをメインの発信場所としていきます。"
+        },
+        {
+          "type": "heading",
+          "text": "SUZUKA公式チャンネルについて"
+        },
+        {
+          "type": "paragraph",
+          "text": "SUZUKA公式YouTubeチャンネルは、これから「SUZUKA総合公式チャンネル」として、各アーティストと作品をつなぐ場所へ。"
+        },
+        {
+          "type": "paragraph",
+          "text": "所属アーティストの最新情報、新曲・MVのお知らせ、SUZUKA独自編集によるティザー・予告映像、プロジェクト情報、SUZUKAオリジナルコンテンツなどをお届けしていきます。"
+        },
+        {
+          "type": "paragraph",
+          "text": "「アーティストの作品を深く楽しむ場所は、それぞれの公式チャンネルへ。\n新しい音楽やアーティストと出会う場所は、SUZUKAへ。」"
+        },
+        {
+          "type": "paragraph",
+          "text": "それぞれのチャンネルだからこそ楽しめるコンテンツを、これからさらに増やしていきます。"
+        },
+        {
+          "type": "paragraph",
+          "text": "これまでSUZUKAで榎本魅愛、妃みちる、神代煌牙の作品を楽しんでくださった皆さま、本当にありがとうございます。"
+        },
+        {
+          "type": "paragraph",
+          "text": "これからもSUZUKAと、それぞれのアーティストが生み出す音楽・物語を一緒に楽しんでいただけたら嬉しいです。"
+        },
+        {
+          "type": "paragraph",
+          "text": "今後ともSUZUKA、榎本魅愛、妃みちる、神代煌牙をよろしくお願いいたします。"
+        },
+        {
+          "type": "paragraph",
+          "text": "SUZUKA"
+        }
+      ],
+      "searchKeywords": [
+        "YouTube",
+        "チャンネル運用",
+        "榎本魅愛",
+        "妃みちる",
+        "神代煌牙"
+      ]
+    },
+    {
       "slug": "michiru-arinomama-photobook",
       "title": "妃みちる 1st Digital Photo Book『ありのまま。 — Just As I Am. —』公開",
       "artistSlug": "michiru",

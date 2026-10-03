@@ -384,7 +384,24 @@ def standalone_news_page(item: dict, artist: dict) -> str:
     if youtube_url:
         related_links.append(f'<a href="{html.escape(youtube_url)}" target="_blank" rel="noopener noreferrer">公式動画を見る ↗</a>')
     related_links_html = "".join(related_links)
-    description = f'{item["description"]} SUZUKAの架空のAIアーティストに関する公式情報です。'
+    body_class = " news-announcement-copy" if item.get("bodyBlocks") else ""
+    body_html = ""
+    for block in item.get("bodyBlocks", []):
+        text = html.escape(block["text"])
+        if block["type"] == "paragraph":
+            body_html += "<p>" + text.replace("\n", "<br/>") + "</p>"
+        elif block["type"] == "heading":
+            body_html += f"<h2>{text}</h2>"
+        elif block["type"] == "channel":
+            url = block["url"]
+            if not url.startswith("https://www.youtube.com/@"):
+                raise ValueError("Official channel must use a YouTube handle URL")
+            body_html += f'<h3>{text}</h3><div class="explore-actions"><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">公式YouTubeチャンネルへ ↗</a></div>'
+        else:
+            raise ValueError(f"Unsupported news block: {block['type']}")
+    description = item["description"] if item.get("siteAnnouncement") else f'{item["description"]} SUZUKAの架空のAIアーティストに関する公式情報です。'
+    artist_link = f'<a href="../../artists/{html.escape(item["artistSlug"])}/">Artist</a>' if item.get("artistSlug") else ""
+
     graph = {"@context":"https://schema.org","@graph":[
         {"@type":["NewsArticle","Article"],"@id":f"{page}#article","url":page,"headline":item["title"],
          "description":description,"datePublished":item["publishedAt"],"dateModified":item["publishedAt"],
@@ -392,15 +409,15 @@ def standalone_news_page(item: dict, artist: dict) -> str:
          "author":{"@type":"Organization","name":"SUZUKA"},
          "publisher":{"@type":"Organization","name":"SUZUKA"},
          "about":{"@type":artist["type"],"name":artist["name"],
-                  "description":"SUZUKAの作品世界に登場する架空のAIアーティストです。"}},
+                  "description":item["description"] if item.get("siteAnnouncement") else "SUZUKAの作品世界に登場する架空のAIアーティストです。"}},
         {"@type":"WebPage","@id":page,"url":page,"name":item["title"],"description":description,
          "mainEntity":{"@id":f"{page}#article"}},
         {"@type":"BreadcrumbList","itemListElement":[
             {"@type":"ListItem","position":1,"name":"Home","item":f"{BASE}/"},
             {"@type":"ListItem","position":2,"name":"News","item":f"{BASE}/news/"},
             {"@type":"ListItem","position":3,"name":item["title"],"item":page}]}]}
-    title = f'{item["title"]} | SUZUKA News'
-    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(title)}</title><meta name="description" content="{html.escape(description)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:title" content="{html.escape(title)}"/><meta property="og:description" content="{html.escape(description)}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{public_image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{html.escape(title)}"/><meta name="twitter:description" content="{html.escape(description)}"/><meta name="twitter:image" content="{public_image}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header("../../")}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL NEWS · {item["publishedAt"][:10]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストに関する公式情報です。</p></header><div class="news-article-body"><section><img src="{html.escape(local_image)}" alt="{html.escape(item["title"])} 公式ビジュアル" width="1280" height="720" loading="lazy"/></section><section class="social-context-section" aria-label="関連リンク"><h2>関連情報</h2><div class="explore-actions">{related_links_html}<a href="../../artists/{html.escape(item["artistSlug"])}/">Artist</a><a href="../">News一覧</a><a href="../../social/">公式SNS・リンク</a></div></section></div></article>{footer("../../")}</main><script defer src="../../assets/main.js"></script></body></html>\n'
+    title = f'{item["title"]} | SUZUKA' if item.get("siteAnnouncement") else f'{item["title"]} | SUZUKA News'
+    return f'<!doctype html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{html.escape(title)}</title><meta name="description" content="{html.escape(description)}"/><meta name="robots" content="index, follow"/><link rel="canonical" href="{page}"/><meta property="og:type" content="article"/><meta property="og:site_name" content="SUZUKA"/><meta property="og:title" content="{html.escape(title)}"/><meta property="og:description" content="{html.escape(description)}"/><meta property="og:url" content="{page}"/><meta property="og:image" content="{public_image}"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{html.escape(title)}"/><meta name="twitter:description" content="{html.escape(description)}"/><meta name="twitter:image" content="{public_image}"/><link rel="stylesheet" href="../../assets/styles.css"/><link rel="stylesheet" href="../../assets/news-feature.css"/><link rel="stylesheet" href="../../assets/explore.css"/><link rel="stylesheet" href="../../assets/player.css"/><link rel="stylesheet" href="../../assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>{header("../../")}<article class="news-article"><header class="news-article-hero"><p>OFFICIAL NEWS · {item["publishedAt"][:10]}</p><h1>{html.escape(item["title"])}</h1><p>{html.escape(item["description"])}</p><p class="ai-news-disclosure">SUZUKAのオリジナルAIアーティストに関する公式情報です。</p></header><div class="news-article-body{body_class}"><section><img src="{html.escape(local_image)}" alt="{html.escape(item["title"])} 公式ビジュアル" width="1280" height="720" loading="lazy"/>{body_html}</section><section class="social-context-section" aria-label="関連リンク"><h2>関連情報</h2><div class="explore-actions">{related_links_html}{artist_link}<a href="../">News一覧</a><a href="../../social/">公式SNS・リンク</a></div></section></div></article>{footer("../../")}</main><script defer src="../../assets/main.js"></script></body></html>\n'
 
 
 def upsert_card(path: Path, item: dict, p: str, href: str | None = None) -> None:
@@ -1015,6 +1032,8 @@ def main() -> None:
         if item.get("status") != "published" or (item.get("releaseSlug") and not item.get("streamingAnnouncement") and not item.get("karaokeAnnouncement")):
             continue
         artist = artist_map.get(item.get("artistSlug"))
+        if item.get("siteAnnouncement"):
+            artist = {"type": "Organization", "name": "SUZUKA"}
         if artist:
             if item.get("karaokeAnnouncement"):
                 from build_karaoke import build_news

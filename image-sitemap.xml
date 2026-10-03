@@ -2165,6 +2165,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/suzuka-channel.jpg</image:loc>
+      <image:title>YouTubeチャンネル運用変更のお知らせの公式News画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
       <image:title>榎本魅愛「君とならラスボスまで」配信開始の公式News画像</image:title>
     </image:image>
@@ -2660,6 +2664,13 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/youtube-channel-policy/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/suzuka-channel.jpg</image:loc>
+      <image:title>YouTubeチャンネル運用変更のお知らせ 公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
