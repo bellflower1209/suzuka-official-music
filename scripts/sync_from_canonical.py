@@ -669,7 +669,7 @@ def sanitize_html(html: str, output_path: Path, route: str) -> str:
         f'<link rel="stylesheet" href="{prefix}assets/styles.css"/>'
         f'<link rel="stylesheet" href="{prefix}assets/engagement.css"/>'
         f"{page_styles}"
-        f'<link rel="stylesheet" href="{prefix}assets/player.css"/>'
+        f''
     )
     html = html.replace("</head>", f"{styles}</head>", 1)
     html = html.replace("</body>", f'<script defer src="{prefix}assets/main.js"></script></body>', 1)
@@ -730,12 +730,11 @@ def main() -> None:
     )
     write_bytes(output / "robots.txt", robots.encode("utf-8"))
 
-    source_player = output / "assets/player.css"
     source_engagement = output / "assets/engagement.css"
     source_toriatsukai = output / "assets/toriatsukai-chui.css"
     source_script = output / "assets/main.js"
-    if not source_player.exists() or not source_engagement.exists() or not source_toriatsukai.exists() or not source_script.exists():
-        raise RuntimeError("Existing engagement and fixed-player assets are required before syncing.")
+    if not source_engagement.exists() or not source_toriatsukai.exists() or not source_script.exists():
+        raise RuntimeError("Existing engagement assets are required before syncing.")
 
     shutil.copyfile(output / "images/suzuka-channel.jpg", output / "suzuka-channel.jpg")
     # Legacy dated updaters are intentionally not replayed here. The public

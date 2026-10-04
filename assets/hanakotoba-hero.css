@@ -230,13 +230,6 @@
   background: #6b9bc4;
 }
 
-@media (min-width: 901px) {
-  .hanakotoba-home .suzuka-music-player {
-    right: auto;
-    left: max(18px, env(safe-area-inset-left));
-  }
-}
-
 @media (max-width: 900px) {
   .latest-release-hero.hanakotoba-hero {
     grid-template-columns: 1fr;

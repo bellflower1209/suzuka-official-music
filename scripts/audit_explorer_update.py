@@ -241,7 +241,7 @@ def main() -> int:
                 errors.append(f"{relative}: gallery image must use lazy loading")
         source = path.read_text(encoding="utf-8")
         if "assets/main.js" not in source:
-            errors.append(f"{relative}: fixed player loader missing")
+            errors.append(f"{relative}: shared navigation loader missing")
         if re.search(r"(?:autoplay=1|autoplay:\s*1)", source):
             errors.append(f"{relative}: autoplay enabled")
 

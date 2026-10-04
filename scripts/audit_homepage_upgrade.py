@@ -25,7 +25,8 @@ def main():
     home=(ROOT/'index.html').read_text()
     for slug in cms['homepage']['featuredArtists']:
         artist=next(a for a in cms['artists'] if a['slug']==slug)
-        assert artist['officialYoutubeUrl'] in home
+        assert './artists/'+slug+'/' in home
+        if artist.get('officialYoutubeUrl'): assert artist['officialYoutubeUrl'] in home
     for identifier in ['official-artist-channels','now-streaming','mia-meets','latest-releases','featured-artists','latest-mv','follow-suzuka']:
         assert home.count('id="'+identifier+'"')==1
     assert home.count('aria-labelledby="special-feature-title"')==1

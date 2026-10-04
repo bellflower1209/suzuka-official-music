@@ -806,10 +806,10 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         if fixed_count_pattern.search(path.read_text(encoding="utf-8")):
             errors.append(f"{path.relative_to(ROOT)}: obsolete fixed 10-song wording remains")
 
-    player_js = (ROOT / "assets/main.js").read_text(encoding="utf-8")
-    for required in ("enomoto-mia-releases.json", 'release.status === "published"', "suzuka-player-track-select"):
-        if required not in player_js:
-            errors.append(f"assets/main.js: catalog-driven player is missing {required}")
+    main_js = (ROOT / "assets/main.js").read_text(encoding="utf-8")
+    for forbidden in ("YT.Player", "playVideo(", "new Audio(", "suzuka-music-player"):
+        if forbidden in main_js:
+            errors.append(f"assets/main.js: removed playback code remains: {forbidden}")
 
     graph: dict[str, set[str]] = {url: set() for url in expected_urls}
     for page_url, parser in parsed_pages.items():

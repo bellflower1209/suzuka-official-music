@@ -32,10 +32,8 @@ def main() -> int:
             errors.append(f'analytics missing {event}')
     if 'autoplay=1' in home or re.search(r'autoplay\s*:\s*1', home):
         errors.append('home enables autoplay')
-    player = json.loads((root / 'assets/data/enomoto-mia-releases.json').read_text(encoding='utf-8'))
-    tracks = [item for item in player['releases'] if item.get('status') == 'published' and all(item.get(key) for key in ('youtubeId', 'image', 'pageUrl')) and item.get('playerEnabled', True)]
-    if len(tracks) != 14:
-        errors.append(f'fixed player must remain 14 tracks, found {len(tracks)}')
+    if 'YT.Player' in (root / 'assets/main.js').read_text():
+        errors.append('removed fixed player remains')
     release_artist_slugs = {
         slug
         for release in catalog.get('releases', [])
@@ -53,7 +51,7 @@ def main() -> int:
     if errors:
         print("V3.1 audit failed:\n- " + "\n- ".join(errors), file=sys.stderr)
         return 1
-    print("V3.1 audit passed: canonical latest Hero, latest/next release, four ranking surfaces, GA4 events and fixed player invariants.")
+    print("V3.1 audit passed: canonical latest Hero, latest/next release, four ranking surfaces, GA4 events and no onsite playback.")
     return 0
 
 if __name__ == "__main__": raise SystemExit(main())

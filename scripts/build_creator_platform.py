@@ -348,7 +348,7 @@ def english_pages(root: Path, cms: dict, releases: list[dict]) -> None:
 <meta name="twitter:description" content="{html.escape(description)}"/><meta name="twitter:image" content="{BASE}/images/suzuka-channel.jpg"/>
 <link rel="stylesheet" href="{p}assets/styles.css"/><link rel="stylesheet" href="{p}assets/explore.css"/>
 <link rel="stylesheet" href="{p}assets/explorer-update.css"/><link rel="stylesheet" href="{p}assets/creator-platform.css"/>
-<link rel="stylesheet" href="{p}assets/player.css"/><link rel="stylesheet" href="{p}assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>
+<link rel="stylesheet" href="{p}assets/ai-disclosure.css"/><script type="application/ld+json">{dump(graph)}</script></head><body><main>
 <header class="site-header inner-site-header"><a class="brand" href="../">SUZUKA<span class="brand-dot">●</span></a>
 <nav class="desktop-nav"><a href="{p}en/">Home</a><a href="{p}en/artists/">Artists</a><a href="{p}en/releases/">Releases</a>
 <a href="{p}en/search/">Search</a><a href="{p}en/genres/">Genres</a><a href="{p}en/discography/">Discography</a>

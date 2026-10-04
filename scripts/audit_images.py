@@ -37,6 +37,11 @@ def main()->int:
         if not path.is_file(): continue
         if path.stat().st_size>5*1024*1024: errors.append(f"{path.relative_to(root)}: image exceeds 5 MiB")
         try:
+            if path.suffix.lower() == ".svg":
+                vector = ET.parse(path).getroot()
+                if not vector.tag.endswith("svg") or not vector.get("viewBox"):
+                    errors.append(f"{path.relative_to(root)}: invalid SVG")
+                continue
             with Image.open(path) as image:
                 if image.width<1 or image.height<1: errors.append(f"{path.relative_to(root)}: invalid dimensions")
         except Exception as error: errors.append(f"{path.relative_to(root)}: unreadable image: {error}")

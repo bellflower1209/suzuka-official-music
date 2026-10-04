@@ -104,7 +104,7 @@ def normalize_image_markup(root: Path) -> None:
                     local = local_path_from_public_url(root, parsed.path)
                 elif not parsed.scheme and not parsed.netloc:
                     local = (path.parent / parsed.path).resolve()
-                if local and local.is_file():
+                if local and local.is_file() and local.suffix.lower() != ".svg":
                     with PillowImage.open(local) as image:
                         width, height = image.size
             dimensions = f' width="{width}" height="{height}"'
@@ -195,7 +195,7 @@ def build_image_sitemap(root: Path) -> int:
             if parsed.netloc != urlparse(BASE).netloc:
                 continue
             local = local_path_from_public_url(root, parsed.path)
-            if local and local.is_file():
+            if local and local.is_file() and local.suffix.lower() != ".svg":
                 local_images.append((absolute, alt))
         unique = list(dict.fromkeys(local_images))
         if not unique:

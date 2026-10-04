@@ -249,7 +249,7 @@ def shell(
         f'<link rel="stylesheet" href="{p}assets/explore.css"/>'
         f'<link rel="stylesheet" href="{p}assets/explorer-update.css"/>'
         f'<link rel="stylesheet" href="{p}assets/creator-platform.css"/>'
-        f'<link rel="stylesheet" href="{p}assets/player.css"/>'
+        f''
         f'<link rel="stylesheet" href="{p}assets/ai-disclosure.css"/>'
         f'<script type="application/ld+json">{dump(graph)}</script></head><body><main>'
         f'<a class="skip-link" href="#content">本文へ移動</a>{header(p)}'

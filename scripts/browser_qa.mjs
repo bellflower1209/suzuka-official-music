@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* Browser-level responsive, console, network and fixed-player smoke test. */
+/* Browser-level responsive, console, network and no-playback smoke test. */
 
 import fs from "node:fs";
 
@@ -9,7 +9,6 @@ const settleMs = Number(process.env.QA_SETTLE_MS || "100");
 const releaseCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/enomoto-mia-releases.json", import.meta.url), "utf8"));
 const explorerCatalog = JSON.parse(fs.readFileSync(new URL("../assets/data/releases-catalog.json", import.meta.url), "utf8"));
 const creatorCms = JSON.parse(fs.readFileSync(new URL("../assets/data/creator-cms.json", import.meta.url), "utf8"));
-const expectedTrackCount = releaseCatalog.releases.filter(item => item.status === "published" && item.playerEnabled !== false).length;
 const lyricsPages = creatorCms.releases
   .filter(item => item.status === "published" && item.lyricsAvailable && item.lyricsVerified === true)
   .map(item => `lyrics/${item.slug}/`);
@@ -99,7 +98,7 @@ function send(method, params={}) {
 async function waitForPageReady(expectedUrl) {
   for (let attempt = 0; attempt < 60; attempt += 1) {
     const ready = await send("Runtime.evaluate", {
-      expression: `location.href === ${JSON.stringify(expectedUrl)} && document.readyState === 'complete' && !!document.querySelector('.suzuka-music-player')`,
+      expression: `location.href === ${JSON.stringify(expectedUrl)} && document.readyState === 'complete'`,
       returnByValue: true,
     });
     if (ready.result.value) {
@@ -134,7 +133,7 @@ if (!quickEventsOnly) for (const size of sizes) {
       const name = route === "" ? "home" : route === "releases/" ? "releases" : route === "news/" ? "news" : route.split("/").filter(Boolean).at(-1);
       fs.writeFileSync(`${screenshotDir}/${name}-${size.width}.png`, Buffer.from(shot.data, "base64"));
     }
-    if (value.overflow || !value.player || value.playerPosition !== "fixed" || value.playerOverlapsHeroCta || value.trackCount !== expectedTrackCount || value.iframeCount !== 0 || !value.pageLink || value.h1 !== 1 || !value.lyricsReadable || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || (value.adminPage ? value.gaTagCount !== 0 || value.analyticsScriptCount !== 0 : value.gaTagCount !== 1 || value.analyticsScriptCount !== 1) || problems.length > before) {
+    if (value.overflow || value.player || value.trackCount !== 0 || value.iframeCount !== 0 || value.h1 !== 1 || !value.lyricsReadable || (!value.creatorStandalone && value.socialHubLinks < 1) || (value.needsContext && !value.socialContext) || (value.adminPage ? value.gaTagCount !== 0 || value.analyticsScriptCount !== 0 : value.gaTagCount !== 1 || value.analyticsScriptCount !== 1) || problems.length > before) {
       results.push({route:route||"/", width:size.width, ...value, errors:problems.slice(before)});
     }
   }
@@ -146,7 +145,7 @@ if (process.env.QA_SKIP_POST === "1") {
     console.error(JSON.stringify(results, null, 2));
     process.exit(1);
   }
-  console.log(`Browser QA batch passed: ${qaPages.length} pages from offset ${pageOffset}; no overflow, console/network errors, or player regressions.`);
+  console.log(`Browser QA batch passed: ${qaPages.length} pages from offset ${pageOffset}; no overflow, console/network errors, or onsite playback.`);
   process.exit(0);
 }
 
@@ -154,15 +153,6 @@ await send("Emulation.setDeviceMetricsOverride", {width:390,height:844,deviceSca
 const releasesUrl = new URL("releases/", base).href;
 await send("Page.navigate", {url:releasesUrl});
 await waitForPageReady(releasesUrl);
-const selection = await send("Runtime.evaluate", {expression:`(() => { const select=document.querySelector('.suzuka-player-track-select'); select.value='1'; select.dispatchEvent(new Event('change',{bubbles:true})); return document.querySelector('.suzuka-player-details strong').textContent; })()`, returnByValue:true});
-const newsUrl = new URL("news/", base).href;
-await send("Page.navigate", {url:newsUrl});
-await waitForPageReady(newsUrl);
-const persisted = await send("Runtime.evaluate", {expression:`(() => { const player=document.querySelector('.suzuka-music-player'); player.classList.add('is-expanded'); const title=player.querySelector('.suzuka-player-details strong').textContent; return {title, selected:player.querySelector('.suzuka-player-track-select').value, overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1, autoplayIframe:player.querySelectorAll('iframe').length}; })()`, returnByValue:true});
-if (persisted.result.value.title !== selection.result.value || persisted.result.value.selected !== "1" || persisted.result.value.overflow || persisted.result.value.autoplayIframe !== 0) {
-  results.push({route:"news/", width:390, persistenceTest:persisted.result.value, expectedTitle:selection.result.value});
-}
-
 const miaUrl = new URL("releases/mia/", base).href;
 await send("Page.navigate", {url:miaUrl});
 await waitForPageReady(miaUrl);
@@ -244,5 +234,5 @@ if (results.length) {
   process.exit(1);
 }
 console.log(quickEventsOnly
-  ? "Browser analytics QA passed: player persistence, sharing, search privacy and 15 event types."
-  : `Browser QA passed: ${qaPages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or player regressions.`);
+  ? "Browser analytics QA passed: no onsite playback, sharing, search privacy and 15 event types."
+  : `Browser QA passed: ${qaPages.length} pages at 390px and key templates at 768px/1280px; no overflow, console/network errors, or onsite playback.`);

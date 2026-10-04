@@ -583,12 +583,6 @@ button:disabled,
   line-height: 1.85;
 }
 
-.suzuka-music-player {
-  color: var(--suzuka-text);
-  border-color: var(--suzuka-border-strong);
-  background: rgba(5, 10, 19, .97);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, .42);
-}
 
 .site-footer {
   color: var(--suzuka-text);
@@ -600,14 +594,13 @@ button:disabled,
 .site-footer span,
 .ai-footer-disclosure { color: var(--suzuka-text-secondary); }
 
-/* Keep frequently read release notes and fixed-player controls at a usable minimum. */
+/* Keep frequently read release notes at a usable minimum. */
 .release-info p,
 .ai-project-note,
 .ai-news-disclosure,
 .ai-work-disclosure,
 .ai-footer-disclosure,
-.hanakotoba-project,
-.suzuka-music-player :where(span, small, a, button, select, label) {
+.hanakotoba-project {
   font-size: .75rem;
 }
 

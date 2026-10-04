@@ -71,7 +71,7 @@ def build(root: Path) -> None:
         if url:actions+=link(url,'YOUTUBE ↗')
         image=visual(root,a.get('image',''),a['name']+' 公式Artist画像')
         featured.append(f'<article class="upgrade-card">{image}<div><h3>{E(a["name"])}</h3><div class="explore-actions">{actions}</div></div></article>')
-        channels.append(f'<article class="upgrade-card">{image}<div><p>{E(config["artistLabels"].get(slug,a.get("reading") or a["name"]))}</p><h3>{E(a["name"])}</h3><p>Music Video / Shorts / 楽曲・作品コンテンツ</p><div class="explore-actions">'+(link(url,'公式チャンネル ↗') if url else '<p>公式チャンネル情報は確認中です。</p>')+'</div></div></article>')
+        if url: channels.append(f'<article class="upgrade-card">{image}<div><p>{E(config["artistLabels"].get(slug,a.get("reading") or a["name"]))}</p><h3>{E(a["name"])}</h3><p>Music Video / Shorts / 楽曲・作品コンテンツ</p><div class="explore-actions">'+(link(url,'公式チャンネル ↗') if url else '<p>公式チャンネル情報は確認中です。</p>')+'</div></div></article>')
     channels.append('<article class="upgrade-card upgrade-label"><div><p>LABEL / PROJECT OFFICIAL</p><h3>SUZUKA</h3><p>総合公式 / レーベル・プロジェクト情報 / ティザー・予告</p><div class="explore-actions">'+link(cms['site']['youtubeUrl'],'SUZUKA YouTube ↗')+'</div></div></article>')
     streams=sorted([r for r in releases if streaming(r)],key=lambda r:(streaming(r)['releaseDate'],r['slug']),reverse=True)
     channel_html=section('official-artist-channels','OFFICIAL ARTIST CHANNELS','<div class="upgrade-grid upgrade-channels">'+''.join(channels)+'</div>')

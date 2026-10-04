@@ -214,7 +214,7 @@
       "name": "妃みちる",
       "reading": "妃みちる",
       "type": "Person",
-      "image": "https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg",
+      "image": "images/michiru-official-channel-note.jpg",
       "world": "過去の大切な人への感謝と、今の幸せを見つめる物語。",
       "music": "最新曲「世代を超えてママへ」をはじめ、人生、家族、恋や友情の物語を届ける。",
       "profile": "9月8日生まれ、30歳のSUZUKAソロAIアーティスト。",
@@ -243,10 +243,10 @@
         "friendlikesong"
       ],
       "officialSource": "https://www.youtube.com/watch?v=CPIDy31wnc4",
-      "imageAlt": "妃みちる「世代を超えてママへ」公式YouTubeビジュアル",
+      "imageAlt": "妃みちる 公式プロフィールビジュアル",
       "imageWidth": 1280,
-      "imageHeight": 720,
-      "imageSource": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+      "imageHeight": 670,
+      "imageSource": "既存公式素材 images/michiru-official-channel-note.jpg（公式チャンネルNEWS掲載画像）",
       "officialNoteUrl": "https://note.com/1209bellflower/n/nce756dc6090e",
       "officialYoutubeUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
       "officialYoutubeChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
@@ -429,6 +429,40 @@
         "gekka-no-chigiri"
       ],
       "officialSource": "https://www.youtube.com/watch?v=Slv8e81DJ84"
+    },
+    {
+      "slug": "tetsuhige",
+      "name": "鉄髭 - TETSUHIGE -",
+      "reading": "TETSUHIGE",
+      "type": "MusicGroup",
+      "artistType": "MusicGroup",
+      "status": "published",
+      "artistStatus": "published",
+      "image": "",
+      "world": "ファンタジー世界のドワーフをモチーフに、日本の職人、鉄、鍛冶、酒、義理、人情を感じさせる世界観。",
+      "music": "音楽性・楽曲情報は確認後に掲載します。",
+      "profile": "源治と虎徹による、日本人ドワーフ族の中年男性2人組ユニット。",
+      "members": [
+        {
+          "name": "源治"
+        },
+        {
+          "name": "虎徹"
+        }
+      ],
+      "searchKeywords": [
+        "鉄髭",
+        "TETSUHIGE",
+        "源治",
+        "虎徹",
+        "ドワーフ"
+      ],
+      "artistFeaturedTracks": [],
+      "seo": {
+        "title": "鉄髭 - TETSUHIGE -｜SUZUKA Official",
+        "description": "源治と虎徹による、日本人ドワーフ族の中年男性2人組ユニット。",
+        "jsonLdEnabled": true
+      }
     }
   ],
   "releases": [
@@ -9624,7 +9658,8 @@
     "featuredArtists": [
       "enomoto-mia",
       "michiru",
-      "koga-kamishiro"
+      "koga-kamishiro",
+      "tetsuhige"
     ],
     "streamingLimit": 24,
     "latestReleaseLimit": 6,
