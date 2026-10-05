@@ -773,11 +773,12 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             '<section class="v11-artist-discovery"><p class="section-kicker">SUZUKAおすすめ</p>'
             '<h2>公開作品は準備中です。</h2><p>確認済みの公開作品が登録されるまで、推測の代表曲は表示しません。</p></section>'
         )
+        works_anchor = ' id="artist-music"' if slug == "enomoto-mia" else ""
         works_section = (
-            f'<section><h2>公開作品一覧</h2><div class="explorer-card-grid">'
+            f'<section{works_anchor}><h2>公開作品一覧</h2><div class="explorer-card-grid">'
             f'{"".join(card(item, "../../") for item in works)}</div></section>'
             if works else
-            '<section><h2>公開作品一覧</h2><p class="v31-empty">現在、公開済み作品はありません。</p></section>'
+            f'<section{works_anchor}><h2>公開作品一覧</h2><p class="v31-empty">現在、公開済み作品はありません。</p></section>'
         )
         latest_media_link = (
             f'<a class="creator-link-card" href="{html.escape(latest["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">Official MV</a>'

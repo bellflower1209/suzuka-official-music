@@ -86,7 +86,7 @@ def build(root: Path) -> None:
             episodes.append(f'<h2>{E(series["name"])} #{int(episode["number"]):02d}</h2>'+work_card(root,release,prefix='../../'))
         body='<section class="upgrade-section"><p>'+E(series['tagline'])+'</p><p>'+E(series['description'])+'</p>'+link('../../artists/'+artist['slug']+'/',artist['name']+' PROFILE')+''.join(episodes)+'</section>'
         page=shell('features/'+slug+'/',series['name']+'｜'+artist['name']+'｜SUZUKA',series['description'],series['name'],body,[{'@type':'ItemList','numberOfItems':len(episodes),'itemListElement':[{'@type':'ListItem','position':i+1,'name':ep['name'] if 'name' in ep else series['name']+' #'+str(ep['number']),'url':cms['site']['baseUrl']+'/'+next(r['releaseUrl'] for r in releases if r['slug']==ep['releaseSlug'])} for i,ep in enumerate(series['episodes']) if ep.get('status')=='published' and ep.get('verifiedAt')]}],page_type='CollectionPage')
-        page=page.replace('</head>','<link rel="stylesheet" href="../../assets/homepage-upgrade.css"/></head>')
+        page=page.replace('</head>','<link rel="stylesheet" href="../../assets/homepage-upgrade.css"/><link rel="stylesheet" href="../../assets/creator-v31.css"/></head>')
         brand=json.loads((root/'assets/data/brand.json').read_text())
         page=standardize_channel_links(page,youtube_channel_url(brand))
         page=normalize_graph(page,cms['site']['baseUrl']+'/features/'+slug+'/',Path('features')/slug/'index.html',brand,{r['slug']:r for r in releases},artists)
