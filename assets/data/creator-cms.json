@@ -463,6 +463,41 @@
         "description": "源治と虎徹による、日本人ドワーフ族の中年男性2人組ユニット。",
         "jsonLdEnabled": true
       }
+    },
+    {
+      "slug": "leon-vail",
+      "name": "LEON VAIL",
+      "reading": "レオン・ヴェイル",
+      "englishName": "LEON VAIL",
+      "nameJapanese": "レオン・ヴェイル",
+      "realName": "Leon Alexander Vale",
+      "realNameJapanese": "レオン・アレクサンダー・ヴェイル",
+      "age": 23,
+      "hometown": "London, United Kingdom",
+      "height": "183cm",
+      "role": "ボーカリスト／ソロアーティスト",
+      "type": "Person",
+      "artistType": "Person",
+      "status": "published",
+      "artistStatus": "published",
+      "image": "",
+      "world": "美しく、危うくて、どこまでもロック。",
+      "music": "Hard Rock / Alternative Rock / Rock Ballad",
+      "profile": "美しく、危うくて、どこまでもロック。\n静寂の中に強さを秘めた声で世界を震わせる。",
+      "artistStatementJapanese": "美しく、危うくて、どこまでもロック。\n静寂の中に強さを秘めた声で世界を震わせる。",
+      "artistFeaturedTracks": [],
+      "searchKeywords": [
+        "LEON VAIL",
+        "レオン・ヴェイル",
+        "Leon Alexander Vale",
+        "レオン・アレクサンダー・ヴェイル"
+      ],
+      "visualIdentitySource": "assets/data/artist-identities/leon-vail.json",
+      "seo": {
+        "title": "LEON VAIL｜SUZUKA Official AI Artist",
+        "description": "美しく、危うくて、どこまでもロック。 静寂の中に強さを秘めた声で世界を震わせる。",
+        "jsonLdEnabled": true
+      }
     }
   ],
   "releases": [
@@ -9659,7 +9694,8 @@
       "enomoto-mia",
       "michiru",
       "koga-kamishiro",
-      "tetsuhige"
+      "tetsuhige",
+      "leon-vail"
     ],
     "streamingLimit": 24,
     "latestReleaseLimit": 6,

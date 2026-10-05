@@ -1,0 +1,80 @@
+{
+  "artistSlug": "leon-vail",
+  "referenceName": "LEON VAIL Official Visual Reference Ver.1",
+  "source": "user-provided-instructions-2026-10-05",
+  "referenceStatus": "awaiting-formal-reference-image",
+  "referenceImage": null,
+  "referenceImageSha256": null,
+  "principle": "The reference image defines LEON VAIL's identity, not merely his style.",
+  "identity": [
+    "23-year-old white male",
+    "183cm",
+    "tall and extremely slim",
+    "sharp model-like body proportions",
+    "blue-gray eyes",
+    "ash-blonde medium-short hair",
+    "natural layers",
+    "fringe naturally falling toward the forehead or lightly swept sideways"
+  ],
+  "body": {
+    "maintain": [
+      "slim arms",
+      "slim waist",
+      "long limbs",
+      "narrow/sharp silhouette"
+    ],
+    "prohibited": [
+      "muscular build",
+      "bodybuilder physique",
+      "excessively broad shoulders"
+    ]
+  },
+  "hair": {
+    "maintain": [
+      "ash blonde",
+      "medium-short",
+      "natural layered style"
+    ],
+    "prohibited": [
+      "extreme messy hair",
+      "long hair",
+      "excessively short haircut",
+      "different hair color"
+    ]
+  },
+  "fashion": {
+    "style": "Hard Rock / Alternative Rock",
+    "items": [
+      "black leather",
+      "slim black denim",
+      "boots",
+      "silver accessories"
+    ]
+  },
+  "identityLock": {
+    "maintain": [
+      "face shape",
+      "jawline",
+      "cheekbones",
+      "eye shape",
+      "eye spacing",
+      "eyebrows",
+      "nose",
+      "lips",
+      "skin tone",
+      "apparent age",
+      "hair",
+      "eye color",
+      "body proportions"
+    ],
+    "prohibited": [
+      "different-person drift",
+      "face reinterpretation",
+      "excessive muscularization",
+      "aging",
+      "de-aging",
+      "hair-color change",
+      "face-shape change"
+    ]
+  }
+}
