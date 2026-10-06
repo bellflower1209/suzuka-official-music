@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -110,6 +111,10 @@ def main() -> int:
         stage = Path(tmp) / "site"
         copy_source(root, stage)
         run_generator(stage)
+        # Numbered duplicate files are outside canonical generation and must stay intact.
+        for original in root.rglob("*"):
+            if original.is_file() and re.search(r" \d+\.(?:html|json|xml)$", original.name):
+                shutil.copy2(original, stage / original.relative_to(root))
         changed, deleted, digest = compare(root, stage)
         result = {
             "status": "dry-run" if args.dry_run else "applied",

@@ -1,14 +1,43 @@
 {
   "updatedAt": "2026-10-02T14:10:36+09:00",
   "recommendations": {
-    "without-worrying-reimagined": {
+    "break-the-veil": {
+      "sameArtist": [],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru",
+        "without-worrying-reimagined"
+      ],
+      "aiRecommended": [
+        "amaterasu",
+        "anata-wo-omou-sore-dake-de",
+        "uchira-saikyo-jane",
+        "ashita-yaru",
+        "mada-tetsu-wa-atsui",
+        "renkinku"
+      ]
+    },
+    "amaterasu": {
       "sameArtist": [
+        "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
         "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -21,30 +50,200 @@
         "iine-sougisha"
       ],
       "recent": [
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru",
+        "without-worrying-reimagined"
       ],
       "aiRecommended": [
         "renkinku",
+        "without-worrying-reimagined",
+        "hello-hello-halloween",
+        "yume-to-kaigo-to-watashitachi",
+        "eternity-of-flower-words",
+        "renai-taishogai-kari"
+      ]
+    },
+    "uchira-saikyo-jane": {
+      "sameArtist": [
+        "anata-wo-omou-sore-dake-de",
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru",
+        "without-worrying-reimagined"
+      ],
+      "aiRecommended": [
+        "anata-wo-omou-sore-dake-de",
+        "kokoro-ni-nokoru-takaramono",
+        "sedai-wo-koete-mama-e",
+        "hello-life",
+        "updown",
+        "friendlikesong"
+      ]
+    },
+    "anata-wo-omou-sore-dake-de": {
+      "sameArtist": [
+        "uchira-saikyo-jane",
+        "kokoro-ni-nokoru-takaramono",
+        "hello-life",
+        "sedai-wo-koete-mama-e",
+        "updown",
+        "friendlikesong"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru",
+        "without-worrying-reimagined"
+      ],
+      "aiRecommended": [
+        "uchira-saikyo-jane",
+        "kokoro-ni-nokoru-takaramono",
+        "sedai-wo-koete-mama-e",
+        "hello-life",
+        "updown",
+        "friendlikesong"
+      ]
+    },
+    "ashita-yaru": {
+      "sameArtist": [
+        "mada-tetsu-wa-atsui"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "without-worrying-reimagined"
+      ],
+      "aiRecommended": [
+        "mada-tetsu-wa-atsui",
+        "amaterasu",
+        "anata-wo-omou-sore-dake-de",
+        "break-the-veil",
+        "uchira-saikyo-jane",
+        "renkinku"
+      ]
+    },
+    "mada-tetsu-wa-atsui": {
+      "sameArtist": [
+        "ashita-yaru"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "ashita-yaru",
+        "without-worrying-reimagined"
+      ],
+      "aiRecommended": [
+        "ashita-yaru",
+        "amaterasu",
+        "anata-wo-omou-sore-dake-de",
+        "break-the-veil",
+        "uchira-saikyo-jane",
+        "renkinku"
+      ]
+    },
+    "without-worrying-reimagined": {
+      "sameArtist": [
+        "amaterasu",
+        "renkinku",
+        "renai-taishogai-kari",
+        "eternity-of-flower-words",
+        "mata-kimi-ni-koi-wo-suru",
+        "koisuru-subete-no-shunkan"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
+      ],
+      "aiRecommended": [
+        "renkinku",
+        "amaterasu",
         "eternity-of-flower-words",
         "renai-taishogai-kari",
         "hello-hello-halloween",
-        "koisuru-subete-no-shunkan",
-        "mata-kimi-ni-koi-wo-suru"
+        "koisuru-subete-no-shunkan"
       ]
     },
     "renkinku": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
         "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -57,30 +256,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "without-worrying-reimagined",
+        "amaterasu",
         "eternity-of-flower-words",
         "renai-taishogai-kari",
         "hello-hello-halloween",
-        "koisuru-subete-no-shunkan",
-        "mata-kimi-ni-koi-wo-suru"
+        "koisuru-subete-no-shunkan"
       ]
     },
     "kokoro-ni-nokoru-takaramono": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "hello-life",
         "sedai-wo-koete-mama-e",
         "updown",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -93,30 +292,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "hello-life",
+        "anata-wo-omou-sore-dake-de",
+        "uchira-saikyo-jane",
         "sedai-wo-koete-mama-e",
         "updown",
-        "friendlikesong",
-        "tatta-hitori-no-kimi-e",
-        "watashi-no-eranda-michi"
+        "friendlikesong"
       ]
     },
     "renai-taishogai-kari": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "eternity-of-flower-words",
         "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -129,12 +328,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "eternity-of-flower-words",
@@ -165,12 +364,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -183,12 +382,12 @@
     },
     "eternity-of-flower-words": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -201,12 +400,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "hello-life"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "renai-taishogai-kari",
@@ -219,12 +418,12 @@
     },
     "hello-life": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "sedai-wo-koete-mama-e",
         "updown",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -237,30 +436,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "kokoro-ni-nokoru-takaramono",
         "sedai-wo-koete-mama-e",
+        "anata-wo-omou-sore-dake-de",
+        "uchira-saikyo-jane",
         "updown",
-        "friendlikesong",
-        "tatta-hitori-no-kimi-e",
-        "watashi-no-eranda-michi"
+        "friendlikesong"
       ]
     },
     "mata-kimi-ni-koi-wo-suru": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "koisuru-subete-no-shunkan"
       ],
       "sameGenre": [
         "koisuru-subete-no-shunkan",
@@ -287,12 +486,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "koisuru-subete-no-shunkan",
@@ -305,12 +504,12 @@
     },
     "koisuru-subete-no-shunkan": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "september-blue"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "mata-kimi-ni-koi-wo-suru",
@@ -337,12 +536,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "mata-kimi-ni-koi-wo-suru",
@@ -355,12 +554,12 @@
     },
     "september-blue": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -373,12 +572,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "over-drive",
@@ -391,12 +590,12 @@
     },
     "over-drive": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -409,12 +608,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "september-blue",
@@ -440,12 +639,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "gekka-no-chigiri",
@@ -473,12 +672,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -507,12 +706,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -525,12 +724,12 @@
     },
     "hello-hello-halloween": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -543,12 +742,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -577,12 +776,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -609,12 +808,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -645,12 +844,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -663,12 +862,12 @@
     },
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "hello-life",
         "updown",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -693,12 +892,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -711,12 +910,12 @@
     },
     "yume-to-kaigo-to-watashitachi": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "kimi-wa-makenai",
@@ -743,12 +942,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -785,12 +984,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -828,12 +1027,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -866,12 +1065,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -884,12 +1083,12 @@
     },
     "updown": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "hello-life",
         "sedai-wo-koete-mama-e",
-        "friendlikesong",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "friendlikesong"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -916,12 +1115,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -963,12 +1162,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1013,12 +1212,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1031,12 +1230,12 @@
     },
     "friendlikesong": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "hello-life",
         "sedai-wo-koete-mama-e",
-        "updown",
-        "watashi-no-eranda-michi",
-        "tatta-hitori-no-kimi-e"
+        "updown"
       ],
       "sameGenre": [
         "watashi-no-eranda-michi",
@@ -1058,12 +1257,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -1076,12 +1275,12 @@
     },
     "watashi-no-eranda-michi": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "hello-life",
         "sedai-wo-koete-mama-e",
-        "updown",
-        "friendlikesong",
-        "tatta-hitori-no-kimi-e"
+        "updown"
       ],
       "sameGenre": [
         "wakareta-michi",
@@ -1107,12 +1306,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -1125,12 +1324,12 @@
     },
     "tatta-hitori-no-kimi-e": {
       "sameArtist": [
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
         "kokoro-ni-nokoru-takaramono",
         "hello-life",
         "sedai-wo-koete-mama-e",
-        "updown",
-        "friendlikesong",
-        "watashi-no-eranda-michi"
+        "updown"
       ],
       "sameGenre": [
         "sedai-wo-koete-mama-e",
@@ -1157,12 +1356,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -1189,12 +1388,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1207,12 +1406,12 @@
     },
     "taipa-nante-shiranakatta": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1234,12 +1433,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1276,12 +1475,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -1318,12 +1517,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -1336,12 +1535,12 @@
     },
     "natsu-ga-owaru-made-soba-ni-ite": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1354,12 +1553,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "caramel",
@@ -1372,12 +1571,12 @@
     },
     "caramel": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1390,12 +1589,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -1426,12 +1625,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -1444,12 +1643,12 @@
     },
     "kimi-wa-makenai": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "yume-to-kaigo-to-watashitachi",
@@ -1476,12 +1675,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -1517,12 +1716,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1563,12 +1762,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -1581,12 +1780,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -1613,12 +1812,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -1663,12 +1862,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -1681,12 +1880,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -1713,12 +1912,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -1759,12 +1958,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1797,12 +1996,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -1815,12 +2014,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "without-worrying",
@@ -1847,12 +2046,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -1893,12 +2092,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1934,12 +2133,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -1984,12 +2183,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -2031,12 +2230,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -2049,12 +2248,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2081,12 +2280,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2127,12 +2326,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -2168,12 +2367,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -2186,12 +2385,12 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "without-worrying",
@@ -2218,12 +2417,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -2265,12 +2464,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -2310,12 +2509,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -2351,12 +2550,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -2390,12 +2589,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -2408,12 +2607,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2440,12 +2639,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2486,12 +2685,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -2536,12 +2735,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -2581,12 +2780,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -2599,12 +2798,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -2631,12 +2830,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -2649,12 +2848,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2681,12 +2880,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -2699,12 +2898,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -2731,12 +2930,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -2749,12 +2948,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -2778,12 +2977,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -2826,12 +3025,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -2844,12 +3043,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -2876,12 +3075,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -2894,12 +3093,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2926,12 +3125,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2944,12 +3143,12 @@
     },
     "mia": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2976,12 +3175,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2994,12 +3193,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3026,12 +3225,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3044,12 +3243,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3076,12 +3275,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3094,12 +3293,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -3126,12 +3325,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -3144,12 +3343,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -3176,12 +3375,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -3194,12 +3393,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -3226,12 +3425,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -3244,12 +3443,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -3276,12 +3475,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -3294,12 +3493,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "amaterasu",
         "without-worrying-reimagined",
         "renkinku",
         "renai-taishogai-kari",
         "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -3326,12 +3525,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words"
+        "uchira-saikyo-jane",
+        "break-the-veil",
+        "anata-wo-omou-sore-dake-de",
+        "amaterasu",
+        "mada-tetsu-wa-atsui",
+        "ashita-yaru"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

@@ -52,6 +52,10 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -222,8 +226,8 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -259,14 +263,49 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/artists/leon-vail/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/artists/michiru/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-official-channel-note.jpg</image:loc>
       <image:title>妃みちる 公式プロフィールビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-arinomama-note.png</image:loc>
@@ -339,6 +378,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/artists/tetsuhige/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/artists/veilfang/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
@@ -352,8 +402,32 @@
   <url>
     <loc>https://www.suzukaofficial.com/discography/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
@@ -366,6 +440,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
@@ -396,6 +474,10 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
@@ -404,8 +486,20 @@
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
@@ -632,8 +726,8 @@
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
@@ -697,6 +791,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/features/love-songs/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
       <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -727,6 +825,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
@@ -824,6 +926,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/features/summer-songs/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -845,6 +951,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/features/tearjerkers/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
@@ -1438,6 +1548,10 @@
       <image:title>榎本魅愛「恋するすべての瞬間」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
@@ -1446,8 +1560,20 @@
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
@@ -1591,20 +1717,28 @@
   <url>
     <loc>https://www.suzukaofficial.com/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-nando-umarekawattemo-reborn-oath.png</image:loc>
-      <image:title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
-      <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -1619,8 +1753,28 @@
       <image:title>神代煌牙 公式Artist画像</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
+      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-nando-umarekawattemo-reborn-oath.png</image:loc>
+      <image:title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
+      <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
@@ -1647,6 +1801,14 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -1663,6 +1825,10 @@
       <image:title>榎本魅愛のアーティストビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
@@ -1675,8 +1841,12 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -1828,10 +1998,47 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/lyrics/akuyaku-de-ii/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
+      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
+      <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/amaterasu/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/lyrics/anata-dake-no-savior/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/anata-wo-omou-sore-dake-de/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1847,6 +2054,36 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/ashita-yaru/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/break-the-veil/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -1869,6 +2106,17 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/friendlikesong/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1902,6 +2150,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/lyrics/hello-life/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/lyrics/hyakumankoku/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
@@ -1923,12 +2182,23 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/kokoro-ni-nokoru-takaramono/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1945,8 +2215,8 @@
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1961,6 +2231,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/lyrics/mada-tetsu-wa-atsui/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/lyrics/mermaid-no-geboku/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
@@ -1971,8 +2256,8 @@
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1991,6 +2276,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/lyrics/sedai-wo-koete-mama-e/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/lyrics/shadow-code/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
@@ -1999,6 +2295,21 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-lost-signal.jpg</image:loc>
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/tatta-hitori-no-kimi-e/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2017,14 +2328,40 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/lyrics/uchira-saikyo-jane/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/lyrics/wasureji-no-hito/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/lyrics/watashi-no-eranda-michi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2059,8 +2396,8 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/akuyaku-de-ii-release/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2106,6 +2443,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/friendlikesong-streaming-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/gekka-no-chigiri-release/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
@@ -2145,6 +2489,13 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/hello-life-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2408,8 +2759,8 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/kokoro-ni-nokoru-takaramono-streaming-release/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2585,6 +2936,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/september-blue-artist-video-20260922/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-september-blue.jpg</image:loc>
@@ -2617,6 +2975,13 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/tatta-hitori-no-kimi-e-streaming-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -2836,8 +3201,32 @@
   <url>
     <loc>https://www.suzukaofficial.com/playlists/latest/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
@@ -2850,6 +3239,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
@@ -2866,18 +3259,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-over-drive.jpg</image:loc>
       <image:title>榎本魅愛「Over Drive」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
-      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
-      <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -2954,6 +3335,34 @@
   <url>
     <loc>https://www.suzukaofficial.com/playlists/music-videos/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-september-blue.jpg</image:loc>
       <image:title>榎本魅愛「September Blue」公式ビジュアル</image:title>
     </image:image>
@@ -2970,16 +3379,12 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
-      <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -2989,12 +3394,16 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
@@ -3060,6 +3469,10 @@
       <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3086,6 +3499,10 @@
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/visual-kei/</loc>
@@ -3105,12 +3522,16 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
@@ -3133,12 +3554,20 @@
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
+      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
+      <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-koisuru-subete-no-shunkan.png</image:loc>
       <image:title>榎本魅愛「恋するすべての瞬間」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -3149,20 +3578,8 @@
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
-      <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
-      <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
-      <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3200,27 +3617,39 @@
       <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/akuyaku-de-ii/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
@@ -3243,12 +3672,63 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/amaterasu/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
+      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3274,12 +3754,63 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/anata-wo-omou-sore-dake-de/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3309,16 +3840,67 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/ashita-yaru/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3368,20 +3950,63 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/break-the-veil/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3411,12 +4036,24 @@
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3438,12 +4075,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3465,12 +4114,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3508,20 +4169,32 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3555,8 +4228,24 @@
       <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3590,12 +4279,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3613,6 +4314,10 @@
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
@@ -3625,19 +4330,51 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/friendlikesong/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -3646,6 +4383,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3671,12 +4412,24 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3710,16 +4463,28 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3749,20 +4514,32 @@
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3792,12 +4569,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3827,23 +4616,55 @@
       <image:title>榎本魅愛「September Blue」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hello-life/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
       <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -3852,6 +4673,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3869,12 +4694,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3904,20 +4741,32 @@
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -3935,16 +4784,56 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
@@ -3958,8 +4847,8 @@
       <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-koisuru-subete-no-shunkan.png</image:loc>
@@ -3986,6 +4875,10 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
@@ -3994,8 +4887,20 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -4165,8 +5070,8 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -4185,12 +5090,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4208,12 +5125,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4235,20 +5164,32 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4282,20 +5223,32 @@
       <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4329,20 +5282,32 @@
       <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4368,16 +5333,28 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4391,12 +5368,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4422,12 +5411,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4453,27 +5454,55 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/kokoro-ni-nokoru-takaramono/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -4484,8 +5513,8 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4507,12 +5536,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4534,8 +5575,8 @@
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-nando-umarekawattemo-reborn-oath.png</image:loc>
@@ -4550,12 +5591,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4585,8 +5638,59 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/mada-tetsu-wa-atsui/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4608,6 +5712,10 @@
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
@@ -4620,12 +5728,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4651,20 +5771,32 @@
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4698,20 +5830,32 @@
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4733,8 +5877,8 @@
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
@@ -4753,12 +5897,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4796,20 +5952,32 @@
       <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4847,20 +6015,32 @@
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4882,12 +6062,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4917,20 +6109,32 @@
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4968,20 +6172,32 @@
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5031,20 +6247,32 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5078,12 +6306,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5105,16 +6345,32 @@
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5144,12 +6400,24 @@
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5191,20 +6459,32 @@
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5238,20 +6518,32 @@
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5281,16 +6573,28 @@
       <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5312,12 +6616,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5359,12 +6675,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5398,8 +6726,24 @@
       <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5417,6 +6761,10 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -5425,8 +6773,20 @@
       <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5440,16 +6800,40 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
@@ -5467,16 +6851,28 @@
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5506,16 +6902,28 @@
       <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5553,12 +6961,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5584,20 +7004,36 @@
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5623,12 +7059,24 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5662,20 +7110,32 @@
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5709,20 +7169,32 @@
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5748,27 +7220,63 @@
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5777,6 +7285,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5814,20 +7326,32 @@
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5861,8 +7385,55 @@
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/uchira-saikyo-jane/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5873,12 +7444,28 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/updown/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
@@ -5888,8 +7475,16 @@
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5898,6 +7493,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5915,8 +7514,12 @@
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
@@ -5939,8 +7542,20 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5962,6 +7577,10 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -5970,8 +7589,16 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5993,6 +7620,10 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -6001,12 +7632,32 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
+      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
@@ -6020,12 +7671,24 @@
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6055,16 +7718,28 @@
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6082,6 +7757,10 @@
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -6090,8 +7769,20 @@
       <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6113,20 +7804,32 @@
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6152,19 +7855,31 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
+      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/schedule/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
-      <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
+      <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
@@ -6177,6 +7892,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
+      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
@@ -6197,6 +7916,18 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/social/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
+      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono.png</image:loc>
       <image:title>妃みちる「心に残る宝モノ」TuneCore公式ジャケット</image:title>
@@ -6393,12 +8124,16 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-akuyaku-de-ii-mv.jpg</image:loc>
-      <image:title>神代煌牙『悪役でいい』Official MV公式YouTubeビジュアル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>

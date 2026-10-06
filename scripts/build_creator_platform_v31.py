@@ -346,6 +346,14 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             f'<a href="../../{html.escape(item["specialFeatureUrl"])}">SUZUKA WITH CARE</a>'
             if item.get("specialFeatureUrl") else ""
         )
+        streaming = item.get("scheduledStreamingRelease") or item.get("streamingRelease") or {}
+        media_link = (
+            f'<a href="{html.escape(item["youtubeUrl"])}" target="_blank" rel="noopener noreferrer">'
+            f'{html.escape(item.get("videoCtaLabel") or "公式動画を見る")} ↗</a>'
+            if item.get("youtubeUrl") else
+            f'<a href="{html.escape(streaming["linkcoreUrl"])}" target="_blank" rel="noopener noreferrer">配信サービスで聴く ↗</a>'
+            if streaming.get("linkcoreUrl") else ""
+        )
         credits = " / ".join(value for value in (
             f'作詞：{item.get("lyricist", "")}' if item.get("lyricist") else "",
             f'作曲：{item.get("composer", "")}' if item.get("composer") else "",
@@ -358,12 +366,11 @@ def lyrics_pages(root: Path, releases: list[dict]) -> list[dict]:
             f'{html.escape(item["artist"])}の楽曲です。</p>'
             f'<p class="v31-lyrics-credits">{html.escape(credits)}</p>'
             f'<p>歌詞出典：{html.escape(item["lyricsSource"])}</p>'
-            f'<div class="explore-actions" data-source-section="lyrics_header" {analytics_attrs}><a href="{item["youtubeUrl"]}" '
-            'target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
+            f'<div class="explore-actions" data-source-section="lyrics_header" {analytics_attrs}>{media_link}'
             f'<a href="../../{item["releaseUrl"]}">作品ページ</a></div></header>'
             f'<div class="v31-lyrics-text">{paragraphs}</div></article>'
             f'<nav class="explore-actions" data-source-section="lyrics_footer" {analytics_attrs}>'
-            f'<a href="{item["youtubeUrl"]}" target="_blank" rel="noopener noreferrer">Official MVを見る ↗</a>'
+            f'{media_link}'
             f'<a href="../../{item["releaseUrl"]}">作品ページ</a>'
             f'{feature_link}{gallery_link}{news_link}<a href="../../artists/{item["artistSlug"]}/">Artist</a>{paging}</nav>'
             '<p class="v31-brand-return"><a href="../../about/">SUZUKAについて ↗</a></p>'
@@ -719,6 +726,10 @@ def artist_pages(root: Path, cms: dict, releases: list[dict], upcoming: list[dic
             facts.append(("年齢", f'{artist["age"]}歳'))
         if artist.get("appearance"):
             facts.append(("外見プロフィール", " / ".join(map(str, artist["appearance"]))))
+        if slug == "leon-vail":
+            for key, label in (("realName", "本名"), ("realNameJapanese", "本名（日本語）"), ("height", "身長")):
+                if artist.get(key):
+                    facts.append((label, str(artist[key])))
         for key, label in (
             ("englishName", "英字名"), ("stageName", "活動名"), ("hometown", "出身地"),
             ("affiliation", "現在所属"), ("role", "役割"), ("memberColor", "メンバーカラー"),

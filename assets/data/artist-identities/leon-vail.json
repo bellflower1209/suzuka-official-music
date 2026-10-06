@@ -2,9 +2,9 @@
   "artistSlug": "leon-vail",
   "referenceName": "LEON VAIL Official Visual Reference Ver.1",
   "source": "user-provided-instructions-2026-10-05",
-  "referenceStatus": "awaiting-formal-reference-image",
-  "referenceImage": null,
-  "referenceImageSha256": null,
+  "referenceStatus": "registered",
+  "referenceImage": "images/leon-vail-official-visual-reference-v1.png",
+  "referenceImageSha256": "15252636c0a59a41c94cbc10cde0ea95f5297650bd3e29d1c950b1900885a0cb",
   "principle": "The reference image defines LEON VAIL's identity, not merely his style.",
   "identity": [
     "23-year-old white male",
@@ -76,5 +76,6 @@
       "hair-color change",
       "face-shape change"
     ]
-  }
+  },
+  "birthday": "November 17 / 11月17日"
 }

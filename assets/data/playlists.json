@@ -237,6 +237,12 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "break-the-veil",
+        "amaterasu",
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
+        "ashita-yaru",
+        "mada-tetsu-wa-atsui",
         "without-worrying-reimagined",
         "renkinku",
         "kokoro-ni-nokoru-takaramono",
@@ -250,13 +256,7 @@
         "over-drive",
         "rinne-no-chigiri",
         "kimi-ga-iru-hougaku-e",
-        "dalkomhan-jugeumeul-geudaeege",
-        "henpin-sareta-ningen",
-        "hello-hello-halloween",
-        "kinmokusei-to-hoshifuru-yoru",
-        "mahou-ga-toketemo",
-        "hanakotoba",
-        "sedai-wo-koete-mama-e"
+        "dalkomhan-jugeumeul-geudaeege"
       ],
       "count": 20
     },
@@ -269,6 +269,12 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "break-the-veil",
+        "amaterasu",
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
+        "ashita-yaru",
+        "mada-tetsu-wa-atsui",
         "without-worrying-reimagined",
         "renkinku",
         "hello-life",
@@ -282,13 +288,7 @@
         "kinmokusei-to-hoshifuru-yoru",
         "mahou-ga-toketemo",
         "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri",
-        "akuyaku-de-ii",
-        "iine-sougisha",
-        "updown",
-        "re-sonance",
-        "wakareta-michi"
+        "yume-to-kaigo-to-watashitachi"
       ],
       "count": 20
     }

@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 285,
-    "videoObjects": 143,
+    "jsonLdBlocks": 303,
+    "videoObjects": 149,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,7 +436,7 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 138,
+  "fixedVideoObjectCount": 144,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
     "10hI03wXHtE",

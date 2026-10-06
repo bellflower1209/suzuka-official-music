@@ -6,6 +6,12 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | BREAK THE VEIL | LEON VAIL | https://www.youtube.com/watch?v=N12yNuwPqnM | 4:07 | BREAK THE VEIL｜LEON VAIL【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 天照 | 榎本魅愛 | https://www.youtube.com/watch?v=vJmHzG9yzNY | 4:02 | 天照｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | ウチら最強じゃね！ | 妃みちる | https://www.youtube.com/watch?v=VW3HQxZr54M | 1:00 | ウチら最強じゃね！｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | あなたを想う、それだけで | 妃みちる | https://www.youtube.com/watch?v=ky6YSgsMFHE | 6:54 | あなたを想う、それだけで｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 明日やる | 鉄髭 - TETSUHIGE - | https://www.youtube.com/watch?v=thM5VDN-IcA | 5:09 | 明日やる｜鉄髭 - TETSUHIGE -【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | まだ、鉄は熱い | 鉄髭 - TETSUHIGE - | https://www.youtube.com/watch?v=m9aCLk1TVso | 3:48 | まだ、鉄は熱い｜鉄髭 - TETSUHIGE -【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Without worrying - Reimagined - | 榎本魅愛 | https://www.youtube.com/watch?v=tLStIcqnWCs | 3:29 | Without worrying - Reimagined -｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 恋禁区。 | 榎本魅愛 | https://www.youtube.com/watch?v=M3ZMeK9_GrI | 4:12 | 恋禁区。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 心に残る宝モノ | 妃みちる | https://linkco.re/C7nAndeS | 0:00 | 心に残る宝モノ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

@@ -1150,6 +1150,8 @@ def main() -> None:
     build_scheduled_linkcore(ROOT)
     from build_homepage_upgrade import build as build_homepage_upgrade
     build_homepage_upgrade(ROOT)
+    from sync_official_artwork import sync as sync_official_artwork
+    sync_official_artwork(ROOT)
     from build_halloween import build as build_halloween
     build_halloween(ROOT)
     subprocess.run(

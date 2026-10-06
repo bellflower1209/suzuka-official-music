@@ -52,7 +52,12 @@ def main() -> None:
             assert term in text, (route, term)
 
     latest = (ROOT / "index.html").read_text(encoding="utf-8").split('id="latest"', 1)[1].split('</section>', 1)[0]
-    assert "Without worrying - Reimagined -" in latest and "tLStIcqnWCs" in latest
+    newest = max(
+        (item for item in cms["releases"] if item.get("status") == "published"),
+        key=lambda item: (item.get("publishedAt") or item["releaseDate"], item["slug"]),
+    )
+    assert newest["title"] in latest and newest["youtubeUrl"] in latest
+    assert f'releases/{newest["slug"]}/' in latest
     for slug in ("september-blue", "over-drive"):
         text = (ROOT / f"releases/{slug}/index.html").read_text(encoding="utf-8")
         assert 'content="noindex, follow"' not in text and "MusicRecording" in text

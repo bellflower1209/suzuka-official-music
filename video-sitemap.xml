@@ -800,6 +800,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/amaterasu/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vJmHzG9yzNY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>天照 Official Video</video:title>
+      <video:description>榎本魅愛「天照」のOfficial Music Videoを公開。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=vJmHzG9yzNY</video:content_loc>
+      <video:publication_date>2026-10-05T20:00:07+09:00</video:publication_date>
+      <video:duration>242</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/anata-dake-no-savior/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Z_IFHEG4CJA/maxresdefault.jpg</video:thumbnail_loc>
@@ -812,6 +824,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/anata-wo-omou-sore-dake-de/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ky6YSgsMFHE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>あなたを想う、それだけで Official Video</video:title>
+      <video:description>妃みちる「あなたを想う、それだけで」のOfficial Audioを公開。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ky6YSgsMFHE</video:content_loc>
+      <video:publication_date>2026-10-05T15:47:37+09:00</video:publication_date>
+      <video:duration>414</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/ashita-wa-kitto/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/HKm8cUorTOs/maxresdefault.jpg</video:thumbnail_loc>
@@ -820,6 +844,30 @@
       <video:content_loc>https://www.youtube.com/watch?v=HKm8cUorTOs</video:content_loc>
       <video:publication_date>2026-08-26T21:13:36+09:00</video:publication_date>
       <video:duration>217</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/ashita-yaru/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/thM5VDN-IcA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>明日やる Official Video</video:title>
+      <video:description>鉄髭 - TETSUHIGE -「明日やる」のOfficial Audioを公開。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=thM5VDN-IcA</video:content_loc>
+      <video:publication_date>2026-10-04T20:00:08+09:00</video:publication_date>
+      <video:duration>309</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/break-the-veil/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/N12yNuwPqnM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>BREAK THE VEIL Official Video</video:title>
+      <video:description>LEON VAIL「BREAK THE VEIL」のOfficial Audioを公開。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=N12yNuwPqnM</video:content_loc>
+      <video:publication_date>2026-10-05T20:05:59+09:00</video:publication_date>
+      <video:duration>247</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -898,7 +946,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/friendlikesong/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/IbydSXmEyVQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</video:thumbnail_loc>
       <video:title>friend like song Official Video</video:title>
       <video:description>大人になっても変わらない仲間との、最高の夏の一日を描く妃みちるのサマーソング。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=IbydSXmEyVQ</video:content_loc>
@@ -1147,6 +1195,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/releases/mada-tetsu-wa-atsui/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/m9aCLk1TVso/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>まだ、鉄は熱い Official Video</video:title>
+      <video:description>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」のOfficial Audioを公開。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=m9aCLk1TVso</video:content_loc>
+      <video:publication_date>2026-10-04T10:00:08+09:00</video:publication_date>
+      <video:duration>228</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/releases/mahou-ga-toketemo/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/g_SmyjPGIfc/maxresdefault.jpg</video:thumbnail_loc>
@@ -1359,7 +1419,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/Hho3xHOw8pg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</video:thumbnail_loc>
       <video:title>世代を超えてママへ Official Video</video:title>
       <video:description>怒ってしまった夜も、眠れなかった朝も、すべては愛の中にある。妃みちるが、子育ての真ん中にいるママ、そして子育てを終えたすべてのママへ贈る楽曲。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Hho3xHOw8pg</video:content_loc>
@@ -1453,7 +1513,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/CPIDy31wnc4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</video:thumbnail_loc>
       <video:title>たった1人の君へ Official Video</video:title>
       <video:description>過去の大切な人への感謝と、今の幸せを歌う、妃みちるのデビューシングル。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=CPIDy31wnc4</video:content_loc>
@@ -1482,6 +1542,18 @@
       <video:content_loc>https://www.youtube.com/watch?v=QXvpLCnyoOw</video:content_loc>
       <video:publication_date>2026-07-15T00:51:42+09:00</video:publication_date>
       <video:duration>324</video:duration>
+      <video:tag>SUZUKA</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/uchira-saikyo-jane/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/VW3HQxZr54M/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>ウチら最強じゃね！ Official Video</video:title>
+      <video:description>妃みちる「ウチら最強じゃね！」の公式プレビューを公開。配信予定日：2026年10月12日。</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=VW3HQxZr54M</video:content_loc>
+      <video:publication_date>2026-10-05T18:24:56+09:00</video:publication_date>
+      <video:duration>60</video:duration>
       <video:tag>SUZUKA</video:tag>
     </video:video>
   </url>
@@ -1536,7 +1608,7 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/FC1D7-0SeBc/maxresdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</video:thumbnail_loc>
       <video:title>私の選んだ道 Official Video</video:title>
       <video:description>好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=FC1D7-0SeBc</video:content_loc>

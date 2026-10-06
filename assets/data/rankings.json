@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
+        "break-the-veil",
+        "amaterasu",
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de",
+        "ashita-yaru",
+        "mada-tetsu-wa-atsui",
         "without-worrying-reimagined",
         "renkinku",
         "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue"
+        "renai-taishogai-kari"
       ]
     },
     "love": {
@@ -99,9 +99,9 @@
         "revive",
         "rangili",
         "asteria",
+        "tetsuhige",
         "asagiri-shinobu",
         "veilfang",
-        "tetsuhige",
         "leon-vail"
       ]
     },
