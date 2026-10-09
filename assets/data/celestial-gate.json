@@ -1,0 +1,108 @@
+{
+  "name": "SUZUKA — CELESTIAL GATE",
+  "concept": "音楽が導く、十二の世界",
+  "durationMs": 2200,
+  "shortDurationMs": 250,
+  "doorAudio": null,
+  "doorAudioStatus": "missing-formal-door-heavy-v2",
+  "doorAudioSha256": null,
+  "defaultVolume": 0.24,
+  "themes": {
+    "asagiri-shinobu": {
+      "label": "記憶の庭",
+      "accent": "#486250",
+      "tint": "#edf4ec",
+      "motif": "花と記憶",
+      "realm": "celestial",
+      "emblem": "asagiri-shinobu"
+    },
+    "asteria": {
+      "label": "星の回廊",
+      "accent": "#755280",
+      "tint": "#f5eff9",
+      "motif": "五つの星",
+      "realm": "celestial",
+      "emblem": "asteria"
+    },
+    "eclypse": {
+      "label": "光とコード",
+      "accent": "#346074",
+      "tint": "#edf4f8",
+      "motif": "光の軌跡",
+      "realm": "celestial",
+      "emblem": "eclypse"
+    },
+    "enomoto-mia": {
+      "label": "恋の宮殿",
+      "accent": "#99586b",
+      "tint": "#fbf0f3",
+      "motif": "花びら",
+      "realm": "celestial",
+      "emblem": "enomoto-mia"
+    },
+    "koga-kamishiro": {
+      "label": "誓いの聖堂",
+      "accent": "#556480",
+      "tint": "#eff1f7",
+      "motif": "騎士の紋章",
+      "realm": "celestial",
+      "emblem": "koga-kamishiro"
+    },
+    "michiru": {
+      "label": "ぬくもりの庭",
+      "accent": "#755c84",
+      "tint": "#f6f0f7",
+      "motif": "物語の光",
+      "realm": "celestial",
+      "emblem": "michiru"
+    },
+    "nox": {
+      "label": "深紅の魔界",
+      "accent": "#ef959f",
+      "tint": "#100a13",
+      "motif": "黒曜石と深紅の月",
+      "realm": "infernal",
+      "emblem": "nox"
+    },
+    "rangili": {
+      "label": "祝祭の宮殿",
+      "accent": "#88621d",
+      "tint": "#fff4df",
+      "motif": "祝祭の幾何学",
+      "realm": "celestial",
+      "emblem": "rangili"
+    },
+    "revive": {
+      "label": "再生の光",
+      "accent": "#347267",
+      "tint": "#edf7f4",
+      "motif": "翼と再生",
+      "realm": "celestial",
+      "emblem": "revive"
+    },
+    "veilfang": {
+      "label": "月の杜",
+      "accent": "#496579",
+      "tint": "#edf3f7",
+      "motif": "月と幻想獣",
+      "realm": "celestial",
+      "emblem": "veilfang"
+    },
+    "tetsuhige": {
+      "label": "鉄と焔の工房",
+      "accent": "#856041",
+      "tint": "#f6efe8",
+      "motif": "鍛冶の紋章",
+      "realm": "celestial",
+      "emblem": "tetsuhige"
+    },
+    "leon-vail": {
+      "label": "静寂の舞台",
+      "accent": "#5d6182",
+      "tint": "#f0f0f7",
+      "motif": "ロックの光",
+      "realm": "celestial",
+      "emblem": "leon-vail"
+    }
+  }
+}

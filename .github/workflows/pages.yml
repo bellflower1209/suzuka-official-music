@@ -32,6 +32,8 @@ jobs:
       - name: Verify generated site and Node.js scripts
         run: |
           node --version
+          node --check assets/celestial-gate.js
+          python3 scripts/audit_celestial_gate.py
           node --check assets/analytics.js
           node --check assets/streaming-release.js
           node scripts/test_streaming_date.mjs
