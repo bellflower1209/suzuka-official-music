@@ -14,7 +14,8 @@
       "tint": "#edf4ec",
       "motif": "花と記憶",
       "realm": "celestial",
-      "emblem": "asagiri-shinobu"
+      "emblem": "asagiri-shinobu",
+      "background": "asagiri-shinobu"
     },
     "asteria": {
       "label": "星の回廊",
@@ -22,7 +23,8 @@
       "tint": "#f5eff9",
       "motif": "五つの星",
       "realm": "celestial",
-      "emblem": "asteria"
+      "emblem": "asteria",
+      "background": "asteria"
     },
     "eclypse": {
       "label": "光とコード",
@@ -30,15 +32,17 @@
       "tint": "#edf4f8",
       "motif": "光の軌跡",
       "realm": "celestial",
-      "emblem": "eclypse"
+      "emblem": "eclypse",
+      "background": "eclypse"
     },
     "enomoto-mia": {
       "label": "恋の宮殿",
-      "accent": "#99586b",
+      "accent": "#85485a",
       "tint": "#fbf0f3",
       "motif": "花びら",
       "realm": "celestial",
-      "emblem": "enomoto-mia"
+      "emblem": "enomoto-mia",
+      "background": "enomoto-mia"
     },
     "koga-kamishiro": {
       "label": "誓いの聖堂",
@@ -46,7 +50,8 @@
       "tint": "#eff1f7",
       "motif": "騎士の紋章",
       "realm": "celestial",
-      "emblem": "koga-kamishiro"
+      "emblem": "koga-kamishiro",
+      "background": "koga-kamishiro"
     },
     "michiru": {
       "label": "ぬくもりの庭",
@@ -54,7 +59,8 @@
       "tint": "#f6f0f7",
       "motif": "物語の光",
       "realm": "celestial",
-      "emblem": "michiru"
+      "emblem": "michiru",
+      "background": "michiru"
     },
     "nox": {
       "label": "深紅の魔界",
@@ -62,7 +68,8 @@
       "tint": "#100a13",
       "motif": "黒曜石と深紅の月",
       "realm": "infernal",
-      "emblem": "nox"
+      "emblem": "nox",
+      "background": "nox"
     },
     "rangili": {
       "label": "祝祭の宮殿",
@@ -70,7 +77,8 @@
       "tint": "#fff4df",
       "motif": "祝祭の幾何学",
       "realm": "celestial",
-      "emblem": "rangili"
+      "emblem": "rangili",
+      "background": "rangili"
     },
     "revive": {
       "label": "再生の光",
@@ -78,7 +86,8 @@
       "tint": "#edf7f4",
       "motif": "翼と再生",
       "realm": "celestial",
-      "emblem": "revive"
+      "emblem": "revive",
+      "background": "revive"
     },
     "veilfang": {
       "label": "月の杜",
@@ -86,7 +95,8 @@
       "tint": "#edf3f7",
       "motif": "月と幻想獣",
       "realm": "celestial",
-      "emblem": "veilfang"
+      "emblem": "veilfang",
+      "background": "veilfang"
     },
     "tetsuhige": {
       "label": "鉄と焔の工房",
@@ -94,7 +104,8 @@
       "tint": "#f6efe8",
       "motif": "鍛冶の紋章",
       "realm": "celestial",
-      "emblem": "tetsuhige"
+      "emblem": "tetsuhige",
+      "background": "tetsuhige"
     },
     "leon-vail": {
       "label": "静寂の舞台",
@@ -102,7 +113,16 @@
       "tint": "#f0f0f7",
       "motif": "ロックの光",
       "realm": "celestial",
-      "emblem": "leon-vail"
+      "emblem": "leon-vail",
+      "background": "leon-vail"
     }
+  },
+  "cinema": {
+    "manifest": "assets/data/celestial-cinema-assets.json",
+    "home": "hero",
+    "doorCelestial": "door-celestial",
+    "doorInfernal": "door-infernal",
+    "frameCelestial": "frame-celestial",
+    "frameInfernal": "frame-infernal"
   }
 }

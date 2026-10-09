@@ -39,6 +39,22 @@
     if (volumeInput) volumeInput.value = String(volume);
   }
   reflect();
+  // A failed AVIF/source-set must not hide navigation or canonical copy.
+  // Retry the existing WebP fallback; official thumbnails retry their untouched source.
+  function imageFallback(image) {
+    if (!(image instanceof HTMLImageElement) || !image.closest('.cg-scene,.cg-door-beyond,.cg-official-inset')) return;
+    if (!image.dataset.cgFallback) {
+      image.dataset.cgFallback = 'true';
+      image.closest('picture')?.querySelectorAll('source').forEach(source => source.remove());
+      image.removeAttribute('srcset');
+      if (image.getAttribute('src')) image.src = image.getAttribute('src');
+    } else if (image.closest('.cg-scene,.cg-door-beyond')) image.style.opacity = '0';
+  }
+  document.addEventListener('error', event => imageFallback(event.target), true);
+  // A priority image can fail before this deferred script has installed listeners.
+  document.querySelectorAll('.cg-scene img,.cg-official-inset img').forEach(image => {
+    if (image.complete && !image.naturalWidth) imageFallback(image);
+  });
   soundButton?.addEventListener('click', () => {
     if (!config.doorAudio) return;
     sound = !sound;
@@ -69,7 +85,7 @@
     dialog.className = 'cg-door-dialog';
     dialog.setAttribute('aria-labelledby', 'cg-door-title');
     dialog.setAttribute('aria-describedby', 'cg-door-description');
-    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div><div class="cg-door-sigil"><span>✧</span></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button>';
+    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"><span>✧</span></div></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button>';
     document.body.append(dialog);
     dialog.querySelector('.cg-door-skip').addEventListener('click', () => finish(true));
     dialog.querySelector('.cg-door-cancel').addEventListener('click', () => finish(false));
@@ -108,10 +124,18 @@
     emblem.append(use); panel.querySelector('.cg-door-sigil').replaceChildren(emblem);
     panel.style.setProperty('--gate-accent', artist?.accent || '#806432');
     panel.style.setProperty('--gate-paper', artist?.realm === 'infernal' ? '#19141f' : (artist?.tint || '#fcf9ef'));
+    const kind = artist?.realm === 'infernal' ? 'infernal' : 'celestial';
+    const backdrop = returning ? config.cinema.home : artist.background;
+    const size = matchMedia('(max-width:640px)').matches ? 'mobile' : '1280';
+    const imageUrl = (name, extension) => new URL(`assets/cinema/${name}.${extension}`, root).href;
+    panel.querySelector('.cg-door-beyond source').srcset = imageUrl(`${backdrop}-${size}`, 'avif');
+    panel.querySelector('.cg-door-beyond img').src = imageUrl(`${backdrop}-${size}`, 'webp');
+    panel.querySelector('.cg-door-frame').src = imageUrl(`frame-${kind}-${fast ? 480 : 960}`, 'webp');
+    panel.style.setProperty('--gate-texture', `url("${imageUrl(`door-${kind}-${fast ? 480 : 960}`, 'webp')}")`);
     panel.querySelector('#cg-door-title').textContent = returning ? '天界へ' : artist.name;
     panel.querySelector('[data-cg-door-realm]').textContent = returning ? 'CELESTIAL GATE' : `${artist.label} / ${artist.realm === 'infernal' ? 'INFERNAL' : 'CELESTIAL'} REALM`;
     const description = panel.querySelector('#cg-door-description');
-    description.textContent = fast ? 'まもなく移動します。' : '光の扉を開いています。無音でも移動できます。';
+    description.textContent = fast ? 'まもなく移動します。' : '扉の向こうの世界へ。無音でも移動できます。';
     panel.style.setProperty('--cg-door-duration', fast ? '0ms' : `${config.durationMs - 600}ms`);
     document.body.style.overflow = 'hidden';
     panel.showModal();
@@ -185,7 +209,11 @@
   addEventListener('pagehide', () => finish(false));
   addEventListener('pageshow', () => finish(false));
   addEventListener('keydown', event => {
-    if (event.key === 'Escape') document.querySelector('.cg-settings[open]')?.removeAttribute('open');
+    if (event.key === 'Escape') {
+      document.querySelector('.cg-settings[open]')?.removeAttribute('open');
+      const menu = document.querySelector('.mobile-menu[open]');
+      if (menu) { menu.removeAttribute('open'); menu.querySelector('summary')?.focus(); }
+    }
   });
   // Suppress interference even if media starts after the gate click.
   document.addEventListener('play', () => stopSound(), true);

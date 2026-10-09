@@ -11,9 +11,10 @@
 | 共通の見た目・スマホ・印刷 | `assets/celestial-gate.css` |
 | 扉・音声・スキップ・短縮・戻る処理 | `assets/celestial-gate.js` |
 | 各ページへの反映・12扉の生成 | `scripts/build_celestial_gate.py` |
-| 装飾背景・紋章 | `assets/celestial-palace.svg` / `nox-citadel.svg` / `celestial-emblems.svg` |
+| 写真背景・門・素材台帳 | `assets/cinema/` / `assets/data/celestial-cinema-assets.json` |
+| 小さな紋章 | `assets/celestial-emblems.svg` |
 
-装飾SVG・領域名は今回のUIデザインです。公式Artistの顔・衣装・設定画像・作品ジャケットの代替ではありません。Artist画像未登録のLEON VAIL / 鉄髭はIMAGE PENDINGを維持しています。新Artistを正本へ追加するときは、テーマJSONにもそのslugの表示設定を追加してください。魔界はNOXのみです。
+写真背景・門・領域名は今回のUIデザインです。旧宮殿・城SVGはメイン背景から退役しました。写真素材・制作原本・使用条件・修正箇所は [Cinema V2運用資料](celestial-cinema.md) を参照してください。公式Artistの顔・衣装・設定画像・作品ジャケットの代替ではありません。Artist画像未登録のLEON VAIL / 鉄髭はIMAGE PENDINGを維持しています。新Artistを正本へ追加するときは、テーマJSONにもそのslugの表示設定を追加してください。魔界はNOXのみです。
 
 生成されたHTMLを直接編集せず、上の正本・ソースを変更して次を実行します。
 
