@@ -327,6 +327,10 @@ body[data-cg-realm] .cg-official-inset>img{background:transparent!important}
 body[data-cg-realm] :is(.directory-hero,.artists-index-hero,.artist-profile-hero)::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#08131fd9,#08131f70 55%,#08131f33);z-index:-1;pointer-events:none}
 body[data-cg-realm] :is(.directory-hero,.artists-index-hero,.artist-profile-hero) .cg-scene{z-index:-2}
 body[data-cg-realm] :is(.directory-hero,.artists-index-hero,.artist-profile-hero)>:not(.cg-scene){position:relative;z-index:1}
+body[data-cg-realm] :is(.streaming-release,.karaoke-panel){background:var(--cg-paper)!important;border:0;border-bottom:1px solid var(--cg-line);border-radius:0;box-shadow:none}
+body[data-cg-realm] :is(.streaming-release,.karaoke-panel) :is(h2,p){color:var(--cg-ink);font-family:inherit}
+body[data-cg-realm] .streaming-release .streaming-primary{background:var(--cg-ink);color:var(--cg-paper);border-radius:0;box-shadow:none}
+body[data-cg-realm] .streaming-release .streaming-status{color:var(--cg-paper);background:var(--cg-ink)}
 body[data-cg-realm] :is(.directory-hero,.artists-index-hero,.artist-profile-hero) :is(h1,h2,p,span,a,.section-kicker){color:#fff9ec!important}
 body[data-cg-realm] button[data-timeline-sort]{color:var(--cg-ink);background:var(--cg-paper);border:1px solid var(--cg-line);min-height:44px}
 body[data-cg-realm] button[data-timeline-sort][aria-pressed=true]{background:#283039;color:#fff9ec;border-color:#283039}

@@ -146,6 +146,13 @@ def build(root):
             # Retain the canonical release H1 and full latest-release Hero below the new gateway.
             text=text.replace(block('SETTINGS',settings(audio)),block('SETTINGS',settings(audio))+block('HOME',hero+atlas(artists,config,prefix)),1)
         if slug in by_slug:
+            # Keep existing release/karaoke announcements intact, below the world
+            # entrance. Their canonical generator may insert them before the hero.
+            announcement=re.search(r'<!-- streaming-release:start -->.*?<!-- streaming-release:end -->',text,re.S)
+            if announcement and '<div id="content">' in text:
+                notice=announcement[0]
+                text=text[:announcement.start()]+text[announcement.end():]
+                text=text.replace('<div id="content">','<div id="content">'+notice,1)
             return_link=f'<a class="cg-return" data-cg-return href="{prefix}">← '+('天界へ帰還する' if realm=='infernal' else '天界の入口へ')+'</a>'
             emblem=f'<svg class="cg-domain-emblem" viewBox="0 0 64 64" aria-hidden="true"><use href="{prefix}assets/celestial-emblems.svg#{slug}"/></svg>'
             intro=f'<aside class="cg-realm-intro" aria-label="アーティストの領域">{return_link}<span>{e(theme["label"])} / '+('INFERNAL REALM' if realm=='infernal' else 'CELESTIAL REALM')+f'</span><small>{e(theme["motif"])}</small>{emblem}</aside>'
