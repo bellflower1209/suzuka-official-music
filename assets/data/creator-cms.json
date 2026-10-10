@@ -1754,8 +1754,8 @@
         "コミカル"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/SKUMF7ZhpRM/maxresdefault.jpg",
-      "coverAlt": "妃みちる「UPdown」公式YouTubeサムネイル",
+      "coverImage": "images/updown-official-youtube.webp",
+      "coverAlt": "妃みちる「UPdown」公式動画サムネイル",
       "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
       "videoLabel": "OFFICIAL VIDEO",
       "youtubeVideoTitle": "【新曲】UPdown｜好きな子の前じゃ、平常心なんて無理。🎆💓｜妃みちる",
@@ -1818,7 +1818,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=V_v1Jjp9XcI"
     },
     {
       "slug": "re-sonance",
@@ -1962,8 +1965,8 @@
         "祈り"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/EU_5CqN1zZw/maxresdefault.jpg",
-      "coverAlt": "神代煌牙「分かれた道」公式YouTubeサムネイル",
+      "coverImage": "images/wakareta-michi-official-youtube.webp",
+      "coverAlt": "神代煌牙「分かれた道」公式動画サムネイル",
       "youtubeUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
       "shortsUrl": "https://www.youtube.com/shorts/ksYJEnyC284",
       "releaseUrl": "releases/wakareta-michi/",
@@ -2023,7 +2026,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=0W5cCu7O5_w"
     },
     {
       "slug": "friendlikesong",
@@ -2461,8 +2467,8 @@
         "明日"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/s0zOTuR4GQI/maxresdefault.jpg",
-      "coverAlt": "榎本魅愛「タイパなんて知らなかった」公式YouTubeサムネイル",
+      "coverImage": "images/taipa-nante-shiranakatta-official-youtube.webp",
+      "coverAlt": "榎本魅愛「タイパなんて知らなかった」公式動画サムネイル",
       "youtubeUrl": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
       "shortsUrl": "https://www.youtube.com/shorts/HJugNSYcBI0",
       "releaseUrl": "releases/taipa-nante-shiranakatta/",
@@ -2530,7 +2536,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=0EWk-Phh5XQ"
     },
     {
       "slug": "family-portrait",
@@ -2718,7 +2727,7 @@
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
       "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
-      "image": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
+      "image": "images/natsu-ga-owaru-made-soba-ni-ite-official-youtube.webp",
       "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。",
       "releaseAt": "2026-08-14T20:00:06+09:00",
       "publishedAt": "2026-08-14T20:00:06+09:00",
@@ -2748,8 +2757,8 @@
       "releaseType": "single",
       "moods": [],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/rPTopOOZMkM/maxresdefault.jpg",
-      "coverAlt": "榎本魅愛「夏が終わるまで、そばにいて。」公式YouTubeサムネイル",
+      "coverImage": "images/natsu-ga-owaru-made-soba-ni-ite-official-youtube.webp",
+      "coverAlt": "榎本魅愛「夏が終わるまで、そばにいて。」公式動画サムネイル",
       "releaseUrl": "releases/natsu-ga-owaru-made-soba-ni-ite/",
       "newsUrl": "",
       "duration": 307,
@@ -2793,7 +2802,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=5itkRRGOwVY"
     },
     {
       "slug": "caramel",
@@ -2801,7 +2813,7 @@
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
       "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
-      "image": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
+      "image": "images/caramel-official-youtube.webp",
       "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の作品。",
       "releaseAt": "2026-08-13T20:00:06+09:00",
       "publishedAt": "2026-08-13T20:00:06+09:00",
@@ -2831,8 +2843,8 @@
       "releaseType": "single",
       "moods": [],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/rtN3V6DDmFw/maxresdefault.jpg",
-      "coverAlt": "榎本魅愛「キャラメ〜ル」公式YouTubeサムネイル",
+      "coverImage": "images/caramel-official-youtube.webp",
+      "coverAlt": "榎本魅愛「キャラメ〜ル」公式動画サムネイル",
       "releaseUrl": "releases/caramel/",
       "newsUrl": "",
       "duration": 254,
@@ -2876,7 +2888,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=vA8RzclcY0E"
     },
     {
       "slug": "kamisama-wa-rusu",
@@ -2884,7 +2899,7 @@
       "artist": "神代煌牙",
       "artistSlug": "koga-kamishiro",
       "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
-      "image": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
+      "image": "images/kamisama-wa-rusu-official-youtube.webp",
       "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙のロックナンバー。",
       "releaseAt": "2026-08-12T20:00:06+09:00",
       "publishedAt": "2026-08-12T20:00:06+09:00",
@@ -2914,8 +2929,8 @@
       "releaseType": "single",
       "moods": [],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/RxfHwhP1Sx4/maxresdefault.jpg",
-      "coverAlt": "神代煌牙「神様は留守」公式YouTubeサムネイル",
+      "coverImage": "images/kamisama-wa-rusu-official-youtube.webp",
+      "coverAlt": "神代煌牙「神様は留守」公式動画サムネイル",
       "releaseUrl": "releases/kamisama-wa-rusu/",
       "newsUrl": "",
       "duration": 312,
@@ -2950,7 +2965,10 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "coverSource": "https://www.youtube.com/watch?v=qQgad9rWvXk"
     },
     {
       "slug": "kimi-wa-makenai",
@@ -3272,8 +3290,8 @@
         "日常"
       ],
       "language": "ja",
-      "coverImage": "https://i.ytimg.com/vi/iEFPd6kYYJc/maxresdefault.jpg",
-      "coverAlt": "榎本魅愛「君にかかった魔法」公式YouTubeサムネイル",
+      "coverImage": "images/kimi-ni-kakatta-mahou-official-youtube.webp",
+      "coverAlt": "榎本魅愛「君にかかった魔法」公式動画サムネイル",
       "releaseUrl": "releases/kimi-ni-kakatta-mahou/",
       "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
       "newsUrl": "",
@@ -3330,7 +3348,10 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "coverSource": "https://www.youtube.com/watch?v=InpcOHVTpRU"
     },
     {
       "id": "mermaid-no-geboku",
