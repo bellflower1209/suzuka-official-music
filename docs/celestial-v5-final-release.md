@@ -15,6 +15,7 @@ Canonical fields: `artists[].image`, `imageAlt`, `imageWidth`, `imageHeight`. Or
 - Replace the pre-delivery TETSUHIGE blank-image constraint with validation of its user-provided official registration and both original/optimized hashes. Member names remain strictly 源治・虎徹. A mismatched original hash fails.
 - Validate exact canonical/thumbnail coverage and retained original hashes for both delivered profiles. A bad 404 canonical/JSON-LD identity fails the SEO audit.
 - Add PR validation to the existing Pages workflow. PR builds execute the existing checks plus reproducibility and SEO; Pages configuration, artifact upload and deployment run only outside PR events. PR concurrency cannot displace production runs.
+- The first PR CI run exposed an implicit local-only Pillow dependency in the regeneration audit. The workflow now explicitly uses Python 3.12 and installs pinned `requirements-build.txt` (Pillow 12.2.0). The audit remains enabled; no content or audit condition is weakened.
 
 ## Local verification
 
