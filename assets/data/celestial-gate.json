@@ -135,5 +135,7 @@
     "revealMs": 2850,
     "entryMs": 4100
   },
-  "arrivalMs": 1000
+  "arrivalMs": 1000,
+  "candidatePlaybackAudio": "assets/audio/door-heavy-candidate-v4-playback.mp3",
+  "candidatePlaybackAudioSha256": "5e727d81920a82be92bd298496ac69093f01ab247b784a05b05143006b00ec05"
 }

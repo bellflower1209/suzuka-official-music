@@ -11,7 +11,7 @@
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const read = key => { try { return localStorage.getItem(`suzuka.cg.${key}`); } catch { return null; } };
   const save = (key,value) => { try { localStorage.setItem(`suzuka.cg.${key}`,String(value)); } catch { /* Storage is optional. */ } };
-  const audioPath = config.doorAudio || config.candidateAudio;
+  const audioPath = config.doorAudio || config.candidatePlaybackAudio || config.candidateAudio;
   const isCandidate = !config.doorAudio && Boolean(config.candidateAudio);
   let sound = Boolean(audioPath) && read('sound') === 'on';
   let short = read('short') === 'true';

@@ -40,6 +40,13 @@ def validate(root, config, artists):
             raise ValueError('Candidate must remain explicitly unadopted and separate from Ver.2.')
         if hashlib.sha256(path.read_bytes()).hexdigest() != config.get('candidateAudioSha256'):
             raise ValueError('Candidate audio hash mismatch.')
+    playback = config.get('candidatePlaybackAudio')
+    if playback:
+        path = (root / playback).resolve()
+        if not candidate or not path.is_relative_to(root.resolve()) or path.name != 'door-heavy-candidate-v4-playback.mp3':
+            raise ValueError('Playback encoding must refer to the separate unadopted candidate.')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != config.get('candidatePlaybackAudioSha256'):
+            raise ValueError('Candidate playback audio hash mismatch.')
     times = list(config['timeline'].values())
     if times != sorted(set(times)) or times[0] <= 0 or times[-1] >= config['durationMs']:
         raise ValueError('Portal phases must be ordered inside the total duration.')
@@ -107,6 +114,8 @@ def build(root):
     validate_cinema(root,config,artists)
     by_slug={a['slug']:a for a in artists}
     runtime={k:config[k] for k in ['durationMs','shortDurationMs','defaultVolume','doorAudio','doorAudioStatus','candidateAudio','candidateAudioStatus','timeline','arrivalMs']}
+    if config.get('candidatePlaybackAudio'):
+        runtime['candidatePlaybackAudio'] = config['candidatePlaybackAudio']
     runtime['artists']={a['slug']:{'name':a['name'],'slug':a['slug'],**config['themes'][a['slug']]} for a in artists}
     runtime['cinema']=config['cinema']
     encoded=json.dumps(runtime,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
