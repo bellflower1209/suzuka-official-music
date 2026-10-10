@@ -370,8 +370,35 @@ def required_schema_types(relative: Path) -> set[str]:
     return set()
 
 
+def audit_not_found(errors: list[str]) -> None:
+    """The GitHub Pages error document is a file, not a /404/ directory."""
+    path = ROOT / '404.html'
+    expected = f'{PUBLIC_BASE_URL}/404.html'
+    if not path.is_file():
+        errors.append('404.html: missing error document')
+        return
+    parser = PageParser()
+    parser.feed(path.read_text(encoding='utf-8'))
+    if parser.canonicals != [expected] or parser.meta.get('og:url') != [expected]:
+        errors.append('404.html: canonical and og:url must use the actual error document')
+    if parser.meta.get('robots') != ['noindex, follow']:
+        errors.append('404.html: error document must remain noindex, follow')
+    for reference in parser.references:
+        value = urllib.parse.urlsplit(reference)
+        if not value.scheme and value.path and not value.path.startswith('/'):
+            errors.append('404.html: resources and links must work at arbitrary missing URL depths')
+    try:
+        nodes = [node for block in parser.json_ld_blocks for node in json.loads(block).get('@graph', [])]
+        pages = [node for node in nodes if node.get('@type') == 'WebPage']
+        if len(pages) != 1 or pages[0].get('url') != expected or pages[0].get('@id') != expected + '#webpage':
+            errors.append('404.html: JSON-LD page identity must match canonical')
+    except (ValueError, AttributeError, TypeError):
+        errors.append('404.html: invalid JSON-LD')
+
+
 def audit() -> tuple[list[str], dict[str, Any]]:
     errors: list[str] = []
+    audit_not_found(errors)
     published_titles = [release["title"] for release in PUBLISHED_MIA]
     published_slugs = [release["slug"] for release in PUBLISHED_MIA]
     published_youtube_ids = [release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")]

@@ -11,6 +11,19 @@ def main():
     cms=json.loads((ROOT/'assets/data/creator-cms.json').read_text())
     artists=[a for a in cms['artists'] if a.get('status')=='published']
     manifest=validate_cinema(ROOT,config,artists);errors=[];encoded=0
+    official={a['slug']:a['image'] for a in artists if a.get('image')}
+    thumbnails=manifest['officialThumbnails']
+    if len(thumbnails)!=len(official) or {a['id']:a['source'] for a in thumbnails}!=official:
+        errors.append('Official thumbnail coverage must exactly match canonical images')
+    registration_path=ROOT/'assets/data/official-image-registrations.json'
+    if registration_path.exists():
+        for record in json.loads(registration_path.read_text()).get('registrations',[]):
+            if record.get('status')!='registered-official-user-provided' or official.get(record.get('artistSlug'))!=record.get('image'):
+                errors.append('Official registration does not match canonical image')
+            for key,hash_key in [('image','imageSha256'),('originalPath','originalSha256')]:
+                path=(ROOT/record[key]).resolve()
+                if not path.is_relative_to((ROOT/'images').resolve()) or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=record.get(hash_key):
+                    errors.append('Registered original/image integrity failed: '+record.get('artistSlug',''))
     for asset in manifest['assets']+manifest['officialThumbnails']:
         if asset in manifest['officialThumbnails']:
             if hashlib.sha256((ROOT/asset['source']).read_bytes()).hexdigest()!=asset['sourceSha256']:errors.append('Official source changed: '+asset['id'])
@@ -35,6 +48,6 @@ def main():
     for key in ['cg-door-beyond','cg-door-frame','config.doorAudio','AudioContext','musicIsActive']:
         if key not in js:errors.append('Gate behavior missing: '+key)
     if errors:raise SystemExit('\n'.join(errors))
-    print(json.dumps({'status':'PASS','htmlPages':len(pages),'artistEnvironments':len(artists),'environmentPlates':sum(a.get('kind')=='environment' for a in manifest['assets']),'doorTextures':2,'alphaFrames':2,'encodedFiles':encoded,'officialImagesChanged':0,'audio':'verified' if config['doorAudio'] else 'FORMAL V2 MISSING'},ensure_ascii=False))
+    print(json.dumps({'status':'PASS','htmlPages':len(pages),'artistEnvironments':len(artists),'environmentPlates':sum(a.get('kind')=='environment' for a in manifest['assets']),'doorTextures':2,'alphaFrames':2,'encodedFiles':encoded,'officialProfiles':len(official),'missingOfficialProfiles':len(artists)-len(official),'audio':'verified' if config['doorAudio'] else 'FORMAL V2 MISSING'},ensure_ascii=False))
 
 if __name__=='__main__':main()

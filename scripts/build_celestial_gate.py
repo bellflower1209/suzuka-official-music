@@ -122,6 +122,11 @@ def build(root):
         theme=config['themes'].get(slug,{})
         realm=theme.get('realm','celestial')
         text=clear(text)
+        if path.name == '404.html':
+            # Pages serves this document at arbitrary missing URL depths.
+            # Relative resources would resolve below that missing directory.
+            prefix='/'
+            text=re.sub(r'((?:href|src)=")(?!(?:[a-z]+:|/|#))([^"\s]+)', r'\1/\2', text, flags=re.I)
         if relative.as_posix() == 'index.html':
             # These belong to the former first viewport, now below the twelve-world atlas.
             # Retain the artwork/MV in content while reserving preload bandwidth for the palace.

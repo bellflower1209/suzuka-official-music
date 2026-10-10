@@ -1385,6 +1385,50 @@
           "height": 540
         }
       ]
+    },
+    {
+      "id": "tetsuhige",
+      "source": "images/tetsuhige-official-profile.webp",
+      "sourceSha256": "cd0d63375f21197b4c8ab0519c68a4665fd896e3366784d7034189b4026974ff",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/tetsuhige-480.webp",
+          "bytes": 55394,
+          "sha256": "40f111464f8d3af98458448856ba6be60924e2aa15fe8ba2bdd016ea560f584e",
+          "width": 480,
+          "height": 400
+        },
+        {
+          "path": "assets/cinema/official/tetsuhige-960.webp",
+          "bytes": 162298,
+          "sha256": "445be4fce4b8f5b96aedca0caf6abfc8db0aa21ca989adcade7999ce1fb3fef6",
+          "width": 960,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "leon-vail",
+      "source": "images/leon-vail-official-profile.webp",
+      "sourceSha256": "74941236737452a60b40e0155022140905d82b77877b06056df00e6fee971c3a",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/leon-vail-480.webp",
+          "bytes": 37618,
+          "sha256": "654b7e591f35df35b119fe2dca4bfc431edfe6bddced1ad997bfd9229da59813",
+          "width": 480,
+          "height": 462
+        },
+        {
+          "path": "assets/cinema/official/leon-vail-960.webp",
+          "bytes": 103274,
+          "sha256": "e96e4d63e964c8659af007b7e3e913bdc86e9c88d1d455dba7b1ad5bd984674a",
+          "width": 960,
+          "height": 924
+        }
+      ]
     }
   ]
 }

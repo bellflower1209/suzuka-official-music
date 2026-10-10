@@ -438,7 +438,7 @@
       "artistType": "MusicGroup",
       "status": "published",
       "artistStatus": "published",
-      "image": "",
+      "image": "images/tetsuhige-official-profile.webp",
       "world": "ファンタジー世界のドワーフをモチーフに、日本の職人、鉄、鍛冶、酒、義理、人情を感じさせる世界観。",
       "music": "音楽性・楽曲情報は確認後に掲載します。",
       "profile": "源治と虎徹による、日本人ドワーフ族の中年男性2人組ユニット。",
@@ -462,7 +462,10 @@
         "title": "鉄髭 - TETSUHIGE -｜SUZUKA Official",
         "description": "源治と虎徹による、日本人ドワーフ族の中年男性2人組ユニット。",
         "jsonLdEnabled": true
-      }
+      },
+      "imageAlt": "源治・虎徹による鉄髭 - TETSUHIGE - の公式画像",
+      "imageWidth": 1374,
+      "imageHeight": 1145
     },
     {
       "slug": "leon-vail",
@@ -480,7 +483,7 @@
       "artistType": "Person",
       "status": "published",
       "artistStatus": "published",
-      "image": "",
+      "image": "images/leon-vail-official-profile.webp",
       "world": "美しく、危うくて、どこまでもロック。",
       "music": "Hard Rock / Alternative Rock / Rock Ballad",
       "profile": "美しく、危うくて、どこまでもロック。\n静寂の中に強さを秘めた声で世界を震わせる。",
@@ -501,7 +504,10 @@
         "jsonLdEnabled": true
       },
       "birthday": "November 17 / 11月17日",
-      "birthdayEnglish": "November 17"
+      "birthdayEnglish": "November 17",
+      "imageAlt": "LEON VAIL 公式画像",
+      "imageWidth": 1278,
+      "imageHeight": 1230
     }
   ],
   "releases": [

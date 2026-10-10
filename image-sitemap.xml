@@ -186,6 +186,10 @@
       <image:title>ECLYPSE代表画像</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-chimpanzee-no-rakuen.jpg</image:loc>
       <image:title>NOX代表画像</image:title>
     </image:image>
@@ -216,6 +220,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
     </image:image>
   </url>
   <url>
@@ -271,6 +279,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/artists/leon-vail/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
       <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
@@ -386,6 +398,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/artists/tetsuhige/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
@@ -1816,8 +1832,16 @@
       <image:title>鉄と焔の工房の装飾背景（AI生成）</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/assets/cinema/leon-vail-1600.webp</image:loc>
       <image:title>静寂の舞台の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
@@ -1914,6 +1938,14 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-group.webp</image:loc>
       <image:title>ECLYPSE 5人組公式グループビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>鉄髭 - TETSUHIGE - 公式Artist画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式Artist画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro.webp</image:loc>
@@ -8736,6 +8768,14 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANGの代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -の代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAILの代表画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
