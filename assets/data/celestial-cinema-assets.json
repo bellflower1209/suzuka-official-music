@@ -62,17 +62,19 @@
         },
         {
           "path": "assets/cinema/hero-mobile.webp",
-          "bytes": 103262,
-          "sha256": "7b6884f2c0acd8bf0e52c9bfd29a78ca655155f02aaad49beaea3963d2f6aa48",
+          "bytes": 86132,
+          "sha256": "690ec00e9e78aaad3258ec872d86c5f4072d4637f96aae2475a282f6de3ac7b3",
           "width": 627,
-          "height": 941
+          "height": 941,
+          "encodingNote": "V5 mobile delivery: original unchanged; WEBP quality 76"
         },
         {
           "path": "assets/cinema/hero-mobile.avif",
-          "bytes": 96196,
-          "sha256": "d216a39058ed990f751e0a03cc91a62e8693755059c29d5c4a3e100161edf18a",
+          "bytes": 42380,
+          "sha256": "a82f16a4575a6aefe55bdacc7b98e697bd441841fbc5dde6b79053fc6bfec241",
           "width": 627,
-          "height": 941
+          "height": 941,
+          "encodingNote": "V5 mobile delivery: original unchanged; AVIF quality 46"
         }
       ]
     },

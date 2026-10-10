@@ -5,8 +5,8 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const review = path.resolve(root, '../CELESTIAL_PORTAL_V4_QA');
-const port = Number(process.argv[2] || 8821);
+const review = path.resolve(root, '../CELESTIAL_PORTAL_V5_QA');
+const port = Number(process.argv[2] || 8825);
 if (!Number.isInteger(port) || port < 1024 || port > 65535) {
   console.error('Choose a port between 1024 and 65535.');
   process.exit(1);

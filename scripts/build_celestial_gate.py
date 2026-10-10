@@ -122,6 +122,14 @@ def build(root):
         theme=config['themes'].get(slug,{})
         realm=theme.get('realm','celestial')
         text=clear(text)
+        if relative.as_posix() == 'index.html':
+            # These belong to the former first viewport, now below the twelve-world atlas.
+            # Retain the artwork/MV in content while reserving preload bandwidth for the palace.
+            text=re.sub(r'<link\b(?=[^>]*rel="preload")(?=[^>]*as="image")(?=[^>]*href="(?:https://i\.ytimg\.com/|\./images/))[^>]*>', '', text, flags=re.I)
+            def below_fold_image(match):
+                tag=re.sub(r'\s(?:loading|fetchpriority)="[^"]*"', '', match[0], flags=re.I)
+                return re.sub(r'/?>$', ' loading="lazy" fetchpriority="low"/>', tag)
+            text=re.sub(r'<img\b[^>]*>', below_fold_image, text, flags=re.I)
         text=re.sub(r'\sdata-cg-(?:realm|artist|page)="[^"]*"','',text)
         text=re.sub(r'\sstyle="--cg-accent:[^"]*"','',text)
         page_kind='home' if relative.as_posix()=='index.html' else 'artist' if slug in by_slug else 'directory' if relative.as_posix()=='artists/index.html' else 'content'
@@ -130,7 +138,7 @@ def build(root):
             attrs+=f' data-cg-artist="{slug}" style="--cg-accent:{theme["accent"]};--cg-tint:{theme["tint"]}"'
         text=re.sub(r'<body\b', '<body'+attrs,text,count=1)
         environment='gallery-hall' if page_kind=='directory' else theme.get('background','hero')
-        preload=block('PRELOAD',f'<link rel="preload" as="image" type="image/avif" media="(max-width:640px)" href="{prefix}assets/cinema/{environment}-mobile.avif" fetchpriority="high"/><link rel="preload" as="image" type="image/avif" media="(min-width:641px)" imagesrcset="{prefix}assets/cinema/{environment}-768.avif 768w, {prefix}assets/cinema/{environment}-1280.avif 1280w, {prefix}assets/cinema/{environment}-1600.avif 1600w" imagesizes="100vw" fetchpriority="high"/>')
+        preload=block('PRELOAD',f'<link rel="preload" as="style" href="{prefix}assets/celestial-gate.css"/><link rel="preload" as="image" type="image/avif" media="(max-width:640px)" href="{prefix}assets/cinema/{environment}-mobile.avif" fetchpriority="high"/><link rel="preload" as="image" type="image/avif" media="(min-width:641px)" imagesrcset="{prefix}assets/cinema/{environment}-768.avif 768w, {prefix}assets/cinema/{environment}-1280.avif 1280w, {prefix}assets/cinema/{environment}-1600.avif 1600w" imagesizes="100vw" fetchpriority="high"/>')
         if '<!-- SUZUKA:GA4:END -->' in text:
             # The analytics builder adds a trailing newline when it refreshes its
             # block. Normalize only that boundary so repeated builds stay identical.

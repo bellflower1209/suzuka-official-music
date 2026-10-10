@@ -18,11 +18,11 @@
   const storedVolume = read('volume');
   let volume = storedVolume !== null && Number.isFinite(Number(storedVolume)) ? Math.max(0,Math.min(.5,Number(storedVolume))) : config.defaultVolume;
   let audioContext = null, audioSource = null, gainNode = null, envelopeNode = null, loadController = null;
-  let active = null, dialog = null;
+  let active = null, dialog = null, toneFilter = null;
   function stopSound() {
     loadController?.abort(); loadController = null;
     if (audioSource) { try { audioSource.stop(); } catch { /* Already ended. */ } audioSource.disconnect(); audioSource = null; }
-    gainNode?.disconnect(); gainNode = null; envelopeNode?.disconnect(); envelopeNode = null;
+    toneFilter?.disconnect(); toneFilter = null; gainNode?.disconnect(); gainNode = null; envelopeNode?.disconnect(); envelopeNode = null;
   }
   const soundButton = document.querySelector('[data-cg-sound]');
   const shortInput = document.querySelector('[data-cg-short]');
@@ -98,7 +98,8 @@
     if (!valid) { delete document.documentElement.dataset.cgArrival; return; }
     const cover = document.createElement('div'); cover.className = `cg-arrival${record.realm === 'infernal' ? ' cg-infernal' : ''}`;
     cover.style.setProperty('--gate-paper',Object.values(config.artists).find(a => a.background === record.background)?.tint || '#fcf9ef');
-    cover.setAttribute('aria-hidden','true'); cover.innerHTML = '<picture><img alt=""></picture><div class="cg-arrival-mist"></div>';
+    cover.setAttribute('aria-hidden','true'); cover.innerHTML = '<picture><img alt=""></picture><div class="cg-door-distance"></div><div class="cg-arrival-mist cg-atmospheric-veil"></div>';
+    cover.style.setProperty('--cg-arrival-ms',`${config.arrivalMs}ms`);
     setWorld(cover.querySelector('picture'),record.background); document.body.append(cover);
     const hero = document.querySelector('.explorer-hero .cg-scene img,.cg-home-hero .cg-scene img');
     const decode = img => img?.decode?.().catch(() => {}) || Promise.resolve();
@@ -121,12 +122,12 @@
     dialog = document.createElement('dialog');
     if (typeof dialog.showModal !== 'function') return null;
     dialog.className = 'cg-door-dialog'; dialog.setAttribute('aria-labelledby','cg-door-title'); dialog.setAttribute('aria-describedby','cg-door-description');
-    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-distance"></div><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"></div><div class="cg-door-spill"></div></div><div class="cg-door-near-mist"></div><div class="cg-door-wash"></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button><button class="cg-door-mute" type="button" data-cg-dialog-sound aria-pressed="false"></button><label class="cg-door-volume">効果音の音量<input type="range" min="0" max="0.5" step="0.01" data-cg-dialog-volume aria-label="演出中の効果音の音量"></label>';
+    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-distance"></div><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"></div><div class="cg-door-spill"></div></div><div class="cg-door-near-mist cg-mist-left"></div><div class="cg-door-near-mist cg-mist-right"></div><div class="cg-door-wash cg-atmospheric-veil"></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button><button class="cg-door-mute" type="button" data-cg-dialog-sound aria-pressed="false"></button><label class="cg-door-volume">効果音の音量<input type="range" min="0" max="0.5" step="0.01" data-cg-dialog-volume aria-label="演出中の効果音の音量"></label>';
     document.body.append(dialog);
     dialog.querySelector('[data-cg-dialog-sound]').addEventListener('click',toggleSound);
     dialog.querySelector('[data-cg-dialog-volume]').addEventListener('input',event => { volume = Math.max(0,Math.min(.5,Number(event.target.value))); save('volume',volume); if (gainNode) gainNode.gain.setTargetAtTime(volume,audioContext.currentTime,.04); reflect(); });
     reflect();
-    dialog.querySelector('.cg-door-skip').addEventListener('click',() => finish(true));
+    dialog.querySelector('.cg-door-skip').addEventListener('click',() => finish(true,true));
     dialog.querySelector('.cg-door-cancel').addEventListener('click',() => finish(false));
     dialog.addEventListener('cancel',event => { event.preventDefault(); finish(false); });
     return dialog;
@@ -149,7 +150,7 @@
     alert.querySelector('button').addEventListener('click',() => { alert.remove(); state.trigger?.focus({preventScroll:true}); });
     document.body.append(alert); alert.querySelector('button').focus();
   }
-  async function finish(navigate) {
+  async function finish(navigate,skipped = false) {
     const state = active; if (!state) return;
     if (!navigate) { active = null; cleanup(state); return; }
     if (state.navigating) return;
@@ -159,7 +160,7 @@
     if (active !== state) return;
     if (!ready) { navigationError(state); return; }
     try {
-      sessionStorage.setItem('suzuka.cg.arrival',JSON.stringify({path:state.destination.pathname,background:state.background,realm:state.realm,time:Date.now(),fast:state.fast}));
+      sessionStorage.setItem('suzuka.cg.arrival',JSON.stringify({path:state.destination.pathname,background:state.background,realm:state.realm,time:Date.now(),fast:state.fast || skipped}));
     } catch { /* Static hero still renders normally. */ }
     try {
       // Keep the last mist frame on screen until pagehide; never expose the source.
@@ -169,6 +170,7 @@
   }
   const clamp = value => Math.max(0,Math.min(1,value));
   const smooth = value => { const t=clamp(value); return t*t*(3-2*t); };
+  const inertia = value => { const t=clamp(value); return t*t*t*(10+t*(-15+6*t)); };
   function animate(state) {
     const phase = config.timeline, total = config.durationMs;
     const frame = now => {
@@ -176,14 +178,14 @@
       const t = now - state.epoch;
       const approach = smooth(t/phase.approachMs);
       const glow = smooth((t-phase.approachMs)/(phase.glowMs-phase.approachMs));
-      const opening = smooth((t-phase.glowMs)/(phase.openMs-phase.glowMs));
+      const opening = inertia((t-phase.glowMs)/(phase.openMs-phase.glowMs));
       const reveal = smooth((t-phase.openMs)/(phase.revealMs-phase.openMs));
-      // Cubic acceleration makes the foreground pass much faster than the horizon.
+      // The camera starts with a measured drift, then crosses the near plane with increasing velocity.
       const entry = clamp((t-phase.revealMs)/(phase.entryMs-phase.revealMs));
-      const flight = entry*entry*entry;
+      const flight = .08*entry + .92*entry*entry*entry;
       const wash = smooth((t-phase.entryMs)/(total-phase.entryMs));
       const set = (name,value) => dialog.style.setProperty(`--cg-${name}`,String(value));
-      set('approach',approach); set('glow',glow); set('open',opening); set('reveal',reveal); set('flight',flight); set('wash',wash);
+      set('approach',approach); set('glow',glow); set('open',opening); set('reveal',reveal); set('flight',flight); set('travel',entry); set('wash',wash);
       dialog.dataset.phase = t < phase.approachMs ? 'approach' : t < phase.glowMs ? 'glow' : t < phase.openMs ? 'opening' : t < phase.revealMs ? 'world' : t < phase.entryMs ? 'entry' : 'mist';
       if (t >= phase.glowMs) dialog.classList.add('cg-door-opening');
       if (t >= total) { finish(true); return; }
@@ -209,7 +211,7 @@
         .catch(() => { clearTimeout(timeout); resolve(false); });
     });
     panel.className = `cg-door-dialog${realm === 'infernal' ? ' cg-infernal' : ''}${fast ? ' cg-door-fast' : ''}${returning ? ' cg-returning' : ''}`;
-    for (const name of ['approach','glow','open','reveal','flight','wash']) panel.style.setProperty(`--cg-${name}`,'0');
+    for (const name of ['approach','glow','open','reveal','flight','travel','wash']) panel.style.setProperty(`--cg-${name}`,'0');
     panel.dataset.phase = 'loading';
     const emblem = document.createElementNS('http://www.w3.org/2000/svg','svg'); emblem.setAttribute('viewBox','0 0 64 64'); emblem.setAttribute('aria-hidden','true');
     const use = document.createElementNS('http://www.w3.org/2000/svg','use'); use.setAttribute('href',new URL(`assets/celestial-emblems.svg#${artist?.emblem || 'asteria'}`,root).href); emblem.append(use); panel.querySelector('.cg-door-sigil').replaceChildren(emblem);
@@ -237,7 +239,12 @@
       if (buffer && sound && !musicIsActive()) {
         try {
           gainNode = audioContext.createGain(); gainNode.gain.value = volume;
-          audioSource = audioContext.createBufferSource(); audioSource.buffer = buffer; envelopeNode = audioContext.createGain(); audioSource.connect(envelopeNode); envelopeNode.connect(gainNode); gainNode.connect(audioContext.destination);
+          audioSource = audioContext.createBufferSource(); audioSource.buffer = buffer; envelopeNode = audioContext.createGain(); audioSource.connect(envelopeNode);
+          // Reuse the exact V4 candidate. NOX receives gentle darkening, never a replacement or adopted label.
+          if (realm === 'infernal' && isCandidate && typeof audioContext.createBiquadFilter === 'function') {
+            toneFilter = audioContext.createBiquadFilter(); toneFilter.type = 'lowpass'; toneFilter.frequency.value = 720; toneFilter.Q.value = .45;
+            envelopeNode.connect(toneFilter); toneFilter.connect(gainNode);
+          } else envelopeNode.connect(gainNode); gainNode.connect(audioContext.destination);
           const when = audioContext.currentTime + config.timeline.glowMs/1000;
           // Independent envelope preserves live volume control and softens any formal file's attack/tail.
           const envelope = envelopeNode.gain; envelope.value = 0;

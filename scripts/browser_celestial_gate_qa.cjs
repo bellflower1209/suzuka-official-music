@@ -4,7 +4,7 @@
 const {chromium}=require(process.env.CG_PLAYWRIGHT_MODULE || 'playwright');
 const fs=require('node:fs');const path=require('node:path');const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');const cms=JSON.parse(fs.readFileSync(path.join(root,'assets/data/creator-cms.json')));
-const base=(process.argv[2]||'http://127.0.0.1:8821/').replace(/\/?$/,'/');
+const base=(process.argv[2]||'http://127.0.0.1:8825/').replace(/\/?$/,'/');
 const output=process.env.CG_QA_OUTPUT||'/private/tmp/celestial-gate-browser';fs.mkdirSync(output,{recursive:true});
 const checks=[];let browser;
 async function run(name,fn){try{const details=await fn();checks.push({name,status:'PASS',details});console.log('PASS',name)}catch(e){checks.push({name,status:'FAIL',error:e.message});console.log('FAIL',name,e.message)}}
