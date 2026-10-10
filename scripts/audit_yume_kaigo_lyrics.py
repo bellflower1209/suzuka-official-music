@@ -3,6 +3,9 @@
 from __future__ import annotations
 
 import hashlib
+import html
+import re
+import copy
 import json
 import sys
 from html.parser import HTMLParser
@@ -120,14 +123,33 @@ def main() -> int:
                 if removed in text:
                     errors.append(f"{relative}: removed credit remains: {removed}")
 
+    # A separate verified MV version may retain its actual YouTube video title.
+    # Exempt only that exact title on the matching external video link / version
+    # field, never the work title, SEO, lyrics, or an arbitrary old-title occurrence.
+    versions = {v['youtubeUrl']: v for v in (release or {}).get('videoVersions', [])
+                if v.get('verifiedAt') and v.get('source') in {'official-youtube-channel-videos-and-player-microformat', 'official-youtube-oembed'}}
     public_old = []
-    for path in ROOT.rglob("*.html"):
+    # Only generated public routes; numbered personal backup copies are not publishable pages.
+    for path in [*ROOT.rglob("index.html"), ROOT / "404.html"]:
         if path.relative_to(ROOT).parts[0] == "admin":
             continue
-        if OLD_TITLE in path.read_text(encoding="utf-8", errors="ignore"):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        if path == ROOT / f"releases/{SLUG}/index.html":
+            for url, version in versions.items():
+                text = re.sub(r'<a\b[^>]*href="' + re.escape(html.escape(url, quote=True)) + r'"[^>]*>' + re.escape(html.escape(version['title'])) + r' ↗</a>', '', text)
+        if OLD_TITLE in text:
             public_old.append(str(path.relative_to(ROOT)))
     for relative in ("assets/data/search-v31.json", "assets/data/releases-catalog.json"):
-        if OLD_TITLE in (ROOT / relative).read_text(encoding="utf-8"):
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        if relative.endswith('releases-catalog.json'):
+            catalog = json.loads(text)
+            for item in catalog['releases']:
+                if item.get('slug') != SLUG: continue
+                for version in item.get('videoVersions', []):
+                    source = versions.get(version.get('youtubeUrl'))
+                    if source and version == source: version.pop('title', None)
+            text = json.dumps(catalog, ensure_ascii=False)
+        if OLD_TITLE in text:
             public_old.append(relative)
     if public_old:
         errors.append("old public title remains: " + ", ".join(public_old))
