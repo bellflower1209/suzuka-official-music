@@ -44,6 +44,7 @@ jobs:
           node --version
           node --check assets/celestial-gate.js
           python3 scripts/audit_celestial_gate.py
+          python3 scripts/test_official_image_restoration.py
           python3 scripts/audit_celestial_cinema.py
           python3 scripts/audit_sync.py
           python3 scripts/audit_seo.py

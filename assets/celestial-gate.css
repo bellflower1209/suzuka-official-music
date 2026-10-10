@@ -105,9 +105,9 @@ body[data-cg-realm=infernal] .season-banner :is(p,h2,a){color:#f6cbbd}
 body[data-cg-realm] .v31-artist-directory-card[data-cg-card-realm=infernal]{background:#1c1420;--cg-ink:#f9e9e8;--cg-muted:#d5bec9;border-color:#76535d}
 /* Preferences are always accessible, never in the way of the main content. */
 .cg-settings{position:fixed;z-index:80;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));font-size:.75rem}
-.cg-settings>summary{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:44px;padding:10px 16px;background:var(--cg-paper);color:var(--cg-ink);border:1px solid var(--cg-line);cursor:pointer;list-style:none;box-shadow:0 3px 20px #243b4c16}
-.cg-settings>summary::-webkit-details-marker{display:none}.cg-settings-panel{position:absolute;right:0;bottom:54px;width:min(295px,calc(100vw - 32px));display:grid;gap:15px;padding:22px;background:var(--cg-paper);color:var(--cg-ink);border:1px solid var(--cg-line);box-shadow:0 12px 40px #243b4c26}
-.cg-settings-panel>p{font-family:var(--cg-serif);letter-spacing:.13em;font-size:.72rem}.cg-settings-panel button{border:1px solid var(--cg-line);min-height:44px;padding:8px;cursor:pointer}.cg-settings-panel button:disabled{background:var(--cg-tint);color:var(--cg-muted);border-color:var(--cg-line);cursor:default}.cg-settings-panel label{display:grid;gap:8px}.cg-settings-panel .cg-check{display:flex;align-items:center;gap:10px;min-height:44px}.cg-settings-panel small{font-size:.69rem;line-height:1.8;color:var(--cg-muted)}
+
+
+
 /* The single dialog is created on demand. */
 .cg-door-dialog{position:fixed;inset:0;max-width:none;max-height:none;width:100%;height:100%;padding:0;border:0;margin:0;overflow:hidden;background:#d9e8ef;color:#263e4b;z-index:10000;--gate-accent:#806432;--gate-paper:#fcf9ef;--gate-dark:#b7c8cf}
 .cg-door-dialog::backdrop{background:#102634cc}.cg-door-dialog.cg-infernal{background:#0c0a13;color:#fff2f0;--gate-accent:#ef959f;--gate-paper:#19141f;--gate-dark:#07070c}
@@ -463,3 +463,6 @@ html[data-cg-arrival] body {background:inherit!important;}
 .cg-door-volume input {width:90px;accent-color:#d9c9a5;}
 @media(max-width:640px) {.cg-door-mute {top:20px;left:14px;padding:14px 12px;}.cg-door-volume {right:14px;bottom:28px;padding:8px;}.cg-door-volume input {width:55px;}.cg-door-cancel {left:14px;transform:none!important;}}
 @media (prefers-reduced-motion:reduce) {.cg-door-portal,.cg-door-near-mist {display:none!important;}.cg-arrival {animation:none!important;}}
+
+.cg-settings>button{display:flex;align-items:center;justify-content:center;min-height:44px;min-width:110px;padding:10px 16px;background:var(--cg-paper);color:var(--cg-ink);border:1px solid var(--cg-line);font:inherit;cursor:pointer;box-shadow:0 3px 20px #243b4c16}
+.cg-settings>button:disabled{cursor:default;color:var(--cg-muted)}

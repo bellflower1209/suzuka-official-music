@@ -96,8 +96,7 @@ def atlas(artists, config, prefix):
 
 
 def settings(audio):
-    label=('音声 OFF' if audio.endswith('door-heavy-v2.wav') else '候補音声 OFF') if audio else '音源未登録'
-    return '<details class="cg-settings"><summary>体験設定 <span aria-hidden="true">✧</span></summary><div class="cg-settings-panel"><p>GATE EXPERIENCE</p><button type="button" data-cg-sound aria-pressed="false"'+('' if audio else ' disabled')+'>'+label+'</button><label>効果音の音量<input type="range" data-cg-volume min="0" max="0.5" step="0.01" value="0.24" aria-label="扉の効果音の音量"/></label><label class="cg-check"><input type="checkbox" data-cg-short/>演出を短くする</label><small data-cg-sound-note>'+(('音声は選択した扉でのみ再生します。楽曲再生中は効果音を抑えます。' if audio.endswith('door-heavy-v2.wav') else '正式Ver.2は未登録です。新規候補の試聴は任意です。正式採用済みではありません。') if audio else '正式な重低音Ver.2が未登録です。扉は無音で開きます。')+'</small></div></details>'
+    return '<div class="cg-settings"><button type="button" data-cg-sound aria-pressed="false"'+('' if audio else ' disabled')+'>効果音 OFF</button></div>'
 
 
 def build(root):

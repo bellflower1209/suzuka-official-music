@@ -15,8 +15,8 @@
   const isCandidate = !config.doorAudio && Boolean(config.candidateAudio);
   let sound = Boolean(audioPath) && read('sound') === 'on';
   let short = read('short') === 'true';
-  const storedVolume = read('volume');
-  let volume = storedVolume !== null && Number.isFinite(Number(storedVolume)) ? Math.max(0,Math.min(.5,Number(storedVolume))) : config.defaultVolume;
+  // Fixed safe gain; legacy slider preferences cannot raise the sound level.
+  const volume = Math.max(0,Math.min(.24,Number(config.defaultVolume) || 0));
   let audioContext = null, audioSource = null, gainNode = null, envelopeNode = null, loadController = null;
   let active = null, dialog = null, toneFilter = null;
   function stopSound() {
@@ -25,21 +25,16 @@
     toneFilter?.disconnect(); toneFilter = null; gainNode?.disconnect(); gainNode = null; envelopeNode?.disconnect(); envelopeNode = null;
   }
   const soundButton = document.querySelector('[data-cg-sound]');
-  const shortInput = document.querySelector('[data-cg-short]');
-  const volumeInput = document.querySelector('[data-cg-volume]');
   function reflect() {
     if (soundButton) {
       soundButton.disabled = !audioPath;
-      soundButton.textContent = audioPath ? `${isCandidate ? '候補音声' : '音声'} ${sound ? 'ON' : 'OFF'}` : '音源未登録';
+      soundButton.textContent = audioPath ? `効果音 ${sound ? 'ON' : 'OFF'}` : '効果音 OFF';
       soundButton.setAttribute('aria-pressed',String(sound));
     }
     if (dialog) {
       const mute = dialog.querySelector('[data-cg-dialog-sound]');
-      mute.disabled = !audioPath; mute.textContent = audioPath ? `${isCandidate ? '候補音声' : '音声'} ${sound ? 'ON' : 'OFF'}` : '音源未登録'; mute.setAttribute('aria-pressed',String(sound));
-      dialog.querySelector('[data-cg-dialog-volume]').value = String(volume);
+      mute.disabled = !audioPath; mute.textContent = audioPath ? `効果音 ${sound ? 'ON' : 'OFF'}` : '効果音 OFF'; mute.setAttribute('aria-pressed',String(sound));
     }
-    if (shortInput) shortInput.checked = short;
-    if (volumeInput) volumeInput.value = String(volume);
   }
   reflect();
   function imageFallback(image) {
@@ -61,15 +56,9 @@
     reflect();
   }
   soundButton?.addEventListener('click',toggleSound);
-  shortInput?.addEventListener('change',() => { short = shortInput.checked; save('short',short); });
-  volumeInput?.addEventListener('input',() => {
-    volume = Math.max(0,Math.min(.5,Number(volumeInput.value))); save('volume',volume);
-    if (gainNode) gainNode.gain.setTargetAtTime(volume,audioContext.currentTime,.04);
-  });
   addEventListener('storage',event => {
     if (!event.key?.startsWith('suzuka.cg.')) return;
     sound = Boolean(audioPath) && read('sound') === 'on'; short = read('short') === 'true';
-    const next = read('volume'); if (next !== null && Number.isFinite(Number(next))) volume = Math.max(0,Math.min(.5,Number(next)));
     if (!sound) stopSound(); reflect();
   });
   const musicIsActive = () => [...document.querySelectorAll('audio,video')].some(media => !media.paused && !media.ended)
@@ -122,10 +111,9 @@
     dialog = document.createElement('dialog');
     if (typeof dialog.showModal !== 'function') return null;
     dialog.className = 'cg-door-dialog'; dialog.setAttribute('aria-labelledby','cg-door-title'); dialog.setAttribute('aria-describedby','cg-door-description');
-    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-distance"></div><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"></div><div class="cg-door-spill"></div></div><div class="cg-door-near-mist cg-mist-left"></div><div class="cg-door-near-mist cg-mist-right"></div><div class="cg-door-wash cg-atmospheric-veil"></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button><button class="cg-door-mute" type="button" data-cg-dialog-sound aria-pressed="false"></button><label class="cg-door-volume">効果音の音量<input type="range" min="0" max="0.5" step="0.01" data-cg-dialog-volume aria-label="演出中の効果音の音量"></label>';
+    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-distance"></div><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"></div><div class="cg-door-spill"></div></div><div class="cg-door-near-mist cg-mist-left"></div><div class="cg-door-near-mist cg-mist-right"></div><div class="cg-door-wash cg-atmospheric-veil"></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button><button class="cg-door-mute" type="button" data-cg-dialog-sound aria-pressed="false"></button>';
     document.body.append(dialog);
     dialog.querySelector('[data-cg-dialog-sound]').addEventListener('click',toggleSound);
-    dialog.querySelector('[data-cg-dialog-volume]').addEventListener('input',event => { volume = Math.max(0,Math.min(.5,Number(event.target.value))); save('volume',volume); if (gainNode) gainNode.gain.setTargetAtTime(volume,audioContext.currentTime,.04); reflect(); });
     reflect();
     dialog.querySelector('.cg-door-skip').addEventListener('click',() => finish(true,true));
     dialog.querySelector('.cg-door-cancel').addEventListener('click',() => finish(false));
@@ -246,7 +234,7 @@
             envelopeNode.connect(toneFilter); toneFilter.connect(gainNode);
           } else envelopeNode.connect(gainNode); gainNode.connect(audioContext.destination);
           const when = audioContext.currentTime + config.timeline.glowMs/1000;
-          // Independent envelope preserves live volume control and softens any formal file's attack/tail.
+          // Independent envelope preserves the fixed safe gain and softens any formal file's attack/tail.
           const envelope = envelopeNode.gain; envelope.value = 0;
           if (typeof envelope.setValueAtTime === 'function') {
             envelope.setValueAtTime(0,when); envelope.linearRampToValueAtTime(1,when+.08);
@@ -254,7 +242,7 @@
             envelope.setValueAtTime(1,Math.max(when+.08,end-.15)); envelope.linearRampToValueAtTime(0,end);
           } else envelope.value = 1;
           audioSource.start(when);
-          description.textContent = isCandidate ? '新規候補の試聴とともに扉を開きます。正式Ver.2ではありません。' : '重低音Ver.2とともに扉を開きます。';
+          description.textContent = '効果音とともに扉を開きます。';
         } catch { stopSound(); description.textContent = '効果音を再生できないため、無音で移動します。'; }
       }
       if (fast) { panel.dataset.phase = 'short'; later(() => finish(true),config.shortDurationMs,state); }

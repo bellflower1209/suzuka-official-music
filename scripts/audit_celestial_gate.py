@@ -15,6 +15,10 @@ def main():
     for p in [*ROOT.rglob('index.html'),ROOT/'404.html']:
         s=p.read_text();pages+=1
         if s.count('CELESTIAL-GATE:ASSETS:START')!=1 or s.count('id="cg-config"')!=1 or s.count('CELESTIAL-GATE:SETTINGS:START')!=1: errors.append(str(p.relative_to(ROOT)))
+        if s.count('data-cg-sound aria-pressed="false"') != 1 or '>効果音 OFF</button>' not in s:
+            errors.append(f'{p}: initial sound OFF control missing')
+        if any(marker in s for marker in ['data-cg-volume', 'data-cg-short', '候補音声 OFF', '正式Ver.2は未登録です。新規候補の試聴']):
+            errors.append(f'{p}: retired public sound settings remain')
         expected='infernal' if p.relative_to(ROOT).as_posix()=='artists/nox/index.html' else 'celestial'
         if f'data-cg-realm="{expected}"' not in s:errors.append(f'{p}: wrong realm')
     for a in artists:
