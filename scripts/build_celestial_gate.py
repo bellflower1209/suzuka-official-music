@@ -58,16 +58,15 @@ def scenery(key, prefix, *, portal=False, priority=False, label=None):
 
 
 def portal(a, theme, prefix, portrait=None):
-    kind='infernal' if theme['realm']=='infernal' else 'celestial'
-    frame=f'{prefix}assets/cinema/frame-{kind}-480.webp'
-    material='黒曜石' if kind=='infernal' else '白大理石'
-    return f'<span class="cg-world-stage">{scenery(theme["background"],prefix,portal=True,label=theme["label"])}<img class="cg-portal-frame" src="{frame}" alt="{material}の門の装飾フレーム（AI生成）" width="480" height="720" loading="lazy" decoding="async" aria-hidden="true"/></span><span class="cg-official-inset">{portrait or art(a,prefix)}</span>'
+    # The threshold, hinges, floor and world are photographed in one plate.
+    # Avoid a detached arch cutout or a portrait composited as a fictional actor.
+    return f'<span class="cg-world-stage">{scenery(theme["background"],prefix,label=theme["label"])}</span><span class="cg-official-inset">{portrait or art(a,prefix)}</span>'
 
 
 def validate_cinema(root, config, artists):
     manifest=json.loads((root/config['cinema']['manifest']).read_text())
     items={i['id']:i for i in manifest['assets']}
-    expected={'hero','door-celestial','door-infernal','frame-celestial','frame-infernal',*(a['slug'] for a in artists)}
+    expected={'hero','gallery-hall','door-celestial','door-infernal','frame-celestial','frame-infernal',*(a['slug'] for a in artists)}
     if set(items)!=expected:raise ValueError('Every artist and physical gate requires its own cinematic asset.')
     for a in artists:
         if config['themes'][a['slug']]['background']!=a['slug']:raise ValueError('Artist background must match its recorded asset.')
@@ -83,7 +82,7 @@ def atlas(artists, config, prefix):
     for i,a in enumerate(artists,1):
         t=config['themes'][a['slug']]
         cards.append(f'<a class="cg-world-card" href="{prefix}artists/{e(a["slug"])}/" data-cg-world="{e(a["slug"])}" data-cg-card-realm="{t["realm"]}" style="--world-accent:{t["accent"]};--world-tint:{t["tint"]}"><span class="cg-world-number">WORLD {i:02d} / {len(artists):02d}</span>{portal(a,t,prefix)}<span class="cg-world-copy"><small>{e(t["label"])}</small><strong>{e(a["name"])}</strong><span>{e(a["world"])}</span><b>扉を開く <span aria-hidden="true">↗</span></b></span></a>')
-    return '<section class="cg-atlas" id="celestial-worlds" aria-labelledby="cg-worlds-title"><div class="cg-section-heading"><div><p class="cg-kicker">THE WORLDS BEYOND</p><h2 id="cg-worlds-title">音楽の、その先へ。</h2></div><p>ひとつの扉から、ひとつの世界へ。<br/>あなたの心に響くアーティストを見つけて。</p></div><div class="cg-world-grid">'+''.join(cards)+'</div></section>'
+    return '<section class="cg-atlas" id="celestial-worlds" aria-labelledby="cg-worlds-title"><div class="cg-hall">'+scenery('gallery-hall',prefix)+'<div class="cg-section-heading"><div><p class="cg-kicker">THE WORLDS BEYOND</p><h2 id="cg-worlds-title">音楽の、その先へ。</h2></div><p>ひとつの扉から、ひとつの世界へ。<br/>あなたの心に響くアーティストを見つけて。</p></div></div><div class="cg-world-grid">'+''.join(cards)+'</div></section>'
 
 
 def settings(audio):
@@ -120,7 +119,7 @@ def build(root):
         if slug in by_slug:
             attrs+=f' data-cg-artist="{slug}" style="--cg-accent:{theme["accent"]};--cg-tint:{theme["tint"]}"'
         text=re.sub(r'<body\b', '<body'+attrs,text,count=1)
-        environment=theme.get('background','hero')
+        environment='gallery-hall' if page_kind=='directory' else theme.get('background','hero')
         preload=block('PRELOAD',f'<link rel="preload" as="image" type="image/avif" media="(max-width:640px)" href="{prefix}assets/cinema/{environment}-mobile.avif" fetchpriority="high"/><link rel="preload" as="image" type="image/avif" media="(min-width:641px)" imagesrcset="{prefix}assets/cinema/{environment}-768.avif 768w, {prefix}assets/cinema/{environment}-1280.avif 1280w, {prefix}assets/cinema/{environment}-1600.avif 1600w" imagesizes="100vw" fetchpriority="high"/>')
         if '<!-- SUZUKA:GA4:END -->' in text:
             # The analytics builder adds a trailing newline when it refreshes its
@@ -145,6 +144,12 @@ def build(root):
             hero=f'<section class="cg-home-hero" aria-labelledby="cg-title">{scenery("hero",prefix,priority=True)}<div class="cg-hero-copy"><p class="cg-kicker">AN ORIGINAL MUSIC UNIVERSE</p><p class="cg-wordmark" id="cg-title">SUZUKA</p><p class="cg-gate-title">CELESTIAL GATE</p><h2>{e(config["concept"])}</h2><div class="cg-hero-actions"><a href="#celestial-worlds" class="cg-primary">十二の世界へ <span aria-hidden="true">↓</span></a><a href="./search/">音楽を探す <span aria-hidden="true">↗</span></a></div></div><div class="cg-coordinate" aria-hidden="true"><span>CELESTIAL REALM</span><span>{len(artists):02d} WORLDS · ONE UNIVERSE</span></div></section>'
             # Retain the canonical release H1 and full latest-release Hero below the new gateway.
             text=text.replace(block('SETTINGS',settings(audio)),block('SETTINGS',settings(audio))+block('HOME',hero+atlas(artists,config,prefix)),1)
+        if page_kind in {'artist','directory'}:
+            season=re.search(r'<!-- SUZUKA:HALLOWEEN:START -->.*?<!-- SUZUKA:HALLOWEEN:END -->',text,re.S)
+            if season and '<div id="content">' in text:
+                notice=season[0]
+                text=text[:season.start()]+text[season.end():]
+                text=text.replace('<div id="content">','<div id="content">'+notice,1)
         if slug in by_slug:
             # Keep existing release/karaoke announcements intact, below the world
             # entrance. Their canonical generator may insert them before the hero.
@@ -180,7 +185,7 @@ def build(root):
                     return match[1]+portal(a,t,prefix,portrait)+contents+match[3]
                 text=re.sub(pattern,directory_portal,text,flags=re.S)
         # Photographic hero environments keep all canonical headings and copy.
-        environment=slug if slug in by_slug else 'hero'
+        environment=slug if slug in by_slug else 'gallery-hall' if page_kind=='directory' else 'hero'
         priority=relative.parts[0]!='gallery'
         text=re.sub(r'(<section class="(?:explorer-hero|directory-hero|artists-index-hero|artist-profile-hero)"[^>]*>)',lambda m:m[0]+block('SCENE',scenery(environment,prefix,priority=priority,label=theme.get('label'))),text,count=1)
         text=text.replace('<p class="section-kicker">SUZUKA EXPLORER UPDATE</p>','<p class="section-kicker">SUZUKA MUSIC UNIVERSE</p>')

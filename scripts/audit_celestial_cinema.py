@@ -35,6 +35,6 @@ def main():
     for key in ['cg-door-beyond','cg-door-frame','config.doorAudio','AudioContext','musicIsActive']:
         if key not in js:errors.append('Gate behavior missing: '+key)
     if errors:raise SystemExit('\n'.join(errors))
-    print(json.dumps({'status':'PASS','htmlPages':len(pages),'artistEnvironments':len(artists),'environmentPlates':13,'doorTextures':2,'alphaFrames':2,'encodedFiles':encoded,'officialImagesChanged':0,'audio':'verified' if config['doorAudio'] else 'FORMAL V2 MISSING'},ensure_ascii=False))
+    print(json.dumps({'status':'PASS','htmlPages':len(pages),'artistEnvironments':len(artists),'environmentPlates':sum(a.get('kind')=='environment' for a in manifest['assets']),'doorTextures':2,'alphaFrames':2,'encodedFiles':encoded,'officialImagesChanged':0,'audio':'verified' if config['doorAudio'] else 'FORMAL V2 MISSING'},ensure_ascii=False))
 
 if __name__=='__main__':main()

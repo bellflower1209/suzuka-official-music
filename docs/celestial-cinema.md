@@ -1,38 +1,39 @@
-# CELESTIAL GATE Cinema V2 — 素材・実装・運用
+# CELESTIAL GATE Cinema V3 — 素材・実装・運用
 
-本番未公開のローカル改装です。正本は引き続き `assets/data/creator-cms.json`。既存のPython生成方式とGitHub Pages構成を維持し、HTMLに写真背景の表示層を生成します。人物・顔・衣装は生成していません。参考画像内の人物・名称・UIは転用していません。
+本番未公開・完成未承認のローカル改装です。ユーザーがV2の品質を承認していないことを前提に、新しい背景と画面構成を再制作しました。映画的品質はスクリーンショットと実際のプレビューで最終レビューしてください。正本は引き続き `assets/data/creator-cms.json`。既存のPython生成方式とGitHub Pages構成を維持し、HTMLに写真背景の表示層を生成します。人物・顔・衣装は生成していません。参考画像内の人物・名称・UIは転用していません。
 
 ## 制作・採用素材
 
-built-in image_genで人物のいない装飾背景13点、物理扉のテクスチャ2点、透過建築フレーム2点を制作しました。全プロンプト、生成日、元ファイル名、元画像SHA-256、実寸、用途、派生ファイルのSHA-256は `assets/data/celestial-cinema-assets.json` に記録しています。
+built-in image_genで今回、人物のいない背景14点（ホーム・大回廊・12組の世界）とNOX専用の縦背景1点を新規制作しました。物理扉のテクスチャ2点と透過建築フレーム2点はV2の生成素材を継続採用し、開閉演出だけに使用しています。一覧の門はフレーム画像を貼り付けず、柱・扉・床・奥の世界を一体として生成した背景を大きく表示します。全プロンプト、生成日、元ファイル名、元画像SHA-256、実寸、用途、派生ファイルのSHA-256は `assets/data/celestial-cinema-assets.json` に記録しています。
 
 | 用途 | 素材ID | 内容 |
 |---|---|---|
 | ホーム・共通ページ | `hero` | 雲海、巨大な白大理石宮殿、柱、自然光、反射する床 |
-| 朝霧しのぶ | `asagiri-shinobu` | 記憶・和の歌に合わせた白石庭園、紅葉、水面 |
-| ASTERIA | `asteria` | 五つのアーチ、星空、真鍮の天球儀 |
-| ECLYPSE | `eclypse` | 白石・ガラス・金属の近未来観測所 |
+| アーティスト一覧・回廊 | `gallery-hall` | 白大理石の巨大門を持つ大回廊、連続した床・柱・天井 |
+| 朝霧しのぶ | `asagiri-shinobu` | 記憶・和の歌に合わせた桜・和の庭・縁側・水面 |
+| ASTERIA | `asteria` | 五つの星・巨大な天文宮殿・真鍮の天球儀 |
+| ECLYPSE | `eclypse` | 白石・ガラス・金属の近未来宮殿 |
 | 榎本魅愛 | `enomoto-mia` | 薔薇のテラス、夜明けの淡い光 |
-| 神代煌牙 | `koga-kamishiro` | 白石と青灰色の聖堂、盾と剣 |
-| 妃みちる | `michiru` | 花と本を置いた静かな温室 |
+| 神代煌牙 | `koga-kamishiro` | 白石と青灰色の巨大な静かな聖堂 |
+| 妃みちる | `michiru` | 花・緑・温室・雲海の穏やかな宮殿 |
 | NOX | `nox` | 黒曜石の城、深紅の月、濃霧、赤い反射 |
 | RANGILI | `rangili` | 白石の透かし彫り、暖色の祝祭庭園 |
-| RE:VIVE | `revive` | 雨上がりの白い円形劇場、新しい朝 |
+| RE:VIVE | `revive` | 雨上がりの白い聖域・階段と新しい朝 |
 | VEILFANG | `veilfang` | 月明かりと森の白石の神殿 |
 | 鉄髭 - TETSUHIGE - | `tetsuhige` | 白石の天空工房、鉄床と道具 |
-| LEON VAIL | `leon-vail` | 無人の白石劇場、青い幕、マイク |
+| LEON VAIL | `leon-vail` | 無人の白石劇場、青い幕、遠景のピアノ |
 | 天界の扉面 | `door-celestial` | 重い白大理石・真鍮・彫刻・外側の蝶番 |
 | 魔界の扉面 | `door-infernal` | 黒曜石・黒鉄・外側の蝶番 |
 | 天界の門構造 | `frame-celestial` | 白石の柱・アーチ、開口部と周囲が透過 |
 | 魔界の門構造 | `frame-infernal` | 黒石の巨大な尖頭アーチ、開口部と周囲が透過 |
 
-音楽性の根拠は既存のArtistのworld・プロフィール・作品です。背景は今回の美術設計であり、公式の人物設定を追記するものではありません。各背景は対応Artistのページと扉の奥に表示します。Artistページでは背景を最初に見せ、既存の配信・JOYSOUND告知は内容とリンクを保持したまま入口の後へ配置します。
+音楽性の根拠は既存のArtistのworld・プロフィール・作品です。背景は今回の美術設計であり、公式の人物設定を追記するものではありません。各背景は対応Artistのページと扉の奥に表示します。Artistページでは背景を最初に見せ、既存の配信・JOYSOUND・季節告知は内容とリンクを保持したまま入口の後へ配置します。ホーム・一覧・全Artistは背景を100svhで表示し、その他の全307ページにも共通の写真背景・文字・ナビゲーションを適用します。
 
-保存先は `assets/cinema/`。背景はAVIF/WebP各768・1280・1600px、スマートフォン用縦構図約627×941px。生成元は1672×941px（妃みちるのみ高さ940px）、扉・フレームは1024×1536px。4K素材とは扱っていません。アップスケールせず、門の透過を保ちました。背景17点の派生と公式サムネイルを合わせて132ファイル、16,987,024 bytesです。閲覧時は該当サイズだけを読みます。
+保存先は `assets/cinema/`。背景はAVIF/WebP各768・1280・1600px、スマートフォン用縦構図約627×941px。NOXは城塞と深紅の月が中央に収まる専用の縦構図を別途生成しました。今回の背景生成元は1672×941px、NOX専用縦背景は1024×1536px、扉・フレームは1024×1536px。4K素材とは扱っていません。アップスケールせず、門の透過を保ちました。背景14点と扉・フレーム4点の派生、公式サムネイルを合わせて140ファイル、18,246,726 bytesです。閲覧時は該当サイズだけを読みます。
 
 公式画像10組は元画像を残し、全構図を保持した比例縮小WebP480/960pxを `assets/cinema/official/` に追加しました。人物の切り抜き・顔の修正・衣装変更はありません。LEON VAILと鉄髭は正式画像がないためIMAGE PENDINGを維持します。
 
-生成原本と制作記録はリポジトリ外の `/Users/enomotojunichi/Documents/SUZUKA公式サイト/CELESTIAL_CINEMA_QA/originals/`、`generation-sources.json` に保存しています。原本を今後も保管してください。通常ビルドは配布済みAVIF/WebPを使い、画像生成やPillowを必要としません。
+生成原本と制作記録はリポジトリ外の `/Users/enomotojunichi/Documents/SUZUKA公式サイト/CELESTIAL_CINEMA_V3_QA/originals/`、`sources.json`（14点の新規生成のみは `generated-sources.json`） に保存しています。原本を今後も保管してください。通常ビルドは配布済みAVIF/WebPを使い、画像生成やPillowを必要としません。
 
 ## 使用条件と出典
 
@@ -72,7 +73,7 @@ python3 scripts/audit_celestial_cinema.py
 node --check assets/celestial-gate.js
 ```
 
-2回目はchangedCount=0、deletedCount=0を確認します。番号付きのiCloud重複HTMLなど未追跡ファイルが混ざる場合は、そのファイルを触らず、Git管理ファイルと今回の素材だけを別のローカル検証コピーに移して生成します。今回の検証はこの方法で行い、`CELESTIAL_CINEMA_QA/validation-stage.json` と `generated-apply.json` に対象ファイルと削除0件を記録しています。
+2回目はchangedCount=0、deletedCount=0を確認します。番号付きのiCloud重複HTMLなど未追跡ファイルが混ざる場合は、そのファイルを触らず、Git管理ファイルと今回の素材だけを別のローカル検証コピーに移して生成します。今回の検証はこの方法で行い、`CELESTIAL_CINEMA_V3_QA/validation-stage.json` と `generated-apply.json` に対象ファイルと削除0件を記録しています。
 
 素材を再エンコードする場合だけ、AVIF対応Pillowを用意し、原本を指す制作記録を `--sources`、原本保管先を `--archive`、サイトを `--root` に指定します。通常ビルドでの再生成は不要です。
 
@@ -86,4 +87,6 @@ node --check assets/celestial-gate.js
 - Core Web Vitalsは本番の利用者データで未検証。低速通信を模擬したローカル測定値は最終報告を参照する。
 - 明示的な公開承認後のみ、対象コミットをレビューし、mainへの反映と既存Pages公開手順を実施する。今回はpush・merge・deploy・IndexNow送信を実施しない。
 
-プレビューは親フォルダーで `python3 -m http.server 8818 --bind 127.0.0.1` を実行し、`http://127.0.0.1:8818/suzuka-celestial-gate/` を開きます。Windowsの具体例と停止方法は `docs/celestial-gate.md` を参照してください。
+推奨プレビューはMac・Windowsともサイトフォルダーで `node scripts/preview_celestial_gate.cjs` を実行し、`http://127.0.0.1:8820/` を開きます。レビューは `http://127.0.0.1:8820/review/review.html`。Ctrl+Cで停止します。ループバックのみで配信し、404ページの既存ルートパスも再現します。
+
+従来プレビューは親フォルダーで `python3 -m http.server 8818 --bind 127.0.0.1` を実行し、`http://127.0.0.1:8818/suzuka-celestial-gate/` を開きます。Windowsの具体例と停止方法は `docs/celestial-gate.md` を参照してください。

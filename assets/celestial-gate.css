@@ -334,3 +334,75 @@ body[data-cg-realm] .streaming-release .streaming-status{color:var(--cg-paper);b
 body[data-cg-realm] :is(.directory-hero,.artists-index-hero,.artist-profile-hero) :is(h1,h2,p,span,a,.section-kicker){color:#fff9ec!important}
 body[data-cg-realm] button[data-timeline-sort]{color:var(--cg-ink);background:var(--cg-paper);border:1px solid var(--cg-line);min-height:44px}
 body[data-cg-realm] button[data-timeline-sort][aria-pressed=true]{background:#283039;color:#fff9ec;border-color:#283039}
+/* CINEMA / V3: continuous photographed sets, architectural entrances, editorial copy. */
+body[data-cg-page=artist] .site-header,body[data-cg-page=directory] .site-header{position:absolute;top:0;left:0;background:linear-gradient(#0b152ad9,#0b152a55);color:#fffaf0;backdrop-filter:blur(2px);border-color:#fff4dc32}
+body[data-cg-page=artist] .site-header :is(.brand,.desktop-nav a,.header-channel,.mobile-menu summary),body[data-cg-page=directory] .site-header :is(.brand,.desktop-nav a,.header-channel,.mobile-menu summary){color:#fffaf0}
+.cg-home-hero{height:100svh;min-height:720px;padding:0 24px 110px;align-items:center}
+.cg-home-hero::after{background:linear-gradient(#0b172544,transparent 35%,#07132044),radial-gradient(ellipse at 50% 43%,#0a162566,transparent 55%)}
+.cg-hero-copy{transform:translateY(-3vh)}
+.cg-wordmark{font-size:clamp(4rem,7.7vw,8rem);letter-spacing:.15em}
+.cg-gate-title{font-size:clamp(1.25rem,3vw,2.8rem);letter-spacing:.16em}
+.cg-hero-actions a,.cg-hero-actions a.cg-primary{background:#0e1b2dbb!important;border:0;border-bottom:1px solid #e7d9b5a3;padding:12px 22px}
+.cg-atlas{max-width:none;padding:0;margin:0}
+.cg-hall{position:relative;min-height:75svh;display:flex;align-items:end;padding:80px clamp(25px,7vw,110px);isolation:isolate;background:#26333b}
+.cg-hall>.cg-scene{z-index:-2}.cg-hall::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 30%,#071320e8);z-index:-1}
+.cg-hall .cg-section-heading{width:100%;padding:0;margin:0;border:0;color:#fff9ec;align-items:end}
+body[data-cg-realm] .cg-hall :is(h2,p,.cg-kicker){color:#fff9ec!important}
+.cg-world-grid{display:block;padding:0}
+.cg-world-card{display:grid;grid-template-columns:minmax(0,3fr) minmax(270px,1fr);grid-template-rows:auto 1fr;position:relative;max-width:none;width:100%;min-height:560px;margin:0!important;border-bottom:1px solid var(--cg-line);background:var(--cg-paper)!important}
+.cg-world-number{grid-column:2;grid-row:1;padding:50px 35px 0;text-align:left}
+.cg-world-stage{grid-column:1;grid-row:1/4;width:100%;max-width:none;margin:0;aspect-ratio:auto;min-height:560px;filter:none;background:#23323a}
+.cg-world-stage .cg-scene{inset:0;border-radius:0}
+.cg-world-stage .cg-scene>img{object-position:center;transition:none}
+.cg-world-card:hover .cg-world-stage .cg-scene>img,body[data-cg-realm] .v31-artist-directory-card:hover .cg-world-stage .cg-scene>img{transform:none}
+.cg-world-card .cg-official-inset{grid-column:2;grid-row:3;margin:0 35px 45px;width:calc(100% - 70px);max-width:none}
+.cg-world-copy{grid-column:2;grid-row:2;text-align:left;padding:22px 35px 30px;align-self:center}
+.cg-world-copy strong{font-size:clamp(1.8rem,2.7vw,3rem);line-height:1.3;font-weight:400}
+.cg-world-copy>span{min-height:0;font-size:.8rem;line-height:2;margin:16px 0}
+.cg-world-copy b{margin:0;padding:0;justify-content:space-between;display:flex}
+.cg-world-card[data-cg-card-realm=infernal]{--cg-ink:#f7eee8;--cg-muted:#d8c7c5;--cg-line:#72595c;--cg-paper:#171317;color:#f7eee8!important}
+.cg-world-card[data-cg-card-realm=infernal] .cg-world-copy small{color:#f0bbc0!important}
+body[data-cg-page=directory] .v31-artist-directory{display:block;max-width:none;padding:0;margin:0}
+body[data-cg-page=directory] .v31-artist-directory .v31-artist-directory-card{max-width:none;width:100%;margin:0;border-bottom:1px solid var(--cg-line);background:var(--cg-paper)}
+body[data-cg-page=directory] .v31-artist-directory-card>a{position:relative;display:grid;grid-template-columns:minmax(0,3fr) minmax(270px,1fr);padding:0;text-align:left;gap:0;min-height:600px}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-world-stage{grid-column:1;grid-row:1/8;min-height:600px;max-width:none}
+body[data-cg-page=directory] .v31-artist-directory-card>a>:not(.cg-world-stage){grid-column:2;margin:0 35px;width:calc(100% - 70px);max-width:none;align-self:center;text-align:left}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-directory-label{grid-row:1;padding:40px 0 15px}
+body[data-cg-page=directory] .v31-artist-directory-card h2{font-size:clamp(1.8rem,2.7vw,3rem);line-height:1.3}
+body[data-cg-page=directory] .v31-artist-directory-card p{font-size:.78rem;line-height:2;padding:12px 0}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-official-inset{grid-row:6;margin-bottom:40px}
+body[data-cg-page=directory] .v31-artist-directory-card[data-cg-card-realm=infernal]{background:#171317;--cg-ink:#f7eee8;--cg-muted:#d8c7c5;color:#f7eee8}
+body[data-cg-page=directory] .v31-artist-directory-card[data-cg-card-realm=infernal] .cg-directory-label{color:#f0bbc0!important}
+body[data-cg-page=artist] .cg-realm-intro{position:absolute;top:85px;left:0;width:100%;z-index:4;padding:4px clamp(25px,7vw,110px);color:#fff9ec;background:transparent;border:0}
+body[data-cg-page=artist] .cg-realm-intro .cg-return{color:#fff9ec!important;text-shadow:0 2px 8px #000;background:#101923bb;padding:0 12px}
+body[data-cg-page=artist] .cg-realm-intro>span{background:#101923bb;padding:8px 12px}
+body[data-cg-page=artist] .cg-realm-intro small{display:none}
+body[data-cg-page=artist] .explorer-hero,body[data-cg-page=directory] .explorer-hero{min-height:100svh;padding:200px clamp(25px,7vw,110px) 65px;justify-content:end}
+body[data-cg-realm] .explorer-hero::after,body[data-cg-realm=infernal] .explorer-hero::after{background:linear-gradient(#07132070,transparent 28%,#071320ee)}
+body[data-cg-page=artist] .explorer-hero h1{font-size:clamp(3.6rem,7vw,7rem);margin:0 0 12px}
+body[data-cg-page=artist] .explorer-hero p{max-width:750px;font-size:.9rem}
+body[data-cg-page=directory] .explorer-hero h1{font-size:clamp(3.2rem,7vw,7rem)}
+.cg-directory-intro{padding:70px clamp(25px,7vw,110px)}
+.cg-film-masthead{height:clamp(300px,38vw,600px)}
+body[data-cg-page=content] :is(.explorer-hero,.directory-hero,.artists-index-hero,.artist-profile-hero){min-height:65svh}
+body[data-cg-realm] #content{background:var(--cg-paper)}
+body[data-cg-realm] :is(.explorer-section,.content-section){padding-top:60px;padding-bottom:60px}
+@media(max-width:760px){
+.cg-home-hero{min-height:100svh;padding:0 20px 70px}.cg-hero-copy{transform:translateY(-3svh)}.cg-wordmark{font-size:3.9rem}.cg-gate-title{font-size:1.2rem}
+.cg-hall{min-height:75svh;padding:60px 25px}.cg-hall .cg-section-heading{display:block}.cg-hall .cg-section-heading>p{margin-top:18px}
+.cg-world-card{display:grid;grid-template-columns:1fr;grid-template-rows:auto;min-height:0;max-width:none}
+.cg-world-stage{grid-column:1;grid-row:1;min-height:65svh;aspect-ratio:4/5;width:100%;max-width:none}
+.cg-world-number{grid-column:1;grid-row:2;padding:28px 25px 0}.cg-world-copy{grid-column:1;grid-row:3;padding:15px 25px 25px}.cg-world-copy strong{font-size:2.5rem}
+.cg-world-card .cg-official-inset{grid-column:1;grid-row:4;margin:0 25px 35px;width:calc(100% - 50px);max-width:440px}
+body[data-cg-page=directory] .v31-artist-directory-card>a{display:grid;grid-template-columns:1fr;min-height:0}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-world-stage{grid-row:1;grid-column:1;min-height:65svh;aspect-ratio:4/5;width:100%;max-width:none}
+body[data-cg-page=directory] .v31-artist-directory-card>a>:not(.cg-world-stage){grid-column:1;margin-left:25px;margin-right:25px;width:calc(100% - 50px)}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-directory-label{grid-row:2;padding:28px 0 14px}
+body[data-cg-page=directory] .v31-artist-directory-card .cg-official-inset{grid-row:7;margin-bottom:35px;max-width:440px}
+body[data-cg-page=directory] .v31-artist-directory-card h2{font-size:2.5rem}
+body[data-cg-page=artist] .cg-realm-intro{top:80px;gap:3px}.cg-realm-intro>span{font-size:.5rem}
+body[data-cg-page=artist] .explorer-hero,body[data-cg-page=directory] .explorer-hero{min-height:100svh;padding:180px 25px 55px}
+body[data-cg-page=artist] .explorer-hero h1{font-size:clamp(3rem,12vw,4.5rem)}
+body[data-cg-page=artist] .explorer-hero p{font-size:.75rem;line-height:1.9}.cg-film-masthead{height:48svh}
+}
+@media print{.cg-hall{display:none}.cg-world-card,body[data-cg-page=directory] .v31-artist-directory-card>a{display:block;min-height:0}.cg-world-copy{padding:20px}body[data-cg-page=artist] .cg-realm-intro{position:static;color:black}}
