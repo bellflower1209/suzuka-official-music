@@ -134,6 +134,12 @@ def main() -> int:
         for item in cms.get("specialFeatures", [])
         if item.get("status") == "published"
     )
+    # The homepage builder also publishes canonical series landing pages,
+    # including announced series without invented episodes (e.g. MIA meets).
+    expected_feature_slugs.update(item['slug'] for item in cms.get('seriesDefinitions', []))
+    actual_feature_slugs = {path.parent.name for path in feature_pages}
+    if actual_feature_slugs != expected_feature_slugs:
+        errors.append(f"feature slug mismatch: missing={sorted(expected_feature_slugs-actual_feature_slugs)}, unexpected={sorted(actual_feature_slugs-expected_feature_slugs)}")
     expected = {
         "published": len(cms["releases"]),
         "upcoming": len(cms["upcoming"]),

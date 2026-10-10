@@ -1214,7 +1214,7 @@ def not_found_page(root: Path) -> None:
         '<a href="/schedule/">Schedule</a><a href="/releases/">Releases</a></div></section>'
     )
     page = shell(
-        "404/", "ページが見つかりません｜SUZUKA Official Music",
+        "404.html", "ページが見つかりません｜SUZUKA Official Music",
         "SUZUKA公式サイトで指定されたページが見つかりません。検索、作品一覧、公開スケジュールからお探しください。",
         "404", body, [], page_type="WebPage",
     )

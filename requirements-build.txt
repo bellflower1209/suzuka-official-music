@@ -1,0 +1,2 @@
+# Image dimensions used by build_publication_assets.py during the sync audit.
+Pillow==12.2.0

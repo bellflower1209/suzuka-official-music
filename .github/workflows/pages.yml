@@ -3,6 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}
   cancel-in-progress: false
 
 env:
@@ -24,6 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Use Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install generation dependencies
+        run: python3 -m pip install --disable-pip-version-check -r requirements-build.txt
+
       - name: Use Node.js 24
         uses: actions/setup-node@v7
         with:
@@ -32,6 +42,11 @@ jobs:
       - name: Verify generated site and Node.js scripts
         run: |
           node --version
+          node --check assets/celestial-gate.js
+          python3 scripts/audit_celestial_gate.py
+          python3 scripts/audit_celestial_cinema.py
+          python3 scripts/audit_sync.py
+          python3 scripts/audit_seo.py
           node --check assets/analytics.js
           node --check assets/streaming-release.js
           node scripts/test_streaming_date.mjs
@@ -72,20 +87,24 @@ jobs:
           python3 scripts/audit_indexnow.py
 
       - name: Configure Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v6
 
       - name: Prepare public artifact
+        if: github.event_name != 'pull_request'
         run: |
           mkdir _site
           rsync -a --exclude='.git/' --exclude='_site/' --exclude='assets/data/lyrics-holds.json' ./ _site/
           test ! -e _site/assets/data/lyrics-holds.json
 
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

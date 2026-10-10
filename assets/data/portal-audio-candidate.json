@@ -1,0 +1,14 @@
+{
+  "status": "new-candidate-not-adopted",
+  "name": "Portal V4 DSP sound study",
+  "path": "assets/audio/door-heavy-candidate-v4.wav",
+  "sha256": "9873405f8cfe15720f74e53db83c9209c7edb02f0a09df807447435151606ebc",
+  "sampleRate": 48000,
+  "channels": 2,
+  "durationSeconds": 3.1,
+  "peakDbFS": -3.1,
+  "provenance": "Original deterministic procedural synthesis; no sampled music or official Ver.2 audio.",
+  "rights": "Original project sound candidate, locally synthesized for this review. No third-party samples. Formal adoption pending.",
+  "timelineOffsetMs": 900,
+  "generator": "scripts/create_portal_audio_candidate.py"
+}

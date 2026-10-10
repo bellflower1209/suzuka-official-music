@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "registrations": [
+    {
+      "artistSlug": "tetsuhige",
+      "status": "registered-official-user-provided",
+      "sourceFile": "TETSUHIGE_公式画像.jpg.png",
+      "originalPath": "images/official-originals/tetsuhige-official-profile.png",
+      "originalFormat": "PNG",
+      "originalSha256": "ff7f82c329a44de42fac662f27b7d0c3fe1955f417eaa6a25f5f0ed0b4627804",
+      "width": 1374,
+      "height": 1145,
+      "image": "images/tetsuhige-official-profile.webp",
+      "imageSha256": "cd0d63375f21197b4c8ab0519c68a4665fd896e3366784d7034189b4026974ff",
+      "imageBytes": 398570,
+      "verifiedAt": "2026-10-10T14:53:37+09:00",
+      "authorization": "User-designated official artist image for V5 final release; faces, clothing and composition retained. No separate stock-image license is asserted."
+    },
+    {
+      "artistSlug": "leon-vail",
+      "status": "registered-official-user-provided",
+      "sourceFile": "LEON_VAIL_公式画像.jpg.png",
+      "originalPath": "images/official-originals/leon-vail-official-profile.png",
+      "originalFormat": "PNG",
+      "originalSha256": "7198b2810936ccfcd5024991c430d2172c7040637d95738bd841f319cff5adb2",
+      "width": 1278,
+      "height": 1230,
+      "image": "images/leon-vail-official-profile.webp",
+      "imageSha256": "74941236737452a60b40e0155022140905d82b77877b06056df00e6fee971c3a",
+      "imageBytes": 236930,
+      "verifiedAt": "2026-10-10T14:53:38+09:00",
+      "authorization": "User-designated official artist image for V5 final release; faces, clothing and composition retained. No separate stock-image license is asserted."
+    }
+  ]
+}

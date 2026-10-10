@@ -1,0 +1,1434 @@
+{
+  "version": 3,
+  "serviceTerms": "https://openai.com/policies/terms-of-use/",
+  "rightsNote": "Generated decorative environments are used within this user-authorized redesign. No third-party stock image license or exclusivity is asserted. Official identity assets retain their existing provenance.",
+  "assets": [
+    {
+      "id": "hero",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Asset type: cinematic official music website full-screen environment photograph, landscape 16:9, maximum available native resolution. Create an EMPTY live-action fantasy film set photographed on an Alexa 65, NOT illustration or game render. Colossal intricate white Carrara marble celestial palace floating above dense sculptural clouds, very close architectural scale, elaborate realistic Renaissance and Gothic masonry, many layered towers, buttresses, tall arched galleries and tiny distant suspended palaces. Camera stands on a polished marble terrace framed at both edges by enormous fluted marble columns with restrained aged champagne bronze capitals and dark blue drapery, foreground stone steps and subtle wet marble reflections lead to the palace occupying most of the upper center; terraces and cloud cascades below. Natural late afternoon sunlight from upper left, complex true shadows, believable worn stone pores and veins, atmospheric depth, pale blue sky. Rich detailed physical set, architectural photography, nuanced film color grading, expensive epic cinema still. Central area supports a small website title overlay but do not paint typography. No people, statues resembling people, portraits, logos, writing, UI, cards, text, watermark, cartoon, drawn lines, excessive gold, simplistic symmetrical toy castle. The entire frame is one coherent photographic environment.",
+      "usage": "Empty cinematic palace environment; no identity imagery",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-3de84c31-82c6-47ab-babf-4a010768d3f9.png",
+      "sourceSha256": "5ca46d43c1e5b12f3fcb89dd27c4acd93a9af8f5c7b76644007736db0102a46c",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/hero-768.webp",
+          "bytes": 83058,
+          "sha256": "62e888fb1bd8f9cb1d6f5579e26976207d18dc2d00d8dfa33670e5a76ec9ab56",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/hero-768.avif",
+          "bytes": 72138,
+          "sha256": "620a649681d4453a894553dcff51ec2d049769623c662b21a1edd11a0f6782ec",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/hero-1280.webp",
+          "bytes": 191418,
+          "sha256": "01f737a72b742cb822901d6156bfdee77e7c2d0003bcd77b4350ba7fc0f0c21f",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/hero-1280.avif",
+          "bytes": 171073,
+          "sha256": "84eb7efa7075e6af87baf021f4f0b91e7ca270872bcf813e90168077298241e2",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/hero-1600.webp",
+          "bytes": 254508,
+          "sha256": "4ebb9b9bd44ca3548df6cec85544dec1a797246409c093228ed26acda97fc41b",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/hero-1600.avif",
+          "bytes": 234413,
+          "sha256": "b137dd0147891863ed41ab7f1d236de6e4e9219ffb7666c2ec3c14bb35d473d4",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/hero-mobile.webp",
+          "bytes": 86132,
+          "sha256": "690ec00e9e78aaad3258ec872d86c5f4072d4637f96aae2475a282f6de3ac7b3",
+          "width": 627,
+          "height": 941,
+          "encodingNote": "V5 mobile delivery: original unchanged; WEBP quality 76"
+        },
+        {
+          "path": "assets/cinema/hero-mobile.avif",
+          "bytes": 42380,
+          "sha256": "a82f16a4575a6aefe55bdacc7b98e697bd441841fbc5dde6b79053fc6bfec241",
+          "width": 627,
+          "height": 941,
+          "encodingNote": "V5 mobile delivery: original unchanged; AVIF quality 46"
+        }
+      ]
+    },
+    {
+      "id": "gallery-hall",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic film set, cinematic environment plate, landscape 16:9, highest native resolution. An enormous luminous white marble palace GATE HALL, very deep spatial perspective, camera at human eye level 24mm architectural lens on reflective grey-white marble floor. Twelve monumental arched entrances integrated into massive load-bearing carved marble piers along both sides of a long vaulted gallery, six each side, different warm/cool light through each open doorway. Huge realistic bronze hinges, heavy marble jambs and modest champagne bronze trim, carved stone detail, mullioned clerestory daylight, cloud-filled sky through the distant central grand arch. Believable stone weight, edge wear, thin marble veins, naturally reflected sunlight, finely detailed vaulted ceiling, immense architecture, restrained expensive color grading. ONE coherent photographed set with floor and ceiling, no isolated doors, no panels, no grid, no UI, no text, no names, no logos, no people or human statues, no artist portraits, no cartoon or video game. Beautiful immersive grand hall awaiting exploration.",
+      "usage": "Physical shared gate hall",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-1de7e4ca-c1b0-4a1a-a460-6a071e48d95b.png",
+      "sourceSha256": "5cd0ed6a441ed23733ae8d2999c6eade09a22a8cd71548c05625ad8b27cd0e04",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/gallery-hall-768.webp",
+          "bytes": 71520,
+          "sha256": "73fe30ecfb346069681a1bbdf7fc6876fd97a6140e50c9ed8d4995598297db9e",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/gallery-hall-768.avif",
+          "bytes": 67790,
+          "sha256": "b7d84d649f2b581d2e7fd1e4cb2a37a5d6b5170e29a6b092bb4e1bb956e74374",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/gallery-hall-1280.webp",
+          "bytes": 173438,
+          "sha256": "1cf07c4c9cffcd5209a0dfdabe9917e5fd07c6c760d34ccb7c254f15890d0872",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/gallery-hall-1280.avif",
+          "bytes": 166120,
+          "sha256": "9da559a9cd210589761f4af49250f6280f5dd647ec07e652813559dfc39a3795",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/gallery-hall-1600.webp",
+          "bytes": 240568,
+          "sha256": "77533e218e8d7b5918e2d12e139052b49a455248aae3378a53d9e35330c7b9a2",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/gallery-hall-1600.avif",
+          "bytes": 229745,
+          "sha256": "7d1dee52eda609d81134dc3f2a6529b90d86119d189f05a5d9c715e923741879",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/gallery-hall-mobile.webp",
+          "bytes": 96494,
+          "sha256": "4c3d9f6b70bc0174c2eb20355c6c6248e8175a9d1c75b286aa36fad5fad3338f",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/gallery-hall-mobile.avif",
+          "bytes": 92009,
+          "sha256": "b509b2fc986ce472ed54bb2ed1fdee6288285d25102baa6986e39ecd846a0981",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "asagiri-shinobu",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. An immense white marble celestial gate opens to a tranquil Japanese garden above clouds, ancient cherry trees, nostalgic wooden engawa pavilion built within classical white palace terraces, blossoms lightly on water and stone. Early misty spring sunrise, green moss, pale pink flowers, warm memory and comforting silence. Foreground on left and right are heavy load-bearing carved pillars and the edges of thick monumental OPEN double doors with real hinges, creating a naturally integrated architectural threshold through which the entire world is seen. Deep vanishing perspective, continuous reflective stone floor leads into the distant architecture, visible fine material textures, intricate masonry, believable weight, natural shadows and atmospheric haze, film still, architectural photography. No people, faces, human statues, portraits, clothing, text, logos, UI, cards, watermark, cartoon, painterly illustration, video game, excessive shiny gold. Entire image one coherent physical environment.",
+      "usage": "Empty artist world and physical threshold, canonical world inspired",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-d457b9b7-b507-42e0-a64b-748d7aa678c8.png",
+      "sourceSha256": "de630f9c726b409e138d5970974616d829c20e6f35141da1b90727a6ef2d8280",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/asagiri-shinobu-768.webp",
+          "bytes": 72070,
+          "sha256": "b7b4d4f1c1f81daf4751da59cc97b487391e5f30c486a53a87e842d794a50682",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-768.avif",
+          "bytes": 67913,
+          "sha256": "11c91e4ea57211fc0c368476cf8f4603066d13c30d0105aea72788c679525d62",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-1280.webp",
+          "bytes": 169550,
+          "sha256": "6312fa10abc10774d28d9fcee79b40034a7745b7d116f8266804c7b9b3865d87",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-1280.avif",
+          "bytes": 163138,
+          "sha256": "c507046a2c0136d84acb2ddbd79f7bda04cbfe344a4d03bdb3efa8f4b3511009",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-1600.webp",
+          "bytes": 236200,
+          "sha256": "6bec8c852f1bdfe6cc42354a561837b562669b18335497aeeaa27a39b84966c6",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-1600.avif",
+          "bytes": 225288,
+          "sha256": "259d948c7c4a593ff0bd9060a3e5ed274c440cc7150dc4ee081c194e313ddefc",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-mobile.webp",
+          "bytes": 89530,
+          "sha256": "a83918670398f9d12831e594225a584fda47faeef3ccc115d2237a614c255949",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/asagiri-shinobu-mobile.avif",
+          "bytes": 87228,
+          "sha256": "b0345e42ce93582c358f1aaee2692a32c055932586ed06e7a4346ed4362c6fc1",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "asteria",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. An immense white marble celestial gate opens to an astonishing immense astronomical palace above clouds at blue hour, five small luminous stars above a vast delicate marble dome, countless finely carved celestial arches and real brass orrery with no writing, dusky violet sky, cool silver moonlight and soft warm light inside palace windows. Foreground on left and right are heavy load-bearing carved pillars and the edges of thick monumental OPEN double doors with real hinges, creating a naturally integrated architectural threshold through which the entire world is seen. Deep vanishing perspective, continuous reflective stone floor leads into the distant architecture, visible fine material textures, intricate masonry, believable weight, natural shadows and atmospheric haze, film still, architectural photography. No people, faces, human statues, portraits, clothing, text, logos, UI, cards, watermark, cartoon, painterly illustration, video game, excessive shiny gold. Entire image one coherent physical environment.",
+      "usage": "Empty artist world and physical threshold, canonical world inspired",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-ba30d345-f70f-4ddf-b08d-5e2f405a710a.png",
+      "sourceSha256": "7e74a80d58d50c03bc006e3cabd2824798dbf4c797d8bdbe6d572e3641bed79b",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/asteria-768.webp",
+          "bytes": 62114,
+          "sha256": "5708cca4bb197a9d71832e17a0aa11d7e848bd20644e3c33505228a2c32f6071",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/asteria-768.avif",
+          "bytes": 60276,
+          "sha256": "b41b56616a4ccaeb131ffd87a0d5c9be3308c45eeb896cd249e1ab5292a2acdb",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/asteria-1280.webp",
+          "bytes": 142392,
+          "sha256": "e3a7d3ffc60193c589cb234aa6dadda10b8e26b5e3cac6ff9778474ead016211",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/asteria-1280.avif",
+          "bytes": 140126,
+          "sha256": "b57a290bf1b383f83d50aec1f7357bc7caea7a99de93e61ccc2d794fbf1ba088",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/asteria-1600.webp",
+          "bytes": 195570,
+          "sha256": "b15abf2146aafab7e366befc542baea84aa5cd8de1b659aa3d7efd81690fd33b",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/asteria-1600.avif",
+          "bytes": 191345,
+          "sha256": "300f260f6dae4e76ce454dd7b44f8dfec49fa6a7d1806621a8a7a8dcc33e1225",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/asteria-mobile.webp",
+          "bytes": 82664,
+          "sha256": "94eeaa80eeae0aa58e2c164a5e31ca10b32eee3f5393f428e82da29417d9108a",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/asteria-mobile.avif",
+          "bytes": 79553,
+          "sha256": "69c66ab367c0836e54035978fce277126af02cc9ab604bde0d228ead92f22073",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "eclypse",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. An immense white marble celestial gate opens to a sophisticated near-future palace of real marble, brushed titanium and architectural glass above clouds, layered monumental bridge galleries and clean geometric light installations, cyan natural twilight and subtle amber interiors, interplay of darkness and light, futuristic but material and believable, no computer interface or code text. Foreground on left and right are heavy load-bearing carved pillars and the edges of thick monumental OPEN double doors with real hinges, creating a naturally integrated architectural threshold through which the entire world is seen. Deep vanishing perspective, continuous reflective stone floor leads into the distant architecture, visible fine material textures, intricate masonry, believable weight, natural shadows and atmospheric haze, film still, architectural photography. No people, faces, human statues, portraits, clothing, text, logos, UI, cards, watermark, cartoon, painterly illustration, video game, excessive shiny gold. Entire image one coherent physical environment.",
+      "usage": "Empty artist world and physical threshold, canonical world inspired",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-a959c1d2-002d-409e-8f94-5b8094604c04.png",
+      "sourceSha256": "11374eb129c8796441402f85053e14a84e1b8bd3c81fb716a98b4fc8b0affd65",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/eclypse-768.webp",
+          "bytes": 59854,
+          "sha256": "0f2abe1f90a5c90865fa928106d86dbce4c989f52b3c0ece38339cc2f4410830",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/eclypse-768.avif",
+          "bytes": 57668,
+          "sha256": "eb8b5910c10e4e85d53d7d2bc6889dd136424d2f9daabd0ce279e676089a0564",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/eclypse-1280.webp",
+          "bytes": 134108,
+          "sha256": "66d47994db4e2a9d48d1240f52ab409be8bb6f9183bd45cbf05015a1b3e00d7a",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/eclypse-1280.avif",
+          "bytes": 132732,
+          "sha256": "0f5687493ef12862a4d5a76871e7a1ea0becd2264aa2c0799be5103fa9f57fc0",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/eclypse-1600.webp",
+          "bytes": 182576,
+          "sha256": "2cbaaba62c679daf5b7d23f931571e9d2a82678e6f7a415898a9e336735d7ca6",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/eclypse-1600.avif",
+          "bytes": 182838,
+          "sha256": "6377c807f6c84f0dbb46e7883cd29d46063a878f55bc1c60242064d60034c283",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/eclypse-mobile.webp",
+          "bytes": 76352,
+          "sha256": "1d67556fdbb74d02588b0bc84a0d31b863d6d67bf1d6779bfd2d45a633d16373",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/eclypse-mobile.avif",
+          "bytes": 75619,
+          "sha256": "76184df6fdceff8956fe59d8ea8fa3d31b0dbf553409d9df03084e9924071163",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "enomoto-mia",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A magnificent romantic white marble palace above sculptural clouds, fine pale rose marble inlays, gardens of blooming pink roses and cherry blossoms around an immense graceful domed conservatory, natural soft sunrise, subtle champagne brass details, distant layered terraces. Romantic and bright, highly sophisticated cinema. Foreground on left and right are heavy load-bearing carved pillars and edges of thick monumental OPEN double doors with real brass hinges, a naturally integrated architectural threshold framing the entire world. Deep vanishing perspective, continuous reflective stone floor leads into distant architecture, visible fine worn textures, intricate masonry, believable weight, true natural shadows, subtle haze, expensive film color grade. No people, faces, human statues, portraits, clothing, text, logos, UI, cards, watermark, cartoon, drawing, painterly illustration, video game. One coherent photographed physical environment.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-383278a9-4e25-4129-88fe-11400ad9daad.png",
+      "sourceSha256": "92587b763228c6bfbb5cd4c701f803d960895f03fb972e204af30024b3bd38f3",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/enomoto-mia-768.webp",
+          "bytes": 71370,
+          "sha256": "a7ea18a6f5478f08d465f4c934d9e5c7662eebb98afa69ea503cec26b6d14f10",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-768.avif",
+          "bytes": 66482,
+          "sha256": "5367826f843dbf9f75211bb46372d64ec5dcf111498cde3304d88fde3c3b04ed",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-1280.webp",
+          "bytes": 167138,
+          "sha256": "41d2eb8081eb99f1c39beb9ad95d3e5892748287717e48286c5a30cb9dccca6b",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-1280.avif",
+          "bytes": 159874,
+          "sha256": "08a805af9ea6852924dc3b8f4d9e4a9b5d62d88029b437044b265845483a5ded",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-1600.webp",
+          "bytes": 231166,
+          "sha256": "d294e76590ef29734777663fa372e26b65aa5b48e74bac4b3963820e1d62857f",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-1600.avif",
+          "bytes": 218891,
+          "sha256": "641484091e62ac1b57e049c495621fc477cd1bdd5622144be4b6227be85e7171",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-mobile.webp",
+          "bytes": 91336,
+          "sha256": "03c6590e6be50c6ea2a4357c1aad8da510c860f1e2160a1d5b5ab235bb9d5bbb",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/enomoto-mia-mobile.avif",
+          "bytes": 85939,
+          "sha256": "7cc0c43ef70ff5276d13f014ac6c14f8d838ecd0bd56a089b1640dcd5fcb4d31",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "koga-kamishiro",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A monumental solemn white marble knight's cathedral high above cloud seas, enormous ribbed nave and finely carved soaring stone vaults, ancient black iron inlays and ceremonial architecture without people or weapons, quiet steel blue dawn entering clerestory windows, shafts of natural light, immense peaceful solemn space. Foreground on left and right are heavy load-bearing carved pillars and edges of thick monumental OPEN double doors with real brass hinges, a naturally integrated architectural threshold framing the entire world. Deep vanishing perspective, continuous reflective stone floor leads into distant architecture, visible fine worn textures, intricate masonry, believable weight, true natural shadows, subtle haze, expensive film color grade. No people, faces, human statues, portraits, clothing, text, logos, UI, cards, watermark, cartoon, drawing, painterly illustration, video game. One coherent photographed physical environment.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-450816a8-9961-4c2d-899d-d0f1449b5c5f.png",
+      "sourceSha256": "7b8602c5c7da90fe8b9824a3f9a8cfc80f17bf3878a0ee51d3ba01f2cbd06fc7",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/koga-kamishiro-768.webp",
+          "bytes": 69598,
+          "sha256": "1fe8e5f01cbcc4e56f659ccfc1a2324ac2048e4a53112bcdbb9d7f98811f6e30",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-768.avif",
+          "bytes": 62934,
+          "sha256": "eeec918dd728a3f40ac3965eee46b4fba8f0a342acc7dd12431e6234b4a63602",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-1280.webp",
+          "bytes": 163646,
+          "sha256": "02fec7dd79de3998ba0873cc6c7216fd22dde42542842f94d1a31de40c95903b",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-1280.avif",
+          "bytes": 150464,
+          "sha256": "028b05aaa7eef0543a17a75ae9f8e8bbae6d491b952337cd644b277cba0fb462",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-1600.webp",
+          "bytes": 223528,
+          "sha256": "c34b697aa949911b146eb5945e1f6ba86b259c35acaf040862fcc9dee85bb9d3",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-1600.avif",
+          "bytes": 206814,
+          "sha256": "d9a009fc3f78a6c0fdfed13d34b34c8bed185f63388cb055b73c2463038e2fee",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-mobile.webp",
+          "bytes": 96716,
+          "sha256": "da83bf6d069bbb3487e2beb0c365c7b4ca97260f11d9951526d0342f0d29f778",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/koga-kamishiro-mobile.avif",
+          "bytes": 85346,
+          "sha256": "a35848ee5257f172a25a6723a537f5ba0d7386a09652cab8c7c2cd10d9d1aa74",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "michiru",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A welcoming quiet white marble celestial garden palace above clouds, intimate winter garden terraces with mature greenery and pale lavender flowers, softly lit conservatory and warm windows, calm golden hour, reflective shallow water, delicate carved colonnades and immense distant dome, a feeling of gratitude and happiness. Foreground left and right massive carved white marble piers and edges of monumental thick OPEN double doors with real external hinges form a physical threshold, continuous reflective stone floor leads into the world beyond, strong architectural scale and deep perspective, fine worn textures, natural shadows and atmospheric depth, expensive film color grading. No people, faces, human statues, portraits, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, video game. One coherent photographic set.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-ed8c24da-7f9e-4aa6-83cc-fcfce8863c4c.png",
+      "sourceSha256": "cf6f435b5e87cf1402580118394c57d8dbe4a2c574f72a22519481e9398816bf",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/michiru-768.webp",
+          "bytes": 72910,
+          "sha256": "3a90bc2f8c4846b504abadf95919f35d34035e44b7ba13a411000f742b8a2694",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/michiru-768.avif",
+          "bytes": 67869,
+          "sha256": "cd9af666fe9b49776f3b7536d541902439bc8d58daa6d3d9399d08c744fcec07",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/michiru-1280.webp",
+          "bytes": 167014,
+          "sha256": "93e363d4b793ad79278d1785ae131f1e02dd13d10c7cc5f211d3e331fc3ce26e",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/michiru-1280.avif",
+          "bytes": 160373,
+          "sha256": "d2dffdab2c7b92470788672d1640e31c77c4bb472e2c918c1bd326c46d8d4562",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/michiru-1600.webp",
+          "bytes": 232870,
+          "sha256": "6a49adf1001f45de8a8f99ead591263094428edb653f24bc3fc1ef9f8aa1e8ba",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/michiru-1600.avif",
+          "bytes": 220404,
+          "sha256": "9d242dddb5a2d58961cd2518542e523e1072cb8df91829b5d01b446c8f00a783",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/michiru-mobile.webp",
+          "bytes": 105352,
+          "sha256": "147cef978cad096609fe0dedeb35e4cbea77b1a3f1c0c63f692fb6f5ee6bb11d",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/michiru-mobile.avif",
+          "bytes": 98534,
+          "sha256": "519f0ddfca0b287599c60fed0d45b107211af8acf050def703709d066a57547b",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "nox",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. An immense black OBSIDIAN FORTRESS with thousands of intricately carved dark stone buttresses, gigantic black columns and jagged cathedral spires across a chasm, enormous deep crimson moon partially hidden behind clouds, thick rolling red grey fog, subtle dark red reflections on wet black stone, physically believable volcanic glass and basalt, ominous cinematic moonlight, massive castle close enough to see material, absolutely no flames or cartoon magic. Foreground left and right massive carved black obsidian piers and edges of monumental thick OPEN double doors with real external hinges form a physical threshold, continuous reflective stone floor leads into the world beyond, strong architectural scale and deep perspective, fine worn textures, natural shadows and atmospheric depth, expensive film color grading. No people, faces, human statues, portraits, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, video game. One coherent photographic set.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "mobilePrompt": "Use case: photorealistic-natural. Asset: mobile portrait 2:3 cinematic environment photograph, maximum native resolution. Image1 is reference ONLY for identical empty fortress architecture, obsidian stone material, crimson moon and lighting, not a crop target. Recompose as a tall live-action cinema still: colossal black obsidian fortress with incredibly intricate dark Gothic buttresses and many monumental spires occupies central lower two thirds; enormous deep crimson moon fully legible in central UPPER THIRD behind wispy cloud, not at edge, clearly visible even after a 9:19 smartphone crop. Massive dark carved threshold pillars at outer edges, wet obsidian terrace foreground, chasm filled with rolling grey red fog, subtle natural red reflected moonlight, realistic weathered volcanic stone, true physical shadows and depth, highest detailed cinematic photography. No people, human statues, faces, artist portraits, text, logos, UI, cards, flames, cartoon, illustration or game. Keep main castle and entire moon within central 65 percent width. One coherent empty physical set.",
+      "sourceFile": "exec-eae0f8f5-61dc-43f4-a306-4b77d25488fe.png",
+      "sourceSha256": "28be92e46d670d588fa1078ee11a3a738ade37b0ac7ee786891ca18292052531",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "mobileSourceFile": "exec-d8f67352-9160-4db5-94f5-424114ba7b8d.png",
+      "mobileSourceSha256": "dbaf61b04807fafc4c68ad1423eb00b5f915c70b8061cf46ec0b23e3f925c724",
+      "mobileSourceWidth": 1024,
+      "mobileSourceHeight": 1536,
+      "variants": [
+        {
+          "path": "assets/cinema/nox-768.webp",
+          "bytes": 60190,
+          "sha256": "b5ebd5541a797c6101b167d51fcc2be238e92cf22bee1c67dcf5343947f17ba5",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/nox-768.avif",
+          "bytes": 59102,
+          "sha256": "cb1c724252c9e8082ce40722f1f641e78649c11559f4d46ef0adfa117349174a",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/nox-1280.webp",
+          "bytes": 146940,
+          "sha256": "c0b4412009277425fcc4a0f47bfb5df76f3ce4efbccd102de397f07387c6fd5a",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/nox-1280.avif",
+          "bytes": 145553,
+          "sha256": "98a66e5f3d3a1e8286713d83cf681099cc414b211355605678f5547ce2a1bc61",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/nox-1600.webp",
+          "bytes": 203040,
+          "sha256": "a8eb78835a97ca0d582a9da47f8f71b32a0e2d92bde4e0da0301dacb2650b8f0",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/nox-1600.avif",
+          "bytes": 201986,
+          "sha256": "e2deb90e318e89dda924efb4d5c8bd0f720fa1e57341e943eb7863117c13f414",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/nox-mobile.webp",
+          "bytes": 128118,
+          "sha256": "6fbcf4aafaf1b25762bd9043d3aeb31ac5044113c9361c11a5fe1bbc44e991ae",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/nox-mobile.avif",
+          "bytes": 118703,
+          "sha256": "5ca7e029365931f17f18a01e8918221dc2c9492918d8d648eff631c8e0c467e5",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "rangili",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A colossal white marble celestial palace integrating refined Indian and Japanese architecture above clouds, intricately carved jali screens, enormous layered domes, saffron silk banners, lotus reflecting pools, restrained jewel-toned stone inlays, warm sunset and distant sky bridges, sophisticated vivid festival atmosphere without any people. Foreground left and right massive carved marble piers and edges of monumental thick OPEN double doors with real external bronze hinges form a physical threshold, continuous reflective stone floor leads into the world beyond, deep perspective, fine worn textures, intricate masonry, believable weight, true natural shadows and atmospheric depth, expensive film color grading. No people, faces, human statues, portraits, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, game. One coherent photographic environment.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-0ba04dc8-5092-49af-b9e5-865b818622f8.png",
+      "sourceSha256": "6b775e6eef521e4d42df0c29816c51a2940bb822db6a66894a4a1577249f20ff",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/rangili-768.webp",
+          "bytes": 78256,
+          "sha256": "e96aaae5dee84c1af710a04017b118da4a614970e8891f7afd0187db5ef0f862",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/rangili-768.avif",
+          "bytes": 71248,
+          "sha256": "aca3a076ef80934c90acca62d663e187e4d0ae69d48c50074127a9a7219913b1",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/rangili-1280.webp",
+          "bytes": 184332,
+          "sha256": "11819665386aa8228733cf26c91d85749e593471c6a83469168b3c6517325c2c",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/rangili-1280.avif",
+          "bytes": 168158,
+          "sha256": "a853d7d47c2a4f94345e68564a68d494f50d69dde55d743042872126b1fed8f6",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/rangili-1600.webp",
+          "bytes": 250024,
+          "sha256": "b1cecfc49b8077d33f0c5fe96199c0b17970d9e3ba1b201498587aec56da4365",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/rangili-1600.avif",
+          "bytes": 229813,
+          "sha256": "4b3a07688572e04d5e661ef52378589a74a42ff719794823575208312e5bf01b",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/rangili-mobile.webp",
+          "bytes": 110984,
+          "sha256": "877c08da609f67d1a3fa580b8d2dde666b1acafbe1124f5bb5e63f54c0dfc9de",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/rangili-mobile.avif",
+          "bytes": 100735,
+          "sha256": "ae8b9d9c96c5e495b194e67b23258ea04e5e4f7b235fd2e736e1b1afab43fb1d",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A vast white marble celestial sanctuary with dramatically immense pillars and ascending stair terraces above clouds, green living gardens growing beside restored aged stone, clear dawn after rain, volumetric natural sunbeams breaking cloud and reflected on rain wet floor, teal and soft warm light, physical serene architecture representing renewal. Foreground left and right massive carved marble piers and edges of monumental thick OPEN double doors with real external bronze hinges form a physical threshold, continuous reflective stone floor leads into the world beyond, deep perspective, fine worn textures, intricate masonry, believable weight, true natural shadows and atmospheric depth, expensive film color grading. No people, faces, human statues, portraits, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, game. One coherent photographic environment.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-2e25ed9a-9c9c-42a9-ad76-46cb9ad4579b.png",
+      "sourceSha256": "3cfe380326676ff8d1b6bfb84dea5833cd0a6cee927e0552b16ef2e8e47fc949",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/revive-768.webp",
+          "bytes": 83356,
+          "sha256": "5f4a8fe82928d7a70e2be0e7dadeb8012e99eb2e9c4c75ba86b0bc7fa5d4873f",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/revive-768.avif",
+          "bytes": 72676,
+          "sha256": "967a947fcf414f0cd259dad37b49e73e91a0fa976d73109c3f474b6842e64b15",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/revive-1280.webp",
+          "bytes": 191616,
+          "sha256": "b13a5af3984769655eae651c54bf9fe5687047e96d352da5d389acd84a2e8aa2",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/revive-1280.avif",
+          "bytes": 173461,
+          "sha256": "1a6ceac7a50e4a35fb05b772d129cb1cb62657c42b97369e8e409d874196d4d8",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/revive-1600.webp",
+          "bytes": 261142,
+          "sha256": "9f63e930434decd82c4975a0149a0930d057e8fc8600777d06faa6245ba47aba",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/revive-1600.avif",
+          "bytes": 240066,
+          "sha256": "c6b09ec4ec6c53853406c54b82ff9b74f05ecea0b9c7e1299cf6ce9e8bfda51a",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/revive-mobile.webp",
+          "bytes": 96024,
+          "sha256": "23457be15bc9e5157654ba986f933f87e260a22d257ed15ae963ccde2bd33d70",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/revive-mobile.avif",
+          "bytes": 90670,
+          "sha256": "d672764b3544ee9aaab06a259719db74e86f46b0999bcccf9df8525066a49f89",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "veilfang",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. An immense white marble celestial sanctuary opening onto an ancient moonlit forest above clouds, massive pale tree trunks and silver leaves, intricately carved white stone shrine terraces intertwined with living woods, huge cool full moon filtered by wispy clouds, indigo silver natural light and mist, mysterious refined dark fantasy, no animals or creatures. Foreground left and right immense load-bearing carved piers and edges of thick monumental OPEN double doors with real external hinges form a physical threshold into the world, continuous stone floor, immense architectural scale, deep perspective, fine worn material textures, true natural shadows and haze, expensive cinema color grade. No people, faces, human statues, portraits, clothing, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, video game. One coherent photographic set.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-14afd766-a4fc-45cb-9295-b5301807e7a7.png",
+      "sourceSha256": "dc8846456fbe9a1b5bbe7a0f7e22ab75b96bd0b3ee2b0b01719d85e143aedd62",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/veilfang-768.webp",
+          "bytes": 77700,
+          "sha256": "0504e4efce7744a523aeff63a181231349fb458646a985a57d70864c9de526c8",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/veilfang-768.avif",
+          "bytes": 72626,
+          "sha256": "20a693dbd7592819df3bfeda4e4d93a6691c8606ec022cb97955404dc643f9b3",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/veilfang-1280.webp",
+          "bytes": 186494,
+          "sha256": "0b9097fcea7c2d6780d9f8ce9f1ff976bc0aa935f6119e506be265b62ad61e7d",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/veilfang-1280.avif",
+          "bytes": 176309,
+          "sha256": "e40747161c9e1e6ee21aa431d21c9272a640d7c25545f25a4894f2f5c288c366",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/veilfang-1600.webp",
+          "bytes": 255796,
+          "sha256": "7672408a20d1f7610cb7eb572a43413ff43acc71940b2b943041faf81ce51e17",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/veilfang-1600.avif",
+          "bytes": 243629,
+          "sha256": "bae0a97ca2d5116a55752c88b5d235bda3a617ac10ace8d1aa8a3ed5b3cedede",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/veilfang-mobile.webp",
+          "bytes": 115352,
+          "sha256": "0442717fd2b139120d4095495f17510a048e6d9471378f99bd6774a6557b8b69",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/veilfang-mobile.avif",
+          "bytes": 107754,
+          "sha256": "f3f758d8639ad838b5b6e09fb312936431e4c24224c3f9f75af379dff215c7e3",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "tetsuhige",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic fantasy film set photographed at eye level on Alexa65, landscape16:9, maximum native detail. A massive celestial craftsman's forge palace made of white marble, blackened iron, weathered copper and fine brass, towering architectural arches above clouds, enormous realistic unoccupied stone forge furnace with restrained hot orange coals, anvils and handmade iron craft tools, cool daylight from monumental windows mixes naturally with warm furnace light, solemn skilled craft, not a fiery hell. Foreground left and right immense load-bearing carved piers and edges of thick monumental OPEN double doors with real external hinges form a physical threshold into the world, continuous stone floor, immense architectural scale, deep perspective, fine worn material textures, true natural shadows and haze, expensive cinema color grade. No people, faces, human statues, portraits, clothing, text, writing, logos, UI, cards, watermark, cartoon, painted illustration, video game. One coherent photographic set.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-f7b8cb50-0c1f-4d0b-9abc-d5e0357660ee.png",
+      "sourceSha256": "387630af11a961600849200019674cf17ec3e879aeb978c24eb27d0e19c3c035",
+      "sourceWidth": 1672,
+      "sourceHeight": 940,
+      "variants": [
+        {
+          "path": "assets/cinema/tetsuhige-768.webp",
+          "bytes": 71670,
+          "sha256": "967b9f4778583b2fe797e29dcd7d7a0717022fa86633d06f154e7a9c62f62c99",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/tetsuhige-768.avif",
+          "bytes": 65173,
+          "sha256": "63944b30588a0ec0cebbd82029f77ddb5ae59d8f244ef236631130e0af963f72",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/tetsuhige-1280.webp",
+          "bytes": 165542,
+          "sha256": "9b4e38a2e9a828c40c049cf5233a6fb84a9257838d7b8156311f4b211ed919e2",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/tetsuhige-1280.avif",
+          "bytes": 156447,
+          "sha256": "fb5a26e4d896259f27ba08499a48df28be31abb0c8d3320c58b036fe49d5350e",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/tetsuhige-1600.webp",
+          "bytes": 226982,
+          "sha256": "457ce2928b9ebe04247216b1a24c8a76190ec6f0d5e834291386e84ce8c85539",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/tetsuhige-1600.avif",
+          "bytes": 217829,
+          "sha256": "25985f7cd68853298b1a10d0aab88545ba8a4f9408334797d64994d34650264f",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/tetsuhige-mobile.webp",
+          "bytes": 86512,
+          "sha256": "a6f101e3421c81997d9a2ba8e4c9eb1982792c9dd5d7c6d3a4387e0e42877837",
+          "width": 627,
+          "height": 940
+        },
+        {
+          "path": "assets/cinema/tetsuhige-mobile.avif",
+          "bytes": 84215,
+          "sha256": "05af807c9ad24f16d3a8a7248fc85156ce54722cc0c56cd43c7ede592007812e",
+          "width": 627,
+          "height": 940
+        }
+      ]
+    },
+    {
+      "id": "leon-vail",
+      "kind": "environment",
+      "prompt": "Use case: photorealistic-natural. Empty live-action epic film set, architectural photography on Alexa65, landscape16:9 maximum native detail. A monumental white marble celestial concert theatre suspended above clouds, elegant massive stone balconies and arches, deep dark blue velvet curtains, empty polished black grand piano on a distant immense circular stone stage, moody silver blue dusk entering grand windows and subtle warm architectural lighting, restrained beautiful dangerous rock atmosphere, physically real fine metal and stone materials. Foreground left and right towering carved marble piers and edges of thick OPEN double doors with real external hinges form a threshold, continuous reflective stone floor into the theatre, deep perspective and immense architecture. True shadows, worn materials, haze, expensive cinema color grade. No people, faces, human statues, portraits, text, writing, logos, UI, cards, watermark, cartoon, illustration, game.",
+      "usage": "Empty canonical artist world with physical threshold",
+      "generator": "OpenAI built-in image_gen",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Cinema V3 new environment",
+      "generatedAt": "2026-10-10",
+      "referenceUsage": "Composition, material and lighting studied from user concept; no reference identity or names adopted",
+      "sourceFile": "exec-e63496c2-3e41-465a-a093-782d32ca9aa6.png",
+      "sourceSha256": "c3e8c6a95c4ed70ffb4f8bb7661c4fbde08e502dabe71e5c80844069db2edb84",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "variants": [
+        {
+          "path": "assets/cinema/leon-vail-768.webp",
+          "bytes": 59920,
+          "sha256": "bae26665112f5b17e3266c3c9e8ac79821c9c974f0f24064cced61203230b281",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/leon-vail-768.avif",
+          "bytes": 58597,
+          "sha256": "6cc0fe1bcb8cccb0077f9f04933bad7d0bc56bfe6e25f0c9e8a26b27aec699c8",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "path": "assets/cinema/leon-vail-1280.webp",
+          "bytes": 141578,
+          "sha256": "3dbdb1046c6c287cc80b8b9b1e30aa9bef5ba85d30567be05eacbd0be350e4b2",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/leon-vail-1280.avif",
+          "bytes": 142188,
+          "sha256": "a00c4f327a4aaebeeeda0eb17799e4d4e2735c67019cdd6403e7edea545ce559",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/leon-vail-1600.webp",
+          "bytes": 194010,
+          "sha256": "1e9cac450a379ec467902e4ee35fd5746588d92c2759f37e9dc994dbce386705",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/leon-vail-1600.avif",
+          "bytes": 196977,
+          "sha256": "861762c1808c302a627bfd2852cf6b563b0a021a68e304b30dd2f13350759f77",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "assets/cinema/leon-vail-mobile.webp",
+          "bytes": 86616,
+          "sha256": "f63da482164c09d120bfd7c71246916ff439ee751d0b8487da45b3e1c260f9f4",
+          "width": 627,
+          "height": 941
+        },
+        {
+          "path": "assets/cinema/leon-vail-mobile.avif",
+          "bytes": 86299,
+          "sha256": "7a658a3ec68d7c70114ffb72da7cd15b52f8e7c56c5b20a6063495c9fa4b0e08",
+          "width": 627,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "door-celestial",
+      "prompt": "Use case: product-mockup. Asset type: photoreal physical door material for animated website, portrait 2:3 highest resolution. A straight-on orthographic-like close photograph of exactly TWO equal giant CLOSED rectangular palace DOOR LEAVES meeting in a razor straight vertical seam at precisely the center of the image. Door slabs occupy the entire image EDGE TO EDGE, no surrounding frame, no wall, no arch at top, no room, no landscape. The leaves are heavy carved ivory white marble inlaid with restrained weathered champagne brass and fine architectural botanical reliefs, realistic deep stone carving casting natural shadows, polished bronze small rings and heavy visible hinges at extreme outer edges. Perfectly symmetrical left and right panels with physically realistic material imperfections and fine natural marble veins. The entire photograph has uniformly lit off-white doors with natural soft directional sunlight. These are two rectangular FULL HEIGHT slabs intended to separate and rotate around their OUTER edges; no objects crossing the center seam. Luxury real cinema prop photograph, no painted flat design, no drawing, no illustration, no cartoon, no game graphic. No humans, no faces, no humanoid sculpture, no letters, no text, no logos, no watermark.",
+      "kind": "door-leaves",
+      "sourceType": "generated-image",
+      "generator": "OpenAI built-in image_gen",
+      "generatedOn": "2026-10-10",
+      "usage": "Retained physical raster door/frame from local V2; no CSS scenery",
+      "license": "Generated output under applicable OpenAI service terms; no third-party stock license; no exclusivity claim",
+      "reference": "User supplied mood reference only; its characters, text and artist names are not incorporated",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Retained Cinema V2 physical gate asset",
+      "sourceFile": "door-celestial.png",
+      "sourceSha256": "09c30410c9f1ab225f524b52e4fef6966336340f3fbd13c213a7c2fa9ed91701",
+      "sourceWidth": 1024,
+      "sourceHeight": 1536,
+      "variants": [
+        {
+          "path": "assets/cinema/door-celestial-480.webp",
+          "bytes": 66798,
+          "sha256": "287c25f337807404bbae35c05f1009f1522221d8f0b3043493bdf21dff962703",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/door-celestial-960.webp",
+          "bytes": 205822,
+          "sha256": "e934b135904f6a9f0ae235e4b32f3a54c15950ae0fdaed98d5249ae69999786b",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "door-infernal",
+      "prompt": "Use case: product-mockup. Asset type: real cinematic obsidian double-door prop texture. Portrait 2:3 highest resolution. Precisely front-on symmetrical photographic view of TWO equal giant CLOSED rectangular solid black obsidian DOOR LEAVES touching at a straight vertical seam in the exact image center. Both leaves completely fill image edge to edge, full height and full width. No surrounding wall, NO frame, NO arch, NO visible room. Heavy black volcanic stone slabs with deep geometric carved reliefs, subtle worn black iron detailing, huge physical wrought black steel hinges at the extreme outside edges, tiny crimson light reflection only along the central seam and on polished bevels. Credible scratches, stone grain, immense weight, tactile dimensional carvings and natural raking shadow, moonlit severe dark epic live-action cinema set. Dark but enough exposure to see the black stone. No glowing symbols, no fire, no neon, no game graphics, no illustration, no painting. No text, logo, watermark, people, faces, skulls, humanoid statues or characters. Nothing crosses the center seam so leaves can rotate independently.",
+      "kind": "door-leaves",
+      "sourceType": "generated-image",
+      "generator": "OpenAI built-in image_gen",
+      "generatedOn": "2026-10-10",
+      "usage": "Retained physical raster door/frame from local V2; no CSS scenery",
+      "license": "Generated output under applicable OpenAI service terms; no third-party stock license; no exclusivity claim",
+      "reference": "User supplied mood reference only; its characters, text and artist names are not incorporated",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Retained Cinema V2 physical gate asset",
+      "sourceFile": "door-infernal.png",
+      "sourceSha256": "4160ddc1b62306080ce7d0d17c8671b39715044247e18e5026c0d24228fd4a0c",
+      "sourceWidth": 1024,
+      "sourceHeight": 1536,
+      "variants": [
+        {
+          "path": "assets/cinema/door-infernal-480.webp",
+          "bytes": 64474,
+          "sha256": "c1f40f6339548bd49680fe181908333a49ae26c7936f20690cd023b9a13eb88a",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/door-infernal-960.webp",
+          "bytes": 228640,
+          "sha256": "327ae62eb610a67ff76a836fbc5407acbbab1ccccbee087522f55db640c7cbd5",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "frame-celestial",
+      "prompt": "Use case: product-mockup. Asset type: transparent architectural cutout for a cinematic website portal. Portrait 2:3 ratio. Front view of a single monumental real carved WHITE MARBLE PALACE PORTAL FRAME with heavy fluted Corinthian pilasters at both outer sides, restrained aged champagne brass capitals, round arch crown, a heavy stone threshold at bottom. The center is an entirely EMPTY OPEN doorway with genuine alpha TRANSPARENCY, NO closed doors, no background, no glass, no people, no landscape. Also alpha transparency outside the frame silhouette. Frame columns occupy roughly the outer 14 percent of each side, the arch crown occupies upper 24 percent, central transparent aperture runs from 28 percent down to 95 percent. Believable stone thickness, intricate real carvings, visible veins, natural soft sunlight, realistic occlusion and depth. Clean frontal symmetrical physical prop photograph, luxury live-action cinema set, isolated transparent cutout, not a painting or flat graphic. No text, logo, watermark, human statues, faces or characters. Only the architectural frame remains opaque.",
+      "kind": "transparent-frame",
+      "sourceType": "generated-image",
+      "generator": "OpenAI built-in image_gen",
+      "generatedOn": "2026-10-10",
+      "usage": "Retained physical raster door/frame from local V2; no CSS scenery",
+      "license": "Generated output under applicable OpenAI service terms; no third-party stock license; no exclusivity claim",
+      "reference": "User supplied mood reference only; its characters, text and artist names are not incorporated",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Retained Cinema V2 physical gate asset",
+      "sourceFile": "frame-celestial.png",
+      "sourceSha256": "8212148c40ce5357bd422b405d55a3d91fb0c7c6bee7ac5d44d0a6103af3bce3",
+      "sourceWidth": 1024,
+      "sourceHeight": 1536,
+      "variants": [
+        {
+          "path": "assets/cinema/frame-celestial-480.webp",
+          "bytes": 68818,
+          "sha256": "ea8e9c6c7cbbfb8f0d1c1e8ba28161069a43b660671fd2d9287ab8672ddbe533",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/frame-celestial-960.webp",
+          "bytes": 224186,
+          "sha256": "80c410cccf6ff11848f3e20641df35f9af314ead9b47d95e55af34670f42c832",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "frame-infernal",
+      "prompt": "Use case: product-mockup. Asset type: transparent architectural cutout for a realistic NOX castle doorway, portrait 2:3. Single front-facing monumental BLACK BASALT and OBSIDIAN PORTAL FRAME, massive angular carved stone pillars on the outer 14 percent of left and right, tall pointed gothic stone arch on upper 24 percent, heavy worn dark threshold bottom. Entire empty doorway aperture is genuinely alpha transparent from upper 28 percent to lower 95 percent; outside the frame silhouette also transparent. No closed doors, no wall background, no room or landscape. Extremely realistic polished black stone edges with subtle red raking reflections, worn stone grain and architectural depth, photographed physical live-action dark fantasy cinema prop, natural dimensional shadow, detailed but restrained design, dark iron brackets. No fire, no glowing symbols, no cartoon, no game or painting. No people, faces, statues of humans, text, logos or watermarks. Only the frame is opaque; opening is real transparency.",
+      "kind": "transparent-frame",
+      "sourceType": "generated-image",
+      "generator": "OpenAI built-in image_gen",
+      "generatedOn": "2026-10-10",
+      "usage": "Retained physical raster door/frame from local V2; no CSS scenery",
+      "license": "Generated output under applicable OpenAI service terms; no third-party stock license; no exclusivity claim",
+      "reference": "User supplied mood reference only; its characters, text and artist names are not incorporated",
+      "reviewStatus": "Local visual review; user approval pending",
+      "generationRound": "Retained Cinema V2 physical gate asset",
+      "sourceFile": "frame-infernal.png",
+      "sourceSha256": "4c164e528847ea5cc38f43f8e2b855a4d3d2c4acdbfddd539140831e33106dd2",
+      "sourceWidth": 1024,
+      "sourceHeight": 1536,
+      "variants": [
+        {
+          "path": "assets/cinema/frame-infernal-480.webp",
+          "bytes": 76094,
+          "sha256": "0651462e8cfe8003af461e9a20c48b46dcde948fdf574dc9ea416aa9fb4eef3a",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "path": "assets/cinema/frame-infernal-960.webp",
+          "bytes": 261772,
+          "sha256": "6f3677504fb25dba0334b7891aebf4e098e0a8b1910ff654c90c0fa241a7f201",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    }
+  ],
+  "officialThumbnails": [
+    {
+      "id": "asagiri-shinobu",
+      "source": "images/asagiri-wasurenai-kokoro.jpg",
+      "sourceSha256": "f9450585b6be037cd092d414c4af97578a62f60e95ef6d149ced28d2a26df674",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/asagiri-shinobu-480.webp",
+          "bytes": 42946,
+          "sha256": "26881d4e35a77688c51418341d7e0f2c419ee7ba196477f0a6459e2b6ad61b78",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "path": "assets/cinema/official/asagiri-shinobu-960.webp",
+          "bytes": 121058,
+          "sha256": "da0394f6bc8c78898dd1cbf23c067a3d4071194f162305317f477b4a0ba01ff0",
+          "width": 960,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "id": "asteria",
+      "source": "images/asteria-anata-dake-no-savior.jpg",
+      "sourceSha256": "b9e432addd1b33408f7c7c1a0211c5b1bbe47e6723ca82427739f650697b7fee",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/asteria-480.webp",
+          "bytes": 41610,
+          "sha256": "cc50c7f7a92de425c3548da2ab8095e10c6be9eb510092442da6a3256d340188",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "path": "assets/cinema/official/asteria-960.webp",
+          "bytes": 124622,
+          "sha256": "3fb25229f71582396a0834594f8d510a5fcb8f67ff1317926986dc768b02bc2a",
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "eclypse",
+      "source": "images/eclypse-group.webp",
+      "sourceSha256": "cb1d6393e3a75a9c1a862eb726890b313a099cc8cbba512c3b9026fb71106b30",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/eclypse-480.webp",
+          "bytes": 58850,
+          "sha256": "95ee38dd84f28051295a012a8bafc015e8a9e600997198b9d3b100c27af76d75",
+          "width": 480,
+          "height": 600
+        },
+        {
+          "path": "assets/cinema/official/eclypse-960.webp",
+          "bytes": 165658,
+          "sha256": "dc407e460efd755c9144e1da91f18d5b3ca59a349626219117240b883ead26a8",
+          "width": 960,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "enomoto-mia",
+      "source": "images/enomoto-mia-hello-hello-halloween.jpg",
+      "sourceSha256": "6518e32c5fc3d1e46d8afef921b6015e9d4b16a582c546cafd2b76c4a9461243",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/enomoto-mia-480.webp",
+          "bytes": 53882,
+          "sha256": "ccb4984334f0e3d44a25b7e78fb34983e1b062df21d729d01d22ec6a9f50916e",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "path": "assets/cinema/official/enomoto-mia-960.webp",
+          "bytes": 125114,
+          "sha256": "92b248fbd175c7957123620792baa6a52ebb851733c2fc7e62a8966d510eff71",
+          "width": 886,
+          "height": 886
+        }
+      ]
+    },
+    {
+      "id": "koga-kamishiro",
+      "source": "images/koga-mahou-ga-toketemo.jpg",
+      "sourceSha256": "b9c5dfff7d4f1dcdcd0d5361622b828b8e519153278d9a2d9916cb2ecad15d1e",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/koga-kamishiro-480.webp",
+          "bytes": 52008,
+          "sha256": "c0242a4d0fab6660409b50356187dfe1fe4cff076050bf0bcbe3aa7cbe571e95",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "path": "assets/cinema/official/koga-kamishiro-960.webp",
+          "bytes": 124174,
+          "sha256": "7348984a002a9bd562effe67f271144eeea35ad62469b03ad29fe26ce297e76f",
+          "width": 886,
+          "height": 886
+        }
+      ]
+    },
+    {
+      "id": "michiru",
+      "source": "images/michiru-official-channel-note.jpg",
+      "sourceSha256": "04ba2627b7c06761345d83297d6cfd3e92f13c06b7c58c2ffd837836cb545722",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/michiru-480.webp",
+          "bytes": 14098,
+          "sha256": "da7bffb6dc55fe7b7d145c0b62cce17633bdc71463a177f7415805d248230d86",
+          "width": 480,
+          "height": 251
+        },
+        {
+          "path": "assets/cinema/official/michiru-960.webp",
+          "bytes": 38254,
+          "sha256": "90062823052b7eb79b6a4ab1ab309dd31f94b7a9346bcc18e96e8572d6e22609",
+          "width": 960,
+          "height": 502
+        }
+      ]
+    },
+    {
+      "id": "nox",
+      "source": "images/nox-chimpanzee-no-rakuen.jpg",
+      "sourceSha256": "66567d0297c8882045f0c7192fe4e74f360170d884214ad8bc1ef3510f9557be",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/nox-480.webp",
+          "bytes": 17998,
+          "sha256": "2aebfa02e06866ca9229b2ff8ff18ecb768e56b0597da32d1cd5f836d513987b",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "path": "assets/cinema/official/nox-960.webp",
+          "bytes": 57490,
+          "sha256": "2eeec42e09456b33ee88c261c8cd9d512b7d521ff02c32d0f76a48bc010a4647",
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "rangili",
+      "source": "images/rangili-namaste-galaxy.jpg",
+      "sourceSha256": "1e85d48d78011e018ad88e23828509470de1c14a5ecb542ddecf31b0909fedba",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/rangili-480.webp",
+          "bytes": 74610,
+          "sha256": "7a934e882a583b00010d606ce20c2e8a67f5948b579b584a436652f3eb8d59a9",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "path": "assets/cinema/official/rangili-960.webp",
+          "bytes": 248366,
+          "sha256": "ceebe55d9dbc45279145776a3abfc44f8c9d83bd18f98e6295ed8c086962f95d",
+          "width": 960,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "source": "images/revive-heal-you-again.jpg",
+      "sourceSha256": "6928277051901e0cdaa74715f660c17638457e2294308203bc4a8433c583fd1d",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/revive-480.webp",
+          "bytes": 43926,
+          "sha256": "a275bfe5498a307673d65cc1becd39499ed4b9da1019c9256011ec40fe830126",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "path": "assets/cinema/official/revive-960.webp",
+          "bytes": 132214,
+          "sha256": "72242c0e9e79801122f3fa9f325b6a0a1cefe712d7c550221cb12b94e6289c98",
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "veilfang",
+      "source": "images/veilfang-gekka-no-chigiri.jpg",
+      "sourceSha256": "7302913d17422db2f103c523e8857f9cb40a0d816c6c56f9a87bec05b62e30ed",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/veilfang-480.webp",
+          "bytes": 44598,
+          "sha256": "2720403f355727171ecad4909c54a4702a9b6f1941ee097f51421ef85cee1322",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "path": "assets/cinema/official/veilfang-960.webp",
+          "bytes": 139216,
+          "sha256": "83f68145f6f28b919a0b0c5f0fd87a42dfeff26b6dac131a4129340d564e4241",
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "tetsuhige",
+      "source": "images/tetsuhige-official-profile.webp",
+      "sourceSha256": "cd0d63375f21197b4c8ab0519c68a4665fd896e3366784d7034189b4026974ff",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/tetsuhige-480.webp",
+          "bytes": 55394,
+          "sha256": "40f111464f8d3af98458448856ba6be60924e2aa15fe8ba2bdd016ea560f584e",
+          "width": 480,
+          "height": 400
+        },
+        {
+          "path": "assets/cinema/official/tetsuhige-960.webp",
+          "bytes": 162298,
+          "sha256": "445be4fce4b8f5b96aedca0caf6abfc8db0aa21ca989adcade7999ce1fb3fef6",
+          "width": 960,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "leon-vail",
+      "source": "images/leon-vail-official-profile.webp",
+      "sourceSha256": "74941236737452a60b40e0155022140905d82b77877b06056df00e6fee971c3a",
+      "usage": "Proportional encoding of canonical official image; entire composition preserved; not generated",
+      "variants": [
+        {
+          "path": "assets/cinema/official/leon-vail-480.webp",
+          "bytes": 37618,
+          "sha256": "654b7e591f35df35b119fe2dca4bfc431edfe6bddced1ad997bfd9229da59813",
+          "width": 480,
+          "height": 462
+        },
+        {
+          "path": "assets/cinema/official/leon-vail-960.webp",
+          "bytes": 103274,
+          "sha256": "e96e4d63e964c8659af007b7e3e913bdc86e9c88d1d455dba7b1ad5bd984674a",
+          "width": 960,
+          "height": 924
+        }
+      ]
+    }
+  ]
+}

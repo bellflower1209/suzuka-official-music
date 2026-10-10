@@ -1,0 +1,139 @@
+{
+  "name": "SUZUKA — CELESTIAL GATE",
+  "concept": "音楽が導く、十二の世界",
+  "durationMs": 4600,
+  "shortDurationMs": 250,
+  "doorAudio": null,
+  "doorAudioStatus": "missing-formal-door-heavy-v2",
+  "doorAudioSha256": null,
+  "defaultVolume": 0.24,
+  "themes": {
+    "asagiri-shinobu": {
+      "label": "記憶の庭",
+      "accent": "#486250",
+      "tint": "#edf4ec",
+      "motif": "花と記憶",
+      "realm": "celestial",
+      "emblem": "asagiri-shinobu",
+      "background": "asagiri-shinobu"
+    },
+    "asteria": {
+      "label": "星の回廊",
+      "accent": "#755280",
+      "tint": "#f5eff9",
+      "motif": "五つの星",
+      "realm": "celestial",
+      "emblem": "asteria",
+      "background": "asteria"
+    },
+    "eclypse": {
+      "label": "光とコード",
+      "accent": "#346074",
+      "tint": "#edf4f8",
+      "motif": "光の軌跡",
+      "realm": "celestial",
+      "emblem": "eclypse",
+      "background": "eclypse"
+    },
+    "enomoto-mia": {
+      "label": "恋の宮殿",
+      "accent": "#85485a",
+      "tint": "#fbf0f3",
+      "motif": "花びら",
+      "realm": "celestial",
+      "emblem": "enomoto-mia",
+      "background": "enomoto-mia"
+    },
+    "koga-kamishiro": {
+      "label": "誓いの聖堂",
+      "accent": "#556480",
+      "tint": "#eff1f7",
+      "motif": "騎士の紋章",
+      "realm": "celestial",
+      "emblem": "koga-kamishiro",
+      "background": "koga-kamishiro"
+    },
+    "michiru": {
+      "label": "ぬくもりの庭",
+      "accent": "#755c84",
+      "tint": "#f6f0f7",
+      "motif": "物語の光",
+      "realm": "celestial",
+      "emblem": "michiru",
+      "background": "michiru"
+    },
+    "nox": {
+      "label": "深紅の魔界",
+      "accent": "#ef959f",
+      "tint": "#100a13",
+      "motif": "黒曜石と深紅の月",
+      "realm": "infernal",
+      "emblem": "nox",
+      "background": "nox"
+    },
+    "rangili": {
+      "label": "祝祭の宮殿",
+      "accent": "#88621d",
+      "tint": "#fff4df",
+      "motif": "祝祭の幾何学",
+      "realm": "celestial",
+      "emblem": "rangili",
+      "background": "rangili"
+    },
+    "revive": {
+      "label": "再生の光",
+      "accent": "#347267",
+      "tint": "#edf7f4",
+      "motif": "翼と再生",
+      "realm": "celestial",
+      "emblem": "revive",
+      "background": "revive"
+    },
+    "veilfang": {
+      "label": "月の杜",
+      "accent": "#496579",
+      "tint": "#edf3f7",
+      "motif": "月と幻想獣",
+      "realm": "celestial",
+      "emblem": "veilfang",
+      "background": "veilfang"
+    },
+    "tetsuhige": {
+      "label": "鉄と焔の工房",
+      "accent": "#856041",
+      "tint": "#f6efe8",
+      "motif": "鍛冶の紋章",
+      "realm": "celestial",
+      "emblem": "tetsuhige",
+      "background": "tetsuhige"
+    },
+    "leon-vail": {
+      "label": "静寂の舞台",
+      "accent": "#5d6182",
+      "tint": "#f0f0f7",
+      "motif": "ロックの光",
+      "realm": "celestial",
+      "emblem": "leon-vail",
+      "background": "leon-vail"
+    }
+  },
+  "cinema": {
+    "manifest": "assets/data/celestial-cinema-assets.json",
+    "home": "hero",
+    "doorCelestial": "door-celestial",
+    "doorInfernal": "door-infernal",
+    "frameCelestial": "frame-celestial",
+    "frameInfernal": "frame-infernal"
+  },
+  "candidateAudio": "assets/audio/door-heavy-candidate-v4.wav",
+  "candidateAudioStatus": "new-candidate-not-adopted",
+  "candidateAudioSha256": "9873405f8cfe15720f74e53db83c9209c7edb02f0a09df807447435151606ebc",
+  "timeline": {
+    "approachMs": 450,
+    "glowMs": 950,
+    "openMs": 2450,
+    "revealMs": 2850,
+    "entryMs": 4100
+  },
+  "arrivalMs": 1000
+}

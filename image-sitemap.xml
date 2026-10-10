@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://www.suzukaofficial.com/about/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/artists/asagiri-shinobu/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
@@ -179,6 +186,10 @@
       <image:title>ECLYPSE代表画像</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-chimpanzee-no-rakuen.jpg</image:loc>
       <image:title>NOX代表画像</image:title>
     </image:image>
@@ -209,6 +220,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
     </image:image>
   </url>
   <url>
@@ -264,6 +279,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/artists/leon-vail/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
       <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
@@ -379,6 +398,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/artists/tetsuhige/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
@@ -1717,6 +1740,110 @@
   <url>
     <loc>https://www.suzukaofficial.com/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/gallery-hall-1600.webp</image:loc>
+      <image:title>音楽の世界を表現した宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/asagiri-shinobu-1600.webp</image:loc>
+      <image:title>記憶の庭の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
+      <image:title>朝霧しのぶ 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/asteria-1600.webp</image:loc>
+      <image:title>星の回廊の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
+      <image:title>ASTERIA 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/eclypse-1600.webp</image:loc>
+      <image:title>光とコードの装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/eclypse-group.webp</image:loc>
+      <image:title>ECLYPSE 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/enomoto-mia-1600.webp</image:loc>
+      <image:title>恋の宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/koga-kamishiro-1600.webp</image:loc>
+      <image:title>誓いの聖堂の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
+      <image:title>神代煌牙「魔法が解けても ― Pumpkin Carriage ―」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/michiru-1600.webp</image:loc>
+      <image:title>ぬくもりの庭の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-official-channel-note.jpg</image:loc>
+      <image:title>妃みちる 公式プロフィールビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/nox-1600.webp</image:loc>
+      <image:title>深紅の魔界の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/nox-chimpanzee-no-rakuen.jpg</image:loc>
+      <image:title>NOX 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/rangili-1600.webp</image:loc>
+      <image:title>祝祭の宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
+      <image:title>RANGILI 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/revive-1600.webp</image:loc>
+      <image:title>再生の光の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
+      <image:title>RE:VIVE 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/veilfang-1600.webp</image:loc>
+      <image:title>月の杜の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
+      <image:title>VEILFANG 公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/tetsuhige-1600.webp</image:loc>
+      <image:title>鉄と焔の工房の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>源治・虎徹による鉄髭 - TETSUHIGE - の公式画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/leon-vail-1600.webp</image:loc>
+      <image:title>静寂の舞台の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
       <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
@@ -1797,10 +1924,6 @@
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
-      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
@@ -1815,6 +1938,14 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-group.webp</image:loc>
       <image:title>ECLYPSE 5人組公式グループビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>鉄髭 - TETSUHIGE - 公式Artist画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAIL 公式Artist画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro.webp</image:loc>
@@ -2396,12 +2527,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/akuyaku-de-ii-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
       <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/anata-dake-no-savior-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
@@ -2422,10 +2561,28 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/dalkomhan-jugeumeul-geudaeege-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/echoes-of-you-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/eclypse-joins-suzuka/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
     </image:image>
   </url>
   <url>
@@ -2445,6 +2602,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/friendlikesong-streaming-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
       <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
     </image:image>
@@ -2452,12 +2613,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/gekka-no-chigiri-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/hajimemashite-kiseki-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
@@ -2473,12 +2642,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/hanakotoba-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/heal-you-again-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
@@ -2487,6 +2664,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/hello-hello-halloween-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -2494,12 +2675,27 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/hello-life-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
       <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/henpin-sareta-ningen-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/hyakumankoku-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hyakumankoku.jpg</image:loc>
       <image:title>榎本魅愛「百万告」公式ジャケット</image:title>
@@ -2526,7 +2722,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/iine-sougisha-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/suzuka-channel.jpg</image:loc>
       <image:title>YouTubeチャンネル運用変更のお知らせの公式News画像</image:title>
@@ -2729,6 +2936,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/kimi-ga-iru-hougaku-e-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/kimi-to-nara-last-boss-made-artist-video-20260921/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
@@ -2743,7 +2957,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/kinmokusei-to-hoshifuru-yoru-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/koisuru-maharaja-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
@@ -2773,6 +2998,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/lost-signal-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-lost-signal.jpg</image:loc>
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -2787,6 +3016,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/mahou-ga-toketemo-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
@@ -2800,6 +3033,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/mermaid-no-geboku-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
@@ -2821,6 +3058,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/moshimo-ashita-hajimemashite-ni-natte-mo-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
@@ -2849,6 +3090,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/my-queen-my-oath-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット</image:title>
     </image:image>
@@ -2876,6 +3121,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/namaste-galaxy-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
@@ -2890,6 +3139,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/one-more-kiss-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -2897,12 +3150,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/over-drive-streaming-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-over-drive.jpg</image:loc>
       <image:title>榎本魅愛「Over Drive」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/red-moon-rising-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
       <image:title>ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。</image:title>
@@ -2936,7 +3197,25 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/renkinku-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/rinne-no-chigiri-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/sedai-wo-koete-mama-e-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
@@ -2952,12 +3231,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/september-blue-streaming-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-september-blue.jpg</image:loc>
       <image:title>榎本魅愛「September Blue」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/shadow-code-announcement/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
       <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
@@ -2966,12 +3253,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/smile-and-say-goodbye-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/still-alive-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
@@ -2980,12 +3275,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/tatta-hitori-no-kimi-e-streaming-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/toriatsukai-chui-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
@@ -3014,6 +3317,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/upcoming-artists/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3025,6 +3332,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/wasureji-no-hito-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3032,12 +3343,27 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/wasurenai-kokoro-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/without-worrying-reimagined-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/without-worrying-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
@@ -3060,12 +3386,20 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/yume-to-kaigo-to-watashitachi-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/zennin-saiban-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
@@ -3585,6 +3919,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/ai-demo-wakaranai/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
@@ -3647,6 +3985,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/akuyaku-de-ii/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
       <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
@@ -3734,6 +4076,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/anata-dake-no-savior/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -3776,6 +4122,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/anata-wo-omou-sore-dake-de/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
       <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
@@ -3867,6 +4217,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/ashita-yaru/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
     </image:image>
@@ -3905,6 +4259,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/boukyaku-no-ikimono/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
       <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
@@ -4012,6 +4370,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/caramel/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4098,6 +4460,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/dalkomhan-jugeumeul-geudaeege/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-lost-signal.jpg</image:loc>
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4136,6 +4502,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/echoes-of-you/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
@@ -4200,6 +4570,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/eternity-of-flower-words/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-eternity-of-flower-words.png</image:loc>
       <image:title>榎本魅愛「Eternity of Flower Words」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -4250,6 +4624,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/false-identity/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-lost-signal.jpg</image:loc>
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
@@ -4302,6 +4680,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/family-portrait/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4344,6 +4726,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/friendlikesong/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
       <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
@@ -4392,6 +4778,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/gekka-no-chigiri/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
@@ -4434,6 +4824,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hajimemashite-kiseki/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
       <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
@@ -4490,6 +4884,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/hanakotoba/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4545,6 +4943,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/heal-you-again/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4591,6 +4993,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hello-hello-halloween/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
@@ -4643,6 +5049,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/hello-life/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
       <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
@@ -4682,6 +5092,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/henpin-sareta-ningen/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4716,6 +5130,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hyakumankoku/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
@@ -4772,6 +5190,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/iine-sougisha/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -4806,6 +5228,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
@@ -5054,6 +5480,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kamisama-wa-rusu/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5113,6 +5543,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-ga-iru-hougaku-e/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5147,6 +5581,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-ni-kakatta-mahou/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
@@ -5194,6 +5632,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-to-nara-last-boss-made/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
@@ -5254,6 +5696,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-wa-hanabi/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
     </image:image>
@@ -5313,6 +5759,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kimi-wa-makenai/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
       <image:title>榎本魅愛「君は負けない」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5360,6 +5810,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kinmokusei-to-hoshifuru-yoru/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5390,6 +5844,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/koisuru-maharaja/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
@@ -5433,6 +5891,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/koisuru-subete-no-shunkan/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-koisuru-subete-no-shunkan.png</image:loc>
       <image:title>榎本魅愛「恋するすべての瞬間」TuneCore公式ジャケット</image:title>
@@ -5485,6 +5947,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/kokoro-ni-nokoru-takaramono/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-kokoro-ni-nokoru-takaramono-official-jacket.png</image:loc>
       <image:title>妃みちる「心に残る宝モノ」正式ジャケット</image:title>
     </image:image>
@@ -5519,6 +5985,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/last-dance-tonight/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asteria-anata-dake-no-savior.jpg</image:loc>
       <image:title>ASTERIA「あなただけのSAVIOR」公式YouTubeサムネイル</image:title>
@@ -5558,6 +6028,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/leo-rise-again/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
       <image:title>神代煌牙「LEO — Rise Again —」公式YouTubeサムネイル</image:title>
@@ -5614,6 +6088,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/lost-signal/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-lost-signal.jpg</image:loc>
       <image:title>ECLYPSE「LOST SIGNAL」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5657,6 +6135,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mada-tetsu-wa-atsui/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
     </image:image>
@@ -5695,6 +6177,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mahou-ga-toketemo/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
@@ -5751,6 +6237,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mata-kimi-ni-koi-wo-suru/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-mata-kimi-ni-koi-wo-suru.png</image:loc>
       <image:title>榎本魅愛「また、君に恋をする。」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -5801,6 +6291,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mermaid-merman/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
       <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
@@ -5861,6 +6355,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mermaid-no-geboku/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
       <image:title>神代煌牙「マーメイドの下僕」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -5919,6 +6417,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mia/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
@@ -5983,6 +6485,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/mirai-no-watashi-ga-miteru/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
       <image:title>未来の私が見てる ジャケット</image:title>
     </image:image>
@@ -6046,6 +6552,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/monsoon-promise/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-koisuru-maharaja.jpg</image:loc>
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -6084,6 +6594,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
@@ -6139,6 +6653,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/muteki-jikan-ato-3byou/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
       <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
@@ -6202,6 +6720,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/my-queen-my-oath/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
       <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
@@ -6278,6 +6800,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/namaste-galaxy/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/rangili-namaste-galaxy.jpg</image:loc>
       <image:title>RANGILI「NAMASTE☆GALAXY」公式ジャケット</image:title>
     </image:image>
@@ -6329,6 +6855,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/nando-umarekawattemo-reborn-oath/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-nando-umarekawattemo-reborn-oath.png</image:loc>
       <image:title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -6376,6 +6906,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -6422,6 +6956,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/one-more-kiss/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
@@ -6490,6 +7028,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/our-kingdom/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-our-kingdom.jpg</image:loc>
       <image:title>OUR KINGDOM ジャケット</image:title>
     </image:image>
@@ -6549,6 +7091,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/over-drive/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-over-drive.jpg</image:loc>
       <image:title>榎本魅愛「Over Drive」公式ビジュアル</image:title>
     </image:image>
@@ -6600,6 +7146,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/re-sonance/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-heal-you-again.jpg</image:loc>
       <image:title>RE:VIVE「Heal You Again」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -6638,6 +7188,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/red-moon-rising/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-red-moon-rising-cover.png</image:loc>
       <image:title>ECLYPSE「RED MOON // RISING」正式ジャケット。赤い月と近未来都市を背景に、黒い衣装の5人が立つビジュアル。</image:title>
@@ -6698,6 +7252,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/renai-taishogai-kari/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
       <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
@@ -6749,6 +7307,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/renkinku/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -6792,6 +7354,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/rinne-no-chigiri/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
     </image:image>
@@ -6822,6 +7388,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/sedai-wo-koete-mama-e/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
@@ -6878,6 +7448,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/september-blue/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-september-blue.jpg</image:loc>
       <image:title>榎本魅愛「September Blue」公式ビジュアル</image:title>
     </image:image>
@@ -6928,6 +7502,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/shadow-code/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-shadow-code-cover.webp</image:loc>
       <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
@@ -6984,6 +7562,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/smile-and-say-goodbye/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
       <image:title>榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット</image:title>
     </image:image>
@@ -7039,6 +7621,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/still-alive/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/revive-still-alive.jpg</image:loc>
       <image:title>RE:VIVE「Still alive」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -7081,6 +7667,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/suki-ga-kyou-mo-fueteiku/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
       <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
@@ -7141,6 +7731,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/sukitte-baretemo-ii/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
       <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
@@ -7200,6 +7794,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/taipa-nante-shiranakatta/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ashita-wa-kitto.jpg</image:loc>
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -7247,6 +7845,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/tatta-hitori-no-kimi-e/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
@@ -7293,6 +7895,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/tokenai-mahou-wo-ai-to-yobu/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
       <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
@@ -7356,6 +7962,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/toriatsukai-chui/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
@@ -7455,6 +8065,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/updown/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
@@ -7501,6 +8115,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/wakareta-michi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
@@ -7561,6 +8179,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/wasureji-no-hito/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasureji-no-hito.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れじの人」公式YouTubeサムネイル</image:title>
     </image:image>
@@ -7604,6 +8226,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/wasurenai-kokoro/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
       <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
     </image:image>
@@ -7646,6 +8272,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
       <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
@@ -7693,6 +8323,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/without-worrying/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
       <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
@@ -7745,6 +8379,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/releases/without-worrying-reimagined/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -7787,6 +8425,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
@@ -7834,6 +8476,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/zennin-saiban/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
       <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
@@ -7916,6 +8562,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/social/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
       <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
@@ -8118,6 +8768,14 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANGの代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-official-profile.webp</image:loc>
+      <image:title>鉄髭 - TETSUHIGE -の代表画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/leon-vail-official-profile.webp</image:loc>
+      <image:title>LEON VAILの代表画像</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>

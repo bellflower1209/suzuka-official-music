@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_MAJORS = {
     "actions/checkout": 7,
     "actions/setup-node": 7,
+    "actions/setup-python": 6,
     "actions/upload-artifact": 7,
     "actions/download-artifact": 8,
     "actions/cache": 6,

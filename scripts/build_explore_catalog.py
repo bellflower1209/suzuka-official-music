@@ -1169,6 +1169,8 @@ def main() -> None:
         cwd=ROOT,
         check=True,
     )
+    from build_celestial_gate import build as build_celestial_gate
+    build_celestial_gate(ROOT)
     print(f"Generated exploration catalog with {len(data['releases'])} published releases and {len(data['upcoming'])} upcoming releases.")
 
 
