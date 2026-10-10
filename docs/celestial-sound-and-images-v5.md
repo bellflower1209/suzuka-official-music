@@ -12,6 +12,7 @@ doorAudioStatus=missing-formal-door-heavy-v2 を維持。
 現在の候補は assets/audio/door-heavy-candidate-v4.wav。
 candidateAudioStatus=new-candidate-not-adopted であり正式Ver.2の採用を意味しない。
 読み込み・再生失敗時は無音遷移し、楽曲再生中は効果音を抑える。
+公開後、Chromeの初回WAV取得が500msの上限を超えるケースを確認したため、同じ候補のMP3再生版（50,733 bytes、128kbps、48kHzステレオ）を追加。原本WAV（595,244 bytes）と正式Ver.2未登録状態は維持。再生版と原本のSHAは assets/data/portal-audio-playback.json で別管理。音声ONだけでは再生せず、選択した扉のユーザー操作でのみ取得・再生する。
 
 ## 公式画像とチャンネル
 

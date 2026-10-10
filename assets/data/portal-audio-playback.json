@@ -1,0 +1,12 @@
+{
+  "status": "new-candidate-not-adopted",
+  "path": "assets/audio/door-heavy-candidate-v4-playback.mp3",
+  "sha256": "5e727d81920a82be92bd298496ac69093f01ab247b784a05b05143006b00ec05",
+  "bytes": 50733,
+  "codec": "MP3, 128 kbps stereo, 48000 Hz",
+  "durationSeconds": 3.1,
+  "source": "assets/audio/door-heavy-candidate-v4.wav",
+  "sourceSha256": "9873405f8cfe15720f74e53db83c9209c7edb02f0a09df807447435151606ebc",
+  "method": "FFmpeg libmp3lame transcode, metadata removed; original WAV unchanged",
+  "reason": "Production first-use WAV body download exceeded 500ms silent-fallback deadline. Playback encoding reduces transfer from 595244 to 50733 bytes without altering portal timing, gain or formal Ver.2 status."
+}
