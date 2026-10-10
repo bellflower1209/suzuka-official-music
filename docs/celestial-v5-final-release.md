@@ -19,7 +19,7 @@ Canonical fields: `artists[].image`, `imageAlt`, `imageWidth`, `imageHeight`. Or
 
 ## Local verification
 
-- 307 content pages: 303 indexed routes and 4 noindex routes; 2 ownership verification HTML files are retained separately.
+- 307 content pages: 303 indexed routes and 4 noindex routes; The existing Google ownership verification file and tracked legacy `index 3.html` are outside these generated routes and remain unchanged.
 - 12 artists, 82 works, 31 public lyrics. Canonical records are unchanged except the four official image fields for the two supplied artists. The public sitemap is unchanged.
 - Chrome/WebKit × 390/768/1440 pixels: 1,842 page views; no broken local images, overflow, page JavaScript errors or console warnings/errors detected.
 - All 12 normal portals in both engines pass, including world/destination picture continuity. Candidate sound opt-in, timing, volume, mute and NOX low-pass filtering pass. Skip, Escape, keyboard focus, back, BFCache, short motion, reduced-motion, data saver, storage denial, navigation failure and audio failure fallbacks pass. Formal-audio failure cases use inert mocks, not a real formal Ver.2 asset.
