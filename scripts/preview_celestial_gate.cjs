@@ -35,9 +35,22 @@ const server = http.createServer(async (req,res) => {
     const type=mime[path.extname(file).toLowerCase()];
     const real=await fs.promises.realpath(file);
     if (!type || !real.startsWith(base+path.sep)) {res.writeHead(403);res.end();return;}
-    const data=await fs.promises.readFile(real);
-    res.writeHead(200,{'Content-Type':type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});
-    res.end(req.method==='HEAD'?undefined:data);
+    const size=(await fs.promises.stat(real)).size;
+    const headers={'Content-Type':type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Accept-Ranges':'bytes'};
+    let start=0,end=size-1,status=200;
+    if (req.headers.range) {
+      const match=/^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+      if (!match || (!match[1]&&!match[2])) {res.writeHead(416,{'Content-Range':`bytes */${size}`});res.end();return;}
+      start=match[1]?Number(match[1]):Math.max(0,size-Number(match[2]));
+      end=match[1]&&match[2]?Math.min(size-1,Number(match[2])):size-1;
+      if (!Number.isSafeInteger(start)||!Number.isSafeInteger(end)||start<0||start>=size||end<start) {res.writeHead(416,{'Content-Range':`bytes */${size}`});res.end();return;}
+      status=206;headers['Content-Range']=`bytes ${start}-${end}/${size}`;
+    }
+    headers['Content-Length']=Math.max(0,end-start+1);
+    res.writeHead(status,headers);
+    if (req.method==='HEAD'||!size) {res.end();return;}
+    const stream=fs.createReadStream(real,{start,end});
+    stream.on('error',()=>res.destroy());res.on('close',()=>stream.destroy());stream.pipe(res);
   } catch {res.writeHead(404,{'Content-Type':'text/plain; charset=utf-8'});res.end('Not found');}
 });
 server.on('error',error=>{console.error(error.message);process.exitCode=1;});

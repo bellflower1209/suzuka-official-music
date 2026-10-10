@@ -42,7 +42,7 @@ cd "/Users/enomotojunichi/Documents/SUZUKA公式サイト/suzuka-celestial-gate"
 node scripts/preview_celestial_gate.cjs 8825
 ```
 
-サイト `http://127.0.0.1:8825/`、成果物一覧 `http://127.0.0.1:8825/review/review.html`。ローカルPCのみへ公開するプレビューサーバー。停止はCtrl+C。
+サイト `http://127.0.0.1:8825/`、成果物一覧 `http://127.0.0.1:8825/review/review.html`。ローカルPCのみのプレビューサーバー。MP4のHTTP Range（206／416／HEAD）に対応し、ChromeとWebKitで両動画の全編再生を確認済み。停止はCtrl+C。
 
 確認動画・スクリーンショット・全検査結果・最終報告は隣接フォルダー `CELESTIAL_PORTAL_V5_QA`。MP4は実ブラウザ映像とWeb Audio出力を記録し、フレーム指標で±40ms以内へ同期する。測定用の隅の指標は8pxの外周クロップで除去。正式Ver.2の録音ではない。Macデスクトップにも `天界の扉_V5.mp4`、`NOX魔界の扉_V5.mp4` を保存する。
 
