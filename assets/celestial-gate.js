@@ -1,4 +1,4 @@
-/* Native static-site transitions. No autoplay, dependencies or content fetches. */
+/* Cinematic static-site portal. Formal audio and unadopted candidate stay separate. */
 (() => {
   'use strict';
   const element = document.getElementById('cg-config');
@@ -10,211 +10,293 @@
   const root = new URL('../', script.src);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const read = key => { try { return localStorage.getItem(`suzuka.cg.${key}`); } catch { return null; } };
-  const save = (key, value) => { try { localStorage.setItem(`suzuka.cg.${key}`, String(value)); } catch { /* Private browsing still works. */ } };
-  let sound = Boolean(config.doorAudio) && read('sound') === 'on';
+  const save = (key,value) => { try { localStorage.setItem(`suzuka.cg.${key}`,String(value)); } catch { /* Storage is optional. */ } };
+  const audioPath = config.doorAudio || config.candidateAudio;
+  const isCandidate = !config.doorAudio && Boolean(config.candidateAudio);
+  let sound = Boolean(audioPath) && read('sound') === 'on';
   let short = read('short') === 'true';
   const storedVolume = read('volume');
-  let volume = storedVolume !== null && Number.isFinite(Number(storedVolume)) ? Math.max(0, Math.min(.5, Number(storedVolume))) : config.defaultVolume;
-  let audioContext = null;
-  let audioSource = null;
-  let gainNode = null;
-  let loadController = null;
+  let volume = storedVolume !== null && Number.isFinite(Number(storedVolume)) ? Math.max(0,Math.min(.5,Number(storedVolume))) : config.defaultVolume;
+  let audioContext = null, audioSource = null, gainNode = null, envelopeNode = null, loadController = null;
+  let active = null, dialog = null;
   function stopSound() {
     loadController?.abort(); loadController = null;
     if (audioSource) { try { audioSource.stop(); } catch { /* Already ended. */ } audioSource.disconnect(); audioSource = null; }
-    gainNode?.disconnect(); gainNode = null;
+    gainNode?.disconnect(); gainNode = null; envelopeNode?.disconnect(); envelopeNode = null;
   }
-  let active = null;
-  let dialog = null;
   const soundButton = document.querySelector('[data-cg-sound]');
   const shortInput = document.querySelector('[data-cg-short]');
   const volumeInput = document.querySelector('[data-cg-volume]');
   function reflect() {
     if (soundButton) {
-      soundButton.disabled = !config.doorAudio;
-      soundButton.textContent = config.doorAudio ? `音声 ${sound ? 'ON' : 'OFF'}` : '音源未登録';
-      soundButton.setAttribute('aria-pressed', String(sound));
+      soundButton.disabled = !audioPath;
+      soundButton.textContent = audioPath ? `${isCandidate ? '候補音声' : '音声'} ${sound ? 'ON' : 'OFF'}` : '音源未登録';
+      soundButton.setAttribute('aria-pressed',String(sound));
+    }
+    if (dialog) {
+      const mute = dialog.querySelector('[data-cg-dialog-sound]');
+      mute.disabled = !audioPath; mute.textContent = audioPath ? `${isCandidate ? '候補音声' : '音声'} ${sound ? 'ON' : 'OFF'}` : '音源未登録'; mute.setAttribute('aria-pressed',String(sound));
+      dialog.querySelector('[data-cg-dialog-volume]').value = String(volume);
     }
     if (shortInput) shortInput.checked = short;
     if (volumeInput) volumeInput.value = String(volume);
   }
   reflect();
-  // A failed AVIF/source-set must not hide navigation or canonical copy.
-  // Retry the existing WebP fallback; official thumbnails retry their untouched source.
   function imageFallback(image) {
-    if (!(image instanceof HTMLImageElement) || !image.closest('.cg-scene,.cg-door-beyond,.cg-official-inset')) return;
+    if (!(image instanceof HTMLImageElement) || !image.closest('.cg-scene,.cg-door-beyond,.cg-official-inset,.cg-arrival')) return;
     if (!image.dataset.cgFallback) {
       image.dataset.cgFallback = 'true';
       image.closest('picture')?.querySelectorAll('source').forEach(source => source.remove());
       image.removeAttribute('srcset');
       if (image.getAttribute('src')) image.src = image.getAttribute('src');
-    } else if (image.closest('.cg-scene,.cg-door-beyond')) image.style.opacity = '0';
+    } else image.style.opacity = '0';
   }
-  document.addEventListener('error', event => imageFallback(event.target), true);
-  // A priority image can fail before this deferred script has installed listeners.
-  document.querySelectorAll('.cg-scene img,.cg-official-inset img').forEach(image => {
-    if (image.complete && !image.naturalWidth) imageFallback(image);
-  });
-  soundButton?.addEventListener('click', () => {
-    if (!config.doorAudio) return;
-    sound = !sound;
-    save('sound', sound ? 'on' : 'off');
+  document.addEventListener('error',event => imageFallback(event.target),true);
+  document.querySelectorAll('.cg-scene img,.cg-official-inset img').forEach(image => { if (image.complete && !image.naturalWidth) imageFallback(image); });
+  function toggleSound() {
+    if (!audioPath) return;
+    sound = !sound; save('sound',sound ? 'on' : 'off');
     if (!sound) stopSound();
+    if (active?.started) dialog.querySelector('#cg-door-description').textContent = sound ? '音声ONは次の扉から適用します。' : '効果音OFF。扉は無音で進みます。';
     reflect();
+  }
+  soundButton?.addEventListener('click',toggleSound);
+  shortInput?.addEventListener('change',() => { short = shortInput.checked; save('short',short); });
+  volumeInput?.addEventListener('input',() => {
+    volume = Math.max(0,Math.min(.5,Number(volumeInput.value))); save('volume',volume);
+    if (gainNode) gainNode.gain.setTargetAtTime(volume,audioContext.currentTime,.04);
   });
-  shortInput?.addEventListener('change', () => { short = shortInput.checked; save('short', short); });
-  volumeInput?.addEventListener('input', () => { volume = Math.max(0, Math.min(.5, Number(volumeInput.value))); save('volume', volume); if (gainNode) gainNode.gain.value = volume; });
-  addEventListener('storage', event => {
+  addEventListener('storage',event => {
     if (!event.key?.startsWith('suzuka.cg.')) return;
-    sound = Boolean(config.doorAudio) && read('sound') === 'on';
-    short = read('short') === 'true';
-    const next = Number(read('volume'));
-    if (read('volume') !== null && Number.isFinite(next)) volume = Math.max(0, Math.min(.5, next));
-    if (!sound) stopSound();
-    reflect();
+    sound = Boolean(audioPath) && read('sound') === 'on'; short = read('short') === 'true';
+    const next = read('volume'); if (next !== null && Number.isFinite(Number(next))) volume = Math.max(0,Math.min(.5,Number(next)));
+    if (!sound) stopSound(); reflect();
   });
-
-  // Cross-origin iframe playback is unknowable without cooperation: silence the SFX.
   const musicIsActive = () => [...document.querySelectorAll('audio,video')].some(media => !media.paused && !media.ended)
     || Boolean(document.querySelector('iframe[src*="youtube"],iframe[src*="vimeo"],[data-player-state="playing"],[data-music-playing="true"]'));
+  const imageUrl = (name,extension) => new URL(`assets/cinema/${name}.${extension}`,root).href;
+  function setWorld(picture,background) {
+    const source = picture.querySelector('source');
+    const image = picture.querySelector('img');
+    // Same art direction and responsive selection as the destination hero.
+    picture.querySelectorAll('source').forEach(item => item.remove());
+    for (const format of ['avif','webp']) {
+      const mobile = document.createElement('source'); mobile.media = '(max-width:640px)'; mobile.type = `image/${format}`;
+      mobile.srcset = imageUrl(`${background}-mobile`,format); picture.insertBefore(mobile,image);
+    }
+    const wide = source || document.createElement('source'); wide.removeAttribute('media'); wide.type = 'image/avif'; wide.sizes = '100vw';
+    wide.srcset = [768,1280,1600].map(size => `${imageUrl(`${background}-${size}`,'avif')} ${size}w`).join(',');
+    picture.insertBefore(wide,image); image.src = imageUrl(`${background}-1600`,'webp');
+    image.removeAttribute('data-cg-fallback'); image.style.opacity = ''; image.fetchPriority = 'high';
+  }
+  // A consumed, path-bound, short-lived arrival record bridges two static documents.
+  // Content remains visible if storage or either image fails.
+  function arrival() {
+    const record = window.__cgArrival; delete window.__cgArrival;
+    if (!record) return;
+    const valid = record.background === config.cinema.home || Object.values(config.artists).some(a => a.background === record.background && a.realm === record.realm);
+    if (!valid) { delete document.documentElement.dataset.cgArrival; return; }
+    const cover = document.createElement('div'); cover.className = `cg-arrival${record.realm === 'infernal' ? ' cg-infernal' : ''}`;
+    cover.style.setProperty('--gate-paper',Object.values(config.artists).find(a => a.background === record.background)?.tint || '#fcf9ef');
+    cover.setAttribute('aria-hidden','true'); cover.innerHTML = '<picture><img alt=""></picture><div class="cg-arrival-mist"></div>';
+    setWorld(cover.querySelector('picture'),record.background); document.body.append(cover);
+    const hero = document.querySelector('.explorer-hero .cg-scene img,.cg-home-hero .cg-scene img');
+    const decode = img => img?.decode?.().catch(() => {}) || Promise.resolve();
+    let done = false;
+    const reveal = () => {
+      if (done) return; done = true;
+      delete document.documentElement.dataset.cgArrival;
+      if (reduced.matches || record.fast) { cover.remove(); return; }
+      cover.classList.add('cg-arrival-reveal');
+      setTimeout(() => cover.remove(),config.arrivalMs + 80);
+    };
+    Promise.all([decode(hero),decode(cover.querySelector('img'))]).then(reveal);
+    setTimeout(reveal,1200);
+    addEventListener('pagehide',() => cover.remove(),{once:true});
+  }
+  arrival();
 
   function getDialog() {
     if (dialog) return dialog;
     dialog = document.createElement('dialog');
     if (typeof dialog.showModal !== 'function') return null;
-    dialog.className = 'cg-door-dialog';
-    dialog.setAttribute('aria-labelledby', 'cg-door-title');
-    dialog.setAttribute('aria-describedby', 'cg-door-description');
-    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"><span>✧</span></div></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button>';
+    dialog.className = 'cg-door-dialog'; dialog.setAttribute('aria-labelledby','cg-door-title'); dialog.setAttribute('aria-describedby','cg-door-description');
+    dialog.innerHTML = '<div class="cg-door-view" aria-hidden="true"><picture class="cg-door-beyond"><source type="image/avif"><img alt="" decoding="async"></picture><div class="cg-door-distance"></div><div class="cg-door-portal"><div class="cg-door-leaves"><div class="cg-door-leaf cg-door-left"></div><div class="cg-door-leaf cg-door-right"></div></div><img class="cg-door-frame" alt="" decoding="async"><div class="cg-door-sigil"></div><div class="cg-door-spill"></div></div><div class="cg-door-near-mist"></div><div class="cg-door-wash"></div></div><div class="cg-door-status"><p data-cg-door-realm></p><h2 id="cg-door-title"></h2><small id="cg-door-description" aria-live="polite"></small></div><button class="cg-door-skip" type="button">スキップして進む ↗</button><button class="cg-door-cancel" type="button">キャンセル / Esc</button><button class="cg-door-mute" type="button" data-cg-dialog-sound aria-pressed="false"></button><label class="cg-door-volume">効果音の音量<input type="range" min="0" max="0.5" step="0.01" data-cg-dialog-volume aria-label="演出中の効果音の音量"></label>';
     document.body.append(dialog);
-    dialog.querySelector('.cg-door-skip').addEventListener('click', () => finish(true));
-    dialog.querySelector('.cg-door-cancel').addEventListener('click', () => finish(false));
-    dialog.addEventListener('cancel', event => { event.preventDefault(); finish(false); });
+    dialog.querySelector('[data-cg-dialog-sound]').addEventListener('click',toggleSound);
+    dialog.querySelector('[data-cg-dialog-volume]').addEventListener('input',event => { volume = Math.max(0,Math.min(.5,Number(event.target.value))); save('volume',volume); if (gainNode) gainNode.gain.setTargetAtTime(volume,audioContext.currentTime,.04); reflect(); });
+    reflect();
+    dialog.querySelector('.cg-door-skip').addEventListener('click',() => finish(true));
+    dialog.querySelector('.cg-door-cancel').addEventListener('click',() => finish(false));
+    dialog.addEventListener('cancel',event => { event.preventDefault(); finish(false); });
     return dialog;
   }
-
-  function later(callback, ms, state) {
-    const id = setTimeout(() => { if (active === state) callback(); }, ms);
-    state.timers.push(id);
+  function later(callback,ms,state) {
+    const id = setTimeout(() => { if (active === state) callback(); },ms); state.timers.push(id);
   }
-  function finish(navigate) {
-    const state = active;
-    if (!state) return;
-    active = null;
-    state.timers.forEach(clearTimeout);
-    stopSound();
-    dialog?.close();
-    dialog?.classList.remove('cg-door-opening');
-    document.body.style.overflow = state.overflow;
+  function cleanup(state) {
+    state.timers.forEach(clearTimeout); cancelAnimationFrame(state.raf); stopSound(); state.navigation.abort();
+    dialog?.close(); dialog?.classList.remove('cg-door-opening'); document.body.style.overflow = state.overflow;
     state.trigger?.focus({preventScroll:true});
-    if (navigate) location.assign(state.destination.href);
   }
-  function start(destination, artist, trigger, returning) {
+  function navigationError(state) {
+    if (active !== state) return;
+    active = null; cleanup(state);
+    try { sessionStorage.removeItem('suzuka.cg.arrival'); } catch { /* Optional. */ }
+    document.querySelector('.cg-nav-error')?.remove();
+    const alert = document.createElement('div'); alert.className = 'cg-nav-error'; alert.setAttribute('role','alert');
+    alert.innerHTML = '<p>移動先を読み込めませんでした。接続を確認して、もう一度扉を選択してください。</p><button type="button">閉じる</button>';
+    alert.querySelector('button').addEventListener('click',() => { alert.remove(); state.trigger?.focus({preventScroll:true}); });
+    document.body.append(alert); alert.querySelector('button').focus();
+  }
+  async function finish(navigate) {
+    const state = active; if (!state) return;
+    if (!navigate) { active = null; cleanup(state); return; }
+    if (state.navigating) return;
+    state.navigating = true; cancelAnimationFrame(state.raf); stopSound();
+    dialog.querySelector('#cg-door-description').textContent = '移動先を確認しています。';
+    const ready = await state.ready;
+    if (active !== state) return;
+    if (!ready) { navigationError(state); return; }
+    try {
+      sessionStorage.setItem('suzuka.cg.arrival',JSON.stringify({path:state.destination.pathname,background:state.background,realm:state.realm,time:Date.now(),fast:state.fast}));
+    } catch { /* Static hero still renders normally. */ }
+    try {
+      // Keep the last mist frame on screen until pagehide; never expose the source.
+      location.assign(state.destination.href);
+      later(() => navigationError(state),3500,state);
+    } catch { navigationError(state); }
+  }
+  const clamp = value => Math.max(0,Math.min(1,value));
+  const smooth = value => { const t=clamp(value); return t*t*(3-2*t); };
+  function animate(state) {
+    const phase = config.timeline, total = config.durationMs;
+    const frame = now => {
+      if (active !== state || state.navigating) return;
+      const t = now - state.epoch;
+      const approach = smooth(t/phase.approachMs);
+      const glow = smooth((t-phase.approachMs)/(phase.glowMs-phase.approachMs));
+      const opening = smooth((t-phase.glowMs)/(phase.openMs-phase.glowMs));
+      const reveal = smooth((t-phase.openMs)/(phase.revealMs-phase.openMs));
+      // Cubic acceleration makes the foreground pass much faster than the horizon.
+      const entry = clamp((t-phase.revealMs)/(phase.entryMs-phase.revealMs));
+      const flight = entry*entry*entry;
+      const wash = smooth((t-phase.entryMs)/(total-phase.entryMs));
+      const set = (name,value) => dialog.style.setProperty(`--cg-${name}`,String(value));
+      set('approach',approach); set('glow',glow); set('open',opening); set('reveal',reveal); set('flight',flight); set('wash',wash);
+      dialog.dataset.phase = t < phase.approachMs ? 'approach' : t < phase.glowMs ? 'glow' : t < phase.openMs ? 'opening' : t < phase.revealMs ? 'world' : t < phase.entryMs ? 'entry' : 'mist';
+      if (t >= phase.glowMs) dialog.classList.add('cg-door-opening');
+      if (t >= total) { finish(true); return; }
+      state.raf = requestAnimationFrame(frame);
+    };
+    state.raf = requestAnimationFrame(frame);
+  }
+  function start(destination,artist,trigger,returning) {
     if (active) return;
-    const panel = getDialog();
-    if (!panel) { location.assign(destination.href); return; }
-    const fast = returning || short || reduced.matches || navigator.connection?.saveData;
-    const state = {destination, trigger, timers:[], overflow:document.body.style.overflow, started:false};
+    const panel = getDialog(); if (!panel) { location.assign(destination.href); return; }
+    document.querySelector('.cg-nav-error')?.remove();
+    const fast = Boolean(returning || short || reduced.matches || navigator.connection?.saveData);
+    const realm = artist?.realm === 'infernal' ? 'infernal' : 'celestial';
+    const background = returning ? config.cinema.home : artist.background;
+    const state = {destination,trigger,background,realm,fast,timers:[],overflow:document.body.style.overflow,started:false,navigating:false,navigation:new AbortController()};
     active = state;
-    panel.className = `cg-door-dialog${artist?.realm === 'infernal' ? ' cg-infernal' : ''}${returning ? ' cg-returning' : ''}`;
-    const emblem = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    emblem.setAttribute('viewBox', '0 0 64 64'); emblem.setAttribute('aria-hidden', 'true');
-    const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-    use.setAttribute('href', new URL(`assets/celestial-emblems.svg#${artist?.emblem || 'asteria'}`, root).href);
-    emblem.append(use); panel.querySelector('.cg-door-sigil').replaceChildren(emblem);
-    panel.style.setProperty('--gate-accent', artist?.accent || '#806432');
-    panel.style.setProperty('--gate-paper', artist?.realm === 'infernal' ? '#19141f' : (artist?.tint || '#fcf9ef'));
-    const kind = artist?.realm === 'infernal' ? 'infernal' : 'celestial';
-    const backdrop = returning ? config.cinema.home : artist.background;
-    const size = matchMedia('(max-width:640px)').matches ? 'mobile' : '1280';
-    const imageUrl = (name, extension) => new URL(`assets/cinema/${name}.${extension}`, root).href;
-    panel.querySelector('.cg-door-beyond source').srcset = imageUrl(`${backdrop}-${size}`, 'avif');
-    panel.querySelector('.cg-door-beyond img').src = imageUrl(`${backdrop}-${size}`, 'webp');
-    panel.querySelector('.cg-door-frame').src = imageUrl(`frame-${kind}-${fast ? 480 : 960}`, 'webp');
-    panel.style.setProperty('--gate-texture', `url("${imageUrl(`door-${kind}-${fast ? 480 : 960}`, 'webp')}")`);
+    // Check the real target before leaving. Failure does not strand the user in a modal.
+    state.ready = new Promise(resolve => {
+      const timeout = setTimeout(() => { state.navigation.abort(); resolve(false); },5000); state.timers.push(timeout);
+      fetch(destination.href,{signal:state.navigation.signal,headers:{Accept:'text/html'}})
+        .then(response => response.ok && /text\/html/i.test(response.headers.get('content-type') || '') ? response.text() : '')
+        .then(text => { clearTimeout(timeout); resolve(/<body[\s>]/i.test(text)); })
+        .catch(() => { clearTimeout(timeout); resolve(false); });
+    });
+    panel.className = `cg-door-dialog${realm === 'infernal' ? ' cg-infernal' : ''}${fast ? ' cg-door-fast' : ''}${returning ? ' cg-returning' : ''}`;
+    for (const name of ['approach','glow','open','reveal','flight','wash']) panel.style.setProperty(`--cg-${name}`,'0');
+    panel.dataset.phase = 'loading';
+    const emblem = document.createElementNS('http://www.w3.org/2000/svg','svg'); emblem.setAttribute('viewBox','0 0 64 64'); emblem.setAttribute('aria-hidden','true');
+    const use = document.createElementNS('http://www.w3.org/2000/svg','use'); use.setAttribute('href',new URL(`assets/celestial-emblems.svg#${artist?.emblem || 'asteria'}`,root).href); emblem.append(use); panel.querySelector('.cg-door-sigil').replaceChildren(emblem);
+    panel.style.setProperty('--gate-accent',realm === 'infernal' ? '#ed3c44' : (artist?.accent || '#806432'));
+    panel.style.setProperty('--gate-paper',realm === 'infernal' ? '#19080d' : (artist?.tint || '#fcf9ef'));
+    const kind = realm === 'infernal' ? 'infernal' : 'celestial';
+    setWorld(panel.querySelector('.cg-door-beyond'),background);
+    panel.querySelector('.cg-door-frame').src = imageUrl(`frame-${kind}-${fast ? 480 : 960}`,'webp');
+    const textureUrl = imageUrl(`door-${kind}-${fast ? 480 : 960}`,'webp');
+    panel.style.setProperty('--gate-texture',`url("${textureUrl}")`);
+    const texture = new Image(); texture.src = textureUrl;
+    state.assetsReady = fast ? Promise.resolve() : Promise.race([
+      Promise.all([panel.querySelector('.cg-door-beyond img'),panel.querySelector('.cg-door-frame'),texture].map(img => img.decode().catch(() => {}))),
+      new Promise(resolve => later(resolve,400,state))
+    ]);
     panel.querySelector('#cg-door-title').textContent = returning ? '天界へ' : artist.name;
-    panel.querySelector('[data-cg-door-realm]').textContent = returning ? 'CELESTIAL GATE' : `${artist.label} / ${artist.realm === 'infernal' ? 'INFERNAL' : 'CELESTIAL'} REALM`;
-    const description = panel.querySelector('#cg-door-description');
-    description.textContent = fast ? 'まもなく移動します。' : '扉の向こうの世界へ。無音でも移動できます。';
-    panel.style.setProperty('--cg-door-duration', fast ? '0ms' : `${config.durationMs - 600}ms`);
-    document.body.style.overflow = 'hidden';
-    panel.showModal();
-    panel.querySelector('.cg-door-skip').focus();
-    const reveal = () => {
+    panel.querySelector('[data-cg-door-realm]').textContent = returning ? 'CELESTIAL GATE' : `${artist.label} / ${realm === 'infernal' ? 'INFERNAL' : 'CELESTIAL'} REALM`;
+    const description = panel.querySelector('#cg-door-description'); description.textContent = fast ? 'まもなく移動します。' : '扉の奥へ、音楽の世界へ。';
+    document.body.style.overflow = 'hidden'; panel.showModal(); panel.querySelector('.cg-door-skip').focus();
+    const begin = async buffer => {
       if (active !== state || state.started) return;
-      state.started = true;
-      // Force a closed-door frame before transition; this works after BFCache too.
-      void panel.offsetWidth;
-      later(() => panel.classList.add('cg-door-opening'), fast ? 0 : 160, state);
-      later(() => finish(true), fast ? config.shortDurationMs : config.durationMs, state);
+      state.started = true; await state.assetsReady;
+      if (active !== state || state.navigating) return;
+      state.epoch = performance.now(); panel.dataset.phase = 'approach';
+      if (buffer && sound && !musicIsActive()) {
+        try {
+          gainNode = audioContext.createGain(); gainNode.gain.value = volume;
+          audioSource = audioContext.createBufferSource(); audioSource.buffer = buffer; envelopeNode = audioContext.createGain(); audioSource.connect(envelopeNode); envelopeNode.connect(gainNode); gainNode.connect(audioContext.destination);
+          const when = audioContext.currentTime + config.timeline.glowMs/1000;
+          // Independent envelope preserves live volume control and softens any formal file's attack/tail.
+          const envelope = envelopeNode.gain; envelope.value = 0;
+          if (typeof envelope.setValueAtTime === 'function') {
+            envelope.setValueAtTime(0,when); envelope.linearRampToValueAtTime(1,when+.08);
+            const end = when + Math.min(buffer.duration,(config.durationMs-config.timeline.glowMs)/1000);
+            envelope.setValueAtTime(1,Math.max(when+.08,end-.15)); envelope.linearRampToValueAtTime(0,end);
+          } else envelope.value = 1;
+          audioSource.start(when);
+          description.textContent = isCandidate ? '新規候補の試聴とともに扉を開きます。正式Ver.2ではありません。' : '重低音Ver.2とともに扉を開きます。';
+        } catch { stopSound(); description.textContent = '効果音を再生できないため、無音で移動します。'; }
+      }
+      if (fast) { panel.dataset.phase = 'short'; later(() => finish(true),config.shortDurationMs,state); }
+      else animate(state);
     };
-    const blockedByMusic = musicIsActive();
-    const shouldPlay = sound && config.doorAudio && !fast && !blockedByMusic;
-    if (!shouldPlay) {
-      if (blockedByMusic && sound) description.textContent = '楽曲再生との重複を避け、扉を無音で開きます。';
-      reveal(); return;
+    const blocked = musicIsActive();
+    if (!sound || !audioPath || fast || blocked) {
+      if (blocked && sound) description.textContent = '楽曲再生との重複を避け、無音で移動します。';
+      begin(null); return;
     }
-    // Web Audio plays only this approved SFX. Existing music hooks stay untouched.
-    // Resume is invoked synchronously inside the user gesture (including Safari).
+    // Resume synchronously in the user gesture; bounded decode shares the animation clock.
     let expired = false;
-    const fallback = message => {
+    const fallback = () => {
       if (active !== state || state.started) return;
-      expired = true; stopSound();
-      state.timers.forEach(clearTimeout); state.timers = [];
-      description.textContent = message; reveal();
+      expired = true; stopSound(); description.textContent = '効果音を読み込めないため、無音で移動します。'; begin(null);
     };
-    later(() => fallback('音源の読み込みを待たず、無音で移動します。'), 500, state);
+    later(fallback,500,state);
     try {
       const Context = window.AudioContext || window.webkitAudioContext;
-      if (!Context) { fallback('効果音に対応していないため、無音で移動します。'); return; }
-      audioContext ||= new Context();
-      const resumed = audioContext.resume();
+      if (!Context) { fallback(); return; }
+      audioContext ||= new Context(); const resumed = audioContext.resume();
       loadController = new AbortController();
-      const sourceUrl = new URL(config.doorAudio, root);
-      Promise.all([
-        resumed,
-        fetch(sourceUrl, {signal:loadController.signal})
-          .then(response => { if (!response.ok) throw new Error('SFX unavailable'); return response.arrayBuffer(); })
-          .then(bytes => audioContext.decodeAudioData(bytes))
-      ]).then(([,buffer]) => {
-        if (active !== state || expired) return;
-        if (audioContext.state !== 'running') { fallback('効果音を再生できないため、無音で移動します。'); return; }
-        if (musicIsActive() || !sound) { fallback('楽曲と重ならないよう、扉を無音で開きます。'); return; }
-        loadController = null;
-        gainNode = audioContext.createGain(); gainNode.gain.value = volume;
-        audioSource = audioContext.createBufferSource(); audioSource.buffer = buffer;
-        audioSource.connect(gainNode); gainNode.connect(audioContext.destination);
-        state.timers.forEach(clearTimeout); state.timers = [];
-        // Sound and the door share this start point; visual opening begins 160ms later.
-        audioSource.start(audioContext.currentTime);
-        description.textContent = '重低音Ver.2とともに、扉を開いています。';
-        reveal();
-      }).catch(() => fallback('効果音を再生できないため、無音で移動します。'));
-    } catch { fallback('効果音を再生できないため、無音で移動します。'); }
+      Promise.all([resumed,fetch(new URL(audioPath,root),{signal:loadController.signal})
+        .then(response => { if (!response.ok) throw new Error('SFX unavailable'); return response.arrayBuffer(); })
+        .then(bytes => audioContext.decodeAudioData(bytes))])
+        .then(([,buffer]) => {
+          if (active !== state || expired || state.started) return;
+          if (audioContext.state !== 'running') { fallback(); return; }
+          loadController = null; begin(buffer);
+        }).catch(fallback);
+    } catch { fallback(); }
   }
-
-  const artistPaths = new Map(Object.entries(config.artists).map(([slug, artist]) => [new URL(`artists/${slug}/`,root).pathname,artist]));
-  document.addEventListener('click', event => {
+  const artistPaths = new Map(Object.entries(config.artists).map(([slug,artist]) => [new URL(`artists/${slug}/`,root).pathname,artist]));
+  document.addEventListener('click',event => {
     const link = event.target.closest?.('a[href]');
     if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
-    let destination;
-    try { destination = new URL(link.href); } catch { return; }
+    let destination; try { destination = new URL(link.href); } catch { return; }
     if (destination.origin !== location.origin || destination.pathname === location.pathname) return;
     const returning = link.hasAttribute('data-cg-return');
-    const artist = artistPaths.get(destination.pathname.replace(/index\.html$/, '').replace(/\/?$/, '/'));
+    const artist = artistPaths.get(destination.pathname.replace(/index\.html$/,'').replace(/\/?$/,'/'));
     if (!artist && !returning) return;
-    event.preventDefault();
-    start(destination,artist,link,returning);
+    event.preventDefault(); start(destination,artist,link,returning);
   });
-  addEventListener('pagehide', () => finish(false));
-  addEventListener('pageshow', () => finish(false));
-  addEventListener('keydown', event => {
+  addEventListener('pagehide',() => finish(false)); addEventListener('pageshow',() => finish(false));
+  addEventListener('keydown',event => {
     if (event.key === 'Escape') {
       document.querySelector('.cg-settings[open]')?.removeAttribute('open');
-      const menu = document.querySelector('.mobile-menu[open]');
-      if (menu) { menu.removeAttribute('open'); menu.querySelector('summary')?.focus(); }
+      const menu = document.querySelector('.mobile-menu[open]'); if (menu) { menu.removeAttribute('open'); menu.querySelector('summary')?.focus(); }
     }
   });
-  // Suppress interference even if media starts after the gate click.
-  document.addEventListener('play', () => stopSound(), true);
+  document.addEventListener('play',stopSound,true);
 })();

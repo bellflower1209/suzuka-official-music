@@ -33,7 +33,7 @@ node --check assets/celestial-gate.js
 
 ## 正式効果音が未登録
 
-`door-heavy-v2.wav` は未取得です。音声ボタンは「音源未登録」、扉は無音で動作します。旧音源・代替音源は使用していません。
+`door-heavy-v2.wav` は未取得です。V4では別管理の新規候補 `door-heavy-candidate-v4.wav` を試聴できます。「候補音声 OFF」が初期値で、正式Ver.2とは明確に区別します。候補の出典・SHA・制作仕様とV4操作は [V4運用資料](celestial-portal-v4.md) を参照してください。
 
 正式原音を受け取った後の手順：
 
@@ -55,32 +55,25 @@ Windows PowerShell：
 Get-FileHash .\assets\audio\door-heavy-v2.wav -Algorithm SHA256
 ```
 
-音声の初期値はOFF。音量上限0.5・初期0.24、ON/OFF・音量・短縮設定は端末のlocalStorageに保存します。通常演出は2.2秒、短縮・reduce・データ節約時は250msです。効果音のファイルはArtist選択時だけ取得し、取得・再生の準備が500msを超えた場合は無音で進みます。再生中のaudio/video、または状態不明のYouTube/Vimeo iframeがある場合は重複を避けて無音にします。既存本番はサイト内楽曲プレイヤーを撤去済みの外部視聴方式で、今回もその再生導線を保持しています。
+音声の初期値はOFF。音量上限0.5・初期0.24、ON/OFF・音量・短縮設定は端末のlocalStorageに保存します。通常演出は4.0秒、短縮・reduce・データ節約時は250msです。効果音のファイルはArtist選択時だけ取得し、取得・再生の準備が500msを超えた場合は無音で進みます。再生中のaudio/video、または状態不明のYouTube/Vimeo iframeがある場合は重複を避けて無音にします。既存本番はサイト内楽曲プレイヤーを撤去済みの外部視聴方式で、今回もその再生導線を保持しています。
 
 ## ローカルプレビュー
 
 作業フォルダー：`/Users/enomotojunichi/Documents/SUZUKA公式サイト/suzuka-celestial-gate`
 
-Macでは親フォルダーで実行します。ポート8818がすでにプレビューで使用中なら8817など空いた番号に変えてください。
+Macではリポジトリ直下からNodeのローカルサーバーを起動します。
 
 ```bash
-cd '/Users/enomotojunichi/Documents/SUZUKA公式サイト'
-python3 -m http.server 8818 --bind 127.0.0.1
+cd '/Users/enomotojunichi/Documents/SUZUKA公式サイト/suzuka-celestial-gate'
+node scripts/preview_celestial_gate.cjs 8821
 ```
 
-ブラウザ：`http://127.0.0.1:8818/suzuka-celestial-gate/`。停止はControl+C。
+ブラウザ：`http://127.0.0.1:8821/`。確認動画と画像：`http://127.0.0.1:8821/review/review.html`。停止はControl+C。
 
-Windowsでは任意のフォルダーにチェックアウトを置き、その親フォルダーで次を実行します。フォルダー名が違う場合はURLを合わせます。
-
-```powershell
-cd 'C:\SUZUKA'
-py -m http.server 8818 --bind 127.0.0.1
-```
-
-内部リンク確認はリポジトリ直下で実行します。
+Windowsではチェックアウトのルートで `node scripts/preview_celestial_gate.cjs 8821` を実行してください。
 
 ```bash
-python3 scripts/check_static_site.py http://127.0.0.1:8818/suzuka-celestial-gate/
+python3 scripts/check_static_site.py http://127.0.0.1:8821/
 ```
 
 ## 操作テストの再実行
@@ -91,7 +84,7 @@ Playwrightは検証用だけに使用し、公開サイトにNode依存を追加
 npm install --prefix /private/tmp/cg-browser --cache /private/tmp/cg-npm-cache playwright --no-audit --no-fund
 CG_PLAYWRIGHT_MODULE=/private/tmp/cg-browser/node_modules/playwright \
 CG_QA_OUTPUT=/private/tmp/celestial-gate-browser \
-node scripts/browser_celestial_gate_qa.cjs http://127.0.0.1:8818/suzuka-celestial-gate/
+node scripts/browser_celestial_gate_qa.cjs http://127.0.0.1:8821/
 ```
 
 Macではインストール済みChromeを使います。WindowsではPlaywrightのChromiumをインストールするか、`CG_CHROME_EXECUTABLE` でChrome実行ファイルを指定します。Windows PowerShellの検証用Chrome指定例：
@@ -100,7 +93,7 @@ Macではインストール済みChromeを使います。WindowsではPlaywright
 npm install --prefix "$env:TEMP\cg-browser" playwright --no-audit --no-fund
 $env:CG_PLAYWRIGHT_MODULE = "$env:TEMP\cg-browser\node_modules\playwright"
 $env:CG_CHROME_EXECUTABLE = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
-node .\scripts\browser_celestial_gate_qa.cjs http://127.0.0.1:8818/suzuka-celestial-gate/
+node .\scripts\browser_celestial_gate_qa.cjs http://127.0.0.1:8821/
 ```
 
 音源エラーのケースは、実音を出さないWeb Audioモックで遷移の安全性だけを確認します。iPhone/Androidの実機と正式音源は別途確認が必要です。

@@ -5,18 +5,18 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const review = path.resolve(root, '../CELESTIAL_CINEMA_V3_QA');
-const port = Number(process.argv[2] || 8820);
+const review = path.resolve(root, '../CELESTIAL_PORTAL_V4_QA');
+const port = Number(process.argv[2] || 8821);
 if (!Number.isInteger(port) || port < 1024 || port > 65535) {
   console.error('Choose a port between 1024 and 65535.');
   process.exit(1);
 }
 const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8',
   '.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8',
-  '.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8',
+  '.webmanifest':'application/manifest+json','.woff2':'font/woff2','.woff':'font/woff','.ttf':'font/ttf','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8',
   '.md':'text/plain; charset=utf-8','.avif':'image/avif','.webp':'image/webp',
   '.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml',
-  '.ico':'image/x-icon','.wav':'audio/wav','.mp3':'audio/mpeg'};
+  '.mp4':'video/mp4','.webm':'video/webm','.ico':'image/x-icon','.wav':'audio/wav','.mp3':'audio/mpeg'};
 const server = http.createServer(async (req,res) => {
   if (!['GET','HEAD'].includes(req.method)) {res.writeHead(405);res.end();return;}
   let requestPath;

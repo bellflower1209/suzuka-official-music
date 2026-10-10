@@ -1,7 +1,7 @@
 {
   "name": "SUZUKA — CELESTIAL GATE",
   "concept": "音楽が導く、十二の世界",
-  "durationMs": 2200,
+  "durationMs": 4000,
   "shortDurationMs": 250,
   "doorAudio": null,
   "doorAudioStatus": "missing-formal-door-heavy-v2",
@@ -124,5 +124,16 @@
     "doorInfernal": "door-infernal",
     "frameCelestial": "frame-celestial",
     "frameInfernal": "frame-infernal"
-  }
+  },
+  "candidateAudio": "assets/audio/door-heavy-candidate-v4.wav",
+  "candidateAudioStatus": "new-candidate-not-adopted",
+  "candidateAudioSha256": "9873405f8cfe15720f74e53db83c9209c7edb02f0a09df807447435151606ebc",
+  "timeline": {
+    "approachMs": 400,
+    "glowMs": 900,
+    "openMs": 2200,
+    "revealMs": 2800,
+    "entryMs": 3500
+  },
+  "arrivalMs": 650
 }

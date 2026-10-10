@@ -15,7 +15,7 @@ def clear(text):
 
 
 def validate(root, config, artists):
-    if not 1500 <= config['durationMs'] <= 2500 or not 0 <= config['defaultVolume'] <= .5 or not 100 <= config['shortDurationMs'] <= 500:
+    if not 3500 <= config['durationMs'] <= 6000 or not 0 <= config['defaultVolume'] <= .5 or not 100 <= config['shortDurationMs'] <= 500:
         raise ValueError('Door timing or volume is outside the supported range.')
     if not all(re.fullmatch(r'[a-z0-9-]+', a['slug']) for a in artists):
         raise ValueError('Canonical artist slug is not URL-safe.')
@@ -33,7 +33,17 @@ def validate(root, config, artists):
             raise ValueError('Only the approved door-heavy-v2.wav is allowed inside the site.')
         if hashlib.sha256(path.read_bytes()).hexdigest() != config.get('doorAudioSha256'):
             raise ValueError('Approved original audio hash is required.')
-    return audio
+    candidate = config.get('candidateAudio')
+    if candidate:
+        path = (root / candidate).resolve()
+        if not path.is_relative_to(root.resolve()) or path.name != 'door-heavy-candidate-v4.wav' or config.get('candidateAudioStatus') != 'new-candidate-not-adopted':
+            raise ValueError('Candidate must remain explicitly unadopted and separate from Ver.2.')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != config.get('candidateAudioSha256'):
+            raise ValueError('Candidate audio hash mismatch.')
+    times = list(config['timeline'].values())
+    if times != sorted(set(times)) or times[0] <= 0 or times[-1] >= config['durationMs']:
+        raise ValueError('Portal phases must be ordered inside the total duration.')
+    return audio or candidate
 
 
 def art(a, prefix):
@@ -86,8 +96,8 @@ def atlas(artists, config, prefix):
 
 
 def settings(audio):
-    label='音声 OFF' if audio else '音源未登録'
-    return '<details class="cg-settings"><summary>体験設定 <span aria-hidden="true">✧</span></summary><div class="cg-settings-panel"><p>GATE EXPERIENCE</p><button type="button" data-cg-sound aria-pressed="false"'+('' if audio else ' disabled')+'>'+label+'</button><label>効果音の音量<input type="range" data-cg-volume min="0" max="0.5" step="0.01" value="0.24" aria-label="扉の効果音の音量"/></label><label class="cg-check"><input type="checkbox" data-cg-short/>演出を短くする</label><small data-cg-sound-note>'+('音声は選択した扉でのみ再生します。楽曲再生中は効果音を抑えます。' if audio else '正式な重低音Ver.2が未登録です。扉は無音で開きます。')+'</small></div></details>'
+    label=('音声 OFF' if audio.endswith('door-heavy-v2.wav') else '候補音声 OFF') if audio else '音源未登録'
+    return '<details class="cg-settings"><summary>体験設定 <span aria-hidden="true">✧</span></summary><div class="cg-settings-panel"><p>GATE EXPERIENCE</p><button type="button" data-cg-sound aria-pressed="false"'+('' if audio else ' disabled')+'>'+label+'</button><label>効果音の音量<input type="range" data-cg-volume min="0" max="0.5" step="0.01" value="0.24" aria-label="扉の効果音の音量"/></label><label class="cg-check"><input type="checkbox" data-cg-short/>演出を短くする</label><small data-cg-sound-note>'+(('音声は選択した扉でのみ再生します。楽曲再生中は効果音を抑えます。' if audio.endswith('door-heavy-v2.wav') else '正式Ver.2は未登録です。新規候補の試聴は任意です。正式採用済みではありません。') if audio else '正式な重低音Ver.2が未登録です。扉は無音で開きます。')+'</small></div></details>'
 
 
 def build(root):
@@ -97,7 +107,7 @@ def build(root):
     audio=validate(root,config,artists)
     validate_cinema(root,config,artists)
     by_slug={a['slug']:a for a in artists}
-    runtime={k:config[k] for k in ['durationMs','shortDurationMs','defaultVolume','doorAudio']}
+    runtime={k:config[k] for k in ['durationMs','shortDurationMs','defaultVolume','doorAudio','doorAudioStatus','candidateAudio','candidateAudioStatus','timeline','arrivalMs']}
     runtime['artists']={a['slug']:{'name':a['name'],'slug':a['slug'],**config['themes'][a['slug']]} for a in artists}
     runtime['cinema']=config['cinema']
     encoded=json.dumps(runtime,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
@@ -127,7 +137,7 @@ def build(root):
             text=re.sub(r'<!-- SUZUKA:GA4:END -->\s*',lambda m:'<!-- SUZUKA:GA4:END -->'+preload+'\n',text,count=1)
         else:
             text=text.replace('<head>','<head>'+preload,1)
-        text=text.replace('</head>', block('ASSETS',f'<link rel="icon" type="image/jpeg" href="{prefix}images/suzuka-channel.jpg"/><link rel="stylesheet" href="{prefix}assets/celestial-gate.css"/><script defer src="{prefix}assets/celestial-gate.js"></script><script type="application/json" id="cg-config">{encoded}</script>')+'</head>',1)
+        text=text.replace('</head>', block('ASSETS',f'<script>(function(){{try{{var k="suzuka.cg.arrival",s=JSON.parse(sessionStorage.getItem(k)||"null");sessionStorage.removeItem(k);if(s&&s.path===location.pathname&&Date.now()-s.time<15000&&s.time<=Date.now()&&/^[a-z0-9-]+$/.test(s.background)){{window.__cgArrival=s;document.documentElement.dataset.cgArrival=s.realm==="infernal"?"infernal":"celestial";}}}}catch(e){{}}}})();</script><link rel="icon" type="image/jpeg" href="{prefix}images/suzuka-channel.jpg"/><link rel="stylesheet" href="{prefix}assets/celestial-gate.css"/><script defer src="{prefix}assets/celestial-gate.js"></script><script type="application/json" id="cg-config">{encoded}</script>')+'</head>',1)
         atmosphere='<div class="cg-atmosphere" aria-hidden="true"></div>'
         text=re.sub(r'(<body\b[^>]*>)',lambda m:m[0]+block('ATMOSPHERE',atmosphere),text,count=1)
         text=text.replace('</header>','</header>'+block('SETTINGS',settings(audio)),1)
@@ -199,7 +209,7 @@ def build(root):
         if 'CELESTIAL-GATE:SETTINGS:START' not in text:
             text=text.replace('</body>',block('SETTINGS',settings(audio))+'</body>')
         path.write_text(text,encoding='utf-8');count+=1
-    print(f'Celestial Gate: {count} HTML pages, {len(artists)} canonical worlds, audio '+('verified' if audio else 'pending (silent fallback)')+'.')
+    print(f'Celestial Gate: {count} HTML pages, {len(artists)} canonical worlds, audio '+('formal Ver.2 verified' if config.get('doorAudio') else 'new candidate available; formal Ver.2 pending' if audio else 'pending (silent fallback)')+'.')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);build(p.parse_args().root.resolve())
