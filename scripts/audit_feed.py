@@ -16,6 +16,8 @@ def main()->int:
         if urlparse(identifier).scheme!="https": errors.append(f"feed non-HTTPS id: {identifier}")
         updated=entry.findtext("a:updated",default="",namespaces=NS)
         if not ISO_DATETIME_TZ_RE.fullmatch(updated): errors.append(f"feed invalid updated: {identifier}")
+        published=entry.findtext('a:published',default='',namespaces=NS)
+        if published and not ISO_DATETIME_TZ_RE.fullmatch(published): errors.append(f'feed invented or incomplete publication clock: {identifier}')
         category=entry.find("a:category",NS); term=category.get("term","") if category is not None else ""; categories.add(term)
         if term=="upcoming" and not (entry.findtext("a:title",default="",namespaces=NS).startswith("Upcoming｜")): errors.append("upcoming entry not clearly labeled")
     if len(ids)!=len(set(ids)): errors.append("feed duplicate entry IDs")

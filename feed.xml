@@ -2,12 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-10-02T14:10:36+09:00</updated>
+  <updated>2026-10-13T20:13:57+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <published>2026-10-13T20:00:09+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/ame-nochi-anata/</id>
+    <title>妃みちる「雨のち貴方」</title>
+    <updated>2026-10-13T20:00:09+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/ame-nochi-anata/" />
+    <category term="release" />
+    <summary>妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-12T20:00:07+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/mikansei-no-kakumei/</id>
+    <title>RE:VIVE「未完成の革命」</title>
+    <updated>2026-10-12T20:00:07+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/mikansei-no-kakumei/" />
+    <category term="release" />
+    <summary>RE:VIVE「未完成の革命」のOFFICIAL AUDIOを公式YouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-12T15:52:18+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n3c62926d29e0/</id>
+    <title>【本日20:00解禁】RE:VIVE『未完成の革命』――未完成のままでいい。何度でも、立ち上がれ。</title>
+    <updated>2026-10-12T15:52:18+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n3c62926d29e0/" />
+    <category term="news" />
+    <summary>「【本日20:00解禁】RE:VIVE『未完成の革命』――未完成のままでいい。何度でも、立ち上がれ。」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/dareka-no-tameni/</id>
+    <title>妃みちる「誰かのために」</title>
+    <updated>2026-10-13T20:13:57+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/dareka-no-tameni/" />
+    <category term="release" />
+    <summary>妃みちる「誰かのために」のシングルを配信中。</summary>
+  </entry>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/yukkuri-yasunde/</id>
+    <title>妃みちる「ゆっくり休んで」</title>
+    <updated>2026-10-13T20:13:57+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/yukkuri-yasunde/" />
+    <category term="release" />
+    <summary>妃みちる「ゆっくり休んで」のシングルを配信中。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-10T20:40:36+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/ichigo-ichihou-saikai-no-yakusoku/</id>
+    <title>神代煌牙「一護一逢〜再開の約束〜」</title>
+    <updated>2026-10-10T20:40:36+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/ichigo-ichihou-saikai-no-yakusoku/" />
+    <category term="release" />
+    <summary>神代煌牙「一護一逢〜再開の約束〜」のOFFICIAL AUDIOを公式YouTubeで公開。</summary>
+  </entry>
   <entry>
     <published>2026-10-07T00:47:50+09:00</published>
     <id>https://www.suzukaofficial.com/lyrics/watashi-no-eranda-michi/</id>
@@ -153,6 +205,14 @@
     <summary>妃みちる「あなたを想う、それだけで」のOfficial Audioを公開。</summary>
   </entry>
   <entry>
+    <id>https://www.suzukaofficial.com/releases/koi-no-tochu/</id>
+    <title>榎本魅愛「恋の途中」</title>
+    <updated>2026-10-13T20:13:57+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/koi-no-tochu/" />
+    <category term="release" />
+    <summary>榎本魅愛「恋の途中」のアルバムを配信中。</summary>
+  </entry>
+  <entry>
     <published>2026-10-04T20:00:08+09:00</published>
     <id>https://www.suzukaofficial.com/releases/ashita-yaru/</id>
     <title>鉄髭 - TETSUHIGE -「明日やる」</title>
@@ -171,6 +231,24 @@
     <summary>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」のOfficial Audioを公開。</summary>
   </entry>
   <entry>
+    <published>2026-10-03T16:49:06+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-nd4ccc92d086c/</id>
+    <title>SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。</title>
+    <updated>2026-10-03T16:49:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-nd4ccc92d086c/" />
+    <category term="news" />
+    <summary>「SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-03T13:39:51+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n00f345878afe/</id>
+    <title>榎本魅愛、新曲『天照 -アマテラス-』10月3日19:00 音源先行公開</title>
+    <updated>2026-10-03T13:39:51+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n00f345878afe/" />
+    <category term="news" />
+    <summary>「榎本魅愛、新曲『天照 -アマテラス-』10月3日19:00 音源先行公開」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
+  </entry>
+  <entry>
     <published>2026-10-03T00:00:00+09:00</published>
     <id>https://www.suzukaofficial.com/news/youtube-channel-policy/</id>
     <title>YouTubeチャンネル運用変更のお知らせ</title>
@@ -178,6 +256,24 @@
     <link href="https://www.suzukaofficial.com/news/youtube-channel-policy/" />
     <category term="news" />
     <summary>SUZUKA公式YouTubeチャンネルと、榎本魅愛・妃みちる・神代煌牙の各公式YouTubeチャンネルの今後の運用についてお知らせします。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-02T22:40:34+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n2e08265c5c5b/</id>
+    <title>「Without worrying」が、新しく生まれ変わりました。</title>
+    <updated>2026-10-02T22:40:34+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n2e08265c5c5b/" />
+    <category term="news" />
+    <summary>「「Without worrying」が、新しく生まれ変わりました。」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-02T22:36:43+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n3e1b02345551/</id>
+    <title>「あなたはひとりじゃない」——榎本魅愛『Without worrying』</title>
+    <updated>2026-10-02T22:36:43+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n3e1b02345551/" />
+    <category term="news" />
+    <summary>「「あなたはひとりじゃない」——榎本魅愛『Without worrying』」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
   </entry>
   <entry>
     <published>2026-10-02T00:00:00+09:00</published>
@@ -223,6 +319,15 @@
     <link href="https://www.suzukaofficial.com/news/renkinku-release/" />
     <category term="news" />
     <summary>榎本魅愛「恋禁区。」のOFFICIAL MV公開のお知らせ。公式動画と作品情報をご紹介します。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-01T00:59:00+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n561715644520/</id>
+    <title>🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁</title>
+    <updated>2026-10-01T00:59:00+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n561715644520/" />
+    <category term="news" />
+    <summary>「🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。</summary>
   </entry>
   <entry>
     <published>2026-10-01T00:00:00+09:00</published>
@@ -808,6 +913,15 @@
     <link href="https://www.suzukaofficial.com/news/gekka-no-chigiri-release/" />
     <category term="news" />
     <summary>白狼・孤闘と九尾狐・九羅護が、月下の契りと運命を歌うVEILFANGのデビューシングル。</summary>
+  </entry>
+  <entry>
+    <published>2026-09-01T21:25:40+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/gozen-0ji-no-cinderella/</id>
+    <title>ASTERIA「午前0時のシンデレラ」</title>
+    <updated>2026-09-01T21:25:40+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/gozen-0ji-no-cinderella/" />
+    <category term="release" />
+    <summary>ASTERIA「午前0時のシンデレラ」の先行音源を公式YouTubeで公開。</summary>
   </entry>
   <entry>
     <published>2026-08-31T20:00:18+09:00</published>

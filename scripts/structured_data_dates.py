@@ -159,8 +159,12 @@ def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]
         video_id = str(release.get("youtubeUrl", "")).split("v=", 1)[-1].split("&", 1)[0]
         options = candidates.get(release["slug"], [])
         record = next((item for item in options if item.get("youtubeId") == video_id), None)
-        if record is None and options:
-            record = max(options, key=lambda item: item.get("verifiedPublishedAt", ""))
+        if record is None:
+            # A secondary video cannot supply the primary work/video date.
+            # It remains eligible when its ID is the explicitly selected URL.
+            primary_options = [item for item in options if item.get("contentType") != "version"]
+            if primary_options:
+                record = max(primary_options, key=lambda item: item.get("verifiedPublishedAt", ""))
         record = record or {}
         if record:
             by_slug[release["slug"]] = record

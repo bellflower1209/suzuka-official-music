@@ -120,22 +120,37 @@ def countdown_markup(item: dict, prefix: str = "") -> str:
 
 
 def coming_soon_card(item: dict, prefix: str) -> str:
+    date = item.get("releaseDate") if item.get("datePrecision") == "day" else ""
+    date_label = date.replace("-", ".") if date else "COMING SOON"
+    description = item.get("description") if date else "リリース日は確認でき次第お知らせします。"
+    official_link = (
+        f'<a href="{html.escape(item["linkcoreUrl"], quote=True)}" target="_blank" rel="noopener noreferrer">公式配信情報 ↗</a>'
+        if item.get("announcementPublic") and item.get("linkcoreUrl") else ""
+    )
     return (
         '<article class="v31-countdown-card" data-upcoming>'
-        '<div><p class="section-kicker">UPCOMING</p><strong>COMING SOON</strong></div><div>'
+        f'<div><p class="section-kicker">UPCOMING</p><strong>{html.escape(date_label)}</strong></div><div>'
         f'<h2>{html.escape(item["title"])}</h2><p>{html.escape(item["artist"])}</p>'
-        '<p>リリース日は確認でき次第お知らせします。</p><div class="explore-actions">'
+        f'<p>{html.escape(description or "")}</p>'
+        + ('<p>配信時刻は未確認です。予定日の到来だけでは配信済みに変更しません。</p>' if date else '')
+        + '<div class="explore-actions">'
         f'<a href="{prefix}releases/{item["slug"]}/">作品ページ</a>'
-        f'<a href="{prefix}artists/{item["artistSlug"]}/">Artist</a></div></div></article>'
+        f'<a href="{prefix}artists/{item["artistSlug"]}/">Artist</a>{official_link}</div></div></article>'
     )
 
 
 def coming_soon_pages(root: Path, cms: dict) -> None:
     for item in cms.get("comingSoon", []):
+        description = item.get("description") if item.get("datePrecision") == "day" else f'{item["artist"]}「{item["title"]}」はUpcoming。リリース日は確認でき次第お知らせします。'
+        visual = (
+            f'<img src="{html.escape(media_url(item["image"], "../../"))}" alt="{html.escape(item.get("coverAlt") or item["title"])}" '
+            f'width="{int(item.get("coverWidth") or 400)}" height="{int(item.get("coverHeight") or 400)}" loading="lazy"/>'
+            if item.get("announcementPublic") and item.get("image") else ""
+        )
         page = shell(
             f'releases/{item["slug"]}/', f'{item["title"]}｜COMING SOON｜SUZUKA',
-            f'{item["artist"]}「{item["title"]}」はUpcoming。リリース日は確認でき次第お知らせします。',
-            item["title"], '<section class="v31-schedule-group">' + coming_soon_card(item, "../../").replace(f'<a href="../../releases/{item["slug"]}/">作品ページ</a>', "") +
+            description,
+            item["title"], '<section class="v31-schedule-group">' + visual + coming_soon_card(item, "../../").replace(f'<a href="../../releases/{item["slug"]}/">作品ページ</a>', "") +
             '<p><a href="../../schedule/#coming-soon">SUZUKA Upcomingを見る</a></p></section>',
             [], ("releases", "Releases"), page_type="WebPage",
         )

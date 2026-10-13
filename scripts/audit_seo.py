@@ -12,6 +12,7 @@ from collections import deque
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
+from structured_data_dates import types_of
 from typing import Any
 
 
@@ -652,8 +653,21 @@ def audit() -> tuple[list[str], dict[str, Any]]:
             if video.get("uploadDate") != expected_date or video.get("duration") != "PT4M57S":
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
-            if "VideoObject" in schema_types:
-                errors.append(f"{relative}: must not claim VideoObject without a confirmed official video")
+            release = next(item for item in CREATOR_CMS['releases'] if item['slug'] == relative.parts[1])
+            proof = json.loads((ROOT / 'assets/data/youtube-publish-dates.json').read_text())
+            evidence_by_url = {item.get('youtubeUrl'): item for item in proof['records']}
+            versions = {item['youtubeUrl']: item for item in release.get('videoVersions', []) if item.get('verifiedAt')}
+            for node in schema_nodes.values():
+                if 'VideoObject' not in types_of(node):
+                    continue
+                url = node.get('contentUrl')
+                source = evidence_by_url.get(url, {})
+                version = versions.get(url, {})
+                if (not version or not source.get('channelVerified') or not source.get('verifiedPublishedAt')
+                        or node.get('name') != version.get('title')
+                        or node.get('uploadDate') != source.get('verifiedPublishedAt')
+                        or node.get('@id') == f'{page_url}#video'):
+                    errors.append(f"{relative}: must not claim VideoObject without matching official version evidence")
             if relative == Path("releases/boukyaku-no-ikimono/index.html") and any("datePublished" in node for node in schema_nodes.values()):
                 errors.append(f"{relative}: must not infer datePublished")
         if relative in FEATURE_NEWS:

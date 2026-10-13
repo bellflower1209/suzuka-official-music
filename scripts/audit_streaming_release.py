@@ -26,8 +26,14 @@ def main():
     for route in routes:
         text=(ROOT/route).read_text()
         if route == 'index.html':
-            card=re.search(r'<article class="upgrade-card" data-work-slug="hanakotoba">.*?</article>',text,re.S)[0]
-            assert 'https://linkco.re/0xHr8N9e' in card and '2026.09.11' in card
+            from build_homepage_upgrade import streaming
+            candidates=sorted([r for r in c['releases'] if r.get('status')=='published' and streaming(r)],key=lambda r:(streaming(r)['releaseDate'],r['slug']),reverse=True)
+            for item in candidates[:c['homepage']['streamingLimit']]:
+                card=re.search(r'<article class="upgrade-card" data-work-slug="'+re.escape(item['slug'])+r'">.*?</article>',text,re.S)
+                assert card, item['slug']
+                assert streaming(item)['linkcoreUrl'].replace('&','&amp;') in card[0]
+                assert streaming(item)['releaseDate'].replace('-','.') in card[0]
+            assert './releases/hanakotoba/' in text, 'Existing work navigation must remain available'
             continue
         assert text.count('class="streaming-release"')==1, route
         assert '2026年9月11日' in text and 'https://linkco.re/0xHr8N9e' in text

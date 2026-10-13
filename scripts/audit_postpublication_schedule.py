@@ -50,9 +50,14 @@ def main():
     parser=Parser();parser.feed((ROOT/'releases/hyakumankoku/index.html').read_text())
     recordings=[x for x in nodes(parser.graphs) if x.get('@type')=='MusicRecording']
     assert recordings and all(x.get('datePublished', '2026-07-12').startswith('2026-07-12') for x in recordings)  # Existing schema omits this field.
-    videos=[x for x in nodes(parser.graphs) if x.get('@type')=='VideoObject']
+    videos=[x for x in nodes(parser.graphs) if x.get('@type')=='VideoObject' and x.get('@id')=='https://www.suzukaofficial.com/releases/hyakumankoku/#video']
     assert videos and all(x['uploadDate'].startswith('2026-09-17') for x in videos)
     assert all('7FaDutNfIxo' in x.get('contentUrl', '') for x in videos)
+    evidence={x.get('youtubeUrl'):x for x in json.loads((ROOT/'assets/data/youtube-publish-dates.json').read_text())['records']}
+    for video in nodes(parser.graphs):
+        if video.get('@type')=='VideoObject' and '#version-' in video.get('@id',''):
+            proof=evidence[video['contentUrl']]
+            assert video['uploadDate']==proof['verifiedPublishedAt'] and video['name']==proof['officialTitle']
     schedule=(ROOT/'schedule/index.html').read_text()
     # Test the static renderer at the explicit 2026-09-24 JST audit baseline.
     import tempfile
