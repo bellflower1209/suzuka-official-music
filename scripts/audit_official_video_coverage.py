@@ -35,7 +35,7 @@ def main():
         identifier = youtube_id(url)
         proof = dates.get(identifier, {})
         matches = [node for node in nodes if node.get('contentUrl') == url]
-        if not matches or not proof.get('verifiedPublishedAt'):
+        if len(matches) != 1 or not proof.get('verifiedPublishedAt'):
             errors.append('Missing verified VideoObject: ' + url)
             return
         for node in matches:
