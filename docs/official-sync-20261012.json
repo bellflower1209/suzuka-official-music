@@ -1,0 +1,4869 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-10-13T20:13:57+09:00",
+  "baseCommit": "386d6b0",
+  "canonicalSource": "assets/data/creator-cms.json",
+  "scope": "公開済み情報のみ。全チャンネル全動画の網羅性は未確認。YouTube初期表示後の継続ページは未調査。",
+  "protectedBaseline": {
+    "artists": {
+      "asagiri-shinobu": "e81bf83d884c9cee8299fcd6c51e7c7b825f46a45d27fd6499581ce95e2308ba",
+      "asteria": "bcc36344b333210f759706914189359baf772b464267c3844207989c69b2aa00",
+      "eclypse": "bc170e91ca3dfb0892d1aac8f9ff35f85ce6cecfbf3535bcdc90acb7062e10c7",
+      "enomoto-mia": "2ac79262d8d3ca4f7b9b6f3d2d4ca868a2eba6e578816c251ce2ae12a670a5bd",
+      "koga-kamishiro": "6f8e84884eafb2869059d0e0d6e0922c025b37289da45da07cf1dce669a47be1",
+      "michiru": "07fd177a22f9c35cdcf8f988c7da7ee5c5ed68f078b6731e8bf83f66f6f3835a",
+      "nox": "458354434d3655170429dee7c3b81793fa3aa1353b5b1728a89d6c61fe774718",
+      "rangili": "5d4fec2ed73866b98985366f15ab9ff54fef468cd465c717eb3de04d7bf3f49a",
+      "revive": "c7cf83bd16a7994e57f0a6736e41723dae42a32ac6f8884c4b85048d3ca3adf0",
+      "veilfang": "d3538fb7ce73d91329e07b70fbe8327ef2579921f125418a874204355d7ab097",
+      "tetsuhige": "88a100a2688902313f8d469e770ba159e5cb43339398d84f502ce56b747d718f",
+      "leon-vail": "13cfd404809d2e182a3bf65cab6fcafa7f74e37d7cd64a09d0b8e50e0fefa2c5"
+    },
+    "releases": {
+      "mata-kimi-ni-koi-wo-suru": "a6943799c52a00c7add1a6328b0aa05d24bc5224ca986bb43d6ef7af49edd3a5",
+      "koisuru-subete-no-shunkan": "e414b31e2e0b5d9fc68d3a22036832ac87caf82a75cdd7495325a48f51d110c1",
+      "september-blue": "defc6cb11f4032df9b22039dadc3e8443dcaa85a8849d7f3ec7c56df44f78856",
+      "over-drive": "71bdecea4d867c21202bbc19f718545c1d07e91fbabff62810f307e02caae10c",
+      "hello-hello-halloween": "a5864eaf5e5d0ec27c7e373f5bdd22eb5d74e75a63d24a0ac9afd5af8ebdf0bf",
+      "mahou-ga-toketemo": "0b98eec529b1530aa94de48396c725e24fd179d48963318afaa8215996071000",
+      "sedai-wo-koete-mama-e": "7553f54183790a82094eda96f39681d226f6b6890fbc3d96795aa7ced9338f64",
+      "yume-to-kaigo-to-watashitachi": "ad48965e37f4574b07a1573ed36e09e884de4ceeb13f8ac9739d285467335dd7",
+      "gekka-no-chigiri": "c0ddb3f533f243330f79325dc9c872c6198a0ba8cd95009c52368fcee5f65fed",
+      "akuyaku-de-ii": "3e53a7986fb24f21367249ae5ab5887d6c2735d1eb69444ba42e7363c8a80b72",
+      "iine-sougisha": "4d7d0951b0e4c234b46a8964ec111ea9c54f8e27a600563037c1d9790628cd32",
+      "updown": "1964418795c1fad5eb0597379d2923a5eef1c79719cde4049edd90299d29b4ff",
+      "re-sonance": "b353b7da5153f772600d5fda799f527844432aa8f6cbee7e273654e415a89134",
+      "wakareta-michi": "879126099b76fe622e8d11be01410e03c4e6b6d30612129a42c47536b0bf6d12",
+      "friendlikesong": "3407263ea9d58c287641e7b15c4229d741822016202b3cd3753ab2786f0922c3",
+      "watashi-no-eranda-michi": "75621751512d671066abb2d9308c869e5154b50b4d27e412e279ee01e74b1121",
+      "tatta-hitori-no-kimi-e": "5850b8b4ff4f91c42b3a16ae49a2dfd8127a339ccbb751dba8978f9c410f08e6",
+      "monsoon-promise": "276a40fb3c1247778de342507ff7b9815c310d90c98ad8f97217887c63e0fd2a",
+      "taipa-nante-shiranakatta": "5c587079fb97053d3a5fbd9f846b03b4f42b94b931677753137a8e34b8e99482",
+      "family-portrait": "2db543116b01f4b3a7a4f817b7c98e9602f289d4ae367dfce2101054938c9cde",
+      "false-identity": "0fc5873aaee34128dd6775c13d1eb27f8ff4149b4e60d776ed0388cc15895e13",
+      "natsu-ga-owaru-made-soba-ni-ite": "1a5d2bfd9973a2c2912c98b3de69f3b60c7a45f79694535088627e2c1e1402fd",
+      "caramel": "3f123bcce1b8342190d277f00ea161ffa8b6f9e669d8db6e1220644a7bab3b47",
+      "kamisama-wa-rusu": "27e93eabf80923e3568f2435083969a59a371423b83c54b06ef21b79d6c6ccb9",
+      "kimi-wa-makenai": "1ca21795b153bd61b6516c43462c9097c74d25aff34fbf743133ad9498183637",
+      "leo-rise-again": "149a1d3268046be91fa0999f049768d4464a3dde6315caed964d1e17fecf5e51",
+      "last-dance-tonight": "c9f384bfaf19bc56d286fb8d88c4785bcf1f841d91a791845829f910d5b8528b",
+      "kimi-ni-kakatta-mahou": "fed76ab95e765299e7ef6f3e4d788dd04180b2a56c4b2b9ebd704cd47a2a1746",
+      "mermaid-no-geboku": "12599a015a10782952ce80b8882e95577542965d1bfaacfaf10c9fc8143bc106",
+      "hanakotoba": "d98a8b7955c8d9c05e41fc8084af2d4266a9ab68b5f146063d06252d3f45f92e",
+      "anata-dake-no-savior": "705867f9ec9705245ad53d4db050cdcc34c30aa1a8a5f8b2977cbaca2b199fb2",
+      "wasureji-no-hito": "99e40979b01b984080b14bd99b0f2ae0026ff1bac14330fa43d08d2d0fb57858",
+      "hajimemashite-kiseki": "3e371eb36791e536ea5721186a054dd3f81ffaac24f1e5e3dd7cd66dc5cb782b",
+      "still-alive": "efe2e096247f032418f6f16e5b85fd45687c7f36904049880c601ce0248b8fc0",
+      "zennin-saiban": "04ef6228ac31527a67df942cbc24eb4cbb867d940bfc0ae6aec46a2ad7f91138",
+      "one-more-kiss": "2c475b13fc47390a57b77664043addf7472840c2c2581389fb805c7cb43af1a0",
+      "lost-signal": "317f1a12bf25b54568f2384dc25f53bd401315eaf6f1417882c3b7305ed76372",
+      "without-worrying": "9b3ecf419b4b08f44e0da962c99f058e85b773bec2a733242ef669ee78a52c8b",
+      "koisuru-maharaja": "26a63379393e3ae953b19dfa9ef7a4f05cf4448718400de8a5c4c0670ce9e72e",
+      "chimpanzee-no-rakuen": "e562b58d227e0d110cc9324dd2c8a20cd44183504b1899c20349f3e1edb9a107",
+      "ashita-wa-kitto": "51a22fd19456c8b44b7201d5d3dadfe6822a73a9b3b7f3f423fe5a38718925c5",
+      "heal-you-again": "a23c27d3a3f68a739b9a7fa9ed739ebb2b94d6ac3528bacb2fbf8f2e12fbce38",
+      "echoes-of-you": "d60613e8253a9857439b2ee9e38595e68c819925c29dca651cf55b2f02f230a6",
+      "namaste-galaxy": "7ba7b547324181fd65b5388e9a001f26281ecb99380c215d7338a6e96156fb67",
+      "wasurenai-kokoro": "1f706afb7ef9d080d137e251e5a445c7da8c4357d0fa08d47363e4c1a7a8b7c2",
+      "smile-and-say-goodbye": "532aacff93a847a8cc5bc87a4531de30fca65ff9e65be34490f3685fde87c4c4",
+      "boukyaku-no-ikimono": "cf1b99e086a1df977e2d1bf6b25ac055d2cda6b5571b6ad8d154d0b5a84512de",
+      "my-queen-my-oath": "2e7739f231c4326643dedd7ad67812413f4c768ff3cac2ff17952d958f8c53ef",
+      "red-moon-rising": "bbaf98a7db9a48bc8fe748d67e575b524d000fc122f221b30e5867338d5460df",
+      "moshimo-ashita-hajimemashite-ni-natte-mo": "e72216d59c328565f14e28280f155bb05c5e44b1b576fb40ed45e7018dbc394f",
+      "suki-ga-kyou-mo-fueteiku": "b96f7901c91176a5e3f675c6bae9f2eefd3d90df48a6ec5ffae6daae8804a59f",
+      "toriatsukai-chui": "c3e00336c76add7dc5d3ee23c6f18948228ee3ceba637ae6fbd5a90b75ed7494",
+      "our-kingdom": "07af6c99dca6ee7da42c4db98357b325089198c24a73daf6c5af6c7c90d8d3e7",
+      "shadow-code": "5d5677cc5c51105e0aa1ca3b1335853475f29d209cb5e696de48cdbf79a2e456",
+      "mirai-no-watashi-ga-miteru": "c7b30cc472efa44e9e7684cd642c436d8521b8e53199254bf500bef33af520c3",
+      "muteki-jikan-ato-3byou": "f4585da78b0d8dbd0c5aa00738adcdeffe8c28245a6826b0be3dbaa5f92bcb64",
+      "mia": "7356bfb4d927691cadd6ae7ce23c2df7674e3880bd6ed254687685dad89557ec",
+      "tokenai-mahou-wo-ai-to-yobu": "c12ac261cc696598517efaac5309dd9d4a6ff6e01cfaf1a68f14a7835e218b58",
+      "kimi-to-nara-last-boss-made": "6a6c5890e7780fef9717fe2292e4d07f05bad3909d1019cad9b2c7ec45470820",
+      "ai-demo-wakaranai": "8078ade8ab3227085ca541c31749532de9b66beab3d60a266a0877af58b7a0bb",
+      "kimi-wa-hanabi": "d08ac2eb8e9ec252b5533a766d38dd4daf36a96c7e99085d9c8f06ead240ba5d",
+      "mermaid-merman": "86bc66a6cd12e38a97468255e42783debd0f6b5067807db4cd89a7c5d440bae2",
+      "sukitte-baretemo-ii": "8171e2b66ff0c33288c7b2b687220e409a7fe7d279dbc9ca770776eac8bf51d5",
+      "hyakumankoku": "2c2a2813ebf5532ccdcc0c642287dc4734aa94d6931150eed153b6c075336d0f",
+      "eternity-of-flower-words": "b78a1172093a19b62dd5c4c983b7317a10fcfccd6c3c085dc934a58d53b80e56",
+      "nando-umarekawattemo-reborn-oath": "19b496675c98509fc5ed950f69dba5f90aa5572c3dbe8f217dd6cc20aa5519cd",
+      "renai-taishogai-kari": "768e97143aeea999ffe4464fc40e32e5309b576edee61176d547494943c5e359",
+      "kokoro-ni-nokoru-takaramono": "98d548c63b555085f0e9f2ba736c68d12d68f7bd5373281bcbcd861d7815804d",
+      "renkinku": "0d0ea4d21469bc3b855c1444b9ad7fff3a46f1b4a8d1bc842844f2db2715cc01",
+      "without-worrying-reimagined": "eeb8e822f3d59034d25b489eda6b6bba2538aec11b10b7951b35badc005b1d20",
+      "hello-life": "bf535f15d90d4cd9b9c93df0a2532a19acd3b5afa06de243f9956be3d4408de7",
+      "rinne-no-chigiri": "41034c9c80fd9e98586dce02e4253efc0847e8efb944db4ceca79317cd869a1b",
+      "kimi-ga-iru-hougaku-e": "9c2076a9f6e04e8547f9f9640e2b8a4f92f04395b8e2d921129f9f03deef92d1",
+      "dalkomhan-jugeumeul-geudaeege": "9e9aee2b969a72439901b99a38b051fda4a5303d5efe8dd678c0a9b4192cf985",
+      "henpin-sareta-ningen": "9a9cd45f42f47dddadea2a9169295ade2e4f2681812dd95987dc3d614ee23de6",
+      "kinmokusei-to-hoshifuru-yoru": "fb42d1729fa812f1887cd377e085222db059a93ef503663fa360fe67dc2261a9",
+      "uchira-saikyo-jane": "bcbb122ec1da78c6e04774e75decfaae50164bd470ba1ccb9c9e37fa4b3aabec",
+      "anata-wo-omou-sore-dake-de": "1351d37b567bf3c1b29e4de0ce9b0cf93e8cc2d319ef4e04aa229a65b8971149",
+      "mada-tetsu-wa-atsui": "dc2d061cc58ae28e5c89dec95a199f44929465ebfb0e2865a0c351d5cce16f1c",
+      "ashita-yaru": "5fb82b7f559727eb830e2681549ce202fd60f817504c6241134f1d8e18d0a46e",
+      "amaterasu": "801c578c379845a78893abf65b8acbfc483bcd474ce762ab571ed87ad85d793b",
+      "break-the-veil": "53e6ba70ef6f813bf26e9437ae2e54d6c2555d330edbcd5c49e6cce51d6e1abb"
+    }
+  },
+  "mutations": {
+    "addedReleases": [
+      "mikansei-no-kakumei",
+      "gozen-0ji-no-cinderella",
+      "ichigo-ichihou-saikai-no-yakusoku"
+    ],
+    "addedVideoVersions": [
+      {
+        "releaseSlug": "hyakumankoku",
+        "youtubeUrl": "https://www.youtube.com/watch?v=tFQPag-rSno"
+      },
+      {
+        "releaseSlug": "hanakotoba",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0xNqwMg_i5E"
+      },
+      {
+        "releaseSlug": "moshimo-ashita-hajimemashite-ni-natte-mo",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Mr3qtg9d1S0"
+      },
+      {
+        "releaseSlug": "smile-and-say-goodbye",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8ZGpEiIo4sU"
+      },
+      {
+        "releaseSlug": "mata-kimi-ni-koi-wo-suru",
+        "youtubeUrl": "https://www.youtube.com/watch?v=PvX4zU7CpdE"
+      },
+      {
+        "releaseSlug": "yume-to-kaigo-to-watashitachi",
+        "youtubeUrl": "https://www.youtube.com/watch?v=UgA5YsSgN70"
+      },
+      {
+        "releaseSlug": "amaterasu",
+        "youtubeUrl": "https://www.youtube.com/watch?v=A7c2GmZH7sw"
+      },
+      {
+        "releaseSlug": "without-worrying",
+        "youtubeUrl": "https://www.youtube.com/watch?v=MlbqKSCi4U8"
+      },
+      {
+        "releaseSlug": "kimi-wa-makenai",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TeZOrOs1Qnw"
+      },
+      {
+        "releaseSlug": "ashita-wa-kitto",
+        "youtubeUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E"
+      },
+      {
+        "releaseSlug": "hello-hello-halloween",
+        "youtubeUrl": "https://www.youtube.com/watch?v=vw1bP_5kZuM"
+      },
+      {
+        "releaseSlug": "hanakotoba",
+        "youtubeUrl": "https://www.youtube.com/watch?v=rZhp5O3YTw8"
+      },
+      {
+        "releaseSlug": "echoes-of-you",
+        "youtubeUrl": "https://www.youtube.com/watch?v=v1rY03gArRk"
+      },
+      {
+        "releaseSlug": "my-queen-my-oath",
+        "youtubeUrl": "https://www.youtube.com/watch?v=FUwxYpxVRcM"
+      },
+      {
+        "releaseSlug": "boukyaku-no-ikimono",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sGG9Slgp7Rc"
+      },
+      {
+        "releaseSlug": "one-more-kiss",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Q9eeq3EMUYE"
+      },
+      {
+        "releaseSlug": "mermaid-no-geboku",
+        "youtubeUrl": "https://www.youtube.com/watch?v=wH6aAAxPqw4"
+      },
+      {
+        "releaseSlug": "akuyaku-de-ii",
+        "youtubeUrl": "https://www.youtube.com/watch?v=xNc2PSfp4aM"
+      },
+      {
+        "releaseSlug": "mahou-ga-toketemo",
+        "youtubeUrl": "https://www.youtube.com/watch?v=xGORQvmcZJ4"
+      },
+      {
+        "releaseSlug": "tatta-hitori-no-kimi-e",
+        "youtubeUrl": "https://www.youtube.com/watch?v=DPUQyibGcbA"
+      },
+      {
+        "releaseSlug": "hajimemashite-kiseki",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nplXdPAD9QU"
+      }
+    ],
+    "addedShorts": [
+      "oH_zB05KBwc",
+      "FN6atcQ5774",
+      "_kBj8EKy0xE",
+      "JIN4dLjsEnk",
+      "54HI5v47L1Y",
+      "0qTejN9356Q",
+      "BocHheL5-kI",
+      "3cACffW_zJI",
+      "0X1x6OgniSw",
+      "nPFjmqVmhIw",
+      "hs0t4SUHpJw",
+      "CfLM0PaQBqs",
+      "kVjybrF3xTs",
+      "1QUruk5WLhw",
+      "AVK5g0FnqWo",
+      "e1gydDGQ0Co",
+      "NDsnzWZp4cc",
+      "iWXnFKzrfGg",
+      "UGXzsFtnOs4",
+      "4LmNI-Jytq8",
+      "n2eO-SLqvX0",
+      "oeExa-21cIc",
+      "NFtNjw46zSQ",
+      "k3nbe8OtIfs",
+      "Z62NgrNMQAQ",
+      "UazudFa0j_U",
+      "Gv8x2eZnSp4",
+      "c1jJIeYPELw",
+      "xU2SOP8AX7Q",
+      "C9o9sEOkAPI",
+      "sy0gBoWPGfA",
+      "BOcD3XAAmTw",
+      "126VCC2X7ek",
+      "gpFkAxIh2nc",
+      "3bylE94zf78",
+      "K72nxaS2q60",
+      "K9biM8FLPDQ",
+      "MYiIefQc2aU",
+      "KJgvCqzmboo",
+      "SBBKLJ8WsHo",
+      "t50rsbEGMDY",
+      "ENb1UvrTe6A",
+      "shi3e30r0mI",
+      "2X7PqJrHiN4",
+      "iZ39Q4Bkp70",
+      "MStiy-ygJPg",
+      "GJiwR4xCft8",
+      "eXMdGDAJNcE",
+      "10hI03wXHtE",
+      "CThnLSLZguc"
+    ],
+    "addedNews": [
+      "official-note-n3c62926d29e0",
+      "official-note-nd4ccc92d086c",
+      "official-note-n00f345878afe",
+      "official-note-n2e08265c5c5b",
+      "official-note-n3e1b02345551",
+      "official-note-n561715644520"
+    ],
+    "addedStreamingReleases": [
+      "yukkuri-yasunde",
+      "dareka-no-tameni",
+      "koi-no-tochu"
+    ],
+    "addedYouTubeReleases20261013": [
+      "ame-nochi-anata"
+    ],
+    "addedStreamingPlans": [
+      "tenjo-tenge-yuiga-dokuson",
+      "watashi-no-eranda-michi-album"
+    ]
+  },
+  "records": [
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=ee787y2wjNs",
+      "videoId": "ee787y2wjNs",
+      "officialTitle": "【新曲公開】未完成のままでいい。何度でも立ち上がれ。｜RE:VIVE『未完成の革命』【Official Audio】",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-12T04:00:07-07:00",
+      "liveStartTimestamp": "2026-10-12T11:00:07+00:00",
+      "publishedOrScheduledAtJst": "2026-10-12T20:00:07+09:00",
+      "duration": 221,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mikansei-no-kakumei",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00"
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=blXPDEriTyE",
+      "videoId": "blXPDEriTyE",
+      "officialTitle": "【先行音源解禁】ASTERIA「午前0時のシンデレラ」｜魔法が解ける、その前に。",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-01T05:25:40-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-01T21:25:40+09:00",
+      "duration": 179,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "gozen-0ji-no-cinderella",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00"
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=tFQPag-rSno",
+      "videoId": "tFQPag-rSno",
+      "officialTitle": "【撮影映像】榎本魅愛「百万告」歌の1番を公開｜春の桜並木で届ける恋の物語",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-28T04:00:09-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-28T20:00:09+09:00",
+      "duration": 113,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "hyakumankoku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tFQPag-rSno/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=nplXdPAD9QU",
+      "videoId": "nplXdPAD9QU",
+      "officialTitle": "榎本魅愛『はじめまして、奇跡』Official Music",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-13T04:00:08-07:00",
+      "liveStartTimestamp": "2026-10-13T11:00:08+00:00",
+      "publishedOrScheduledAtJst": "2026-10-13T20:00:08+09:00",
+      "duration": 211,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "hajimemashite-kiseki",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nplXdPAD9QU/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=0xNqwMg_i5E",
+      "videoId": "0xNqwMg_i5E",
+      "officialTitle": "【限定公開・原曲版】榎本魅愛「花言葉」Original Version｜あの日のメロディを、そのまま。",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-09T04:00:09-07:00",
+      "liveStartTimestamp": "2026-10-09T11:00:09+00:00",
+      "publishedOrScheduledAtJst": "2026-10-09T20:00:09+09:00",
+      "duration": 228,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "hanakotoba",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xNqwMg_i5E/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=Mr3qtg9d1S0",
+      "videoId": "Mr3qtg9d1S0",
+      "officialTitle": "もしも明日、はじめましてになっても｜榎本魅愛【Official Lyric Video】",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-07T04:00:13-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-07T20:00:13+09:00",
+      "duration": 417,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "moshimo-ashita-hajimemashite-ni-natte-mo",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mr3qtg9d1S0/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=8ZGpEiIo4sU",
+      "videoId": "8ZGpEiIo4sU",
+      "officialTitle": "【Official MV】榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:19-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:19+09:00",
+      "duration": 497,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "smile-and-say-goodbye",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZGpEiIo4sU/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=PvX4zU7CpdE",
+      "videoId": "PvX4zU7CpdE",
+      "officialTitle": "榎本魅愛、アニメOP決定。『また、君に恋をする』｜「それでも、僕は君を探していた」Opening Theme",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-04T04:00:19-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-04T20:00:19+09:00",
+      "duration": 25,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "mata-kimi-ni-koi-wo-suru",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:10+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PvX4zU7CpdE/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=UgA5YsSgN70",
+      "videoId": "UgA5YsSgN70",
+      "officialTitle": "【MV】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T04:31:04-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T20:31:04+09:00",
+      "duration": 315,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "yume-to-kaigo-to-watashitachi",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UgA5YsSgN70/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=A7c2GmZH7sw",
+      "videoId": "A7c2GmZH7sw",
+      "officialTitle": "【音源先行公開】榎本魅愛『天照 -アマテラス-』｜Official Audio",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T03:00:06-07:00",
+      "liveStartTimestamp": "2026-10-03T10:00:06+00:00",
+      "publishedOrScheduledAtJst": "2026-10-03T19:00:06+09:00",
+      "duration": 242,
+      "verifiedAt": "2026-10-13T20:08:17+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "amaterasu",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:17+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A7c2GmZH7sw/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=MlbqKSCi4U8",
+      "videoId": "MlbqKSCi4U8",
+      "officialTitle": "Without Worrying／榎本魅愛｜あなたはひとりじゃない。",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-02T17:16:55-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T09:16:55+09:00",
+      "duration": 210,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "without-worrying",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MlbqKSCi4U8/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=TeZOrOs1Qnw",
+      "videoId": "TeZOrOs1Qnw",
+      "officialTitle": "負けそうな夜に、聴いてほしい。｜榎本魅愛「君は負けない」",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-02T04:00:02-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-02T20:00:02+09:00",
+      "duration": 236,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "kimi-wa-makenai",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TeZOrOs1Qnw/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=my4rIhZFRsc",
+      "videoId": "my4rIhZFRsc",
+      "officialTitle": "【榎本魅愛】ついに魅愛と会話できるようになりました。｜開発中リアル対話デモ",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-27T08:25:37-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-28T00:25:37+09:00",
+      "duration": 175,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "変更不要",
+      "releaseSlug": "",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00"
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E",
+      "videoId": "P8nDdk8A85E",
+      "officialTitle": "「熊本へ、もう一度届けます。『明日は、きっと。』｜榎本魅愛」",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-24T06:29:30-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-24T22:29:30+09:00",
+      "duration": 217,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "ashita-wa-kitto",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P8nDdk8A85E/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=vw1bP_5kZuM",
+      "videoId": "vw1bP_5kZuM",
+      "officialTitle": "【音源先行配信】Hello Hello Halloween / 榎本魅愛｜恋するHalloween Night 🎃💗",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-13T04:00:06-07:00",
+      "liveStartTimestamp": "2026-09-13T11:00:06+00:00",
+      "publishedOrScheduledAtJst": "2026-09-13T20:00:06+09:00",
+      "duration": 218,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "hello-hello-halloween",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:11+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vw1bP_5kZuM/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=rZhp5O3YTw8",
+      "videoId": "rZhp5O3YTw8",
+      "officialTitle": "【MV】榎本魅愛『花言葉』｜両親の結婚記念日に贈る“永遠”の物語",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-12T04:40:39-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-12T20:40:39+09:00",
+      "duration": 234,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "hanakotoba",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rZhp5O3YTw8/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=-ru6EtMyKAk",
+      "videoId": "-ru6EtMyKAk",
+      "officialTitle": "神代煌牙『一護一逢〜再開の約束〜』Official Audio｜さようならは、永遠の別れじゃない。",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-10T04:40:36-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-10T20:40:36+09:00",
+      "duration": 224,
+      "verifiedAt": "2026-10-13T20:08:19+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "ichigo-ichihou-saikai-no-yakusoku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:19+00:00"
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=v1rY03gArRk",
+      "videoId": "v1rY03gArRk",
+      "officialTitle": "神代煌牙『Echoes of You』―「また、逢えるからね」終わらない恋の残響【Official Music Video】",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-09T04:00:16-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-09T20:00:16+09:00",
+      "duration": 484,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "echoes-of-you",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v1rY03gArRk/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=FUwxYpxVRcM",
+      "videoId": "FUwxYpxVRcM",
+      "officialTitle": "My Queen, My Oath｜神代 煌牙【Official Music Video】",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-08T04:00:17-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-08T20:00:17+09:00",
+      "duration": 297,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "my-queen-my-oath",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FUwxYpxVRcM/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=sGG9Slgp7Rc",
+      "videoId": "sGG9Slgp7Rc",
+      "officialTitle": "神代煌牙『忘却の生き物』Official Music Video",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-07T04:00:13-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-07T20:00:13+09:00",
+      "duration": 284,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "boukyaku-no-ikimono",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sGG9Slgp7Rc/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q9eeq3EMUYE",
+      "videoId": "Q9eeq3EMUYE",
+      "officialTitle": "神代煌牙『One More Kiss』｜孤独を溶かす、危うい口づけ",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:35-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:35+09:00",
+      "duration": 337,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "one-more-kiss",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q9eeq3EMUYE/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=wH6aAAxPqw4",
+      "videoId": "wH6aAAxPqw4",
+      "officialTitle": "神代煌牙『マーメイドの下僕』― おしゃべりな人魚姫に、心まで奪われた。",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-05T04:00:29-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-05T20:00:29+09:00",
+      "duration": 351,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "mermaid-no-geboku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wH6aAAxPqw4/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=xNc2PSfp4aM",
+      "videoId": "xNc2PSfp4aM",
+      "officialTitle": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-04T04:00:23-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-04T20:00:23+09:00",
+      "duration": 314,
+      "verifiedAt": "2026-10-13T20:08:20+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "akuyaku-de-ii",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:12+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:20+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNc2PSfp4aM/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=xGORQvmcZJ4",
+      "videoId": "xGORQvmcZJ4",
+      "officialTitle": "【Official MV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T04:00:23-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T20:00:23+09:00",
+      "duration": 250,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "mahou-ga-toketemo",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:13+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xGORQvmcZJ4/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=LMg--k5FbrU",
+      "videoId": "LMg--k5FbrU",
+      "officialTitle": "【涙腺崩壊】人生をやり直しても、またあなたを選ぶ。『雨のち貴方』／妃みちる【新曲・Official Audio】",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-13T04:00:09-07:00",
+      "liveStartTimestamp": "2026-10-13T11:00:09+00:00",
+      "publishedOrScheduledAtJst": "2026-10-13T20:00:09+09:00",
+      "duration": 398,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "ame-nochi-anata",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:13+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LMg--k5FbrU/maxresdefault.jpg",
+      "thumbnailWidth": 1280,
+      "thumbnailHeight": 720
+    },
+    {
+      "service": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=DPUQyibGcbA",
+      "videoId": "DPUQyibGcbA",
+      "officialTitle": "妃みちる『たった1人の君へ』Official Music ｜SUZUKA Debut Single",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:19-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:19+09:00",
+      "duration": 338,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "修正が必要",
+      "releaseSlug": "tatta-hitori-no-kimi-e",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:12:13+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DPUQyibGcbA/hqdefault.jpg",
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/oH_zB05KBwc",
+      "videoId": "oH_zB05KBwc",
+      "officialTitle": "⚔️ My Queen, My Oath ／ 神代煌牙【Official Music Video】",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:29-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:29+09:00",
+      "duration": 41,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "my-queen-my-oath",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/FN6atcQ5774",
+      "videoId": "FN6atcQ5774",
+      "officialTitle": "「また、逢えるからね」― 神代煌牙『Echoes of You』#Shorts",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-05T04:00:15-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-05T20:00:15+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "echoes-of-you",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/_kBj8EKy0xE",
+      "videoId": "_kBj8EKy0xE",
+      "officialTitle": "【先取りチラ見せ】神代煌牙『マーメイドの下僕』― おしゃべりな人魚姫に、心まで奪われた。｜🌊",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-04T04:00:28-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-04T20:00:28+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mermaid-no-geboku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/JIN4dLjsEnk",
+      "videoId": "JIN4dLjsEnk",
+      "officialTitle": "孤独を従え、もう一度。｜神代煌牙『LEO — Rise Again —』",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T04:00:24-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T20:00:24+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "leo-rise-again",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/54HI5v47L1Y",
+      "videoId": "54HI5v47L1Y",
+      "officialTitle": "神代煌牙『神様は留守』｜解禁 #shorts",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-02T17:02:54-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T09:02:54+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "kamisama-wa-rusu",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/0qTejN9356Q",
+      "videoId": "0qTejN9356Q",
+      "officialTitle": "魔法が解けても、誓いは消えない。｜神代煌牙「Pumpkin Carriage」Official MV",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-26T03:00:21-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-26T19:00:21+09:00",
+      "duration": 60,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mahou-ga-toketemo",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/BocHheL5-kI",
+      "videoId": "BocHheL5-kI",
+      "officialTitle": "愛してるからこそ、この手を離した。｜神代煌牙『分かれた道』Official MV #Shorts",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-24T08:06:30-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-25T00:06:30+09:00",
+      "duration": 60,
+      "verifiedAt": "2026-10-13T20:08:21+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "wakareta-michi",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:21+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/3cACffW_zJI",
+      "videoId": "3cACffW_zJI",
+      "officialTitle": "世界が俺を「悪」と呼んでも。｜神代煌牙『悪役でいい』#shorts",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "expectedChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-21T02:34:29-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-21T18:34:29+09:00",
+      "duration": 61,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "akuyaku-de-ii",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/0X1x6OgniSw",
+      "videoId": "0X1x6OgniSw",
+      "officialTitle": "榎本魅愛『キャラメ〜ル』🍮♡｜君を見るたび、とろけちゃう。#Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-12T04:00:02-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-12T20:00:02+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "caramel",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/nPFjmqVmhIw",
+      "videoId": "nPFjmqVmhIw",
+      "officialTitle": "君は負けない｜榎本魅愛「その一歩は、未来へ続いてる。」#shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-11T04:00:03-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-11T20:00:03+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "kimi-wa-makenai",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:55+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/hs0t4SUHpJw",
+      "videoId": "hs0t4SUHpJw",
+      "officialTitle": "榎本魅愛「花言葉」｜SUZUKA LIVE FRAME #shorts  #suzuka #jpop #kpop #オリジナル曲",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-10T04:00:03-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-10T20:00:03+09:00",
+      "duration": 27,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hanakotoba",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/CfLM0PaQBqs",
+      "videoId": "CfLM0PaQBqs",
+      "officialTitle": "榎本魅愛『はじめまして、奇跡』｜ #shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-09T04:00:19-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-09T20:00:19+09:00",
+      "duration": 28,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hajimemashite-kiseki",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/kVjybrF3xTs",
+      "videoId": "kVjybrF3xTs",
+      "officialTitle": "榎本魅愛】恋の魔法が解けないなら、それを愛と呼んでもいいですか。#Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-08T04:00:37-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-08T20:00:37+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "tokenai-mahou-wo-ai-to-yobu",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/1QUruk5WLhw",
+      "videoId": "1QUruk5WLhw",
+      "officialTitle": "榎本魅愛『君は花火』｜ひと夏だけ、僕の心に咲いた。#Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-07T04:00:07-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-07T20:00:07+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "kimi-wa-hanabi",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/AVK5g0FnqWo",
+      "videoId": "AVK5g0FnqWo",
+      "officialTitle": "【泣ける20秒】もしも明日、はじめましてになっても｜榎本魅愛 #Shorts #榎本魅愛",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:25-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:25+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "moshimo-ashita-hajimemashite-ni-natte-mo",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/e1gydDGQ0Co",
+      "videoId": "e1gydDGQ0Co",
+      "officialTitle": "【重大発表】榎本魅愛、アニメOP決定。『また、君に恋をする』｜「それでも、僕は君を探していた」Opening Theme",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-05T04:00:28-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-05T20:00:28+09:00",
+      "duration": 25,
+      "verifiedAt": "2026-10-13T20:08:22+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mata-kimi-ni-koi-wo-suru",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:22+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/NDsnzWZp4cc",
+      "videoId": "NDsnzWZp4cc",
+      "officialTitle": "🌸 母になって初めてわかった、ママの愛。｜妃みちる『世代を超えてママへ』🥹💗",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-08T06:39:23-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-08T22:39:23+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:23+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "sedai-wo-koete-mama-e",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:23+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/iWXnFKzrfGg",
+      "videoId": "iWXnFKzrfGg",
+      "officialTitle": "「いま、幸せですか？」｜妃みちる『たった1人の君へ』Debut",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-07T04:00:21-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-07T20:00:21+09:00",
+      "duration": 25,
+      "verifiedAt": "2026-10-13T20:08:23+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "tatta-hitori-no-kimi-e",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:23+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/UGXzsFtnOs4",
+      "videoId": "UGXzsFtnOs4",
+      "officialTitle": "friend like song   妃みちる｜何年経っても、変わらないメンツがいる。🍺☀️",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-07T04:00:17-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-07T20:00:17+09:00",
+      "duration": 32,
+      "verifiedAt": "2026-10-13T20:08:23+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "friendlikesong",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:23+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/4LmNI-Jytq8",
+      "videoId": "4LmNI-Jytq8",
+      "officialTitle": "【MV解禁】15歳の私が選んだ、好きな人を追わない道｜妃みちる『私の選んだ道』",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-06T04:00:21-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-06T20:00:21+09:00",
+      "duration": 86,
+      "verifiedAt": "2026-10-13T20:08:23+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "watashi-no-eranda-michi",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:56+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:23+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/n2eO-SLqvX0",
+      "videoId": "n2eO-SLqvX0",
+      "officialTitle": "🌏 「生きよう。笑って生きよう。」｜HELLO, LIFE! / 妃みちる【先行音源解禁】",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-25T08:07:02-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-26T00:07:02+09:00",
+      "duration": 60,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hello-life",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/oeExa-21cIc",
+      "videoId": "oeExa-21cIc",
+      "officialTitle": "ママはすごい。本当にすごい。｜妃みちる『世代を超えてママへ』🌸 #Shorts",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "expectedChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-24T06:42:48-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-24T22:42:48+09:00",
+      "duration": 60,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "sedai-wo-koete-mama-e",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/NFtNjw46zSQ",
+      "videoId": "NFtNjw46zSQ",
+      "officialTitle": "【衝撃のサビ🔥】未完成のままでいい。何度でも立ち上がれ。｜RE:VIVE『未完成の革命』#Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-12T04:00:30-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-12T20:00:30+09:00",
+      "duration": 27,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mikansei-no-kakumei",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/k3nbe8OtIfs",
+      "videoId": "k3nbe8OtIfs",
+      "officialTitle": "【返品理由：思ってたのと違う】NOX『返品された人間』｜45秒MV",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-02T04:00:32-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-02T20:00:32+09:00",
+      "duration": 45,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "henpin-sareta-ningen",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/Z62NgrNMQAQ",
+      "videoId": "Z62NgrNMQAQ",
+      "officialTitle": "金木犀の香りで、思い出す人はいますか？｜ASTERIA「金木犀と星降る夜」🌼🌙 #Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-01T07:33:08-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-01T23:33:08+09:00",
+      "duration": 45,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "kinmokusei-to-hoshifuru-yoru",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/UazudFa0j_U",
+      "videoId": "UazudFa0j_U",
+      "officialTitle": "ECLYPSE『FALSE//IDENTITY』MV冒頭45秒公開｜君は、本当に君なのか。 #Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-20T06:48:25-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-20T22:48:25+09:00",
+      "duration": 45,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "false-identity",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:23:57+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/Gv8x2eZnSp4",
+      "videoId": "Gv8x2eZnSp4",
+      "officialTitle": "榎本魅愛「Over Drive」先行音源公開中｜恋が、わたしを追い越していく。#shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-04T04:00:35-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-04T20:00:35+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "over-drive",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/c1jJIeYPELw",
+      "videoId": "c1jJIeYPELw",
+      "officialTitle": "榎本魅愛のリアルな一日を、ちょこっとお見せします♡ #Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-04T03:00:30-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-04T19:00:30+09:00",
+      "duration": 55,
+      "verifiedAt": "2026-10-13T20:08:24+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:21+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:24+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/xU2SOP8AX7Q",
+      "videoId": "xU2SOP8AX7Q",
+      "officialTitle": "「それ、昨日も聞いたよ？」その返事に恋をした。榎本魅愛「百万告」",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T04:00:38-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T20:00:38+09:00",
+      "duration": 25,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hyakumankoku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:21+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/C9o9sEOkAPI",
+      "videoId": "C9o9sEOkAPI",
+      "officialTitle": "【天照】光を待つのは、もうやめた。｜榎本魅愛「天照 -アマテラス-」#Shorts #suzuka",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T04:00:14-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T20:00:14+09:00",
+      "duration": 90,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "amaterasu",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/sy0gBoWPGfA",
+      "videoId": "sy0gBoWPGfA",
+      "officialTitle": "【ついにカラオケ配信🎤】榎本魅愛「花言葉」JOYSOUNDで歌えます！🌸 #Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-03T02:31:46-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T18:31:46+09:00",
+      "duration": 100,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hanakotoba",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/BOcD3XAAmTw",
+      "videoId": "BOcD3XAAmTw",
+      "officialTitle": "💌 MIA MEET #02",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-10-02T17:34:59-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-10-03T09:34:59+09:00",
+      "duration": 88,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mia",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:21+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/roImlU6PSpA",
+      "videoId": "roImlU6PSpA",
+      "officialTitle": "「あの時、言えばよかった…」あなたの伝えられなかった言葉は？｜MIA MATES",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "LOGIN_REQUIRED",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-28T08:04:59-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-29T00:04:59+09:00",
+      "duration": 11,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "確認待ち",
+      "releaseSlug": "",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:21+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/126VCC2X7ek",
+      "videoId": "126VCC2X7ek",
+      "officialTitle": "【先行45秒】恋愛禁止。でも心は規制無視。｜榎本魅愛「恋禁区。」MV制作中💗🚫",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-28T06:32:19-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-28T22:32:19+09:00",
+      "duration": 46,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "renkinku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/gpFkAxIh2nc",
+      "videoId": "gpFkAxIh2nc",
+      "officialTitle": "MIAMATES",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-27T08:45:45-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-28T00:45:45+09:00",
+      "duration": 175,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "mia",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/3bylE94zf78",
+      "videoId": "3bylE94zf78",
+      "officialTitle": "「介護職だって、夢を持っていい。」榎本魅愛『夢と、介護と、わたしたち。』#Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-26T03:00:34-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-26T19:00:34+09:00",
+      "duration": 89,
+      "verifiedAt": "2026-10-13T20:08:25+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "yume-to-kaigo-to-watashitachi",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:21+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:25+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/K72nxaS2q60",
+      "videoId": "K72nxaS2q60",
+      "officialTitle": "熊本へ、もう一度届けます。『明日は、きっと。』｜榎本魅愛 #Shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-24T06:33:34-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-24T22:33:34+09:00",
+      "duration": 61,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "ashita-wa-kitto",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/K9biM8FLPDQ",
+      "videoId": "K9biM8FLPDQ",
+      "officialTitle": "夏が終わるせいにした。でも本当は、君のせいなのに。｜榎本魅愛「September Blue」",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-21T04:54:25-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-21T20:54:25+09:00",
+      "duration": 46,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "september-blue",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/MYiIefQc2aU",
+      "videoId": "MYiIefQc2aU",
+      "officialTitle": "君となら、ラスボスまで。💗｜榎本魅愛「君とならラスボスまで」#shorts",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "expectedChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-09-21T02:48:04-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-09-21T18:48:04+09:00",
+      "duration": 76,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "kimi-to-nara-last-boss-made",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/KJgvCqzmboo",
+      "videoId": "KJgvCqzmboo",
+      "officialTitle": "ASTERIA史上最高速の夜。『LAST DANCE TONIGHT』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-08-09T07:05:49-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-08-09T23:05:49+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "last-dance-tonight",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:22+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/SBBKLJ8WsHo",
+      "videoId": "SBBKLJ8WsHo",
+      "officialTitle": "赤い月が昇る夜、運命が動き出す。｜ECLYPSE「RED MOON // RISING」",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-08-06T07:57:39-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-08-06T23:57:39+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "red-moon-rising",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/t50rsbEGMDY",
+      "videoId": "t50rsbEGMDY",
+      "officialTitle": "朝霧しのぶ『忘れじの人』｜あなたが私を忘れても",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-08-04T09:39:55-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-08-05T01:39:55+09:00",
+      "duration": 30,
+      "verifiedAt": "2026-10-13T20:08:26+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "wasureji-no-hito",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:26+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/ENb1UvrTe6A",
+      "videoId": "ENb1UvrTe6A",
+      "officialTitle": "今日を好きになれなくても。RE:VIVE『Still alive』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-08-04T06:46:27-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-08-04T22:46:27+09:00",
+      "duration": 35,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "still-alive",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/shi3e30r0mI",
+      "videoId": "shi3e30r0mI",
+      "officialTitle": "【善人裁判】あなたは、本当に無罪か？｜NOX #Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-08-03T07:09:14-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-08-03T23:09:14+09:00",
+      "duration": 23,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "zennin-saiban",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/2X7PqJrHiN4",
+      "videoId": "2X7PqJrHiN4",
+      "officialTitle": "一目惚れした瞬間、世界が踊り出す💖｜RANGILI「恋するマハラジャ」#Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-30T03:00:22-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-30T19:00:22+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "koisuru-maharaja",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/iZ39Q4Bkp70",
+      "videoId": "iZ39Q4Bkp70",
+      "officialTitle": "百年後、人間は檻の中へ。｜NOX「チンパンジーの楽園」#Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-29T04:00:22-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-29T20:00:22+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "chimpanzee-no-rakuen",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/MStiy-ygJPg",
+      "videoId": "MStiy-ygJPg",
+      "officialTitle": "RE:VIVE、始動。『Heal You Again』",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-26T04:00:13-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-26T20:00:13+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "heal-you-again",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/GJiwR4xCft8",
+      "videoId": "GJiwR4xCft8",
+      "officialTitle": "RANGILI「NAMASTE☆GALAXY」デビュー！🇮🇳✨",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-23T05:19:07-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-23T21:19:07+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "namaste-galaxy",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/eXMdGDAJNcE",
+      "videoId": "eXMdGDAJNcE",
+      "officialTitle": "触れた瞬間、もう戻れない。ECLYPSE「SHADOW//CODE」",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-19T19:30:48-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-20T11:30:48+09:00",
+      "duration": 25,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "shadow-code",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/10hI03wXHtE",
+      "videoId": "10hI03wXHtE",
+      "officialTitle": "「好き」って何回伝えても足りない。｜榎本魅愛「百万告」#shortsyoutube",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-17T08:54:25-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-18T00:54:25+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:27+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "hyakumankoku",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:23+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:27+00:00"
+    },
+    {
+      "service": "YouTube Shorts",
+      "sourceUrl": "https://www.youtube.com/shorts/CThnLSLZguc",
+      "videoId": "CThnLSLZguc",
+      "officialTitle": "【榎本魅愛】取り扱いチュー💋い！｜近づきすぎたら恋に落ちるかも…♡ #Shorts",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "expectedChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "playabilityStatus": "OK",
+      "isUnlisted": false,
+      "rawPublishDate": "2026-07-16T03:00:27-07:00",
+      "liveStartTimestamp": null,
+      "publishedOrScheduledAtJst": "2026-07-16T19:00:27+09:00",
+      "duration": 20,
+      "verifiedAt": "2026-10-13T20:08:28+09:00",
+      "classification": "追加が必要",
+      "releaseSlug": "toriatsukai-chui",
+      "sourceMethod": "official-channel-tab-and-watch-player-microformat",
+      "previousVerifiedAt": "2026-10-12T23:25:24+09:00",
+      "checkedAtUtc": "2026-10-13T11:08:28+00:00"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n3c62926d29e0",
+      "officialTitle": "【本日20:00解禁】RE:VIVE『未完成の革命』――未完成のままでいい。何度でも、立ち上がれ。",
+      "publishedAt": "2026-10-12T15:52:18+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n3c62926d29e0"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/nd4ccc92d086c",
+      "officialTitle": "SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。",
+      "publishedAt": "2026-10-03T16:49:06+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "nd4ccc92d086c"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n00f345878afe",
+      "officialTitle": "榎本魅愛、新曲『天照 -アマテラス-』10月3日19:00 音源先行公開",
+      "publishedAt": "2026-10-03T13:39:51+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n00f345878afe"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n2e08265c5c5b",
+      "officialTitle": "「Without worrying」が、新しく生まれ変わりました。",
+      "publishedAt": "2026-10-02T22:40:34+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n2e08265c5c5b"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n3e1b02345551",
+      "officialTitle": "「あなたはひとりじゃない」——榎本魅愛『Without worrying』",
+      "publishedAt": "2026-10-02T22:36:43+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n3e1b02345551"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n561715644520",
+      "officialTitle": "🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁",
+      "publishedAt": "2026-10-01T00:59:00+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "追加が必要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n561715644520"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n599c9798e768",
+      "officialTitle": "『ありのまま。 — Just As I Am. —』 ",
+      "publishedAt": "2026-09-24T00:33:51+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n599c9798e768"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/nce756dc6090e",
+      "officialTitle": "「どんな日も、歌がそばにいる。」妃みちる Official Channelがオープンしました。",
+      "publishedAt": "2026-09-21T01:19:19+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "nce756dc6090e"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n203229d0d986",
+      "officialTitle": "榎本魅愛、3曲同時リリース。3つの恋を、あなたへ。",
+      "publishedAt": "2026-09-21T01:16:08+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n203229d0d986"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n097398b8767b",
+      "officialTitle": "🌸「花言葉」が、みんなの歌になりました。｜榎本魅愛 JOYSOUNDカラオケ配信スタート！",
+      "publishedAt": "2026-09-19T00:57:08+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n097398b8767b"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n48fb639ab3e7",
+      "officialTitle": "「花言葉」が英語で新しく咲く。榎本魅愛「Eternity of Flower Words - English Remix」記念MV制作中",
+      "publishedAt": "2026-09-16T08:35:44+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n48fb639ab3e7"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/nf6a4cadbff7d",
+      "officialTitle": "🎃仮装しても、好きな気持ちは隠せない。榎本魅愛「Hello Hello Halloween」MV 9月16日20時公開仮装ならできる。",
+      "publishedAt": "2026-09-14T21:50:34+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "nf6a4cadbff7d"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/na4df4b0b719b",
+      "officialTitle": "榎本魅愛「取り扱いチュー💋い」9月21日配信スタート",
+      "publishedAt": "2026-09-14T07:57:42+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "na4df4b0b719b"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n697e1c83196c",
+      "officialTitle": "魔法が解けたあと、それでも残るもの。｜神代煌牙「魔法が解けても ― Pumpkin Carriage ―」MV 9月14日20時解禁",
+      "publishedAt": "2026-09-13T19:52:22+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n697e1c83196c"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n155204c125c7",
+      "officialTitle": "言葉にできない「好き」を、花に託した。｜榎本魅愛「花言葉」🌸",
+      "publishedAt": "2026-09-13T11:25:08+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n155204c125c7"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/nd34020a24fc4",
+      "officialTitle": "恋が、わたしを追い越していく。榎本魅愛「Over Drive」音源先行公開",
+      "publishedAt": "2026-09-13T00:27:41+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "nd34020a24fc4"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/n0546f7a9032a",
+      "officialTitle": "9月なのに、まだ夏だった。｜榎本魅愛「September Blue」先行音源公開",
+      "publishedAt": "2026-09-13T00:03:59+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "n0546f7a9032a"
+    },
+    {
+      "service": "note",
+      "sourceUrl": "https://note.com/1209bellflower/n/ndd0608912c7d",
+      "officialTitle": "榎本魅愛「花言葉」が全国のJOYSOUNDへ。9月18日よりカラオケ配信決定！🎤🌸",
+      "publishedAt": "2026-09-11T13:19:35+09:00",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "classification": "変更不要",
+      "sourceMethod": "official-profile-public-article-list",
+      "articleKey": "ndd0608912c7d"
+    }
+  ],
+  "linkcore": [
+    {
+      "sourceUrl": "https://linkco.re/00FG1Rd6?lang=ja",
+      "finalUrl": "https://linkco.re/00FG1Rd6?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "何度生まれ変わっても - RE:BORN OATH - by 神代煌牙 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-26",
+      "song": "何度生まれ変わっても - RE:BORN OATH -",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969058",
+        "https://www.tunecore.co.jp/to/spotify/1969058"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/0X3neT7N?lang=ja",
+      "finalUrl": "https://linkco.re/0X3neT7N?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "君とならラスボスまで by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-10-01",
+      "song": "君とならラスボスまで",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969247",
+        "https://www.tunecore.co.jp/to/spotify/1969247"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/0xHr8N9e?lang=ja",
+      "finalUrl": "https://linkco.re/0xHr8N9e?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "花言葉 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-11",
+      "song": "花言葉",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1951259",
+        "https://www.tunecore.co.jp/to/spotify/1951259"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/3Z3vDYPG?lang=ja",
+      "finalUrl": "https://linkco.re/3Z3vDYPG?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "たった1人の君へ by 妃みちる | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-20",
+      "song": "たった1人の君へ",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963697",
+        "https://www.tunecore.co.jp/to/spotify/1963697"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/3tHVbvXs?lang=ja",
+      "finalUrl": "https://linkco.re/3tHVbvXs?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "Over Drive by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-22",
+      "song": "Over Drive",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1955863",
+        "https://www.tunecore.co.jp/to/spotify/1955863"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/5acNsXS6?lang=ja",
+      "finalUrl": "https://linkco.re/5acNsXS6?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "また、君に恋をする。 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-23",
+      "song": "また、君に恋をする。",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1956870",
+        "https://www.tunecore.co.jp/to/spotify/1956870"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/9r6szVDg?lang=ja",
+      "finalUrl": "https://linkco.re/9r6szVDg?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "取り扱いチューい by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-21",
+      "song": "取り扱いチューい",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954742",
+        "https://www.tunecore.co.jp/to/spotify/1954742"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/C7nAndeS?lang=ja",
+      "finalUrl": "https://linkco.re/C7nAndeS?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "心に残る宝モノ by 妃みちる | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-29",
+      "song": "心に残る宝モノ",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969089",
+        "https://www.tunecore.co.jp/to/spotify/1969089"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/EQtNSDgr?lang=ja",
+      "finalUrl": "https://linkco.re/EQtNSDgr?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "夏が終わるまで、そばにいて。 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-23",
+      "song": "夏が終わるまで、そばにいて。",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957717",
+        "https://www.tunecore.co.jp/to/spotify/1957717"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/GVzS1dUY?lang=ja",
+      "finalUrl": "https://linkco.re/GVzS1dUY?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "キャラメ〜ル by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:28+09:00",
+      "releaseDate": "2026-09-23",
+      "song": "キャラメ〜ル",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957176",
+        "https://www.tunecore.co.jp/to/spotify/1957176"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/HCvApf7V?lang=ja",
+      "finalUrl": "https://linkco.re/HCvApf7V?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "September Blue by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:29+09:00",
+      "releaseDate": "2026-09-22",
+      "song": "September Blue",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1955123",
+        "https://www.tunecore.co.jp/to/spotify/1955123"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/QFNB1r1u?lang=ja",
+      "finalUrl": "https://linkco.re/QFNB1r1u?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "friend like song by 妃みちる | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-20",
+      "song": "friend like song",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963488",
+        "https://www.tunecore.co.jp/to/spotify/1963488"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/Qd5Tzb0q?lang=ja",
+      "finalUrl": "https://linkco.re/Qd5Tzb0q?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "百万告 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-21",
+      "song": "百万告",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954597",
+        "https://www.tunecore.co.jp/to/spotify/1954597"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/QfzZUy6f?lang=ja",
+      "finalUrl": "https://linkco.re/QfzZUy6f?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "Hello Hello Halloween by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-21",
+      "song": "Hello Hello Halloween",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954551",
+        "https://www.tunecore.co.jp/to/spotify/1954551"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/TYNMGrUr?lang=ja",
+      "finalUrl": "https://linkco.re/TYNMGrUr?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "恋愛対象外 (仮) by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-26",
+      "song": "恋愛対象外 (仮)",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1960949",
+        "https://www.tunecore.co.jp/to/spotify/1960949"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/r01YHhrv?lang=ja",
+      "finalUrl": "https://linkco.re/r01YHhrv?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "Eternity of Flower Words by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-26",
+      "song": "Eternity of Flower Words",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1960708",
+        "https://www.tunecore.co.jp/to/spotify/1960708"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/rGeEn03r?lang=ja",
+      "finalUrl": "https://linkco.re/rGeEn03r?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "恋するすべての瞬間 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-23",
+      "song": "Over Drive",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957206",
+        "https://www.tunecore.co.jp/to/spotify/1957206"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/tSpMyUFE?lang=ja",
+      "finalUrl": "https://linkco.re/tSpMyUFE?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "魔法が解けても ― Pumpkin Carriage ― by 神代煌牙 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-10-03",
+      "song": "魔法が解けても ― Pumpkin Carriage ―",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963735",
+        "https://www.tunecore.co.jp/to/spotify/1963735"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/u07vdbbg?lang=ja",
+      "finalUrl": "https://linkco.re/u07vdbbg?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "世代を超えてママへ by 妃みちる | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-10-02",
+      "song": "世代を超えてママへ",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1970337",
+        "https://www.tunecore.co.jp/to/spotify/1970337"
+      ],
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/uYYFxG62?lang=ja",
+      "finalUrl": "https://linkco.re/uYYFxG62?lang=ja",
+      "httpStatus": 200,
+      "title": [
+        "タイパなんて知らなかった。 by 榎本魅愛 | TuneCore Japan"
+      ],
+      "verifiedAt": "2026-10-12T23:21:30+09:00",
+      "releaseDate": "2026-09-23",
+      "song": "タイパなんて知らなかった。",
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957040",
+        "https://www.tunecore.co.jp/to/spotify/1957040"
+      ],
+      "classification": "変更不要"
+    }
+  ],
+  "pending": [
+    {
+      "service": "TuneCore Japan dashboard",
+      "sourceUrl": "https://www.tunecore.co.jp/dashboard",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "reason": "Safari正規セッションはログイン画面へ転送、hCAPTCHA。認証情報は取得・入力せず、認証チャレンジは実行していない。"
+    },
+    {
+      "service": "Instagram",
+      "sourceUrl": "https://www.instagram.com/suzuka12090511/",
+      "verifiedAt": "2026-10-12T23:29:20+09:00",
+      "reason": "公式プロフィールHTMLはHTTP 200・SUZUKA MUSIC確認。投稿本文と投稿日一覧は公開取得できず、最新告知は未確認。"
+    },
+    {
+      "service": "Artwork",
+      "verifiedAt": "2026-10-13T20:13:57+09:00",
+      "reason": "未完成の革命・午前0時のシンデレラの正式ジャケットは未確認。公式YouTubeサムネイルを明示して使用。既存正式画像は保持。"
+    },
+    {
+      "service": "Streaming",
+      "verifiedAt": "2026-10-13T20:13:57+09:00",
+      "reason": "未完成の革命・午前0時のシンデレラ・ウチら最強じゃね！の配信開始は未確認。公開LinkCoreに未記載のストアを配信停止・未配信と推定しない。管理画面と地域別再生は未確認。"
+    }
+  ],
+  "storeDestinationChecks": [
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969058",
+      "finalUrl": "https://music.apple.com/jp/album/no-matter-how-many-times-im-reborn-re-born-oath-single/6814719527?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969058",
+      "finalUrl": "https://open.spotify.com/album/1Hu3ZtFLEbDsPvtqGzPRTp",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969247",
+      "finalUrl": "https://music.apple.com/jp/album/with-you-until-the-final-boss-single/6814720313?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969247",
+      "finalUrl": "https://open.spotify.com/album/1IwXvI02gpPoRAuq2oDlR3",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1951259",
+      "finalUrl": "https://music.apple.com/jp/album/language-of-flowers-single/6810531157?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1951259",
+      "finalUrl": "https://open.spotify.com/album/3GlLdb0lbUzKNZuyPjOTBT",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963697",
+      "finalUrl": "https://music.apple.com/jp/album/to-the-only-one-single/6813770785?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963697",
+      "finalUrl": "https://open.spotify.com/album/63wUFYJhqG4tcxGDSDc4ZK",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1955863",
+      "finalUrl": "https://music.apple.com/jp/album/over-drive-single/6811598305?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1955863",
+      "finalUrl": "https://open.spotify.com/album/5pKiHgHUCKlxuTfK88XNaX",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:31+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1956870",
+      "finalUrl": "https://music.apple.com/jp/album/i-fall-in-love-with-you-again-single/6811730824?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1956870",
+      "finalUrl": "https://open.spotify.com/album/0J9GOP2Q1X06FdYUKrGZ5g",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954742",
+      "finalUrl": "https://music.apple.com/jp/album/handle-with-chu-care-single/6811590982?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954742",
+      "finalUrl": "https://open.spotify.com/album/38XUxpWyabErRmPcpSAIAp",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969089",
+      "finalUrl": "https://music.apple.com/jp/album/treasure-that-remains-in-my-heart-single/6814719029?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969089",
+      "finalUrl": "https://open.spotify.com/album/3TCudVgNXKEYgDTGQXJZB5",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957717",
+      "finalUrl": "https://music.apple.com/jp/album/stay-with-me-until-summer-ends-single/6811778392?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957717",
+      "finalUrl": "https://open.spotify.com/album/4YY8T7JRU7t4CFlccUkbY1",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957176",
+      "finalUrl": "https://music.apple.com/jp/album/caramel-single/6811733437?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957176",
+      "finalUrl": "https://open.spotify.com/album/2xa5NY0FOCFNIVJblvdvp4",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1955123",
+      "finalUrl": "https://music.apple.com/jp/album/september-blue-single/6811593899?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1955123",
+      "finalUrl": "https://open.spotify.com/album/3Kgtb2e2RHCXaquSo5Yy8z",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963488",
+      "finalUrl": "https://music.apple.com/jp/album/friend-like-song-single/6813773047?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963488",
+      "finalUrl": "https://open.spotify.com/album/7gNWyVA5BJmn4ESVI8kkHb",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954597",
+      "finalUrl": "https://music.apple.com/jp/album/a-million-confessions-single/6811280872?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954597",
+      "finalUrl": "https://open.spotify.com/album/2KM12FXMwJnor2r0p0nREN",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954551",
+      "finalUrl": "https://music.apple.com/jp/album/hello-hello-halloween-single/6811280849?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:32+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954551",
+      "finalUrl": "https://open.spotify.com/album/7Jenc6JnMhKNycJTp7MMoa",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1960949",
+      "finalUrl": "https://music.apple.com/jp/album/not-my-type-for-now-single/6812777202?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1960949",
+      "finalUrl": "https://open.spotify.com/album/35vQ50TpepLiFyCbDniP2H",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1960708",
+      "finalUrl": "https://music.apple.com/jp/album/eternity-of-flower-words-single/6812762638?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1960708",
+      "finalUrl": "https://open.spotify.com/album/0ivOsbn8HcpECzy4jQMFvC",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957206",
+      "finalUrl": "https://music.apple.com/jp/album/all-the-moments-we-fall-in-love-ep/6811733549?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957206",
+      "finalUrl": "https://open.spotify.com/album/7vvUhiMB9r2GCExwsdUXQD",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963735",
+      "finalUrl": "https://music.apple.com/jp/album/even-when-the-magic-fades-pumpkin-carriage-single/6813776306?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963735",
+      "finalUrl": "https://open.spotify.com/album/3tqoErht5md8nOtYL8Zmvx",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1970337",
+      "finalUrl": "https://music.apple.com/jp/album/across-generations-to-mom-single/6814790228?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1970337",
+      "finalUrl": "https://open.spotify.com/album/2OX77pxSdH6irBwbmYj025",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957040",
+      "finalUrl": "https://music.apple.com/jp/album/we-didnt-know-about-time-efficiency-single/6811732765?at=10l7qr",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957040",
+      "finalUrl": "https://open.spotify.com/album/2x243vqQGraYhyDHiTkubY",
+      "httpStatus": 200,
+      "verifiedAt": "2026-10-12T23:26:33+09:00"
+    }
+  ],
+  "thumbnailChecks": [
+    {
+      "sourceUrl": "https://i.ytimg.com/vi/ee787y2wjNs/maxresdefault.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "verifiedAt": "2026-10-12T23:30:03+09:00"
+    },
+    {
+      "sourceUrl": "https://i.ytimg.com/vi/blXPDEriTyE/maxresdefault.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "verifiedAt": "2026-10-12T23:30:03+09:00"
+    },
+    {
+      "sourceUrl": "https://i.ytimg.com/vi/-ru6EtMyKAk/maxresdefault.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "verifiedAt": "2026-10-12T23:30:03+09:00"
+    }
+  ],
+  "channelIdentityChecks": [
+    {
+      "sourceUrl": "https://www.youtube.com/@suzuka1209/videos",
+      "officialName": "suzuka",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "handleUrl": "http://www.youtube.com/@suzuka1209",
+      "verifiedAt": "2026-10-12T23:31:07+09:00",
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@enomotomia/videos",
+      "officialName": "榎本魅愛",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "handleUrl": "http://www.youtube.com/@enomotomia",
+      "verifiedAt": "2026-10-12T23:31:07+09:00",
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@KOGAKAMISHIRO/videos",
+      "officialName": "神代煌牙",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "handleUrl": "http://www.youtube.com/@KOGAKAMISHIRO",
+      "verifiedAt": "2026-10-12T23:31:07+09:00",
+      "classification": "変更不要"
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@michirukisaki/videos",
+      "officialName": "妃みちる",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "handleUrl": "http://www.youtube.com/@michirukisaki",
+      "verifiedAt": "2026-10-12T23:31:07+09:00",
+      "classification": "変更不要"
+    }
+  ],
+  "baselineAuditResults": [
+    {
+      "command": "node --version",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/celestial-gate.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_celestial_gate.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/test_official_image_restoration.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_celestial_cinema.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_sync.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_seo.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/analytics.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/streaming-release.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node scripts/test_streaming_date.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node scripts/test_search_init.cjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "TZ=Asia/Tokyo node scripts/test_schedule_date.cjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "TZ=UTC node scripts/test_schedule_date.cjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "TZ=America/Los_Angeles node scripts/test_schedule_date.cjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_postpublication_schedule.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_streaming_release.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_mia_release_schedule.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/mia-release-schedule.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_mia_schedule_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_postpublication_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/main.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check assets/explorer-update.js",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_analytics_realtime_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_photobook_analytics_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_growth_analytics_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "node --check scripts/browser_qa.mjs",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_actions_node24.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_growth_routes.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_analytics.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_photobooks.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_lyrics_sources.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_lyrics.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_lyrics_master_20260812.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_release_state.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_release_automation.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_lyrics_publish_state.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_holds.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_rich_results.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_brand_entity.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_public_counts.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_structured_entity_ids.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/validate_sitemap.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_sitemaps.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_feed.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_indexnow.py",
+      "exitCode": 0,
+      "failureReason": ""
+    },
+    {
+      "command": "python3 scripts/audit_20260924_sync.py",
+      "exitCode": 1,
+      "failureReason": "AssertionError"
+    },
+    {
+      "command": "python3 scripts/audit_linkcore_releases.py",
+      "exitCode": 1,
+      "failureReason": "AssertionError: ('sedai-wo-koete-mama-e', 'published', 'upcoming')"
+    },
+    {
+      "command": "python3 scripts/audit_yume_kaigo_lyrics.py",
+      "exitCode": 0,
+      "failureReason": ""
+    }
+  ],
+  "approvedFieldChanges": [
+    {
+      "releaseSlug": "without-worrying",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": false,
+      "previousValue": null,
+      "newValue": {
+        "releaseDate": "2026-10-05",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/F1979f3c",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:54+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "Without worrying",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1986628",
+          "https://www.tunecore.co.jp/to/spotify/1986628"
+        ]
+      },
+      "sourceUrl": "https://linkco.re/F1979f3c?lang=ja"
+    },
+    {
+      "releaseSlug": "without-worrying-reimagined",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": false,
+      "previousValue": null,
+      "newValue": {
+        "releaseDate": "2026-10-05",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/ef1DD6B3",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "Without worrying (Reimagined)",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1986555",
+          "https://www.tunecore.co.jp/to/spotify/1986555"
+        ]
+      },
+      "sourceUrl": "https://linkco.re/ef1DD6B3?lang=ja"
+    },
+    {
+      "releaseSlug": "anata-wo-omou-sore-dake-de",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": false,
+      "previousValue": null,
+      "newValue": {
+        "releaseDate": "2026-10-10",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/MDZzMupn",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "あなたを想うそれだけで",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1992011",
+          "https://www.tunecore.co.jp/to/spotify/1992011"
+        ]
+      },
+      "sourceUrl": "https://linkco.re/MDZzMupn?lang=ja"
+    },
+    {
+      "releaseSlug": "kamisama-wa-rusu",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": false,
+      "previousValue": null,
+      "newValue": {
+        "releaseDate": "2026-10-10",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/VNy0eVS4",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "神様は留守",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1989679",
+          "https://www.tunecore.co.jp/to/spotify/1989679"
+        ]
+      },
+      "sourceUrl": "https://linkco.re/VNy0eVS4?lang=ja"
+    },
+    {
+      "releaseSlug": "amaterasu",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": false,
+      "previousValue": null,
+      "newValue": {
+        "releaseDate": "2026-10-17",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/uh3MSXtm",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:57+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "天照",
+        "availableStoreUrls": []
+      },
+      "sourceUrl": "https://linkco.re/uh3MSXtm?lang=ja"
+    },
+    {
+      "releaseSlug": "mahou-ga-toketemo",
+      "field": "scheduledStreamingRelease",
+      "previouslyPresent": true,
+      "previousValue": {
+        "releaseDate": "2026-10-03",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/tSpMyUFE",
+        "source": "authenticated-tunecore-dashboard-and-public-linkcore",
+        "verifiedAt": "2026-09-24T20:15:46+09:00",
+        "verificationSource": "tunecore-dashboard-status-and-official-linkcore-release-date"
+      },
+      "newValue": {
+        "releaseDate": "2026-10-03",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/tSpMyUFE",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "魔法が解けても ― Pumpkin Carriage ―",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1963735",
+          "https://www.tunecore.co.jp/to/spotify/1963735"
+        ]
+      },
+      "sourceUrl": "https://linkco.re/tSpMyUFE?lang=ja"
+    }
+  ],
+  "updatedNewArtwork": {
+    "ichigo-ichihou-saikai-no-yakusoku": "https://linkco.re/aDuRy9Ta?lang=ja"
+  },
+  "streamingVerifiedAt": "2026-10-13T20:13:57+09:00",
+  "publicStreamingReverification": [
+    {
+      "sourceUrl": "https://linkco.re/00FG1Rd6?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/00FG1Rd6?lang=ja",
+      "officialTitle": "何度生まれ変わっても - RE:BORN OATH - by 神代煌牙 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "tracks": [
+        "何度生まれ変わっても - RE:BORN OATH -"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969058",
+        "https://www.tunecore.co.jp/to/spotify/1969058"
+      ],
+      "jacketAlt": "何度生まれ変わっても - RE:BORN OATH -のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1969058/ite1969058.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/0X3neT7N?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/0X3neT7N?lang=ja",
+      "officialTitle": "君とならラスボスまで by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-01",
+      "tracks": [
+        "君とならラスボスまで"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969247",
+        "https://www.tunecore.co.jp/to/spotify/1969247"
+      ],
+      "jacketAlt": "君とならラスボスまでのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1969247/ite1969247.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/0xHr8N9e?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/0xHr8N9e?lang=ja",
+      "officialTitle": "花言葉 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-11",
+      "tracks": [
+        "花言葉"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1951259",
+        "https://www.tunecore.co.jp/to/spotify/1951259"
+      ],
+      "jacketAlt": "花言葉のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1951259/ite1951259.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/28YfhcNX?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/28YfhcNX?lang=ja",
+      "officialTitle": "ゆっくり休んで by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-11",
+      "tracks": [
+        "ゆっくり休んで"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1997830"
+      ],
+      "jacketAlt": "ゆっくり休んでのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1997830/ite1997830.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "19c06fa75fde2b5b9ea03291a395fee6111ebcc6239ab3b0e405b639dda8df71",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "19c06fa75fde2b5b9ea03291a395fee6111ebcc6239ab3b0e405b639dda8df71",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-28YfhcNX.png",
+        "localImage": "images/tunecore-28YfhcNX-20261012.png"
+      },
+      "releaseSlug": "yukkuri-yasunde",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/3Z3vDYPG?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/3Z3vDYPG?lang=ja",
+      "officialTitle": "たった1人の君へ by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-09-20",
+      "tracks": [
+        "たった1人の君へ"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963697",
+        "https://www.tunecore.co.jp/to/spotify/1963697"
+      ],
+      "jacketAlt": "たった1人の君へのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1963697/ite1963697.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/3tHVbvXs?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/3tHVbvXs?lang=ja",
+      "officialTitle": "Over Drive by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-22",
+      "tracks": [
+        "Over Drive"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1955863",
+        "https://www.tunecore.co.jp/to/spotify/1955863"
+      ],
+      "jacketAlt": "Over Driveのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1955863/ite1955863.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/5acNsXS6?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/5acNsXS6?lang=ja",
+      "officialTitle": "また、君に恋をする。 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-23",
+      "tracks": [
+        "また、君に恋をする。"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1956870",
+        "https://www.tunecore.co.jp/to/spotify/1956870"
+      ],
+      "jacketAlt": "また、君に恋をする。のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1956870/ite1956870.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/9U1eCaGv?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:53+00:00",
+      "checkedAtJst": "2026-10-13T20:09:53+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/9U1eCaGv?lang=ja",
+      "officialTitle": "天上天下唯我独尊 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-15",
+      "tracks": [
+        "天上天下唯我独尊"
+      ],
+      "storeUrls": [],
+      "jacketAlt": "天上天下唯我独尊のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1991272/ite1991272.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "91cd369175ddde6551c832d06a9f4e9f8f0e615131a9b5dd1b9c31c1f308c96c",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "91cd369175ddde6551c832d06a9f4e9f8f0e615131a9b5dd1b9c31c1f308c96c",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-9U1eCaGv.png",
+        "localImage": "images/tunecore-9U1eCaGv-20261012.png"
+      },
+      "releaseSlug": "tenjo-tenge-yuiga-dokuson",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/9r6szVDg?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/9r6szVDg?lang=ja",
+      "officialTitle": "取り扱いチューい by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-21",
+      "tracks": [
+        "取り扱いチューい"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954742",
+        "https://www.tunecore.co.jp/to/spotify/1954742"
+      ],
+      "jacketAlt": "取り扱いチューいのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1954742/ite1954742.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/C7nAndeS?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/C7nAndeS?lang=ja",
+      "officialTitle": "心に残る宝モノ by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-09-29",
+      "tracks": [
+        "心に残る宝モノ"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1969089",
+        "https://www.tunecore.co.jp/to/spotify/1969089"
+      ],
+      "jacketAlt": "心に残る宝モノのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1969089/ite1969089.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/EQtNSDgr?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/EQtNSDgr?lang=ja",
+      "officialTitle": "夏が終わるまで、そばにいて。 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-23",
+      "tracks": [
+        "夏が終わるまで、そばにいて。"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957717",
+        "https://www.tunecore.co.jp/to/spotify/1957717"
+      ],
+      "jacketAlt": "夏が終わるまで、そばにいて。のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1957717/ite1957717.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/F1979f3c?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/F1979f3c?lang=ja",
+      "officialTitle": "Without worrying by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-05",
+      "tracks": [
+        "Without worrying"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1986628",
+        "https://www.tunecore.co.jp/to/spotify/1986628"
+      ],
+      "jacketAlt": "Without worryingのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1986628/ite1986628.png",
+      "releaseSlug": "without-worrying",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/GVzS1dUY?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/GVzS1dUY?lang=ja",
+      "officialTitle": "キャラメ〜ル by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-23",
+      "tracks": [
+        "キャラメ〜ル"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957176",
+        "https://www.tunecore.co.jp/to/spotify/1957176"
+      ],
+      "jacketAlt": "キャラメ〜ルのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1957176/ite1957176.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/HCvApf7V?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:54+00:00",
+      "checkedAtJst": "2026-10-13T20:09:54+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/HCvApf7V?lang=ja",
+      "officialTitle": "September Blue by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-22",
+      "tracks": [
+        "September Blue"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1955123",
+        "https://www.tunecore.co.jp/to/spotify/1955123"
+      ],
+      "jacketAlt": "September Blueのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1955123/ite1955123.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/MDZzMupn?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/MDZzMupn?lang=ja",
+      "officialTitle": "あなたを想うそれだけで by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-10",
+      "tracks": [
+        "あなたを想うそれだけで"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1992011",
+        "https://www.tunecore.co.jp/to/spotify/1992011"
+      ],
+      "jacketAlt": "あなたを想うそれだけでのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1992011/ite1992011.png",
+      "releaseSlug": "anata-wo-omou-sore-dake-de",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/QFNB1r1u?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/QFNB1r1u?lang=ja",
+      "officialTitle": "friend like song by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-09-20",
+      "tracks": [
+        "friend like song"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963488",
+        "https://www.tunecore.co.jp/to/spotify/1963488"
+      ],
+      "jacketAlt": "friend like songのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1963488/ite1963488.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/Qd5Tzb0q?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/Qd5Tzb0q?lang=ja",
+      "officialTitle": "百万告 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-21",
+      "tracks": [
+        "百万告"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954597",
+        "https://www.tunecore.co.jp/to/spotify/1954597"
+      ],
+      "jacketAlt": "百万告のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1954597/ite1954597.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/QfzZUy6f?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/QfzZUy6f?lang=ja",
+      "officialTitle": "Hello Hello Halloween by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-21",
+      "tracks": [
+        "Hello Hello Halloween"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1954551",
+        "https://www.tunecore.co.jp/to/spotify/1954551"
+      ],
+      "jacketAlt": "Hello Hello Halloweenのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1954551/ite1954551.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "officialTitle": "私の選んだ道 (あなたに届けたい8つの歌) by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-14",
+      "tracks": [
+        "HELLO, LIFE!",
+        "friend like song",
+        "たった1人の君へ",
+        "心に残る宝モノ",
+        "世代を超えてママへ",
+        "ゆっくり休んで",
+        "誰かのために",
+        "私の選んだ道"
+      ],
+      "storeUrls": [],
+      "jacketAlt": "私の選んだ道 (あなたに届けたい8つの歌)のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1999393/ite1999393.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "b8e4101082ecf9134e2eefc342d80cabd658bd539488c683c2d78df2d1ee6f50",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "b8e4101082ecf9134e2eefc342d80cabd658bd539488c683c2d78df2d1ee6f50",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-Rq5BFPrU.png",
+        "localImage": "images/tunecore-Rq5BFPrU-20261012.png"
+      },
+      "releaseSlug": "watashi-no-eranda-michi-album",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/TYNMGrUr?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/TYNMGrUr?lang=ja",
+      "officialTitle": "恋愛対象外 (仮) by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "tracks": [
+        "恋愛対象外 (仮)"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1960949",
+        "https://www.tunecore.co.jp/to/spotify/1960949"
+      ],
+      "jacketAlt": "恋愛対象外 (仮)のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1960949/ite1960949.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/V5tf40p0?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/V5tf40p0?lang=ja",
+      "officialTitle": "誰かのために by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-12",
+      "tracks": [
+        "誰かのために"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1997846"
+      ],
+      "jacketAlt": "誰かのためにのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1997846/ite1997846.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "f5184c6af4337662559eacb3d7900346eba500b11084dac6aa5cf6bef4d9d511",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "f5184c6af4337662559eacb3d7900346eba500b11084dac6aa5cf6bef4d9d511",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-V5tf40p0.png",
+        "localImage": "images/tunecore-V5tf40p0-20261012.png"
+      },
+      "releaseSlug": "dareka-no-tameni",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/VNy0eVS4?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/VNy0eVS4?lang=ja",
+      "officialTitle": "神様は留守 by 神代煌牙 | TuneCore Japan",
+      "releaseDate": "2026-10-10",
+      "tracks": [
+        "神様は留守"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1989679",
+        "https://www.tunecore.co.jp/to/spotify/1989679"
+      ],
+      "jacketAlt": "神様は留守のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1989679/ite1989679.png",
+      "releaseSlug": "kamisama-wa-rusu",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/aDuRy9Ta?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:55+00:00",
+      "checkedAtJst": "2026-10-13T20:09:55+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/aDuRy9Ta?lang=ja",
+      "officialTitle": "一護一逢 (〜再開の約束〜) by 神代煌牙 | TuneCore Japan",
+      "releaseDate": "2026-10-13",
+      "tracks": [
+        "一護一逢 (〜再開の約束〜)"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1998183"
+      ],
+      "jacketAlt": "一護一逢 (〜再開の約束〜)のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1998183/ite1998183.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "a93d0875730f109d923dcea1f52d580ff743001eb5fb1053f105c2d5120db1e4",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "a93d0875730f109d923dcea1f52d580ff743001eb5fb1053f105c2d5120db1e4",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-aDuRy9Ta.png",
+        "localImage": "images/tunecore-aDuRy9Ta-20261012.png"
+      },
+      "releaseSlug": "ichigo-ichihou-saikai-no-yakusoku",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/ef1DD6B3?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/ef1DD6B3?lang=ja",
+      "officialTitle": "Without worrying (Reimagined) by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-05",
+      "tracks": [
+        "Without worrying (Reimagined)"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1986555",
+        "https://www.tunecore.co.jp/to/spotify/1986555"
+      ],
+      "jacketAlt": "Without worrying (Reimagined)のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1986555/ite1986555.png",
+      "releaseSlug": "without-worrying-reimagined",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/fTcQ4px9?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/fTcQ4px9?lang=ja",
+      "officialTitle": "恋の途中 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-05",
+      "tracks": [
+        "タイパなんて知らなかった。",
+        "キャラメ〜ル",
+        "恋愛対象外 (仮)",
+        "夏が終わるまで、そばにいて。",
+        "September Blue",
+        "また、君に恋をする。"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1987075",
+        "https://www.tunecore.co.jp/to/spotify/1987075"
+      ],
+      "jacketAlt": "恋の途中のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1987075/ite1987075.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "d8cd3e7ded502449466687e974e6c1a8c3f6dc279cf198036bb99e9251f0b05e",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "d8cd3e7ded502449466687e974e6c1a8c3f6dc279cf198036bb99e9251f0b05e",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-fTcQ4px9.png",
+        "localImage": "images/tunecore-fTcQ4px9-20261012.png"
+      },
+      "releaseSlug": "koi-no-tochu",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/qbUCcFYa?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/qbUCcFYa?lang=ja",
+      "officialTitle": "雨のち貴方 by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-14",
+      "tracks": [
+        "雨のち貴方"
+      ],
+      "storeUrls": [],
+      "jacketAlt": "雨のち貴方のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r2000533/ite2000533.png",
+      "jacketVerification": {
+        "httpStatus": 200,
+        "sha256": "d5e21f722b1a990b7a3238075d3b0d99336b621e5d45f4004eab4d5261461fa9",
+        "width": 400,
+        "height": 400,
+        "existingProtectedSha256": "d5e21f722b1a990b7a3238075d3b0d99336b621e5d45f4004eab4d5261461fa9",
+        "unchangedFrom20261012": true,
+        "researchAssetName": "official-jacket-qbUCcFYa.png",
+        "localImage": "images/tunecore-qbUCcFYa-20261012.png"
+      },
+      "releaseSlug": "ame-nochi-anata",
+      "classification": "追加が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/r01YHhrv?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/r01YHhrv?lang=ja",
+      "officialTitle": "Eternity of Flower Words by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-26",
+      "tracks": [
+        "Eternity of Flower Words"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1960708",
+        "https://www.tunecore.co.jp/to/spotify/1960708"
+      ],
+      "jacketAlt": "Eternity of Flower Wordsのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1960708/ite1960708.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/rGeEn03r?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/rGeEn03r?lang=ja",
+      "officialTitle": "恋するすべての瞬間 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-23",
+      "tracks": [
+        "Over Drive",
+        "キャラメ〜ル",
+        "取り扱いチューい",
+        "百万告",
+        "花言葉"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957206",
+        "https://www.tunecore.co.jp/to/spotify/1957206"
+      ],
+      "jacketAlt": "恋するすべての瞬間のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1957206/ite1957206.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/tSpMyUFE?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:56+00:00",
+      "checkedAtJst": "2026-10-13T20:09:56+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/tSpMyUFE?lang=ja",
+      "officialTitle": "魔法が解けても ― Pumpkin Carriage ― by 神代煌牙 | TuneCore Japan",
+      "releaseDate": "2026-10-03",
+      "tracks": [
+        "魔法が解けても ― Pumpkin Carriage ―"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1963735",
+        "https://www.tunecore.co.jp/to/spotify/1963735"
+      ],
+      "jacketAlt": "魔法が解けても ― Pumpkin Carriage ―のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1963735/ite1963735.png",
+      "releaseSlug": "mahou-ga-toketemo",
+      "classification": "修正が必要"
+    },
+    {
+      "sourceUrl": "https://linkco.re/u07vdbbg?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:57+00:00",
+      "checkedAtJst": "2026-10-13T20:09:57+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/u07vdbbg?lang=ja",
+      "officialTitle": "世代を超えてママへ by 妃みちる | TuneCore Japan",
+      "releaseDate": "2026-10-02",
+      "tracks": [
+        "世代を超えてママへ"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1970337",
+        "https://www.tunecore.co.jp/to/spotify/1970337"
+      ],
+      "jacketAlt": "世代を超えてママへのジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1970337/ite1970337.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/uYYFxG62?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:57+00:00",
+      "checkedAtJst": "2026-10-13T20:09:57+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/uYYFxG62?lang=ja",
+      "officialTitle": "タイパなんて知らなかった。 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-09-23",
+      "tracks": [
+        "タイパなんて知らなかった。"
+      ],
+      "storeUrls": [
+        "https://www.tunecore.co.jp/to/apple_music/1957040",
+        "https://www.tunecore.co.jp/to/spotify/1957040"
+      ],
+      "jacketAlt": "タイパなんて知らなかった。のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1957040/ite1957040.png"
+    },
+    {
+      "sourceUrl": "https://linkco.re/uh3MSXtm?lang=ja",
+      "checkedAtUtc": "2026-10-13T11:09:57+00:00",
+      "checkedAtJst": "2026-10-13T20:09:57+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://linkco.re/uh3MSXtm?lang=ja",
+      "officialTitle": "天照 by 榎本魅愛 | TuneCore Japan",
+      "releaseDate": "2026-10-17",
+      "tracks": [
+        "天照"
+      ],
+      "storeUrls": [],
+      "jacketAlt": "天照のジャケット写真",
+      "originalJacketPath": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r1988610/ite1988610.png",
+      "releaseSlug": "amaterasu",
+      "classification": "修正が必要"
+    }
+  ],
+  "publicStoreDestinationReverification": [
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1951259",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/language-of-flowers-single/6810531157?at=10l7qr",
+      "pageTitle": [
+        "‎花言葉 - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954551",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/hello-hello-halloween-single/6811280849?at=10l7qr",
+      "pageTitle": [
+        "‎Hello Hello Halloween - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954597",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/a-million-confessions-single/6811280872?at=10l7qr",
+      "pageTitle": [
+        "‎百万告 - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1954742",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/handle-with-chu-care-single/6811590982?at=10l7qr",
+      "pageTitle": [
+        "‎取り扱いチューい - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1955123",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/september-blue-single/6811593899?at=10l7qr",
+      "pageTitle": [
+        "‎September Blue - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1955863",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/over-drive-single/6811598305?at=10l7qr",
+      "pageTitle": [
+        "‎Over Drive - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1956870",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/i-fall-in-love-with-you-again-single/6811730824?at=10l7qr",
+      "pageTitle": [
+        "‎また、君に恋をする。 - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957040",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/we-didnt-know-about-time-efficiency-single/6811732765?at=10l7qr",
+      "pageTitle": [
+        "‎タイパなんて知らなかった。 - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957176",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/caramel-single/6811733437?at=10l7qr",
+      "pageTitle": [
+        "‎キャラメ〜ル - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957206",
+      "checkedAtUtc": "2026-10-13T11:09:58+00:00",
+      "checkedAtJst": "2026-10-13T20:09:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/all-the-moments-we-fall-in-love-ep/6811733549?at=10l7qr",
+      "pageTitle": [
+        "‎恋するすべての瞬間 - EP - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1957717",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/stay-with-me-until-summer-ends-single/6811778392?at=10l7qr",
+      "pageTitle": [
+        "‎夏が終わるまで、そばにいて。 - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1960708",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/eternity-of-flower-words-single/6812762638?at=10l7qr",
+      "pageTitle": [
+        "‎Eternity of Flower Words - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1960949",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/not-my-type-for-now-single/6812777202?at=10l7qr",
+      "pageTitle": [
+        "‎恋愛対象外 (仮) - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963488",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/friend-like-song-single/6813773047?at=10l7qr",
+      "pageTitle": [
+        "‎friend like song - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963697",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/to-the-only-one-single/6813770785?at=10l7qr",
+      "pageTitle": [
+        "‎たった1人の君へ - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1963735",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/even-when-the-magic-fades-pumpkin-carriage-single/6813776306?at=10l7qr",
+      "pageTitle": [
+        "‎魔法が解けても ― Pumpkin Carriage ― - Single - 神代煌牙のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969058",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/no-matter-how-many-times-im-reborn-re-born-oath-single/6814719527?at=10l7qr",
+      "pageTitle": [
+        "‎何度生まれ変わっても - RE:BORN OATH - - Single - 神代煌牙のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969089",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/treasure-that-remains-in-my-heart-single/6814719029?at=10l7qr",
+      "pageTitle": [
+        "‎心に残る宝モノ - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1969247",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/with-you-until-the-final-boss-single/6814720313?at=10l7qr",
+      "pageTitle": [
+        "‎君とならラスボスまで - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1970337",
+      "checkedAtUtc": "2026-10-13T11:10:00+00:00",
+      "checkedAtJst": "2026-10-13T20:10:00+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/across-generations-to-mom-single/6814790228?at=10l7qr",
+      "pageTitle": [
+        "‎世代を超えてママへ - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1986555",
+      "checkedAtUtc": "2026-10-13T11:10:01+00:00",
+      "checkedAtJst": "2026-10-13T20:10:01+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/without-worrying-reimagined-single/6818501021?at=10l7qr",
+      "pageTitle": [
+        "‎Without worrying (Reimagined) - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1986628",
+      "checkedAtUtc": "2026-10-13T11:10:01+00:00",
+      "checkedAtJst": "2026-10-13T20:10:01+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/without-worrying-single/6818500708?at=10l7qr",
+      "pageTitle": [
+        "‎Without worrying - Single - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1987075",
+      "checkedAtUtc": "2026-10-13T11:10:01+00:00",
+      "checkedAtJst": "2026-10-13T20:10:01+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/in-the-middle-of-love-ep/6818729439?at=10l7qr",
+      "pageTitle": [
+        "‎恋の途中 - EP - 榎本魅愛のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1989679",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/god-is-away-single/6818975436?at=10l7qr",
+      "pageTitle": [
+        "‎神様は留守 - Single - 神代煌牙のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1992011",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/just-thinking-of-you-single/6819308667?at=10l7qr",
+      "pageTitle": [
+        "‎あなたを想うそれだけで - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1997830",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/take-your-time-to-rest-single/6820887717?at=10l7qr",
+      "pageTitle": [
+        "‎ゆっくり休んで - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1997846",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/for-someone-else-single/6820869884?at=10l7qr",
+      "pageTitle": [
+        "‎誰かのために - Single - 妃みちるのアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/apple_music/1998183",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/one-love-one-encounter-promise-of-reunion-single/6820879394?at=10l7qr",
+      "pageTitle": [
+        "‎一護一逢 (〜再開の約束〜) - Single - 神代煌牙のアルバム - Apple Music"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1951259",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3GlLdb0lbUzKNZuyPjOTBT",
+      "pageTitle": [
+        "花言葉 - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954551",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/7Jenc6JnMhKNycJTp7MMoa",
+      "pageTitle": [
+        "Hello Hello Halloween - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954597",
+      "checkedAtUtc": "2026-10-13T11:10:02+00:00",
+      "checkedAtJst": "2026-10-13T20:10:02+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/2KM12FXMwJnor2r0p0nREN",
+      "pageTitle": [
+        "百万告 - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1954742",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/38XUxpWyabErRmPcpSAIAp",
+      "pageTitle": [
+        "取り扱いチューい - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1955123",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3Kgtb2e2RHCXaquSo5Yy8z",
+      "pageTitle": [
+        "September Blue - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1955863",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/5pKiHgHUCKlxuTfK88XNaX",
+      "pageTitle": [
+        "Over Drive - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1956870",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/0J9GOP2Q1X06FdYUKrGZ5g",
+      "pageTitle": [
+        "また、君に恋をする。 - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957040",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/2x243vqQGraYhyDHiTkubY",
+      "pageTitle": [
+        "タイパなんて知らなかった。 - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957176",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/2xa5NY0FOCFNIVJblvdvp4",
+      "pageTitle": [
+        "キャラメ〜ル - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957206",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/7vvUhiMB9r2GCExwsdUXQD",
+      "pageTitle": [
+        "恋するすべての瞬間 - EP by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1957717",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/4YY8T7JRU7t4CFlccUkbY1",
+      "pageTitle": [
+        "夏が終わるまで、そばにいて。 - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1960708",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/0ivOsbn8HcpECzy4jQMFvC",
+      "pageTitle": [
+        "Eternity of Flower Words - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1960949",
+      "checkedAtUtc": "2026-10-13T11:10:03+00:00",
+      "checkedAtJst": "2026-10-13T20:10:03+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/35vQ50TpepLiFyCbDniP2H",
+      "pageTitle": [
+        "恋愛対象外 (仮) - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963488",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/7gNWyVA5BJmn4ESVI8kkHb",
+      "pageTitle": [
+        "friend like song - Single by 妃みちる | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963697",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/63wUFYJhqG4tcxGDSDc4ZK",
+      "pageTitle": [
+        "たった1人の君へ - Single by 妃みちる | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1963735",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3tqoErht5md8nOtYL8Zmvx",
+      "pageTitle": [
+        "魔法が解けても ― Pumpkin Carriage ― - Single by 神代煌牙 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969058",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/1Hu3ZtFLEbDsPvtqGzPRTp",
+      "pageTitle": [
+        "何度生まれ変わっても - RE:BORN OATH - - Single by 神代煌牙 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969089",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3TCudVgNXKEYgDTGQXJZB5",
+      "pageTitle": [
+        "心に残る宝モノ - Single by 妃みちる | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1969247",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/1IwXvI02gpPoRAuq2oDlR3",
+      "pageTitle": [
+        "君とならラスボスまで - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1970337",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/2OX77pxSdH6irBwbmYj025",
+      "pageTitle": [
+        "世代を超えてママへ - Single by 妃みちる | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1986555",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/7dom7kFyTtSY9TmxgWnvu4",
+      "pageTitle": [
+        "Without worrying (Reimagined) - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1986628",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3wRHpeVdQ5BYkBa1uPdrlh",
+      "pageTitle": [
+        "Without worrying - Single by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1987075",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/6PLMyIVwiFW4QGVVqcwUiE",
+      "pageTitle": [
+        "恋の途中 - EP by 榎本魅愛 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1989679",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/326cEckrR0NdsO9WZvYDlI",
+      "pageTitle": [
+        "神様は留守 - Single by 神代煌牙 | Spotify"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/to/spotify/1992011",
+      "checkedAtUtc": "2026-10-13T11:10:04+00:00",
+      "checkedAtJst": "2026-10-13T20:10:04+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://open.spotify.com/album/3bkee7lZvLINhxwTzS7ktd",
+      "pageTitle": [
+        "あなたを想うそれだけで - Single by 妃みちる | Spotify"
+      ]
+    }
+  ],
+  "publicTuneCoreArtistReverification": [
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/artists/KOGAKAMISHIRO",
+      "artistSlug": "koga-kamishiro",
+      "expectedArtist": "神代煌牙",
+      "checkedAtUtc": "2026-10-13T11:09:47+00:00",
+      "checkedAtJst": "2026-10-13T20:09:47+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.tunecore.co.jp/artists/KOGAKAMISHIRO",
+      "officialTitle": "神代煌牙 | TuneCore Japan",
+      "artistNamePresent": true,
+      "linkcoreUrls": [
+        "https://linkco.re/00FG1Rd6?lang=ja",
+        "https://linkco.re/VNy0eVS4?lang=ja",
+        "https://linkco.re/aDuRy9Ta?lang=ja",
+        "https://linkco.re/tSpMyUFE?lang=ja"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/artists?id=1153013",
+      "artistSlug": "enomoto-mia",
+      "expectedArtist": "榎本魅愛",
+      "checkedAtUtc": "2026-10-13T11:09:48+00:00",
+      "checkedAtJst": "2026-10-13T20:09:48+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.tunecore.co.jp/artists?id=1153013",
+      "officialTitle": "榎本魅愛 | TuneCore Japan",
+      "artistNamePresent": true,
+      "linkcoreUrls": [
+        "https://linkco.re/9U1eCaGv?lang=ja",
+        "https://linkco.re/F1979f3c?lang=ja",
+        "https://linkco.re/ef1DD6B3?lang=ja",
+        "https://linkco.re/fTcQ4px9?lang=ja",
+        "https://linkco.re/rGeEn03r?lang=ja",
+        "https://linkco.re/uh3MSXtm?lang=ja"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tunecore.co.jp/artists?id=1169338",
+      "artistSlug": "michiru",
+      "expectedArtist": "妃みちる",
+      "checkedAtUtc": "2026-10-13T11:09:49+00:00",
+      "checkedAtJst": "2026-10-13T20:09:49+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.tunecore.co.jp/artists?id=1169338",
+      "officialTitle": "妃みちる | TuneCore Japan",
+      "artistNamePresent": true,
+      "linkcoreUrls": [
+        "https://linkco.re/28YfhcNX?lang=ja",
+        "https://linkco.re/MDZzMupn?lang=ja",
+        "https://linkco.re/Rq5BFPrU?lang=ja",
+        "https://linkco.re/V5tf40p0?lang=ja",
+        "https://linkco.re/qbUCcFYa?lang=ja"
+      ]
+    }
+  ],
+  "publicSocialReverification": [
+    {
+      "sourceUrl": "https://note.com/1209bellflower",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://note.com/1209bellflower",
+      "title": [
+        "SUZUKA｜Original AI Music Label｜note"
+      ],
+      "publicArticles": [
+        {
+          "key": "n3c62926d29e0",
+          "sourceUrl": "https://note.com/1209bellflower/n/n3c62926d29e0",
+          "officialTitle": "【本日20:00解禁】RE:VIVE『未完成の革命』――未完成のままでいい。何度でも、立ち上がれ。",
+          "publishedAtUtc": "2026-10-12T06:52:18.000Z"
+        },
+        {
+          "key": "nd4ccc92d086c",
+          "sourceUrl": "https://note.com/1209bellflower/n/nd4ccc92d086c",
+          "officialTitle": "SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。",
+          "publishedAtUtc": "2026-10-03T07:49:06.000Z"
+        },
+        {
+          "key": "n00f345878afe",
+          "sourceUrl": "https://note.com/1209bellflower/n/n00f345878afe",
+          "officialTitle": "榎本魅愛、新曲『天照 -アマテラス-』10月3日19:00 音源先行公開",
+          "publishedAtUtc": "2026-10-03T04:39:51.000Z"
+        },
+        {
+          "key": "n2e08265c5c5b",
+          "sourceUrl": "https://note.com/1209bellflower/n/n2e08265c5c5b",
+          "officialTitle": "「Without worrying」が、新しく生まれ変わりました。",
+          "publishedAtUtc": "2026-10-02T13:40:34.000Z"
+        },
+        {
+          "key": "n3e1b02345551",
+          "sourceUrl": "https://note.com/1209bellflower/n/n3e1b02345551",
+          "officialTitle": "「あなたはひとりじゃない」——榎本魅愛『Without worrying』",
+          "publishedAtUtc": "2026-10-02T13:36:43.000Z"
+        },
+        {
+          "key": "n561715644520",
+          "sourceUrl": "https://note.com/1209bellflower/n/n561715644520",
+          "officialTitle": "🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁",
+          "publishedAtUtc": "2026-09-30T15:59:00.000Z"
+        },
+        {
+          "key": "n599c9798e768",
+          "sourceUrl": "https://note.com/1209bellflower/n/n599c9798e768",
+          "officialTitle": "『ありのまま。 — Just As I Am. —』 ",
+          "publishedAtUtc": "2026-09-23T15:33:51.000Z"
+        },
+        {
+          "key": "nce756dc6090e",
+          "sourceUrl": "https://note.com/1209bellflower/n/nce756dc6090e",
+          "officialTitle": "「どんな日も、歌がそばにいる。」妃みちる Official Channelがオープンしました。",
+          "publishedAtUtc": "2026-09-20T16:19:19.000Z"
+        },
+        {
+          "key": "n203229d0d986",
+          "sourceUrl": "https://note.com/1209bellflower/n/n203229d0d986",
+          "officialTitle": "榎本魅愛、3曲同時リリース。3つの恋を、あなたへ。",
+          "publishedAtUtc": "2026-09-20T16:16:08.000Z"
+        },
+        {
+          "key": "n097398b8767b",
+          "sourceUrl": "https://note.com/1209bellflower/n/n097398b8767b",
+          "officialTitle": "🌸「花言葉」が、みんなの歌になりました。｜榎本魅愛 JOYSOUNDカラオケ配信スタート！",
+          "publishedAtUtc": "2026-09-18T15:57:08.000Z"
+        },
+        {
+          "key": "n48fb639ab3e7",
+          "sourceUrl": "https://note.com/1209bellflower/n/n48fb639ab3e7",
+          "officialTitle": "「花言葉」が英語で新しく咲く。榎本魅愛「Eternity of Flower Words - English Remix」記念MV制作中",
+          "publishedAtUtc": "2026-09-15T23:35:44.000Z"
+        },
+        {
+          "key": "nf6a4cadbff7d",
+          "sourceUrl": "https://note.com/1209bellflower/n/nf6a4cadbff7d",
+          "officialTitle": "🎃仮装しても、好きな気持ちは隠せない。榎本魅愛「Hello Hello Halloween」MV 9月16日20時公開仮装ならできる。",
+          "publishedAtUtc": "2026-09-14T12:50:34.000Z"
+        },
+        {
+          "key": "na4df4b0b719b",
+          "sourceUrl": "https://note.com/1209bellflower/n/na4df4b0b719b",
+          "officialTitle": "榎本魅愛「取り扱いチュー💋い」9月21日配信スタート",
+          "publishedAtUtc": "2026-09-13T22:57:42.000Z"
+        },
+        {
+          "key": "n697e1c83196c",
+          "sourceUrl": "https://note.com/1209bellflower/n/n697e1c83196c",
+          "officialTitle": "魔法が解けたあと、それでも残るもの。｜神代煌牙「魔法が解けても ― Pumpkin Carriage ―」MV 9月14日20時解禁",
+          "publishedAtUtc": "2026-09-13T10:52:22.000Z"
+        },
+        {
+          "key": "n155204c125c7",
+          "sourceUrl": "https://note.com/1209bellflower/n/n155204c125c7",
+          "officialTitle": "言葉にできない「好き」を、花に託した。｜榎本魅愛「花言葉」🌸",
+          "publishedAtUtc": "2026-09-13T02:25:08.000Z"
+        },
+        {
+          "key": "nd34020a24fc4",
+          "sourceUrl": "https://note.com/1209bellflower/n/nd34020a24fc4",
+          "officialTitle": "恋が、わたしを追い越していく。榎本魅愛「Over Drive」音源先行公開",
+          "publishedAtUtc": "2026-09-12T15:27:41.000Z"
+        },
+        {
+          "key": "n0546f7a9032a",
+          "sourceUrl": "https://note.com/1209bellflower/n/n0546f7a9032a",
+          "officialTitle": "9月なのに、まだ夏だった。｜榎本魅愛「September Blue」先行音源公開",
+          "publishedAtUtc": "2026-09-12T15:03:59.000Z"
+        },
+        {
+          "key": "ndd0608912c7d",
+          "sourceUrl": "https://note.com/1209bellflower/n/ndd0608912c7d",
+          "officialTitle": "榎本魅愛「花言葉」が全国のJOYSOUNDへ。9月18日よりカラオケ配信決定！🎤🌸",
+          "publishedAtUtc": "2026-09-11T04:19:35.000Z"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.instagram.com/suzuka12090511/",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/suzuka12090511/",
+      "title": [
+        "SUZUKA MUSIC (&#064;suzuka12090511) • Instagram photos and videos"
+      ],
+      "latestPostsVerified": false
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@suzuka1209/videos",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@suzuka1209/videos",
+      "title": [
+        "suzuka - YouTube"
+      ],
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "officialName": "suzuka",
+      "officialHandle": "http://www.youtube.com/@suzuka1209",
+      "initialVideoInventory": [
+        {
+          "videoId": "ee787y2wjNs",
+          "title": "【新曲公開】未完成のままでいい。何度でも立ち上がれ。｜RE:VIVE『未完成の革命』【Official Audio】"
+        },
+        {
+          "videoId": "N12yNuwPqnM",
+          "title": "LEON VAIL - BREAK THE VEIL | Debut Single (Official Audio)"
+        },
+        {
+          "videoId": "thM5VDN-IcA",
+          "title": "鉄髭 - TETSUHIGE -『明日やる』｜今日はもう、やらん。"
+        },
+        {
+          "videoId": "m9aCLk1TVso",
+          "title": "【デビュー曲】まだ、鉄は熱い / 鉄髭 - TETSUHIGE -【Official Audio】"
+        },
+        {
+          "videoId": "Q5qwGFCYO-o",
+          "title": "【音源先行公開】輪廻ノ契 -RINNE NO CHIGIRI- / VEILFANG｜生まれて、死んで、また生まれて。"
+        },
+        {
+          "videoId": "8he3RGLNeY4",
+          "title": "【先行音源公開】君がいる方角へ / RE:VIVE"
+        },
+        {
+          "videoId": "MH9jv3L8is8",
+          "title": "【先行音源】달콤한 죽음을 그대에게｜ - ECLYPSE"
+        },
+        {
+          "videoId": "H8iljjkdNGE",
+          "title": "【音源先行公開】NOX「返品された人間」｜返品理由：人間だったため。"
+        },
+        {
+          "videoId": "fyLGRZpxeUg",
+          "title": "【音源先行公開】ASTERIA「金木犀と星降る夜」｜9月15日公開 🌼🌙"
+        },
+        {
+          "videoId": "Slv8e81DJ84",
+          "title": "VEILFANG『月下契』Official Audio｜白狼 × 九尾狐"
+        },
+        {
+          "videoId": "blXPDEriTyE",
+          "title": "【先行音源解禁】ASTERIA「午前0時のシンデレラ」｜魔法が解ける、その前に。"
+        },
+        {
+          "videoId": "lP_OZ_6hu-0",
+          "title": "【MV】死んだ途端、みんな「大好きでした」｜NOX『いいね葬儀社』"
+        },
+        {
+          "videoId": "eSRxfGqzYOk",
+          "title": "百年後、人間は檻の中。｜NOX「チンパンジーの楽園」Official MV"
+        },
+        {
+          "videoId": "EZp_Mtxt4G4",
+          "title": "【新章開幕】RE:VIVE『RE:SONANCE』｜星宮羽音 加入、新体制初の新曲｜MV近日解禁"
+        },
+        {
+          "videoId": "fecMNfrTUgs",
+          "title": "RANGILI「Monsoon Promise」｜【Official Audio】"
+        },
+        {
+          "videoId": "QOn7Jfq9t1k",
+          "title": "NOX『FAMILY PORTRAIT』― その笑顔、本物ですか？【Official Music 】"
+        },
+        {
+          "videoId": "jGyeBZmhgKc",
+          "title": "ECLYPSE『FALSE//IDENTITY』Official Music 君は、本当に君なのか。"
+        },
+        {
+          "videoId": "ULMwbXtotsE",
+          "title": "ASTERIA『LAST DANCE TONIGHT』"
+        },
+        {
+          "videoId": "uibakv4n2Dg",
+          "title": "神代煌牙『マーメイドの下僕』― おしゃべりな人魚姫に、心まで奪われた。"
+        },
+        {
+          "videoId": "Z_IFHEG4CJA",
+          "title": "ASTERIA『あなただけのSAVIOR』Official Music"
+        },
+        {
+          "videoId": "tbysXktPNk4",
+          "title": "朝霧しのぶ『忘れじの人』｜忘れても、愛だけは忘れない。"
+        },
+        {
+          "videoId": "KCviOsGatOY",
+          "title": "RE:VIVE『Still alive』｜息をしてる、それだけで。"
+        },
+        {
+          "videoId": "8BjnnX3xeGw",
+          "title": "NOX『善人裁判』― あなたは、本当に無罪か？"
+        },
+        {
+          "videoId": "CbpvpKllc6c",
+          "title": "ECLYPSE「LOST SIGNAL」Official Audio｜"
+        },
+        {
+          "videoId": "V3DOM83zeLk",
+          "title": "RANGILI『恋するマハラジャ』｜Maharaja Love"
+        },
+        {
+          "videoId": "EJJLBOo103I",
+          "title": "NOX、始動。デビューシングル『チンパンジーの楽園』｜Original Song"
+        },
+        {
+          "videoId": "tFQPag-rSno",
+          "title": "【撮影映像】榎本魅愛「百万告」歌の1番を公開｜春の桜並木で届ける恋の物語"
+        },
+        {
+          "videoId": "XHjDSEoFcXE",
+          "title": "RE:VIVE、始動。『Heal You Again』｜傷ついた心に、もう一度立ち上がる歌【Official Music】"
+        },
+        {
+          "videoId": "CQ0bfdXVrck",
+          "title": "【新アーティスト始動】RANGILI「NAMASTE☆GALAXY」｜インドの情熱×日本のメロディ"
+        },
+        {
+          "videoId": "YxZWABTJBGk",
+          "title": "朝霧しのぶ『忘れない心』Official Music Video｜忘れても、愛だけは忘れない。"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@enomotomia/videos",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@enomotomia/videos",
+      "title": [
+        "榎本魅愛 - YouTube"
+      ],
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "officialName": "榎本魅愛",
+      "officialHandle": "http://www.youtube.com/@enomotomia",
+      "initialVideoInventory": [
+        {
+          "videoId": "nplXdPAD9QU",
+          "title": "榎本魅愛『はじめまして、奇跡』Official Music"
+        },
+        {
+          "videoId": "0xNqwMg_i5E",
+          "title": "【限定公開・原曲版】榎本魅愛「花言葉」Original Version｜あの日のメロディを、そのまま。"
+        },
+        {
+          "videoId": "Mr3qtg9d1S0",
+          "title": "もしも明日、はじめましてになっても｜榎本魅愛【Official Lyric Video】"
+        },
+        {
+          "videoId": "8ZGpEiIo4sU",
+          "title": "【Official MV】榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」"
+        },
+        {
+          "videoId": "InpcOHVTpRU",
+          "title": "💖君にかかった魔法｜恋はいつから愛になるんだろう。｜榎本魅愛 Official Music"
+        },
+        {
+          "videoId": "vJmHzG9yzNY",
+          "title": "【MV】榎本魅愛「天照」｜AMATERASU - Official Music Video"
+        },
+        {
+          "videoId": "PvX4zU7CpdE",
+          "title": "榎本魅愛、アニメOP決定。『また、君に恋をする』｜「それでも、僕は君を探していた」Opening Theme"
+        },
+        {
+          "videoId": "UgA5YsSgN70",
+          "title": "【MV】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。"
+        },
+        {
+          "videoId": "A7c2GmZH7sw",
+          "title": "【音源先行公開】榎本魅愛『天照 -アマテラス-』｜Official Audio"
+        },
+        {
+          "videoId": "MlbqKSCi4U8",
+          "title": "Without Worrying／榎本魅愛｜あなたはひとりじゃない。"
+        },
+        {
+          "videoId": "TeZOrOs1Qnw",
+          "title": "負けそうな夜に、聴いてほしい。｜榎本魅愛「君は負けない」"
+        },
+        {
+          "videoId": "tLStIcqnWCs",
+          "title": "【音源先行公開】榎本魅愛「Without worrying - Reimagined -」｜あの曲が、新しく生まれ変わる。"
+        },
+        {
+          "videoId": "M3ZMeK9_GrI",
+          "title": "【FULL MV】榎本魅愛「恋禁区。」｜忘れたい恋ほど、心は規制無視。"
+        },
+        {
+          "videoId": "vA8RzclcY0E",
+          "title": "🍮 好きなのに、素直になれない。｜榎本魅愛『キャラメ〜ル』💗"
+        },
+        {
+          "videoId": "5itkRRGOwVY",
+          "title": "夏が終わるまで、そばにいて。｜榎本魅愛"
+        },
+        {
+          "videoId": "my4rIhZFRsc",
+          "title": "【榎本魅愛】ついに魅愛と会話できるようになりました。｜開発中リアル対話デモ"
+        },
+        {
+          "videoId": "cbhfqomR5s0",
+          "title": "【音源】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。"
+        },
+        {
+          "videoId": "P8nDdk8A85E",
+          "title": "「熊本へ、もう一度届けます。『明日は、きっと。』｜榎本魅愛」"
+        },
+        {
+          "videoId": "0EWk-Phh5XQ",
+          "title": "榎本魅愛『タイパなんて知らなかった』Official Music Video"
+        },
+        {
+          "videoId": "gHwGGX6k6dg",
+          "title": "【MV】榎本魅愛「September Blue」｜9.22 Release"
+        },
+        {
+          "videoId": "27VQIeG3Mq0",
+          "title": "【MV】君とならラスボスまで / 榎本魅愛｜地図がなくても、君となら。"
+        },
+        {
+          "videoId": "oudTEKYujZk",
+          "title": "【カラオケ配信開始🎤】榎本魅愛「花言葉」ついにJOYSOUNDで歌えます！🌸"
+        },
+        {
+          "videoId": "7FaDutNfIxo",
+          "title": "【MV】榎本魅愛「百万告」Anime Version｜百万回でも、君に告白する。"
+        },
+        {
+          "videoId": "vuZiHlpo9Ak",
+          "title": "【Official MV】Hello Hello Halloween／榎本魅愛（ENOMOTO MIA）🎃"
+        },
+        {
+          "videoId": "2JnHqQwfC1s",
+          "title": "【先行音源公開】榎本魅愛「Over Drive」Official Audio"
+        },
+        {
+          "videoId": "QTMgWAnIHv4",
+          "title": "【先行音源公開】榎本魅愛「September Blue」｜夏が終わるせいにした。でも本当は、君のせいなのに。"
+        },
+        {
+          "videoId": "vw1bP_5kZuM",
+          "title": "【音源先行配信】Hello Hello Halloween / 榎本魅愛｜恋するHalloween Night 🎃💗"
+        },
+        {
+          "videoId": "rZhp5O3YTw8",
+          "title": "【MV】榎本魅愛『花言葉』｜両親の結婚記念日に贈る“永遠”の物語"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@KOGAKAMISHIRO/videos",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@KOGAKAMISHIRO/videos",
+      "title": [
+        "神代煌牙 - YouTube"
+      ],
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+      "officialName": "神代煌牙",
+      "officialHandle": "http://www.youtube.com/@KOGAKAMISHIRO",
+      "initialVideoInventory": [
+        {
+          "videoId": "-ru6EtMyKAk",
+          "title": "神代煌牙『一護一逢〜再開の約束〜』Official Audio｜さようならは、永遠の別れじゃない。"
+        },
+        {
+          "videoId": "v1rY03gArRk",
+          "title": "神代煌牙『Echoes of You』―「また、逢えるからね」終わらない恋の残響【Official Music Video】"
+        },
+        {
+          "videoId": "FUwxYpxVRcM",
+          "title": "My Queen, My Oath｜神代 煌牙【Official Music Video】"
+        },
+        {
+          "videoId": "sGG9Slgp7Rc",
+          "title": "神代煌牙『忘却の生き物』Official Music Video"
+        },
+        {
+          "videoId": "Q9eeq3EMUYE",
+          "title": "神代煌牙『One More Kiss』｜孤独を溶かす、危うい口づけ"
+        },
+        {
+          "videoId": "wH6aAAxPqw4",
+          "title": "神代煌牙『マーメイドの下僕』― おしゃべりな人魚姫に、心まで奪われた。"
+        },
+        {
+          "videoId": "xNc2PSfp4aM",
+          "title": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO"
+        },
+        {
+          "videoId": "xGORQvmcZJ4",
+          "title": "【Official MV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO"
+        },
+        {
+          "videoId": "iQUxXRWZoio",
+          "title": "神代煌牙『LEO — Rise Again —』｜倒れても、終わりじゃない。"
+        },
+        {
+          "videoId": "qQgad9rWvXk",
+          "title": "神代煌牙『神様は留守』｜神様が留守なら、自分の足で歩けばいい。♞"
+        },
+        {
+          "videoId": "UJXGyWn7n_s",
+          "title": "【Official ちょいMV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO"
+        },
+        {
+          "videoId": "0W5cCu7O5_w",
+          "title": "【Official MV】神代煌牙『分かれた道』｜愛していた。だから、手を離した。"
+        },
+        {
+          "videoId": "-cpBfvP2UH0",
+          "title": "何度生まれ変わっても、また君を選ぶ。｜新曲「何度生まれ変わっても - RE:BORN OATH -」音源先行公開"
+        },
+        {
+          "videoId": "vvALXejDam8",
+          "title": "神代煌牙『悪役でいい』Official Music Video 公開｜世界が俺を悪と呼んでも。"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.youtube.com/@michirukisaki/videos",
+      "checkedAtUtc": "2026-10-13T11:10:58+00:00",
+      "checkedAtJst": "2026-10-13T20:10:58+09:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.youtube.com/@michirukisaki/videos",
+      "title": [
+        "妃みちる - YouTube"
+      ],
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "officialName": "妃みちる",
+      "officialHandle": "http://www.youtube.com/@michirukisaki",
+      "initialVideoInventory": [
+        {
+          "videoId": "LMg--k5FbrU",
+          "title": "【涙腺崩壊】人生をやり直しても、またあなたを選ぶ。『雨のち貴方』／妃みちる【新曲・Official Audio】"
+        },
+        {
+          "videoId": "DPUQyibGcbA",
+          "title": "妃みちる『たった1人の君へ』Official Music ｜SUZUKA Debut Single"
+        },
+        {
+          "videoId": "ky6YSgsMFHE",
+          "title": "妃みちる『あなたを想う、それだけで』｜大切な人へ贈る歌【Official Audio】"
+        },
+        {
+          "videoId": "-gjC1ONs6TA",
+          "title": "「好きだったから、離れました。｜妃みちる『私の選んだ道』」"
+        },
+        {
+          "videoId": "V_v1Jjp9XcI",
+          "title": "💓好きな人の前じゃ、平常心なんて無理。｜妃みちる「UPdown」🎆"
+        },
+        {
+          "videoId": "tHpviFBXBTk",
+          "title": "🌏【先行音源解禁】HELLO, LIFE! / 妃みちる｜「仲良く生きよう、笑って生きよう。」"
+        },
+        {
+          "videoId": "rYESV5EGOnU",
+          "title": "🌸『世代を超えてママへ』MV公開｜すべてのママへ、ありがとう。"
+        },
+        {
+          "videoId": "HwtVVbzjeHU",
+          "title": "【音源先行公開】心に残る宝モノ／妃みちる｜「生きるよ、あなたの分まで。」"
+        },
+        {
+          "videoId": "7QnNNDcX8IY",
+          "title": "friendlikesong / 妃みちる｜HEY GIRL！HEY BOY！今年の夏、仲間と騒げ🌴🍺"
+        }
+      ]
+    }
+  ],
+  "finalCounts": {
+    "publishedWorks": 89,
+    "publicStreamingPlans": 2,
+    "addedVideoVersions": 21,
+    "addedShorts": 50,
+    "addedNoteArticles": 6,
+    "pendingAuthenticatedVideos": 1
+  }
+}

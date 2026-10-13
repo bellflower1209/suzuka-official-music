@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "evidenceCheckedAt": "2026-10-02T14:10:36+09:00",
+  "evidenceCheckedAt": "2026-10-13T20:08:28+09:00",
   "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
   "baseline": {
     "jsonLdBlocks": 154,
@@ -367,8 +367,8 @@
     "jsonErrors": []
   },
   "current": {
-    "jsonLdBlocks": 303,
-    "videoObjects": 149,
+    "jsonLdBlocks": 325,
+    "videoObjects": 223,
     "invalidUploadDates": [],
     "invalidUploadDateCount": 0,
     "pagesWithInvalidUploadDate": [],
@@ -436,10 +436,9 @@
   ],
   "fixedPageCount": 55,
   "resolvedInvalidVideoObjectCount": 58,
-  "fixedVideoObjectCount": 144,
+  "fixedVideoObjectCount": 218,
   "removedUnverifiedVideoObjectCount": 0,
   "excludedUnverifiedVideoIds": [
-    "10hI03wXHtE",
     "KHZMfULXuGQ",
     "o7AOgpc2O-k"
   ],

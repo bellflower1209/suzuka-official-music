@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:10:36+09:00",
+  "updatedAt": "2026-10-13T20:13:57+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -237,10 +237,16 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "ame-nochi-anata",
+        "mikansei-no-kakumei",
+        "dareka-no-tameni",
+        "yukkuri-yasunde",
+        "ichigo-ichihou-saikai-no-yakusoku",
         "break-the-veil",
         "amaterasu",
         "uchira-saikyo-jane",
         "anata-wo-omou-sore-dake-de",
+        "koi-no-tochu",
         "ashita-yaru",
         "mada-tetsu-wa-atsui",
         "without-worrying-reimagined",
@@ -250,13 +256,7 @@
         "nando-umarekawattemo-reborn-oath",
         "eternity-of-flower-words",
         "hello-life",
-        "mata-kimi-ni-koi-wo-suru",
-        "koisuru-subete-no-shunkan",
-        "september-blue",
-        "over-drive",
-        "rinne-no-chigiri",
-        "kimi-ga-iru-hougaku-e",
-        "dalkomhan-jugeumeul-geudaeege"
+        "mata-kimi-ni-koi-wo-suru"
       ],
       "count": 20
     },
@@ -269,6 +269,9 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "ame-nochi-anata",
+        "mikansei-no-kakumei",
+        "ichigo-ichihou-saikai-no-yakusoku",
         "break-the-veil",
         "amaterasu",
         "uchira-saikyo-jane",
@@ -285,10 +288,7 @@
         "dalkomhan-jugeumeul-geudaeege",
         "hello-hello-halloween",
         "henpin-sareta-ningen",
-        "kinmokusei-to-hoshifuru-yoru",
-        "mahou-ga-toketemo",
-        "sedai-wo-koete-mama-e",
-        "yume-to-kaigo-to-watashitachi"
+        "kinmokusei-to-hoshifuru-yoru"
       ],
       "count": 20
     }

@@ -150,7 +150,8 @@ def build_feed(root: Path, cms: dict) -> None:
             url = f'{BASE}{item["releaseUrl"]}'
             title = f'{item["artist"]}「{item["title"]}」'
             summary = item["description"]
-            ET.SubElement(entry, f"{{{ATOM}}}published").text = item["publishedAt"]
+            if 'T' in item['publishedAt']:
+                ET.SubElement(entry, f"{{{ATOM}}}published").text = item["publishedAt"]
         elif kind == "news":
             url = f'{BASE}news/{item["slug"]}/'
             title = item["title"]
@@ -173,7 +174,10 @@ def build_feed(root: Path, cms: dict) -> None:
             summary = f'{item["scheduledAt"]} 公開予定。公開済み作品とは分離しています。'
         ET.SubElement(entry, f"{{{ATOM}}}id").text = url
         ET.SubElement(entry, f"{{{ATOM}}}title").text = title
-        ET.SubElement(entry, f"{{{ATOM}}}updated").text = timestamp
+        # Atom needs a precise timestamp. A date-only release does not supply
+        # a publication clock; the verified metadata update has its own clock.
+        updated_at = timestamp if 'T' in timestamp else item.get('promotionVerifiedAt', cms['updatedAt'])
+        ET.SubElement(entry, f"{{{ATOM}}}updated").text = updated_at
         ET.SubElement(entry, f"{{{ATOM}}}link", {"href": url})
         ET.SubElement(entry, f"{{{ATOM}}}category", {"term": kind})
         ET.SubElement(entry, f"{{{ATOM}}}summary").text = summary

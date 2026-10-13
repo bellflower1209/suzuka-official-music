@@ -134,10 +134,46 @@ def build(root: Path) -> None:
         if not r.get('videoVersions'):continue
         p=root/r['releaseUrl']/'index.html';text=p.read_text()
         text=re.sub(r'<!-- HOME-UPGRADE:VERSIONS:START -->.*?<!-- HOME-UPGRADE:VERSIONS:END -->','',text,flags=re.S)
+        # Brand consolidation may have moved the previous widget's graph into
+        # the head. Remove only our version nodes before recreating the widget.
+        version_prefix = cms['site']['baseUrl'] + '/' + r['releaseUrl'] + '#version-'
+        def strip_owned_versions(match):
+            data = json.loads(match.group(2))
+            def owned(node):
+                return isinstance(node, dict) and node.get('@type') == 'VideoObject' and str(node.get('@id', '')).startswith(version_prefix)
+            if isinstance(data, dict) and isinstance(data.get('@graph'), list):
+                data['@graph'] = [node for node in data['@graph'] if not owned(node)]
+                if not data['@graph']: return ''
+            elif owned(data):
+                return ''
+            return match.group(1) + json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c') + match.group(3)
+        text = re.sub(r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)', strip_owned_versions, text, flags=re.S)
         body='<section class="creator-copy"><h2>ARTIST CHANNEL / VIDEO VERSIONS</h2>'
         for v in sorted(r['videoVersions'],key=lambda v:v['publishedAt'],reverse=True):
             body+='<p>'+E(v['label'])+' · '+v['publishedAt'][:10]+' · '+str(v['duration'])+'秒</p><div class="explore-actions">'+link(v['youtubeUrl'],v['title']+' ↗')+'</div>'
         body+='</section>'
+        evidence = json.loads((root / 'assets/data/youtube-publish-dates.json').read_text())
+        by_url = {record.get('youtubeUrl'): record for record in evidence['records']}
+        videos = []
+        for version in r['videoVersions']:
+            proof = by_url.get(version['youtubeUrl'], {})
+            if not (proof.get('verifiedPublishedAt') and proof.get('thumbnailUrl')
+                    and proof.get('channelVerified') and proof.get('playabilityStatus') == 'OK'):
+                continue
+            if proof['verifiedPublishedAt'] != version['publishedAt'] or proof['officialTitle'] != version['title']:
+                raise ValueError('Related video conflicts with its official evidence: ' + version['youtubeUrl'])
+            videos.append({'@type': 'VideoObject',
+                '@id': cms['site']['baseUrl'] + '/' + r['releaseUrl'] + '#version-' + proof['youtubeId'],
+                'name': version['title'], 'description': r['description'],
+                'thumbnailUrl': proof['thumbnailUrl'], 'uploadDate': proof['verifiedPublishedAt'],
+                'duration': 'PT' + str(proof['durationSeconds']) + 'S',
+                'contentUrl': version['youtubeUrl'],
+                'embedUrl': 'https://www.youtube.com/embed/' + proof['youtubeId'],
+                'about': {'@id': cms['site']['baseUrl'] + '/' + r['releaseUrl'] + '#recording'}})
+        if videos:
+            body += '<script type="application/ld+json">' + json.dumps(
+                {'@context': 'https://schema.org', '@graph': videos}, ensure_ascii=False,
+                separators=(',', ':')).replace('<', '\\u003c') + '</script>'
         text=text.replace('</main>','<!-- HOME-UPGRADE:VERSIONS:START -->'+body+'<!-- HOME-UPGRADE:VERSIONS:END --></main>');p.write_text(text)
 
     analytics(root)

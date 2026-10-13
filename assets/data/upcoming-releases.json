@@ -1,5 +1,107 @@
 {
-  "updatedAt": "2026-10-02T14:10:36+09:00",
+  "updatedAt": "2026-10-13T20:13:57+09:00",
   "releases": [],
-  "comingSoon": []
+  "comingSoon": [
+    {
+      "slug": "tenjo-tenge-yuiga-dokuson",
+      "title": "天上天下唯我独尊",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistType": "Person",
+      "status": "upcoming",
+      "releaseDate": "2026-10-15",
+      "releaseType": "single",
+      "datePrecision": "day",
+      "timezone": "Asia/Tokyo",
+      "announcementPublic": true,
+      "description": "榎本魅愛「天上天下唯我独尊」は2026-10-15に配信予定。配信開始の確認後に公開済み作品へ更新します。",
+      "linkcoreUrl": "https://linkco.re/9U1eCaGv",
+      "officialSource": "https://linkco.re/9U1eCaGv?lang=ja",
+      "verifiedAt": "2026-10-13T20:09:53+09:00",
+      "image": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverImage": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverAlt": "榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverSource": "https://linkco.re/9U1eCaGv?lang=ja",
+      "coverSha256": "91cd369175ddde6551c832d06a9f4e9f8f0e615131a9b5dd1b9c31c1f308c96c",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-15",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/9U1eCaGv",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:53+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "天上天下唯我独尊",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "天上天下唯我独尊"
+      ],
+      "youtubeUrl": "",
+      "genres": [],
+      "searchKeywords": [
+        "天上天下唯我独尊",
+        "榎本魅愛"
+      ]
+    },
+    {
+      "slug": "watashi-no-eranda-michi-album",
+      "title": "私の選んだ道 (あなたに届けたい8つの歌)",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistType": "Person",
+      "status": "upcoming",
+      "releaseDate": "2026-10-14",
+      "releaseType": "album",
+      "datePrecision": "day",
+      "timezone": "Asia/Tokyo",
+      "announcementPublic": true,
+      "description": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」は2026-10-14に配信予定。配信開始の確認後に公開済み作品へ更新します。",
+      "linkcoreUrl": "https://linkco.re/Rq5BFPrU",
+      "officialSource": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "verifiedAt": "2026-10-13T20:09:55+09:00",
+      "image": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverImage": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverAlt": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverSource": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "coverSha256": "b8e4101082ecf9134e2eefc342d80cabd658bd539488c683c2d78df2d1ee6f50",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-14",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/Rq5BFPrU",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "私の選んだ道 (あなたに届けたい8つの歌)",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "HELLO, LIFE!",
+        "friend like song",
+        "たった1人の君へ",
+        "心に残る宝モノ",
+        "世代を超えてママへ",
+        "ゆっくり休んで",
+        "誰かのために",
+        "私の選んだ道"
+      ],
+      "youtubeUrl": "",
+      "genres": [],
+      "searchKeywords": [
+        "私の選んだ道 (あなたに届けたい8つの歌)",
+        "妃みちる"
+      ]
+    }
+  ]
 }

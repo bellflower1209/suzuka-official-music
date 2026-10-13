@@ -6,10 +6,16 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | 雨のち貴方 | 妃みちる | https://www.youtube.com/watch?v=LMg--k5FbrU | 6:38 | 雨のち貴方｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 未完成の革命 | RE:VIVE | https://www.youtube.com/watch?v=ee787y2wjNs | 3:41 | 未完成の革命｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 誰かのために | 妃みちる | https://linkco.re/V5tf40p0 | 0:00 | 誰かのために｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | ゆっくり休んで | 妃みちる | https://linkco.re/28YfhcNX | 0:00 | ゆっくり休んで｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 一護一逢〜再開の約束〜 | 神代煌牙 | https://www.youtube.com/watch?v=-ru6EtMyKAk | 3:44 | 一護一逢〜再開の約束〜｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | BREAK THE VEIL | LEON VAIL | https://www.youtube.com/watch?v=N12yNuwPqnM | 4:07 | BREAK THE VEIL｜LEON VAIL【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 天照 | 榎本魅愛 | https://www.youtube.com/watch?v=vJmHzG9yzNY | 4:02 | 天照｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | ウチら最強じゃね！ | 妃みちる | https://www.youtube.com/watch?v=VW3HQxZr54M | 1:00 | ウチら最強じゃね！｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | あなたを想う、それだけで | 妃みちる | https://www.youtube.com/watch?v=ky6YSgsMFHE | 6:54 | あなたを想う、それだけで｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 恋の途中 | 榎本魅愛 | https://linkco.re/fTcQ4px9 | 0:00 | 恋の途中｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 明日やる | 鉄髭 - TETSUHIGE - | https://www.youtube.com/watch?v=thM5VDN-IcA | 5:09 | 明日やる｜鉄髭 - TETSUHIGE -【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | まだ、鉄は熱い | 鉄髭 - TETSUHIGE - | https://www.youtube.com/watch?v=m9aCLk1TVso | 3:48 | まだ、鉄は熱い｜鉄髭 - TETSUHIGE -【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | Without worrying - Reimagined - | 榎本魅愛 | https://www.youtube.com/watch?v=tLStIcqnWCs | 3:29 | Without worrying - Reimagined -｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
@@ -33,6 +39,7 @@
 | 公開済み | 世代を超えてママへ | 妃みちる | https://www.youtube.com/watch?v=Hho3xHOw8pg | 2:58 | 世代を超えてママへ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 夢と、介護と、私たち。 | 榎本魅愛 | https://www.youtube.com/watch?v=giTYuKyIk3c | 5:15 | 夢と、介護と、私たち。｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 月下契 | VEILFANG | https://www.youtube.com/watch?v=Slv8e81DJ84 | 4:29 | 月下契｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 午前0時のシンデレラ | ASTERIA | https://www.youtube.com/watch?v=blXPDEriTyE | 2:59 | 午前0時のシンデレラ｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 悪役でいい | 神代煌牙 | https://www.youtube.com/watch?v=OldWXAS32lI | 5:14 | 悪役でいい｜神代煌牙【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | いいね葬儀社 | NOX | https://www.youtube.com/watch?v=lP_OZ_6hu-0 | 3:47 | いいね葬儀社｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | UPdown | 妃みちる | https://www.youtube.com/watch?v=SKUMF7ZhpRM | 4:05 | UPdown｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

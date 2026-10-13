@@ -128,6 +128,13 @@ def main() -> int:
     # field, never the work title, SEO, lyrics, or an arbitrary old-title occurrence.
     versions = {v['youtubeUrl']: v for v in (release or {}).get('videoVersions', [])
                 if v.get('verifiedAt') and v.get('source') in {'official-youtube-channel-videos-and-player-microformat', 'official-youtube-oembed'}}
+    # A verified Shorts title is also a video title, never the canonical work
+    # title. Scope the exception to its exact Artist card and Search document.
+    shorts = {v['videoId']: v for v in cms.get('youtubeSnapshot', {}).get('shortVideos', [])
+              if v.get('verifiedAt') and v.get('status') == 'published' and v.get('contentType') == 'short'
+              and v.get('relatedRelease') == SLUG and v.get('artistSlug') == 'enomoto-mia'
+              and v.get('officialChannelId') == 'UCRwW7smDoEB-UOHMQJJ1Jyg'
+              and v.get('youtubeUrl') == f"https://www.youtube.com/shorts/{v.get('videoId')}"}
     public_old = []
     # Only generated public routes; numbered personal backup copies are not publishable pages.
     for path in [*ROOT.rglob("index.html"), ROOT / "404.html"]:
@@ -137,10 +144,47 @@ def main() -> int:
         if path == ROOT / f"releases/{SLUG}/index.html":
             for url, version in versions.items():
                 text = re.sub(r'<a\b[^>]*href="' + re.escape(html.escape(url, quote=True)) + r'"[^>]*>' + re.escape(html.escape(version['title'])) + r' ↗</a>', '', text)
+        if path == ROOT / 'artists/enomoto-mia/index.html':
+            for video_id, short in shorts.items():
+                def strip_short_title(match):
+                    card = match.group(0)
+                    if f'href="{html.escape(short["youtubeUrl"], quote=True)}"' not in card:
+                        return card
+                    return card.replace(html.escape(short['title']), '')
+                text = re.sub(r'<article\b[^>]*id="short-' + re.escape(video_id) + r'"[^>]*>.*?</article>', strip_short_title, text, flags=re.S)
+        if path in {ROOT / 'artists/enomoto-mia/index.html', ROOT / f'releases/{SLUG}/index.html'}:
+            # A public video's verbatim title may differ from the canonical
+            # work title. Exempt only its matching VideoObject.name; lyrics,
+            # descriptions, work names, SEO and unrelated nodes stay audited.
+            verified_names = {url: item['title'] for url, item in versions.items()}
+            verified_names.update({item['youtubeUrl']: item['title'] for item in shorts.values()})
+            def checked_video_names(match):
+                value = json.loads(match.group(2))
+                def visit(node):
+                    if isinstance(node, list):
+                        for child in node: visit(child)
+                    elif isinstance(node, dict):
+                        if (node.get('@type') == 'VideoObject'
+                                and node.get('contentUrl') in verified_names
+                                and node.get('name') == verified_names[node['contentUrl']]):
+                            node.pop('name', None)
+                        for child in node.values(): visit(child)
+                visit(value)
+                return match.group(1) + json.dumps(value, ensure_ascii=False) + match.group(3)
+            text = re.sub(r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)', checked_video_names, text, flags=re.S)
         if OLD_TITLE in text:
             public_old.append(str(path.relative_to(ROOT)))
     for relative in ("assets/data/search-v31.json", "assets/data/releases-catalog.json"):
         text = (ROOT / relative).read_text(encoding="utf-8")
+        if relative.endswith('search-v31.json'):
+            search = json.loads(text)
+            for item in search['documents']:
+                for video_id, short in shorts.items():
+                    if (item.get('type') == 'Shorts' and item.get('contentType') == 'short'
+                            and item.get('url') == f'artists/enomoto-mia/#short-{video_id}'
+                            and item.get('title') == short['title']):
+                        item.pop('title', None)
+            text = json.dumps(search, ensure_ascii=False)
         if relative.endswith('releases-catalog.json'):
             catalog = json.loads(text)
             for item in catalog['releases']:

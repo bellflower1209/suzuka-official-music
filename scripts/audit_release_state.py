@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import date
 from pathlib import Path
 
 from release_state import RELEASE_STATUSES, parse_iso8601
@@ -27,8 +28,15 @@ def main() -> int:
                 errors.append(f'{item["slug"]}: invalid state for {collection}: {item.get("status")}')
             timestamp = item.get("publishedAt") if expected == "published" else item.get("scheduledAt")
             try:
-                parse_iso8601(timestamp)
-            except (TypeError, ValueError) as error:
+                if expected=='published' and item.get('publicationDatePrecision')=='day':
+                    date.fromisoformat(timestamp)
+                    streaming=item.get('scheduledStreamingRelease') or item.get('streamingRelease') or {}
+                    assert not item.get('youtubeUrl') and timestamp==item.get('releaseDate')==streaming.get('releaseDate')
+                    assert streaming.get('status')=='published' and str(item.get('officialSource','')).startswith('https://linkco.re/')
+                    parse_iso8601(item['promotionVerifiedAt'])
+                else:
+                    parse_iso8601(timestamp)
+            except (TypeError, ValueError, AssertionError, KeyError) as error:
                 errors.append(f'{item["slug"]}: invalid timestamp: {error}')
             if expected != "upcoming" or not item.get("releaseDate"):
                 has_video = str(item.get("youtubeUrl", "")).startswith("https://www.youtube.com/watch?v=")

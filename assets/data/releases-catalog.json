@@ -1,6 +1,607 @@
 {
-  "updatedAt": "2026-10-02T14:10:36+09:00",
+  "updatedAt": "2026-10-13T20:13:57+09:00",
   "releases": [
+    {
+      "id": "ame-nochi-anata",
+      "slug": "ame-nochi-anata",
+      "title": "雨のち貴方",
+      "displayTitle": "雨のち貴方",
+      "englishTitle": "雨のち貴方",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-13",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "雨のち貴方",
+        "妃みちる"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LMg--k5FbrU",
+      "releaseUrl": "releases/ame-nochi-anata/",
+      "newsUrl": "news/ame-nochi-anata-release/",
+      "duration": 398,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "雨のち貴方",
+        "妃みちる"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。",
+      "introduction": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。",
+      "productionNote": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "雨のち貴方｜妃みちる｜SUZUKA Official Music",
+        "description": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=LMg--k5FbrU",
+      "promotionVerifiedAt": "2026-10-13T20:13:57+09:00",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-14",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/qbUCcFYa",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "雨のち貴方",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "雨のち貴方"
+      ],
+      "coverImage": "images/tunecore-qbUCcFYa-20261012.png",
+      "coverAlt": "妃みちる「雨のち貴方」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-qbUCcFYa-20261012.png",
+      "coverSource": "https://linkco.re/qbUCcFYa?lang=ja",
+      "coverSha256": "d5e21f722b1a990b7a3238075d3b0d99336b621e5d45f4004eab4d5261461fa9",
+      "releaseAt": "2026-10-13T20:00:09+09:00",
+      "publishedAt": "2026-10-13T20:00:09+09:00",
+      "youtubeVideoTitle": "【涙腺崩壊】人生をやり直しても、またあなたを選ぶ。『雨のち貴方』／妃みちる【新曲・Official Audio】",
+      "videoPublishDate": "2026-10-13",
+      "videoPublishedAt": "2026-10-13T20:00:09+09:00",
+      "videoPublishedAtSource": "official-youtube-channel-videos-and-player-microformat",
+      "videoStructuredDataStatus": "published",
+      "recommendations": {
+        "sameArtist": [
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "uchira-saikyo-jane",
+          "anata-wo-omou-sore-dake-de",
+          "kokoro-ni-nokoru-takaramono",
+          "hello-life"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane",
+          "koi-no-tochu"
+        ],
+        "aiRecommended": [
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "anata-wo-omou-sore-dake-de",
+          "sedai-wo-koete-mama-e",
+          "uchira-saikyo-jane",
+          "updown"
+        ]
+      }
+    },
+    {
+      "id": "mikansei-no-kakumei",
+      "slug": "mikansei-no-kakumei",
+      "title": "未完成の革命",
+      "displayTitle": "未完成の革命",
+      "englishTitle": "未完成の革命",
+      "artist": "RE:VIVE",
+      "artistSlug": "revive",
+      "artistSlugs": [
+        "revive"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-10-12T20:00:07+09:00",
+      "publishedAt": "2026-10-12T20:00:07+09:00",
+      "releaseDate": "2026-10-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "未完成の革命",
+        "RE:VIVE"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ee787y2wjNs",
+      "releaseUrl": "releases/mikansei-no-kakumei/",
+      "newsUrl": "news/mikansei-no-kakumei-release/",
+      "duration": 221,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "未完成の革命",
+        "RE:VIVE"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "RE:VIVE「未完成の革命」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "introduction": "RE:VIVE「未完成の革命」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "productionNote": "RE:VIVE「未完成の革命」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "未完成の革命｜RE:VIVE｜SUZUKA Official Music",
+        "description": "RE:VIVE「未完成の革命」のOFFICIAL AUDIOを公式YouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=ee787y2wjNs",
+      "promotionVerifiedAt": "2026-10-12T23:29:20+09:00",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "youtubeVideoTitle": "【新曲公開】未完成のままでいい。何度でも立ち上がれ。｜RE:VIVE『未完成の革命』【Official Audio】",
+      "coverImage": "https://i.ytimg.com/vi/ee787y2wjNs/maxresdefault.jpg",
+      "coverAlt": "RE:VIVE「未完成の革命」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/ee787y2wjNs/maxresdefault.jpg",
+      "coverSource": "https://www.youtube.com/watch?v=ee787y2wjNs",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "videoPublishDate": "2026-10-12",
+      "videoPublishedAt": "2026-10-12T20:00:07+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "recommendations": {
+        "sameArtist": [
+          "kimi-ga-iru-hougaku-e",
+          "re-sonance",
+          "still-alive",
+          "heal-you-again"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane",
+          "koi-no-tochu"
+        ],
+        "aiRecommended": [
+          "re-sonance",
+          "still-alive",
+          "heal-you-again",
+          "kimi-ga-iru-hougaku-e",
+          "dareka-no-tameni",
+          "ame-nochi-anata"
+        ]
+      }
+    },
+    {
+      "id": "dareka-no-tameni",
+      "slug": "dareka-no-tameni",
+      "title": "誰かのために",
+      "displayTitle": "誰かのために",
+      "englishTitle": "誰かのために",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-12",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "誰かのために",
+        "妃みちる"
+      ],
+      "language": "ja",
+      "youtubeUrl": "",
+      "releaseUrl": "releases/dareka-no-tameni/",
+      "newsUrl": "news/dareka-no-tameni-release/",
+      "duration": 0,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "誰かのために",
+        "妃みちる"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "妃みちる「誰かのために」のシングルを配信中。",
+      "introduction": "妃みちる「誰かのために」のシングルを配信中。",
+      "productionNote": "妃みちる「誰かのために」のシングルを配信中。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "誰かのために｜妃みちる｜SUZUKA Official Music",
+        "description": "妃みちる「誰かのために」のシングルを配信中。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://linkco.re/V5tf40p0?lang=ja",
+      "promotionVerifiedAt": "2026-10-13T20:13:57+09:00",
+      "videoLabel": "STREAMING RELEASE",
+      "videoButtonLabel": "LISTEN",
+      "videoCtaLabel": "配信サービスで聴く",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-12",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/V5tf40p0",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "誰かのために",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1997846"
+        ]
+      },
+      "streamingTracks": [
+        "誰かのために"
+      ],
+      "coverImage": "images/tunecore-V5tf40p0-20261012.png",
+      "coverAlt": "妃みちる「誰かのために」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-V5tf40p0-20261012.png",
+      "coverSource": "https://linkco.re/V5tf40p0?lang=ja",
+      "coverSha256": "f5184c6af4337662559eacb3d7900346eba500b11084dac6aa5cf6bef4d9d511",
+      "publishedAt": "2026-10-12",
+      "publicationDatePrecision": "day",
+      "videoPublishDate": "2026-10-12",
+      "videoPublishedAt": "",
+      "videoPublishedAtSource": "",
+      "videoStructuredDataStatus": "held-date-only",
+      "recommendations": {
+        "sameArtist": [
+          "ame-nochi-anata",
+          "yukkuri-yasunde",
+          "uchira-saikyo-jane",
+          "anata-wo-omou-sore-dake-de",
+          "kokoro-ni-nokoru-takaramono",
+          "hello-life"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane",
+          "koi-no-tochu"
+        ],
+        "aiRecommended": [
+          "ame-nochi-anata",
+          "yukkuri-yasunde",
+          "anata-wo-omou-sore-dake-de",
+          "uchira-saikyo-jane",
+          "sedai-wo-koete-mama-e",
+          "updown"
+        ]
+      }
+    },
+    {
+      "id": "yukkuri-yasunde",
+      "slug": "yukkuri-yasunde",
+      "title": "ゆっくり休んで",
+      "displayTitle": "ゆっくり休んで",
+      "englishTitle": "ゆっくり休んで",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-11",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "ゆっくり休んで",
+        "妃みちる"
+      ],
+      "language": "ja",
+      "youtubeUrl": "",
+      "releaseUrl": "releases/yukkuri-yasunde/",
+      "newsUrl": "news/yukkuri-yasunde-release/",
+      "duration": 0,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "ゆっくり休んで",
+        "妃みちる"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "妃みちる「ゆっくり休んで」のシングルを配信中。",
+      "introduction": "妃みちる「ゆっくり休んで」のシングルを配信中。",
+      "productionNote": "妃みちる「ゆっくり休んで」のシングルを配信中。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "ゆっくり休んで｜妃みちる｜SUZUKA Official Music",
+        "description": "妃みちる「ゆっくり休んで」のシングルを配信中。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://linkco.re/28YfhcNX?lang=ja",
+      "promotionVerifiedAt": "2026-10-13T20:13:57+09:00",
+      "videoLabel": "STREAMING RELEASE",
+      "videoButtonLabel": "LISTEN",
+      "videoCtaLabel": "配信サービスで聴く",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-11",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/28YfhcNX",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:53+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "ゆっくり休んで",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1997830"
+        ]
+      },
+      "streamingTracks": [
+        "ゆっくり休んで"
+      ],
+      "coverImage": "images/tunecore-28YfhcNX-20261012.png",
+      "coverAlt": "妃みちる「ゆっくり休んで」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-28YfhcNX-20261012.png",
+      "coverSource": "https://linkco.re/28YfhcNX?lang=ja",
+      "coverSha256": "19c06fa75fde2b5b9ea03291a395fee6111ebcc6239ab3b0e405b639dda8df71",
+      "publishedAt": "2026-10-11",
+      "publicationDatePrecision": "day",
+      "videoPublishDate": "2026-10-11",
+      "videoPublishedAt": "",
+      "videoPublishedAtSource": "",
+      "videoStructuredDataStatus": "held-date-only",
+      "recommendations": {
+        "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "uchira-saikyo-jane",
+          "anata-wo-omou-sore-dake-de",
+          "kokoro-ni-nokoru-takaramono",
+          "hello-life"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane",
+          "koi-no-tochu"
+        ],
+        "aiRecommended": [
+          "dareka-no-tameni",
+          "ame-nochi-anata",
+          "anata-wo-omou-sore-dake-de",
+          "uchira-saikyo-jane",
+          "sedai-wo-koete-mama-e",
+          "updown"
+        ]
+      }
+    },
+    {
+      "id": "ichigo-ichihou-saikai-no-yakusoku",
+      "slug": "ichigo-ichihou-saikai-no-yakusoku",
+      "title": "一護一逢〜再開の約束〜",
+      "displayTitle": "一護一逢〜再開の約束〜",
+      "englishTitle": "一護一逢〜再開の約束〜",
+      "artist": "神代煌牙",
+      "artistSlug": "koga-kamishiro",
+      "artistSlugs": [
+        "koga-kamishiro"
+      ],
+      "artistType": "Person",
+      "releaseAt": "2026-10-10T20:40:36+09:00",
+      "publishedAt": "2026-10-10T20:40:36+09:00",
+      "releaseDate": "2026-10-10",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "一護一逢〜再開の約束〜",
+        "神代煌牙"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-ru6EtMyKAk",
+      "releaseUrl": "releases/ichigo-ichihou-saikai-no-yakusoku/",
+      "newsUrl": "news/ichigo-ichihou-saikai-no-yakusoku-release/",
+      "duration": 224,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "一護一逢〜再開の約束〜",
+        "神代煌牙"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "神代煌牙「一護一逢〜再開の約束〜」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "introduction": "神代煌牙「一護一逢〜再開の約束〜」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "productionNote": "神代煌牙「一護一逢〜再開の約束〜」のOFFICIAL AUDIOを公式YouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "一護一逢〜再開の約束〜｜神代煌牙｜SUZUKA Official Music",
+        "description": "神代煌牙「一護一逢〜再開の約束〜」のOFFICIAL AUDIOを公式YouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=-ru6EtMyKAk",
+      "promotionVerifiedAt": "2026-10-12T23:29:20+09:00",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "youtubeVideoTitle": "神代煌牙『一護一逢〜再開の約束〜』Official Audio｜さようならは、永遠の別れじゃない。",
+      "coverImage": "images/tunecore-aDuRy9Ta-20261012.png",
+      "coverAlt": "神代煌牙「一護一逢〜再開の約束〜」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-aDuRy9Ta-20261012.png",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/-ru6EtMyKAk/maxresdefault.jpg",
+      "coverSource": "https://linkco.re/aDuRy9Ta?lang=ja",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "videoPublishDate": "2026-10-10",
+      "videoPublishedAt": "2026-10-10T20:40:36+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-13",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/aDuRy9Ta",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "一護一逢 (〜再開の約束〜)",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1998183"
+        ]
+      },
+      "coverSha256": "a93d0875730f109d923dcea1f52d580ff743001eb5fb1053f105c2d5120db1e4",
+      "recommendations": {
+        "sameArtist": [
+          "nando-umarekawattemo-reborn-oath",
+          "mahou-ga-toketemo",
+          "akuyaku-de-ii",
+          "wakareta-michi",
+          "kamisama-wa-rusu",
+          "leo-rise-again"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "uchira-saikyo-jane",
+          "koi-no-tochu"
+        ],
+        "aiRecommended": [
+          "akuyaku-de-ii",
+          "mahou-ga-toketemo",
+          "one-more-kiss",
+          "boukyaku-no-ikimono",
+          "echoes-of-you",
+          "my-queen-my-oath"
+        ]
+      }
+    },
     {
       "id": "break-the-veil",
       "slug": "break-the-veil",
@@ -84,20 +685,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "amaterasu",
           "anata-wo-omou-sore-dake-de",
+          "koi-no-tochu",
           "uchira-saikyo-jane",
           "ashita-yaru",
-          "mada-tetsu-wa-atsui",
-          "renkinku"
+          "mada-tetsu-wa-atsui"
         ]
       }
     },
@@ -171,14 +772,37 @@
       "videoPublishedAt": "2026-10-05T20:00:07+09:00",
       "videoPublishedAtSource": "official-youtube-watch-page-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=A7c2GmZH7sw",
+          "title": "【音源先行公開】榎本魅愛『天照 -アマテラス-』｜Official Audio",
+          "label": "OFFICIAL AUDIO",
+          "duration": 242,
+          "publishedAt": "2026-10-03T19:00:06+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-17",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/uh3MSXtm",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:57+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "天照",
+        "availableStoreUrls": []
+      },
       "recommendations": {
         "sameArtist": [
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
           "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru",
-          "koisuru-subete-no-shunkan"
+          "mata-kimi-ni-koi-wo-suru"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -191,20 +815,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
+          "koi-no-tochu",
           "renkinku",
           "without-worrying-reimagined",
           "hello-hello-halloween",
           "yume-to-kaigo-to-watashitachi",
-          "eternity-of-flower-words",
-          "renai-taishogai-kari"
+          "eternity-of-flower-words"
         ]
       }
     },
@@ -280,12 +904,12 @@
       "videoStructuredDataStatus": "published",
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "anata-wo-omou-sore-dake-de",
           "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown",
-          "friendlikesong"
+          "hello-life"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -298,20 +922,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "koi-no-tochu"
         ],
         "aiRecommended": [
           "anata-wo-omou-sore-dake-de",
           "kokoro-ni-nokoru-takaramono",
-          "sedai-wo-koete-mama-e",
-          "hello-life",
-          "updown",
-          "friendlikesong"
+          "yukkuri-yasunde",
+          "dareka-no-tameni",
+          "ame-nochi-anata",
+          "sedai-wo-koete-mama-e"
         ]
       }
     },
@@ -385,14 +1009,28 @@
       "videoPublishedAt": "2026-10-05T15:47:37+09:00",
       "videoPublishedAtSource": "official-youtube-watch-page-and-playerMicroformatRenderer.publishDate",
       "videoStructuredDataStatus": "published",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-10",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/MDZzMupn",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "あなたを想うそれだけで",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1992011",
+          "https://www.tunecore.co.jp/to/spotify/1992011"
+        ]
+      },
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown",
-          "friendlikesong"
+          "hello-life"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -405,20 +1043,150 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "uchira-saikyo-jane",
           "kokoro-ni-nokoru-takaramono",
+          "yukkuri-yasunde",
+          "dareka-no-tameni",
+          "ame-nochi-anata",
+          "sedai-wo-koete-mama-e"
+        ]
+      }
+    },
+    {
+      "id": "koi-no-tochu",
+      "slug": "koi-no-tochu",
+      "title": "恋の途中",
+      "displayTitle": "恋の途中",
+      "englishTitle": "恋の途中",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-05",
+      "releaseYear": 2026,
+      "releaseType": "album",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "恋の途中",
+        "榎本魅愛"
+      ],
+      "language": "ja",
+      "youtubeUrl": "",
+      "releaseUrl": "releases/koi-no-tochu/",
+      "newsUrl": "news/koi-no-tochu-release/",
+      "duration": 0,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "恋の途中",
+        "榎本魅愛"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「恋の途中」のアルバムを配信中。",
+      "introduction": "榎本魅愛「恋の途中」のアルバムを配信中。",
+      "productionNote": "榎本魅愛「恋の途中」のアルバムを配信中。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "恋の途中｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「恋の途中」のアルバムを配信中。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://linkco.re/fTcQ4px9?lang=ja",
+      "promotionVerifiedAt": "2026-10-13T20:13:57+09:00",
+      "videoLabel": "STREAMING RELEASE",
+      "videoButtonLabel": "LISTEN",
+      "videoCtaLabel": "配信サービスで聴く",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-05",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/fTcQ4px9",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "恋の途中",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1987075",
+          "https://www.tunecore.co.jp/to/spotify/1987075"
+        ]
+      },
+      "streamingTracks": [
+        "タイパなんて知らなかった。",
+        "キャラメ〜ル",
+        "恋愛対象外 (仮)",
+        "夏が終わるまで、そばにいて。",
+        "September Blue",
+        "また、君に恋をする。"
+      ],
+      "coverImage": "images/tunecore-fTcQ4px9-20261012.png",
+      "coverAlt": "榎本魅愛「恋の途中」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-fTcQ4px9-20261012.png",
+      "coverSource": "https://linkco.re/fTcQ4px9?lang=ja",
+      "coverSha256": "d8cd3e7ded502449466687e974e6c1a8c3f6dc279cf198036bb99e9251f0b05e",
+      "publishedAt": "2026-10-05",
+      "publicationDatePrecision": "day",
+      "videoPublishDate": "2026-10-05",
+      "videoPublishedAt": "",
+      "videoPublishedAtSource": "",
+      "videoStructuredDataStatus": "held-date-only",
+      "recommendations": {
+        "sameArtist": [
+          "amaterasu",
+          "without-worrying-reimagined",
+          "renkinku",
+          "renai-taishogai-kari",
+          "eternity-of-flower-words",
+          "mata-kimi-ni-koi-wo-suru"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
           "sedai-wo-koete-mama-e",
-          "hello-life",
-          "updown",
-          "friendlikesong"
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
+        ],
+        "aiRecommended": [
+          "amaterasu",
+          "renkinku",
+          "without-worrying-reimagined",
+          "hello-hello-halloween",
+          "yume-to-kaigo-to-watashitachi",
+          "eternity-of-flower-words"
         ]
       }
     },
@@ -507,20 +1275,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "mada-tetsu-wa-atsui",
           "amaterasu",
           "anata-wo-omou-sore-dake-de",
           "break-the-veil",
-          "uchira-saikyo-jane",
-          "renkinku"
+          "koi-no-tochu",
+          "uchira-saikyo-jane"
         ]
       }
     },
@@ -609,20 +1377,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "ashita-yaru",
-          "without-worrying-reimagined"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ashita-yaru",
           "amaterasu",
           "anata-wo-omou-sore-dake-de",
           "break-the-veil",
-          "uchira-saikyo-jane",
-          "renkinku"
+          "koi-no-tochu",
+          "uchira-saikyo-jane"
         ]
       }
     },
@@ -699,14 +1467,28 @@
       "videoPublishedAtSource": "official-youtube-channel-videos-and-playerMicroformatRenderer.publishDate",
       "newsTitle": "榎本魅愛「Without worrying - Reimagined -」先行音源公開",
       "newsDescription": "榎本魅愛「Without worrying - Reimagined -」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-05",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/ef1DD6B3",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "Without worrying (Reimagined)",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1986555",
+          "https://www.tunecore.co.jp/to/spotify/1986555"
+        ]
+      },
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "renkinku",
           "renai-taishogai-kari",
           "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru",
-          "koisuru-subete-no-shunkan"
+          "mata-kimi-ni-koi-wo-suru"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -719,20 +1501,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "renkinku",
           "amaterasu",
+          "koi-no-tochu",
           "eternity-of-flower-words",
           "renai-taishogai-kari",
-          "hello-hello-halloween",
-          "koisuru-subete-no-shunkan"
+          "hello-hello-halloween"
         ]
       }
     },
@@ -822,11 +1604,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renai-taishogai-kari",
           "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru",
-          "koisuru-subete-no-shunkan"
+          "mata-kimi-ni-koi-wo-suru"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -839,20 +1621,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "without-worrying-reimagined",
           "amaterasu",
+          "koi-no-tochu",
           "eternity-of-flower-words",
           "renai-taishogai-kari",
-          "hello-hello-halloween",
-          "koisuru-subete-no-shunkan"
+          "hello-hello-halloween"
         ]
       }
     },
@@ -952,12 +1734,12 @@
       ],
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown",
-          "friendlikesong"
+          "hello-life"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -970,12 +1752,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "hello-life",
@@ -983,7 +1765,7 @@
           "uchira-saikyo-jane",
           "sedai-wo-koete-mama-e",
           "updown",
-          "friendlikesong"
+          "ame-nochi-anata"
         ]
       }
     },
@@ -1073,11 +1855,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru",
-          "koisuru-subete-no-shunkan"
+          "mata-kimi-ni-koi-wo-suru"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -1090,12 +1872,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "eternity-of-flower-words",
@@ -1203,12 +1985,12 @@
       ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
           "kamisama-wa-rusu",
-          "leo-rise-again",
-          "mermaid-no-geboku"
+          "leo-rise-again"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -1221,12 +2003,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
@@ -1324,11 +2106,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "mata-kimi-ni-koi-wo-suru",
-          "koisuru-subete-no-shunkan"
+          "mata-kimi-ni-koi-wo-suru"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -1341,12 +2123,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "renai-taishogai-kari",
@@ -1433,12 +2215,12 @@
       "newsDescription": "妃みちる「HELLO, LIFE!」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "sedai-wo-koete-mama-e",
-          "updown",
-          "friendlikesong"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -1451,12 +2233,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "kokoro-ni-nokoru-takaramono",
@@ -1464,7 +2246,7 @@
           "anata-wo-omou-sore-dake-de",
           "uchira-saikyo-jane",
           "updown",
-          "friendlikesong"
+          "ame-nochi-anata"
         ]
       }
     },
@@ -1553,14 +2335,26 @@
       "videoPublishDate": "2026-09-23",
       "videoPublishedAt": "",
       "videoPublishedAtSource": "",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=PvX4zU7CpdE",
+          "title": "榎本魅愛、アニメOP決定。『また、君に恋をする』｜「それでも、僕は君を探していた」Opening Theme",
+          "label": "OFFICIAL VIDEO",
+          "duration": 25,
+          "publishedAt": "2026-10-04T20:00:19+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "koisuru-subete-no-shunkan"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "koisuru-subete-no-shunkan",
@@ -1587,12 +2381,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "koisuru-subete-no-shunkan",
@@ -1702,11 +2496,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "mata-kimi-ni-koi-wo-suru",
@@ -1733,12 +2527,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "mata-kimi-ni-koi-wo-suru",
@@ -1857,11 +2651,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -1874,12 +2668,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "over-drive",
@@ -1987,11 +2781,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -2004,12 +2798,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "september-blue",
@@ -2109,12 +2903,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "gekka-no-chigiri",
@@ -2201,6 +2995,7 @@
       "newsDescription": "RE:VIVE「君がいる方角へ」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
       "recommendations": {
         "sameArtist": [
+          "mikansei-no-kakumei",
           "re-sonance",
           "still-alive",
           "heal-you-again"
@@ -2216,20 +3011,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "re-sonance",
           "still-alive",
           "heal-you-again",
+          "mikansei-no-kakumei",
           "hello-hello-halloween",
-          "dalkomhan-jugeumeul-geudaeege",
-          "rinne-no-chigiri"
+          "dalkomhan-jugeumeul-geudaeege"
         ]
       }
     },
@@ -2324,12 +3119,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -2438,14 +3233,26 @@
       "galleryPublished": false,
       "newsTitle": "榎本魅愛「Hello Hello Halloween」Official MV公開",
       "newsDescription": "榎本魅愛「Hello Hello Halloween」Official MV公開と、2026年9月21日のストリーミング配信情報をSUZUKA Newsで案内します。",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=vw1bP_5kZuM",
+          "title": "【音源先行配信】Hello Hello Halloween / 榎本魅愛｜恋するHalloween Night 🎃💗",
+          "label": "OFFICIAL AUDIO",
+          "duration": 218,
+          "publishedAt": "2026-09-13T20:00:06+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -2458,12 +3265,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -2566,12 +3373,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "iine-sougisha",
@@ -2658,6 +3465,7 @@
       "newsDescription": "ASTERIA「金木犀と星降る夜」の先行音源公開のお知らせ。公式動画と作品情報をご紹介します。",
       "recommendations": {
         "sameArtist": [
+          "gozen-0ji-no-cinderella",
           "last-dance-tonight",
           "anata-dake-no-savior"
         ],
@@ -2672,20 +3480,20 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
+          "gozen-0ji-no-cinderella",
           "last-dance-tonight",
           "hello-hello-halloween",
           "mahou-ga-toketemo",
-          "henpin-sareta-ningen",
-          "hanakotoba"
+          "henpin-sareta-ningen"
         ]
       }
     },
@@ -2777,11 +3585,16 @@
       "scheduledStreamingRelease": {
         "releaseDate": "2026-10-03",
         "timezone": "Asia/Tokyo",
-        "status": "upcoming",
+        "status": "published",
         "linkcoreUrl": "https://linkco.re/tSpMyUFE",
-        "source": "authenticated-tunecore-dashboard-and-public-linkcore",
-        "verifiedAt": "2026-09-24T20:15:46+09:00",
-        "verificationSource": "tunecore-dashboard-status-and-official-linkcore-release-date"
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:56+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "魔法が解けても ― Pumpkin Carriage ―",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1963735",
+          "https://www.tunecore.co.jp/to/spotify/1963735"
+        ]
       },
       "newsBodyParagraphs": [
         "2026年9月14日公開のOfficial MVに加え、2026年10月3日のストリーミング配信が決定しました。LinkCoreで予約・配信情報をご確認いただけます。"
@@ -2796,16 +3609,26 @@
           "publishedAt": "2026-09-26T20:00:06+09:00",
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
+        },
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=xGORQvmcZJ4",
+          "title": "【Official MV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO",
+          "label": "OFFICIAL MV",
+          "duration": 250,
+          "publishedAt": "2026-10-03T20:00:23+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
       ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "akuyaku-de-ii",
           "wakareta-michi",
           "kamisama-wa-rusu",
-          "leo-rise-again",
-          "mermaid-no-geboku"
+          "leo-rise-again"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -2818,12 +3641,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
@@ -2831,7 +3654,7 @@
           "boukyaku-no-ikimono",
           "echoes-of-you",
           "my-queen-my-oath",
-          "kamisama-wa-rusu"
+          "ichigo-ichihou-saikai-no-yakusoku"
         ]
       }
     },
@@ -2970,12 +3793,12 @@
       "coverHeight": 1254,
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "updown",
-          "friendlikesong"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [
           "tatta-hitori-no-kimi-e",
@@ -3000,12 +3823,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "tatta-hitori-no-kimi-e",
@@ -3162,16 +3985,26 @@
           "publishedAt": "2026-09-26T20:00:09+09:00",
           "verifiedAt": "2026-10-10T14:08:44+09:00",
           "source": "official-youtube-oembed"
+        },
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=UgA5YsSgN70",
+          "title": "【MV】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。",
+          "label": "OFFICIAL MV",
+          "duration": 315,
+          "publishedAt": "2026-10-03T20:31:04+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
       ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "kimi-wa-makenai",
@@ -3198,12 +4031,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "kimi-wa-makenai",
@@ -3349,12 +4182,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -3363,6 +4196,112 @@
           "akuyaku-de-ii",
           "hanakotoba",
           "updown"
+        ]
+      }
+    },
+    {
+      "id": "gozen-0ji-no-cinderella",
+      "slug": "gozen-0ji-no-cinderella",
+      "title": "午前0時のシンデレラ",
+      "displayTitle": "午前0時のシンデレラ",
+      "englishTitle": "午前0時のシンデレラ",
+      "artist": "ASTERIA",
+      "artistSlug": "asteria",
+      "artistSlugs": [
+        "asteria"
+      ],
+      "artistType": "MusicGroup",
+      "releaseAt": "2026-09-01T21:25:40+09:00",
+      "publishedAt": "2026-09-01T21:25:40+09:00",
+      "releaseDate": "2026-09-01",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "午前0時のシンデレラ",
+        "ASTERIA"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=blXPDEriTyE",
+      "releaseUrl": "releases/gozen-0ji-no-cinderella/",
+      "newsUrl": "news/gozen-0ji-no-cinderella-release/",
+      "duration": 179,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "午前0時のシンデレラ",
+        "ASTERIA"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "ASTERIA「午前0時のシンデレラ」の先行音源を公式YouTubeで公開。",
+      "introduction": "ASTERIA「午前0時のシンデレラ」の先行音源を公式YouTubeで公開。",
+      "productionNote": "ASTERIA「午前0時のシンデレラ」の先行音源を公式YouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "seo": {
+        "title": "午前0時のシンデレラ｜ASTERIA｜SUZUKA Official Music",
+        "description": "ASTERIA「午前0時のシンデレラ」の先行音源を公式YouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=blXPDEriTyE",
+      "promotionVerifiedAt": "2026-10-12T23:29:20+09:00",
+      "videoLabel": "先行音源",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "youtubeVideoTitle": "【先行音源解禁】ASTERIA「午前0時のシンデレラ」｜魔法が解ける、その前に。",
+      "coverImage": "https://i.ytimg.com/vi/blXPDEriTyE/maxresdefault.jpg",
+      "coverAlt": "ASTERIA「午前0時のシンデレラ」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 1280,
+      "coverHeight": 720,
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/blXPDEriTyE/maxresdefault.jpg",
+      "coverSource": "https://www.youtube.com/watch?v=blXPDEriTyE",
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "videoPublishDate": "2026-09-01",
+      "videoPublishedAt": "2026-09-01T21:25:40+09:00",
+      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoStructuredDataStatus": "published",
+      "recommendations": {
+        "sameArtist": [
+          "kinmokusei-to-hoshifuru-yoru",
+          "last-dance-tonight",
+          "anata-dake-no-savior"
+        ],
+        "sameGenre": [],
+        "sameTheme": [],
+        "popular": [
+          "hello-hello-halloween",
+          "sedai-wo-koete-mama-e",
+          "yume-to-kaigo-to-watashitachi",
+          "akuyaku-de-ii",
+          "gekka-no-chigiri",
+          "iine-sougisha"
+        ],
+        "recent": [
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
+        ],
+        "aiRecommended": [
+          "anata-dake-no-savior",
+          "kinmokusei-to-hoshifuru-yoru",
+          "last-dance-tonight",
+          "akuyaku-de-ii",
+          "yume-to-kaigo-to-watashitachi",
+          "gekka-no-chigiri"
         ]
       }
     },
@@ -3477,18 +4416,28 @@
           "publishedAt": "2026-09-21T18:30:44+09:00",
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
+        },
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=xNc2PSfp4aM",
+          "title": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
+          "label": "OFFICIAL MV",
+          "duration": 314,
+          "publishedAt": "2026-10-04T20:00:23+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
       ],
       "coverWidth": 1254,
       "coverHeight": 1254,
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "wakareta-michi",
           "kamisama-wa-rusu",
-          "leo-rise-again",
-          "mermaid-no-geboku"
+          "leo-rise-again"
         ],
         "sameGenre": [
           "wakareta-michi",
@@ -3508,12 +4457,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -3649,12 +4598,12 @@
           "mahou-ga-toketemo"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -3780,12 +4729,12 @@
       "coverSource": "https://www.youtube.com/watch?v=V_v1Jjp9XcI",
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "friendlikesong"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [
           "tatta-hitori-no-kimi-e",
@@ -3812,12 +4761,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "tatta-hitori-no-kimi-e",
@@ -3929,6 +4878,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "mikansei-no-kakumei",
           "kimi-ga-iru-hougaku-e",
           "still-alive",
           "heal-you-again"
@@ -3958,12 +4908,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -4085,12 +5035,12 @@
       "coverSource": "https://www.youtube.com/watch?v=0W5cCu7O5_w",
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "kamisama-wa-rusu",
-          "leo-rise-again",
-          "mermaid-no-geboku"
+          "leo-rise-again"
         ],
         "sameGenre": [
           "akuyaku-de-ii",
@@ -4117,12 +5067,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
@@ -4257,12 +5207,12 @@
       "coverHeight": 1254,
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [
           "watashi-no-eranda-michi",
@@ -4284,12 +5234,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "watashi-no-eranda-michi",
@@ -4406,12 +5356,12 @@
       "coverHeight": 1254,
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [
           "wakareta-michi",
@@ -4437,12 +5387,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "wakareta-michi",
@@ -4563,14 +5513,26 @@
       ],
       "coverWidth": 1254,
       "coverHeight": 1254,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=DPUQyibGcbA",
+          "title": "妃みちる『たった1人の君へ』Official Music ｜SUZUKA Debut Single",
+          "label": "OFFICIAL VIDEO",
+          "duration": 338,
+          "publishedAt": "2026-10-06T20:00:19+09:00",
+          "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ame-nochi-anata",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
           "uchira-saikyo-jane",
           "anata-wo-omou-sore-dake-de",
-          "kokoro-ni-nokoru-takaramono",
-          "hello-life",
-          "sedai-wo-koete-mama-e",
-          "updown"
+          "kokoro-ni-nokoru-takaramono"
         ],
         "sameGenre": [
           "sedai-wo-koete-mama-e",
@@ -4597,12 +5559,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "sedai-wo-koete-mama-e",
@@ -4692,12 +5654,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -4822,11 +5784,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -4848,12 +5810,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -4977,12 +5939,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "iine-sougisha",
@@ -5112,12 +6074,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "lost-signal",
@@ -5217,11 +6179,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -5234,12 +6196,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "caramel",
@@ -5339,11 +6301,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -5356,12 +6318,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "natsu-ga-owaru-made-soba-ni-ite",
@@ -5449,14 +6411,28 @@
       "coverWidth": 1280,
       "coverHeight": 720,
       "coverSource": "https://www.youtube.com/watch?v=qQgad9rWvXk",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-10",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/VNy0eVS4",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "神様は留守",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1989679",
+          "https://www.tunecore.co.jp/to/spotify/1989679"
+        ]
+      },
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "leo-rise-again",
-          "mermaid-no-geboku"
+          "leo-rise-again"
         ],
         "sameGenre": [],
         "sameTheme": [],
@@ -5469,12 +6445,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "leo-rise-again",
@@ -5578,14 +6554,26 @@
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
       "playlistPriority": 0,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=TeZOrOs1Qnw",
+          "title": "負けそうな夜に、聴いてほしい。｜榎本魅愛「君は負けない」",
+          "label": "OFFICIAL VIDEO",
+          "duration": 236,
+          "publishedAt": "2026-10-02T20:00:02+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "yume-to-kaigo-to-watashitachi",
@@ -5612,12 +6600,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "yume-to-kaigo-to-watashitachi",
@@ -5737,12 +6725,12 @@
       ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "mermaid-no-geboku"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "akuyaku-de-ii",
@@ -5760,12 +6748,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "akuyaku-de-ii",
@@ -5872,6 +6860,7 @@
       "recommendations": {
         "sameArtist": [
           "kinmokusei-to-hoshifuru-yoru",
+          "gozen-0ji-no-cinderella",
           "anata-dake-no-savior"
         ],
         "sameGenre": [
@@ -5899,12 +6888,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "anata-dake-no-savior",
@@ -6008,11 +6997,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "hanakotoba",
@@ -6039,12 +7028,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "hanakotoba",
@@ -6147,14 +7136,26 @@
       "playlistPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-09T00:28:12+09:00",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=wH6aAAxPqw4",
+          "title": "神代煌牙『マーメイドの下僕』― おしゃべりな人魚姫に、心まで奪われた。",
+          "label": "OFFICIAL VIDEO",
+          "duration": 351,
+          "publishedAt": "2026-10-05T20:00:29+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "leo-rise-again"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "mermaid-merman",
@@ -6181,12 +7182,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "mermaid-merman",
@@ -6329,14 +7330,36 @@
         "couponUrl": "https://social.kicks.video/v1/re/kr/101592/joysound_coupon?utm_source=vk&utm_medium=sw&utm_campaign=share&utm_term=101592",
         "source": "user-confirmed-official-information"
       },
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=0xNqwMg_i5E",
+          "title": "【限定公開・原曲版】榎本魅愛「花言葉」Original Version｜あの日のメロディを、そのまま。",
+          "label": "ORIGINAL VERSION",
+          "duration": 228,
+          "publishedAt": "2026-10-09T20:00:09+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        },
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=rZhp5O3YTw8",
+          "title": "【MV】榎本魅愛『花言葉』｜両親の結婚記念日に贈る“永遠”の物語",
+          "label": "OFFICIAL MV",
+          "duration": 234,
+          "publishedAt": "2026-09-12T20:40:39+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -6363,12 +7386,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -6474,6 +7497,7 @@
       "recommendations": {
         "sameArtist": [
           "kinmokusei-to-hoshifuru-yoru",
+          "gozen-0ji-no-cinderella",
           "last-dance-tonight"
         ],
         "sameGenre": [
@@ -6501,12 +7525,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -6631,12 +7655,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "wasurenai-kokoro",
@@ -6739,14 +7763,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": true,
       "lyricsVerifiedAt": "2026-08-12T00:01:07+09:00",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=nplXdPAD9QU",
+          "title": "榎本魅愛『はじめまして、奇跡』Official Music",
+          "label": "OFFICIAL VIDEO",
+          "duration": 211,
+          "publishedAt": "2026-10-13T20:00:08+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-13T20:08:17+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "without-worrying",
@@ -6773,12 +7809,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -6884,6 +7920,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "mikansei-no-kakumei",
           "kimi-ga-iru-hougaku-e",
           "re-sonance",
           "heal-you-again"
@@ -6912,12 +7949,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "heal-you-again",
@@ -7043,12 +8080,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "chimpanzee-no-rakuen",
@@ -7152,14 +8189,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=Q9eeq3EMUYE",
+          "title": "神代煌牙『One More Kiss』｜孤独を溶かす、危うい口づけ",
+          "label": "OFFICIAL VIDEO",
+          "duration": 337,
+          "publishedAt": "2026-10-06T20:00:35+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "leo-rise-again"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "echoes-of-you",
@@ -7186,12 +8235,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -7323,12 +8372,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -7429,14 +8478,40 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=MlbqKSCi4U8",
+          "title": "Without Worrying／榎本魅愛｜あなたはひとりじゃない。",
+          "label": "OFFICIAL VIDEO",
+          "duration": 210,
+          "publishedAt": "2026-10-03T09:16:55+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-05",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/F1979f3c",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:54+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "Without worrying",
+        "availableStoreUrls": [
+          "https://www.tunecore.co.jp/to/apple_music/1986628",
+          "https://www.tunecore.co.jp/to/spotify/1986628"
+        ]
+      },
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -7463,12 +8538,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -7592,12 +8667,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "namaste-galaxy",
@@ -7723,12 +8798,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "zennin-saiban",
@@ -7832,14 +8907,26 @@
       "officialSource": "https://www.youtube.com/watch?v=HKm8cUorTOs",
       "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
       "youtubeVideoTitle": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E",
+          "title": "「熊本へ、もう一度届けます。『明日は、きっと。』｜榎本魅愛」",
+          "label": "OFFICIAL VIDEO",
+          "duration": 217,
+          "publishedAt": "2026-09-24T22:29:30+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "without-worrying",
@@ -7866,12 +8953,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "without-worrying",
@@ -7974,6 +9061,7 @@
       "lyricsVerifiedAt": null,
       "recommendations": {
         "sameArtist": [
+          "mikansei-no-kakumei",
           "kimi-ga-iru-hougaku-e",
           "re-sonance",
           "still-alive"
@@ -8003,12 +9091,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "re-sonance",
@@ -8109,14 +9197,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=v1rY03gArRk",
+          "title": "神代煌牙『Echoes of You』―「また、逢えるからね」終わらない恋の残響【Official Music Video】",
+          "label": "OFFICIAL MV",
+          "duration": 484,
+          "publishedAt": "2026-10-09T20:00:16+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "leo-rise-again"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "one-more-kiss",
@@ -8138,12 +9238,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "one-more-kiss",
@@ -8267,12 +9367,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "koisuru-maharaja",
@@ -8393,12 +9493,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "wasureji-no-hito",
@@ -8498,14 +9598,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=8ZGpEiIo4sU",
+          "title": "【Official MV】榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」",
+          "label": "OFFICIAL MV",
+          "duration": 497,
+          "publishedAt": "2026-10-06T20:00:19+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ashita-wa-kitto",
@@ -8532,12 +9644,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ashita-wa-kitto",
@@ -8641,14 +9753,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=sGG9Slgp7Rc",
+          "title": "神代煌牙『忘却の生き物』Official Music Video",
+          "label": "OFFICIAL MV",
+          "duration": 284,
+          "publishedAt": "2026-10-07T20:00:13+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "leo-rise-again"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "echoes-of-you",
@@ -8671,12 +9795,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "echoes-of-you",
@@ -8783,14 +9907,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=FUwxYpxVRcM",
+          "title": "My Queen, My Oath｜神代 煌牙【Official Music Video】",
+          "label": "OFFICIAL MV",
+          "duration": 297,
+          "publishedAt": "2026-10-08T20:00:17+09:00",
+          "channelId": "UCtRwFzemyx508t7yXnpCVKA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
+          "ichigo-ichihou-saikai-no-yakusoku",
           "nando-umarekawattemo-reborn-oath",
           "mahou-ga-toketemo",
           "akuyaku-de-ii",
           "wakareta-michi",
-          "kamisama-wa-rusu",
-          "leo-rise-again"
+          "kamisama-wa-rusu"
         ],
         "sameGenre": [
           "our-kingdom",
@@ -8817,12 +9953,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "our-kingdom",
@@ -8957,12 +10093,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "shadow-code",
@@ -9056,14 +10192,26 @@
       "upcomingPriority": 0,
       "lyricsVerified": false,
       "lyricsVerifiedAt": null,
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=Mr3qtg9d1S0",
+          "title": "もしも明日、はじめましてになっても｜榎本魅愛【Official Lyric Video】",
+          "label": "OFFICIAL LYRIC VIDEO",
+          "duration": 417,
+          "publishedAt": "2026-10-07T20:00:13+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "suki-ga-kyou-mo-fueteiku",
@@ -9090,12 +10238,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "suki-ga-kyou-mo-fueteiku",
@@ -9192,11 +10340,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -9223,12 +10371,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -9337,11 +10485,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "mirai-no-watashi-ga-miteru",
@@ -9368,12 +10516,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "mirai-no-watashi-ga-miteru",
@@ -9482,11 +10630,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "my-queen-my-oath",
@@ -9510,12 +10658,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "my-queen-my-oath",
@@ -9648,12 +10796,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "red-moon-rising",
@@ -9750,11 +10898,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "toriatsukai-chui",
@@ -9781,12 +10929,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "toriatsukai-chui",
@@ -9883,11 +11031,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -9914,12 +11062,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -10016,11 +11164,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -10047,12 +11195,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -10149,11 +11297,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -10180,12 +11328,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -10306,11 +11454,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "ai-demo-wakaranai",
@@ -10337,12 +11485,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "ai-demo-wakaranai",
@@ -10439,11 +11587,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "kimi-to-nara-last-boss-made",
@@ -10470,12 +11618,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "kimi-to-nara-last-boss-made",
@@ -10578,11 +11726,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -10609,12 +11757,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -10717,11 +11865,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "mermaid-no-geboku",
@@ -10748,12 +11896,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "mermaid-no-geboku",
@@ -10850,11 +11998,11 @@
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "hyakumankoku",
@@ -10881,12 +12029,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "hyakumankoku",
@@ -11008,14 +12156,26 @@
       "videoVariant": "Anime Version",
       "officialSource": "https://www.youtube.com/watch?v=7FaDutNfIxo",
       "promotionVerifiedAt": "2026-09-19T00:40:59+09:00",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=tFQPag-rSno",
+          "title": "【撮影映像】榎本魅愛「百万告」歌の1番を公開｜春の桜並木で届ける恋の物語",
+          "label": "撮影映像 / 1番",
+          "duration": 113,
+          "publishedAt": "2026-07-28T20:00:09+09:00",
+          "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+          "source": "official-youtube-channel-videos-and-player-microformat",
+          "verifiedAt": "2026-10-12T23:29:20+09:00"
+        }
+      ],
       "recommendations": {
         "sameArtist": [
           "amaterasu",
+          "koi-no-tochu",
           "without-worrying-reimagined",
           "renkinku",
           "renai-taishogai-kari",
-          "eternity-of-flower-words",
-          "mata-kimi-ni-koi-wo-suru"
+          "eternity-of-flower-words"
         ],
         "sameGenre": [
           "sukitte-baretemo-ii",
@@ -11042,12 +12202,12 @@
           "iine-sougisha"
         ],
         "recent": [
-          "uchira-saikyo-jane",
-          "break-the-veil",
-          "anata-wo-omou-sore-dake-de",
-          "amaterasu",
-          "mada-tetsu-wa-atsui",
-          "ashita-yaru"
+          "ame-nochi-anata",
+          "mikansei-no-kakumei",
+          "dareka-no-tameni",
+          "yukkuri-yasunde",
+          "ichigo-ichihou-saikai-no-yakusoku",
+          "uchira-saikyo-jane"
         ],
         "aiRecommended": [
           "sukitte-baretemo-ii",
@@ -11061,5 +12221,107 @@
     }
   ],
   "upcoming": [],
-  "comingSoon": []
+  "comingSoon": [
+    {
+      "slug": "tenjo-tenge-yuiga-dokuson",
+      "title": "天上天下唯我独尊",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistType": "Person",
+      "status": "upcoming",
+      "releaseDate": "2026-10-15",
+      "releaseType": "single",
+      "datePrecision": "day",
+      "timezone": "Asia/Tokyo",
+      "announcementPublic": true,
+      "description": "榎本魅愛「天上天下唯我独尊」は2026-10-15に配信予定。配信開始の確認後に公開済み作品へ更新します。",
+      "linkcoreUrl": "https://linkco.re/9U1eCaGv",
+      "officialSource": "https://linkco.re/9U1eCaGv?lang=ja",
+      "verifiedAt": "2026-10-13T20:09:53+09:00",
+      "image": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverImage": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverAlt": "榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-9U1eCaGv-20261012.png",
+      "coverSource": "https://linkco.re/9U1eCaGv?lang=ja",
+      "coverSha256": "91cd369175ddde6551c832d06a9f4e9f8f0e615131a9b5dd1b9c31c1f308c96c",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-15",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/9U1eCaGv",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:53+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "天上天下唯我独尊",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "天上天下唯我独尊"
+      ],
+      "youtubeUrl": "",
+      "genres": [],
+      "searchKeywords": [
+        "天上天下唯我独尊",
+        "榎本魅愛"
+      ]
+    },
+    {
+      "slug": "watashi-no-eranda-michi-album",
+      "title": "私の選んだ道 (あなたに届けたい8つの歌)",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistType": "Person",
+      "status": "upcoming",
+      "releaseDate": "2026-10-14",
+      "releaseType": "album",
+      "datePrecision": "day",
+      "timezone": "Asia/Tokyo",
+      "announcementPublic": true,
+      "description": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」は2026-10-14に配信予定。配信開始の確認後に公開済み作品へ更新します。",
+      "linkcoreUrl": "https://linkco.re/Rq5BFPrU",
+      "officialSource": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "verifiedAt": "2026-10-13T20:09:55+09:00",
+      "image": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverImage": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverAlt": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット",
+      "coverWidth": 400,
+      "coverHeight": 400,
+      "imageRole": "official-linkcore-artwork",
+      "artworkStatus": "verified-public-linkcore",
+      "formalJacketImage": "images/tunecore-Rq5BFPrU-20261012.png",
+      "coverSource": "https://linkco.re/Rq5BFPrU?lang=ja",
+      "coverSha256": "b8e4101082ecf9134e2eefc342d80cabd658bd539488c683c2d78df2d1ee6f50",
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-14",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/Rq5BFPrU",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:55+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "私の選んだ道 (あなたに届けたい8つの歌)",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "HELLO, LIFE!",
+        "friend like song",
+        "たった1人の君へ",
+        "心に残る宝モノ",
+        "世代を超えてママへ",
+        "ゆっくり休んで",
+        "誰かのために",
+        "私の選んだ道"
+      ],
+      "youtubeUrl": "",
+      "genres": [],
+      "searchKeywords": [
+        "私の選んだ道 (あなたに届けたい8つの歌)",
+        "妃みちる"
+      ]
+    }
+  ]
 }
