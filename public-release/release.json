@@ -1,0 +1,25 @@
+{
+  "format": "suzuka-public-release-v1",
+  "artifactDigest": "f13be24fa6e42afc0ff8e60dc78220fc3bc413fe7ed322fe7290c807e39c9518",
+  "fileCount": 760,
+  "contentBytes": 118531589,
+  "archiveBytes": 107610507,
+  "archiveSha256": "889343fba64de76df06d8b0b1250309bfb10bad8dd4500da12cdc4dc6abf6c62",
+  "chunks": [
+    {
+      "path": "public-release/site-00.tar.gz.part",
+      "bytes": 47185920,
+      "sha256": "d81d6cbee23ea013425eceff945e6f21af040df643587f0fc39249eb9ef7601b"
+    },
+    {
+      "path": "public-release/site-01.tar.gz.part",
+      "bytes": 47185920,
+      "sha256": "b1e483621bc49f64b69df6a0420de2058ddda5450ed0427d9054a63aecb3690b"
+    },
+    {
+      "path": "public-release/site-02.tar.gz.part",
+      "bytes": 13238667,
+      "sha256": "80f8ca7fa09f4c8ae0d02e4f6fc51cf2953f658b5ad0b1b3a989be8d43b5dddd"
+    }
+  ]
+}

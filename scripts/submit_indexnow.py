@@ -136,7 +136,28 @@ def git_bytes(root: Path, reference: str, path: Path) -> bytes:
     return result.stdout
 
 
+def release_snapshot(root: Path, config: dict[str, Any], reference: str | None = None) -> dict[str, str]:
+    """Diff actual published bytes when a verified public package is present."""
+    import runpy
+
+    read_release = runpy.run_path(str(root / "scripts/verify_public_release.py"))["read_release"]
+    try:
+        _, files = read_release(root, reference)
+        urls = parse_sitemap(files["sitemap.xml"], config, allow_outside_scope=reference is not None)
+        snapshot = {}
+        for url in urls:
+            data = files[url_to_html_path(url, config).as_posix()]
+            if re.search(br'<meta[^>]+name="robots"[^>]+content="[^"]*noindex', data, re.I):
+                raise IndexNowError(f"sitemap.xml contains a noindex page: {url}")
+            snapshot[url] = sha256(data)
+        return snapshot
+    except (OSError, ValueError, KeyError, subprocess.SubprocessError) as error:
+        raise IndexNowError(f"Invalid public release snapshot: {error}") from error
+
+
 def current_snapshot(root: Path, config: dict[str, Any]) -> dict[str, str]:
+    if (root / "public-release/release.json").is_file():
+        return release_snapshot(root, config)
     urls = parse_sitemap((root / "sitemap.xml").read_bytes(), config)
     snapshot: dict[str, str] = {}
     for url in urls:
@@ -151,6 +172,12 @@ def current_snapshot(root: Path, config: dict[str, Any]) -> dict[str, str]:
 
 
 def git_snapshot(root: Path, reference: str, config: dict[str, Any]) -> dict[str, str]:
+    resolved = subprocess.run(["git", "rev-parse", "--verify", reference + "^{commit}"], cwd=root,
+                              capture_output=True, text=True, check=True).stdout.strip()
+    package = subprocess.run(["git", "cat-file", "-e", resolved + ":public-release/release.json"],
+                             cwd=root, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=False)
+    if package.returncode == 0:
+        return release_snapshot(root, config, resolved)
     sitemap = git_bytes(root, reference, Path("sitemap.xml"))
     # A custom-domain migration can leave the preceding deployment's sitemap
     # on the retired host. IndexNow keys are host-scoped, so those legacy URLs

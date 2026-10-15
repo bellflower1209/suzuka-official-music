@@ -21,6 +21,7 @@ env:
 
 jobs:
   build:
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -90,25 +91,31 @@ jobs:
           python3 scripts/audit_feed.py
           python3 scripts/audit_indexnow.py
 
+      - name: Verify approved public release
+        run: |
+          python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release"
+          node --check "${{ runner.temp }}/suzuka-v6-release/assets/cinematic-universe-v6.js"
+          python3 -B scripts/audit_rich_results.py --root "${{ runner.temp }}/suzuka-v6-release"
+          python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-v6-release"
+          python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/suzuka-v6-release"
+
       - name: Configure Pages
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/configure-pages@v6
 
       - name: Prepare public artifact
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
-          mkdir _site
-          rsync -a --exclude='.git/' --exclude='_site/' --exclude='assets/data/lyrics-holds.json' ./ _site/
-          test ! -e _site/assets/data/lyrics-holds.json
+          python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release" --stage _site
 
       - name: Upload Pages artifact
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
