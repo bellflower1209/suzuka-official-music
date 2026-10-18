@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-13T20:13:57+09:00",
+  "updatedAt": "2026-10-18T13:04:33+09:00",
   "recommendations": {
-    "ame-nochi-anata": {
+    "mirai-no-ashioto": {
       "sameArtist": [
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono",
-        "hello-life"
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
+        "amaterasu",
+        "koi-no-tochu",
+        "without-worrying-reimagined"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -21,20 +21,369 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mikansei-no-kakumei",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
+        "hello-hello-halloween",
+        "yume-to-kaigo-to-watashitachi",
+        "hajimemashite-kiseki"
+      ]
+    },
+    "ato-5fun-dake": {
+      "sameArtist": [
+        "watashi-no-eranda-michi-album",
+        "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
         "uchira-saikyo-jane",
-        "koi-no-tochu"
+        "anata-wo-omou-sore-dake-de"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "tenjo-tenge-yuiga-dokuson",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "watashi-no-eranda-michi-album",
+        "ame-nochi-anata",
+        "dareka-no-tameni",
+        "yukkuri-yasunde",
+        "sedai-wo-koete-mama-e",
+        "updown"
+      ]
+    },
+    "ketsugetsu-no-houkou": {
+      "sameArtist": [
+        "rinne-no-chigiri",
+        "gekka-no-chigiri"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "gekka-no-chigiri",
+        "rinne-no-chigiri",
+        "ato-5fun-dake",
+        "furinkazan",
+        "hyper-romance-dawn",
+        "mirai-no-ashioto"
+      ]
+    },
+    "hyper-romance-dawn": {
+      "sameArtist": [
+        "mirai-no-ashioto",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
+        "amaterasu",
+        "koi-no-tochu",
+        "without-worrying-reimagined"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "mirai-no-ashioto",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
+        "hello-hello-halloween",
+        "yume-to-kaigo-to-watashitachi",
+        "hajimemashite-kiseki"
+      ]
+    },
+    "furinkazan": {
+      "sameArtist": [
+        "wasureji-no-hito",
+        "wasurenai-kokoro"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "wasureji-no-hito",
+        "wasurenai-kokoro",
+        "ato-5fun-dake",
+        "hyper-romance-dawn",
+        "ketsugetsu-no-houkou",
+        "mirai-no-ashioto"
+      ]
+    },
+    "starlight-revolution": {
+      "sameArtist": [
+        "kinmokusei-to-hoshifuru-yoru",
+        "gozen-0ji-no-cinderella",
+        "last-dance-tonight",
+        "anata-dake-no-savior"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
+      ],
+      "aiRecommended": [
+        "anata-dake-no-savior",
+        "gozen-0ji-no-cinderella",
+        "kinmokusei-to-hoshifuru-yoru",
+        "last-dance-tonight",
+        "tenjo-tenge-yuiga-dokuson",
+        "aijo-to-iu-na-no-kubiwa"
+      ]
+    },
+    "tenjo-tenge-yuiga-dokuson": {
+      "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "kisetsuhazure-no-santa-claus",
+        "amaterasu",
+        "koi-no-tochu",
+        "without-worrying-reimagined"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "starlight-revolution"
+      ],
+      "aiRecommended": [
+        "kisetsuhazure-no-santa-claus",
+        "hyper-romance-dawn",
+        "mirai-no-ashioto",
+        "hello-hello-halloween",
+        "yume-to-kaigo-to-watashitachi",
+        "amaterasu"
+      ]
+    },
+    "aijo-to-iu-na-no-kubiwa": {
+      "sameArtist": [
+        "henpin-sareta-ningen",
+        "iine-sougisha",
+        "family-portrait",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
+      ],
+      "aiRecommended": [
+        "iine-sougisha",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen",
+        "family-portrait",
+        "henpin-sareta-ningen",
+        "kisetsuhazure-no-santa-claus"
+      ]
+    },
+    "watashi-no-eranda-michi-album": {
+      "sameArtist": [
+        "ato-5fun-dake",
+        "ame-nochi-anata",
+        "dareka-no-tameni",
+        "yukkuri-yasunde",
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
+      ],
+      "aiRecommended": [
+        "ame-nochi-anata",
+        "dareka-no-tameni",
+        "ato-5fun-dake",
+        "yukkuri-yasunde",
+        "sedai-wo-koete-mama-e",
+        "anata-wo-omou-sore-dake-de"
+      ]
+    },
+    "kisetsuhazure-no-santa-claus": {
+      "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "amaterasu",
+        "koi-no-tochu",
+        "without-worrying-reimagined"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
+      ],
+      "aiRecommended": [
+        "tenjo-tenge-yuiga-dokuson",
+        "hyper-romance-dawn",
+        "mirai-no-ashioto",
+        "hello-hello-halloween",
+        "yume-to-kaigo-to-watashitachi",
+        "amaterasu"
+      ]
+    },
+    "ame-nochi-anata": {
+      "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
+        "dareka-no-tameni",
+        "yukkuri-yasunde",
+        "uchira-saikyo-jane",
+        "anata-wo-omou-sore-dake-de"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "dareka-no-tameni",
+        "watashi-no-eranda-michi-album",
         "yukkuri-yasunde",
+        "ato-5fun-dake",
         "anata-wo-omou-sore-dake-de",
-        "sedai-wo-koete-mama-e",
-        "uchira-saikyo-jane",
-        "updown"
+        "sedai-wo-koete-mama-e"
       ]
     },
     "mikansei-no-kakumei": {
@@ -55,12 +404,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -73,12 +422,12 @@
     },
     "dareka-no-tameni": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "yukkuri-yasunde",
         "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono",
-        "hello-life"
+        "anata-wo-omou-sore-dake-de"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -91,30 +440,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ame-nochi-anata",
         "yukkuri-yasunde",
+        "watashi-no-eranda-michi-album",
+        "ato-5fun-dake",
         "anata-wo-omou-sore-dake-de",
-        "uchira-saikyo-jane",
-        "sedai-wo-koete-mama-e",
-        "updown"
+        "uchira-saikyo-jane"
       ]
     },
     "yukkuri-yasunde": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono",
-        "hello-life"
+        "anata-wo-omou-sore-dake-de"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -127,20 +476,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "dareka-no-tameni",
         "ame-nochi-anata",
+        "watashi-no-eranda-michi-album",
         "anata-wo-omou-sore-dake-de",
-        "uchira-saikyo-jane",
-        "sedai-wo-koete-mama-e",
-        "updown"
+        "ato-5fun-dake",
+        "uchira-saikyo-jane"
       ]
     },
     "ichigo-ichihou-saikai-no-yakusoku": {
@@ -163,12 +512,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -192,12 +541,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "amaterasu",
@@ -210,12 +559,12 @@
     },
     "amaterasu": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru"
+        "without-worrying-reimagined"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -228,12 +577,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "koi-no-tochu",
@@ -246,12 +595,12 @@
     },
     "uchira-saikyo-jane": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono",
-        "hello-life"
+        "anata-wo-omou-sore-dake-de"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -264,12 +613,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "anata-wo-omou-sore-dake-de",
@@ -282,12 +631,12 @@
     },
     "anata-wo-omou-sore-dake-de": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "kokoro-ni-nokoru-takaramono",
-        "hello-life"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -300,12 +649,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "uchira-saikyo-jane",
@@ -318,12 +667,12 @@
     },
     "koi-no-tochu": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru"
+        "without-worrying-reimagined"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -336,12 +685,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "amaterasu",
@@ -367,12 +716,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "mada-tetsu-wa-atsui",
@@ -398,12 +747,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ashita-yaru",
@@ -416,12 +765,12 @@
     },
     "without-worrying-reimagined": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -434,12 +783,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "renkinku",
@@ -452,12 +801,12 @@
     },
     "renkinku": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -470,12 +819,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "without-worrying-reimagined",
@@ -488,12 +837,12 @@
     },
     "kokoro-ni-nokoru-takaramono": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "hello-life"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -506,12 +855,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "hello-life",
@@ -524,12 +873,12 @@
     },
     "renai-taishogai-kari": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "eternity-of-flower-words",
-        "mata-kimi-ni-koi-wo-suru"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -542,12 +891,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "eternity-of-flower-words",
@@ -578,12 +927,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -596,12 +945,12 @@
     },
     "eternity-of-flower-words": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "mata-kimi-ni-koi-wo-suru"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -614,12 +963,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "renai-taishogai-kari",
@@ -632,12 +981,12 @@
     },
     "hello-life": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -650,12 +999,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "kokoro-ni-nokoru-takaramono",
@@ -668,12 +1017,12 @@
     },
     "mata-kimi-ni-koi-wo-suru": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "koisuru-subete-no-shunkan",
@@ -700,12 +1049,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "koisuru-subete-no-shunkan",
@@ -718,12 +1067,12 @@
     },
     "koisuru-subete-no-shunkan": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "mata-kimi-ni-koi-wo-suru",
@@ -750,12 +1099,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "mata-kimi-ni-koi-wo-suru",
@@ -768,12 +1117,12 @@
     },
     "september-blue": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -786,12 +1135,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "over-drive",
@@ -804,12 +1153,12 @@
     },
     "over-drive": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -822,12 +1171,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "september-blue",
@@ -840,6 +1189,7 @@
     },
     "rinne-no-chigiri": {
       "sameArtist": [
+        "ketsugetsu-no-houkou",
         "gekka-no-chigiri"
       ],
       "sameGenre": [],
@@ -853,20 +1203,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "gekka-no-chigiri",
+        "ketsugetsu-no-houkou",
         "hello-hello-halloween",
         "kimi-ga-iru-hougaku-e",
         "over-drive",
-        "september-blue",
-        "dalkomhan-jugeumeul-geudaeege"
+        "september-blue"
       ]
     },
     "kimi-ga-iru-hougaku-e": {
@@ -887,12 +1237,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -921,12 +1271,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -939,12 +1289,12 @@
     },
     "hello-hello-halloween": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -957,12 +1307,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -975,6 +1325,7 @@
     },
     "henpin-sareta-ningen": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
         "iine-sougisha",
         "family-portrait",
         "zennin-saiban",
@@ -991,24 +1342,25 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "iine-sougisha",
         "zennin-saiban",
+        "aijo-to-iu-na-no-kubiwa",
         "chimpanzee-no-rakuen",
         "family-portrait",
-        "hello-hello-halloween",
-        "mahou-ga-toketemo"
+        "hello-hello-halloween"
       ]
     },
     "kinmokusei-to-hoshifuru-yoru": {
       "sameArtist": [
+        "starlight-revolution",
         "gozen-0ji-no-cinderella",
         "last-dance-tonight",
         "anata-dake-no-savior"
@@ -1024,20 +1376,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
         "gozen-0ji-no-cinderella",
         "last-dance-tonight",
+        "starlight-revolution",
         "hello-hello-halloween",
-        "mahou-ga-toketemo",
-        "henpin-sareta-ningen"
+        "mahou-ga-toketemo"
       ]
     },
     "mahou-ga-toketemo": {
@@ -1060,12 +1412,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1078,12 +1430,12 @@
     },
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -1108,12 +1460,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -1126,12 +1478,12 @@
     },
     "yume-to-kaigo-to-watashitachi": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "kimi-wa-makenai",
@@ -1158,12 +1510,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -1176,6 +1528,7 @@
     },
     "gekka-no-chigiri": {
       "sameArtist": [
+        "ketsugetsu-no-houkou",
         "rinne-no-chigiri"
       ],
       "sameGenre": [
@@ -1200,12 +1553,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1218,6 +1571,7 @@
     },
     "gozen-0ji-no-cinderella": {
       "sameArtist": [
+        "starlight-revolution",
         "kinmokusei-to-hoshifuru-yoru",
         "last-dance-tonight",
         "anata-dake-no-savior"
@@ -1233,20 +1587,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
         "kinmokusei-to-hoshifuru-yoru",
         "last-dance-tonight",
+        "starlight-revolution",
         "akuyaku-de-ii",
-        "yume-to-kaigo-to-watashitachi",
-        "gekka-no-chigiri"
+        "yume-to-kaigo-to-watashitachi"
       ]
     },
     "akuyaku-de-ii": {
@@ -1276,12 +1630,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -1294,6 +1648,7 @@
     },
     "iine-sougisha": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "family-portrait",
         "zennin-saiban",
@@ -1314,30 +1669,30 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "zennin-saiban",
         "chimpanzee-no-rakuen",
         "family-portrait",
+        "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
-        "akuyaku-de-ii",
-        "updown"
+        "akuyaku-de-ii"
       ]
     },
     "updown": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -1364,12 +1719,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -1412,12 +1767,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1462,12 +1817,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1480,12 +1835,12 @@
     },
     "friendlikesong": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [
         "watashi-no-eranda-michi",
@@ -1507,12 +1862,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -1525,12 +1880,12 @@
     },
     "watashi-no-eranda-michi": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [
         "wakareta-michi",
@@ -1556,12 +1911,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -1574,12 +1929,12 @@
     },
     "tatta-hitori-no-kimi-e": {
       "sameArtist": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "kokoro-ni-nokoru-takaramono"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [
         "sedai-wo-koete-mama-e",
@@ -1606,12 +1961,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -1638,12 +1993,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -1656,12 +2011,12 @@
     },
     "taipa-nante-shiranakatta": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -1683,12 +2038,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -1701,6 +2056,7 @@
     },
     "family-portrait": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
         "zennin-saiban",
@@ -1725,12 +2081,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -1767,12 +2123,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -1785,12 +2141,12 @@
     },
     "natsu-ga-owaru-made-soba-ni-ite": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1803,12 +2159,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "caramel",
@@ -1821,12 +2177,12 @@
     },
     "caramel": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1839,12 +2195,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -1875,12 +2231,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -1893,12 +2249,12 @@
     },
     "kimi-wa-makenai": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "yume-to-kaigo-to-watashitachi",
@@ -1925,12 +2281,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -1966,12 +2322,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1984,6 +2340,7 @@
     },
     "last-dance-tonight": {
       "sameArtist": [
+        "starlight-revolution",
         "kinmokusei-to-hoshifuru-yoru",
         "gozen-0ji-no-cinderella",
         "anata-dake-no-savior"
@@ -2013,12 +2370,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -2031,12 +2388,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -2063,12 +2420,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -2113,12 +2470,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -2131,12 +2488,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2163,12 +2520,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2181,6 +2538,7 @@
     },
     "anata-dake-no-savior": {
       "sameArtist": [
+        "starlight-revolution",
         "kinmokusei-to-hoshifuru-yoru",
         "gozen-0ji-no-cinderella",
         "last-dance-tonight"
@@ -2210,12 +2568,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -2228,6 +2586,7 @@
     },
     "wasureji-no-hito": {
       "sameArtist": [
+        "furinkazan",
         "wasurenai-kokoro"
       ],
       "sameGenre": [
@@ -2248,30 +2607,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
         "false-identity",
         "sedai-wo-koete-mama-e",
         "kimi-wa-hanabi",
-        "hajimemashite-kiseki",
-        "anata-dake-no-savior"
+        "furinkazan",
+        "hajimemashite-kiseki"
       ]
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "without-worrying",
@@ -2298,12 +2657,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -2345,12 +2704,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -2363,6 +2722,7 @@
     },
     "zennin-saiban": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
         "family-portrait",
@@ -2386,20 +2746,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
         "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
-        "henpin-sareta-ningen",
-        "one-more-kiss"
+        "aijo-to-iu-na-no-kubiwa",
+        "henpin-sareta-ningen"
       ]
     },
     "one-more-kiss": {
@@ -2436,12 +2796,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -2483,12 +2843,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -2501,12 +2861,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2533,12 +2893,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2579,12 +2939,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -2597,6 +2957,7 @@
     },
     "chimpanzee-no-rakuen": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
         "family-portrait",
@@ -2620,30 +2981,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "zennin-saiban",
         "iine-sougisha",
         "family-portrait",
         "boukyaku-no-ikimono",
-        "henpin-sareta-ningen",
-        "koisuru-maharaja"
+        "aijo-to-iu-na-no-kubiwa",
+        "henpin-sareta-ningen"
       ]
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "without-worrying",
@@ -2670,12 +3031,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -2718,12 +3079,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -2763,12 +3124,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -2804,12 +3165,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -2822,6 +3183,7 @@
     },
     "wasurenai-kokoro": {
       "sameArtist": [
+        "furinkazan",
         "wasureji-no-hito"
       ],
       "sameGenre": [
@@ -2843,12 +3205,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -2856,17 +3218,17 @@
         "kimi-wa-hanabi",
         "false-identity",
         "family-portrait",
-        "namaste-galaxy"
+        "furinkazan"
       ]
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2893,12 +3255,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2939,12 +3301,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -2989,12 +3351,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -3034,12 +3396,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -3052,12 +3414,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -3084,12 +3446,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -3102,12 +3464,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3134,12 +3496,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3152,12 +3514,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -3184,12 +3546,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -3202,12 +3564,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -3231,12 +3593,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -3279,12 +3641,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -3297,12 +3659,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -3329,12 +3691,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -3347,12 +3709,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3379,12 +3741,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3397,12 +3759,12 @@
     },
     "mia": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3429,12 +3791,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3447,12 +3809,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3479,12 +3841,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3497,12 +3859,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3529,12 +3891,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3547,12 +3909,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -3579,12 +3941,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -3597,12 +3959,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -3629,12 +3991,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -3647,12 +4009,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -3679,12 +4041,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -3697,12 +4059,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -3729,12 +4091,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -3747,12 +4109,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "mirai-no-ashioto",
+        "hyper-romance-dawn",
+        "tenjo-tenge-yuiga-dokuson",
+        "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined",
-        "renkinku",
-        "renai-taishogai-kari",
-        "eternity-of-flower-words"
+        "koi-no-tochu"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -3779,12 +4141,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "uchira-saikyo-jane"
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "ato-5fun-dake",
+        "tenjo-tenge-yuiga-dokuson"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

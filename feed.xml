@@ -2,12 +2,107 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.suzukaofficial.com/</id>
   <title>SUZUKA Official Music Updates</title>
-  <updated>2026-10-13T20:13:57+09:00</updated>
+  <updated>2026-10-18T13:04:33+09:00</updated>
   <link rel="self" href="https://www.suzukaofficial.com/feed.xml" />
   <link rel="alternate" href="https://www.suzukaofficial.com/" />
   <author>
     <name>SUZUKA</name>
   </author>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/mirai-no-ashioto/</id>
+    <title>榎本魅愛「ミライノアシオト」</title>
+    <updated>2026-10-18T13:04:33+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/mirai-no-ashioto/" />
+    <category term="release" />
+    <summary>榎本魅愛「ミライノアシオト」。2026-10-18にストリーミング配信開始。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-17T20:14:54+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/ato-5fun-dake/</id>
+    <title>妃みちる「あと5分だけ」</title>
+    <updated>2026-10-17T20:14:54+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/ato-5fun-dake/" />
+    <category term="release" />
+    <summary>妃みちる「あと5分だけ」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-17T20:00:10+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/ketsugetsu-no-houkou/</id>
+    <title>VEILFANG「血月ノ咆哮」</title>
+    <updated>2026-10-17T20:00:10+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/ketsugetsu-no-houkou/" />
+    <category term="release" />
+    <summary>VEILFANG「血月ノ咆哮」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-17T20:00:06+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/hyper-romance-dawn/</id>
+    <title>榎本魅愛「ハイパー・ロマンス・ドーン！」</title>
+    <updated>2026-10-17T20:00:06+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/hyper-romance-dawn/" />
+    <category term="release" />
+    <summary>榎本魅愛「ハイパー・ロマンス・ドーン！」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-17T19:47:11+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/furinkazan/</id>
+    <title>朝霧しのぶ「風林火山」</title>
+    <updated>2026-10-17T19:47:11+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/furinkazan/" />
+    <category term="release" />
+    <summary>朝霧しのぶ「風林火山」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-15T20:05:53+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/starlight-revolution/</id>
+    <title>ASTERIA「STARLIGHT REVOLUTION」</title>
+    <updated>2026-10-15T20:05:53+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/starlight-revolution/" />
+    <category term="release" />
+    <summary>ASTERIA「STARLIGHT REVOLUTION」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/tenjo-tenge-yuiga-dokuson/</id>
+    <title>榎本魅愛「天上天下唯我独尊」</title>
+    <updated>2026-10-15T21:36:16+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/tenjo-tenge-yuiga-dokuson/" />
+    <category term="release" />
+    <summary>榎本魅愛「天上天下唯我独尊」。2026-10-15配信開始。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-14T20:00:10+09:00</published>
+    <id>https://www.suzukaofficial.com/releases/aijo-to-iu-na-no-kubiwa/</id>
+    <title>NOX「愛情という名の首輪」</title>
+    <updated>2026-10-14T20:00:10+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/aijo-to-iu-na-no-kubiwa/" />
+    <category term="release" />
+    <summary>NOX「愛情という名の首輪」の公式音源をYouTubeで公開。</summary>
+  </entry>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi-album/</id>
+    <title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」</title>
+    <updated>2026-10-15T21:36:16+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/watashi-no-eranda-michi-album/" />
+    <category term="release" />
+    <summary>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」。2026-10-14配信開始。</summary>
+  </entry>
+  <entry>
+    <id>https://www.suzukaofficial.com/releases/kisetsuhazure-no-santa-claus/</id>
+    <title>榎本魅愛「季節外れのサンタクロース」</title>
+    <updated>2026-10-18T13:04:33+09:00</updated>
+    <link href="https://www.suzukaofficial.com/releases/kisetsuhazure-no-santa-claus/" />
+    <category term="release" />
+    <summary>榎本魅愛「季節外れのサンタクロース」。2026-10-14にストリーミング配信開始。</summary>
+  </entry>
+  <entry>
+    <published>2026-10-13T23:32:20+09:00</published>
+    <id>https://www.suzukaofficial.com/news/official-note-n55b00eef34b2/</id>
+    <title>🌸「好き」を百万回伝えたい。榎本魅愛『百万告』実写映像を公開！</title>
+    <updated>2026-10-13T23:32:20+09:00</updated>
+    <link href="https://www.suzukaofficial.com/news/official-note-n55b00eef34b2/" />
+    <category term="news" />
+    <summary>榎本魅愛「百万告」の実写映像について、SUZUKA公式noteで紹介しています。記事全文はnoteでご覧いただけます。</summary>
+  </entry>
   <entry>
     <published>2026-10-13T20:00:09+09:00</published>
     <id>https://www.suzukaofficial.com/releases/ame-nochi-anata/</id>
@@ -15,7 +110,7 @@
     <updated>2026-10-13T20:00:09+09:00</updated>
     <link href="https://www.suzukaofficial.com/releases/ame-nochi-anata/" />
     <category term="release" />
-    <summary>妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。</summary>
+    <summary>妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。2026-10-14にストリーミング配信開始。</summary>
   </entry>
   <entry>
     <published>2026-10-12T20:00:07+09:00</published>

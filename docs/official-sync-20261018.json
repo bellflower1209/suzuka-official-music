@@ -1,0 +1,496 @@
+{
+  "verifiedAt": "2026-10-18T13:04:33+09:00",
+  "sourceMain": "2f6c97b206232a69bd2b50d7e628eab2ad9af731",
+  "publishedBaselineDigest": "f13be24fa6e42afc0ff8e60dc78220fc3bc413fe7ed322fe7290c807e39c9518",
+  "addedReleases": [
+    "ketsugetsu-no-houkou",
+    "furinkazan",
+    "starlight-revolution",
+    "aijo-to-iu-na-no-kubiwa",
+    "hyper-romance-dawn",
+    "ato-5fun-dake"
+  ],
+  "addedVideoVersions": [
+    {
+      "releaseSlug": "hyakumankoku",
+      "videoId": "h0k8ZihSFfY"
+    }
+  ],
+  "addedShorts": [
+    "qe3CP3UDjtY",
+    "GhXqMVSNpYc",
+    "asF_vJS5IRI",
+    "mWb-asz4I1I",
+    "soDiJa8DWY0",
+    "fxM4GjXL5jc",
+    "zk5Br_3b7H4",
+    "pt0ABkT8GB0",
+    "8tuNeF6AXsE",
+    "gYwbqMavmdI",
+    "xbEQtefgI0g"
+  ],
+  "addedNews": [
+    "official-note-n55b00eef34b2"
+  ],
+  "promotedStreaming": [
+    "tenjo-tenge-yuiga-dokuson",
+    "watashi-no-eranda-michi-album"
+  ],
+  "updatedStreaming": [
+    "ame-nochi-anata"
+  ],
+  "videos": [
+    {
+      "id": "OIMH2hMmwFk",
+      "title": "【音源先行公開】血月ノ咆哮｜VEILFANG 🐺🦊 神に抗う白狼と九尾狐、禁断の覚醒。",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234810,
+      "duration": 240
+    },
+    {
+      "id": "aduGM9eSIj4",
+      "title": "【公式音源】風林火山／朝霧しのぶ｜戦国の魂を歌う本格演歌【Official Audio】",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234031,
+      "duration": 283
+    },
+    {
+      "id": "jo_UpgQ2dok",
+      "title": "【新曲】ASTERIA – STARLIGHT REVOLUTION｜壊せ、限界。超えろ、運命。【Official Audio】",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792062353,
+      "duration": 275
+    },
+    {
+      "id": "nCz9CzUed2s",
+      "title": "【NOX】愛情という名の首輪｜愛していたはずなのに、飼い慣らされていた。【Official Audio】",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791975610,
+      "duration": 250
+    },
+    {
+      "id": "h0k8ZihSFfY",
+      "title": "【デビュー曲】「好き」は一回じゃ足りない。榎本魅愛「百万告」Official Music Video",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791975625,
+      "duration": 295
+    },
+    {
+      "id": "gYwbqMavmdI",
+      "title": "【涙腺崩壊】人生をやり直しても、またあなたを選ぶ。☔❤️ Apple Music配信開始！#Shorts",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234839,
+      "duration": 8
+    },
+    {
+      "id": "0HaUS2f8MSg",
+      "title": "【新曲先行公開】あと5分だけ ❄️「会ったばかりなのに、もう会いたい。」｜妃みちる【Official Audio】",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792235694,
+      "duration": 378
+    },
+    {
+      "id": "soDiJa8DWY0",
+      "title": "【NOX】愛していたはずが、飼い慣らされていた。🥀『愛情という名の首輪』10/14 20時公開 #shorts",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791975607,
+      "duration": 31
+    },
+    {
+      "id": "qe3CP3UDjtY",
+      "title": "【Apple Music配信】神代煌牙『一護一逢〜再開の約束〜』｜さようならは、終わりじゃない。#Shorts",
+      "channel_id": "UCtRwFzemyx508t7yXnpCVKA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234832,
+      "duration": 8
+    },
+    {
+      "id": "zk5Br_3b7H4",
+      "title": "【撮影映像】榎本魅愛「百万告」歌の1番を公開｜春の桜並木で届ける恋の物語",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791889219,
+      "duration": 113
+    },
+    {
+      "id": "GhXqMVSNpYc",
+      "title": "【風林火山】魂を震わせる戦国演歌🔥｜朝霧しのぶ #Shorts",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234961,
+      "duration": 35
+    },
+    {
+      "id": "mWb-asz4I1I",
+      "title": "【衝撃の30秒🔥】ASTERIA – STARLIGHT REVOLUTION ⚡ 続きはフル音源で！ #Shorts",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792062602,
+      "duration": 30
+    },
+    {
+      "id": "UQNSDupZlzo",
+      "title": "【榎本魅愛】ハイパー・ロマンス・ドーン！♡｜好きで、好きで、好きで、止まらない！【Official Audio】",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234806,
+      "duration": 344
+    },
+    {
+      "id": "8tuNeF6AXsE",
+      "title": "「あと5分だけ…」離れたくない夜❄️💗 #妃みちる #恋愛ソング",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792235859,
+      "duration": 25
+    },
+    {
+      "id": "xbEQtefgI0g",
+      "title": "【泣ける恋愛ソング】人生をやり直しても、またあなたを選ぶ。☔❤️ #Shorts",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791889204,
+      "duration": 40
+    },
+    {
+      "id": "fxM4GjXL5jc",
+      "title": "好きで、好きで、好きで、止まらない！💗 榎本魅愛『ハイパー・ロマンス・ドーン！』#Shorts",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234815,
+      "duration": 37
+    },
+    {
+      "id": "pt0ABkT8GB0",
+      "title": "タイパなんて知らなかった。｜榎本魅愛 #Shorts",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1791889210,
+      "duration": 31
+    },
+    {
+      "id": "asF_vJS5IRI",
+      "title": "【音源先行公開】血月ノ咆哮｜VEILFANG 🐺🦊 神に抗う白狼と九尾狐、禁断の覚醒。 short",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "availability": "public",
+      "live_status": "not_live",
+      "timestamp": 1792234809,
+      "duration": 29
+    }
+  ],
+  "stores": [
+    {
+      "key": "apple-mia",
+      "url": "https://www.tunecore.co.jp/to/apple_music/1991272",
+      "finalUrl": "https://music.apple.com/jp/album/i-alone-reign-supreme-single/6819301416?at=10l7qr",
+      "status": 200,
+      "bytes": 188086
+    },
+    {
+      "key": "apple-michiru",
+      "url": "https://www.tunecore.co.jp/to/apple_music/1999393",
+      "finalUrl": "https://music.apple.com/jp/album/the-path-i-chose-eight-songs-from-my-heart-to-yours/6821521645?at=10l7qr",
+      "status": 200,
+      "bytes": 207375
+    },
+    {
+      "key": "apple-ame",
+      "url": "https://www.tunecore.co.jp/to/apple_music/2000533",
+      "finalUrl": "https://music.apple.com/jp/album/after-the-rain-you-single/6821536111?at=10l7qr",
+      "status": 200,
+      "bytes": 173306
+    }
+  ],
+  "instagram": {
+    "url": "https://www.instagram.com/suzuka12090511/",
+    "profileVerified": true,
+    "activityStatus": "unverified-login-limited",
+    "newPostsImported": 0
+  },
+  "idPolicy": "New IDs are local catalog route keys, not asserted ISRC or distributor identifiers.",
+  "counts": {
+    "publishedWorks": 99,
+    "streamingPlans": 0,
+    "artists": 12,
+    "registeredShorts": 92
+  },
+  "addedStreamingReleases": [
+    "kisetsuhazure-no-santa-claus",
+    "mirai-no-ashioto"
+  ],
+  "additionalStreamingUpdates": [
+    "renkinku",
+    "moshimo-ashita-hajimemashite-ni-natte-mo",
+    "watashi-no-eranda-michi",
+    "uchira-saikyo-jane",
+    "hyper-romance-dawn",
+    "hello-life"
+  ],
+  "additionalStreamingEvidence": [
+    {
+      "code": "6v8ZcMXn",
+      "title": "恋禁区 by 榎本魅愛",
+      "date": "2026-10-10",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1979907/itd1979907.png",
+      "linkcore": "https://linkco.re/6v8ZcMXn",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1979907",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/renkinku-love-restricted-area-single/6817239768",
+      "albumTitle": "恋禁区 - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-10-10",
+      "tracks": [
+        "恋禁区"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "6c3639c3c62e6fe0af83ce7cdf0be8283609af50cb2ebacfb54896f63c6c5ce4",
+      "releaseSlug": "renkinku"
+    },
+    {
+      "code": "YvC6ePeT",
+      "title": "もしも明日、はじめましてになっても by 榎本魅愛",
+      "date": "2026-10-05",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1981160/itd1981160.png",
+      "linkcore": "https://linkco.re/YvC6ePeT",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1981160",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/even-if-tomorrow-we-meet-for-the-first-time-single/6817641665",
+      "albumTitle": "もしも明日、はじめましてになっても - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-10-05",
+      "tracks": [
+        "もしも明日、はじめましてになっても"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "73b2b9c0e8db4e311696d55859c32d0839217760a6bbafa72604c5248cb30d7e",
+      "releaseSlug": "moshimo-ashita-hajimemashite-ni-natte-mo"
+    },
+    {
+      "code": "yDacGx2b",
+      "title": "私の選んだ道 by 妃みちる",
+      "date": "2026-10-13",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1991055/itd1991055.png",
+      "linkcore": "https://linkco.re/yDacGx2b",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1991055",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/my-chosen-path-single/6819201045",
+      "albumTitle": "私の選んだ道 - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B/6813760878",
+          "name": "妃みちる"
+        }
+      ],
+      "releaseDate": "2026-10-13",
+      "tracks": [
+        "私の選んだ道"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "7ed797708668c9b20e7dc9396d277b7841da0f3be28310e8c90d6ec8dbf3d43b",
+      "releaseSlug": "watashi-no-eranda-michi"
+    },
+    {
+      "code": "gZyVd49Q",
+      "title": "季節外れのサンタクロース by 榎本魅愛",
+      "date": "2026-10-14",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1991150/itd1991150.png",
+      "linkcore": "https://linkco.re/gZyVd49Q",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1991150",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/an-out-of-season-santa-claus-single/6819299495",
+      "albumTitle": "季節外れのサンタクロース - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-10-14",
+      "tracks": [
+        "季節外れのサンタクロース"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "ea58d5be8301ff058f8fdee8be60a76385f20c54c768a4106db257b080e96cf9",
+      "releaseSlug": "kisetsuhazure-no-santa-claus"
+    },
+    {
+      "code": "66hxyRr8",
+      "title": "ミライノアシオト by 榎本魅愛",
+      "date": "2026-10-18",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2005769/itd2005769.png",
+      "linkcore": "https://linkco.re/66hxyRr8",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/2005769",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/footsteps-toward-tomorrow-single/6822633181",
+      "albumTitle": "ミライノアシオト - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-10-18",
+      "tracks": [
+        "ミライノアシオト"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "c086ee1f9a58c677e98a726b118c31cb7340c97435d97cea5ec6d60934dd4984",
+      "releaseSlug": "mirai-no-ashioto"
+    },
+    {
+      "code": "8YHNGz45",
+      "title": "ウチら最強じゃね！ by 妃みちる",
+      "date": "2026-10-12",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1989694/itd1989694.png",
+      "linkcore": "https://linkco.re/8YHNGz45",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1989694",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/were-unstoppable-single/6819200811",
+      "albumTitle": "ウチら最強じゃね! - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B/6813760878",
+          "name": "妃みちる"
+        }
+      ],
+      "releaseDate": "2026-10-12",
+      "tracks": [
+        "ウチら最強じゃね!"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "d724c72c5a11bdc7d0c0bf1b17fc93ad22a8de469931430e7d7534e0f70e22b7",
+      "releaseSlug": "uchira-saikyo-jane"
+    },
+    {
+      "code": "QZ4CBfPC",
+      "title": "ハイパー・ロマンス・ドーン！ by 榎本魅愛",
+      "date": "2026-10-17",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2005750/itd2005750.png",
+      "linkcore": "https://linkco.re/QZ4CBfPC",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/2005750",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/hyper-romance-dawn-single/6822634461",
+      "albumTitle": "ハイパー・ロマンス・ドーン! - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-10-17",
+      "tracks": [
+        "ハイパー・ロマンス・ドーン!"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "4c2a737643b3ee3f59d59dfce854e85b61442bd1b9ec5c374deb078ffeb1bd40",
+      "releaseSlug": "hyper-romance-dawn"
+    },
+    {
+      "code": "FvU9t7px",
+      "title": "夢と、介護と、わたしたち by 榎本魅愛",
+      "date": "2026-09-29",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1972974/itd1972974.png",
+      "linkcore": "https://linkco.re/FvU9t7px",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1972974",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/dreams-care-and-us-single/6815968525",
+      "albumTitle": "夢と、介護と、わたしたち - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E6%A6%8E%E6%9C%AC%E9%AD%85%E6%84%9B/6810503731",
+          "name": "榎本魅愛"
+        }
+      ],
+      "releaseDate": "2026-09-29",
+      "tracks": [
+        "夢と、介護と、わたしたち"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "145717444264413e16f19b0db34c25d29bc83c7665ef769fac7f9a0f2cffd45b"
+    },
+    {
+      "code": "66ddFqzd",
+      "title": "HELLO, LIFE! by 妃みちる",
+      "date": "2026-09-29",
+      "jacket": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1975332/itd1975332.png",
+      "linkcore": "https://linkco.re/66ddFqzd",
+      "appleRedirect": "https://www.tunecore.co.jp/to/apple_music/1975332",
+      "httpStatus": 200,
+      "finalUrl": "https://music.apple.com/jp/album/hello-life-single/6816494513",
+      "albumTitle": "HELLO, LIFE! - Single",
+      "artist": [
+        {
+          "@type": "MusicGroup",
+          "url": "https://music.apple.com/jp/artist/%E5%A6%83%E3%81%BF%E3%81%A1%E3%82%8B/6813760878",
+          "name": "妃みちる"
+        }
+      ],
+      "releaseDate": "2026-09-29",
+      "tracks": [
+        "HELLO, LIFE!"
+      ],
+      "listenAction": true,
+      "previewMetadata": true,
+      "sha256": "017105c589e0bd6d69098c165952ed725d53fbcf0115b155291bdee4708c6f17",
+      "releaseSlug": "hello-life"
+    }
+  ],
+  "pendingOfficialMatches": [
+    {
+      "source": "https://linkco.re/FvU9t7px",
+      "title": "夢と、介護と、わたしたち by 榎本魅愛",
+      "reason": "Canonical title differs; work identity not yet established. No automatic merge."
+    }
+  ]
+}

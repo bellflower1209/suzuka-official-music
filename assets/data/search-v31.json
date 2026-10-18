@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T20:13:57+09:00",
+  "updatedAt": "2026-10-18T13:04:33+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -28,8 +28,178 @@
     {
       "type": "Release",
       "contentType": "release",
+      "title": "ミライノアシオト",
+      "description": "榎本魅愛「ミライノアシオト」。2026-10-18にストリーミング配信開始。",
+      "url": "releases/mirai-no-ashioto/",
+      "keywords": [
+        "榎本魅愛",
+        "ミライノアシオト",
+        "榎本魅愛",
+        "ミライノアシオト",
+        "榎本魅愛",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "あと5分だけ",
+      "description": "妃みちる「あと5分だけ」の公式音源をYouTubeで公開。",
+      "url": "releases/ato-5fun-dake/",
+      "keywords": [
+        "妃みちる",
+        "あと5分だけ",
+        "妃みちる",
+        "あと5分だけ",
+        "妃みちる",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "血月ノ咆哮",
+      "description": "VEILFANG「血月ノ咆哮」の公式音源をYouTubeで公開。",
+      "url": "releases/ketsugetsu-no-houkou/",
+      "keywords": [
+        "VEILFANG",
+        "血月ノ咆哮",
+        "VEILFANG",
+        "血月ノ咆哮",
+        "VEILFANG",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "ハイパー・ロマンス・ドーン！",
+      "description": "榎本魅愛「ハイパー・ロマンス・ドーン！」の公式音源をYouTubeで公開。",
+      "url": "releases/hyper-romance-dawn/",
+      "keywords": [
+        "榎本魅愛",
+        "ハイパー・ロマンス・ドーン！",
+        "榎本魅愛",
+        "ハイパー・ロマンス・ドーン！",
+        "榎本魅愛",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "風林火山",
+      "description": "朝霧しのぶ「風林火山」の公式音源をYouTubeで公開。",
+      "url": "releases/furinkazan/",
+      "keywords": [
+        "朝霧しのぶ",
+        "風林火山",
+        "朝霧しのぶ",
+        "風林火山",
+        "朝霧しのぶ",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "STARLIGHT REVOLUTION",
+      "description": "ASTERIA「STARLIGHT REVOLUTION」の公式音源をYouTubeで公開。",
+      "url": "releases/starlight-revolution/",
+      "keywords": [
+        "ASTERIA",
+        "STARLIGHT REVOLUTION",
+        "ASTERIA",
+        "STARLIGHT REVOLUTION",
+        "ASTERIA",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "天上天下唯我独尊",
+      "description": "榎本魅愛「天上天下唯我独尊」。2026-10-15配信開始。",
+      "url": "releases/tenjo-tenge-yuiga-dokuson/",
+      "keywords": [
+        "榎本魅愛",
+        "天上天下唯我独尊",
+        "榎本魅愛",
+        "天上天下唯我独尊",
+        "榎本魅愛",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "愛情という名の首輪",
+      "description": "NOX「愛情という名の首輪」の公式音源をYouTubeで公開。",
+      "url": "releases/aijo-to-iu-na-no-kubiwa/",
+      "keywords": [
+        "NOX",
+        "愛情という名の首輪",
+        "NOX",
+        "愛情という名の首輪",
+        "NOX",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "私の選んだ道 (あなたに届けたい8つの歌)",
+      "description": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」。2026-10-14配信開始。",
+      "url": "releases/watashi-no-eranda-michi-album/",
+      "keywords": [
+        "妃みちる",
+        "私の選んだ道 (あなたに届けたい8つの歌)",
+        "妃みちる",
+        "私の選んだ道 (あなたに届けたい8つの歌)",
+        "妃みちる",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "季節外れのサンタクロース",
+      "description": "榎本魅愛「季節外れのサンタクロース」。2026-10-14にストリーミング配信開始。",
+      "url": "releases/kisetsuhazure-no-santa-claus/",
+      "keywords": [
+        "榎本魅愛",
+        "季節外れのサンタクロース",
+        "榎本魅愛",
+        "季節外れのサンタクロース",
+        "榎本魅愛",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
       "title": "雨のち貴方",
-      "description": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。ストリーミング配信予定日は2026-10-14。",
+      "description": "妃みちる「雨のち貴方」のOfficial Audioを公式YouTubeで公開。2026-10-14にストリーミング配信開始。",
       "url": "releases/ame-nochi-anata/",
       "keywords": [
         "妃みちる",
@@ -2647,34 +2817,6 @@
       ]
     },
     {
-      "type": "Upcoming",
-      "contentType": "upcoming",
-      "title": "天上天下唯我独尊",
-      "description": "榎本魅愛「天上天下唯我独尊」は2026-10-15に配信予定。配信開始の確認後に公開済み作品へ更新します。",
-      "url": "releases/tenjo-tenge-yuiga-dokuson/",
-      "keywords": [
-        "榎本魅愛",
-        "天上天下唯我独尊",
-        "榎本魅愛",
-        "Upcoming",
-        "リリース予定"
-      ]
-    },
-    {
-      "type": "Upcoming",
-      "contentType": "upcoming",
-      "title": "私の選んだ道 (あなたに届けたい8つの歌)",
-      "description": "妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」は2026-10-14に配信予定。配信開始の確認後に公開済み作品へ更新します。",
-      "url": "releases/watashi-no-eranda-michi-album/",
-      "keywords": [
-        "妃みちる",
-        "私の選んだ道 (あなたに届けたい8つの歌)",
-        "妃みちる",
-        "Upcoming",
-        "リリース予定"
-      ]
-    },
-    {
       "type": "Artist",
       "contentType": "artist",
       "title": "朝霧しのぶ",
@@ -3881,6 +4023,149 @@
       ]
     },
     {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【Apple Music配信】神代煌牙『一護一逢〜再開の約束〜』｜さようならは、終わりじゃない。#Shorts",
+      "description": "神代煌牙の公式YouTube Shorts。",
+      "url": "artists/koga-kamishiro/#short-qe3CP3UDjtY",
+      "keywords": [
+        "神代煌牙",
+        "ichigo-ichihou-saikai-no-yakusoku",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【風林火山】魂を震わせる戦国演歌🔥｜朝霧しのぶ #Shorts",
+      "description": "朝霧しのぶの公式YouTube Shorts。",
+      "url": "artists/asagiri-shinobu/#short-GhXqMVSNpYc",
+      "keywords": [
+        "朝霧しのぶ",
+        "furinkazan",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【音源先行公開】血月ノ咆哮｜VEILFANG 🐺🦊 神に抗う白狼と九尾狐、禁断の覚醒。 short",
+      "description": "VEILFANGの公式YouTube Shorts。",
+      "url": "artists/veilfang/#short-asF_vJS5IRI",
+      "keywords": [
+        "VEILFANG",
+        "ketsugetsu-no-houkou",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【衝撃の30秒🔥】ASTERIA – STARLIGHT REVOLUTION ⚡ 続きはフル音源で！ #Shorts",
+      "description": "ASTERIAの公式YouTube Shorts。",
+      "url": "artists/asteria/#short-mWb-asz4I1I",
+      "keywords": [
+        "ASTERIA",
+        "starlight-revolution",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【NOX】愛していたはずが、飼い慣らされていた。🥀『愛情という名の首輪』10/14 20時公開 #shorts",
+      "description": "NOXの公式YouTube Shorts。",
+      "url": "artists/nox/#short-soDiJa8DWY0",
+      "keywords": [
+        "NOX",
+        "aijo-to-iu-na-no-kubiwa",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "好きで、好きで、好きで、止まらない！💗 榎本魅愛『ハイパー・ロマンス・ドーン！』#Shorts",
+      "description": "榎本魅愛の公式YouTube Shorts。",
+      "url": "artists/enomoto-mia/#short-fxM4GjXL5jc",
+      "keywords": [
+        "榎本魅愛",
+        "hyper-romance-dawn",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【撮影映像】榎本魅愛「百万告」歌の1番を公開｜春の桜並木で届ける恋の物語",
+      "description": "榎本魅愛の公式YouTube Shorts。",
+      "url": "artists/enomoto-mia/#short-zk5Br_3b7H4",
+      "keywords": [
+        "榎本魅愛",
+        "hyakumankoku",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "タイパなんて知らなかった。｜榎本魅愛 #Shorts",
+      "description": "榎本魅愛の公式YouTube Shorts。",
+      "url": "artists/enomoto-mia/#short-pt0ABkT8GB0",
+      "keywords": [
+        "榎本魅愛",
+        "",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "「あと5分だけ…」離れたくない夜❄️💗 #妃みちる #恋愛ソング",
+      "description": "妃みちるの公式YouTube Shorts。",
+      "url": "artists/michiru/#short-8tuNeF6AXsE",
+      "keywords": [
+        "妃みちる",
+        "ato-5fun-dake",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【涙腺崩壊】人生をやり直しても、またあなたを選ぶ。☔❤️ Apple Music配信開始！#Shorts",
+      "description": "妃みちるの公式YouTube Shorts。",
+      "url": "artists/michiru/#short-gYwbqMavmdI",
+      "keywords": [
+        "妃みちる",
+        "ame-nochi-anata",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【泣ける恋愛ソング】人生をやり直しても、またあなたを選ぶ。☔❤️ #Shorts",
+      "description": "妃みちるの公式YouTube Shorts。",
+      "url": "artists/michiru/#short-xbEQtefgI0g",
+      "keywords": [
+        "妃みちる",
+        "ame-nochi-anata",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
       "type": "News",
       "contentType": "news",
       "title": "YouTubeチャンネル運用変更のお知らせ",
@@ -4799,6 +5084,17 @@
       "title": "🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁",
       "description": "「🚫忘れたい恋ほど、心は規制無視。榎本魅愛「恋禁区。」FULL MV解禁」をSUZUKA公式noteに公開しました。記事全文はnoteでご覧いただけます。",
       "url": "news/official-note-n561715644520/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "🌸「好き」を百万回伝えたい。榎本魅愛『百万告』実写映像を公開！",
+      "description": "榎本魅愛「百万告」の実写映像について、SUZUKA公式noteで紹介しています。記事全文はnoteでご覧いただけます。",
+      "url": "news/official-note-n55b00eef34b2/",
       "keywords": [
         "enomoto-mia",
         ""

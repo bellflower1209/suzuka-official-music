@@ -21,16 +21,16 @@
     "latest": {
       "label": "新着作品TOP10",
       "items": [
-        "ame-nochi-anata",
-        "mikansei-no-kakumei",
-        "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "break-the-veil",
-        "amaterasu",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "koi-no-tochu"
+        "mirai-no-ashioto",
+        "ato-5fun-dake",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "starlight-revolution",
+        "tenjo-tenge-yuiga-dokuson",
+        "aijo-to-iu-na-no-kubiwa",
+        "watashi-no-eranda-michi-album",
+        "kisetsuhazure-no-santa-claus"
       ]
     },
     "love": {
@@ -92,16 +92,16 @@
       "label": "アーティスト公開作品数順",
       "items": [
         "enomoto-mia",
-        "koga-kamishiro",
         "michiru",
-        "revive",
+        "koga-kamishiro",
         "nox",
+        "revive",
         "eclypse",
         "asteria",
-        "rangili",
-        "tetsuhige",
         "asagiri-shinobu",
         "veilfang",
+        "rangili",
+        "tetsuhige",
         "leon-vail"
       ]
     },

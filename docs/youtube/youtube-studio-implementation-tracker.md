@@ -6,6 +6,16 @@
 
 | 状態 | 作品 | アーティスト | YouTube | 時間 | 推奨タイトル | 説明欄 | ハッシュタグ・タグ | 固定コメント | AI使用申告・カテゴリ・サムネイル | 再生リスト | カード・表示時間・メッセージ | 終了画面 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 公開済み | ミライノアシオト | 榎本魅愛 | https://linkco.re/66hxyRr8 | 0:00 | ミライノアシオト｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | あと5分だけ | 妃みちる | https://www.youtube.com/watch?v=0HaUS2f8MSg | 6:18 | あと5分だけ｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 血月ノ咆哮 | VEILFANG | https://www.youtube.com/watch?v=OIMH2hMmwFk | 4:00 | 血月ノ咆哮｜VEILFANG【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | ハイパー・ロマンス・ドーン！ | 榎本魅愛 | https://www.youtube.com/watch?v=UQNSDupZlzo | 5:44 | ハイパー・ロマンス・ドーン！｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 風林火山 | 朝霧しのぶ | https://www.youtube.com/watch?v=aduGM9eSIj4 | 4:43 | 風林火山｜朝霧しのぶ【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | STARLIGHT REVOLUTION | ASTERIA | https://www.youtube.com/watch?v=jo_UpgQ2dok | 4:35 | STARLIGHT REVOLUTION｜ASTERIA【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 天上天下唯我独尊 | 榎本魅愛 | https://linkco.re/9U1eCaGv | 0:00 | 天上天下唯我独尊｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 愛情という名の首輪 | NOX | https://www.youtube.com/watch?v=nCz9CzUed2s | 4:10 | 愛情という名の首輪｜NOX【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 私の選んだ道 (あなたに届けたい8つの歌) | 妃みちる | https://linkco.re/Rq5BFPrU | 0:00 | 私の選んだ道 (あなたに届けたい8つの歌)｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
+| 公開済み | 季節外れのサンタクロース | 榎本魅愛 | https://linkco.re/gZyVd49Q | 0:00 | 季節外れのサンタクロース｜榎本魅愛【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 雨のち貴方 | 妃みちる | https://www.youtube.com/watch?v=LMg--k5FbrU | 6:38 | 雨のち貴方｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 未完成の革命 | RE:VIVE | https://www.youtube.com/watch?v=ee787y2wjNs | 3:41 | 未完成の革命｜RE:VIVE【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |
 | 公開済み | 誰かのために | 妃みちる | https://linkco.re/V5tf40p0 | 0:00 | 誰かのために｜妃みちる【Official Music Video】 | 提案済み | 提案済み | 提案済み | 提案済み | 未確認 | 提案済み | 提案済み |

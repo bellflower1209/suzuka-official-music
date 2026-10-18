@@ -2,6 +2,7 @@
 """Audit the 2026-10-12 official sync evidence and immutable catalog fields."""
 import hashlib
 import json
+import argparse
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
@@ -13,8 +14,8 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
 
 
-def main():
-    cms = json.loads((ROOT / "assets/data/creator-cms.json").read_text())
+def main(cms_path=None):
+    cms = json.loads((cms_path or ROOT / "assets/data/creator-cms.json").read_text())
     report = json.loads((ROOT / "docs/official-sync-20261012.json").read_text())
     releases = {item["slug"]: item for item in cms["releases"]}
     artists = {item["slug"]: item for item in cms["artists"]}
@@ -134,4 +135,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--cms', type=Path, help='Explicit historical canonical snapshot for a dated evidence audit')
+    main(parser.parse_args().cms)

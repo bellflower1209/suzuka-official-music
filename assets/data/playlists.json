@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T20:13:57+09:00",
+  "updatedAt": "2026-10-18T13:04:33+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -237,6 +237,16 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "mirai-no-ashioto",
+        "ato-5fun-dake",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "starlight-revolution",
+        "tenjo-tenge-yuiga-dokuson",
+        "aijo-to-iu-na-no-kubiwa",
+        "watashi-no-eranda-michi-album",
+        "kisetsuhazure-no-santa-claus",
         "ame-nochi-anata",
         "mikansei-no-kakumei",
         "dareka-no-tameni",
@@ -246,17 +256,7 @@
         "amaterasu",
         "uchira-saikyo-jane",
         "anata-wo-omou-sore-dake-de",
-        "koi-no-tochu",
-        "ashita-yaru",
-        "mada-tetsu-wa-atsui",
-        "without-worrying-reimagined",
-        "renkinku",
-        "kokoro-ni-nokoru-takaramono",
-        "renai-taishogai-kari",
-        "nando-umarekawattemo-reborn-oath",
-        "eternity-of-flower-words",
-        "hello-life",
-        "mata-kimi-ni-koi-wo-suru"
+        "koi-no-tochu"
       ],
       "count": 20
     },
@@ -269,6 +269,12 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "ato-5fun-dake",
+        "ketsugetsu-no-houkou",
+        "hyper-romance-dawn",
+        "furinkazan",
+        "starlight-revolution",
+        "aijo-to-iu-na-no-kubiwa",
         "ame-nochi-anata",
         "mikansei-no-kakumei",
         "ichigo-ichihou-saikai-no-yakusoku",
@@ -282,13 +288,7 @@
         "renkinku",
         "hello-life",
         "september-blue",
-        "over-drive",
-        "rinne-no-chigiri",
-        "kimi-ga-iru-hougaku-e",
-        "dalkomhan-jugeumeul-geudaeege",
-        "hello-hello-halloween",
-        "henpin-sareta-ningen",
-        "kinmokusei-to-hoshifuru-yoru"
+        "over-drive"
       ],
       "count": 20
     }
