@@ -49,7 +49,8 @@ jobs:
           python3 scripts/audit_celestial_cinema.py
           python3 scripts/audit_sync.py
           python3 scripts/test_secondary_video_dates.py
-          python3 scripts/audit_official_sync_20261012.py
+          python3 scripts/audit_official_sync_20261012.py --cms docs/official-sync-20261018-baseline.json
+          python3 scripts/audit_official_sync_20261018.py
           python3 scripts/audit_official_video_coverage.py
           python3 scripts/audit_seo.py
           node --check assets/analytics.js
