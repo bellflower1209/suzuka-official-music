@@ -1,25 +1,95 @@
 {
-  "format": "suzuka-public-release-v1",
-  "artifactDigest": "e7a5ef283b8babfecc594ac4730e3225ff64a97c01ac566ce23a1a18ea48b753",
-  "fileCount": 779,
-  "contentBytes": 119715862,
-  "archiveBytes": 108303847,
-  "archiveSha256": "c19f452d356391245f384b0f8d751341c16df5c61ddc25ae2bd1844799dd9354",
+  "archiveBytes": 108347391,
+  "archiveSha256": "0b9c01f0d64882cfcd251f6c67723600db4cece15f15b7e6d520ac0893d70601",
+  "artifactDigest": "2798ade4b425cc1481dacbaf553a97609f4263b77465959b0402fb6e19c49cad",
   "chunks": [
     {
+      "bytes": 47185920,
       "path": "public-release/site-00.tar.gz.part",
-      "bytes": 47185920,
-      "sha256": "f0efd91982884f8fb9076bab3a05a76cb8b7d4347369a41daa2669b00c4013d7"
+      "sha256": "51c72e34cdb9c02522ca8224ffb2facc43708d32d45b386c17ff3e049a811f45"
     },
     {
+      "bytes": 47185920,
       "path": "public-release/site-01.tar.gz.part",
-      "bytes": 47185920,
-      "sha256": "52b7e154db45c904e1b36beeb61e515ac2d6feb006cffc5bbf982f68ed4ce688"
+      "sha256": "33444f0de3b8dc639bba31c6d8325b145dfba7263e625f8f63dc10104ecdc146"
     },
     {
+      "bytes": 13975551,
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 13932007,
-      "sha256": "213e4545b0bc9bc9cc54ce2525e54766ae58941bd8bde21343a6479db54ff365"
+      "sha256": "3bddaf57b313b40207192efe35d65d7ff253f4dd241ba1288e9e3b36ca356102"
     }
-  ]
+  ],
+  "contentBytes": 119821155,
+  "fileCount": 781,
+  "format": "suzuka-public-release-v1",
+  "privateAudioApproval": {
+    "historicalCandidatesException": "two-preexisting-unadopted-door-samples-only; unchanged; no-history-rewrite",
+    "publicGitAudioAllowed": false,
+    "recordedAt": "2026-10-18",
+    "scope": "website-playback-with-private-audio-only",
+    "source": "explicit-user-conditional-approval",
+    "status": "approved",
+    "tracks": [
+      {
+        "releaseId": "furinkazan",
+        "title": "風林火山",
+        "trackId": "asagiri-shinobu"
+      },
+      {
+        "releaseId": "kinmokusei-to-hoshifuru-yoru",
+        "title": "金木犀と星降る夜",
+        "trackId": "asteria"
+      },
+      {
+        "releaseId": "dalkomhan-jugeumeul-geudaeege",
+        "title": "달콤한 죽음을 그대에게",
+        "trackId": "eclypse"
+      },
+      {
+        "releaseId": "amaterasu",
+        "title": "天照",
+        "trackId": "enomoto-mia"
+      },
+      {
+        "releaseId": "akuyaku-de-ii",
+        "title": "悪役でいい",
+        "trackId": "koga-kamishiro"
+      },
+      {
+        "releaseId": "ame-nochi-anata",
+        "title": "雨のち貴方",
+        "trackId": "michiru"
+      },
+      {
+        "releaseId": "henpin-sareta-ningen",
+        "title": "返品された人間",
+        "trackId": "nox"
+      },
+      {
+        "releaseId": "monsoon-promise",
+        "title": "Monsoon Promise",
+        "trackId": "rangili"
+      },
+      {
+        "releaseId": "re-sonance",
+        "title": "RE:SONANCE",
+        "trackId": "revive"
+      },
+      {
+        "releaseId": "rinne-no-chigiri",
+        "title": "輪廻ノ契 -RINNE NO CHIGIRI-",
+        "trackId": "veilfang"
+      },
+      {
+        "releaseId": "ashita-yaru",
+        "title": "明日やる",
+        "trackId": "tetsuhige"
+      },
+      {
+        "releaseId": "break-the-veil",
+        "title": "BREAK THE VEIL",
+        "trackId": "leon-vail"
+      }
+    ]
+  }
 }

@@ -7,6 +7,7 @@ import hashlib
 import io
 import json
 import os
+import re
 from pathlib import Path, PurePosixPath
 import shutil
 import subprocess
@@ -17,6 +18,34 @@ ROOT = Path(__file__).resolve().parents[1]
 DESCRIPTOR = Path('public-release/release.json')
 MANIFEST = 'suzuka-v6-candidate-manifest.json'
 BASE = 'https://www.suzukaofficial.com'
+PRIVATE_AUDIO_ENDPOINT = 'https://suzuka-official-music.ria20210815.chatgpt.site/v1/'
+
+def verify_private_audio(info, files, routes, allow_pending=False):
+    configs=[]
+    for route in routes:
+        match=re.search(r'<script type="application/json" id="v6-config">(.*?)</script>',files[route].decode(),re.S)
+        if match is None:
+            require(route=='index.html' and info.get('artifactDigest')=='27af5422d65a9647fcbce73da30800ca1a3579b2dc17b8ff86300594d48aacab','Missing V6 configuration')
+            continue  # Verified historical V5 top; its 12 existing world URLs stay silent.
+        configs.append(json.loads(match[1]))
+    enabled=any(w.get('music',{}).get('approved') for c in configs for w in c.get('worlds',[]))
+    if not enabled:return  # Preserve verified historical silent V6/V5 rollback packages.
+    approval=info.get('privateAudioApproval',{})
+    require(approval.get('scope')=='website-playback-with-private-audio-only' and approval.get('publicGitAudioAllowed') is False,'Private audio scope required')
+    require(approval.get('status')=='approved' or allow_pending and approval.get('status')=='pending-final-gate','Private audio final gate has not passed')
+    require(approval.get('source')=='explicit-user-conditional-approval' and approval.get('recordedAt'),'Explicit conditional approval record required')
+    approved={t['trackId']:t for t in approval.get('tracks',[])}
+    require(len(approved)==len(approval.get('tracks',[]))==12 and all(re.fullmatch(r'[a-z0-9-]+',k) and isinstance(v.get('title'),str) and v['title'] and re.fullmatch(r'[a-z0-9-]+',v.get('releaseId') or '') for k,v in approved.items()),'Exactly 12 approved track identities required')
+    require(all('sha256' not in t and 'source' not in t for t in approval.get('tracks',[])),'Private audio fingerprints/paths cannot enter Public Git')
+    expected={'mode':'signed-worker-v1','endpoint':PRIVATE_AUDIO_ENDPOINT,'sessionMode':'sha256-proof-v1'}
+    for config in configs:
+        require(config.get('publicationMode')=='public-candidate' and config.get('audioDelivery')==expected,'Unapproved or local audio endpoint')
+        worlds=config.get('worlds',[])
+        require(len(worlds)==12 and {w['slug'] for w in worlds}==set(approved),'Missing/extra audio world')
+        for w in worlds:
+            m=w.get('music',{})
+            require(m.get('approved') is True and m.get('source') is None and m.get('delivery')=='signed-worker-v1' and m.get('trackId')==w['slug'] and m.get('title')==approved[w['slug']]['title'] and m.get('releaseId')==approved[w['slug']]['releaseId'] and 'sha256' not in m,'Direct/unapproved audio source')
+        require(not any(x in files[r].decode() for r in routes for x in ['assets/v6-music/','v6/music/approved/','.mp3','.wav']),'Static audio link leaked')
 
 
 def require(condition, message):
@@ -28,7 +57,7 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def read_release(root, reference=None):
+def read_release(root, reference=None, allow_pending=False):
     """Read current files or Public Git history only, verifying every byte."""
     root = root.resolve()
     if reference:
@@ -58,6 +87,7 @@ def read_release(root, reference=None):
             require(not path.is_absolute() and str(path)==name and '..' not in path.parts and '\\' not in name and name not in files,'Unsafe/duplicate archive path')
             require(not any(p in {'.git','.github','scripts','docs','admin','v6','__pycache__'} for p in path.parts),'Development path in public artifact')
             require(path.name!='AGENTS.md' and not name.endswith(('.pyc','.pyo','.wav','.mp3')),'Private rules/cache/unapproved audio')
+            require(path.suffix.lower() not in {'.mp3','.wav','.m4a','.aac','.ogg','.flac','.m3u8','.ts'},'Audio must never enter Public Git/Pages archives')
             require(not any(x in name for x in ['lyrics-holds','portal-audio','dashboard-status']),'Held/internal data in public artifact')
             total += member.size
             require(total <= info['contentBytes'] and len(files)<info['fileCount'],'Public package size/count exceeded')
@@ -65,6 +95,7 @@ def read_release(root, reference=None):
             require(stream is not None,'Unreadable archive member')
             data = stream.read(member.size+1)
             require(len(data)==member.size,'Archive member size mismatch')
+            require(not(data[:3]==b'ID3' or data[:4]==b'OggS' or data[:4]==b'RIFF' and data[8:12]==b'WAVE'),'Disguised audio in public archive')
             files[name] = data
     require(total==info['contentBytes'] and len(files)==info['fileCount'],'Package inventory mismatch')
     hashes = {p:digest(data) for p,data in files.items()}
@@ -81,6 +112,7 @@ def read_release(root, reference=None):
         url = BASE+'/'+('' if route=='index.html' else route.removesuffix('index.html'))
         require(f'<link rel="canonical" href="{url}">' in text and 'noindex' not in text,'Incorrect public SEO')
         require('location.origin !== '+json.dumps(BASE) in text,'Production analytics must be origin-gated')
+    verify_private_audio(info,files,manifest['v6Routes'],allow_pending)
     return info,files
 
 
@@ -126,9 +158,11 @@ def main():
     parser.add_argument('--root',type=Path,default=ROOT)
     parser.add_argument('--output',type=Path)
     parser.add_argument('--stage',type=Path)
+    parser.add_argument('--local-review',action='store_true')
     args = parser.parse_args()
     try:
-        info,files = read_release(args.root)
+        require(not(args.local_review and args.stage is not None),'A local review must never stage production')
+        info,files = read_release(args.root,allow_pending=args.local_review)
         require(args.output is not None or args.stage is None,'Staging requires verified extraction')
         if args.output:materialize(args.root,args.output,files,args.stage)
         print(json.dumps({'status':'PASS','files':len(files),'artifactDigest':info['artifactDigest'],'bytes':sum(map(len,files.values())),'deploymentPerformed':False},indent=2))
