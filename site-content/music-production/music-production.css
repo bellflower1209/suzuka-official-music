@@ -1,0 +1,50 @@
+/* Service page and home invitation. All selectors are scoped to music production. */
+body[data-page="music-production"]{background:#0b0b0e;color:#f6f1e9}
+body[data-page="music-production"] .site-header{position:relative;background:#111216;min-height:90px}
+body[data-page="music-production"] .site-header nav{margin-left:auto}
+.mp-mobile-menu{display:none;position:relative;margin-left:auto}
+.mp-mobile-menu summary{cursor:pointer;list-style:none;border:1px solid #a89678;padding:.7rem 1rem;color:#f6f1e9}
+.mp-mobile-menu summary::-webkit-details-marker{display:none}
+.mp-mobile-menu nav{position:absolute;right:0;top:100%;display:grid!important;gap:0!important;min-width:14rem;margin:0!important;padding:.5rem;background:#171719;border:1px solid #a89678;box-shadow:0 16px 36px #0008}
+.mp-mobile-menu nav a{padding:.75rem!important}
+.mp-eyebrow{color:#dfc8a6;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase}
+.mp-hero{position:relative;isolation:isolate;display:grid;align-items:center;min-height:clamp(38rem,78svh,55rem);padding:clamp(4rem,10vw,9rem) max(6vw,calc((100vw - 1200px)/2));overflow:hidden;background:radial-gradient(ellipse at 68% 34%,#bd8b4e35,transparent 30%),radial-gradient(ellipse at 72% 100%,#583b2e55,transparent 55%),linear-gradient(125deg,#09090c,#191518 58%,#07070a)}
+.mp-hero::before{content:"";position:absolute;inset:8% 7% 8% 57%;z-index:-1;border:1px solid #caa87355;border-radius:50%;transform:rotate(-19deg);box-shadow:0 0 80px #caa87325,inset 0 0 90px #caa87312}
+.mp-hero::after{content:"";position:absolute;width:38vw;height:38vw;min-width:20rem;min-height:20rem;right:7%;top:25%;z-index:-1;background:radial-gradient(circle,#f8dbac2b,transparent 64%);filter:blur(14px)}
+.mp-hero-inner{max-width:43rem}
+.mp-hero h1{margin:.9rem 0 1rem;font-family:Georgia,"Yu Mincho",serif;font-size:clamp(2.5rem,6vw,5.7rem);font-weight:500;letter-spacing:.06em;line-height:1.22}
+.mp-lead{margin:0 0 1.1rem;color:#ead7ba;font-family:Georgia,"Yu Mincho",serif;font-size:clamp(1.45rem,3vw,2.6rem);line-height:1.55}
+.mp-hero-inner>p:not(.mp-eyebrow):not(.mp-lead){max-width:34rem;color:#d8d0c7}
+.mp-button{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;min-height:3.2rem;margin-top:2rem;padding:.8rem 1.5rem;border:1px solid #e0c397;background:#d9bd8f;color:#171412!important;font-weight:700;letter-spacing:.05em;transition:background .18s,color .18s}
+.mp-button:hover{background:#f2dfbd}
+.mp-section{max-width:1200px;margin:auto;padding:clamp(3rem,7vw,6rem) 6vw}
+.mp-section h2{margin:.45rem 0 2rem;color:#f6f1e9}
+.mp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.mp-grid article{padding:1.55rem;min-height:13rem;border:1px solid #b99a6855;background:linear-gradient(150deg,#1d1a19,#111115);border-radius:.4rem}
+.mp-grid article span{color:#d9bd8f;font:1rem Georgia,serif}
+.mp-grid h3{margin:1rem 0 .6rem;color:#f7efe4;font-size:1.17rem}
+.mp-grid p,.mp-terms li,.mp-contact>p,.mp-hint{color:#d1c7bc}
+.mp-related{margin-top:1.7rem}.mp-related a{color:#e9d3ad;text-decoration:underline;text-underline-offset:.3em}
+.mp-process{border-block:1px solid #b99a6833}
+.mp-process ol{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;padding:0;counter-reset:step}
+.mp-process li{counter-increment:step;padding:.8rem 1rem;border:1px solid #b99a6866;border-radius:999px;color:#eee5d6}
+.mp-process li::before{content:counter(step,decimal-leading-zero) "  ";color:#d9bd8f}
+.mp-terms ul{padding-left:1.4rem;line-height:1.9}.mp-terms li{margin:.45rem 0}
+.mp-price{font-size:clamp(1.18rem,2vw,1.5rem);color:#ead7ba}
+.mp-contact{margin-bottom:3rem;padding-top:3.5rem;padding-bottom:3.5rem;border:1px solid #b99a6866;background:linear-gradient(135deg,#1d1918,#0d0c0e)}
+.mp-contact>p{max-width:43rem}
+.mp-address{display:flex;align-items:center;flex-wrap:wrap;gap:.85rem 1.3rem;margin-top:2rem;overflow-wrap:anywhere}
+.mp-address>a{color:#f0d8b0;text-decoration:underline;text-underline-offset:.2em}
+.mp-address button{padding:.65rem .9rem;background:transparent;border:1px solid #c5aa7d;cursor:pointer}
+.mp-address button:hover{background:#3b2e20}.mp-address button:focus-visible{outline:3px solid #f8d998;outline-offset:4px}
+.mp-address [role="status"]{min-width:9rem;color:#f0d8b0}
+.mp-hint{margin-top:1rem;font-size:.9rem}
+.mp-footer{padding:3rem 6vw;background:#0a0a0d;border-top:1px solid #b99a6844}
+.mp-footer nav{display:flex;flex-wrap:wrap;gap:1rem 2rem;margin:2rem 0}.mp-footer nav a:hover{text-decoration:underline}
+.mp-footer>p:last-child{max-width:50rem;color:#cbbfb4;font-size:.85rem}
+.mp-home-link{margin:clamp(2rem,5vw,5rem) auto;padding:2rem 6vw;max-width:1200px;border:1px solid #b99a6877;background:linear-gradient(110deg,#111115,#2d221d 70%,#111115)}
+.mp-home-link h2{margin:.6rem 0;font-size:clamp(1.7rem,3vw,3rem)}
+.mp-home-link p{max-width:42rem;color:#e4d7c7}.mp-home-link a{display:inline-block;margin-top:1rem;color:#f4dfbc;text-decoration:underline;text-underline-offset:.35em}
+@media(max-width:760px){body[data-page="music-production"] .site-header{align-items:center}.mp-desktop-nav{display:none!important}.mp-mobile-menu{display:block}.mp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mp-hero{min-height:38rem;padding:5rem 6vw}.mp-hero::before{left:38%;opacity:.45}}
+@media(max-width:540px){.mp-grid{grid-template-columns:1fr}.mp-process ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.mp-process li{border-radius:.3rem}.mp-contact{margin:0 4vw 2rem}.mp-address{display:grid}}
+@media(prefers-reduced-motion:reduce){.mp-button{transition:none}}

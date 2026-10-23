@@ -6,6 +6,7 @@ from verify_public_release import read_release, write_output
 from official_activity_sections import track_html, note_news_html, shorts_html
 
 BASELINE='2f6c97b206232a69bd2b50d7e628eab2ad9af731'
+BASELINE_ARTIFACT='f13be24fa6e42afc0ff8e60dc78220fc3bc413fe7ed322fe7290c807e39c9518'
 MANIFEST='suzuka-v6-candidate-manifest.json'
 ROOT=Path(__file__).resolve().parents[1]
 sha=lambda b:hashlib.sha256(b).hexdigest()
@@ -20,6 +21,12 @@ def section(text, marker, replacement):
     raise ValueError('Unclosed section')
 
 def build(root, output, package):
+    # This historical activity-only builder starts from an older V6 archive.
+    # Refuse newer public releases: replaying that archive would discard later
+    # audio-startup repairs and any new service routes.
+    current=json.loads((root/'public-release/release.json').read_text())
+    if current.get('artifactDigest')!=BASELINE_ARTIFACT:
+        raise ValueError('Historical official-sync baseline is stale; preserve the current verified release and use a current-base builder')
     _,frozen=read_release(root,BASELINE);files=dict(frozen)
     cms=json.loads((root/'assets/data/creator-cms.json').read_text())
     report=json.loads((root/'docs/official-sync-20261018.json').read_text())
