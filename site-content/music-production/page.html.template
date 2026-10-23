@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="/images/suzuka-channel.jpg">
+  <title>SUZUKA MUSIC PRODUCTION｜楽曲制作のご依頼</title>
+  <meta name="description" content="SUZUKA MUSIC PRODUCTION。作詞、作曲、AIアーティストによる歌唱など、あなたの物語に合わせたオリジナル楽曲を個別にご提案します。制作料金は個別見積もり。">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://www.suzukaofficial.com/music-production/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SUZUKA Official">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="SUZUKA MUSIC PRODUCTION｜楽曲制作のご依頼">
+  <meta property="og:description" content="あなたの物語を、世界にひとつだけの音楽へ。楽曲制作のご相談を承ります。">
+  <meta property="og:url" content="https://www.suzukaofficial.com/music-production/">
+  <meta property="og:image" content="https://www.suzukaofficial.com/images/suzuka-channel.jpg">
+  <meta property="og:image:alt" content="SUZUKA Official">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SUZUKA MUSIC PRODUCTION｜楽曲制作のご依頼">
+  <meta name="twitter:description" content="あなたの物語を、世界にひとつだけの音楽へ。">
+  <meta name="twitter:image" content="https://www.suzukaofficial.com/images/suzuka-channel.jpg">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://www.suzukaofficial.com/music-production/#webpage","url":"https://www.suzukaofficial.com/music-production/","name":"SUZUKA MUSIC PRODUCTION｜楽曲制作のご依頼","description":"あなたの物語を、世界にひとつだけの音楽へ。楽曲制作のご相談を承ります。","inLanguage":"ja","isPartOf":{"@id":"https://www.suzukaofficial.com/#website"},"publisher":{"@id":"https://www.suzukaofficial.com/#organization"}}</script>
+  <link rel="stylesheet" href="/assets/cinematic-universe-v6.css">
+  <link rel="stylesheet" href="/assets/music-production.css">
+  <script defer src="/assets/music-production.js"></script>
+</head>
+<body data-page="music-production">
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <a class="wordmark" href="/">SUZUKA<span>CINEMATIC UNIVERSE</span></a>
+    <nav class="mp-desktop-nav" aria-label="主要ナビゲーション">
+      <a href="/#worlds">12の世界</a><a href="/releases/">作品一覧</a><a href="/music-production/" aria-current="page">楽曲制作</a><a href="/">公式サイト</a>
+    </nav>
+    <details class="mp-mobile-menu"><summary>メニュー</summary><nav aria-label="モバイルナビゲーション"><a href="/">公式トップ</a><a href="/#worlds">12の世界</a><a href="/artists/">アーティスト</a><a href="/releases/">作品一覧</a><a href="/music-production/" aria-current="page">楽曲制作</a></nav></details>
+  </header>
+  <main id="main">
+    <section class="mp-hero" aria-labelledby="mp-title">
+      <div class="mp-hero-inner"><p class="mp-eyebrow">SUZUKA · MUSIC PRODUCTION</p><h1 id="mp-title">楽曲制作のご依頼</h1><p class="mp-lead">あなたの物語を、<br>世界にひとつだけの音楽へ。</p><p>大切な想い、伝えたい言葉、描きたい世界。その内容に合わせて、オリジナルの音楽制作をご相談いただけます。</p><a class="mp-button" href="{{MAILTO}}">楽曲制作を相談する <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="mp-section" aria-labelledby="mp-services-title"><p class="mp-eyebrow">WHAT WE CREATE</p><h2 id="mp-services-title">制作できること</h2><div class="mp-grid">
+      <article><span>01</span><h3>作詞のみ</h3><p>あなたの想いやテーマに合わせたオリジナル歌詞を制作します。</p></article>
+      <article><span>02</span><h3>作曲のみ</h3><p>希望するジャンルや雰囲気に合わせた楽曲を制作します。</p></article>
+      <article><span>03</span><h3>作詞・作曲</h3><p>歌詞とメロディーを含むオリジナル楽曲を制作します。</p></article>
+      <article><span>04</span><h3>AIアーティストによる歌唱</h3><p>SUZUKA所属のVirtual AI Artistによる歌唱も相談できます。担当アーティストは制作内容・条件に応じて個別に決めます。</p></article>
+      <article><span>05</span><h3>個人向けオリジナル楽曲</h3><p>誕生日、結婚式、記念日、家族への贈り物などに。</p></article>
+      <article><span>06</span><h3>企業・施設向けテーマソング</h3><p>企業テーマソング、施設応援歌、イベント楽曲などに。</p></article>
+      <article><span>07</span><h3>アーティスト向け楽曲制作</h3><p>オリジナル楽曲の作詞・作曲・制作を支援します。</p></article>
+    </div><p class="mp-related"><a href="/artists/">SUZUKA所属アーティストを見る <span aria-hidden="true">↗</span></a></p></section>
+    <section class="mp-section mp-process" aria-labelledby="mp-process-title"><p class="mp-eyebrow">PRODUCTION FLOW</p><h2 id="mp-process-title">制作の流れ</h2><ol><li>相談</li><li>内容確認</li><li>見積もり</li><li>正式依頼</li><li>制作</li><li>完成確認</li><li>納品</li></ol></section>
+    <section class="mp-section mp-terms" aria-labelledby="mp-terms-title"><p class="mp-eyebrow">BEFORE WE BEGIN</p><h2 id="mp-terms-title">料金と制作条件</h2><p class="mp-price">制作内容に応じて個別にお見積もりいたします。</p><ul><li>制作開始前に内容と条件を確認します。</li><li>納期と修正対応は、制作内容に応じて個別に取り決めます。</li><li>著作権と利用許諾、商用利用の可否は契約条件に応じて個別に確認します。</li><li>制作楽曲の公開には依頼者の許可が必要です。</li><li>AI音声・音楽生成サービスの利用条件を遵守します。</li></ul></section>
+    <section class="mp-section mp-contact" aria-labelledby="mp-contact-title"><p class="mp-eyebrow">CONTACT</p><h2 id="mp-contact-title">まずは、ご相談から。</h2><p>SUZUKA代表へメールでご相談ください。依頼内容やご予算が決まっていない場合も、分かる範囲でお知らせください。</p><a class="mp-button" href="{{MAILTO}}">楽曲制作を相談する <span aria-hidden="true">↗</span></a><div class="mp-address"><span>SUZUKA代表</span><a href="mailto:1209bellflower@gmail.com">1209bellflower@gmail.com</a><button type="button" id="mp-copy-email" data-email="1209bellflower@gmail.com">メールアドレスをコピー</button><span id="mp-copy-status" role="status" aria-live="polite"></span></div><p class="mp-hint">メールアプリが開かない場合は、アドレスをコピーして普段お使いのメールからお送りください。</p></section>
+  </main>
+  <footer class="mp-footer"><p class="wordmark">SUZUKA<span>TWELVE WORLDS. ONE UNIVERSE.</span></p><nav aria-label="公式サイトのコンテンツ"><a href="/">公式トップ</a><a href="/artists/">アーティスト一覧</a><a href="/releases/">作品一覧</a><a href="/about/">SUZUKAについて</a></nav><p>SUZUKA Official · CINEMATIC UNIVERSE</p><p class="ai-footer-disclosure">SUZUKAに登場するアーティスト・人物は架空です。本プロジェクトではAIを制作支援に活用しています。</p></footer>
+</body>
+</html>
