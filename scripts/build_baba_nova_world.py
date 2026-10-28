@@ -19,7 +19,12 @@ MANIFEST='suzuka-v6-candidate-manifest.json'
 WORLD_ROUTE='worlds/baba-nova/index.html'
 CONFIG=re.compile(r'(<script type="application/json" id="v6-config">)(.*?)(</script>)',re.S)
 def scene(cls='scene'):
-    return '<picture class="'+cls+'" aria-hidden="true"><img src="/assets/baba-nova/scene.svg" width="1600" height="1000" alt="" loading="lazy" decoding="async"></picture>'
+    sizes='100vw' if cls=='scene' else '(max-width:760px) 100vw,50vw'
+    picture='<picture class="'+cls+'" aria-hidden="true">'
+    for fmt in ['avif','webp']:
+        picture+='<source media="(max-width:640px), (max-width:1024px) and (orientation:portrait)" type="image/'+fmt+'" srcset="/assets/baba-nova/mobile-768.'+fmt+'">'
+        picture+='<source type="image/'+fmt+'" srcset="'+', '.join('/assets/baba-nova/landscape-'+str(w)+'.'+fmt+' '+str(w)+'w' for w in [768,1280,1600])+'" sizes="'+sizes+'">'
+    return picture+'<img src="/assets/baba-nova/landscape-1600.webp" width="1600" height="900" alt="" loading="lazy" decoding="async"></picture>'
 def template():
     return '<template id="v6-scene-baba-nova">'+scene()+'</template>'
 def world_link():
@@ -43,12 +48,16 @@ def build(root=ROOT):
     _,reproduced,_=previous_build(root)
     assert reproduced==original,'Previous source generation changed'
     source=root/'site-content/baba-nova';world=json.loads((source/'world.json').read_text())
+    background=json.loads((source/'backgrounds.json').read_text())
+    assert background['approval']=={'source':'explicit-user-message','date':'2026-10-28','scope':'new-night-background-no-people-no-text'}
+    assert background['kind']=='ai-generated-fictional-environment' and background['notHistoricalPhotograph'] is True
     assert world['slug']=='baba-nova' and world['music']['releaseId']=='salad-chicken-baa'
     cms=json.loads((root/'assets/data/creator-cms.json').read_text())
     assert len(cms['artists'])==13 and len(cms['releases'])==104
     artist=next(a for a in cms['artists'] if a['slug']=='baba-nova')
     files=dict(original);manifest=json.loads(original[MANIFEST]);routes=manifest['v6Routes']
-    for route in routes:files[route]=extend(original[route].decode(),world).encode()
+    for route in routes:
+        files[route]=extend(original[route].decode(),world).replace('href="/assets/cinematic-universe-v6.css"','href="/assets/cinematic-universe-v6.css?v=baba-visual-20261028"').encode()
     # Only a bounded additional card; the original twelve cards remain intact.
     home=files['index.html'].decode();cards=list(re.finditer(r'<a class="world-card".*?</a>',home,re.S));assert len(cards)==12
     card='<a class="world-card" href="/worlds/baba-nova/" data-world-slug="baba-nova" data-world-route="worlds/baba-nova/" data-realm="celestial">'+scene('card-scene')+'<span class="card-shade"></span><div class="card-copy"><span class="eyebrow">WORLD 13 · '+escape(world['label'])+'</span><h3>BABA NOVA</h3><p>'+escape(world['world'])+'</p><span class="card-link">この世界へ <span aria-hidden="true">↗</span></span></div></a>'
@@ -69,14 +78,13 @@ def build(root=ROOT):
     controls=page[head_end+7:page.index('<main id="main">')]
     controls=controls.replace('data-artist="rangili"','data-artist="baba-nova"').replace('--world-glow:#88621d;--world-drift:14s','--world-glow:#bd483c;--world-drift:24s')
     petals=''.join('<i style="--left:'+str((i*17+5)%100)+'%;--time:'+str(19+i*2)+'s;--delay:-'+str(i*3)+'s"></i>' for i in range(10))
-    lamps=''.join('<i class="baba-lantern" style="--left:'+str(x)+'%;--time:'+str(5+i)+'s"></i>' for i,x in enumerate([8,46,88,25,70]))
-    img=world['officialImage'];image='<img src="/'+img['path']+'" alt="'+escape(img['alt'])+'" width="1280" height="720" decoding="async">'
-    hero='<section class="hero world-hero" aria-labelledby="hero-title">'+scene().replace('loading="lazy"','loading="eager" fetchpriority="high"')+'<div class="hero-shade"></div><div class="baba-gold" aria-hidden="true"></div><div class="baba-lanterns" aria-hidden="true">'+lamps+'</div><div class="baba-petals" aria-hidden="true">'+petals+'</div><figure class="baba-poster">'+image+'<figcaption>OFFICIAL AUDIO · サラダチキン婆</figcaption></figure><div class="hero-copy"><p class="eyebrow">WORLD 13 / 13 · '+escape(world['label'])+'</p><h1 id="hero-title">BABA NOVA</h1><p class="world-intro">'+escape(world['world'])+'</p><a class="primary-link" href="#music">音楽と物語へ <span aria-hidden="true">↓</span></a></div></section>'
+    img=world['officialImage'];image='<img class="baba-official-image" src="/'+img['path']+'" alt="'+escape(img['alt'])+'" width="1280" height="720" decoding="async">'
+    hero='<section class="hero world-hero" aria-labelledby="hero-title">'+scene().replace('loading="lazy"','loading="eager" fetchpriority="high"')+'<div class="hero-shade"></div><div class="baba-gold" aria-hidden="true"></div><div class="baba-petals" aria-hidden="true">'+petals+'</div><figure class="baba-poster">'+image+'<figcaption>OFFICIAL AUDIO · サラダチキン婆</figcaption></figure><div class="hero-copy"><p class="eyebrow">WORLD 13 / 13 · '+escape(world['label'])+'</p><h1 id="hero-title">BABA NOVA</h1><p class="world-intro">'+escape(world['world'])+'</p><a class="primary-link" href="#music">音楽と物語へ <span aria-hidden="true">↓</span></a></div></section>'
     story='<section class="artist-story" aria-labelledby="artist-story-title"><picture class="official-picture">'+image.replace('decoding="async"','loading="lazy" decoding="async"')+'</picture><div><p class="eyebrow">THE ARTIST</p><h2 id="artist-story-title">BABA NOVA</h2><p>'+escape(artist['profile'])+'</p><p>'+escape(artist['music'])+'</p><div class="story-links"><a href="/artists/baba-nova/">公式プロフィール ↗</a><a href="'+escape(artist['youtubeUrl'])+'">YouTube ↗</a><a href="/releases/salad-chicken-baa/">サラダチキン婆 ↗</a></div></div></section>'
     tracks=sorted([r for r in cms['releases'] if r['artistSlug']=='baba-nova'],key=lambda r:r['publishedAt'],reverse=True)
     music='<section class="music-section" id="music" aria-labelledby="music-title"><div class="section-heading"><div><p class="eyebrow">MUSIC & STORIES</p><h2 id="music-title">この世界に、響く音楽。</h2></div><p>2 WORKS · 作品、映像、配信へ。</p></div><div class="music-grid">'+''.join(track_html(r,'/',i==0,root) for i,r in enumerate(tracks))+'</div></section>'
     shorts=[s for s in cms['youtubeSnapshot']['shortVideos'] if s.get('artistSlug')=='baba-nova']
-    end=page[page.index('<aside class="journey"'):]
+    end=page[page.index('<aside class="journey"'):].replace('背景は既存の映画的装飾素材です。アーティストの公式画像・作品・設定は正本を使用しています。','背景は江戸・吉原をモチーフにAI制作した架空の舞台です。公式画像・楽曲は正本を使用しています。')
     end=end.replace(world_link(),'')
     old_link='<a href="/worlds/rangili/" data-world-slug="rangili" data-world-route="worlds/rangili/">RANGILI <span aria-hidden="true">↗</span></a>'
     end=end.replace('<nav aria-label="他のアーティストの世界">','<nav aria-label="他のアーティストの世界">'+old_link,1)
@@ -92,6 +100,10 @@ def build(root=ROOT):
     files['assets/cinematic-universe-v6.js']=js.replace(old,new).encode()
     files['assets/cinematic-universe-v6.css']=original['assets/cinematic-universe-v6.css']+b'\n'+(source/'world.css').read_bytes()
     for name in ['scene.svg','door.svg','salad-chicken-baa-official.jpg']:files['assets/baba-nova/'+name]=(source/name).read_bytes()
+    for item in background['files']:
+        data=(source/item['path']).read_bytes()
+        assert sha(data)==item['sha256'] and len(data)==item['bytes'],'Background variant changed without review'
+        files[item['publicPath']]=data
     # A separate symbol, leaving every original emblem byte-for-byte unchanged.
     emblem=original['assets/celestial-emblems.svg'].decode();assert emblem.endswith('</svg>') or emblem.endswith('</svg>\n')
     emblem=emblem.replace('</svg>','<symbol id="baba-nova" viewBox="0 0 100 100"><path d="M20 18h60M30 18v64m40-64v64M25 36h50M25 68h50" stroke="currentColor" fill="none" stroke-width="3"/><circle cx="50" cy="51" r="13" stroke="currentColor" fill="none" stroke-width="2"/></symbol></svg>');files['assets/celestial-emblems.svg']=emblem.encode()
@@ -99,10 +111,11 @@ def build(root=ROOT):
     files['sitemap.xml']=sitemap.replace('</urlset>','<url><loc>https://www.suzukaofficial.com/worlds/baba-nova/</loc></url></urlset>').encode()
     manifest['v6Routes']=routes+[WORLD_ROUTE]
     manifest['thirteenthWorld']={'source':'site-content/baba-nova/world.json','baselineCommit':BASE,'artist':'baba-nova','releaseId':'salad-chicken-baa','officialImageRole':img['role']}
+    manifest['thirteenthWorld']['visualRevision']={'date':'2026-10-28','environment':'ai-generated-fictional-environment','approval':'explicit-user-message','source':'site-content/baba-nova/backgrounds.json','officialArtworkUnchanged':True,'responsiveImageRatio':'16:9'}
     info=copy.deepcopy(info);info['privateAudioApproval']['tracks'].append({'releaseId':'salad-chicken-baa','title':'サラダチキン婆','trackId':'baba-nova'})
     info['privateAudioApproval']['extensionApproval']={'source':'explicit-user-message','recordedAt':'2026-10-28','trackId':'baba-nova','releaseId':'salad-chicken-baa'}
     verify_private_audio(info,files,manifest['v6Routes'])
-    assert set(original)<=set(files) and len(files)==806
+    assert set(original)<=set(files) and len(files)==814
     for n,d in original.items():
         if n.startswith(('assets/cinema/','assets/v6-media/','releases/')) or n in ['assets/v6-protected-audio.js','v6-audio-worker.js','music-production/index.html','assets/data/creator-cms.json']:assert files[n]==d,n
     manifest['files']={p:sha(d) for p,d in sorted(files.items()) if p!=MANIFEST}

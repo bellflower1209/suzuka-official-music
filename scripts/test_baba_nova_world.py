@@ -9,7 +9,7 @@ class BabaWorld(unittest.TestCase):
   cls.info,cls.files=read_release(ROOT);_,cls.old=read_release(ROOT,BASE)
   cls.manifest=json.loads(cls.files[MANIFEST]);cls.routes=cls.manifest['v6Routes']
  def test_world_inventory_and_catalog(self):
-  self.assertEqual(len(self.routes),14);self.assertEqual(len(self.files),806)
+  self.assertEqual(len(self.routes),14);self.assertEqual(len(self.files),814)
   home=self.files['index.html'].decode();self.assertEqual(home.count('data-world-choice='),13)
   graph=json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>',home,re.S)[1]);listing=next(n for n in graph['@graph'] if n.get('@id')=='https://www.suzukaofficial.com/#worlds');self.assertEqual(len(listing['itemListElement']),13)
   cms=json.loads(self.files['assets/data/creator-cms.json']);self.assertEqual(len(cms['artists']),13);self.assertEqual(len(cms['releases']),104)

@@ -105,6 +105,8 @@ jobs:
           python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/test_private_audio_gate.py
           python3 -B scripts/test_baba_nova_world.py
+          python3 -B scripts/test_baba_image_ratio.py
+          python3 -B scripts/prepare_baba_backgrounds.py --check
           python3 -B scripts/audit_channel_migration.py --root "${{ runner.temp }}/suzuka-v6-release"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/cinematic-universe-v6.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/v6-protected-audio.js"
