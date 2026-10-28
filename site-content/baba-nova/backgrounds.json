@@ -1,0 +1,91 @@
+{
+  "kind": "ai-generated-fictional-environment",
+  "approval": {
+    "source": "explicit-user-message",
+    "date": "2026-10-28",
+    "scope": "new-night-background-no-people-no-text"
+  },
+  "notHistoricalPhotograph": true,
+  "noArtistArtworkEdited": true,
+  "tool": "image_gen.imagegen",
+  "masters": [
+    {
+      "path": "background-landscape.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3079b1145667014476f419f913a58eb34d804ec855ada481eefaf08902819572"
+    },
+    {
+      "path": "background-mobile.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "8a149accb5926037b814155d97d7906c5f1ced3543cfd2be644eb40761e534fb"
+    }
+  ],
+  "files": [
+    {
+      "path": "backgrounds/landscape-768.webp",
+      "publicPath": "assets/baba-nova/landscape-768.webp",
+      "width": 768,
+      "height": 432,
+      "bytes": 77392,
+      "sha256": "d6bf01d8737b51c05f4899566b9252125c360851424d200b2f6bdb47688627e5"
+    },
+    {
+      "path": "backgrounds/landscape-768.avif",
+      "publicPath": "assets/baba-nova/landscape-768.avif",
+      "width": 768,
+      "height": 432,
+      "bytes": 36514,
+      "sha256": "3a11c346a0ce0021ebc233b9b1d8d7b0d754fdaac62297770d0f515d7fb9b13d"
+    },
+    {
+      "path": "backgrounds/landscape-1280.webp",
+      "publicPath": "assets/baba-nova/landscape-1280.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 173660,
+      "sha256": "794c6abc758864284944fd8863ba6916f84113a58e8fd2919d9938b36e0cdd29"
+    },
+    {
+      "path": "backgrounds/landscape-1280.avif",
+      "publicPath": "assets/baba-nova/landscape-1280.avif",
+      "width": 1280,
+      "height": 720,
+      "bytes": 83470,
+      "sha256": "78222cb55bae065f11f410964cbc310896188f4ac99451f6b1a9d1a1548ed747"
+    },
+    {
+      "path": "backgrounds/landscape-1600.webp",
+      "publicPath": "assets/baba-nova/landscape-1600.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 234812,
+      "sha256": "c5d4c6127e9da397560b3292827c3fd53cfcc6416f3d94afc3ec384e99e325f3"
+    },
+    {
+      "path": "backgrounds/landscape-1600.avif",
+      "publicPath": "assets/baba-nova/landscape-1600.avif",
+      "width": 1600,
+      "height": 900,
+      "bytes": 114819,
+      "sha256": "69c801ddaa2af296567deabe1ba5f5325b59f7455ac7469f1a18113d2afccbeb"
+    },
+    {
+      "path": "backgrounds/mobile-768.webp",
+      "publicPath": "assets/baba-nova/mobile-768.webp",
+      "width": 768,
+      "height": 1365,
+      "bytes": 235894,
+      "sha256": "2bb60414efd059e6b4bbbeaf4ff3120ecd0cbe46e320eb2b23875e48bedbd86b"
+    },
+    {
+      "path": "backgrounds/mobile-768.avif",
+      "publicPath": "assets/baba-nova/mobile-768.avif",
+      "width": 768,
+      "height": 1365,
+      "bytes": 111587,
+      "sha256": "b1a69992b01caeaf5520f9a87be34d20c41ce193a8399d8175bb27cd7d5a5321"
+    }
+  ]
+}
