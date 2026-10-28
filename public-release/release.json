@@ -1,26 +1,26 @@
 {
-  "archiveBytes": 108942018,
-  "archiveSha256": "3a9b3828ab06cf6b5202d68109171fb552dced7ab4be94e1f07a29c6eb27f72e",
-  "artifactDigest": "fced8961770e273492e83fd3d04c426fa0e0b2dd7ae1e8ce57a202811cf50868",
+  "archiveBytes": 109380664,
+  "archiveSha256": "753805fbda1e38c55bc9dff659d98b02851d0f1c6f9fc91537a64e453766980e",
+  "artifactDigest": "d492419ea33bc8ce72f66c7a466405ea3357a746be12c39c1d9ea502c56d3140",
   "chunks": [
     {
       "path": "public-release/site-00.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "b1c0e9c0dd5d7536d3151328f8db6a6a07757de8c9bb7fcc19f59f9ac68e65c6"
+      "sha256": "6267d3f646da441a04cc637916f8938a3ec8c00e24c36990e3f5c86c800bf72f"
     },
     {
       "path": "public-release/site-01.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "6931794e70a06431f89ec517c45305a005aa9a464e86b8543d4d4d08abd8c00f"
+      "sha256": "d079348ed1c48ff71eb4e84016fae1d2d637ea8cc8a83f0c16637ce562cfa220"
     },
     {
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 14570178,
-      "sha256": "6b15e6fe7054fedb464849b223cfc45387a77f65db190d7a76af3d8557814cc6"
+      "bytes": 15008824,
+      "sha256": "5ddfda8ae020bdc4888eca901eee1b498dcfae4cc0ccedb3e450031360df8799"
     }
   ],
-  "contentBytes": 121004087,
-  "fileCount": 802,
+  "contentBytes": 121475978,
+  "fileCount": 806,
   "format": "suzuka-public-release-v1",
   "privateAudioApproval": {
     "historicalCandidatesException": "two-preexisting-unadopted-door-samples-only; unchanged; no-history-rewrite",
@@ -89,7 +89,18 @@
         "releaseId": "break-the-veil",
         "title": "BREAK THE VEIL",
         "trackId": "leon-vail"
+      },
+      {
+        "releaseId": "salad-chicken-baa",
+        "title": "サラダチキン婆",
+        "trackId": "baba-nova"
       }
-    ]
+    ],
+    "extensionApproval": {
+      "source": "explicit-user-message",
+      "recordedAt": "2026-10-28",
+      "trackId": "baba-nova",
+      "releaseId": "salad-chicken-baa"
+    }
   }
 }
