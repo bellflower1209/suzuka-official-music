@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:04:33+09:00",
+  "updatedAt": "2026-10-27T22:09:00+09:00",
   "playlists": [
     {
       "slug": "love",
@@ -237,6 +237,11 @@
       "name": "最新曲",
       "description": "最新曲をテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
         "mirai-no-ashioto",
         "ato-5fun-dake",
         "ketsugetsu-no-houkou",
@@ -251,12 +256,7 @@
         "mikansei-no-kakumei",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "ichigo-ichihou-saikai-no-yakusoku",
-        "break-the-veil",
-        "amaterasu",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de",
-        "koi-no-tochu"
+        "ichigo-ichihou-saikai-no-yakusoku"
       ],
       "count": 20
     },
@@ -269,6 +269,11 @@
       "name": "MV付き",
       "description": "MV付きをテーマに選んだSUZUKA作品。",
       "releaseSlugs": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
         "ato-5fun-dake",
         "ketsugetsu-no-houkou",
         "hyper-romance-dawn",
@@ -283,12 +288,7 @@
         "uchira-saikyo-jane",
         "anata-wo-omou-sore-dake-de",
         "ashita-yaru",
-        "mada-tetsu-wa-atsui",
-        "without-worrying-reimagined",
-        "renkinku",
-        "hello-life",
-        "september-blue",
-        "over-drive"
+        "mada-tetsu-wa-atsui"
       ],
       "count": 20
     }

@@ -156,6 +156,11 @@ def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]
             candidates.setdefault(item["releaseSlug"], []).append(item)
     by_slug: dict[str, dict] = {}
     for release in cms["releases"]:
+        if release.get('videoMigration',{}).get('status')=='in-progress':
+            # The prior video's verified date remains historical evidence. It
+            # cannot make a currently private video eligible for VideoObject.
+            release['videoStructuredDataStatus']='channel-migration'
+            continue
         video_id = str(release.get("youtubeUrl", "")).split("v=", 1)[-1].split("&", 1)[0]
         options = candidates.get(release["slug"], [])
         record = next((item for item in options if item.get("youtubeId") == video_id), None)
@@ -176,7 +181,7 @@ def apply_evidence_to_cms(root: Path, cms: dict) -> tuple[dict, dict[str, dict]]
         )
         release["videoPublishedAt"] = verified
         release["videoPublishedAtSource"] = record.get("verificationSource", "")
-        release["videoStructuredDataStatus"] = "published" if verified else "held-date-only"
+        release["videoStructuredDataStatus"] = "published" if verified and record.get('currentAvailability')!='private' else "held-date-only"
         release.setdefault("publishedAt", verified or release["videoPublishDate"])
     cms_path = root / "assets/data/creator-cms.json"
     cms_path.write_text(json.dumps(cms, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -210,6 +215,11 @@ def normalize(root: Path, evidence: dict, by_slug: dict[str, dict]) -> dict:
         def replace_block(match: re.Match) -> str:
             nonlocal fixed_videos
             data = json.loads(match.group(2))
+            unavailable_refs=set()
+            for node in iter_nodes(data):
+                record=by_video.get(video_id_from_node(node),{})
+                if 'VideoObject' in types_of(node) and record.get('currentAvailability')=='private' and node.get('@id'):
+                    unavailable_refs.add(node['@id'])
 
             def transform(value):
                 nonlocal fixed_videos
@@ -222,6 +232,8 @@ def normalize(root: Path, evidence: dict, by_slug: dict[str, dict]) -> dict:
                     return result
                 if not isinstance(value, dict):
                     return value
+                if set(value)=={'@id'} and value['@id'] in unavailable_refs:
+                    return None
 
                 transformed = {key: transform(child) for key, child in value.items()}
                 transformed = {key: child for key, child in transformed.items() if child is not None}
@@ -229,6 +241,8 @@ def normalize(root: Path, evidence: dict, by_slug: dict[str, dict]) -> dict:
                 if "VideoObject" in node_types:
                     identifier = video_id_from_node(transformed)
                     record = by_video.get(identifier)
+                    if record and record.get('currentAvailability')=='private':
+                        return None
                     verified = record.get("verifiedPublishedAt", "") if record else ""
                     if not verified:
                         slug = record.get("releaseSlug", identifier or "unknown") if record else identifier or "unknown"
@@ -245,6 +259,10 @@ def normalize(root: Path, evidence: dict, by_slug: dict[str, dict]) -> dict:
                         transformed["uploadDate"] = verified
                         fixed_videos += 1
                         fixed_pages.add(relative)
+                    if record.get('currentAvailability')=='public' and record.get('durationSeconds'):
+                        transformed['duration']='PT'+str(record['durationSeconds'])+'S'
+                        transformed['name']=record['officialTitle']
+                        if record.get('thumbnailUrl'):transformed['thumbnailUrl']=record['thumbnailUrl']
                     release = releases_by_slug.get(record["releaseSlug"], {})
                     if not transformed.get("description") and release.get("description"):
                         transformed["description"] = release["description"]

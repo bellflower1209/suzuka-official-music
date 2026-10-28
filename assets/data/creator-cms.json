@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.1",
-  "updatedAt": "2026-10-18T13:04:33+09:00",
+  "updatedAt": "2026-10-27T22:09:00+09:00",
   "site": {
     "name": "SUZUKA Official",
     "shortName": "SUZUKA",
@@ -508,6 +508,39 @@
       "imageAlt": "LEON VAIL 公式画像",
       "imageWidth": 1278,
       "imageHeight": 1230
+    },
+    {
+      "slug": "baba-nova",
+      "name": "BABA NOVA",
+      "reading": "ババ・ノヴァ",
+      "type": "Person",
+      "artistType": "Person",
+      "status": "published",
+      "artistStatus": "published",
+      "image": "",
+      "world": "年齢を理由に夢を諦めない、83歳（自称）のVirtual AI Artist。",
+      "music": "Comedy Rap / EDM / Hip-Hop / Electro Swing / Cabaret / Dance（公式作品説明より）",
+      "profile": "83歳（自称）のVirtual AI Artist。毒舌、豪快、お茶目、負けず嫌い。",
+      "searchKeywords": [
+        "BABA NOVA",
+        "ババ・ノヴァ",
+        "サラダチキン婆",
+        "ばぁーれすく"
+      ],
+      "artistFeaturedTracks": [
+        "salad-chicken-baa",
+        "baa-lesque"
+      ],
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "homeFeatured": true,
+      "presentationStatus": "catalog-only",
+      "officialSource": "https://www.youtube.com/watch?v=QT6mgUyQ8l4",
+      "verifiedAt": "2026-10-26T20:19:40+09:00",
+      "seo": {
+        "title": "BABA NOVA｜SUZUKA Official AI Artist",
+        "description": "83歳（自称）のVirtual AI Artist。毒舌、豪快、お茶目、負けず嫌い。 公式音源「サラダチキン婆」「ばぁーれすく」を紹介。",
+        "jsonLdEnabled": true
+      }
     }
   ],
   "releases": [
@@ -1043,10 +1076,10 @@
       "language": "ja",
       "coverImage": "images/koga-mahou-ga-toketemo.jpg",
       "coverAlt": "神代煌牙「魔法が解けても」公式ビジュアル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=g_SmyjPGIfc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xGORQvmcZJ4",
       "youtubeVideoTitle": "【Official MV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO",
       "videoLabel": "OFFICIAL MV",
-      "videoCtaLabel": "Official MVを見る",
+      "videoCtaLabel": "公式MVを見る",
       "videoButtonLabel": "WATCH MV",
       "shortsUrl": "https://www.youtube.com/shorts/hEQFEGH2i0w",
       "releaseUrl": "releases/mahou-ga-toketemo/",
@@ -1083,9 +1116,9 @@
         "description": "神代煌牙「魔法が解けても ― Pumpkin Carriage ―」は2026-10-03ストリーミング配信予定。公式LinkCoreと作品の動画をご案内します。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-09-14",
-      "videoPublishedAt": "2026-09-14T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-videos-or-shorts-tab-and-player-metadata",
+      "videoPublishDate": "2026-10-03",
+      "videoPublishedAt": "2026-10-03T20:00:23+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=g_SmyjPGIfc",
       "promotionVerifiedAt": "2026-09-19T00:40:59+09:00",
@@ -1137,7 +1170,31 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=g_SmyjPGIfc",
+          "youtubeId": "g_SmyjPGIfc",
+          "title": "【Official MV】魔法が解けても ― Pumpkin Carriage ― / 神代煌牙｜KOGA KAMISHIRO",
+          "publishedAt": "2026-09-14T20:00:06+09:00",
+          "duration": 250,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/xGORQvmcZJ4/hqdefault.jpg",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "g_SmyjPGIfc",
+        "previousUrl": "https://www.youtube.com/watch?v=g_SmyjPGIfc",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=xGORQvmcZJ4"
+      }
     },
     {
       "slug": "sedai-wo-koete-mama-e",
@@ -1186,10 +1243,10 @@
       "language": "ja",
       "coverImage": "images/michiru-sedai-wo-koete-mama-e-official-jacket.png",
       "coverAlt": "妃みちる「世代を超えてママへ」正式ジャケット",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
-      "youtubeVideoTitle": "【MV】世代を超えてママへ / 妃みちる｜誕生日に贈る、すべてのママへの歌",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rYESV5EGOnU",
+      "youtubeVideoTitle": "🌸『世代を超えてママへ』MV公開｜すべてのママへ、ありがとう。",
       "videoLabel": "OFFICIAL MV",
-      "videoCtaLabel": "Official MVを見る",
+      "videoCtaLabel": "公式MVを見る",
       "videoButtonLabel": "WATCH MV",
       "shortsUrl": "https://www.youtube.com/shorts/Fw-JEWaKwdM",
       "releaseUrl": "releases/sedai-wo-koete-mama-e/",
@@ -1228,9 +1285,9 @@
         "description": "妃みちる「世代を超えてママへ」。子育ての喜びも、怒ってしまった夜も、涙の日も抱きしめながら、今を生きるママとすべての世代のママへ届ける楽曲。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-09-08",
-      "videoPublishedAt": "2026-09-08T00:22:28+09:00",
-      "videoPublishedAtSource": "official-youtube-videos-or-shorts-tab-and-player-metadata",
+      "videoPublishDate": "2026-09-24",
+      "videoPublishedAt": "2026-09-24T22:40:02+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
       "promotionVerifiedAt": "2026-09-08T01:05:00+09:00",
@@ -1271,7 +1328,31 @@
         }
       ],
       "coverWidth": 1254,
-      "coverHeight": 1254
+      "coverHeight": 1254,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+          "youtubeId": "Hho3xHOw8pg",
+          "title": "【MV】世代を超えてママへ / 妃みちる｜誕生日に贈る、すべてのママへの歌",
+          "publishedAt": "2026-09-08T00:22:28+09:00",
+          "duration": 178,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/rYESV5EGOnU/maxresdefault.jpg",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "Hho3xHOw8pg",
+        "previousUrl": "https://www.youtube.com/watch?v=Hho3xHOw8pg",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=rYESV5EGOnU"
+      }
     },
     {
       "slug": "yume-to-kaigo-to-watashitachi",
@@ -1333,10 +1414,10 @@
       "language": "ja",
       "coverImage": "images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg",
       "coverAlt": "紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=giTYuKyIk3c",
-      "youtubeVideoTitle": "【MV】榎本魅愛「夢と、介護と、私たち。」｜介護職だって、夢を持っていい。",
+      "youtubeUrl": "https://www.youtube.com/watch?v=UgA5YsSgN70",
+      "youtubeVideoTitle": "【MV】榎本魅愛「夢と、介護と、わたしたち。」｜介護職だって、夢を持っていい。",
       "videoLabel": "OFFICIAL MV",
-      "videoCtaLabel": "Official MVを見る",
+      "videoCtaLabel": "公式MVを見る",
       "videoButtonLabel": "WATCH MV",
       "shortsUrl": "https://www.youtube.com/shorts/8Heg7Aomqwk",
       "releaseUrl": "releases/yume-to-kaigo-to-watashitachi/",
@@ -1384,9 +1465,9 @@
         "description": "介護の現場で誰かを支えながら、自分の夢も大切にするすべての人へ榎本魅愛が贈る応援歌。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-09-06",
-      "videoPublishedAt": "2026-09-06T23:21:54+09:00",
-      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-03",
+      "videoPublishedAt": "2026-10-03T20:31:04+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=giTYuKyIk3c",
       "promotionVerifiedAt": "2026-09-06T23:56:37+09:00",
@@ -1429,7 +1510,31 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=giTYuKyIk3c",
+          "youtubeId": "giTYuKyIk3c",
+          "title": "【MV】榎本魅愛「夢と、介護と、私たち。」｜介護職だって、夢を持っていい。",
+          "publishedAt": "2026-09-06T23:21:54+09:00",
+          "duration": 315,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/UgA5YsSgN70/hqdefault.jpg",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "giTYuKyIk3c",
+        "previousUrl": "https://www.youtube.com/watch?v=giTYuKyIk3c",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=UgA5YsSgN70"
+      }
     },
     {
       "slug": "gekka-no-chigiri",
@@ -1589,7 +1694,7 @@
       "language": "ja",
       "coverImage": "images/koga-kamishiro-akuyaku-de-ii-official-jacket.png",
       "coverAlt": "神代煌牙「悪役でいい」正式ジャケット",
-      "youtubeUrl": "https://www.youtube.com/watch?v=OldWXAS32lI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xNc2PSfp4aM",
       "youtubeVideoTitle": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
       "videoLabel": "OFFICIAL MV",
       "videoCtaLabel": "公式MVを見る",
@@ -1631,9 +1736,9 @@
         "description": "世界に悪と呼ばれても、大切な人が選んだ道の隣にいるという神代煌牙の護る決意を歌う新曲。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-09-02",
-      "videoPublishedAt": "2026-09-02T21:01:37+09:00",
-      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-04",
+      "videoPublishedAt": "2026-10-04T20:00:23+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=OldWXAS32lI",
       "promotionVerifiedAt": "2026-09-04T22:30:00+09:00",
@@ -1664,7 +1769,31 @@
         }
       ],
       "coverWidth": 1254,
-      "coverHeight": 1254
+      "coverHeight": 1254,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=OldWXAS32lI",
+          "youtubeId": "OldWXAS32lI",
+          "title": "【Official MV】神代煌牙『悪役でいい』｜KOGA KAMISHIRO",
+          "publishedAt": "2026-09-02T21:01:37+09:00",
+          "duration": 314,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/xNc2PSfp4aM/hqdefault.jpg",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "OldWXAS32lI",
+        "previousUrl": "https://www.youtube.com/watch?v=OldWXAS32lI",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=xNc2PSfp4aM"
+      }
     },
     {
       "slug": "iine-sougisha",
@@ -1815,9 +1944,9 @@
       "language": "ja",
       "coverImage": "images/updown-official-youtube.webp",
       "coverAlt": "妃みちる「UPdown」公式動画サムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=V_v1Jjp9XcI",
       "videoLabel": "OFFICIAL VIDEO",
-      "youtubeVideoTitle": "【新曲】UPdown｜好きな子の前じゃ、平常心なんて無理。🎆💓｜妃みちる",
+      "youtubeVideoTitle": "💓好きな人の前じゃ、平常心なんて無理。｜妃みちる「UPdown」🎆",
       "videoCtaLabel": "公式動画を見る",
       "videoButtonLabel": "WATCH VIDEO",
       "shortsUrl": "",
@@ -1856,9 +1985,9 @@
         "description": "夏祭りの夜、好きな人への告白で上がったり下がったりする心を、コミカルかつまっすぐに歌う妃みちるの新曲。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-27",
-      "videoPublishedAt": "2026-08-27T22:48:02+09:00",
-      "videoPublishedAtSource": "official-youtube-atom-feed-and-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-09-29",
+      "videoPublishedAt": "2026-09-29T22:42:18+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
       "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
@@ -1880,7 +2009,31 @@
       ],
       "coverWidth": 1280,
       "coverHeight": 720,
-      "coverSource": "https://www.youtube.com/watch?v=V_v1Jjp9XcI"
+      "coverSource": "https://www.youtube.com/watch?v=V_v1Jjp9XcI",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+          "youtubeId": "SKUMF7ZhpRM",
+          "title": "【新曲】UPdown｜好きな子の前じゃ、平常心なんて無理。🎆💓｜妃みちる",
+          "publishedAt": "2026-08-27T22:48:02+09:00",
+          "duration": 245,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/V_v1Jjp9XcI/maxresdefault.jpg",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "SKUMF7ZhpRM",
+        "previousUrl": "https://www.youtube.com/watch?v=SKUMF7ZhpRM",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=V_v1Jjp9XcI"
+      }
     },
     {
       "slug": "re-sonance",
@@ -2026,7 +2179,7 @@
       "language": "ja",
       "coverImage": "images/wakareta-michi-official-youtube.webp",
       "coverAlt": "神代煌牙「分かれた道」公式動画サムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0W5cCu7O5_w",
       "shortsUrl": "https://www.youtube.com/shorts/ksYJEnyC284",
       "releaseUrl": "releases/wakareta-michi/",
       "newsUrl": "",
@@ -2063,9 +2216,9 @@
         "description": "愛していた相手の未来を尊重し、それぞれの道を歩き始める決断を描く神代煌牙の作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-22",
-      "videoPublishedAt": "2026-08-22T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-24",
+      "videoPublishedAt": "2026-09-24T23:55:13+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
       "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
@@ -2088,7 +2241,35 @@
       ],
       "coverWidth": 1280,
       "coverHeight": 720,
-      "coverSource": "https://www.youtube.com/watch?v=0W5cCu7O5_w"
+      "coverSource": "https://www.youtube.com/watch?v=0W5cCu7O5_w",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+          "youtubeId": "EU_5CqN1zZw",
+          "title": "分かれた道",
+          "publishedAt": "2026-08-22T20:00:06+09:00",
+          "duration": 319,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "【Official MV】神代煌牙『分かれた道』｜愛していた。だから、手を離した。",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/0W5cCu7O5_w/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "EU_5CqN1zZw",
+        "previousUrl": "https://www.youtube.com/watch?v=EU_5CqN1zZw",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=0W5cCu7O5_w"
+      }
     },
     {
       "slug": "friendlikesong",
@@ -2131,7 +2312,7 @@
       "language": "ja",
       "coverImage": "images/michiru-friendlikesong-official-jacket.png",
       "coverAlt": "妃みちる「Friend Like Song」正式ジャケット",
-      "youtubeUrl": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=7QnNNDcX8IY",
       "shortsUrl": "https://www.youtube.com/shorts/QG2KN01CsJ4",
       "releaseUrl": "releases/friendlikesong/",
       "newsUrl": "news/friendlikesong-streaming-release/",
@@ -2171,9 +2352,9 @@
         "description": "妃みちる「friend like song」は2026-09-20ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-20",
-      "videoPublishedAt": "2026-08-20T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-21",
+      "videoPublishedAt": "2026-09-21T00:01:38+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
       "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
@@ -2210,7 +2391,35 @@
         }
       ],
       "coverWidth": 1254,
-      "coverHeight": 1254
+      "coverHeight": 1254,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+          "youtubeId": "IbydSXmEyVQ",
+          "title": "friend like song",
+          "publishedAt": "2026-08-20T20:00:06+09:00",
+          "duration": 263,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "friendlikesong / 妃みちる｜HEY GIRL！HEY BOY！今年の夏、仲間と騒げ🌴🍺",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/7QnNNDcX8IY/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "IbydSXmEyVQ",
+        "previousUrl": "https://www.youtube.com/watch?v=IbydSXmEyVQ",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=7QnNNDcX8IY"
+      }
     },
     {
       "slug": "watashi-no-eranda-michi",
@@ -2253,7 +2462,7 @@
       "language": "ja",
       "coverImage": "images/michiru-watashi-no-eranda-michi-official-jacket.png",
       "coverAlt": "妃みちる「私の選んだ道」正式ジャケット",
-      "youtubeUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-gjC1ONs6TA",
       "shortsUrl": "https://www.youtube.com/shorts/hjqiZqPdrv8",
       "releaseUrl": "releases/watashi-no-eranda-michi/",
       "newsUrl": "",
@@ -2290,9 +2499,9 @@
         "description": "好きだった人の幸せを願い、自分で選んだ道を歩いてきた過去の自分へ贈る妃みちるの作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-23",
-      "videoPublishedAt": "2026-08-23T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-30",
+      "videoPublishedAt": "2026-09-30T20:00:39+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
       "promotionVerifiedAt": "2026-08-26T18:16:37+09:00",
@@ -2331,7 +2540,35 @@
       },
       "streamingTracks": [
         "私の選んだ道"
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+          "youtubeId": "FC1D7-0SeBc",
+          "title": "私の選んだ道",
+          "publishedAt": "2026-08-23T20:00:06+09:00",
+          "duration": 343,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "「好きだったから、離れました。｜妃みちる『私の選んだ道』」",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/-gjC1ONs6TA/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "FC1D7-0SeBc",
+        "previousUrl": "https://www.youtube.com/watch?v=FC1D7-0SeBc",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=-gjC1ONs6TA"
+      }
     },
     {
       "slug": "tatta-hitori-no-kimi-e",
@@ -2372,7 +2609,7 @@
       "language": "ja",
       "coverImage": "images/michiru-tatta-hitori-no-kimi-e-official-jacket.png",
       "coverAlt": "妃みちる「たった1人の君へ」正式ジャケット",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DPUQyibGcbA",
       "shortsUrl": "https://www.youtube.com/shorts/HuWmUFlwh6s",
       "releaseUrl": "releases/tatta-hitori-no-kimi-e/",
       "newsUrl": "news/tatta-hitori-no-kimi-e-streaming-release/",
@@ -2414,9 +2651,9 @@
         "description": "妃みちる「たった1人の君へ」は2026-09-20ストリーミング配信開始。公式LinkCoreと作品の動画をご案内します。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-17",
-      "videoPublishedAt": "2026-08-17T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-10-06",
+      "videoPublishedAt": "2026-10-06T20:00:19+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=CPIDy31wnc4",
       "promotionVerifiedAt": "2026-08-22T21:39:45+09:00",
@@ -2453,7 +2690,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+          "youtubeId": "CPIDy31wnc4",
+          "title": "たった1人の君へ",
+          "publishedAt": "2026-08-17T20:00:06+09:00",
+          "duration": 338,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "妃みちる『たった1人の君へ』Official Music ｜SUZUKA Debut Single",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/DPUQyibGcbA/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "CPIDy31wnc4",
+        "previousUrl": "https://www.youtube.com/watch?v=CPIDy31wnc4",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=DPUQyibGcbA"
+      }
     },
     {
       "slug": "monsoon-promise",
@@ -2557,7 +2822,7 @@
       "language": "ja",
       "coverImage": "images/taipa-nante-shiranakatta-official-youtube.webp",
       "coverAlt": "榎本魅愛「タイパなんて知らなかった」公式動画サムネイル",
-      "youtubeUrl": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0EWk-Phh5XQ",
       "shortsUrl": "https://www.youtube.com/shorts/HJugNSYcBI0",
       "releaseUrl": "releases/taipa-nante-shiranakatta/",
       "newsUrl": "",
@@ -2594,9 +2859,9 @@
         "description": "待つこと、迷うこと、遠回りすることを、便利になった今だからこそ思い出す榎本魅愛の作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-16",
-      "videoPublishedAt": "2026-08-16T19:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-22",
+      "videoPublishedAt": "2026-09-22T20:00:07+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
       "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
@@ -2627,7 +2892,35 @@
       ],
       "coverWidth": 1280,
       "coverHeight": 720,
-      "coverSource": "https://www.youtube.com/watch?v=0EWk-Phh5XQ"
+      "coverSource": "https://www.youtube.com/watch?v=0EWk-Phh5XQ",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
+          "youtubeId": "s0zOTuR4GQI",
+          "title": "タイパなんて知らなかった",
+          "publishedAt": "2026-08-16T19:00:06+09:00",
+          "duration": 265,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "榎本魅愛『タイパなんて知らなかった』Official Music Video",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/0EWk-Phh5XQ/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "s0zOTuR4GQI",
+        "previousUrl": "https://www.youtube.com/watch?v=s0zOTuR4GQI",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=0EWk-Phh5XQ"
+      }
     },
     {
       "slug": "family-portrait",
@@ -2814,7 +3107,7 @@
       "title": "夏が終わるまで、そばにいて。",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5itkRRGOwVY",
       "image": "images/natsu-ga-owaru-made-soba-ni-ite-official-youtube.webp",
       "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。",
       "releaseAt": "2026-08-14T20:00:06+09:00",
@@ -2865,9 +3158,9 @@
         "description": "榎本魅愛の2nd Digital Photo Storyの世界から生まれた作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-14",
-      "videoPublishedAt": "2026-08-14T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-29",
+      "videoPublishedAt": "2026-09-29T23:02:44+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=rPTopOOZMkM",
       "promotionVerifiedAt": "2026-08-17T00:15:19+09:00",
@@ -2893,14 +3186,42 @@
       ],
       "coverWidth": 1280,
       "coverHeight": 720,
-      "coverSource": "https://www.youtube.com/watch?v=5itkRRGOwVY"
+      "coverSource": "https://www.youtube.com/watch?v=5itkRRGOwVY",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+          "youtubeId": "rPTopOOZMkM",
+          "title": "夏が終わるまで、そばにいて。",
+          "publishedAt": "2026-08-14T20:00:06+09:00",
+          "duration": 307,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "夏が終わるまで、そばにいて。｜榎本魅愛",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/5itkRRGOwVY/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "rPTopOOZMkM",
+        "previousUrl": "https://www.youtube.com/watch?v=rPTopOOZMkM",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=5itkRRGOwVY"
+      }
     },
     {
       "slug": "caramel",
       "title": "キャラメ〜ル",
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vA8RzclcY0E",
       "image": "images/caramel-official-youtube.webp",
       "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の作品。",
       "releaseAt": "2026-08-13T20:00:06+09:00",
@@ -2951,9 +3272,9 @@
         "description": "甘くて少し苦い、素直になれない恋を描く榎本魅愛の作品。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-13",
-      "videoPublishedAt": "2026-08-13T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-30",
+      "videoPublishedAt": "2026-09-30T20:00:38+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
       "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
@@ -2979,14 +3300,42 @@
       ],
       "coverWidth": 1280,
       "coverHeight": 720,
-      "coverSource": "https://www.youtube.com/watch?v=vA8RzclcY0E"
+      "coverSource": "https://www.youtube.com/watch?v=vA8RzclcY0E",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+          "youtubeId": "rtN3V6DDmFw",
+          "title": "キャラメ〜ル",
+          "publishedAt": "2026-08-13T20:00:06+09:00",
+          "duration": 254,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "🍮 好きなのに、素直になれない。｜榎本魅愛『キャラメ〜ル』💗",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/vA8RzclcY0E/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "rtN3V6DDmFw",
+        "previousUrl": "https://www.youtube.com/watch?v=rtN3V6DDmFw",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=vA8RzclcY0E"
+      }
     },
     {
       "slug": "kamisama-wa-rusu",
       "title": "神様は留守",
       "artist": "神代煌牙",
       "artistSlug": "koga-kamishiro",
-      "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qQgad9rWvXk",
       "image": "images/kamisama-wa-rusu-official-youtube.webp",
       "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙のロックナンバー。",
       "releaseAt": "2026-08-12T20:00:06+09:00",
@@ -3037,9 +3386,9 @@
         "description": "神様が留守なら自分の足で歩くと歌う、神代煌牙のロックナンバー。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-12",
-      "videoPublishedAt": "2026-08-12T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-29",
+      "videoPublishedAt": "2026-09-29T23:17:34+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
       "promotionVerifiedAt": "2026-08-13T22:26:02+09:00",
@@ -3070,6 +3419,34 @@
           "https://www.tunecore.co.jp/to/apple_music/1989679",
           "https://www.tunecore.co.jp/to/spotify/1989679"
         ]
+      },
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+          "youtubeId": "RxfHwhP1Sx4",
+          "title": "神様は留守",
+          "publishedAt": "2026-08-12T20:00:06+09:00",
+          "duration": 312,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "神代煌牙『神様は留守』｜神様が留守なら、自分の足で歩けばいい。♞",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/qQgad9rWvXk/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "RxfHwhP1Sx4",
+        "previousUrl": "https://www.youtube.com/watch?v=RxfHwhP1Sx4",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=qQgad9rWvXk"
       }
     },
     {
@@ -3078,7 +3455,7 @@
       "artist": "榎本魅愛",
       "artistSlug": "enomoto-mia",
       "scheduledAt": "2026-08-11T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TeZOrOs1Qnw",
       "image": "images/enomoto-mia-kimi-wa-makenai.jpg",
       "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。",
       "releaseAt": "2026-08-11T20:00:06+09:00",
@@ -3158,9 +3535,9 @@
         "description": "負けないで、あきらめないで、君はひとりじゃないと届ける榎本魅愛の応援歌。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-11",
-      "videoPublishedAt": "2026-08-11T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-10-02",
+      "videoPublishedAt": "2026-10-02T20:00:02+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
       "playlistPriority": 0,
@@ -3175,7 +3552,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+          "youtubeId": "K_YN2bNRjY0",
+          "title": "君は負けない",
+          "publishedAt": "2026-08-11T20:00:06+09:00",
+          "duration": 236,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "負けそうな夜に、聴いてほしい。｜榎本魅愛「君は負けない」",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/TeZOrOs1Qnw/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "K_YN2bNRjY0",
+        "previousUrl": "https://www.youtube.com/watch?v=K_YN2bNRjY0",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=TeZOrOs1Qnw"
+      }
     },
     {
       "slug": "leo-rise-again",
@@ -3183,7 +3588,7 @@
       "artist": "神代煌牙",
       "artistSlug": "koga-kamishiro",
       "scheduledAt": "2026-08-10T20:00:00+09:00",
-      "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iQUxXRWZoio",
       "image": "images/koga-leo-rise-again.jpg",
       "description": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。",
       "releaseAt": "2026-08-10T20:00:06+09:00",
@@ -3266,9 +3671,9 @@
         "description": "恐怖も傷も孤独も力に変え、もう一度立ち上がる神代煌牙のロックナンバー。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-10",
-      "videoPublishedAt": "2026-08-10T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-30",
+      "videoPublishedAt": "2026-09-30T20:00:07+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
       "playlistPriority": 0,
@@ -3282,7 +3687,35 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+          "youtubeId": "RRgMeJzb5PU",
+          "title": "LEO — Rise Again —",
+          "publishedAt": "2026-08-10T20:00:06+09:00",
+          "duration": 314,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "神代煌牙『LEO — Rise Again —』｜倒れても、終わりじゃない。",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/iQUxXRWZoio/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "RRgMeJzb5PU",
+        "previousUrl": "https://www.youtube.com/watch?v=RRgMeJzb5PU",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=iQUxXRWZoio"
+      }
     },
     {
       "id": "last-dance-tonight",
@@ -3407,7 +3840,7 @@
       "coverImage": "images/kimi-ni-kakatta-mahou-official-youtube.webp",
       "coverAlt": "榎本魅愛「君にかかった魔法」公式動画サムネイル",
       "releaseUrl": "releases/kimi-ni-kakatta-mahou/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=InpcOHVTpRU",
       "newsUrl": "",
       "duration": 380,
       "status": "published",
@@ -3448,9 +3881,9 @@
         "description": "何気ない日々の積み重ねが恋を愛へ変えていく、榎本魅愛のラブソング。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-02",
-      "videoPublishedAt": "2026-08-09T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-10-05",
+      "videoPublishedAt": "2026-10-05T20:00:13+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
       "playlistPriority": 0,
@@ -3465,7 +3898,47 @@
       "lyricsVerifiedAt": null,
       "coverWidth": 480,
       "coverHeight": 360,
-      "coverSource": "https://www.youtube.com/watch?v=InpcOHVTpRU"
+      "coverSource": "https://www.youtube.com/watch?v=InpcOHVTpRU",
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+          "youtubeId": "iEFPd6kYYJc",
+          "title": "君にかかった魔法",
+          "publishedAt": "2026-08-09T20:00:06+09:00",
+          "duration": 380,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "💖君にかかった魔法｜恋はいつから愛になるんだろう。｜榎本魅愛 Official Music",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/InpcOHVTpRU/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoVersions": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=InpcOHVTpRU",
+          "title": "💖君にかかった魔法｜恋はいつから愛になるんだろう。｜榎本魅愛 Official Music",
+          "label": "OFFICIAL VIDEO",
+          "duration": 380,
+          "publishedAt": "2026-10-05T20:00:13+09:00",
+          "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+          "source": "official-youtube-public-player-metadata-and-channel-inventory",
+          "verifiedAt": "2026-10-26T20:57:51+09:00"
+        }
+      ],
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "iEFPd6kYYJc",
+        "previousUrl": "https://www.youtube.com/watch?v=iEFPd6kYYJc",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=InpcOHVTpRU"
+      }
     },
     {
       "id": "mermaid-no-geboku",
@@ -3604,7 +4077,7 @@
       "coverImage": "images/enomoto-mia-hanakotoba.jpg",
       "coverAlt": "榎本魅愛「花言葉」公式YouTubeサムネイル",
       "releaseUrl": "releases/hanakotoba/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=iinLScSzA9w",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rZhp5O3YTw8",
       "newsUrl": "news/hanakotoba-release/",
       "duration": 234,
       "status": "published",
@@ -3656,9 +4129,9 @@
         "description": "榎本魅愛「花言葉」は2026年9月11日より各音楽配信サービスでリリース。青い花と二人の時間に、終わらない愛の言葉を重ねるシングル。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-19",
-      "videoPublishedAt": "2026-08-19T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-12",
+      "videoPublishedAt": "2026-09-12T20:40:39+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=iinLScSzA9w",
       "playlistPriority": 100,
@@ -3723,7 +4196,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=iinLScSzA9w",
+          "youtubeId": "iinLScSzA9w",
+          "title": "花言葉",
+          "publishedAt": "2026-08-19T20:00:06+09:00",
+          "duration": 234,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "【MV】榎本魅愛『花言葉』｜両親の結婚記念日に贈る“永遠”の物語",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/rZhp5O3YTw8/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "iinLScSzA9w",
+        "previousUrl": "https://www.youtube.com/watch?v=iinLScSzA9w",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=rZhp5O3YTw8"
+      }
     },
     {
       "id": "anata-dake-no-savior",
@@ -3941,7 +4442,7 @@
       "coverImage": "images/enomoto-mia-hajimemashite-kiseki.jpg",
       "coverAlt": "榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル",
       "releaseUrl": "releases/hajimemashite-kiseki/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nplXdPAD9QU",
       "newsUrl": "news/hajimemashite-kiseki-release/",
       "duration": 211,
       "status": "published",
@@ -3985,9 +4486,9 @@
         "description": "遠回りや失敗も未来へつながると歌う、榎本魅愛の爽やかなJ-POP。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-31",
-      "videoPublishedAt": "2026-08-05T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-13",
+      "videoPublishedAt": "2026-10-13T20:00:08+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=rr12NZuWHHs",
       "playlistPriority": 0,
@@ -4011,7 +4512,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-13T20:08:17+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+          "youtubeId": "rr12NZuWHHs",
+          "title": "はじめまして、奇跡",
+          "publishedAt": "2026-08-05T20:00:06+09:00",
+          "duration": 211,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "榎本魅愛『はじめまして、奇跡』Official Music",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/nplXdPAD9QU/hqdefault.jpg?v=6acce321",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "rr12NZuWHHs",
+        "previousUrl": "https://www.youtube.com/watch?v=rr12NZuWHHs",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=nplXdPAD9QU"
+      }
     },
     {
       "id": "still-alive",
@@ -4229,7 +4758,7 @@
       "coverImage": "images/koga-one-more-kiss.jpg",
       "coverAlt": "神代煌牙「One More Kiss」公式YouTubeサムネイル",
       "releaseUrl": "releases/one-more-kiss/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Q9eeq3EMUYE",
       "newsUrl": "news/one-more-kiss-release/",
       "duration": 337,
       "status": "published",
@@ -4274,9 +4803,9 @@
         "description": "満たされない孤独と離れられない想いを、危うい口づけの物語として描く神代煌牙のダークなラブソング。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-02",
-      "videoPublishedAt": "2026-08-02T20:00:05+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-10-06",
+      "videoPublishedAt": "2026-10-06T20:00:35+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
       "releaseAt": "2026-08-02T20:00:05+09:00",
@@ -4299,7 +4828,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+          "youtubeId": "EP7NAPlGhuo",
+          "title": "One More Kiss",
+          "publishedAt": "2026-08-02T20:00:05+09:00",
+          "duration": 337,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "神代煌牙『One More Kiss』｜孤独を溶かす、危うい口づけ",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/Q9eeq3EMUYE/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "EP7NAPlGhuo",
+        "previousUrl": "https://www.youtube.com/watch?v=EP7NAPlGhuo",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=Q9eeq3EMUYE"
+      }
     },
     {
       "id": "lost-signal",
@@ -4423,7 +4980,7 @@
       "coverImage": "images/mv-without-worrying.jpg",
       "coverAlt": "榎本魅愛「Without Worrying」公式YouTubeサムネイル",
       "releaseUrl": "releases/without-worrying/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MlbqKSCi4U8",
       "newsUrl": "news/without-worrying-release/",
       "duration": 210,
       "status": "published",
@@ -4466,9 +5023,9 @@
         "description": "笑顔の裏で涙を抱える人へ、焦らずそのままでいいと寄り添う榎本魅愛のバラード。 SUZUKAの架空のAIアーティスト作品です。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-31",
-      "videoPublishedAt": "2026-07-31T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-10-03",
+      "videoPublishedAt": "2026-10-03T09:16:55+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "officialSource": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
       "releaseAt": "2026-07-31T20:00:06+09:00",
@@ -4505,6 +5062,34 @@
           "https://www.tunecore.co.jp/to/apple_music/1986628",
           "https://www.tunecore.co.jp/to/spotify/1986628"
         ]
+      },
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+          "youtubeId": "lMeYWn4Sqgk",
+          "title": "Without Worrying",
+          "publishedAt": "2026-07-31T20:00:06+09:00",
+          "duration": 210,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "Without Worrying／榎本魅愛｜あなたはひとりじゃない。",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/MlbqKSCi4U8/hqdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "lMeYWn4Sqgk",
+        "previousUrl": "https://www.youtube.com/watch?v=lMeYWn4Sqgk",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=MlbqKSCi4U8"
       }
     },
     {
@@ -4711,7 +5296,7 @@
       "coverImage": "images/mv-ashita-wa-kitto.jpg",
       "coverAlt": "榎本魅愛「明日は、きっと。」公式YouTubeサムネイル",
       "releaseUrl": "releases/ashita-wa-kitto/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
+      "youtubeUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E",
       "newsUrl": "news/ashita-wa-kitto-release/",
       "duration": 217,
       "status": "published",
@@ -4755,9 +5340,9 @@
         "description": "不安な夜を越え、明日への希望と無事を祈る榎本魅愛の楽曲。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-26",
-      "videoPublishedAt": "2026-08-26T21:13:36+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-24",
+      "videoPublishedAt": "2026-09-24T22:29:30+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-29T01:22:23+09:00",
       "lyricsAvailable": true,
@@ -4771,7 +5356,7 @@
       "audioUrl": "https://www.youtube.com/watch?v=5MkQZT5qiGA",
       "officialSource": "https://www.youtube.com/watch?v=HKm8cUorTOs",
       "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
-      "youtubeVideoTitle": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
+      "youtubeVideoTitle": "「熊本へ、もう一度届けます。『明日は、きっと。』｜榎本魅愛」",
       "videoVersions": [
         {
           "youtubeUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E",
@@ -4783,7 +5368,34 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
+          "youtubeId": "HKm8cUorTOs",
+          "title": "【MV解禁】榎本魅愛『明日は、きっと。』｜君はひとりじゃない。希望をつなぐ歌",
+          "publishedAt": "2026-08-26T21:13:36+09:00",
+          "duration": 217,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/P8nDdk8A85E/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "HKm8cUorTOs",
+        "previousUrl": "https://www.youtube.com/watch?v=HKm8cUorTOs",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=P8nDdk8A85E"
+      }
     },
     {
       "id": "heal-you-again",
@@ -4905,7 +5517,7 @@
       "coverImage": "images/koga-echoes-of-you.jpg",
       "coverAlt": "神代煌牙「Echoes of You」公式YouTubeサムネイル",
       "releaseUrl": "releases/echoes-of-you/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Uxtp9TLw47g",
+      "youtubeUrl": "https://www.youtube.com/watch?v=v1rY03gArRk",
       "newsUrl": "news/echoes-of-you-release/",
       "duration": 484,
       "status": "published",
@@ -4951,9 +5563,9 @@
         "description": "幼い頃の約束と消えない面影をたどり、終わらない恋の残響を描く神代煌牙の物語作品。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-26",
-      "videoPublishedAt": "2026-07-26T20:00:22+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-09",
+      "videoPublishedAt": "2026-10-09T20:00:16+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-26T20:00:22+09:00",
       "lyricsAvailable": false,
@@ -4975,7 +5587,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=Uxtp9TLw47g",
+          "youtubeId": "Uxtp9TLw47g",
+          "title": "Echoes of You",
+          "publishedAt": "2026-07-26T20:00:22+09:00",
+          "duration": 484,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "神代煌牙『Echoes of You』―「また、逢えるからね」終わらない恋の残響【Official Music Video】",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/v1rY03gArRk/hqdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "Uxtp9TLw47g",
+        "previousUrl": "https://www.youtube.com/watch?v=Uxtp9TLw47g",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=v1rY03gArRk"
+      }
     },
     {
       "id": "namaste-galaxy",
@@ -5183,7 +5823,7 @@
       "coverImage": "images/youtube-smile-and-say-goodbye.jpg",
       "coverAlt": "榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」公式ジャケット",
       "releaseUrl": "releases/smile-and-say-goodbye/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8ZGpEiIo4sU",
       "newsUrl": "news/smile-and-say-goodbye-release/",
       "duration": 497,
       "status": "published",
@@ -5227,9 +5867,9 @@
         "description": "好きだからこそ相手を手放し、最後は笑顔で別れたいと願う切ないバラード。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-22",
-      "videoPublishedAt": "2026-07-22T20:00:31+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-06",
+      "videoPublishedAt": "2026-10-06T20:00:19+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-22T20:00:31+09:00",
       "lyricsAvailable": false,
@@ -5251,7 +5891,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
+          "youtubeId": "b2n8gcpen58",
+          "title": "SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―",
+          "publishedAt": "2026-07-22T20:00:31+09:00",
+          "duration": 497,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "【Official MV】榎本魅愛「SMILE AND SAY GOODBYE ― 大好きだから、笑ってさようなら。―」",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/8ZGpEiIo4sU/hqdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "b2n8gcpen58",
+        "previousUrl": "https://www.youtube.com/watch?v=b2n8gcpen58",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=8ZGpEiIo4sU"
+      }
     },
     {
       "id": "boukyaku-no-ikimono",
@@ -5284,7 +5952,7 @@
       "coverImage": "images/youtube-boukyaku-no-ikimono.jpg",
       "coverAlt": "神代 煌牙「忘却の生き物」公式ジャケット",
       "releaseUrl": "releases/boukyaku-no-ikimono/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
+      "youtubeUrl": "https://www.youtube.com/watch?v=sGG9Slgp7Rc",
       "newsUrl": "",
       "duration": 284,
       "status": "published",
@@ -5332,9 +6000,9 @@
         "description": "弱さと罪、自己正当化、傷ついた少年少女、愛と身体の分離、忘却と社会への問いを描く物語作品。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-21",
-      "videoPublishedAt": "2026-07-21T19:00:30+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-07",
+      "videoPublishedAt": "2026-10-07T20:00:13+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-21T19:00:30+09:00",
       "lyricsAvailable": false,
@@ -5356,7 +6024,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
+          "youtubeId": "yREvkT9gEk4",
+          "title": "忘却の生き物",
+          "publishedAt": "2026-07-21T19:00:30+09:00",
+          "duration": 284,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "神代煌牙『忘却の生き物』Official Music Video",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/sGG9Slgp7Rc/hqdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "yREvkT9gEk4",
+        "previousUrl": "https://www.youtube.com/watch?v=yREvkT9gEk4",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=sGG9Slgp7Rc"
+      }
     },
     {
       "id": "my-queen-my-oath",
@@ -5390,7 +6086,7 @@
       "coverImage": "images/koga-my-queen-my-oath-cover.jpg",
       "coverAlt": "神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。",
       "releaseUrl": "releases/my-queen-my-oath/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FUwxYpxVRcM",
       "newsUrl": "news/my-queen-my-oath-release/",
       "duration": 297,
       "status": "published",
@@ -5440,9 +6136,9 @@
         "description": "夕暮れの海を舞台に、大切な人を守り抜く覚悟と永遠の誓いを描いた神代煌牙のラブソング。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-20",
-      "videoPublishedAt": "2026-07-20T19:00:07+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-08",
+      "videoPublishedAt": "2026-10-08T20:00:17+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-20T19:00:07+09:00",
       "lyricsAvailable": false,
@@ -5464,7 +6160,35 @@
           "source": "official-youtube-channel-videos-and-player-microformat",
           "verifiedAt": "2026-10-12T23:29:20+09:00"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+          "youtubeId": "_TfwreiEMMM",
+          "title": "My Queen, My Oath",
+          "publishedAt": "2026-07-20T19:00:07+09:00",
+          "duration": 297,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "My Queen, My Oath｜神代 煌牙【Official Music Video】",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/FUwxYpxVRcM/hqdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "_TfwreiEMMM",
+        "previousUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=FUwxYpxVRcM"
+      }
     },
     {
       "id": "red-moon-rising",
@@ -5590,7 +6314,7 @@
       "coverImage": "images/mv-mia.jpg",
       "coverAlt": "榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット",
       "releaseUrl": "releases/moshimo-ashita-hajimemashite-ni-natte-mo/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Mr3qtg9d1S0",
       "newsUrl": "news/moshimo-ashita-hajimemashite-ni-natte-mo-release/",
       "duration": 417,
       "status": "published",
@@ -5630,9 +6354,9 @@
         "description": "榎本魅愛「もしも明日、はじめましてになっても」のSUZUKA公式作品ページ。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-07-16",
-      "videoPublishedAt": "2026-07-16T20:50:27+09:00",
-      "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
+      "videoPublishDate": "2026-10-07",
+      "videoPublishedAt": "2026-10-07T20:00:13+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-16T20:50:27+09:00",
       "lyricsAvailable": false,
@@ -5671,7 +6395,35 @@
       },
       "streamingTracks": [
         "もしも明日、はじめましてになっても"
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
+          "youtubeId": "GN6eoBDRm3w",
+          "title": "もしも明日、はじめましてになっても",
+          "publishedAt": "2026-07-16T20:50:27+09:00",
+          "duration": 417,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeVideoTitle": "もしも明日、はじめましてになっても｜榎本魅愛【Official Lyric Video】",
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/Mr3qtg9d1S0/hqdefault.jpg",
+      "videoLabel": "OFFICIAL LYRIC VIDEO",
+      "videoButtonLabel": "WATCH VIDEO",
+      "videoCtaLabel": "公式動画を見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "GN6eoBDRm3w",
+        "previousUrl": "https://www.youtube.com/watch?v=GN6eoBDRm3w",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=Mr3qtg9d1S0"
+      }
     },
     {
       "id": "suki-ga-kyou-mo-fueteiku",
@@ -5702,7 +6454,7 @@
       "coverImage": "images/mv-suki-ga-kyou-mo-fueteiku.jpg",
       "coverAlt": "榎本魅愛「好きが、今日も増えていく。」公式ジャケット",
       "releaseUrl": "releases/suki-ga-kyou-mo-fueteiku/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 351,
       "status": "published",
@@ -5745,7 +6497,7 @@
       "videoPublishDate": "2026-07-16",
       "videoPublishedAt": "2026-07-16T18:31:46+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-16T18:31:46+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -5754,7 +6506,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+          "youtubeId": "XAZy5k9Q4rE",
+          "title": "好きが、今日も増えていく。",
+          "publishedAt": "2026-07-16T18:31:46+09:00",
+          "duration": 351,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "XAZy5k9Q4rE",
+        "previousUrl": "https://www.youtube.com/watch?v=XAZy5k9Q4rE",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "toriatsukai-chui",
@@ -6065,7 +6839,7 @@
       "coverImage": "images/mv-mirai-no-watashi-ga-miteru.jpg",
       "coverAlt": "榎本魅愛「未来の私が見てる」公式ジャケット",
       "releaseUrl": "releases/mirai-no-watashi-ga-miteru/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fgAW1njpSxM",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 484,
       "status": "published",
@@ -6108,7 +6882,7 @@
       "videoPublishDate": "2026-07-14",
       "videoPublishedAt": "2026-07-14T22:31:20+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-14T22:31:20+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6117,7 +6891,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=fgAW1njpSxM",
+          "youtubeId": "fgAW1njpSxM",
+          "title": "未来の私が見てる",
+          "publishedAt": "2026-07-14T22:31:20+09:00",
+          "duration": 484,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "fgAW1njpSxM",
+        "previousUrl": "https://www.youtube.com/watch?v=fgAW1njpSxM",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "muteki-jikan-ato-3byou",
@@ -6148,7 +6944,7 @@
       "coverImage": "images/mv-muteki.jpg",
       "coverAlt": "榎本魅愛「無敵時間、あと3秒」公式ジャケット",
       "releaseUrl": "releases/muteki-jikan-ato-3byou/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=DPnFtRFnH5c",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 232,
       "status": "published",
@@ -6191,7 +6987,7 @@
       "videoPublishDate": "2026-07-13",
       "videoPublishedAt": "2026-07-13T20:00:35+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T20:00:35+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6200,7 +6996,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=DPnFtRFnH5c",
+          "youtubeId": "DPnFtRFnH5c",
+          "title": "無敵時間、あと3秒",
+          "publishedAt": "2026-07-13T20:00:35+09:00",
+          "duration": 232,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "DPnFtRFnH5c",
+        "previousUrl": "https://www.youtube.com/watch?v=DPnFtRFnH5c",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "mia",
@@ -6231,7 +7049,7 @@
       "coverImage": "images/mv-mia.jpg",
       "coverAlt": "榎本魅愛「M・I・A」公式ジャケット",
       "releaseUrl": "releases/mia/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=WzcXyuAI_FM",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 328,
       "status": "published",
@@ -6274,7 +7092,7 @@
       "videoPublishDate": "2026-07-13",
       "videoPublishedAt": "2026-07-13T20:00:32+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T20:00:32+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6283,7 +7101,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=WzcXyuAI_FM",
+          "youtubeId": "WzcXyuAI_FM",
+          "title": "M・I・A",
+          "publishedAt": "2026-07-13T20:00:32+09:00",
+          "duration": 328,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "WzcXyuAI_FM",
+        "previousUrl": "https://www.youtube.com/watch?v=WzcXyuAI_FM",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "tokenai-mahou-wo-ai-to-yobu",
@@ -6314,7 +7154,7 @@
       "coverImage": "images/mv-mahou.jpg",
       "coverAlt": "榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット",
       "releaseUrl": "releases/tokenai-mahou-wo-ai-to-yobu/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 380,
       "status": "published",
@@ -6357,7 +7197,7 @@
       "videoPublishDate": "2026-07-13",
       "videoPublishedAt": "2026-07-13T20:00:23+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T20:00:23+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6366,7 +7206,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+          "youtubeId": "CAFQ-d7YHPQ",
+          "title": "解けない魔法を、愛と呼ぶ",
+          "publishedAt": "2026-07-13T20:00:23+09:00",
+          "duration": 380,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "CAFQ-d7YHPQ",
+        "previousUrl": "https://www.youtube.com/watch?v=CAFQ-d7YHPQ",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "kimi-to-nara-last-boss-made",
@@ -6397,7 +7259,7 @@
       "coverImage": "images/mv-lastboss.jpg",
       "coverAlt": "榎本魅愛「君とならラスボスまで」公式ジャケット",
       "releaseUrl": "releases/kimi-to-nara-last-boss-made/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+      "youtubeUrl": "https://www.youtube.com/watch?v=27VQIeG3Mq0",
       "newsUrl": "",
       "duration": 328,
       "status": "published",
@@ -6437,9 +7299,9 @@
         "description": "榎本魅愛「君とならラスボスまで」のSUZUKA公式作品ページ。",
         "jsonLdEnabled": true
       },
-      "videoPublishDate": "2026-08-26",
-      "videoPublishedAt": "2026-08-26T20:00:06+09:00",
-      "videoPublishedAtSource": "official-youtube-liveBroadcastDetails.startTimestamp",
+      "videoPublishDate": "2026-09-21",
+      "videoPublishedAt": "2026-09-21T20:00:03+09:00",
+      "videoPublishedAtSource": "official-youtube-public-player-metadata-and-channel-inventory",
       "videoStructuredDataStatus": "published",
       "releaseAt": "2026-07-13T15:27:23+09:00",
       "lyricsAvailable": false,
@@ -6453,7 +7315,7 @@
       "promotionVerifiedAt": "2026-08-28T00:37:35+09:00",
       "audioUrl": "https://www.youtube.com/watch?v=YVNs3I-KaHI",
       "officialSource": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
-      "youtubeVideoTitle": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
+      "youtubeVideoTitle": "【MV】君とならラスボスまで / 榎本魅愛｜地図がなくても、君となら。",
       "scheduledStreamingRelease": {
         "releaseDate": "2026-10-01",
         "timezone": "Asia/Tokyo",
@@ -6473,7 +7335,34 @@
           "verifiedAt": "2026-10-02T14:10:36+09:00",
           "source": "official-youtube-channel-videos-and-player-microformat"
         }
-      ]
+      ],
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+          "youtubeId": "VyFAFnfn5dc",
+          "title": "【MV】榎本魅愛「君とならラスボスまで」｜伝説の剣なんて、なくてもいい。",
+          "publishedAt": "2026-08-26T20:00:06+09:00",
+          "duration": 328,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/27VQIeG3Mq0/maxresdefault.jpg",
+      "videoLabel": "OFFICIAL MV",
+      "videoButtonLabel": "WATCH MV",
+      "videoCtaLabel": "公式MVを見る",
+      "videoMigration": {
+        "status": "migrated",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "VyFAFnfn5dc",
+        "previousUrl": "https://www.youtube.com/watch?v=VyFAFnfn5dc",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで公開中",
+        "replacementUrl": "https://www.youtube.com/watch?v=27VQIeG3Mq0"
+      }
     },
     {
       "id": "ai-demo-wakaranai",
@@ -6504,7 +7393,7 @@
       "coverImage": "images/mv-ai.jpg",
       "coverAlt": "榎本魅愛「AIでもわからない」公式ジャケット",
       "releaseUrl": "releases/ai-demo-wakaranai/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5jmTo3Jb5sI",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 315,
       "status": "published",
@@ -6547,7 +7436,7 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T15:14:26+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T15:14:26+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6556,7 +7445,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=5jmTo3Jb5sI",
+          "youtubeId": "5jmTo3Jb5sI",
+          "title": "AIでもわからない",
+          "publishedAt": "2026-07-13T15:14:26+09:00",
+          "duration": 315,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "5jmTo3Jb5sI",
+        "previousUrl": "https://www.youtube.com/watch?v=5jmTo3Jb5sI",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "kimi-wa-hanabi",
@@ -6589,7 +7500,7 @@
       "coverImage": "images/mv-hanabi.jpg",
       "coverAlt": "榎本魅愛「君は花火」公式ジャケット",
       "releaseUrl": "releases/kimi-wa-hanabi/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 280,
       "status": "published",
@@ -6636,7 +7547,7 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T00:54:50+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T00:54:50+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6645,7 +7556,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
+          "youtubeId": "ohylad3AWYI",
+          "title": "君は花火",
+          "publishedAt": "2026-07-13T00:54:50+09:00",
+          "duration": 280,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "ohylad3AWYI",
+        "previousUrl": "https://www.youtube.com/watch?v=ohylad3AWYI",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "mermaid-merman",
@@ -6678,7 +7611,7 @@
       "coverImage": "images/mv-mermaid-merman.jpg",
       "coverAlt": "榎本魅愛「MERMAID×MERMAN」公式ジャケット",
       "releaseUrl": "releases/mermaid-merman/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 340,
       "status": "published",
@@ -6725,7 +7658,7 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-13T00:17:26+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-13T00:17:26+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6734,7 +7667,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
+          "youtubeId": "29fpeNtUqfY",
+          "title": "MERMAID×MERMAN",
+          "publishedAt": "2026-07-13T00:17:26+09:00",
+          "duration": 340,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "29fpeNtUqfY",
+        "previousUrl": "https://www.youtube.com/watch?v=29fpeNtUqfY",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "sukitte-baretemo-ii",
@@ -6765,7 +7720,7 @@
       "coverImage": "images/mv-sukitte-baretemo-ii.jpg",
       "coverAlt": "榎本魅愛「好きってバレてもいい」公式ジャケット",
       "releaseUrl": "releases/sukitte-baretemo-ii/",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+      "youtubeUrl": "",
       "newsUrl": "",
       "duration": 274,
       "status": "published",
@@ -6808,7 +7763,7 @@
       "videoPublishDate": "2026-07-12",
       "videoPublishedAt": "2026-07-12T20:00:59+09:00",
       "videoPublishedAtSource": "official-youtube-playerMicroformatRenderer.publishDate",
-      "videoStructuredDataStatus": "published",
+      "videoStructuredDataStatus": "channel-migration",
       "releaseAt": "2026-07-12T20:00:59+09:00",
       "lyricsAvailable": false,
       "lyricsSource": "",
@@ -6817,7 +7772,29 @@
       "analyticsEnabled": true,
       "upcomingPriority": 0,
       "lyricsVerified": false,
-      "lyricsVerifiedAt": null
+      "lyricsVerifiedAt": null,
+      "videoHistory": [
+        {
+          "youtubeUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+          "youtubeId": "XP8yXMKFHVI",
+          "title": "好きってバレてもいい",
+          "publishedAt": "2026-07-12T20:00:59+09:00",
+          "duration": 274,
+          "currentAvailability": "private",
+          "verifiedAt": "2026-10-26T20:57:51+09:00",
+          "historicalPublicationPreserved": true
+        }
+      ],
+      "videoMigration": {
+        "status": "in-progress",
+        "reason": "official-artist-channel-separation",
+        "previousVideoId": "XP8yXMKFHVI",
+        "previousUrl": "https://www.youtube.com/watch?v=XP8yXMKFHVI",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "officialChannelUrl": "https://www.youtube.com/channel/UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:57:51+09:00",
+        "notice": "公式アーティストチャンネルで順次公開予定"
+      }
     },
     {
       "id": "hyakumankoku",
@@ -8360,13 +9337,16 @@
       "scheduledStreamingRelease": {
         "releaseDate": "2026-10-17",
         "timezone": "Asia/Tokyo",
-        "status": "upcoming",
+        "status": "published",
         "linkcoreUrl": "https://linkco.re/uh3MSXtm",
         "source": "public-official-tunecore-artist-and-linkcore",
-        "verifiedAt": "2026-10-13T20:09:57+09:00",
-        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "verifiedAt": "2026-10-26T20:04:32+09:00",
+        "verificationSource": "official-linkcore-and-jp-apple-music-title-artist-date-and-preview-metadata",
         "officialStreamingTitle": "天照",
-        "availableStoreUrls": []
+        "availableStoreUrls": [
+          "https://music.apple.com/jp/album/amaterasu-single/6818970044"
+        ],
+        "verificationScope": "Japan Apple Music public catalog; subscription playback and worldwide availability not tested"
       }
     },
     {
@@ -9833,6 +10813,375 @@
       "videoPublishedAtSource": "",
       "publicationDatePrecision": "day",
       "officialSource": "https://linkco.re/66hxyRr8"
+    },
+    {
+      "id": "anata-wa-anata-de-ii-akarui-mirai-e",
+      "slug": "anata-wa-anata-de-ii-akarui-mirai-e",
+      "title": "あなたはあなたでいい ～明るい未来へ～",
+      "displayTitle": "あなたはあなたでいい ～明るい未来へ～",
+      "artist": "妃みちる",
+      "artistSlug": "michiru",
+      "artistSlugs": [
+        "michiru"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-21",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "あなたはあなたでいい ～明るい未来へ～",
+        "妃みちる"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=t5DwwpF01O0",
+      "releaseUrl": "releases/anata-wa-anata-de-ii-akarui-mirai-e/",
+      "newsUrl": "news/anata-wa-anata-de-ii-akarui-mirai-e-release/",
+      "duration": 370,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "あなたはあなたでいい ～明るい未来へ～",
+        "妃みちる"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "妃みちる「あなたはあなたでいい ～明るい未来へ～」の公式音源をYouTubeで公開。",
+      "introduction": "妃みちる「あなたはあなたでいい ～明るい未来へ～」の公式音源をYouTubeで公開。",
+      "productionNote": "妃みちる「あなたはあなたでいい ～明るい未来へ～」の公式音源をYouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "seo": {
+        "title": "あなたはあなたでいい ～明るい未来へ～｜妃みちる｜SUZUKA Official Music",
+        "description": "妃みちる「あなたはあなたでいい ～明るい未来へ～」の公式音源をYouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=t5DwwpF01O0",
+      "promotionVerifiedAt": "2026-10-26T20:04:32+09:00",
+      "publishedAt": "2026-10-21T20:00:08+09:00",
+      "releaseAt": "2026-10-21T20:00:08+09:00",
+      "videoPublishDate": "2026-10-21",
+      "videoPublishedAt": "2026-10-21T20:00:08+09:00",
+      "videoPublishedAtSource": "official-youtube-public-channel-and-player-metadata",
+      "videoStructuredDataStatus": "published",
+      "youtubeVideoTitle": "【新曲・音源先行公開】あなたはあなたでいい ～明るい未来へ～｜妃みちる【無理に笑わなくていい。あなたはあなたでいい。】",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "coverImage": "https://i.ytimg.com/vi/t5DwwpF01O0/hqdefault.jpg",
+      "coverAlt": "妃みちる「あなたはあなたでいい ～明るい未来へ～」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/t5DwwpF01O0/hqdefault.jpg",
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null
+    },
+    {
+      "id": "anata-dake-ni-okuru-happy-birthday",
+      "slug": "anata-dake-ni-okuru-happy-birthday",
+      "title": "あなただけに送るHappy Birthday",
+      "displayTitle": "あなただけに送るHappy Birthday",
+      "artist": "榎本魅愛",
+      "artistSlug": "enomoto-mia",
+      "artistSlugs": [
+        "enomoto-mia"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-25",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "あなただけに送るHappy Birthday",
+        "榎本魅愛"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MLmc3jVZ7-M",
+      "releaseUrl": "releases/anata-dake-ni-okuru-happy-birthday/",
+      "newsUrl": "news/anata-dake-ni-okuru-happy-birthday-release/",
+      "duration": 274,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "あなただけに送るHappy Birthday",
+        "榎本魅愛"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "榎本魅愛「あなただけに送るHappy Birthday」の公式音源をYouTubeで公開。",
+      "introduction": "榎本魅愛「あなただけに送るHappy Birthday」の公式音源をYouTubeで公開。",
+      "productionNote": "榎本魅愛「あなただけに送るHappy Birthday」の公式音源をYouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "seo": {
+        "title": "あなただけに送るHappy Birthday｜榎本魅愛｜SUZUKA Official Music",
+        "description": "榎本魅愛「あなただけに送るHappy Birthday」の公式音源をYouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=MLmc3jVZ7-M",
+      "promotionVerifiedAt": "2026-10-26T20:04:32+09:00",
+      "publishedAt": "2026-10-25T20:09:18+09:00",
+      "releaseAt": "2026-10-25T20:09:18+09:00",
+      "videoPublishDate": "2026-10-25",
+      "videoPublishedAt": "2026-10-25T20:09:18+09:00",
+      "videoPublishedAtSource": "official-youtube-public-channel-and-player-metadata",
+      "videoStructuredDataStatus": "published",
+      "youtubeVideoTitle": "【Official Audio】榎本魅愛『あなただけに送るHappy Birthday』｜大切なあなたへ贈るバースデーソング🎂",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "coverImage": "https://i.ytimg.com/vi/MLmc3jVZ7-M/hqdefault.jpg",
+      "coverAlt": "榎本魅愛「あなただけに送るHappy Birthday」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/MLmc3jVZ7-M/hqdefault.jpg",
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null,
+      "scheduledStreamingRelease": {
+        "releaseDate": "2026-10-31",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/vvasqg5z",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-26T20:04:32+09:00",
+        "verificationSource": "official-tunecore-artist-linked-linkcore-title-artist-release-date",
+        "officialStreamingTitle": "あなただけに送るHappy Birthday",
+        "availableStoreUrls": []
+      },
+      "streamingTracks": [
+        "あなただけに送るHappy Birthday"
+      ]
+    },
+    {
+      "id": "salad-chicken-baa",
+      "slug": "salad-chicken-baa",
+      "title": "サラダチキン婆",
+      "displayTitle": "サラダチキン婆",
+      "artist": "BABA NOVA",
+      "artistSlug": "baba-nova",
+      "artistSlugs": [
+        "baba-nova"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-18",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "サラダチキン婆",
+        "BABA NOVA"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QT6mgUyQ8l4",
+      "releaseUrl": "releases/salad-chicken-baa/",
+      "newsUrl": "news/salad-chicken-baa-release/",
+      "duration": 202,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "サラダチキン婆",
+        "BABA NOVA"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "BABA NOVA「サラダチキン婆」の公式音源をYouTubeで公開。",
+      "introduction": "BABA NOVA「サラダチキン婆」の公式音源をYouTubeで公開。",
+      "productionNote": "BABA NOVA「サラダチキン婆」の公式音源をYouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "seo": {
+        "title": "サラダチキン婆｜BABA NOVA｜SUZUKA Official Music",
+        "description": "BABA NOVA「サラダチキン婆」の公式音源をYouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=QT6mgUyQ8l4",
+      "promotionVerifiedAt": "2026-10-26T20:19:40+09:00",
+      "publishedAt": "2026-10-18T20:00:06+09:00",
+      "releaseAt": "2026-10-18T20:00:06+09:00",
+      "videoPublishDate": "2026-10-18",
+      "videoPublishedAt": "2026-10-18T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-public-channel-and-player-metadata-reverified",
+      "videoStructuredDataStatus": "published",
+      "youtubeVideoTitle": "【83歳の新人爆誕】サラダチキン婆 🐔🔥 / BABA NOVA【Official Audio】",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "coverImage": "https://i.ytimg.com/vi/QT6mgUyQ8l4/hqdefault.jpg",
+      "coverAlt": "BABA NOVA「サラダチキン婆」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/QT6mgUyQ8l4/hqdefault.jpg",
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null
+    },
+    {
+      "id": "baa-lesque",
+      "slug": "baa-lesque",
+      "title": "ばぁーれすく",
+      "displayTitle": "ばぁーれすく",
+      "artist": "BABA NOVA",
+      "artistSlug": "baba-nova",
+      "artistSlugs": [
+        "baba-nova"
+      ],
+      "artistType": "Person",
+      "releaseDate": "2026-10-20",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "ばぁーれすく",
+        "BABA NOVA"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=byfrahxGNSY",
+      "releaseUrl": "releases/baa-lesque/",
+      "newsUrl": "news/baa-lesque-release/",
+      "duration": 216,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "ばぁーれすく",
+        "BABA NOVA"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "BABA NOVA「ばぁーれすく」の公式音源をYouTubeで公開。",
+      "introduction": "BABA NOVA「ばぁーれすく」の公式音源をYouTubeで公開。",
+      "productionNote": "BABA NOVA「ばぁーれすく」の公式音源をYouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "seo": {
+        "title": "ばぁーれすく｜BABA NOVA｜SUZUKA Official Music",
+        "description": "BABA NOVA「ばぁーれすく」の公式音源をYouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=byfrahxGNSY",
+      "promotionVerifiedAt": "2026-10-26T20:19:40+09:00",
+      "publishedAt": "2026-10-20T20:00:07+09:00",
+      "releaseAt": "2026-10-20T20:00:07+09:00",
+      "videoPublishDate": "2026-10-20",
+      "videoPublishedAt": "2026-10-20T20:00:07+09:00",
+      "videoPublishedAtSource": "official-youtube-public-channel-and-player-metadata-reverified",
+      "videoStructuredDataStatus": "published",
+      "youtubeVideoTitle": "【公式音源】ばぁーれすく / BABA NOVA｜83歳の婆が本気でバーレスクを歌ったらこうなった💋",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "coverImage": "https://i.ytimg.com/vi/byfrahxGNSY/hqdefault.jpg",
+      "coverAlt": "BABA NOVA「ばぁーれすく」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/byfrahxGNSY/hqdefault.jpg",
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null
+    },
+    {
+      "id": "ikusen-no-yoru-wo-koete",
+      "slug": "ikusen-no-yoru-wo-koete",
+      "title": "幾千の夜を越えて",
+      "displayTitle": "幾千の夜を越えて",
+      "artist": "NOX",
+      "artistSlug": "nox",
+      "artistSlugs": [
+        "nox"
+      ],
+      "artistType": "MusicGroup",
+      "releaseDate": "2026-10-26",
+      "releaseYear": 2026,
+      "releaseType": "single",
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "tags": [
+        "幾千の夜を越えて",
+        "NOX"
+      ],
+      "language": "ja",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ks7iYvDmS-M",
+      "releaseUrl": "releases/ikusen-no-yoru-wo-koete/",
+      "newsUrl": "news/ikusen-no-yoru-wo-koete-release/",
+      "duration": 277,
+      "status": "published",
+      "featured": false,
+      "recommendationWeight": 1,
+      "weeklyPickEligible": false,
+      "analyticsEnabled": true,
+      "upcomingPriority": 0,
+      "relatedReleases": [],
+      "searchKeywords": [
+        "幾千の夜を越えて",
+        "NOX"
+      ],
+      "aiArtistType": "fictional AI artist",
+      "description": "NOX「幾千の夜を越えて」の公式音源をYouTubeで公開。",
+      "introduction": "NOX「幾千の夜を越えて」の公式音源をYouTubeで公開。",
+      "productionNote": "NOX「幾千の夜を越えて」の公式音源をYouTubeで公開。",
+      "galleryImages": [],
+      "galleryPublished": false,
+      "lyricsAvailable": false,
+      "lyricsVerified": false,
+      "seo": {
+        "title": "幾千の夜を越えて｜NOX｜SUZUKA Official Music",
+        "description": "NOX「幾千の夜を越えて」の公式音源をYouTubeで公開。",
+        "jsonLdEnabled": true
+      },
+      "officialSource": "https://www.youtube.com/watch?v=Ks7iYvDmS-M",
+      "promotionVerifiedAt": "2026-10-26T20:19:40+09:00",
+      "publishedAt": "2026-10-26T20:00:06+09:00",
+      "releaseAt": "2026-10-26T20:00:06+09:00",
+      "videoPublishDate": "2026-10-26",
+      "videoPublishedAt": "2026-10-26T20:00:06+09:00",
+      "videoPublishedAtSource": "official-youtube-public-channel-and-player-metadata-reverified",
+      "videoStructuredDataStatus": "published",
+      "youtubeVideoTitle": "NOX『幾千の夜を越えて』Official Audio｜何度生まれ変わっても、君に恋をする。",
+      "videoLabel": "OFFICIAL AUDIO",
+      "videoButtonLabel": "LISTEN / AUDIO",
+      "videoCtaLabel": "公式音源を聴く",
+      "coverImage": "https://i.ytimg.com/vi/Ks7iYvDmS-M/hqdefault.jpg",
+      "coverAlt": "NOX「幾千の夜を越えて」公式YouTubeサムネイル（正式ジャケット確認待ち）",
+      "coverWidth": 480,
+      "coverHeight": 360,
+      "youtubeThumbnailUrl": "https://i.ytimg.com/vi/Ks7iYvDmS-M/hqdefault.jpg",
+      "imageRole": "official-youtube-thumbnail",
+      "artworkStatus": "pending-formal-jacket",
+      "formalJacketImage": null
     }
   ],
   "upcoming": [],
@@ -10910,6 +12259,64 @@
       "siteAnnouncement": false,
       "officialSource": "https://note.com/1209bellflower/n/n55b00eef34b2",
       "verifiedAt": "2026-10-18T13:04:33+09:00"
+    },
+    {
+      "slug": "official-note-n7b9152981d35",
+      "title": "【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました",
+      "publishedAt": "2026-10-23T18:07:49+09:00",
+      "description": "「【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "image": "images/official-note-n7b9152981d35-20261026.png",
+      "noteUrl": "https://note.com/1209bellflower/n/n7b9152981d35",
+      "status": "published",
+      "homeFeatured": true,
+      "siteAnnouncement": true,
+      "officialSource": "https://note.com/1209bellflower/n/n7b9152981d35",
+      "verifiedAt": "2026-10-26T20:04:32+09:00"
+    },
+    {
+      "slug": "official-note-naed63ee28bb0",
+      "title": "【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語",
+      "publishedAt": "2026-10-21T07:56:41+09:00",
+      "description": "「【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "image": "images/koga-mermaid-no-geboku.jpg",
+      "relatedReleaseUrl": "releases/mermaid-no-geboku/",
+      "noteUrl": "https://note.com/1209bellflower/n/naed63ee28bb0",
+      "status": "published",
+      "homeFeatured": true,
+      "siteAnnouncement": false,
+      "officialSource": "https://note.com/1209bellflower/n/naed63ee28bb0",
+      "verifiedAt": "2026-10-26T20:04:32+09:00",
+      "artistSlug": "koga-kamishiro"
+    },
+    {
+      "slug": "official-note-n16d1463bf167",
+      "title": "💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！",
+      "publishedAt": "2026-10-19T21:08:56+09:00",
+      "description": "「💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "image": "images/official-note-n16d1463bf167-20261026.png",
+      "relatedReleaseUrl": "releases/hyper-romance-dawn/",
+      "noteUrl": "https://note.com/1209bellflower/n/n16d1463bf167",
+      "status": "published",
+      "homeFeatured": true,
+      "siteAnnouncement": false,
+      "officialSource": "https://note.com/1209bellflower/n/n16d1463bf167",
+      "verifiedAt": "2026-10-26T20:04:32+09:00",
+      "artistSlug": "enomoto-mia"
+    },
+    {
+      "slug": "official-note-neb24fc6b0625",
+      "title": "【新発売】榎本魅愛、公式LINEスタンプ第1弾が登場！毎日のトークに恋する気持ちを♡",
+      "publishedAt": "2026-10-26T19:22:23+09:00",
+      "description": "SUZUKA公式noteの新着記事です。記事全文はnoteでご覧いただけます。",
+      "image": "images/official-note-neb24fc6b0625-20261027.jpg",
+      "relatedReleaseUrl": "artists/enomoto-mia/",
+      "noteUrl": "https://note.com/1209bellflower/n/neb24fc6b0625",
+      "status": "published",
+      "homeFeatured": true,
+      "siteAnnouncement": false,
+      "officialSource": "https://note.com/1209bellflower/n/neb24fc6b0625",
+      "verifiedAt": "2026-10-27T22:09:00+09:00",
+      "artistSlug": "enomoto-mia"
     }
   ],
   "taxonomy": {
@@ -12766,6 +14173,102 @@
         "status": "published",
         "contentType": "short",
         "thumbnail": "https://i.ytimg.com/vi/xbEQtefgI0g/hqdefault.jpg"
+      },
+      {
+        "videoId": "93rZqvJTJFw",
+        "title": "【泣いてもいい】無理に笑わなくていい。あなたはあなたでいい。｜妃みちる #shorts",
+        "artist": "妃みちる",
+        "artistSlug": "michiru",
+        "publishedAt": "2026-10-21T20:00:05+09:00",
+        "relatedRelease": "anata-wa-anata-de-ii-akarui-mirai-e",
+        "duration": 30,
+        "description": "妃みちるの公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/93rZqvJTJFw",
+        "thumbnail": "https://i.ytimg.com/vi/93rZqvJTJFw/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+        "verifiedAt": "2026-10-26T20:04:32+09:00"
+      },
+      {
+        "videoId": "qLORLNlubrM",
+        "title": "【恋愛ドラマ】「好きな人、いるの？」まさかの返事に胸キュン💗 榎本魅愛『ハイパー・ロマンス・ドーン！』#Shorts",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "publishedAt": "2026-10-19T20:00:10+09:00",
+        "relatedRelease": "hyper-romance-dawn",
+        "duration": 37,
+        "description": "榎本魅愛の公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/qLORLNlubrM",
+        "thumbnail": "https://i.ytimg.com/vi/qLORLNlubrM/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:04:32+09:00"
+      },
+      {
+        "videoId": "cCOSlC9UU4I",
+        "title": "【Apple Music配信中🍎】榎本魅愛『ハイパー・ロマンス・ドーン！』♡ 好きで、好きで、好きで、止まらない！🎶",
+        "artist": "榎本魅愛",
+        "artistSlug": "enomoto-mia",
+        "publishedAt": "2026-10-18T20:00:07+09:00",
+        "relatedRelease": "hyper-romance-dawn",
+        "duration": 8,
+        "description": "榎本魅愛の公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/cCOSlC9UU4I",
+        "thumbnail": "https://i.ytimg.com/vi/cCOSlC9UU4I/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+        "verifiedAt": "2026-10-26T20:04:32+09:00"
+      },
+      {
+        "videoId": "-pV0um1TzOo",
+        "title": "【MV】王子様にはなれない。でも、君の騎士でいたい。🧜‍♀️🚲｜マーメイドの下僕／神代煌牙 #Shorts",
+        "artist": "神代煌牙",
+        "artistSlug": "koga-kamishiro",
+        "publishedAt": "2026-10-19T20:52:44+09:00",
+        "relatedRelease": "mermaid-no-geboku",
+        "duration": 31,
+        "description": "神代煌牙の公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/-pV0um1TzOo",
+        "thumbnail": "https://i.ytimg.com/vi/-pV0um1TzOo/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCtRwFzemyx508t7yXnpCVKA",
+        "verifiedAt": "2026-10-26T20:04:32+09:00"
+      },
+      {
+        "videoId": "1GTZBo8E2aE",
+        "title": "【83歳の新人がヤバい🤣】サラダチキン婆🐔🔥｜BABA NOVA #Shorts",
+        "artist": "BABA NOVA",
+        "artistSlug": "baba-nova",
+        "publishedAt": "2026-10-18T20:00:34+09:00",
+        "relatedRelease": "salad-chicken-baa",
+        "duration": 20,
+        "description": "BABA NOVAの公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/1GTZBo8E2aE",
+        "thumbnail": "https://i.ytimg.com/vi/1GTZBo8E2aE/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+        "verifiedAt": "2026-10-26T20:19:40+09:00"
+      },
+      {
+        "videoId": "VORLviNH1Ck",
+        "title": "83歳の婆が本気でバーレスク踊ってみた🤣💋 色気はまだまだ現役！🔥｜BABA NOVA「ばぁーれすく」#Shorts",
+        "artist": "BABA NOVA",
+        "artistSlug": "baba-nova",
+        "publishedAt": "2026-10-20T20:12:15+09:00",
+        "relatedRelease": "baa-lesque",
+        "duration": 15,
+        "description": "BABA NOVAの公式Shorts。",
+        "youtubeUrl": "https://www.youtube.com/shorts/VORLviNH1Ck",
+        "thumbnail": "https://i.ytimg.com/vi/VORLviNH1Ck/hqdefault.jpg",
+        "status": "published",
+        "contentType": "short",
+        "officialChannelId": "UCVde75yhByGQMu3SkO-fzrA",
+        "verifiedAt": "2026-10-26T20:19:40+09:00"
       }
     ],
     "totalPublishedVideos": 145,

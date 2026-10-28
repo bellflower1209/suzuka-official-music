@@ -26,6 +26,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # Pinned public-package baselines are read by full commit SHA.
+          fetch-depth: 0
 
       - name: Use Python 3.12
         uses: actions/setup-python@v6
@@ -50,7 +53,12 @@ jobs:
           python3 scripts/audit_sync.py
           python3 scripts/test_secondary_video_dates.py
           python3 scripts/audit_official_sync_20261012.py --cms docs/official-sync-20261018-baseline.json
-          python3 scripts/audit_official_sync_20261018.py
+          python3 scripts/audit_official_sync_20261018.py --cms docs/official-sync-20261026-baseline.json
+          python3 scripts/audit_official_sync_20261026.py
+          python3 scripts/test_catalog_artist_gate.py
+          python3 scripts/test_channel_migration.py
+          python3 scripts/audit_channel_migration.py
+          python3 -B scripts/build_official_sync_20261026.py --check
           python3 scripts/audit_official_video_coverage.py
           python3 scripts/audit_seo.py
           node --check assets/analytics.js
@@ -96,6 +104,7 @@ jobs:
         run: |
           python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/test_private_audio_gate.py
+          python3 -B scripts/audit_channel_migration.py --root "${{ runner.temp }}/suzuka-v6-release"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/cinematic-universe-v6.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/v6-protected-audio.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/v6-audio-worker.js"

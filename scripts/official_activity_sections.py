@@ -5,6 +5,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from html.parser import HTMLParser
 from PIL import Image
+from video_migration import migration_notice
 ROOT=Path(__file__).resolve().parents[1]
 
 class Dimensions(HTMLParser):
@@ -52,6 +53,8 @@ def track_html(r, prefix, latest=False, root=ROOT, images=None):
     links = [link(route, '作品ページ', prefix)]
     if r.get('youtubeUrl'):
         links.append(link(r['youtubeUrl'], r.get('videoButtonLabel') or r.get('videoCtaLabel') or 'YouTube'))
+    elif r.get('videoMigration',{}).get('status')=='in-progress':
+        links.append(migration_notice(r))
     seen = {r.get('youtubeUrl')}
     for v in r.get('videoVersions', []):
         if v.get('youtubeUrl') and v['youtubeUrl'] not in seen:
@@ -67,6 +70,8 @@ def track_html(r, prefix, latest=False, root=ROOT, images=None):
     date = (r.get('publishedAt') or '')[:10] or r.get('releaseDate') or ''
     date_label = '配信開始日' if r.get('publicationEvidenceType') == 'verified-streaming-only' else ('公開日' if r.get('publishedAt') else '登録日付')
     note = ('<span class="latest-label">最新の公開作品</span>' if latest else '')
+    if r.get('videoMigration',{}).get('status')=='migrated':
+        note+='<span class="release-state">公式アーティストチャンネル版</span>'
     if r.get('imageRole') == 'official-youtube-thumbnail':
         note += '<span class="release-state">映像サムネイル'+(' · 正式ジャケット確認待ち' if r.get('artworkStatus') == 'pending-formal-jacket' else '')+'</span>'
     if stream.get('status') in {'scheduled', 'upcoming'}:

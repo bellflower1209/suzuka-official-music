@@ -3,7 +3,7 @@
 import json, re
 from pathlib import Path
 from xml.etree import ElementTree as ET
-from build_celestial_gate import validate
+from build_celestial_gate import validate, presentation_artists
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -11,6 +11,10 @@ def main():
     config=json.loads((ROOT/'assets/data/celestial-gate.json').read_text())
     artists=[a for a in cms['artists'] if a.get('status')=='published']
     validate(ROOT,config,artists)
+    # Retain Terminal's separation of ordinary published profiles from V6
+    # membership, without depending on its unintegrated trust/bootstrap stack.
+    import subprocess,sys
+    subprocess.run([sys.executable,'-B',str(ROOT/'scripts/audit_artist_v31.py'),'--root',str(ROOT)],check=True)
     errors=[];pages=0
     for p in [*ROOT.rglob('index.html'),ROOT/'404.html']:
         s=p.read_text();pages+=1
@@ -26,8 +30,11 @@ def main():
         if a.get('image') and '../../'+a['image'] not in s: errors.append(f'{a["slug"]}: official visual missing')
         if not a.get('image') and 'IMAGE PENDING' not in s:errors.append(f'{a["slug"]}: pending visual lost')
     home=(ROOT/'index.html').read_text()
-    for a in artists:
+    for a in presentation_artists(config,artists):
         if home.count(f'data-cg-world="{a["slug"]}"')!=1:errors.append(f'{a["slug"]}: unique home gate missing')
+    for a in artists:
+        if a.get('presentationStatus')=='catalog-only' and (f'data-cg-world="{a["slug"]}"' in home or f'artists/{a["slug"]}/' not in home):
+            errors.append(f'{a["slug"]}: catalog artist must remain discoverable without an invented world')
     nox=(ROOT/'artists/nox/index.html').read_text()
     if 'data-cg-return' not in nox or '天界へ帰還する' not in nox:errors.append('NOX return missing')
     for name in ['celestial-palace.svg','nox-citadel.svg','celestial-emblems.svg']:ET.parse(ROOT/'assets'/name)
