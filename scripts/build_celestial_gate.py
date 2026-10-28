@@ -14,7 +14,23 @@ def clear(text):
     return re.sub(r'<!-- CELESTIAL-GATE:[A-Z-]+:START -->.*?<!-- CELESTIAL-GATE:[A-Z-]+:END -->', '', text, flags=re.S)
 
 
+def presentation_artists(config, artists):
+    """Catalog artists need explicit registration before receiving a new world."""
+    selected=[]
+    for artist in artists:
+        if artist['slug'] in config['themes']:
+            if artist.get('presentationStatus')=='catalog-only':
+                raise ValueError('An existing world cannot be removed through catalog-only status.')
+            selected.append(artist)
+        elif artist.get('presentationStatus')!='catalog-only':
+            raise ValueError('Missing theme without explicit catalog-only status: '+artist['slug'])
+    if set(config['themes'])!={a['slug'] for a in selected}:
+        raise ValueError('Every registered world needs its canonical artist.')
+    return selected
+
+
 def validate(root, config, artists):
+    artists=presentation_artists(config,artists)
     if not 3500 <= config['durationMs'] <= 6000 or not 0 <= config['defaultVolume'] <= .5 or not 100 <= config['shortDurationMs'] <= 500:
         raise ValueError('Door timing or volume is outside the supported range.')
     if not all(re.fullmatch(r'[a-z0-9-]+', a['slug']) for a in artists):
@@ -81,6 +97,7 @@ def portal(a, theme, prefix, portrait=None):
 
 
 def validate_cinema(root, config, artists):
+    artists=presentation_artists(config,artists)
     manifest=json.loads((root/config['cinema']['manifest']).read_text())
     items={i['id']:i for i in manifest['assets']}
     expected={'hero','gallery-hall','door-celestial','door-infernal','frame-celestial','frame-infernal',*(a['slug'] for a in artists)}
@@ -109,9 +126,10 @@ def settings(audio):
 def build(root):
     cms=json.loads((root/'assets/data/creator-cms.json').read_text())
     config=json.loads((root/'assets/data/celestial-gate.json').read_text())
-    artists=[a for a in cms['artists'] if a.get('status')=='published']
-    audio=validate(root,config,artists)
-    validate_cinema(root,config,artists)
+    all_artists=[a for a in cms['artists'] if a.get('status')=='published']
+    audio=validate(root,config,all_artists)
+    validate_cinema(root,config,all_artists)
+    artists=presentation_artists(config,all_artists)
     by_slug={a['slug']:a for a in artists}
     runtime={k:config[k] for k in ['durationMs','shortDurationMs','defaultVolume','doorAudio','doorAudioStatus','candidateAudio','candidateAudioStatus','timeline','arrivalMs']}
     if config.get('candidatePlaybackAudio'):

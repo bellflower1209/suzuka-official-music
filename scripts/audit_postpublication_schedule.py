@@ -36,7 +36,16 @@ def main():
     assert activity['kind']=='STREAMING RELEASE' and activity['officialReleaseDate']=='2026-07-12'
     magic=next(x for x in all_works if x['slug']=='mahou-ga-toketemo')
     assert magic['artistSlug']=='koga-kamishiro' and magic['status']=='published'
-    assert magic['releaseDate']=='2026-09-14' and magic['youtubeUrl']=='https://www.youtube.com/watch?v=g_SmyjPGIfc'
+    # Work publication remains September 14; the verified channel edition has its own date.
+    assert magic['releaseDate']=='2026-09-14'
+    migration=json.loads((ROOT/'docs/channel-migration-20261026.json').read_text())
+    proof=next(x for x in migration['records'] if x['releaseSlug']==magic['slug'])
+    assert proof['status']=='migrated' and proof['previousVideoId']=='g_SmyjPGIfc'
+    assert magic['youtubeUrl']==proof['replacement']['url']
+    assert magic['videoPublishedAt']==proof['replacement']['publishedAt']
+    history=next(x for x in magic['videoHistory'] if x['youtubeId']=='g_SmyjPGIfc')
+    assert history['youtubeUrl']=='https://www.youtube.com/watch?v=g_SmyjPGIfc'
+    assert history['publishedAt']=='2026-09-14T20:00:06+09:00'
     hello=next(x for x in all_works if x['slug']=='hello-hello-halloween')
     assert hello['status']=='published' and hello['releaseDate']=='2026-09-16'
     assert hello['scheduledStreamingRelease']['releaseDate']=='2026-09-21'

@@ -1,26 +1,26 @@
 {
-  "archiveBytes": 108359094,
-  "archiveSha256": "9631bcaa5118fd10e7a159329ab8527f929356a2684410873ac03520a4abb6d6",
-  "artifactDigest": "f04e74f41c742321aec555e06c990a05efa96ec9781529624755841f87956fa1",
+  "archiveBytes": 108942018,
+  "archiveSha256": "3a9b3828ab06cf6b5202d68109171fb552dced7ab4be94e1f07a29c6eb27f72e",
+  "artifactDigest": "fced8961770e273492e83fd3d04c426fa0e0b2dd7ae1e8ce57a202811cf50868",
   "chunks": [
     {
       "path": "public-release/site-00.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "cd8eb978165275b4dd9840ad6c9018325d474471d3af26adbc1cf234d1e3ecc2"
+      "sha256": "b1c0e9c0dd5d7536d3151328f8db6a6a07757de8c9bb7fcc19f59f9ac68e65c6"
     },
     {
       "path": "public-release/site-01.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "84485f96cfe0dfd8f8bef01cafad6f59d288b3a769267aebb63b967c17649d4d"
+      "sha256": "6931794e70a06431f89ec517c45305a005aa9a464e86b8543d4d4d08abd8c00f"
     },
     {
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 13987254,
-      "sha256": "06527ba324a58fc98cf06e03eb9ba1c8b1b9ce7a1b86c777486a66dab8d003e7"
+      "bytes": 14570178,
+      "sha256": "6b15e6fe7054fedb464849b223cfc45387a77f65db190d7a76af3d8557814cc6"
     }
   ],
-  "contentBytes": 119889297,
-  "fileCount": 784,
+  "contentBytes": 121004087,
+  "fileCount": 802,
   "format": "suzuka-public-release-v1",
   "privateAudioApproval": {
     "historicalCandidatesException": "two-preexisting-unadopted-door-samples-only; unchanged; no-history-rewrite",

@@ -149,15 +149,16 @@ def build(root: Path) -> None:
             return match.group(1) + json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c') + match.group(3)
         text = re.sub(r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)', strip_owned_versions, text, flags=re.S)
         body='<section class="creator-copy"><h2>ARTIST CHANNEL / VIDEO VERSIONS</h2>'
-        for v in sorted(r['videoVersions'],key=lambda v:v['publishedAt'],reverse=True):
+        versions=[v for v in r['videoVersions'] if v['youtubeUrl']!=r.get('youtubeUrl')]
+        for v in sorted(versions,key=lambda v:v['publishedAt'],reverse=True):
             body+='<p>'+E(v['label'])+' · '+v['publishedAt'][:10]+' · '+str(v['duration'])+'秒</p><div class="explore-actions">'+link(v['youtubeUrl'],v['title']+' ↗')+'</div>'
         body+='</section>'
         evidence = json.loads((root / 'assets/data/youtube-publish-dates.json').read_text())
         by_url = {record.get('youtubeUrl'): record for record in evidence['records']}
         videos = []
-        for version in r['videoVersions']:
+        for version in versions:
             proof = by_url.get(version['youtubeUrl'], {})
-            if not (proof.get('verifiedPublishedAt') and proof.get('thumbnailUrl')
+            if not (proof.get('currentAvailability')!='private' and proof.get('verifiedPublishedAt') and proof.get('thumbnailUrl')
                     and proof.get('channelVerified') and proof.get('playabilityStatus') == 'OK'):
                 continue
             if proof['verifiedPublishedAt'] != version['publishedAt'] or proof['officialTitle'] != version['title']:

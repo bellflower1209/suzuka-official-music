@@ -1,14 +1,50 @@
 {
-  "updatedAt": "2026-10-18T13:04:33+09:00",
+  "updatedAt": "2026-10-27T22:09:00+09:00",
   "recommendations": {
-    "mirai-no-ashioto": {
+    "ikusen-no-yoru-wo-koete": {
       "sameArtist": [
+        "aijo-to-iu-na-no-kubiwa",
+        "henpin-sareta-ningen",
+        "iine-sougisha",
+        "family-portrait",
+        "zennin-saiban",
+        "chimpanzee-no-rakuen"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou"
+      ],
+      "aiRecommended": [
+        "iine-sougisha",
+        "zennin-saiban",
+        "aijo-to-iu-na-no-kubiwa",
+        "chimpanzee-no-rakuen",
+        "family-portrait",
+        "henpin-sareta-ningen"
+      ]
+    },
+    "anata-dake-ni-okuru-happy-birthday": {
+      "sameArtist": [
+        "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -21,30 +57,164 @@
         "iine-sougisha"
       ],
       "recent": [
-        "ketsugetsu-no-houkou",
+        "ikusen-no-yoru-wo-koete",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou"
+      ],
+      "aiRecommended": [
+        "mirai-no-ashioto",
+        "hello-hello-halloween",
         "hyper-romance-dawn",
-        "furinkazan",
+        "yume-to-kaigo-to-watashitachi",
+        "hajimemashite-kiseki",
+        "hanakotoba"
+      ]
+    },
+    "anata-wa-anata-de-ii-akarui-mirai-e": {
+      "sameArtist": [
         "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
+        "ame-nochi-anata",
+        "dareka-no-tameni",
+        "yukkuri-yasunde",
+        "uchira-saikyo-jane"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou"
+      ],
+      "aiRecommended": [
+        "ato-5fun-dake",
+        "watashi-no-eranda-michi-album",
+        "ame-nochi-anata",
+        "sedai-wo-koete-mama-e",
+        "dareka-no-tameni",
+        "updown"
+      ]
+    },
+    "baa-lesque": {
+      "sameArtist": [
+        "salad-chicken-baa"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "salad-chicken-baa",
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou"
+      ],
+      "aiRecommended": [
+        "salad-chicken-baa",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "mirai-no-ashioto",
+        "ato-5fun-dake",
+        "furinkazan",
+        "hyper-romance-dawn"
+      ]
+    },
+    "salad-chicken-baa": {
+      "sameArtist": [
+        "baa-lesque"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "mirai-no-ashioto",
+        "ketsugetsu-no-houkou"
+      ],
+      "aiRecommended": [
+        "baa-lesque",
+        "mirai-no-ashioto",
+        "ato-5fun-dake",
+        "furinkazan",
+        "hyper-romance-dawn",
+        "ketsugetsu-no-houkou"
+      ]
+    },
+    "mirai-no-ashioto": {
+      "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
+        "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
-        "starlight-revolution"
+        "kisetsuhazure-no-santa-claus",
+        "amaterasu",
+        "koi-no-tochu"
+      ],
+      "sameGenre": [],
+      "sameTheme": [],
+      "popular": [
+        "hello-hello-halloween",
+        "sedai-wo-koete-mama-e",
+        "yume-to-kaigo-to-watashitachi",
+        "akuyaku-de-ii",
+        "gekka-no-chigiri",
+        "iine-sougisha"
+      ],
+      "recent": [
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "ketsugetsu-no-houkou"
       ],
       "aiRecommended": [
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
+        "anata-dake-ni-okuru-happy-birthday",
         "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "hajimemashite-kiseki"
+        "yume-to-kaigo-to-watashitachi"
       ]
     },
     "ato-5fun-dake": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -57,20 +227,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "tenjo-tenge-yuiga-dokuson",
-        "starlight-revolution"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "sedai-wo-koete-mama-e",
-        "updown"
+        "sedai-wo-koete-mama-e"
       ]
     },
     "ketsugetsu-no-houkou": {
@@ -89,12 +259,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson",
-        "starlight-revolution"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "gekka-no-chigiri",
@@ -107,12 +277,12 @@
     },
     "hyper-romance-dawn": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -125,20 +295,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson",
-        "starlight-revolution"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mirai-no-ashioto",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
+        "anata-dake-ni-okuru-happy-birthday",
         "hello-hello-halloween",
-        "yume-to-kaigo-to-watashitachi",
-        "hajimemashite-kiseki"
+        "yume-to-kaigo-to-watashitachi"
       ]
     },
     "furinkazan": {
@@ -157,12 +327,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson",
-        "starlight-revolution"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -191,12 +361,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -209,12 +379,12 @@
     },
     "tenjo-tenge-yuiga-dokuson": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "kisetsuhazure-no-santa-claus",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -227,12 +397,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "starlight-revolution"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "kisetsuhazure-no-santa-claus",
@@ -245,6 +415,7 @@
     },
     "aijo-to-iu-na-no-kubiwa": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "henpin-sareta-ningen",
         "iine-sougisha",
         "family-portrait",
@@ -262,12 +433,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -275,17 +446,17 @@
         "chimpanzee-no-rakuen",
         "family-portrait",
         "henpin-sareta-ningen",
-        "kisetsuhazure-no-santa-claus"
+        "ikusen-no-yoru-wo-koete"
       ]
     },
     "watashi-no-eranda-michi-album": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "ame-nochi-anata",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -298,30 +469,30 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ame-nochi-anata",
         "dareka-no-tameni",
         "ato-5fun-dake",
         "yukkuri-yasunde",
-        "sedai-wo-koete-mama-e",
-        "anata-wo-omou-sore-dake-de"
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "sedai-wo-koete-mama-e"
       ]
     },
     "kisetsuhazure-no-santa-claus": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "amaterasu",
-        "koi-no-tochu",
-        "without-worrying-reimagined"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -334,12 +505,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "tenjo-tenge-yuiga-dokuson",
@@ -352,12 +523,12 @@
     },
     "ame-nochi-anata": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "dareka-no-tameni",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -370,20 +541,20 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "dareka-no-tameni",
         "watashi-no-eranda-michi-album",
         "yukkuri-yasunde",
         "ato-5fun-dake",
-        "anata-wo-omou-sore-dake-de",
-        "sedai-wo-koete-mama-e"
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "anata-wo-omou-sore-dake-de"
       ]
     },
     "mikansei-no-kakumei": {
@@ -404,12 +575,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -422,12 +593,12 @@
     },
     "dareka-no-tameni": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "yukkuri-yasunde",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -440,12 +611,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ame-nochi-anata",
@@ -458,12 +629,12 @@
     },
     "yukkuri-yasunde": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "uchira-saikyo-jane",
-        "anata-wo-omou-sore-dake-de"
+        "uchira-saikyo-jane"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -476,12 +647,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "dareka-no-tameni",
@@ -512,12 +683,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -541,12 +712,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "amaterasu",
@@ -559,12 +730,12 @@
     },
     "amaterasu": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "koi-no-tochu",
-        "without-worrying-reimagined"
+        "koi-no-tochu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -577,12 +748,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "koi-no-tochu",
@@ -595,12 +766,12 @@
     },
     "uchira-saikyo-jane": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "anata-wo-omou-sore-dake-de"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -613,12 +784,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "anata-wo-omou-sore-dake-de",
@@ -631,12 +802,12 @@
     },
     "anata-wo-omou-sore-dake-de": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -649,12 +820,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "uchira-saikyo-jane",
@@ -667,12 +838,12 @@
     },
     "koi-no-tochu": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "without-worrying-reimagined"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -685,12 +856,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "amaterasu",
@@ -716,12 +887,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mada-tetsu-wa-atsui",
@@ -747,12 +918,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ashita-yaru",
@@ -765,12 +936,12 @@
     },
     "without-worrying-reimagined": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -783,12 +954,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "renkinku",
@@ -801,12 +972,12 @@
     },
     "renkinku": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -819,12 +990,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "without-worrying-reimagined",
@@ -837,12 +1008,12 @@
     },
     "kokoro-ni-nokoru-takaramono": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -855,12 +1026,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "hello-life",
@@ -873,12 +1044,12 @@
     },
     "renai-taishogai-kari": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -891,12 +1062,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "eternity-of-flower-words",
@@ -927,12 +1098,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -945,12 +1116,12 @@
     },
     "eternity-of-flower-words": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -963,12 +1134,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "renai-taishogai-kari",
@@ -981,12 +1152,12 @@
     },
     "hello-life": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -999,12 +1170,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "kokoro-ni-nokoru-takaramono",
@@ -1017,12 +1188,12 @@
     },
     "mata-kimi-ni-koi-wo-suru": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "koisuru-subete-no-shunkan",
@@ -1049,12 +1220,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "koisuru-subete-no-shunkan",
@@ -1067,12 +1238,12 @@
     },
     "koisuru-subete-no-shunkan": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "mata-kimi-ni-koi-wo-suru",
@@ -1099,12 +1270,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mata-kimi-ni-koi-wo-suru",
@@ -1117,12 +1288,12 @@
     },
     "september-blue": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1135,12 +1306,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "over-drive",
@@ -1153,12 +1324,12 @@
     },
     "over-drive": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1171,12 +1342,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "september-blue",
@@ -1203,12 +1374,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "gekka-no-chigiri",
@@ -1237,12 +1408,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -1271,12 +1442,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -1289,12 +1460,12 @@
     },
     "hello-hello-halloween": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -1307,12 +1478,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -1325,6 +1496,7 @@
     },
     "henpin-sareta-ningen": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "aijo-to-iu-na-no-kubiwa",
         "iine-sougisha",
         "family-portrait",
@@ -1342,12 +1514,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -1355,7 +1527,7 @@
         "aijo-to-iu-na-no-kubiwa",
         "chimpanzee-no-rakuen",
         "family-portrait",
-        "hello-hello-halloween"
+        "ikusen-no-yoru-wo-koete"
       ]
     },
     "kinmokusei-to-hoshifuru-yoru": {
@@ -1376,12 +1548,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -1412,12 +1584,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1430,12 +1602,12 @@
     },
     "sedai-wo-koete-mama-e": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -1460,12 +1632,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -1478,12 +1650,12 @@
     },
     "yume-to-kaigo-to-watashitachi": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "kimi-wa-makenai",
@@ -1510,12 +1682,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "kimi-wa-makenai",
@@ -1553,12 +1725,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -1587,12 +1759,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -1630,12 +1802,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -1648,6 +1820,7 @@
     },
     "iine-sougisha": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "family-portrait",
@@ -1669,12 +1842,12 @@
         "mahou-ga-toketemo"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -1682,17 +1855,17 @@
         "family-portrait",
         "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
-        "akuyaku-de-ii"
+        "ikusen-no-yoru-wo-koete"
       ]
     },
     "updown": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [
         "tatta-hitori-no-kimi-e",
@@ -1719,12 +1892,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "tatta-hitori-no-kimi-e",
@@ -1767,12 +1940,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -1817,12 +1990,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -1835,12 +2008,12 @@
     },
     "friendlikesong": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [
         "watashi-no-eranda-michi",
@@ -1862,12 +2035,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "watashi-no-eranda-michi",
@@ -1880,12 +2053,12 @@
     },
     "watashi-no-eranda-michi": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [
         "wakareta-michi",
@@ -1911,12 +2084,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "wakareta-michi",
@@ -1929,12 +2102,12 @@
     },
     "tatta-hitori-no-kimi-e": {
       "sameArtist": [
+        "anata-wa-anata-de-ii-akarui-mirai-e",
         "ato-5fun-dake",
         "watashi-no-eranda-michi-album",
         "ame-nochi-anata",
         "dareka-no-tameni",
-        "yukkuri-yasunde",
-        "uchira-saikyo-jane"
+        "yukkuri-yasunde"
       ],
       "sameGenre": [
         "sedai-wo-koete-mama-e",
@@ -1961,12 +2134,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "sedai-wo-koete-mama-e",
@@ -1993,12 +2166,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -2011,12 +2184,12 @@
     },
     "taipa-nante-shiranakatta": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2038,12 +2211,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2056,6 +2229,7 @@
     },
     "family-portrait": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
@@ -2081,12 +2255,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "iine-sougisha",
@@ -2123,12 +2297,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "lost-signal",
@@ -2141,12 +2315,12 @@
     },
     "natsu-ga-owaru-made-soba-ni-ite": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -2159,12 +2333,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "caramel",
@@ -2177,12 +2351,12 @@
     },
     "caramel": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [],
       "sameTheme": [],
@@ -2195,12 +2369,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "natsu-ga-owaru-made-soba-ni-ite",
@@ -2231,12 +2405,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "leo-rise-again",
@@ -2249,12 +2423,12 @@
     },
     "kimi-wa-makenai": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "yume-to-kaigo-to-watashitachi",
@@ -2281,12 +2455,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "yume-to-kaigo-to-watashitachi",
@@ -2322,12 +2496,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "akuyaku-de-ii",
@@ -2370,12 +2544,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "anata-dake-no-savior",
@@ -2388,12 +2562,12 @@
     },
     "kimi-ni-kakatta-mahou": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "hanakotoba",
@@ -2420,12 +2594,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "hanakotoba",
@@ -2470,12 +2644,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mermaid-merman",
@@ -2488,12 +2662,12 @@
     },
     "hanakotoba": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -2520,12 +2694,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -2568,12 +2742,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -2607,12 +2781,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "wasurenai-kokoro",
@@ -2625,12 +2799,12 @@
     },
     "hajimemashite-kiseki": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "without-worrying",
@@ -2657,12 +2831,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -2704,12 +2878,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "heal-you-again",
@@ -2722,6 +2896,7 @@
     },
     "zennin-saiban": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
@@ -2746,12 +2921,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "chimpanzee-no-rakuen",
@@ -2796,12 +2971,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -2843,12 +3018,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -2861,12 +3036,12 @@
     },
     "without-worrying": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -2893,12 +3068,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -2939,12 +3114,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "namaste-galaxy",
@@ -2957,6 +3132,7 @@
     },
     "chimpanzee-no-rakuen": {
       "sameArtist": [
+        "ikusen-no-yoru-wo-koete",
         "aijo-to-iu-na-no-kubiwa",
         "henpin-sareta-ningen",
         "iine-sougisha",
@@ -2981,12 +3157,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "zennin-saiban",
@@ -2999,12 +3175,12 @@
     },
     "ashita-wa-kitto": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "without-worrying",
@@ -3031,12 +3207,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "without-worrying",
@@ -3079,12 +3255,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "re-sonance",
@@ -3124,12 +3300,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "one-more-kiss",
@@ -3165,12 +3341,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "koisuru-maharaja",
@@ -3205,12 +3381,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "wasureji-no-hito",
@@ -3223,12 +3399,12 @@
     },
     "smile-and-say-goodbye": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ashita-wa-kitto",
@@ -3255,12 +3431,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ashita-wa-kitto",
@@ -3301,12 +3477,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "echoes-of-you",
@@ -3351,12 +3527,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "our-kingdom",
@@ -3396,12 +3572,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "shadow-code",
@@ -3414,12 +3590,12 @@
     },
     "moshimo-ashita-hajimemashite-ni-natte-mo": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "suki-ga-kyou-mo-fueteiku",
@@ -3446,12 +3622,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "suki-ga-kyou-mo-fueteiku",
@@ -3464,12 +3640,12 @@
     },
     "suki-ga-kyou-mo-fueteiku": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3496,12 +3672,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "moshimo-ashita-hajimemashite-ni-natte-mo",
@@ -3514,12 +3690,12 @@
     },
     "toriatsukai-chui": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "mirai-no-watashi-ga-miteru",
@@ -3546,12 +3722,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mirai-no-watashi-ga-miteru",
@@ -3564,12 +3740,12 @@
     },
     "our-kingdom": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "my-queen-my-oath",
@@ -3593,12 +3769,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "my-queen-my-oath",
@@ -3641,12 +3817,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "red-moon-rising",
@@ -3659,12 +3835,12 @@
     },
     "mirai-no-watashi-ga-miteru": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "toriatsukai-chui",
@@ -3691,12 +3867,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "toriatsukai-chui",
@@ -3709,12 +3885,12 @@
     },
     "muteki-jikan-ato-3byou": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3741,12 +3917,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3759,12 +3935,12 @@
     },
     "mia": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3791,12 +3967,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3809,12 +3985,12 @@
     },
     "tokenai-mahou-wo-ai-to-yobu": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3841,12 +4017,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3859,12 +4035,12 @@
     },
     "kimi-to-nara-last-boss-made": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "ai-demo-wakaranai",
@@ -3891,12 +4067,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "ai-demo-wakaranai",
@@ -3909,12 +4085,12 @@
     },
     "ai-demo-wakaranai": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "kimi-to-nara-last-boss-made",
@@ -3941,12 +4117,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "kimi-to-nara-last-boss-made",
@@ -3959,12 +4135,12 @@
     },
     "kimi-wa-hanabi": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -3991,12 +4167,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -4009,12 +4185,12 @@
     },
     "mermaid-merman": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "mermaid-no-geboku",
@@ -4041,12 +4217,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "mermaid-no-geboku",
@@ -4059,12 +4235,12 @@
     },
     "sukitte-baretemo-ii": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "hyakumankoku",
@@ -4091,12 +4267,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "hyakumankoku",
@@ -4109,12 +4285,12 @@
     },
     "hyakumankoku": {
       "sameArtist": [
+        "anata-dake-ni-okuru-happy-birthday",
         "mirai-no-ashioto",
         "hyper-romance-dawn",
         "tenjo-tenge-yuiga-dokuson",
         "kisetsuhazure-no-santa-claus",
-        "amaterasu",
-        "koi-no-tochu"
+        "amaterasu"
       ],
       "sameGenre": [
         "sukitte-baretemo-ii",
@@ -4141,12 +4317,12 @@
         "iine-sougisha"
       ],
       "recent": [
-        "mirai-no-ashioto",
-        "ketsugetsu-no-houkou",
-        "hyper-romance-dawn",
-        "furinkazan",
-        "ato-5fun-dake",
-        "tenjo-tenge-yuiga-dokuson"
+        "ikusen-no-yoru-wo-koete",
+        "anata-dake-ni-okuru-happy-birthday",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "baa-lesque",
+        "salad-chicken-baa",
+        "mirai-no-ashioto"
       ],
       "aiRecommended": [
         "sukitte-baretemo-ii",

@@ -59,12 +59,12 @@
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
       <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
+      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
@@ -1193,6 +1193,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/ai-demo-wakaranai/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
       <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
     </image:image>
@@ -1384,10 +1388,6 @@
       <image:title>榎本魅愛「もしも明日、はじめましてになっても」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
-      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
       <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
     </image:image>
@@ -1400,40 +1400,8 @@
       <image:title>ECLYPSE「SHADOW//CODE」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
-      <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
-      <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
-      <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
-      <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-lastboss.jpg</image:loc>
       <image:title>榎本魅愛「君とならラスボスまで」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
-      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
-      <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
-      <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
-      <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -1460,6 +1428,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/gallery/kimi-wa-hanabi/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-hanabi.jpg</image:loc>
       <image:title>榎本魅愛「君は花火」公式ジャケット</image:title>
@@ -1494,6 +1466,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/mermaid-merman/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mermaid-merman.jpg</image:loc>
       <image:title>榎本魅愛「MERMAID×MERMAN」公式ジャケット</image:title>
     </image:image>
@@ -1516,6 +1492,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/mia/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mia.jpg</image:loc>
       <image:title>榎本魅愛「M・I・A」公式ジャケット</image:title>
     </image:image>
@@ -1526,6 +1506,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/gallery/mirai-no-watashi-ga-miteru/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mirai-no-watashi-ga-miteru.jpg</image:loc>
       <image:title>榎本魅愛「未来の私が見てる」公式ジャケット</image:title>
@@ -1548,6 +1532,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/gallery/muteki-jikan-ato-3byou/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-muteki.jpg</image:loc>
       <image:title>榎本魅愛「無敵時間、あと3秒」公式ジャケット</image:title>
@@ -1648,6 +1636,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/suki-ga-kyou-mo-fueteiku/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
       <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
@@ -1659,6 +1651,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/gallery/sukitte-baretemo-ii/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
       <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
@@ -1669,6 +1665,10 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/gallery/tokenai-mahou-wo-ai-to-yobu/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
       <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
@@ -2059,10 +2059,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛 公式Artist画像</image:title>
     </image:image>
@@ -2073,6 +2069,14 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙 公式Artist画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
+      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
+      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tunecore-Rq5BFPrU-20261012.png</image:loc>
@@ -2147,10 +2151,6 @@
       <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
-      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/eclypse-group.webp</image:loc>
       <image:title>ECLYPSE 5人組公式グループビジュアル</image:title>
     </image:image>
@@ -2179,10 +2179,6 @@
       <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
-      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
       <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
     </image:image>
@@ -2193,6 +2189,10 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-nando-umarekawattemo-reborn-oath.png</image:loc>
       <image:title>神代煌牙「何度生まれ変わっても - RE:BORN OATH -」TuneCore公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-renai-taishogai-kari.png</image:loc>
+      <image:title>榎本魅愛「恋愛対象外 (仮)」TuneCore公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-koisuru-subete-no-shunkan.png</image:loc>
@@ -2856,6 +2856,20 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/ato-5fun-dake-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/baa-lesque-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/caramel-artist-video-20260930/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/caramel-official-youtube.webp</image:loc>
@@ -3097,6 +3111,22 @@
       <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-neb24fc6b0625-20261027.jpg</image:loc>
+      <image:title>【新発売】榎本魅愛、公式LINEスタンプ第1弾が登場！毎日のトークに恋する気持ちを♡の公式News画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-n7b9152981d35-20261026.png</image:loc>
+      <image:title>【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しましたの公式News画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
+      <image:title>【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語の公式News画像</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-n16d1463bf167-20261026.png</image:loc>
+      <image:title>💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！の公式News画像</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/suzuka-channel.jpg</image:loc>
       <image:title>SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。の公式News画像</image:title>
     </image:image>
@@ -3121,8 +3151,8 @@
       <image:title>榎本魅愛「君とならラスボスまで」配信開始の公式News画像</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
-      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-official-channel-note.jpg</image:loc>
+      <image:title>妃みちる 公式アーティスト画像（元の動画画像は配信停止）</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/caramel-official-youtube.webp</image:loc>
@@ -3365,6 +3395,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/ketsugetsu-no-houkou-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/kimi-ga-iru-hougaku-e-release/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
@@ -3517,6 +3554,10 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/mirai-no-ashioto-release/</loc>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
@@ -3616,6 +3657,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/official-note-n16d1463bf167/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-n16d1463bf167-20261026.png</image:loc>
+      <image:title>💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！ 公式ビジュアル</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/official-note-n3e1b02345551/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
@@ -3623,10 +3671,31 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.suzukaofficial.com/news/official-note-n7b9152981d35/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-n7b9152981d35-20261026.png</image:loc>
+      <image:title>【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました 公式ビジュアル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/official-note-naed63ee28bb0/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-mermaid-no-geboku.jpg</image:loc>
+      <image:title>【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語 公式ビジュアル</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.suzukaofficial.com/news/official-note-nd4ccc92d086c/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/suzuka-channel.jpg</image:loc>
       <image:title>SUZUKAと3人のアーティスト、それぞれの世界をもっと深く。 公式ビジュアル</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/official-note-neb24fc6b0625/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/official-note-neb24fc6b0625-20261027.jpg</image:loc>
+      <image:title>【新発売】榎本魅愛、公式LINEスタンプ第1弾が登場！毎日のトークに恋する気持ちを♡ 公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -3698,6 +3767,13 @@
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/news/rinne-no-chigiri-release/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/news/salad-chicken-baa-release/</loc>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
       <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
@@ -3889,8 +3965,8 @@
   <url>
     <loc>https://www.suzukaofficial.com/news/watashi-no-eranda-michi-artist-video-20260930/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
-      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-official-channel-note.jpg</image:loc>
+      <image:title>妃みちる 公式アーティスト画像（元の動画画像は配信停止）</image:title>
     </image:image>
   </url>
   <url>
@@ -4127,26 +4203,6 @@
       <image:loc>https://www.suzukaofficial.com/images/tunecore-aDuRy9Ta-20261012.png</image:loc>
       <image:title>神代煌牙「一護一逢〜再開の約束〜」TuneCore Japan公開ジャケット</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
-      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
-      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
-      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
-      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-fTcQ4px9-20261012.png</image:loc>
-      <image:title>榎本魅愛「恋の途中」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/playlists/love/</loc>
@@ -4260,18 +4316,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
       <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-hello-life-official-jacket.png</image:loc>
-      <image:title>妃みちる「HELLO, LIFE!」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-september-blue.jpg</image:loc>
-      <image:title>榎本魅愛「September Blue」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-over-drive.jpg</image:loc>
-      <image:title>榎本魅愛「Over Drive」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4449,32 +4493,44 @@
       <image:title>RANGILI「恋するマハラジャ」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/asagiri-wasurenai-kokoro.jpg</image:loc>
-      <image:title>朝霧しのぶ「忘れない心」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-suki-ga-kyou-mo-fueteiku.jpg</image:loc>
+      <image:title>榎本魅愛「好きが、今日も増えていく。」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
-      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-sukitte-baretemo-ii.jpg</image:loc>
+      <image:title>榎本魅愛「好きってバレてもいい」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-Rq5BFPrU-20261012.png</image:loc>
-      <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/taipa-nante-shiranakatta-official-youtube.webp</image:loc>
+      <image:title>榎本魅愛「タイパなんて知らなかった」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-tatta-hitori-no-kimi-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-28YfhcNX-20261012.png</image:loc>
-      <image:title>妃みちる「ゆっくり休んで」TuneCore Japan公開ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
+      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
-      <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-mahou.jpg</image:loc>
+      <image:title>榎本魅愛「解けない魔法を、愛と呼ぶ」公式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-ai.jpg</image:loc>
-      <image:title>榎本魅愛「AIでもわからない」公式ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/mv-toriatsukai-chuui.jpg</image:loc>
+      <image:title>榎本魅愛「取り扱いチュー💋い」公式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
+      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/updown-official-youtube.webp</image:loc>
+      <image:title>妃みちる「UPdown」公式動画サムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/wakareta-michi-official-youtube.webp</image:loc>
+      <image:title>神代煌牙「分かれた道」公式動画サムネイル</image:title>
     </image:image>
   </url>
   <url>
@@ -4520,10 +4576,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -4561,10 +4613,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4613,10 +4661,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/amaterasu/</loc>
@@ -4647,10 +4691,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -4695,9 +4735,32 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/anata-dake-ni-okuru-happy-birthday/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
+      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4734,9 +4797,32 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/anata-wa-anata-de-ii-akarui-mirai-e/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/updown-official-youtube.webp</image:loc>
+      <image:title>妃みちる「UPdown」公式動画サムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tunecore-Rq5BFPrU-20261012.png</image:loc>
+      <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
+      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4774,20 +4860,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -4819,10 +4897,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -4867,13 +4941,13 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/ato-5fun-dake/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
@@ -4891,10 +4965,6 @@
       <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-V5tf40p0-20261012.png</image:loc>
-      <image:title>妃みちる「誰かのために」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -4902,9 +4972,28 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/baa-lesque/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -4973,10 +5062,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/break-the-veil/</loc>
@@ -5012,10 +5097,6 @@
       <image:loc>https://www.suzukaofficial.com/images/tunecore-fTcQ4px9-20261012.png</image:loc>
       <image:title>榎本魅愛「恋の途中」TuneCore Japan公開ジャケット</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/caramel/</loc>
@@ -5028,24 +5109,16 @@
       <image:title>榎本魅愛「キャラメ〜ル」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/natsu-ga-owaru-made-soba-ni-ite-official-youtube.webp</image:loc>
@@ -5062,10 +5135,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -5098,10 +5167,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/dalkomhan-jugeumeul-geudaeege/</loc>
@@ -5132,10 +5197,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5175,10 +5236,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5235,10 +5292,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/eternity-of-flower-words/</loc>
@@ -5277,10 +5330,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -5329,10 +5378,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/family-portrait/</loc>
@@ -5367,10 +5412,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5408,20 +5449,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5449,10 +5482,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5489,10 +5518,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/gozen-0ji-no-cinderella/</loc>
@@ -5515,10 +5540,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5558,10 +5579,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5605,10 +5622,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5661,10 +5674,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/hello-hello-halloween/</loc>
@@ -5699,10 +5708,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -5748,20 +5753,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5785,10 +5782,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -5824,10 +5817,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -5911,10 +5900,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/iine-sougisha/</loc>
@@ -5942,9 +5927,24 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/ikusen-no-yoru-wo-koete/</loc>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
+      <image:loc>https://www.suzukaofficial.com/images/nox-zennin-saiban.jpg</image:loc>
+      <image:title>NOX「善人裁判」公式YouTubeサムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -6273,24 +6273,16 @@
       <image:title>神代煌牙「神様は留守」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
-      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
-      <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
-      <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-mahou-ga-toketemo.jpg</image:loc>
       <image:title>神代煌牙「魔法が解けても」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
       <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
+      <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-leo-rise-again.jpg</image:loc>
@@ -6320,13 +6312,13 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/ketsugetsu-no-houkou/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/veilfang-gekka-no-chigiri.jpg</image:loc>
       <image:title>VEILFANG『月下契』公式YouTubeビジュアル</image:title>
@@ -6342,10 +6334,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6373,10 +6361,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6408,10 +6392,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -6465,10 +6445,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -6520,10 +6496,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -6567,10 +6539,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -6600,10 +6568,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6672,10 +6636,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
@@ -6722,10 +6682,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/koisuru-subete-no-shunkan/</loc>
@@ -6760,10 +6716,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -6813,20 +6765,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6859,10 +6803,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/leo-rise-again/</loc>
@@ -6877,14 +6817,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
-      <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/youtube-boukyaku-no-ikimono.jpg</image:loc>
-      <image:title>神代 煌牙「忘却の生き物」公式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
@@ -6917,10 +6849,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -6957,10 +6885,6 @@
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mada-tetsu-wa-atsui/</loc>
@@ -6995,10 +6919,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -7051,10 +6971,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mata-kimi-ni-koi-wo-suru/</loc>
@@ -7089,10 +7005,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -7144,10 +7056,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -7216,10 +7124,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mia/</loc>
@@ -7264,10 +7168,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -7306,13 +7206,13 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/mirai-no-ashioto/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
@@ -7385,10 +7285,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -7435,10 +7331,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/moshimo-ashita-hajimemashite-ni-natte-mo/</loc>
@@ -7469,10 +7361,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -7528,10 +7416,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -7612,10 +7496,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/namaste-galaxy/</loc>
@@ -7658,10 +7538,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -7706,10 +7582,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/natsu-ga-owaru-made-soba-ni-ite/</loc>
@@ -7722,24 +7594,16 @@
       <image:title>榎本魅愛「夏が終わるまで、そばにいて。」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/mv-without-worrying.jpg</image:loc>
-      <image:title>榎本魅愛「Without Worrying」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/caramel-official-youtube.webp</image:loc>
@@ -7756,10 +7620,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -7828,10 +7688,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/our-kingdom/</loc>
@@ -7874,10 +7730,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -7927,10 +7779,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
@@ -7968,10 +7816,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8024,10 +7868,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/renai-taishogai-kari/</loc>
@@ -8068,10 +7908,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
@@ -8107,10 +7943,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
@@ -8137,9 +7969,28 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.suzukaofficial.com/releases/salad-chicken-baa/</loc>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/assets/cinema/hero-1600.webp</image:loc>
+      <image:title>雲海に浮かぶ天空宮殿の装飾背景（AI生成）</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
+      <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
+      <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
+      <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
   </url>
   <url>
@@ -8185,20 +8036,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
       <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8234,10 +8077,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -8294,10 +8133,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/smile-and-say-goodbye/</loc>
@@ -8338,10 +8173,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -8375,10 +8206,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8414,10 +8241,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8457,10 +8280,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -8514,10 +8333,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -8545,16 +8360,12 @@
       <image:title>榎本魅愛「明日は、きっと。」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
-      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hajimemashite-kiseki.jpg</image:loc>
-      <image:title>榎本魅愛「はじめまして、奇跡」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
+      <image:title>榎本魅愛「花言葉」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-kimi-wa-makenai.jpg</image:loc>
@@ -8567,10 +8378,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -8620,20 +8427,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8714,10 +8513,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -8769,10 +8564,6 @@
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
@@ -8820,20 +8611,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8851,16 +8634,12 @@
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
-      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
-      <image:title>妃みちる「私の選んだ道」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
+      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hanakotoba.jpg</image:loc>
@@ -8875,20 +8654,12 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8902,20 +8673,16 @@
       <image:title>神代煌牙「分かれた道」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
+      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-one-more-kiss.jpg</image:loc>
       <image:title>神代煌牙「One More Kiss」公式YouTubeサムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/koga-echoes-of-you.jpg</image:loc>
       <image:title>神代煌牙「Echoes of You」公式YouTubeサムネイル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-my-queen-my-oath-cover.jpg</image:loc>
-      <image:title>神代煌牙「My Queen, My Oath｜君が、俺のすべて。」正式ジャケット。夕暮れの海と城を背景に、黒いロングコート姿の神代煌牙を描いたビジュアル。</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/koga-kamishiro-akuyaku-de-ii-official-jacket.png</image:loc>
-      <image:title>神代煌牙「悪役でいい」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-watashi-no-eranda-michi-official-jacket.png</image:loc>
@@ -8948,10 +8715,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -8988,10 +8751,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/wasurenai-kokoro/</loc>
@@ -9027,10 +8786,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/watashi-no-eranda-michi/</loc>
@@ -9047,20 +8802,16 @@
       <image:title>妃みちる「たった1人の君へ」正式ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-friendlikesong-official-jacket.png</image:loc>
-      <image:title>妃みちる「Friend Like Song」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/wakareta-michi-official-youtube.webp</image:loc>
-      <image:title>神代煌牙「分かれた道」公式動画サムネイル</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
       <image:title>妃みちる「世代を超えてママへ」正式ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/updown-official-youtube.webp</image:loc>
       <image:title>妃みちる「UPdown」公式動画サムネイル</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.suzukaofficial.com/images/wakareta-michi-official-youtube.webp</image:loc>
+      <image:title>神代煌牙「分かれた道」公式動画サムネイル</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/youtube-smile-and-say-goodbye.jpg</image:loc>
@@ -9079,16 +8830,8 @@
       <image:title>妃みちる「私の選んだ道 (あなたに届けたい8つの歌)」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
-      <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
       <image:title>榎本魅愛「Hello Hello Halloween」公式ビジュアル</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
     </image:image>
   </url>
   <url>
@@ -9125,10 +8868,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/without-worrying/</loc>
@@ -9163,10 +8902,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -9206,10 +8941,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/michiru-sedai-wo-koete-mama-e-official-jacket.png</image:loc>
@@ -9254,10 +8985,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/releases/yume-to-kaigo-to-watashitachi/</loc>
@@ -9284,10 +9011,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
       <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-9U1eCaGv-20261012.png</image:loc>
-      <image:title>榎本魅愛「天上天下唯我独尊」TuneCore Japan公開ジャケット</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-hello-hello-halloween.jpg</image:loc>
@@ -9336,10 +9059,6 @@
       <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-yume-to-kaigo-to-watashitachi.jpg</image:loc>
       <image:title>紺色のスクラブ姿の榎本魅愛を描いた「夢と、介護と、私たち。」公式ビジュアル</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/linkcore-66hxyRr8-20261018.png</image:loc>
-      <image:title>榎本魅愛「ミライノアシオト」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.suzukaofficial.com/schedule/</loc>
@@ -9362,46 +9081,6 @@
     <image:image>
       <image:loc>https://www.suzukaofficial.com/images/tunecore-qbUCcFYa-20261012.png</image:loc>
       <image:title>妃みちる「雨のち貴方」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-V5tf40p0-20261012.png</image:loc>
-      <image:title>妃みちる「誰かのために」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-28YfhcNX-20261012.png</image:loc>
-      <image:title>妃みちる「ゆっくり休んで」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-aDuRy9Ta-20261012.png</image:loc>
-      <image:title>神代煌牙「一護一逢〜再開の約束〜」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/leon-vail-break-the-veil-official-jacket.png</image:loc>
-      <image:title>LEON VAIL「BREAK THE VEIL」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/enomoto-mia-amaterasu-official-jacket.png</image:loc>
-      <image:title>榎本魅愛「天照」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-uchira-saikyo-jane-official-jacket.png</image:loc>
-      <image:title>妃みちる「ウチら最強じゃね！」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/michiru-anata-wo-omou-sore-dake-de-official-jacket.png</image:loc>
-      <image:title>妃みちる「あなたを想う、それだけで」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tunecore-fTcQ4px9-20261012.png</image:loc>
-      <image:title>榎本魅愛「恋の途中」TuneCore Japan公開ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-ashita-yaru-official-jacket.png</image:loc>
-      <image:title>鉄髭 - TETSUHIGE -「明日やる」正式ジャケット</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.suzukaofficial.com/images/tetsuhige-mada-tetsu-wa-atsui-official-jacket.png</image:loc>
-      <image:title>鉄髭 - TETSUHIGE -「まだ、鉄は熱い」正式ジャケット</image:title>
     </image:image>
   </url>
   <url>

@@ -1,4 +1,5 @@
 """Validate current official activity and preservation against the prior source."""
+import argparse
 import json
 from datetime import datetime
 from pathlib import Path
@@ -6,8 +7,8 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def main():
-    cms=json.loads((ROOT/'assets/data/creator-cms.json').read_text())
+def main(cms_path=None):
+    cms=json.loads((cms_path or ROOT/'assets/data/creator-cms.json').read_text())
     prior=json.loads((ROOT/'docs/official-sync-20261018-baseline.json').read_text())
     report=json.loads((ROOT/'docs/official-sync-20261018.json').read_text())
     releases={r['slug']:r for r in cms['releases']}
@@ -71,4 +72,7 @@ def main():
     assert not cms['comingSoon'] and not cms['upcoming']
     print(json.dumps({'status':'PASS','publishedWorks':99,'artists':12,'addedAudioWorks':6,'addedStreamingWorks':2,'addedMVVersions':1,'addedShorts':11,'addedNoteNews':1,'promotedStreamingPlans':2,'additionalStreamingUpdates':6,'unmatchedOfficialTitlesHeld':1}))
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--cms',type=Path,help='Explicit historical snapshot for this dated audit')
+    main(parser.parse_args().cms)

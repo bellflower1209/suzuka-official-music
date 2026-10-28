@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:04:33+09:00",
+  "updatedAt": "2026-10-27T22:09:00+09:00",
   "documents": [
     {
       "type": "Lyrics",
@@ -23,6 +23,91 @@
         "Photobook",
         "Visual Collection",
         "写真集"
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "幾千の夜を越えて",
+      "description": "NOX「幾千の夜を越えて」の公式音源をYouTubeで公開。",
+      "url": "releases/ikusen-no-yoru-wo-koete/",
+      "keywords": [
+        "NOX",
+        "幾千の夜を越えて",
+        "NOX",
+        "幾千の夜を越えて",
+        "NOX",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "あなただけに送るHappy Birthday",
+      "description": "榎本魅愛「あなただけに送るHappy Birthday」の公式音源をYouTubeで公開。",
+      "url": "releases/anata-dake-ni-okuru-happy-birthday/",
+      "keywords": [
+        "榎本魅愛",
+        "あなただけに送るHappy Birthday",
+        "榎本魅愛",
+        "あなただけに送るHappy Birthday",
+        "榎本魅愛",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "あなたはあなたでいい ～明るい未来へ～",
+      "description": "妃みちる「あなたはあなたでいい ～明るい未来へ～」の公式音源をYouTubeで公開。",
+      "url": "releases/anata-wa-anata-de-ii-akarui-mirai-e/",
+      "keywords": [
+        "妃みちる",
+        "あなたはあなたでいい ～明るい未来へ～",
+        "妃みちる",
+        "あなたはあなたでいい ～明るい未来へ～",
+        "妃みちる",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "ばぁーれすく",
+      "description": "BABA NOVA「ばぁーれすく」の公式音源をYouTubeで公開。",
+      "url": "releases/baa-lesque/",
+      "keywords": [
+        "BABA NOVA",
+        "ばぁーれすく",
+        "BABA NOVA",
+        "ばぁーれすく",
+        "BABA NOVA",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "Release",
+      "contentType": "release",
+      "title": "サラダチキン婆",
+      "description": "BABA NOVA「サラダチキン婆」の公式音源をYouTubeで公開。",
+      "url": "releases/salad-chicken-baa/",
+      "keywords": [
+        "BABA NOVA",
+        "サラダチキン婆",
+        "BABA NOVA",
+        "サラダチキン婆",
+        "BABA NOVA",
+        "",
+        "",
+        ""
       ]
     },
     {
@@ -2970,6 +3055,19 @@
       ]
     },
     {
+      "type": "Artist",
+      "contentType": "artist",
+      "title": "BABA NOVA",
+      "description": "83歳（自称）のVirtual AI Artist。毒舌、豪快、お茶目、負けず嫌い。",
+      "url": "artists/baba-nova/",
+      "keywords": [
+        "BABA NOVA",
+        "ババ・ノヴァ",
+        "サラダチキン婆",
+        "ばぁーれすく"
+      ]
+    },
+    {
       "type": "Shorts",
       "contentType": "short",
       "title": "【衝撃のサビ🔥】未完成のままでいい。何度でも立ち上がれ。｜RE:VIVE『未完成の革命』#Shorts",
@@ -4166,6 +4264,84 @@
       ]
     },
     {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【泣いてもいい】無理に笑わなくていい。あなたはあなたでいい。｜妃みちる #shorts",
+      "description": "妃みちるの公式Shorts。",
+      "url": "artists/michiru/#short-93rZqvJTJFw",
+      "keywords": [
+        "妃みちる",
+        "anata-wa-anata-de-ii-akarui-mirai-e",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【恋愛ドラマ】「好きな人、いるの？」まさかの返事に胸キュン💗 榎本魅愛『ハイパー・ロマンス・ドーン！』#Shorts",
+      "description": "榎本魅愛の公式Shorts。",
+      "url": "artists/enomoto-mia/#short-qLORLNlubrM",
+      "keywords": [
+        "榎本魅愛",
+        "hyper-romance-dawn",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【Apple Music配信中🍎】榎本魅愛『ハイパー・ロマンス・ドーン！』♡ 好きで、好きで、好きで、止まらない！🎶",
+      "description": "榎本魅愛の公式Shorts。",
+      "url": "artists/enomoto-mia/#short-cCOSlC9UU4I",
+      "keywords": [
+        "榎本魅愛",
+        "hyper-romance-dawn",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【MV】王子様にはなれない。でも、君の騎士でいたい。🧜‍♀️🚲｜マーメイドの下僕／神代煌牙 #Shorts",
+      "description": "神代煌牙の公式Shorts。",
+      "url": "artists/koga-kamishiro/#short--pV0um1TzOo",
+      "keywords": [
+        "神代煌牙",
+        "mermaid-no-geboku",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "【83歳の新人がヤバい🤣】サラダチキン婆🐔🔥｜BABA NOVA #Shorts",
+      "description": "BABA NOVAの公式Shorts。",
+      "url": "artists/baba-nova/#short-1GTZBo8E2aE",
+      "keywords": [
+        "BABA NOVA",
+        "salad-chicken-baa",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
+      "type": "Shorts",
+      "contentType": "short",
+      "title": "83歳の婆が本気でバーレスク踊ってみた🤣💋 色気はまだまだ現役！🔥｜BABA NOVA「ばぁーれすく」#Shorts",
+      "description": "BABA NOVAの公式Shorts。",
+      "url": "artists/baba-nova/#short-VORLviNH1Ck",
+      "keywords": [
+        "BABA NOVA",
+        "baa-lesque",
+        "YouTube Shorts",
+        "Shorts"
+      ]
+    },
+    {
       "type": "News",
       "contentType": "news",
       "title": "YouTubeチャンネル運用変更のお知らせ",
@@ -5095,6 +5271,50 @@
       "title": "🌸「好き」を百万回伝えたい。榎本魅愛『百万告』実写映像を公開！",
       "description": "榎本魅愛「百万告」の実写映像について、SUZUKA公式noteで紹介しています。記事全文はnoteでご覧いただけます。",
       "url": "news/official-note-n55b00eef34b2/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました",
+      "description": "「【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "url": "news/official-note-n7b9152981d35/",
+      "keywords": [
+        "",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語",
+      "description": "「【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "url": "news/official-note-naed63ee28bb0/",
+      "keywords": [
+        "koga-kamishiro",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！",
+      "description": "「💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！」をSUZUKA公式noteで公開しました。記事全文はnoteでご覧いただけます。",
+      "url": "news/official-note-n16d1463bf167/",
+      "keywords": [
+        "enomoto-mia",
+        ""
+      ]
+    },
+    {
+      "type": "News",
+      "contentType": "news",
+      "title": "【新発売】榎本魅愛、公式LINEスタンプ第1弾が登場！毎日のトークに恋する気持ちを♡",
+      "description": "SUZUKA公式noteの新着記事です。記事全文はnoteでご覧いただけます。",
+      "url": "news/official-note-neb24fc6b0625/",
       "keywords": [
         "enomoto-mia",
         ""

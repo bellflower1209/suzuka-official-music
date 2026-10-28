@@ -8,6 +8,48 @@ from datetime import date
 from pathlib import Path
 
 from release_state import RELEASE_STATUSES, parse_iso8601
+from video_migration import NOTICE, undo_migration, video_id
+
+
+def has_historical_migration_source(item, record, artist):
+    """A published work survives an intentional, evidenced channel migration."""
+    if not record or not artist:
+        return False
+    migration = item.get("videoMigration", {})
+    channel_id = artist.get("officialYoutubeChannelId")
+    channel_url = "https://www.youtube.com/channel/" + str(channel_id)
+    if not (
+        item.get("status") == "published"
+        and not item.get("youtubeUrl")
+        and item.get("videoStructuredDataStatus") == "channel-migration"
+        and migration.get("status") == record.get("status") == "in-progress"
+        and migration.get("reason") == "official-artist-channel-separation"
+        and migration.get("notice") == NOTICE
+        and record.get("releaseSlug") == item.get("slug")
+        and record.get("artistSlug") == item.get("artistSlug") == artist.get("slug")
+        and channel_id
+        and migration.get("officialChannelId") == record.get("officialChannelId") == channel_id
+        and migration.get("officialChannelUrl") == record.get("officialChannelUrl") == channel_url
+        and migration.get("previousUrl") == record.get("previousUrl")
+        and migration.get("previousVideoId") == record.get("previousVideoId")
+        and video_id(record.get("previousUrl")) == record.get("previousVideoId")
+        and record.get("oldWatchStatus", {}).get("reason") == "非公開動画"
+    ):
+        return False
+    try:
+        original = undo_migration(item, record)
+        parse_iso8601(migration["verifiedAt"])
+        history = next(h for h in item["videoHistory"] if h["youtubeId"] == record["previousVideoId"])
+        parse_iso8601(history["publishedAt"])
+        return (
+            original["youtubeUrl"] == history["youtubeUrl"] == record["previousUrl"]
+            and original["publishedAt"] == item["publishedAt"]
+            and original["releaseDate"] == item["releaseDate"]
+            and history["historicalPublicationPreserved"] is True
+            and history["currentAvailability"] == "private"
+        )
+    except (AssertionError, KeyError, StopIteration, TypeError, ValueError):
+        return False
 
 
 def main() -> int:
@@ -17,6 +59,10 @@ def main() -> int:
     cms = json.loads((root / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
     catalog = json.loads((root / "assets/data/releases-catalog.json").read_text(encoding="utf-8"))
     errors = []
+    migration_path = root / "docs/channel-migration-20261026.json"
+    migrations = json.loads(migration_path.read_text(encoding="utf-8"))["records"] if migration_path.is_file() else []
+    migration_by_slug = {record["releaseSlug"]: record for record in migrations}
+    artists = {artist["slug"]: artist for artist in cms["artists"]}
     collections = {"releases": cms.get("releases", []), "upcoming": cms.get("upcoming", [])}
     slugs = [item["slug"] for values in collections.values() for item in values]
     if len(slugs) != len(set(slugs)):
@@ -45,7 +91,10 @@ def main() -> int:
                     streaming.get("status") == "published"
                     and str(streaming.get("linkcoreUrl", "")).startswith("https://linkco.re/")
                 )
-                if not (has_video or has_distribution):
+                has_migration = has_historical_migration_source(
+                    item, migration_by_slug.get(item["slug"]), artists.get(item.get("artistSlug"))
+                )
+                if not (has_video or has_distribution or has_migration):
                     errors.append(f'{item["slug"]}: official YouTube or published LinkCore source missing')
     catalog_published = {item["slug"] for item in catalog["releases"]}
     catalog_upcoming = {item["slug"] for item in catalog["upcoming"]}

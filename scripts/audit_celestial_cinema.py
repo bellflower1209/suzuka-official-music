@@ -2,7 +2,7 @@
 """Check photographic coverage, source identity and encoded asset integrity."""
 import hashlib, json, re
 from pathlib import Path
-from build_celestial_gate import validate_cinema
+from build_celestial_gate import validate_cinema, presentation_artists
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -39,7 +39,10 @@ def main():
         if 'data-cg-page=' not in s or 'class="cg-scene"' not in s:errors.append('Photographic coverage missing: '+str(path.relative_to(ROOT)))
         if any(x in s for x in ['class="cg-cloud','class="cg-black-flames','celestial-palace.svg','nox-citadel.svg']):errors.append('Retired scenery active: '+str(path.relative_to(ROOT)))
     directory=(ROOT/'artists/index.html').read_text();home=(ROOT/'index.html').read_text()
-    if directory.count('class="cg-world-stage"')!=len(artists) or home.count('class="cg-world-stage"')!=len(artists):errors.append('Canonical portal coverage mismatch')
+    worlds=presentation_artists(config,artists)
+    if directory.count('class="cg-world-stage"')!=len(worlds) or home.count('class="cg-world-stage"')!=len(worlds):errors.append('Registered portal coverage mismatch')
+    for a in artists:
+        if a.get('presentationStatus')=='catalog-only' and f'./{a["slug"]}/' not in directory:errors.append('Catalog-only artist missing from directory')
     if 'fetchpriority="high"' not in home or 'loading="lazy"' not in home:errors.append('Critical/lazy image priorities missing')
     css=(ROOT/'assets/celestial-gate.css').read_text();js=(ROOT/'assets/celestial-gate.js').read_text()
     if any(x in css for x in ['celestial-palace.svg','nox-citadel.svg']):errors.append('Vector main scenery remains in active CSS')

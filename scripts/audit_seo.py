@@ -13,6 +13,7 @@ from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from structured_data_dates import types_of
+from video_migration import video_id as migration_video_id
 from typing import Any
 
 
@@ -27,6 +28,11 @@ LEGACY_REDIRECTS = {
 }
 CATALOG = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
 CREATOR_CMS = json.loads((ROOT / "assets/data/creator-cms.json").read_text(encoding="utf-8"))
+CURRENT_BY_SLUG={r['slug']:r for r in CREATOR_CMS['releases']}
+for legacy in CATALOG['releases']:
+    current=CURRENT_BY_SLUG.get(legacy['slug'],{})
+    if current.get('videoMigration'):
+        legacy.update(youtubeUrl=current.get('youtubeUrl',''),youtubeId=migration_video_id(current.get('youtubeUrl','')),youtubeVideoTitle=current.get('youtubeVideoTitle',''),videoMigration=current['videoMigration'])
 CMS_RELEASES_BY_ARTIST = {
     slug: sorted(
         [
@@ -60,7 +66,7 @@ MIA_RELEASE_DETAILS = {
 }
 MIA_YOUTUBE_IDS = {release["youtubeId"] for release in PUBLISHED_MIA if release.get("youtubeId")}
 NO_VIDEO_RELEASE_PATHS = {
-    Path("releases/boukyaku-no-ikimono/index.html"),
+    *({Path("releases/boukyaku-no-ikimono/index.html")} if not CURRENT_BY_SLUG['boukyaku-no-ikimono'].get('videoMigration') else set()),
     *{
         Path(f'releases/{release["slug"]}/index.html')
         for release in CREATOR_CMS["releases"]
@@ -144,6 +150,15 @@ OTHER_RELEASE_DETAILS = {
         "youtubeUrl": "https://www.youtube.com/watch?v=_TfwreiEMMM",
     },
 }
+
+
+for details in OTHER_RELEASE_DETAILS.values():
+    slug=str(details['homeDetail']).strip('./').split('/')[-1]
+    current=CURRENT_BY_SLUG.get(slug,{})
+    if current.get('videoMigration'):details['youtubeUrl']=current.get('youtubeUrl','')
+for details in FEATURE_NEWS.values():
+    current=CURRENT_BY_SLUG.get(details['release'].parts[1],{})
+    if current.get('videoMigration'):details['youtube']=current.get('youtubeUrl','')
 
 
 class PageParser(HTMLParser):
@@ -346,6 +361,7 @@ def required_schema_types(relative: Path) -> set[str]:
     if route == "gallery/index.html":
         return {"CollectionPage", "ItemList", "BreadcrumbList"}
     if route.startswith("gallery/"):
+        if CURRENT_BY_SLUG.get(relative.parts[1],{}).get("videoMigration",{}).get("status")=="in-progress":return {"WebPage","BreadcrumbList"}
         return {"WebPage", "VideoObject", "BreadcrumbList"}
     if route == "universe/index.html":
         return {"WebPage", "ItemList", "BreadcrumbList"}
@@ -413,7 +429,7 @@ def audit() -> tuple[list[str], dict[str, Any]]:
         for field in ("title", "slug", "pageUrl", "image"):
             if not release.get(field):
                 errors.append(f"release catalog: {release.get('title', '(unknown)')} is missing {field}")
-        if release.get("youtubeUrl") and str(release.get("cardTitle", release["title"])) not in str(release.get("youtubeVideoTitle", "")):
+        if release.get("youtubeUrl") and not release.get("videoMigration") and str(release.get("cardTitle", release["title"])) not in str(release.get("youtubeVideoTitle", "")):
             errors.append(f"release catalog: official YouTube title does not contain {release['title']}")
         page_path = ROOT / str(release["pageUrl"]) / "index.html"
         image_path = ROOT / str(release["image"])
@@ -649,8 +665,9 @@ def audit() -> tuple[list[str], dict[str, Any]]:
                 errors.append(f"{relative}: MusicRecording name must be My Queen, My Oath")
             if video.get("contentUrl") != OTHER_RELEASE_DETAILS["My Queen, My Oath"]["youtubeUrl"]:
                 errors.append(f"{relative}: VideoObject must use the confirmed official YouTube URL")
-            expected_date = VERIFIED_VIDEO_DATES.get("_TfwreiEMMM")
-            if video.get("uploadDate") != expected_date or video.get("duration") != "PT4M57S":
+            expected_date = VERIFIED_VIDEO_DATES.get(migration_video_id(OTHER_RELEASE_DETAILS["My Queen, My Oath"]["youtubeUrl"]))
+            expected_duration="PT297S" if CURRENT_BY_SLUG["my-queen-my-oath"].get("videoMigration") else "PT4M57S"
+            if video.get("uploadDate") != expected_date or video.get("duration") != expected_duration:
                 errors.append(f"{relative}: VideoObject date or duration does not match official YouTube")
         if relative in NO_VIDEO_RELEASE_PATHS:
             release = next(item for item in CREATOR_CMS['releases'] if item['slug'] == relative.parts[1])

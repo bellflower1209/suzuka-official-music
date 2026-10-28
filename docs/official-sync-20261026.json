@@ -1,0 +1,279 @@
+{
+  "verifiedAt": "2026-10-26T20:19:40+09:00",
+  "sourceMain": "934a63b79a7bdda85f4839aa77d3576a2987ee0a",
+  "baselineCmsSha256": "bee26289815455eb77fcaa29276bb18d1be596a769823c5000bac8eb5b7d70a8",
+  "addedReleases": [
+    "anata-wa-anata-de-ii-akarui-mirai-e",
+    "anata-dake-ni-okuru-happy-birthday",
+    "salad-chicken-baa",
+    "baa-lesque",
+    "ikusen-no-yoru-wo-koete"
+  ],
+  "addedShorts": [
+    "93rZqvJTJFw",
+    "qLORLNlubrM",
+    "cCOSlC9UU4I",
+    "-pV0um1TzOo",
+    "1GTZBo8E2aE",
+    "VORLviNH1Ck"
+  ],
+  "addedNews": [
+    "official-note-n7b9152981d35",
+    "official-note-naed63ee28bb0",
+    "official-note-n16d1463bf167",
+    "official-note-neb24fc6b0625"
+  ],
+  "streamingFieldChanges": [
+    {
+      "releaseSlug": "amaterasu",
+      "previousValue": {
+        "releaseDate": "2026-10-17",
+        "timezone": "Asia/Tokyo",
+        "status": "upcoming",
+        "linkcoreUrl": "https://linkco.re/uh3MSXtm",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-13T20:09:57+09:00",
+        "verificationSource": "official-linkcore-title-artist-date-and-listed-store-destinations-http-200",
+        "officialStreamingTitle": "天照",
+        "availableStoreUrls": []
+      },
+      "newValue": {
+        "releaseDate": "2026-10-17",
+        "timezone": "Asia/Tokyo",
+        "status": "published",
+        "linkcoreUrl": "https://linkco.re/uh3MSXtm",
+        "source": "public-official-tunecore-artist-and-linkcore",
+        "verifiedAt": "2026-10-26T20:04:32+09:00",
+        "verificationSource": "official-linkcore-and-jp-apple-music-title-artist-date-and-preview-metadata",
+        "officialStreamingTitle": "天照",
+        "availableStoreUrls": [
+          "https://music.apple.com/jp/album/amaterasu-single/6818970044"
+        ],
+        "verificationScope": "Japan Apple Music public catalog; subscription playback and worldwide availability not tested"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": "t5DwwpF01O0",
+      "title": "【新曲・音源先行公開】あなたはあなたでいい ～明るい未来へ～｜妃みちる【無理に笑わなくていい。あなたはあなたでいい。】",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "timestamp": 1792580408,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 370
+    },
+    {
+      "id": "MLmc3jVZ7-M",
+      "title": "【Official Audio】榎本魅愛『あなただけに送るHappy Birthday』｜大切なあなたへ贈るバースデーソング🎂",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "timestamp": 1792926558,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 274
+    },
+    {
+      "id": "93rZqvJTJFw",
+      "title": "【泣いてもいい】無理に笑わなくていい。あなたはあなたでいい。｜妃みちる #shorts",
+      "channel_id": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "timestamp": 1792580405,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 30
+    },
+    {
+      "id": "qLORLNlubrM",
+      "title": "【恋愛ドラマ】「好きな人、いるの？」まさかの返事に胸キュン💗 榎本魅愛『ハイパー・ロマンス・ドーン！』#Shorts",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "timestamp": 1792407610,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 37
+    },
+    {
+      "id": "cCOSlC9UU4I",
+      "title": "【Apple Music配信中🍎】榎本魅愛『ハイパー・ロマンス・ドーン！』♡ 好きで、好きで、好きで、止まらない！🎶",
+      "channel_id": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "timestamp": 1792321207,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 8
+    },
+    {
+      "id": "-pV0um1TzOo",
+      "title": "【MV】王子様にはなれない。でも、君の騎士でいたい。🧜‍♀️🚲｜マーメイドの下僕／神代煌牙 #Shorts",
+      "channel_id": "UCtRwFzemyx508t7yXnpCVKA",
+      "timestamp": 1792410764,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 31
+    },
+    {
+      "id": "QT6mgUyQ8l4",
+      "title": "【83歳の新人爆誕】サラダチキン婆 🐔🔥 / BABA NOVA【Official Audio】",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "timestamp": 1792321206,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 202
+    },
+    {
+      "id": "byfrahxGNSY",
+      "title": "【公式音源】ばぁーれすく / BABA NOVA｜83歳の婆が本気でバーレスクを歌ったらこうなった💋",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "timestamp": 1792494007,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 216
+    },
+    {
+      "id": "Ks7iYvDmS-M",
+      "title": "NOX『幾千の夜を越えて』Official Audio｜何度生まれ変わっても、君に恋をする。",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "timestamp": 1793012406,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 277
+    },
+    {
+      "id": "1GTZBo8E2aE",
+      "title": "【83歳の新人がヤバい🤣】サラダチキン婆🐔🔥｜BABA NOVA #Shorts",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "timestamp": 1792321234,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 20
+    },
+    {
+      "id": "VORLviNH1Ck",
+      "title": "83歳の婆が本気でバーレスク踊ってみた🤣💋 色気はまだまだ現役！🔥｜BABA NOVA「ばぁーれすく」#Shorts",
+      "channel_id": "UCVde75yhByGQMu3SkO-fzrA",
+      "timestamp": 1792494735,
+      "availability": "public",
+      "live_status": "not_live",
+      "duration": 15
+    }
+  ],
+  "noteRecords": [
+    {
+      "url": "https://note.com/1209bellflower/n/n7b9152981d35",
+      "title": "【公式発表】SUZUKA MUSIC PRODUCTION｜オリジナル楽曲制作のご依頼受付を開始しました",
+      "publishedAt": "2026-10-23T18:07:49+09:00"
+    },
+    {
+      "url": "https://note.com/1209bellflower/n/naed63ee28bb0",
+      "title": "【神代煌牙】マーメイドの下僕｜白馬を持たない騎士と、おしゃべりな人魚姫の物語",
+      "publishedAt": "2026-10-21T07:56:41+09:00"
+    },
+    {
+      "url": "https://note.com/1209bellflower/n/n16d1463bf167",
+      "title": "💗「……目の前にいる人。」その一言から恋が始まる。榎本魅愛『ハイパー・ロマンスドーン！』ショートMV公開！",
+      "publishedAt": "2026-10-19T21:08:56+09:00"
+    },
+    {
+      "title": "【新発売】榎本魅愛、公式LINEスタンプ第1弾が登場！毎日のトークに恋する気持ちを♡",
+      "publishedAt": "2026-10-26T19:22:23+09:00",
+      "url": "https://note.com/1209bellflower/n/neb24fc6b0625"
+    }
+  ],
+  "futureStreamingPlans": [
+    {
+      "releaseSlug": "anata-dake-ni-okuru-happy-birthday",
+      "releaseDate": "2026-10-31",
+      "linkcoreUrl": "https://linkco.re/vvasqg5z"
+    }
+  ],
+  "held": [
+    {
+      "title": "同じ女性へ 〜これから母になる人へ〜",
+      "artist": "妃みちる",
+      "reason": "2026-10-27 streaming date; future item documented, not added as published",
+      "url": "https://linkco.re/aU8rN04N"
+    },
+    {
+      "title": "MIA MATES video",
+      "reason": "availability=needs_auth; no new public catalog entry"
+    },
+    {
+      "title": "Mia AI conversation demo",
+      "reason": "not a song/MV; no MusicRecording entry"
+    }
+  ],
+  "addedImages": [
+    {
+      "path": "images/official-note-n7b9152981d35-20261026.png",
+      "source": "https://assets.st-note.com/production/uploads/images/327564074/rectangle_large_type_2_92127e8e214cefc804b88434be33e766.png?width=800",
+      "bytes": 177977,
+      "sha256": "0cd8d2d6a1163a91ae2c8b47a1f5b7ef513a116957cfe7b979b4d7fdc1475aa2",
+      "width": 800,
+      "height": 419
+    },
+    {
+      "path": "images/official-note-n16d1463bf167-20261026.png",
+      "source": "https://assets.st-note.com/production/uploads/images/326192763/rectangle_large_type_2_1f198266ee0bad62f6c1a6a14157e23e.png?width=800",
+      "bytes": 233811,
+      "sha256": "47891272c4a26c86463b840d8c74ba32166e1309d53a891a25784fe4f11611df",
+      "width": 800,
+      "height": 419
+    },
+    {
+      "path": "images/official-note-neb24fc6b0625-20261027.jpg",
+      "source": "https://assets.st-note.com/production/uploads/images/328793536/rectangle_large_type_2_c1d717dcf965d4bb839690bf828a7350.jpg?width=800",
+      "sha256": "95dc1695d5b583016811db45f19435ffd305b60c52c290103d6a5c242d8eec9e",
+      "bytes": 99934,
+      "verifiedAt": "2026-10-27T22:09:00+09:00"
+    }
+  ],
+  "addedArtists": [
+    {
+      "slug": "baba-nova",
+      "name": "BABA NOVA",
+      "reading": "ババ・ノヴァ",
+      "type": "Person",
+      "artistType": "Person",
+      "status": "published",
+      "artistStatus": "published",
+      "image": "",
+      "world": "年齢を理由に夢を諦めない、83歳（自称）のVirtual AI Artist。",
+      "music": "Comedy Rap / EDM / Hip-Hop / Electro Swing / Cabaret / Dance（公式作品説明より）",
+      "profile": "83歳（自称）のVirtual AI Artist。毒舌、豪快、お茶目、負けず嫌い。",
+      "searchKeywords": [
+        "BABA NOVA",
+        "ババ・ノヴァ",
+        "サラダチキン婆",
+        "ばぁーれすく"
+      ],
+      "artistFeaturedTracks": [
+        "salad-chicken-baa",
+        "baa-lesque"
+      ],
+      "youtubeUrl": "https://www.youtube.com/@suzuka1209",
+      "homeFeatured": true,
+      "presentationStatus": "catalog-only",
+      "officialSource": "https://www.youtube.com/watch?v=QT6mgUyQ8l4",
+      "verifiedAt": "2026-10-26T20:19:40+09:00",
+      "seo": {
+        "title": "BABA NOVA｜SUZUKA Official AI Artist",
+        "description": "83歳（自称）のVirtual AI Artist。毒舌、豪快、お茶目、負けず嫌い。 公式音源「サラダチキン婆」「ばぁーれすく」を紹介。",
+        "jsonLdEnabled": true
+      }
+    }
+  ],
+  "artistScopeApproval": {
+    "source": "explicit-user-message",
+    "recordedAt": "2026-10-26T20:19:40+09:00",
+    "scope": "BABA NOVA included in the official site; retain existing 12 V6 worlds"
+  },
+  "publicationRecheck": {
+    "videoId": "Ks7iYvDmS-M",
+    "firstState": "is_upcoming",
+    "finalState": "not_live",
+    "confirmedPublishedAt": "2026-10-26T20:00:06+09:00",
+    "verifiedAt": "2026-10-26T20:19:40+09:00"
+  },
+  "publicationRefresh": {
+    "verifiedAt": "2026-10-27T22:09:00+09:00",
+    "additionalNote": "https://note.com/1209bellflower/n/neb24fc6b0625",
+    "catalogScope": "13 artists and 104 works retained"
+  }
+}

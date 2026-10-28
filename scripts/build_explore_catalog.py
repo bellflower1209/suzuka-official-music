@@ -114,13 +114,13 @@ def write(path: Path, value: str) -> None:
 
 def sync_preserved_release_video(source: str, item: dict) -> str:
     """Update verified video evidence without replacing a bespoke release page."""
-    previous_url = item.get("audioUrl", "")
+    previous_url = item.get('videoMigration',{}).get('previousUrl') or item.get("audioUrl", "")
     current_url = item.get("youtubeUrl", "")
     if previous_url and current_url and previous_url != current_url:
         source = source.replace(previous_url, current_url)
         previous_id = previous_url.split("v=", 1)[-1].split("&", 1)[0]
         current_id = current_url.split("v=", 1)[-1].split("&", 1)[0]
-        source = source.replace(f"youtube.com/embed/{previous_id}", f"youtube.com/embed/{current_id}")
+        source = source.replace(f"/embed/{previous_id}", f"/embed/{current_id}")
     published_at = item.get("videoPublishedAt", "")
     if published_at:
         source = re.sub(
@@ -129,6 +129,16 @@ def sync_preserved_release_video(source: str, item: dict) -> str:
             source,
             count=1,
         )
+    if item.get('videoMigration',{}).get('status')=='migrated' and re.search(r'<link\b(?=[^>]*rel=["\']canonical["\'])(?=[^>]*href=["\']'+re.escape(f'{BASE}/{item["releaseUrl"]}')+r'["\'])[^>]*>',source):
+        from structured_data_dates import iter_nodes,types_of
+        page=f'{BASE}/{item["releaseUrl"]}'
+        existing=[node for block in re.finditer(r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',source,re.S) for node in iter_nodes(json.loads(block[1])) if 'VideoObject' in types_of(node) and node.get('@id')==page+'#video']
+        if not existing:
+            evidence=json.loads((ROOT/'assets/data/youtube-publish-dates.json').read_text())
+            proof=next(p for p in evidence['records'] if p.get('youtubeUrl')==current_url)
+            if proof.get('currentAvailability')!='public' or not proof.get('channelVerified'):raise ValueError('Unverified migration video')
+            video={'@context':'https://schema.org','@type':'VideoObject','@id':page+'#video','name':proof['officialTitle'],'description':item['description'],'thumbnailUrl':proof['thumbnailUrl'],'uploadDate':proof['verifiedPublishedAt'],'duration':'PT'+str(proof['durationSeconds'])+'S','contentUrl':current_url,'embedUrl':'https://www.youtube.com/embed/'+proof['youtubeId'],'about':{'@id':page+'#recording'}}
+            source=source.replace('</head>','<script type="application/ld+json">'+json.dumps(video,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+'</script></head>',1)
     return source
 
 
@@ -1002,7 +1012,7 @@ def main() -> None:
     for item in data["releases"]:
         release_path = ROOT / item["releaseUrl"] / "index.html"
         release_source = release_path.read_text(encoding="utf-8") if release_path.exists() else ""
-        if item["slug"] == "kimi-to-nara-last-boss-made" and release_source:
+        if (item["slug"] == "kimi-to-nara-last-boss-made" or item.get('videoMigration',{}).get('status')=='migrated') and release_source:
             release_source = sync_preserved_release_video(release_source, item)
             write(release_path, release_source)
         if (
@@ -1023,6 +1033,10 @@ def main() -> None:
             write(release_path, release_page(item))
         if item.get("newsUrl"):
             news_path = ROOT / item["newsUrl"] / "index.html"
+            if news_path.is_file() and item.get('videoMigration',{}).get('status')=='migrated':
+                original_news=news_path.read_text(encoding='utf-8')
+                synced_news=sync_preserved_release_video(original_news,item)
+                if synced_news!=original_news:news_path.write_text(synced_news,encoding='utf-8')
             # Recover safely if an interrupted generation left an empty file.
             # A zero-byte News page cannot provide an insertion point to the
             # downstream Discovery & Growth builder.
@@ -1154,6 +1168,8 @@ def main() -> None:
     sync_official_artwork(ROOT)
     from build_halloween import build as build_halloween
     build_halloween(ROOT)
+    from video_migration import apply as apply_video_migration
+    apply_video_migration(ROOT)
     subprocess.run(
         [sys.executable, str(Path(__file__).resolve().with_name("build_publication_assets.py")), "--root", str(ROOT)],
         cwd=ROOT,
