@@ -35,13 +35,15 @@ def verify_private_audio(info, files, routes, allow_pending=False):
     require(approval.get('status')=='approved' or allow_pending and approval.get('status')=='pending-final-gate','Private audio final gate has not passed')
     require(approval.get('source')=='explicit-user-conditional-approval' and approval.get('recordedAt'),'Explicit conditional approval record required')
     approved={t['trackId']:t for t in approval.get('tracks',[])}
-    require(len(approved)==len(approval.get('tracks',[]))==12 and all(re.fullmatch(r'[a-z0-9-]+',k) and isinstance(v.get('title'),str) and v['title'] and re.fullmatch(r'[a-z0-9-]+',v.get('releaseId') or '') for k,v in approved.items()),'Exactly 12 approved track identities required')
+    extension=approval.get('extensionApproval')
+    count=13 if extension=={'source':'explicit-user-message','recordedAt':'2026-10-28','trackId':'baba-nova','releaseId':'salad-chicken-baa'} else 12
+    require(len(approved)==len(approval.get('tracks',[]))==count and all(re.fullmatch(r'[a-z0-9-]+',k) and isinstance(v.get('title'),str) and v['title'] and re.fullmatch(r'[a-z0-9-]+',v.get('releaseId') or '') for k,v in approved.items()),'Exact approved track identities required')
     require(all('sha256' not in t and 'source' not in t for t in approval.get('tracks',[])),'Private audio fingerprints/paths cannot enter Public Git')
     expected={'mode':'signed-worker-v1','endpoint':PRIVATE_AUDIO_ENDPOINT,'sessionMode':'sha256-proof-v1'}
     for config in configs:
         require(config.get('publicationMode')=='public-candidate' and config.get('audioDelivery')==expected,'Unapproved or local audio endpoint')
         worlds=config.get('worlds',[])
-        require(len(worlds)==12 and {w['slug'] for w in worlds}==set(approved),'Missing/extra audio world')
+        require(len(worlds)==count and {w['slug'] for w in worlds}==set(approved),'Missing/extra audio world')
         for w in worlds:
             m=w.get('music',{})
             require(m.get('approved') is True and m.get('source') is None and m.get('delivery')=='signed-worker-v1' and m.get('trackId')==w['slug'] and m.get('title')==approved[w['slug']]['title'] and m.get('releaseId')==approved[w['slug']]['releaseId'] and 'sha256' not in m,'Direct/unapproved audio source')
@@ -105,7 +107,9 @@ def read_release(root, reference=None, allow_pending=False):
     require(set(hashes)==set(manifest['files'])|{MANIFEST},'Unexpected/missing published file')
     require(all(hashes[p]==h for p,h in manifest['files'].items()),'Public manifest SHA mismatch')
     require(manifest['baseUrl']==BASE and manifest['measurementId']=='G-LS3PCRB60D','Incorrect origin/analytics identity')
-    require(len(manifest['v6Routes'])==13 and manifest['v6Routes'][0]=='index.html','Top and 12 worlds required')
+    track_ids=[t['trackId'] for t in info.get('privateAudioApproval',{}).get('tracks',[])] or ['asagiri-shinobu','asteria','eclypse','enomoto-mia','koga-kamishiro','michiru','nox','rangili','revive','veilfang','tetsuhige','leon-vail']
+    expected_routes=['index.html']+[f'worlds/{slug}/index.html' for slug in track_ids]
+    require(manifest['v6Routes']==expected_routes and len(expected_routes) in (13,14),'Exact approved world routes required')
     for route in manifest['v6Routes']:
         require(route in files,'Missing public world')
         text = files[route].decode('utf-8')

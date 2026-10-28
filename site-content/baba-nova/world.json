@@ -1,0 +1,35 @@
+{
+  "slug": "baba-nova",
+  "name": "BABA NOVA",
+  "label": "宵桜の花街",
+  "world": "朱の提灯が揺れ、夜桜と金の光が舞う、江戸・吉原をモチーフにした幻想の夜。",
+  "route": "worlds/baba-nova/",
+  "tint": "#bd483c",
+  "drift": 24,
+  "music": {
+    "releaseId": "salad-chicken-baa",
+    "title": "サラダチキン婆",
+    "approved": true,
+    "source": null,
+    "status": "approved-official-master",
+    "delivery": "signed-worker-v1",
+    "trackId": "baba-nova"
+  },
+  "door": "assets/baba-nova/door.svg",
+  "officialImage": {
+    "path": "assets/baba-nova/salad-chicken-baa-official.jpg",
+    "source": "https://i.ytimg.com/vi/QT6mgUyQ8l4/maxresdefault.jpg",
+    "workSource": "https://www.youtube.com/watch?v=QT6mgUyQ8l4",
+    "role": "official-youtube-thumbnail",
+    "alt": "BABA NOVA「サラダチキン婆」公式YouTubeメイン画像",
+    "width": 1280,
+    "height": 720
+  },
+  "approval": {
+    "source": "explicit-user-message",
+    "recordedAt": "2026-10-28",
+    "scope": "thirteenth-world-and-private-protected-bgm",
+    "existingTwelveWorlds": "preserve",
+    "newPersonImageGeneration": false
+  }
+}

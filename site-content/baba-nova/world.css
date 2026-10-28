@@ -1,0 +1,24 @@
+/* Additive world decoration. Existing twelve world rules and media are untouched. */
+body[data-artist="baba-nova"] .world-hero {min-height:850px;min-height:max(850px,100svh);background:#120b10;overflow:hidden}
+body[data-artist="baba-nova"] .world-hero .scene img {object-position:center}
+body[data-artist="baba-nova"] .world-hero .hero-shade {background:linear-gradient(90deg,rgba(13,7,11,.8),transparent 75%),linear-gradient(0deg,#0c0910,transparent 55%)}
+body[data-artist="baba-nova"] .hero-copy {max-width:610px;padding-bottom:54px}
+body[data-artist="baba-nova"] .hero-copy h1 {color:#f2dcad;font-size:clamp(42px,7vw,108px);letter-spacing:.035em;line-height:1.1}
+body[data-artist="baba-nova"] .world-intro {max-width:440px;color:#f0dfce}
+body[data-artist="baba-nova"] .baba-poster {margin:0;position:absolute;z-index:2;right:6vw;top:28%;width:min(49vw,700px);border:1px solid #c99c59;padding:9px;background:#180e13;box-shadow:0 30px 90px #050205c9,0 0 65px #bc49392b;transform:rotate(-2deg)}
+body[data-artist="baba-nova"] .baba-poster img {display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+body[data-artist="baba-nova"] .baba-poster figcaption {font-size:11px;letter-spacing:.16em;color:#e9c38a;padding:8px 4px 0}
+body[data-artist="baba-nova"] .baba-lanterns {position:absolute;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+body[data-artist="baba-nova"] .baba-lantern {position:absolute;top:-6px;left:var(--left);width:clamp(32px,4vw,62px);height:150px;transform-origin:top center;animation:baba-sway var(--time) ease-in-out infinite alternate}
+body[data-artist="baba-nova"] .baba-lantern:before {content:"";position:absolute;left:50%;width:1px;height:72px;background:#d7a969}
+body[data-artist="baba-nova"] .baba-lantern:after {content:"";position:absolute;top:70px;width:100%;height:72px;border-radius:45%;border-block:5px solid #4a201d;background:repeating-linear-gradient(0deg,transparent 0 9px,#521c173b 9px 11px),radial-gradient(ellipse,#f3a16c,#c04431 60%,#70251f);box-shadow:0 8px 48px #e864382e}
+body[data-artist="baba-nova"] .baba-petals {position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:3}
+body[data-artist="baba-nova"] .baba-petals i {position:absolute;left:var(--left);top:-20px;width:9px;height:14px;background:#e7a9b3;border-radius:80% 0 80% 25%;opacity:0;animation:baba-petal var(--time) linear infinite;animation-delay:var(--delay)}
+body[data-artist="baba-nova"] .baba-gold {position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 75% 45%,#c18c3322,transparent 65%);animation:baba-glow 12s ease-in-out infinite alternate}
+@keyframes baba-sway {from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+@keyframes baba-glow {from{opacity:.4}to{opacity:.85}}
+@keyframes baba-petal {0%{transform:translate3d(0,0,0) rotate(0);opacity:0}10%{opacity:.65}85%{opacity:.5}100%{transform:translate3d(80px,950px,0) rotate(220deg);opacity:0}}
+html[data-motion="off"] body[data-artist="baba-nova"] :is(.baba-lantern,.baba-petals i,.baba-gold),html[data-low-power="true"] body[data-artist="baba-nova"] :is(.baba-lantern,.baba-petals i,.baba-gold) {animation:none}
+@media(prefers-reduced-motion:reduce){body[data-artist="baba-nova"] :is(.baba-lantern,.baba-petals i,.baba-gold){animation:none}}
+@media(max-width:900px){body[data-artist="baba-nova"] .world-hero{min-height:880px}body[data-artist="baba-nova"] .baba-poster{width:68vw;top:22%;right:7vw}body[data-artist="baba-nova"] .hero-copy{padding-top:440px}}
+@media(max-width:600px){body[data-artist="baba-nova"] .world-hero{min-height:850px}body[data-artist="baba-nova"] .baba-poster{width:88vw;right:6vw;top:22%;transform:rotate(-1deg);padding:5px}body[data-artist="baba-nova"] .hero-copy{padding-top:430px;padding-bottom:45px}body[data-artist="baba-nova"] .hero-copy h1{font-size:46px}body[data-artist="baba-nova"] .baba-lantern:nth-child(n+4){display:none}body[data-artist="baba-nova"] .baba-petals i:nth-child(n+7){display:none}}

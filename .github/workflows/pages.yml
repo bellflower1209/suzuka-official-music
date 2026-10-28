@@ -58,7 +58,7 @@ jobs:
           python3 scripts/test_catalog_artist_gate.py
           python3 scripts/test_channel_migration.py
           python3 scripts/audit_channel_migration.py
-          python3 -B scripts/build_official_sync_20261026.py --check
+          python3 -B scripts/build_baba_nova_world.py --check
           python3 scripts/audit_official_video_coverage.py
           python3 scripts/audit_seo.py
           node --check assets/analytics.js
@@ -104,6 +104,7 @@ jobs:
         run: |
           python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/test_private_audio_gate.py
+          python3 -B scripts/test_baba_nova_world.py
           python3 -B scripts/audit_channel_migration.py --root "${{ runner.temp }}/suzuka-v6-release"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/cinematic-universe-v6.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/v6-protected-audio.js"
