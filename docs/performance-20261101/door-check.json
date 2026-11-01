@@ -1,0 +1,10 @@
+{
+  "opening": {
+    "left": "matrix3d(0.707325, 0, 0.706889, 0, 0, 1, 0, 0, -0.706889, 0, 0.707325, 0, 0, 0, 0, 1)",
+    "open": true,
+    "revealed": "true",
+    "right": "matrix3d(0.707325, 0, -0.706889, 0, 0, 1, 0, 0, 0.706889, 0, 0.707325, 0, 0, 0, 0, 1)"
+  },
+  "cancelVerified": true,
+  "arrivalVerified": "/worlds/asteria/"
+}
