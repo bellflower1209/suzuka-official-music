@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import os
 from pathlib import Path
 import re
 import tempfile
@@ -135,6 +136,18 @@ def build(variant='combined', root=ROOT):
         'artists': 13, 'works': 109, 'publicationApproved': False, 'publicPackageUnchanged': True}
 
 
+def review_output_allowed(output, root=ROOT):
+    output, root = output.resolve(), root.resolve()
+    allowed = [Path('/tmp').resolve(), Path(tempfile.gettempdir()).resolve()]
+    if (os.environ.get('GITHUB_ACTIONS') == 'true'
+            and os.environ.get('GITHUB_REPOSITORY') == 'bellflower1209/suzuka-official-music'
+            and os.environ.get('RUNNER_TEMP')):
+        allowed.append(Path(os.environ['RUNNER_TEMP']).resolve())
+    return (not output.is_relative_to(root)
+            and any(output != d and output.is_relative_to(d) for d in allowed)
+            and not any((p / '.git').exists() for p in (output, *output.parents)))
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--variant', choices=('baseline', 'images', 'styles', 'combined'), default='combined')
@@ -142,8 +155,7 @@ def main():
     p.add_argument('--report', type=Path)
     args = p.parse_args()
     output = args.output.resolve()
-    allowed = (Path('/tmp').resolve(), Path(tempfile.gettempdir()).resolve())
-    if output.is_relative_to(ROOT) or not any(output != d and output.is_relative_to(d) for d in allowed):
+    if not review_output_allowed(output):
         raise ValueError('Review output must be in an external temporary directory')
     _, files, report = build(args.variant)
     write_output(output, files)

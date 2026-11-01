@@ -4,13 +4,14 @@ import json
 from pathlib import Path
 import re
 import unittest
+from unittest.mock import patch
 from urllib.parse import unquote, urljoin, urlsplit
 
 from PIL import Image
 
 from build_v6_performance_preview import (
     BASE, DIGEST, IMAGE, IMAGE_HASH, IMAGE_ROUTES, MANIFEST, ROOT, STYLE_ROUTES,
-    build, bundle_styles,
+    build, bundle_styles, review_output_allowed,
 )
 from verify_public_release import read_release
 
@@ -38,6 +39,18 @@ class PerformancePreview(unittest.TestCase):
         self.assertEqual(len(files), 863)
         self.assertFalse(self.report['publicationApproved'])
         self.assertEqual(build('baseline')[1], files)
+
+    def test_review_output_handles_ci_temp_without_allowing_git_or_production(self):
+        self.assertFalse(review_output_allowed(ROOT / 'public-release' / 'candidate'))
+        self.assertFalse(review_output_allowed(Path('/')))
+        with patch.dict('os.environ', {'GITHUB_ACTIONS': 'true',
+                'GITHUB_REPOSITORY': 'bellflower1209/suzuka-official-music',
+                'RUNNER_TEMP': '/nonstandard-github-runner-temp'}):
+            self.assertTrue(review_output_allowed(Path('/nonstandard-github-runner-temp/candidate')))
+            self.assertFalse(review_output_allowed(Path('/nonstandard-github-runner-temp')))
+        with patch.dict('os.environ', {'GITHUB_ACTIONS': 'false',
+                'RUNNER_TEMP': '/nonstandard-github-runner-temp'}):
+            self.assertFalse(review_output_allowed(Path('/nonstandard-github-runner-temp/candidate')))
 
     def test_only_reviewed_html_and_manifest_change(self):
         self.assertTrue(set(self.before) <= set(self.after))
