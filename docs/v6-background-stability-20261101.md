@@ -68,7 +68,7 @@ SUZUKAサイトのURLは公式LinkCore掲載URLと一致しています。TuneCo
 
 記録：[画面・導線・障害試験](v6-growth-review/stability-browser-qa.json)、[検証集計](v6-growth-review/stability-verification.json)。
 
-![改善版の390pxゲート](v6-growth-review/stability-home-390.png)
+![改善版の390pxゲート](v6-growth-review/stability-home-390.jpg)
 
 画面中の音源読み込みエラーは、ローカル環境での保護音源アクセスに関する既知の未確認項目です。背景画像の復帰試験と音源再生の合否は分けています。
 
