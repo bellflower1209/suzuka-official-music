@@ -1,0 +1,196 @@
+{
+  "checks": [
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/midnight-ignition/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "pending": true,
+      "route": "/schedule/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/midnight-ignition/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/schedule/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 1,
+      "overflow": 0,
+      "route": "/releases/midnight-ignition/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "facebook": 0,
+      "overflow": 0,
+      "route": "/schedule/",
+      "visibleBrokenImages": [],
+      "width": 390
+    }
+  ],
+  "listenCheck": {
+    "listenTop": 129,
+    "primaryLink": "https://linkco.re/vvasqg5z",
+    "url": "http://127.0.0.1:8766/#listen"
+  },
+  "console": [],
+  "outboundNavigation": [
+    {
+      "source": "LISTEN primary button",
+      "destination": "https://linkco.re/vvasqg5z",
+      "verifiedTitle": "あなただけに送るHappy Birthday by 榎本魅愛 | TuneCore Japan"
+    },
+    {
+      "source": "榎本魅愛 purchase link",
+      "destination": "https://store.line.me/stickershop/product/37544868/ja",
+      "verifiedTitle": "榎本魅愛♡毎日使える恋するスタンプ - LINE スタンプ | LINE STORE"
+    },
+    {
+      "source": "妃みちる purchase link",
+      "destination": "https://store.line.me/stickershop/product/37581772/ja",
+      "verifiedTitle": "妃みちる♡親から子へ贈る愛情スタンプ - LINE スタンプ | LINE STORE"
+    }
+  ]
+}

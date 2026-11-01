@@ -115,6 +115,19 @@ jobs:
           python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/suzuka-v6-release"
 
+      - name: Verify November growth preview (never used for deployment)
+        run: |
+          python3 -B scripts/build_v6_growth_preview.py --output "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/test_v6_growth_preview.py
+          node scripts/test_v6_growth_analytics.cjs "${{ runner.temp }}/suzuka-growth-preview"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/analytics.js"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/social.js"
+          python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_rich_results.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_channel_migration.py --allow-growth-preview --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/check_v6_growth_http.py --root "${{ runner.temp }}/suzuka-growth-preview"
+
       - name: Configure Pages
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/configure-pages@v6
