@@ -1,0 +1,2527 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-01T13:07:54+09:00",
+  "videos": [
+    {
+      "videoId": "dh6g1Ae_rRo",
+      "slug": "redline-heartbeat",
+      "workTitle": "REDLINE HEARTBEAT",
+      "title": "🚗💨【ASTERIA 新曲公開】REDLINE HEARTBEAT｜OUTRUN THE NIGHTと2曲同時配信！🔥重低音が響く疾走系ナイトドライブソング【Official Audio】",
+      "artistSlug": "asteria",
+      "kind": "audio",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 320,
+      "publishedAt": "2026-10-28T20:00:08+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=dh6g1Ae_rRo",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "image": "images/v6-growth/redline-heartbeat.webp"
+    },
+    {
+      "videoId": "X0IxtHJCt8E",
+      "slug": "outrun-the-night",
+      "workTitle": "OUTRUN THE NIGHT！",
+      "title": "【新曲】ASTERIA『OUTRUN THE NIGHT！』｜夜のドライブで聴きたい疾走系EUROBEAT × TRANCE 🚗💨",
+      "artistSlug": "asteria",
+      "kind": "audio",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 348,
+      "publishedAt": "2026-10-28T20:00:11+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=X0IxtHJCt8E",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "image": "images/v6-growth/outrun-the-night.webp"
+    },
+    {
+      "videoId": "FMq30041id4",
+      "slug": "five-gears-one-sky",
+      "workTitle": "FIVE GEARS // ONE SKY",
+      "title": "ASTERIA – FIVE GEARS // ONE SKY【Official Audio】超高速ユーロビート×EDM｜首都高ナイトバトル",
+      "artistSlug": "asteria",
+      "kind": "audio",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 312,
+      "publishedAt": "2026-10-31T20:00:07+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=FMq30041id4",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "image": "images/v6-growth/five-gears-one-sky.webp"
+    },
+    {
+      "videoId": "sIlMyiDFJ-Y",
+      "slug": "midnight-ignition",
+      "workTitle": "MIDNIGHT IGNITION",
+      "title": "【ASTERIA】MIDNIGHT IGNITION｜夜の首都高を駆け抜ける疾走系ユーロビート【Official Music Video】",
+      "artistSlug": "asteria",
+      "kind": "mv",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 330,
+      "publishedAt": "2026-10-31T20:00:08+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=sIlMyiDFJ-Y",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "image": "images/v6-growth/midnight-ignition.webp"
+    },
+    {
+      "videoId": "tLhuhEHLvaA",
+      "slug": "last-ignition",
+      "workTitle": "LAST IGNITION",
+      "title": "【首都高バトル最終章】5台の頂上決戦！勝者は誰だ？🏁 ASTERIA「LAST IGNITION」【Official audio】",
+      "artistSlug": "asteria",
+      "kind": "upcoming",
+      "status": "upcoming",
+      "playability": "LIVE_STREAM_OFFLINE",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 0,
+      "publishedAt": null,
+      "scheduledAt": "2026-11-01T11:00:00+00:00",
+      "source": "https://www.youtube.com/watch?v=tLhuhEHLvaA",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "qVJsL2XEjwM",
+      "slug": "midnight-ignition",
+      "workTitle": "",
+      "title": "【ASTERIA】限界を超えて、未来へ。🔥 MIDNIGHT IGNITION｜EUROBEAT #Shorts",
+      "artistSlug": "asteria",
+      "kind": "short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 38,
+      "publishedAt": "2026-10-31T20:00:16+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=qVJsL2XEjwM",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "ITQ7tvx2DJo",
+      "slug": "redline-heartbeat",
+      "workTitle": "",
+      "title": "🚗💨【重低音がヤバい🔥】ASTERIA『REDLINE HEARTBEAT』夜の首都高を駆け抜ける疾走系ドライブソング！🎧フル音源は関連動画へ！#Shorts",
+      "artistSlug": "asteria",
+      "kind": "short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 45,
+      "publishedAt": "2026-10-30T22:03:23+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=ITQ7tvx2DJo",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "GNoGoEU3g54",
+      "slug": "outrun-the-night",
+      "workTitle": "",
+      "title": "夜のドライブで聴いてほしい🔥 ASTERIA『OUTRUN THE NIGHT！』｜EUROBEAT × TRANCE #Shorts",
+      "artistSlug": "asteria",
+      "kind": "short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 45,
+      "publishedAt": "2026-10-30T21:14:15+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=GNoGoEU3g54",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "Fyx__xLfyjg",
+      "slug": "ikusen-no-yoru-wo-koete",
+      "workTitle": "",
+      "title": "何度生まれ変わっても、君に恋をする。🌙❤️｜NOX『幾千の夜を越えて』#Shorts",
+      "artistSlug": "nox",
+      "kind": "short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA",
+      "duration": 10,
+      "publishedAt": "2026-10-26T20:37:36+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=Fyx__xLfyjg",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "gTfnAUf2E1A",
+      "slug": "anata-dake-ni-okuru-happy-birthday",
+      "workTitle": "",
+      "title": "🎂生まれてきてくれてありがとう💕｜榎本魅愛『あなただけに送るHappy Birthday』#shorts",
+      "artistSlug": "enomoto-mia",
+      "kind": "short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg",
+      "duration": 30,
+      "publishedAt": "2026-10-28T20:33:14+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=gTfnAUf2E1A",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "videoId": "6bMysrub3LU",
+      "slug": "michiru-line-stickers",
+      "workTitle": "",
+      "title": "【ついに発売🎉】妃みちる公式LINEスタンプ第1弾💗親から子へ贈る16の愛情メッセージ #Shorts",
+      "artistSlug": "michiru",
+      "kind": "product-short",
+      "status": "published",
+      "playability": "OK",
+      "channelId": "UCDqoQCLOp0lWb1bZ6vWEM3g",
+      "duration": 30,
+      "publishedAt": "2026-10-27T21:29:51+09:00",
+      "scheduledAt": null,
+      "source": "https://www.youtube.com/watch?v=6bMysrub3LU",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    }
+  ],
+  "news": [
+    {
+      "slug": "official-note-n885587771cac",
+      "title": "【ASTERIA 新曲2曲同時公開】REDLINE HEARTBEAT × OUTRUN THE NIGHT",
+      "publishedAt": "2026-10-30T23:18:58.000+09:00",
+      "artistSlug": "asteria",
+      "relatedRelease": "redline-heartbeat",
+      "noteUrl": "https://note.com/1209bellflower/n/n885587771cac",
+      "image": "images/v6-growth/n885587771cac.webp",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "slug": "official-note-n99830c3fa397",
+      "title": "【新曲公開】夜のドライブがもっと楽しくなる。ASTERIA『OUTRUN THE NIGHT！』🚗💨",
+      "publishedAt": "2026-10-30T23:15:51.000+09:00",
+      "artistSlug": "asteria",
+      "relatedRelease": "outrun-the-night",
+      "noteUrl": "https://note.com/1209bellflower/n/n99830c3fa397",
+      "image": "images/v6-growth/n99830c3fa397.webp",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "slug": "official-note-nd9934fc1bcb5",
+      "title": "🎂 誕生日に贈りたい歌。榎本魅愛『あなただけに送るHappy Birthday』",
+      "publishedAt": "2026-10-28T22:15:13.000+09:00",
+      "artistSlug": "enomoto-mia",
+      "relatedRelease": "anata-dake-ni-okuru-happy-birthday",
+      "noteUrl": "https://note.com/1209bellflower/n/nd9934fc1bcb5",
+      "image": "images/v6-growth/nd9934fc1bcb5.webp",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    },
+    {
+      "slug": "official-note-n13198a43a755",
+      "title": "【NOX新曲】幾千の夜を越えて｜何度生まれ変わっても、君に恋をする。",
+      "publishedAt": "2026-10-28T19:53:13.000+09:00",
+      "artistSlug": "nox",
+      "relatedRelease": "ikusen-no-yoru-wo-koete",
+      "noteUrl": "https://note.com/1209bellflower/n/n13198a43a755",
+      "image": "images/v6-growth/n13198a43a755.webp",
+      "verifiedAt": "2026-11-01T13:07:54+09:00"
+    }
+  ],
+  "streaming": [
+    {
+      "code": "00FG1Rd6",
+      "url": "https://linkco.re/00FG1Rd6",
+      "title": "何度生まれ変わっても - RE:BORN OATH - by 神代煌牙",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969058"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1969058"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1969058"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1969058"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1969058"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1969058"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1969058"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1969058/itd1969058.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "0X3neT7N",
+      "url": "https://linkco.re/0X3neT7N",
+      "title": "君とならラスボスまで by 榎本魅愛",
+      "releaseDate": "2026-10-01",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969247"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1969247"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1969247"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1969247"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1969247"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1969247"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1969247"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1969247/itd1969247.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "0xHr8N9e",
+      "url": "https://linkco.re/0xHr8N9e",
+      "title": "花言葉 by 榎本魅愛",
+      "releaseDate": "2026-09-11",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1951259"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1951259"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1951259"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1951259"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1951259"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1951259"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1951259"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1951259/itd1951259.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "28YfhcNX",
+      "url": "https://linkco.re/28YfhcNX",
+      "title": "ゆっくり休んで by 妃みちる",
+      "releaseDate": "2026-10-11",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1997830"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1997830"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1997830"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1997830"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1997830"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1997830"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1997830"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1997830/itd1997830.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "3Z3vDYPG",
+      "url": "https://linkco.re/3Z3vDYPG",
+      "title": "たった1人の君へ by 妃みちる",
+      "releaseDate": "2026-09-20",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1963697"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1963697"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1963697"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1963697"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1963697"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1963697"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1963697"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1963697/itd1963697.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "3tHVbvXs",
+      "url": "https://linkco.re/3tHVbvXs",
+      "title": "Over Drive by 榎本魅愛",
+      "releaseDate": "2026-09-22",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1955863"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1955863"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1955863"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1955863"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1955863"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1955863"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1955863"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1955863/itd1955863.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "5acNsXS6",
+      "url": "https://linkco.re/5acNsXS6",
+      "title": "また、君に恋をする。 by 榎本魅愛",
+      "releaseDate": "2026-09-23",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1956870"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1956870"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1956870"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1956870"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1956870"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1956870"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1956870"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1956870/itd1956870.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "66ddFqzd",
+      "url": "https://linkco.re/66ddFqzd",
+      "title": "HELLO, LIFE! by 妃みちる",
+      "releaseDate": "2026-09-29",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1975332"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1975332"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1975332"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1975332"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1975332"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1975332"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1975332"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1975332/itd1975332.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "66hxyRr8",
+      "url": "https://linkco.re/66hxyRr8",
+      "title": "ミライノアシオト by 榎本魅愛",
+      "releaseDate": "2026-10-18",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/2005769"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/2005769"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/2005769"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/2005769"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/2005769"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/2005769"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/2005769"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2005769/itd2005769.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "6v8ZcMXn",
+      "url": "https://linkco.re/6v8ZcMXn",
+      "title": "恋禁区 by 榎本魅愛",
+      "releaseDate": "2026-10-10",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1979907"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1979907"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1979907"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1979907"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1979907"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1979907"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1979907"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1979907/itd1979907.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "8YHNGz45",
+      "url": "https://linkco.re/8YHNGz45",
+      "title": "ウチら最強じゃね！ by 妃みちる",
+      "releaseDate": "2026-10-12",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1989694"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1989694"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1989694"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1989694"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1989694"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1989694"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1989694"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1989694/itd1989694.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "9U1eCaGv",
+      "url": "https://linkco.re/9U1eCaGv",
+      "title": "天上天下唯我独尊 by 榎本魅愛",
+      "releaseDate": "2026-10-15",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1991272"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1991272"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1991272"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1991272"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1991272"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1991272"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1991272"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1991272/itd1991272.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "9r6szVDg",
+      "url": "https://linkco.re/9r6szVDg",
+      "title": "取り扱いチューい by 榎本魅愛",
+      "releaseDate": "2026-09-21",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1954742"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1954742"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1954742"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1954742"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1954742"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1954742"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1954742"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1954742/itd1954742.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "C7nAndeS",
+      "url": "https://linkco.re/C7nAndeS",
+      "title": "心に残る宝モノ by 妃みちる",
+      "releaseDate": "2026-09-29",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1969089"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1969089"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1969089"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1969089"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1969089"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1969089"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1969089"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1969089/itd1969089.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "EQtNSDgr",
+      "url": "https://linkco.re/EQtNSDgr",
+      "title": "夏が終わるまで、そばにいて。 by 榎本魅愛",
+      "releaseDate": "2026-09-23",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1957717"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1957717"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1957717"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1957717"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1957717"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1957717"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1957717"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1957717/itd1957717.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "F1979f3c",
+      "url": "https://linkco.re/F1979f3c",
+      "title": "Without worrying by 榎本魅愛",
+      "releaseDate": "2026-10-05",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1986628"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1986628"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1986628"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1986628"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1986628"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1986628"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1986628"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1986628/itd1986628.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "GVzS1dUY",
+      "url": "https://linkco.re/GVzS1dUY",
+      "title": "キャラメ〜ル by 榎本魅愛",
+      "releaseDate": "2026-09-23",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1957176"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1957176"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1957176"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1957176"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1957176"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1957176"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1957176"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1957176/itd1957176.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "HCvApf7V",
+      "url": "https://linkco.re/HCvApf7V",
+      "title": "September Blue by 榎本魅愛",
+      "releaseDate": "2026-09-22",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1955123"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1955123"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1955123"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1955123"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1955123"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1955123"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1955123"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1955123/itd1955123.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "MDZzMupn",
+      "url": "https://linkco.re/MDZzMupn",
+      "title": "あなたを想うそれだけで by 妃みちる",
+      "releaseDate": "2026-10-10",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1992011"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1992011"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1992011"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1992011"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1992011"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1992011"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1992011"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1992011/itd1992011.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "QFNB1r1u",
+      "url": "https://linkco.re/QFNB1r1u",
+      "title": "friend like song by 妃みちる",
+      "releaseDate": "2026-09-20",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1963488"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1963488"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1963488"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1963488"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1963488"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1963488"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1963488"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1963488/itd1963488.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "QZ4CBfPC",
+      "url": "https://linkco.re/QZ4CBfPC",
+      "title": "ハイパー・ロマンス・ドーン！ by 榎本魅愛",
+      "releaseDate": "2026-10-17",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/2005750"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/2005750"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/2005750"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/2005750"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/2005750"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/2005750"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/2005750"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2005750/itd2005750.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "Qd5Tzb0q",
+      "url": "https://linkco.re/Qd5Tzb0q",
+      "title": "百万告 by 榎本魅愛",
+      "releaseDate": "2026-09-21",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1954597"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1954597"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1954597"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1954597"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1954597"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1954597"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1954597"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1954597/itd1954597.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "QfzZUy6f",
+      "url": "https://linkco.re/QfzZUy6f",
+      "title": "Hello Hello Halloween by 榎本魅愛",
+      "releaseDate": "2026-09-21",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1954551"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1954551"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1954551"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1954551"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1954551"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1954551"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1954551"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1954551/itd1954551.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "Rq5BFPrU",
+      "url": "https://linkco.re/Rq5BFPrU",
+      "title": "私の選んだ道 (あなたに届けたい8つの歌) by 妃みちる",
+      "releaseDate": "2026-10-14",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1999393"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1999393"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1999393"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1999393"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1999393"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1999393"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1999393"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1999393/itd1999393.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "TYNMGrUr",
+      "url": "https://linkco.re/TYNMGrUr",
+      "title": "恋愛対象外 (仮) by 榎本魅愛",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1960949"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1960949"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1960949"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1960949"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1960949"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1960949"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1960949"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1960949/itd1960949.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "V5tf40p0",
+      "url": "https://linkco.re/V5tf40p0",
+      "title": "誰かのために by 妃みちる",
+      "releaseDate": "2026-10-12",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1997846"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1997846"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1997846"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1997846"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1997846"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1997846"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1997846"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1997846/itd1997846.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "VNy0eVS4",
+      "url": "https://linkco.re/VNy0eVS4",
+      "title": "神様は留守 by 神代煌牙",
+      "releaseDate": "2026-10-10",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1989679"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1989679"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1989679"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1989679"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1989679"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1989679"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1989679"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1989679/itd1989679.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "YvC6ePeT",
+      "url": "https://linkco.re/YvC6ePeT",
+      "title": "もしも明日、はじめましてになっても by 榎本魅愛",
+      "releaseDate": "2026-10-05",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1981160"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1981160"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1981160"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1981160"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1981160"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1981160"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1981160"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1981160/itd1981160.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "aDuRy9Ta",
+      "url": "https://linkco.re/aDuRy9Ta",
+      "title": "一護一逢 (〜再開の約束〜) by 神代煌牙",
+      "releaseDate": "2026-10-13",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1998183"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1998183"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1998183"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1998183"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1998183"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1998183"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1998183"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1998183/itd1998183.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "aU8rN04N",
+      "url": "https://linkco.re/aU8rN04N",
+      "title": "同じ女性へ 〜これから母になる人へ〜 by 妃みちる",
+      "releaseDate": "2026-10-27",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/2017732"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/2017732"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/2017732"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/2017732"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/2017732"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/2017732"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/2017732"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2017732/itd2017732.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested",
+      "appleMusicUrl": "https://music.apple.com/jp/album/to-every-woman-to-those-who-are-about-to-become-mothers/6825248581",
+      "jacket": "images/v6-growth/linkcore-aU8rN04N.webp"
+    },
+    {
+      "code": "ef1DD6B3",
+      "url": "https://linkco.re/ef1DD6B3",
+      "title": "Without worrying (Reimagined) by 榎本魅愛",
+      "releaseDate": "2026-10-05",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1986555"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1986555"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1986555"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1986555"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1986555"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1986555"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1986555"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1986555/itd1986555.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "fTcQ4px9",
+      "url": "https://linkco.re/fTcQ4px9",
+      "title": "恋の途中 by 榎本魅愛",
+      "releaseDate": "2026-10-05",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1987075"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1987075"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1987075"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1987075"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1987075"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1987075"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1987075"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1987075/itd1987075.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "gZyVd49Q",
+      "url": "https://linkco.re/gZyVd49Q",
+      "title": "季節外れのサンタクロース by 榎本魅愛",
+      "releaseDate": "2026-10-14",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1991150"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1991150"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1991150"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1991150"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1991150"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1991150"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1991150"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1991150/itd1991150.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "qbUCcFYa",
+      "url": "https://linkco.re/qbUCcFYa",
+      "title": "雨のち貴方 by 妃みちる",
+      "releaseDate": "2026-10-14",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/2000533"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/2000533"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/2000533"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/2000533"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/2000533"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/2000533"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/2000533"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2000533/itd2000533.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "r01YHhrv",
+      "url": "https://linkco.re/r01YHhrv",
+      "title": "Eternity of Flower Words by 榎本魅愛",
+      "releaseDate": "2026-09-26",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1960708"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1960708"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1960708"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1960708"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1960708"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1960708"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1960708"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1960708/itd1960708.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "rGeEn03r",
+      "url": "https://linkco.re/rGeEn03r",
+      "title": "恋するすべての瞬間 by 榎本魅愛",
+      "releaseDate": "2026-09-23",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1957206"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1957206"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1957206"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1957206"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1957206"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1957206"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1957206"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1957206/itd1957206.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "tSpMyUFE",
+      "url": "https://linkco.re/tSpMyUFE",
+      "title": "魔法が解けても ― Pumpkin Carriage ― by 神代煌牙",
+      "releaseDate": "2026-10-03",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1963735"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1963735"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1963735"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1963735"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1963735"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1963735"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1963735"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1963735/itd1963735.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "u07vdbbg",
+      "url": "https://linkco.re/u07vdbbg",
+      "title": "世代を超えてママへ by 妃みちる",
+      "releaseDate": "2026-10-02",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1970337"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1970337"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1970337"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1970337"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1970337"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1970337"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1970337"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1970337/itd1970337.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "uYYFxG62",
+      "url": "https://linkco.re/uYYFxG62",
+      "title": "タイパなんて知らなかった。 by 榎本魅愛",
+      "releaseDate": "2026-09-23",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1957040"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1957040"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1957040"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1957040"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1957040"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1957040"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1957040"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1957040/itd1957040.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "uh3MSXtm",
+      "url": "https://linkco.re/uh3MSXtm",
+      "title": "天照 by 榎本魅愛",
+      "releaseDate": "2026-10-17",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1988610"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1988610"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1988610"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1988610"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1988610"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1988610"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1988610"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1988610/itd1988610.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    },
+    {
+      "code": "vvasqg5z",
+      "url": "https://linkco.re/vvasqg5z",
+      "title": "あなただけに送るHappy Birthday by 榎本魅愛",
+      "releaseDate": "2026-10-31",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/2024584"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/2024584"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/2024584"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/2024584"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/2024584"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/2024584"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/2024584"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2024584/itd2024584.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested",
+      "appleMusicUrl": "https://music.apple.com/jp/album/happy-birthday-just-for-you-single/6826791171",
+      "jacket": "images/v6-growth/linkcore-vvasqg5z.webp"
+    },
+    {
+      "code": "yDacGx2b",
+      "url": "https://linkco.re/yDacGx2b",
+      "title": "私の選んだ道 by 妃みちる",
+      "releaseDate": "2026-10-13",
+      "stores": [
+        {
+          "id": "apple_music",
+          "name": "Apple Music",
+          "url": "https://www.tunecore.co.jp/to/apple_music/1991055"
+        },
+        {
+          "id": "spotify",
+          "name": "Spotify",
+          "url": "https://www.tunecore.co.jp/to/spotify/1991055"
+        },
+        {
+          "id": "youtube_music_key",
+          "name": "YouTube Music",
+          "url": "https://www.tunecore.co.jp/to/youtube_music_key/1991055"
+        },
+        {
+          "id": "line",
+          "name": "LINE MUSIC",
+          "url": "https://www.tunecore.co.jp/to/line/1991055"
+        },
+        {
+          "id": "amazon_music_unlimited",
+          "name": "Amazon Music",
+          "url": "https://www.tunecore.co.jp/to/amazon_music_unlimited/1991055"
+        },
+        {
+          "id": "awa",
+          "name": "AWA",
+          "url": "https://www.tunecore.co.jp/to/awa/1991055"
+        },
+        {
+          "id": "deezer",
+          "name": "Deezer",
+          "url": "https://www.tunecore.co.jp/to/deezer/1991055"
+        }
+      ],
+      "jacketSource": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r1991055/itd1991055.png",
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "verificationScope": "official LinkCore listed stores; subscription playback not tested"
+    }
+  ],
+  "stickers": [
+    {
+      "id": "enomoto-mia-line-stickers",
+      "artistSlug": "enomoto-mia",
+      "productId": "37544868",
+      "title": "榎本魅愛♡毎日使える恋するスタンプ",
+      "status": "published",
+      "url": "https://store.line.me/stickershop/product/37544868/ja",
+      "price": 190,
+      "currency": "JPY",
+      "count": 8,
+      "image": "images/v6-growth/stickers-37544868.webp",
+      "previews": [
+        "images/v6-growth/sticker-37544868-1.webp",
+        "images/v6-growth/sticker-37544868-2.webp",
+        "images/v6-growth/sticker-37544868-3.webp",
+        "images/v6-growth/sticker-37544868-4.webp",
+        "images/v6-growth/sticker-37544868-5.webp",
+        "images/v6-growth/sticker-37544868-6.webp",
+        "images/v6-growth/sticker-37544868-7.webp",
+        "images/v6-growth/sticker-37544868-8.webp"
+      ],
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "source": "https://store.line.me/stickershop/product/37544868/ja"
+    },
+    {
+      "id": "michiru-line-stickers",
+      "artistSlug": "michiru",
+      "productId": "37581772",
+      "title": "妃みちる♡親から子へ贈る愛情スタンプ",
+      "status": "published",
+      "url": "https://store.line.me/stickershop/product/37581772/ja",
+      "price": 190,
+      "currency": "JPY",
+      "count": 16,
+      "image": "images/v6-growth/stickers-37581772.webp",
+      "previews": [
+        "images/v6-growth/sticker-37581772-1.webp",
+        "images/v6-growth/sticker-37581772-2.webp",
+        "images/v6-growth/sticker-37581772-3.webp",
+        "images/v6-growth/sticker-37581772-4.webp",
+        "images/v6-growth/sticker-37581772-5.webp",
+        "images/v6-growth/sticker-37581772-6.webp",
+        "images/v6-growth/sticker-37581772-7.webp",
+        "images/v6-growth/sticker-37581772-8.webp",
+        "images/v6-growth/sticker-37581772-9.webp",
+        "images/v6-growth/sticker-37581772-10.webp",
+        "images/v6-growth/sticker-37581772-11.webp",
+        "images/v6-growth/sticker-37581772-12.webp",
+        "images/v6-growth/sticker-37581772-13.webp",
+        "images/v6-growth/sticker-37581772-14.webp",
+        "images/v6-growth/sticker-37581772-15.webp",
+        "images/v6-growth/sticker-37581772-16.webp"
+      ],
+      "verifiedAt": "2026-11-01T13:07:54+09:00",
+      "source": "https://store.line.me/stickershop/product/37581772/ja"
+    },
+    {
+      "id": "eclypse-line-stickers",
+      "artistSlug": "eclypse",
+      "title": "ECLYPSE",
+      "status": "in-review",
+      "url": null,
+      "price": null,
+      "currency": null,
+      "count": null,
+      "image": null,
+      "previews": [],
+      "source": "explicit-user-approval-2026-11-01"
+    }
+  ],
+  "images": [
+    {
+      "path": "images/five-gears-one-sky.webp",
+      "publicPath": "images/v6-growth/five-gears-one-sky.webp",
+      "source": "https://i.ytimg.com/vi/FMq30041id4/hqdefault.jpg",
+      "width": 480,
+      "height": 360,
+      "sha256": "5efeeba44b5f59ac61d04d17fd27b7963769fd467f4cded9e9fe1cf582574476"
+    },
+    {
+      "path": "images/linkcore-aU8rN04N.webp",
+      "publicPath": "images/v6-growth/linkcore-aU8rN04N.webp",
+      "source": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r2017732/ite2017732.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "7105f04f97e44bf6ff927ff6dffd43b6a6b32d8ebf11c87c6180b776a905f2a8"
+    },
+    {
+      "path": "images/linkcore-vvasqg5z.webp",
+      "publicPath": "images/v6-growth/linkcore-vvasqg5z.webp",
+      "source": "https://tcj-image-production.s3.ap-northeast-1.amazonaws.com/u598729/r2024584/ite2024584.png",
+      "width": 400,
+      "height": 400,
+      "sha256": "1436f206b5c03143af13c661a409322c8f84df7d78a50620fa7aa0ab9baf148b"
+    },
+    {
+      "path": "images/midnight-ignition.webp",
+      "publicPath": "images/v6-growth/midnight-ignition.webp",
+      "source": "https://i.ytimg.com/vi/sIlMyiDFJ-Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360,
+      "sha256": "ee73102bceeb02057c5765d1157aa3bd82a7f35b49b8b182c7e69052fb905a23"
+    },
+    {
+      "path": "images/n13198a43a755.webp",
+      "publicPath": "images/v6-growth/n13198a43a755.webp",
+      "source": "https://assets.st-note.com/production/uploads/images/329525243/rectangle_large_type_2_ed5841500a443213f164e669b04130bc.png",
+      "width": 1000,
+      "height": 523,
+      "sha256": "fb49dce428816ed97909ebd8c6edcdb65e75d4f234a7adf3f0f5dfcc4d093ff7"
+    },
+    {
+      "path": "images/n885587771cac.webp",
+      "publicPath": "images/v6-growth/n885587771cac.webp",
+      "source": "https://assets.st-note.com/production/uploads/images/330299814/rectangle_large_type_2_3f5bb5aac7e77af2639cabe8c4ac992e.png",
+      "width": 1000,
+      "height": 523,
+      "sha256": "04942f53497cb8c01395de4ba63f37c6a28f6add2408490f04dafaae05462a62"
+    },
+    {
+      "path": "images/n99830c3fa397.webp",
+      "publicPath": "images/v6-growth/n99830c3fa397.webp",
+      "source": "https://assets.st-note.com/production/uploads/images/330299043/rectangle_large_type_2_2aee10fb6a3aec699ddeb53a14d7605d.png",
+      "width": 1000,
+      "height": 523,
+      "sha256": "58703c56eaaef64a27759b1524c714baa861bbea7a86b73adaf8ea40509cb95f"
+    },
+    {
+      "path": "images/nd9934fc1bcb5.webp",
+      "publicPath": "images/v6-growth/nd9934fc1bcb5.webp",
+      "source": "https://assets.st-note.com/production/uploads/images/329574496/rectangle_large_type_2_7b86609b165663a080befe4c7264cdda.jpeg",
+      "width": 1000,
+      "height": 523,
+      "sha256": "12e72768f37d04811b739560dccf523cf72c811c0f5b60a10810ed3d345db096"
+    },
+    {
+      "path": "images/outrun-the-night.webp",
+      "publicPath": "images/v6-growth/outrun-the-night.webp",
+      "source": "https://i.ytimg.com/vi/X0IxtHJCt8E/hqdefault.jpg",
+      "width": 480,
+      "height": 360,
+      "sha256": "c3fe13ccf3da6519a9a81ce08ad816967e62507a44deb0331a4125c9595dbecd"
+    },
+    {
+      "path": "images/redline-heartbeat.webp",
+      "publicPath": "images/v6-growth/redline-heartbeat.webp",
+      "source": "https://i.ytimg.com/vi/dh6g1Ae_rRo/hqdefault.jpg",
+      "width": 480,
+      "height": 360,
+      "sha256": "674f9aafb888fd87246144007e189a06c0c64a685a808cec203a82c3d3919a44"
+    },
+    {
+      "path": "images/sticker-37544868-1.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-1.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932801/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "da7bcdc55d0ab6c13f048fcf37042b2186ab66240897e31d0554b3abc7999077"
+    },
+    {
+      "path": "images/sticker-37544868-2.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-2.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932802/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "042e420ba9354f4c5a7412707f2774e895f9d154a5eb2f93be686269a0e1942f"
+    },
+    {
+      "path": "images/sticker-37544868-3.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-3.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932803/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "793df97a98e8147409f3c1e6206297de1e0ff8ed4153ef86d3be4e0cce88b9a9"
+    },
+    {
+      "path": "images/sticker-37544868-4.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-4.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932804/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "af308788cca396ce5e38260ba70322f5bef7fdc57c186700da19a64681650471"
+    },
+    {
+      "path": "images/sticker-37544868-5.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-5.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932805/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "310560825e74f58e6e3acc874756e7068e818713b854f648d53ac8858998df7e"
+    },
+    {
+      "path": "images/sticker-37544868-6.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-6.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932806/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "fd496f19f8a24916b4dafba2007e61bf2b429ebf3b59f93b7976e8869de93b6e"
+    },
+    {
+      "path": "images/sticker-37544868-7.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-7.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932807/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "9f6272c946087bbf684fa89c325796172273e25601425de298b88ff3f22c88eb"
+    },
+    {
+      "path": "images/sticker-37544868-8.webp",
+      "publicPath": "images/v6-growth/sticker-37544868-8.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/920932808/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "8526300c7d96ea3977938f780290f32f8107661577393d74412eeeeb1b9374ba"
+    },
+    {
+      "path": "images/sticker-37581772-1.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-1.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838705/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "c49f723f5fe817f1d442d4bc396dc73ded00fa1dda295ee43eebd8d98122810e"
+    },
+    {
+      "path": "images/sticker-37581772-10.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-10.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838714/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "02b922372ac58508b85706ee31213e20bf5929f855b1d7d55d0624b742d843d1"
+    },
+    {
+      "path": "images/sticker-37581772-11.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-11.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838715/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "fb00d92192a41639886da2d8fa0186b7939e62dee0d6ff3462272f6bd1723454"
+    },
+    {
+      "path": "images/sticker-37581772-12.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-12.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838716/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "65afa9d4a52eaf13949b6f6aafd05dd92a128346c36807f36e26d3870e8db223"
+    },
+    {
+      "path": "images/sticker-37581772-13.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-13.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838717/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "89f537bc80853eea25fafe98243a2f24468c08287ec6be34814ae13b8d264488"
+    },
+    {
+      "path": "images/sticker-37581772-14.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-14.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838718/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "adacd9345db772ecdd70262130566352eeb50d813f26ada630e73f6b97224fdc"
+    },
+    {
+      "path": "images/sticker-37581772-15.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-15.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838719/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "dce6dcd7723c9286d9ab89935a0336a3ce4c66198910f381d3e69dc6d7a2e59f"
+    },
+    {
+      "path": "images/sticker-37581772-16.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-16.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838720/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "d28a6ac47f9f2b3ca6705f964b0fdc6a034250916c287dd2f06f5c70251547db"
+    },
+    {
+      "path": "images/sticker-37581772-2.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-2.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838706/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "cbfb81f8cf87fd3ce9e51234d499e1ded379d41f2046c9847a696c4e617b6834"
+    },
+    {
+      "path": "images/sticker-37581772-3.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-3.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838707/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "d89f1429bc3577a1f755e836e88551868923bcd2a70392209726d0ed06740d83"
+    },
+    {
+      "path": "images/sticker-37581772-4.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-4.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838708/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "f66520c00b784c0eb36c34505b5a7c5da122b03ee67fae7a1527e67395b4266f"
+    },
+    {
+      "path": "images/sticker-37581772-5.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-5.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838709/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "929ac3da51937ab317b504f67c57edafb4c12d9253675dbc18602ced474bebb4"
+    },
+    {
+      "path": "images/sticker-37581772-6.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-6.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838710/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "8052940ea0714e66a472d40b5dd54fd396513ccec6221f73370aca2887902bf3"
+    },
+    {
+      "path": "images/sticker-37581772-7.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-7.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838711/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "6ad0240b26d7096ad182c94b5e38cac11aa28f363ac21b78d605349c8175d602"
+    },
+    {
+      "path": "images/sticker-37581772-8.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-8.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838712/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "de42f6728e4378f50b641f2c95a4b915a122e50a99fcbd7e41ecdd2a9b3e5c94"
+    },
+    {
+      "path": "images/sticker-37581772-9.webp",
+      "publicPath": "images/v6-growth/sticker-37581772-9.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/sticker/921838713/android/sticker.png",
+      "width": 259,
+      "height": 224,
+      "sha256": "509d9e303aeea7c6ee1275e8d3ae406caa55ab91bc9cbd1e12b8ed8ec455e90a"
+    },
+    {
+      "path": "images/stickers-37544868.webp",
+      "publicPath": "images/v6-growth/stickers-37544868.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/product/37544868/LINEStorePC/main.png",
+      "width": 240,
+      "height": 240,
+      "sha256": "26c4a4f3258bc5a6441c47cb6eabc3adbc316181bd452d12ccb4cb7e038f85d2"
+    },
+    {
+      "path": "images/stickers-37581772.webp",
+      "publicPath": "images/v6-growth/stickers-37581772.webp",
+      "source": "https://stickershop.line-scdn.net/stickershop/v1/product/37581772/LINEStorePC/main.png",
+      "width": 240,
+      "height": 240,
+      "sha256": "a8d3ee5e932359022054dedf56da2d6129526b8c39fc92bd286bc5e4b2898472"
+    }
+  ]
+}

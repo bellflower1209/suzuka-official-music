@@ -1,0 +1,670 @@
+{
+  "scope": "PR 15 development preview only; physical iPhone and actual audio not verified",
+  "checks": [
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/hero-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asagiri-shinobu-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asagiri-shinobu/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asteria-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asteria/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/eclypse-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/eclypse/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/enomoto-mia-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/enomoto-mia/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/koga-kamishiro-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/koga-kamishiro/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/michiru-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/michiru/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/nox-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/nox/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/rangili-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/rangili/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/revive-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/revive/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/veilfang-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/veilfang/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/tetsuhige-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/tetsuhige/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/leon-vail-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/leon-vail/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/baba-nova/mobile-768.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/baba-nova/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 390
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/hero-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asagiri-shinobu-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asagiri-shinobu/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asteria-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asteria/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/eclypse-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/eclypse/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/enomoto-mia-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/enomoto-mia/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/koga-kamishiro-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/koga-kamishiro/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/michiru-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/michiru/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/nox-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/nox/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/rangili-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/rangili/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/revive-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/revive/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/veilfang-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/veilfang/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/tetsuhige-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/tetsuhige/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/leon-vail-mobile.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/leon-vail/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/baba-nova/mobile-768.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/baba-nova/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 768
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/hero-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asagiri-shinobu-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asagiri-shinobu/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/asteria-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/asteria/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/eclypse-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/eclypse/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/enomoto-mia-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/enomoto-mia/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/koga-kamishiro-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/koga-kamishiro/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/michiru-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/michiru/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/nox-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/nox/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/rangili-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/rangili/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/revive-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/revive/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/veilfang-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/veilfang/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/tetsuhige-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/tetsuhige/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/cinema/leon-vail-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/leon-vail/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": {
+        "loaded": true,
+        "source": "http://127.0.0.1:8772/assets/baba-nova/landscape-1600.avif"
+      },
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/worlds/baba-nova/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/line-stickers/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/music-production/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 0,
+      "overflow": 0,
+      "route": "/releases/onaji-josei-e/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    },
+    {
+      "hero": null,
+      "matchingPreloads": 1,
+      "overflow": 0,
+      "route": "/artists/asteria/",
+      "visibleBrokenImages": [],
+      "width": 1440
+    }
+  ],
+  "faults": [
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "avif-failure",
+      "source": "http://127.0.0.1:8773/assets/cinema/hero-mobile.webp",
+      "state": "ready"
+    },
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "webp-one-retry",
+      "source": "http://127.0.0.1:8774/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+      "state": "ready"
+    },
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "avif-delay-10s",
+      "source": "http://127.0.0.1:8775/assets/cinema/hero-mobile.webp",
+      "state": "ready"
+    },
+    {
+      "loaded": false,
+      "overflow": 0,
+      "scenario": "all-formats-fail",
+      "source": "http://127.0.0.1:8776/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+      "state": "unavailable"
+    }
+  ],
+  "door": {
+    "destinationLoaded": true,
+    "doorAnimation": "portal-left",
+    "doorImage": "linear-gradient(rgba(20, 27, 40, 0.125), rgba(20, 27, 40, 0.314)), url(\"http://127.0.0.1:8772/assets/cinema/door-celestial-960.webp\")",
+    "open": true,
+    "world": "asteria",
+    "arrivalVerified": true,
+    "arrivalURL": "http://127.0.0.1:8772/worlds/asteria/"
+  },
+  "stickers": {
+    "comingSoon": true,
+    "eclypsePurchase": 0,
+    "purchaseLinks": [
+      "https://store.line.me/stickershop/product/37544868/ja",
+      "https://store.line.me/stickershop/product/37581772/ja"
+    ],
+    "destinations": [
+      {
+        "url": "https://store.line.me/stickershop/product/37544868/ja",
+        "title": "榎本魅愛♡毎日使える恋するスタンプ - LINE スタンプ | LINE STORE"
+      },
+      {
+        "url": "https://store.line.me/stickershop/product/37581772/ja",
+        "title": "妃みちる♡親から子へ贈る愛情スタンプ - LINE スタンプ | LINE STORE"
+      },
+      {
+        "url": "https://store.line.me/stickershop/product/37544868/ja",
+        "title": "榎本魅愛♡毎日使える恋するスタンプ - LINE スタンプ | LINE STORE"
+      }
+    ]
+  },
+  "production": {
+    "consultations": [
+      {
+        "body": true,
+        "label": "楽曲制作を相談する ↗",
+        "subject": true
+      },
+      {
+        "body": true,
+        "label": "楽曲制作を相談する ↗",
+        "subject": true
+      },
+      {
+        "body": false,
+        "label": "1209bellflower@gmail.com",
+        "subject": false
+      }
+    ],
+    "overflow": 0,
+    "script": true,
+    "url": "http://127.0.0.1:8772/music-production/"
+  }
+}

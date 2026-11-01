@@ -58,7 +58,7 @@ jobs:
           python3 scripts/test_catalog_artist_gate.py
           python3 scripts/test_channel_migration.py
           python3 scripts/audit_channel_migration.py
-          python3 -B scripts/build_baba_nova_world.py --check
+          python3 -B scripts/build_baba_nova_world.py --check --reference 39aebc4e116b09823dc2567dd8f7e6433312fb12
           python3 scripts/audit_official_video_coverage.py
           python3 scripts/audit_seo.py
           node --check assets/analytics.js
@@ -102,18 +102,35 @@ jobs:
 
       - name: Verify approved public release
         run: |
+          python3 -B scripts/adopt_v6_growth_release.py --check
+          python3 -B scripts/test_v6_growth_release.py
           python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/test_private_audio_gate.py
           python3 -B scripts/test_baba_nova_world.py
           python3 -B scripts/test_baba_image_ratio.py
           python3 -B scripts/prepare_baba_backgrounds.py --check
-          python3 -B scripts/audit_channel_migration.py --root "${{ runner.temp }}/suzuka-v6-release"
+          python3 -B scripts/audit_channel_migration.py --allow-growth-release --root "${{ runner.temp }}/suzuka-v6-release"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/cinematic-universe-v6.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/assets/v6-protected-audio.js"
           node --check "${{ runner.temp }}/suzuka-v6-release/v6-audio-worker.js"
           python3 -B scripts/audit_rich_results.py --root "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/suzuka-v6-release"
+
+      - name: Verify November growth preview (never used for deployment)
+        run: |
+          python3 -B scripts/build_v6_growth_preview.py --output "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/test_v6_growth_preview.py
+          node scripts/test_v6_growth_analytics.cjs "${{ runner.temp }}/suzuka-growth-preview"
+          node scripts/test_v6_background_resilience.cjs "${{ runner.temp }}/suzuka-growth-preview"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/v6-background-resilience.js"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/analytics.js"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/social.js"
+          python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_rich_results.py --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/audit_channel_migration.py --allow-growth-preview --root "${{ runner.temp }}/suzuka-growth-preview"
+          python3 -B scripts/check_v6_growth_http.py --root "${{ runner.temp }}/suzuka-growth-preview"
 
       - name: Configure Pages
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

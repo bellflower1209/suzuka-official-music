@@ -15,12 +15,27 @@ class Active(HTMLParser):
         a=dict(a)
         if t=='a' and a.get('href'):self.urls.append(a['href'])
         if t=='iframe' and a.get('src'):self.urls.append(a['src'])
-def main(root):
+def main(root,allow_growth_preview=False,allow_growth_release=False):
     cms=json.loads((root/'assets/data/creator-cms.json').read_text())
     proof_root=ROOT
     migration=json.loads((proof_root/'docs/channel-migration-20261026.json').read_text())
     works={r['slug']:r for r in cms['releases']};artists={a['slug']:a for a in cms['artists']}
-    assert (len(cms['artists']),len(works))==(13,104)
+    expected_works=104
+    if allow_growth_preview or allow_growth_release:
+        manifest=json.loads((root/'suzuka-v6-candidate-manifest.json').read_text())
+        growth=manifest['growthPreview']
+        assert growth['baselineCommit']=='39aebc4e116b09823dc2567dd8f7e6433312fb12'
+        assert growth['baselineDigest']=='36477d62f8bbaac84bef7590d6e24a2d9d8be4fa7f3c9315f772da8631f05df7'
+        assert growth['publishedWorks']==109
+        if allow_growth_release:
+            from adopt_v6_growth_release import APPROVAL
+            assert growth['publicationApproved'] is True and growth['status']=='approved-public-release'
+            assert manifest['publicRelease']==APPROVAL
+        else:assert growth['publicationApproved'] is False
+        assert {'redline-heartbeat','outrun-the-night','five-gears-one-sky','midnight-ignition','onaji-josei-e'}<=set(works)
+        assert hashlib.sha256((root/'assets/data/creator-cms.json').read_bytes()).hexdigest()==manifest['files']['assets/data/creator-cms.json']
+        expected_works=109
+    assert (len(cms['artists']),len(works))==(13,expected_works)
     assert migration['counts']=={'total':36,'migrated':27,'inProgress':9}
     blocked={r['previousVideoId'] for r in migration['records']};assert len(blocked)==36
     for row in migration['records']:
@@ -64,4 +79,8 @@ def main(root):
     assert not any(video_id(n.text or '') in blocked for n in sitemap.iter())
     print(json.dumps({'status':'PASS','migrationTotal':36,'publicReplacements':27,'inProgress':9,'historyPreserved':36,'htmlPages':len(pages),'inaccessibleActiveLinks':0,'privateVideoObjects':0,'checkedActiveLinks':active_count}))
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);main(p.parse_args().root.resolve())
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT)
+    mode=p.add_mutually_exclusive_group()
+    mode.add_argument('--allow-growth-preview',action='store_true',help='Verify only the explicit, frozen-base 109-work draft overlay')
+    mode.add_argument('--allow-growth-release',action='store_true',help='Require the explicit PR 15 production approval and 109-work package')
+    a=p.parse_args();main(a.root.resolve(),a.allow_growth_preview,a.allow_growth_release)

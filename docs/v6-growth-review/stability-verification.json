@@ -1,0 +1,158 @@
+{
+  "status": "PASS_LOCAL",
+  "scope": "PR 15 development only; production HOLD",
+  "baselineCommit": "39aebc4e116b09823dc2567dd8f7e6433312fb12",
+  "baselineFiles": 814,
+  "candidateFiles": 863,
+  "artists": 13,
+  "publishedWorks": 109,
+  "upcomingWorks": 1,
+  "newWorks": 5,
+  "protectedExistingAssetsUnchanged": true,
+  "originalCinematicRuntimeAndCssUnchanged": true,
+  "audioRuntimeAndWorkerUnchanged": true,
+  "growthTests": 13,
+  "backgroundRecoveryScenarios": 7,
+  "existingAudioTests": 11,
+  "existingWorldTests": 7,
+  "existingRatioTests": 3,
+  "browserChecks": 57,
+  "browserWidths": [
+    390,
+    768,
+    1440
+  ],
+  "browserFailures": 0,
+  "faultScenarios": [
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "avif-failure",
+      "source": "http://127.0.0.1:8773/assets/cinema/hero-mobile.webp",
+      "state": "ready"
+    },
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "webp-one-retry",
+      "source": "http://127.0.0.1:8774/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+      "state": "ready"
+    },
+    {
+      "loaded": true,
+      "overflow": 0,
+      "scenario": "avif-delay-10s",
+      "source": "http://127.0.0.1:8775/assets/cinema/hero-mobile.webp",
+      "state": "ready"
+    },
+    {
+      "loaded": false,
+      "overflow": 0,
+      "scenario": "all-formats-fail",
+      "source": "http://127.0.0.1:8776/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+      "state": "unavailable"
+    }
+  ],
+  "backgroundHttpFixtures": {
+    "8772": [
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-768.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-1600.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 200
+      }
+    ],
+    "8773": [
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 503
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp",
+        "status": 200
+      }
+    ],
+    "8774": [
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 503
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp",
+        "status": 503
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+        "status": 200
+      }
+    ],
+    "8775": [
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 200
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp",
+        "status": 200
+      }
+    ],
+    "8776": [
+      {
+        "path": "/assets/cinema/hero-mobile.avif",
+        "status": 503
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp",
+        "status": 503
+      },
+      {
+        "path": "/assets/cinema/hero-mobile.webp?v6-background-retry=1",
+        "status": 503
+      }
+    ]
+  },
+  "ga4ListenerTests": "PASS",
+  "ga4ActualReceipt": "not verified",
+  "physicalIPhone": "not verified",
+  "actualAudioListening": "not verified",
+  "productionDeploymentPerformed": false,
+  "approvedPackageDigest": "36477d62f8bbaac84bef7590d6e24a2d9d8be4fa7f3c9315f772da8631f05df7",
+  "audioFilesAdded": [],
+  "originalSourceEvidenceUnchanged": true,
+  "terminalUncommittedFiles": 36,
+  "terminalWorktreeUnchanged": true,
+  "newRuntimeSha256": "4c54fc5e583bb18ffe791f2670d0615f6e1a18b794685e7f934fff9f81fc70c3",
+  "httpRouteCheck": {
+    "status": "PASS",
+    "publicUrls": 381,
+    "http200": 381,
+    "failures": [],
+    "expected404": {
+      "/does-not-exist-20261101/": 404,
+      "/releases/last-ignition/": 404,
+      "/scripts/build_v6_growth_preview.py": 404,
+      "/v6/music/approved/private.mp3": 404
+    },
+    "externalRequests": false
+  },
+  "jsonLdBlocks": 387,
+  "sitemapUrls": 381
+}

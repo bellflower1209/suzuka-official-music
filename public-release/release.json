@@ -1,26 +1,26 @@
 {
-  "archiveBytes": 110450698,
-  "archiveSha256": "b46e0142dabebfe0638e00b64597073a5d9ee5bd9cbc6335e9556321b44f0540",
-  "artifactDigest": "36477d62f8bbaac84bef7590d6e24a2d9d8be4fa7f3c9315f772da8631f05df7",
+  "archiveBytes": 112278122,
+  "archiveSha256": "0ae692e8b988f81337d32498f152d965fb02f763d57120d283fb4f631c2a196f",
+  "artifactDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
   "chunks": [
     {
       "path": "public-release/site-00.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "b4ed2651d08151dd3858e4163a14bed413610a01e4f291265ba255d31a1adaea"
+      "sha256": "b9bdc5ea15bf8ce5befadeebc70fbb3685a6c7dddb5202b04ea98a89d2a5a210"
     },
     {
       "path": "public-release/site-01.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "80fccf260f9387c5d897959f806192917ab7feb9907b45e14b1efaf407518485"
+      "sha256": "de39993192fdb26d75b65800645ecf4b0f0ad0bd49e8a6b0dfd1de7667115fea"
     },
     {
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 16078858,
-      "sha256": "583e9b6b39ea1c975697a953a99f2fc5718b68670e3a373c5cbd18a825b2d847"
+      "bytes": 17906282,
+      "sha256": "a7fca544bd9137a083d5b58d0465cb68a1d6f8ece6a06190feac9f88c3a8bad0"
     }
   ],
-  "contentBytes": 122555362,
-  "fileCount": 814,
+  "contentBytes": 124883055,
+  "fileCount": 863,
   "format": "suzuka-public-release-v1",
   "privateAudioApproval": {
     "historicalCandidatesException": "two-preexisting-unadopted-door-samples-only; unchanged; no-history-rewrite",
@@ -102,5 +102,15 @@
       "trackId": "baba-nova",
       "releaseId": "salad-chicken-baa"
     }
+  },
+  "growthReleaseApproval": {
+    "source": "explicit-user-production-authorization",
+    "approvedDate": "2026-11-01",
+    "reviewedCommit": "bc80e5656738d97587a527a703d5dde41c18ea42",
+    "reviewedCandidateDigest": "53ad9c07bb419510d24ef0cd15de507ae1f1022d75070d3dc2333bd35533c28e",
+    "rollbackCommit": "39aebc4e116b09823dc2567dd8f7e6433312fb12",
+    "rollbackArtifactDigest": "36477d62f8bbaac84bef7590d6e24a2d9d8be4fa7f3c9315f772da8631f05df7",
+    "artists": 13,
+    "publishedWorks": 109
   }
 }

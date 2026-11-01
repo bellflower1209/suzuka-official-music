@@ -1,0 +1,92 @@
+{
+  "baseline": {
+    "commit": "39aebc4e116b09823dc2567dd8f7e6433312fb12",
+    "files": 814,
+    "artists": 13,
+    "works": 104,
+    "unchanged": true
+  },
+  "candidate": {
+    "files": 862,
+    "artists": 13,
+    "publishedWorks": 109,
+    "upcoming": 1,
+    "newWorks": [
+      "five-gears-one-sky",
+      "midnight-ignition",
+      "onaji-josei-e",
+      "outrun-the-night",
+      "redline-heartbeat"
+    ],
+    "shortsAdded": 6,
+    "newsAdded": 4,
+    "deletedFiles": []
+  },
+  "tests": {
+    "existingWorkflowChecks": 54,
+    "existingWorkflowPassed": 54,
+    "growthRegressionTests": 11,
+    "growthRegressionPassed": 11,
+    "viewportChecks": 24,
+    "viewportFailures": 0,
+    "jsonLdBlocks": 387,
+    "videoObjects": 224,
+    "jsonLdErrors": 0,
+    "channelMigrationHistoryPreserved": 36,
+    "consoleErrorsWarnings": []
+  },
+  "http": {
+    "status": "PASS",
+    "publicUrls": 381,
+    "http200": 381,
+    "failures": [],
+    "expected404": {
+      "/does-not-exist-20261101/": 404,
+      "/releases/last-ignition/": 404,
+      "/scripts/build_v6_growth_preview.py": 404,
+      "/v6/music/approved/private.mp3": 404
+    },
+    "externalRequests": false
+  },
+  "outbound": [
+    {
+      "url": "https://store.line.me/stickershop/product/37544868/ja",
+      "status": 200,
+      "destination": "https://store.line.me/stickershop/product/37544868/ja"
+    },
+    {
+      "url": "https://store.line.me/stickershop/product/37581772/ja",
+      "status": 200,
+      "destination": "https://store.line.me/stickershop/product/37581772/ja"
+    },
+    {
+      "url": "https://linkco.re/aU8rN04N",
+      "status": 200,
+      "destination": "https://linkco.re/aU8rN04N"
+    },
+    {
+      "url": "https://linkco.re/vvasqg5z",
+      "status": 200,
+      "destination": "https://linkco.re/vvasqg5z"
+    },
+    {
+      "url": "https://music.apple.com/jp/album/to-every-woman-to-those-who-are-about-to-become-mothers/6825248581",
+      "status": 200,
+      "destination": "https://music.apple.com/jp/album/to-every-woman-to-those-who-are-about-to-become-mothers/6825248581"
+    },
+    {
+      "url": "https://music.apple.com/jp/album/happy-birthday-just-for-you-single/6826791171",
+      "status": 200,
+      "destination": "https://music.apple.com/jp/album/happy-birthday-just-for-you-single/6826791171"
+    }
+  ],
+  "sourceVerifiedAt": "2026-11-01T13:07:54+09:00",
+  "terminalProtection": {
+    "uncommittedFiles": 36,
+    "statusUnchanged": true,
+    "fileContentsUnchanged": true
+  },
+  "merged": false,
+  "deployed": false,
+  "productionStatus": "HOLD"
+}
