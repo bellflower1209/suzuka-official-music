@@ -120,6 +120,8 @@ jobs:
           python3 -B scripts/build_v6_growth_preview.py --output "${{ runner.temp }}/suzuka-growth-preview"
           python3 -B scripts/test_v6_growth_preview.py
           node scripts/test_v6_growth_analytics.cjs "${{ runner.temp }}/suzuka-growth-preview"
+          node scripts/test_v6_background_resilience.cjs "${{ runner.temp }}/suzuka-growth-preview"
+          node --check "${{ runner.temp }}/suzuka-growth-preview/assets/v6-background-resilience.js"
           node --check "${{ runner.temp }}/suzuka-growth-preview/assets/analytics.js"
           node --check "${{ runner.temp }}/suzuka-growth-preview/assets/social.js"
           python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/suzuka-growth-preview"

@@ -100,6 +100,35 @@ class GrowthPreviewTests(unittest.TestCase):
         s=next(r for r in self.cms['releases']if r['slug']=='onaji-josei-e')
         self.assertEqual(s['releaseDate'],'2026-10-27');self.assertFalse(s['youtubeUrl']);self.assertFalse(s['lyricsAvailable'])
 
+    def test_only_two_unreachable_deezer_buttons_are_suppressed(self):
+        policy=json.loads((ROOT/SOURCE/'store-link-policy.json').read_text())
+        self.assertEqual({(s['linkcoreCode'],s['service']) for s in policy['suppressed']},
+            {('vvasqg5z','deezer'),('aU8rN04N','deezer')})
+        html=''.join(b.decode() for n,b in self.files.items() if n.endswith('.html'))
+        for code in ['vvasqg5z','aU8rN04N']:
+            stream=next(s for s in self.sources['streaming'] if s['code']==code)
+            self.assertIn('href="'+stream['url']+'"',html)
+            for store in stream['stores']:
+                if store['id']=='deezer':self.assertNotIn('href="'+store['url']+'"',html)
+                else:self.assertIn('href="'+store['url']+'"',html)
+        # An older work's Deezer button is outside this narrowly scoped suppression.
+        old=next(s for s in self.sources['streaming'] if s['code']=='66hxyRr8')
+        self.assertIn('href="'+next(s['url'] for s in old['stores'] if s['id']=='deezer')+'"',html)
+
+    def test_hero_artwork_is_identical_and_only_matching_images_are_preloaded(self):
+        for name in json.loads(self.old[MANIFEST])['v6Routes']:
+            old=self.old[name].decode();new=self.files[name].decode()
+            hero=r'<section\b[^>]*class="hero\b[^\"]*"[^>]*>\s*(<picture\b.*?</picture>)'
+            self.assertEqual(re.search(hero,old,re.S)[1],re.search(hero,new,re.S)[1],name)
+            parser=HTML();parser.feed(new)
+            self.assertEqual(new.count('rel="preload" as="image"'),2,name)
+            self.assertEqual(new.count('src="/assets/v6-background-resilience.js"'),1,name)
+            self.assertLess(new.index('src="/assets/v6-background-resilience.js"'),new.index('src="/assets/cinematic-universe-v6.js"'))
+            for srcset in re.findall(r'<link rel="preload"[^>]*imagesrcset="([^"]+)"',new):
+                self.assertIn('srcset="'+srcset+'"',re.search(hero,new,re.S)[1],name)
+            self.assertIn('(min-width:641px) and (orientation:landscape), (min-width:1025px)',new)
+        self.assertNotIn('v6-background-resilience.js',self.files['music-production/index.html'].decode())
+
     def test_exactly_six_shorts_and_four_news_are_added(self):
         old={s['videoId']for s in self.oldcms['youtubeSnapshot']['shortVideos']}
         added=[s for s in self.cms['youtubeSnapshot']['shortVideos']if s['videoId']not in old]

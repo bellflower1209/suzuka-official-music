@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-11-01T15:33:11+09:00",
+  "scope": "Only individual SUZUKA buttons; original LinkCore records and other services remain unchanged",
+  "suppressed": [
+    {
+      "linkcoreCode": "vvasqg5z",
+      "service": "deezer",
+      "sourceUrl": "https://www.tunecore.co.jp/to/deezer/2024584",
+      "albumUrl": "https://www.deezer.com/album/1130082751",
+      "catalogEvidence": "https://api.deezer.com/album/1130082751",
+      "catalogTitle": "あなただけに送るHappy Birthday",
+      "catalogArtist": "榎本魅愛",
+      "observedDestination": "https://www.deezer.com/ja/",
+      "reason": "Catalog identity matches, but the official album URL redirects to the generic home page in the verification environment",
+      "restoreRequires": "Confirm that the public album page reaches this work before removing this suppression"
+    },
+    {
+      "linkcoreCode": "aU8rN04N",
+      "service": "deezer",
+      "sourceUrl": "https://www.tunecore.co.jp/to/deezer/2017732",
+      "albumUrl": "https://www.deezer.com/album/1126942941",
+      "catalogEvidence": "https://api.deezer.com/album/1126942941",
+      "catalogTitle": "同じ女性へ ～これから母になる人へ～",
+      "catalogArtist": "妃みちる",
+      "observedDestination": "https://www.deezer.com/ja/",
+      "reason": "Catalog identity matches, but the official album URL redirects to the generic home page in the verification environment",
+      "restoreRequires": "Confirm that the public album page reaches this work before removing this suppression"
+    }
+  ]
+}

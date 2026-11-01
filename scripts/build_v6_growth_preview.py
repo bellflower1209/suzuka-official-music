@@ -9,6 +9,7 @@ import argparse
 import copy
 from datetime import datetime
 from html import escape
+from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
@@ -171,7 +172,8 @@ def streaming_buttons(r, sources, *, stores=False):
     result = link(stream['url'], '配信サービスで聴く', action='streaming', slug=r['slug'], artist=r['artistSlug'], service='linkcore')
     if stores:
         result += '<div class="growth-stores">' + ''.join(link(safe_url(s['url']), s['name'], action='streaming',
-            slug=r['slug'], artist=r['artistSlug'], service=s['id'], cls='growth-store') for s in stream['stores']) + '</div>'
+            slug=r['slug'], artist=r['artistSlug'], service=s['id'], cls='growth-store') for s in stream['stores']
+            if (stream['code'],s['id']) not in sources.get('_suppressedStores',set())) + '</div>'
     return result
 
 
@@ -319,10 +321,57 @@ def update_birthday_html(text, r, sources):
     return re.sub(r'<script type="application/ld\+json">(.*?)</script>',graph,text,flags=re.S)
 
 
+def background_loading(html, files):
+    """Only schedule existing hero bytes earlier. Preserve all picture markup and art."""
+    class Picture(HTMLParser):
+        def __init__(self):super().__init__();self.sources=[]
+        def handle_starttag(self,tag,attrs):
+            if tag=='source':self.sources.append(dict(attrs))
+    hero=re.search(r'<section\b[^>]*class="hero\b[^\"]*"[^>]*>\s*(<picture\b.*?</picture>)',html,re.S)
+    if not hero:raise ValueError('Reviewed V6 hero picture missing; STOP')
+    p=Picture();p.feed(hero[1])
+    avif=[s for s in p.sources if s.get('type')=='image/avif']
+    if len(avif)!=2 or not avif[0].get('media') or avif[1].get('media'):
+        raise ValueError('Reviewed V6 responsive picture changed; STOP')
+    # Complement both existing mobile media variants, without fetching two images.
+    mobile=avif[0]['media'].replace(' ','')
+    if mobile not in {'(max-width:640px),(max-width:1024px)and(orientation:portrait)'}:
+        raise ValueError('Unreviewed mobile background media; STOP')
+    preload=[]
+    for source in avif:
+        for item in source['srcset'].split(','):
+            path=item.strip().split()[0].lstrip('/')
+            if path not in files or not path.startswith(('assets/cinema/','assets/baba-nova/')):
+                raise ValueError('Missing existing background asset: '+path)
+            if path.removesuffix('.avif')+'.webp' not in files:
+                raise ValueError('Existing WebP recovery image missing: '+path)
+        media=source.get('media') or '(min-width:641px) and (orientation:landscape), (min-width:1025px)'
+        href=source['srcset'].split(',')[0].strip().split()[0]
+        preload.append('<link rel="preload" as="image" type="image/avif" href="'+e(href)+
+            '" imagesrcset="'+e(source['srcset'])+'" imagesizes="'+e(source.get('sizes','100vw'))+
+            '" media="'+e(media)+'" fetchpriority="high">')
+    html=html.replace('<link rel="stylesheet"', ''.join(preload)+'<link rel="stylesheet"',1)
+    original='<script defer src="/assets/cinematic-universe-v6.js"></script>'
+    if html.count(original)!=1:raise ValueError('Reviewed V6 runtime loader changed; STOP')
+    return html.replace(original,'<script defer src="/assets/v6-background-resilience.js"></script>'+original,1)
+
+
 def build(root=ROOT):
     info,original=read_release(root,BASE)
     if info['artifactDigest']!=DIGEST or len(original)!=814:raise ValueError('Reviewed public baseline changed; STOP')
     sources=json.loads((root/SOURCE/'verified-sources.json').read_text())
+    policy=json.loads((root/SOURCE/'store-link-policy.json').read_text())
+    sources['_suppressedStores']=set()
+    for item in policy['suppressed']:
+        code=item['linkcoreCode'];service=item['service']
+        if code not in {'vvasqg5z','aU8rN04N'} or service!='deezer':
+            raise ValueError('Store suppression exceeds reviewed two-work scope')
+        stream=next(s for s in sources['streaming'] if s['code']==code)
+        if not any(s['id']==service and s['url']==item['sourceUrl'] for s in stream['stores']):
+            raise ValueError('Suppressed official store URL changed')
+        if not item.get('catalogEvidence') or not item.get('restoreRequires') or not policy.get('verifiedAt'):
+            raise ValueError('Store suppression evidence missing')
+        sources['_suppressedStores'].add((code,service))
     cms=canonical(sources,original_cms(original));files=dict(original)
     for item in sources['images']:
         source_path=(root/SOURCE/item['path']).resolve()
@@ -334,6 +383,7 @@ def build(root=ROOT):
         files[item['publicPath']]=data
     for name in ['v6-growth.css']:
         files['assets/'+name]=(root/SOURCE/name).read_bytes()
+    files['assets/v6-background-resilience.js']=(root/SOURCE/'background-resilience.js').read_bytes()
     files['assets/data/creator-cms.json']=encoded(cms)
     files['assets/data/line-stickers.json']=encoded({'verifiedAt':sources['verifiedAt'],'products':sources['stickers']})
     upcoming_data=json.loads(original['assets/data/upcoming-releases.json'])
@@ -519,6 +569,7 @@ def build(root=ROOT):
                 s=s.replace('data-streaming-state="upcoming"','data-streaming-state="published"')
         if 'MLmc3jVZ7-M/hqdefault.jpg' in s:s=update_birthday_html(s,birthday,sources)
         s=decorate_links(s,cms,sources)
+        if name in manifest['v6Routes']:s=background_loading(s,original)
         # Scoped string updates only where the thirteen-world navigation is displayed.
         if name=='music-production/index.html':s=s.replace('12の世界','13の世界').replace('TWELVE WORLDS','THIRTEEN WORLDS')
         if name=='index.html':s=s.replace('TWELVE ARTISTS, TWELVE STORIES','THIRTEEN ARTISTS, THIRTEEN STORIES')
@@ -564,6 +615,8 @@ def build(root=ROOT):
     manifest['growthPreview']={'baselineCommit':BASE,'baselineDigest':DIGEST,'approvedScopeDate':'2026-11-01',
         'sourceSha256':sha((root/SOURCE/'verified-sources.json').read_bytes()),'status':'draft-preview-only',
         'publicationApproved':False,'artists':13,'publishedWorks':109,'upcomingWorks':1}
+    manifest['growthPreview']['backgroundRecoverySha256']=sha(files['assets/v6-background-resilience.js'])
+    manifest['growthPreview']['storeLinkPolicySha256']=sha((root/SOURCE/'store-link-policy.json').read_bytes())
     manifest['sourceCanonicalSha256']=sha(files['assets/data/creator-cms.json'])
     manifest['files']={n:sha(d) for n,d in sorted(files.items()) if n!=MANIFEST}
     files[MANIFEST]=encoded(manifest)
