@@ -122,8 +122,17 @@ def build(root=ROOT):
     files[MANIFEST]=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode()
     return info,files
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);m=p.add_mutually_exclusive_group(required=True);m.add_argument('--write',action='store_true');m.add_argument('--check',action='store_true');p.add_argument('--output',type=Path);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=ROOT);m=p.add_mutually_exclusive_group(required=True);m.add_argument('--write',action='store_true');m.add_argument('--check',action='store_true');p.add_argument('--output',type=Path);p.add_argument('--reference',help='Check a pinned historical package without replacing a newer release');a=p.parse_args()
+    if a.reference and not a.check:raise ValueError('Historical reference is read-only')
+    if a.write and json.loads((a.root/'public-release/release.json').read_text()).get('growthReleaseApproval'):
+        raise ValueError('Historical 104-work builder must not replace the approved 109-work release')
     info,files=build(a.root);chunks=package(info,files)
+    if a.reference:
+        historical_info,historical_files=read_release(a.root,a.reference)
+        assert historical_files==files,'Historical public artifact does not reproduce'
+        historical_chunks=package(historical_info,historical_files)
+        assert historical_chunks==chunks,'Historical package differs'
+        print(json.dumps({'status':'PASS','worlds':13,'artists':13,'works':104,'files':len(files),'reference':a.reference,'reproducible':True}));return
     for n,d in chunks.items():
         path=a.root/'public-release'/n
         if a.check:assert path.read_bytes()==d,'Non-reproducible package: '+n

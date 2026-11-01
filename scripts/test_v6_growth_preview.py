@@ -40,10 +40,14 @@ class GrowthPreviewTests(unittest.TestCase):
         cls.oldcms=json.loads(cls.old['assets/data/creator-cms.json'])
         cls.cms=json.loads(cls.files['assets/data/creator-cms.json'])
 
-    def test_approved_package_is_byte_identical_and_has_not_been_replaced(self):
-        info,files=read_release(ROOT)
+    def test_approved_baseline_and_adopted_content_are_byte_identical(self):
+        info,files=read_release(ROOT,BASE)
         self.assertEqual(info['artifactDigest'],DIGEST)
         self.assertEqual(files,self.old)
+        _,current=read_release(ROOT)
+        self.assertEqual({p:b for p,b in current.items()if p!=MANIFEST},
+                         {p:b for p,b in self.files.items()if p!=MANIFEST})
+        self.assertTrue(json.loads(current[MANIFEST])['growthPreview']['publicationApproved'])
         self.assertTrue(set(self.old)<=set(self.files))
         self.assertFalse(self.report['deploymentPerformed'])
 
