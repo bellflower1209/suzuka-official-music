@@ -1,7 +1,7 @@
 {
-  "archiveBytes": 112404307,
-  "archiveSha256": "5d54260aa41db45360363244e28f0873ab5d8d1c3d6df11260a589563a860ced",
-  "artifactDigest": "65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e",
+  "archiveBytes": 112404418,
+  "archiveSha256": "b7e57c0af8f070ea431ab2012508ccd9fdf07590d058c1b2e06c81420946efbd",
+  "artifactDigest": "af64886f0eb95704cb475864eb2467ea0aaf54947a6029b76a84f0ce0e432d8b",
   "chunks": [
     {
       "path": "public-release/site-00.tar.gz.part",
@@ -15,11 +15,11 @@
     },
     {
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 18032467,
-      "sha256": "b7043ff97a5cd4aa566567434d1fce967d8447ee5a0d42ff0150664a866a940b"
+      "bytes": 18032578,
+      "sha256": "f82d4e6301e3d790f6fc8f05726fb9a380df57a3ccdd2efbe471f41811f4dfd6"
     }
   ],
-  "contentBytes": 125515512,
+  "contentBytes": 125515827,
   "fileCount": 866,
   "format": "suzuka-public-release-v1",
   "privateAudioApproval": {
@@ -114,15 +114,19 @@
     "publishedWorks": 109
   },
   "performanceReleaseCandidate": {
-    "source": "explicit-user-package-preparation-authorization",
+    "source": "explicit-user-production-authorization",
     "approvedDate": "2026-11-02",
     "reviewedCommit": "0687a55981004b119eafaa77db4905b3ca180f58",
     "reviewedCandidateDigest": "b4946384f87e676038c281287208af7a2fe535da61da08e2ae61b7a30d2d1ff9",
     "baselineCommit": "71ea73944d72fadef5d186a5346a65f1a1609511",
     "baselineArtifactDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
+    "approvedCommit": "a8e908367af2fb9dd283a8de5704cec37042c8b2",
+    "approvedPackageDigest": "65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e",
+    "rollbackCommit": "71ea73944d72fadef5d186a5346a65f1a1609511",
+    "rollbackArtifactDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
     "packagePreparationApproved": true,
-    "publicationApproved": false,
-    "status": "prepared-publication-hold",
+    "publicationApproved": true,
+    "status": "approved-public-release",
     "artists": 13,
     "publishedWorks": 109,
     "files": 866

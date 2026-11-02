@@ -1,7 +1,8 @@
-"""Prepare the reviewed PR #16 bytes in the frozen package, without publication.
+"""Adopt the explicitly publication-approved PR #16 bytes in the frozen package.
 
 Only --write changes this worktree's public-release/. No browser, stage, deploy,
-main checkout or remote write is performed here. Publication remains on HOLD.
+main checkout or remote write is performed here. The existing main-only Pages
+workflow remains the sole deployment path.
 """
 from __future__ import annotations
 
@@ -21,16 +22,22 @@ from verify_public_release import read_release, verify_private_audio, write_outp
 
 REVIEWED = '0687a55981004b119eafaa77db4905b3ca180f58'
 REVIEWED_DIGEST = 'b4946384f87e676038c281287208af7a2fe535da61da08e2ae61b7a30d2d1ff9'
+APPROVED = 'a8e908367af2fb9dd283a8de5704cec37042c8b2'
+APPROVED_DIGEST = '65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e'
 PREPARATION = {
-    'source': 'explicit-user-package-preparation-authorization',
+    'source': 'explicit-user-production-authorization',
     'approvedDate': '2026-11-02',
     'reviewedCommit': REVIEWED,
     'reviewedCandidateDigest': REVIEWED_DIGEST,
     'baselineCommit': BASE,
     'baselineArtifactDigest': DIGEST,
+    'approvedCommit': APPROVED,
+    'approvedPackageDigest': APPROVED_DIGEST,
+    'rollbackCommit': BASE,
+    'rollbackArtifactDigest': DIGEST,
     'packagePreparationApproved': True,
-    'publicationApproved': False,
-    'status': 'prepared-publication-hold',
+    'publicationApproved': True,
+    'status': 'approved-public-release',
     'artists': 13,
     'publishedWorks': 109,
     'files': 866,
@@ -43,13 +50,19 @@ def artifact_digest(files):
 
 
 def build(root=ROOT):
-    subprocess.run(['git', 'merge-base', '--is-ancestor', REVIEWED, 'HEAD'],
+    subprocess.run(['git', 'merge-base', '--is-ancestor', APPROVED, 'HEAD'],
                    cwd=root, check=True, capture_output=True)
     info, files, report = preview(root=root)
     if artifact_digest(files) != REVIEWED_DIGEST or len(files) != 866:
         raise ValueError('Candidate differs from the reviewed 0687a55 bytes; STOP')
+    approved_info, approved_files = read_release(root, APPROVED)
+    if approved_info['artifactDigest'] != APPROVED_DIGEST:
+        raise ValueError('Publication-approved a8e9083 package changed; STOP')
+    if ({n: b for n, b in approved_files.items() if n != MANIFEST}
+            != {n: b for n, b in files.items() if n != MANIFEST}):
+        raise ValueError('Served files differ from the publication-approved package; STOP')
     # Served HTML, CSS, images, scripts and data remain exactly the measured bytes.
-    # Only internal provenance records this package-preparation authorization.
+    # Only internal provenance records the explicit production authorization.
     manifest = json.loads(files[MANIFEST])
     manifest['performancePreview']['status'] = 'adopted-release-candidate'
     manifest['performanceReleaseCandidate'] = copy.deepcopy(PREPARATION)
@@ -77,7 +90,7 @@ def main():
     if {p.name for p in destination.iterdir()} != set(chunks):
         raise ValueError('Unexpected package chunk inventory; STOP')
     current, _ = read_release(ROOT)
-    if current['artifactDigest'] not in {DIGEST, expected['artifactDigest']}:
+    if current['artifactDigest'] not in {APPROVED_DIGEST, expected['artifactDigest']}:
         raise ValueError('Public package has unexpected changes; STOP')
     if args.check:
         if any((destination / name).read_bytes() != data for name, data in chunks.items()):
@@ -102,7 +115,7 @@ def main():
         'artifactDigest': expected['artifactDigest'], 'reviewedCandidateDigest': REVIEWED_DIGEST,
         'files': len(files), 'artists': 13, 'publishedWorks': 109,
         'changedHtml': report['changedHtml'], 'addedFiles': report['addedFiles'],
-        'reviewedContentUnchanged': True, 'publicationApproved': False,
+        'reviewedContentUnchanged': True, 'publicationApproved': True,
         'browserLaunches': 0, 'deploymentPerformed': False}, ensure_ascii=False, indent=2))
 
 

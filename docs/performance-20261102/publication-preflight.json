@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "approvalDate": "2026-11-02",
+  "approvedCommit": "a8e908367af2fb9dd283a8de5704cec37042c8b2",
+  "approvedCandidateDigest": "65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e",
+  "publicationDigest": "af64886f0eb95704cb475864eb2467ea0aaf54947a6029b76a84f0ce0e432d8b",
+  "files": 866,
+  "all865ServedFilesUnchanged": true,
+  "onlyChangedPublishedFile": "suzuka-v6-candidate-manifest.json",
+  "publicationApproved": true,
+  "rollbackCommit": "71ea73944d72fadef5d186a5346a65f1a1609511",
+  "rollbackDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
+  "checks": [
+    {
+      "check": "approved-package",
+      "exitCode": 0,
+      "seconds": 6.29
+    },
+    {
+      "check": "release-authorization",
+      "exitCode": 0,
+      "seconds": 7.0
+    },
+    {
+      "check": "performance-regression",
+      "exitCode": 0,
+      "seconds": 4.32
+    },
+    {
+      "check": "private-audio",
+      "exitCode": 0,
+      "seconds": 0.66
+    },
+    {
+      "check": "ga4",
+      "exitCode": 0,
+      "seconds": 0.19
+    },
+    {
+      "check": "background-recovery",
+      "exitCode": 0,
+      "seconds": 0.06
+    },
+    {
+      "check": "rich-results",
+      "exitCode": 0,
+      "seconds": 0.27
+    },
+    {
+      "check": "sitemap",
+      "exitCode": 0,
+      "seconds": 0.95
+    },
+    {
+      "check": "sitemaps",
+      "exitCode": 0,
+      "seconds": 0.09
+    },
+    {
+      "check": "links",
+      "exitCode": 0,
+      "seconds": 1.11
+    },
+    {
+      "check": "http",
+      "exitCode": 0,
+      "seconds": 0.81
+    }
+  ],
+  "browserLaunches": 0
+}
