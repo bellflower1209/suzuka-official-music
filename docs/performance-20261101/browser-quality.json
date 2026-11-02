@@ -1,0 +1,764 @@
+{
+  "geometry": [
+    {
+      "route": "/artists/",
+      "width": 390,
+      "actualWidths": [
+        390,
+        390
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 81
+    },
+    {
+      "route": "/artists/enomoto-mia/",
+      "width": 390,
+      "actualWidths": [
+        390,
+        390
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 473
+    },
+    {
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "width": 390,
+      "actualWidths": [
+        390,
+        390
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 113
+    },
+    {
+      "route": "/artists/",
+      "width": 768,
+      "actualWidths": [
+        768,
+        768
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 81
+    },
+    {
+      "route": "/artists/enomoto-mia/",
+      "width": 768,
+      "actualWidths": [
+        768,
+        768
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 473
+    },
+    {
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "width": 768,
+      "actualWidths": [
+        768,
+        768
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 113
+    },
+    {
+      "route": "/artists/",
+      "width": 1440,
+      "actualWidths": [
+        1440,
+        1440
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 81
+    },
+    {
+      "route": "/artists/enomoto-mia/",
+      "width": 1440,
+      "actualWidths": [
+        1440,
+        1440
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 473
+    },
+    {
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "width": 1440,
+      "actualWidths": [
+        1440,
+        1440
+      ],
+      "equal": true,
+      "overflow": [
+        false,
+        false
+      ],
+      "nodes": 113
+    }
+  ],
+  "display": [
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/hero-mobile.avif"
+        }
+      ],
+      "title": "SUZUKA",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asagiri-shinobu/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asagiri-shinobu-mobile.avif"
+        }
+      ],
+      "title": "朝霧しのぶ",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asteria/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asteria-mobile.avif"
+        }
+      ],
+      "title": "ASTERIA",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/eclypse/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/eclypse-mobile.avif"
+        }
+      ],
+      "title": "ECLYPSE",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/enomoto-mia/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/enomoto-mia-mobile.avif"
+        }
+      ],
+      "title": "榎本魅愛",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/koga-kamishiro/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/koga-kamishiro-mobile.avif"
+        }
+      ],
+      "title": "神代煌牙",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/michiru/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/michiru-mobile.avif"
+        }
+      ],
+      "title": "妃みちる",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/nox/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/nox-mobile.avif"
+        }
+      ],
+      "title": "NOX",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/rangili/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/rangili-mobile.avif"
+        }
+      ],
+      "title": "RANGILI",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/revive/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/revive-mobile.avif"
+        }
+      ],
+      "title": "RE:VIVE",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/veilfang/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/veilfang-mobile.avif"
+        }
+      ],
+      "title": "VEILFANG",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/tetsuhige/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/tetsuhige-mobile.avif"
+        }
+      ],
+      "title": "鉄髭 - TETSUHIGE -",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/leon-vail/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/leon-vail-mobile.avif"
+        }
+      ],
+      "title": "LEON VAIL",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/baba-nova/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/baba-nova/mobile-768.avif"
+        }
+      ],
+      "title": "BABA NOVA",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/hero-mobile.avif"
+        }
+      ],
+      "title": "SUZUKA",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asagiri-shinobu/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asagiri-shinobu-mobile.avif"
+        }
+      ],
+      "title": "朝霧しのぶ",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asteria/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asteria-mobile.avif"
+        }
+      ],
+      "title": "ASTERIA",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/eclypse/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/eclypse-mobile.avif"
+        }
+      ],
+      "title": "ECLYPSE",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/enomoto-mia/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/enomoto-mia-mobile.avif"
+        }
+      ],
+      "title": "榎本魅愛",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/koga-kamishiro/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/koga-kamishiro-mobile.avif"
+        }
+      ],
+      "title": "神代煌牙",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/michiru/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/michiru-mobile.avif"
+        }
+      ],
+      "title": "妃みちる",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/nox/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/nox-mobile.avif"
+        }
+      ],
+      "title": "NOX",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/rangili/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/rangili-mobile.avif"
+        }
+      ],
+      "title": "RANGILI",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/revive/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/revive-mobile.avif"
+        }
+      ],
+      "title": "RE:VIVE",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/veilfang/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/veilfang-mobile.avif"
+        }
+      ],
+      "title": "VEILFANG",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/tetsuhige/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/tetsuhige-mobile.avif"
+        }
+      ],
+      "title": "鉄髭 - TETSUHIGE -",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/leon-vail/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/leon-vail-mobile.avif"
+        }
+      ],
+      "title": "LEON VAIL",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/baba-nova/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/baba-nova/mobile-768.avif"
+        }
+      ],
+      "title": "BABA NOVA",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/hero-1600.avif"
+        }
+      ],
+      "title": "SUZUKA",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asagiri-shinobu/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asagiri-shinobu-1600.avif"
+        }
+      ],
+      "title": "朝霧しのぶ",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/asteria/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/asteria-1600.avif"
+        }
+      ],
+      "title": "ASTERIA",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/eclypse/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/eclypse-1600.avif"
+        }
+      ],
+      "title": "ECLYPSE",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/enomoto-mia/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/enomoto-mia-1600.avif"
+        }
+      ],
+      "title": "榎本魅愛",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/koga-kamishiro/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/koga-kamishiro-1600.avif"
+        }
+      ],
+      "title": "神代煌牙",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/michiru/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/michiru-1600.avif"
+        }
+      ],
+      "title": "妃みちる",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/nox/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/nox-1600.avif"
+        }
+      ],
+      "title": "NOX",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/rangili/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/rangili-1600.avif"
+        }
+      ],
+      "title": "RANGILI",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/revive/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/revive-1600.avif"
+        }
+      ],
+      "title": "RE:VIVE",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/veilfang/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/veilfang-1600.avif"
+        }
+      ],
+      "title": "VEILFANG",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/tetsuhige/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/tetsuhige-1600.avif"
+        }
+      ],
+      "title": "鉄髭 - TETSUHIGE -",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/leon-vail/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/cinema/leon-vail-1600.avif"
+        }
+      ],
+      "title": "LEON VAIL",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/worlds/baba-nova/",
+      "scene": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8882/assets/baba-nova/landscape-1600.avif"
+        }
+      ],
+      "title": "BABA NOVA",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/line-stickers/",
+      "scene": [],
+      "title": "SUZUKA LINE STICKERS",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/music-production/",
+      "scene": [],
+      "title": "楽曲制作のご依頼",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/releases/",
+      "scene": [],
+      "title": "Releases",
+      "width": 390
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/line-stickers/",
+      "scene": [],
+      "title": "SUZUKA LINE STICKERS",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/music-production/",
+      "scene": [],
+      "title": "楽曲制作のご依頼",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/releases/",
+      "scene": [],
+      "title": "Releases",
+      "width": 768
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/line-stickers/",
+      "scene": [],
+      "title": "SUZUKA LINE STICKERS",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/music-production/",
+      "scene": [],
+      "title": "楽曲制作のご依頼",
+      "width": 1440
+    },
+    {
+      "brokenVisible": [],
+      "overflow": false,
+      "route": "/releases/",
+      "scene": [],
+      "title": "Releases",
+      "width": 1440
+    }
+  ],
+  "cardSourceProof": [
+    {
+      "variant": "before",
+      "source": "images/enomoto-mia-amaterasu-official-jacket.png",
+      "width": 360.6640625,
+      "height": 360.6640625
+    },
+    {
+      "variant": "after",
+      "source": "assets/v6-media/official/22dc21412a1af458c731-640.webp",
+      "width": 360.6640625,
+      "height": 360.6640625
+    }
+  ]
+}

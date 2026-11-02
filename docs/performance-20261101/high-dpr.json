@@ -1,0 +1,17 @@
+{
+  "screenEmulation": {
+    "mobile": false,
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 2,
+    "disabled": false
+  },
+  "warnings": [],
+  "artworkRequests": [
+    {
+      "urlPath": "/images/enomoto-mia-amaterasu-official-jacket.png",
+      "resourceBytes": 2515697,
+      "finished": true
+    }
+  ]
+}

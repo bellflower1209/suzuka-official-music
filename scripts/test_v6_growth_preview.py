@@ -44,7 +44,8 @@ class GrowthPreviewTests(unittest.TestCase):
         info,files=read_release(ROOT,BASE)
         self.assertEqual(info['artifactDigest'],DIGEST)
         self.assertEqual(files,self.old)
-        _,current=read_release(ROOT)
+        # Verify the historical growth release; successor adoption is tested separately.
+        _,current=read_release(ROOT,'71ea73944d72fadef5d186a5346a65f1a1609511')
         self.assertEqual({p:b for p,b in current.items()if p!=MANIFEST},
                          {p:b for p,b in self.files.items()if p!=MANIFEST})
         self.assertTrue(json.loads(current[MANIFEST])['growthPreview']['publicationApproved'])

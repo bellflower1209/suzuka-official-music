@@ -145,6 +145,10 @@ def materialize(root, output, files, stage=None):
         allowed.append(Path(os.environ['RUNNER_TEMP']).resolve())
     require(not output.is_relative_to(root) and any(output!=p and output.is_relative_to(p) for p in allowed),'Use an external temporary output')
     require(not any((p/'.git').exists() for p in [output,*output.parents]),'Output must not be another Git worktree')
+    if stage is not None:
+        candidate = json.loads(files[MANIFEST]).get('performanceReleaseCandidate')
+        require(candidate is None or candidate.get('publicationApproved') is True,
+                'Performance release candidate is on HOLD; separate publication approval required')
     write_output(output,files)
     if stage is not None:
         stage = stage.resolve()

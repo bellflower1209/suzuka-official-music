@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "preparationDate": "2026-11-02",
+  "baselineCommit": "71ea73944d72fadef5d186a5346a65f1a1609511",
+  "reviewedCommit": "0687a55981004b119eafaa77db4905b3ca180f58",
+  "reviewedCandidateDigest": "b4946384f87e676038c281287208af7a2fe535da61da08e2ae61b7a30d2d1ff9",
+  "artifactDigest": "65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e",
+  "files": 866,
+  "artists": 13,
+  "works": 109,
+  "sitemapUrls": 381,
+  "measuredCandidateServedFiles": 865,
+  "allServedBytesMatchMeasuredCandidate": true,
+  "onlyDifferenceFromMeasuredCandidate": "suzuka-v6-candidate-manifest.json",
+  "browserLaunches": 0,
+  "newPerformanceMeasurements": 0,
+  "publicationApproved": false,
+  "deploymentPerformed": false,
+  "checks": [
+    {
+      "check": "package-reproducibility",
+      "exitCode": 0,
+      "seconds": 5.62
+    },
+    {
+      "check": "release-preservation-hold",
+      "exitCode": 0,
+      "seconds": 3.87
+    },
+    {
+      "check": "performance-regression",
+      "exitCode": 0,
+      "seconds": 4.28
+    },
+    {
+      "check": "historical-growth-adoption",
+      "exitCode": 0,
+      "seconds": 2.94
+    },
+    {
+      "check": "historical-growth-preview",
+      "exitCode": 0,
+      "seconds": 6.58
+    },
+    {
+      "check": "private-audio",
+      "exitCode": 0,
+      "seconds": 0.68
+    },
+    {
+      "check": "baba-image-ratio",
+      "exitCode": 0,
+      "seconds": 1.43
+    },
+    {
+      "check": "ga4",
+      "exitCode": 0,
+      "seconds": 0.2
+    },
+    {
+      "check": "background-recovery",
+      "exitCode": 0,
+      "seconds": 0.06
+    },
+    {
+      "check": "rich-results",
+      "exitCode": 0,
+      "seconds": 0.3
+    },
+    {
+      "check": "sitemap",
+      "exitCode": 0,
+      "seconds": 0.94
+    },
+    {
+      "check": "sitemaps",
+      "exitCode": 0,
+      "seconds": 0.09
+    },
+    {
+      "check": "existing-urls",
+      "exitCode": 0,
+      "seconds": 1.1
+    },
+    {
+      "check": "http",
+      "exitCode": 0,
+      "seconds": 0.82
+    },
+    {
+      "check": "package-reader",
+      "exitCode": 0,
+      "seconds": 0.96
+    }
+  ],
+  "http": {
+    "status": "PASS",
+    "publicUrls": 381,
+    "http200": 381,
+    "failures": [],
+    "expected404": {
+      "/does-not-exist-20261101/": 404,
+      "/releases/last-ignition/": 404,
+      "/scripts/build_v6_growth_preview.py": 404,
+      "/v6/music/approved/private.mp3": 404
+    },
+    "externalRequests": false
+  },
+  "structuredData": {
+    "status": "PASS",
+    "jsonLdBlocks": 387,
+    "videoObjects": 224,
+    "invalidUploadDates": 0,
+    "invalidDatePublished": 0,
+    "invalidTopLevelItems": 0,
+    "errors": []
+  },
+  "terminalProtected": {
+    "uncommittedEntries": 36,
+    "statusAndContentUnchanged": true
+  }
+}

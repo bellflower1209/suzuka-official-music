@@ -1,0 +1,4562 @@
+{
+  "method": "paired localhost HTTP/1.1 + gzip; cold browser cache; alternating A/B order",
+  "limits": [
+    "not comparable to the earlier public PSI score",
+    "no GA4 on localhost",
+    "protected audio requests blocked identically in both variants",
+    "loopback image download times are not cellular-network estimates"
+  ],
+  "environments": {
+    "mobile": {
+      "lighthouseVersion": "13.6.0",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "disableStorageReset": false,
+        "disableFullPageScreenshot": true,
+        "blockedUrlPatterns": [
+          "*chatgpt.site/v1/*"
+        ],
+        "maxWaitForLoad": 12000
+      }
+    },
+    "desktop": {
+      "lighthouseVersion": "13.6.0",
+      "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "disableStorageReset": false,
+        "disableFullPageScreenshot": true,
+        "blockedUrlPatterns": [
+          "*chatgpt.site/v1/*"
+        ],
+        "maxWaitForLoad": 12000
+      }
+    }
+  },
+  "records": [
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-30-29.report.json",
+      "fetchTime": "2026-11-01T08:30:29.491Z",
+      "score": 81.0,
+      "lcpMs": 5109.876249999999,
+      "fcpMs": 1357.9009999999998,
+      "cls": 0,
+      "speedIndexMs": 1357.9009999999998,
+      "transferBytes": 790161,
+      "jsMs": 22.192,
+      "mainThreadMs": 667.9359999999999,
+      "tbtMs": 0,
+      "requests": 34,
+      "cssRequests": 16,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 10.548000004142523,
+      "heroDownloadMs": 3.963000003248453,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-30-34.report.json",
+      "fetchTime": "2026-11-01T08:30:34.246Z",
+      "score": 83.0,
+      "lcpMs": 4806.6835,
+      "fcpMs": 1056.6835,
+      "cls": 0,
+      "speedIndexMs": 1056.6835,
+      "transferBytes": 779894,
+      "jsMs": 21.587999999999997,
+      "mainThreadMs": 1019.2600000000002,
+      "tbtMs": 33,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 11.973999995738268,
+      "heroDownloadMs": 6.529999997466803,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 15,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-31-22.report.json",
+      "fetchTime": "2026-11-01T08:31:22.565Z",
+      "score": 82.0,
+      "lcpMs": 4952.1636,
+      "fcpMs": 1202.1636,
+      "cls": 0,
+      "speedIndexMs": 1202.1636,
+      "transferBytes": 779894,
+      "jsMs": 20.9,
+      "mainThreadMs": 590.2159999999999,
+      "tbtMs": 82,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 3.0529999993741512,
+      "heroDownloadMs": 2.8129999972879887,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 19,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-31-27.report.json",
+      "fetchTime": "2026-11-01T08:31:27.063Z",
+      "score": 81.0,
+      "lcpMs": 5149.592000000001,
+      "fcpMs": 1389.6736,
+      "cls": 0,
+      "speedIndexMs": 1389.6736,
+      "transferBytes": 790161,
+      "jsMs": 30.69999999999999,
+      "mainThreadMs": 1279.1080000000002,
+      "tbtMs": 32,
+      "requests": 34,
+      "cssRequests": 16,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 44.34400000050664,
+      "heroDownloadMs": 7.050000000745058,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-32-15.report.json",
+      "fetchTime": "2026-11-01T08:32:15.198Z",
+      "score": 81.0,
+      "lcpMs": 5113.7585,
+      "fcpMs": 1361.0068,
+      "cls": 0,
+      "speedIndexMs": 1361.0068,
+      "transferBytes": 790161,
+      "jsMs": 20.263999999999996,
+      "mainThreadMs": 601.7039999999997,
+      "tbtMs": 0,
+      "requests": 34,
+      "cssRequests": 16,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 15.925000000745058,
+      "heroDownloadMs": 5.320000000298023,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists-enomoto-mia_2026-11-01_17-32-19.report.json",
+      "fetchTime": "2026-11-01T08:32:19.696Z",
+      "score": 83.0,
+      "lcpMs": 4802.1795999999995,
+      "fcpMs": 1052.1796,
+      "cls": 0,
+      "speedIndexMs": 1052.1796,
+      "transferBytes": 779894,
+      "jsMs": 20.2,
+      "mainThreadMs": 584.4879999999999,
+      "tbtMs": 0,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 3,
+      "imageTransferBytes": 593735,
+      "maxImageDownloadMs": 5.061000000685453,
+      "heroDownloadMs": 4.440999999642372,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-30-20.report.json",
+      "fetchTime": "2026-11-01T08:30:20.700Z",
+      "score": 85.0,
+      "lcpMs": 4358.2852,
+      "fcpMs": 1206.2139,
+      "cls": 0,
+      "speedIndexMs": 1206.2139,
+      "transferBytes": 835634,
+      "jsMs": 20.208,
+      "mainThreadMs": 455.8560000000001,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 12,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 8.418999999761581,
+      "heroDownloadMs": 4.135000005364418,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 27,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-30-25.report.json",
+      "fetchTime": "2026-11-01T08:30:25.040Z",
+      "score": 86.0,
+      "lcpMs": 4203.1206,
+      "fcpMs": 903.1206,
+      "cls": 0,
+      "speedIndexMs": 903.1206,
+      "transferBytes": 827761,
+      "jsMs": 17.464,
+      "mainThreadMs": 323.3479999999999,
+      "tbtMs": 0,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 5.073000002652407,
+      "heroDownloadMs": 3.584000002592802,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-31-13.report.json",
+      "fetchTime": "2026-11-01T08:31:13.949Z",
+      "score": 83.0,
+      "lcpMs": 4727.7910999999995,
+      "fcpMs": 1052.7911,
+      "cls": 0,
+      "speedIndexMs": 1052.7911,
+      "transferBytes": 827761,
+      "jsMs": 19.583999999999996,
+      "mainThreadMs": 326.30799999999994,
+      "tbtMs": 0,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 5.408000003546476,
+      "heroDownloadMs": 2.717000000178814,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 20,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-31-18.report.json",
+      "fetchTime": "2026-11-01T08:31:18.256Z",
+      "score": 85.0,
+      "lcpMs": 4358.5912,
+      "fcpMs": 1206.4433999999999,
+      "cls": 0,
+      "speedIndexMs": 1206.4433999999999,
+      "transferBytes": 835634,
+      "jsMs": 18.455999999999996,
+      "mainThreadMs": 336.20799999999986,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 12,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 9.105999998748302,
+      "heroDownloadMs": 4.586999997496605,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 27,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-32-06.report.json",
+      "fetchTime": "2026-11-01T08:32:06.597Z",
+      "score": 85.0,
+      "lcpMs": 4358.156800000001,
+      "fcpMs": 1206.1176,
+      "cls": 0,
+      "speedIndexMs": 1206.1176,
+      "transferBytes": 835634,
+      "jsMs": 18.131999999999998,
+      "mainThreadMs": 330.8559999999999,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 12,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 8.063000001013279,
+      "heroDownloadMs": 4.5769999995827675,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 27,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-artists_2026-11-01_17-32-10.report.json",
+      "fetchTime": "2026-11-01T08:32:10.883Z",
+      "score": 86.0,
+      "lcpMs": 4202.705,
+      "fcpMs": 902.7049999999999,
+      "cls": 0,
+      "speedIndexMs": 902.7049999999999,
+      "transferBytes": 827761,
+      "jsMs": 18.604,
+      "mainThreadMs": 321.6479999999999,
+      "tbtMs": 0,
+      "requests": 20,
+      "cssRequests": 2,
+      "imageRequests": 7,
+      "imageTransferBytes": 665030,
+      "maxImageDownloadMs": 4.410999998450279,
+      "heroDownloadMs": 3.6400000005960464,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-30-56.report.json",
+      "fetchTime": "2026-11-01T08:30:56.899Z",
+      "score": 100,
+      "lcpMs": 903.1826000000001,
+      "fcpMs": 903.1826000000001,
+      "cls": 0,
+      "speedIndexMs": 903.1826000000001,
+      "transferBytes": 98416,
+      "jsMs": 12.347999999999999,
+      "mainThreadMs": 187.54400000000004,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-31-01.report.json",
+      "fetchTime": "2026-11-01T08:31:01.007Z",
+      "score": 100,
+      "lcpMs": 903.0585000000001,
+      "fcpMs": 903.0585000000001,
+      "cls": 0,
+      "speedIndexMs": 903.0585000000001,
+      "transferBytes": 98416,
+      "jsMs": 12.424,
+      "mainThreadMs": 179.37200000000004,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-31-49.report.json",
+      "fetchTime": "2026-11-01T08:31:49.513Z",
+      "score": 100,
+      "lcpMs": 902.8215,
+      "fcpMs": 902.8215,
+      "cls": 0,
+      "speedIndexMs": 902.8215,
+      "transferBytes": 98416,
+      "jsMs": 11.696,
+      "mainThreadMs": 176.62800000000001,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-31-53.report.json",
+      "fetchTime": "2026-11-01T08:31:53.646Z",
+      "score": 100,
+      "lcpMs": 903.9742000000001,
+      "fcpMs": 903.9742000000001,
+      "cls": 0,
+      "speedIndexMs": 903.9742000000001,
+      "transferBytes": 98416,
+      "jsMs": 10.3,
+      "mainThreadMs": 178.49599999999995,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-32-41.report.json",
+      "fetchTime": "2026-11-01T08:32:41.663Z",
+      "score": 100,
+      "lcpMs": 902.9983,
+      "fcpMs": 902.9983,
+      "cls": 0,
+      "speedIndexMs": 902.9983,
+      "transferBytes": 98416,
+      "jsMs": 11.16,
+      "mainThreadMs": 177.30800000000002,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-music-production_2026-11-01_17-32-45.report.json",
+      "fetchTime": "2026-11-01T08:32:45.778Z",
+      "score": 100,
+      "lcpMs": 903.0005000000001,
+      "fcpMs": 903.0005000000001,
+      "cls": 0,
+      "speedIndexMs": 903.0005000000001,
+      "transferBytes": 98416,
+      "jsMs": 11.512,
+      "mainThreadMs": 170.33599999999998,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-30-39.report.json",
+      "fetchTime": "2026-11-01T08:30:39.150Z",
+      "score": 79.0,
+      "lcpMs": 5562.41125,
+      "fcpMs": 1295.929,
+      "cls": 0,
+      "speedIndexMs": 1295.929,
+      "transferBytes": 1235938,
+      "jsMs": 27.68,
+      "mainThreadMs": 385.40399999999994,
+      "tbtMs": 36,
+      "requests": 31,
+      "cssRequests": 14,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 11.057000000029802,
+      "heroDownloadMs": 3.5639999993145466,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-30-43.report.json",
+      "fetchTime": "2026-11-01T08:30:43.497Z",
+      "score": 83.0,
+      "lcpMs": 4802.9776,
+      "fcpMs": 1052.9776,
+      "cls": 0,
+      "speedIndexMs": 1052.9776,
+      "transferBytes": 1226774,
+      "jsMs": 15.455999999999998,
+      "mainThreadMs": 374.12000000000006,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 4.4979999996721745,
+      "heroDownloadMs": 3.2569999992847443,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-31-32.report.json",
+      "fetchTime": "2026-11-01T08:31:32.086Z",
+      "score": 83.0,
+      "lcpMs": 4802.837399999999,
+      "fcpMs": 1052.8374,
+      "cls": 0,
+      "speedIndexMs": 1052.8374,
+      "transferBytes": 1226774,
+      "jsMs": 16.951999999999998,
+      "mainThreadMs": 374.0479999999999,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 4.657000001519918,
+      "heroDownloadMs": 3.7980000004172325,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-31-36.report.json",
+      "fetchTime": "2026-11-01T08:31:36.399Z",
+      "score": 81.0,
+      "lcpMs": 5109.8615,
+      "fcpMs": 1207.8892,
+      "cls": 0,
+      "speedIndexMs": 1207.8892,
+      "transferBytes": 1235938,
+      "jsMs": 17.343999999999994,
+      "mainThreadMs": 378.56799999999987,
+      "tbtMs": 0,
+      "requests": 31,
+      "cssRequests": 14,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 10.031999997794628,
+      "heroDownloadMs": 2.8280000016093254,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-32-24.report.json",
+      "fetchTime": "2026-11-01T08:32:24.185Z",
+      "score": 81.0,
+      "lcpMs": 5111.52075,
+      "fcpMs": 1209.2166,
+      "cls": 0,
+      "speedIndexMs": 1209.2166,
+      "transferBytes": 1235938,
+      "jsMs": 16.188,
+      "mainThreadMs": 379.61599999999993,
+      "tbtMs": 0,
+      "requests": 31,
+      "cssRequests": 14,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 11.437000002712011,
+      "heroDownloadMs": 4.83500000089407,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-32-28.report.json",
+      "fetchTime": "2026-11-01T08:32:28.566Z",
+      "score": 83.0,
+      "lcpMs": 4727.526,
+      "fcpMs": 1052.526,
+      "cls": 0,
+      "speedIndexMs": 1052.526,
+      "transferBytes": 1226774,
+      "jsMs": 17.168,
+      "mainThreadMs": 386.94,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 1061450,
+      "maxImageDownloadMs": 4.710999999195337,
+      "heroDownloadMs": 3.1310000009834766,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-30-47.report.json",
+      "fetchTime": "2026-11-01T08:30:47.810Z",
+      "score": 94.0,
+      "lcpMs": 3079.547,
+      "fcpMs": 1115.9152,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1115.9152,
+      "transferBytes": 997398,
+      "jsMs": 19.375999999999998,
+      "mainThreadMs": 330.97599999999994,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 22.019999999552965,
+      "heroDownloadMs": 3.7719999998807907,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-30-52.report.json",
+      "fetchTime": "2026-11-01T08:30:52.215Z",
+      "score": 94.0,
+      "lcpMs": 3079.70215,
+      "fcpMs": 1115.0663,
+      "cls": 0.002554170355783705,
+      "speedIndexMs": 1115.0663,
+      "transferBytes": 997496,
+      "jsMs": 19.299999999999997,
+      "mainThreadMs": 329.51599999999974,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 20.833000000566244,
+      "heroDownloadMs": 3.0459999963641167,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-31-40.report.json",
+      "fetchTime": "2026-11-01T08:31:40.734Z",
+      "score": 93.0,
+      "lcpMs": 3155.21535,
+      "fcpMs": 1117.62525,
+      "cls": 0.002554170355783705,
+      "speedIndexMs": 1117.62525,
+      "transferBytes": 997496,
+      "jsMs": 19.348,
+      "mainThreadMs": 334.868,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 18.57999999821186,
+      "heroDownloadMs": 3.3679999969899654,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-31-45.report.json",
+      "fetchTime": "2026-11-01T08:31:45.131Z",
+      "score": 93.0,
+      "lcpMs": 3154.7207500000004,
+      "fcpMs": 1115.20625,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1115.20625,
+      "transferBytes": 997398,
+      "jsMs": 18.58,
+      "mainThreadMs": 328.256,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 18.574999999254942,
+      "heroDownloadMs": 2.863000001758337,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-32-32.report.json",
+      "fetchTime": "2026-11-01T08:32:32.865Z",
+      "score": 93.0,
+      "lcpMs": 3154.22505,
+      "fcpMs": 1115.4627500000001,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1115.4627500000001,
+      "transferBytes": 997398,
+      "jsMs": 20.159999999999997,
+      "mainThreadMs": 339.5079999999999,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 18.1739999987185,
+      "heroDownloadMs": 2.673000004142523,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-32-37.report.json",
+      "fetchTime": "2026-11-01T08:32:37.246Z",
+      "score": 94.0,
+      "lcpMs": 3155.5288,
+      "fcpMs": 1055.0667999999998,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1055.0667999999998,
+      "transferBytes": 997496,
+      "jsMs": 14.291999999999998,
+      "mainThreadMs": 339.29600000000005,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 2,
+      "imageRequests": 6,
+      "imageTransferBytes": 874912,
+      "maxImageDownloadMs": 20.140999998897314,
+      "heroDownloadMs": 7.235000003129244,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1_2026-11-01_17-30-10.report.json",
+      "fetchTime": "2026-11-01T08:30:10.424Z",
+      "score": 96.0,
+      "lcpMs": 2704.245,
+      "fcpMs": 1054.245,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 2013.1484635213135,
+      "transferBytes": 623999,
+      "jsMs": 66.02,
+      "mainThreadMs": 559.1720000000007,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499607,
+      "maxImageDownloadMs": 83.61499999836087,
+      "heroDownloadMs": 6.033999998122454,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1_2026-11-01_17-30-16.report.json",
+      "fetchTime": "2026-11-01T08:30:16.181Z",
+      "score": 96.0,
+      "lcpMs": 2705.6723999999995,
+      "fcpMs": 1121.5414999999998,
+      "cls": 0.002554170355783705,
+      "speedIndexMs": 1121.5414999999998,
+      "transferBytes": 623735,
+      "jsMs": 19.848000000000003,
+      "mainThreadMs": 382.6920000000003,
+      "tbtMs": 16,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499246,
+      "maxImageDownloadMs": 23.537000000476837,
+      "heroDownloadMs": 3.162000000476837,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1_2026-11-01_17-31-05.report.json",
+      "fetchTime": "2026-11-01T08:31:05.130Z",
+      "score": 96.0,
+      "lcpMs": 2704.348,
+      "fcpMs": 1117.8255,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1117.8255,
+      "transferBytes": 623735,
+      "jsMs": 17.779999999999998,
+      "mainThreadMs": 335.6639999999999,
+      "tbtMs": 14,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499246,
+      "maxImageDownloadMs": 17.762000001966953,
+      "heroDownloadMs": 2.5859999991953373,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1_2026-11-01_17-31-09.report.json",
+      "fetchTime": "2026-11-01T08:31:09.547Z",
+      "score": 96.0,
+      "lcpMs": 2704.9884,
+      "fcpMs": 1118.4923000000001,
+      "cls": 0.002554170355783705,
+      "speedIndexMs": 1118.4923000000001,
+      "transferBytes": 623638,
+      "jsMs": 18.92,
+      "mainThreadMs": 346.4,
+      "tbtMs": 14,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499246,
+      "maxImageDownloadMs": 18.151000000536442,
+      "heroDownloadMs": 4.284000001847744,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "before",
+      "file": "mobile/127.0.0.1_2026-11-01_17-31-57.report.json",
+      "fetchTime": "2026-11-01T08:31:57.780Z",
+      "score": 96.0,
+      "lcpMs": 2704.1093000000005,
+      "fcpMs": 1120.7182500000004,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1120.7182500000004,
+      "transferBytes": 623638,
+      "jsMs": 17.24,
+      "mainThreadMs": 338.2079999999999,
+      "tbtMs": 17,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499246,
+      "maxImageDownloadMs": 19.216999996453524,
+      "heroDownloadMs": 2.764000002294779,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "after",
+      "file": "mobile/127.0.0.1_2026-11-01_17-32-02.report.json",
+      "fetchTime": "2026-11-01T08:32:02.195Z",
+      "score": 96.0,
+      "lcpMs": 2705.0391999999997,
+      "fcpMs": 1054.4738,
+      "cls": 0.008651592974700868,
+      "speedIndexMs": 1054.4738,
+      "transferBytes": 623735,
+      "jsMs": 11.575999999999999,
+      "mainThreadMs": 327.56399999999996,
+      "tbtMs": 0,
+      "requests": 14,
+      "cssRequests": 3,
+      "imageRequests": 5,
+      "imageTransferBytes": 499246,
+      "maxImageDownloadMs": 27.761999998241663,
+      "heroDownloadMs": 5.221999999135733,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 14,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-34-10.report.json",
+      "fetchTime": "2026-11-01T08:34:10.845Z",
+      "score": 99.0,
+      "lcpMs": 929.3076000000001,
+      "fcpMs": 369.3076,
+      "cls": 0,
+      "speedIndexMs": 369.3076,
+      "transferBytes": 704030,
+      "jsMs": 2.9229999999999987,
+      "mainThreadMs": 154.16900000000004,
+      "tbtMs": 0,
+      "requests": 33,
+      "cssRequests": 16,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 12.703000001609325,
+      "heroDownloadMs": 6.513000000268221,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-34-15.report.json",
+      "fetchTime": "2026-11-01T08:34:15.347Z",
+      "score": 99.0,
+      "lcpMs": 842.3779,
+      "fcpMs": 282.3779,
+      "cls": 0,
+      "speedIndexMs": 282.3779,
+      "transferBytes": 693763,
+      "jsMs": 2.7029999999999994,
+      "mainThreadMs": 155.05999999999997,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 3.7000000029802322,
+      "heroDownloadMs": 3.593000002205372,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 16,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-35-03.report.json",
+      "fetchTime": "2026-11-01T08:35:03.300Z",
+      "score": 99.0,
+      "lcpMs": 841.142,
+      "fcpMs": 281.142,
+      "cls": 0,
+      "speedIndexMs": 281.142,
+      "transferBytes": 693763,
+      "jsMs": 2.364999999999999,
+      "mainThreadMs": 143.24800000000002,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 3.1889999993145466,
+      "heroDownloadMs": 3.1889999993145466,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 16,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-35-07.report.json",
+      "fetchTime": "2026-11-01T08:35:07.698Z",
+      "score": 99.0,
+      "lcpMs": 926.7275999999999,
+      "fcpMs": 366.7276,
+      "cls": 0,
+      "speedIndexMs": 366.7276,
+      "transferBytes": 704030,
+      "jsMs": 2.363999999999999,
+      "mainThreadMs": 138.751,
+      "tbtMs": 0,
+      "requests": 33,
+      "cssRequests": 16,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 8.269000001251698,
+      "heroDownloadMs": 3.6929999999701977,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-35-53.report.json",
+      "fetchTime": "2026-11-01T08:35:53.943Z",
+      "score": 99.0,
+      "lcpMs": 929.5077999999999,
+      "fcpMs": 369.5078,
+      "cls": 0,
+      "speedIndexMs": 369.5078,
+      "transferBytes": 704030,
+      "jsMs": 2.531999999999999,
+      "mainThreadMs": 152.014,
+      "tbtMs": 0,
+      "requests": 33,
+      "cssRequests": 16,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 11.57099999859929,
+      "heroDownloadMs": 5.95099999755621,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists-enomoto-mia_2026-11-01_17-35-58.report.json",
+      "fetchTime": "2026-11-01T08:35:58.516Z",
+      "score": 99.0,
+      "lcpMs": 845.1849,
+      "fcpMs": 285.18489999999997,
+      "cls": 0,
+      "speedIndexMs": 285.18489999999997,
+      "transferBytes": 693763,
+      "jsMs": 3.722999999999999,
+      "mainThreadMs": 230.323,
+      "tbtMs": 0,
+      "requests": 19,
+      "cssRequests": 2,
+      "imageRequests": 2,
+      "imageTransferBytes": 507604,
+      "maxImageDownloadMs": 5.657000001519918,
+      "heroDownloadMs": 5.657000001519918,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 16,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-34-01.report.json",
+      "fetchTime": "2026-11-01T08:34:01.912Z",
+      "score": 99.0,
+      "lcpMs": 1026.2004000000002,
+      "fcpMs": 311.2004,
+      "cls": 0,
+      "speedIndexMs": 311.2004,
+      "transferBytes": 1313114,
+      "jsMs": 0,
+      "mainThreadMs": 95.84600000000005,
+      "tbtMs": 0,
+      "requests": 31,
+      "cssRequests": 12,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 6.824999999254942,
+      "heroDownloadMs": 5.175000000745058,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-34-06.report.json",
+      "fetchTime": "2026-11-01T08:34:06.329Z",
+      "score": 99.0,
+      "lcpMs": 902.9679999999998,
+      "fcpMs": 242.96800000000002,
+      "cls": 0,
+      "speedIndexMs": 242.96800000000002,
+      "transferBytes": 1305241,
+      "jsMs": 2.5349999999999997,
+      "mainThreadMs": 89.91399999999999,
+      "tbtMs": 0,
+      "requests": 21,
+      "cssRequests": 2,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 6.902999997138977,
+      "heroDownloadMs": 3.2650000005960464,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-34-54.report.json",
+      "fetchTime": "2026-11-01T08:34:54.802Z",
+      "score": 99.0,
+      "lcpMs": 922.8608000000002,
+      "fcpMs": 242.86079999999998,
+      "cls": 0,
+      "speedIndexMs": 242.86079999999998,
+      "transferBytes": 1305241,
+      "jsMs": 2.2439999999999998,
+      "mainThreadMs": 81.803,
+      "tbtMs": 0,
+      "requests": 21,
+      "cssRequests": 2,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 5.264999996870756,
+      "heroDownloadMs": 2.3259999975562096,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-34-59.report.json",
+      "fetchTime": "2026-11-01T08:34:59.044Z",
+      "score": 98.0,
+      "lcpMs": 1065.3247,
+      "fcpMs": 306.3247,
+      "cls": 0,
+      "speedIndexMs": 306.3247,
+      "transferBytes": 1313114,
+      "jsMs": 0,
+      "mainThreadMs": 82.35200000000002,
+      "tbtMs": 0,
+      "requests": 31,
+      "cssRequests": 12,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 5.653999999165535,
+      "heroDownloadMs": 3.94200000166893,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 31,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-35-45.report.json",
+      "fetchTime": "2026-11-01T08:35:45.385Z",
+      "score": 99.0,
+      "lcpMs": 986.89865,
+      "fcpMs": 286.89865000000003,
+      "cls": 0,
+      "speedIndexMs": 286.89865000000003,
+      "transferBytes": 1313114,
+      "jsMs": 2.1599999999999997,
+      "mainThreadMs": 88.85099999999997,
+      "tbtMs": 0,
+      "requests": 31,
+      "cssRequests": 12,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 9.332000002264977,
+      "heroDownloadMs": 5.129000000655651,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-artists_2026-11-01_17-35-49.report.json",
+      "fetchTime": "2026-11-01T08:35:49.669Z",
+      "score": 99.0,
+      "lcpMs": 924.4812000000002,
+      "fcpMs": 244.4812,
+      "cls": 0,
+      "speedIndexMs": 244.4812,
+      "transferBytes": 1305241,
+      "jsMs": 2.217,
+      "mainThreadMs": 92.028,
+      "tbtMs": 0,
+      "requests": 21,
+      "cssRequests": 2,
+      "imageRequests": 8,
+      "imageTransferBytes": 1142510,
+      "maxImageDownloadMs": 9.326999999582767,
+      "heroDownloadMs": 3.3200000002980232,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-34-37.report.json",
+      "fetchTime": "2026-11-01T08:34:37.530Z",
+      "score": 100,
+      "lcpMs": 244.44709999999998,
+      "fcpMs": 244.44709999999998,
+      "cls": 0,
+      "speedIndexMs": 244.44709999999998,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 42.75000000000001,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-34-41.report.json",
+      "fetchTime": "2026-11-01T08:34:41.604Z",
+      "score": 100,
+      "lcpMs": 244.41199999999998,
+      "fcpMs": 244.41199999999998,
+      "cls": 0,
+      "speedIndexMs": 244.41199999999998,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 42.392,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-35-29.report.json",
+      "fetchTime": "2026-11-01T08:35:29.486Z",
+      "score": 100,
+      "lcpMs": 243.844,
+      "fcpMs": 243.844,
+      "cls": 0,
+      "speedIndexMs": 243.844,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 38.72999999999999,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-36-20.report.json",
+      "fetchTime": "2026-11-01T08:36:20.688Z",
+      "score": 100,
+      "lcpMs": 254.1778,
+      "fcpMs": 254.1778,
+      "cls": 0,
+      "speedIndexMs": 254.1778,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 43.261,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-36-24.report.json",
+      "fetchTime": "2026-11-01T08:36:24.759Z",
+      "score": 100,
+      "lcpMs": 242.39909999999998,
+      "fcpMs": 242.39909999999998,
+      "cls": 0,
+      "speedIndexMs": 242.39909999999998,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 43.551,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-music-production_2026-11-01_17-37-13.report.json",
+      "fetchTime": "2026-11-01T08:37:13.563Z",
+      "score": 100,
+      "lcpMs": 244.85180000000003,
+      "fcpMs": 244.85180000000003,
+      "cls": 0,
+      "speedIndexMs": 244.85180000000003,
+      "transferBytes": 98416,
+      "jsMs": 0,
+      "mainThreadMs": 44.18699999999998,
+      "tbtMs": 0,
+      "requests": 6,
+      "cssRequests": 3,
+      "imageRequests": 0,
+      "imageTransferBytes": 0,
+      "maxImageDownloadMs": 0,
+      "heroDownloadMs": 0,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 6,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-34-19.report.json",
+      "fetchTime": "2026-11-01T08:34:19.831Z",
+      "score": 99.0,
+      "lcpMs": 947.8914,
+      "fcpMs": 327.8914,
+      "cls": 0,
+      "speedIndexMs": 327.8914,
+      "transferBytes": 1193366,
+      "jsMs": 2.0349999999999997,
+      "mainThreadMs": 97.686,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 14,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 10.266999997198582,
+      "heroDownloadMs": 4.418999996036291,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 29,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-34-24.report.json",
+      "fetchTime": "2026-11-01T08:34:24.162Z",
+      "score": 99.0,
+      "lcpMs": 902.4195,
+      "fcpMs": 282.4195,
+      "cls": 0,
+      "speedIndexMs": 282.4195,
+      "transferBytes": 1184202,
+      "jsMs": 1.4929999999999994,
+      "mainThreadMs": 98.87500000000003,
+      "tbtMs": 0,
+      "requests": 18,
+      "cssRequests": 2,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 4.868999999016523,
+      "heroDownloadMs": 3.3310000002384186,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-35-12.report.json",
+      "fetchTime": "2026-11-01T08:35:12.129Z",
+      "score": 99.0,
+      "lcpMs": 862.3349000000001,
+      "fcpMs": 282.3349,
+      "cls": 0,
+      "speedIndexMs": 282.3349,
+      "transferBytes": 1184202,
+      "jsMs": 1.956,
+      "mainThreadMs": 87.99499999999999,
+      "tbtMs": 0,
+      "requests": 18,
+      "cssRequests": 2,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 4.046999998390675,
+      "heroDownloadMs": 3.13399999961257,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-35-16.report.json",
+      "fetchTime": "2026-11-01T08:35:16.351Z",
+      "score": 98.0,
+      "lcpMs": 1046.8402,
+      "fcpMs": 346.8402,
+      "cls": 0,
+      "speedIndexMs": 346.8402,
+      "transferBytes": 1193366,
+      "jsMs": 0,
+      "mainThreadMs": 86.35700000000001,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 14,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 7.666000001132488,
+      "heroDownloadMs": 3.912999998778105,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 30,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-36-03.report.json",
+      "fetchTime": "2026-11-01T08:36:03.053Z",
+      "score": 99.0,
+      "lcpMs": 947.6478000000001,
+      "fcpMs": 327.64779999999996,
+      "cls": 0,
+      "speedIndexMs": 327.64779999999996,
+      "transferBytes": 1193366,
+      "jsMs": 2.504,
+      "mainThreadMs": 95.931,
+      "tbtMs": 0,
+      "requests": 30,
+      "cssRequests": 14,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 8.802000001072884,
+      "heroDownloadMs": 4.221999999135733,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 29,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-releases-anata-dake-ni-okuru-happy-birthday_2026-11-01_17-36-07.report.json",
+      "fetchTime": "2026-11-01T08:36:07.405Z",
+      "score": 99.0,
+      "lcpMs": 942.3012000000001,
+      "fcpMs": 282.3012,
+      "cls": 0,
+      "speedIndexMs": 282.3012,
+      "transferBytes": 1184202,
+      "jsMs": 2.2259999999999995,
+      "mainThreadMs": 97.526,
+      "tbtMs": 0,
+      "requests": 18,
+      "cssRequests": 2,
+      "imageRequests": 5,
+      "imageTransferBytes": 1018878,
+      "maxImageDownloadMs": 4.900000002235174,
+      "heroDownloadMs": 3.7670000046491623,
+      "amaterasuRequests": 0,
+      "amaterasuResourceBytes": 0,
+      "amaterasuSources": [],
+      "requestsBeforeObservedFCP": 18,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-34-28.report.json",
+      "fetchTime": "2026-11-01T08:34:28.472Z",
+      "score": 98.0,
+      "lcpMs": 1105.4678,
+      "fcpMs": 304.4678,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 304.4678,
+      "transferBytes": 4958040,
+      "jsMs": 0,
+      "mainThreadMs": 118.85800000000003,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 4835554,
+      "maxImageDownloadMs": 221.59699999913573,
+      "heroDownloadMs": 2.786999996751547,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-34-32.report.json",
+      "fetchTime": "2026-11-01T08:34:32.955Z",
+      "score": 98.0,
+      "lcpMs": 1106.355825,
+      "fcpMs": 304.57785,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 304.57785,
+      "transferBytes": 2546797,
+      "jsMs": 0,
+      "mainThreadMs": 90.09700000000007,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 2424213,
+      "maxImageDownloadMs": 26.15599999949336,
+      "heroDownloadMs": 3.0219999998807907,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-35-20.report.json",
+      "fetchTime": "2026-11-01T08:35:20.621Z",
+      "score": 98.0,
+      "lcpMs": 1104.2991499999998,
+      "fcpMs": 300.9937,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 300.9937,
+      "transferBytes": 2546797,
+      "jsMs": 0,
+      "mainThreadMs": 78.459,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 2424213,
+      "maxImageDownloadMs": 25.30799999460578,
+      "heroDownloadMs": 2.9009999968111515,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-35-25.report.json",
+      "fetchTime": "2026-11-01T08:35:25.068Z",
+      "score": 98.0,
+      "lcpMs": 1103.8274999999999,
+      "fcpMs": 300.30679999999995,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 300.30679999999995,
+      "transferBytes": 4957966,
+      "jsMs": 0,
+      "mainThreadMs": 79.27500000000009,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 4835480,
+      "maxImageDownloadMs": 28.871999997645617,
+      "heroDownloadMs": 3.0099999979138374,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-36-11.report.json",
+      "fetchTime": "2026-11-01T08:36:11.687Z",
+      "score": 98.0,
+      "lcpMs": 1105.144275,
+      "fcpMs": 303.35195,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 303.35195,
+      "transferBytes": 4958049,
+      "jsMs": 0,
+      "mainThreadMs": 96.46700000000023,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 4835563,
+      "maxImageDownloadMs": 118.19399999827147,
+      "heroDownloadMs": 3.4059999994933605,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1-worlds-enomoto-mia_2026-11-01_17-36-16.report.json",
+      "fetchTime": "2026-11-01T08:36:16.198Z",
+      "score": 98.0,
+      "lcpMs": 1105.811675,
+      "fcpMs": 302.95375,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 302.95375,
+      "transferBytes": 2546796,
+      "jsMs": 0,
+      "mainThreadMs": 93.57000000000015,
+      "tbtMs": 0,
+      "requests": 25,
+      "cssRequests": 2,
+      "imageRequests": 17,
+      "imageTransferBytes": 2424212,
+      "maxImageDownloadMs": 26.289000000804663,
+      "heroDownloadMs": 3.3690000027418137,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 25,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1_2026-11-01_17-33-52.report.json",
+      "fetchTime": "2026-11-01T08:33:52.422Z",
+      "score": 100,
+      "lcpMs": 309.984,
+      "fcpMs": 309.984,
+      "cls": 0.006173427585879812,
+      "speedIndexMs": 327.89541199953175,
+      "transferBytes": 3496431,
+      "jsMs": 0,
+      "mainThreadMs": 118.20200000000006,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 3372039,
+      "maxImageDownloadMs": 65.6169999986887,
+      "heroDownloadMs": 8.372000001370907,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1_2026-11-01_17-33-57.report.json",
+      "fetchTime": "2026-11-01T08:33:57.363Z",
+      "score": 100,
+      "lcpMs": 301.19115,
+      "fcpMs": 301.19115,
+      "cls": 0.004703898793888451,
+      "speedIndexMs": 301.19115,
+      "transferBytes": 1084900,
+      "jsMs": 0,
+      "mainThreadMs": 79.91300000000005,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 960411,
+      "maxImageDownloadMs": 20.58100000023842,
+      "heroDownloadMs": 4.901999998837709,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1_2026-11-01_17-34-45.report.json",
+      "fetchTime": "2026-11-01T08:34:45.764Z",
+      "score": 100,
+      "lcpMs": 300.32785,
+      "fcpMs": 300.32785,
+      "cls": 0.006173427585879812,
+      "speedIndexMs": 300.32785,
+      "transferBytes": 1084900,
+      "jsMs": 0,
+      "mainThreadMs": 84.653,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 960411,
+      "maxImageDownloadMs": 24.082000002264977,
+      "heroDownloadMs": 4.949000000953674,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1_2026-11-01_17-34-50.report.json",
+      "fetchTime": "2026-11-01T08:34:50.279Z",
+      "score": 100,
+      "lcpMs": 287.71175000000005,
+      "fcpMs": 287.71175000000005,
+      "cls": 0.006173427585879812,
+      "speedIndexMs": 287.71175000000005,
+      "transferBytes": 3496070,
+      "jsMs": 1.8699999999999997,
+      "mainThreadMs": 84.93799999999999,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 3371678,
+      "maxImageDownloadMs": 19.036999996751547,
+      "heroDownloadMs": 4.4969999976456165,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "before",
+      "file": "desktop/127.0.0.1_2026-11-01_17-35-34.report.json",
+      "fetchTime": "2026-11-01T08:35:34.857Z",
+      "score": 100,
+      "lcpMs": 284.7077,
+      "fcpMs": 284.7077,
+      "cls": 0.006173427585879812,
+      "speedIndexMs": 284.7077,
+      "transferBytes": 3496431,
+      "jsMs": 0,
+      "mainThreadMs": 79.70499999999994,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 3372039,
+      "maxImageDownloadMs": 52.908999998122454,
+      "heroDownloadMs": 6.248999997973442,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 2515697,
+      "amaterasuSources": [
+        "/images/enomoto-mia-amaterasu-official-jacket.png"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "after",
+      "file": "desktop/127.0.0.1_2026-11-01_17-35-39.report.json",
+      "fetchTime": "2026-11-01T08:35:39.982Z",
+      "score": 100,
+      "lcpMs": 300.29045,
+      "fcpMs": 300.29045,
+      "cls": 0.006173427585879812,
+      "speedIndexMs": 300.29045,
+      "transferBytes": 1084900,
+      "jsMs": 0,
+      "mainThreadMs": 81.37399999999998,
+      "tbtMs": 0,
+      "requests": 17,
+      "cssRequests": 3,
+      "imageRequests": 8,
+      "imageTransferBytes": 960411,
+      "maxImageDownloadMs": 129.35399999842048,
+      "heroDownloadMs": 4.471000000834465,
+      "amaterasuRequests": 1,
+      "amaterasuResourceBytes": 104430,
+      "amaterasuSources": [
+        "/assets/v6-media/official/22dc21412a1af458c731-640.webp"
+      ],
+      "requestsBeforeObservedFCP": 17,
+      "incompleteImages": 0
+    }
+  ],
+  "summaries": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 300.32785,
+        "fcpMs": 300.32785,
+        "cls": 0.006173427585879812,
+        "speedIndexMs": 300.32785,
+        "transferBytes": 1084900,
+        "jsMs": 0,
+        "mainThreadMs": 81.37399999999998,
+        "tbtMs": 0,
+        "requests": 17,
+        "cssRequests": 3,
+        "imageRequests": 8,
+        "imageTransferBytes": 960411,
+        "maxImageDownloadMs": 24.082000002264977,
+        "heroDownloadMs": 4.901999998837709,
+        "amaterasuRequests": 1,
+        "amaterasuResourceBytes": 104430,
+        "requestsBeforeObservedFCP": 17,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          300.29045,
+          301.19115
+        ],
+        "fcpMs": [
+          300.29045,
+          301.19115
+        ],
+        "cls": [
+          0.004703898793888451,
+          0.006173427585879812
+        ],
+        "speedIndexMs": [
+          300.29045,
+          301.19115
+        ],
+        "transferBytes": [
+          1084900,
+          1084900
+        ],
+        "jsMs": [
+          0,
+          0
+        ],
+        "mainThreadMs": [
+          79.91300000000005,
+          84.653
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          17,
+          17
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          8,
+          8
+        ],
+        "imageTransferBytes": [
+          960411,
+          960411
+        ],
+        "maxImageDownloadMs": [
+          20.58100000023842,
+          129.35399999842048
+        ],
+        "heroDownloadMs": [
+          4.471000000834465,
+          4.949000000953674
+        ],
+        "amaterasuRequests": [
+          1,
+          1
+        ],
+        "amaterasuResourceBytes": [
+          104430,
+          104430
+        ],
+        "requestsBeforeObservedFCP": [
+          17,
+          17
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 287.71175000000005,
+        "fcpMs": 287.71175000000005,
+        "cls": 0.006173427585879812,
+        "speedIndexMs": 287.71175000000005,
+        "transferBytes": 3496431,
+        "jsMs": 0,
+        "mainThreadMs": 84.93799999999999,
+        "tbtMs": 0,
+        "requests": 17,
+        "cssRequests": 3,
+        "imageRequests": 8,
+        "imageTransferBytes": 3372039,
+        "maxImageDownloadMs": 52.908999998122454,
+        "heroDownloadMs": 6.248999997973442,
+        "amaterasuRequests": 1,
+        "amaterasuResourceBytes": 2515697,
+        "requestsBeforeObservedFCP": 17,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          284.7077,
+          309.984
+        ],
+        "fcpMs": [
+          284.7077,
+          309.984
+        ],
+        "cls": [
+          0.006173427585879812,
+          0.006173427585879812
+        ],
+        "speedIndexMs": [
+          284.7077,
+          327.89541199953175
+        ],
+        "transferBytes": [
+          3496070,
+          3496431
+        ],
+        "jsMs": [
+          0,
+          1.8699999999999997
+        ],
+        "mainThreadMs": [
+          79.70499999999994,
+          118.20200000000006
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          17,
+          17
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          8,
+          8
+        ],
+        "imageTransferBytes": [
+          3371678,
+          3372039
+        ],
+        "maxImageDownloadMs": [
+          19.036999996751547,
+          65.6169999986887
+        ],
+        "heroDownloadMs": [
+          4.4969999976456165,
+          8.372000001370907
+        ],
+        "amaterasuRequests": [
+          1,
+          1
+        ],
+        "amaterasuResourceBytes": [
+          2515697,
+          2515697
+        ],
+        "requestsBeforeObservedFCP": [
+          17,
+          17
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 922.8608000000002,
+        "fcpMs": 242.96800000000002,
+        "cls": 0,
+        "speedIndexMs": 242.96800000000002,
+        "transferBytes": 1305241,
+        "jsMs": 2.2439999999999998,
+        "mainThreadMs": 89.91399999999999,
+        "tbtMs": 0,
+        "requests": 21,
+        "cssRequests": 2,
+        "imageRequests": 8,
+        "imageTransferBytes": 1142510,
+        "maxImageDownloadMs": 6.902999997138977,
+        "heroDownloadMs": 3.2650000005960464,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 18,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          99.0,
+          99.0
+        ],
+        "lcpMs": [
+          902.9679999999998,
+          924.4812000000002
+        ],
+        "fcpMs": [
+          242.86079999999998,
+          244.4812
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          242.86079999999998,
+          244.4812
+        ],
+        "transferBytes": [
+          1305241,
+          1305241
+        ],
+        "jsMs": [
+          2.217,
+          2.5349999999999997
+        ],
+        "mainThreadMs": [
+          81.803,
+          92.028
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          21,
+          21
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          8,
+          8
+        ],
+        "imageTransferBytes": [
+          1142510,
+          1142510
+        ],
+        "maxImageDownloadMs": [
+          5.264999996870756,
+          9.326999999582767
+        ],
+        "heroDownloadMs": [
+          2.3259999975562096,
+          3.3200000002980232
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          18,
+          18
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 1026.2004000000002,
+        "fcpMs": 306.3247,
+        "cls": 0,
+        "speedIndexMs": 306.3247,
+        "transferBytes": 1313114,
+        "jsMs": 0,
+        "mainThreadMs": 88.85099999999997,
+        "tbtMs": 0,
+        "requests": 31,
+        "cssRequests": 12,
+        "imageRequests": 8,
+        "imageTransferBytes": 1142510,
+        "maxImageDownloadMs": 6.824999999254942,
+        "heroDownloadMs": 5.129000000655651,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 31,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          98.0,
+          99.0
+        ],
+        "lcpMs": [
+          986.89865,
+          1065.3247
+        ],
+        "fcpMs": [
+          286.89865000000003,
+          311.2004
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          286.89865000000003,
+          311.2004
+        ],
+        "transferBytes": [
+          1313114,
+          1313114
+        ],
+        "jsMs": [
+          0,
+          2.1599999999999997
+        ],
+        "mainThreadMs": [
+          82.35200000000002,
+          95.84600000000005
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          31,
+          31
+        ],
+        "cssRequests": [
+          12,
+          12
+        ],
+        "imageRequests": [
+          8,
+          8
+        ],
+        "imageTransferBytes": [
+          1142510,
+          1142510
+        ],
+        "maxImageDownloadMs": [
+          5.653999999165535,
+          9.332000002264977
+        ],
+        "heroDownloadMs": [
+          3.94200000166893,
+          5.175000000745058
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          30,
+          31
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 842.3779,
+        "fcpMs": 282.3779,
+        "cls": 0,
+        "speedIndexMs": 282.3779,
+        "transferBytes": 693763,
+        "jsMs": 2.7029999999999994,
+        "mainThreadMs": 155.05999999999997,
+        "tbtMs": 0,
+        "requests": 19,
+        "cssRequests": 2,
+        "imageRequests": 2,
+        "imageTransferBytes": 507604,
+        "maxImageDownloadMs": 3.7000000029802322,
+        "heroDownloadMs": 3.593000002205372,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 16,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          99.0,
+          99.0
+        ],
+        "lcpMs": [
+          841.142,
+          845.1849
+        ],
+        "fcpMs": [
+          281.142,
+          285.18489999999997
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          281.142,
+          285.18489999999997
+        ],
+        "transferBytes": [
+          693763,
+          693763
+        ],
+        "jsMs": [
+          2.364999999999999,
+          3.722999999999999
+        ],
+        "mainThreadMs": [
+          143.24800000000002,
+          230.323
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          19,
+          19
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          2,
+          2
+        ],
+        "imageTransferBytes": [
+          507604,
+          507604
+        ],
+        "maxImageDownloadMs": [
+          3.1889999993145466,
+          5.657000001519918
+        ],
+        "heroDownloadMs": [
+          3.1889999993145466,
+          5.657000001519918
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          16,
+          16
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 929.3076000000001,
+        "fcpMs": 369.3076,
+        "cls": 0,
+        "speedIndexMs": 369.3076,
+        "transferBytes": 704030,
+        "jsMs": 2.531999999999999,
+        "mainThreadMs": 152.014,
+        "tbtMs": 0,
+        "requests": 33,
+        "cssRequests": 16,
+        "imageRequests": 2,
+        "imageTransferBytes": 507604,
+        "maxImageDownloadMs": 11.57099999859929,
+        "heroDownloadMs": 5.95099999755621,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 30,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          99.0,
+          99.0
+        ],
+        "lcpMs": [
+          926.7275999999999,
+          929.5077999999999
+        ],
+        "fcpMs": [
+          366.7276,
+          369.5078
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          366.7276,
+          369.5078
+        ],
+        "transferBytes": [
+          704030,
+          704030
+        ],
+        "jsMs": [
+          2.363999999999999,
+          2.9229999999999987
+        ],
+        "mainThreadMs": [
+          138.751,
+          154.16900000000004
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          33,
+          33
+        ],
+        "cssRequests": [
+          16,
+          16
+        ],
+        "imageRequests": [
+          2,
+          2
+        ],
+        "imageTransferBytes": [
+          507604,
+          507604
+        ],
+        "maxImageDownloadMs": [
+          8.269000001251698,
+          12.703000001609325
+        ],
+        "heroDownloadMs": [
+          3.6929999999701977,
+          6.513000000268221
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          30,
+          30
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 243.844,
+        "fcpMs": 243.844,
+        "cls": 0,
+        "speedIndexMs": 243.844,
+        "transferBytes": 98416,
+        "jsMs": 0,
+        "mainThreadMs": 42.392,
+        "tbtMs": 0,
+        "requests": 6,
+        "cssRequests": 3,
+        "imageRequests": 0,
+        "imageTransferBytes": 0,
+        "maxImageDownloadMs": 0,
+        "heroDownloadMs": 0,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 6,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          242.39909999999998,
+          244.41199999999998
+        ],
+        "fcpMs": [
+          242.39909999999998,
+          244.41199999999998
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          242.39909999999998,
+          244.41199999999998
+        ],
+        "transferBytes": [
+          98416,
+          98416
+        ],
+        "jsMs": [
+          0,
+          0
+        ],
+        "mainThreadMs": [
+          38.72999999999999,
+          43.551
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          6,
+          6
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          0,
+          0
+        ],
+        "imageTransferBytes": [
+          0,
+          0
+        ],
+        "maxImageDownloadMs": [
+          0,
+          0
+        ],
+        "heroDownloadMs": [
+          0,
+          0
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          6,
+          6
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/music-production/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 244.85180000000003,
+        "fcpMs": 244.85180000000003,
+        "cls": 0,
+        "speedIndexMs": 244.85180000000003,
+        "transferBytes": 98416,
+        "jsMs": 0,
+        "mainThreadMs": 43.261,
+        "tbtMs": 0,
+        "requests": 6,
+        "cssRequests": 3,
+        "imageRequests": 0,
+        "imageTransferBytes": 0,
+        "maxImageDownloadMs": 0,
+        "heroDownloadMs": 0,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 6,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          244.44709999999998,
+          254.1778
+        ],
+        "fcpMs": [
+          244.44709999999998,
+          254.1778
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          244.44709999999998,
+          254.1778
+        ],
+        "transferBytes": [
+          98416,
+          98416
+        ],
+        "jsMs": [
+          0,
+          0
+        ],
+        "mainThreadMs": [
+          42.75000000000001,
+          44.18699999999998
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          6,
+          6
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          0,
+          0
+        ],
+        "imageTransferBytes": [
+          0,
+          0
+        ],
+        "maxImageDownloadMs": [
+          0,
+          0
+        ],
+        "heroDownloadMs": [
+          0,
+          0
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          6,
+          6
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 902.4195,
+        "fcpMs": 282.3349,
+        "cls": 0,
+        "speedIndexMs": 282.3349,
+        "transferBytes": 1184202,
+        "jsMs": 1.956,
+        "mainThreadMs": 97.526,
+        "tbtMs": 0,
+        "requests": 18,
+        "cssRequests": 2,
+        "imageRequests": 5,
+        "imageTransferBytes": 1018878,
+        "maxImageDownloadMs": 4.868999999016523,
+        "heroDownloadMs": 3.3310000002384186,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 18,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          99.0,
+          99.0
+        ],
+        "lcpMs": [
+          862.3349000000001,
+          942.3012000000001
+        ],
+        "fcpMs": [
+          282.3012,
+          282.4195
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          282.3012,
+          282.4195
+        ],
+        "transferBytes": [
+          1184202,
+          1184202
+        ],
+        "jsMs": [
+          1.4929999999999994,
+          2.2259999999999995
+        ],
+        "mainThreadMs": [
+          87.99499999999999,
+          98.87500000000003
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          18,
+          18
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          5,
+          5
+        ],
+        "imageTransferBytes": [
+          1018878,
+          1018878
+        ],
+        "maxImageDownloadMs": [
+          4.046999998390675,
+          4.900000002235174
+        ],
+        "heroDownloadMs": [
+          3.13399999961257,
+          3.7670000046491623
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          17,
+          18
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 99.0,
+        "lcpMs": 947.8914,
+        "fcpMs": 327.8914,
+        "cls": 0,
+        "speedIndexMs": 327.8914,
+        "transferBytes": 1193366,
+        "jsMs": 2.0349999999999997,
+        "mainThreadMs": 95.931,
+        "tbtMs": 0,
+        "requests": 30,
+        "cssRequests": 14,
+        "imageRequests": 5,
+        "imageTransferBytes": 1018878,
+        "maxImageDownloadMs": 8.802000001072884,
+        "heroDownloadMs": 4.221999999135733,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 29,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          98.0,
+          99.0
+        ],
+        "lcpMs": [
+          947.6478000000001,
+          1046.8402
+        ],
+        "fcpMs": [
+          327.64779999999996,
+          346.8402
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          327.64779999999996,
+          346.8402
+        ],
+        "transferBytes": [
+          1193366,
+          1193366
+        ],
+        "jsMs": [
+          0,
+          2.504
+        ],
+        "mainThreadMs": [
+          86.35700000000001,
+          97.686
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          30,
+          30
+        ],
+        "cssRequests": [
+          14,
+          14
+        ],
+        "imageRequests": [
+          5,
+          5
+        ],
+        "imageTransferBytes": [
+          1018878,
+          1018878
+        ],
+        "maxImageDownloadMs": [
+          7.666000001132488,
+          10.266999997198582
+        ],
+        "heroDownloadMs": [
+          3.912999998778105,
+          4.418999996036291
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          29,
+          30
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 98.0,
+        "lcpMs": 1105.811675,
+        "fcpMs": 302.95375,
+        "cls": 0.004703898793888451,
+        "speedIndexMs": 302.95375,
+        "transferBytes": 2546797,
+        "jsMs": 0,
+        "mainThreadMs": 90.09700000000007,
+        "tbtMs": 0,
+        "requests": 25,
+        "cssRequests": 2,
+        "imageRequests": 17,
+        "imageTransferBytes": 2424213,
+        "maxImageDownloadMs": 26.15599999949336,
+        "heroDownloadMs": 3.0219999998807907,
+        "amaterasuRequests": 1,
+        "amaterasuResourceBytes": 104430,
+        "requestsBeforeObservedFCP": 25,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          98.0,
+          98.0
+        ],
+        "lcpMs": [
+          1104.2991499999998,
+          1106.355825
+        ],
+        "fcpMs": [
+          300.9937,
+          304.57785
+        ],
+        "cls": [
+          0.004703898793888451,
+          0.004703898793888451
+        ],
+        "speedIndexMs": [
+          300.9937,
+          304.57785
+        ],
+        "transferBytes": [
+          2546796,
+          2546797
+        ],
+        "jsMs": [
+          0,
+          0
+        ],
+        "mainThreadMs": [
+          78.459,
+          93.57000000000015
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          25,
+          25
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          17,
+          17
+        ],
+        "imageTransferBytes": [
+          2424212,
+          2424213
+        ],
+        "maxImageDownloadMs": [
+          25.30799999460578,
+          26.289000000804663
+        ],
+        "heroDownloadMs": [
+          2.9009999968111515,
+          3.3690000027418137
+        ],
+        "amaterasuRequests": [
+          1,
+          1
+        ],
+        "amaterasuResourceBytes": [
+          104430,
+          104430
+        ],
+        "requestsBeforeObservedFCP": [
+          25,
+          25
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "desktop",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 98.0,
+        "lcpMs": 1105.144275,
+        "fcpMs": 303.35195,
+        "cls": 0.004703898793888451,
+        "speedIndexMs": 303.35195,
+        "transferBytes": 4958040,
+        "jsMs": 0,
+        "mainThreadMs": 96.46700000000023,
+        "tbtMs": 0,
+        "requests": 25,
+        "cssRequests": 2,
+        "imageRequests": 17,
+        "imageTransferBytes": 4835554,
+        "maxImageDownloadMs": 118.19399999827147,
+        "heroDownloadMs": 3.0099999979138374,
+        "amaterasuRequests": 1,
+        "amaterasuResourceBytes": 2515697,
+        "requestsBeforeObservedFCP": 25,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          98.0,
+          98.0
+        ],
+        "lcpMs": [
+          1103.8274999999999,
+          1105.4678
+        ],
+        "fcpMs": [
+          300.30679999999995,
+          304.4678
+        ],
+        "cls": [
+          0.004703898793888451,
+          0.004703898793888451
+        ],
+        "speedIndexMs": [
+          300.30679999999995,
+          304.4678
+        ],
+        "transferBytes": [
+          4957966,
+          4958049
+        ],
+        "jsMs": [
+          0,
+          0
+        ],
+        "mainThreadMs": [
+          79.27500000000009,
+          118.85800000000003
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          25,
+          25
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          17,
+          17
+        ],
+        "imageTransferBytes": [
+          4835480,
+          4835563
+        ],
+        "maxImageDownloadMs": [
+          28.871999997645617,
+          221.59699999913573
+        ],
+        "heroDownloadMs": [
+          2.786999996751547,
+          3.4059999994933605
+        ],
+        "amaterasuRequests": [
+          1,
+          1
+        ],
+        "amaterasuResourceBytes": [
+          2515697,
+          2515697
+        ],
+        "requestsBeforeObservedFCP": [
+          25,
+          25
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 96.0,
+        "lcpMs": 2705.0391999999997,
+        "fcpMs": 1117.8255,
+        "cls": 0.008651592974700868,
+        "speedIndexMs": 1117.8255,
+        "transferBytes": 623735,
+        "jsMs": 17.779999999999998,
+        "mainThreadMs": 335.6639999999999,
+        "tbtMs": 14,
+        "requests": 14,
+        "cssRequests": 3,
+        "imageRequests": 5,
+        "imageTransferBytes": 499246,
+        "maxImageDownloadMs": 23.537000000476837,
+        "heroDownloadMs": 3.162000000476837,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 14,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          96.0,
+          96.0
+        ],
+        "lcpMs": [
+          2704.348,
+          2705.6723999999995
+        ],
+        "fcpMs": [
+          1054.4738,
+          1121.5414999999998
+        ],
+        "cls": [
+          0.002554170355783705,
+          0.008651592974700868
+        ],
+        "speedIndexMs": [
+          1054.4738,
+          1121.5414999999998
+        ],
+        "transferBytes": [
+          623735,
+          623735
+        ],
+        "jsMs": [
+          11.575999999999999,
+          19.848000000000003
+        ],
+        "mainThreadMs": [
+          327.56399999999996,
+          382.6920000000003
+        ],
+        "tbtMs": [
+          0,
+          16
+        ],
+        "requests": [
+          14,
+          14
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          5,
+          5
+        ],
+        "imageTransferBytes": [
+          499246,
+          499246
+        ],
+        "maxImageDownloadMs": [
+          17.762000001966953,
+          27.761999998241663
+        ],
+        "heroDownloadMs": [
+          2.5859999991953373,
+          5.221999999135733
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          14,
+          14
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 96.0,
+        "lcpMs": 2704.245,
+        "fcpMs": 1118.4923000000001,
+        "cls": 0.008651592974700868,
+        "speedIndexMs": 1120.7182500000004,
+        "transferBytes": 623638,
+        "jsMs": 18.92,
+        "mainThreadMs": 346.4,
+        "tbtMs": 14,
+        "requests": 14,
+        "cssRequests": 3,
+        "imageRequests": 5,
+        "imageTransferBytes": 499246,
+        "maxImageDownloadMs": 19.216999996453524,
+        "heroDownloadMs": 4.284000001847744,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 14,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          96.0,
+          96.0
+        ],
+        "lcpMs": [
+          2704.1093000000005,
+          2704.9884
+        ],
+        "fcpMs": [
+          1054.245,
+          1120.7182500000004
+        ],
+        "cls": [
+          0.002554170355783705,
+          0.008651592974700868
+        ],
+        "speedIndexMs": [
+          1118.4923000000001,
+          2013.1484635213135
+        ],
+        "transferBytes": [
+          623638,
+          623999
+        ],
+        "jsMs": [
+          17.24,
+          66.02
+        ],
+        "mainThreadMs": [
+          338.2079999999999,
+          559.1720000000007
+        ],
+        "tbtMs": [
+          0,
+          17
+        ],
+        "requests": [
+          14,
+          14
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          5,
+          5
+        ],
+        "imageTransferBytes": [
+          499246,
+          499607
+        ],
+        "maxImageDownloadMs": [
+          18.151000000536442,
+          83.61499999836087
+        ],
+        "heroDownloadMs": [
+          2.764000002294779,
+          6.033999998122454
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          14,
+          14
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 86.0,
+        "lcpMs": 4203.1206,
+        "fcpMs": 903.1206,
+        "cls": 0,
+        "speedIndexMs": 903.1206,
+        "transferBytes": 827761,
+        "jsMs": 18.604,
+        "mainThreadMs": 323.3479999999999,
+        "tbtMs": 0,
+        "requests": 20,
+        "cssRequests": 2,
+        "imageRequests": 7,
+        "imageTransferBytes": 665030,
+        "maxImageDownloadMs": 5.073000002652407,
+        "heroDownloadMs": 3.584000002592802,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 17,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          83.0,
+          86.0
+        ],
+        "lcpMs": [
+          4202.705,
+          4727.7910999999995
+        ],
+        "fcpMs": [
+          902.7049999999999,
+          1052.7911
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          902.7049999999999,
+          1052.7911
+        ],
+        "transferBytes": [
+          827761,
+          827761
+        ],
+        "jsMs": [
+          17.464,
+          19.583999999999996
+        ],
+        "mainThreadMs": [
+          321.6479999999999,
+          326.30799999999994
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          20,
+          20
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          7,
+          7
+        ],
+        "imageTransferBytes": [
+          665030,
+          665030
+        ],
+        "maxImageDownloadMs": [
+          4.410999998450279,
+          5.408000003546476
+        ],
+        "heroDownloadMs": [
+          2.717000000178814,
+          3.6400000005960464
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          17,
+          20
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 85.0,
+        "lcpMs": 4358.2852,
+        "fcpMs": 1206.2139,
+        "cls": 0,
+        "speedIndexMs": 1206.2139,
+        "transferBytes": 835634,
+        "jsMs": 18.455999999999996,
+        "mainThreadMs": 336.20799999999986,
+        "tbtMs": 0,
+        "requests": 30,
+        "cssRequests": 12,
+        "imageRequests": 7,
+        "imageTransferBytes": 665030,
+        "maxImageDownloadMs": 8.418999999761581,
+        "heroDownloadMs": 4.5769999995827675,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 27,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          85.0,
+          85.0
+        ],
+        "lcpMs": [
+          4358.156800000001,
+          4358.5912
+        ],
+        "fcpMs": [
+          1206.1176,
+          1206.4433999999999
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          1206.1176,
+          1206.4433999999999
+        ],
+        "transferBytes": [
+          835634,
+          835634
+        ],
+        "jsMs": [
+          18.131999999999998,
+          20.208
+        ],
+        "mainThreadMs": [
+          330.8559999999999,
+          455.8560000000001
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          30,
+          30
+        ],
+        "cssRequests": [
+          12,
+          12
+        ],
+        "imageRequests": [
+          7,
+          7
+        ],
+        "imageTransferBytes": [
+          665030,
+          665030
+        ],
+        "maxImageDownloadMs": [
+          8.063000001013279,
+          9.105999998748302
+        ],
+        "heroDownloadMs": [
+          4.135000005364418,
+          4.586999997496605
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          27,
+          27
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 83.0,
+        "lcpMs": 4806.6835,
+        "fcpMs": 1056.6835,
+        "cls": 0,
+        "speedIndexMs": 1056.6835,
+        "transferBytes": 779894,
+        "jsMs": 20.9,
+        "mainThreadMs": 590.2159999999999,
+        "tbtMs": 33,
+        "requests": 20,
+        "cssRequests": 2,
+        "imageRequests": 3,
+        "imageTransferBytes": 593735,
+        "maxImageDownloadMs": 5.061000000685453,
+        "heroDownloadMs": 4.440999999642372,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 17,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          82.0,
+          83.0
+        ],
+        "lcpMs": [
+          4802.1795999999995,
+          4952.1636
+        ],
+        "fcpMs": [
+          1052.1796,
+          1202.1636
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          1052.1796,
+          1202.1636
+        ],
+        "transferBytes": [
+          779894,
+          779894
+        ],
+        "jsMs": [
+          20.2,
+          21.587999999999997
+        ],
+        "mainThreadMs": [
+          584.4879999999999,
+          1019.2600000000002
+        ],
+        "tbtMs": [
+          0,
+          82
+        ],
+        "requests": [
+          20,
+          20
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          3,
+          3
+        ],
+        "imageTransferBytes": [
+          593735,
+          593735
+        ],
+        "maxImageDownloadMs": [
+          3.0529999993741512,
+          11.973999995738268
+        ],
+        "heroDownloadMs": [
+          2.8129999972879887,
+          6.529999997466803
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          15,
+          19
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/artists/enomoto-mia/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 81.0,
+        "lcpMs": 5113.7585,
+        "fcpMs": 1361.0068,
+        "cls": 0,
+        "speedIndexMs": 1361.0068,
+        "transferBytes": 790161,
+        "jsMs": 22.192,
+        "mainThreadMs": 667.9359999999999,
+        "tbtMs": 0,
+        "requests": 34,
+        "cssRequests": 16,
+        "imageRequests": 3,
+        "imageTransferBytes": 593735,
+        "maxImageDownloadMs": 15.925000000745058,
+        "heroDownloadMs": 5.320000000298023,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 31,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          81.0,
+          81.0
+        ],
+        "lcpMs": [
+          5109.876249999999,
+          5149.592000000001
+        ],
+        "fcpMs": [
+          1357.9009999999998,
+          1389.6736
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          1357.9009999999998,
+          1389.6736
+        ],
+        "transferBytes": [
+          790161,
+          790161
+        ],
+        "jsMs": [
+          20.263999999999996,
+          30.69999999999999
+        ],
+        "mainThreadMs": [
+          601.7039999999997,
+          1279.1080000000002
+        ],
+        "tbtMs": [
+          0,
+          32
+        ],
+        "requests": [
+          34,
+          34
+        ],
+        "cssRequests": [
+          16,
+          16
+        ],
+        "imageRequests": [
+          3,
+          3
+        ],
+        "imageTransferBytes": [
+          593735,
+          593735
+        ],
+        "maxImageDownloadMs": [
+          10.548000004142523,
+          44.34400000050664
+        ],
+        "heroDownloadMs": [
+          3.963000003248453,
+          7.050000000745058
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          31,
+          31
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 903.0005000000001,
+        "fcpMs": 903.0005000000001,
+        "cls": 0,
+        "speedIndexMs": 903.0005000000001,
+        "transferBytes": 98416,
+        "jsMs": 11.696,
+        "mainThreadMs": 176.62800000000001,
+        "tbtMs": 0,
+        "requests": 6,
+        "cssRequests": 3,
+        "imageRequests": 0,
+        "imageTransferBytes": 0,
+        "maxImageDownloadMs": 0,
+        "heroDownloadMs": 0,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 6,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          902.8215,
+          903.0585000000001
+        ],
+        "fcpMs": [
+          902.8215,
+          903.0585000000001
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          902.8215,
+          903.0585000000001
+        ],
+        "transferBytes": [
+          98416,
+          98416
+        ],
+        "jsMs": [
+          11.512,
+          12.424
+        ],
+        "mainThreadMs": [
+          170.33599999999998,
+          179.37200000000004
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          6,
+          6
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          0,
+          0
+        ],
+        "imageTransferBytes": [
+          0,
+          0
+        ],
+        "maxImageDownloadMs": [
+          0,
+          0
+        ],
+        "heroDownloadMs": [
+          0,
+          0
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          6,
+          6
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/music-production/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 100,
+        "lcpMs": 903.1826000000001,
+        "fcpMs": 903.1826000000001,
+        "cls": 0,
+        "speedIndexMs": 903.1826000000001,
+        "transferBytes": 98416,
+        "jsMs": 11.16,
+        "mainThreadMs": 178.49599999999995,
+        "tbtMs": 0,
+        "requests": 6,
+        "cssRequests": 3,
+        "imageRequests": 0,
+        "imageTransferBytes": 0,
+        "maxImageDownloadMs": 0,
+        "heroDownloadMs": 0,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 6,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          100,
+          100
+        ],
+        "lcpMs": [
+          902.9983,
+          903.9742000000001
+        ],
+        "fcpMs": [
+          902.9983,
+          903.9742000000001
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          902.9983,
+          903.9742000000001
+        ],
+        "transferBytes": [
+          98416,
+          98416
+        ],
+        "jsMs": [
+          10.3,
+          12.347999999999999
+        ],
+        "mainThreadMs": [
+          177.30800000000002,
+          187.54400000000004
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          6,
+          6
+        ],
+        "cssRequests": [
+          3,
+          3
+        ],
+        "imageRequests": [
+          0,
+          0
+        ],
+        "imageTransferBytes": [
+          0,
+          0
+        ],
+        "maxImageDownloadMs": [
+          0,
+          0
+        ],
+        "heroDownloadMs": [
+          0,
+          0
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          6,
+          6
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 83.0,
+        "lcpMs": 4802.837399999999,
+        "fcpMs": 1052.8374,
+        "cls": 0,
+        "speedIndexMs": 1052.8374,
+        "transferBytes": 1226774,
+        "jsMs": 16.951999999999998,
+        "mainThreadMs": 374.12000000000006,
+        "tbtMs": 0,
+        "requests": 19,
+        "cssRequests": 2,
+        "imageRequests": 6,
+        "imageTransferBytes": 1061450,
+        "maxImageDownloadMs": 4.657000001519918,
+        "heroDownloadMs": 3.2569999992847443,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 18,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          83.0,
+          83.0
+        ],
+        "lcpMs": [
+          4727.526,
+          4802.9776
+        ],
+        "fcpMs": [
+          1052.526,
+          1052.9776
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          1052.526,
+          1052.9776
+        ],
+        "transferBytes": [
+          1226774,
+          1226774
+        ],
+        "jsMs": [
+          15.455999999999998,
+          17.168
+        ],
+        "mainThreadMs": [
+          374.0479999999999,
+          386.94
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          19,
+          19
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          6,
+          6
+        ],
+        "imageTransferBytes": [
+          1061450,
+          1061450
+        ],
+        "maxImageDownloadMs": [
+          4.4979999996721745,
+          4.710999999195337
+        ],
+        "heroDownloadMs": [
+          3.1310000009834766,
+          3.7980000004172325
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          18,
+          18
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/releases/anata-dake-ni-okuru-happy-birthday/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 81.0,
+        "lcpMs": 5111.52075,
+        "fcpMs": 1209.2166,
+        "cls": 0,
+        "speedIndexMs": 1209.2166,
+        "transferBytes": 1235938,
+        "jsMs": 17.343999999999994,
+        "mainThreadMs": 379.61599999999993,
+        "tbtMs": 0,
+        "requests": 31,
+        "cssRequests": 14,
+        "imageRequests": 6,
+        "imageTransferBytes": 1061450,
+        "maxImageDownloadMs": 11.057000000029802,
+        "heroDownloadMs": 3.5639999993145466,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 30,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          79.0,
+          81.0
+        ],
+        "lcpMs": [
+          5109.8615,
+          5562.41125
+        ],
+        "fcpMs": [
+          1207.8892,
+          1295.929
+        ],
+        "cls": [
+          0,
+          0
+        ],
+        "speedIndexMs": [
+          1207.8892,
+          1295.929
+        ],
+        "transferBytes": [
+          1235938,
+          1235938
+        ],
+        "jsMs": [
+          16.188,
+          27.68
+        ],
+        "mainThreadMs": [
+          378.56799999999987,
+          385.40399999999994
+        ],
+        "tbtMs": [
+          0,
+          36
+        ],
+        "requests": [
+          31,
+          31
+        ],
+        "cssRequests": [
+          14,
+          14
+        ],
+        "imageRequests": [
+          6,
+          6
+        ],
+        "imageTransferBytes": [
+          1061450,
+          1061450
+        ],
+        "maxImageDownloadMs": [
+          10.031999997794628,
+          11.437000002712011
+        ],
+        "heroDownloadMs": [
+          2.8280000016093254,
+          4.83500000089407
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          30,
+          31
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "after",
+      "runs": 3,
+      "median": {
+        "score": 94.0,
+        "lcpMs": 3155.21535,
+        "fcpMs": 1115.0663,
+        "cls": 0.002554170355783705,
+        "speedIndexMs": 1115.0663,
+        "transferBytes": 997496,
+        "jsMs": 19.299999999999997,
+        "mainThreadMs": 334.868,
+        "tbtMs": 0,
+        "requests": 14,
+        "cssRequests": 2,
+        "imageRequests": 6,
+        "imageTransferBytes": 874912,
+        "maxImageDownloadMs": 20.140999998897314,
+        "heroDownloadMs": 3.3679999969899654,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 14,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          93.0,
+          94.0
+        ],
+        "lcpMs": [
+          3079.70215,
+          3155.5288
+        ],
+        "fcpMs": [
+          1055.0667999999998,
+          1117.62525
+        ],
+        "cls": [
+          0.002554170355783705,
+          0.008651592974700868
+        ],
+        "speedIndexMs": [
+          1055.0667999999998,
+          1117.62525
+        ],
+        "transferBytes": [
+          997496,
+          997496
+        ],
+        "jsMs": [
+          14.291999999999998,
+          19.348
+        ],
+        "mainThreadMs": [
+          329.51599999999974,
+          339.29600000000005
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          14,
+          14
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          6,
+          6
+        ],
+        "imageTransferBytes": [
+          874912,
+          874912
+        ],
+        "maxImageDownloadMs": [
+          18.57999999821186,
+          20.833000000566244
+        ],
+        "heroDownloadMs": [
+          3.0459999963641167,
+          7.235000003129244
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          14,
+          14
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "device": "mobile",
+      "route": "/worlds/enomoto-mia/",
+      "variant": "before",
+      "runs": 3,
+      "median": {
+        "score": 93.0,
+        "lcpMs": 3154.22505,
+        "fcpMs": 1115.4627500000001,
+        "cls": 0.008651592974700868,
+        "speedIndexMs": 1115.4627500000001,
+        "transferBytes": 997398,
+        "jsMs": 19.375999999999998,
+        "mainThreadMs": 330.97599999999994,
+        "tbtMs": 0,
+        "requests": 14,
+        "cssRequests": 2,
+        "imageRequests": 6,
+        "imageTransferBytes": 874912,
+        "maxImageDownloadMs": 18.574999999254942,
+        "heroDownloadMs": 2.863000001758337,
+        "amaterasuRequests": 0,
+        "amaterasuResourceBytes": 0,
+        "requestsBeforeObservedFCP": 14,
+        "incompleteImages": 0
+      },
+      "range": {
+        "score": [
+          93.0,
+          94.0
+        ],
+        "lcpMs": [
+          3079.547,
+          3154.7207500000004
+        ],
+        "fcpMs": [
+          1115.20625,
+          1115.9152
+        ],
+        "cls": [
+          0.008651592974700868,
+          0.008651592974700868
+        ],
+        "speedIndexMs": [
+          1115.20625,
+          1115.9152
+        ],
+        "transferBytes": [
+          997398,
+          997398
+        ],
+        "jsMs": [
+          18.58,
+          20.159999999999997
+        ],
+        "mainThreadMs": [
+          328.256,
+          339.5079999999999
+        ],
+        "tbtMs": [
+          0,
+          0
+        ],
+        "requests": [
+          14,
+          14
+        ],
+        "cssRequests": [
+          2,
+          2
+        ],
+        "imageRequests": [
+          6,
+          6
+        ],
+        "imageTransferBytes": [
+          874912,
+          874912
+        ],
+        "maxImageDownloadMs": [
+          18.1739999987185,
+          22.019999999552965
+        ],
+        "heroDownloadMs": [
+          2.673000004142523,
+          3.7719999998807907
+        ],
+        "amaterasuRequests": [
+          0,
+          0
+        ],
+        "amaterasuResourceBytes": [
+          0,
+          0
+        ],
+        "requestsBeforeObservedFCP": [
+          14,
+          14
+        ],
+        "incompleteImages": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "rejected": []
+}

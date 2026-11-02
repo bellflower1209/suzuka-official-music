@@ -8,7 +8,9 @@ from verify_public_release import read_release
 class Release(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.info,cls.files=read_release(ROOT)
+        # Keep the original 109-work adoption gate pinned to its deployed bytes.
+        # The successor package has a separate performance-adoption equality gate.
+        cls.info,cls.files=read_release(ROOT,'71ea73944d72fadef5d186a5346a65f1a1609511')
         cls.expected_info,cls.expected,_=build()
         cls.baseline_info,cls.baseline=read_release(ROOT,BASE)
 
