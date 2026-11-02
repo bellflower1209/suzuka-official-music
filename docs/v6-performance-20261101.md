@@ -1,5 +1,7 @@
 # SUZUKA V6 高速化改善報告（第2段階）
 
+2026-11-02追記：検証済み内容の正式パッケージ採用は[公開候補の準備記録](v6-performance-release-candidate-20261102.md)を参照してください。以下の測定・画像は2026-11-01の保存済み証跡です。Chromeの連続・並列起動とクラッシュ後の自動再試行は禁止し、今回の準備では追加起動していません。
+
 実装・比較検証・Draft PRまで。本番公開はHOLD。
 専用worktree：`suzuka-v6-performance-20261101`、ブランチ：`perf/v6-image-loading-20261101`。
 最新mainを再取得し、基準の`71ea73944d72fadef5d186a5346a65f1a1609511`と一致した状態から作成しました。
@@ -102,7 +104,7 @@ GA4ローダー・analytics.js・データ属性・リンク先・登録順序�
 
 リポジトリの実装は`build_v6_performance_preview.py`、`test_v6_performance_preview.py`、`summarize_v6_performance.py`、`serve_v6_performance_review.py`、`.github/workflows/pages.yml`と本報告・証跡です。実際の候補HTMLはトップ、榎本魅愛世界、一覧、榎本魅愛従来型、Happy Birthdayの5ページ。追加CSSは3本です。
 
-**このDraft PRはレビュー候補を生成・検証する段階です。正式な公開パッケージの採用は行っていません。** Pagesのstage/upload/deploy条件は変更0で、PRからデプロイしません。公開承認後には、承認済み候補を正式パッケージへ採用し、履歴検証・CIとの整合性を確認する工程が必要です。その工程なしにこのPRをそのままmainへマージしないでください。
+2026-11-01時点ではレビュー候補の生成・検証まででした。2026-11-02のユーザー承認により、検証済み内容を正式パッケージへ採用しました（詳細は追記記録）。Pagesのstage/upload/deploy条件は維持し、候補は別途の公開承認がない限りstageを拒否します。Draft PRのまま、本番公開はHOLDです。
 
 ## 未確認事項と公開推奨判定
 
@@ -121,10 +123,9 @@ python3 -B scripts/build_v6_performance_preview.py --output /private/tmp/suzuka-
 python3 scripts/serve_v6_performance_review.py --root /private/tmp/suzuka-v6-speed-phase2
 ```
 
-別のターミナルで、空の測定出力フォルダーを作成して実行します。既存の生データは上書きせず別フォルダーへ保存してください。PCは同じコマンドに`--preset=desktop`を加え、URL一覧・出力先をdesktopへ変更します。モバイルとPCは同時に走らせません。
+測定は保存済み72件を再利用します。Chromeの起動問題が確認されたため、以前の連続Lighthouse測定コマンドは実行しません。通常起動の安定と既存ブラウザー再利用の可否を確認した後でも、追加計測は単一試行・初回異常で停止とし、自動再試行しません。以下はブラウザーを起動しない既存データの集計だけです。
 
 ```sh
-npx --yes lighthouse@13.6.0 --url-file=docs/performance-20261101/mobile-urls.txt --only-categories=performance --output=json --output-path=/private/tmp/suzuka-v6-speed-phase2/mobile --chrome-flags='--headless=new --no-first-run' --quiet --max-wait-for-load=12000 --disable-full-page-screenshot --blocked-url-patterns='*chatgpt.site/v1/*'
 python3 -B scripts/summarize_v6_performance.py --root /private/tmp/suzuka-v6-speed-phase2 --output /private/tmp/suzuka-v6-speed-phase2/comparison.json
 ```
 

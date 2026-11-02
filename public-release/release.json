@@ -1,26 +1,26 @@
 {
-  "archiveBytes": 112278122,
-  "archiveSha256": "0ae692e8b988f81337d32498f152d965fb02f763d57120d283fb4f631c2a196f",
-  "artifactDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
+  "archiveBytes": 112404307,
+  "archiveSha256": "5d54260aa41db45360363244e28f0873ab5d8d1c3d6df11260a589563a860ced",
+  "artifactDigest": "65b70aa0f5b430f83066380c1d7659ab4e65d73125247a2d561769da672e644e",
   "chunks": [
     {
       "path": "public-release/site-00.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "b9bdc5ea15bf8ce5befadeebc70fbb3685a6c7dddb5202b04ea98a89d2a5a210"
+      "sha256": "bbe83cb9ad54aa5d5ce82b7c0750f3cd4b94df3695abdf5f0d97f18d9bd0cecd"
     },
     {
       "path": "public-release/site-01.tar.gz.part",
       "bytes": 47185920,
-      "sha256": "de39993192fdb26d75b65800645ecf4b0f0ad0bd49e8a6b0dfd1de7667115fea"
+      "sha256": "4f71943ca1856367fc4cd5ef59dbea295f71b05ecfedabd726b90dbd57042935"
     },
     {
       "path": "public-release/site-02.tar.gz.part",
-      "bytes": 17906282,
-      "sha256": "a7fca544bd9137a083d5b58d0465cb68a1d6f8ece6a06190feac9f88c3a8bad0"
+      "bytes": 18032467,
+      "sha256": "b7043ff97a5cd4aa566567434d1fce967d8447ee5a0d42ff0150664a866a940b"
     }
   ],
-  "contentBytes": 124883055,
-  "fileCount": 863,
+  "contentBytes": 125515512,
+  "fileCount": 866,
   "format": "suzuka-public-release-v1",
   "privateAudioApproval": {
     "historicalCandidatesException": "two-preexisting-unadopted-door-samples-only; unchanged; no-history-rewrite",
@@ -112,5 +112,19 @@
     "rollbackArtifactDigest": "36477d62f8bbaac84bef7590d6e24a2d9d8be4fa7f3c9315f772da8631f05df7",
     "artists": 13,
     "publishedWorks": 109
+  },
+  "performanceReleaseCandidate": {
+    "source": "explicit-user-package-preparation-authorization",
+    "approvedDate": "2026-11-02",
+    "reviewedCommit": "0687a55981004b119eafaa77db4905b3ca180f58",
+    "reviewedCandidateDigest": "b4946384f87e676038c281287208af7a2fe535da61da08e2ae61b7a30d2d1ff9",
+    "baselineCommit": "71ea73944d72fadef5d186a5346a65f1a1609511",
+    "baselineArtifactDigest": "41074d98fd29675f0bdc223a55d25a9a96bb40921516a4d0225cdeb132f00b11",
+    "packagePreparationApproved": true,
+    "publicationApproved": false,
+    "status": "prepared-publication-hold",
+    "artists": 13,
+    "publishedWorks": 109,
+    "files": 866
   }
 }

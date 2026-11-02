@@ -32,8 +32,8 @@ class PerformancePreview(unittest.TestCase):
         cls.info, cls.before = read_release(ROOT, BASE)
         _, cls.after, cls.report = build()
 
-    def test_baseline_and_current_production_package_are_sealed(self):
-        info, files = read_release(ROOT)
+    def test_historical_production_baseline_is_sealed(self):
+        info, files = read_release(ROOT, BASE)
         self.assertEqual(info['artifactDigest'], DIGEST)
         self.assertEqual(files, self.before)
         self.assertEqual(len(files), 863)

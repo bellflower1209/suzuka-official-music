@@ -105,10 +105,8 @@ def build(variant='combined', root=ROOT):
     info, baseline = read_release(root, BASE)
     if info['artifactDigest'] != DIGEST or len(baseline) != 863:
         raise ValueError('Production baseline changed; STOP')
-    # Current public-release must also remain byte-for-byte the production base.
-    current_info, current = read_release(root)
-    if current != baseline or current_info != info:
-        raise ValueError('Public package changed; STOP')
+    # Reproduce the measured overlay from its immutable historical baseline.
+    # The successor package is checked by adopt_v6_performance_release.py.
     files = dict(baseline)
     bundles = {}
     if variant in ('images', 'combined'):
