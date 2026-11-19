@@ -91,6 +91,15 @@ class PreparedPerformancePackage(unittest.TestCase):
                     'GITHUB_REF': 'refs/heads/main', 'GITHUB_EVENT_NAME': 'push'}):
                 materialize(root, output, self.files, stage=root / '_site')
                 self.assertTrue((root / '_site' / 'index.html').is_file())
+                alias = 'artists/hoshimiya-hanon/index.html'
+                target = 'https://www.suzukaofficial.com/artists/revive/'
+                redirect = (root / '_site' / alias).read_text(encoding='utf-8')
+                self.assertIn(f'<meta http-equiv="refresh" content="0; url={target}">', redirect)
+                self.assertIn(f'<link rel="canonical" href="{target}">', redirect)
+                self.assertIn(f'<a href="{target}">', redirect)
+                self.assertNotIn(b'/artists/hoshimiya-hanon/', self.files['sitemap.xml'])
+                self.assertIn(b'/artists/revive/', self.files['sitemap.xml'])
+                self.assertFalse((output / alias).exists())
                 with patch.dict('os.environ', {'GITHUB_REF': 'refs/heads/unapproved-branch'}):
                     with self.assertRaisesRegex(ValueError, 'Public main workflow'):
                         materialize(root, output, self.files, stage=root / '_site')

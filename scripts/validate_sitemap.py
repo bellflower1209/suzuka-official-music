@@ -30,7 +30,10 @@ OLD_DOMAIN = "suzuka-official-music.ria20210815.chatgpt.site"
 # Upcoming titles may legitimately appear on indexable Artist/Schedule pages.
 # Indexability is enforced from robots/canonical state instead of title text.
 UNPUBLISHED_MARKERS: tuple[str, ...] = ()
-LEGACY_REDIRECTS = {Path("releases/toriatsukai-chuui/index.html")}
+LEGACY_REDIRECTS = {
+    Path("artists/hoshimiya-hanon/index.html"),
+    Path("releases/toriatsukai-chuui/index.html"),
+}
 GOOGLEBOT = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 
 

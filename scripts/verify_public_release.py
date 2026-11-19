@@ -19,6 +19,30 @@ DESCRIPTOR = Path('public-release/release.json')
 MANIFEST = 'suzuka-v6-candidate-manifest.json'
 BASE = 'https://www.suzukaofficial.com'
 PRIVATE_AUDIO_ENDPOINT = 'https://suzuka-official-music.ria20210815.chatgpt.site/v1/'
+LEGACY_HANON_PATH = 'artists/hoshimiya-hanon/index.html'
+RE_VIVE_PATH = 'artists/revive/'
+
+
+def hanon_redirect():
+    target = f'{BASE}/{RE_VIVE_PATH}'
+    return f'''<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>星宮羽音｜RE:VIVE｜SUZUKA Official Music</title>
+  <link rel="canonical" href="{target}">
+  <meta http-equiv="refresh" content="0; url={target}">
+</head>
+<body>
+  <main>
+    <h1>星宮羽音のプロフィール</h1>
+    <p>星宮羽音のプロフィールはRE:VIVE公式ページのメンバー紹介でご覧いただけます。</p>
+    <p><a href="{target}">RE:VIVE公式ページへ</a></p>
+  </main>
+</body>
+</html>
+'''.encode('utf-8')
 
 def verify_private_audio(info, files, routes, allow_pending=False):
     configs=[]
@@ -157,8 +181,15 @@ def materialize(root, output, files, stage=None):
                 and os.environ.get('GITHUB_REF')=='refs/heads/main'
                 and os.environ.get('GITHUB_EVENT_NAME') in {'push','workflow_dispatch'},'Production stage requires the Public main workflow')
         require(not stage.exists(),'Refusing an existing staging folder')
+        require(f'{RE_VIVE_PATH}index.html' in files, 'Missing RE:VIVE redirect destination')
+        require(LEGACY_HANON_PATH not in files, 'Legacy redirect would overwrite a released page')
+        # Add the legacy route after verifying the frozen public package.
         shutil.copytree(output,stage)
-        verify_output(stage,files)
+        redirect = hanon_redirect()
+        alias = stage / LEGACY_HANON_PATH
+        alias.parent.mkdir(parents=True, exist_ok=True)
+        alias.write_bytes(redirect)
+        verify_output(stage, files | {LEGACY_HANON_PATH: redirect})
 
 
 def main():
