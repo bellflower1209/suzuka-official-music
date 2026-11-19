@@ -156,6 +156,10 @@ jobs:
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
           python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release" --stage _site
+          # Add the legacy route after verifying the frozen release package.
+          test -f _site/artists/revive/index.html
+          test ! -e _site/artists/hoshimiya-hanon/index.html
+          install -D -m 0644 scripts/pages-redirects/hoshimiya-hanon.html _site/artists/hoshimiya-hanon/index.html
 
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
