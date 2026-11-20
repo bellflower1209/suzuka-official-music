@@ -1,0 +1,325 @@
+{
+  "verifiedOn": "2026-11-21",
+  "streams": [
+    {
+      "slug": "one-more-kiss",
+      "title": "One More Kiss",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-18",
+      "url": "https://linkco.re/7tphAbGH",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2049009/itd2049009.png"
+    },
+    {
+      "slug": "gyu-don",
+      "title": "ぎゅ〜丼",
+      "artistSlug": "enomoto-mia",
+      "date": "2026-11-18",
+      "url": "https://linkco.re/2b403aa1",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2056121/itd2056121.png"
+    },
+    {
+      "slug": "boukyaku-no-ikimono",
+      "title": "忘却の生き物",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-16",
+      "url": "https://linkco.re/YcYEADrG",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2048914/itd2048914.png"
+    },
+    {
+      "slug": "fujouri-na-tenshi",
+      "title": "不条理な天使",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-15",
+      "url": "https://linkco.re/UP7bvXtZ",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2048688/itd2048688.png"
+    },
+    {
+      "slug": "leo-rise-again",
+      "title": "LEO (Rise Again)",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-14",
+      "url": "https://linkco.re/Sn26Ag8z",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2048655/itd2048655.png"
+    },
+    {
+      "slug": "mermaid-no-geboku",
+      "title": "マーメイドの下僕",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-13",
+      "url": "https://linkco.re/taQ56bt1",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2044241/itd2044241.png"
+    },
+    {
+      "slug": "wakareta-michi",
+      "title": "分かれた道",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-12",
+      "url": "https://linkco.re/qdATnCee",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2044213/itd2044213.png"
+    },
+    {
+      "slug": "akuyaku-de-ii",
+      "title": "悪役でいい",
+      "artistSlug": "koga-kamishiro",
+      "date": "2026-11-11",
+      "url": "https://linkco.re/ZppVytQm",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2043189/itd2043189.png"
+    },
+    {
+      "slug": "prescription",
+      "title": "処方箋",
+      "artistSlug": "enomoto-mia",
+      "date": "2026-11-11",
+      "url": "https://linkco.re/Qarz7yMb",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2048941/itd2048941.png"
+    },
+    {
+      "slug": "sukitte-baretemo-ii",
+      "title": "好きってバレてもいい",
+      "artistSlug": "enomoto-mia",
+      "date": "2026-11-10",
+      "url": "https://linkco.re/52ZxEchC",
+      "artwork": "https://www.tunecore.co.jp/s3pna/tcj-image-production/u598729/r2043085/itd2043085.png"
+    }
+  ],
+  "videos": [
+    {
+      "slug": "hontou-no-kotoba",
+      "title": "本当の言葉",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/R9mPjb7Sm_A",
+      "publishedAt": "2026-11-20T20:00:21+09:00",
+      "seconds": 15,
+      "videoId": "R9mPjb7Sm_A",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "thunder-queens",
+      "title": "THUNDER QUEENS",
+      "artistSlug": "asteria",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=JC5ULhTWLBg",
+      "publishedAt": "2026-11-20T20:00:09+09:00",
+      "seconds": 325,
+      "videoId": "JC5ULhTWLBg",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "prescription",
+      "title": "処方箋",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/fz-wNBfLFkM",
+      "publishedAt": "2026-11-12T22:10:22+09:00",
+      "seconds": 45,
+      "videoId": "fz-wNBfLFkM",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "tokyo-midnight-drive",
+      "title": "TOKYO MIDNIGHT DRIVE",
+      "artistSlug": "asteria",
+      "kind": "5曲メドレー",
+      "url": "https://www.youtube.com/watch?v=6KW_oTmhoqc",
+      "publishedAt": "2026-11-12T20:00:09+09:00",
+      "seconds": 1695,
+      "videoId": "6KW_oTmhoqc",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "prescription",
+      "title": "処方箋",
+      "artistSlug": "enomoto-mia",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=S7B5NMV1JQU",
+      "publishedAt": "2026-11-12T20:00:08+09:00",
+      "seconds": 261,
+      "videoId": "S7B5NMV1JQU",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "sukitte-baretemo-ii",
+      "title": "好きってバレてもいい",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/PpwgVch07og",
+      "publishedAt": "2026-11-10T21:25:20+09:00",
+      "seconds": 60,
+      "videoId": "PpwgVch07og",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "sukitte-baretemo-ii",
+      "title": "好きってバレてもいい",
+      "artistSlug": "enomoto-mia",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=rhruNWt3Nyo",
+      "publishedAt": "2026-11-10T21:24:58+09:00",
+      "seconds": 274,
+      "videoId": "rhruNWt3Nyo",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "mahou-ga-toketemo",
+      "title": "魔法が解けても ― Pumpkin Carriage ―",
+      "artistSlug": "koga-kamishiro",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/VuPiiLpwCLk",
+      "publishedAt": "2026-11-07T20:00:13+09:00",
+      "seconds": 60,
+      "videoId": "VuPiiLpwCLk",
+      "channelId": "UCtRwFzemyx508t7yXnpCVKA"
+    },
+    {
+      "slug": "toriatsukai-chui",
+      "title": "取り扱いチュー💋い",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/_rYXG_tZLXE",
+      "publishedAt": "2026-11-04T20:00:10+09:00",
+      "seconds": 45,
+      "videoId": "_rYXG_tZLXE",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "toriatsukai-chui",
+      "title": "取り扱いチュー💋い",
+      "artistSlug": "enomoto-mia",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=qL9m8hDXX_w",
+      "publishedAt": "2026-11-04T19:00:16+09:00",
+      "seconds": 319,
+      "videoId": "qL9m8hDXX_w",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "anata-dake-ni-okuru-happy-birthday",
+      "title": "あなただけに送るHappy Birthday",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/ToWwDguS3io",
+      "publishedAt": "2026-11-04T15:28:55+09:00",
+      "seconds": 30,
+      "videoId": "ToWwDguS3io",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "kimi-to-nara-last-boss-made",
+      "title": "君とならラスボスまで",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/AoY2i8vnTM8",
+      "publishedAt": "2026-11-03T22:26:08+09:00",
+      "seconds": 60,
+      "videoId": "AoY2i8vnTM8",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "hyakumankoku",
+      "title": "百万告",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/Oh_L77bWx_c",
+      "publishedAt": "2026-11-02T20:57:46+09:00",
+      "seconds": 60,
+      "videoId": "Oh_L77bWx_c",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "renai-taishogai-kari",
+      "title": "恋愛対象外（仮）",
+      "artistSlug": "enomoto-mia",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=PTwGaXTNCv8",
+      "publishedAt": "2026-11-02T12:13:47+09:00",
+      "seconds": 286,
+      "videoId": "PTwGaXTNCv8",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "renai-taishogai-kari",
+      "title": "恋愛対象外（仮）",
+      "artistSlug": "enomoto-mia",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/Igk0uxiGryM",
+      "publishedAt": "2026-11-01T22:31:52+09:00",
+      "seconds": 30,
+      "videoId": "Igk0uxiGryM",
+      "channelId": "UCRwW7smDoEB-UOHMQJJ1Jyg"
+    },
+    {
+      "slug": "last-ignition",
+      "title": "LAST IGNITION",
+      "artistSlug": "asteria",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/PFhHlYwrkEU",
+      "publishedAt": "2026-11-01T20:11:46+09:00",
+      "seconds": 35,
+      "videoId": "PFhHlYwrkEU",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "last-ignition",
+      "title": "LAST IGNITION",
+      "artistSlug": "asteria",
+      "kind": "公式音源",
+      "url": "https://www.youtube.com/watch?v=tLhuhEHLvaA",
+      "publishedAt": "2026-11-01T20:00:09+09:00",
+      "seconds": 386,
+      "videoId": "tLhuhEHLvaA",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    },
+    {
+      "slug": "five-gears-one-sky",
+      "title": "FIVE GEARS // ONE SKY",
+      "artistSlug": "asteria",
+      "kind": "Shorts",
+      "url": "https://www.youtube.com/shorts/zdBbVace9JE",
+      "publishedAt": "2026-11-01T20:00:05+09:00",
+      "seconds": 27,
+      "videoId": "zdBbVace9JE",
+      "channelId": "UCVde75yhByGQMu3SkO-fzrA"
+    }
+  ],
+  "notes": [
+    {
+      "title": "榎本魅愛『処方箋』配信開始💊💕「あなたの恋の特効薬は、わたしです♡」",
+      "publishedAt": "2026-11-13T20:23:14+09:00",
+      "url": "https://note.com/1209bellflower/n/n60969c4fe5eb"
+    },
+    {
+      "title": "🎂【榎本魅愛】生まれてきてくれてありがとう。大切な人に贈る誕生日ソング『あなただけに送るHappy Birthday』💗",
+      "publishedAt": "2026-11-05T00:02:29+09:00",
+      "url": "https://note.com/1209bellflower/n/n2990a2207aeb"
+    },
+    {
+      "title": "人生にセーブもロードもない。それでも君と進みたい。｜榎本魅愛『君とならラスボスまで』",
+      "publishedAt": "2026-11-03T22:44:57+09:00",
+      "url": "https://note.com/1209bellflower/n/nb7e73b012381"
+    },
+    {
+      "title": "【ASTERIA】首都高バトル最終章！フェラーリF50・GT-R・RX-7ら5台が激突！勝者は誰だ？｜LAST IGNITION",
+      "publishedAt": "2026-11-02T20:26:11+09:00",
+      "url": "https://note.com/1209bellflower/n/ndc82596025e7"
+    },
+    {
+      "title": "【ASTERIA新曲公開】『FIVE GEARS // ONE SKY』｜175BPMの爆速ユーロビート！5つの鼓動が東京の夜を駆け抜ける",
+      "publishedAt": "2026-11-01T20:44:32+09:00",
+      "url": "https://note.com/1209bellflower/n/na599f49197f0"
+    },
+    {
+      "title": "【ASTERIA】MIDNIGHT IGNITION｜限界を超えて、未来へ。疾走するEUROBEATの世界",
+      "publishedAt": "2026-11-01T20:38:37+09:00",
+      "url": "https://note.com/1209bellflower/n/n5df7e0a44647"
+    }
+  ],
+  "scheduled": {
+    "slug": "hontou-no-kotoba",
+    "title": "本当の言葉",
+    "artistSlug": "enomoto-mia",
+    "date": "2026-12-09",
+    "source": "https://www.youtube.com/shorts/R9mPjb7Sm_A",
+    "url": "https://linkco.re/n5FF357g"
+  }
+}
