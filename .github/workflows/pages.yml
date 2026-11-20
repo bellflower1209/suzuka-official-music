@@ -121,6 +121,13 @@ jobs:
           node scripts/test_v6_background_resilience.cjs "${{ runner.temp }}/suzuka-v6-release"
           python3 -B scripts/check_v6_growth_http.py --root "${{ runner.temp }}/suzuka-v6-release"
 
+      - name: Verify current music release
+        run: |
+          python3 -B scripts/build_november_release.py --output "${{ runner.temp }}/november-activity"
+          python3 -B scripts/audit_rich_results.py --root "${{ runner.temp }}/november-activity"
+          python3 -B scripts/validate_sitemap.py --root "${{ runner.temp }}/november-activity"
+          python3 -B scripts/audit_sitemaps.py --root "${{ runner.temp }}/november-activity"
+
       - name: Verify November growth preview (never used for deployment)
         run: |
           python3 -B scripts/build_v6_growth_preview.py --output "${{ runner.temp }}/suzuka-growth-preview"
@@ -155,7 +162,7 @@ jobs:
       - name: Prepare public artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: |
-          python3 -B scripts/verify_public_release.py --output "${{ runner.temp }}/suzuka-v6-release" --stage _site
+          python3 -B scripts/build_november_release.py --output "${{ runner.temp }}/november-activity" --stage _site
           # Add the legacy route after verifying the frozen release package.
           test -f _site/artists/revive/index.html
           test ! -e _site/artists/hoshimiya-hanon/index.html
